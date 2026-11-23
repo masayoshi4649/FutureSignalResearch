@@ -1,0 +1,44 @@
+{
+  "試行": 116,
+  "成功": true,
+  "停止": true,
+  "市場前": true,
+  "Rootレビュー後": true,
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\保管する.py": "0326b9d937238dea248e4ddb2c4bc9250e1d2815e548d45c5453c84e401db128",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\人工検査.py": "9c79da4e68c53ebdc68b6a96746d36d190bb89e85e88fb6ba750abc3dc5aa62e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\gzipを再現する.go": "21f1ba26ff4afd4eba42d01156b6d4b70a92854f81858456ff78ffbbd01e6656",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\gzipを再現する.exe": "a06c854ce4bfe6db22a3329e28a571a56454dfaaf11c90af1e33efc9a4e12c9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\README.md": "aa8ec96daa802f4349c9c30a47bc9025e6b46b656d6b585b959f1076780a6fb4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\検査して停止する.py": "6d07921bca6b691755fa963825efb15380186bda99488f80ea76c753bd13d0f1"
+  },
+  "実Go復元物": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\gzipを再現する.exe",
+    "sha256": "a06c854ce4bfe6db22a3329e28a571a56454dfaaf11c90af1e33efc9a4e12c9c"
+  },
+  "Gosource": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\gzipを再現する.go",
+    "sha256": "21f1ba26ff4afd4eba42d01156b6d4b70a92854f81858456ff78ffbbd01e6656"
+  },
+  "既一場試験": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Native一場の可逆圧縮確認\\最大一場の試験_同場再実行\\一場の圧縮確認.json",
+    "sha256": "6e550abead9975cf51ad913e0d0c5dc3d2dcd19684d76c5529f4c8c73c0eb117"
+  },
+  "Go版指紋証拠": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Native一場の可逆圧縮確認\\実験の実行物と指紋.json",
+    "sha256": "42c67270bb7ad42dbf1ceabce64e1737f3a6689d5dd7695313fc4140f0306ac8"
+  },
+  "compression": {
+    "compression_level": 3,
+    "window_log": 29,
+    "enable_long_distance_matching": 1,
+    "checksum_flag": 1
+  },
+  "人工6主": true,
+  "人工ログ": "test_completion_metadata_without_native_files (__main__.ArchiveTests.test_completion_metadata_without_native_files)\n機能: 同F1/36/840/前後不変のmetadata検査でNativeへstat/openしない。 ... ok\ntest_opaque_bytes_exact_pack (__main__.ArchiveTests.test_opaque_bytes_exact_pack)\n機能: JSONでない全byte値を含む手製payloadでも一回読取/可逆保管できる。 ... ok\ntest_ref_and_success_index_gate (__main__.ArchiveTests.test_ref_and_success_index_gate)\n機能: optional bytes型と不完了索引の復元拒否を検査する。 ... ok\ntest_restorer_fingerprint_and_existing_path (__main__.ArchiveTests.test_restorer_fingerprint_and_existing_path)\n機能: 別exeと既存復元先を実行又は上書きしない。 ... ok\ntest_source_sha_rejected_without_output (__main__.ArchiveTests.test_source_sha_rejected_without_output)\n機能: 元gzip指紋差ではzstdも復元物も作らない。 ... ok\ntest_unfixed_rejected_before_refs (__main__.ArchiveTests.test_unfixed_rejected_before_refs)\n機能: 未固定/未許可を他RefやNativeと出力作成より前に拒否する。 ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.301s\n\nOK\n",
+  "前後不変": true,
+  "自然Native70追加読取": 0,
+  "Raw/CSV/11月09読取": 0,
+  "金融計算/JSON意味解析": false,
+  "既存Native削除/上書き": false
+}

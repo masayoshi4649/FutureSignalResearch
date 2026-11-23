@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "trial": 116,
+  "fixed": true,
+  "native_read_authorized": true,
+  "policy": "native_payload_zstd3_window29_ldm_restore_go1242_v1",
+  "code_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\停止.json",
+    "sha256": "f9a6fe827363a31bdf37b393e532dea3ccd66f389565374654b0ba7e06720d13"
+  },
+  "restorer": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\gzipを再現する.exe",
+    "sha256": "a06c854ce4bfe6db22a3329e28a571a56454dfaaf11c90af1e33efc9a4e12c9c"
+  },
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1_116金融条件.json",
+    "sha256": "4c76a5f7cd8a59962e885cadf6885cfc75cbc590675955cb8e72ae2d0b8bb372"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\完了.json",
+    "sha256": "e9b5c2db15e2968b627b9f38ed1d8b53b9ba294800b96e35839fec4d25f38131"
+  },
+  "compression": {
+    "compression_level": 3,
+    "window_log": 29,
+    "enable_long_distance_matching": 1,
+    "checksum_flag": 1
+  },
+  "output_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\全70場_新規"
+}

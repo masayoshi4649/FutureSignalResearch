@@ -1,0 +1,1790 @@
+{
+  "試行": 116,
+  "成功": true,
+  "記述診断": true,
+  "市場再生": false,
+  "対象Native": {
+    "2026-09-30_Night": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz",
+      "sha256": "81c6256c1fa76d9ccbff097f4c68103df0679fbc69b9912f7372033bc1ad95f2"
+    },
+    "2026-10-26_Night": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz",
+      "sha256": "cd45553485735558dc957a8c9346f334903b59a4ba58f0957812c9feff2bc7ec"
+    }
+  },
+  "上流": {
+    "金融完了": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\完了.json",
+      "sha256": "f41b76f8cc187e7dbd59ba7324ad2b23168de96b1d81378a37861b932be57147"
+    },
+    "独立結果": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\元54場\\結果.json",
+      "sha256": "f5e3c4777dee3ef08030ef5f60f79edd5426699ffdfe02214fc3fc01735de501"
+    },
+    "保存確認": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\元54場\\保存会計の確認.json",
+      "sha256": "0af2eb07920e47308c497023a320c5563411fd978b843a09feb98cdbda15958c"
+    }
+  },
+  "前後不変": true,
+  "Native読取許可は2場だけ": true,
+  "Raw/CSV/11月09/他Native読取": false,
+  "金融条件/閾値変更": false,
+  "研究上の新退出効果推定": false,
+  "全Raw最初性の独立証明ではない": true,
+  "詳細Ref": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116実退出の違いを当時の技法で調べる\\当時値の詳細.json.gz",
+    "sha256": "7f8a89913bc84aa4f18ee30307669c060a971f1da7069bb69dd82dc321a60075",
+    "bytes": 23369
+  },
+  "場別": [
+    {
+      "session": "2026-09-30_Night",
+      "場別純額": {
+        "TR_C0_D0": 13538,
+        "TR_XC_C0_D0": -66462,
+        "TR_XQ_C0_D0": -66462
+      },
+      "同Sourceと実入口の対応": [
+        {
+          "source_method": "NK225_P164_06",
+          "signal_id": "2026-09-30_Night-NK225mini-P164_06-000003",
+          "side": 1,
+          "対応": {
+            "TR_XC_C0_D0": {
+              "Source複合出生一致": true,
+              "実入口全値一致": true,
+              "純額差": -80000
+            },
+            "TR_XQ_C0_D0": {
+              "Source複合出生一致": true,
+              "実入口全値一致": true,
+              "純額差": -80000
+            }
+          },
+          "実取引": {
+            "TR_C0_D0": {
+              "key": "TR_C0_D0",
+              "position_id": "2026-09-30_Night-TR_C0_D0-P000001",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_P164_06",
+                  "signal_id": "2026-09-30_Night-NK225mini-P164_06-000003",
+                  "kind": "initial",
+                  "parent": "core/3",
+                  "source_id": "-選定源-2026-09-30_Night-NK225mini-P05-000003",
+                  "quantity_micro": 50,
+                  "birth_quantity": 5,
+                  "birth_time": 1790768317,
+                  "birth_quote": {
+                    "time": 1790768317,
+                    "index": 44235,
+                    "source_line": 44734,
+                    "last": 67240,
+                    "bid": 67230,
+                    "ask": 67240,
+                    "quote_ok": true
+                  }
+                },
+                "side": 1,
+                "entry_price": 67240,
+                "initial_quantity": 5,
+                "entry_quote": {
+                  "time": 1790768317,
+                  "index": 44236,
+                  "source_line": 44735,
+                  "last": 67240,
+                  "bid": 67230,
+                  "ask": 67240,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-09-30T20:38:37+09:00",
+              "net_yen": 19615,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-09-30_Night-TR_C0_D0-O000002",
+                  "request_quote": {
+                    "time": 1790771344,
+                    "index": 54544,
+                    "source_line": 55043,
+                    "last": 67290,
+                    "bid": 67280,
+                    "ask": 67300,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-09-30T21:29:04+09:00",
+                  "fill_id": "2026-09-30_Night-TR_C0_D0-O000002-F",
+                  "fill_quote": {
+                    "time": 1790771344,
+                    "index": 54545,
+                    "source_line": 55044,
+                    "last": 67290,
+                    "bid": 67280,
+                    "ask": 67300,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-09-30T21:29:04+09:00",
+                  "price": 67280,
+                  "quantity": 5,
+                  "gross_yen": 20000,
+                  "net_yen": 19615,
+                  "role": "Source",
+                  "reason": "source_end/151"
+                }
+              ]
+            },
+            "TR_XC_C0_D0": {
+              "key": "TR_XC_C0_D0",
+              "position_id": "2026-09-30_Night-TR_XC_C0_D0-P000001",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_P164_06",
+                  "signal_id": "2026-09-30_Night-NK225mini-P164_06-000003",
+                  "kind": "initial",
+                  "parent": "core/3",
+                  "source_id": "-選定源-2026-09-30_Night-NK225mini-P05-000003",
+                  "quantity_micro": 50,
+                  "birth_quantity": 5,
+                  "birth_time": 1790768317,
+                  "birth_quote": {
+                    "time": 1790768317,
+                    "index": 44235,
+                    "source_line": 44734,
+                    "last": 67240,
+                    "bid": 67230,
+                    "ask": 67240,
+                    "quote_ok": true
+                  }
+                },
+                "side": 1,
+                "entry_price": 67240,
+                "initial_quantity": 5,
+                "entry_quote": {
+                  "time": 1790768317,
+                  "index": 44236,
+                  "source_line": 44735,
+                  "last": 67240,
+                  "bid": 67230,
+                  "ask": 67240,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-09-30T20:38:37+09:00",
+              "net_yen": -60385,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-09-30_Night-TR_XC_C0_D0-O000002",
+                  "request_quote": {
+                    "time": 1790769090,
+                    "index": 46947,
+                    "source_line": 47446,
+                    "last": 67120,
+                    "bid": 67120,
+                    "ask": 67130,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-09-30T20:51:30+09:00",
+                  "fill_id": "2026-09-30_Night-TR_XC_C0_D0-O000002-F",
+                  "fill_quote": {
+                    "time": 1790769090,
+                    "index": 46948,
+                    "source_line": 47447,
+                    "last": 67130,
+                    "bid": 67120,
+                    "ask": 67130,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-09-30T20:51:30+09:00",
+                  "price": 67120,
+                  "quantity": 5,
+                  "gross_yen": -60000,
+                  "net_yen": -60385,
+                  "role": "life",
+                  "reason": "116突破根拠と順側Histの失効/XC"
+                }
+              ]
+            },
+            "TR_XQ_C0_D0": {
+              "key": "TR_XQ_C0_D0",
+              "position_id": "2026-09-30_Night-TR_XQ_C0_D0-P000001",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_P164_06",
+                  "signal_id": "2026-09-30_Night-NK225mini-P164_06-000003",
+                  "kind": "initial",
+                  "parent": "core/3",
+                  "source_id": "-選定源-2026-09-30_Night-NK225mini-P05-000003",
+                  "quantity_micro": 50,
+                  "birth_quantity": 5,
+                  "birth_time": 1790768317,
+                  "birth_quote": {
+                    "time": 1790768317,
+                    "index": 44235,
+                    "source_line": 44734,
+                    "last": 67240,
+                    "bid": 67230,
+                    "ask": 67240,
+                    "quote_ok": true
+                  }
+                },
+                "side": 1,
+                "entry_price": 67240,
+                "initial_quantity": 5,
+                "entry_quote": {
+                  "time": 1790768317,
+                  "index": 44236,
+                  "source_line": 44735,
+                  "last": 67240,
+                  "bid": 67230,
+                  "ask": 67240,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-09-30T20:38:37+09:00",
+              "net_yen": -60385,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-09-30_Night-TR_XQ_C0_D0-O000002",
+                  "request_quote": {
+                    "time": 1790769090,
+                    "index": 46947,
+                    "source_line": 47446,
+                    "last": 67120,
+                    "bid": 67120,
+                    "ask": 67130,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-09-30T20:51:30+09:00",
+                  "fill_id": "2026-09-30_Night-TR_XQ_C0_D0-O000002-F",
+                  "fill_quote": {
+                    "time": 1790769090,
+                    "index": 46948,
+                    "source_line": 47447,
+                    "last": 67130,
+                    "bid": 67120,
+                    "ask": 67130,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-09-30T20:51:30+09:00",
+                  "price": 67120,
+                  "quantity": 5,
+                  "gross_yen": -60000,
+                  "net_yen": -60385,
+                  "role": "life",
+                  "reason": "116突破根拠と順側Histの失効/XQ"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "source_method": "NK225_U165_03",
+          "signal_id": "2026-09-30_Night-NK225mini-U165_03-000003",
+          "side": 1,
+          "対応": {
+            "TR_XC_C0_D0": {
+              "Source複合出生一致": true,
+              "実入口全値一致": true,
+              "純額差": 0
+            },
+            "TR_XQ_C0_D0": {
+              "Source複合出生一致": true,
+              "実入口全値一致": true,
+              "純額差": 0
+            }
+          },
+          "実取引": {
+            "TR_C0_D0": {
+              "key": "TR_C0_D0",
+              "position_id": "2026-09-30_Night-TR_C0_D0-P000003",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_U165_03",
+                  "signal_id": "2026-09-30_Night-NK225mini-U165_03-000003",
+                  "kind": "source_add",
+                  "parent": "episode/0",
+                  "source_id": "-選定源-2026-09-30_Night-NK225mini-episode-000003",
+                  "quantity_micro": 10,
+                  "birth_quantity": 1,
+                  "birth_time": 1790777025,
+                  "birth_quote": {
+                    "time": 1790777025,
+                    "index": 86552,
+                    "source_line": 87051,
+                    "last": 67680,
+                    "bid": 67680,
+                    "ask": 67690,
+                    "quote_ok": true
+                  }
+                },
+                "side": 1,
+                "entry_price": 67690,
+                "initial_quantity": 1,
+                "entry_quote": {
+                  "time": 1790777025,
+                  "index": 86553,
+                  "source_line": 87052,
+                  "last": 67680,
+                  "bid": 67680,
+                  "ask": 67690,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-09-30T23:03:45+09:00",
+              "net_yen": -6077,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-09-30_Night-TR_C0_D0-O000004",
+                  "request_quote": {
+                    "time": 1790778173,
+                    "index": 93206,
+                    "source_line": 93705,
+                    "last": 67650,
+                    "bid": 67630,
+                    "ask": 67650,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-09-30T23:22:53+09:00",
+                  "fill_id": "2026-09-30_Night-TR_C0_D0-O000004-F",
+                  "fill_quote": {
+                    "time": 1790778173,
+                    "index": 93207,
+                    "source_line": 93706,
+                    "last": 67650,
+                    "bid": 67630,
+                    "ask": 67650,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-09-30T23:22:53+09:00",
+                  "price": 67630,
+                  "quantity": 1,
+                  "gross_yen": -6000,
+                  "net_yen": -6077,
+                  "role": "Source",
+                  "reason": "source_end/70"
+                }
+              ]
+            },
+            "TR_XC_C0_D0": {
+              "key": "TR_XC_C0_D0",
+              "position_id": "2026-09-30_Night-TR_XC_C0_D0-P000003",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_U165_03",
+                  "signal_id": "2026-09-30_Night-NK225mini-U165_03-000003",
+                  "kind": "source_add",
+                  "parent": "episode/0",
+                  "source_id": "-選定源-2026-09-30_Night-NK225mini-episode-000003",
+                  "quantity_micro": 10,
+                  "birth_quantity": 1,
+                  "birth_time": 1790777025,
+                  "birth_quote": {
+                    "time": 1790777025,
+                    "index": 86552,
+                    "source_line": 87051,
+                    "last": 67680,
+                    "bid": 67680,
+                    "ask": 67690,
+                    "quote_ok": true
+                  }
+                },
+                "side": 1,
+                "entry_price": 67690,
+                "initial_quantity": 1,
+                "entry_quote": {
+                  "time": 1790777025,
+                  "index": 86553,
+                  "source_line": 87052,
+                  "last": 67680,
+                  "bid": 67680,
+                  "ask": 67690,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-09-30T23:03:45+09:00",
+              "net_yen": -6077,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-09-30_Night-TR_XC_C0_D0-O000004",
+                  "request_quote": {
+                    "time": 1790778173,
+                    "index": 93206,
+                    "source_line": 93705,
+                    "last": 67650,
+                    "bid": 67630,
+                    "ask": 67650,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-09-30T23:22:53+09:00",
+                  "fill_id": "2026-09-30_Night-TR_XC_C0_D0-O000004-F",
+                  "fill_quote": {
+                    "time": 1790778173,
+                    "index": 93207,
+                    "source_line": 93706,
+                    "last": 67650,
+                    "bid": 67630,
+                    "ask": 67650,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-09-30T23:22:53+09:00",
+                  "price": 67630,
+                  "quantity": 1,
+                  "gross_yen": -6000,
+                  "net_yen": -6077,
+                  "role": "Source",
+                  "reason": "source_end/70"
+                }
+              ]
+            },
+            "TR_XQ_C0_D0": {
+              "key": "TR_XQ_C0_D0",
+              "position_id": "2026-09-30_Night-TR_XQ_C0_D0-P000003",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_U165_03",
+                  "signal_id": "2026-09-30_Night-NK225mini-U165_03-000003",
+                  "kind": "source_add",
+                  "parent": "episode/0",
+                  "source_id": "-選定源-2026-09-30_Night-NK225mini-episode-000003",
+                  "quantity_micro": 10,
+                  "birth_quantity": 1,
+                  "birth_time": 1790777025,
+                  "birth_quote": {
+                    "time": 1790777025,
+                    "index": 86552,
+                    "source_line": 87051,
+                    "last": 67680,
+                    "bid": 67680,
+                    "ask": 67690,
+                    "quote_ok": true
+                  }
+                },
+                "side": 1,
+                "entry_price": 67690,
+                "initial_quantity": 1,
+                "entry_quote": {
+                  "time": 1790777025,
+                  "index": 86553,
+                  "source_line": 87052,
+                  "last": 67680,
+                  "bid": 67680,
+                  "ask": 67690,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-09-30T23:03:45+09:00",
+              "net_yen": -6077,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-09-30_Night-TR_XQ_C0_D0-O000004",
+                  "request_quote": {
+                    "time": 1790778173,
+                    "index": 93206,
+                    "source_line": 93705,
+                    "last": 67650,
+                    "bid": 67630,
+                    "ask": 67650,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-09-30T23:22:53+09:00",
+                  "fill_id": "2026-09-30_Night-TR_XQ_C0_D0-O000004-F",
+                  "fill_quote": {
+                    "time": 1790778173,
+                    "index": 93207,
+                    "source_line": 93706,
+                    "last": 67650,
+                    "bid": 67630,
+                    "ask": 67650,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-09-30T23:22:53+09:00",
+                  "price": 67630,
+                  "quantity": 1,
+                  "gross_yen": -6000,
+                  "net_yen": -6077,
+                  "role": "Source",
+                  "reason": "source_end/70"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "当時の要点": [
+        {
+          "key": "TR_XC_C0_D0",
+          "入口分類": "T",
+          "固定境界": 67200,
+          "出生値": {
+            "g30": 272.9229427599639,
+            "d15": 2.2236528670533247,
+            "adx15": 30.69311736970774,
+            "boundary": 67200,
+            "five_close": 67230,
+            "close_break": 30,
+            "last_break": 40,
+            "tr5": 70,
+            "previous_atr5": 68.134531925355,
+            "spike_margin": 66.26906385071001,
+            "previous_d15": 4.642531020260243,
+            "adx15_delta": -2.017485560331867
+          },
+          "取得JST": "2026-09-30T20:38:37+09:00",
+          "初armJST": "2026-09-30T20:41:00+09:00",
+          "初失効JST": "2026-09-30T20:51:30+09:00",
+          "初失効Quote": {
+            "time": 1790769090,
+            "index": 46947,
+            "source_line": 47446,
+            "last": 67120,
+            "bid": 67120,
+            "ask": 67130,
+            "quote_ok": true
+          },
+          "life条件票": {
+            "boundary": 67200,
+            "five_close": 67110,
+            "signed_close": -90,
+            "signed_histogram": -0.7391216987866152,
+            "signed_di15": 5.150284634989433,
+            "g30": 272.9229427599639,
+            "return_BBO": 67120,
+            "signed_return_BBO": -80
+          },
+          "正常BBO": true,
+          "実残": 5,
+          "既予約": 0,
+          "失効時5分": {
+            "bar_end_JST": "2026-09-30T20:50:00+09:00",
+            "published_JST": "2026-09-30T20:51:30+09:00",
+            "配送遅れ秒_足Endから": 90,
+            "ohlc": {
+              "open": 67170,
+              "high": 67180,
+              "low": 67100,
+              "close": 67110
+            },
+            "technical": {
+              "ema8": 67166.93108462408,
+              "ema21": 67182.38254651017,
+              "ema8_delta": -16.26602417830145,
+              "ema21_delta": -7.238254651019815,
+              "gap": -15.451461886084871,
+              "atr": 68.09559470845649,
+              "previous_atr": 67.1798712244916,
+              "tr": 80,
+              "rsi": 43.55819549072785,
+              "previous_rsi": 48.935448077818805,
+              "histogram": -0.7391216987866152,
+              "previous_histogram": 4.171913453086024
+            },
+            "side_signed": {
+              "ema8_delta": -16.26602417830145,
+              "ema21_delta": -7.238254651019815,
+              "gap": -15.451461886084871,
+              "histogram": -0.7391216987866152,
+              "hist_delta": -4.911035151872639,
+              "di": -6.312228162445588,
+              "close_ema8": -56.93108462408,
+              "close_ema21": -72.38254651017
+            },
+            "出生固定境界との差": -90,
+            "直前3本反対端との差": -50,
+            "volume": 192,
+            "volume_直前3本中央値比": 2.704225352112676
+          },
+          "失効時15分": {
+            "bar_end_JST": "2026-09-30T20:45:00+09:00",
+            "published_JST": "2026-09-30T20:46:01+09:00",
+            "technical": {
+              "ema8": 67183.23977455382,
+              "ema21": 67115.46144865472,
+              "ema8_delta": -0.9256498725153506,
+              "ema21_delta": 6.453855134532205,
+              "gap": 67.77832589909667,
+              "atr": 141.01132153537395,
+              "previous_atr": 144.16603857655656,
+              "tr": 100,
+              "rsi": 56.32232977171958,
+              "previous_rsi": 56.86937760062559,
+              "histogram": -38.306883255411606,
+              "previous_histogram": -39.37481074749169
+            },
+            "dmi": {
+              "plus_di": 27.730099514643967,
+              "minus_di": 22.579814879654535,
+              "adx": 29.231974462850967,
+              "previous_plus_di": 26.008265312222097,
+              "previous_minus_di": 23.784612445168772,
+              "previous_adx": 30.69311736970774
+            },
+            "side_signed": {
+              "ema8_delta": -0.9256498725153506,
+              "ema21_delta": 6.453855134532205,
+              "gap": 67.77832589909667,
+              "histogram": -38.306883255411606,
+              "hist_delta": 1.067927492080084,
+              "di": 5.150284634989432,
+              "close_ema8": -3.23977455382,
+              "close_ema21": 64.53855134528
+            }
+          },
+          "失効時30分": {
+            "bar_end_JST": "2026-09-30T20:30:00+09:00",
+            "published_JST": "2026-09-30T20:31:10+09:00",
+            "technical": {
+              "ema8": 67163.22748541982,
+              "ema21": 66890.30454265985,
+              "ema8_delta": 7.649289880049764,
+              "ema21_delta": 29.96954573401308,
+              "gap": 272.9229427599639,
+              "atr": 212.31610175316496,
+              "previous_atr": 209.41734034956227,
+              "tr": 250,
+              "rsi": 65.55425947931201,
+              "previous_rsi": 67.44380620279058,
+              "histogram": -1.06889920040868,
+              "previous_histogram": 11.003827333195431
+            },
+            "dmi": {
+              "plus_di": 33.807428464557525,
+              "minus_di": 17.183169608900666,
+              "adx": 41.983207099886876,
+              "previous_plus_di": 36.913221529275624,
+              "previous_minus_di": 13.249708209394964,
+              "previous_adx": 42.70479254379756
+            },
+            "side_signed": {
+              "ema8_delta": 7.649289880049764,
+              "ema21_delta": 29.96954573401308,
+              "gap": 272.9229427599639,
+              "histogram": -1.06889920040868,
+              "hist_delta": -12.072726533604111,
+              "di": 16.62425885565686,
+              "close_ema8": 26.77251458018,
+              "close_ema21": 299.69545734015
+            }
+          },
+          "取得後の新確認pivot": [
+            {
+              "役割": "new_high",
+              "公表stamp": {
+                "time": 1790769090,
+                "index": 46947,
+                "source_line": 47446
+              },
+              "kind": "high",
+              "price": 67260,
+              "center_start": 1790768100,
+              "center_end": 1790768400,
+              "confirm_end": 1790769000,
+              "published_at": 1790769090,
+              "center_start_JST": "2026-09-30T20:35:00+09:00",
+              "center_end_JST": "2026-09-30T20:40:00+09:00",
+              "published_JST": "2026-09-30T20:51:30+09:00",
+              "形成足が完全に取得後": false,
+              "形成足が取得を跨ぐ": true,
+              "確認公表は取得後": true
+            }
+          ],
+          "3分診断": {
+            "c": 1,
+            "m": 2,
+            "P": {
+              "known": true,
+              "passed": false
+            },
+            "prior_pivot": {
+              "scope": {
+                "session": "2026-09-30_Night",
+                "contract": "161120018",
+                "start": 1790755200
+              },
+              "id": "[\"2026-09-30_Night\",\"161120018\",1790767260.0]",
+              "kind": "low",
+              "price": 67010,
+              "center_start": 1790767080,
+              "center_end": 1790767260,
+              "confirm_end": 1790767620,
+              "published_at": 1790767620
+            },
+            "v_値幅中央値": 40,
+            "BB": {
+              "scope": {
+                "session": "2026-09-30_Night",
+                "contract": "161120018",
+                "start": 1790755200
+              },
+              "id": "[\"2026-09-30_Night\",\"161120018\",1790769060.0]",
+              "ordinal": 77,
+              "end": 1790769060,
+              "available_at": 1790769060,
+              "delivered_at": 1790769090,
+              "known": true,
+              "window_bars": 20,
+              "sma": 67165,
+              "sigma": 74.06078584514209,
+              "upper": 67313.12157169028,
+              "lower": 67016.87842830972,
+              "width": 296.24314338056837,
+              "band_width": 0.004410677337609891,
+              "percent_b": 0.28058563901848244,
+              "contraction": 2,
+              "window_sha256": "ba8101e7ad5f91f8ea668e3854bc6bd0321d29674c1eb754b28552f2fa170eb1",
+              "reset_reason": ""
+            },
+            "BB最後3幅": [
+              320.3185914054943,
+              306.04574821421716,
+              296.24314338056837
+            ]
+          },
+          "Source取得時ATR": 70.9369438777989,
+          "H100全玉円閾値": 50000,
+          "失効までの保存W最大": {
+            "quote": {
+              "time": 1790768357,
+              "index": 44343,
+              "source_line": 44842,
+              "last": 67250,
+              "bid": 67250,
+              "ask": 67260,
+              "quote_ok": true
+            },
+            "phase": "pre_fill",
+            "quantity": 5,
+            "reserved": 0,
+            "mark_price": 67250,
+            "gain_points": 10,
+            "unit_net": 923,
+            "realized_net": 0,
+            "whole_net": 4615
+          }
+        },
+        {
+          "key": "TR_XQ_C0_D0",
+          "入口分類": "T",
+          "固定境界": 67200,
+          "出生値": {
+            "g30": 272.9229427599639,
+            "d15": 2.2236528670533247,
+            "adx15": 30.69311736970774,
+            "boundary": 67200,
+            "five_close": 67230,
+            "close_break": 30,
+            "last_break": 40,
+            "tr5": 70,
+            "previous_atr5": 68.134531925355,
+            "spike_margin": 66.26906385071001,
+            "previous_d15": 4.642531020260243,
+            "adx15_delta": -2.017485560331867
+          },
+          "取得JST": "2026-09-30T20:38:37+09:00",
+          "初armJST": "2026-09-30T20:41:00+09:00",
+          "初失効JST": "2026-09-30T20:51:30+09:00",
+          "初失効Quote": {
+            "time": 1790769090,
+            "index": 46947,
+            "source_line": 47446,
+            "last": 67120,
+            "bid": 67120,
+            "ask": 67130,
+            "quote_ok": true
+          },
+          "life条件票": {
+            "boundary": 67200,
+            "five_close": 67110,
+            "signed_close": -90,
+            "signed_histogram": -0.7391216987866152,
+            "signed_di15": 5.150284634989433,
+            "g30": 272.9229427599639,
+            "return_BBO": 67120,
+            "signed_return_BBO": -80
+          },
+          "正常BBO": true,
+          "実残": 5,
+          "既予約": 0,
+          "失効時5分": {
+            "bar_end_JST": "2026-09-30T20:50:00+09:00",
+            "published_JST": "2026-09-30T20:51:30+09:00",
+            "配送遅れ秒_足Endから": 90,
+            "ohlc": {
+              "open": 67170,
+              "high": 67180,
+              "low": 67100,
+              "close": 67110
+            },
+            "technical": {
+              "ema8": 67166.93108462408,
+              "ema21": 67182.38254651017,
+              "ema8_delta": -16.26602417830145,
+              "ema21_delta": -7.238254651019815,
+              "gap": -15.451461886084871,
+              "atr": 68.09559470845649,
+              "previous_atr": 67.1798712244916,
+              "tr": 80,
+              "rsi": 43.55819549072785,
+              "previous_rsi": 48.935448077818805,
+              "histogram": -0.7391216987866152,
+              "previous_histogram": 4.171913453086024
+            },
+            "side_signed": {
+              "ema8_delta": -16.26602417830145,
+              "ema21_delta": -7.238254651019815,
+              "gap": -15.451461886084871,
+              "histogram": -0.7391216987866152,
+              "hist_delta": -4.911035151872639,
+              "di": -6.312228162445588,
+              "close_ema8": -56.93108462408,
+              "close_ema21": -72.38254651017
+            },
+            "出生固定境界との差": -90,
+            "直前3本反対端との差": -50,
+            "volume": 192,
+            "volume_直前3本中央値比": 2.704225352112676
+          },
+          "失効時15分": {
+            "bar_end_JST": "2026-09-30T20:45:00+09:00",
+            "published_JST": "2026-09-30T20:46:01+09:00",
+            "technical": {
+              "ema8": 67183.23977455382,
+              "ema21": 67115.46144865472,
+              "ema8_delta": -0.9256498725153506,
+              "ema21_delta": 6.453855134532205,
+              "gap": 67.77832589909667,
+              "atr": 141.01132153537395,
+              "previous_atr": 144.16603857655656,
+              "tr": 100,
+              "rsi": 56.32232977171958,
+              "previous_rsi": 56.86937760062559,
+              "histogram": -38.306883255411606,
+              "previous_histogram": -39.37481074749169
+            },
+            "dmi": {
+              "plus_di": 27.730099514643967,
+              "minus_di": 22.579814879654535,
+              "adx": 29.231974462850967,
+              "previous_plus_di": 26.008265312222097,
+              "previous_minus_di": 23.784612445168772,
+              "previous_adx": 30.69311736970774
+            },
+            "side_signed": {
+              "ema8_delta": -0.9256498725153506,
+              "ema21_delta": 6.453855134532205,
+              "gap": 67.77832589909667,
+              "histogram": -38.306883255411606,
+              "hist_delta": 1.067927492080084,
+              "di": 5.150284634989432,
+              "close_ema8": -3.23977455382,
+              "close_ema21": 64.53855134528
+            }
+          },
+          "失効時30分": {
+            "bar_end_JST": "2026-09-30T20:30:00+09:00",
+            "published_JST": "2026-09-30T20:31:10+09:00",
+            "technical": {
+              "ema8": 67163.22748541982,
+              "ema21": 66890.30454265985,
+              "ema8_delta": 7.649289880049764,
+              "ema21_delta": 29.96954573401308,
+              "gap": 272.9229427599639,
+              "atr": 212.31610175316496,
+              "previous_atr": 209.41734034956227,
+              "tr": 250,
+              "rsi": 65.55425947931201,
+              "previous_rsi": 67.44380620279058,
+              "histogram": -1.06889920040868,
+              "previous_histogram": 11.003827333195431
+            },
+            "dmi": {
+              "plus_di": 33.807428464557525,
+              "minus_di": 17.183169608900666,
+              "adx": 41.983207099886876,
+              "previous_plus_di": 36.913221529275624,
+              "previous_minus_di": 13.249708209394964,
+              "previous_adx": 42.70479254379756
+            },
+            "side_signed": {
+              "ema8_delta": 7.649289880049764,
+              "ema21_delta": 29.96954573401308,
+              "gap": 272.9229427599639,
+              "histogram": -1.06889920040868,
+              "hist_delta": -12.072726533604111,
+              "di": 16.62425885565686,
+              "close_ema8": 26.77251458018,
+              "close_ema21": 299.69545734015
+            }
+          },
+          "取得後の新確認pivot": [
+            {
+              "役割": "new_high",
+              "公表stamp": {
+                "time": 1790769090,
+                "index": 46947,
+                "source_line": 47446
+              },
+              "kind": "high",
+              "price": 67260,
+              "center_start": 1790768100,
+              "center_end": 1790768400,
+              "confirm_end": 1790769000,
+              "published_at": 1790769090,
+              "center_start_JST": "2026-09-30T20:35:00+09:00",
+              "center_end_JST": "2026-09-30T20:40:00+09:00",
+              "published_JST": "2026-09-30T20:51:30+09:00",
+              "形成足が完全に取得後": false,
+              "形成足が取得を跨ぐ": true,
+              "確認公表は取得後": true
+            }
+          ],
+          "3分診断": {
+            "c": 1,
+            "m": 2,
+            "P": {
+              "known": true,
+              "passed": false
+            },
+            "prior_pivot": {
+              "scope": {
+                "session": "2026-09-30_Night",
+                "contract": "161120018",
+                "start": 1790755200
+              },
+              "id": "[\"2026-09-30_Night\",\"161120018\",1790767260.0]",
+              "kind": "low",
+              "price": 67010,
+              "center_start": 1790767080,
+              "center_end": 1790767260,
+              "confirm_end": 1790767620,
+              "published_at": 1790767620
+            },
+            "v_値幅中央値": 40,
+            "BB": {
+              "scope": {
+                "session": "2026-09-30_Night",
+                "contract": "161120018",
+                "start": 1790755200
+              },
+              "id": "[\"2026-09-30_Night\",\"161120018\",1790769060.0]",
+              "ordinal": 77,
+              "end": 1790769060,
+              "available_at": 1790769060,
+              "delivered_at": 1790769090,
+              "known": true,
+              "window_bars": 20,
+              "sma": 67165,
+              "sigma": 74.06078584514209,
+              "upper": 67313.12157169028,
+              "lower": 67016.87842830972,
+              "width": 296.24314338056837,
+              "band_width": 0.004410677337609891,
+              "percent_b": 0.28058563901848244,
+              "contraction": 2,
+              "window_sha256": "ba8101e7ad5f91f8ea668e3854bc6bd0321d29674c1eb754b28552f2fa170eb1",
+              "reset_reason": ""
+            },
+            "BB最後3幅": [
+              320.3185914054943,
+              306.04574821421716,
+              296.24314338056837
+            ]
+          },
+          "Source取得時ATR": 70.9369438777989,
+          "H100全玉円閾値": 50000,
+          "失効までの保存W最大": {
+            "quote": {
+              "time": 1790768357,
+              "index": 44343,
+              "source_line": 44842,
+              "last": 67250,
+              "bid": 67250,
+              "ask": 67260,
+              "quote_ok": true
+            },
+            "phase": "pre_fill",
+            "quantity": 5,
+            "reserved": 0,
+            "mark_price": 67250,
+            "gain_points": 10,
+            "unit_net": 923,
+            "realized_net": 0,
+            "whole_net": 4615
+          }
+        }
+      ]
+    },
+    {
+      "session": "2026-10-26_Night",
+      "場別純額": {
+        "TR_C0_D0": -18154,
+        "TR_XC_C0_D0": -10154,
+        "TR_XQ_C0_D0": -12154
+      },
+      "同Sourceと実入口の対応": [
+        {
+          "source_method": "NK225_U165_03",
+          "signal_id": "2026-10-26_Night-NK225mini-U165_03-000021",
+          "side": -1,
+          "対応": {
+            "TR_XC_C0_D0": {
+              "Source複合出生一致": true,
+              "実入口全値一致": true,
+              "純額差": 8000
+            },
+            "TR_XQ_C0_D0": {
+              "Source複合出生一致": true,
+              "実入口全値一致": true,
+              "純額差": 6000
+            }
+          },
+          "実取引": {
+            "TR_C0_D0": {
+              "key": "TR_C0_D0",
+              "position_id": "2026-10-26_Night-TR_C0_D0-P000001",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_U165_03",
+                  "signal_id": "2026-10-26_Night-NK225mini-U165_03-000021",
+                  "kind": "initial",
+                  "parent": "addon/3",
+                  "source_id": "-選定源-2026-10-26_Night-NK225mini-addon-000021",
+                  "quantity_micro": 20,
+                  "birth_quantity": 2,
+                  "birth_time": 1793044647,
+                  "birth_quote": {
+                    "time": 1793044647,
+                    "index": 191075,
+                    "source_line": 191773,
+                    "last": 62820,
+                    "bid": 62820,
+                    "ask": 62830,
+                    "quote_ok": true
+                  }
+                },
+                "side": -1,
+                "entry_price": 62810,
+                "initial_quantity": 2,
+                "entry_quote": {
+                  "time": 1793044647,
+                  "index": 191076,
+                  "source_line": 191774,
+                  "last": 62820,
+                  "bid": 62810,
+                  "ask": 62830,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-10-27T04:57:27+09:00",
+              "net_yen": -18154,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-10-26_Night-TR_C0_D0-O000002",
+                  "request_quote": {
+                    "time": 1793047795,
+                    "index": 195548,
+                    "source_line": 196246,
+                    "last": 62890,
+                    "bid": 62890,
+                    "ask": 62900,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-10-27T05:49:55+09:00",
+                  "fill_id": "2026-10-26_Night-TR_C0_D0-O000002-F",
+                  "fill_quote": {
+                    "time": 1793047795,
+                    "index": 195549,
+                    "source_line": 196247,
+                    "last": 62890,
+                    "bid": 62890,
+                    "ask": 62900,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-10-27T05:49:55+09:00",
+                  "price": 62900,
+                  "quantity": 2,
+                  "gross_yen": -18000,
+                  "net_yen": -18154,
+                  "role": "Source",
+                  "reason": "source_end/32"
+                }
+              ]
+            },
+            "TR_XC_C0_D0": {
+              "key": "TR_XC_C0_D0",
+              "position_id": "2026-10-26_Night-TR_XC_C0_D0-P000001",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_U165_03",
+                  "signal_id": "2026-10-26_Night-NK225mini-U165_03-000021",
+                  "kind": "initial",
+                  "parent": "addon/3",
+                  "source_id": "-選定源-2026-10-26_Night-NK225mini-addon-000021",
+                  "quantity_micro": 20,
+                  "birth_quantity": 2,
+                  "birth_time": 1793044647,
+                  "birth_quote": {
+                    "time": 1793044647,
+                    "index": 191075,
+                    "source_line": 191773,
+                    "last": 62820,
+                    "bid": 62820,
+                    "ask": 62830,
+                    "quote_ok": true
+                  }
+                },
+                "side": -1,
+                "entry_price": 62810,
+                "initial_quantity": 2,
+                "entry_quote": {
+                  "time": 1793044647,
+                  "index": 191076,
+                  "source_line": 191774,
+                  "last": 62820,
+                  "bid": 62810,
+                  "ask": 62830,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-10-27T04:57:27+09:00",
+              "net_yen": -10154,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-10-26_Night-TR_XC_C0_D0-O000002",
+                  "request_quote": {
+                    "time": 1793047061,
+                    "index": 194766,
+                    "source_line": 195464,
+                    "last": 62850,
+                    "bid": 62840,
+                    "ask": 62860,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-10-27T05:37:41+09:00",
+                  "fill_id": "2026-10-26_Night-TR_XC_C0_D0-O000002-F",
+                  "fill_quote": {
+                    "time": 1793047061,
+                    "index": 194767,
+                    "source_line": 195465,
+                    "last": 62850,
+                    "bid": 62840,
+                    "ask": 62860,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-10-27T05:37:41+09:00",
+                  "price": 62860,
+                  "quantity": 2,
+                  "gross_yen": -10000,
+                  "net_yen": -10154,
+                  "role": "life",
+                  "reason": "116突破根拠と順側Histの失効/XC"
+                }
+              ]
+            },
+            "TR_XQ_C0_D0": {
+              "key": "TR_XQ_C0_D0",
+              "position_id": "2026-10-26_Night-TR_XQ_C0_D0-P000001",
+              "entry_identity": {
+                "product": "NK225mini",
+                "source": {
+                  "method": "NK225_U165_03",
+                  "signal_id": "2026-10-26_Night-NK225mini-U165_03-000021",
+                  "kind": "initial",
+                  "parent": "addon/3",
+                  "source_id": "-選定源-2026-10-26_Night-NK225mini-addon-000021",
+                  "quantity_micro": 20,
+                  "birth_quantity": 2,
+                  "birth_time": 1793044647,
+                  "birth_quote": {
+                    "time": 1793044647,
+                    "index": 191075,
+                    "source_line": 191773,
+                    "last": 62820,
+                    "bid": 62820,
+                    "ask": 62830,
+                    "quote_ok": true
+                  }
+                },
+                "side": -1,
+                "entry_price": 62810,
+                "initial_quantity": 2,
+                "entry_quote": {
+                  "time": 1793044647,
+                  "index": 191076,
+                  "source_line": 191774,
+                  "last": 62820,
+                  "bid": 62810,
+                  "ask": 62830,
+                  "quote_ok": true
+                }
+              },
+              "entry_JST": "2026-10-27T04:57:27+09:00",
+              "net_yen": -12154,
+              "P100_active": false,
+              "activation": null,
+              "exits": [
+                {
+                  "order_id": "2026-10-26_Night-TR_XQ_C0_D0-O000002",
+                  "request_quote": {
+                    "time": 1793047061,
+                    "index": 194787,
+                    "source_line": 195485,
+                    "last": 62850,
+                    "bid": 62850,
+                    "ask": 62870,
+                    "quote_ok": true
+                  },
+                  "request_JST": "2026-10-27T05:37:41+09:00",
+                  "fill_id": "2026-10-26_Night-TR_XQ_C0_D0-O000002-F",
+                  "fill_quote": {
+                    "time": 1793047061,
+                    "index": 194788,
+                    "source_line": 195486,
+                    "last": 62850,
+                    "bid": 62850,
+                    "ask": 62870,
+                    "quote_ok": true
+                  },
+                  "fill_JST": "2026-10-27T05:37:41+09:00",
+                  "price": 62870,
+                  "quantity": 2,
+                  "gross_yen": -12000,
+                  "net_yen": -12154,
+                  "role": "life",
+                  "reason": "116突破根拠と順側Histの失効/XQ"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "当時の要点": [
+        {
+          "key": "TR_XC_C0_D0",
+          "入口分類": "R",
+          "固定境界": 62860,
+          "出生値": {
+            "g30": -79.47897259169986,
+            "d15": 10.563829076972368,
+            "adx15": 14.203630265365314,
+            "boundary": 62860,
+            "five_close": 62830,
+            "close_break": 30,
+            "last_break": 40,
+            "tr5": 60,
+            "previous_atr5": 50.077812681949915,
+            "spike_margin": 40.15562536389983,
+            "previous_d15": 8.232908860116627,
+            "adx15_delta": 0.5738752558522542
+          },
+          "取得JST": "2026-10-27T04:57:27+09:00",
+          "初armJST": "2026-10-27T04:57:27+09:00",
+          "初失効JST": "2026-10-27T05:37:41+09:00",
+          "初失効Quote": {
+            "time": 1793047061,
+            "index": 194766,
+            "source_line": 195464,
+            "last": 62850,
+            "bid": 62840,
+            "ask": 62860,
+            "quote_ok": true
+          },
+          "life条件票": {
+            "boundary": 62860,
+            "five_close": 62870,
+            "signed_close": -10,
+            "signed_histogram": -2.8463568995272226,
+            "signed_di15": 11.97814142526865,
+            "g30": -39.6026718131252,
+            "return_BBO": 62860,
+            "signed_return_BBO": 0
+          },
+          "正常BBO": true,
+          "実残": 2,
+          "既予約": 0,
+          "失効時5分": {
+            "bar_end_JST": "2026-10-27T05:35:00+09:00",
+            "published_JST": "2026-10-27T05:37:41+09:00",
+            "配送遅れ秒_足Endから": 161,
+            "ohlc": {
+              "open": 62860,
+              "high": 62870,
+              "low": 62860,
+              "close": 62870
+            },
+            "technical": {
+              "ema8": 62854.43747683269,
+              "ema21": 62888.730200592436,
+              "ema8_delta": 4.446435190657212,
+              "ema21_delta": -1.8730200592472102,
+              "gap": -34.29272375974688,
+              "atr": 39.85268232317213,
+              "previous_atr": 42.14904250187768,
+              "tr": 10,
+              "rsi": 43.253656179495266,
+              "previous_rsi": 41.072119259057885,
+              "histogram": 2.8463568995272226,
+              "previous_histogram": -0.23487144241855162
+            },
+            "side_signed": {
+              "ema8_delta": -4.446435190657212,
+              "ema21_delta": 1.8730200592472102,
+              "gap": 34.29272375974688,
+              "histogram": -2.8463568995272226,
+              "hist_delta": -3.081228341945774,
+              "di": 9.395410974684465,
+              "close_ema8": -15.56252316731,
+              "close_ema21": 18.730200592436
+            },
+            "出生固定境界との差": -10,
+            "直前3本反対端との差": -10,
+            "volume": 3,
+            "volume_直前3本中央値比": 0.3
+          },
+          "失効時15分": {
+            "bar_end_JST": "2026-10-27T05:30:00+09:00",
+            "published_JST": "2026-10-27T05:31:01+09:00",
+            "technical": {
+              "ema8": 62897.83402852983,
+              "ema21": 62933.66082355573,
+              "ema8_delta": -10.809722437094024,
+              "ema21_delta": -7.366082355569233,
+              "gap": -35.82679502589599,
+              "atr": 113.45226849849571,
+              "previous_atr": 119.10244299838,
+              "tr": 40,
+              "rsi": 45.76104267232737,
+              "previous_rsi": 43.05346424516975,
+              "histogram": -31.727419223614824,
+              "previous_histogram": -34.03658045297412
+            },
+            "dmi": {
+              "plus_di": 18.170575160091314,
+              "minus_di": 30.148716585359963,
+              "adx": 16.628198940618923,
+              "previous_plus_di": 17.348285630616754,
+              "previous_minus_di": 30.927586266478237,
+              "previous_adx": 16.000401680307625
+            },
+            "side_signed": {
+              "ema8_delta": 10.809722437094024,
+              "ema21_delta": 7.366082355569233,
+              "gap": 35.82679502589599,
+              "histogram": 31.727419223614824,
+              "hist_delta": -2.309161229359296,
+              "di": 11.97814142526865,
+              "close_ema8": 37.83402852983,
+              "close_ema21": 73.66082355573
+            }
+          },
+          "失効時30分": {
+            "bar_end_JST": "2026-10-27T05:30:00+09:00",
+            "published_JST": "2026-10-27T05:31:01+09:00",
+            "technical": {
+              "ema8": 62927.03948619036,
+              "ema21": 62887.43681437724,
+              "ema8_delta": -19.154138911530026,
+              "ema21_delta": -2.743681437721534,
+              "gap": 39.6026718131252,
+              "atr": 196.0856649453885,
+              "previous_atr": 205.7845622488799,
+              "tr": 70,
+              "rsi": 50.05542736553846,
+              "previous_rsi": 49.63364261218049,
+              "histogram": -23.41052670138093,
+              "previous_histogram": -17.492172588169595
+            },
+            "dmi": {
+              "plus_di": 16.72974584913139,
+              "minus_di": 28.115176485859482,
+              "adx": 12.732993203072633,
+              "previous_plus_di": 17.167502473115988,
+              "previous_minus_di": 28.103238027590855,
+              "previous_adx": 11.759496534590236
+            },
+            "side_signed": {
+              "ema8_delta": 19.154138911530026,
+              "ema21_delta": 2.743681437721534,
+              "gap": -39.6026718131252,
+              "histogram": 23.41052670138093,
+              "hist_delta": 5.918354113211335,
+              "di": 11.385430636728092,
+              "close_ema8": 67.03948619036,
+              "close_ema21": 27.43681437724
+            }
+          },
+          "取得後の新確認pivot": [
+            {
+              "役割": "new_low",
+              "公表stamp": {
+                "time": 1793045811,
+                "index": 193444,
+                "source_line": 194142
+              },
+              "kind": "low",
+              "price": 62790,
+              "center_start": 1793044800,
+              "center_end": 1793045100,
+              "confirm_end": 1793045700,
+              "published_at": 1793045811,
+              "center_start_JST": "2026-10-27T05:00:00+09:00",
+              "center_end_JST": "2026-10-27T05:05:00+09:00",
+              "published_JST": "2026-10-27T05:16:51+09:00",
+              "形成足が完全に取得後": true,
+              "形成足が取得を跨ぐ": false,
+              "確認公表は取得後": true
+            }
+          ],
+          "3分診断": {
+            "c": 2,
+            "m": 2,
+            "P": {
+              "known": true,
+              "passed": false
+            },
+            "prior_pivot": {
+              "scope": {
+                "session": "2026-10-26_Night",
+                "contract": "161120018",
+                "start": 1793001600
+              },
+              "id": "[\"2026-10-26_Night\",\"161120018\",1793043540.0]",
+              "kind": "high",
+              "price": 62970,
+              "center_start": 1793043360,
+              "center_end": 1793043540,
+              "confirm_end": 1793043900,
+              "published_at": 1793043900
+            },
+            "v_値幅中央値": 5,
+            "BB": {
+              "scope": {
+                "session": "2026-10-26_Night",
+                "contract": "161120018",
+                "start": 1793001600
+              },
+              "id": "[\"2026-10-26_Night\",\"161120018\",1793046960.0]",
+              "ordinal": 252,
+              "end": 1793046960,
+              "available_at": 1793046960,
+              "delivered_at": 1793047061,
+              "known": true,
+              "window_bars": 20,
+              "sma": 62847.5,
+              "sigma": 32.07413287993925,
+              "upper": 62911.648265759875,
+              "lower": 62783.351734240125,
+              "width": 128.296531519757,
+              "band_width": 0.0020413943517205457,
+              "percent_b": 0.5974305373023426,
+              "contraction": 1,
+              "window_sha256": "c8425a1fcc977ce6632330395d32570dbdc8f9ff0e75eca5c82f6602eab5c388",
+              "reset_reason": ""
+            },
+            "BB最後3幅": [
+              141.9859147943908,
+              142.81456508353762,
+              128.296531519757
+            ]
+          },
+          "Source取得時ATR": 49.56019427118329,
+          "H100全玉円閾値": 20000,
+          "失効までの保存W最大": {
+            "quote": {
+              "time": 1793044838,
+              "index": 191771,
+              "source_line": 192469,
+              "last": 62790,
+              "bid": 62780,
+              "ask": 62790,
+              "quote_ok": true
+            },
+            "phase": "pre_fill",
+            "quantity": 2,
+            "reserved": 0,
+            "mark_price": 62790,
+            "gain_points": 20,
+            "unit_net": 1923,
+            "realized_net": 0,
+            "whole_net": 3846
+          }
+        },
+        {
+          "key": "TR_XQ_C0_D0",
+          "入口分類": "R",
+          "固定境界": 62860,
+          "出生値": {
+            "g30": -79.47897259169986,
+            "d15": 10.563829076972368,
+            "adx15": 14.203630265365314,
+            "boundary": 62860,
+            "five_close": 62830,
+            "close_break": 30,
+            "last_break": 40,
+            "tr5": 60,
+            "previous_atr5": 50.077812681949915,
+            "spike_margin": 40.15562536389983,
+            "previous_d15": 8.232908860116627,
+            "adx15_delta": 0.5738752558522542
+          },
+          "取得JST": "2026-10-27T04:57:27+09:00",
+          "初armJST": "2026-10-27T04:57:27+09:00",
+          "初失効JST": "2026-10-27T05:37:41+09:00",
+          "初失効Quote": {
+            "time": 1793047061,
+            "index": 194787,
+            "source_line": 195485,
+            "last": 62850,
+            "bid": 62850,
+            "ask": 62870,
+            "quote_ok": true
+          },
+          "life条件票": {
+            "boundary": 62860,
+            "five_close": 62870,
+            "signed_close": -10,
+            "signed_histogram": -2.8463568995272226,
+            "signed_di15": 11.97814142526865,
+            "g30": -39.6026718131252,
+            "return_BBO": 62870,
+            "signed_return_BBO": -10
+          },
+          "正常BBO": true,
+          "実残": 2,
+          "既予約": 0,
+          "失効時5分": {
+            "bar_end_JST": "2026-10-27T05:35:00+09:00",
+            "published_JST": "2026-10-27T05:37:41+09:00",
+            "配送遅れ秒_足Endから": 161,
+            "ohlc": {
+              "open": 62860,
+              "high": 62870,
+              "low": 62860,
+              "close": 62870
+            },
+            "technical": {
+              "ema8": 62854.43747683269,
+              "ema21": 62888.730200592436,
+              "ema8_delta": 4.446435190657212,
+              "ema21_delta": -1.8730200592472102,
+              "gap": -34.29272375974688,
+              "atr": 39.85268232317213,
+              "previous_atr": 42.14904250187768,
+              "tr": 10,
+              "rsi": 43.253656179495266,
+              "previous_rsi": 41.072119259057885,
+              "histogram": 2.8463568995272226,
+              "previous_histogram": -0.23487144241855162
+            },
+            "side_signed": {
+              "ema8_delta": -4.446435190657212,
+              "ema21_delta": 1.8730200592472102,
+              "gap": 34.29272375974688,
+              "histogram": -2.8463568995272226,
+              "hist_delta": -3.081228341945774,
+              "di": 9.395410974684465,
+              "close_ema8": -15.56252316731,
+              "close_ema21": 18.730200592436
+            },
+            "出生固定境界との差": -10,
+            "直前3本反対端との差": -10,
+            "volume": 3,
+            "volume_直前3本中央値比": 0.3
+          },
+          "失効時15分": {
+            "bar_end_JST": "2026-10-27T05:30:00+09:00",
+            "published_JST": "2026-10-27T05:31:01+09:00",
+            "technical": {
+              "ema8": 62897.83402852983,
+              "ema21": 62933.66082355573,
+              "ema8_delta": -10.809722437094024,
+              "ema21_delta": -7.366082355569233,
+              "gap": -35.82679502589599,
+              "atr": 113.45226849849571,
+              "previous_atr": 119.10244299838,
+              "tr": 40,
+              "rsi": 45.76104267232737,
+              "previous_rsi": 43.05346424516975,
+              "histogram": -31.727419223614824,
+              "previous_histogram": -34.03658045297412
+            },
+            "dmi": {
+              "plus_di": 18.170575160091314,
+              "minus_di": 30.148716585359963,
+              "adx": 16.628198940618923,
+              "previous_plus_di": 17.348285630616754,
+              "previous_minus_di": 30.927586266478237,
+              "previous_adx": 16.000401680307625
+            },
+            "side_signed": {
+              "ema8_delta": 10.809722437094024,
+              "ema21_delta": 7.366082355569233,
+              "gap": 35.82679502589599,
+              "histogram": 31.727419223614824,
+              "hist_delta": -2.309161229359296,
+              "di": 11.97814142526865,
+              "close_ema8": 37.83402852983,
+              "close_ema21": 73.66082355573
+            }
+          },
+          "失効時30分": {
+            "bar_end_JST": "2026-10-27T05:30:00+09:00",
+            "published_JST": "2026-10-27T05:31:01+09:00",
+            "technical": {
+              "ema8": 62927.03948619036,
+              "ema21": 62887.43681437724,
+              "ema8_delta": -19.154138911530026,
+              "ema21_delta": -2.743681437721534,
+              "gap": 39.6026718131252,
+              "atr": 196.0856649453885,
+              "previous_atr": 205.7845622488799,
+              "tr": 70,
+              "rsi": 50.05542736553846,
+              "previous_rsi": 49.63364261218049,
+              "histogram": -23.41052670138093,
+              "previous_histogram": -17.492172588169595
+            },
+            "dmi": {
+              "plus_di": 16.72974584913139,
+              "minus_di": 28.115176485859482,
+              "adx": 12.732993203072633,
+              "previous_plus_di": 17.167502473115988,
+              "previous_minus_di": 28.103238027590855,
+              "previous_adx": 11.759496534590236
+            },
+            "side_signed": {
+              "ema8_delta": 19.154138911530026,
+              "ema21_delta": 2.743681437721534,
+              "gap": -39.6026718131252,
+              "histogram": 23.41052670138093,
+              "hist_delta": 5.918354113211335,
+              "di": 11.385430636728092,
+              "close_ema8": 67.03948619036,
+              "close_ema21": 27.43681437724
+            }
+          },
+          "取得後の新確認pivot": [
+            {
+              "役割": "new_low",
+              "公表stamp": {
+                "time": 1793045811,
+                "index": 193444,
+                "source_line": 194142
+              },
+              "kind": "low",
+              "price": 62790,
+              "center_start": 1793044800,
+              "center_end": 1793045100,
+              "confirm_end": 1793045700,
+              "published_at": 1793045811,
+              "center_start_JST": "2026-10-27T05:00:00+09:00",
+              "center_end_JST": "2026-10-27T05:05:00+09:00",
+              "published_JST": "2026-10-27T05:16:51+09:00",
+              "形成足が完全に取得後": true,
+              "形成足が取得を跨ぐ": false,
+              "確認公表は取得後": true
+            }
+          ],
+          "3分診断": {
+            "c": 2,
+            "m": 2,
+            "P": {
+              "known": true,
+              "passed": false
+            },
+            "prior_pivot": {
+              "scope": {
+                "session": "2026-10-26_Night",
+                "contract": "161120018",
+                "start": 1793001600
+              },
+              "id": "[\"2026-10-26_Night\",\"161120018\",1793043540.0]",
+              "kind": "high",
+              "price": 62970,
+              "center_start": 1793043360,
+              "center_end": 1793043540,
+              "confirm_end": 1793043900,
+              "published_at": 1793043900
+            },
+            "v_値幅中央値": 5,
+            "BB": {
+              "scope": {
+                "session": "2026-10-26_Night",
+                "contract": "161120018",
+                "start": 1793001600
+              },
+              "id": "[\"2026-10-26_Night\",\"161120018\",1793046960.0]",
+              "ordinal": 252,
+              "end": 1793046960,
+              "available_at": 1793046960,
+              "delivered_at": 1793047061,
+              "known": true,
+              "window_bars": 20,
+              "sma": 62847.5,
+              "sigma": 32.07413287993925,
+              "upper": 62911.648265759875,
+              "lower": 62783.351734240125,
+              "width": 128.296531519757,
+              "band_width": 0.0020413943517205457,
+              "percent_b": 0.5974305373023426,
+              "contraction": 1,
+              "window_sha256": "c8425a1fcc977ce6632330395d32570dbdc8f9ff0e75eca5c82f6602eab5c388",
+              "reset_reason": ""
+            },
+            "BB最後3幅": [
+              141.9859147943908,
+              142.81456508353762,
+              128.296531519757
+            ]
+          },
+          "Source取得時ATR": 49.56019427118329,
+          "H100全玉円閾値": 20000,
+          "失効までの保存W最大": {
+            "quote": {
+              "time": 1793044838,
+              "index": 191771,
+              "source_line": 192469,
+              "last": 62790,
+              "bid": 62780,
+              "ask": 62790,
+              "quote_ok": true
+            },
+            "phase": "pre_fill",
+            "quantity": 2,
+            "reserved": 0,
+            "mark_price": 62790,
+            "gain_points": 20,
+            "unit_net": 1923,
+            "realized_net": 0,
+            "whole_net": 3846
+          }
+        }
+      ]
+    }
+  ]
+}

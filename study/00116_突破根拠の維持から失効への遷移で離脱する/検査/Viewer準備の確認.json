@@ -1,0 +1,59 @@
+{
+  "成功": true,
+  "準備のみ": true,
+  "確認日": "2026-11-10",
+  "新Viewer起動": 0,
+  "HTTP要求": 0,
+  "正式116catalog/実約定/価格/Native/CSV/11月09本文読取": 0,
+  "Root正式保存後の実行予定": {
+    "port": 8100,
+    "一覧": 2520,
+    "GET": 72,
+    "sessions": [
+      "2026-11-06_Day",
+      "2026-11-06_Night"
+    ],
+    "root_authorized必須": true,
+    "正式結果とcatalogの期待SHA必須": true
+  },
+  "構文": {
+    "Python構文": true,
+    "py_compile": true,
+    "CLI_help": true,
+    "TOML解析": true
+  },
+  "既存115HTTP証拠": {
+    "成功": true,
+    "一覧": 840,
+    "実GET": 24
+  },
+  "Viewer配布exe": {
+    "path": "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\dist\\windows-amd64\\SessionTradeViewer\\session-trade-viewer.exe",
+    "sha256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8"
+  },
+  "既存115専用exe同体": true,
+  "既存プロセス記録": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Viewer確認の準備\\既存プロセスとポート.json",
+    "sha256": "61354b6e21dac8f0a309b9716fe2430d87df13a8ed49c5c6b52b548e9595b7fc"
+  },
+  "参照SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115専用Viewer8099\\Viewer取得を確認する.py": "430cb0132c6630862801879477f7f9872ebe6a2c30694a3bd45be75e8594d8f9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115専用Viewer8099\\conf\\viewer.toml": "5ff43bfc2d92c78df8543478c9fa9722893353894bfd099d49a6808deccfeabe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\Viewer確認.json": "ef5443d38e755e54d77a6272ba6f813f46a8ec75f04472d2d40bf51583ba7dbf",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\main.go": "4ab736ba6af9aa07a09d2d980dce913bb28766f9ee2a017bded1f9571e65b693",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\config.go": "96fcda0726566c9f0905f573d29d16e94861f83d307fe8e57465bd847b481cb5",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\server.go": "5aa3e3587a4a5b5aac64380578f1f4c8d022c8f1a11f4d504ddda6c7baf70916",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\types.go": "80a75db28ae3a8801a0a8a82c397f4b438476185993da5819f1d53225491b38b",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\catalog.go": "4f3db1b38c9f675339daeb002bb281d930e36319dc0d4e33898b36cf89bf7160",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\README.md": "a47df556bebf62502eb016327a075ec28a461939e1d76eec15493853e98c1dae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\正式保存する.py": "543ec08b9118eece06ac26e0f5e1c14b8088cbea417c93d720bc359fcadd06e8"
+  },
+  "所有SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Viewer確認の準備\\Viewer取得を確認する.py": "7a82c743610362d8701da2f77dd130f1f481ee443263160c884549afa9a646c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Viewer確認の準備\\viewer.toml.template": "7a234271bb6ec7e792ea871775ca0b5cb739b1b3fa85d81802fefd608f0c5071",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Viewer確認の準備\\手順.md": "1aa06ee443bca7ccc07f4c4e8baa55cb2fcd171f5f4239022ee46404d581c050"
+  },
+  "実HTTP確認": "未実行",
+  "正式保存成功": "本準備では未認証",
+  "注意": "現一次コードと既存115成功証跡を確認。配布exeの全source再現build同体は本準備の証明範囲外。金融・Raw最初性や描画の確認ではない。"
+}

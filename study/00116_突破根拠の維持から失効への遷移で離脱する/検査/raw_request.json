@@ -1,0 +1,535 @@
+{
+  "version": 1,
+  "trial": 116,
+  "fixed": true,
+  "stage": "full70",
+  "raw_read_authorized": true,
+  "market_native_read_authorized": true,
+  "holdout_read_authorized": false,
+  "consumer_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原行から失効最初性を独立検算する\\停止.json",
+    "sha256": "1afecc2a6a86c0702201fcd3c300ca4f0d8c2c914b08673fd5f038ad8a7ceb56"
+  },
+  "reader_request": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\full70_ReaderのRoot要求.json",
+    "sha256": "e56e8a1e50713d203ad7e991b758ed1793363fb8ee6e06416944eaf443ae8891"
+  },
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1_116金融条件.json",
+    "sha256": "4c76a5f7cd8a59962e885cadf6885cfc75cbc590675955cb8e72ae2d0b8bb372"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\完了.json",
+    "sha256": "e9b5c2db15e2968b627b9f38ed1d8b53b9ba294800b96e35839fec4d25f38131"
+  },
+  "independent_result": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\全70場\\結果.json",
+    "sha256": "906c242cdb8bdd937cf98711b33cb6b6c5cb9f2e6701ff5e2d5c8c2968904781"
+  },
+  "independent_check": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\全70場\\保存会計の確認.json",
+    "sha256": "510a3d2a8343aa150421cdb6c0d815cf402aceacc681d32261157852a0d09f2a"
+  },
+  "save_request": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\full70_独立保存要求_未読件数補正.json",
+    "sha256": "a51ce00194a809ab738f28ea64364868732cdd6a2d0ca580e54dc2df45849f0d"
+  },
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "922d9d82e033eca4636c644002e13ed4790f38755a4449ad13e53ff04fbf84bd"
+      }
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "aa1b8e86096e446b5e3437ff2ca7f502f41dfa398fae9b6473ea5547c1ba77ad"
+      }
+    },
+    {
+      "session": "2026-09-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz",
+        "sha256": "6aead4aa2b7dc394ed4973ed71c4f436003176a4c8367262ef7d6a0dcd415c88"
+      }
+    },
+    {
+      "session": "2026-09-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz",
+        "sha256": "745cfc47a2e55715bc2d28d0ab0fa9e38f0e764195271ada2a61ace5c50e0f2c"
+      }
+    },
+    {
+      "session": "2026-09-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz",
+        "sha256": "a5ba28d214df8808f2282405278362fb083d5d495e1f5ab6b00dde84dfef4e5a"
+      }
+    },
+    {
+      "session": "2026-09-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz",
+        "sha256": "6c8fa37bbcb526906d431be3a7db9f726ed7fb3445b66bc7a3f37ec7016517b0"
+      }
+    },
+    {
+      "session": "2026-09-24_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz",
+        "sha256": "b703216c4825e31f69670317b38a586b4932d996b854cbc98f41fca3117e4925"
+      }
+    },
+    {
+      "session": "2026-09-24_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz",
+        "sha256": "fb3c65c0d713a7951881823b4ec90498ea953a6b918ff4177cb559959ec10e12"
+      }
+    },
+    {
+      "session": "2026-09-25_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz",
+        "sha256": "1474104ddace611117979055b82e84821c19eff1745c4d77be06db23f00a9790"
+      }
+    },
+    {
+      "session": "2026-09-25_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz",
+        "sha256": "d552f1efc03c75aa872eef9bdbb89d3f2c29e9774329c350f7b93373a82de8f1"
+      }
+    },
+    {
+      "session": "2026-09-28_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz",
+        "sha256": "a32c88fd273f1a79ab68cab4cdf16adee9ca90a7a4ee3d92a4e574255585eb67"
+      }
+    },
+    {
+      "session": "2026-09-28_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz",
+        "sha256": "c711b8b645cdf0cff03972b2633c5fde3dd2a22126de535d112a1aa96b9d4ff1"
+      }
+    },
+    {
+      "session": "2026-09-29_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz",
+        "sha256": "4ae37a37bc5cb51de1927bdac5a3ffdd8005f0847d2ba184865fc818a819ec96"
+      }
+    },
+    {
+      "session": "2026-09-29_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz",
+        "sha256": "6132d9b88a60c9316bf1ce6c8648083939ad4af034a9fb0b155a037d80710300"
+      }
+    },
+    {
+      "session": "2026-09-30_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz",
+        "sha256": "48ace603f7f0378b175bc9434e62c6cf99b7b9089e32fad7c3762c212949a720"
+      }
+    },
+    {
+      "session": "2026-09-30_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz",
+        "sha256": "81c6256c1fa76d9ccbff097f4c68103df0679fbc69b9912f7372033bc1ad95f2"
+      }
+    },
+    {
+      "session": "2026-10-01_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz",
+        "sha256": "3846b870fdd3e4384ceb4bea47c936ef8b319567b968b5634c26a3df0ade9e67"
+      }
+    },
+    {
+      "session": "2026-10-01_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz",
+        "sha256": "d3592dc8f19a39eb5221bc747f483eb31f4e52e0a29ce881c0b288a2f8b88a09"
+      }
+    },
+    {
+      "session": "2026-10-02_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz",
+        "sha256": "340200e6c44b823808664a188cbcf263b745d8bdb7ca33c882305e0880937d56"
+      }
+    },
+    {
+      "session": "2026-10-02_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz",
+        "sha256": "b66614c4b09ffef7ff2a2b7fa6ec116c1bff436d80f7f9604b3a673a61fed819"
+      }
+    },
+    {
+      "session": "2026-10-05_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz",
+        "sha256": "719d142eef3f3ea331eaaedfdba77f5ce949cd98060b2c10c9727d68cfd7689a"
+      }
+    },
+    {
+      "session": "2026-10-05_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz",
+        "sha256": "9067deb9cce535c3233d10f6d7b9897468279bbbc0dc606f553750b30592dc69"
+      }
+    },
+    {
+      "session": "2026-10-06_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz",
+        "sha256": "fea4007778bd442de670a1ede0362b0b505240e504bec10beb8991e782305f01"
+      }
+    },
+    {
+      "session": "2026-10-06_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz",
+        "sha256": "d778b90f53ba5ea7a4784d9479d5d8da38136f4c33932729d9447207ffed11ba"
+      }
+    },
+    {
+      "session": "2026-10-07_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz",
+        "sha256": "4d8c9d8503b1c6a4fe268176e380372b809691926945f8bfcbff0e68a9f7ea06"
+      }
+    },
+    {
+      "session": "2026-10-07_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz",
+        "sha256": "4c229cf90f96f605ed672485b15b3b21d943bff99c18c61e9831b8dfbdd112e5"
+      }
+    },
+    {
+      "session": "2026-10-08_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz",
+        "sha256": "2b58bde3834d6556d71ad4afe01a424617f021918e66e9aa6903a88422a12307"
+      }
+    },
+    {
+      "session": "2026-10-08_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz",
+        "sha256": "523a81ea2304e62b18adb192c4e9aed90c0d3dec80b16beb25b130463087a06c"
+      }
+    },
+    {
+      "session": "2026-10-09_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz",
+        "sha256": "40d982e51fff33371390c85793fea7dde2a6aac7a32474f28c9c90b08df61885"
+      }
+    },
+    {
+      "session": "2026-10-09_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz",
+        "sha256": "d7229f39f25ac0ef95f860eb18d903a83621a24c59a7dbe45c692a88d9da50a2"
+      }
+    },
+    {
+      "session": "2026-10-12_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz",
+        "sha256": "afa234baa0302bbbe6d891305bca86b3346f46f7020089f400dcfbe22c96d301"
+      }
+    },
+    {
+      "session": "2026-10-12_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz",
+        "sha256": "18773782d02786543f8687d29114a7d42192645e1bc0bb9945e0b740fda737b7"
+      }
+    },
+    {
+      "session": "2026-10-13_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz",
+        "sha256": "0657b6d08961a33ac99d3779f2cda5bad578470d148c115da1e61e31bbf8d9f4"
+      }
+    },
+    {
+      "session": "2026-10-13_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz",
+        "sha256": "22b2a3516f7a8cc5712307207ace9f2c14246843af62aae89ca126f8dd73fff2"
+      }
+    },
+    {
+      "session": "2026-10-14_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz",
+        "sha256": "52a5dbb34d2bc92f68c27ff99ca0b540a1b1cfe931eba811bdf1bf9d1789aa4b"
+      }
+    },
+    {
+      "session": "2026-10-14_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz",
+        "sha256": "0945f296eb4c922cd53f24190611b9be48afd15fba58dce7470e072fde1fd3d0"
+      }
+    },
+    {
+      "session": "2026-10-15_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz",
+        "sha256": "5876775e89f66df5f31259f4323527f90c573ac890c5122f0757eb12de264f40"
+      }
+    },
+    {
+      "session": "2026-10-15_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz",
+        "sha256": "27df55703194a07e3db1c3ee6e609c0e788809e08b827606a6dfedece27413a5"
+      }
+    },
+    {
+      "session": "2026-10-16_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz",
+        "sha256": "8fe9cc9af5061a222061190d056917f235034d241682b8acd8be5b7c4a9eb75f"
+      }
+    },
+    {
+      "session": "2026-10-16_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz",
+        "sha256": "58deb17eb92ca199058af5c6b3da27b02b8efaf4b1b83a4c3f7430aec97f9c77"
+      }
+    },
+    {
+      "session": "2026-10-19_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz",
+        "sha256": "f53b8ca1f7e8d75bfaf520d14391991ffbcc88f5044c24840023c446bc94c845"
+      }
+    },
+    {
+      "session": "2026-10-19_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz",
+        "sha256": "4c3a2cf9d0dd9822b64cd1c5693cfafb793a0343c65246325ae9644ca18a310a"
+      }
+    },
+    {
+      "session": "2026-10-20_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz",
+        "sha256": "6128e04598234b01bb1727c755d0d8fc3b17243cd92afc571791a51e25271627"
+      }
+    },
+    {
+      "session": "2026-10-20_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz",
+        "sha256": "56d621461cc42e444db41f6672d3d1d45e928e7638780d9e4b59246c30758d45"
+      }
+    },
+    {
+      "session": "2026-10-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz",
+        "sha256": "ac86998353b5c5dc842f269cb734f169714e960b4fa68947000efabd5bac5505"
+      }
+    },
+    {
+      "session": "2026-10-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz",
+        "sha256": "adba871e1e3dfe24ddb743aea2be9b2c566b2b46398645668593dae93bb19cc1"
+      }
+    },
+    {
+      "session": "2026-10-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz",
+        "sha256": "6a0cc67028e746e3d889a252b27bc0b8bb8c96c40891219a0ddb4710977c3e4b"
+      }
+    },
+    {
+      "session": "2026-10-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz",
+        "sha256": "ed8c5ff8759d9db7c33d2a5c536e36974596022da6ed995efc635594ef8622c6"
+      }
+    },
+    {
+      "session": "2026-10-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz",
+        "sha256": "7e5cc7aaa4e25615556aa11bb1c057f7250b80d5aef5df123cbfe41987eeb443"
+      }
+    },
+    {
+      "session": "2026-10-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz",
+        "sha256": "2cd6a7e11e2e72202ab0d03a59419c7cb448adc061c6ccd7c0df32bbaa31c601"
+      }
+    },
+    {
+      "session": "2026-10-26_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz",
+        "sha256": "2f9b2a130b1dbc5e48a8b6dfe7ab8ea38d15b15bd42af1bfadf7f2cbe38fc804"
+      }
+    },
+    {
+      "session": "2026-10-26_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz",
+        "sha256": "cd45553485735558dc957a8c9346f334903b59a4ba58f0957812c9feff2bc7ec"
+      }
+    },
+    {
+      "session": "2026-10-27_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz",
+        "sha256": "fbd48fc419e403fd2007c36734e00b50593a8dd32f54d723c95dcc479965980a"
+      }
+    },
+    {
+      "session": "2026-10-27_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz",
+        "sha256": "daa213626ab320d72a8596889d328f41c3cb37143fb96544826fb177037b983d"
+      }
+    },
+    {
+      "session": "2026-10-28_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-10-28_Day\\2026-10-28_Day.Native.json.gz",
+        "sha256": "2cacbb28406135575a74e013410a2cfe86f4c5d6a622c842b3e020de1fd492d0"
+      }
+    },
+    {
+      "session": "2026-10-28_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-10-28_Night\\2026-10-28_Night.Native.json.gz",
+        "sha256": "1e3702f95ecc867de14aae8d0cb3b6a9bdcaf5af8c74fd567fe8ec51c2c018db"
+      }
+    },
+    {
+      "session": "2026-10-29_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-10-29_Day\\2026-10-29_Day.Native.json.gz",
+        "sha256": "384315505ade520c6ab5030a24044028ffc448cb1cddfe75ac59b32efa0c17d6"
+      }
+    },
+    {
+      "session": "2026-10-29_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-10-29_Night\\2026-10-29_Night.Native.json.gz",
+        "sha256": "601da75d39e17dd601971bad118cd0d1da8a3dcb8f608e822e983a68cfb2a943"
+      }
+    },
+    {
+      "session": "2026-10-30_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-10-30_Day\\2026-10-30_Day.Native.json.gz",
+        "sha256": "446033a2437209986fd730151b68810559c245137f97efcf55424893a58baaa2"
+      }
+    },
+    {
+      "session": "2026-10-30_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-10-30_Night\\2026-10-30_Night.Native.json.gz",
+        "sha256": "7beb1258a5e9eb7ebead8c6202d8d140b9facee9b4bfcd8841b81c7892e8c41d"
+      }
+    },
+    {
+      "session": "2026-11-02_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-02_Day\\2026-11-02_Day.Native.json.gz",
+        "sha256": "19d10658f9845d2b276a6240019bb3f695b56ad2006cea9ab444e1d8239b2876"
+      }
+    },
+    {
+      "session": "2026-11-02_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-02_Night\\2026-11-02_Night.Native.json.gz",
+        "sha256": "1c8af1d44bd607c985f1cae4b707bb40e0fb6e9ea5e90575c339c1954903c379"
+      }
+    },
+    {
+      "session": "2026-11-03_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-03_Day\\2026-11-03_Day.Native.json.gz",
+        "sha256": "2ff18d9f9cd0d1483a527a89126bef68f0a0780fddceb6f7cea66ab29e7db3d9"
+      }
+    },
+    {
+      "session": "2026-11-03_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-03_Night\\2026-11-03_Night.Native.json.gz",
+        "sha256": "90a36c781cdefac222222796f802a181c0a36a28948f9d0a7cfc50dbfcfc80b3"
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-04_Day\\2026-11-04_Day.Native.json.gz",
+        "sha256": "2e80adf820a61d3b819d36219f847c9eee8593a4ff13c5bc1cfa6e1c094747ee"
+      }
+    },
+    {
+      "session": "2026-11-04_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-04_Night\\2026-11-04_Night.Native.json.gz",
+        "sha256": "f33fac03c1f86e73a1f3c6aaae0d3e64c46bd591686b3536241fea0cd334f033"
+      }
+    },
+    {
+      "session": "2026-11-05_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-05_Day\\2026-11-05_Day.Native.json.gz",
+        "sha256": "03abf773df714a6069d0b67ef05457da6b5fd24dc7f46b4bc32745f8eaca5337"
+      }
+    },
+    {
+      "session": "2026-11-05_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-05_Night\\2026-11-05_Night.Native.json.gz",
+        "sha256": "fd89bbd4ac1a92bf67fb18d9075c1ec9933bf084e688148b61dd8fc2a93df838"
+      }
+    },
+    {
+      "session": "2026-11-06_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz",
+        "sha256": "6713f4f36a37d0694a9db64b45992a63a1e578258ef4f2802059a006e9a36dad"
+      }
+    },
+    {
+      "session": "2026-11-06_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\worker\\2026-11-06_Night\\2026-11-06_Night.Native.json.gz",
+        "sha256": "8db974dd2a0c17b67676591ea7cf963d7f519d050ff6f905ad3f85bb167f35d9"
+      }
+    }
+  ],
+  "Root固定時の確認": [
+    "同F1・全場成功と新型397e/6c1e/ec1f保存停止を確認する。",
+    "GoReaderの全監視適格XC/XQ実窓の和集合・Raw参照・Source品質/総数を固定する。",
+    "Rootがfixed/Raw/Native許可の3つだけをtrueへ固定し、新要求SHAを採用する。",
+    "metadata-only成功後、Rootだけが一場ずつ実streamを実行する。"
+  ]
+}

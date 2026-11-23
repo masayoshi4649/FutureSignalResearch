@@ -1,0 +1,47 @@
+{
+  "成功": true,
+  "試行": 116,
+  "旧一覧": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00116_突破根拠の維持から失効への遷移で離脱する\\成果物\\一覧.resources.json",
+    "sha256": "ba54b2e194619555a8e1d29f6202d4dfbd27e8b915fa7cba56e14eab0816e199"
+  },
+  "価格接続証拠": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00116_突破根拠の維持から失効への遷移で離脱する\\検査\\Viewer市場参照の接続.json",
+    "sha256": "0a7a6767f303fb39911dd995598f27539a397703a6993b58758b71fd71da0db6"
+  },
+  "閲覧用一覧": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00116_突破根拠の維持から失効への遷移で離脱する\\成果物\\閲覧用_市場絶対参照.resources.json",
+    "sha256": "71da6bac2c42897c7bfd46097bfa104c53f38b1d065903b64e44e5f86a31539a"
+  },
+  "仕様": "pnl_pathはpath_base=catalog、market_pathは常にdata_root基準。明示絶対market_pathで固定70所在へ結ぶ。",
+  "変更はmarket_pathの表記のみ": true,
+  "資源数": 2520,
+  "市場数": 70,
+  "Raw/価格CSV/Native/損益CSV本文読取": 0,
+  "金融再実行": false,
+  "旧保存不変": true,
+  "元HTTP検査コード": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Viewer確認の準備\\Viewer取得を確認する.py",
+    "sha256": "7a82c743610362d8701da2f77dd130f1f481ee443263160c884549afa9a646c0"
+  },
+  "補正HTTP検査コード": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00116_突破根拠の維持から失効への遷移で離脱する\\再現資料\\Viewer取得の市場参照補正版.py",
+    "sha256": "f2dba15b3ab6628661664552a0fd1a6c2524a0c69fa7f620a451cdac205f7852"
+  },
+  "補正コード": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00116_突破根拠の維持から失効への遷移で離脱する\\再現資料\\Viewerの市場参照を補正する.py",
+    "sha256": "40dece5d4279b05d7f2b3e9733a0ed3f427cf74e385c0d17aae14a74c9fb7f79"
+  },
+  "Viewer一次コード": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\catalog.go",
+      "sha256": "4f3db1b38c9f675339daeb002bb281d930e36319dc0d4e33898b36cf89bf7160"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeViewer\\config.go",
+      "sha256": "96fcda0726566c9f0905f573d29d16e94861f83d307fe8e57465bd847b481cb5"
+    }
+  ],
+  "採用": false,
+  "研究目標達成": false
+}

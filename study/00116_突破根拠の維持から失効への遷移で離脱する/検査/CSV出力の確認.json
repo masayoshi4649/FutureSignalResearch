@@ -1,0 +1,701 @@
+{
+  "成功": true,
+  "試行": 116,
+  "人工": false,
+  "入力": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\全70場\\結果.json",
+  "入力SHA256": "906c242cdb8bdd937cf98711b33cb6b6c5cb9f2e6701ff5e2d5c8c2968904781",
+  "出力": {
+    "候補別集計.csv": {
+      "sha256": "62704a27698a58c9f4c4f65df063daecc892a60f4dce4cd9fb5269baa20bf6a5",
+      "データ行数": 36,
+      "列数": 50
+    },
+    "全セッション.csv": {
+      "sha256": "56cd5a2c227d4abacf3371141fb6d91af413763421805a07d8a6835c7c6f6ce2",
+      "データ行数": 2520,
+      "列数": 46
+    }
+  },
+  "全条件": [
+    {
+      "条件ID": "A0_C0_D0",
+      "場数": 70,
+      "純損益円": 1126987,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 558,
+        "accepted_quantity": 1169,
+        "actual_new_fills": 558,
+        "actual_quantity": 1169
+      }
+    },
+    {
+      "条件ID": "A0_C0_D1",
+      "場数": 70,
+      "純損益円": 1528603,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 556,
+        "accepted_quantity": 1164,
+        "actual_new_fills": 553,
+        "actual_quantity": 1161
+      }
+    },
+    {
+      "条件ID": "A0_C5_D0",
+      "場数": 70,
+      "純損益円": -363013,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 558,
+        "accepted_quantity": 1169,
+        "actual_new_fills": 558,
+        "actual_quantity": 1169
+      }
+    },
+    {
+      "条件ID": "A0_C5_D1",
+      "場数": 70,
+      "純損益円": -4397,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 556,
+        "accepted_quantity": 1164,
+        "actual_new_fills": 553,
+        "actual_quantity": 1161
+      }
+    },
+    {
+      "条件ID": "T_C0_D0",
+      "場数": 70,
+      "純損益円": 386917,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_C0_D1",
+      "場数": 70,
+      "純損益円": 350917,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_C5_D0",
+      "場数": 70,
+      "純損益円": -49083,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_C5_D1",
+      "場数": 70,
+      "純損益円": -36083,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "TR_C0_D0",
+      "場数": 70,
+      "純損益円": 407916,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_C0_D1",
+      "場数": 70,
+      "純損益円": 364916,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_C5_D0",
+      "場数": 70,
+      "純損益円": -40084,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_C5_D1",
+      "場数": 70,
+      "純損益円": -33084,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "A0_XC_C0_D0",
+      "場数": 70,
+      "純損益円": 1054987,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 558,
+        "accepted_quantity": 1169,
+        "actual_new_fills": 558,
+        "actual_quantity": 1169
+      }
+    },
+    {
+      "条件ID": "A0_XC_C0_D1",
+      "場数": 70,
+      "純損益円": 1454603,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 556,
+        "accepted_quantity": 1164,
+        "actual_new_fills": 553,
+        "actual_quantity": 1161
+      }
+    },
+    {
+      "条件ID": "A0_XC_C5_D0",
+      "場数": 70,
+      "純損益円": -435013,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 558,
+        "accepted_quantity": 1169,
+        "actual_new_fills": 558,
+        "actual_quantity": 1169
+      }
+    },
+    {
+      "条件ID": "A0_XC_C5_D1",
+      "場数": 70,
+      "純損益円": -78397,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 556,
+        "accepted_quantity": 1164,
+        "actual_new_fills": 553,
+        "actual_quantity": 1161
+      }
+    },
+    {
+      "条件ID": "T_XC_C0_D0",
+      "場数": 70,
+      "純損益円": 306917,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_XC_C0_D1",
+      "場数": 70,
+      "純損益円": 270917,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_XC_C5_D0",
+      "場数": 70,
+      "純損益円": -129083,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_XC_C5_D1",
+      "場数": 70,
+      "純損益円": -116083,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "TR_XC_C0_D0",
+      "場数": 70,
+      "純損益円": 335916,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_XC_C0_D1",
+      "場数": 70,
+      "純損益円": 290916,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_XC_C5_D0",
+      "場数": 70,
+      "純損益円": -112084,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_XC_C5_D1",
+      "場数": 70,
+      "純損益円": -107084,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "A0_XQ_C0_D0",
+      "場数": 70,
+      "純損益円": 1052987,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 558,
+        "accepted_quantity": 1169,
+        "actual_new_fills": 558,
+        "actual_quantity": 1169
+      }
+    },
+    {
+      "条件ID": "A0_XQ_C0_D1",
+      "場数": 70,
+      "純損益円": 1454603,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 556,
+        "accepted_quantity": 1164,
+        "actual_new_fills": 553,
+        "actual_quantity": 1161
+      }
+    },
+    {
+      "条件ID": "A0_XQ_C5_D0",
+      "場数": 70,
+      "純損益円": -437013,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 558,
+        "accepted_quantity": 1169,
+        "actual_new_fills": 558,
+        "actual_quantity": 1169
+      }
+    },
+    {
+      "条件ID": "A0_XQ_C5_D1",
+      "場数": 70,
+      "純損益円": -78397,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 558,
+        "selected_true": 558,
+        "selected_false": 0,
+        "selected_unknown": 0,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 556,
+        "accepted_quantity": 1164,
+        "actual_new_fills": 553,
+        "actual_quantity": 1161
+      }
+    },
+    {
+      "条件ID": "T_XQ_C0_D0",
+      "場数": 70,
+      "純損益円": 306917,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_XQ_C0_D1",
+      "場数": 70,
+      "純損益円": 270917,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_XQ_C5_D0",
+      "場数": 70,
+      "純損益円": -129083,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "T_XQ_C5_D1",
+      "場数": 70,
+      "純損益円": -116083,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 28,
+        "selected_true": 28,
+        "selected_false": 523,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 28,
+        "accepted_quantity": 79,
+        "actual_new_fills": 28,
+        "actual_quantity": 79
+      }
+    },
+    {
+      "条件ID": "TR_XQ_C0_D0",
+      "場数": 70,
+      "純損益円": 333916,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_XQ_C0_D1",
+      "場数": 70,
+      "純損益円": 290916,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_XQ_C5_D0",
+      "場数": 70,
+      "純損益円": -114084,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    },
+    {
+      "条件ID": "TR_XQ_C5_D1",
+      "場数": 70,
+      "純損益円": -107084,
+      "入口票": {
+        "source_new": 558,
+        "allowed": 34,
+        "selected_true": 34,
+        "selected_false": 517,
+        "selected_unknown": 7,
+        "input_missing": 79,
+        "known_denial": 552,
+        "accepted_requests": 34,
+        "accepted_quantity": 92,
+        "actual_new_fills": 34,
+        "actual_quantity": 92
+      }
+    }
+  ],
+  "入力前後不変": true,
+  "固定枠参加率生成": false,
+  "正益経験分母合算": true,
+  "正益経験後赤字率": "whole_positive_closed_negative / whole_positive_positions × 100。0分母は空欄",
+  "金融再実行": false,
+  "表の確認": "{\"kind\":\"table\",\"sheet\":\"候補別集計\",\"address\":\"A1:J4\",\"rows\":4,\"cols\":10,\"values\":[[\"試行\",\"候補\",\"追加保有根拠政策\",\"共通保護政策\",\"条件ID\",\"セッション数\",\"片道追加滑りpt\",\"仮定遅延秒\",\"新規件数\",\"新規枚数\"],[116,\"A0\",\"X0\",\"P100\",\"A0_C0_D0\",70,0,0,558,1169],[116,\"A0\",\"X0\",\"P100\",\"A0_C0_D1\",70,0,1,553,1161],[116,\"A0\",\"X0\",\"P100\",\"A0_C5_D0\",70,5,0,558,1169]]}",
+  "エラー走査": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "Root要求": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\全70CSVのRoot要求.json",
+    "sha256": "512dbf6cbc976816394fbcc834244013d043c266772fe0f544662f70b51236b9"
+  },
+  "Raw初回性監査範囲": "保存点の独立検算済み・全Raw発生漏れ/初回性は別監査で未結合",
+  "認証済み入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\全70CSVのRoot要求.json": "512dbf6cbc976816394fbcc834244013d043c266772fe0f544662f70b51236b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\停止.json": "806ef4a30a9668d2cf50fcf1c370f426b134e4dd4d31035704bc9484878d1b4d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\入力と候補.mjs": "fc4eaf77b89d584743a45ea356a829d438c72680253733b78919b5cbb063d239",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\出力する.mjs": "fec8c482dced840f88223d2c7fdfd8852591a1c6c7501fcb0af18ff14229210d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\CSVを独立再読する.py": "c3ea9bb124dfbc65a988b42ee5a8a52e022b6f7bb13f49e1a1494140ee6cfa85",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\人工検査.py": "2edf01720a77da2e3d5eea31319d5ecf52ef6f45c425c3af847b4dc966ece616",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\README.md": "f15f33161f98919e619e2c404757f7b1c629b1bbe10323d1e2414da1240603af",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\検査して停止する.py": "43ca068b173144faa9052801ee5e501fe5a1e0744c7c3e100b1a6473c2a3e1bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1_116金融条件.json": "4c76a5f7cd8a59962e885cadf6885cfc75cbc590675955cb8e72ae2d0b8bb372",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\完了.json": "e9b5c2db15e2968b627b9f38ed1d8b53b9ba294800b96e35839fec4d25f38131",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\全70場\\保存会計の確認.json": "510a3d2a8343aa150421cdb6c0d815cf402aceacc681d32261157852a0d09f2a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\元54場\\保存会計の確認.json": "0af2eb07920e47308c497023a320c5563411fd978b843a09feb98cdbda15958c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\全70場\\結果.json": "906c242cdb8bdd937cf98711b33cb6b6c5cb9f2e6701ff5e2d5c8c2968904781"
+  },
+  "実行環境": {
+    "node": "v24.22.1",
+    "artifact_tool": "2.8.129"
+  },
+  "開始日": "JST文字列・@書式、CSV値はYYYY-MM-DD JST"
+}

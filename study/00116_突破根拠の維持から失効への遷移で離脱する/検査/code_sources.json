@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "trial": 116,
+  "市場前の分類専用": true,
+  "stops": {
+    "previous_formal115": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115正式保存への接続\\検査_停止版\\停止.json",
+      "sha256": "43329563663aedc88fa0b4e60cd52fd4a2619663b09c4cd41b74e3e34601f785"
+    },
+    "save_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\会計停止.json",
+      "sha256": "397ee90a93f491f5cf1842f70b4a974a0435fdb84eae8987416881e40af5a12d"
+    },
+    "P_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\P停止.json",
+      "sha256": "6c1e1f74465527550d0ca2b62127495a7d5c3c70c5a125a0576801873a26f47d"
+    },
+    "life_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\ライフ停止.json",
+      "sha256": "ec1f6fef55c1717e3592be24c74259d5f837be2eb0096dea73c2ce0a39805769"
+    },
+    "reuse_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存の元54再用と追加16_金額型の復元\\停止.json",
+      "sha256": "274f77930b7a356c73ba32f0e026932f8821c4ed2222e402db028404306e566a"
+    },
+    "raw_reader_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原板の原行を独立配送する\\停止.json",
+      "sha256": "82806b85f939d9ba67190cee10bedbff9d3a8ecade47886a9862bdb0f940cf14"
+    },
+    "raw_consumer_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原行から失効最初性を独立検算する\\停止.json",
+      "sha256": "1afecc2a6a86c0702201fcd3c300ca4f0d8c2c914b08673fd5f038ad8a7ceb56"
+    },
+    "raw_builder_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原板要求の準備\\停止.json",
+      "sha256": "11216a11c9551d6ed451e2503f155a63508d1018fb9d413db07360981e403f40"
+    },
+    "csv_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\停止.json",
+      "sha256": "806ef4a30a9668d2cf50fcf1c370f426b134e4dd4d31035704bc9484878d1b4d"
+    },
+    "binder_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116設定表の結果結合準備\\停止.json",
+      "sha256": "f488d13fdf9c2dc973aa6bb0c77f21e0b1e7908b8f0d60de018557d78973b35b"
+    },
+    "native_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\停止.json",
+      "sha256": "f9a6fe827363a31bdf37b393e532dea3ccd66f389565374654b0ba7e06720d13"
+    },
+    "previous_formal116": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\Root承認後の停止\\停止.json",
+      "sha256": "4ec0e55f59aded77672f57d637b2846e0091436cfa942f8e9df685afc69e3395"
+    }
+  },
+  "own_files": [
+    "コードを分類する.py",
+    "正式保存する.py",
+    "人工検査.py",
+    "検査して停止する.py",
+    "README.md",
+    "保存コードの依存参照.json"
+  ],
+  "code_refs": [
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続_恒久市場参照\\生成入力を恒久保管する.py",
+        "sha256": "361cad1c302c2a560698eef0b866a78a5ae3992ac2a7e0ef7722aa7074f71f47"
+      },
+      "role": "Root別許可で固定3gzipを一度同bytes恒久保管したcode。"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\保存の確認.json",
+        "sha256": "7b4564fc7639afe4c831c3caa84789126a92ddfbdc84aeb6399ed0754c0bcec3"
+      },
+      "role": "同SHA生成3入力の恒久所在と元絶対pathの由来metadata。"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\README.md",
+        "sha256": "c19b20267c5c1b070517ae3b67376c117f52101c9f0515b107293b5ec36e5381"
+      },
+      "role": "恒久生成入力の保管・復元範囲の説明。"
+    }
+  ],
+  "node_artifact_environment": {
+    "Node": "v24.22.1",
+    "artifact-tool": "2.8.129",
+    "扱い": "実使用版の環境参照。ライブラリ/Node本体をZIPへ全複写しない。CSV停止806eと既発行marker982eの実行証拠へ結ぶ。"
+  },
+  "Rootが後段で追加": "実使用が確認されたRoot helper/診断コードを新正式要求code_refsへ明示する。未実行helperを自動列挙しない。"
+}

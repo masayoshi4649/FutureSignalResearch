@@ -1,0 +1,314 @@
+{
+  "確認日": "2026-11-10",
+  "成功": true,
+  "金融再実行": false,
+  "新Native/Raw/CSV/11月09本文読取": false,
+  "既存正式文書/凍結コード編集": false,
+  "固定115条件": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\condition.json",
+    "sha256": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693"
+  },
+  "旧113金融正本": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00113_起動前の支持否定と利益保護の切替\\成果物\\結果.json",
+    "sha256": "6492ae50b8fbf5b3dbe61d4295147119619e7ecbfd7cb09cbe39bc267663852b"
+  },
+  "旧113全16対照の純額差": [
+    {
+      "比較": "P100→P50",
+      "費用": "C0_D0",
+      "前純額": 1126987,
+      "後純額": 298987,
+      "差": -828000
+    },
+    {
+      "比較": "P100→E100",
+      "費用": "C0_D0",
+      "前純額": 1126987,
+      "後純額": 896987,
+      "差": -230000
+    },
+    {
+      "比較": "P50→E50",
+      "費用": "C0_D0",
+      "前純額": 298987,
+      "後純額": 71987,
+      "差": -227000
+    },
+    {
+      "比較": "E100→E50",
+      "費用": "C0_D0",
+      "前純額": 896987,
+      "後純額": 71987,
+      "差": -825000
+    },
+    {
+      "比較": "P100→P50",
+      "費用": "C0_D1",
+      "前純額": 1528603,
+      "後純額": 691372,
+      "差": -837231
+    },
+    {
+      "比較": "P100→E100",
+      "費用": "C0_D1",
+      "前純額": 1528603,
+      "後純額": 1349603,
+      "差": -179000
+    },
+    {
+      "比較": "P50→E50",
+      "費用": "C0_D1",
+      "前純額": 691372,
+      "後純額": 517372,
+      "差": -174000
+    },
+    {
+      "比較": "E100→E50",
+      "費用": "C0_D1",
+      "前純額": 1349603,
+      "後純額": 517372,
+      "差": -832231
+    },
+    {
+      "比較": "P100→P50",
+      "費用": "C5_D0",
+      "前純額": -363013,
+      "後純額": -693013,
+      "差": -330000
+    },
+    {
+      "比較": "P100→E100",
+      "費用": "C5_D0",
+      "前純額": -363013,
+      "後純額": -594013,
+      "差": -231000
+    },
+    {
+      "比較": "P50→E50",
+      "費用": "C5_D0",
+      "前純額": -693013,
+      "後純額": -924013,
+      "差": -231000
+    },
+    {
+      "比較": "E100→E50",
+      "費用": "C5_D0",
+      "前純額": -594013,
+      "後純額": -924013,
+      "差": -330000
+    },
+    {
+      "比較": "P100→P50",
+      "費用": "C5_D1",
+      "前純額": -4397,
+      "後純額": -198397,
+      "差": -194000
+    },
+    {
+      "比較": "P100→E100",
+      "費用": "C5_D1",
+      "前純額": -4397,
+      "後純額": -178397,
+      "差": -174000
+    },
+    {
+      "比較": "P50→E50",
+      "費用": "C5_D1",
+      "前純額": -198397,
+      "後純額": -374397,
+      "差": -176000
+    },
+    {
+      "比較": "E100→E50",
+      "費用": "C5_D1",
+      "前純額": -178397,
+      "後純額": -374397,
+      "差": -196000
+    }
+  ],
+  "Root116設計選択": {
+    "試行候補": 116,
+    "金融条件固定": false,
+    "Rootが確定選択した設計": true,
+    "入力/金融実行": false,
+    "入口": [
+      "A0",
+      "T",
+      "TR"
+    ],
+    "追加失効": [
+      "X0",
+      "XC",
+      "XQ"
+    ],
+    "費用": [
+      "C0D0",
+      "C0D1",
+      "C5D0",
+      "C5D1"
+    ],
+    "比較数": 36,
+    "共通保護": "P113/P100・H100・費用床/全玉床/非緩和を維持",
+    "監視適格": "出生時115 Common真 AND signed D15>0 AND G30既知非0。境界は同出生のprior3を固定。追加新規拒否なし。",
+    "初期armed": "実fill時latest fresh 5/15/30。当5Close>境界、side*Hist5>0、signed DI15>0、正常返済BBO>境界を売買方向へ符号化して全てstrict。",
+    "取得後armed": "未armedならEnd>fillの当5公表で同4条件。公表配送行だけでなくその公表がfreshな正常Rawで確認できる。",
+    "XC": "armed後の新5公表。End>fillかつ配送stamp>fill、side*Hist5<=0 AND signed(Close5-boundary)<0。BBO異常でも完成失効を不可逆ラッチ、正常BBOまで注文待ち。",
+    "XQ": "armed後、同じ取得後新5公表のside*Hist5<=0がfreshな間、全正常Rawのsigned(返済BBO-boundary)<0でラッチ。",
+    "実使用値": "5Close/Hist、15+DI/-DI、30EMA8/21、各当場PriceKnown/fresh。ADX/RSI/BB/volumeは鎖切りに使わない。",
+    "鎖切り": "実使用指標Unknown/欠足/古さで未完成armed鎖を切り再armed必要。既ラッチは解除しない。BBO異常は鎖切りでなく評価/注文待ち。",
+    "既知値変化": "15DIが既知逆側へ変わっただけではdisarmしない。取得後30Gの符号変化だけもgate/disarmにしない。",
+    "等号": "Hist=0は警戒、価格=境界は失効でない。armedの各正値条件の0は偽。",
+    "P100優先": "未ラッチでP100が先にActiveなら新X禁止。先にXラッチ済みなら後のP100起動でもラッチ/既注文は取消さない。",
+    "数量": "正常BBO/after_sourceでRemaining-Reservedだけが返済eligible。全予約0枚と失効事実を分離。",
+    "残した保留案": "2連続distinct確定5m内戻り＋15DIの水準/厳密逆転イベントを分離する案は今回36へ混ぜず、後段記述の別比較候補。"
+  },
+  "Go根拠": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\api.go",
+      "sha256": "61bbe9581adf27009c6e2bd61466977e7b30079771cee73d3fd8367b4211e688",
+      "行": [
+        30,
+        65
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\adapter.go",
+      "sha256": "33dedd6037a2335053787539c635b474054509fe42dba08db89516da146ec916",
+      "行": [
+        334,
+        452
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\replay.go",
+      "sha256": "fa93838d819a41d82908c5129ceac5b625b709b0fe1e23b7d5a878dab580b259",
+      "行": [
+        147,
+        189
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸の複合入口を執行する会計\\actual.go",
+      "sha256": "a1cdf707245415c9ebe8604648251c23b4cd5cb58b2013cca5dc3e1a4499994c",
+      "行": [
+        404,
+        552
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸の複合入口を執行する会計\\entry_gate.go",
+      "sha256": "59e5214b656c8e7584d0b9a20a7af5352c899945d94272a7c895340e4bbba33c",
+      "行": [
+        72,
+        112
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸の複合入口の連続比較\\runtime.go",
+      "sha256": "837cf8419fcd3a5396aea6e28dadaec4d2d2a01ea877b3633657253edcdefadc",
+      "行": [
+        224,
+        260
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113起動前の支持否定と利益保護の純演算\\entry_support.go",
+      "sha256": "ac6ee8995c25c49d2b52649f60bd5c1b901d50ef74f8d87a0d9ae52e55b15d1a",
+      "行": [
+        26,
+        60
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113起動前の支持否定と利益保護の純演算\\state.go",
+      "sha256": "509f9089cad3ad12184894874770f07bd903303819f93b0462e215b8ca8ee3db",
+      "行": [
+        265,
+        284
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\portfolio.go",
+      "sha256": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+      "行": [
+        305,
+        431
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go",
+      "sha256": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+      "行": [
+        14,
+        142
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go",
+      "sha256": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+      "行": [
+        13,
+        211
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go",
+      "sha256": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+      "行": [
+        23,
+        136
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go",
+      "sha256": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+      "行": [
+        227,
+        281
+      ],
+      "固定115閉包SHA同体": true
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\p05.go",
+      "sha256": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+      "行": [
+        9,
+        12
+      ],
+      "固定115閉包SHA同体": true
+    }
+  ],
+  "三層の区別": [
+    "Selected内部Shadow(S01/P05/D07)",
+    "Source111 Adapterのselected Portfolio/費用0仮想fill",
+    "外115Actualの費用後mini実建玉模型"
+  ],
+  "Source返送制約": [
+    "SourceConsumerはBegin/Step/Endのerrorだけ、Actual fill戻し口なし",
+    "拒否/上限0でも出生一回を消費し同出生を再開しない",
+    "保護実決済後も源Lots/親/内部Shadow/通知時計は変わらない",
+    "Source返済は源Before比率を実freeへceil配分、実残0なら追加返済0"
+  ],
+  "運用化の変更点": [
+    "Adapterの選定外層の自動仮想fillを約定確認駆動へ変更",
+    "外保護注文をPortfolio Orders/Selected Intentsと所有/予約へ登録する新APIが必要。未登録P100注文のOnFill横流し不可",
+    "OnFill/OnOrderDone/OnOrderRejectedを証券注文/約定IDと部分約定/取消/拒否へ接続",
+    "内部Shadowの親/キャンペーンをどう終了/再armedするかは別の戦略変更。約定返送だけで即再参加を保証しない"
+  ],
+  "証明の限界": [
+    "失敗機序の観測と新案の収益性は別。候補の改善未確認。",
+    "実mini板/証券API/実受信時計の運用検証は今回実施しない。"
+  ]
+}

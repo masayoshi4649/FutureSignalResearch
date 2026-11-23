@@ -1,0 +1,11 @@
+{
+  "試行": 116,
+  "成功": true,
+  "format": "zstd_of_exact_json_bytes",
+  "索引": "Native可逆圧縮索引.json",
+  "同階層の保存先": "Native_zstd",
+  "元gzipは正式に存在するか": false,
+  "復元": "保存コード索引からGo1.24.2再圧縮exeを復元し、保管する.py --restore-index 正式索引 --sha256 索引SHA --session 場 --restore-out 未作成work先 --restorer 保存exe。元gzipのSHAとsizeまで照合する。",
+  "金融再生": false,
+  "元gzip削除": false
+}

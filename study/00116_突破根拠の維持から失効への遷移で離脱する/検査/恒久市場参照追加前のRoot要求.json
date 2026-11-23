@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "trial": 116,
+  "fixed": true,
+  "stage": "full70",
+  "formal_write_authorized": true,
+  "market_native_read_authorized": true,
+  "raw_audit_read_authorized": true,
+  "refs": {
+    "reuse_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存の元54再用と追加16_金額型の復元\\停止.json",
+      "sha256": "274f77930b7a356c73ba32f0e026932f8821c4ed2222e402db028404306e566a"
+    },
+    "save_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\会計停止.json",
+      "sha256": "397ee90a93f491f5cf1842f70b4a974a0435fdb84eae8987416881e40af5a12d"
+    },
+    "P_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\P停止.json",
+      "sha256": "6c1e1f74465527550d0ca2b62127495a7d5c3c70c5a125a0576801873a26f47d"
+    },
+    "life_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\ライフ停止.json",
+      "sha256": "ec1f6fef55c1717e3592be24c74259d5f837be2eb0096dea73c2ce0a39805769"
+    },
+    "raw_reader_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原板の原行を独立配送する\\停止.json",
+      "sha256": "82806b85f939d9ba67190cee10bedbff9d3a8ecade47886a9862bdb0f940cf14"
+    },
+    "raw_consumer_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原行から失効最初性を独立検算する\\停止.json",
+      "sha256": "1afecc2a6a86c0702201fcd3c300ca4f0d8c2c914b08673fd5f038ad8a7ceb56"
+    },
+    "raw_builder_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原板要求の準備\\停止.json",
+      "sha256": "11216a11c9551d6ed451e2503f155a63508d1018fb9d413db07360981e403f40"
+    },
+    "csv_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116損益CSVの出力\\停止.json",
+      "sha256": "806ef4a30a9668d2cf50fcf1c370f426b134e4dd4d31035704bc9484878d1b4d"
+    },
+    "binder_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116設定表の結果結合準備\\停止.json",
+      "sha256": "f488d13fdf9c2dc973aa6bb0c77f21e0b1e7908b8f0d60de018557d78973b35b"
+    },
+    "native_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\停止.json",
+      "sha256": "f9a6fe827363a31bdf37b393e532dea3ccd66f389565374654b0ba7e06720d13"
+    },
+    "condition": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1_116金融条件.json",
+      "sha256": "4c76a5f7cd8a59962e885cadf6885cfc75cbc590675955cb8e72ae2d0b8bb372"
+    },
+    "market": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\全70場\\完了.json",
+      "sha256": "e9b5c2db15e2968b627b9f38ed1d8b53b9ba294800b96e35839fec4d25f38131"
+    },
+    "result": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\全70場\\結果.json",
+      "sha256": "906c242cdb8bdd937cf98711b33cb6b6c5cb9f2e6701ff5e2d5c8c2968904781"
+    },
+    "saved_check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\全70場\\保存会計の確認.json",
+      "sha256": "510a3d2a8343aa150421cdb6c0d815cf402aceacc681d32261157852a0d09f2a"
+    },
+    "base54_check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\元54場\\保存会計の確認.json",
+      "sha256": "0af2eb07920e47308c497023a320c5563411fd978b843a09feb98cdbda15958c"
+    },
+    "csv_check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\全70CSVの独立再読.json",
+      "sha256": "e88176ad2440aef02c33d715b246350dcdbcb1c183a48614b72ef9391cef902f"
+    },
+    "code_sources": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\保存コードの依存参照.json",
+      "sha256": "ce2e7fcd04b5125da7869488fde5be0912cae25dd65aaa50e04e4516f2bdc3a4"
+    },
+    "native_request": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\全70Native可逆保管のRoot要求.json",
+      "sha256": "eac5c51c3ab9ea91e22cf27818e21c30df4dbdf8a9a21f6cc1f1ab7a08f9183a"
+    },
+    "native_index": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116Nativeを可逆圧縮して保管する\\全70場_新規\\Native可逆圧縮索引.json",
+      "sha256": "81ee44bb051b60c6a20b75a063c07c36ff50be2f41d265a9d48278887af75a3d"
+    },
+    "formal_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\Root承認後の停止\\停止.json",
+      "sha256": "4ec0e55f59aded77672f57d637b2846e0091436cfa942f8e9df685afc69e3395"
+    },
+    "code_material": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\Root承認後の停止\\コード分類素材.json",
+      "sha256": "5d7c3927d8c5dd18072b073a36e6404a6e4a0521a9554acc3507a49d5b1b5e66"
+    },
+    "raw_request": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\full70_原行監査のRoot要求.json",
+      "sha256": "72bfae81931c6d931f7f43edf1dad9503936eb9046a7b270e27344e259f6e6bd"
+    },
+    "raw_check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原行監査F1\\全70場\\全70原行監査の確認.json",
+      "sha256": "841ad3512f5589b94ab58c4930df642aa2e454fe14892c627796c35456d57276"
+    }
+  },
+  "csv_refs": {
+    "候補別集計.csv": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\116損益CSV\\候補別集計.csv",
+      "sha256": "62704a27698a58c9f4c4f65df063daecc892a60f4dce4cd9fb5269baa20bf6a5"
+    },
+    "全セッション.csv": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\116損益CSV\\全セッション.csv",
+      "sha256": "56cd5a2c227d4abacf3371141fb6d91af413763421805a07d8a6835c7c6f6ce2"
+    }
+  },
+  "code_refs": [
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\Coreの原文を準備する.py",
+        "sha256": "68cabd06e85c3793417dfdf32b68f34509720368ae049708a4eb66a7925a22b6"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\Coreの固定人工を派生する.py",
+        "sha256": "058a2e27c8049d8df1e584fe41a1b5b5c0888330b8c6cf16a833649cbf5f98b0"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\Coreの人工を派生する.py",
+        "sha256": "440d304984c74a23adbf16bdd0449a43225e8d67caeb0c1e99b9bf648476c4b1"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\Coreの接続を派生する.py",
+        "sha256": "6496c27f70e28d08f0681f40dd0dd1cbb8807b54c3db0857f735aa14f1a28c9c"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\Core人工の参照を作る.py",
+        "sha256": "6bb09dfd1024c8a700367920491116de37cec2c8c42a17196e1cc483a845617d"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\Core停止器を準備する.py",
+        "sha256": "7f67fe294a17c5351f869b4ad81deb5b0ee2e414ee789309534c5dac30e113c8"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\金融条件を固定する.py",
+        "sha256": "28d53311625f9c1dc771fabab0026e4dedd75b5969c1a32b00357a2caa1cfd7d"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\研究資料を準備する.py",
+        "sha256": "144c272330eeba98bd208a62f2147b93d097d96835b2e1e0a58c0a2fd8af6ef6"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\独立保存要求を固定する.py",
+        "sha256": "c7100ebb73274e0d4797ec7fceb9a417c3271b6ca4056232833ccd4c9d314888"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\独立保存要求を固定する_未読件数補正.py",
+        "sha256": "50f8282abf953f7b99b1bd45e56cd1fa8a7ba90d6201678abe11f22ea28d475e"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\診断資料を保存する.py",
+        "sha256": "754e5091092f351c4b97863948f4acf08f6a3202ba73a1344e3bff40da244ccd"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\全70原行監査を実行する.py",
+        "sha256": "33712db08b9ccdefd3db24d59674d95f4617e202b6432f128e7d6bce4d82c334"
+      },
+      "role": "Root実使用の116準備/派生/条件固定/段階要求/監査実行。金融1855閉包の外側"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\文書をまとめる.py",
+        "sha256": "c33e2ce76280d6846bdc7269c34cdf0cf1a2e7685bc6ea072c56e6b436325027"
+      },
+      "role": "Root後段のREADME/state/設定表更新専用。CSVや金融を生成しない。実行履歴は後段検査へ"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116実退出の違いを当時の技法で調べる\\調べる.py",
+        "sha256": "42a433de552000a2a12858081470e5d97cbc63087e9d663193b82ad290001d26"
+      },
+      "role": "許可2Nativeからの記述診断の再現code。正式診断の同bytes成果物からも復元する"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116実退出の違いを当時の技法で調べる\\人工検査.py",
+        "sha256": "532850011fa9e1f3a38b8c8c2971a920e958be5f63882bb760e68a5d3b85d447"
+      },
+      "role": "2例診断の照合関数の人工検査。自然再生は行わない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\最終素材を組み立てる.py",
+        "sha256": "ad3978016d8ade4473e2ae126b29830830f35d35bbd0bb137a4739b914714269"
+      },
+      "role": "未許可最終素材と純bytes metadata圧縮の組立を再現するコード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataを復元する.py",
+        "sha256": "c13abaa0d2310f561d2ad17d4ea7f52f5ec9d694347a2aadd4d77307ad6bec49"
+      },
+      "role": "元54結果等のgzipから元JSONのSHA/sizeまで復元。金融意味解析なし"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\正式要求を確定する.py",
+        "sha256": "b057d2242525f7fb26204c8396a1ee5fce27ac4344095ef42caa5b055bb42ab7"
+      },
+      "role": "Rootの後段要求/文書整理。金融条件・市場計算は変更しない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\結果文書を更新する.py",
+        "sha256": "92d0c1426df8a8638c973e830750c67669bb525a6a3c03774b37590d3ad78db2"
+      },
+      "role": "Rootの後段要求/文書整理。金融条件・市場計算は変更しない"
+    }
+  ],
+  "extra_refs": [
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1固定の確認.json",
+        "sha256": "069320ef3dd774d7a44fca4db0d8da11356207b8c878113f1a8b69fb7ad74c1c"
+      },
+      "target": "検査/段階/F1固定の確認.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1固定と先頭2開始の確認.json",
+        "sha256": "dcc6f2745981954ddd6f6f8244fdb9cb5674038cc92f23ce9299cf2074bc1cae"
+      },
+      "target": "検査/段階/F1固定と先頭2開始の確認.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\元54成功と全70開始の確認.json",
+        "sha256": "7961b76c7b0a4a523fe704364da30bafdba59788946d3bc5c1ebbb7e8cd9d2df"
+      },
+      "target": "検査/段階/元54成功と全70開始の確認.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\先頭2成功と独立metadata型差の記録.json",
+        "sha256": "d0451b069775d9f550f310761a47b87ddc851fafb01ad746a88ae763be8dbbb9"
+      },
+      "target": "検査/段階/独立metadataの型差と継承.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\first2_独立保存要求_未読件数補正.json",
+        "sha256": "234d1decd9f80754cbe78b728990e5ab556a26cc32263c540752d63cc195c0c2"
+      },
+      "target": "再現資料/段階要求/先頭2独立保存.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\base54_独立保存要求_未読件数補正.json",
+        "sha256": "8a1d1cccdc6f76412331eab2b3d66cad6a55193c0151f3661ebed07c24cded02"
+      },
+      "target": "再現資料/段階要求/元54独立保存.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\full70_元54独立再用のRoot要求_金額型復元.json",
+        "sha256": "41914d886a6a35ef4bc9f53ec5b29c7776ac4ecc60e99a47f0a5a75d4e64c311"
+      },
+      "target": "再現資料/段階要求/元54継承と追加16の実Root要求.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\first2_原板要求作成のRoot要求.json",
+        "sha256": "7efc04b6963ecb81ca652aec66257f6d2e4501857143776e510d010b82c90176"
+      },
+      "target": "再現資料/段階要求/先頭2Reader要求の準備.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\first2_ReaderのRoot要求.json",
+        "sha256": "1edbb266561c3c0e4f4859c3551fe5fd0383bbace5f3f6081f6cafd67d1bdc65"
+      },
+      "target": "再現資料/段階要求/先頭2Reader.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\first2_原行監査のRoot要求.json",
+        "sha256": "083d9d8f31e5e9620798e1a11a589ceb206aa8eed3de68787863cabc63a39dcd"
+      },
+      "target": "再現資料/段階要求/先頭2原行監査.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\full70_原板要求作成のRoot要求.json",
+        "sha256": "926599c029b602e89c593f94a5a8ebf02e27e412d356e62b3e022f90af2781b0"
+      },
+      "target": "再現資料/段階要求/全70Reader要求の準備.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\全70CSVのRoot要求.json",
+        "sha256": "512dbf6cbc976816394fbcc834244013d043c266772fe0f544662f70b51236b9"
+      },
+      "target": "再現資料/段階要求/CSV二点の実要求.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\全70設定表結合のRoot要求.json",
+        "sha256": "71a8777d32c7e6ea507445645a5537b57e4b9d4e287cab7591a58393e16b70ea"
+      },
+      "target": "再現資料/段階要求/設定表結果結合.json",
+      "role": "当時の段階記録又は実使用Root要求。現在の完了状態へ書き換えない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\Root正式要求_未許可.json",
+        "sha256": "62ee6cb0bc2120aa6e6b9db9e67c57fd2021f299f42a594611770ff056a16fd8"
+      },
+      "target": "再現資料/正式器の未許可原素材.json",
+      "role": "最終素材組立helperがSHA62eeで認証する原入力。金融正式要求とは区別"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\116損益CSV\\CSVの確認.json",
+        "sha256": "2ec4d3ad9f3777d2ebdc9508117147d9b620b036e253b5bba44486c3a574605b"
+      },
+      "target": "検査/CSV出力の確認.json",
+      "role": "Root CSV二点生成の確認。CSV本文はoutputs唯一正本"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116設定表の結果結合準備\\全70結果版\\結合の確認.json",
+        "sha256": "00f8063392114cb939bb734f3fc680e9b264db329031405a5d69d3bf64cb1c79"
+      },
+      "target": "検査/設定表の結合確認.json",
+      "role": "56×9/S28/R36の結果結合確認"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116設定表の結果結合準備\\入力表.md",
+        "sha256": "baad89d6cec9164e5f76c206e00b392222e97caf5879b0b852a1eca00684a9cd"
+      },
+      "target": "再現資料/設定表の固定入力.md",
+      "role": "binderがsource_tableへ要求する元path/baad89の同bytes入力"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116実退出の違いを当時の技法で調べる\\2例の実退出と当時の根拠.md",
+        "sha256": "12d5b2df1a197cb8fc5157e5718c01f817d72cfd23b4727a1091391902d54dca"
+      },
+      "target": "診断/2例の実退出と当時の根拠.md",
+      "role": "9/30と10/26の同入口記述。新閾値や退出後仮想利益は作らない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116実退出の違いを当時の技法で調べる\\同入口の要点.json",
+        "sha256": "51f0810e5f88c26155023db370c07679a6e5e54f7f177a37b56a7c1bfbeaeee9"
+      },
+      "target": "診断/同入口の要点.json",
+      "role": "2例の当時値をまとめた小要点。ここでは内容を再解析しない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116実退出の違いを当時の技法で調べる\\当時値の詳細.json.gz",
+        "sha256": "7f8a89913bc84aa4f18ee30307669c060a971f1da7069bb69dd82dc321a60075"
+      },
+      "target": "診断/当時値の詳細.json.gz",
+      "role": "2例診断の圧縮詳細を同bytes保存。再解析しない"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116実退出の違いを当時の技法で調べる\\調べる.py",
+        "sha256": "42a433de552000a2a12858081470e5d97cbc63087e9d663193b82ad290001d26"
+      },
+      "target": "診断/調べる.py",
+      "role": "診断MDの相対リンク先。code_refsと一つの正式同bytes成果物を共有"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\元54独立結果.json.gz",
+        "sha256": "6965778c04e275884723660a3829193e9dbae1e98b92a61c40ac932628d4ec51"
+      },
+      "target": "再現資料/段階metadata/元54独立結果.json.gz",
+      "role": "元JSONの純bytes gzip。元Ref/SHA/sizeは同階層復元索引に保存"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\元54金融完了.json.gz",
+        "sha256": "4b458c78abc70e638c15aef04dca384ff08377af9ee844337f2af58211f97b29"
+      },
+      "target": "再現資料/段階metadata/元54金融完了.json.gz",
+      "role": "元JSONの純bytes gzip。元Ref/SHA/sizeは同階層復元索引に保存"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\先頭2金融完了.json.gz",
+        "sha256": "f88b182bc5c364c0af3e67c81e62105be9f97beb6c7471efcc1b1cfe2faa152c"
+      },
+      "target": "再現資料/段階metadata/先頭2金融完了.json.gz",
+      "role": "元JSONの純bytes gzip。元Ref/SHA/sizeは同階層復元索引に保存"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\先頭2独立保存確認.json.gz",
+        "sha256": "eb89137b96469dc4816dcc08d20455c5cf03ce059aee5577ccb778a2ae4b5282"
+      },
+      "target": "再現資料/段階metadata/先頭2独立保存確認.json.gz",
+      "role": "元JSONの純bytes gzip。元Ref/SHA/sizeは同階層復元索引に保存"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\正式器のRootレビュー前確認.json.gz",
+        "sha256": "ed63d41e237a30f34dba4ceec3211f5ca10e0d3b54b4216a979c454809a7996c"
+      },
+      "target": "再現資料/段階metadata/正式器のRootレビュー前確認.json.gz",
+      "role": "元JSONの純bytes gzip。元Ref/SHA/sizeは同階層復元索引に保存"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\大きいmetadataの復元.json",
+        "sha256": "5aa48d1e5c0be11638b9056c62af898b386ee4c43ed01111cf63d4609e772781"
+      },
+      "target": "再現資料/段階metadata/大きいmetadataの復元.json",
+      "role": "圧縮JSONの元Ref/SHA/bytesと全bytes復元証拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataを復元する.py",
+        "sha256": "c13abaa0d2310f561d2ad17d4ea7f52f5ec9d694347a2aadd4d77307ad6bec49"
+      },
+      "target": "再現資料/段階metadata/大きいmetadataを復元する.py",
+      "role": "復元索引と同階層のCLI。code_refsからも同成果物へ結ぶ"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\正式要求の最終素材.json",
+        "sha256": "a06e84046bb62c89ed675103f6c77c1c003edff54f871145f055465daef8050c"
+      },
+      "target": "再現資料/正式要求の未許可最終素材.json",
+      "role": "Root許可前の素材と純bytes復元依存の確認"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\最終素材と再現依存の確認.json",
+        "sha256": "fe8979d2034abfb5199dc6d618ed3f650447fbdf2ed436e339b8aed2a05d5936"
+      },
+      "target": "検査/正式要求素材の確認.json",
+      "role": "Root許可前の素材と純bytes復元依存の確認"
+    }
+  ],
+  "Rootが全成功後に置換するもの": [],
+  "注意": [
+    "未許可要求。現状は最初のgateで拒否する。",
+    "CSV2点のpath/SHAはRootの再読metadataから取得した文字列で、本文を新たに読んでいない。",
+    "元金融gzip/Raw/価格CSV/全tickを複写しない。",
+    "元54継承＋新16の独立検算。全70Nativeを新たに意味再検算したとは呼ばない。",
+    "正式保存済み/Viewer済み/研究目標達成/採用は今回の準備段階ではない。"
+  ],
+  "追加資料の扱い": "元54result等は純bytes gzipから元JSON_SHAまで復元する。元54checkは自動保存。診断コードは同bytes正式成果物をcode索引が参照する。",
+  "Rootレビュー": "保存器12主人工・旧依存/所有前後同体と別担当レビューを確認。全70金融/独立/Raw/CSV再読/可逆保管成功後の正式保存を許可。11月09の読取、新金融実行、CSV再生成は許可しない。",
+  "未許可素材のRef": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\正式要求の最終素材.json",
+    "sha256": "a06e84046bb62c89ed675103f6c77c1c003edff54f871145f055465daef8050c"
+  }
+}

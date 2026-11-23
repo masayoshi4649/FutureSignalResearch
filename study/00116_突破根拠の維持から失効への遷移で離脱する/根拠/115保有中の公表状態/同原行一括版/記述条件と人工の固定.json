@@ -1,0 +1,65 @@
+{
+  "成功": true,
+  "用途": "115実績の記述診断であり新金融条件ではない",
+  "条件": {
+    "主集合": "115TR_C0_D0の成立34Source出生。T28は内数。",
+    "追加費用": "他3費用は実取得Quote/価格/初期量または費用外実返済執行が主条件と異なるものだけ別記。",
+    "保有区間": "実取得Index<公表配送Index<=最終返済Index。取得原行の公表はfill前なので初期へ、返済原行の公表はfill前なので区間内へ。",
+    "基準": "取得判断で凍結した5m prior3境界。取得時の最新配送asofを別に初期状態として持つ。",
+    "遅延公表": "Frame.End<=実取得時刻の取得後配送と、End>実取得時刻を分離。",
+    "未知": "非価格足/数値Known不足/古い公表/欠足を未知とし、未知をまたぐ新遷移は証明しない。",
+    "W": "marks/保護audit等の実保存点の前後だけ。任意公表時のCloseからWを補完しない。",
+    "用途": "最終win/lossは記述分類。新しい出口の効果/仮想収支/機会損失の計算ではない。"
+  },
+  "列挙条件": {
+    "境界のstrict内戻り": [
+      300,
+      "boundary",
+      false
+    ],
+    "境界の突破維持喪失": [
+      300,
+      "boundary",
+      true
+    ],
+    "15DIの逆側または0": [
+      900,
+      "di",
+      true
+    ],
+    "5Histの方向調整増分負": [
+      300,
+      "hist_delta",
+      false
+    ],
+    "5Histの方向調整水準負": [
+      300,
+      "hist",
+      false
+    ],
+    "30Gの逆側または0": [
+      1800,
+      "gap",
+      true
+    ],
+    "30Gのstrict逆側": [
+      1800,
+      "gap",
+      false
+    ],
+    "30Gの取得時符号からの反転": [
+      1800,
+      "gap_flip",
+      false
+    ]
+  },
+  "補正": "同原行の全5/15/30公表はActor評価前に揃うため、付随文脈へ同原行を含める。単独初回条件は不変。",
+  "所有コードSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116根拠失効の事前診断\\同原行一括版\\状態を診断する.py": "4e0c7f619554b1ff44fad09673087e229d147de4693ff1df013723b21b4e7c26",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116根拠失効の事前診断\\同原行一括版\\人工検査.py": "be9915f645334dd9c346dbe9597bdecb940986792708fff39473540ab0c4074d"
+  },
+  "人工": 9,
+  "人工ログ": "test_all_scales_same_quote_before_actor (__main__.Tests.test_all_scales_same_quote_before_actor)\n機能: 同原行の後段に列挙された15/30足もActor評価前の既公表へ含める。 ... ok\ntest_initial_already_adverse_and_unknown (__main__.Tests.test_initial_already_adverse_and_unknown)\n機能: 取得時から逆の状態を取得後の初失効にしない。 ... ok\ntest_mirror_and_hist_continuity (__main__.Tests.test_mirror_and_hist_continuity)\n機能: 売買鏡像の境界/Hist符号と連続足の実増分を照合する。 ... ok\ntest_publication_causality_and_duplicate (__main__.Tests.test_publication_causality_and_duplicate)\n機能: 同IDの再公表不変、未来値と場違いを拒否する。 ... ok\ntest_same_second_physical_boundaries (__main__.Tests.test_same_second_physical_boundaries)\n機能: 同秒の実取得前/後・最終返済前公表をIndexで判別する。 ... ok\ntest_stale_or_missing_not_zero (__main__.Tests.test_stale_or_missing_not_zero)\n機能: 古い公表/非価格足/数値不足を値0へ補わない。 ... ok\ntest_unknown_gap_and_nominal_end (__main__.Tests.test_unknown_gap_and_nominal_end)\n機能: 欠測跨ぎの新遷移を捏造せず、遅延公表と取得後Endを区別する。 ... ok\ntest_w_saved_brackets_and_r_background (__main__.Tests.test_w_saved_brackets_and_r_background)\n機能: Wの保存点前後だけを返し、Rの初期逆背景の符号反転を別に扱う。 ... ok\ntest_zero_and_unknown (__main__.Tests.test_zero_and_unknown)\n機能: 0/strict内戻り/未知を同一にしない。 ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.001s\n\nOK\n",
+  "前後不変": true,
+  "Raw/CSV/金融実行": 0
+}
