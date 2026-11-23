@@ -1,0 +1,96 @@
+{
+  "版": 1,
+  "試行": 109,
+  "確認者": "独立担当nov06_exit",
+  "確認日時UTC": "2026-11-09T11:07:28.547980+00:00",
+  "範囲": "正式文書4点、既存正式結果JSON3点、候補集計と全セッションCSV2点の読取。文書編集と金融再実行なし。",
+  "数値確認成功": true,
+  "文書表の確認行数": {
+    "study\\00109_三時間軸の取得確認と一定利益の必須保護\\README.md": 6,
+    "study\\00109_三時間軸の取得確認と一定利益の必須保護\\設定と結果.md": 24,
+    "docs\\議論\\三時間軸と一定利益保護の比較結果.md": 6
+  },
+  "CSV": {
+    "候補行": 24,
+    "セッション行": 1680,
+    "各候補の場数": 70,
+    "集計照合": "新規件数・枚数・粗額・手数料・追加滑り・純額・保存点連結時価DD・参加枠/分母/率を結果JSONと照合",
+    "セッション再集計": "数量・粗額・費用・純額・参加を候補合計へ照合、条件ごと累計を再計算",
+    "相違": [],
+    "結果SHA256一致": true
+  },
+  "補足照合": {
+    "同入口比較": 24,
+    "全比較の実入口同体": true,
+    "夜間25%以上候補数": 0,
+    "主25%以上候補": "entry_E0_G0の4費用だけ",
+    "技術成立枠": 46,
+    "既知候補": 12928,
+    "未知候補": 3032,
+    "11月06日C0D0G2の日夜合計円": -7620
+  },
+  "表現確認": {
+    "30分単独効果の主張なし": true,
+    "E1の3件を精度の証明にしていない": true,
+    "機会損失や未参加仮想利益を評価していない": true,
+    "G1とG2の入口同体と出口差を区別": true,
+    "新候補不採用と目標未達を明記": true,
+    "一般化の限界": "既使用70場の探索比較。mini実板・実約定と新未使用場は未検証。"
+  },
+  "今回の指摘と反映": {
+    "曖昧な主語": "実利益2191254円・純額2501000円悪化はG2の数値。Rootが両文書の主語をG2の一定利益後の必須保護・可変幅へ修正し、独立担当が現在版を再読した。",
+    "文書編集者": "Root。独立担当は編集していない。"
+  },
+  "リンク": {
+    "検査対象": "Markdown形式の主要ローカルリンクの対象存在。本文や画像の再現性検査ではない。",
+    "総数": 95,
+    "文書別": [
+      {
+        "文書": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\README.md",
+        "Markdownリンク数": 15
+      },
+      {
+        "文書": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\設定と結果.md",
+        "Markdownリンク数": 73
+      },
+      {
+        "文書": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\docs\\議論\\三時間軸と一定利益保護の比較結果.md",
+        "Markdownリンク数": 3
+      },
+      {
+        "文書": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\109損益CSV\\README.md",
+        "Markdownリンク数": 4
+      }
+    ],
+    "作成待ち": [],
+    "全リンク接続確認済み": true
+  },
+  "入力SHA256前": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\README.md": "0fc55e61e5bb895e20bf4c2a46af7c99255ce0e99289d2f8074069419f17ae46",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\設定と結果.md": "3df75015712d59e5725655dd8414446352a6715a5b491067f3958083eb64836d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\docs\\議論\\三時間軸と一定利益保護の比較結果.md": "e7be8e36433ad9760a8e8ae28b6b9c3338a6e64a5a3ce55272fbb991f6a09e80",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\109損益CSV\\README.md": "91ec8c80cbbe9d73757fc84f4e21d620adb90029cffec666bcbb01ce4b04b731",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物\\結果.json": "9f413d384b7831f60e0a2a743c3f3017a16d466592c7438e8aca956cd1a54804",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\検査\\頻度の独立集計.json": "5557100665145ea42b54b3a5bb953508f0715cd33291a916a75a04d7ca7d0519",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\診断\\同入口の出口比較\\要約.json": "8b3729864b60bba3f4ec612d2c00a2c515a57d5aaee47c57ac6ad2a160053b8e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\109損益CSV\\候補別集計.csv": "d735db1919987e4b8eef5f62f3e270ae90773f4f7f493bc7c29229340c96ebc2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\109損益CSV\\全セッション.csv": "7386a485fc4925381ff5be8a69cad1f1c48a7227879786d5f5d6161cca121e39"
+  },
+  "入力SHA256後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\README.md": "0fc55e61e5bb895e20bf4c2a46af7c99255ce0e99289d2f8074069419f17ae46",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\設定と結果.md": "3df75015712d59e5725655dd8414446352a6715a5b491067f3958083eb64836d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\docs\\議論\\三時間軸と一定利益保護の比較結果.md": "e7be8e36433ad9760a8e8ae28b6b9c3338a6e64a5a3ce55272fbb991f6a09e80",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\109損益CSV\\README.md": "91ec8c80cbbe9d73757fc84f4e21d620adb90029cffec666bcbb01ce4b04b731",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物\\結果.json": "9f413d384b7831f60e0a2a743c3f3017a16d466592c7438e8aca956cd1a54804",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\検査\\頻度の独立集計.json": "5557100665145ea42b54b3a5bb953508f0715cd33291a916a75a04d7ca7d0519",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\診断\\同入口の出口比較\\要約.json": "8b3729864b60bba3f4ec612d2c00a2c515a57d5aaee47c57ac6ad2a160053b8e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\109損益CSV\\候補別集計.csv": "d735db1919987e4b8eef5f62f3e270ae90773f4f7f493bc7c29229340c96ebc2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\109損益CSV\\全セッション.csv": "7386a485fc4925381ff5be8a69cad1f1c48a7227879786d5f5d6161cca121e39"
+  },
+  "前後不変": true,
+  "原板読取": false,
+  "SourceRecord本文読取": false,
+  "全金融再実行": false,
+  "未使用11月09日本文読取": false,
+  "未使用11月09日本文hash": false
+}

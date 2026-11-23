@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "trial": 109,
+  "fixed": false,
+  "phase": "人工停止完了・技法条件の市場前固定へ",
+  "status": "市場損益未計算",
+  "scope": "24Main、既使用70は108Q0保存4費用比較、新11/09は固定後の保留確認",
+  "configs": [
+    {
+      "candidate": "entry_E0_G0",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E0_G0",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E0_G0",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E0_G0",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E0_G1",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E0_G1",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E0_G1",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E0_G1",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E0_G2",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E0_G2",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E0_G2",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E0_G2",
+      "entry_policy": "entry_E0",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E1_G0",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E1_G0",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E1_G0",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E1_G0",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G0",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E1_G1",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E1_G1",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E1_G1",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E1_G1",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G1",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E1_G2",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E1_G2",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "candidate": "entry_E1_G2",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "candidate": "entry_E1_G2",
+      "entry_policy": "entry_E1",
+      "protection_policy": "G2",
+      "entry_timing": "B5QD",
+      "quiet_seconds": 1200,
+      "slip_pts": 5,
+      "delay_seconds": 1
+    }
+  ],
+  "source_manifest": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json",
+    "sha256": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8"
+  },
+  "source_corpus": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\Source台帳_70場.json",
+    "sha256": "ca6206d47d36772fff84d230073bd4346b1e785d5b0bb98c565bafe6c92fb441"
+  },
+  "source_completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\106市場\\全70場\\完了.json",
+    "sha256": "c1370aac63c1905f132237becd5d5bb37c6bd06e20b061800c9d0caa02a1769f"
+  },
+  "baseline_closure": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00108_開始静観20分と30分の比較\\完了記録.json",
+    "sha256": "d22a5c0a9bdad7b82dfa3afa2d9d100a2ebc834b9e97291099ada1db8093c30b"
+  },
+  "baseline_native_index": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00108_開始静観20分と30分の比較\\成果物_金融\\Native参照台帳.json",
+    "sha256": "1d2cc8e4256862dd00dfeb720a7c75b62fdde79f3e3ddc19d9b71ba7a9c7f040"
+  },
+  "method_catalog": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\レポート\\手法カタログ_版6.json",
+    "sha256": "5c383fc2e6f39e96d0163fe1c84d97d57eaf4e41424f521631e59c5d431a4a42"
+  },
+  "catalog_version": 6,
+  "additional_candles": {
+    "symbols": [
+      "NK225"
+    ],
+    "source": "上記Source入力台帳内のNK225_candle_300",
+    "formation": "Session.Start起点で完全3/6子を15/30へ、足終+60秒モデル、同限月数値carry、未知を分母保持"
+  },
+  "holdout": {
+    "session": "2026-11-09_Day",
+    "metadata": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\保留入力のファイルメタデータ.json",
+      "sha256": "e482621d84f8769d36c76d55cb60af66ee22ed935733312d9fa57ce180991b58"
+    },
+    "price_interpreted": false,
+    "pnl_read": false,
+    "before_open_required": [
+      "入口・保護条件とコード/実行物固定",
+      "既使用探索と確認対象を区別して固定",
+      "新RawSource形成コードと入力指紋固定"
+    ]
+  },
+  "pending": [
+    "技法/全依存/実行物固定",
+    "頻度first2→full70",
+    "固定技法の金融first2→full70",
+    "保存/CSV/Viewer",
+    "固定済確認対象での未使用場確認"
+  ],
+  "financial_executed": false,
+  "xlsx": false,
+  "goal_achieved": false,
+  "clock_model": "csv_end_plus60_at_record_scheduler",
+  "baseline_completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\108市場\\全70場_中断後の同条件再実行\\完了.json",
+    "sha256": "bf0278e332386701221313de8a215fe04adea7666c22bad54c0055303440aae4"
+  }
+}
