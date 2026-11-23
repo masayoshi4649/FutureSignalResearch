@@ -1,0 +1,48 @@
+{
+  "試行": 206,
+  "archive": {
+    "path": "study/00206_指数間の相対変化を複合入口へ加える/金融独立Source.zip",
+    "bytes": 28231,
+    "sha256": "5fb0cb39844d13e71d602f03f4c69150811f1e8748334246f879107cd27b4fcb"
+  },
+  "members": [
+    {
+      "path": "work/183損失安定性/TOPIXを独立検算する.py",
+      "bytes": 10571,
+      "sha256": "c1713bf11f41524fc7d4a0d81809009da8ad0533513877bb4469af1de797072f"
+    },
+    {
+      "path": "work/183損失安定性/新候補の集計を独立検査する.py",
+      "bytes": 8657,
+      "sha256": "ccbc3cbe8116bb9358b13a19579c0a779546176c18db5fab5944e3ee2a5ca535"
+    },
+    {
+      "path": "work/201独立検査/独立確認201.py",
+      "bytes": 23816,
+      "sha256": "67695f342b0c291c4233fce1d3dfff26a191a9d4f87823d8e919c8b2cfd2887a"
+    },
+    {
+      "path": "work/206独立確認/主条件の実取得差を分類する.py",
+      "bytes": 9320,
+      "sha256": "8484d33380fe77df61e6a5a8fb5bdb5c6ca0e36d27184bb725d3206ce5a2ce9d"
+    },
+    {
+      "path": "work/206独立確認/金融を独立確認する.py",
+      "bytes": 14344,
+      "sha256": "f4992ba1c3d2a86fb8b01e9a73c351864596b5f65e96acd0337c85a787b49463"
+    },
+    {
+      "path": "work/206独立確認/金融資料を保存する.py",
+      "bytes": 3390,
+      "sha256": "87e88448dc430303a2b68c046a918fb4bc86a02fd8609e27f40e3b8f5dd40fa0"
+    }
+  ],
+  "既存IFDセルと生産Sourceの依存": "201/206の主金融Sourceと恒久入力を復元して利用。原板や金融行列を重複収録しない。",
+  "独立範囲": "一件枠・取得選択・費用式・集計・実現差分。原BBO再走査ではない。",
+  "dependencies": {
+    "Python": "3.14.3",
+    "numpy": "2.5.4",
+    "orjson": "3.13.0",
+    "tzdata": "2026.6"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "base_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00215_追加デイで日経とTOPIXの固定入口を再検証する\\Viewer",
+  "resources": [
+    {
+      "id": "日経199_02",
+      "title": "日経199_02　11月19日デイ",
+      "symbol": "NK225",
+      "session": "2026-11-19_Day",
+      "product": "NK225mini",
+      "method_id": "日経199_02",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-19_Day\\book.jsonl",
+      "pnl_path": "日経199_02.trades.jsonl"
+    },
+    {
+      "id": "TOPIX移植03",
+      "title": "TOPIX移植03　11月19日デイ",
+      "symbol": "TOPIX",
+      "session": "2026-11-19_Day",
+      "product": "miniTOPIX",
+      "method_id": "TOPIX移植03",
+      "point_value": 1000,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-19_Day\\book.jsonl",
+      "pnl_path": "TOPIX移植03.trades.jsonl"
+    },
+    {
+      "id": "日経通知でTOPIX",
+      "title": "日経通知でTOPIX　11月19日デイ",
+      "symbol": "TOPIX",
+      "session": "2026-11-19_Day",
+      "product": "miniTOPIX",
+      "method_id": "日経通知でTOPIX",
+      "point_value": 1000,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-19_Day\\book.jsonl",
+      "pnl_path": "日経通知でTOPIX.trades.jsonl"
+    }
+  ]
+}

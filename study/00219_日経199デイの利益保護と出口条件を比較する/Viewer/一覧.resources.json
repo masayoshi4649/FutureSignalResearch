@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "base_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00219_日経199デイの利益保護と出口条件を比較する\\Viewer",
+  "resources": [
+    {
+      "id": "2026-10-07_IFD",
+      "title": "10-07 デイ 元IFD",
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "method_id": "IFD",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-07_IFD.trades.jsonl"
+    },
+    {
+      "id": "2026-10-07_W31",
+      "title": "10-07 デイ W31 午後の低効率時だけ損幅を拡大",
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "method_id": "W31",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-07_W31.trades.jsonl"
+    },
+    {
+      "id": "2026-10-07_W36",
+      "title": "10-07 デイ W36 元の損幅で追尾",
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "method_id": "W36",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-07_W36.trades.jsonl"
+    },
+    {
+      "id": "2026-11-17_IFD",
+      "title": "11-17 デイ 元IFD",
+      "symbol": "NK225",
+      "session": "2026-11-17_Day",
+      "method_id": "IFD",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-17_Day\\book.jsonl.gz",
+      "pnl_path": "2026-11-17_IFD.trades.jsonl"
+    },
+    {
+      "id": "2026-11-17_W31",
+      "title": "11-17 デイ W31 午後の低効率時だけ損幅を拡大",
+      "symbol": "NK225",
+      "session": "2026-11-17_Day",
+      "method_id": "W31",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-17_Day\\book.jsonl.gz",
+      "pnl_path": "2026-11-17_W31.trades.jsonl"
+    },
+    {
+      "id": "2026-11-17_W36",
+      "title": "11-17 デイ W36 元の損幅で追尾",
+      "symbol": "NK225",
+      "session": "2026-11-17_Day",
+      "method_id": "W36",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-17_Day\\book.jsonl.gz",
+      "pnl_path": "2026-11-17_W36.trades.jsonl"
+    }
+  ]
+}

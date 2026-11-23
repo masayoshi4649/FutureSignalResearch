@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "base_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00228_日別の損益偏りと十月八日の入口出口を検証する\\十月八日\\Viewer",
+  "resources": [
+    {
+      "id": "RC20",
+      "title": "10月8日 RC20",
+      "method_id": "RC20",
+      "symbol": "NK225",
+      "product": "NK225mini",
+      "session": "2026-10-08_Day",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\book.jsonl.gz",
+      "pnl_path": "RC20.trades.jsonl"
+    },
+    {
+      "id": "K08",
+      "title": "10月8日 K08",
+      "method_id": "K08",
+      "symbol": "NK225",
+      "product": "NK225mini",
+      "session": "2026-10-08_Day",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\book.jsonl.gz",
+      "pnl_path": "K08.trades.jsonl"
+    }
+  ]
+}

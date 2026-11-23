@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "base_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00224_利益保護後の再エントリーをシグナルで待つ\\Viewer",
+  "resources": [
+    {
+      "id": "2026-09-28_I20",
+      "title": "09-28 デイ 単純IFD",
+      "method_id": "I20",
+      "symbol": "NK225",
+      "product": "NK225mini",
+      "session": "2026-09-28_Day",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\book.jsonl.gz",
+      "pnl_path": "2026-09-28_I20.trades.jsonl"
+    },
+    {
+      "id": "2026-10-14_I20",
+      "title": "10-14 デイ 単純IFD",
+      "method_id": "I20",
+      "symbol": "NK225",
+      "product": "NK225mini",
+      "session": "2026-10-14_Day",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-14_I20.trades.jsonl"
+    },
+    {
+      "id": "2026-09-28_RC20",
+      "title": "09-28 デイ 反対主信号2回で保護",
+      "method_id": "RC20",
+      "symbol": "NK225",
+      "product": "NK225mini",
+      "session": "2026-09-28_Day",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\book.jsonl.gz",
+      "pnl_path": "2026-09-28_RC20.trades.jsonl"
+    },
+    {
+      "id": "2026-10-14_RC20",
+      "title": "10-14 デイ 反対主信号2回で保護",
+      "method_id": "RC20",
+      "symbol": "NK225",
+      "product": "NK225mini",
+      "session": "2026-10-14_Day",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-14_RC20.trades.jsonl"
+    }
+  ]
+}

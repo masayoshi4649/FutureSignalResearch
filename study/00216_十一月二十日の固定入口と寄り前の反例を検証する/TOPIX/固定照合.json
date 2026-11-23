@@ -1,0 +1,252 @@
+{
+ "条件": "213_03・入口価格20倍・決済幅0.05倍・miniTOPIX1枚・往復費用583.6円",
+ "旧87場の純入力全列一致": 44689,
+ "旧純入力列数": 16,
+ "11月19日の取得と全監査一致": 3,
+ "11月19日の既知収支": 7249.2,
+ "入力": [
+  {
+   "場": "2026-11-19_Night",
+   "入力": {
+    "原板の展開後SHA256": "1f1ac5bc2fb941fb4f95462085e1449057a8447b0ecc0ef5bd71f69530818eea",
+    "元値索引SHA256": "ae9a07e1550951ea00ebc3123ad5cf6916be1e51aa94fef51940d73960d7e22d",
+    "candle_1min.csvのSHA256": "70268fe6b228ed81638c1137f4d3cbb0123c3b937befad89749e960983f85c31",
+    "candle_5min.csvのSHA256": "32901c7644e202974e414974613ec3e2876ac60101eb2afc8255ace046662e13"
+   },
+   "取込行数": 235680,
+   "品質": {
+    "lines": 236462,
+    "clock_missing": 0,
+    "clock_invalid": 775,
+    "outside_session": 7,
+    "backward_clock": 0,
+    "last_non_positive": 0,
+    "last_non_finite": 0,
+    "bad_bbo": 491,
+    "source_parser_accepted": 235680,
+    "cutoff_excluded": 0,
+    "source_delivered": 235680
+   }
+  },
+  {
+   "場": "2026-11-20_Day",
+   "入力": {
+    "原板の展開後SHA256": "5e9421f5b89c7e30f80bea538c809a8a3fd859a0849a0b20ee52486240409ac1",
+    "元値索引SHA256": "e732a2e18ab6c45d3ba72c48555fbd96fa21143e0e5347c9bd6465dda7713c60",
+    "candle_1min.csvのSHA256": "4e3f99d6872596670581e4ba1b7352ff4eb16c5429ef81fba5969b0dcd997958",
+    "candle_5min.csvのSHA256": "7ccb0fe599479cf4fb6e5d62fec82d08ef66a62e363c4cc7319e51309c40e90b"
+   },
+   "取込行数": 170907,
+   "品質": {
+    "lines": 172534,
+    "clock_missing": 0,
+    "clock_invalid": 1621,
+    "outside_session": 6,
+    "backward_clock": 0,
+    "last_non_positive": 0,
+    "last_non_finite": 0,
+    "bad_bbo": 633,
+    "source_parser_accepted": 170907,
+    "cutoff_excluded": 0,
+    "source_delivered": 170907
+   }
+  }
+ ],
+ "追加": {
+  "場": "2026-11-20_Day",
+  "取得": [
+   {
+    "side": 1,
+    "width": 20.0,
+    "horizon": "SESSION",
+    "entry_index": 4376,
+    "entry_line": 6004,
+    "entry_time": 1795132689.0,
+    "entry_price": 3745.0,
+    "spread": 0.5,
+    "exit_index": 26260,
+    "exit_time": 1795135211.0,
+    "exit_line": 27888,
+    "exit_price": 3725.0,
+    "status": 1,
+    "label": 1,
+    "gross": 20000.0,
+    "net": 19416.4,
+    "confirmed_until": 1795135211.0,
+    "scene": "2026-11-20_Day",
+    "request_time": 1795132680.0,
+    "request_line": 5952,
+    "added": true,
+    "branch": 0,
+    "origin": 0
+   },
+   {
+    "side": 1,
+    "width": 7.5,
+    "horizon": "H60",
+    "entry_index": 26635,
+    "entry_line": 28263,
+    "entry_time": 1795135261.0,
+    "entry_price": 3720.5,
+    "spread": 0.5,
+    "exit_index": 32006,
+    "exit_time": 1795135912.0,
+    "exit_line": 33634,
+    "exit_price": 3728.0,
+    "status": 2,
+    "label": -1,
+    "gross": -7500.0,
+    "net": -8083.6,
+    "confirmed_until": 1795135912.0,
+    "scene": "2026-11-20_Day",
+    "request_time": 1795135260.0,
+    "request_line": 28254,
+    "added": false,
+    "branch": 0,
+    "origin": 0
+   },
+   {
+    "side": 1,
+    "width": 7.5,
+    "horizon": "H60",
+    "entry_index": 35056,
+    "entry_line": 36684,
+    "entry_time": 1795136281.0,
+    "entry_price": 3735.0,
+    "spread": 0.5,
+    "exit_index": 39081,
+    "exit_time": 1795136726.0,
+    "exit_line": 40709,
+    "exit_price": 3727.5,
+    "status": 1,
+    "label": 1,
+    "gross": 7500.0,
+    "net": 6916.4,
+    "confirmed_until": 1795136726.0,
+    "scene": "2026-11-20_Day",
+    "request_time": 1795136280.0,
+    "request_line": 36674,
+    "added": false,
+    "branch": 0,
+    "origin": 0
+   },
+   {
+    "side": 0,
+    "width": 17.5,
+    "horizon": "H60",
+    "entry_index": 77199,
+    "entry_line": 78827,
+    "entry_time": 1795141621.0,
+    "entry_price": 3706.0,
+    "spread": 0.5,
+    "exit_index": 99513,
+    "exit_time": 1795145224.0,
+    "exit_line": 101141,
+    "exit_price": 3715.0,
+    "status": 3,
+    "label": 0,
+    "gross": 9000.0,
+    "net": 8416.4,
+    "confirmed_until": 1795145224.0,
+    "scene": "2026-11-20_Day",
+    "request_time": 1795141620.0,
+    "request_line": 78816,
+    "added": false,
+    "branch": 0,
+    "origin": 0
+   },
+   {
+    "side": 1,
+    "width": 17.5,
+    "horizon": "H60",
+    "entry_index": 121352,
+    "entry_line": 122980,
+    "entry_time": 1795148581.0,
+    "entry_price": 3687.5,
+    "spread": 1.0,
+    "exit_index": 141410,
+    "exit_time": 1795152182.0,
+    "exit_line": 143038,
+    "exit_price": 3682.0,
+    "status": 3,
+    "label": 0,
+    "gross": 5500.0,
+    "net": 4916.4,
+    "confirmed_until": 1795152182.0,
+    "scene": "2026-11-20_Day",
+    "request_time": 1795148580.0,
+    "request_line": 122971,
+    "added": false,
+    "branch": 0,
+    "origin": 0
+   }
+  ],
+  "監査": {
+   "scene_index": 0,
+   "events": 353,
+   "accepted_core": 5,
+   "accepted_technical": 0,
+   "core_signal_events": 13,
+   "effective_core_signal_events": 13,
+   "disabled_width_core_events": 0,
+   "technical_signal_events": 86,
+   "technical_before_start_events": 0,
+   "technical_after_start_events": 86,
+   "technical_eligible_before_first_fill": 0,
+   "core_suppressed_technical_events": 3,
+   "quantity_rejected_core": 8,
+   "quantity_rejected_technical": 0,
+   "quantity_rejected_by_side": [
+    0,
+    8
+   ],
+   "skipped_held_core": 8,
+   "skipped_held_technical": 0,
+   "skipped_pending_core": 0,
+   "skipped_pending_technical": 0,
+   "alias_fills_skipped": 0,
+   "alias_fills_skipped_core": 0,
+   "alias_fills_skipped_technical": 0,
+   "cancelled": 0,
+   "cancelled_core": 0,
+   "cancelled_technical": 0,
+   "filled": 5,
+   "filled_core": 5,
+   "filled_technical": 0,
+   "unknown_held_to_end": 0,
+   "capture_status_core": {
+    "filled": 5
+   },
+   "capture_status_technical": {},
+   "capture_reason_core": {
+    "未提供": 5
+   },
+   "capture_reason_technical": {},
+   "peak_held": [
+    1,
+    1
+   ],
+   "peak_pending": [
+    1,
+    1
+   ],
+   "peak_reserved_total": [
+    1,
+    1
+   ],
+   "peak_global_held": 1,
+   "peak_global_pending": 1,
+   "peak_global_reserved": 1,
+   "technical_wait_core_pending": 0,
+   "technical_after_first_fill": 83,
+   "pending_at_scene_end": [
+    0,
+    0
+   ],
+   "held_at_scene_end": [
+    0,
+    0
+   ]
+  }
+ }
+}

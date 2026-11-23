@@ -1,0 +1,1256 @@
+{
+  "試行": 206,
+  "成功": true,
+  "金融未参照": true,
+  "全85純出生の別式照合": 20196378,
+  "全85判断要求": 471393,
+  "NK親199と201BASE属性一致": 967536,
+  "decide_filter呼出なし": true,
+  "未知規則": "VETOのみ親保持。他3modeはQ不足で不成立。BASE同体。",
+  "同q0迂回": "coreが存在する要求はcore側で判定し、棄却時はtechnicalもゼロ。",
+  "条件": {
+    "path": "study/00206_指数間の相対変化を複合入口へ加える/条件.json",
+    "bytes": 90700,
+    "sha256": "40aa4feda6da4211b572d45191fddeb1bf0c80a0c28f911b0f1e90cfe8e6fa09"
+  },
+  "Source": {
+    "path": "work/206独立確認/純条件を独立確認する.py",
+    "bytes": 9516,
+    "sha256": "a34aaabcdc2fab223a4be7012b57760963b3a8bf9354eee37e3dabdc6e62623c"
+  },
+  "親純出生": [
+    {
+      "path": "work/199保留中の旧幹確認_未知保持/旧73_新入口.npz",
+      "bytes": 177677,
+      "sha256": "006fe243ed186631589f4ce2cbab146d9d39e7d94dc773b9a469ec1098f3042a"
+    },
+    {
+      "path": "work/199保留中の旧幹確認_未知保持/追加7_新入口.npz",
+      "bytes": 37032,
+      "sha256": "9d1b4436b05f7ef380ef79543bb3949fb3b4e495e8e605c9ac2f90efa98f1135"
+    },
+    {
+      "path": "work/199保留中の旧幹確認_未知保持/本日1_新入口.npz",
+      "bytes": 21176,
+      "sha256": "226c8309cd8e9e5c05035eb49ca39b439abdea30b8ce079b12691fa85545db2a"
+    },
+    {
+      "path": "work/199追加二場の固定診断/追加二場純出生.npz",
+      "bytes": 25276,
+      "sha256": "db910e4ba4845c2a2c63a71d7b788b18e7a509fa22fe31dee32600130ab26d91"
+    },
+    {
+      "path": "inputs/00200_TOPIXの観測被覆と時間順入口/純入口.json.gz",
+      "bytes": 2805856,
+      "sha256": "79a033bf78074ad8f5de634864d39d5bc47f2b6ce77f664ad5b67718152cea9f"
+    },
+    {
+      "path": "inputs/00200_TOPIXの観測被覆と時間順入口/追加二場純入口.json.gz",
+      "bytes": 76442,
+      "sha256": "3733b01bdd5e6976eb8c8411402a9282572faf90a4d67dd37e5360dbdaa316dd"
+    }
+  ],
+  "診断": {
+    "旧73": {
+      "E199_00_BASE": {
+        "proposed": 6272,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_00_D001_AVAIL": {
+        "proposed": 6272,
+        "unknown": 767,
+        "rejected": 767
+      },
+      "E199_00_D001_PEER": {
+        "proposed": 6272,
+        "unknown": 767,
+        "rejected": 3886
+      },
+      "E199_00_D001_VETO": {
+        "proposed": 6272,
+        "unknown": 767,
+        "rejected": 562
+      },
+      "E199_00_D001_RELATIVE": {
+        "proposed": 6272,
+        "unknown": 767,
+        "rejected": 5866
+      },
+      "E199_00_D005_AVAIL": {
+        "proposed": 6272,
+        "unknown": 728,
+        "rejected": 728
+      },
+      "E199_00_D005_PEER": {
+        "proposed": 6272,
+        "unknown": 728,
+        "rejected": 3870
+      },
+      "E199_00_D005_VETO": {
+        "proposed": 6272,
+        "unknown": 728,
+        "rejected": 570
+      },
+      "E199_00_D005_RELATIVE": {
+        "proposed": 6272,
+        "unknown": 728,
+        "rejected": 5855
+      },
+      "E199_00_D030_AVAIL": {
+        "proposed": 6272,
+        "unknown": 618,
+        "rejected": 618
+      },
+      "E199_00_D030_PEER": {
+        "proposed": 6272,
+        "unknown": 618,
+        "rejected": 3761
+      },
+      "E199_00_D030_VETO": {
+        "proposed": 6272,
+        "unknown": 618,
+        "rejected": 555
+      },
+      "E199_00_D030_RELATIVE": {
+        "proposed": 6272,
+        "unknown": 618,
+        "rejected": 5841
+      },
+      "E199_00_D060_AVAIL": {
+        "proposed": 6272,
+        "unknown": 595,
+        "rejected": 595
+      },
+      "E199_00_D060_PEER": {
+        "proposed": 6272,
+        "unknown": 595,
+        "rejected": 3670
+      },
+      "E199_00_D060_VETO": {
+        "proposed": 6272,
+        "unknown": 595,
+        "rejected": 536
+      },
+      "E199_00_D060_RELATIVE": {
+        "proposed": 6272,
+        "unknown": 595,
+        "rejected": 5807
+      },
+      "E199_02_BASE": {
+        "proposed": 6058,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_02_D001_AVAIL": {
+        "proposed": 6058,
+        "unknown": 752,
+        "rejected": 752
+      },
+      "E199_02_D001_PEER": {
+        "proposed": 6058,
+        "unknown": 752,
+        "rejected": 3752
+      },
+      "E199_02_D001_VETO": {
+        "proposed": 6058,
+        "unknown": 752,
+        "rejected": 528
+      },
+      "E199_02_D001_RELATIVE": {
+        "proposed": 6058,
+        "unknown": 752,
+        "rejected": 5664
+      },
+      "E199_02_D005_AVAIL": {
+        "proposed": 6058,
+        "unknown": 711,
+        "rejected": 711
+      },
+      "E199_02_D005_PEER": {
+        "proposed": 6058,
+        "unknown": 711,
+        "rejected": 3735
+      },
+      "E199_02_D005_VETO": {
+        "proposed": 6058,
+        "unknown": 711,
+        "rejected": 533
+      },
+      "E199_02_D005_RELATIVE": {
+        "proposed": 6058,
+        "unknown": 711,
+        "rejected": 5649
+      },
+      "E199_02_D030_AVAIL": {
+        "proposed": 6058,
+        "unknown": 608,
+        "rejected": 608
+      },
+      "E199_02_D030_PEER": {
+        "proposed": 6058,
+        "unknown": 608,
+        "rejected": 3629
+      },
+      "E199_02_D030_VETO": {
+        "proposed": 6058,
+        "unknown": 608,
+        "rejected": 519
+      },
+      "E199_02_D030_RELATIVE": {
+        "proposed": 6058,
+        "unknown": 608,
+        "rejected": 5634
+      },
+      "E199_02_D060_AVAIL": {
+        "proposed": 6058,
+        "unknown": 583,
+        "rejected": 583
+      },
+      "E199_02_D060_PEER": {
+        "proposed": 6058,
+        "unknown": 583,
+        "rejected": 3540
+      },
+      "E199_02_D060_VETO": {
+        "proposed": 6058,
+        "unknown": 583,
+        "rejected": 504
+      },
+      "E199_02_D060_RELATIVE": {
+        "proposed": 6058,
+        "unknown": 583,
+        "rejected": 5601
+      },
+      "E199_05_BASE": {
+        "proposed": 6033,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_05_D001_AVAIL": {
+        "proposed": 6033,
+        "unknown": 753,
+        "rejected": 753
+      },
+      "E199_05_D001_PEER": {
+        "proposed": 6033,
+        "unknown": 753,
+        "rejected": 3733
+      },
+      "E199_05_D001_VETO": {
+        "proposed": 6033,
+        "unknown": 753,
+        "rejected": 522
+      },
+      "E199_05_D001_RELATIVE": {
+        "proposed": 6033,
+        "unknown": 753,
+        "rejected": 5640
+      },
+      "E199_05_D005_AVAIL": {
+        "proposed": 6033,
+        "unknown": 712,
+        "rejected": 712
+      },
+      "E199_05_D005_PEER": {
+        "proposed": 6033,
+        "unknown": 712,
+        "rejected": 3719
+      },
+      "E199_05_D005_VETO": {
+        "proposed": 6033,
+        "unknown": 712,
+        "rejected": 528
+      },
+      "E199_05_D005_RELATIVE": {
+        "proposed": 6033,
+        "unknown": 712,
+        "rejected": 5625
+      },
+      "E199_05_D030_AVAIL": {
+        "proposed": 6033,
+        "unknown": 608,
+        "rejected": 608
+      },
+      "E199_05_D030_PEER": {
+        "proposed": 6033,
+        "unknown": 608,
+        "rejected": 3608
+      },
+      "E199_05_D030_VETO": {
+        "proposed": 6033,
+        "unknown": 608,
+        "rejected": 514
+      },
+      "E199_05_D030_RELATIVE": {
+        "proposed": 6033,
+        "unknown": 608,
+        "rejected": 5609
+      },
+      "E199_05_D060_AVAIL": {
+        "proposed": 6033,
+        "unknown": 584,
+        "rejected": 584
+      },
+      "E199_05_D060_PEER": {
+        "proposed": 6033,
+        "unknown": 584,
+        "rejected": 3526
+      },
+      "E199_05_D060_VETO": {
+        "proposed": 6033,
+        "unknown": 584,
+        "rejected": 502
+      },
+      "E199_05_D060_RELATIVE": {
+        "proposed": 6033,
+        "unknown": 584,
+        "rejected": 5577
+      }
+    },
+    "追加7": {
+      "E199_00_BASE": {
+        "proposed": 566,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_00_D001_AVAIL": {
+        "proposed": 566,
+        "unknown": 81,
+        "rejected": 81
+      },
+      "E199_00_D001_PEER": {
+        "proposed": 566,
+        "unknown": 81,
+        "rejected": 393
+      },
+      "E199_00_D001_VETO": {
+        "proposed": 566,
+        "unknown": 81,
+        "rejected": 49
+      },
+      "E199_00_D001_RELATIVE": {
+        "proposed": 566,
+        "unknown": 81,
+        "rejected": 544
+      },
+      "E199_00_D005_AVAIL": {
+        "proposed": 566,
+        "unknown": 78,
+        "rejected": 78
+      },
+      "E199_00_D005_PEER": {
+        "proposed": 566,
+        "unknown": 78,
+        "rejected": 388
+      },
+      "E199_00_D005_VETO": {
+        "proposed": 566,
+        "unknown": 78,
+        "rejected": 41
+      },
+      "E199_00_D005_RELATIVE": {
+        "proposed": 566,
+        "unknown": 78,
+        "rejected": 536
+      },
+      "E199_00_D030_AVAIL": {
+        "proposed": 566,
+        "unknown": 63,
+        "rejected": 63
+      },
+      "E199_00_D030_PEER": {
+        "proposed": 566,
+        "unknown": 63,
+        "rejected": 388
+      },
+      "E199_00_D030_VETO": {
+        "proposed": 566,
+        "unknown": 63,
+        "rejected": 43
+      },
+      "E199_00_D030_RELATIVE": {
+        "proposed": 566,
+        "unknown": 63,
+        "rejected": 541
+      },
+      "E199_00_D060_AVAIL": {
+        "proposed": 566,
+        "unknown": 61,
+        "rejected": 61
+      },
+      "E199_00_D060_PEER": {
+        "proposed": 566,
+        "unknown": 61,
+        "rejected": 369
+      },
+      "E199_00_D060_VETO": {
+        "proposed": 566,
+        "unknown": 61,
+        "rejected": 42
+      },
+      "E199_00_D060_RELATIVE": {
+        "proposed": 566,
+        "unknown": 61,
+        "rejected": 536
+      },
+      "E199_02_BASE": {
+        "proposed": 546,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_02_D001_AVAIL": {
+        "proposed": 546,
+        "unknown": 81,
+        "rejected": 81
+      },
+      "E199_02_D001_PEER": {
+        "proposed": 546,
+        "unknown": 81,
+        "rejected": 380
+      },
+      "E199_02_D001_VETO": {
+        "proposed": 546,
+        "unknown": 81,
+        "rejected": 44
+      },
+      "E199_02_D001_RELATIVE": {
+        "proposed": 546,
+        "unknown": 81,
+        "rejected": 524
+      },
+      "E199_02_D005_AVAIL": {
+        "proposed": 546,
+        "unknown": 78,
+        "rejected": 78
+      },
+      "E199_02_D005_PEER": {
+        "proposed": 546,
+        "unknown": 78,
+        "rejected": 375
+      },
+      "E199_02_D005_VETO": {
+        "proposed": 546,
+        "unknown": 78,
+        "rejected": 37
+      },
+      "E199_02_D005_RELATIVE": {
+        "proposed": 546,
+        "unknown": 78,
+        "rejected": 516
+      },
+      "E199_02_D030_AVAIL": {
+        "proposed": 546,
+        "unknown": 63,
+        "rejected": 63
+      },
+      "E199_02_D030_PEER": {
+        "proposed": 546,
+        "unknown": 63,
+        "rejected": 374
+      },
+      "E199_02_D030_VETO": {
+        "proposed": 546,
+        "unknown": 63,
+        "rejected": 38
+      },
+      "E199_02_D030_RELATIVE": {
+        "proposed": 546,
+        "unknown": 63,
+        "rejected": 521
+      },
+      "E199_02_D060_AVAIL": {
+        "proposed": 546,
+        "unknown": 61,
+        "rejected": 61
+      },
+      "E199_02_D060_PEER": {
+        "proposed": 546,
+        "unknown": 61,
+        "rejected": 356
+      },
+      "E199_02_D060_VETO": {
+        "proposed": 546,
+        "unknown": 61,
+        "rejected": 37
+      },
+      "E199_02_D060_RELATIVE": {
+        "proposed": 546,
+        "unknown": 61,
+        "rejected": 516
+      },
+      "E199_05_BASE": {
+        "proposed": 543,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_05_D001_AVAIL": {
+        "proposed": 543,
+        "unknown": 81,
+        "rejected": 81
+      },
+      "E199_05_D001_PEER": {
+        "proposed": 543,
+        "unknown": 81,
+        "rejected": 378
+      },
+      "E199_05_D001_VETO": {
+        "proposed": 543,
+        "unknown": 81,
+        "rejected": 42
+      },
+      "E199_05_D001_RELATIVE": {
+        "proposed": 543,
+        "unknown": 81,
+        "rejected": 521
+      },
+      "E199_05_D005_AVAIL": {
+        "proposed": 543,
+        "unknown": 78,
+        "rejected": 78
+      },
+      "E199_05_D005_PEER": {
+        "proposed": 543,
+        "unknown": 78,
+        "rejected": 372
+      },
+      "E199_05_D005_VETO": {
+        "proposed": 543,
+        "unknown": 78,
+        "rejected": 36
+      },
+      "E199_05_D005_RELATIVE": {
+        "proposed": 543,
+        "unknown": 78,
+        "rejected": 513
+      },
+      "E199_05_D030_AVAIL": {
+        "proposed": 543,
+        "unknown": 63,
+        "rejected": 63
+      },
+      "E199_05_D030_PEER": {
+        "proposed": 543,
+        "unknown": 63,
+        "rejected": 371
+      },
+      "E199_05_D030_VETO": {
+        "proposed": 543,
+        "unknown": 63,
+        "rejected": 37
+      },
+      "E199_05_D030_RELATIVE": {
+        "proposed": 543,
+        "unknown": 63,
+        "rejected": 518
+      },
+      "E199_05_D060_AVAIL": {
+        "proposed": 543,
+        "unknown": 60,
+        "rejected": 60
+      },
+      "E199_05_D060_PEER": {
+        "proposed": 543,
+        "unknown": 60,
+        "rejected": 355
+      },
+      "E199_05_D060_VETO": {
+        "proposed": 543,
+        "unknown": 60,
+        "rejected": 37
+      },
+      "E199_05_D060_RELATIVE": {
+        "proposed": 543,
+        "unknown": 60,
+        "rejected": 513
+      }
+    },
+    "本日1": {
+      "E199_00_BASE": {
+        "proposed": 70,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_00_D001_AVAIL": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_00_D001_PEER": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 53
+      },
+      "E199_00_D001_VETO": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 9
+      },
+      "E199_00_D001_RELATIVE": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 66
+      },
+      "E199_00_D005_AVAIL": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_00_D005_PEER": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 52
+      },
+      "E199_00_D005_VETO": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 10
+      },
+      "E199_00_D005_RELATIVE": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 67
+      },
+      "E199_00_D030_AVAIL": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_00_D030_PEER": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 51
+      },
+      "E199_00_D030_VETO": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 9
+      },
+      "E199_00_D030_RELATIVE": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 68
+      },
+      "E199_00_D060_AVAIL": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_00_D060_PEER": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 50
+      },
+      "E199_00_D060_VETO": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 11
+      },
+      "E199_00_D060_RELATIVE": {
+        "proposed": 70,
+        "unknown": 1,
+        "rejected": 68
+      },
+      "E199_02_BASE": {
+        "proposed": 59,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_02_D001_AVAIL": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_02_D001_PEER": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 44
+      },
+      "E199_02_D001_VETO": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 7
+      },
+      "E199_02_D001_RELATIVE": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 56
+      },
+      "E199_02_D005_AVAIL": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_02_D005_PEER": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 43
+      },
+      "E199_02_D005_VETO": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 8
+      },
+      "E199_02_D005_RELATIVE": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 56
+      },
+      "E199_02_D030_AVAIL": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_02_D030_PEER": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 43
+      },
+      "E199_02_D030_VETO": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 7
+      },
+      "E199_02_D030_RELATIVE": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 57
+      },
+      "E199_02_D060_AVAIL": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_02_D060_PEER": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 41
+      },
+      "E199_02_D060_VETO": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 8
+      },
+      "E199_02_D060_RELATIVE": {
+        "proposed": 59,
+        "unknown": 1,
+        "rejected": 57
+      },
+      "E199_05_BASE": {
+        "proposed": 58,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_05_D001_AVAIL": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_05_D001_PEER": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 43
+      },
+      "E199_05_D001_VETO": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 6
+      },
+      "E199_05_D001_RELATIVE": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 55
+      },
+      "E199_05_D005_AVAIL": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_05_D005_PEER": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 42
+      },
+      "E199_05_D005_VETO": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 7
+      },
+      "E199_05_D005_RELATIVE": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 55
+      },
+      "E199_05_D030_AVAIL": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_05_D030_PEER": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 42
+      },
+      "E199_05_D030_VETO": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 6
+      },
+      "E199_05_D030_RELATIVE": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 56
+      },
+      "E199_05_D060_AVAIL": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 1
+      },
+      "E199_05_D060_PEER": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 40
+      },
+      "E199_05_D060_VETO": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 7
+      },
+      "E199_05_D060_RELATIVE": {
+        "proposed": 58,
+        "unknown": 1,
+        "rejected": 56
+      }
+    },
+    "追加2": {
+      "E199_00_BASE": {
+        "proposed": 237,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_00_D001_AVAIL": {
+        "proposed": 237,
+        "unknown": 28,
+        "rejected": 28
+      },
+      "E199_00_D001_PEER": {
+        "proposed": 237,
+        "unknown": 28,
+        "rejected": 152
+      },
+      "E199_00_D001_VETO": {
+        "proposed": 237,
+        "unknown": 28,
+        "rejected": 21
+      },
+      "E199_00_D001_RELATIVE": {
+        "proposed": 237,
+        "unknown": 28,
+        "rejected": 225
+      },
+      "E199_00_D005_AVAIL": {
+        "proposed": 237,
+        "unknown": 24,
+        "rejected": 24
+      },
+      "E199_00_D005_PEER": {
+        "proposed": 237,
+        "unknown": 24,
+        "rejected": 143
+      },
+      "E199_00_D005_VETO": {
+        "proposed": 237,
+        "unknown": 24,
+        "rejected": 22
+      },
+      "E199_00_D005_RELATIVE": {
+        "proposed": 237,
+        "unknown": 24,
+        "rejected": 222
+      },
+      "E199_00_D030_AVAIL": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_00_D030_PEER": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 137
+      },
+      "E199_00_D030_VETO": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_00_D030_RELATIVE": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 222
+      },
+      "E199_00_D060_AVAIL": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_00_D060_PEER": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 135
+      },
+      "E199_00_D060_VETO": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 24
+      },
+      "E199_00_D060_RELATIVE": {
+        "proposed": 237,
+        "unknown": 22,
+        "rejected": 224
+      },
+      "E199_02_BASE": {
+        "proposed": 224,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_02_D001_AVAIL": {
+        "proposed": 224,
+        "unknown": 28,
+        "rejected": 28
+      },
+      "E199_02_D001_PEER": {
+        "proposed": 224,
+        "unknown": 28,
+        "rejected": 148
+      },
+      "E199_02_D001_VETO": {
+        "proposed": 224,
+        "unknown": 28,
+        "rejected": 19
+      },
+      "E199_02_D001_RELATIVE": {
+        "proposed": 224,
+        "unknown": 28,
+        "rejected": 212
+      },
+      "E199_02_D005_AVAIL": {
+        "proposed": 224,
+        "unknown": 24,
+        "rejected": 24
+      },
+      "E199_02_D005_PEER": {
+        "proposed": 224,
+        "unknown": 24,
+        "rejected": 139
+      },
+      "E199_02_D005_VETO": {
+        "proposed": 224,
+        "unknown": 24,
+        "rejected": 20
+      },
+      "E199_02_D005_RELATIVE": {
+        "proposed": 224,
+        "unknown": 24,
+        "rejected": 209
+      },
+      "E199_02_D030_AVAIL": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_02_D030_PEER": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 133
+      },
+      "E199_02_D030_VETO": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 20
+      },
+      "E199_02_D030_RELATIVE": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 211
+      },
+      "E199_02_D060_AVAIL": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_02_D060_PEER": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 133
+      },
+      "E199_02_D060_VETO": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_02_D060_RELATIVE": {
+        "proposed": 224,
+        "unknown": 22,
+        "rejected": 211
+      },
+      "E199_05_BASE": {
+        "proposed": 222,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "E199_05_D001_AVAIL": {
+        "proposed": 222,
+        "unknown": 28,
+        "rejected": 28
+      },
+      "E199_05_D001_PEER": {
+        "proposed": 222,
+        "unknown": 28,
+        "rejected": 143
+      },
+      "E199_05_D001_VETO": {
+        "proposed": 222,
+        "unknown": 28,
+        "rejected": 18
+      },
+      "E199_05_D001_RELATIVE": {
+        "proposed": 222,
+        "unknown": 28,
+        "rejected": 210
+      },
+      "E199_05_D005_AVAIL": {
+        "proposed": 222,
+        "unknown": 24,
+        "rejected": 24
+      },
+      "E199_05_D005_PEER": {
+        "proposed": 222,
+        "unknown": 24,
+        "rejected": 134
+      },
+      "E199_05_D005_VETO": {
+        "proposed": 222,
+        "unknown": 24,
+        "rejected": 18
+      },
+      "E199_05_D005_RELATIVE": {
+        "proposed": 222,
+        "unknown": 24,
+        "rejected": 207
+      },
+      "E199_05_D030_AVAIL": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_05_D030_PEER": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 128
+      },
+      "E199_05_D030_VETO": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 18
+      },
+      "E199_05_D030_RELATIVE": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 208
+      },
+      "E199_05_D060_AVAIL": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_05_D060_PEER": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 128
+      },
+      "E199_05_D060_VETO": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 22
+      },
+      "E199_05_D060_RELATIVE": {
+        "proposed": 222,
+        "unknown": 22,
+        "rejected": 209
+      }
+    },
+    "TOPIX": {
+      "I00_BASE": {
+        "proposed": 3897,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "I00_D001_AVAIL": {
+        "proposed": 3897,
+        "unknown": 130,
+        "rejected": 130
+      },
+      "I00_D001_PEER": {
+        "proposed": 3897,
+        "unknown": 130,
+        "rejected": 2425
+      },
+      "I00_D001_VETO": {
+        "proposed": 3897,
+        "unknown": 130,
+        "rejected": 433
+      },
+      "I00_D001_RELATIVE": {
+        "proposed": 3897,
+        "unknown": 130,
+        "rejected": 3630
+      },
+      "I00_D005_AVAIL": {
+        "proposed": 3897,
+        "unknown": 136,
+        "rejected": 136
+      },
+      "I00_D005_PEER": {
+        "proposed": 3897,
+        "unknown": 136,
+        "rejected": 2418
+      },
+      "I00_D005_VETO": {
+        "proposed": 3897,
+        "unknown": 136,
+        "rejected": 437
+      },
+      "I00_D005_RELATIVE": {
+        "proposed": 3897,
+        "unknown": 136,
+        "rejected": 3607
+      },
+      "I00_D030_AVAIL": {
+        "proposed": 3897,
+        "unknown": 150,
+        "rejected": 150
+      },
+      "I00_D030_PEER": {
+        "proposed": 3897,
+        "unknown": 150,
+        "rejected": 2321
+      },
+      "I00_D030_VETO": {
+        "proposed": 3897,
+        "unknown": 150,
+        "rejected": 392
+      },
+      "I00_D030_RELATIVE": {
+        "proposed": 3897,
+        "unknown": 150,
+        "rejected": 3429
+      },
+      "I00_D060_AVAIL": {
+        "proposed": 3897,
+        "unknown": 158,
+        "rejected": 158
+      },
+      "I00_D060_PEER": {
+        "proposed": 3897,
+        "unknown": 158,
+        "rejected": 2189
+      },
+      "I00_D060_VETO": {
+        "proposed": 3897,
+        "unknown": 158,
+        "rejected": 324
+      },
+      "I00_D060_RELATIVE": {
+        "proposed": 3897,
+        "unknown": 158,
+        "rejected": 3191
+      },
+      "I10_BASE": {
+        "proposed": 2944,
+        "unknown": 0,
+        "rejected": 0
+      },
+      "I10_D001_AVAIL": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 53
+      },
+      "I10_D001_PEER": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 1630
+      },
+      "I10_D001_VETO": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 371
+      },
+      "I10_D001_RELATIVE": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 2899
+      },
+      "I10_D005_AVAIL": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 53
+      },
+      "I10_D005_PEER": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 1623
+      },
+      "I10_D005_VETO": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 364
+      },
+      "I10_D005_RELATIVE": {
+        "proposed": 2944,
+        "unknown": 53,
+        "rejected": 2865
+      },
+      "I10_D030_AVAIL": {
+        "proposed": 2944,
+        "unknown": 57,
+        "rejected": 57
+      },
+      "I10_D030_PEER": {
+        "proposed": 2944,
+        "unknown": 57,
+        "rejected": 1502
+      },
+      "I10_D030_VETO": {
+        "proposed": 2944,
+        "unknown": 57,
+        "rejected": 277
+      },
+      "I10_D030_RELATIVE": {
+        "proposed": 2944,
+        "unknown": 57,
+        "rejected": 2623
+      },
+      "I10_D060_AVAIL": {
+        "proposed": 2944,
+        "unknown": 56,
+        "rejected": 56
+      },
+      "I10_D060_PEER": {
+        "proposed": 2944,
+        "unknown": 56,
+        "rejected": 1349
+      },
+      "I10_D060_VETO": {
+        "proposed": 2944,
+        "unknown": 56,
+        "rejected": 156
+      },
+      "I10_D060_RELATIVE": {
+        "proposed": 2944,
+        "unknown": 56,
+        "rejected": 2313
+      }
+    }
+  },
+  "範囲": "価格時計の純値は別実装で全件監査済み。この検査は純値から追加条件への接続と親の幅期限保持。"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "base_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00220_日経199デイの損切位置と利益の確定方法を比較する\\Viewer",
+  "resources": [
+    {
+      "id": "2026-10-05_IFD",
+      "title": "10-05 IFD 元の単純IFD",
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "method_id": "IFD",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-05_IFD.trades.jsonl"
+    },
+    {
+      "id": "2026-10-05_B400P3",
+      "title": "10-05 B400P3 固定利確と期限前の可変追尾",
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "method_id": "B400P3",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-05_B400P3.trades.jsonl"
+    },
+    {
+      "id": "2026-10-05_B400P4",
+      "title": "10-05 B400P4 上限なし・期限前の可変追尾",
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "method_id": "B400P4",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\book.jsonl.gz",
+      "pnl_path": "2026-10-05_B400P4.trades.jsonl"
+    },
+    {
+      "id": "2026-11-20_IFD",
+      "title": "11-20 IFD 元の単純IFD",
+      "symbol": "NK225",
+      "session": "2026-11-20_Day",
+      "method_id": "IFD",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-20_Day\\book.jsonl.gz",
+      "pnl_path": "2026-11-20_IFD.trades.jsonl"
+    },
+    {
+      "id": "2026-11-20_B400P3",
+      "title": "11-20 B400P3 固定利確と期限前の可変追尾",
+      "symbol": "NK225",
+      "session": "2026-11-20_Day",
+      "method_id": "B400P3",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-20_Day\\book.jsonl.gz",
+      "pnl_path": "2026-11-20_B400P3.trades.jsonl"
+    },
+    {
+      "id": "2026-11-20_B400P4",
+      "title": "11-20 B400P4 上限なし・期限前の可変追尾",
+      "symbol": "NK225",
+      "session": "2026-11-20_Day",
+      "method_id": "B400P4",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-20_Day\\book.jsonl.gz",
+      "pnl_path": "2026-11-20_B400P4.trades.jsonl"
+    }
+  ]
+}

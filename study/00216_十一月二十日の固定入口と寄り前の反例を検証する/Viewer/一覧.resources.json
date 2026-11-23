@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "base_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00216_十一月二十日の固定入口と寄り前の反例を検証する\\Viewer",
+  "resources": [
+    {
+      "id": "デイ_日経199_02",
+      "title": "デイ_日経199_02",
+      "symbol": "NK225",
+      "session": "2026-11-20_Day",
+      "method_id": "日経199_02",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-20_Day\\book.jsonl.gz",
+      "pnl_path": "デイ_日経199_02.trades.jsonl"
+    },
+    {
+      "id": "デイ_TOPIX移植03",
+      "title": "デイ_TOPIX移植03",
+      "symbol": "TOPIX",
+      "session": "2026-11-20_Day",
+      "method_id": "TOPIX移植03",
+      "product": "miniTOPIX",
+      "point_value": 1000,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-20_Day\\book.jsonl.gz",
+      "pnl_path": "デイ_TOPIX移植03.trades.jsonl"
+    },
+    {
+      "id": "デイ_日経通知でTOPIX",
+      "title": "デイ_日経通知でTOPIX",
+      "symbol": "TOPIX",
+      "session": "2026-11-20_Day",
+      "method_id": "日経通知でTOPIX",
+      "product": "miniTOPIX",
+      "point_value": 1000,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-20_Day\\book.jsonl.gz",
+      "pnl_path": "デイ_日経通知でTOPIX.trades.jsonl"
+    },
+    {
+      "id": "ナイト_日経199_02",
+      "title": "ナイト_日経199_02",
+      "symbol": "NK225",
+      "session": "2026-11-20_Night",
+      "method_id": "日経199_02",
+      "product": "NK225mini",
+      "point_value": 100,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-20_Night\\book.jsonl.gz",
+      "pnl_path": "ナイト_日経199_02.trades.jsonl"
+    },
+    {
+      "id": "デイ_TOPIX専用212主6",
+      "title": "デイ_TOPIX専用212主6",
+      "symbol": "TOPIX",
+      "session": "2026-11-20_Day",
+      "method_id": "TOPIX専用212主6",
+      "product": "miniTOPIX",
+      "point_value": 1000,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-20_Day\\book.jsonl.gz",
+      "pnl_path": "デイ_TOPIX専用212主6.trades.jsonl"
+    },
+    {
+      "id": "ナイト_TOPIX専用212主6",
+      "title": "ナイト_TOPIX専用212主6",
+      "symbol": "TOPIX",
+      "session": "2026-11-20_Night",
+      "method_id": "TOPIX専用212主6",
+      "product": "miniTOPIX",
+      "point_value": 1000,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-20_Night\\book.jsonl.gz",
+      "pnl_path": "ナイト_TOPIX専用212主6.trades.jsonl"
+    }
+  ]
+}

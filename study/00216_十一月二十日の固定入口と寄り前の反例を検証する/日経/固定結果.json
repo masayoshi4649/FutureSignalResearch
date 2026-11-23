@@ -1,0 +1,254 @@
+{
+  "対象": "2026-11-20_Day",
+  "履歴に追加した直前ナイト": "2026-11-19_Night",
+  "既存二デイ一致判断数": 706,
+  "11月19日一致取引数": 7,
+  "旧原板展開と足と索引が一致した場": [
+    "2026-11-18_Night",
+    "2026-11-19_Day"
+  ],
+  "入力": [
+    {
+      "場": "2026-11-19_Night",
+      "限月コード": "161120018",
+      "価格行数": 269149,
+      "品質": {
+        "lines": 269828,
+        "clock_missing": 0,
+        "clock_invalid": 669,
+        "outside_session": 10,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 517,
+        "source_parser_accepted": 269149,
+        "cutoff_excluded": 0,
+        "source_delivered": 269149
+      },
+      "原板展開SHA256": "1deca56d32ee11d1bbf83d0f4541ae5759add534b0503ff754d5bbf0c21461d3",
+      "指紋": {
+        "raw": {
+          "名前": "book.jsonl.gz",
+          "bytes": 6362396,
+          "sha256": "f2b77df4934e86e8b93f9f0d1ab48c6e3c6baab80c3781ec4dc910208a48226d"
+        },
+        "csv_1m": {
+          "名前": "candle_1min.csv",
+          "bytes": 47610,
+          "sha256": "02e5c46f4415a938e79a658797bc97657de48afe47ebcb54f54370323c116188"
+        },
+        "csv_5m": {
+          "名前": "candle_5min.csv",
+          "bytes": 9938,
+          "sha256": "85f3664ae61f4797501524f4aad97e73b2e5f88314131a808810e79f16b88788"
+        },
+        "quote_index": {
+          "名前": "2026-11-19_Night.quotes.bin.gz",
+          "bytes": 813553,
+          "sha256": "3b64d5ac5bf0097eaa4e2660caafcaab6c5981a3dfc0fae6ccf5840f8e6cfd5c"
+        }
+      }
+    },
+    {
+      "場": "2026-11-20_Day",
+      "限月コード": "161120018",
+      "価格行数": 191375,
+      "品質": {
+        "lines": 193537,
+        "clock_missing": 0,
+        "clock_invalid": 2153,
+        "outside_session": 9,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 605,
+        "source_parser_accepted": 191375,
+        "cutoff_excluded": 0,
+        "source_delivered": 191375
+      },
+      "原板展開SHA256": "25be7417333eee4e619a4cb8c9868300797324978b9a441b0b700e418b9ae075",
+      "指紋": {
+        "raw": {
+          "名前": "book.jsonl.gz",
+          "bytes": 5284078,
+          "sha256": "325f0f8cf494e8aef9585b869012b5f7e1c9837e2a2cc3572604a3b123b112cc"
+        },
+        "csv_1m": {
+          "名前": "candle_1min.csv",
+          "bytes": 26336,
+          "sha256": "4a56d6e5a214842ecc0893c4980f797b96917ef2c3619ca19e084c63e6d2033b"
+        },
+        "csv_5m": {
+          "名前": "candle_5min.csv",
+          "bytes": 5370,
+          "sha256": "158fed88551c73dbe74eb24d08267f16b1e826b98b0eaaca2cd740e60ac2dfb8"
+        },
+        "quote_index": {
+          "名前": "2026-11-20_Day.quotes.bin.gz",
+          "bytes": 605441,
+          "sha256": "ff89f706cc8f172c777b324f049a7a0c9bc0f04829378c629c9c10839f7c576c"
+        }
+      }
+    }
+  ],
+  "結果": {
+    "建玉数": 6,
+    "未知": 0,
+    "利益": 67692.0,
+    "損失": 16154.0,
+    "既知収支": 51538.0,
+    "保有時間率下限": 0.522798353909465,
+    "建玉": [
+      {
+        "side": 1,
+        "width": 400.0,
+        "horizon": "SESSION",
+        "entry_index": 6037,
+        "entry_line": 8200,
+        "entry_time": 1795132801.0,
+        "entry_price": 57720.0,
+        "spread": 10.0,
+        "exit_index": 21574,
+        "exit_time": 1795134503.0,
+        "exit_line": 23737,
+        "exit_price": 57320.0,
+        "status": 1,
+        "label": 1,
+        "gross": 40000.0,
+        "net": 38923.0,
+        "confirmed_until": 1795134503.0,
+        "scene": "2026-11-20_Day",
+        "request_time": 1795132800.0,
+        "request_line": 8178,
+        "added": true,
+        "branch": 0,
+        "origin": 0
+      },
+      {
+        "side": 1,
+        "width": 150.0,
+        "horizon": "H60",
+        "entry_index": 24029,
+        "entry_line": 26192,
+        "entry_time": 1795134783.0,
+        "entry_price": 57200.0,
+        "spread": 10.0,
+        "exit_index": 24223,
+        "exit_time": 1795134804.0,
+        "exit_line": 26386,
+        "exit_price": 57350.0,
+        "status": 2,
+        "label": -1,
+        "gross": -15000.0,
+        "net": -16077.0,
+        "confirmed_until": 1795134804.0,
+        "scene": "2026-11-20_Day",
+        "request_time": 1795134782.0,
+        "request_line": 26176,
+        "added": false,
+        "branch": 0,
+        "origin": 0
+      },
+      {
+        "side": 1,
+        "width": 150.0,
+        "horizon": "H60",
+        "entry_index": 25059,
+        "entry_line": 27222,
+        "entry_time": 1795134901.0,
+        "entry_price": 57180.0,
+        "spread": 10.0,
+        "exit_index": 26549,
+        "exit_time": 1795135079.0,
+        "exit_line": 28712,
+        "exit_price": 57030.0,
+        "status": 1,
+        "label": 1,
+        "gross": 15000.0,
+        "net": 13923.0,
+        "confirmed_until": 1795135079.0,
+        "scene": "2026-11-20_Day",
+        "request_time": 1795134900.0,
+        "request_line": 27208,
+        "added": false,
+        "branch": 0,
+        "origin": 0
+      },
+      {
+        "side": 1,
+        "width": 350.0,
+        "horizon": "H60",
+        "entry_index": 67917,
+        "entry_line": 70080,
+        "entry_time": 1795139764.0,
+        "entry_price": 56840.0,
+        "spread": 10.0,
+        "exit_index": 95930,
+        "exit_time": 1795143364.0,
+        "exit_line": 98093,
+        "exit_price": 56830.0,
+        "status": 3,
+        "label": 0,
+        "gross": 1000.0,
+        "net": -77.0,
+        "confirmed_until": 1795143364.0,
+        "scene": "2026-11-20_Day",
+        "request_time": 1795139760.0,
+        "request_line": 70042,
+        "added": false,
+        "branch": 0,
+        "origin": 0
+      },
+      {
+        "side": 1,
+        "width": 350.0,
+        "horizon": "H60",
+        "entry_index": 104504,
+        "entry_line": 106667,
+        "entry_time": 1795144588.0,
+        "entry_price": 56840.0,
+        "spread": 10.0,
+        "exit_index": 131244,
+        "exit_time": 1795148191.0,
+        "exit_line": 133407,
+        "exit_price": 56810.0,
+        "status": 3,
+        "label": 0,
+        "gross": 3000.0,
+        "net": 1923.0,
+        "confirmed_until": 1795148191.0,
+        "scene": "2026-11-20_Day",
+        "request_time": 1795144579.0,
+        "request_line": 106611,
+        "added": false,
+        "branch": 0,
+        "origin": 0
+      },
+      {
+        "side": 1,
+        "width": 350.0,
+        "horizon": "H60",
+        "entry_index": 158807,
+        "entry_line": 160970,
+        "entry_time": 1795152363.0,
+        "entry_price": 56710.0,
+        "spread": 10.0,
+        "exit_index": 184786,
+        "exit_time": 1795155963.0,
+        "exit_line": 186949,
+        "exit_price": 56570.0,
+        "status": 3,
+        "label": 0,
+        "gross": 14000.0,
+        "net": 12923.0,
+        "confirmed_until": 1795155963.0,
+        "scene": "2026-11-20_Day",
+        "request_time": 1795152360.0,
+        "request_line": 160943,
+        "added": false,
+        "branch": 0,
+        "origin": 0
+      }
+    ]
+  }
+}
