@@ -1,0 +1,91 @@
+{
+  "成功": true,
+  "停止": true,
+  "市場前": true,
+  "module": "holding_ohlc_independent_audit113",
+  "UTC": "2026-11-09T20:00:09.293186+00:00",
+  "所有コードSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間の独立算術.py": "11861723b27d29982916a3f77862d70a309a878c408b2ec291fd720540f3971f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader対照の算術.py": "a787e7e568db6d7fec83db3df0502268ea970d56e18f577bdcd4883ed3df012e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\独立走査を実行する.py": "3ec7de427ad858246ec95b2e187e03b6f3c15f04225729afb058849f5e24ed90",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間監査の人工検査.py": "8a9a0120451af3fdabaa5f4061097156d1b9120f29851e77413f46dc6412b000",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader人工の独立検査.py": "82e8920e833f2d26fe448c9839e0714c672fb3c97bfd596fc8317589f71e5e91",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\参照比較の人工検査.py": "7d3d9326f016dbc8be58aea6fdf2ba50afc1df15270ae5006a1d94033c286402",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\README.md": "a61f8ed9562366c0acaf288caf8e7e8e2ca02f9ed49729014ac1d54f2319019c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\検査して停止する.py": "bb6155329f0fb298fca978823846715e314ee4c78b6c1cac8060cd4501cb5ec8"
+  },
+  "前後不変": true,
+  "人工主": 8,
+  "主Reader買売人工": 2,
+  "phase_n_R破壊": 3,
+  "参照metadata人工": 5,
+  "旧停止": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査\\停止.json",
+    "sha256": "ce7cbb5cda0c3c195d3e792de85f3cd8b10ba25250e8a95fb96fb25175ede94a"
+  },
+  "旧停止code前後不変": true,
+  "限定変更": {
+    "参照比較": "解決絶対Path＋SHA256。bytes付加とslash差は許容、別Path/SHA差/相対Pathは拒否",
+    "比較箇所": [
+      "complete.condition",
+      "complete.queries",
+      "scene.raw"
+    ],
+    "比較以外CLI_AST同体": true,
+    "算術と既存人工4file同byte": true
+  },
+  "人工証拠": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\検査\\主Reader人工対照.json",
+    "sha256": "69ddb8d0afe14b7173212730bbe77e4337b7b82c0a314c81023950fe5481debc"
+  },
+  "実CLI": "python 独立走査を実行する.py --request ABS --request-sha SHA",
+  "metadata_cli": "同CLI + --metadata-only",
+  "自然Raw独立走査の許可範囲": [
+    "2026-11-06_Day",
+    "2026-11-06_Night"
+  ],
+  "自然Raw走査済み": false,
+  "market_native_replay": false,
+  "marks_reserved_checked": false,
+  "検査ログ": [
+    {
+      "command": [
+        "python",
+        "区間監査の人工検査.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_clock_nanoseconds_and_accepted_previous (__main__.ArtificialTests.test_clock_nanoseconds_and_accepted_previous)\n機能: ns・時差・採用正Last行だけのprevious更新を検査する。 ... ok\ntest_entry_equals_exit_and_empty_unknown (__main__.ArtificialTests.test_entry_equals_exit_and_empty_unknown)\n機能: 同一物理行の区間は一点とし、未知を0価格へ補完しない。 ... ok\ntest_fill_quote_join_and_mutations (__main__.ArtificialTests.test_fill_quote_join_and_mutations)\n機能: 原行全quote・採用連番・実約定側価格の改変を拒否する。 ... ok\ntest_hedge_and_fee_sensitivity_are_not_offset (__main__.ArtificialTests.test_hedge_and_fee_sensitivity_are_not_offset)\n機能: 買売を別Positionとして扱い片道38.5円と滑りを両側へ課す。 ... ok\ntest_inclusive_rows_ties_and_no_post_exit_request (__main__.ArtificialTests.test_inclusive_rows_ties_and_no_post_exit_request)\n機能: 同秒別行・初回最後の同値極値・退出後未取得を検査する。 ... ok\ntest_last_and_bbo_validity_are_independent (__main__.ArtificialTests.test_last_and_bbo_validity_are_independent)\n機能: 正Last異常BBOをLastだけへ含め累積HighPriceを使わない。 ... ok\ntest_partial_whole_and_allocation_lifetimes (__main__.ArtificialTests.test_partial_whole_and_allocation_lifetimes)\n機能: 部分返済後のR/nと各返済片の異なる寿命を手計算照合する。 ... ok\ntest_saved_mark_phase_is_separate_from_raw_extrema (__main__.ArtificialTests.test_saved_mark_phase_is_separate_from_raw_extrema)\n機能: Raw極値を保存点へ寄せずpre/afterの実数量とRを別に照合する。 ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.003s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "Reader人工の独立検査.py",
+        "--out",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\検査\\主Reader人工対照.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"成功\": true, \"買売人工\": 2, \"phase_n_R破壊拒否\": 3}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "独立走査を実行する.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: 独立走査を実行する.py [-h] --request REQUEST --request-sha REQUEST_SHA\n                    [--metadata-only]\n\nRootの別固定要求で許可した11/06二場だけを一回ずつ独立走査する。\n\noptions:\n  -h, --help            show this help message and exit\n  --request REQUEST\n  --request-sha REQUEST_SHA\n  --metadata-only\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "参照比較の人工検査.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_bytes (__main__.RefTests.test_bytes)\n機能: bytes等の付加metadataだけの差を許容する。 ... ok\ntest_invalid (__main__.RefTests.test_invalid)\n機能: 相対Path・欠落値・非参照値を拒否する。 ... ok\ntest_path (__main__.RefTests.test_path)\n機能: 同SHAでも別Pathを拒否する。 ... ok\ntest_sha (__main__.RefTests.test_sha)\n機能: 同PathでもSHA差を拒否する。 ... ok\ntest_slash (__main__.RefTests.test_slash)\n機能: 同じ解決絶対Pathのslash表記差を許容する。 ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK\n"
+    }
+  ]
+}

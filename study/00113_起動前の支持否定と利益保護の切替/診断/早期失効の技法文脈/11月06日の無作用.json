@@ -1,0 +1,633 @@
+{
+  "試行": 113,
+  "成功": true,
+  "対象": "11月06日Dayの13:52:13売7枚、P100 p29とSource出生同体のE100",
+  "Native": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz",
+    "sha256": "e2efa18f8f9373d77cf402630451922288a7c2354e9e8ce33e319138fff18feb"
+  },
+  "金融完了": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113金融F1\\全70場\\完了.json",
+    "sha256": "3d8160b4374091d0d31b14b68d177aa116081e44acc5f3fc055b66f8a8fb6d5f"
+  },
+  "独立結果": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113独立保存F1\\全70場\\結果.json",
+    "sha256": "6492ae50b8fbf5b3dbe61d4295147119619e7ecbfd7cb09cbe39bc267663852b"
+  },
+  "Pの比較用途": "Source出生/実入口の同体だけ。収益差の比較は他担当。",
+  "P_position_id": "2026-11-06_Day-P100_C0_D0-P000029",
+  "E_position_id": "2026-11-06_Day-E100_C0_D0-P000029",
+  "source": {
+    "method": "NK225_D164_15",
+    "signal_id": "2026-11-06_Day-NK225mini-D164_15-000030",
+    "kind": "initial",
+    "parent": "addon/2",
+    "source_id": "-選定源-2026-11-06_Day-NK225mini-addon-000043",
+    "quantity_micro": 71,
+    "birth_quantity": 7,
+    "birth_time": 1793940733,
+    "birth_quote": {
+      "time": 1793940733,
+      "index": 167092,
+      "source_line": 171592,
+      "last": 57430,
+      "bid": 57430,
+      "ask": 57440,
+      "quote_ok": true
+    }
+  },
+  "source_hold_id": "2026-11-06_Day-NK225mini-D164_15-000030-玉",
+  "entry_quote": {
+    "time": 1793940733,
+    "index": 167093,
+    "source_line": 171593,
+    "last": 57430,
+    "bid": 57420,
+    "ask": 57440,
+    "quote_ok": true
+  },
+  "entry_jst": "2026-11-06T13:52:13+09:00",
+  "entry_price": 57420,
+  "initial_quantity": 7,
+  "anchor": {
+    "scope": {
+      "session": "2026-11-06_Day",
+      "contract": "161120018",
+      "start": 1793922300
+    },
+    "id": "[\"2026-11-06_Day\",\"161120018\",1793939940.0]",
+    "kind": "high",
+    "price": 57570,
+    "center_start": 1793939760,
+    "center_end": 1793939940,
+    "confirm_end": 1793940300,
+    "published_at": 1793940300
+  },
+  "anchor_distance_points": 150,
+  "atr_entry": 176.92631559699277,
+  "anchor_distance_atr": 0.8478105673193003,
+  "anchor_age_at_entry_seconds": 433,
+  "entry_technical": {
+    "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940660.0]",
+    "publications_index": 101,
+    "at": 1793940661,
+    "at_jst": "2026-11-06T13:51:01+09:00",
+    "start": 1793940480,
+    "end": 1793940660,
+    "available_at": 1793940660,
+    "frame_sha256": "ded50885e40941e3741648eb752e35214b707f2884a519f3d54acb9553ba1bcd",
+    "result_sha256": "a26a1970e8e738e6e1a0eeac5a465c6011bd0e63ae70eb305fb52fd21d545205",
+    "previous_continuous": true,
+    "previous_publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940480.0]",
+    "values": {
+      "ema8": 57476.57292632578,
+      "ema21": 57474.00224495167,
+      "hist": 25.075562505755748,
+      "close": 57510
+    },
+    "previous_values": {
+      "ema8": 57467.02233384743,
+      "ema21": 57470.40246944684,
+      "hist": 25.21073474962752
+    },
+    "signed_gap_ema8_21": -2.5706813741126098,
+    "signed_slopes_one_publication": {
+      "ema8": -9.550592478350154,
+      "ema21": -3.599775504830177,
+      "hist": 0.1351722438717715
+    },
+    "signed_close_minus_ema8": -33.42707367421826,
+    "signed_close_minus_ema21": -35.99775504833087,
+    "c": "true",
+    "m": "false",
+    "v": 100,
+    "ohlc": {
+      "open": 57510,
+      "high": 57560,
+      "low": 57460,
+      "close": 57510,
+      "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940660.0]"
+    },
+    "dynamic_prior_pivot": {
+      "scope": {
+        "session": "2026-11-06_Day",
+        "contract": "161120018",
+        "start": 1793922300
+      },
+      "id": "[\"2026-11-06_Day\",\"161120018\",1793939940.0]",
+      "kind": "high",
+      "price": 57570,
+      "center_start": 1793939760,
+      "center_end": 1793939940,
+      "confirm_end": 1793940300,
+      "published_at": 1793940300
+    },
+    "bb": {
+      "known": true,
+      "window_bars": 20,
+      "sma": 57429.5,
+      "upper": 57600.318617252335,
+      "lower": 57258.681382747665,
+      "width": 341.63723450467165,
+      "band_width": 0.00594881088124869,
+      "percent_b": 0.7356300539568326,
+      "contraction": 1,
+      "window_sha256": "db503eefe26acc97f5f32513cda3af642fa9a25e61e75e840fb89aa82e0051bb"
+    },
+    "b": "false",
+    "fifteen_minute": {
+      "status": "当時公表snapshot未保存",
+      "value": null
+    }
+  },
+  "entry_same_clock_publications": 0,
+  "held_publications": [
+    {
+      "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940840.0]",
+      "at": 1793940840,
+      "at_jst": "2026-11-06T13:54:00+09:00",
+      "end": 1793940840,
+      "end_jst": "2026-11-06T13:54:00+09:00",
+      "close": 57450,
+      "m": "false",
+      "signed_fixed_support_distance": 120,
+      "fixed_support_break": false,
+      "technical": {
+        "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940840.0]",
+        "publications_index": 102,
+        "at": 1793940840,
+        "at_jst": "2026-11-06T13:54:00+09:00",
+        "start": 1793940660,
+        "end": 1793940840,
+        "available_at": 1793940840,
+        "frame_sha256": "66feb6bebec77168271e178e2dd18c74b44bdb6c7d01080ae5289995826e6695",
+        "result_sha256": "5ca058de52036fcbd70eae747347c09fe1b048b7099adf90904873c1be2bb7eb",
+        "previous_continuous": true,
+        "previous_publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940660.0]",
+        "values": {
+          "ema8": 57470.66783158672,
+          "ema21": 57471.82022268334,
+          "hist": 20.258825272279744,
+          "close": 57450
+        },
+        "previous_values": {
+          "ema8": 57476.57292632578,
+          "ema21": 57474.00224495167,
+          "hist": 25.075562505755748
+        },
+        "signed_gap_ema8_21": 1.152391096620704,
+        "signed_slopes_one_publication": {
+          "ema8": 5.905094739064225,
+          "ema21": 2.182022268330911,
+          "hist": 4.816737233476005
+        },
+        "signed_close_minus_ema8": 20.66783158671751,
+        "signed_close_minus_ema21": 21.820222683338216,
+        "c": "true",
+        "m": "false",
+        "v": 110,
+        "ohlc": {
+          "open": 57510,
+          "high": 57520,
+          "low": 57400,
+          "close": 57450,
+          "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940840.0]"
+        },
+        "dynamic_prior_pivot": {
+          "scope": {
+            "session": "2026-11-06_Day",
+            "contract": "161120018",
+            "start": 1793922300
+          },
+          "id": "[\"2026-11-06_Day\",\"161120018\",1793939940.0]",
+          "kind": "high",
+          "price": 57570,
+          "center_start": 1793939760,
+          "center_end": 1793939940,
+          "confirm_end": 1793940300,
+          "published_at": 1793940300
+        },
+        "bb": {
+          "known": true,
+          "window_bars": 20,
+          "sma": 57424.5,
+          "upper": 57586.54628968292,
+          "lower": 57262.45371031708,
+          "width": 324.0925793658349,
+          "band_width": 0.0056438032436648975,
+          "percent_b": 0.5786812214272196,
+          "contraction": 1,
+          "window_sha256": "31a9fdd1af6d0bf71d5ee835fe26af3fffc6865708857c6bd14bbdad2648e32b"
+        },
+        "b": "false",
+        "fifteen_minute": {
+          "status": "当時公表snapshot未保存",
+          "value": null
+        }
+      }
+    },
+    {
+      "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793941020.0]",
+      "at": 1793941020,
+      "at_jst": "2026-11-06T13:57:00+09:00",
+      "end": 1793941020,
+      "end_jst": "2026-11-06T13:57:00+09:00",
+      "close": 57440,
+      "m": "false",
+      "signed_fixed_support_distance": 130,
+      "fixed_support_break": false,
+      "technical": {
+        "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793941020.0]",
+        "publications_index": 103,
+        "at": 1793941020,
+        "at_jst": "2026-11-06T13:57:00+09:00",
+        "start": 1793940840,
+        "end": 1793941020,
+        "available_at": 1793941020,
+        "frame_sha256": "c67516012b71adadb0ae63ce45fa31e932aad2b2dc982f5aa32b74b0f08828c2",
+        "result_sha256": "a0c8b31a37b2b23c0816510727c8457369695f15ac75e5109e3e789421486ae9",
+        "previous_continuous": true,
+        "previous_publication_id": "[\"2026-11-06_Day\",\"161120018\",1793940840.0]",
+        "values": {
+          "ema8": 57463.85275790078,
+          "ema21": 57468.927475166674,
+          "hist": 15.90498435551553,
+          "close": 57440
+        },
+        "previous_values": {
+          "ema8": 57470.66783158672,
+          "ema21": 57471.82022268334,
+          "hist": 20.258825272279744
+        },
+        "signed_gap_ema8_21": 5.0747172658957425,
+        "signed_slopes_one_publication": {
+          "ema8": 6.815073685938842,
+          "ema21": 2.8927475166638033,
+          "hist": 4.353840916764213
+        },
+        "signed_close_minus_ema8": 23.85275790077867,
+        "signed_close_minus_ema21": 28.927475166674412,
+        "c": "false",
+        "m": "false",
+        "v": 110,
+        "ohlc": {
+          "open": 57440,
+          "high": 57490,
+          "low": 57420,
+          "close": 57440,
+          "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793941020.0]"
+        },
+        "dynamic_prior_pivot": {
+          "scope": {
+            "session": "2026-11-06_Day",
+            "contract": "161120018",
+            "start": 1793922300
+          },
+          "id": "[\"2026-11-06_Day\",\"161120018\",1793939940.0]",
+          "kind": "high",
+          "price": 57570,
+          "center_start": 1793939760,
+          "center_end": 1793939940,
+          "confirm_end": 1793940300,
+          "published_at": 1793940300
+        },
+        "bb": {
+          "known": true,
+          "window_bars": 20,
+          "sma": 57426,
+          "upper": 57588.03703280423,
+          "lower": 57263.96296719577,
+          "width": 324.0740656084655,
+          "band_width": 0.005643333430997553,
+          "percent_b": 0.5432000011284924,
+          "contraction": 2,
+          "window_sha256": "a6b1c6bf7aa23abbc5e01dadb46e94da9683ba325ca03f06be249f9384dd5dab"
+        },
+        "b": "true",
+        "fifteen_minute": {
+          "status": "当時公表snapshot未保存",
+          "value": null
+        }
+      }
+    },
+    {
+      "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793941200.0]",
+      "at": 1793941200,
+      "at_jst": "2026-11-06T14:00:00+09:00",
+      "end": 1793941200,
+      "end_jst": "2026-11-06T14:00:00+09:00",
+      "close": 57510,
+      "m": "true",
+      "signed_fixed_support_distance": 60,
+      "fixed_support_break": false,
+      "technical": {
+        "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793941200.0]",
+        "publications_index": 104,
+        "at": 1793941200,
+        "at_jst": "2026-11-06T14:00:00+09:00",
+        "start": 1793941020,
+        "end": 1793941200,
+        "available_at": 1793941200,
+        "frame_sha256": "94b98d64698ad23f689b54324046a9e5f02bccce02fd9aa68b65bd134a9f8fd9",
+        "result_sha256": "17df732a36aa7f8276a13c54d9e2df13b89a667f3d9df80bafa3eabf933f7ac5",
+        "previous_continuous": true,
+        "previous_publication_id": "[\"2026-11-06_Day\",\"161120018\",1793941020.0]",
+        "values": {
+          "ema8": 57474.10770058949,
+          "ema21": 57472.661341060615,
+          "hist": 17.138675846331676,
+          "close": 57510
+        },
+        "previous_values": {
+          "ema8": 57463.85275790078,
+          "ema21": 57468.927475166674,
+          "hist": 15.90498435551553
+        },
+        "signed_gap_ema8_21": -1.4463595288762008,
+        "signed_slopes_one_publication": {
+          "ema8": -10.254942688712617,
+          "ema21": -3.733865893940674,
+          "hist": -1.2336914908161454
+        },
+        "signed_close_minus_ema8": -35.89229941050871,
+        "signed_close_minus_ema21": -37.33865893938491,
+        "c": "false",
+        "m": "true",
+        "v": 100,
+        "ohlc": {
+          "open": 57440,
+          "high": 57530,
+          "low": 57440,
+          "close": 57510,
+          "publication_id": "[\"2026-11-06_Day\",\"161120018\",1793941200.0]"
+        },
+        "dynamic_prior_pivot": {
+          "scope": {
+            "session": "2026-11-06_Day",
+            "contract": "161120018",
+            "start": 1793922300
+          },
+          "id": "[\"2026-11-06_Day\",\"161120018\",1793940660.0]",
+          "kind": "high",
+          "price": 57560,
+          "center_start": 1793940480,
+          "center_end": 1793940660,
+          "confirm_end": 1793941020,
+          "published_at": 1793941020
+        },
+        "bb": {
+          "known": true,
+          "window_bars": 20,
+          "sma": 57422,
+          "upper": 57571.07716122868,
+          "lower": 57272.92283877132,
+          "width": 298.1543224573476,
+          "band_width": 0.005192336081246692,
+          "percent_b": 0.7951491672994014,
+          "contraction": 2,
+          "window_sha256": "9df12eb70a84029b29fcdf462fcf40fbf1f9753bd2ddf069cd9a79247a3d6bbf"
+        },
+        "b": "true",
+        "fifteen_minute": {
+          "status": "当時公表snapshot未保存",
+          "value": null
+        }
+      }
+    }
+  ],
+  "last_publication": {
+    "scope": {
+      "session": "2026-11-06_Day",
+      "contract": "161120018",
+      "start": 1793922300
+    },
+    "id": "[\"2026-11-06_Day\",\"161120018\",1793941200.0]",
+    "ordinal": 105,
+    "start": 1793941020,
+    "end": 1793941200,
+    "available_at": 1793941200,
+    "c": 1,
+    "m": 2,
+    "v": 100,
+    "close": 57510,
+    "prior_pivot": {
+      "scope": {
+        "session": "2026-11-06_Day",
+        "contract": "161120018",
+        "start": 1793922300
+      },
+      "id": "[\"2026-11-06_Day\",\"161120018\",1793940660.0]",
+      "kind": "high",
+      "price": 57560,
+      "center_start": 1793940480,
+      "center_end": 1793940660,
+      "confirm_end": 1793941020,
+      "published_at": 1793941020
+    },
+    "bb": {
+      "scope": {
+        "session": "2026-11-06_Day",
+        "contract": "161120018",
+        "start": 1793922300
+      },
+      "id": "[\"2026-11-06_Day\",\"161120018\",1793941200.0]",
+      "ordinal": 105,
+      "end": 1793941200,
+      "available_at": 1793941200,
+      "delivered_at": 1793941200,
+      "known": true,
+      "window_bars": 20,
+      "sma": 57422,
+      "sigma": 74.5385806143369,
+      "upper": 57571.07716122868,
+      "lower": 57272.92283877132,
+      "width": 298.1543224573476,
+      "band_width": 0.005192336081246692,
+      "percent_b": 0.7951491672994014,
+      "contraction": 2,
+      "window_sha256": "9df12eb70a84029b29fcdf462fcf40fbf1f9753bd2ddf069cd9a79247a3d6bbf",
+      "reset_reason": ""
+    }
+  },
+  "first_activation": null,
+  "first_invalidation": null,
+  "entry_exit_requests": [],
+  "source_close_notice": {
+    "at": 1793941369,
+    "phase": "source_close",
+    "method": "NK225_D164_15",
+    "kind": "close_notice",
+    "signal_id": "2026-11-06_Day-NK225mini-D164_15-000031",
+    "execution_id": "",
+    "hold_id": "2026-11-06_Day-NK225mini-D164_15-000030-玉",
+    "notice_id": "2026-11-06_Day-NK225mini-D164_15-000031|2026-11-06_Day-NK225mini-D164_15-000030-玉",
+    "quote": {
+      "time": 1793941369,
+      "index": 172375,
+      "source_line": 176875,
+      "last": 57600,
+      "bid": 57590,
+      "ask": 57610,
+      "quote_ok": true
+    },
+    "side": 1,
+    "quantity": 7,
+    "before": 7,
+    "actual_pending_before": 0,
+    "actual_new_cancelled": 0,
+    "actual_free_before": 7,
+    "actual_exit_requested": 7,
+    "actual_free_after": 0,
+    "actual_accepted": 0,
+    "available": 0,
+    "order_id": "2026-11-06_Day-E100_C0_D0-O000030",
+    "reason": "source_end/D164_15"
+  },
+  "exit_order": {
+    "id": "2026-11-06_Day-E100_C0_D0-O000030",
+    "kind": "exit",
+    "side": 1,
+    "quantity": 7,
+    "position_id": "2026-11-06_Day-E100_C0_D0-P000029",
+    "source": {
+      "method": "NK225_D164_15",
+      "signal_id": "2026-11-06_Day-NK225mini-D164_15-000030",
+      "kind": "initial",
+      "parent": "addon/2",
+      "source_id": "-選定源-2026-11-06_Day-NK225mini-addon-000043",
+      "quantity_micro": 71,
+      "birth_quantity": 7,
+      "birth_time": 1793940733,
+      "birth_quote": {
+        "time": 1793940733,
+        "index": 167092,
+        "source_line": 171592,
+        "last": 57430,
+        "bid": 57430,
+        "ask": 57440,
+        "quote_ok": true
+      }
+    },
+    "source_hold_id": "2026-11-06_Day-NK225mini-D164_15-000030-玉",
+    "native_close_signal_id": "2026-11-06_Day-NK225mini-D164_15-000031",
+    "native_close_notice_id": "2026-11-06_Day-NK225mini-D164_15-000031|2026-11-06_Day-NK225mini-D164_15-000030-玉",
+    "request_time": 1793941369,
+    "request_quote": {
+      "time": 1793941369,
+      "index": 172375,
+      "source_line": 176875,
+      "last": 57600,
+      "bid": 57590,
+      "ask": 57610,
+      "quote_ok": true
+    },
+    "reason": "source_end/D164_15",
+    "status": "filled",
+    "fill_id": "2026-11-06_Day-E100_C0_D0-O000030-F",
+    "cancel_time": null,
+    "cancel_reason": "",
+    "protection_point": null
+  },
+  "exit_fill": {
+    "id": "2026-11-06_Day-E100_C0_D0-O000030-F",
+    "order_id": "2026-11-06_Day-E100_C0_D0-O000030",
+    "position_id": "2026-11-06_Day-E100_C0_D0-P000029",
+    "action": "close",
+    "side": 1,
+    "quantity": 7,
+    "price": 57610,
+    "quote": {
+      "time": 1793941369,
+      "index": 172376,
+      "source_line": 176876,
+      "last": 57600,
+      "bid": 57590,
+      "ask": 57610,
+      "quote_ok": true
+    },
+    "source": {
+      "method": "NK225_D164_15",
+      "signal_id": "2026-11-06_Day-NK225mini-D164_15-000030",
+      "kind": "initial",
+      "parent": "addon/2",
+      "source_id": "-選定源-2026-11-06_Day-NK225mini-addon-000043",
+      "quantity_micro": 71,
+      "birth_quantity": 7,
+      "birth_time": 1793940733,
+      "birth_quote": {
+        "time": 1793940733,
+        "index": 167092,
+        "source_line": 171592,
+        "last": 57430,
+        "bid": 57430,
+        "ask": 57440,
+        "quote_ok": true
+      }
+    },
+    "source_hold_id": "2026-11-06_Day-NK225mini-D164_15-000030-玉",
+    "native_close_signal_id": "2026-11-06_Day-NK225mini-D164_15-000031",
+    "native_close_notice_id": "2026-11-06_Day-NK225mini-D164_15-000031|2026-11-06_Day-NK225mini-D164_15-000030-玉",
+    "reason": "source_end/D164_15",
+    "fee_yen": 269.5,
+    "slip_yen": 0,
+    "gross_yen": -133000,
+    "net_contribution_yen": -133269.5,
+    "allocations": [
+      {
+        "position_id": "2026-11-06_Day-E100_C0_D0-P000029",
+        "source_hold_id": "2026-11-06_Day-NK225mini-D164_15-000030-玉",
+        "quantity": 7,
+        "entry_price": 57420,
+        "entry_quote": {
+          "time": 1793940733,
+          "index": 167093,
+          "source_line": 171593,
+          "last": 57430,
+          "bid": 57420,
+          "ask": 57440,
+          "quote_ok": true
+        },
+        "exit_price": 57610,
+        "exit_quote": {
+          "time": 1793941369,
+          "index": 172376,
+          "source_line": 176876,
+          "last": 57600,
+          "bid": 57590,
+          "ask": 57610,
+          "quote_ok": true
+        },
+        "gross_yen": -133000,
+        "entry_fee_yen": 269.5,
+        "exit_fee_yen": 269.5,
+        "entry_slip_yen": 0,
+        "exit_slip_yen": 0,
+        "net_yen": -133539
+      }
+    ]
+  },
+  "exit_request_jst": "2026-11-06T14:02:49+09:00",
+  "exit_fill_jst": "2026-11-06T14:02:49+09:00",
+  "entry_to_close_seconds": 636,
+  "final_realized_net_yen": -133539,
+  "observed_factors": {
+    "anchor_eligible": true,
+    "all_published_fixed_support_break_false": true,
+    "last_m_true": true,
+    "preexisting_exit_reservation_at_source_notice": false,
+    "quote_at_source_request_already_above_anchor": true,
+    "next_three_minute_end_known_schedule": "2026-11-06T14:03:00+09:00"
+  },
+  "Native前後不変": true,
+  "Raw本文読取": 0,
+  "価格CSV読取": 0,
+  "11月09本文読取": 0,
+  "金融再実行": false,
+  "閾値変更": false,
+  "限界": [
+    "支持まで150ptあることと、その距離が最適かは別。最適閾値やモデル損切り額を決定しない。",
+    "現在BBOが最後の確定Closeより先に支持外へ動いたことはSource要求quoteで確認できるが、最初のBBO支持越え時計はこの保存値だけでは未確定。",
+    "14:03の足は保有後なので実値を読まず、既知の3分時計の終端予定だけを示す。",
+    "15分の当時snapshotは未保存。保有後の回復や仮想利益は扱わない。"
+  ]
+}

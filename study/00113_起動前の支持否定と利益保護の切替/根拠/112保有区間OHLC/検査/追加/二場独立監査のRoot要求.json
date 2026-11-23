@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "fixed": true,
+  "raw_read_authorized": true,
+  "policy": "112_holding_ohlc_independent_1106_v1",
+  "sessions": [
+    "2026-11-06_Day",
+    "2026-11-06_Night"
+  ],
+  "audit_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\停止.json",
+    "sha256": "d7d4e78cb3a4a46a71b837e52f4133da46b25ebeb5ebc2e5a2dbf1288814567c"
+  },
+  "code_sha256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間の独立算術.py": "11861723b27d29982916a3f77862d70a309a878c408b2ec291fd720540f3971f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader対照の算術.py": "a787e7e568db6d7fec83db3df0502268ea970d56e18f577bdcd4883ed3df012e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\独立走査を実行する.py": "3ec7de427ad858246ec95b2e187e03b6f3c15f04225729afb058849f5e24ed90",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間監査の人工検査.py": "8a9a0120451af3fdabaa5f4061097156d1b9120f29851e77413f46dc6412b000",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader人工の独立検査.py": "82e8920e833f2d26fe448c9839e0714c672fb3c97bfd596fc8317589f71e5e91",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\参照比較の人工検査.py": "7d3d9326f016dbc8be58aea6fdf2ba50afc1df15270ae5006a1d94033c286402",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\README.md": "a61f8ed9562366c0acaf288caf8e7e8e2ca02f9ed49729014ac1d54f2319019c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\検査して停止する.py": "bb6155329f0fb298fca978823846715e314ee4c78b6c1cac8060cd4501cb5ec8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\停止.json": "d7d4e78cb3a4a46a71b837e52f4133da46b25ebeb5ebc2e5a2dbf1288814567c"
+  },
+  "main_condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC進行\\112保有区間OHLCの固定要求.json",
+    "sha256": "feaeece8f75a0775988d03a93c1ea8facdc0a18f259c5ae538cc2f00019073c8"
+  },
+  "reader_completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC原板結果_全70\\完了.json",
+    "sha256": "52d2df742092f91e9cb369b2c9c510e69864d790b2b6ff28fa003a92991bb0a7"
+  },
+  "positions": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\建玉全体の台帳.jsonl.gz",
+    "sha256": "aaaf22ba0964c626bdf789059cc0abc2a3cb61a323c29a06bbb24d658edd9b45",
+    "bytes": 7995521
+  },
+  "allocations": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\返済片の台帳.jsonl.gz",
+    "sha256": "ac99116d899b8b735513265156f6cbdb5978051223da92422cedabbd7a812e4a",
+    "bytes": 3687756
+  },
+  "output_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC独立2場の結果",
+  "金融再生": false,
+  "11月09未読": true,
+  "参照接合の修正": "FileRefの付加bytesとslash表記差だけを同体化。旧停止/金融算術不変、先行要求はRaw0。"
+}

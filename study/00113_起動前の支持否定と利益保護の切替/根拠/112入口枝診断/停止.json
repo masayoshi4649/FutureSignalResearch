@@ -1,0 +1,82 @@
+{
+  "試行": 113,
+  "成功": true,
+  "市場前": false,
+  "処理": "試行112の固定成果物を再生せず診断",
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\診断する.py": "6251a1c826cc0e03980a5684d3bf2ac22a973c311db1eb0abb181e1fb01984c7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\人工検査.py": "a97eb0fd483c13a468d40a08ce5d5d20de4a5fed447933170ef3dab70fc3d287",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\要約を作る.py": "774e27e5bcf1a7c4329f73551d1a3a759a27c62e76e2865dfed53fe832a22a9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\固定する.py": "8d02c65a93754d40a6eaf12daecf0343f79339caf01cc926fc6ebac00dd929ee",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\README.md": "e5b72f9ca295079929d0fc4840ce30153bf92b1e37b4082551da234f26ffdf55",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\タグschema.md": "6b222e7f67d19cafbbc16529019ffbd1b020edd255c95abcbcb75fa32f4f9516"
+  },
+  "所有前後同体": true,
+  "成果物": {
+    "全70の診断/結果.json": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\全70の診断\\結果.json",
+      "sha256": "dcb14f9560a01f579ac69bf51b36503bbbcbc638f8206d6b4545f9b831edd32c",
+      "bytes": 6594960
+    },
+    "全70の診断/成立玉の分類.jsonl": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\全70の診断\\成立玉の分類.jsonl",
+      "sha256": "cba6fd7385d9c5aff9cafb1b839b66e38ec044e2381934a8814a6c16cbb7f49f",
+      "bytes": 6439537
+    },
+    "全70の診断/確認.json": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\全70の診断\\確認.json",
+      "sha256": "584acdb69ab92f39fbd2e6d6016d3145f903a26da49e5a3e4ef8663c47a0a002",
+      "bytes": 973
+    },
+    "要約.json": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\要約.json",
+      "sha256": "2db23ec332ca8d5c3dc805d2da6492abad5c2f5f0abcd05b16b0c24094ac311b",
+      "bytes": 784512
+    },
+    "要点.md": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\要点.md",
+      "sha256": "50eba30382220a7f2e2234aa5187889301a50ff2a16f910383cf39d31f1a45ad",
+      "bytes": 9391
+    },
+    "人工検査.txt": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\人工検査.txt",
+      "sha256": "6f0f1477d5fbf28bad6dfcf56974eb330804968f97ed8ac560971c4963599556",
+      "bytes": 516
+    },
+    "正本の初回認証.json": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113入口枝と保護起動前損失の診断\\正本の初回認証.json",
+      "sha256": "d48227501026f8dec399e5fcb2e51fe88056f9710e33a3db6f59bee6c08b8fa3",
+      "bytes": 4407
+    }
+  },
+  "実場数": 70,
+  "口座場数": 840,
+  "成立玉の延べ数": 6666,
+  "独立正本数値比較数": 12780,
+  "全0不明を含む枝段階群数": 4608,
+  "人工主数": 3,
+  "人工成功": true,
+  "全入力前後不変": true,
+  "不明": {
+    "入口枝不明玉数": 0,
+    "段階不明玉数": 0,
+    "手法不明玉数": 0,
+    "addon内の方向型": "入口evidenceにmode等が保存されていないため不明。突破/往復等を推定しない。",
+    "leg": "独立したlegフィールドなし。owner/kind/parentを使用し、legという分類は補完しない。"
+  },
+  "限界": [
+    "成立した実玉だけの記述的診断。枝単独の因果効果、採用条件、将来利益を意味しない。",
+    "保存された少数点と実約定台帳を再読した。全Raw原行や未保存の起動前後値を独立再走していない。",
+    "対象群は重複する。全70=元54+追加16、11月06日は追加16の内数。政策・費用口座同士を合算しない。",
+    "未起動は正益未観測と同義ではない。S0はH100の未達判定をしていない。"
+  ],
+  "市場再生": false,
+  "新金融条件実行": false,
+  "Raw読取": 0,
+  "11月09本文読取": 0,
+  "旧固定の編集": 0,
+  "CSV本文復号": false,
+  "機会損失評価": false,
+  "採用": false,
+  "研究目標達成": false
+}

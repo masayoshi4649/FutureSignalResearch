@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "source_trial": 112,
+  "kind": "OHLC独立二場監査",
+  "sessions": [
+    {
+      "session": "2026-11-06_Day",
+      "success": true,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105入力の固定準備\\生成_初回\\gzip\\NK225\\2026-11-06_Day\\book.jsonl.gz",
+        "sha256": "aed8e3549b72d160b1acacced6c52277c7ce0cb6be3f21de16b56bc4766f1b6f"
+      },
+      "actual_sha256": "aed8e3549b72d160b1acacced6c52277c7ce0cb6be3f21de16b56bc4766f1b6f",
+      "compressed_bytes": 6655261,
+      "decoded_passes": 1,
+      "decoded_lines": 221371,
+      "last_requested_line": 221371,
+      "price_intervals_checked": 64,
+      "state_queries_checked": 130,
+      "positions_checked": 444,
+      "financial_paths_checked": 90,
+      "fill_allocations_and_entry_quotes_checked": 940,
+      "saved_mark_points_checked": 4752,
+      "marks_phase_quantity_R_checked": true,
+      "marks_reserved_checked": false,
+      "stat_before": {
+        "bytes": 6655261,
+        "mtime_ns": 1794181102584567000
+      },
+      "stat_after": {
+        "bytes": 6655261,
+        "mtime_ns": 1794181102584567000
+      },
+      "raw_rows_copied": false,
+      "post_exit_price_evaluated": false,
+      "clock_basis": "CurrentPriceTime。実受信時刻は未証明、同秒は物理行"
+    },
+    {
+      "session": "2026-11-06_Night",
+      "success": true,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105入力の固定準備\\生成_初回\\gzip\\NK225\\2026-11-06_Night\\book.jsonl.gz",
+        "sha256": "30a82b34a56dab209fbdd1711dd04e9a95fa4a8f9f3d38d3b54c39a63215729e"
+      },
+      "actual_sha256": "30a82b34a56dab209fbdd1711dd04e9a95fa4a8f9f3d38d3b54c39a63215729e",
+      "compressed_bytes": 6766729,
+      "decoded_passes": 1,
+      "decoded_lines": 296095,
+      "last_requested_line": 296095,
+      "price_intervals_checked": 78,
+      "state_queries_checked": 149,
+      "positions_checked": 636,
+      "financial_paths_checked": 125,
+      "fill_allocations_and_entry_quotes_checked": 1300,
+      "saved_mark_points_checked": 6756,
+      "marks_phase_quantity_R_checked": true,
+      "marks_reserved_checked": false,
+      "stat_before": {
+        "bytes": 6766729,
+        "mtime_ns": 1794181119974929000
+      },
+      "stat_after": {
+        "bytes": 6766729,
+        "mtime_ns": 1794181119974929000
+      },
+      "raw_rows_copied": false,
+      "post_exit_price_evaluated": false,
+      "clock_basis": "CurrentPriceTime。実受信時刻は未証明、同秒は物理行"
+    }
+  ],
+  "request": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC進行\\11月06二場の独立監査要求_参照同体.json",
+    "sha256": "5b8b750aa51a94dc8969bf536de126ea3ee781d69c25947cf6ee5c1ffdc168df"
+  },
+  "before": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC進行\\11月06二場の独立監査要求_参照同体.json": "5b8b750aa51a94dc8969bf536de126ea3ee781d69c25947cf6ee5c1ffdc168df",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\停止.json": "d7d4e78cb3a4a46a71b837e52f4133da46b25ebeb5ebc2e5a2dbf1288814567c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間の独立算術.py": "11861723b27d29982916a3f77862d70a309a878c408b2ec291fd720540f3971f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader対照の算術.py": "a787e7e568db6d7fec83db3df0502268ea970d56e18f577bdcd4883ed3df012e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\独立走査を実行する.py": "3ec7de427ad858246ec95b2e187e03b6f3c15f04225729afb058849f5e24ed90",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間監査の人工検査.py": "8a9a0120451af3fdabaa5f4061097156d1b9120f29851e77413f46dc6412b000",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader人工の独立検査.py": "82e8920e833f2d26fe448c9839e0714c672fb3c97bfd596fc8317589f71e5e91",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\参照比較の人工検査.py": "7d3d9326f016dbc8be58aea6fdf2ba50afc1df15270ae5006a1d94033c286402",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\README.md": "a61f8ed9562366c0acaf288caf8e7e8e2ca02f9ed49729014ac1d54f2319019c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\検査して停止する.py": "bb6155329f0fb298fca978823846715e314ee4c78b6c1cac8060cd4501cb5ec8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC進行\\112保有区間OHLCの固定要求.json": "feaeece8f75a0775988d03a93c1ea8facdc0a18f259c5ae538cc2f00019073c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC原板結果_全70\\完了.json": "52d2df742092f91e9cb369b2c9c510e69864d790b2b6ff28fa003a92991bb0a7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\Reader入力の素材.json": "551a1dfcf94615545e74be79e4191c0e93d1bc3794f6bb252f52bd1b111d92aa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\建玉全体の台帳.jsonl.gz": "aaaf22ba0964c626bdf789059cc0abc2a3cb61a323c29a06bbb24d658edd9b45",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\返済片の台帳.jsonl.gz": "ac99116d899b8b735513265156f6cbdb5978051223da92422cedabbd7a812e4a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC原板結果_全70\\2026-11-06_Day.ohlc.json": "57b191c22446c3cb4cfbdce741001bb4c3a06c750c5668cf5600dd86dc4d3f3a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC原板結果_全70\\2026-11-06_Night.ohlc.json": "51704ad74a670ddb95d687b5f7344d3abdfae430c5aa715210198713a76b7bc9"
+  },
+  "after": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC進行\\11月06二場の独立監査要求_参照同体.json": "5b8b750aa51a94dc8969bf536de126ea3ee781d69c25947cf6ee5c1ffdc168df",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\停止.json": "d7d4e78cb3a4a46a71b837e52f4133da46b25ebeb5ebc2e5a2dbf1288814567c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間の独立算術.py": "11861723b27d29982916a3f77862d70a309a878c408b2ec291fd720540f3971f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader対照の算術.py": "a787e7e568db6d7fec83db3df0502268ea970d56e18f577bdcd4883ed3df012e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\独立走査を実行する.py": "3ec7de427ad858246ec95b2e187e03b6f3c15f04225729afb058849f5e24ed90",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\区間監査の人工検査.py": "8a9a0120451af3fdabaa5f4061097156d1b9120f29851e77413f46dc6412b000",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\Reader人工の独立検査.py": "82e8920e833f2d26fe448c9839e0714c672fb3c97bfd596fc8317589f71e5e91",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\参照比較の人工検査.py": "7d3d9326f016dbc8be58aea6fdf2ba50afc1df15270ae5006a1d94033c286402",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\README.md": "a61f8ed9562366c0acaf288caf8e7e8e2ca02f9ed49729014ac1d54f2319019c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間OHLCの独立監査_参照同体\\検査して停止する.py": "bb6155329f0fb298fca978823846715e314ee4c78b6c1cac8060cd4501cb5ec8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC進行\\112保有区間OHLCの固定要求.json": "feaeece8f75a0775988d03a93c1ea8facdc0a18f259c5ae538cc2f00019073c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC原板結果_全70\\完了.json": "52d2df742092f91e9cb369b2c9c510e69864d790b2b6ff28fa003a92991bb0a7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\Reader入力の素材.json": "551a1dfcf94615545e74be79e4191c0e93d1bc3794f6bb252f52bd1b111d92aa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\建玉全体の台帳.jsonl.gz": "aaaf22ba0964c626bdf789059cc0abc2a3cb61a323c29a06bbb24d658edd9b45",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113保有区間の建玉台帳と費用後曲線\\112全24と全70の区間\\返済片の台帳.jsonl.gz": "ac99116d899b8b735513265156f6cbdb5978051223da92422cedabbd7a812e4a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC原板結果_全70\\2026-11-06_Day.ohlc.json": "57b191c22446c3cb4cfbdce741001bb4c3a06c750c5668cf5600dd86dc4d3f3a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113OHLC原板結果_全70\\2026-11-06_Night.ohlc.json": "51704ad74a670ddb95d687b5f7344d3abdfae430c5aa715210198713a76b7bc9"
+  },
+  "unchanged": true,
+  "financial_replay": false,
+  "post_exit_virtual_profit": false,
+  "native_fields_ignored": [
+    "marks.reserved（注文取消の物理行が未保存のため別監査）"
+  ]
+}

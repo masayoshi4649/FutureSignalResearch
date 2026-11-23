@@ -1,0 +1,254 @@
+{
+  "試行": 113,
+  "固定済み": false,
+  "市場実行": false,
+  "政策": [
+    {
+      "id": "S0",
+      "H": null,
+      "narrowing": false,
+      "entry_invalidation": false,
+      "role": "元手法・112同体対照"
+    },
+    {
+      "id": "W100",
+      "H": 100,
+      "narrowing": false,
+      "entry_invalidation": false,
+      "role": "通常の必須追尾・112同体対照"
+    },
+    {
+      "id": "P100",
+      "H": 100,
+      "narrowing": true,
+      "entry_invalidation": false,
+      "role": "動的支持確認の狭幅・112同体対照"
+    },
+    {
+      "id": "P50",
+      "H": 50,
+      "narrowing": true,
+      "entry_invalidation": false,
+      "role": "Hのみ低下"
+    },
+    {
+      "id": "E100",
+      "H": 100,
+      "narrowing": true,
+      "entry_invalidation": true,
+      "role": "起動前の取得時支持失効を追加"
+    },
+    {
+      "id": "E50",
+      "H": 50,
+      "narrowing": true,
+      "entry_invalidation": true,
+      "role": "低いHと起動前失効の組合せ"
+    }
+  ],
+  "比較条件": [
+    {
+      "id": "R01",
+      "key": "S0_C0_D0",
+      "policy": "S0",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R02",
+      "key": "S0_C0_D1",
+      "policy": "S0",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R03",
+      "key": "S0_C5_D0",
+      "policy": "S0",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R04",
+      "key": "S0_C5_D1",
+      "policy": "S0",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R05",
+      "key": "W100_C0_D0",
+      "policy": "W100",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R06",
+      "key": "W100_C0_D1",
+      "policy": "W100",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R07",
+      "key": "W100_C5_D0",
+      "policy": "W100",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R08",
+      "key": "W100_C5_D1",
+      "policy": "W100",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R09",
+      "key": "P100_C0_D0",
+      "policy": "P100",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R10",
+      "key": "P100_C0_D1",
+      "policy": "P100",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R11",
+      "key": "P100_C5_D0",
+      "policy": "P100",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R12",
+      "key": "P100_C5_D1",
+      "policy": "P100",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R13",
+      "key": "P50_C0_D0",
+      "policy": "P50",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R14",
+      "key": "P50_C0_D1",
+      "policy": "P50",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R15",
+      "key": "P50_C5_D0",
+      "policy": "P50",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R16",
+      "key": "P50_C5_D1",
+      "policy": "P50",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R17",
+      "key": "E100_C0_D0",
+      "policy": "E100",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R18",
+      "key": "E100_C0_D1",
+      "policy": "E100",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R19",
+      "key": "E100_C5_D0",
+      "policy": "E100",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R20",
+      "key": "E100_C5_D1",
+      "policy": "E100",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R21",
+      "key": "E50_C0_D0",
+      "policy": "E50",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R22",
+      "key": "E50_C0_D1",
+      "policy": "E50",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R23",
+      "key": "E50_C5_D0",
+      "policy": "E50",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R24",
+      "key": "E50_C5_D1",
+      "policy": "E50",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    }
+  ],
+  "起動": "S0以外W=R+n*u >= q0*100*H円、費用後。通常幅200/2ATR、未知200固定。",
+  "起動後": "P/Eは動的M AND Pの狭幅と適格構造床、床/L非緩和。Wは狭幅なし。",
+  "取得時支持": "Eだけ実取得行で既知のside対応prior pivotを固定。side*(取得価格-anchor)>0が適格。",
+  "起動前失効": "将来確定公表End>実取得、side*(Close-anchor)<0かつ生M真、Active=falseで不可逆ラッチ。現在正益gateなし。",
+  "順序": "H更新を先行、同じ行でActiveになれば新しい早期失効は発火しない。既ラッチは保持。",
+  "要求": "Mark未知でも公表条件既知なら失効可。AfterSourceで未予約n-rだけ、回復で撤回せず次正常後原行でfill。",
+  "不変": "元Source111/Chart111/三手法43/原行時計/売買対称/mini各10/38.5円/全場flat。Sourceへの実返済非返送。",
+  "診断による選択": "特定枝の成績だけで丸ごと除外しない。addon内突破/往復型の保存タグは不明。",
+  "入力": "既使用70場を同条件で先頭2→元54→全70。11/09未読を維持。",
+  "採用": false,
+  "研究目標達成": false
+}
