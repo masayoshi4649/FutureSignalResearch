@@ -1,0 +1,357 @@
+{
+  "成功": true,
+  "金融未入力": true,
+  "追加二場損益ラベル未読": true,
+  "固定基準": {
+    "npz": {
+      "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/固定基準の純接続/追加2_純基準181.npz",
+      "bytes": 5147,
+      "sha256": "14339924f8448ec044701d8154d9fa4b835df04b735f95ecc128b5b58c2a843a"
+    },
+    "metadata": {
+      "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/固定基準の純接続/追加2_純基準181.json",
+      "bytes": 2934,
+      "sha256": "6eec5fa6c095e14fe6a08a524f787650f35b2cd58ea7f6a7bffcd94d0ac20a6a"
+    }
+  },
+  "当時価格": {
+    "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/判断時点価格/追加2_q0.json",
+    "bytes": 1626,
+    "sha256": "47aa0078a906a46c3780fbd586e95e5cba52e9590b7abdb4787b4aa6a5b75cc0"
+  },
+  "当時価格NPZ": {
+    "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/判断時点価格/追加2_q0.npz",
+    "bytes": 10811,
+    "sha256": "ab89219a3144c68ed8fc96926d5bfc4068df83a3b903cb67dfa660b1b164ece2"
+  },
+  "旧同体検査": {
+    "path": "work/194追加二場/NK旧三期間の純出生同体.json",
+    "bytes": 18969,
+    "sha256": "b704ee143ca645efea0d10b4c6ca063cdf5b13b153690cbd2adefc7b04d163bb"
+  },
+  "入力": {
+    "成功": true,
+    "金融未入力": true,
+    "features_sha256": "abd264a72e77b3be4a507b0b095bb4d5329ee81aa7237ab9f5b7228276175023",
+    "q0": 1014,
+    "場数": 2,
+    "開始待機": 0,
+    "終了時計": "179固定のcut/submit",
+    "旧同体検査": {
+      "path": "work/194追加二場/NK旧三期間の純出生同体.json",
+      "bytes": 18969,
+      "sha256": "b704ee143ca645efea0d10b4c6ca063cdf5b13b153690cbd2adefc7b04d163bb"
+    },
+    "当時入力": [
+      {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/完了.json",
+        "bytes": 1965,
+        "sha256": "e34ad1130ddf03163afe2fc3eefdcb50bc22a92fc3c6778f39c35f1822c0fb0d"
+      },
+      {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/出生台帳.json.gz",
+        "bytes": 100281,
+        "sha256": "62f412e4d41d0f5e0cf8648e094ed47b85360187cf4d9ab278128b17df568982"
+      },
+      {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/当時特徴.json.gz",
+        "bytes": 459167,
+        "sha256": "941c891b20e0f99491dd00419092a8661974a867b696d0f564314464efb5c371"
+      },
+      {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/取得対応.json.gz",
+        "bytes": 62498,
+        "sha256": "587786c53ac3421eaa363961b77ba37b9c8f2cb3842194a3d4fcc38b479d5169"
+      },
+      {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/物理取得.json.gz",
+        "bytes": 34545,
+        "sha256": "07994779dd25f193b63e5e10b5f864050ad13dbefee042a988f28555e45e433b"
+      },
+      {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/固定取得入力.json.gz",
+        "bytes": 25755,
+        "sha256": "afd5362f6a5231c29e73ee6ed08d4804b8c7917e819ba02c3196ea51737a21c5"
+      }
+    ],
+    "adapter": {
+      "path": "work/194追加二場/NK純接続194.py",
+      "bytes": 16756,
+      "sha256": "e7b5f3e375d6a324169f3e3aca6d385e071ab76afd15629d0eef6d33a6ee8309"
+    }
+  },
+  "Source": [
+    {
+      "path": "work/161三時間帯入口のデータ/data161.py",
+      "bytes": 23344,
+      "sha256": "1aa4ab452d26d507f532c78ebf036ca37690642cd1cf140f01eb0423f0fe03fe"
+    },
+    {
+      "path": "work/162入口探索/共通.py",
+      "bytes": 2639,
+      "sha256": "4195017fc1ae7c62f5a733e268ce25ca35e97161c4cb0322af6dbbaf097fc84f"
+    },
+    {
+      "path": "work/162入口探索/評価基盤.py",
+      "bytes": 11854,
+      "sha256": "fb4a053bcde76c6aea7d53381b510b9ed0ffb009c0cc6ed5370c0526e312a926"
+    },
+    {
+      "path": "work/162複合入口候補/rules162.py",
+      "bytes": 17497,
+      "sha256": "93d8ef4d5e18f2835e4835f63c60912088103003f8b5c1ed8dd13560a2e7836a"
+    },
+    {
+      "path": "work/162複合入口候補/rules162_stateful.py",
+      "bytes": 14634,
+      "sha256": "3a3fb01a5d16e2a1ab58a0120253c0d35badd874a52ebf0a1778ef81e13b5279"
+    },
+    {
+      "path": "work/163任意幅Raw索引/観測条件の雛形.json",
+      "bytes": 718,
+      "sha256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e"
+    },
+    {
+      "path": "work/163任意幅の数値化/arrays163.py",
+      "bytes": 17857,
+      "sha256": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6"
+    },
+    {
+      "path": "work/163入口と任意幅/共通163.py",
+      "bytes": 1564,
+      "sha256": "ec344a23e888343d966f6d88ebc417c578ce3081bcb7caef29f2c1fc04bd3fe8"
+    },
+    {
+      "path": "work/163入口と任意幅/評価163.py",
+      "bytes": 6320,
+      "sha256": "16e118fbd085e1f3171158b7cd446bdc919a361f8961e58881e3229f07ee4ebe"
+    },
+    {
+      "path": "work/164先着確定と反転比較/比較する.py",
+      "bytes": 8504,
+      "sha256": "3e378b6c2407046c8b205997df17eea89bdf84e13ef6fddb8b1a2d8877bec786"
+    },
+    {
+      "path": "work/165順行と回復失敗の複合/出生を作る.py",
+      "bytes": 8553,
+      "sha256": "54db3ff0b72547d8e0317067d17a2332fbb8a4d7aaa47c231a52f5467148ea27"
+    },
+    {
+      "path": "work/165順行と回復失敗の複合/評価基盤165.py",
+      "bytes": 7525,
+      "sha256": "999225c47b9a88633fe7330e79235e33fe310b0d8f5d528a7ec0cbff024035fd"
+    },
+    {
+      "path": "work/166可変場の数値化/arrays166.py",
+      "bytes": 7903,
+      "sha256": "049645e8daa53e900a1a2c69ec78a7add9ea45dbf2179f262705c8be05c04947"
+    },
+    {
+      "path": "work/166可用指標の階層化/local166.py",
+      "bytes": 5946,
+      "sha256": "9085db8c15c1494729315b54ed08810bf405baf482c1f760210990d9588f597b"
+    },
+    {
+      "path": "work/167固定入口の別期間/適用基盤167.py",
+      "bytes": 11079,
+      "sha256": "d37d6c8cec944a4029b1719db0e7a66cc1fd056a35612e8aa952e44003d6a987"
+    },
+    {
+      "path": "work/168数量枠の因果再生/engine168.py",
+      "bytes": 8579,
+      "sha256": "a2f728bf7e7c925495d01670f1bbf89d88aaea6b8e207490e080d6c2d9f21050"
+    },
+    {
+      "path": "work/168数量枠の因果再生/再生する.py",
+      "bytes": 10669,
+      "sha256": "e075f37f56d24b19ace21ae0b3a88a5010cc43bd6840342c544ce121870074ca"
+    },
+    {
+      "path": "work/171三帯の入口切替/route171.py",
+      "bytes": 5622,
+      "sha256": "fae66a54edda60b6f2959af0e39a290413783a6d646365bd00ac9f53b8c96f6f"
+    },
+    {
+      "path": "work/171三帯の入口切替/固定候補を再生する.py",
+      "bytes": 2442,
+      "sha256": "a16e29bd9951777d6fba242c8a66d44e879ce6bed63baafd81738d5d77f498bd"
+    },
+    {
+      "path": "work/172ナイト入口探索/再生172.py",
+      "bytes": 9840,
+      "sha256": "bee4c88f1c3e1e0a20347f6877e279bd36e1f578c8eb9e3216974e81e6106753"
+    },
+    {
+      "path": "work/172ナイト入口探索/選定政策の出生.py",
+      "bytes": 6573,
+      "sha256": "ccdda9b10f5ba2e2da525d07984682ddd0c9e21f7c46377f20f5b6d279e8a612"
+    },
+    {
+      "path": "work/172ナイト数量再生/engine172.py",
+      "bytes": 9548,
+      "sha256": "d1b1fab0daad8f74d8928ea985a311288e5417a4455bf7209783c263b17a91a7"
+    },
+    {
+      "path": "work/172ナイト複合候補/rules172_night.py",
+      "bytes": 21962,
+      "sha256": "33d51c7d302f911754722e6460eff72a6ea42f294ccc6189ee8551797438ac3c"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/基盤173.py",
+      "bytes": 7270,
+      "sha256": "89b132081a722e112077fba8103f98f9e38bd210ee640da1410dc8c47b4d5854"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/構成173.py",
+      "bytes": 4721,
+      "sha256": "d9ac90fe0c0b1889be7e95192747551968e58480288172401931779f637e95eb"
+    },
+    {
+      "path": "work/173追加なしの因果再生/engine173.py",
+      "bytes": 13575,
+      "sha256": "4e5e90ee2a8548b65133feb1eb8ffa873acf693bbd923c71b4063a1a053b7b84"
+    },
+    {
+      "path": "work/173追加なしの評価/metrics173.py",
+      "bytes": 21035,
+      "sha256": "ab20c7dd9bcf6783b2aa2366eaebb92b6c8644c4ebfcec48eef3faf9ca25834f"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/数量候補を選ぶ.py",
+      "bytes": 4808,
+      "sha256": "469fd397d03bc9d98252e1e0b60a0792e7c5a57f18096d099394a6a3ea52b386"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/数量候補を選ぶ173原版.py",
+      "bytes": 5569,
+      "sha256": "eb424cda2c6471dc8c3af8172252d309d6e5e090034b3ba2744e9e734934cc19"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/旧73jointの固定選択.json",
+      "bytes": 30515,
+      "sha256": "1d31d7c8e69168a6eb1c025add255ae1a57e6f91d909c0ab4d1eb0c606e65f6e"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/段階再生174.py",
+      "bytes": 17289,
+      "sha256": "6d5cecdf85fad9988f7a7437b265fa6ad86ade7b64123b2843f7f4a1f19e2b59"
+    },
+    {
+      "path": "work/174追加七場適用/固定政策を適用する.py",
+      "bytes": 17701,
+      "sha256": "29ada26ed37882c3229e8f15c1640accc3c8904aa2f2b63400d0de67294393ed"
+    },
+    {
+      "path": "work/175局面別の純入口/rules175.py",
+      "bytes": 16325,
+      "sha256": "9588c3233812791d37afb0de9d029bbb3ea379891e81d1e4abf2fde49f3c6dab"
+    },
+    {
+      "path": "work/175局面別入口の再探索/予備評価175.py",
+      "bytes": 9335,
+      "sha256": "0e4c89e3b23a3652ae0e5cefcbca8274f749677ba2609facc28e3fc11f1b9b8e"
+    },
+    {
+      "path": "work/175局面別入口の再探索/基盤175.py",
+      "bytes": 4219,
+      "sha256": "0d36f684ad08303e1f6691055a8536aff8fb334fa6f19295285e5b04b1c6ce0c"
+    },
+    {
+      "path": "work/175局面別入口の再探索/数量段階を進める.py",
+      "bytes": 13976,
+      "sha256": "2443db3bbadd81b8c54cf09deddd1388f8b20667ccdc34436b7905a4972f31bb"
+    },
+    {
+      "path": "work/175経路と支持の評価/path175.py",
+      "bytes": 16036,
+      "sha256": "d7234d698e4485e9f12fc488c591ebb9bd238b5cda6a3a31411a53cf802f9ea4"
+    },
+    {
+      "path": "work/176局面別の役割票/rules176.py",
+      "bytes": 11965,
+      "sha256": "ca08b61790fedecd9ba691faf0e4560b801aab429e1470cd7f517548e6715473"
+    },
+    {
+      "path": "work/177高ADXの増分純入口/rules177.py",
+      "bytes": 5512,
+      "sha256": "a6704f8f46405c7e55f000fb77c07bcaba34ee5cf93f29f58c88bf6d4cbf9433"
+    },
+    {
+      "path": "work/177高ADX枝の増分比較/増分177.py",
+      "bytes": 20363,
+      "sha256": "7e3470439112a51f6d7a07a7c6ef44d668a91db52c335f7c0b50e6595e5b8cf7"
+    },
+    {
+      "path": "work/177高ADX枝の増分比較/旧73の固定選択.json",
+      "bytes": 7340,
+      "sha256": "8d9eb4bbe3830c3b504b72854330394699f3f970623855d44777ecb4155f89b5"
+    },
+    {
+      "path": "work/178新枝の実方向確認/gates178.py",
+      "bytes": 4964,
+      "sha256": "e8bb01d3500ef12bb13c7efc72d6a5e456d7719b7b1634d2eeb8345c67053323"
+    },
+    {
+      "path": "work/178新枝の確認比較/旧73の固定選択.json",
+      "bytes": 7850,
+      "sha256": "a838e86a36c578f3f5c6ec99f4c1b6c7bbe532ba801d77a1324a95d68fa8433d"
+    },
+    {
+      "path": "work/178新枝の確認比較/検証178.py",
+      "bytes": 12892,
+      "sha256": "dc39d321db449c02592b50a7c471f510fafd182b28d696cedafec818cafdd8e6"
+    },
+    {
+      "path": "work/178追加七場適用/固定政策を適用する.py",
+      "bytes": 17784,
+      "sha256": "aaf53c1303d4725d873d892b804e67cf9a515abafe35c117d52ca06153dc562b"
+    },
+    {
+      "path": "work/179保有参加の探索/基盤179.py",
+      "bytes": 8922,
+      "sha256": "9426b3eb05d752cfd15102d66612ec3d32cd4c97f6c7c14caeb07a754c3668d4"
+    },
+    {
+      "path": "work/179保有参加の探索/探索179.py",
+      "bytes": 20234,
+      "sha256": "1d9cb6c60ba17d95b7b1541e795320759fe236e54b308df30b5c02a0166f3b38"
+    },
+    {
+      "path": "work/179保有参加の探索/旧73の固定選択.json",
+      "bytes": 4450,
+      "sha256": "12d5ecc1376e91337b3b8002f5c49236c7a78e5ab22090d637583a5c63b88dc8"
+    },
+    {
+      "path": "work/179量と構造の純入口/rules179.py",
+      "bytes": 16232,
+      "sha256": "c1b944bc0be6a941545d83c33e14cd5453121c3528dc227da2d4a50d6fdcc125"
+    },
+    {
+      "path": "work/180本日デイ適用/入力180.py",
+      "bytes": 11949,
+      "sha256": "76b5cb151893960cfe04eb257aebb78181a7c395e18225cdc72f14dd6c7db7e1"
+    },
+    {
+      "path": "work/180本日デイ適用/純方向180.py",
+      "bytes": 7599,
+      "sha256": "37b474e53c890eb225ada567b5ca266e7996b1be402404ca2e24a4b4258379a9"
+    },
+    {
+      "path": "work/181共用接続/共用181.py",
+      "bytes": 19889,
+      "sha256": "7850b2ac250d37d0a5b2323caed168a15a7a743e2fd45e853b0cf33dded1fc67"
+    },
+    {
+      "path": "work/183単純IFD検証/当時価格183.py",
+      "bytes": 3476,
+      "sha256": "118036ef749e8d5953da31ad1093b4dacc39f268ac6bb23486122ec7fd15f8e5"
+    },
+    {
+      "path": "work/194追加二場/NK純接続194.py",
+      "bytes": 16756,
+      "sha256": "e7b5f3e375d6a324169f3e3aca6d385e071ab76afd15629d0eef6d33a6ee8309"
+    }
+  ],
+  "q0": 1014,
+  "正常板q0": 1006
+}

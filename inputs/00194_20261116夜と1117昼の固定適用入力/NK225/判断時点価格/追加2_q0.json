@@ -1,0 +1,41 @@
+{
+  "成功": true,
+  "金融未入力": true,
+  "q0原行一致": 1014,
+  "入力": {
+    "features_sha256": "abd264a72e77b3be4a507b0b095bb4d5329ee81aa7237ab9f5b7228276175023",
+    "価格索引": {
+      "manifest": {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/原板数値索引/manifest.json",
+        "bytes": 3191,
+        "sha256": "60c483c7656e7ae857604e08276636ca30223da6522fb73636dc3dc717b6186b"
+      },
+      "scenes": [
+        {
+          "session": "2026-11-16_Night",
+          "contract": "161120018",
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/原板数値索引/2026-11-16_Night.quotes.bin.gz",
+          "sha256": "457ebb136a7762e518634ed7660b8e1741d7dc4223ca213d3535326a4b988553",
+          "rows": 250513
+        },
+        {
+          "session": "2026-11-17_Day",
+          "contract": "161120018",
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/原板数値索引/2026-11-17_Day.quotes.bin.gz",
+          "sha256": "6608591646058304fcd6747089904741a83406f63dd5ba199da46c0717ed3375",
+          "rows": 178178
+        }
+      ]
+    },
+    "Source": {
+      "path": "work/183単純IFD検証/当時価格183.py",
+      "bytes": 3476,
+      "sha256": "118036ef749e8d5953da31ad1093b4dacc39f268ac6bb23486122ec7fd15f8e5"
+    }
+  },
+  "NPZ": {
+    "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/判断時点価格/追加2_q0.npz",
+    "bytes": 10811,
+    "sha256": "ab89219a3144c68ed8fc96926d5bfc4068df83a3b903cb67dfa660b1b164ece2"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "version": 166,
+  "trial": 194,
+  "success": true,
+  "input_sha256": "9243f3c524d2ea47926d8b2271200cdf3bc58320e48313b1e67e43685169bd1d",
+  "input_decoded_sha256": "9243f3c524d2ea47926d8b2271200cdf3bc58320e48313b1e67e43685169bd1d",
+  "source_entry_count": 0,
+  "scenes": [
+    {
+      "session": "2026-11-16_Night",
+      "contract": "161120018",
+      "rows": 250513,
+      "entry_count": 0,
+      "all_entries_matched": true,
+      "expected_accepted_compared": false,
+      "expected_quality_compared": false,
+      "expected_raw_stat_compared": true,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-16_Night\\book.jsonl",
+        "sha256": "9879041b59f644b657053f2403f7d0c13d9ddc790b7f0513791df3bbeaf563a4"
+      },
+      "actual_raw_sha256": "9879041b59f644b657053f2403f7d0c13d9ddc790b7f0513791df3bbeaf563a4",
+      "stat_before": {
+        "bytes": 405104720,
+        "mtime_ns": 1794862801350714800
+      },
+      "stat_after": {
+        "bytes": 405104720,
+        "mtime_ns": 1794862801350714800
+      },
+      "quality": {
+        "lines": 251285,
+        "clock_missing": 0,
+        "clock_invalid": 736,
+        "outside_session": 36,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 345,
+        "source_parser_accepted": 250513,
+        "cutoff_excluded": 0,
+        "source_delivered": 250513
+      },
+      "index": {
+        "path": "2026-11-16_Night.quotes.bin.gz",
+        "sha256": "457ebb136a7762e518634ed7660b8e1741d7dc4223ca213d3535326a4b988553"
+      },
+      "index_bytes": 721641,
+      "success": true
+    },
+    {
+      "session": "2026-11-17_Day",
+      "contract": "161120018",
+      "rows": 178178,
+      "entry_count": 0,
+      "all_entries_matched": true,
+      "expected_accepted_compared": false,
+      "expected_quality_compared": false,
+      "expected_raw_stat_compared": true,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-17_Day\\book.jsonl",
+        "sha256": "e290d7b9e0e7273c24e8d7d4818eb0a1984fc7f7dd484dcd1271c57ade0ce064"
+      },
+      "actual_raw_sha256": "e290d7b9e0e7273c24e8d7d4818eb0a1984fc7f7dd484dcd1271c57ade0ce064",
+      "stat_before": {
+        "bytes": 289627191,
+        "mtime_ns": 1794897900399946500
+      },
+      "stat_after": {
+        "bytes": 289627191,
+        "mtime_ns": 1794897900399946500
+      },
+      "quality": {
+        "lines": 179182,
+        "clock_missing": 0,
+        "clock_invalid": 998,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 582,
+        "source_parser_accepted": 178178,
+        "cutoff_excluded": 0,
+        "source_delivered": 178178
+      },
+      "index": {
+        "path": "2026-11-17_Day.quotes.bin.gz",
+        "sha256": "6608591646058304fcd6747089904741a83406f63dd5ba199da46c0717ed3375"
+      },
+      "index_bytes": 546785,
+      "success": true
+    }
+  ],
+  "row_format": "magic8=NQIDX163, little endian48bytes=(time f64,line i64,last f64,bid f64,ask f64,normal u64)。indexは0始まり行位置。",
+  "raw_passes_per_scene": 1
+}
