@@ -1,0 +1,133 @@
+{
+  "version": "191旧要求を起点に二方向の価格受容を確認1",
+  "candidate_count": 12,
+  "rules": [
+    {
+      "id": "E191_00",
+      "control": "E185_00",
+      "description": "固定対照 E185_00"
+    },
+    {
+      "id": "E191_01",
+      "control": "E185_01",
+      "description": "固定対照 E185_01"
+    },
+    {
+      "id": "E191_02",
+      "control": "E185_03",
+      "description": "固定対照 E185_03"
+    },
+    {
+      "id": "E191_03",
+      "control": "E185_14",
+      "description": "固定対照 E185_14"
+    },
+    {
+      "id": "E191_04",
+      "risk": "R1",
+      "mode": "WAIT",
+      "profile": "C60",
+      "description": "R1／WAIT／C60"
+    },
+    {
+      "id": "E191_05",
+      "risk": "R1",
+      "mode": "WAIT",
+      "profile": "C120",
+      "description": "R1／WAIT／C120"
+    },
+    {
+      "id": "E191_06",
+      "risk": "R1",
+      "mode": "SWITCH",
+      "profile": "C60",
+      "description": "R1／SWITCH／C60"
+    },
+    {
+      "id": "E191_07",
+      "risk": "R1",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "description": "R1／SWITCH／C120"
+    },
+    {
+      "id": "E191_08",
+      "risk": "R2",
+      "mode": "WAIT",
+      "profile": "C60",
+      "description": "R2／WAIT／C60"
+    },
+    {
+      "id": "E191_09",
+      "risk": "R2",
+      "mode": "WAIT",
+      "profile": "C120",
+      "description": "R2／WAIT／C120"
+    },
+    {
+      "id": "E191_10",
+      "risk": "R2",
+      "mode": "SWITCH",
+      "profile": "C60",
+      "description": "R2／SWITCH／C60"
+    },
+    {
+      "id": "E191_11",
+      "risk": "R2",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "description": "R2／SWITCH／C120"
+    }
+  ],
+  "profiles": {
+    "C60": {
+      "observations": 2,
+      "seconds": 60,
+      "penetration_atr": 0.1,
+      "volume_each": 0.5,
+      "volume_mean": 0.75
+    },
+    "C120": {
+      "observations": 3,
+      "seconds": 120,
+      "penetration_atr": 0.1,
+      "volume_each": 0.5,
+      "volume_mean": 0.75
+    }
+  },
+  "input": "旧179全期J035純入口、当時100特徴、q0絶対価格。金融・取得可否・未来価格を入力しない。",
+  "risk_R1": "取得実方向と反対の5分EMA21傾き/DIが正、Hist/RSI増分両非負で一方正、15又は30分のEMA/DI両正、1分実体/価格進行/liveが正。全役割の必要既知。",
+  "risk_R2": "取得実方向と反対の5分EMA21傾き/DIが正、Hist/RSI増分両非負で一方正、かつADX15>=25と増分>0、又は反対側entryのBB位置>=1σ。ORは既知True優先の三値。",
+  "unknown": "既知リスクTrueだけ保留。未知は別旗で旧要求保持、安全認定しない。LCとcore=0の旧Tはそのまま。",
+  "setup": "独立familyの新しい種は待たず、リスク旧要求自体をsetupにする。同方向30実分の期限を延長せず、反対旧要求で置換。新しい非リスク/未知旧coreで取消。",
+  "reverse_level": "元方向BB位置>=1かつsigma>0が既知なら当時の固定1σ端。そうでなければ要求時Last。BB未知を内側と認定せず、局所Last水準という明示的代替を使う。",
+  "reverse_confirm": "元5分DIがsetupより低下し、元Hist増分又はEMA傾きも低下。実方向5分Hist/RSI増分両非負・一方正、1分実体/進行/live正、共通品質と固定価格側受容。5分DIの完全符号転換は必須にしない。",
+  "follow_level": "要求時Lastを固定。後続q0で元方向の距離が−.2〜+.2ATRに再テストし、そのq0より後で受容を開始する。再テスト同q0で発火しない。",
+  "follow_confirm": "元方向5分EMA/DI/MA差が正、長期一足EMA/DI両正、Hist/RSI増分両非負で一方正、1分構造。元DI又はMA差がsetup以上を維持又は拡大し、共通品質と受容。WAITは使わずSWITCHだけ候補にする。",
+  "acceptance": "同じ絶対水準の実方向側>=0で開始。q0で観測した最大逆側侵入がprofile上限以内で、異なる秒の正常q0数・実秒・相対量各値/平均を満たす。実発火時の側距離>=.1ATRかつ開始価格からの実進行>=.1ATR。",
+  "quality": "正常q0価格・ATR5>0、spread>0かつ<=20、q0Last−1分終値絶対値<=1ATR5、現在entry−EMA8は−.5〜1.5ATR5、1分TR/ATR5<=2.5・5分TR/前ATR<=4。必要値既知。",
+  "clock": "185のq0価格同体とresetを継承。受容90秒gap/量/侵入reset、同秒原行はcount/量平均を増やさず侵入と無効化を反映。setup30実分。NY帯だけの境界では継続。",
+  "priority": "通常旧coreを最優先、LC保持。T/LC行で保留setupは保持するが、LC行では受容区間を切り直す。LCを飛ばした連続保持を仮定しない。リスク元q0はTへ暗黙切替しない。実方向反転再開と元方向順行が同時成熟すれば待ち。片方が発火したsetupは消費する。",
+  "width": "元要求時のmw/fw/hiを固定し、遅延/切替時にも同じ幅・IFD期限種を渡す。新しい当時実方向BBOで取得し価格を据え置かない。setup待機期限と取得後IFD期限は別。IFD期限は取得後から、場末締切は別に適用。",
+  "diagnostic": "元要求event、発火種別、固定水準、受容開始/秒/個数/侵入、遅延秒、元方向の源、unknownを保存。added=Trueは旧LCだけ。",
+  "psychology": "勢いのある元方向に対して反転だけを決めず、帯内回復と元動力失速が続けば反転、元水準の再テスト後に方向/動力が残れば順行、どちらもなければ待つ仮説。",
+  "limits": [
+    "圧力はEMA/DI/価格進行/相対量の代理であり板数量・完全OFI・吸収直接測定ではない。",
+    "保持・侵入はq0観測範囲。全原板の間に逆行がなかったとは保証しない。",
+    "全81既使用。前48選択と全80発見を分け、本日1/全81は診断専用。",
+    "金融後の閾値改善は別試行。単純IFDのみで出口の追尾・技術途中返済を加えない。"
+  ],
+  "Source": [
+    {
+      "path": "work/191要求起点の受容/rules191.py",
+      "bytes": 15606,
+      "sha256": "7863207fae63b2ef7e7ed3f5ecbcfe9cdfab76b0285ade0e05ca0bf57fe7a120"
+    },
+    {
+      "path": "work/185原圧力と受容/rules185.py",
+      "bytes": 22445,
+      "sha256": "42efee07b831a9abc166b7eb5fc75cab1706b58771356d7886b6158244e5ecf5"
+    }
+  ],
+  "新191金融未入力": true
+}

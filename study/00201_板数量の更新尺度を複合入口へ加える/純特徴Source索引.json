@@ -1,0 +1,83 @@
+{
+  "試行": 201,
+  "用途": "純特徴生成と独立監査のみ",
+  "SourceZIP": {
+    "path": "study/00201_板数量の更新尺度を複合入口へ加える/純特徴Source.zip",
+    "bytes": 24371,
+    "sha256": "5e4b4708d9455a779d6443454e9d289a84d41a3fa3b09a603709a3960fe0a2a2"
+  },
+  "Source": [
+    {
+      "path": "scripts/板数量純特徴201/README.md",
+      "bytes": 2410,
+      "sha256": "9c12fc59b2a75ce57c1ad8489734d32cbd892d0d1f3fdad7d31787c176d805e7"
+    },
+    {
+      "path": "scripts/板数量純特徴201/Sourceを保存する.py",
+      "bytes": 2963,
+      "sha256": "b4467a46376cdf55b4241b196afbafc57687ec57f8854dae9df4bcd6ca1e4aed"
+    },
+    {
+      "path": "scripts/板数量純特徴201/人工確認.json",
+      "bytes": 685,
+      "sha256": "e63fc3132196ee6b23c0531d50cde671e1475555fc7e3ab465369935cffa46d6"
+    },
+    {
+      "path": "scripts/板数量純特徴201/人工確認.py",
+      "bytes": 5485,
+      "sha256": "0707abc04f76be07defaf64a85eb114d8aa014518c7d2bd4a4e41d715079a5bf"
+    },
+    {
+      "path": "scripts/板数量純特徴201/仕様.md",
+      "bytes": 6287,
+      "sha256": "5669c3a0af5dd5964db27bb083ae24c89140b64de5c40c98a32668c011b53af3"
+    },
+    {
+      "path": "scripts/板数量純特徴201/抽出201.py",
+      "bytes": 12843,
+      "sha256": "770db70edef3a720c15597061984a2fdb0bdbc1470d665c5580114f26410fea7"
+    },
+    {
+      "path": "scripts/板数量純特徴201/特徴核.py",
+      "bytes": 8738,
+      "sha256": "dcf807eb0bfeff1e818cefb844edbfc1fa4b896f37130105c44b76590f13a899"
+    },
+    {
+      "path": "scripts/板数量純特徴201/独立監査201.py",
+      "bytes": 10296,
+      "sha256": "89f2419d10dd9162eff7f04510aef387590592f63d7a8fe6f79d80492fad4002"
+    },
+    {
+      "path": "inputs/00201_両指数の板数量純特徴/README.md",
+      "bytes": 3582,
+      "sha256": "c2aeffbedb553984b7121c6824654a53abd3bf2d05592c11a519fea8fc020422"
+    }
+  ],
+  "恒久入力": [
+    {
+      "path": "inputs/00201_両指数の板数量純特徴/抽出前固定.json.gz",
+      "bytes": 920661,
+      "sha256": "366faabf37ec63d89c46e7ee588de249f71fd63490ff3a01e40935d1fc27b366"
+    },
+    {
+      "path": "inputs/00201_両指数の板数量純特徴/完了.json",
+      "bytes": 204411,
+      "sha256": "66782a1d6637e9abf747503f787ff50803af2d240623ee9b76d37980ffb425eb"
+    },
+    {
+      "path": "inputs/00201_両指数の板数量純特徴/独立純特徴監査.json",
+      "bytes": 94976,
+      "sha256": "b34b7477acb42d0cbbf65fbc30dcc6789c2a7de24f5b1b34573389d3e814476d"
+    }
+  ],
+  "原板複製": false,
+  "金融Source": false,
+  "workのみ依存": false,
+  "依存版": {
+    "Python": "3.14.3",
+    "NumPy": "2.5.4",
+    "orjson": "3.13.0"
+  },
+  "再現範囲": "恒久純q0と全83原板から7板特徴を再生成。旧技術100特徴や金融結果は再生成範囲外。",
+  "移転制約": "固定票内の元入力・Source絶対パスを維持する。ZIPの各Sourceはリポジトリ相対構造で展開できる。"
+}

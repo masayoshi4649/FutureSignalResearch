@@ -1,0 +1,33 @@
+{
+  "成功": true,
+  "純確認前Source": {
+    "path": "work/201独立検査/金融検査接続修正前.py",
+    "bytes": 23621,
+    "sha256": "fd860e07772b2936a9fcc40f90e32a01202ca1a78a2fde87405d47f2d9ca50fe"
+  },
+  "金融検査Source": {
+    "path": "work/201独立検査/独立確認201.py",
+    "bytes": 23816,
+    "sha256": "67695f342b0c291c4233fce1d3dfff26a191a9d4f87823d8e919c8b2cfd2887a"
+  },
+  "変更": "金融検査器が旧C.attach_financialを呼ぶ前に、存在する181純封印cacheの照合を接続。売買・板式・枠式・母体・金融正本は変更なし。初回はsealed不足assertで停止。",
+  "純確認": {
+    "path": "work/201独立検査/純判定独立確認.json",
+    "bytes": 5926,
+    "sha256": "fc1180a38834051aae636e83d1c64bd82554056dc750e2d090357bae13cc3cce"
+  },
+  "枠人工": {
+    "path": "work/201独立検査/独立枠の人工確認.json",
+    "bytes": 528,
+    "sha256": "e5feaaefe3704822be046cd36c6c52c691e5c201514cbe72cb3455a733a2c8a4"
+  },
+  "金融確認": {
+    "path": "work/201独立検査/金融独立確認.json.gz",
+    "bytes": 8434,
+    "sha256": "b2e3b5ec6f22d982f2fe80a6c0f8492f66ed84b817736cdf17034e71eb1480bb"
+  },
+  "枠合計": {
+    "全q0": 958320,
+    "純要求": 40187
+  }
+}

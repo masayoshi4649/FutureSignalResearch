@@ -1,0 +1,163 @@
+{
+  "成功": true,
+  "確認日": "2026-11-18",
+  "展開元": {
+    "path": "study/00194_追加二場へ両指数の固定候補を適用する/Source.zip",
+    "bytes": 5386941,
+    "sha256": "9972ccc21f056a1f05502931930befe42bd86a4c03db1820f037ed55b2e1361e"
+  },
+  "展開member全件同体": 150,
+  "再計算": {
+    "全9台帳同体": [
+      {
+        "id": "NK225194_E193_00__C0_IFD",
+        "全台帳同体": true,
+        "内容SHA256": "890ae40bf8bdb2d99c9b044a0cdf9c6952149dda4aad91a7ec3f555b6a975c1f"
+      },
+      {
+        "id": "NK225194_E193_01__C0_IFD",
+        "全台帳同体": true,
+        "内容SHA256": "cb7f26be0cc69c8d06cdfdaea725a106d8de2fb7814aaced8ca82898cfbab118"
+      },
+      {
+        "id": "NK225194_E193_02__C0_IFD",
+        "全台帳同体": true,
+        "内容SHA256": "3ece9163dd82174e12e0fe3c8c38e43f839445911e855ebb9357c13740e4fa92"
+      },
+      {
+        "id": "NK225194_E193_04__C0_IFD",
+        "全台帳同体": true,
+        "内容SHA256": "13f3eec666b3f5e405d77863ba7a4503fe9e21cbe1ab97b2ef85a575f7eaa47f"
+      },
+      {
+        "id": "TOPIX194_I00_固定190_D4_N01_DayA25_NightW15_H60",
+        "全台帳同体": true,
+        "内容SHA256": "1985c6e60091f53367782332dbfd27d5db64f1249a5046285a7d58be15a7d47e"
+      },
+      {
+        "id": "TOPIX194_I04_F0_C0_P0順行_厳_Q1_1分相対量_DayA25_NightW15_H60",
+        "全台帳同体": true,
+        "内容SHA256": "5e70ac5c63fa8f0db14dd431b37cb1b080149c42e49d3aa9d5f235b9d3ed9268"
+      },
+      {
+        "id": "TOPIX194_I20_F0_R0_観測レンジ端回復_緩_Q5_5分端点相対量_DayA25_NightW15_H60",
+        "全台帳同体": true,
+        "内容SHA256": "5f55724daf209338df16f2569cd4cfc4e703b891c83bab708816b205e03de0d2"
+      },
+      {
+        "id": "TOPIX194_I29_F0_X0_混在から構造転換_厳_Q5_5分端点相対量_DayA25_NightW15_H60",
+        "全台帳同体": true,
+        "内容SHA256": "9cf276c3453f1b15b760bc2a8cc531b99da22a1ff9b721ba2c6d80eedf805c40"
+      },
+      {
+        "id": "TOPIX194_I56_F1_R0_観測レンジ端回復_緩_Q5_5分端点相対量_DayA25_NightW15_H60",
+        "全台帳同体": true,
+        "内容SHA256": "35cb669ee4d444b3d301f19beb0ddb17800bce96230f1dc28e66312f5774b351"
+      }
+    ],
+    "全集計と短表同体": true,
+    "比較方法": "非有限値をnullへ変換した固定UTF-8 JSON表現のSHA256を全件照合。"
+  },
+  "恒久入力": {
+    "file_hardlink数": 17,
+    "ファイル複製なし": true,
+    "事後SHA全件一致": true,
+    "書込み監査": [],
+    "可変出力は通常コピー": true
+  },
+  "orjson": {
+    "版": "3.13.0",
+    "導入": "pipのWindows CPython3.14 wheelを展開先work/pythonlibsへインストール",
+    "旧__init__.pyのSHA一致": true,
+    "ZIPにpackageを含めない": true
+  },
+  "別配置実行": {
+    "展開先": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194隔離再現\\repo_hardlink",
+    "再現用driverを除く読込moduleは展開先のみ": true,
+    "元work絶対path参照数": 66,
+    "参照元は194条件内の固定指紋照合": true,
+    "元work参照66資源は全てSource.zipに収録": true,
+    "元work参照一覧": [
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\161三時間帯入口のデータ\\data161.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\162入口探索\\共通.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\162入口探索\\評価基盤.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\162複合入口候補\\rules162.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\162複合入口候補\\rules162_stateful.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\163入口と任意幅\\共通163.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\163入口と任意幅\\評価163.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\164先着確定と反転比較\\比較する.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\165順行と回復失敗の複合\\出生を作る.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\165順行と回復失敗の複合\\評価基盤165.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\166可用指標の階層化\\local166.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167固定入口の別期間\\適用基盤167.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\168数量枠の因果再生\\engine168.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\168数量枠の因果再生\\再生する.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\171三帯の入口切替\\route171.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\171三帯の入口切替\\固定候補を再生する.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\172ナイト入口探索\\再生172.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\172ナイト入口探索\\選定政策の出生.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\172ナイト数量再生\\engine172.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\172ナイト複合候補\\rules172_night.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\173両中央値と単一建玉\\基盤173.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\173両中央値と単一建玉\\構成173.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\173追加なしの因果再生\\engine173.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\173追加なしの評価\\metrics173.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\174参加と両中央値の再探索\\数量候補を選ぶ.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\174参加と両中央値の再探索\\数量候補を選ぶ173原版.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\174参加と両中央値の再探索\\段階再生174.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\174追加七場適用\\固定政策を適用する.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\175局面別の純入口\\rules175.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\175局面別入口の再探索\\予備評価175.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\175局面別入口の再探索\\基盤175.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\175局面別入口の再探索\\数量段階を進める.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\175経路と支持の評価\\path175.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\176局面別の役割票\\rules176.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\177高ADXの増分純入口\\rules177.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\177高ADX枝の増分比較\\増分177.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\178新枝の実方向確認\\gates178.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\178新枝の確認比較\\検証178.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\178追加七場適用\\固定政策を適用する.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\179保有参加の探索\\基盤179.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\179保有参加の探索\\探索179.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\179量と構造の純入口\\rules179.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\181入口改善\\rules181.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\181入口改善\\rules181_v2.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\181共用接続\\共用181.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\182局面別の反転確認\\rules182.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\183TOPIX\\入口とIFD.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\183TOPIX\\金融を比較する.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\183入口候補\\rules183.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\183単純IFD検証\\当時価格183.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\183損失安定性\\安定性183.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\185原圧力と受容\\rules185.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\186TOPIX\\入口186.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\191要求起点の受容\\rules191.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\192TOPIX\\入口192.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\192TOPIX\\条件.json",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\192TOPIX\\追加二場前の固定選択.json",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\193構造拡大停止と取得位置\\rules193.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\193構造拡大停止と取得位置\\全純入口の封印.json",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194追加二場\\NK純接続194.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194追加二場\\NK追加2純出生.npz",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194追加二場\\NK金融接続194.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194追加二場\\TOPIX純接続194.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194追加二場\\TOPIX追加2純出生.json.gz",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194追加二場\\入力194.py",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\194追加二場\\固定適用194.py"
+    ]
+  },
+  "未達の隔離方式": {
+    "inputs_junction": "resolve後に復元root外となるため、固定NK adapterのrelative_to検査で失敗。固定Sourceは変更せずfile hardlinkで再試行。"
+  },
+  "検証範囲": "恒久194母集団からの9金融再計算。別rootでの完全隔離、元4原板から全旧履歴の再生成、別OS/別Python版は未検証。",
+  "確認driver": {
+    "path": "work/194隔離再現/復元実行を確認する.py",
+    "bytes": 3577,
+    "sha256": "b50ccf186532aff6bffd99167a036795e3f079586c356f2f220652ee27e4482e"
+  },
+  "元の再計算票": {
+    "path": "work/194追加二場/再計算確認194.json",
+    "bytes": 30417,
+    "sha256": "728d57a2d6f266f5309b3a2a9d4200221c44102946572fee3e0e4d500230a867"
+  }
+}

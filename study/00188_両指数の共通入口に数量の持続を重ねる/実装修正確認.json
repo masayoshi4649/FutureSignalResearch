@@ -1,0 +1,69 @@
+{
+  "理由": "Path添字誤記ROOT[...]をROOT/...へ訂正。売買・量・集計数式は不変。",
+  "最初": "金融開始前の純入力照合で停止。純数量全件bytes同体を再生成時に確認。",
+  "二回目": "全108口座保存後の終了Source照合で停止。修正後に全108金融・指標・旧18同体記録を再計算し既存bytesとの完全一致をsaveで確認。",
+  "最終": "Source全指紋一致、終了コード0。修正前の実装・条件・封印は履歴ZIPへ保存。",
+  "履歴": [
+    {
+      "版": "実装修正前",
+      "旧Source": {
+        "path": "work/188数量比較/実装修正前/実行188.py",
+        "bytes": 9110,
+        "sha256": "df8d116f8ee89e87e78e452fad062a76f467dddffbbb5a0ba22167660eb87890"
+      },
+      "新Source": {
+        "path": "work/188数量比較/実行188.py",
+        "bytes": 9108,
+        "sha256": "2edbca5fd4cdbdf055c1a400fd1cc7f412eb82818c8ce7c9ad12326e27e87861"
+      },
+      "差分": [
+        "--- \n",
+        "+++ \n",
+        "@@ -86,7 +86,7 @@\n",
+        "     \"\"\"",
+        "     spec=freeze();seal=Q.read(HERE/'純数量の封印.json')",
+        "     assert seal['条件']==I.ref(TRIAL/'条件.json') and seal['金融前']",
+        "-    assert all(I.ref(ROOT[p['path']])==p for p in seal['pure'])",
+        "+    assert all(I.ref(ROOT/p['path'])==p for p in seal['pure'])",
+        "     marker=HERE/'金融開始前固定.json';assert not marker.exists()",
+        "     B.save(marker,{'source':spec['source'],'pure':seal['pure']})",
+        "     module=importlib.util.spec_from_file_location('安定性188',ROOT/'work/183損失安定性/安定性183.py')",
+        "@@ -134,7 +134,7 @@\n",
+        "         print(json.dumps({'商品':product,'口座数':len(keys),'完了':True},ensure_ascii=False),flush=True)",
+        "     B.save(HERE/'全108組安定性.json.gz',{'metrics':metrics});B.save(HERE/'全108組短表.json',short)",
+        "     B.save(HERE/'旧18対照同体.json',{'成功':len(identity)==18,'ids':identity})",
+        "-    assert all(I.ref(ROOT[r['path']])==r for r in spec['source'])",
+        "+    assert all(I.ref(ROOT/r['path'])==r for r in spec['source'])",
+        "     print(json.dumps({'口座数':len(metrics),'旧同体':len(identity)},ensure_ascii=False),flush=True)",
+        " ",
+        " "
+      ]
+    },
+    {
+      "版": "実装修正前2",
+      "旧Source": {
+        "path": "work/188数量比較/実装修正前2/実行188.py",
+        "bytes": 9109,
+        "sha256": "b1de1b2f6232c75898f88fce8b8984bb06478ba52fc15f894e8ce27e228797a7"
+      },
+      "新Source": {
+        "path": "work/188数量比較/実行188.py",
+        "bytes": 9108,
+        "sha256": "2edbca5fd4cdbdf055c1a400fd1cc7f412eb82818c8ce7c9ad12326e27e87861"
+      },
+      "差分": [
+        "--- \n",
+        "+++ \n",
+        "@@ -134,7 +134,7 @@\n",
+        "         print(json.dumps({'商品':product,'口座数':len(keys),'完了':True},ensure_ascii=False),flush=True)",
+        "     B.save(HERE/'全108組安定性.json.gz',{'metrics':metrics});B.save(HERE/'全108組短表.json',short)",
+        "     B.save(HERE/'旧18対照同体.json',{'成功':len(identity)==18,'ids':identity})",
+        "-    assert all(I.ref(ROOT[r['path']])==r for r in spec['source'])",
+        "+    assert all(I.ref(ROOT/r['path'])==r for r in spec['source'])",
+        "     print(json.dumps({'口座数':len(metrics),'旧同体':len(identity)},ensure_ascii=False),flush=True)",
+        " ",
+        " "
+      ]
+    }
+  ]
+}

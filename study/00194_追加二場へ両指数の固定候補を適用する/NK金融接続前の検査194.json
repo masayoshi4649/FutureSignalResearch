@@ -1,0 +1,305 @@
+{
+  "成功": true,
+  "金融未実行": true,
+  "追加二場損益ラベル未読": true,
+  "人工": {
+    "成功": true,
+    "ID辞書順と場対応": true,
+    "非連続case位置へ結合": true,
+    "caseゼロの場": true,
+    "未知NaNと既知旗を保持": true,
+    "自然金融未実行": true
+  },
+  "旧本日1": {
+    "未評価context全配列同体": true,
+    "未評価table全配列同体": true,
+    "q0数": 353,
+    "case数": 353
+  },
+  "追加二場": {
+    "成功": true,
+    "金融未実行": true,
+    "期間": "追加2",
+    "純入力": {
+      "成功": true,
+      "金融未入力": true,
+      "features_sha256": "abd264a72e77b3be4a507b0b095bb4d5329ee81aa7237ab9f5b7228276175023",
+      "q0": 1014,
+      "場数": 2,
+      "開始待機": 0,
+      "終了時計": "179固定のcut/submit",
+      "旧同体検査": {
+        "path": "work/194追加二場/NK旧三期間の純出生同体.json",
+        "bytes": 18969,
+        "sha256": "b704ee143ca645efea0d10b4c6ca063cdf5b13b153690cbd2adefc7b04d163bb"
+      },
+      "当時入力": [
+        {
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/完了.json",
+          "bytes": 1965,
+          "sha256": "e34ad1130ddf03163afe2fc3eefdcb50bc22a92fc3c6778f39c35f1822c0fb0d"
+        },
+        {
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/出生台帳.json.gz",
+          "bytes": 100281,
+          "sha256": "62f412e4d41d0f5e0cf8648e094ed47b85360187cf4d9ab278128b17df568982"
+        },
+        {
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/当時特徴.json.gz",
+          "bytes": 459167,
+          "sha256": "941c891b20e0f99491dd00419092a8661974a867b696d0f564314464efb5c371"
+        },
+        {
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/取得対応.json.gz",
+          "bytes": 62498,
+          "sha256": "587786c53ac3421eaa363961b77ba37b9c8f2cb3842194a3d4fcc38b479d5169"
+        },
+        {
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/物理取得.json.gz",
+          "bytes": 34545,
+          "sha256": "07994779dd25f193b63e5e10b5f864050ad13dbefee042a988f28555e45e433b"
+        },
+        {
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/固定取得入力.json.gz",
+          "bytes": 25755,
+          "sha256": "afd5362f6a5231c29e73ee6ed08d4804b8c7917e819ba02c3196ea51737a21c5"
+        }
+      ],
+      "adapter": {
+        "path": "work/194追加二場/NK純接続194.py",
+        "bytes": 16756,
+        "sha256": "e7b5f3e375d6a324169f3e3aca6d385e071ab76afd15629d0eef6d33a6ee8309"
+      }
+    },
+    "固定取得入力": {
+      "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/入口母集団/固定取得入力.json.gz",
+      "bytes": 25755,
+      "sha256": "afd5362f6a5231c29e73ee6ed08d4804b8c7917e819ba02c3196ea51737a21c5"
+    },
+    "価格索引": {
+      "manifest": {
+        "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/原板数値索引/manifest.json",
+        "bytes": 3191,
+        "sha256": "60c483c7656e7ae857604e08276636ca30223da6522fb73636dc3dc717b6186b"
+      },
+      "scenes": [
+        {
+          "session": "2026-11-16_Night",
+          "contract": "161120018",
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/原板数値索引/2026-11-16_Night.quotes.bin.gz",
+          "sha256": "457ebb136a7762e518634ed7660b8e1741d7dc4223ca213d3535326a4b988553",
+          "rows": 250513
+        },
+        {
+          "session": "2026-11-17_Day",
+          "contract": "161120018",
+          "path": "inputs/00194_20261116夜と1117昼の固定適用入力/NK225/原板数値索引/2026-11-17_Day.quotes.bin.gz",
+          "sha256": "6608591646058304fcd6747089904741a83406f63dd5ba199da46c0717ed3375",
+          "rows": 178178
+        }
+      ]
+    },
+    "条件": {
+      "path": "work/163任意幅Raw索引/観測条件の雛形.json",
+      "bytes": 718,
+      "sha256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e"
+    },
+    "Source": [
+      {
+        "path": "work/163任意幅Raw索引/観測条件の雛形.json",
+        "bytes": 718,
+        "sha256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e"
+      },
+      {
+        "path": "work/163任意幅の数値化/arrays163.py",
+        "bytes": 17857,
+        "sha256": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6"
+      },
+      {
+        "path": "work/166可変場の数値化/arrays166.py",
+        "bytes": 7903,
+        "sha256": "049645e8daa53e900a1a2c69ec78a7add9ea45dbf2179f262705c8be05c04947"
+      },
+      {
+        "path": "work/167固定入口の別期間/適用基盤167.py",
+        "bytes": 11079,
+        "sha256": "d37d6c8cec944a4029b1719db0e7a66cc1fd056a35612e8aa952e44003d6a987"
+      },
+      {
+        "path": "work/179保有参加の探索/基盤179.py",
+        "bytes": 8922,
+        "sha256": "9426b3eb05d752cfd15102d66612ec3d32cd4c97f6c7c14caeb07a754c3668d4"
+      },
+      {
+        "path": "work/179終了前決済/early179.py",
+        "bytes": 20636,
+        "sha256": "8e06c67e7a03ec01d76e39c88700fe7cc649fbc016db2d1d7c01bce690249c39"
+      },
+      {
+        "path": "work/180本日デイ適用/入力180.py",
+        "bytes": 11949,
+        "sha256": "76b5cb151893960cfe04eb257aebb78181a7c395e18225cdc72f14dd6c7db7e1"
+      },
+      {
+        "path": "work/180本日デイ適用/本日を計算する.py",
+        "bytes": 6244,
+        "sha256": "dcd91712d6385c010eaf14c0e3206f40f2f8a853aa80fdd60faf219caecf8862"
+      },
+      {
+        "path": "work/181共用接続/共用181.py",
+        "bytes": 19889,
+        "sha256": "7850b2ac250d37d0a5b2323caed168a15a7a743e2fd45e853b0cf33dded1fc67"
+      },
+      {
+        "path": "work/194追加二場/NK純接続194.py",
+        "bytes": 16756,
+        "sha256": "e7b5f3e375d6a324169f3e3aca6d385e071ab76afd15629d0eef6d33a6ee8309"
+      },
+      {
+        "path": "work/194追加二場/NK金融接続194.py",
+        "bytes": 19309,
+        "sha256": "d2ec555d84ed0b1d52d2009293051610ea793daa0688833a71a0f82cfed43e73"
+      }
+    ],
+    "binding": {
+      "case数": 927,
+      "case順SHA256": "bc308a2084b45bcb63f1cee484ee0183e900c425e9d1d890be50c96b556e51c3",
+      "純取得SHA256": "49d06f1f6e83a87c04db5693cc32e290c170fa01aaec9cd2cc250f78f9130bf0",
+      "幅": [
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        300,
+        350,
+        400,
+        500,
+        750,
+        1000
+      ],
+      "期限": [
+        "H30",
+        "H60",
+        "H120",
+        "SESSION"
+      ],
+      "場": [
+        {
+          "session": "2026-11-16_Night",
+          "start": 1794816000,
+          "original_end": 1794862800,
+          "cut": 1794861900,
+          "submit": 1794861840
+        },
+        {
+          "session": "2026-11-17_Day",
+          "start": 1794872700,
+          "original_end": 1794897900,
+          "cut": 1794897000,
+          "submit": 1794896940
+        }
+      ],
+      "対象期間": "追加2"
+    },
+    "場別確認": [
+      {
+        "場": "2026-11-16_Night",
+        "物理取得数": 576,
+        "同原行一致": true
+      },
+      {
+        "場": "2026-11-17_Day",
+        "物理取得数": 351,
+        "同原行一致": true
+      }
+    ],
+    "shape": [
+      927,
+      2,
+      12,
+      4
+    ],
+    "当時q0数": 1014
+  },
+  "終了時計": {
+    "cut": [
+      1794861900.0,
+      1794897000.0
+    ],
+    "submit": [
+      1794861840.0,
+      1794896940.0
+    ],
+    "帯別時間": [
+      [
+        0.0,
+        6.5,
+        6.25
+      ],
+      [
+        6.75,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "Source": [
+    {
+      "path": "work/163任意幅Raw索引/観測条件の雛形.json",
+      "bytes": 718,
+      "sha256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e"
+    },
+    {
+      "path": "work/163任意幅の数値化/arrays163.py",
+      "bytes": 17857,
+      "sha256": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6"
+    },
+    {
+      "path": "work/166可変場の数値化/arrays166.py",
+      "bytes": 7903,
+      "sha256": "049645e8daa53e900a1a2c69ec78a7add9ea45dbf2179f262705c8be05c04947"
+    },
+    {
+      "path": "work/167固定入口の別期間/適用基盤167.py",
+      "bytes": 11079,
+      "sha256": "d37d6c8cec944a4029b1719db0e7a66cc1fd056a35612e8aa952e44003d6a987"
+    },
+    {
+      "path": "work/179保有参加の探索/基盤179.py",
+      "bytes": 8922,
+      "sha256": "9426b3eb05d752cfd15102d66612ec3d32cd4c97f6c7c14caeb07a754c3668d4"
+    },
+    {
+      "path": "work/179終了前決済/early179.py",
+      "bytes": 20636,
+      "sha256": "8e06c67e7a03ec01d76e39c88700fe7cc649fbc016db2d1d7c01bce690249c39"
+    },
+    {
+      "path": "work/180本日デイ適用/入力180.py",
+      "bytes": 11949,
+      "sha256": "76b5cb151893960cfe04eb257aebb78181a7c395e18225cdc72f14dd6c7db7e1"
+    },
+    {
+      "path": "work/180本日デイ適用/本日を計算する.py",
+      "bytes": 6244,
+      "sha256": "dcd91712d6385c010eaf14c0e3206f40f2f8a853aa80fdd60faf219caecf8862"
+    },
+    {
+      "path": "work/181共用接続/共用181.py",
+      "bytes": 19889,
+      "sha256": "7850b2ac250d37d0a5b2323caed168a15a7a743e2fd45e853b0cf33dded1fc67"
+    },
+    {
+      "path": "work/194追加二場/NK純接続194.py",
+      "bytes": 16756,
+      "sha256": "e7b5f3e375d6a324169f3e3aca6d385e071ab76afd15629d0eef6d33a6ee8309"
+    },
+    {
+      "path": "work/194追加二場/NK金融接続194.py",
+      "bytes": 19309,
+      "sha256": "d2ec555d84ed0b1d52d2009293051610ea793daa0688833a71a0f82cfed43e73"
+    }
+  ]
+}

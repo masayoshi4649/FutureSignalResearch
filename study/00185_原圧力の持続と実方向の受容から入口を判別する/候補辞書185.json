@@ -1,0 +1,248 @@
+{
+  "version": "185固定価格側の持続受容1",
+  "candidate_count": 20,
+  "rules": [
+    {
+      "id": "E185_00",
+      "control": "E183_00",
+      "family": "CONTROL",
+      "description": "旧179基準・単純IFD"
+    },
+    {
+      "id": "E185_01",
+      "control": "E183_04",
+      "family": "CONTROL",
+      "description": "183の単発EMA回復ADD・固定対照"
+    },
+    {
+      "id": "E185_02",
+      "family": "TA",
+      "profile": "C60",
+      "mode": "ADD",
+      "description": "順行押戻し後の受容とDI/MA拡散／C60／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_03",
+      "family": "TA",
+      "profile": "C60",
+      "mode": "GUARD",
+      "description": "順行押戻し後の受容とDI/MA拡散／C60／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_04",
+      "family": "TA",
+      "profile": "C120",
+      "mode": "ADD",
+      "description": "順行押戻し後の受容とDI/MA拡散／C120／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_05",
+      "family": "TA",
+      "profile": "C120",
+      "mode": "GUARD",
+      "description": "順行押戻し後の受容とDI/MA拡散／C120／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_06",
+      "family": "TA",
+      "profile": "V120",
+      "mode": "ADD",
+      "description": "順行押戻し後の受容とDI/MA拡散／V120／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_07",
+      "family": "TA",
+      "profile": "V120",
+      "mode": "GUARD",
+      "description": "順行押戻し後の受容とDI/MA拡散／V120／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_08",
+      "family": "FA",
+      "profile": "C60",
+      "mode": "ADD",
+      "description": "固定突破失敗後の反対側受容／C60／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_09",
+      "family": "FA",
+      "profile": "C60",
+      "mode": "GUARD",
+      "description": "固定突破失敗後の反対側受容／C60／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_10",
+      "family": "FA",
+      "profile": "C120",
+      "mode": "ADD",
+      "description": "固定突破失敗後の反対側受容／C120／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_11",
+      "family": "FA",
+      "profile": "C120",
+      "mode": "GUARD",
+      "description": "固定突破失敗後の反対側受容／C120／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_12",
+      "family": "FA",
+      "profile": "V120",
+      "mode": "ADD",
+      "description": "固定突破失敗後の反対側受容／V120／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_13",
+      "family": "FA",
+      "profile": "V120",
+      "mode": "GUARD",
+      "description": "固定突破失敗後の反対側受容／V120／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_14",
+      "family": "RA",
+      "profile": "C60",
+      "mode": "ADD",
+      "description": "元圧力失速と短期転換後の受容／C60／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_15",
+      "family": "RA",
+      "profile": "C60",
+      "mode": "GUARD",
+      "description": "元圧力失速と短期転換後の受容／C60／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_16",
+      "family": "RA",
+      "profile": "C120",
+      "mode": "ADD",
+      "description": "元圧力失速と短期転換後の受容／C120／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_17",
+      "family": "RA",
+      "profile": "C120",
+      "mode": "GUARD",
+      "description": "元圧力失速と短期転換後の受容／C120／GUARD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_18",
+      "family": "RA",
+      "profile": "V120",
+      "mode": "ADD",
+      "description": "元圧力失速と短期転換後の受容／V120／ADD",
+      "setup_seconds": 1800
+    },
+    {
+      "id": "E185_19",
+      "family": "RA",
+      "profile": "V120",
+      "mode": "GUARD",
+      "description": "元圧力失速と短期転換後の受容／V120／GUARD",
+      "setup_seconds": 1800
+    }
+  ],
+  "profiles": {
+    "C60": {
+      "observations": 2,
+      "seconds": 60,
+      "penetration_atr": 0.1,
+      "volume_each": 0.5,
+      "volume_mean": 0.75
+    },
+    "C120": {
+      "observations": 3,
+      "seconds": 120,
+      "penetration_atr": 0.1,
+      "volume_each": 0.5,
+      "volume_mean": 0.75
+    },
+    "V120": {
+      "observations": 3,
+      "seconds": 120,
+      "penetration_atr": 0.2,
+      "volume_each": 0.75,
+      "volume_mean": 1.0
+    }
+  },
+  "raw_columns": [
+    "bb15_sigma",
+    "m15_adx",
+    "m15_adx_delta",
+    "m15_di_difference_to_side",
+    "m15_ema21_delta_to_side",
+    "m15_hist_delta_to_side",
+    "m1_body_ratio_to_side",
+    "m1_body_reclaim_atr5_to_side",
+    "m1_close_delta_atr5_to_side",
+    "m1_close_position_to_side",
+    "m1_previous_body_ratio_to_side",
+    "m1_tr_atr5_ratio",
+    "m1_volume_relative_prior3",
+    "m30_di_difference_to_side",
+    "m30_ema21_delta_to_side",
+    "m5_atr",
+    "m5_body_ratio_to_side",
+    "m5_di_difference_to_side",
+    "m5_ema21_delta_to_side",
+    "m5_gap_to_side",
+    "m5_hist_delta_to_side",
+    "m5_hist_to_side",
+    "m5_rsi_center_to_side",
+    "m5_rsi_delta_to_side",
+    "m5_tr_previous_atr_ratio",
+    "q0_entry_minus_bbmean_sigma_to_side",
+    "q0_entry_minus_ema8_atr5_to_side",
+    "q0_last_minus_m1_close_atr5_to_side",
+    "q0_last_minus_prior3_forward_edge_atr5_to_side",
+    "q0_spread_points"
+  ],
+  "common": "正常q0価格・ATR5>0、spread>0かつ<=20、q0Last−1分終値絶対値<=1ATR5、現在entry−EMA8は−.5〜1.5ATR5、1分TR/ATR5<=2.5・5分TR/前ATR<=4。必要値既知。",
+  "acceptance": "同じ絶対水準の実方向側>=0で開始。q0で観測した最大逆側侵入がprofile上限以内で、異なる秒の正常q0数・実秒・相対量各値/平均を満たす。実発火時の側距離>=.1ATRかつ開始価格からの実進行>=.1ATR。",
+  "acceptance_reset": "q0間隔90秒超・不正常q0・量未知/下限未達・許容侵入超で受容をやり直す。setup水準と期限は延長しない。場/限月/時計後退/180秒超gapではsetupも消す。",
+  "same_second": "同秒原行は観測数・量平均へ追加しない。価格侵入/正常性/量不足の無効化だけ反映。実秒経過を同秒行数で水増ししない。",
+  "TA": "5分EMA21傾き>=0、15又は30分のEMA21/DIが両正、現在EMA8近辺−1〜.25ATR、量>=.5を種に固定EMA8を記憶。発火は5分DI>0・EMA8/21差>0、種よりDI又はMA差が拡大、5分Hist/RSI増分が両非負で一方正、1分構造を要す。",
+  "FA": "元方向の3本端突破>.25ATR、5分実体>=.4・Hist/RSI増分両正・量>=.75を種に固定端を記憶。反対側が受容した後、元DIが種より低下しHist増分又はEMA傾きも低下、実方向DI又はMA差>0・標準動力・1分構造を確認。",
+  "RA": "元方向の5分EMA/DIと15又は30分EMA/DIが両正、ADX15>=20、Hist/RSI増分両正・量>=.75から観測ピークを記憶。反対へ.35ATR戻った最初のq0で反転水準を固定し受容を開始。元DI/Hist失速・実方向短期転換・標準動力・1分構造と、ADX15増分<=0又は実方向15分Hist増分>=0を要す。",
+  "pressure_proxy": "EMA/DI・実価格進行・相対量の代理。5分と長期一足の両整合・動力・MA差が持続し、固定EMA8側の受容をprofile条件で確認したもの。継続圧力状態には30分setup期限を課さず、現在の方向要件が壊れるか共通resetまで同じ水準を維持する。受容部分の90秒/量/侵入resetは適用する。板数量・完全OFI・注文吸収の直接測定ではない。",
+  "ADD": "旧core優先、LC保持。新受容の発火をcore=0のq0に追加。新たな保有が後続取得を変える。",
+  "GUARD": "逆側の持続圧力代理が成立した旧要求だけ保留。自動反転せず、同じ実方向の当該構造受容が後刻出た時だけ元幅期限で再要求。独立新構造は足さない。その他旧幹/Tは保持。",
+  "width": "単純IFDの幅・期限を変更しない。ADDは構造setup、GUARDは元保留要求のmw/fw/hiを記憶。LC added=Trueを保持し、新規/延期受容はadded=Falseで診断区分を別記。",
+  "state": "TA/FA/RAのsetupと保留要求は30実分。継続圧力状態はpressure_proxyに従い別扱い。同方向で期限延長せず、発火は一度。両方向競合は待ち。新しい通常旧coreが出たら古い保留要求を取消。取得可否や損益は純状態へ戻さない。",
+  "limits": [
+    "価格側の保持と最大侵入はq0で観測した範囲。q0間の原板全行で逆行がなかったとは証明しない。",
+    "相対量平均はq0観測値の算術平均。完全な約定フローの合計ではない。",
+    "全81場は既使用。新185金融前の仮説固定であり未見検証ではない。",
+    "一つの回復と持続受容を分ける研究仮説で、成立数や人工成功は利益・損失の証明ではない。"
+  ],
+  "Source": [
+    {
+      "path": "work/185原圧力と受容/rules185.py",
+      "bytes": 22445,
+      "sha256": "42efee07b831a9abc166b7eb5fc75cab1706b58771356d7886b6158244e5ecf5"
+    },
+    {
+      "path": "work/183入口候補/rules183.py",
+      "bytes": 23594,
+      "sha256": "fa61742c5897ed66ecfa0e787783d13b4404d944ff294a1fa4f819550bbb5714"
+    }
+  ],
+  "新185金融未入力": true
+}

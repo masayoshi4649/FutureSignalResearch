@@ -1,0 +1,414 @@
+{
+  "version": "195保留中Tの技術根拠1",
+  "candidate_count": 11,
+  "rules": [
+    {
+      "id": "E195_00",
+      "control": "E193_00",
+      "description": "固定対照 E193_00"
+    },
+    {
+      "id": "E195_01",
+      "control": "E193_01",
+      "description": "固定対照 E193_01"
+    },
+    {
+      "id": "E195_02",
+      "control": "E193_02",
+      "description": "固定対照 E193_02"
+    },
+    {
+      "id": "E195_03",
+      "control": "E193_04",
+      "description": "固定対照 E193_04"
+    },
+    {
+      "id": "E195_04",
+      "control": "E193_10",
+      "description": "固定対照 E193_10"
+    },
+    {
+      "id": "E195_05",
+      "risk": "R1",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "filter": "REV",
+      "strict": false,
+      "description": "E193_04／保留T ALL",
+      "base": "E193_04",
+      "t_gate": "ALL"
+    },
+    {
+      "id": "E195_06",
+      "risk": "R1",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "filter": "REV",
+      "strict": false,
+      "description": "E193_04／保留T EXPAND",
+      "base": "E193_04",
+      "t_gate": "EXPAND"
+    },
+    {
+      "id": "E195_07",
+      "risk": "R1",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "filter": "REV",
+      "strict": false,
+      "description": "E193_04／保留T ACCEPT",
+      "base": "E193_04",
+      "t_gate": "ACCEPT"
+    },
+    {
+      "id": "E195_08",
+      "risk": "R2",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "filter": "REV",
+      "strict": false,
+      "description": "E193_10／保留T ALL",
+      "base": "E193_10",
+      "t_gate": "ALL"
+    },
+    {
+      "id": "E195_09",
+      "risk": "R2",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "filter": "REV",
+      "strict": false,
+      "description": "E193_10／保留T EXPAND",
+      "base": "E193_10",
+      "t_gate": "EXPAND"
+    },
+    {
+      "id": "E195_10",
+      "risk": "R2",
+      "mode": "SWITCH",
+      "profile": "C120",
+      "filter": "REV",
+      "strict": false,
+      "description": "E193_10／保留T ACCEPT",
+      "base": "E193_10",
+      "t_gate": "ACCEPT"
+    }
+  ],
+  "base_specification": {
+    "version": "193構造拡大停止と再テストの取得位置1",
+    "candidate_count": 16,
+    "rules": [
+      {
+        "id": "E193_00",
+        "control": "E191_00",
+        "description": "固定対照 E191_00"
+      },
+      {
+        "id": "E193_01",
+        "control": "E191_07",
+        "description": "固定対照 E191_07"
+      },
+      {
+        "id": "E193_02",
+        "control": "E191_11",
+        "description": "固定対照 E191_11"
+      },
+      {
+        "id": "E193_03",
+        "control": "E191_09",
+        "description": "固定対照 E191_09"
+      },
+      {
+        "id": "E193_04",
+        "risk": "R1",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "REV",
+        "strict": false,
+        "description": "R1／REV／緩"
+      },
+      {
+        "id": "E193_05",
+        "risk": "R1",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "REV",
+        "strict": true,
+        "description": "R1／REV／厳"
+      },
+      {
+        "id": "E193_06",
+        "risk": "R1",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "FOLLOW",
+        "strict": false,
+        "description": "R1／FOLLOW／緩"
+      },
+      {
+        "id": "E193_07",
+        "risk": "R1",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "FOLLOW",
+        "strict": true,
+        "description": "R1／FOLLOW／厳"
+      },
+      {
+        "id": "E193_08",
+        "risk": "R1",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "BOTH",
+        "strict": false,
+        "description": "R1／BOTH／緩"
+      },
+      {
+        "id": "E193_09",
+        "risk": "R1",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "BOTH",
+        "strict": true,
+        "description": "R1／BOTH／厳"
+      },
+      {
+        "id": "E193_10",
+        "risk": "R2",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "REV",
+        "strict": false,
+        "description": "R2／REV／緩"
+      },
+      {
+        "id": "E193_11",
+        "risk": "R2",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "REV",
+        "strict": true,
+        "description": "R2／REV／厳"
+      },
+      {
+        "id": "E193_12",
+        "risk": "R2",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "FOLLOW",
+        "strict": false,
+        "description": "R2／FOLLOW／緩"
+      },
+      {
+        "id": "E193_13",
+        "risk": "R2",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "FOLLOW",
+        "strict": true,
+        "description": "R2／FOLLOW／厳"
+      },
+      {
+        "id": "E193_14",
+        "risk": "R2",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "BOTH",
+        "strict": false,
+        "description": "R2／BOTH／緩"
+      },
+      {
+        "id": "E193_15",
+        "risk": "R2",
+        "mode": "SWITCH",
+        "profile": "C120",
+        "filter": "BOTH",
+        "strict": true,
+        "description": "R2／BOTH／厳"
+      }
+    ],
+    "profiles": {
+      "C120": {
+        "observations": 3,
+        "seconds": 120,
+        "penetration_atr": 0.1,
+        "volume_each": 0.5,
+        "volume_mean": 0.75
+      }
+    },
+    "input": "191と同じ旧179純入口・当時100特徴・当時q0絶対価格。追加2場は参照しない。",
+    "base_specification": {
+      "version": "191旧要求を起点に二方向の価格受容を確認1",
+      "candidate_count": 12,
+      "rules": [
+        {
+          "id": "E191_00",
+          "control": "E185_00",
+          "description": "固定対照 E185_00"
+        },
+        {
+          "id": "E191_01",
+          "control": "E185_01",
+          "description": "固定対照 E185_01"
+        },
+        {
+          "id": "E191_02",
+          "control": "E185_03",
+          "description": "固定対照 E185_03"
+        },
+        {
+          "id": "E191_03",
+          "control": "E185_14",
+          "description": "固定対照 E185_14"
+        },
+        {
+          "id": "E191_04",
+          "risk": "R1",
+          "mode": "WAIT",
+          "profile": "C60",
+          "description": "R1／WAIT／C60"
+        },
+        {
+          "id": "E191_05",
+          "risk": "R1",
+          "mode": "WAIT",
+          "profile": "C120",
+          "description": "R1／WAIT／C120"
+        },
+        {
+          "id": "E191_06",
+          "risk": "R1",
+          "mode": "SWITCH",
+          "profile": "C60",
+          "description": "R1／SWITCH／C60"
+        },
+        {
+          "id": "E191_07",
+          "risk": "R1",
+          "mode": "SWITCH",
+          "profile": "C120",
+          "description": "R1／SWITCH／C120"
+        },
+        {
+          "id": "E191_08",
+          "risk": "R2",
+          "mode": "WAIT",
+          "profile": "C60",
+          "description": "R2／WAIT／C60"
+        },
+        {
+          "id": "E191_09",
+          "risk": "R2",
+          "mode": "WAIT",
+          "profile": "C120",
+          "description": "R2／WAIT／C120"
+        },
+        {
+          "id": "E191_10",
+          "risk": "R2",
+          "mode": "SWITCH",
+          "profile": "C60",
+          "description": "R2／SWITCH／C60"
+        },
+        {
+          "id": "E191_11",
+          "risk": "R2",
+          "mode": "SWITCH",
+          "profile": "C120",
+          "description": "R2／SWITCH／C120"
+        }
+      ],
+      "profiles": {
+        "C60": {
+          "observations": 2,
+          "seconds": 60,
+          "penetration_atr": 0.1,
+          "volume_each": 0.5,
+          "volume_mean": 0.75
+        },
+        "C120": {
+          "observations": 3,
+          "seconds": 120,
+          "penetration_atr": 0.1,
+          "volume_each": 0.5,
+          "volume_mean": 0.75
+        }
+      },
+      "input": "旧179全期J035純入口、当時100特徴、q0絶対価格。金融・取得可否・未来価格を入力しない。",
+      "risk_R1": "取得実方向と反対の5分EMA21傾き/DIが正、Hist/RSI増分両非負で一方正、15又は30分のEMA/DI両正、1分実体/価格進行/liveが正。全役割の必要既知。",
+      "risk_R2": "取得実方向と反対の5分EMA21傾き/DIが正、Hist/RSI増分両非負で一方正、かつADX15>=25と増分>0、又は反対側entryのBB位置>=1σ。ORは既知True優先の三値。",
+      "unknown": "既知リスクTrueだけ保留。未知は別旗で旧要求保持、安全認定しない。LCとcore=0の旧Tはそのまま。",
+      "setup": "独立familyの新しい種は待たず、リスク旧要求自体をsetupにする。同方向30実分の期限を延長せず、反対旧要求で置換。新しい非リスク/未知旧coreで取消。",
+      "reverse_level": "元方向BB位置>=1かつsigma>0が既知なら当時の固定1σ端。そうでなければ要求時Last。BB未知を内側と認定せず、局所Last水準という明示的代替を使う。",
+      "reverse_confirm": "元5分DIがsetupより低下し、元Hist増分又はEMA傾きも低下。実方向5分Hist/RSI増分両非負・一方正、1分実体/進行/live正、共通品質と固定価格側受容。5分DIの完全符号転換は必須にしない。",
+      "follow_level": "要求時Lastを固定。後続q0で元方向の距離が−.2〜+.2ATRに再テストし、そのq0より後で受容を開始する。再テスト同q0で発火しない。",
+      "follow_confirm": "元方向5分EMA/DI/MA差が正、長期一足EMA/DI両正、Hist/RSI増分両非負で一方正、1分構造。元DI又はMA差がsetup以上を維持又は拡大し、共通品質と受容。WAITは使わずSWITCHだけ候補にする。",
+      "acceptance": "同じ絶対水準の実方向側>=0で開始。q0で観測した最大逆側侵入がprofile上限以内で、異なる秒の正常q0数・実秒・相対量各値/平均を満たす。実発火時の側距離>=.1ATRかつ開始価格からの実進行>=.1ATR。",
+      "quality": "正常q0価格・ATR5>0、spread>0かつ<=20、q0Last−1分終値絶対値<=1ATR5、現在entry−EMA8は−.5〜1.5ATR5、1分TR/ATR5<=2.5・5分TR/前ATR<=4。必要値既知。",
+      "clock": "185のq0価格同体とresetを継承。受容90秒gap/量/侵入reset、同秒原行はcount/量平均を増やさず侵入と無効化を反映。setup30実分。NY帯だけの境界では継続。",
+      "priority": "通常旧coreを最優先、LC保持。T/LC行で保留setupは保持するが、LC行では受容区間を切り直す。LCを飛ばした連続保持を仮定しない。リスク元q0はTへ暗黙切替しない。実方向反転再開と元方向順行が同時成熟すれば待ち。片方が発火したsetupは消費する。",
+      "width": "元要求時のmw/fw/hiを固定し、遅延/切替時にも同じ幅・IFD期限種を渡す。新しい当時実方向BBOで取得し価格を据え置かない。setup待機期限と取得後IFD期限は別。IFD期限は取得後から、場末締切は別に適用。",
+      "diagnostic": "元要求event、発火種別、固定水準、受容開始/秒/個数/侵入、遅延秒、元方向の源、unknownを保存。added=Trueは旧LCだけ。",
+      "psychology": "勢いのある元方向に対して反転だけを決めず、帯内回復と元動力失速が続けば反転、元水準の再テスト後に方向/動力が残れば順行、どちらもなければ待つ仮説。",
+      "limits": [
+        "圧力はEMA/DI/価格進行/相対量の代理であり板数量・完全OFI・吸収直接測定ではない。",
+        "保持・侵入はq0観測範囲。全原板の間に逆行がなかったとは保証しない。",
+        "全81既使用。前48選択と全80発見を分け、本日1/全81は診断専用。",
+        "金融後の閾値改善は別試行。単純IFDのみで出口の追尾・技術途中返済を加えない。"
+      ]
+    },
+    "reverse_loose": "191反転確認に加え、元側5分MA差・15分MA差・15分EMA21傾きがsetup時より非拡大。全値既知。差はsetup時ATR5の同一尺度で比較。",
+    "reverse_strict": "緩に加え、元15分DIがsetup時以下、新しい5分背景特徴へ更新後で、直前の異なる5分背景よりMA差が非拡大。",
+    "five_minute_publication": "m5 ATR/MA差/EMA21傾き/DIの組が変わった当時q0を新しい公表の代理とする。同じ組を繰り返し数えず、実足IDや全ての確定足の存在を保証しない。欠測/resetで履歴を切る。",
+    "follow_loose": "191順行確認に加え、実entryのEMA8距離<=1ATR5、BB位置<=1.5σ、固定再テスト水準からの実Last距離<=1setupATR。下限等は191品質条件を継承。",
+    "follow_strict": "緩の上限をEMA8 .75ATR5、BB1σ、固定水準.75setupATRにする。",
+    "factor": "REVは反転だけ追加確認、FOLLOWは順行だけ位置確認、BOTHは両方。同じC120で比較。",
+    "unknown": "旧リスク判別の未知は191通り旧要求保持。新追加確認の必要値未知は不成立とし、未知を収束や安全に置換しない。",
+    "clock_width": "元要求の固定水準・setup30分・幅/期限種・正常BBO・C120持続・LC/T優先は191同体。新取得後からIFD期限を測る。",
+    "psychology": "DIが一時低下しても短中期MAの拡大が続く間は元の需給が残る可能性。反転は構造拡大停止と価格受容を合わせ、順行は再テスト後に追い過ぎない位置で確認する仮説。",
+    "limits": [
+      "全81場は既使用で、全80発見と前48選択を分ける。11/16Dayは診断のみ。",
+      "現在の背景特徴の変化は真の注文フローや全原板の受容を直接測るものではない。",
+      "参加の減少と後続枠の入替を別記し、新確認枝の損益と口座全体を混同しない。",
+      "単純IFDに固定、追尾/技術途中決済なし。金融後の変更は新試行。"
+    ]
+  },
+  "input": "旧81場のみ。11/16Night・11/17Dayの追加二場は条件作成に入力しない。",
+  "target": "旧リスク要求の技術確認setupが有効な間だけ旧Tを判別する。保有・金融・未来を純判断へ入力しない。",
+  "ALL": "有効なsetupの保留中は全Tを遮断する対照。全遮断を正解と仮定しない。",
+  "EXPAND": "Tが保留した反転方向と同じで、元側の現在riskが既知成立し、元5分/15分MA差がsetup時以上かつ一つは拡大なら遮断。MA差は同一setupATRで比較。未知は既存Tを保持してフラグ。",
+  "ACCEPT": "T方向ごとの初回純T時点Last/ATRを固定し、2観測・60秒・侵入<=.1ATR・各量>=.5/平均量>=.75・価格進行>=.1ATRのC60受容を確認する。現在の実側5分MA差/DI>0、MACD/RSI増分、1分実体/進行と品質も必要。",
+  "T_state": "T固有状態は旧setupとともに失効。初回Tには正常価格と正ATRが必要、同秒では成熟しない。以後は純Tがないq0も受容履歴に含めるが、入口は現在Tが成立した時だけ。LC時は受容をリセットする。",
+  "unknown": "EXPANDの未知はT保持、ACCEPTの確認未知はT不成立。両方とも場/q0分母を残し未知を安全へ置換しない。",
+  "preserve": "旧幹/LC、反転と順行確認、元幅/期限、C120、reset、全決済15分前、追加禁止は193同体。Tは元の±200/H60、開始45分後かつ場の初取得前だけ。",
+  "psychology": "同じ反転を警戒して待っているのに、別名の補完注文だけが同方向へ入るなら確認を迂回する。一方、T固有の価格受容と技術根拠ができた時は待機理由が変わった可能性があり、無条件全遮断と比較する。",
+  "limits": [
+    "旧81は既使用。前48選択/全80発見/本日1診断を分ける。",
+    "純T件数、45分後初取得前の金融engine要求、実取得を区別する。",
+    "Tを保有未知の穴埋めと呼ばない。枠変化と確認枝単体の優位を分ける。",
+    "単純IFD固定。出口改善と利益最大化の探索は行わない。"
+  ],
+  "Source": [
+    {
+      "path": "work/195保留中Tの技術根拠/rules195.py",
+      "bytes": 12934,
+      "sha256": "54e82fe6218d1fe868a6e11d8d110e5fbf3b2430c036487002ce7bf64b8a71f3"
+    },
+    {
+      "path": "work/193構造拡大停止と取得位置/rules193.py",
+      "bytes": 16210,
+      "sha256": "c987712832b1a331bc23e5fb0d65eb8fd19e62fc8ab39516bda4cfd95ff3eef3"
+    },
+    {
+      "path": "work/191要求起点の受容/rules191.py",
+      "bytes": 15606,
+      "sha256": "7863207fae63b2ef7e7ed3f5ecbcfe9cdfab76b0285ade0e05ca0bf57fe7a120"
+    },
+    {
+      "path": "work/185原圧力と受容/rules185.py",
+      "bytes": 22445,
+      "sha256": "42efee07b831a9abc166b7eb5fc75cab1706b58771356d7886b6158244e5ecf5"
+    }
+  ],
+  "新195金融未入力": true
+}

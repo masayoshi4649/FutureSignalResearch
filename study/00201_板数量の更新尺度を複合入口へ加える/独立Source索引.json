@@ -1,0 +1,91 @@
+{
+  "試行": 201,
+  "独立Source": [
+    {
+      "path": "work/201独立検査/独立確認201.py",
+      "bytes": 23816,
+      "sha256": "67695f342b0c291c4233fce1d3dfff26a191a9d4f87823d8e919c8b2cfd2887a"
+    },
+    {
+      "path": "work/201独立検査/金融検査接続修正前.py",
+      "bytes": 23621,
+      "sha256": "fd860e07772b2936a9fcc40f90e32a01202ca1a78a2fde87405d47f2d9ca50fe"
+    },
+    {
+      "path": "work/201独立検査/独立枠を人工確認する.py",
+      "bytes": 3407,
+      "sha256": "b903da18a48de096b7238be7e196403dca47e1b1ca29401be7ae75a4a972fa63"
+    },
+    {
+      "path": "work/201独立検査/固定母体を確認復元する.py",
+      "bytes": 1280,
+      "sha256": "10ef036886a831d4e4af007351cd2e50ec93df9ccc1dcfffe12f363a79a2896c"
+    },
+    {
+      "path": "work/201独立検査/正式保存201独立.py",
+      "bytes": 3029,
+      "sha256": "64c275cb3824527d416e39e846aff2539cda2e059b0b5a484677f65b62f4e2aa"
+    },
+    {
+      "path": "work/183損失安定性/TOPIXを独立検算する.py",
+      "bytes": 10571,
+      "sha256": "c1713bf11f41524fc7d4a0d81809009da8ad0533513877bb4469af1de797072f"
+    },
+    {
+      "path": "work/183損失安定性/新候補の集計を独立検査する.py",
+      "bytes": 8657,
+      "sha256": "ccbc3cbe8116bb9358b13a19579c0a779546176c18db5fab5944e3ee2a5ca535"
+    }
+  ],
+  "SourceZIP": {
+    "path": "study/00201_板数量の更新尺度を複合入口へ加える/独立Source.zip",
+    "bytes": 30002,
+    "sha256": "0b2abd924f3e7bb029ff9139ce21999bb901c193a58423ae762b4da6dffe2827"
+  },
+  "監査正本": [
+    {
+      "path": "study/00201_板数量の更新尺度を複合入口へ加える/監査/純判定独立確認.json",
+      "bytes": 5926,
+      "sha256": "fc1180a38834051aae636e83d1c64bd82554056dc750e2d090357bae13cc3cce"
+    },
+    {
+      "path": "study/00201_板数量の更新尺度を複合入口へ加える/監査/金融独立確認.json.gz",
+      "bytes": 8434,
+      "sha256": "b2e3b5ec6f22d982f2fe80a6c0f8492f66ed84b817736cdf17034e71eb1480bb"
+    },
+    {
+      "path": "study/00201_板数量の更新尺度を複合入口へ加える/監査/元新の実取得差分.json.gz",
+      "bytes": 166110,
+      "sha256": "4bad23f652f2f9b6e436b82b60169a30cf51deaff5736cb7b9a5dff430ec792a"
+    },
+    {
+      "path": "study/00201_板数量の更新尺度を複合入口へ加える/監査/独立枠の人工確認.json",
+      "bytes": 528,
+      "sha256": "e5feaaefe3704822be046cd36c6c52c691e5c201514cbe72cb3455a733a2c8a4"
+    },
+    {
+      "path": "study/00201_板数量の更新尺度を複合入口へ加える/監査/独立検査履歴.json",
+      "bytes": 1294,
+      "sha256": "a7274f981d0e6109d2d5e80aebd731263f3e28e3399b0cea4565467f678176da"
+    },
+    {
+      "path": "study/00201_板数量の更新尺度を複合入口へ加える/監査/動的依存の同体確認.json",
+      "bytes": 1442,
+      "sha256": "aadc5f2a847b86f3336767a55dab6a10dab5af7860730cd72a20337cf9ff01de"
+    }
+  ],
+  "既存親純出生ZIP": [
+    {
+      "path": "study/00199_保留中の旧幹を確認済みの根拠で切り替える/純入口.zip",
+      "bytes": 168498,
+      "sha256": "f27c6f11ca6557f8b811919dff214222452bf0a07b53fafd7a6365d023ededce"
+    },
+    {
+      "path": "study/00199_保留中の旧幹を確認済みの根拠で切り替える/追加二場/純入口.zip",
+      "bytes": 8160,
+      "sha256": "96fb0f6b2fda7e1621a94b1913884136a3e4c55edd58c1b7860bbadeb542f59c"
+    }
+  ],
+  "元入力を複製しない": true,
+  "範囲": "新板条件の全件別式照合、既存IFD表不変での別一件状態、183の別集計。原BBOを新規に独立走査したものではない。"
+}

@@ -1,0 +1,920 @@
+{
+  "金融未使用": true,
+  "状態": "TOPIX純入力監査と仮説案。売買条件・新金融は未実行。",
+  "Source": [
+    {
+      "path": "scripts/VWAP純入力204/人工確認.json",
+      "bytes": 1310,
+      "sha256": "0c28029837295e7b340873b3e7ae24c4b7430f6752649cb83ad565bdb63d5a84"
+    },
+    {
+      "path": "scripts/VWAP純入力204/人工確認.py",
+      "bytes": 6052,
+      "sha256": "c8a9d0fc6a26a18ff0c0dce32163692485c699afce4a2c6da64352045e04e839"
+    },
+    {
+      "path": "scripts/VWAP純入力204/仕様.md",
+      "bytes": 2916,
+      "sha256": "ef22640d14c2a17598f3efcaa099833329e62be6715af7926d84da05e1eb5fdc"
+    },
+    {
+      "path": "scripts/VWAP純入力204/可用性集計.py",
+      "bytes": 4216,
+      "sha256": "84a35d3877e446efe36ab2e1b79d093efcc6dacd9cee33718bf95e16866bcbb3"
+    },
+    {
+      "path": "scripts/VWAP純入力204/抽出204.py",
+      "bytes": 15555,
+      "sha256": "09b258d1d586391dec2214d79e07f05bb50e3ea7975ac3ba3d680c7f5b891180"
+    },
+    {
+      "path": "scripts/VWAP純入力204/正式保存.py",
+      "bytes": 2720,
+      "sha256": "1adfcfd7a05a2ace8e0ed879c3c4a29dded15ab2c75f381e6a622aa6989537f7"
+    },
+    {
+      "path": "scripts/VWAP純入力204/独立原行照合.py",
+      "bytes": 6768,
+      "sha256": "bbe6f32bb587006539b4a24527137ba4e7720f7497434fdb11e22ae9e0e6db0d"
+    }
+  ],
+  "正本": [
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/README.md",
+      "bytes": 2489,
+      "sha256": "c3701f62e33351058dbe3e1f8b0579b1c3656ac169b911d3c55b9610045110d7"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-21_Day.json.gz",
+      "bytes": 2607,
+      "sha256": "d0685c303a4247e58efd91cfdf913dd0d0b70a9e90a67d272ebe654c3351845e"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-21_Day.検査.json",
+      "bytes": 1705,
+      "sha256": "41e4467486d6e063b1e10a3382dc598ccfc60f5921a9006959467402a0416838"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-21_Night.json.gz",
+      "bytes": 11901,
+      "sha256": "c0065ca37dacb6bf3b89630fefe126f1189150c72191b51579684d2438c65e8c"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-21_Night.検査.json",
+      "bytes": 2112,
+      "sha256": "7558a78f8ece4927f42089a0ff0e15c30f4b7eb67ee685526f685e9b2c9d4f94"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-22_Day.json.gz",
+      "bytes": 8987,
+      "sha256": "fdc7538be0981b69dd90b4366ac30fbc43999fb6ae632f2d27123c014ef3f869"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-22_Day.検査.json",
+      "bytes": 1969,
+      "sha256": "615d80d17cf488e5970f7094cdb01853423cb47b5f19f8ab382ebbd191315389"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-22_Night.json.gz",
+      "bytes": 20893,
+      "sha256": "b8c445a661c5177865738b4dc2ab56c05bd23de8dbccc98f5c02eefbd7fec506"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-22_Night.検査.json",
+      "bytes": 2083,
+      "sha256": "b2577de89dca105d0856612b740e2c99b091b28059ca1705d828064ef83831cf"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-23_Day.json.gz",
+      "bytes": 7115,
+      "sha256": "bb89909f9f7455811f8f7e76ec3ebc0b3cb4e89c1522bc1e3dedf2498b7e19b5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-23_Day.検査.json",
+      "bytes": 1967,
+      "sha256": "ceb7dab9eabe6d919779f85adddb6637776ce850c36d73b72227850228829d90"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-23_Night.json.gz",
+      "bytes": 14182,
+      "sha256": "23c5aabc7f57659b24ec802a7328e30e15145ea6334ffb8f51ed62541a8b9e01"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-23_Night.検査.json",
+      "bytes": 2115,
+      "sha256": "6c3cee652a2f2a76e4d189f3619666a6f455c90e2c5be0a4940051629734a4ab"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-24_Day.json.gz",
+      "bytes": 20725,
+      "sha256": "27972c0a071bf22ac480cbd0dc63568dd64567f2b57c3fbeca83955f4639e29f"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-24_Day.検査.json",
+      "bytes": 1730,
+      "sha256": "bfcf47c16636c3da75d91959fc58727079c4e7329da337f53c3e5b5ace9462cc"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-24_Night.json.gz",
+      "bytes": 30626,
+      "sha256": "9c323c15a53be158f61c22e80b9c96b4b96b2885d7d1fd3a8773048de6e80390"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-24_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "7ad02fd561fff546058e728ea98493b21980ef47f501b2b6db144d22667b6307"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-25_Day.json.gz",
+      "bytes": 29162,
+      "sha256": "d7a4003929c08539813c62a08dedaa49584dff303d4abd5cafc2c9edb198d058"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-25_Day.検査.json",
+      "bytes": 1980,
+      "sha256": "75cac1e7f6eccc3a40fddd3e452478b4d243f48ea47c0cf848d9d09d2b98ae2e"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-25_Night.json.gz",
+      "bytes": 24384,
+      "sha256": "420e9893bd63168ce47ead333f96722897d3ba12bb469692cf8c5c132c05c987"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-25_Night.検査.json",
+      "bytes": 2119,
+      "sha256": "47d819663139430ae5a1b1b0982dc07d5d384f2b426a5940425a2b4ab55d79d0"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-28_Day.json.gz",
+      "bytes": 21061,
+      "sha256": "eab2eab229f095c4e138d0abf813b860e102bc48eaad0f7f1e68e54477ff8204"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-28_Day.検査.json",
+      "bytes": 1741,
+      "sha256": "3d7aed2afeefa46be1f2ff13cd7fd775287bf83e970520fe060341753f761ed1"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-28_Night.json.gz",
+      "bytes": 28520,
+      "sha256": "5a46bf14322f28e01de9e4c8a655e7d03f7e78f16ddcd1ebe087f4ed47c6ee4e"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-28_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "74f63b8b34d5135b92fc9f9758b24d3e74f300a8e381fcda91bbf064c91fc3bc"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-29_Day.json.gz",
+      "bytes": 29565,
+      "sha256": "7419ba9e6235a225e597c23bac358fe0ca80be86b674840ef94c2be67d644c7d"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-29_Day.検査.json",
+      "bytes": 1980,
+      "sha256": "c62382a43cb443b667cc49141e8982f1c0126affe8b24a2c94d9c25d2b135bd9"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-29_Night.json.gz",
+      "bytes": 28539,
+      "sha256": "6acbd38b080b08153b3080f436f671216140d4c7553b8f514d9bf045aa263fbb"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-29_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "da5d66b6f77d7d5aafbf00216c9775193bc1af02f9f7229da1d3969e67365d45"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-30_Day.json.gz",
+      "bytes": 29243,
+      "sha256": "75980eddc682c513a4fee2d3ca3c44ebc2d991735857a8565ac45180d1d1fcb1"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-30_Day.検査.json",
+      "bytes": 1980,
+      "sha256": "21b0d2f15d7ba85a1c364e9d159c8b1f0b2b858fcf692c9b536f5536e68914e9"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-30_Night.json.gz",
+      "bytes": 32615,
+      "sha256": "6822438eeeca6826017ecd57c31bfd3825c863ad1f2518a98cb07d3a50d9ef6b"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-09-30_Night.検査.json",
+      "bytes": 2085,
+      "sha256": "d7a58837688a562af3e8a26a973043e61500a95fe49738e422e996326ef01626"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-01_Day.json.gz",
+      "bytes": 28552,
+      "sha256": "3195075c61ca1b746d1a55486fc2cb1a63b14aa375e68fcd766bb39fe41d82e2"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-01_Day.検査.json",
+      "bytes": 1990,
+      "sha256": "df6757bc4153a8b2b9a381f8238a3d571be4c12f4effde43dd0c3aa7690345ed"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-01_Night.json.gz",
+      "bytes": 31195,
+      "sha256": "584bc462f52712422addf4be9fdafc00fcc2cba12750894c41761ccb9b418152"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-01_Night.検査.json",
+      "bytes": 2085,
+      "sha256": "bc58c7772c9bb68f632fccd9e489681b0fa7914d89eda5cdaf10d2393d68a213"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-02_Day.json.gz",
+      "bytes": 28244,
+      "sha256": "6d9f80923a1b6cace5eece3eebf918a249e9ed869dce4ae1e7a45e7031524249"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-02_Day.検査.json",
+      "bytes": 1979,
+      "sha256": "584cade05a76e5979a92f782307590b10a5c123548255a9b07451a46900ae7ef"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-02_Night.json.gz",
+      "bytes": 29045,
+      "sha256": "f5c4bd986b960c6123ea4fcf24da3013999fe18ce69ac1047124201a9b03743f"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-02_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "b5581ebc4c447a98fdad6b4d0f8c2889228f2c3760fc7cc2d848bbf07e3ae386"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-05_Day.json.gz",
+      "bytes": 20249,
+      "sha256": "99d011854d3fd370f118aaf3aaf458c5eb991180d894002b1cd967f2679c6f47"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-05_Day.検査.json",
+      "bytes": 1722,
+      "sha256": "59e3b1ff687df417551ccf216bc83bca20bcfd60064bf3f0baa96562d2929c21"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-05_Night.json.gz",
+      "bytes": 27270,
+      "sha256": "4e4b275a639f0d5dc73c670a4199122f7f9ff91e20c24546d37a1b6f4c11d9cd"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-05_Night.検査.json",
+      "bytes": 2151,
+      "sha256": "866a0330b5ef568bd8af2f6f34f14936b72c6fa389b6cb1e8c87b2dae3d27166"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-06_Day.json.gz",
+      "bytes": 28130,
+      "sha256": "049261cb8b815caa9510cce3a565511dde593cf717608a833041bc61b24f025a"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-06_Day.検査.json",
+      "bytes": 1979,
+      "sha256": "2e52f409b422dcfd599bac551e685e341fca929f077e1818acfec7b801a6b0d7"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-06_Night.json.gz",
+      "bytes": 24643,
+      "sha256": "75b984a89b0e43ac1ca9a14f2397dff0f3d95922f1644e8cad394c9995ea51c5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-06_Night.検査.json",
+      "bytes": 2085,
+      "sha256": "976880e7d7aa22f31cc78c3616b3191754968e1975708fdd144bca1efea3ab36"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-07_Day.json.gz",
+      "bytes": 27379,
+      "sha256": "b569b7fe76b64c004a5d65b555a468e025b801a49ae17b8d06b427d6b826c50e"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-07_Day.検査.json",
+      "bytes": 1990,
+      "sha256": "d9d01c379b71d7aaf6706476e8cdd5cb4482aec7a4c6ed81c47db0610449934d"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-07_Night.json.gz",
+      "bytes": 24058,
+      "sha256": "8870831021e3c8bd0cf886d2d952a3401288134550e3d87fa1b681de41897f67"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-07_Night.検査.json",
+      "bytes": 1719,
+      "sha256": "be03d8aa0db516f338d93fecd7c8880bb5167f6138b7399e12336505ff2f48a5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-08_Day.json.gz",
+      "bytes": 21265,
+      "sha256": "94ba73c26b6752d12a0b8346793316bc51d3bd8fcf37e4de276a4aaf22d6ac06"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-08_Day.検査.json",
+      "bytes": 1721,
+      "sha256": "ebbca1f2d5aa155cf419487057c3f44fb71f8bb88fda57790116a4ff722a3668"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-08_Night.json.gz",
+      "bytes": 27796,
+      "sha256": "f24af53f86aeff9afb4bbee2fe107c6a4122c4f13b63c20ad40aa9f2de93674b"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-08_Night.検査.json",
+      "bytes": 2119,
+      "sha256": "9f586de561b2a0c7a6e06b19c9aeab741662c2bb10c4045539c9270b3abba1e7"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-09_Day.json.gz",
+      "bytes": 19299,
+      "sha256": "6ceb72aba5d3150286019b0995c529647898bc1d0f59cf8f2788c410a52311b7"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-09_Day.検査.json",
+      "bytes": 1731,
+      "sha256": "add3065b9e03a52448462d9b8df0ca8346ea7901cbcc94b1a2fc99b67c62c39b"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-09_Night.json.gz",
+      "bytes": 21469,
+      "sha256": "28a288a1e10acf4b327108e85bc7de32fca3227317d9a4b46e82d60099896948"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-09_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "9d1931944964fb476f69c115a0b9c44034933fc5dcd8c80bb42fdd7503ce127c"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-12_Day.json.gz",
+      "bytes": 6661,
+      "sha256": "eb4eb17e94de960bc90f19d74273c30c5efe389de0c76c090e36a32c1882aff4"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-12_Day.検査.json",
+      "bytes": 1726,
+      "sha256": "6ba4b999374952467cebe24c92f2b62e32ae2b0e437d54bfc92338f739dbed65"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-12_Night.json.gz",
+      "bytes": 9603,
+      "sha256": "bf293c3cad628268083f17e729c8b6a0cb10f769fc9d65c8c42cd9694923e07a"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-12_Night.検査.json",
+      "bytes": 2084,
+      "sha256": "35758b3db21674807576d513049f1407589e292aa4e01c140c322a06d58b3dac"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-13_Day.json.gz",
+      "bytes": 21282,
+      "sha256": "a8ca305154679af37e857c247c3d19f9e2d693de107ea299b622d7b63d0d0557"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-13_Day.検査.json",
+      "bytes": 1976,
+      "sha256": "8f4828e002ebc16410de990a7c44f0fcd3d07e675940ab597428345e62b2709d"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-13_Night.json.gz",
+      "bytes": 18643,
+      "sha256": "16651b388710e220a242ba103916d8c05202f794ad73a2373c9f964701842e11"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-13_Night.検査.json",
+      "bytes": 2152,
+      "sha256": "63f0218de392592cefcb1d694b028a4e186fc1d834debf1657c59b3959d3a58f"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-14_Day.json.gz",
+      "bytes": 18971,
+      "sha256": "1bf403efa018fc0fb395875ba6d71c1da9d383893fa5bd9117db1fa0c2e5bb29"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-14_Day.検査.json",
+      "bytes": 1977,
+      "sha256": "46b2891a761aa07be44cc9e4e0b3808f8959f06ec9b0ba15c14c135de4718e23"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-14_Night.json.gz",
+      "bytes": 29907,
+      "sha256": "6799f775e4fb39f0870353a04e1d9924b5ff15610f8b9cb767c6714b4bb497cc"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-14_Night.検査.json",
+      "bytes": 2123,
+      "sha256": "677b3b7b353ede68109d6e9806260585923ce578ef0fa589c06ad3c11edf1ac5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-15_Day.json.gz",
+      "bytes": 29963,
+      "sha256": "3c8a57cdfc034d8b995e9c1de1ca7973d189e68a882a2f4674b5f8635d04a5ac"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-15_Day.検査.json",
+      "bytes": 1980,
+      "sha256": "f3b648f33e5b1ac49d3dbae98283e5d044a1a75b4ef6faade0d0fc076680a907"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-15_Night.json.gz",
+      "bytes": 30788,
+      "sha256": "7b22f64d00a0cd875f1804feef135ab755c8300544199257ae556eebfee0c38d"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-15_Night.検査.json",
+      "bytes": 2086,
+      "sha256": "680d5ec9b8880d84d053d543e2a217e0fba8dd2caed119097b58df76c070f4f7"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-16_Day.json.gz",
+      "bytes": 28943,
+      "sha256": "5d81d7dc67bec6f0adcaec634941a6d0c91f721835d6ef96e5050b72ce2eb1b5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-16_Day.検査.json",
+      "bytes": 1989,
+      "sha256": "d4d655706a83da459185b44c3fc2c5c4fb0d85ca69ed3fc70ff1d4149ba91488"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-16_Night.json.gz",
+      "bytes": 34015,
+      "sha256": "522107a67bd9e32c71c006cd64acbcb0e6add943e25e15e381a5e8cbac5da9a4"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-16_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "35d4ceed49f23a65054e98a697c6e54da9073fe7fa7bdaf83861464cf83ed061"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-19_Day.json.gz",
+      "bytes": 21482,
+      "sha256": "6b760328f3ef76105ea52ea885606c8dcdf093951260cf4f7e201abf1cb5585b"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-19_Day.検査.json",
+      "bytes": 1731,
+      "sha256": "648067fcd54d4475501c02ae50dcb48c9e9e603cfc68c439b80fb56082b98333"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-19_Night.json.gz",
+      "bytes": 24536,
+      "sha256": "186fd897f239a9fe9e35558891ddfac749309cf8e9f4b0772318f6c2324fa928"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-19_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "a66ceb2808cc6dabef3c9ef0dfe79fdb7a8f0b026322115ee67a601778195567"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-20_Day.json.gz",
+      "bytes": 28870,
+      "sha256": "a34473dc531d1dd957d22a4f0b79875a0123c7ca2a1303d8fa5c703dc307f6e6"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-20_Day.検査.json",
+      "bytes": 1980,
+      "sha256": "c30b39cd3df702288ee9e2bb423a98677dd53553d45ac2d8c4771b059072b789"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-20_Night.json.gz",
+      "bytes": 26813,
+      "sha256": "9ea380bb1c10ef495072fc8811406f6811867dde72b0723c0b6a10e2ec81c770"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-20_Night.検査.json",
+      "bytes": 2153,
+      "sha256": "69c22be78b2d17daf1182b6b44ec014c94c598f752aeae7ca68ee2b4cbab1abd"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-21_Day.json.gz",
+      "bytes": 28624,
+      "sha256": "e82c7d315727f43cbc6f9ad8d2a339d04840a120ce9cbd5d5e4c6d4955ebca60"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-21_Day.検査.json",
+      "bytes": 1980,
+      "sha256": "a163c7ffc70ef930ff4aab5cf0b77a03e05b2d125836bc29018b77826e72dd68"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-21_Night.json.gz",
+      "bytes": 28710,
+      "sha256": "1d80e9553ed1c19359b17feb51793c968716275af7ab60308a56c927cc270a6f"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-21_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "f798b4eeea42606be39929873a0a17fc7873d057b588d4f6860146d3a6edb88a"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-22_Day.json.gz",
+      "bytes": 28678,
+      "sha256": "aa48bcf1796aae2677158e6493d8f15d022a6ec7ec1eb9fd48dbd44cbfa5e987"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-22_Day.検査.json",
+      "bytes": 1979,
+      "sha256": "71aa27a60c56855f1896da509c5f2ff089b1bcc3299e9d5bf9c01a8bed7fb474"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-22_Night.json.gz",
+      "bytes": 31178,
+      "sha256": "4337aee628a30206c9ed37ffa98526fac6f5d112d5df395da9f462c2440ec2c0"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-22_Night.検査.json",
+      "bytes": 1727,
+      "sha256": "c13e41ec3a05592aa723f36787d866687ace32e366a0b9978669908cf1685439"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-23_Day.json.gz",
+      "bytes": 29488,
+      "sha256": "47ed3b314f56ae35d0f5ac7e8955fe8a9505e462c41563c1c9d58e53868f9544"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-23_Day.検査.json",
+      "bytes": 1989,
+      "sha256": "5046dd3ae8c47fba2b3fed66a363f486c828ece6ddaa8744f7df6f4fbd2dea6c"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-23_Night.json.gz",
+      "bytes": 29128,
+      "sha256": "ed67866124375b7d154ed30f0fe17a9065ef117138dcdcfc2940dc921be98eea"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-23_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "9e08660e6cd35075a04668f32affb73e3d028d011d549683b01b14a7ecbdf59e"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-26_Day.json.gz",
+      "bytes": 21484,
+      "sha256": "f2dd74dc1e1cc59f368da04a48858fe461bd3d66670188b978eee29f92a089b8"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-26_Day.検査.json",
+      "bytes": 1731,
+      "sha256": "c8192a609ca2bbff32f60754be4105f6b752622d8eff35b82ac3c82236b02bf8"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-26_Night.json.gz",
+      "bytes": 27533,
+      "sha256": "bccb26b183e23d41983c6e9f101df46b35d3510e7a1238f54dbaa844448b15ce"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-26_Night.検査.json",
+      "bytes": 2119,
+      "sha256": "f2acb53370b081a0aed1ff79a1dc0c25afd75fa1ea81b66a4c8b21a12d5cc787"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-27_Day.json.gz",
+      "bytes": 28821,
+      "sha256": "296468b950165587120a5223d4bcc2a585268ee96e51db284b30a9a0f7a07d3c"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-27_Day.検査.json",
+      "bytes": 1999,
+      "sha256": "dcd5fa4b8ac6132700760d00a91136ea6615c5a06fd823940a30c6d309116feb"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-27_Night.json.gz",
+      "bytes": 19400,
+      "sha256": "80d2490aee4682b2e1ddd3d7fc03f9ca4f162f687bdec2a3a843c4b11a288f38"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-27_Night.検査.json",
+      "bytes": 2119,
+      "sha256": "f90bacf2f5dad3548cc4a3d1df28cf84c5c804babbcc9e97f1497e676edd710a"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-28_Day.json.gz",
+      "bytes": 27852,
+      "sha256": "62d484c280a5c1cd06e12fa34ef937ed24cf17eb688a94569ca48a1f00d789d9"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-28_Day.検査.json",
+      "bytes": 1980,
+      "sha256": "8412e7d986eccd1aabfbea8c2e35f001933193647db96425258324eb6ccc0dfe"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-28_Night.json.gz",
+      "bytes": 25191,
+      "sha256": "0eecfb71fb9e787ea2ccb27666c29526cc629be6a13322979bb2b8d4ac597a1f"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-28_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "d12375fe17f9dc6f80b2fa2fae9e8e88700444b35fe0b2f790a4ff3eec124ae8"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-29_Day.json.gz",
+      "bytes": 29052,
+      "sha256": "01cbaa808a24c017da04916a9e6184b0d0dbfcee57fdf1a6f57f341b90dcda6a"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-29_Day.検査.json",
+      "bytes": 1989,
+      "sha256": "160026a9f202cbf780ad75d1d6e347bab16f8e1715fa76142899ccca4aaf91e0"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-29_Night.json.gz",
+      "bytes": 27368,
+      "sha256": "558be3a774cf5faad79aa6c097dee1e41d9ac1f76c620f4f45d13e334b79d728"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-29_Night.検査.json",
+      "bytes": 2155,
+      "sha256": "7ff1351d1c5fe4b6c0dbbd583592c082592bb8c2bfb85ad3623d2052177cedb4"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-30_Day.json.gz",
+      "bytes": 29393,
+      "sha256": "d7b3fb8e79e4e65318c53c2935981685e61bb3e5a486494b58152cff71ba1c0b"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-30_Day.検査.json",
+      "bytes": 1989,
+      "sha256": "880d1d145d1202bd2ec8ba611d5cd58f6809a53585d05190fba3371bcb718a08"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-30_Night.json.gz",
+      "bytes": 37187,
+      "sha256": "28fe6d7769306373883761fe2d8a45cbd1caac658f1c8d967d3d73972626c682"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-10-30_Night.検査.json",
+      "bytes": 2157,
+      "sha256": "37619ca69424969210b23dbabcb28dc2574ff35358d72bba21720b013e0d4593"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-02_Day.json.gz",
+      "bytes": 21217,
+      "sha256": "f419bf2ca662d247f53e4e54797363ba861bec1738202af8ab58c1a16485c821"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-02_Day.検査.json",
+      "bytes": 1731,
+      "sha256": "e13e00fdeab0dcdd35530b264678e46d44a19c6cf4c76f214db3a8af2e25d311"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-02_Night.json.gz",
+      "bytes": 33168,
+      "sha256": "bb0790b3827676924afdd2ed77b7e6e3d6c3905c55c440570413b48cfacc2809"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-02_Night.検査.json",
+      "bytes": 2089,
+      "sha256": "30aea4f9f8fc1e9126275286982561f095e28e6b99799a5d59a14e783a00774c"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-03_Day.json.gz",
+      "bytes": 15818,
+      "sha256": "57e0322ffe2795ff88678f0799f880ac0f3ce88f9fb20f56e52b34d553814dad"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-03_Day.検査.json",
+      "bytes": 1975,
+      "sha256": "91d279cf1cf6b4dab92847b0c75eb2e0c84e7ad74eaf55718a6665f3216c32ef"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-03_Night.json.gz",
+      "bytes": 22522,
+      "sha256": "749a43d2a1b66b673bbd3a8288fcf1b907fb79083445c20afa12da6c54f66daf"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-03_Night.検査.json",
+      "bytes": 2119,
+      "sha256": "2acab2bce27dcdec0de7efacb0c2fd865d3dd2383841e040f5d7cdc11300bee2"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-04_Day.json.gz",
+      "bytes": 22196,
+      "sha256": "892b98046f095eded6f091b8dda5c82c3006b2e3daa4f5f5d81991a2dca8c0fd"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-04_Day.検査.json",
+      "bytes": 1978,
+      "sha256": "571f0196981b966aab770eb538c5d2abf9f9b6b9d6c3b2bbd29c501a475f43ba"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-04_Night.json.gz",
+      "bytes": 36693,
+      "sha256": "03ae35a692d5b83df6a296c68524924a2256a142def53f5bedf7d67827b33d4a"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-04_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "d7a9cf733484e18ef74bb0b54c98767d314bf35a81a701783b3e99f81b5eb4f5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-05_Day.json.gz",
+      "bytes": 29674,
+      "sha256": "7421f75c20494b9e112ba364cb04bba0e68b160524ff58e996eded2cd248d9db"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-05_Day.検査.json",
+      "bytes": 1988,
+      "sha256": "0c13edd47137533d5c2e2e59e25ac162ccefe32fe8ffd4e834d404ddd7e34715"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-05_Night.json.gz",
+      "bytes": 39328,
+      "sha256": "1c21edc5ed357d1037ec25ea434235eb026da68bf1c29f41d940ce1f9957fcbd"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-05_Night.検査.json",
+      "bytes": 2122,
+      "sha256": "2728a46d1213f61b17e77fbb5e874a49692b75af8eeebce6b58746702fb400ee"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-06_Day.json.gz",
+      "bytes": 30328,
+      "sha256": "6e932be32d035f6f81ddb1db3e92aeb8153d80f09355e9e1b307d20b732451db"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-06_Day.検査.json",
+      "bytes": 1992,
+      "sha256": "c588817d6390cc7ea444a0e5e14455c7fc9cd0ff6a938fc0cb8c0dfc52630391"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-06_Night.json.gz",
+      "bytes": 39490,
+      "sha256": "d2a390babf410ed7cf5349d85eef3ca47a6c872546c50a23820195b633a764ca"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-06_Night.検査.json",
+      "bytes": 2132,
+      "sha256": "99f8c03da56f6e3c3e83bb808fd72b0022af92107d9e3ec3336dbfed49ac4f9f"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-09_Day.json.gz",
+      "bytes": 21885,
+      "sha256": "af6caac9b3a77947cc3d5d8d7ad57b42c78ab0021c5c47f3e754267c82bfb3e2"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-09_Day.検査.json",
+      "bytes": 1742,
+      "sha256": "12b33a0372882d5dda9b23fb011a267ca6ff8d3b0194a4818edf8012312d4a6f"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-09_Night.json.gz",
+      "bytes": 29421,
+      "sha256": "652e70586fbae26a6dd341341d635fc3b6d820059184813dbd19a32fe74ab4b3"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-09_Night.検査.json",
+      "bytes": 2118,
+      "sha256": "5e29f282c1e7fa8d93348a3236d5748699efa0eed95f677566988679dcbef541"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-10_Day.json.gz",
+      "bytes": 28882,
+      "sha256": "182a7852e6c119e1b4b40574a22f4f4925dac6a53a71e06e053382fb0f5d0a29"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-10_Day.検査.json",
+      "bytes": 1990,
+      "sha256": "50d93c333477d161e2685f4a919ad7ad6b0b602ea4e12ae408378e8df540f7f4"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-10_Night.json.gz",
+      "bytes": 29428,
+      "sha256": "50bc4e4116c17209465fdfb10c3aa94ec6760f980af873db4ecb860f45816659"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-10_Night.検査.json",
+      "bytes": 2086,
+      "sha256": "52d5448e51a773a34d34792fc6059c3f84f14d3009e8ff1af026a04cc8bbdef0"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-11_Day.json.gz",
+      "bytes": 28789,
+      "sha256": "5b7c6dff50a35c0f5cfc61299203e4189c82b947f6e41e83db8371cb7178c045"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-11_Day.検査.json",
+      "bytes": 1990,
+      "sha256": "ea7c63828ea0139fd799c083a9e98996809ce15996d7d65f2fe886a4542318ff"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-11_Night.json.gz",
+      "bytes": 25828,
+      "sha256": "8d79f36fd668dae0e96e1dbced376301ce88458199a028b0244c973b17aa7178"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-11_Night.検査.json",
+      "bytes": 2120,
+      "sha256": "97a12180e6eda1b9160db80a4145e9d908c96bf13b03723d403a00cda29e6980"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-12_Day.json.gz",
+      "bytes": 28860,
+      "sha256": "1b9663efac9481a227b10491c9b74dde3ba3b9a5349996923bb4a294c7453beb"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-12_Day.検査.json",
+      "bytes": 1979,
+      "sha256": "aabf66508d4723fca38dfe38043517205891400b5e578a2d0e2a27e501a07fe5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-12_Night.json.gz",
+      "bytes": 34462,
+      "sha256": "b8b8b8510ef59834ecb6544c8588ece50f20fac708ed5fc1eaf417cd239321d2"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-12_Night.検査.json",
+      "bytes": 2128,
+      "sha256": "3fbf8a2c974b394064c82442eaaa72271452cea5b000e691a861391b7995822c"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-13_Day.json.gz",
+      "bytes": 28642,
+      "sha256": "fd15acd486bc419b2f1ff0817d4dd28d6805d93f3c9e20a4e9035627b241d8ab"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-13_Day.検査.json",
+      "bytes": 1979,
+      "sha256": "941c86e1067545c605336a80b0daae05d6647ec3729f9fda648219205f53ef1e"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-13_Night.json.gz",
+      "bytes": 27896,
+      "sha256": "46a8562466bfe5210aa6292181d8dde0124b12f46846401d3cd774d924558fc5"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-13_Night.検査.json",
+      "bytes": 2088,
+      "sha256": "527924a3a5f0a9deae6c01e4c5a569f178153de4f5ef7703e7c62d015ac4e4ea"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-16_Day.json.gz",
+      "bytes": 21570,
+      "sha256": "f5a29f33dd21d88b2b023a3788c2c43b81af30cbd45ce717919a4c1b5aa66977"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-16_Day.検査.json",
+      "bytes": 1730,
+      "sha256": "ccab30ff0998df0b1c59349ca61364a488ac2dcb8012cdce1ffc7dadda182c6a"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-16_Night.json.gz",
+      "bytes": 30339,
+      "sha256": "f691a626ca822fa0c6a8d9a7878dbb6db697f70a692426954825b1c50774d6a2"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-16_Night.検査.json",
+      "bytes": 2119,
+      "sha256": "500b64e96fc2bef971ec1208bd34d700b5a60c1fbbb36e3925859d3ade9c4dca"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-17_Day.json.gz",
+      "bytes": 29027,
+      "sha256": "1cc63b72d1841476d2b0e6c4a37cf5d3521bd38cc6d00d38da4b3ea19d2647bf"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX/2026-11-17_Day.検査.json",
+      "bytes": 1979,
+      "sha256": "9283054bd18d329d9b181a1f1ed09d451c89cf259ce3ee28cc9eef0e4724b25c"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX可用性集計.json",
+      "bytes": 25333,
+      "sha256": "d141771550d83642db52b1559ddbafe51fc024e63c4675ba9f798cca7c6bc67d"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/TOPIX独立原行照合.json",
+      "bytes": 15832,
+      "sha256": "324474d20b6522314e30630f879350f8204399548c8959838a7b94e915a587fe"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/完了_TOPIX.json",
+      "bytes": 166529,
+      "sha256": "6ed43d1d75ad6df36e66bddcc251170dd6ab909adbe00b4ae367f1396da57cac"
+    },
+    {
+      "path": "inputs/00204_両指数の配信VWAP純入力/抽出前固定_TOPIX.json.gz",
+      "bytes": 414170,
+      "sha256": "1afa7ecc32a11d5023298f26a3e3a21b9ba6f439a9f71179d88d948ac7cea397"
+    },
+    {
+      "path": "study/00204_VWAPと価格構造の両指数入口/README.md",
+      "bytes": 2437,
+      "sha256": "69cdc8415c4a5ce16b5b97722c57bf95ef66805cf6086d2ee51923f7b7ebcc8d"
+    },
+    {
+      "path": "study/00204_VWAPと価格構造の両指数入口/入力監査.md",
+      "bytes": 4866,
+      "sha256": "5554e7855bf48bc83701bf60e8ee061a860978a4bea80e2cbb4d8ae7b6b9bf98"
+    },
+    {
+      "path": "study/00204_VWAPと価格構造の両指数入口/再試行の設計案.md",
+      "bytes": 6163,
+      "sha256": "e77e523bf946be82260aeb6019b14c3098814e9e9f51e4999df1b085d47afd01"
+    },
+    {
+      "path": "study/00204_VWAPと価格構造の両指数入口/純入力Source.zip",
+      "bytes": 17633,
+      "sha256": "ca67d13a87e7657f20078ae53797f7445cd2d55a51ad8f27080939ef68f108b3"
+    }
+  ],
+  "原板": "201抽出前固定票の83TOPIX場を共用。原板複製なし。",
+  "入力保存": "q0キャッシュはinputsへ一度だけ保存。Source ZIPへは複製しない。"
+}
