@@ -1,0 +1,77 @@
+{
+  "版": 1,
+  "成功": true,
+  "市場前": true,
+  "生成時刻UTC": "2026-11-09T14:55:34.276107+00:00",
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\新保護の独立監査.py": "85be246502840083f511800081d7ccaf0bd8c97ad681b0f72d2c612552ddc420",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\保護監査の人工検査.py": "d0684676c22d1cdbb3385538ffdfadfdd56437d6a94fbd1ed506628c37b9b72b"
+  },
+  "所有前後同体": true,
+  "手計算主人工数": 14,
+  "Root_API人工": {
+    "冊数": 48,
+    "counts": {
+      "positions": 48,
+      "saved_points": 200,
+      "exact_points": 80,
+      "bounded_points": 120,
+      "nil_quote_points": 0,
+      "finished_points": 40,
+      "all_reserved_points": 40,
+      "request_points": 0,
+      "request_orders": 40,
+      "request_points_unstored": 40,
+      "before_snapshots": 0
+    },
+    "破壊反例の検出数": 8,
+    "破壊反例": [
+      "Hを改変",
+      "q0を改変",
+      "Lを改変",
+      "予約再同期で架空に床更新",
+      "Hを改変",
+      "q0を改変",
+      "Lを改変",
+      "予約再同期で架空に床更新"
+    ],
+    "manifest": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続Sourceと可変保護の接続\\人工_独立保存用\\人工.json",
+      "sha256": "bf51bebe5fe0b67cd39deb18b1f88da6164b513d0a87ea53ab77197b0423cc48"
+    },
+    "人工本体": {
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続Sourceと可変保護の接続\\人工_独立保存用\\売り.json.gz": "a0ec08f288e674db404d6095799939b9e6863fd3020ad77589849ae405d96614",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続Sourceと可変保護の接続\\人工_独立保存用\\買い.json.gz": "2d418049e5d0d37160d6c3a92d84909f3bd3cad369ef04663a38922fde6c9f7d"
+    },
+    "追加の手製分岐検査": [
+      "同原行の実要求とnil価格の予約再同期を手製保存点で検査",
+      "欠気配の最終Finishedを手製保存点で検査",
+      "同原行の実要求とnil価格の予約再同期を手製保存点で検査",
+      "欠気配の最終Finishedを手製保存点で検査"
+    ],
+    "market_data": false,
+    "natural_FAR_signal": false
+  },
+  "依存": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\会計の独立検算.py": "4c5f72dbbb31209c673b77f5171b73129a9a684951fc8c75361c601f7cc14e08",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\集計.py": "7c0c1d1b365226c74027405589099cb72382c7850090627a83788e1e2066c381",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\停止.json": "0042a6dc3f181150609deeca5b2c095c9f553d69fcaab1d833402ae31fdbc2c4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\停止.json": "38c01e07d276310c6c1d803dca11e27979fc9286cf64d9a495e60485ea7264bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元通知の連続Actor\\停止.json": "6503962ebb7189213a182f8801916e99503ddfa88d0a99426107f3755535cbf2"
+  },
+  "停止依存前後同体": true,
+  "API": "verify_protection(book:dict,config:dict,finance:dict,context:dict)->dict; 不正はValueError",
+  "証明範囲": "Go未使用の有理数・三値による少数保存点監査。起動点/隣接点は完全一致、その他は旧L区間とpost整合。",
+  "限界": [
+    "全原行を独立再走する別エンジンではない。",
+    "未保存の中間要求は実会計/MTMまで。全純要求式を証明しない。",
+    "同秒の公表配送原行Indexとreset統合順は保存されず、出典/時刻下限/strict前後関係まで。",
+    "Raw未読。次正常原行の最初性・未保存区間の極値/初回性は証明しない。"
+  ],
+  "非対象": [
+    "未参加の仮想利益",
+    "退出後の仮想利益",
+    "MFE回収率",
+    "市場損益の評価"
+  ]
+}

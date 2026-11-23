@@ -1,0 +1,68 @@
+{
+  "成功": true,
+  "停止": true,
+  "module": "github.com/masayoshi4649/SessionTradeExecuter/chartprotection111",
+  "作成UTC": "2026-11-09T14:24:56.384339+00:00",
+  "Go版": "go version go1.24.2 windows/amd64",
+  "範囲": "停止publicchart/publicdeliveryの確定3分→純111公表。元Raw/Source/Actor金融は未実行。初回市場はcold予定",
+  "所有コードSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\bank.go": "4b83a2dc3931282c1e40b4a5b2d663bc3a58474ac57d4b4ffdbb0d759292c0f9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\bank_test.go": "9e659ead234a0a2f9afe9589da69aa244f790a661e0a7282c60082df4a249859",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\go.mod": "9a5d64d0fed7b4616a5609741730497bbe396f819e39722d9d153f1c8876f9f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\go.sum": "27404f03024310ae928132fe64aff68b9b5197ee871f90c6ea7e2026fba37fd8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\検査と停止を記録する.py": "70dc98e234642afd1e49e7c940d4ea3dc9bbe36b42e578042e0a4a4ec919b6ca"
+  },
+  "自己コード前後不変": true,
+  "依存停止": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\可変追尾向けの公開チャート\\停止.json",
+      "sha256": "f534631e19d8c04fa6f7beefe295178cd432ae1f099d1b9ef69781b5e4fccad6"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\収束可変幅の公開配送案\\停止.json",
+      "sha256": "8c426b5791df0c3d327d0224ecfe48baac7c319a6d1fb776672cecdf79733015"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\停止.json",
+      "sha256": "0042a6dc3f181150609deeca5b2c095c9f553d69fcaab1d833402ae31fdbc2c4"
+    }
+  ],
+  "実Go依存": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\検査\\Go依存.json",
+    "sha256": "132648f83cc934939563b4a5571a7b17f823b37d8e39b5e31c2d6c9d7d8bca98",
+    "bytes": 68693
+  },
+  "人工確認": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\検査\\人工確認.json",
+    "sha256": "2cb398900aab07a0b6da79f113fa03f01b1046814d9f406e6e4952319003d050",
+    "bytes": 12395
+  },
+  "主人工": 10,
+  "実API": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\検査\\API.txt",
+    "sha256": "9e20ceab9966d36a5bab14a88e35fcd263177785573830a2671b4132ebff291e",
+    "bytes": 3363
+  },
+  "実API宣言": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\検査\\API宣言.json",
+    "sha256": "7efb729470e8f18f6b832a2a99e56a52275839e8169d85847dd4296948b6f6ac",
+    "bytes": 4528
+  },
+  "README": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護のチャート公開\\README.md",
+    "sha256": "378fc9a75bd333ced94e5868c194c97637e5daaeff63451a112ea3d34e2761a2",
+    "bytes": 4113
+  },
+  "entryGrids": null,
+  "初回市場でEMAcarry使用": false,
+  "BBとVの開始": "当場cold",
+  "市場実行": false,
+  "Source又はActor実行": false,
+  "11月09日読取": false,
+  "未実施": [
+    "111 SourceConsumer/Actorとの接続人工",
+    "Rootの全市場条件固定",
+    "実市場損益と独立保存",
+    "実注文"
+  ]
+}

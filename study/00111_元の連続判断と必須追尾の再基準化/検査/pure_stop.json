@@ -1,0 +1,55 @@
+{
+  "成功": true,
+  "停止": true,
+  "範囲": "111純保護・純BB窓。Actor/Source/Raw/市場損益の実行なし。市場全条件の固定ではない",
+  "module": "github.com/masayoshi4649/SessionTradeExecuter/profitfloor111",
+  "package": "profitfloor111",
+  "作成UTC": "2026-11-09T14:10:05.180726+00:00",
+  "Go版": "go version go1.24.2 windows/amd64",
+  "所有コードSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\bb.go": "1dea909156c2ab66adf89c20f83899690e863743922c2f7f9fb88490611cbd31",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\bb_test.go": "07efda139283d6279cc1fd4e303f39b4dfefe0389ffc4a4622f91d306e85138c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\go.mod": "8a2a32756e5b0634ccd28f7b22037d6986621cb96922a9ff92106bb773e67446",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\state.go": "d7ac0ec8624b6234616f5defb7c51c03f2cfddb91d21bd6618b21bb2dde9205d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\state_test.go": "8e5135ef93bbb579e7e21500991b0c1c458422130b2a0f8141764bb88b723161",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\types.go": "e9a4d1d9f0951261f8c01e475ef8c9a700838fb026b88a8afa958224a52fbc1d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\検査と停止を記録する.py": "b771db72eb2d46d3fdf5b678b2d396e4272111b4eedefdc5f248ac52b0763ef1"
+  },
+  "自己コード前後不変": true,
+  "人工確認": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\検査\\人工確認.json",
+    "sha256": "15d4096f392ccd5fabf856d5e4a3ed49f77da58e3589f08677b2ffb71b1fca49",
+    "bytes": 4619
+  },
+  "主人工": 12,
+  "仕様": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\初回24条件の設計.md",
+    "sha256": "dcee522ddf28d2302a7a31292fd226c5e0023c8f981b5fc918a3587ef331e1fb",
+    "bytes": 5858
+  },
+  "実API": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\検査\\API.txt",
+    "sha256": "8edf347d768fe3396eb7f5e5cc4015fe7561d1b653ac44c27b5260f69fb8238b",
+    "bytes": 8225
+  },
+  "実宣言": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111全玉利益と収束BBの純保護\\検査\\宣言設定.json",
+    "sha256": "3b3651c0700d6ccbc7c7286397b88e56b7eb07ae5844f3594d817c40461dfd77",
+    "bytes": 2355
+  },
+  "派生設計元": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110利益保護の純状態\\停止.json",
+    "sha256": "4172d88abd3e7250228bc3f30c1457b83a95f589a925d264991d8650de70474c"
+  },
+  "旧コード変更": false,
+  "市場実行": false,
+  "Source実行": false,
+  "Actor実行": false,
+  "11月09日読取": false,
+  "未実施": [
+    "111 Actor/Sourceとの接続",
+    "全市場条件のRoot固定",
+    "初回2場・全70場の金融と独立保存",
+    "実注文"
+  ]
+}

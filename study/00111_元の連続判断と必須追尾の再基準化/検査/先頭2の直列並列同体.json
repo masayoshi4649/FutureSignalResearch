@@ -1,0 +1,27 @@
+{
+  "成功": true,
+  "試行": 111,
+  "金融条件差": 0,
+  "比較範囲": "直列と場別プロセスの先頭2Native gzip全bytes",
+  "直列完了": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111市場\\先頭2場\\完了.json",
+    "sha256": "47b12d953aacf7f22d8604c2d9715171c5265e745b4408cef6c5a27d7a36d871"
+  },
+  "並列完了": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111並列市場\\先頭2場\\完了.json",
+    "sha256": "acc6422b8a1ffe1428b08dc92ee7e6a6ac424a40fcd422f891d5425ddebb76d5"
+  },
+  "一致": [
+    {
+      "session": "2026-09-21_Day",
+      "sha256": "884124a2adf108ce72ab95c29bdf8389ab76b0534a428e7b54fe47d872ff2af4",
+      "all_bytes_equal": true
+    },
+    {
+      "session": "2026-09-21_Night",
+      "sha256": "d0a161256c1c1012503093edd4ca773b505170644fbb425f21d189aa3a818557",
+      "all_bytes_equal": true
+    }
+  ],
+  "市場再計算": false
+}
