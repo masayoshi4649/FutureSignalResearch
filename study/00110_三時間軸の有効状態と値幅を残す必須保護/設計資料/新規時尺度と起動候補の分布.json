@@ -1,0 +1,958 @@
+{
+  "版": 1,
+  "用途": "110金融前の起動尺度分布。候補選択のRoot合意前。損益・起動時刻・返済・参加・未参加/退出後価格は一切算出しない。",
+  "新規ATR不明の扱い": "本集計ではH未確定。実装案では旧native初回既知lock以後の現在値だけで起動判定し、過去到達を遡及しない。",
+  "式": {
+    "K": ".77+2S",
+    "Fmin": "ceil5(K+5)",
+    "H": "ceil5(max(20,2K,alpha*A,Fmin+B-K))",
+    "fullW": "B=ceil5(max(15,min(2A,2V)))。V不明はceil5(2A)。",
+    "oneV": "B=V_entry。V不明はceil5(max(5,A))という明示ATR代替案。",
+    "alpha": [
+      0.5,
+      1.0
+    ]
+  },
+  "対象": "既使用109 E0/G2の実新規。各費用を別々に数え、費用間を独立標本として合算しない。",
+  "場順": [
+    "2026-09-21_Day",
+    "2026-09-21_Night",
+    "2026-09-22_Day",
+    "2026-09-22_Night",
+    "2026-09-23_Day",
+    "2026-09-23_Night",
+    "2026-09-24_Day",
+    "2026-09-24_Night",
+    "2026-09-25_Day",
+    "2026-09-25_Night",
+    "2026-09-28_Day",
+    "2026-09-28_Night",
+    "2026-09-29_Day",
+    "2026-09-29_Night",
+    "2026-09-30_Day",
+    "2026-09-30_Night",
+    "2026-10-01_Day",
+    "2026-10-01_Night",
+    "2026-10-02_Day",
+    "2026-10-02_Night",
+    "2026-10-05_Day",
+    "2026-10-05_Night",
+    "2026-10-06_Day",
+    "2026-10-06_Night",
+    "2026-10-07_Day",
+    "2026-10-07_Night",
+    "2026-10-08_Day",
+    "2026-10-08_Night",
+    "2026-10-09_Day",
+    "2026-10-09_Night",
+    "2026-10-12_Day",
+    "2026-10-12_Night",
+    "2026-10-13_Day",
+    "2026-10-13_Night",
+    "2026-10-14_Day",
+    "2026-10-14_Night",
+    "2026-10-15_Day",
+    "2026-10-15_Night",
+    "2026-10-16_Day",
+    "2026-10-16_Night",
+    "2026-10-19_Day",
+    "2026-10-19_Night",
+    "2026-10-20_Day",
+    "2026-10-20_Night",
+    "2026-10-21_Day",
+    "2026-10-21_Night",
+    "2026-10-22_Day",
+    "2026-10-22_Night",
+    "2026-10-23_Day",
+    "2026-10-23_Night",
+    "2026-10-26_Day",
+    "2026-10-26_Night",
+    "2026-10-27_Day",
+    "2026-10-27_Night",
+    "2026-10-28_Day",
+    "2026-10-28_Night",
+    "2026-10-29_Day",
+    "2026-10-29_Night",
+    "2026-10-30_Day",
+    "2026-10-30_Night",
+    "2026-11-02_Day",
+    "2026-11-02_Night",
+    "2026-11-03_Day",
+    "2026-11-03_Night",
+    "2026-11-04_Day",
+    "2026-11-04_Night",
+    "2026-11-05_Day",
+    "2026-11-05_Night",
+    "2026-11-06_Day",
+    "2026-11-06_Night"
+  ],
+  "結果": {
+    "entry_E0_G2_C0_D0": {
+      "実新規玉数": 466,
+      "新規ATR不明": 0,
+      "新規V不明": 0,
+      "A": {
+        "n": 466,
+        "最小pt": 34.07561828724089,
+        "Q1pt": 87.78219166843297,
+        "中央値pt": 114.23796330045202,
+        "Q3pt": 155.37293275619285,
+        "最大pt": 551.57628440072
+      },
+      "V": {
+        "n": 466,
+        "最小pt": 10,
+        "Q1pt": 60.0,
+        "中央値pt": 80.0,
+        "Q3pt": 120.0,
+        "最大pt": 300
+      },
+      "旧H": {
+        "n": 466,
+        "最小pt": 20,
+        "Q1pt": 20.0,
+        "中央値pt": 20.0,
+        "Q3pt": 30.0,
+        "最大pt": 75
+      },
+      "比較": {
+        "fullW": {
+          "同体玉数": 417,
+          "比較可能玉数": 466,
+          "異なる玉数": 49,
+          "0.5": {
+            "H": {
+              "n": 466,
+              "最小pt": 30,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 466
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 466,
+              "ATR倍率": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 466,
+              "最小pt": 35,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 417,
+              "ATR倍率": 49
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 417,
+              "ATR倍率": 59
+            }
+          }
+        },
+        "oneV": {
+          "同体玉数": 96,
+          "比較可能玉数": 466,
+          "異なる玉数": 370,
+          "0.5": {
+            "H": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 70.0,
+              "中央値pt": 95.0,
+              "Q3pt": 130.0,
+              "最大pt": 310
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 80.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 434,
+              "ATR倍率": 31,
+              "固定20": 1
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 441,
+              "ATR倍率": 49,
+              "固定20": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 466,
+              "最小pt": 35,
+              "Q1pt": 90.0,
+              "中央値pt": 120.0,
+              "Q3pt": 163.75,
+              "最大pt": 555
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 80.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "ATR倍率": 373,
+              "費用床と余裕": 93
+            },
+            "丸め後同率成分_重複あり": {
+              "ATR倍率": 386,
+              "費用床と余裕": 96
+            }
+          }
+        }
+      }
+    },
+    "entry_E0_G2_C0_D1": {
+      "実新規玉数": 464,
+      "新規ATR不明": 0,
+      "新規V不明": 0,
+      "A": {
+        "n": 464,
+        "最小pt": 34.07561828724089,
+        "Q1pt": 87.78219166843297,
+        "中央値pt": 114.23796330045202,
+        "Q3pt": 155.63314627004843,
+        "最大pt": 551.57628440072
+      },
+      "V": {
+        "n": 464,
+        "最小pt": 10,
+        "Q1pt": 60.0,
+        "中央値pt": 85.0,
+        "Q3pt": 120.0,
+        "最大pt": 300
+      },
+      "旧H": {
+        "n": 464,
+        "最小pt": 20,
+        "Q1pt": 20.0,
+        "中央値pt": 22.5,
+        "Q3pt": 30.0,
+        "最大pt": 75
+      },
+      "比較": {
+        "fullW": {
+          "同体玉数": 416,
+          "比較可能玉数": 464,
+          "異なる玉数": 48,
+          "0.5": {
+            "H": {
+              "n": 464,
+              "最小pt": 30,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 464
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 464,
+              "ATR倍率": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 464,
+              "最小pt": 35,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 416,
+              "ATR倍率": 48
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 416,
+              "ATR倍率": 58
+            }
+          }
+        },
+        "oneV": {
+          "同体玉数": 96,
+          "比較可能玉数": 464,
+          "異なる玉数": 368,
+          "0.5": {
+            "H": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 70.0,
+              "中央値pt": 100.0,
+              "Q3pt": 130.0,
+              "最大pt": 310
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 85.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 432,
+              "ATR倍率": 31,
+              "固定20": 1
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 439,
+              "ATR倍率": 48,
+              "固定20": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 464,
+              "最小pt": 35,
+              "Q1pt": 90.0,
+              "中央値pt": 120.0,
+              "Q3pt": 165.0,
+              "最大pt": 555
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 85.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "ATR倍率": 371,
+              "費用床と余裕": 93
+            },
+            "丸め後同率成分_重複あり": {
+              "ATR倍率": 384,
+              "費用床と余裕": 96
+            }
+          }
+        }
+      }
+    },
+    "entry_E0_G2_C5_D0": {
+      "実新規玉数": 466,
+      "新規ATR不明": 0,
+      "新規V不明": 0,
+      "A": {
+        "n": 466,
+        "最小pt": 34.07561828724089,
+        "Q1pt": 87.78219166843297,
+        "中央値pt": 114.23796330045202,
+        "Q3pt": 155.37293275619285,
+        "最大pt": 551.57628440072
+      },
+      "V": {
+        "n": 466,
+        "最小pt": 10,
+        "Q1pt": 60.0,
+        "中央値pt": 80.0,
+        "Q3pt": 120.0,
+        "最大pt": 300
+      },
+      "旧H": {
+        "n": 466,
+        "最小pt": 25,
+        "Q1pt": 25.0,
+        "中央値pt": 25.0,
+        "Q3pt": 30.0,
+        "最大pt": 75
+      },
+      "比較": {
+        "fullW": {
+          "同体玉数": 417,
+          "比較可能玉数": 466,
+          "異なる玉数": 49,
+          "0.5": {
+            "H": {
+              "n": 466,
+              "最小pt": 30,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 466
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 466,
+              "ATR倍率": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 466,
+              "最小pt": 35,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 417,
+              "ATR倍率": 49
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 417,
+              "ATR倍率": 59
+            }
+          }
+        },
+        "oneV": {
+          "同体玉数": 96,
+          "比較可能玉数": 466,
+          "異なる玉数": 370,
+          "0.5": {
+            "H": {
+              "n": 466,
+              "最小pt": 25,
+              "Q1pt": 70.0,
+              "中央値pt": 95.0,
+              "Q3pt": 130.0,
+              "最大pt": 310
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 80.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 434,
+              "ATR倍率": 31,
+              "費用2K": 1
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 440,
+              "ATR倍率": 48,
+              "費用2K": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 466,
+              "最小pt": 35,
+              "Q1pt": 90.0,
+              "中央値pt": 120.0,
+              "Q3pt": 163.75,
+              "最大pt": 555
+            },
+            "W_entry": {
+              "n": 466,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 466,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 80.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "ATR倍率": 373,
+              "費用床と余裕": 93
+            },
+            "丸め後同率成分_重複あり": {
+              "ATR倍率": 386,
+              "費用床と余裕": 96
+            }
+          }
+        }
+      }
+    },
+    "entry_E0_G2_C5_D1": {
+      "実新規玉数": 464,
+      "新規ATR不明": 0,
+      "新規V不明": 0,
+      "A": {
+        "n": 464,
+        "最小pt": 34.07561828724089,
+        "Q1pt": 87.78219166843297,
+        "中央値pt": 114.23796330045202,
+        "Q3pt": 155.63314627004843,
+        "最大pt": 551.57628440072
+      },
+      "V": {
+        "n": 464,
+        "最小pt": 10,
+        "Q1pt": 60.0,
+        "中央値pt": 85.0,
+        "Q3pt": 120.0,
+        "最大pt": 300
+      },
+      "旧H": {
+        "n": 464,
+        "最小pt": 25,
+        "Q1pt": 25.0,
+        "中央値pt": 25.0,
+        "Q3pt": 30.0,
+        "最大pt": 75
+      },
+      "比較": {
+        "fullW": {
+          "同体玉数": 416,
+          "比較可能玉数": 464,
+          "異なる玉数": 48,
+          "0.5": {
+            "H": {
+              "n": 464,
+              "最小pt": 30,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 464
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 464,
+              "ATR倍率": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 464,
+              "最小pt": 35,
+              "Q1pt": 130.0,
+              "中央値pt": 170.0,
+              "Q3pt": 230.0,
+              "最大pt": 610
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 416,
+              "ATR倍率": 48
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 416,
+              "ATR倍率": 58
+            }
+          }
+        },
+        "oneV": {
+          "同体玉数": 96,
+          "比較可能玉数": 464,
+          "異なる玉数": 368,
+          "0.5": {
+            "H": {
+              "n": 464,
+              "最小pt": 25,
+              "Q1pt": 70.0,
+              "中央値pt": 100.0,
+              "Q3pt": 130.0,
+              "最大pt": 310
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 85.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "費用床と余裕": 432,
+              "ATR倍率": 31,
+              "費用2K": 1
+            },
+            "丸め後同率成分_重複あり": {
+              "費用床と余裕": 438,
+              "ATR倍率": 47,
+              "費用2K": 1
+            }
+          },
+          "1.0": {
+            "H": {
+              "n": 464,
+              "最小pt": 35,
+              "Q1pt": 90.0,
+              "中央値pt": 120.0,
+              "Q3pt": 165.0,
+              "最大pt": 555
+            },
+            "W_entry": {
+              "n": 464,
+              "最小pt": 20,
+              "Q1pt": 120.0,
+              "中央値pt": 160.0,
+              "Q3pt": 220.0,
+              "最大pt": 600
+            },
+            "要求余裕B": {
+              "n": 464,
+              "最小pt": 10,
+              "Q1pt": 60.0,
+              "中央値pt": 85.0,
+              "Q3pt": 120.0,
+              "最大pt": 300
+            },
+            "丸め前の支配成分_同率重複あり": {
+              "ATR倍率": 371,
+              "費用床と余裕": 93
+            },
+            "丸め後同率成分_重複あり": {
+              "ATR倍率": 384,
+              "費用床と余裕": 96
+            }
+          }
+        }
+      }
+    }
+  },
+  "損益参照による選択": false,
+  "新金融実行": false,
+  "Raw読取": false,
+  "CSV読取": false,
+  "SourceRecord読取": false,
+  "未使用11月09日読取": false,
+  "入力SHA256前": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物\\結果.json": "9f413d384b7831f60e0a2a743c3f3017a16d466592c7438e8aca956cd1a54804",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110利益保護の設計\\起動尺度だけを数える.py": "1a43d64eed79a8e0c479f44cbbcad65dc3591b8c830e72f21c2c3a44fba71f27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-21_Day.Native.json.gz": "18a1d0245993ae9f87d9600c39d08c81d8e420cb1fece3daf4e3f61f839ca4c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-21_Night.Native.json.gz": "d0f29bfdc58a1a7812b905897d625872ef6653961c162a04620adc36b1d181e5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-22_Day.Native.json.gz": "49882f6e655d902760220429c6422b5496c0d5eb49a010fae25302f0689f1410",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-22_Night.Native.json.gz": "634a991b0f700a0c89bd0d34dfe4b9627fe95be26ca2d8be55337d1b2f1366c2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-23_Day.Native.json.gz": "a90009b7e7d3b903151f36440a4f67a46dc6f0e662b411f79ca5d30602b060e3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-23_Night.Native.json.gz": "6f0787280347bda4595496c6747dabd2bb6770fc1ff6e343865a7ce48d337e22",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-24_Day.Native.json.gz": "25463915904323be9f95f8b6c71ca069a533a0e3f7a0346a7e6230f0911fd55f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-24_Night.Native.json.gz": "e78e680c405e914a979c3a00212f3e8ac5a621d2723bd63b5840a21088b6ab9e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-25_Day.Native.json.gz": "14ac7c6207321fa1be8c41e2ae7fd1014c51288f41b030c9356a6298571f4a9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-25_Night.Native.json.gz": "f6ad095a796fc2cf5cafc72b7cd5c1e8b7cd8cbe7fa0e31c6c188830de7d3242",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-28_Day.Native.json.gz": "bd4500fddbdb12a2ecd29d809016fb00f0f8158f4200d02478eabbc457997ccb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-28_Night.Native.json.gz": "9df2ceed0990df853aafad0b8bf8155d865c2718b49aad9f7d265713b8050a1f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-29_Day.Native.json.gz": "a097a434489e0c45457da98a9a5c017e9e711f040937ad0f7f237a4c84c828ea",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-29_Night.Native.json.gz": "8da0189f9158bb6a79b965ee93b34ad847708b85d8e1e4f8a7862cebcb7fac5f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-30_Day.Native.json.gz": "cb651c72ed1aeafb3d55dfc58bf341d6836add6ae2cbfd04d2e5d733ebea1b01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-30_Night.Native.json.gz": "d8055b47b615f4b1423f6868f73188a83ae5c300645c253f3f92464f0c95b5f6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-01_Day.Native.json.gz": "3aa97ad2ea17e92f3bc79bf166441b9f8fcabbd955fe63fb12738b29728723c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-01_Night.Native.json.gz": "803735859bc02a1a8148c625fa2d02be67ee293a7ee7eaae4e61e922105b775b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-02_Day.Native.json.gz": "bf52d7a52ca605af49e8cd99ea6524e22369a14ef5592685a47ddf53713a2ac1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-02_Night.Native.json.gz": "7bc4e04639a6f66c6816a60ebe20c7e2e7c4de17c053a15f550e96e5393420a4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-05_Day.Native.json.gz": "3b8d39d91d857d3870d9180c5f7a5a3dcc079dffc192c6e51ad75bbf7dd804cd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-05_Night.Native.json.gz": "f5c5548abcf30920b90ec61f75d1f3e85cc2efbc7f9f3d6ba1e701998ac2b868",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-06_Day.Native.json.gz": "43222038f94e8a8131f63512fc8a0fb403b3ab1b7564c2e15ad3b4a12e2f63a6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-06_Night.Native.json.gz": "230f7a2795b4910ba6aacf078d863456cbcb0fac52e45adeccf8b1267300ff07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-07_Day.Native.json.gz": "e909b026de9910a4a0e3f581f852d5e102208031a352547c2936200a6d4786a5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-07_Night.Native.json.gz": "595e8df5972fdb138709b0fc4d59f5f1adafeb3de46a0d2111befac2fa394b22",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-08_Day.Native.json.gz": "3fa2b511b0a6423bade5e63b34a2de94646207e1fa3903b7dd9c049b9853e0f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-08_Night.Native.json.gz": "105be9b28ffcc08c9dea32c888b85724aeb07eb208216ff6f4f484415cc77207",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-09_Day.Native.json.gz": "7a5e915fa9375749a1bebb43b9d588c4f846e9688e53cae0186e60dcb9b7377b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-09_Night.Native.json.gz": "85a503bbcc16a4ed53b6c39e245f93d3912d371364442e6cc4ba4c97a06f4497",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-12_Day.Native.json.gz": "7b7bb7c1d27253460e2c8931e217a141d309b183a0585a9e3924c7b96fb94986",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-12_Night.Native.json.gz": "e3809fbe322b10821b0c920801275f9a6855966dd940d967888d59b50f110a36",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-13_Day.Native.json.gz": "0ccfb0f2a58fb1b92f8dc9096b2ec9d371a53ffede57380a920421fcf68d31c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-13_Night.Native.json.gz": "570071e7b547d89a8514ab91dceffcc2e7a27eedb25762660f28ca410767709c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-14_Day.Native.json.gz": "2bb1008e38f4397f010c14ffdf35f3b3400e8d6a9228ec443b422b98979bab2e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-14_Night.Native.json.gz": "92160854fb2468d3fcb0dede9d60c8197d99ebcb8d410e38cc86da06e5b9f7f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-15_Day.Native.json.gz": "aac9df37b945662e1dfeff561076b8b1cc3e986cf74d10204583daf96ded7271",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-15_Night.Native.json.gz": "c285ffffddf3e29333f72dfa1b57c62707c74e5bc7cd50e4457c6187a3d1db91",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-16_Day.Native.json.gz": "1ff53cbcd49964ab4bce7591b3f22fd15bb41a4477e54144c765057f99c51e10",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-16_Night.Native.json.gz": "3a889c54471c57b0e60c06d50810a9806e5a71b08144011ab418cbb239901330",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-19_Day.Native.json.gz": "501587a63d012e6c4c57acfd0fee2b8b04da025f94c6acfe407fa43ab8933b75",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-19_Night.Native.json.gz": "ebacda05524f4db4e5a2a9cc21eb0abb515c4525f9e2a32f38ad07c3dd239ebc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-20_Day.Native.json.gz": "3010ddff41ed93812b46bb47b5c0ab6ab93d8e5055bc16b62f0caf6718beda5f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-20_Night.Native.json.gz": "9ca00ddd8e4298f7bc61b11ea63442a3fe761b1cac9c914f9b55ed2efa2a8003",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-21_Day.Native.json.gz": "39298bae1de0019b6115ff40bccf08ad35a3ee44698eebd631e70a44bf75c5cc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-21_Night.Native.json.gz": "194f99cac6eb40d0c285aca68bab2b40e77ce01ec9163934e0a79888c3a2c5b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-22_Day.Native.json.gz": "941801dfeb82c8ddfe23fdfbedf93b3c5bef7250db2fe9247b0efb76b8e4f91e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-22_Night.Native.json.gz": "52afd2c4fea51870cfe097a367bb87d8c230d7ea9569483db0bfe84ace8578a3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-23_Day.Native.json.gz": "6efe78e2cd75db37385ab7e37d258abeca0ded5b9c6752f5e912adcd50e2b895",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-23_Night.Native.json.gz": "1e5b5aa01b03982e1cb686a0f449ee130b3fdfe7c3c3d1c3c1771d8b6a7b9b27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-26_Day.Native.json.gz": "79a2d41019960e395382fd3a1b4b77eec3ba510c1621466a663db3fff42a04b7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-26_Night.Native.json.gz": "be288da5a5f59a0982a0dce7d6d1292ea9444a81cf19bd7ed8425a9663af6a5e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-27_Day.Native.json.gz": "619b503d51ef35393f0df81c0d903079ecdbdaaee31ebf73799c1cfe47da09b8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-27_Night.Native.json.gz": "4fc5064660aecb840637bd961cf775f19f75ec33beaac6129b06bbe51999965b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-28_Day.Native.json.gz": "388cbd0ee90db8ecccb944e48badfcf79b717d11e183223b94a4bf2708a3d7df",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-28_Night.Native.json.gz": "9c2d9997bed320851c31770a8acf9547420b0c480b281f5af5255a54e2ce3420",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-29_Day.Native.json.gz": "337cd19f66e42fdde94866faf50756ae4a01304c03efd217e359612114a03db6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-29_Night.Native.json.gz": "4bc7c64c004db352d6684ceb9b4d28fc2d6737823683693ba83481a98a719c46",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-30_Day.Native.json.gz": "ba2616be83b6d7c49b822c30c69ea950d43854d562c62e880cf92d39ea582728",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-30_Night.Native.json.gz": "e2ec05712019b328614a1ca7f37159b8860102985222b581b394b654f9f24b0c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-02_Day.Native.json.gz": "2d0f53a78dc54afef00a0cad84de2008760f8a49cffe6f716073ecd4b648e13d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-02_Night.Native.json.gz": "a7f77487e3eee34036f533a7dc54a0f905ccee4d94b860e59fadeec1ff0c32b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-03_Day.Native.json.gz": "751a392299294f9258625d52ddcc22ba1ad0ff43ce37e38321fe15255e9b6d3a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-03_Night.Native.json.gz": "091ef791d59b586b207bdddefb17a4313d862769ca11aba2f71c7126afe78423",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-04_Day.Native.json.gz": "458977cfaad1e999250110f96aad02be9a6066015d2263f389e8a9487970f3a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-04_Night.Native.json.gz": "df124a6b94855a4d4cf48f0362bbaa9d01e97d3253d8fbd18bc7f770e1b4aaaf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-05_Day.Native.json.gz": "043ca42294862a1cb5a52172b9bdb634501c91c69e5bab8b32b007968a53eb84",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-05_Night.Native.json.gz": "9211557fbd014ec44956fb93eda228bb3de51afd7448dbb5ba90527cfd478acb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-06_Day.Native.json.gz": "13d4bc653821fe9519785fa175c6044dd17ba697fac6c424391bd2e7f83d6df7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-06_Night.Native.json.gz": "9305347c8f141466bf4db1768fbc6da35bd0f446edb299b057ecb2fc968f6447"
+  },
+  "入力SHA256後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物\\結果.json": "9f413d384b7831f60e0a2a743c3f3017a16d466592c7438e8aca956cd1a54804",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110利益保護の設計\\起動尺度だけを数える.py": "1a43d64eed79a8e0c479f44cbbcad65dc3591b8c830e72f21c2c3a44fba71f27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-21_Day.Native.json.gz": "18a1d0245993ae9f87d9600c39d08c81d8e420cb1fece3daf4e3f61f839ca4c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-21_Night.Native.json.gz": "d0f29bfdc58a1a7812b905897d625872ef6653961c162a04620adc36b1d181e5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-22_Day.Native.json.gz": "49882f6e655d902760220429c6422b5496c0d5eb49a010fae25302f0689f1410",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-22_Night.Native.json.gz": "634a991b0f700a0c89bd0d34dfe4b9627fe95be26ca2d8be55337d1b2f1366c2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-23_Day.Native.json.gz": "a90009b7e7d3b903151f36440a4f67a46dc6f0e662b411f79ca5d30602b060e3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-23_Night.Native.json.gz": "6f0787280347bda4595496c6747dabd2bb6770fc1ff6e343865a7ce48d337e22",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-24_Day.Native.json.gz": "25463915904323be9f95f8b6c71ca069a533a0e3f7a0346a7e6230f0911fd55f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-24_Night.Native.json.gz": "e78e680c405e914a979c3a00212f3e8ac5a621d2723bd63b5840a21088b6ab9e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-25_Day.Native.json.gz": "14ac7c6207321fa1be8c41e2ae7fd1014c51288f41b030c9356a6298571f4a9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-25_Night.Native.json.gz": "f6ad095a796fc2cf5cafc72b7cd5c1e8b7cd8cbe7fa0e31c6c188830de7d3242",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-28_Day.Native.json.gz": "bd4500fddbdb12a2ecd29d809016fb00f0f8158f4200d02478eabbc457997ccb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-28_Night.Native.json.gz": "9df2ceed0990df853aafad0b8bf8155d865c2718b49aad9f7d265713b8050a1f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-29_Day.Native.json.gz": "a097a434489e0c45457da98a9a5c017e9e711f040937ad0f7f237a4c84c828ea",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-29_Night.Native.json.gz": "8da0189f9158bb6a79b965ee93b34ad847708b85d8e1e4f8a7862cebcb7fac5f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-30_Day.Native.json.gz": "cb651c72ed1aeafb3d55dfc58bf341d6836add6ae2cbfd04d2e5d733ebea1b01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-09-30_Night.Native.json.gz": "d8055b47b615f4b1423f6868f73188a83ae5c300645c253f3f92464f0c95b5f6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-01_Day.Native.json.gz": "3aa97ad2ea17e92f3bc79bf166441b9f8fcabbd955fe63fb12738b29728723c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-01_Night.Native.json.gz": "803735859bc02a1a8148c625fa2d02be67ee293a7ee7eaae4e61e922105b775b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-02_Day.Native.json.gz": "bf52d7a52ca605af49e8cd99ea6524e22369a14ef5592685a47ddf53713a2ac1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-02_Night.Native.json.gz": "7bc4e04639a6f66c6816a60ebe20c7e2e7c4de17c053a15f550e96e5393420a4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-05_Day.Native.json.gz": "3b8d39d91d857d3870d9180c5f7a5a3dcc079dffc192c6e51ad75bbf7dd804cd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-05_Night.Native.json.gz": "f5c5548abcf30920b90ec61f75d1f3e85cc2efbc7f9f3d6ba1e701998ac2b868",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-06_Day.Native.json.gz": "43222038f94e8a8131f63512fc8a0fb403b3ab1b7564c2e15ad3b4a12e2f63a6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-06_Night.Native.json.gz": "230f7a2795b4910ba6aacf078d863456cbcb0fac52e45adeccf8b1267300ff07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-07_Day.Native.json.gz": "e909b026de9910a4a0e3f581f852d5e102208031a352547c2936200a6d4786a5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-07_Night.Native.json.gz": "595e8df5972fdb138709b0fc4d59f5f1adafeb3de46a0d2111befac2fa394b22",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-08_Day.Native.json.gz": "3fa2b511b0a6423bade5e63b34a2de94646207e1fa3903b7dd9c049b9853e0f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-08_Night.Native.json.gz": "105be9b28ffcc08c9dea32c888b85724aeb07eb208216ff6f4f484415cc77207",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-09_Day.Native.json.gz": "7a5e915fa9375749a1bebb43b9d588c4f846e9688e53cae0186e60dcb9b7377b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-09_Night.Native.json.gz": "85a503bbcc16a4ed53b6c39e245f93d3912d371364442e6cc4ba4c97a06f4497",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-12_Day.Native.json.gz": "7b7bb7c1d27253460e2c8931e217a141d309b183a0585a9e3924c7b96fb94986",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-12_Night.Native.json.gz": "e3809fbe322b10821b0c920801275f9a6855966dd940d967888d59b50f110a36",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-13_Day.Native.json.gz": "0ccfb0f2a58fb1b92f8dc9096b2ec9d371a53ffede57380a920421fcf68d31c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-13_Night.Native.json.gz": "570071e7b547d89a8514ab91dceffcc2e7a27eedb25762660f28ca410767709c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-14_Day.Native.json.gz": "2bb1008e38f4397f010c14ffdf35f3b3400e8d6a9228ec443b422b98979bab2e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-14_Night.Native.json.gz": "92160854fb2468d3fcb0dede9d60c8197d99ebcb8d410e38cc86da06e5b9f7f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-15_Day.Native.json.gz": "aac9df37b945662e1dfeff561076b8b1cc3e986cf74d10204583daf96ded7271",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-15_Night.Native.json.gz": "c285ffffddf3e29333f72dfa1b57c62707c74e5bc7cd50e4457c6187a3d1db91",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-16_Day.Native.json.gz": "1ff53cbcd49964ab4bce7591b3f22fd15bb41a4477e54144c765057f99c51e10",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-16_Night.Native.json.gz": "3a889c54471c57b0e60c06d50810a9806e5a71b08144011ab418cbb239901330",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-19_Day.Native.json.gz": "501587a63d012e6c4c57acfd0fee2b8b04da025f94c6acfe407fa43ab8933b75",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-19_Night.Native.json.gz": "ebacda05524f4db4e5a2a9cc21eb0abb515c4525f9e2a32f38ad07c3dd239ebc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-20_Day.Native.json.gz": "3010ddff41ed93812b46bb47b5c0ab6ab93d8e5055bc16b62f0caf6718beda5f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-20_Night.Native.json.gz": "9ca00ddd8e4298f7bc61b11ea63442a3fe761b1cac9c914f9b55ed2efa2a8003",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-21_Day.Native.json.gz": "39298bae1de0019b6115ff40bccf08ad35a3ee44698eebd631e70a44bf75c5cc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-21_Night.Native.json.gz": "194f99cac6eb40d0c285aca68bab2b40e77ce01ec9163934e0a79888c3a2c5b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-22_Day.Native.json.gz": "941801dfeb82c8ddfe23fdfbedf93b3c5bef7250db2fe9247b0efb76b8e4f91e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-22_Night.Native.json.gz": "52afd2c4fea51870cfe097a367bb87d8c230d7ea9569483db0bfe84ace8578a3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-23_Day.Native.json.gz": "6efe78e2cd75db37385ab7e37d258abeca0ded5b9c6752f5e912adcd50e2b895",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-23_Night.Native.json.gz": "1e5b5aa01b03982e1cb686a0f449ee130b3fdfe7c3c3d1c3c1771d8b6a7b9b27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-26_Day.Native.json.gz": "79a2d41019960e395382fd3a1b4b77eec3ba510c1621466a663db3fff42a04b7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-26_Night.Native.json.gz": "be288da5a5f59a0982a0dce7d6d1292ea9444a81cf19bd7ed8425a9663af6a5e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-27_Day.Native.json.gz": "619b503d51ef35393f0df81c0d903079ecdbdaaee31ebf73799c1cfe47da09b8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-27_Night.Native.json.gz": "4fc5064660aecb840637bd961cf775f19f75ec33beaac6129b06bbe51999965b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-28_Day.Native.json.gz": "388cbd0ee90db8ecccb944e48badfcf79b717d11e183223b94a4bf2708a3d7df",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-28_Night.Native.json.gz": "9c2d9997bed320851c31770a8acf9547420b0c480b281f5af5255a54e2ce3420",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-29_Day.Native.json.gz": "337cd19f66e42fdde94866faf50756ae4a01304c03efd217e359612114a03db6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-29_Night.Native.json.gz": "4bc7c64c004db352d6684ceb9b4d28fc2d6737823683693ba83481a98a719c46",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-30_Day.Native.json.gz": "ba2616be83b6d7c49b822c30c69ea950d43854d562c62e880cf92d39ea582728",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-10-30_Night.Native.json.gz": "e2ec05712019b328614a1ca7f37159b8860102985222b581b394b654f9f24b0c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-02_Day.Native.json.gz": "2d0f53a78dc54afef00a0cad84de2008760f8a49cffe6f716073ecd4b648e13d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-02_Night.Native.json.gz": "a7f77487e3eee34036f533a7dc54a0f905ccee4d94b860e59fadeec1ff0c32b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-03_Day.Native.json.gz": "751a392299294f9258625d52ddcc22ba1ad0ff43ce37e38321fe15255e9b6d3a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-03_Night.Native.json.gz": "091ef791d59b586b207bdddefb17a4313d862769ca11aba2f71c7126afe78423",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-04_Day.Native.json.gz": "458977cfaad1e999250110f96aad02be9a6066015d2263f389e8a9487970f3a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-04_Night.Native.json.gz": "df124a6b94855a4d4cf48f0362bbaa9d01e97d3253d8fbd18bc7f770e1b4aaaf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-05_Day.Native.json.gz": "043ca42294862a1cb5a52172b9bdb634501c91c69e5bab8b32b007968a53eb84",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-05_Night.Native.json.gz": "9211557fbd014ec44956fb93eda228bb3de51afd7448dbb5ba90527cfd478acb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-06_Day.Native.json.gz": "13d4bc653821fe9519785fa175c6044dd17ba697fac6c424391bd2e7f83d6df7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\成果物_金融\\Native\\2026-11-06_Night.Native.json.gz": "9305347c8f141466bf4db1768fbc6da35bd0f446edb299b057ecb2fc968f6447"
+  },
+  "前後不変": true
+}

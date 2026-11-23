@@ -1,0 +1,207 @@
+{
+  "Error": "",
+  "Results": [
+    {
+      "Session": "2026-10-22_Night",
+      "Method": "NK225_P164_06",
+      "Cap": 100,
+      "Events": null,
+      "Gross": 0,
+      "Pending": 0,
+      "Held": 0,
+      "ExpectedGross": 0,
+      "Differences": null,
+      "Error": ""
+    },
+    {
+      "Session": "2026-10-22_Night",
+      "Method": "NK225_U165_03",
+      "Cap": 100,
+      "Events": [
+        {
+          "DecisionIndex": 102099,
+          "FillIndex": 102100,
+          "Time": 1792677868,
+          "Price": 63460,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 10
+        },
+        {
+          "DecisionIndex": 102765,
+          "FillIndex": 102766,
+          "Time": 1792677962,
+          "Price": 63380,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 10
+        },
+        {
+          "DecisionIndex": 107000,
+          "FillIndex": 107001,
+          "Time": 1792678569,
+          "Price": 63250,
+          "Gross": 13000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 10
+        },
+        {
+          "DecisionIndex": 110127,
+          "FillIndex": 110128,
+          "Time": 1792679044,
+          "Price": 63150,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 50
+        },
+        {
+          "DecisionIndex": 116768,
+          "FillIndex": 116769,
+          "Time": 1792680011,
+          "Price": 62940,
+          "Gross": 84000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 40
+        },
+        {
+          "DecisionIndex": 124873,
+          "FillIndex": 124874,
+          "Time": 1792681148,
+          "Price": 62990,
+          "Gross": 16000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 10
+        },
+        {
+          "DecisionIndex": 148351,
+          "FillIndex": 148352,
+          "Time": 1792684836,
+          "Price": 63030,
+          "Gross": 43000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 10
+        }
+      ],
+      "Gross": 156000,
+      "Pending": 0,
+      "Held": 0,
+      "ExpectedGross": 0,
+      "Differences": null,
+      "Error": ""
+    }
+  ],
+  "mini_results": [
+    {
+      "Session": "2026-10-22_Night",
+      "Method": "NK225_P164_06",
+      "Cap": 10,
+      "Events": null,
+      "Gross": 0,
+      "Pending": 0,
+      "Held": 0,
+      "ExpectedGross": 0,
+      "Differences": null,
+      "Error": ""
+    },
+    {
+      "Session": "2026-10-22_Night",
+      "Method": "NK225_U165_03",
+      "Cap": 10,
+      "Events": [
+        {
+          "DecisionIndex": 102099,
+          "FillIndex": 102100,
+          "Time": 1792677868,
+          "Price": 63460,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 1
+        },
+        {
+          "DecisionIndex": 102765,
+          "FillIndex": 102766,
+          "Time": 1792677962,
+          "Price": 63380,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 1
+        },
+        {
+          "DecisionIndex": 107000,
+          "FillIndex": 107001,
+          "Time": 1792678569,
+          "Price": 63250,
+          "Gross": 13000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 1
+        },
+        {
+          "DecisionIndex": 110127,
+          "FillIndex": 110128,
+          "Time": 1792679044,
+          "Price": 63150,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 5
+        },
+        {
+          "DecisionIndex": 116768,
+          "FillIndex": 116769,
+          "Time": 1792680011,
+          "Price": 62940,
+          "Gross": 84000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 4
+        },
+        {
+          "DecisionIndex": 124873,
+          "FillIndex": 124874,
+          "Time": 1792681148,
+          "Price": 62990,
+          "Gross": 16000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 1
+        },
+        {
+          "DecisionIndex": 148351,
+          "FillIndex": 148352,
+          "Time": 1792684836,
+          "Price": 63030,
+          "Gross": 43000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 1
+        }
+      ],
+      "Gross": 156000,
+      "Pending": 0,
+      "Held": 0,
+      "ExpectedGross": 0,
+      "Differences": null,
+      "Error": ""
+    }
+  ],
+  "origin": {
+    "FAR_commit": "cf0717daa1eed78759f78a428bce50129e7f705b",
+    "historical_saved_events": false,
+    "input_git_blob_sha": "784579f65444f1377d41354aa4458783a3d2bcf1",
+    "kind": "rerun_original166_pinned_code",
+    "main_git_blob_sha": "6d8f1a63c94006e6cf7e80c9e988f06d995e2acb",
+    "run_body_unchanged": true,
+    "strategy_commit": "67ba01588a60961ce2fb505ee5654999473dedab"
+  },
+  "scope": "固定原文runを現在の固定純戦略と既使用入力で再実行した対照。当時保存Event同体は未証明。importとgzip読取I/Oだけ適応"
+}

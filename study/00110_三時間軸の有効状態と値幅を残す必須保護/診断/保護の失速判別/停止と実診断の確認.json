@@ -1,0 +1,67 @@
+{
+  "試行": 110,
+  "成功": true,
+  "停止": true,
+  "所有コードと説明SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\検査と証拠を固定する.py": "ace9dac8548ed2770ba025a4ada822d5f7ea5dc86753bced5750a815c1511c64",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\診断する.py": "9688e1bf3a511876118dbd87c773f273f719c181e71cc11c2aabb915e4fb9785",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\診断の人工検査.py": "93adc6dab8461c1960ba8446233a072ccb924425a808414b74c11211cbec5428",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\README.md": "3d6e5d4832c35d682a2eb9c3ab3322d3e712a84b2bc79d4da2b17e93f3323ca3"
+  },
+  "関数コメント確認数": 24,
+  "自己コード前後不変": true,
+  "人工主検査": 5,
+  "人工終了コード": 0,
+  "人工出力": "test_Source退出後通知を除き実要求と約定差を残す (__main__.診断検査.test_Source退出後通知を除き実要求と約定差を残す)\n実玉生存中の通知だけを選び、要求後の不利な実fillを隠さない。 ... ok\ntest_三値の警戒を維持する (__main__.診断検査.test_三値の警戒を維持する)\n未知を偽へ置き換えず偽ANDと真ORの確定だけを許す。 ... ok\ntest_同秒の最終約定後通知を除く (__main__.診断検査.test_同秒の最終約定後通知を除く)\n秒が同じでも原行index又は段階が後なら生存中通知に入れない。 ... ok\ntest_床等値と過去由来の不明を分ける (__main__.診断検査.test_床等値と過去由来の不明を分ける)\n起動・実床更新の出典がなければ現候補を過去の原因としない。 ... ok\ntest_経過と実現差を保存条件へ結合する (__main__.診断検査.test_経過と実現差を保存条件へ結合する)\n警戒・床・実現差の関連を手製経過で確認し未保存tickを要求しない。 ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK\n",
+  "確定診断": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\診断_確定.json",
+    "sha256": "4cd3d61e33a5d584ec5b17920a4d337e969332ca2a8688d5edce958dc89c462f",
+    "bytes": 322974
+  },
+  "元Ref": {
+    "同入口解析": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110出口の同入口比較_準備\\全70の解析.json",
+      "sha256": "399a1c5f8ab2fe4df4a5bf9776342e3adcc032c437b03fd980a90c2befb59dc3"
+    },
+    "金融完了": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110市場\\全70場_中断後の同条件再実行\\完了.json",
+      "sha256": "bf95d74bc04953643606884c432c41ff14854792aee642bb15a75effd66f1539"
+    },
+    "独立保存": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保存\\全70場_中断後の同条件再実行\\結果.json",
+      "sha256": "b748f75b9bea0e43a404b4ff52530cf7ea68d1ce30e59f7c8559a31df2dff10b"
+    }
+  },
+  "過程の履歴": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\診断.json",
+      "sha256": "9bd8475e332db5b7fc43fa10c011440d5016356aff4384a0c081dfb0e7a4b8a3",
+      "実額と旧診断列の同体": true,
+      "履歴コード": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\履歴\\診断する_同時点を未結合.py",
+        "sha256": "c8234e7fc2031dbb91e001603d55f380bea883c146f45d8b0b4fe6d57d55ed63"
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\診断_同時点を併記.json",
+      "sha256": "255f48ac551d88fb80ea637ed7fac13eaf4c62245e343779af691b553e556ef5",
+      "実額と旧診断列の同体": true,
+      "履歴コード": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\110保護の失速判別の診断\\履歴\\診断する_同時点を併記.py",
+        "sha256": "5f1f21df0881bf3574760e4c7b221c709738b92be89ddaefede264a2d539be9f"
+      }
+    }
+  ],
+  "修正": "同保存点のラベルを文字順で前後へ分けず＋併記した。条件別の両勝減益額と起動時W区分も追加。旧実現額・玉数・床等の全数値は同体",
+  "正式保存に必要な結果": [
+    "診断_確定.json",
+    "README.md",
+    "停止と実診断の確認.json"
+  ],
+  "途中履歴の正式重複保存": false,
+  "金融条件又は算法の変更": false,
+  "市場金融再実行": false,
+  "全tick又は指標再形成": false,
+  "検査器でのNative本文再読": false,
+  "11月09日読取": false
+}

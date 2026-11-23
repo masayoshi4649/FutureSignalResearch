@@ -1,0 +1,93 @@
+{
+  "Error": "",
+  "Results": [
+    {
+      "Session": "2026-09-23_Day",
+      "Method": "NK225_D164_15",
+      "Cap": 100,
+      "Events": [
+        {
+          "DecisionIndex": 12558,
+          "FillIndex": 12559,
+          "Time": 1790124789,
+          "Price": 66710,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 10
+        },
+        {
+          "DecisionIndex": 26236,
+          "FillIndex": 26237,
+          "Time": 1790129917,
+          "Price": 66580,
+          "Gross": 5200,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 4
+        },
+        {
+          "DecisionIndex": 35210,
+          "FillIndex": 35211,
+          "Time": 1790134717,
+          "Price": 66630,
+          "Gross": 4800,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 6
+        }
+      ],
+      "Gross": 10000,
+      "Pending": 0,
+      "Held": 0,
+      "ExpectedGross": 0,
+      "Differences": null,
+      "Error": ""
+    }
+  ],
+  "mini_results": [
+    {
+      "Session": "2026-09-23_Day",
+      "Method": "NK225_D164_15",
+      "Cap": 10,
+      "Events": [
+        {
+          "DecisionIndex": 12558,
+          "FillIndex": 12559,
+          "Time": 1790124789,
+          "Price": 66710,
+          "Gross": 0,
+          "Action": "new",
+          "Side": -1,
+          "Quantity": 1
+        },
+        {
+          "DecisionIndex": 35210,
+          "FillIndex": 35211,
+          "Time": 1790134717,
+          "Price": 66630,
+          "Gross": 8000,
+          "Action": "close",
+          "Side": 1,
+          "Quantity": 1
+        }
+      ],
+      "Gross": 8000,
+      "Pending": 0,
+      "Held": 0,
+      "ExpectedGross": 0,
+      "Differences": null,
+      "Error": ""
+    }
+  ],
+  "origin": {
+    "FAR_commit": "cf0717daa1eed78759f78a428bce50129e7f705b",
+    "historical_saved_events": false,
+    "input_git_blob_sha": "784579f65444f1377d41354aa4458783a3d2bcf1",
+    "kind": "rerun_original166_pinned_code",
+    "main_git_blob_sha": "6d8f1a63c94006e6cf7e80c9e988f06d995e2acb",
+    "run_body_unchanged": true,
+    "strategy_commit": "67ba01588a60961ce2fb505ee5654999473dedab"
+  },
+  "scope": "固定原文runを現在の固定純戦略と既使用入力で再実行した対照。当時保存Event同体は未証明。importとgzip読取I/Oだけ適応"
+}
