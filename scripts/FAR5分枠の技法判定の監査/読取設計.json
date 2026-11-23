@@ -1,0 +1,23 @@
+{
+  "状態": "元Go式と取込数量の読取設計。原板/Native数量の計数はまだ0",
+  "指紋": {
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\entry.go": "884e0d81868437219afb16a78ac046ddaf7da76d5c6fe4a2e0dfc97cef57aab6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\input.go": "c1f531eaf96294a6f4e2cc40130e6da02a44a3f6bc2e1b079093ed3ff3d8d597",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\replay.go": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec"
+  },
+  "範囲": {
+    "Day": "最良4数量でpair OFIを正規化し、strict過去30秒の累積差を有効pair数で平均。現在pair/2件/Bad履歴条件を保持。",
+    "Night": "最良価格/量だけでE08の8価格遷移/60秒窓。4成分は同価格だけの数量比をQuantityEventsで平均。commonDepth/hold判断は対象外。",
+    "入力": "9/21Day/Nightの原板4gzipと同2Native chart_grids.Currentの量/出典だけ。Actors/PnLは字句skip。",
+    "時点": "各gridは先行NK Native Last>0原行で凍結したCurrentを比較。grid時刻へ再計算しない。"
+  },
+  "明示対応": "Buy1.Price/Qty→Bid/BidQuantity、Sell1→Ask/AskQuantity。10段の型/欠測は取込確認、数値式は最良段だけ。",
+  "重要な源番号": "FeaturesIndexはLast>0のNK特徴更新0始まり。Current.SourceLineは物理行。Night.Band.Lineはfeatures.goがIndexを渡すためFeaturesIndex。",
+  "不明の扱い": "数量0/欠測/nullはGo入力の0と既知falseを区別して記録し、支持0を既知値へ補正しない。型破損/非有限はerror。元モデルではDayの量不明pairは加算しないため、その後窓全体を一律未知にはしない。",
+  "数値検査": "IEEE754順序で再計算し絶対/相対許容差を別記、strict符号>0は丸めず別照合。",
+  "限界": "追加/減少は見える気配量の変化。取消と約定、真受信時計や真の二市場到着順は復元しない。"
+}

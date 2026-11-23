@@ -1,0 +1,88 @@
+--- 停止元/envelope.go
++++ 正式/envelope.go
+@@ -18,8 +18,8 @@
+ 	prior98 "github.com/masayoshi4649/SessionTradeExecuter/riskport98"
+ )
+ 
+-// Fixed98CompletionSHA256 は正式化前の未設定値です。空の間は市場CLIを必ず拒否します。
+-const Fixed98CompletionSHA256 = ""
++// Fixed98CompletionSHA256 は正式98完了を固定し、異なる入力や未固定99条件を拒否します。
++const Fixed98CompletionSHA256 = "2ee9417d0cd1f8bef107712789d26e3f72c0f95a933e60b31bb3f11784ca0dfe"
+ 
+ // Envelope は99新入口の結果と固定98入力の由来を分けます。
+ type Envelope struct {
+--- 停止元/go.mod
++++ 正式/go.mod
+@@ -47,10 +47,10 @@
+ replace github.com/masayoshi4649/SessionTradeExecuter/minirisk98 => ../../scripts/FAR利益前ATR追尾
+ 
+ require github.com/masayoshi4649/SessionTradeExecuter/minientry99 v0.0.0
+-replace github.com/masayoshi4649/SessionTradeExecuter/minientry99 => ../99金融案
++replace github.com/masayoshi4649/SessionTradeExecuter/minientry99 => ../FAR背景と勢いと数量の入口
+ 
+ require github.com/masayoshi4649/SessionTradeExecuter/minie3 v0.0.0
+-replace github.com/masayoshi4649/SessionTradeExecuter/minie3 => ../99純技法案
++replace github.com/masayoshi4649/SessionTradeExecuter/minie3 => ../FAR背景と勢いと数量の純判定
+ 
+ require github.com/masayoshi4649/SessionTradeExecuter/riskport98 v0.0.0
+ replace github.com/masayoshi4649/SessionTradeExecuter/riskport98 => ../../scripts/FAR利益前ATR追尾の再生
+--- 停止元/replay_test.go
++++ 正式/replay_test.go
+@@ -309,23 +309,47 @@
+ 	}
+ }
+ 
+-// TestEmptyGateAndMarketBoundary99 は旧四対照と未固定市場の境界を拒否します。
++// TestEmptyGateAndMarketBoundary99 は正式98のmetadata結合と未固定99条件を検査します。
+ //
+ // 引数: t(*testing.T)は試験器です。
+-// 返り値: ありません。placeholderを成功条件で迂回しません。
++// 返り値: ありません。旧四対照は人工、実98は完了metadataだけ読みNativeを開きません。
+ func TestEmptyGateAndMarketBoundary99(t *testing.T) {
+-	if Fixed98CompletionSHA256 != "" {
+-		t.Fatal("市場前試作の固定98SHAは未設定である必要")
+-	}
+-	if _, err := Selected98Catalog("存在しない98証拠"); err == nil || !strings.Contains(err.Error(), "未固定") {
+-		t.Fatal("未設定SHAで市場を許可", err)
++	if Fixed98CompletionSHA256 != "2ee9417d0cd1f8bef107712789d26e3f72c0f95a933e60b31bb3f11784ca0dfe" {
++		t.Fatal("正式98完了SHA結合差")
++	}
++	proof98 := filepath.Join(root99(), "study", "00098_実建値からの利益前ATR追尾", "完了記録.json")
++	catalog, err := Selected98Catalog(proof98)
++	if err != nil || len(catalog) != 54 {
++		t.Fatal("正式98許可metadata", err)
++	}
++	temp := t.TempDir()
++	fakeProof := filepath.Join(temp, "不正98.json")
++	if err = os.WriteFile(fakeProof, []byte("{}"), 0644); err != nil {
++		t.Fatal(err)
++	}
++	if _, err = Selected98Catalog(fakeProof); err == nil {
++		t.Fatal("98異指紋を許可")
+ 	}
+ 	if RunBatch(BatchArguments{}) == nil {
+ 		t.Fatal("必須引数なしを許可")
+ 	}
+-	args := BatchArguments{Index: "未読index", Condition: "未固定99", Proof98: "未読98", Proof97: "未読97", Proof96: "未読96", Out: "生成禁止", Stage: "first2", Workers: 1}
+-	if err := RunBatch(args); err == nil || !strings.Contains(err.Error(), "未固定") {
+-		t.Fatal("市場試作が入力を先に開いた", err)
++	indexPath := filepath.Join(temp, "index.json")
++	idx := TapeIndex{Version: 1, Stage: "first2", Entries: []TapeEntry{{Session: "2026-09-21_Day", Path: "開くことが禁止のTapeDay", SHA256: strings.Repeat("a", 64)}, {Session: "2026-09-21_Night", Path: "開くことが禁止のTapeNight", SHA256: strings.Repeat("a", 64)}}}
++	indexBody, _ := json.Marshal(idx)
++	if err = os.WriteFile(indexPath, indexBody, 0644); err != nil {
++		t.Fatal(err)
++	}
++	conditionPath := filepath.Join(temp, "未固定99条件.json")
++	conditionBody, _ := json.Marshal(map[string]any{"試行": 99, "固定98完了SHA256": Fixed98CompletionSHA256, "固定97完了SHA256": "0d7111c41c4c25140be69fe8b06d0118496ddd6de3bc9ac7467ec2f01f6aef79", "固定96完了SHA256": "33deeae84c68de0ecce21023e95732db22a658c9a832cb456d446e221276d483", "市場損益を開く前の固定": false, "コードSHA256": map[string]string{}})
++	if err = os.WriteFile(conditionPath, conditionBody, 0644); err != nil {
++		t.Fatal(err)
++	}
++	args := BatchArguments{Index: indexPath, Condition: conditionPath, Proof98: proof98, Proof97: filepath.Join(root99(), "study", "00097_初回費用後利益の全量確定", "完了記録.json"), Proof96: filepath.Join(root99(), "study", "00096_5分枠の順行反転と現在数量", "完了記録.json"), Out: filepath.Join(temp, "生成禁止"), Stage: "first2", Workers: 1}
++	if err = RunBatch(args); err == nil || !strings.Contains(err.Error(), "固定99条件") {
++		t.Fatal("未固定99条件の前でTapeに進んだ", err)
++	}
++	if _, err = os.Stat(args.Out); !os.IsNotExist(err) {
++		t.Fatal("未固定99条件で出力を作成")
+ 	}
+ 	for _, w := range []int{0, 9} {
+ 		args.Workers = w

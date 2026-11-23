@@ -1,0 +1,198 @@
+--- scripts\FAR初回利益確定\actual.go
++++ work\98初期ATR追尾案\actual.go
+@@ -136,6 +136,10 @@
+ 		(cfg.EntryTiming != "B5Q" || cfg.Policy != "P0" || cfg.GatePolicy != "" && cfg.GatePolicy != "AB") {
+ 		return nil, fmt.Errorf("初回正益確定H0はB5Q/P0と技法空又はABだけを受け付けます")
+ 	}
++	if cfg.RiskPolicy != "" && cfg.RiskPolicy != "R05" && cfg.RiskPolicy != "R10" || cfg.RiskPolicy != "" &&
++		(cfg.HarvestPolicy != "H0" || cfg.EntryTiming != "B5Q" || cfg.Policy != "P0" || cfg.GatePolicy != "" && cfg.GatePolicy != "AB") {
++		return nil, fmt.Errorf("初期ATR追尾はR05/R10とH0/B5Q/P0/技法空又はABだけを受け付けます")
++	}
+ 	if !finiteActual(cfg.USOpen) || cfg.USOpen < 0 || session.Kind == "Night" && (cfg.USOpen > 0 && (cfg.USOpen <= session.Start || cfg.USOpen >= session.End) || cfg.EntryTiming != "N" && cfg.USOpen == 0) {
+ 		return nil, fmt.Errorf("米国開始時計が不正又は必要未知です")
+ 	}
+@@ -149,6 +153,9 @@
+ 	}
+ 	if cfg.HarvestPolicy != "" {
+ 		r.result.Key = cfg.HarvestPolicy + "_" + r.result.Key
++	}
++	if cfg.RiskPolicy != "" {
++		r.result.Key = cfg.RiskPolicy + "_" + r.result.Key
+ 	}
+ 	r.opportunityBySource = map[string]int{}
+ 	r.result.EntryOpportunities = []EntryOpportunityTrace{}
+@@ -489,18 +496,26 @@
+ 
+ // requestExit は実未予約残だけを新しい返済注文へ予約します。
+ //
+-// 引数: p(*ActualPosition)、quantity(int)、at(float64)、q(QuoteStamp)、reason/nativeSignal/notice(string)、point(*MTMPoint)は要求と出典です。
++// 引数: p(*ActualPosition)、quantity(int)、at(float64)、q(QuoteStamp)、reason/nativeSignal/notice(string)、point(*MTMPoint)、initial(...*InitialRiskPoint)は要求と出典です。
+ // 返り値: string/errorは実注文ID又は過剰予約です。
+-func (b *ActualBook) requestExit(p *ActualPosition, quantity int, at float64, q QuoteStamp, reason, nativeSignal, notice string, point *MTMPoint) (string, error) {
++func (b *ActualBook) requestExit(p *ActualPosition, quantity int, at float64, q QuoteStamp, reason, nativeSignal, notice string, point *MTMPoint, initial ...*InitialRiskPoint) (string, error) {
+ 	if quantity <= 0 || quantity > p.Quantity-p.Reserved {
+ 		return "", fmt.Errorf("Actual返済が未予約残を超過しています")
+ 	}
++	if len(initial) > 1 || len(initial) == 1 && (initial[0] == nil || b.result.Config.RiskPolicy == "" || point != nil || reason != InitialRiskExitReason) {
++		return "", fmt.Errorf("初期risk返済の独立出典が不正です")
++	}
+ 	id := b.newID()
+ 	o := ActualOrder{ID: id, Kind: "exit", Side: -p.Side, Quantity: quantity, PositionID: p.ID, Source: p.Source, SourceHoldID: p.SourceHoldID, NativeCloseSignalID: nativeSignal, NativeCloseNoticeID: notice, RequestTime: at, RequestQuote: q, Reason: reason, Status: "pending", ProtectionPoint: point}
++	if len(initial) == 1 {
++		o.InitialRiskPoint = initial[0]
++	}
+ 	b.orders[id] = len(b.result.Orders)
+ 	b.result.Orders = append(b.result.Orders, o)
+ 	p.Reserved += quantity
+-	if point == nil {
++	if o.InitialRiskPoint != nil {
++		b.result.Metrics.InitialRiskExitRequests++
++	} else if point == nil {
+ 		b.result.Metrics.SourceExitRequests++
+ 	} else {
+ 		b.result.Metrics.ProtectionExitRequests++
+@@ -643,6 +658,9 @@
+ 			if err := b.lockATR(&p, o, q); err != nil {
+ 				return err
+ 			}
++			if err := b.lockInitialRisk(&p, o, q); err != nil {
++				return err
++			}
+ 			if p.ATR == nil {
+ 				b.result.Metrics.ATRDeferredPositions++
+ 			}
+@@ -772,6 +790,9 @@
+ 			copy := point
+ 			p.Activation = &copy
+ 		}
++		if err := b.observeInitialRisk(p, point, issue); err != nil {
++			return err
++		}
+ 		if !p.ProtectionActive {
+ 			continue
+ 		}
+
+--- scripts\FAR初回利益確定\actual_types.go
++++ work\98初期ATR追尾案\actual_types.go
+@@ -21,6 +21,7 @@
+ 	USOpen        float64 `json:"us_open"`
+ 	GatePolicy    string  `json:"gate_policy,omitempty"`
+ 	HarvestPolicy string  `json:"harvest_policy,omitempty"`
++	RiskPolicy    string  `json:"risk_policy,omitempty"`
+ }
+ 
+ // EntryOpportunityTrace は元出生と一回だけの実受付を別の時点で保存します。
+@@ -151,50 +152,52 @@
+ 
+ // ActualPosition は一つの実新規約定を永久履歴と現在残量へ分けて保持します。
+ type ActualPosition struct {
+-	ID               string         `json:"id"`
+-	EntryOrderID     string         `json:"entry_order_id"`
+-	Source           SourceIdentity `json:"source"`
+-	SourceHoldID     string         `json:"source_hold_id"`
+-	Side             int            `json:"side"`
+-	InitialQuantity  int            `json:"initial_quantity"`
+-	Quantity         int            `json:"quantity"`
+-	Reserved         int            `json:"reserved"`
+-	ClosedQuantity   int            `json:"closed_quantity"`
+-	EntryPrice       float64        `json:"entry_price"`
+-	EntryQuote       QuoteStamp     `json:"entry_quote"`
+-	ClosedQuote      *QuoteStamp    `json:"closed_quote"`
+-	GrossYen         float64        `json:"gross_yen"`
+-	RealizedNet      float64        `json:"realized_net"`
+-	PeakGain         float64        `json:"peak_gain"`
+-	HasMark          bool           `json:"has_mark"`
+-	ProtectionActive bool           `json:"protection_active"`
+-	Activation       *MTMPoint      `json:"activation"`
+-	FloorGain        *float64       `json:"floor_gain"`
+-	FloorUpdated     *MTMPoint      `json:"floor_updated"`
+-	FirstFloorHit    *MTMPoint      `json:"first_floor_hit"`
+-	ATR              *ATRLock       `json:"atr"`
+-	Marks            PositionMarks  `json:"marks"`
++	ID               string            `json:"id"`
++	EntryOrderID     string            `json:"entry_order_id"`
++	Source           SourceIdentity    `json:"source"`
++	SourceHoldID     string            `json:"source_hold_id"`
++	Side             int               `json:"side"`
++	InitialQuantity  int               `json:"initial_quantity"`
++	Quantity         int               `json:"quantity"`
++	Reserved         int               `json:"reserved"`
++	ClosedQuantity   int               `json:"closed_quantity"`
++	EntryPrice       float64           `json:"entry_price"`
++	EntryQuote       QuoteStamp        `json:"entry_quote"`
++	ClosedQuote      *QuoteStamp       `json:"closed_quote"`
++	GrossYen         float64           `json:"gross_yen"`
++	RealizedNet      float64           `json:"realized_net"`
++	PeakGain         float64           `json:"peak_gain"`
++	HasMark          bool              `json:"has_mark"`
++	ProtectionActive bool              `json:"protection_active"`
++	Activation       *MTMPoint         `json:"activation"`
++	FloorGain        *float64          `json:"floor_gain"`
++	FloorUpdated     *MTMPoint         `json:"floor_updated"`
++	FirstFloorHit    *MTMPoint         `json:"first_floor_hit"`
++	ATR              *ATRLock          `json:"atr"`
++	Marks            PositionMarks     `json:"marks"`
++	InitialRisk      *InitialRiskState `json:"initial_risk,omitempty"`
+ }
+ 
+ // ActualOrder は要求時計と最終状態を保持し、同原行fillを許しません。
+ type ActualOrder struct {
+-	ID                  string         `json:"id"`
+-	Kind                string         `json:"kind"`
+-	Side                int            `json:"side"`
+-	Quantity            int            `json:"quantity"`
+-	PositionID          string         `json:"position_id"`
+-	Source              SourceIdentity `json:"source"`
+-	SourceHoldID        string         `json:"source_hold_id"`
+-	NativeCloseSignalID string         `json:"native_close_signal_id"`
+-	NativeCloseNoticeID string         `json:"native_close_notice_id"`
+-	RequestTime         float64        `json:"request_time"`
+-	RequestQuote        QuoteStamp     `json:"request_quote"`
+-	Reason              string         `json:"reason"`
+-	Status              string         `json:"status"`
+-	FillID              string         `json:"fill_id"`
+-	CancelTime          *float64       `json:"cancel_time"`
+-	CancelReason        string         `json:"cancel_reason"`
+-	ProtectionPoint     *MTMPoint      `json:"protection_point"`
++	ID                  string            `json:"id"`
++	Kind                string            `json:"kind"`
++	Side                int               `json:"side"`
++	Quantity            int               `json:"quantity"`
++	PositionID          string            `json:"position_id"`
++	Source              SourceIdentity    `json:"source"`
++	SourceHoldID        string            `json:"source_hold_id"`
++	NativeCloseSignalID string            `json:"native_close_signal_id"`
++	NativeCloseNoticeID string            `json:"native_close_notice_id"`
++	RequestTime         float64           `json:"request_time"`
++	RequestQuote        QuoteStamp        `json:"request_quote"`
++	Reason              string            `json:"reason"`
++	Status              string            `json:"status"`
++	FillID              string            `json:"fill_id"`
++	CancelTime          *float64          `json:"cancel_time"`
++	CancelReason        string            `json:"cancel_reason"`
++	ProtectionPoint     *MTMPoint         `json:"protection_point"`
++	InitialRiskPoint    *InitialRiskPoint `json:"initial_risk_point,omitempty"`
+ }
+ 
+ // ActualAllocation は返済片ごとの所有/原行/実現費用を固定します。
+@@ -303,6 +306,7 @@
+ 	CancelledEntries             int `json:"cancelled_entries"`
+ 	SourceExitRequests           int `json:"source_exit_requests"`
+ 	ProtectionExitRequests       int `json:"protection_exit_requests"`
++	InitialRiskExitRequests      int `json:"initial_risk_exit_requests,omitempty"`
+ 	EntryFills                   int `json:"entry_fills"`
+ 	ExitFills                    int `json:"exit_fills"`
+ 	ProtectionExitFills          int `json:"protection_exit_fills"`
+
+--- scripts\FAR初回利益確定\force_boundary_test.go
++++ work\98初期ATR追尾案\force_boundary_test.go
+@@ -11,8 +11,8 @@
+ 
+ 	"github.com/masayoshi4649/SessionTradeExecuter/internal/strategy"
+ 	old "github.com/masayoshi4649/SessionTradeExecuter/minichart"
++	native "github.com/masayoshi4649/SessionTradeExecuter/mininative"
+ 	h "github.com/masayoshi4649/SessionTradeExecuter/miniharvest"
+-	native "github.com/masayoshi4649/SessionTradeExecuter/mininative"
+ )
+ 
+ type source struct {

@@ -1,0 +1,4283 @@
+{
+  "cases": [
+    {
+      "name": "Day_side+1_三反対",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 990,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 1000,
+                "ema21_3": 990,
+                "ema8_15": 1010,
+                "ema21_15": 1000,
+                "rsi3": 90,
+                "previous_rsi3": 89,
+                "histogram3": 1,
+                "previous_histogram3": 2,
+                "close3": 990,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 995,
+              "PreviousEMA8_3": 1000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 1005,
+          "bid": 1000,
+          "ask": 1010,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 1,
+              "ask_refill": 4,
+              "bid_deplete": 3,
+              "ask_deplete": 1,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": 1,
+          "known": true,
+          "allowed": true,
+          "role": "複合失効",
+          "reason": "価格・勢い・現在量の反対状態が成立"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": true,
+            "passed": true,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "NK225",
+            "time": 35999,
+            "received": 35999,
+            "source_index": 12,
+            "source_line": 10050,
+            "last": 1005,
+            "bid": 1000,
+            "ask": 1010
+          },
+          "price_age": 1,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Day",
+            "known": true,
+            "time": 35999,
+            "index": 12,
+            "own_at": 35999,
+            "value": -5,
+            "bid_refill": null,
+            "ask_refill": null,
+            "bid_deplete": null,
+            "ask_deplete": null
+          },
+          "signed_close_ema": -10,
+          "signed_histogram_delta": -1,
+          "signed_quantity": -5
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "Day_side-1_三反対",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 3010,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 3000,
+              "ema21_3": 3010,
+              "ema8_15": 2990,
+              "ema21_15": 3000,
+              "rsi3": 10,
+              "previous_rsi3": 11,
+              "histogram3": -1,
+              "previous_histogram3": -2,
+              "close3": 3010,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 3005,
+            "PreviousEMA8_3": 3000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 3000,
+                "ema21_3": 3010,
+                "ema8_15": 2990,
+                "ema21_15": 3000,
+                "rsi3": 10,
+                "previous_rsi3": 11,
+                "histogram3": -1,
+                "previous_histogram3": -2,
+                "close3": 3010,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 3005,
+              "PreviousEMA8_3": 3000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 3010,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 3010,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 2995,
+          "bid": 2990,
+          "ask": 3000,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": 5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": 5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 4,
+              "ask_refill": 1,
+              "bid_deplete": 1,
+              "ask_deplete": 3,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": -1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": -1,
+          "known": true,
+          "allowed": true,
+          "role": "複合失効",
+          "reason": "価格・勢い・現在量の反対状態が成立"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": true,
+            "passed": true,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "NK225",
+            "time": 35999,
+            "received": 35999,
+            "source_index": 12,
+            "source_line": 10050,
+            "last": 2995,
+            "bid": 2990,
+            "ask": 3000
+          },
+          "price_age": 1,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Day",
+            "known": true,
+            "time": 35999,
+            "index": 12,
+            "own_at": 35999,
+            "value": 5,
+            "bid_refill": null,
+            "ask_refill": null,
+            "bid_deplete": null,
+            "ask_deplete": null
+          },
+          "signed_close_ema": -10,
+          "signed_histogram_delta": -1,
+          "signed_quantity": -5
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "Night_side+1_三反対",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Night",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 990,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 1000,
+                "ema21_3": 990,
+                "ema8_15": 1010,
+                "ema21_15": 1000,
+                "rsi3": 90,
+                "previous_rsi3": 89,
+                "histogram3": 1,
+                "previous_histogram3": 2,
+                "close3": 990,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 995,
+              "PreviousEMA8_3": 1000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 1005,
+          "bid": 1000,
+          "ask": 1010,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 1,
+              "ask_refill": 4,
+              "bid_deplete": 3,
+              "ask_deplete": 1,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": 1,
+          "known": true,
+          "allowed": true,
+          "role": "複合失効",
+          "reason": "価格・勢い・現在量の反対状態が成立"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": true,
+            "passed": true,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "NK225",
+            "time": 35999,
+            "received": 35999,
+            "source_index": 12,
+            "source_line": 10050,
+            "last": 1005,
+            "bid": 1000,
+            "ask": 1010
+          },
+          "price_age": 1,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Night",
+            "known": true,
+            "time": 35999,
+            "index": 12,
+            "own_at": 0,
+            "value": -5,
+            "bid_refill": 1,
+            "ask_refill": 4,
+            "bid_deplete": 3,
+            "ask_deplete": 1
+          },
+          "signed_close_ema": -10,
+          "signed_histogram_delta": -1,
+          "signed_quantity": -5
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "Night_side-1_三反対",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Night",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 3010,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 3000,
+              "ema21_3": 3010,
+              "ema8_15": 2990,
+              "ema21_15": 3000,
+              "rsi3": 10,
+              "previous_rsi3": 11,
+              "histogram3": -1,
+              "previous_histogram3": -2,
+              "close3": 3010,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 3005,
+            "PreviousEMA8_3": 3000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 3000,
+                "ema21_3": 3010,
+                "ema8_15": 2990,
+                "ema21_15": 3000,
+                "rsi3": 10,
+                "previous_rsi3": 11,
+                "histogram3": -1,
+                "previous_histogram3": -2,
+                "close3": 3010,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 3005,
+              "PreviousEMA8_3": 3000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 3010,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 3010,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 2995,
+          "bid": 2990,
+          "ask": 3000,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": 5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": 5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 4,
+              "ask_refill": 1,
+              "bid_deplete": 1,
+              "ask_deplete": 3,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": -1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": -1,
+          "known": true,
+          "allowed": true,
+          "role": "複合失効",
+          "reason": "価格・勢い・現在量の反対状態が成立"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": true,
+            "passed": true,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "NK225",
+            "time": 35999,
+            "received": 35999,
+            "source_index": 12,
+            "source_line": 10050,
+            "last": 2995,
+            "bid": 2990,
+            "ask": 3000
+          },
+          "price_age": 1,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 3010,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Night",
+            "known": true,
+            "time": 35999,
+            "index": 12,
+            "own_at": 0,
+            "value": 5,
+            "bid_refill": 4,
+            "ask_refill": 1,
+            "bid_deplete": 1,
+            "ask_deplete": 3
+          },
+          "signed_close_ema": -10,
+          "signed_histogram_delta": -1,
+          "signed_quantity": -5
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "価格等号",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 1000,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 1000,
+                "ema21_3": 990,
+                "ema8_15": 1010,
+                "ema21_15": 1000,
+                "rsi3": 90,
+                "previous_rsi3": 89,
+                "histogram3": 1,
+                "previous_histogram3": 2,
+                "close3": 990,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 995,
+              "PreviousEMA8_3": 1000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 1005,
+          "bid": 1000,
+          "ask": 1010,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 1,
+              "ask_refill": 4,
+              "bid_deplete": 3,
+              "ask_deplete": 1,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": 1,
+          "known": true,
+          "allowed": false,
+          "role": "追加退出なし",
+          "reason": "公開済みの必要条件が不成立"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": false,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": true,
+            "passed": true,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "NK225",
+            "time": 35999,
+            "received": 35999,
+            "source_index": 12,
+            "source_line": 10050,
+            "last": 1005,
+            "bid": 1000,
+            "ask": 1010
+          },
+          "price_age": 1,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Day",
+            "known": true,
+            "time": 35999,
+            "index": 12,
+            "own_at": 35999,
+            "value": -5,
+            "bid_refill": null,
+            "ask_refill": null,
+            "bid_deplete": null,
+            "ask_deplete": null
+          },
+          "signed_close_ema": 0,
+          "signed_histogram_delta": -1,
+          "signed_quantity": -5
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "量未知",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 990,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 1000,
+                "ema21_3": 990,
+                "ema8_15": 1010,
+                "ema21_15": 1000,
+                "rsi3": 90,
+                "previous_rsi3": 89,
+                "histogram3": 1,
+                "previous_histogram3": 2,
+                "close3": 990,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 995,
+              "PreviousEMA8_3": 1000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 1005,
+          "bid": 1000,
+          "ask": 1010,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": false,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 1,
+              "ask_refill": 4,
+              "bid_deplete": 3,
+              "ask_deplete": 1,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": 1,
+          "known": false,
+          "allowed": false,
+          "role": "判定不能",
+          "reason": "既知の否定条件はなく必要な公開値が未知"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": false,
+            "passed": false,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "NK225",
+            "time": 35999,
+            "received": 35999,
+            "source_index": 12,
+            "source_line": 10050,
+            "last": 1005,
+            "bid": 1000,
+            "ask": 1010
+          },
+          "price_age": 1,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Day",
+            "known": false,
+            "time": 35999,
+            "index": 12,
+            "own_at": 35999,
+            "value": null,
+            "bid_refill": null,
+            "ask_refill": null,
+            "bid_deplete": null,
+            "ask_deplete": null
+          },
+          "signed_close_ema": -10,
+          "signed_histogram_delta": -1,
+          "signed_quantity": null
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "空Current",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 990,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 1000,
+                "ema21_3": 990,
+                "ema8_15": 1010,
+                "ema21_15": 1000,
+                "rsi3": 90,
+                "previous_rsi3": 89,
+                "histogram3": 1,
+                "previous_histogram3": 2,
+                "close3": 990,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 995,
+              "PreviousEMA8_3": 1000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "",
+          "time": 0,
+          "received": 0,
+          "source_index": 0,
+          "source_line": 0,
+          "last": 0,
+          "bid": 0,
+          "ask": 0,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": false,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": 0,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 0,
+            "peer_at": 0
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": false,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": 0,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 0,
+            "peer_at": 0
+          },
+          "night": {
+            "available": false,
+            "known": false,
+            "invalid": false,
+            "window": "",
+            "time": 0,
+            "index": 0,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": false,
+              "start_index": 0,
+              "index": 0,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 0,
+              "time": 0,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 0,
+              "ask_refill": 0,
+              "bid_deplete": 0,
+              "ask_deplete": 0,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": 1,
+          "known": false,
+          "allowed": false,
+          "role": "判定不能",
+          "reason": "既知の否定条件はなく必要な公開値が未知"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": false,
+            "passed": false,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": false,
+            "passed": false,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "",
+            "time": 0,
+            "received": 0,
+            "source_index": 0,
+            "source_line": 0,
+            "last": 0,
+            "bid": 0,
+            "ask": 0
+          },
+          "price_age": null,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Day",
+            "known": false,
+            "time": 0,
+            "index": 0,
+            "own_at": 0,
+            "value": null,
+            "bid_refill": null,
+            "ask_refill": null,
+            "bid_deplete": null,
+            "ask_deplete": null
+          },
+          "signed_close_ema": -10,
+          "signed_histogram_delta": -1,
+          "signed_quantity": null
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "15分未知",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": false,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 990,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 0
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 0,
+            "available_at": 0,
+            "observed_clock": 0,
+            "rows": 0,
+            "data_known": false,
+            "has_last_source": false,
+            "last_source": {
+              "time": 0,
+              "index": 0,
+              "line": 0,
+              "last": 0,
+              "valid": false
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": null,
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 1005,
+          "bid": 1000,
+          "ask": 1010,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 1,
+              "ask_refill": 4,
+              "bid_deplete": 3,
+              "ask_deplete": 1,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 1,
+      "assessment": {
+        "decision": {
+          "policy": "X5",
+          "snapshot_id": "人工場-G0001",
+          "at": 36000,
+          "side": 1,
+          "known": true,
+          "allowed": true,
+          "role": "複合失効",
+          "reason": "価格・勢い・現在量の反対状態が成立"
+        },
+        "checks": [
+          {
+            "id": "X5.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "Currentの正常BBO/Last正・価格時計15秒以内。金融最新Quoteとの外部bindは別責務"
+          },
+          {
+            "id": "X5.公開3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定3分・公開済み・足齢180秒未満"
+          },
+          {
+            "id": "X5.P",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付きClose3-同足EMA8_3がstrict負・等号は不成立"
+          },
+          {
+            "id": "X5.M",
+            "known": true,
+            "passed": true,
+            "reason": "保有方向付き3分hist増分がstrict負・水準0交差は不要"
+          },
+          {
+            "id": "X5.Q",
+            "known": true,
+            "passed": true,
+            "reason": "同Current出典のDay OFI30又はNight E08差が保有方向へstrict負・約定量ではない"
+          }
+        ],
+        "evidence": {
+          "scene_id": "人工場",
+          "contract": "人工限月",
+          "current": {
+            "reference": "NK225",
+            "time": 35999,
+            "received": 35999,
+            "source_index": 12,
+            "source_line": 10050,
+            "last": 1005,
+            "bid": 1000,
+            "ask": 1010
+          },
+          "price_age": 1,
+          "three_age": 0,
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "quantity": {
+            "kind": "Day",
+            "known": true,
+            "time": 35999,
+            "index": 12,
+            "own_at": 35999,
+            "value": -5,
+            "bid_refill": null,
+            "ask_refill": null,
+            "bid_deplete": null,
+            "ask_deplete": null
+          },
+          "signed_close_ema": -10,
+          "signed_histogram_delta": -1,
+          "signed_quantity": -5
+        }
+      },
+      "error": ""
+    },
+    {
+      "name": "FutureCurrent",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 990,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 1000,
+                "ema21_3": 990,
+                "ema8_15": 1010,
+                "ema21_15": 1000,
+                "rsi3": 90,
+                "previous_rsi3": 89,
+                "histogram3": 1,
+                "previous_histogram3": 2,
+                "close3": 990,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 995,
+              "PreviousEMA8_3": 1000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 36001,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 1005,
+          "bid": 1000,
+          "ask": 1010,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 1,
+              "ask_refill": 4,
+              "bid_deplete": 3,
+              "ask_deplete": 1,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 1,
+      "assessment": null,
+      "error": "現在原行の市場/時計/出典/価格が不正です"
+    },
+    {
+      "name": "BadSide",
+      "input": {
+        "snapshot_id": "人工場-G0001",
+        "at": 36000,
+        "kind": "Day",
+        "chart": {
+          "scene": {
+            "id": "人工場",
+            "contract": "人工限月",
+            "start": 18000
+          },
+          "at": 36000,
+          "has_observed_clock": true,
+          "observed_clock": 36300,
+          "has_last_input": true,
+          "last_input": {
+            "time": 35999,
+            "index": 9000,
+            "line": 10000,
+            "last": 990,
+            "valid": true
+          },
+          "invalidated_at": 0,
+          "chart": {
+            "Technical": {
+              "trend_known": true,
+              "reversal_known": true,
+              "spike_known": true,
+              "exit_known": true,
+              "atr_known": true,
+              "ema8_3": 1000,
+              "ema21_3": 990,
+              "ema8_15": 1010,
+              "ema21_15": 1000,
+              "rsi3": 90,
+              "previous_rsi3": 89,
+              "histogram3": 1,
+              "previous_histogram3": 2,
+              "close3": 990,
+              "tr3": 20,
+              "atr3": 20,
+              "previous_atr3": 20,
+              "bar3_end": 36000,
+              "bar15_end": 36000
+            },
+            "PreviousClose3": 995,
+            "PreviousEMA8_3": 1000,
+            "PreviousBar3End": 35820,
+            "Previous3Known": true
+          },
+          "three": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "fifteen": {
+            "bar_end": 36000,
+            "available_at": 36000,
+            "observed_clock": 36300,
+            "rows": 1,
+            "data_known": true,
+            "has_last_source": true,
+            "last_source": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "reason": ""
+          },
+          "carried_numeric_seed": false,
+          "sealed": false
+        },
+        "recent3": [
+          {
+            "scene": {
+              "id": "人工場",
+              "contract": "人工限月",
+              "start": 18000
+            },
+            "at": 36000,
+            "has_observed_clock": true,
+            "observed_clock": 36300,
+            "has_last_input": true,
+            "last_input": {
+              "time": 35999,
+              "index": 9000,
+              "line": 10000,
+              "last": 990,
+              "valid": true
+            },
+            "invalidated_at": 0,
+            "chart": {
+              "Technical": {
+                "trend_known": true,
+                "reversal_known": true,
+                "spike_known": true,
+                "exit_known": true,
+                "atr_known": true,
+                "ema8_3": 1000,
+                "ema21_3": 990,
+                "ema8_15": 1010,
+                "ema21_15": 1000,
+                "rsi3": 90,
+                "previous_rsi3": 89,
+                "histogram3": 1,
+                "previous_histogram3": 2,
+                "close3": 990,
+                "tr3": 20,
+                "atr3": 20,
+                "previous_atr3": 20,
+                "bar3_end": 36000,
+                "bar15_end": 36000
+              },
+              "PreviousClose3": 995,
+              "PreviousEMA8_3": 1000,
+              "PreviousBar3End": 35820,
+              "Previous3Known": true
+            },
+            "three": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "fifteen": {
+              "bar_end": 36000,
+              "available_at": 36000,
+              "observed_clock": 36300,
+              "rows": 1,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 35999,
+                "index": 9000,
+                "line": 10000,
+                "last": 990,
+                "valid": true
+              },
+              "reason": ""
+            },
+            "carried_numeric_seed": false,
+            "sealed": false
+          }
+        ],
+        "current": {
+          "reference": "NK225",
+          "time": 35999,
+          "received": 35999,
+          "source_index": 12,
+          "source_line": 10050,
+          "last": 1005,
+          "bid": 1000,
+          "ask": 1010,
+          "buy": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0,
+            "windows": {
+              "未使用": {
+                "known": true,
+                "reason": "",
+                "current_at": 35999,
+                "endpoint_at": 35994,
+                "elapsed": 0,
+                "delay": 0,
+                "raw_return": 0,
+                "value": 0,
+                "intermediate_bad": 0
+              }
+            }
+          },
+          "sell": {
+            "known": false,
+            "reason": "",
+            "own_known": false,
+            "peer_known": false,
+            "ofi_known": true,
+            "own_reason": "",
+            "peer_reason": "",
+            "ofi_reason": "",
+            "own5": 0,
+            "own15": 0,
+            "own120": 0,
+            "own300": 0,
+            "peer120": 0,
+            "ofi30": -5,
+            "m": 0,
+            "t": 0,
+            "opp": 0,
+            "own_at": 35999,
+            "peer_at": 0
+          },
+          "night": {
+            "available": true,
+            "known": false,
+            "invalid": false,
+            "window": "E08",
+            "time": 35999,
+            "index": 12,
+            "price_event": 0,
+            "confirmed_side": 0,
+            "retest_side": 0,
+            "retest_id": 0,
+            "retest_hold_id": 0,
+            "band": {
+              "known": false,
+              "quantity_known": true,
+              "start_index": 0,
+              "index": 12,
+              "start_line": 0,
+              "line": 0,
+              "start_time": 35994,
+              "time": 35999,
+              "elapsed": 0,
+              "events": 0,
+              "quantity_events": 0,
+              "bad_quantity": 0,
+              "common_depth_events": 0,
+              "bid_move": 0,
+              "ask_move": 0,
+              "mid_move": 0,
+              "spread": 0,
+              "spread_change": 0,
+              "up_fraction": 0,
+              "gross_price_move": 0,
+              "bid_only_up": 0,
+              "ask_only_down": 0,
+              "ask_only_up": 0,
+              "bid_only_down": 0,
+              "bid_refill": 1,
+              "ask_refill": 4,
+              "bid_deplete": 3,
+              "ask_deplete": 1,
+              "common_bid_up": 0,
+              "common_ask_up": 0,
+              "common_bid_down": 0,
+              "common_ask_down": 0
+            },
+            "buy": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            },
+            "sell": {
+              "active": false,
+              "quantity_support": false,
+              "supply_passed": false,
+              "pressured": false,
+              "id": 0,
+              "side": 0,
+              "bid": 0,
+              "ask": 0,
+              "time": 0,
+              "index": 0,
+              "event": 0,
+              "pressure_event": 0,
+              "pressure_index": 0,
+              "barrier": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              },
+              "support": {
+                "known": false,
+                "price": 0,
+                "time": 0,
+                "index": 0,
+                "event": 0
+              }
+            }
+          },
+          "short": {
+            "five": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "fifteen": {
+              "known": false,
+              "move": 0,
+              "speed": 0,
+              "elapsed": 0,
+              "endpoint": 0,
+              "delay": 0,
+              "reason": ""
+            },
+            "time": 0,
+            "mid": 0
+          }
+        }
+      },
+      "side": 0,
+      "assessment": null,
+      "error": "保有方向/場/判断時計が不正です"
+    }
+  ],
+  "scope": "手製の保有純判定だけ・Source/金融/市場0",
+  "仕様候補SHA256": "50dd28465bec51eb59e7d05e892cb3383bca99964cabe5e0f3b7caa9c0f771a1",
+  "固定96品質源SHA256": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf"
+}

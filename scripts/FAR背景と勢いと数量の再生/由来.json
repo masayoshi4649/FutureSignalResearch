@@ -1,0 +1,74 @@
+{
+  "family": "再生",
+  "元停止源": "work\\99再生接続案",
+  "元停止SHA256": "97a567aed620f8288305acc8fb6fb3753d8aa18caa29d3c714ef8975977d962c",
+  "固定98完了SHA256": "2ee9417d0cd1f8bef107712789d26e3f72c0f95a933e60b31bb3f11784ca0dfe",
+  "files": {
+    "batch.go": {
+      "元": "work\\99再生接続案\\batch.go",
+      "元SHA256": "fa60fcf37d09e89fdb5bb3279354cf58d841ae648ae0ceb57199216c829bd28c",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\batch.go",
+      "正式SHA256": "fa60fcf37d09e89fdb5bb3279354cf58d841ae648ae0ceb57199216c829bd28c",
+      "本文同体": true,
+      "許可差": false
+    },
+    "cmd/batch/main.go": {
+      "元": "work\\99再生接続案\\cmd\\batch\\main.go",
+      "元SHA256": "82c0ad56b838350114a79c9f4a8f3d71155ce92e430395bf5ce82b6a24727270",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\cmd\\batch\\main.go",
+      "正式SHA256": "82c0ad56b838350114a79c9f4a8f3d71155ce92e430395bf5ce82b6a24727270",
+      "本文同体": true,
+      "許可差": false
+    },
+    "envelope.go": {
+      "元": "work\\99再生接続案\\envelope.go",
+      "元SHA256": "5dc2b8b4af894875ed42f1a38a44b8ab2928e73ee8f762e71826ebfe8d8a21b1",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\envelope.go",
+      "正式SHA256": "f3665da4d243e36e2896d0ef79c7b0f89d4c73b07645756067cd48fa1e862969",
+      "本文同体": false,
+      "許可差": true
+    },
+    "factory.go": {
+      "元": "work\\99再生接続案\\factory.go",
+      "元SHA256": "2e57b4244da5d8b2b3f08789ce6f7050f14ce108aaba9db63b2e9f1426bda77c",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\factory.go",
+      "正式SHA256": "2e57b4244da5d8b2b3f08789ce6f7050f14ce108aaba9db63b2e9f1426bda77c",
+      "本文同体": true,
+      "許可差": false
+    },
+    "go.mod": {
+      "元": "work\\99再生接続案\\go.mod",
+      "元SHA256": "bfe4f121d3a0b4d29ab3f196afa85ffe29cb71bcfd6ce3cefca01e0c97eccdd0",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\go.mod",
+      "正式SHA256": "9507f41494cd32a14ebc614f99b6c9ff88f22c36d7b2060218f114d906c90846",
+      "本文同体": false,
+      "許可差": true
+    },
+    "go.sum": {
+      "元": "work\\99再生接続案\\go.sum",
+      "元SHA256": "27404f03024310ae928132fe64aff68b9b5197ee871f90c6ea7e2026fba37fd8",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\go.sum",
+      "正式SHA256": "27404f03024310ae928132fe64aff68b9b5197ee871f90c6ea7e2026fba37fd8",
+      "本文同体": true,
+      "許可差": false
+    },
+    "replay.go": {
+      "元": "work\\99再生接続案\\replay.go",
+      "元SHA256": "fc20573ad874233bcdef7e8eef572d36a5c11ff7ecf56237c6c96ab6a03cbd1f",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\replay.go",
+      "正式SHA256": "fc20573ad874233bcdef7e8eef572d36a5c11ff7ecf56237c6c96ab6a03cbd1f",
+      "本文同体": true,
+      "許可差": false
+    },
+    "replay_test.go": {
+      "元": "work\\99再生接続案\\replay_test.go",
+      "元SHA256": "957b9bbaf0fd24fffe1e80e1be49ce59855f79f22a569089a6da87bad69cdb31",
+      "正式": "scripts\\FAR背景と勢いと数量の再生\\replay_test.go",
+      "正式SHA256": "66cdc778cd85e15aba2421e56742615d0008de0b9644fc7c537790bd801bacd9",
+      "本文同体": false,
+      "許可差": true
+    }
+  },
+  "許可差": "go.mod正式参照、再生Fixed98SHA結合と説明、未固定guard試験のmetadata対応だけ。計算本文不変。",
+  "新市場/原板/Source/Native98本文解析": 0
+}
