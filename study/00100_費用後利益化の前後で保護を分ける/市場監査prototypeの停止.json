@@ -1,0 +1,90 @@
+{
+  "成功": true,
+  "段階": "100市場wrapper案のみ・正式配置/市場未実行",
+  "所有SHA256": {
+    "work\\100市場Tape監査案\\市場Tapeを照合する.py": "bf7e5f92cb89c54ea3245d5590a63837554861174e02f3f73f00b838651f7432",
+    "work\\100市場Tape監査案\\人工を確認する.py": "99424958fe14b9851d9980ae0eefbeb1cff3d29424659f5b65a657bb2257becd",
+    "work\\100市場Tape監査案\\README.md": "10709a387cb59966c1e11b327fe21143247d250ed705b134a7e551e4c1f7ba6d"
+  },
+  "由来停止SHA256": {
+    "work/100金融監査案/停止.json": "e294258a771157f85feb3ff2e68c718079f6462e0dbb36f8c1c035bd1c7a8d62",
+    "work/100利益保護案/停止.json": "717db3c18a154c4b016611ffebf0d37b8db35e67217372a57cdc9f07899f103c",
+    "work/100再生接続案/停止.json": "56604d7fcf52c2d975d18f99557048779d46c8f63c8fa685ff4dade3d8ed8b6c"
+  },
+  "旧99wrapperSHA256": "55abf75a6d8b924ad22a96b57d2399e524005c004e4ee77944fdd43addadad81",
+  "独立核心SHA256": "d6b2eb4dc18c082f3acf39dbc2f74553b127e0e1491bd601671c7e50c17aa6e7",
+  "Runtime停止結合前SHA256": "b1dd0fc4122d945f7d079299dd948263065c4735203acbee4b2a18ce44f2ab78",
+  "Runtime停止差分SHA256": "a267302adae80945adc01ffb36467ed87c379406a469c69d162ac8db04abc517",
+  "変更": "RUNTIME_STOP_SHAの空→56604d…のみ。条件最終SHA定数は設けない。",
+  "完全Tape整合版人工": {
+    "場面": 4,
+    "会計数": 48,
+    "非0会計数": 48,
+    "照合項目数": 115152,
+    "不一致数": 0,
+    "H0旧99公開API全文会計": 16,
+    "証拠SHA256": "4a96d667a03e75182f60225ebe21b8263f8e91539a49e87f93eac5b9a06697a1"
+  },
+  "完全Tape整合版から停止版SHA対応": {
+    "方向-1_HG戻り.json": {
+      "整合版": "work\\100再生接続案\\人工\\接続_出典整合版\\方向-1_HG戻り.json",
+      "停止版": "work\\100再生接続案\\人工\\停止版\\方向-1_HG戻り.json",
+      "SHA256": "50ccd0ab96c4f68012bc07d2906da20975b4a3e0d1ee5375ee3ee8b30018194f"
+    },
+    "方向-1_Source部分.json": {
+      "整合版": "work\\100再生接続案\\人工\\接続_出典整合版\\方向-1_Source部分.json",
+      "停止版": "work\\100再生接続案\\人工\\停止版\\方向-1_Source部分.json",
+      "SHA256": "5ad52624a66081eea805503e20f8cdaa911c90464224e0a7801079ae8f36cc8e"
+    },
+    "方向1_HG戻り.json": {
+      "整合版": "work\\100再生接続案\\人工\\接続_出典整合版\\方向1_HG戻り.json",
+      "停止版": "work\\100再生接続案\\人工\\停止版\\方向1_HG戻り.json",
+      "SHA256": "1f423e4e649feedacd9f9d3ad210cd71d0ff376d09acf15bd7866d15cdea87e4"
+    },
+    "方向1_Source部分.json": {
+      "整合版": "work\\100再生接続案\\人工\\接続_出典整合版\\方向1_Source部分.json",
+      "停止版": "work\\100再生接続案\\人工\\停止版\\方向1_Source部分.json",
+      "SHA256": "a304cf8ecfdc19d3d5f5a1122c9b134e7398b9200990887d119a9b9706f8cfdf"
+    }
+  },
+  "停止版対応時の追加金融走査": 0,
+  "wrapper単場接続": {
+    "場面": 1,
+    "会計数": 12,
+    "非0会計数": 12,
+    "照合項目数": 35286,
+    "H0対99E3S全文会計": 4,
+    "metadata正常": 1,
+    "guard拒否": 13,
+    "未固定Runtime入力読取": 0,
+    "不正条件読取": [
+      "人工条件"
+    ],
+    "証拠SHA256": "208cb313e21e2fef8b8491a997460603435bac3c6436607ff297e5eedebdae50"
+  },
+  "初回不一致保持SHA256": "25a5b22d7aeded1bdd4d833f9aa9660077b8503e2258a957d2ab2d8686c7ad60",
+  "旧99正式732指紋一致": 732,
+  "旧金融コード一致": 211,
+  "API18停止証拠": "e294258a…をSHA継承。再走査0。",
+  "CLI": "--index --run100 --condition --out --stage first2|full54 --workers1..8",
+  "完了入力": "7固定(index/condition/proof99/98/97/96/manifest)+Tape/99Nativegzip。98/97/96等独立追加は別群。",
+  "出力schema": {
+    "全件対照": "H0対99E3S全文会計",
+    "単場対照": "H0対99E3S全文",
+    "入力分類": [
+      "100運転入力SHA256",
+      "独立監査追加入力SHA256",
+      "条件固定コードSHA256"
+    ]
+  },
+  "API": {
+    "prepare": "prepare(index_path,run100,condition_path,stage)->(tasks,before,groups)",
+    "inspect_values": "inspect_values(tape,value,old99)->dict",
+    "inspect_task": "inspect_task(task)->dict",
+    "validate_condition": "validate_condition(condition)->None",
+    "validate_metadata": "validate_metadata(index,completion,condition,stage,catalog)->set",
+    "validate_envelope": "validate_envelope(tape,value,old99,task)->None"
+  },
+  "市場/原板/新日/旧Native本文解析/Go再生/Source再生成/API18再走査": 0,
+  "機会損失/退出後仮想利益/回収率": "未算出"
+}

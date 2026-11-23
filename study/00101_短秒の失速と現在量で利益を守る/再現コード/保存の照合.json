@@ -1,0 +1,38 @@
+{
+  "成功": true,
+  "scope": "停止した市場実行コードとmetadata検査版を正式保存。売買計算/再build/市場本文読取なし",
+  "条件SHA256": "08e6c2007eea3d969dd2cf408f4de92d8430fbf35eaaae15d52776a378b80dd5",
+  "保存": [
+    {
+      "path": "市場実行版コード.zip",
+      "sha256": "4b2bafe2bac89a0d158b4274d54963390ad98f387999262d2de21f437d4a6587",
+      "元path": "work/101実行コードの保存準備/候補_最終/市場実行版コード_候補.zip",
+      "bytes": 2089655
+    },
+    {
+      "path": "対応表.json",
+      "sha256": "29d28772b2d5e614e29feeb09b50431638d498a46a0d1ff4d3f3d6000b942f33",
+      "元path": "work/101実行コードの保存準備/候補_最終/候補manifest.json",
+      "bytes": 444921
+    },
+    {
+      "path": "原検査.json",
+      "sha256": "87f9b8dee19a00e9938aaf31dcff064e0ff01902b034c5b8ecde2047a7cd68a3",
+      "元path": "work/101実行コードの保存準備/候補_最終/正式保存用_確認.json",
+      "bytes": 59901
+    },
+    {
+      "path": "準備停止.json",
+      "sha256": "9a7a36145f9968696b020bab0f2295d44aa93631c1532ac986e61cf51d958f92",
+      "元path": "work/101実行コードの保存準備/停止.json",
+      "bytes": 4646
+    }
+  ],
+  "元候補からのbyte変更": false,
+  "収録entry": 428,
+  "収録コード小metadata": 427,
+  "code集合": 312,
+  "Go依存集合": 250,
+  "原検査": "原検査.jsonの元work候補pathとSHAを履歴として維持し、本書の正式保存先へ結ぶ",
+  "限界": "原板/stream/Tape/Native/exe/venvを含まない。外部Goは取得版とSHA参照。canonical4moduleは対応人工であり今回市場実行版とは区別。別rootの新規環境での完全再現は未検証。"
+}

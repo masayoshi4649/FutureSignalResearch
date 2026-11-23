@@ -1,0 +1,43 @@
+{
+  "成功": true,
+  "scope": "先頭2場の金融/独立/保存の完了証拠を元bytesで正式保存",
+  "条件SHA256": "08e6c2007eea3d969dd2cf408f4de92d8430fbf35eaaae15d52776a378b80dd5",
+  "資料": [
+    {
+      "path": "金融完了.json",
+      "sha256": "0edba1c2b922a44a63bb75bac783000b08d2e71572c19871ac23c3a4bfbdf258",
+      "元path": "work/101短秒市場の再生/先頭2場/完了.json"
+    },
+    {
+      "path": "独立照合.json",
+      "sha256": "ce8135b3148977962febcee354c5173e5e6b54cc08562534b47f8a8868f9d247",
+      "元path": "work/101短秒市場の独立照合/先頭2場.json"
+    },
+    {
+      "path": "保存完了.json",
+      "sha256": "956504133b9fc2dd5d2cc0bbbca32d9723602b43c9ab91e2a3ba7c49c57a3415",
+      "元path": "work/101短秒市場の保存/先頭2場/保存完了.json"
+    },
+    {
+      "path": "実参加の範囲.json",
+      "sha256": "a6f6c9749ebbd39b1174941e7701470a6cd6d3972c9612d118e6b6de96c98eea",
+      "元path": "work/101集計と閲覧資料/先頭2場の限定scope確認.json"
+    },
+    {
+      "path": "保存実行固定.json",
+      "sha256": "73fed9f9c53fcbbb8f07d47431fd5f14aa1b5d0690ac866696fa6609f5ef55ab",
+      "元path": "work/101短秒市場の保存/先頭2場_固定.json"
+    }
+  ],
+  "実参加": "Day/Nightの全12条件とも実取得/Fill/S callback/request/fillが0。市場非0退出や有効性の証拠とはしない",
+  "独立比較": {
+    "会計": 24,
+    "新P0全文": 8,
+    "旧100P0全文": 8,
+    "項目": 56511131,
+    "不一致": 0,
+    "全保存record": 270564
+  },
+  "参照の扱い": "原証拠内の元work pathを保存時に書換えない。上記資料名とSHAが正式copyを指す",
+  "全54金融": "同条件で別実行中。結果の代用としない"
+}

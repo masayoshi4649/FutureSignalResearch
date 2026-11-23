@@ -1,0 +1,126 @@
+{
+  "試行": 101,
+  "状態": "canonical再利用配置と人工確認。市場の金融再生/新損益は未実行・市場条件最終固定前",
+  "配置集約停止": "../../work/101正式配置の準備/停止.json",
+  "配置集約停止SHA256": "46f29eddd80a4990d00eb4ca9bf0b14093c5a8a0372e0a24351b9650c532b71d",
+  "草案停止SHA256": "d38a7062646e40c2ca9bf95ef1c521271ca40340c95de798a43841cb8d99e0ff",
+  "module対応": [
+    {
+      "module": "minix5",
+      "canonical": "../../scripts/保有の3分複合失効の純式",
+      "README": "../../scripts/保有の3分複合失効の純式/README.md",
+      "由来": "../../scripts/保有の3分複合失効の純式/由来.json",
+      "元停止": "../../work/101X5純式/停止.json",
+      "元停止SHA256": "f57be6c9f32cac86cbfb34cffd931d8a76250144c2d2f544b55f8f1dc9f7b62b",
+      "配置停止": "../../work/101正式配置の準備/minix5/停止.json",
+      "配置停止SHA256": "0b3480c33b1a784dfd91945037050253a73225b50f6ddb26a0c7e0c5e50260b8",
+      "正式所有数": 9,
+      "正式Go_mod_sum_SHA256": {
+        "scripts/保有の3分複合失効の純式/held.go": "b371e040fe17de4e9d8f56c4aa23b8c041990d6ce82f5a5947d7626d8bd78521",
+        "scripts/保有の3分複合失効の純式/held_test.go": "2cee18a4ebb72031aff1072fd3359cda3d7ddd342a09944b85702aac2a12ba0a",
+        "scripts/保有の3分複合失効の純式/quality.go": "88d1b1105b1d63078821d27c7e0d9fb7a50b82f7e57955ab5acf9771bde29eeb",
+        "scripts/保有の3分複合失効の純式/types.go": "2f89dffa2424ac9d0e9b7aa9381a47244108f365aa71db75422b9e8503bcd0e8",
+        "scripts/保有の3分複合失効の純式/go.mod": "3822571a66c6cd88dbca29628d7f8195fdfdb0b07b4f7d503737080be02c3120",
+        "scripts/保有の3分複合失効の純式/go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074"
+      }
+    },
+    {
+      "module": "minishortexit",
+      "canonical": "../../scripts/短秒進行と現在量の退出",
+      "README": "../../scripts/短秒進行と現在量の退出/README.md",
+      "由来": "../../scripts/短秒進行と現在量の退出/由来.json",
+      "元停止": "../../work/短秒複合退出の純式/停止.json",
+      "元停止SHA256": "0e2e50bc391586daf0040cb9abab2b388b3f9ff23980d50d4f0e50eaa3580f9e",
+      "配置停止": "../../work/101正式配置の準備/minishortexit/停止.json",
+      "配置停止SHA256": "1f4908b9ca998ac5cf83db40d24b9d2287b9266d6e829b36bc052dc22c71433e",
+      "正式所有数": 7,
+      "正式Go_mod_sum_SHA256": {
+        "scripts/短秒進行と現在量の退出/short.go": "7cd786e7564d16c828d7bc6ab61a3302e89bf5dcde894b32d9280d2db94b91cb",
+        "scripts/短秒進行と現在量の退出/short_test.go": "3ff8b1e5e13db8926a202a47cdfef3a053e47763796070d945ad970010d18a23",
+        "scripts/短秒進行と現在量の退出/go.mod": "18c14e3f9c1994047a12c4532ac81a2e712081262227319cb63f197323885666",
+        "scripts/短秒進行と現在量の退出/go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074"
+      }
+    },
+    {
+      "module": "minishortfinance",
+      "canonical": "../../scripts/短秒の複合退出の会計",
+      "README": "../../scripts/短秒の複合退出の会計/README.md",
+      "由来": "../../scripts/短秒の複合退出の会計/由来.json",
+      "元停止": "../../work/短秒複合退出の金融/停止.json",
+      "元停止SHA256": "f3606e629a84df0530266d6c43fc89d48df87985841baaaeb0c1471ec6046501",
+      "配置停止": "../../work/101正式配置の準備/minishortfinance/停止.json",
+      "配置停止SHA256": "851afbbf370f717d69eee20c544e29625887440cf8765969acd03011f9fa3ce9",
+      "正式所有数": 21,
+      "正式Go_mod_sum_SHA256": {
+        "scripts/短秒の複合退出の会計/actual.go": "f08270e4bd24ff3304d4c1ad7ac532a44dc04a05e442d73976bb522290dc01b2",
+        "scripts/短秒の複合退出の会計/actual_types.go": "560486b140379e2cb60de5fb2020e779667d76800679700071fd4fa47efce7ea",
+        "scripts/短秒の複合退出の会計/capacity_test.go": "e8faac7abdd55657229e7d7463822a15e26097e68d5979f9988eba5590685d1a",
+        "scripts/短秒の複合退出の会計/context_test.go": "8745287b2908ccc932383cad1b93a1abd886a34a334d014e74ecea8c758dd604",
+        "scripts/短秒の複合退出の会計/entry_gate.go": "d556f0f4feeabfdd23a3b813b62ddbc224e3700f1712cba5b63d675893172cb6",
+        "scripts/短秒の複合退出の会計/entry_grid.go": "cf2a94a84ec934aa21e870f069f2d2c3e83e81510bd5e630bd628bfd53c4139d",
+        "scripts/短秒の複合退出の会計/force_config_test.go": "422212723b4b94ac6472158eb08d4622ad94cba177d4f4f5625d06428808bca4",
+        "scripts/短秒の複合退出の会計/gross_guard.go": "24b2899aa0afbc2d6c0a774e7c61d7a9a4d694be0401d69d9892535c7a5a5647",
+        "scripts/短秒の複合退出の会計/held_exit.go": "a50e40f55088224b2fc738c66dd34e8db6f02bba076c57ee93f908e14c1dca3e",
+        "scripts/短秒の複合退出の会計/held_exit_test.go": "753b09af16c51472d83b9ec4925eb06ef4e055764fb12ca0259f7361f1821e36",
+        "scripts/短秒の複合退出の会計/initial_risk.go": "88ac05eeaa20fedf0bfa1f831adb2003ce85f85179f42e3eb5cbf108530119e5",
+        "scripts/短秒の複合退出の会計/protection_test.go": "f0f3b908879c31d8979be69ca55c4f3689b324116849d9ace9b9a7ad1aafa8f9",
+        "scripts/短秒の複合退出の会計/short_exit.go": "80fb00aeaa337f5545d8339bb14795262378d01b2e490df2939e8bbcc21941b5",
+        "scripts/短秒の複合退出の会計/short_exit_test.go": "15c4b93a477c2eb33fa48f0e5dbbf6936e3d67e69b1f3e79ad5618c0bee3c2e9",
+        "scripts/短秒の複合退出の会計/source_fixture_test.go": "0cb5121ef47de67f34160e1c02f23134b41a5490c9405cdf2941062c051f5df6",
+        "scripts/短秒の複合退出の会計/technical_adapter.go": "c376a89a414d6ab9e00829f1732d930a4d9a87d6d043163f282de5bc43f92477",
+        "scripts/短秒の複合退出の会計/technical_fixture_test.go": "9239fbe41e8c5f1fdcd10cdb2d0d760d0c2c1850d74d9fb3d48ee40630423904",
+        "scripts/短秒の複合退出の会計/go.mod": "16ee7eec6adcaf904294bfe34981e6799efb049f45ce8c2600935d786a3c1e7b",
+        "scripts/短秒の複合退出の会計/go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074"
+      }
+    },
+    {
+      "module": "continuous101",
+      "canonical": "../../scripts/保護判断の連続技法入力",
+      "README": "../../scripts/保護判断の連続技法入力/README.md",
+      "由来": "../../scripts/保護判断の連続技法入力/由来.json",
+      "元停止": "../../work/101連続入力の試作_版3/停止.json",
+      "元停止SHA256": "cf49b2b643afcfda478a5d383c6d5e73bbbee3b477d2a0edc0e45b745ef4d16c",
+      "配置停止": "../../work/101正式配置の準備/continuous101/停止.json",
+      "配置停止SHA256": "96c4ed03611efc0206636ad98a873fa8a9e3bd3052279829243082a4e36494ef",
+      "正式所有数": 13,
+      "正式Go_mod_sum_SHA256": {
+        "scripts/保護判断の連続技法入力/build.go": "c433828a2f962037b6fd7c575148ae550a106c54eea58097459fbc4ce16ba875",
+        "scripts/保護判断の連続技法入力/build_test.go": "f9e00489d172a2361b5232db6a815ac94a314d5030e43baa2fe56e2a4d0f9cb7",
+        "scripts/保護判断の連続技法入力/input.go": "200fda61355a45d1e81ca6d8e73b69d69d5d9205921052e0dee076752100b6a7",
+        "scripts/保護判断の連続技法入力/production.go": "685c43c6c94a741bf318959496d1212a9a56a5b5f8b496933f9600ade755b0fd",
+        "scripts/保護判断の連続技法入力/sidecar.go": "b9f71ad9bbe7a2d5bd6fb65d1c0c19ab64ce2615ec75668c5592432e723a8c69",
+        "scripts/保護判断の連続技法入力/stream.go": "6977b2b5ac9d48b22c0db3efcf122370b644b9f5d1f8306bb57fdbbdaf2b8a23",
+        "scripts/保護判断の連続技法入力/cmd/build/main.go": "34bdcf94c491acc8e21bf2f620e0db439632077ebaf16238f8f54b50f7c07352",
+        "scripts/保護判断の連続技法入力/go.mod": "06295fdd6feaf56bfdea1b715717e95c125fd253bf9203ec72709a8df324c9d1",
+        "scripts/保護判断の連続技法入力/go.sum": "27404f03024310ae928132fe64aff68b9b5197ee871f90c6ea7e2026fba37fd8"
+      }
+    }
+  ],
+  "許可差": [
+    "4本go.modのcanonical相対replace",
+    "短秒純式testの固定fixture参照1箇所",
+    "producer OwnedPathsの正式dir prefix1箇所"
+  ],
+  "数値_時計_所有body変更": false,
+  "go_sum変更": false,
+  "許可文字列変換後bytes同体": true,
+  "元停止72前後不変": true,
+  "旧100固定239コード一致": true,
+  "解決Go依存work参照": false,
+  "人工確認": {
+    "純式2出力": "元人工と全byte同体",
+    "金融S16": "元人工と全byte同体",
+    "空Exit旧100P0": "8会計・全時点/最終JSON96比較・除外[]",
+    "producer2出力": "Current/Chart/入力/stream全値同体、stream_statsの時間/heap/sys測定3欄は別実測"
+  },
+  "新市場実行": false,
+  "Source再生成": false,
+  "Raw_CSV_Native市場本文追加読取": 0,
+  "全54入力完成の証明": false,
+  "注意": [
+    "この配置は条件や市場実行の固定を代用しない。Runtime/市場wrapperのcanonical接続は別工程",
+    "producer専用停止は所有13。既存work版receiptは異なるコード集合でありcanonical first2成功へ転用しない",
+    "旧Ending一致は別の実在証拠へ結び、builderのEnding保存だけを一致と呼ばない",
+    "機会損失・退出後仮想利益を算出しない"
+  ]
+}

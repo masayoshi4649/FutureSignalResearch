@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "試行": 101,
+  "scope": "101保存集計を同条件の金融と独立成功へ結ぶ実行前固定",
+  "固定": true,
+  "stage": "first2",
+  "condition": {
+    "path": "../../study/00101_短秒の失速と現在量で利益を守る/条件.json",
+    "sha256": "08e6c2007eea3d969dd2cf408f4de92d8430fbf35eaaae15d52776a378b80dd5"
+  },
+  "run": "../101短秒市場の再生/先頭2場",
+  "completion_sha256": "0edba1c2b922a44a63bb75bac783000b08d2e71572c19871ac23c3a4bfbdf258",
+  "audit": {
+    "path": "../101短秒市場の独立照合/先頭2場.json",
+    "sha256": "ce8135b3148977962febcee354c5173e5e6b54cc08562534b47f8a8868f9d247"
+  },
+  "first2_audit": null
+}

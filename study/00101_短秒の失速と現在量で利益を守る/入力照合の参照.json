@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "evidence": {
+    "first2_readback": {
+      "path": "../../work/101producer指定の読取照合/版3実2場.json",
+      "sha256": "0d1c8a139d8ab0f17bb1e11f3bd895e9f117429845a5e42a4367dd622f43f8ad",
+      "scope": "固定100由来の連続入力first2の全保存record読戻し・技法値の再生成なし"
+    },
+    "first2_ending": {
+      "path": "../../work/101連続入力の実行/接続2場_版3/場末の独立照合.json",
+      "sha256": "11c073b3509056d2b0371e4094c72e649671e3c6410cc4e060a4ef325ca1464b",
+      "scope": "先頭2場sidecar場末の独立辞書復元と固定100 chart_endの全値比較"
+    },
+    "full54_readback": {
+      "path": "../../work/101連続入力の全54場_版3/全54読戻し.json",
+      "sha256": "1b5e837c441dcafab9d68a5df4ddd491ba9e55bcdf733fba8b8b959321d68e8b",
+      "scope": "固定100許可54の連続入力の全保存record読戻し・技法値の再生成なし"
+    },
+    "full54_ending": {
+      "path": "../../work/101連続入力の全54場_版3/生成/全54場の完了照合.json",
+      "sha256": "9a12b074a122e12731c2406bb5423ba35ef81384bf493f9ad6169e55593f11a5",
+      "scope": "固定100許可54の連続入力生成と限定Ending照合"
+    }
+  }
+}

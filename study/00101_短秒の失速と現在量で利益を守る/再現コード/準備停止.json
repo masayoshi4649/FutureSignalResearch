@@ -1,0 +1,78 @@
+{
+  "成功": true,
+  "状態": "work市場実行版コード保存/metadata結合のみで停止",
+  "コードSHA256": {
+    "コードを保存する.py": "522e43d7ccc9e5ac7bd4feb38382ed23d8e1329e493bec4a38d8ae96840ef5d4",
+    "保存人工.py": "89a5f16431dd01bcb854611bdbfb064bf9419bc83915f56c111b9d8b6e498508",
+    "README.md": "c71182e18ea91b4247b68c71b97c4604855a8721bfbc8bc70f0b4efeae82ea9c"
+  },
+  "停止seed": {
+    "work/101producer指定の読取照合/停止.json": "e29818549c7a13581dfdb79f8352aae9a6aed4d368bacfab3959212eec1eea7d",
+    "work/101市場条件の固定/停止.json": "b698f05840ba655f50dd29523a3a2018d0019638e262e1ea0c12a7ab9080b6a0",
+    "work/101市場条件の固定_版2/停止.json": "24ee130e218266b2a1ae4f4d36ca2a91b9bfffef75bcdd53f19549a4bc10554f",
+    "work/101連続入力の全54場_版3/停止.json": "a75e4aa6fd9eac4bdb9707add16d3c33847e950ae096b924b622504f3e0f272a",
+    "work/101連続入力の全54読取照合/停止.json": "72730ff759bcf447b2d44eb9b271a50a71291ec9cabc1fbbf4677215f035c091",
+    "work/101連続入力の試作_版2/停止.json": "e2901b5a4d0207bb86fb1af579cdc824d8e94cd3d37654ead732ec5a28732869",
+    "work/101連続入力の試作_版3/停止.json": "cf49b2b643afcfda478a5d383c6d5e73bbbee3b477d2a0edc0e45b745ef4d16c",
+    "work/101連続入力の読取照合/停止.json": "11ce4ded7e9168ffce41d6f2827307a77de5ac2fd4cde6329f545930a2fc9a24",
+    "work/101集計と閲覧資料/停止.json": "2d94387f2443e8c127eafde8716df1688a63d1760adae1278dd288957aa399d7",
+    "work/短秒複合退出の再生/停止.json": "ff571dba63a439e9df2fc855f722da1e506ee26cc1ef483de9aa4356e39e2eb7",
+    "work/短秒複合退出の市場の独立確認/停止.json": "213de78f3ab44e0d4ec7575b7bea64fae994c82bc32f66d7d771eb9b95bd673c",
+    "work/短秒複合退出の市場の独立確認_版2/停止.json": "077eac32aed7d4a9d0031f1178c31151f72ee1a5370db966b233b81ccf823167",
+    "work/短秒複合退出の市場接続/停止.json": "2657346bc6a2bf0f759c5275de15ef52db49da752979fd3ccac0890b90e96767",
+    "work/短秒複合退出の純式/停止.json": "0e2e50bc391586daf0040cb9abab2b388b3f9ff23980d50d4f0e50eaa3580f9e",
+    "work/短秒複合退出の金融/停止.json": "f3606e629a84df0530266d6c43fc89d48df87985841baaaeb0c1471ec6046501"
+  },
+  "条件SHA256": "08e6c2007eea3d969dd2cf408f4de92d8430fbf35eaaae15d52776a378b80dd5",
+  "保存条件code": 312,
+  "Go依存指紋": 250,
+  "保存ファイル": 427,
+  "全zipentry": 428,
+  "全読戻し差": 0,
+  "CRC差": 0,
+  "元code前後不変": true,
+  "人工top成功": 5,
+  "独立読取QA": {
+    "受領SHA256": "07e8e50db9a0c595b44f224145c0695228068f4c853feba1af1866784ba8ee3a",
+    "参照欠落": 0,
+    "固定SHA差": 0,
+    "禁止本文/危険path": 0
+  },
+  "正式保存3ファイル": {
+    "市場実行版コード_候補.zip": "4b2bafe2bac89a0d158b4274d54963390ad98f387999262d2de21f437d4a6587",
+    "候補manifest.json": "29d28772b2d5e614e29feeb09b50431638d498a46a0d1ff4d3f3d6000b942f33",
+    "正式保存用_確認.json": "87f9b8dee19a00e9938aaf31dcff064e0ff01902b034c5b8ecde2047a7cd68a3"
+  },
+  "Go取得版": [
+    [
+      "github.com/BurntSushi/toml",
+      "v1.5.0"
+    ],
+    [
+      "github.com/expr-lang/expr",
+      "v1.17.8"
+    ],
+    [
+      "github.com/gorilla/websocket",
+      "v1.5.3"
+    ],
+    [
+      "ローカル",
+      "既存path"
+    ]
+  ],
+  "金融/技法採否/市場本文/Source/移植/再build/正式編集": 0,
+  "全所有SHA256": {
+    "README.md": "c71182e18ea91b4247b68c71b97c4604855a8721bfbc8bc70f0b4efeae82ea9c",
+    "コードを保存する.py": "522e43d7ccc9e5ac7bd4feb38382ed23d8e1329e493bec4a38d8ae96840ef5d4",
+    "保存人工.py": "89a5f16431dd01bcb854611bdbfb064bf9419bc83915f56c111b9d8b6e498508",
+    "候補_最終/候補manifest.json": "29d28772b2d5e614e29feeb09b50431638d498a46a0d1ff4d3f3d6000b942f33",
+    "候補_最終/市場実行版コード_候補.zip": "4b2bafe2bac89a0d158b4274d54963390ad98f387999262d2de21f437d4a6587",
+    "候補_最終/条件metadata照合.json": "d8535d81eead21139ac7758126d73e6dd435c96764663d0e7e7eaa5b0081c0a0",
+    "候補_最終/正式保存用_確認.json": "87f9b8dee19a00e9938aaf31dcff064e0ff01902b034c5b8ecde2047a7cd68a3",
+    "候補_最終/確認.json": "71217a12ae82e7b9af869c6a1ba49aea56e20d1e400df4658a7a6cf0db73897d",
+    "初回候補の指紋と訂正.json": "312ef95e3b937087593982ecba633e83daf1509025045ff606a537c6f845025b",
+    "検査/保存人工.log": "26aef5c9e00a8181adde0124ea3cdce304802b90d91e906e8751465e04350f71",
+    "独立読取QA_受領.json": "07e8e50db9a0c595b44f224145c0695228068f4c853feba1af1866784ba8ee3a"
+  }
+}
