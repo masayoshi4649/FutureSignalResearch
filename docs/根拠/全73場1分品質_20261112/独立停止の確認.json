@@ -1,0 +1,30 @@
+{
+  "成功": true,
+  "段階": "独立自然照合を停止",
+  "確認日": "2026-11-12",
+  "試行": null,
+  "全場": 73,
+  "全minute_mask辞書": 43255,
+  "全scene要約辞書": 73,
+  "全F0源SHA再確認": 83,
+  "F0_SHA256": "85dbb9c44bca26b3c5465b3652d6d801373f1bb75bd32c6d302dd0911f45529f",
+  "Rootdriver最終SHA256": "471cae8be4579640d70cf51802bae16489198732bf217a7ee933953a79793b99",
+  "停止対象": {
+    "README.md": "8bdd6f399a705a711d1e8e7c36f8d1cd2baac343eae3798e9ec572112584539d",
+    "条件.md": "d796c5676ec44d1044782525d988a6f323c5b96d36f8ac71714ea3da0306babf",
+    "独立品質.py": "b329190ec7012dcdb5087754ac0942769fe5a821570664a5c4bb88c2cc57f478",
+    "人工検査.py": "c0924df5ef6fff6d813ddd0a82d9b7c00c55066394c375929e08f33c96dd7641",
+    "照合する.py": "6e27266c52a8aaa0af80eb39e6406d64613f732b00b2425410daf8e9f620b53b",
+    "準備の確認.json": "e26818e67aa3ea1b7a56821d6aee86df09ac07bc413eec18191cec280d4f5807",
+    "注記訂正の追補.json": "768a5196266cfc36cafad624f43dfdf96b371403bc2c18077a9b55e3e347177c",
+    "独立照合.json": "cf3c5958b42015704766e30dbc492bac127abda3de58099e681a9112c7172a87"
+  },
+  "品質算術変更": false,
+  "初回停止と再実行": "正本measurement_noteの旧説明文だけを合わせた追補を不変準備と併存。算術不変をSHAで証明後、人工5群と構文検査を再確認して自然照合を完了。",
+  "作者_Root品質関数import": false,
+  "Raw_金融_追加2場読取": false,
+  "生価格_量値保存": false,
+  "新規出生_採番_測定選定": false,
+  "RawとCSV内容同体を証明": false,
+  "用途": "offline品質照合。未来fileの完備性や最長区間をオンラインborn/anchorに使用しない。共同既知は保守的十分条件であり全VWAP定義の必要条件とはしない。"
+}

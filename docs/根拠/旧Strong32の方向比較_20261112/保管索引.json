@@ -1,0 +1,66 @@
+{
+  "確認日": "2026-11-12",
+  "対象": "旧Strong32と期限38の保存取得方向比較・追補",
+  "比較停止SHA256": "17168b74d9d242c9f8cd2e06a93d8fec6a90bf6a530b104cba49335b6cb71f1a",
+  "比較JSON": {
+    "保存元": "docs/根拠/旧Strong32の方向比較_20261112/Strongと期限の元方向対T8.json.gz",
+    "保存SHA256": "cf56eca77bc5ce1681c5d991a1236e16db2a7c62bee32d92a53ff82e3e7a3397",
+    "保存bytes": 3109,
+    "解凍SHA256": "2754083eaf1c9375dda1e0dfe64a2c12ee6909a124bbe71acb558271db368b26",
+    "解凍bytes": 55023
+  },
+  "比較源ZIP": {
+    "保存元ZIP": "docs/根拠/旧Strong32の方向比較_20261112/比較源と追補前文書.zip",
+    "ZIP_SHA256": "7c4175c1f991d728818c0b8c6858dce30faa0a0acda50114197a3e04784ae95e",
+    "ZIP_bytes": 12385,
+    "格納源": [
+      {
+        "path": "work/旧Strongと期限補完の方向を分ける/比較する.py",
+        "sha256": "5dd0407e264245b761dc1a447eee47b8f2de09c3a52bb994cd51ac9ad9f6684c",
+        "bytes": 7070
+      },
+      {
+        "path": "work/旧Strongと期限補完の方向を分ける/旧StrongではT8が改善していた.md",
+        "sha256": "51a679f9809031f9923945b04da2451e6c34d92f7a0d118036f7000748eebe30",
+        "bytes": 4099
+      },
+      {
+        "path": "docs/議論/旧P3の後続strongを全時間で評価する方針.md",
+        "sha256": "9747f6ccb02e24e4ba24aa5722f9ae0bdc602d06c714f59af88e54b5f5dc8620",
+        "bytes": 5218
+      },
+      {
+        "path": "work/旧P3監査を恒久保存する/旧Strong比較を追補する.py",
+        "sha256": "3ba41b8e3aaeee875dbf86c26594c6030b48bee47d50d36fbe5176307a07e9f5",
+        "bytes": 8332
+      }
+    ]
+  },
+  "共有入力": [
+    {
+      "保存元": "inputs/00137_公表時確認のSource入力/方向と出生.json.gz",
+      "復元先": "work/137既知回復の評価/固定入力/方向と出生.json",
+      "形式": "gzip",
+      "保存bytes": 42407,
+      "保存SHA256": "6bf61443442aeea22b220e8f0a86dbb8d3e955eb61b065c2150bfafedcc14701",
+      "解凍bytes": 904481,
+      "解凍SHA256": "86f33705ba40fd3ba1b845557a2368e44c2802635082fc3bad69346770103f93"
+    },
+    {
+      "保存元": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/成果物/固定取得の正逆観測.json.gz",
+      "復元先": "work/138全成立入口の評価/固定取得の正逆観測.json",
+      "形式": "gzip",
+      "保存bytes": 610222,
+      "保存SHA256": "5e98af3fae819642496e1db8390dcfa2d15c6a9188f8cbae020b922573a317aa",
+      "解凍bytes": 22517620,
+      "解凍SHA256": "d272fc6f6768342ff67e1a9ec58b0b7307a0a5b07cc215ba5ff7bcb50865b742"
+    }
+  ],
+  "旧監査索引": {
+    "path": "docs/根拠/旧P3の後続strong_20261112/保管索引.json",
+    "sha256": "a39786c01a9a943c2b80e5449b381aaabb18d02f83695fd18cba6759b645a417"
+  },
+  "追補前共通知見SHA256": "9747f6ccb02e24e4ba24aa5722f9ae0bdc602d06c714f59af88e54b5f5dc8620",
+  "旧監査と旧成果の変更": false,
+  "新Raw/Source/先着観測/144条件変更": false
+}

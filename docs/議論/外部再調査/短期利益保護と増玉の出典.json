@@ -1,0 +1,45 @@
+{
+  "確認日": "2026-11-10",
+  "状態": "未採番・未固定・外部調査のみ",
+  "一次資料の範囲": "運営組織の教材・公式実行仕様・指標開発者本人の規則・執筆者本人の公開本文。原著の全書籍、動画全編、チャート数値再測定、NK225費用後統計の検証は含まない。",
+  "今回の新金融実行": false,
+  "今回のRaw本文読取": false,
+  "今回のNative本文読取": false,
+  "今回のCSV本文読取": false,
+  "今回の11月09日本文読取": false,
+  "資料": [
+    {"id":"S01","著者又は運営":"CME Group","題名":"Proper Position Size","url":"https://www.cmegroup.com/education/courses/trade-and-risk-management/proper-position-size","確認日":"2026-11-10","読取範囲":"本文冒頭の停止位置・通常変動・許容損失・点価と数量の例。小テストや教材動画の全視聴は対象外。","扱い":"教育上の一般説明。掲載1〜3%を本研究の条件に採用しない。"},
+    {"id":"S02","著者又は運営":"CME Group","題名":"Step 4. Trading Strategies in Your Trade Plan","url":"https://www.cmegroup.com/education/courses/building-a-trade-plan/trading-strategies-in-your-trade-plan","確認日":"2026-11-10","読取範囲":"Define set-ups and trigger points / Managing open trades / Exit strategy。","扱い":"事前の退出計画・部分回収・残玉建値管理の説明。数値的な収益性の証明ではない。"},
+    {"id":"S03","著者又は運営":"CME Group","題名":"Trailing Stop Orders","url":"https://www.cmegroup.com/tools-information/webhelp/cme-direct/cme-direct-trader-broker/Content/Trailing-Stop-Orders.html","確認日":"2026-11-10","読取範囲":"追尾の定義、売り／買いの有利側更新、WTI例、Stop-Limit／Stop with Protectionの操作。","扱い":"CME Directの製品仕様の説明。OSE又は本研究の全玉BBO床と同体とはしない。"},
+    {"id":"S04","著者又は運営":"Fidelity","題名":"Average True Range (ATR)","url":"https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/atr","確認日":"2026-11-10","読取範囲":"Description / How this indicator works / Calculation。","扱い":"変動尺度と停止利用の一般説明。掲載期間・倍率を最適閾値としない。"},
+    {"id":"S05","著者又は運営":"Fidelity","題名":"Relative Strength Index (RSI)","url":"https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI","確認日":"2026-11-10","読取範囲":"Description、強いトレンド中の水準持続、価格との不一致・Top/Bottom Swing Failure、算式。","扱い":"70/30等は教材例。NK225の短期退出条件として未検証。"},
+    {"id":"S06","著者又は運営":"John Bollinger","題名":"Bollinger Bands Rules","url":"https://www.bollingerbands.com/bollinger-band-rules","確認日":"2026-11-10","読取範囲":"規則1〜22。特に3〜4/6〜10/13〜14/18〜22。","扱い":"開発者本人の一般規則。帯接触・高RSI・複数価格指標を独立な売買根拠にしない。"},
+    {"id":"S07","著者又は運営":"StockCharts ChartSchool","題名":"Chandelier Exit","url":"https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/chandelier-exit","確認日":"2026-11-10","読取範囲":"What Is / Calculation / Interpreting / Uptrend / Downtrend / 結論。チャートの極値数値は再測定していない。","扱い":"同社の指標説明の一次本文。Le Beau／Elder原著の代替やNK225での効果検定とはしない。"},
+    {"id":"S08","著者又は運営":"StockCharts ChartSchool","題名":"Introduction to Technical Indicators and Oscillators","url":"https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/introduction-to-technical-indicators-and-oscillators","確認日":"2026-11-10","読取範囲":"指標の定義、The Challenge of Indicatorsの感度・往復・遅れの交換条件。","扱い":"公式教材の一般説明。1分化の収益性の証明にはしない。"},
+    {"id":"S09","著者又は運営":"Brian Shannon / Kyna Kosling、Alphatrends","題名":"6 Ways You Can Trade With Multiple Timeframes","url":"https://alphatrends.net/archives/6-ways-you-can-trade-with-multiple-timeframes/","本文の初出表示":"2025-08-16","確認日":"2026-11-10","読取範囲":"本文1〜6。特に3 More precise entries / 4 More dynamic stop loss placement and management / 5 More precise exits。","扱い":"本人の株式スイングの実務説明。高確率という表現を本研究での統計結果へ転用せず、既床を広げる管理も採用しない。"},
+    {"id":"S10","著者又は運営":"Adam H. Grimes","題名":"Reader question: Multiple timeframes?","url":"https://www.adamhgrimes.com/reader-question-multiple-timeframes/","公開日":"2016-11-07","確認日":"2026-11-10","読取範囲":"本文全体。下位足構造だけの極端な狭幅stop、変動幅との不整合、検証の必要性。","扱い":"著者本人の経験的な反論。一般に短期stopが無効という統計的証明ではない。"},
+    {"id":"S11","著者又は運営":"Adam H. Grimes","題名":"Beware of markets bearing gifts... but take them!","url":"https://www.adamhgrimes.com/beware-markets-bearing-gifts-take/","公開日":"2014-09-08","確認日":"2026-11-10","読取範囲":"Volatility / Danger of climax and reversal / Psychological risksと結論。","扱い":"変動拡大・増玉・一時反転の危険と心理に関する著者説明。縮小比率や時間待ちの教材例を採用しない。"},
+    {"id":"S12","著者又は運営":"TradingView","題名":"Pine Script v6 / Language / Execution model","url":"https://www.tradingview.com/pine-script-docs/language/execution-model/","確認日":"2026-11-10","読取範囲":"Realtime bars、Executions on realtime bars、履歴へ変わると途中tick値が失われる説明。","扱い":"公式ソフトウェア仕様の一次資料。未確定足の最終値と当時値が違う技術上の根拠。本研究をPineと同一実装とはしない。"}
+  ],
+  "本文未確認": [
+    {"題名":"Alphatrends / 2-minute exit","url":"https://alphatrends.net/archives/premium_articles/2-minute-exit/","確認日":"2026-11-10","理由":"S09のリンク先を開くと会員サイトへ転送され取得不可。検索断片やS09のリンク名から2分退出の具体的規則を補完していない。"}
+  ],
+  "既存知見の再読": [
+    "docs/議論/外部再調査/継続の方向と取得位置と短期保護を分ける.md",
+    "docs/議論/外部再調査/追尾の発動と返済約定を分ける.md",
+    "docs/議論/外部再調査/取得前の距離と取得後の保護を分ける.md",
+    "docs/議論/外部再調査/変動の余地と建値床の制約.md",
+    "docs/議論/低い利益起動と支持失効だけでは改善しなかった比較.md"
+  ],
+  "候補数": 3,
+  "候補": [
+    {"id":"A","名称":"取得後の短期波を更新する非緩和利益保護","分離する因子":"正益保護の起動時機／取得後局所波による更新／短期勢いと反対TR"},
+    {"id":"B","名称":"進み切り候補と調整後再開の取得・追加時確認","分離する因子":"取得位置・短い進行への集中・価格と勢いの順序"},
+    {"id":"C","名称":"構造距離と全建玉の金額予算による新規・追加枚数上限","分離する因子":"数量。既存の退出式・床を緩めない"}
+  ],
+  "NK225での改善実証": false,
+  "新しい閾値の採用": false,
+  "研究側の新規時計の追加": false,
+  "既存金融条件の変更": false,
+  "機会損失又は退出後仮想利益の算出": false
+}

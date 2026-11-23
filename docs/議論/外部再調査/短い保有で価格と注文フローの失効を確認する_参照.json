@@ -1,0 +1,215 @@
+{
+  "確認日": "2026-11-09",
+  "種別": "共通知見の出典と正式整理の確認",
+  "本文": {
+    "path": "docs/議論/外部再調査/短い保有で価格と注文フローの失効を確認する.md",
+    "SHA256": "b5dcede0c58d2dd56ed1875116afcda844d6473ac4d717a6e63a5ff805f9605e"
+  },
+  "work由来": {
+    "本文": {
+      "path": "work/101外部の退出知見/短い保有で価格と注文フローの失効を確認する.md",
+      "SHA256": "e77ad189cc71d8cc37b9ddfd353a56c554fa634b1d976cc93787edacd2ba0c55"
+    },
+    "出典": {
+      "path": "work/101外部の退出知見/出典と確認.json",
+      "SHA256": "8b8a2b6465f75d01f597292d03fe048fc4dbd63f41c1ba5b02da71344de60996"
+    }
+  },
+  "新規実読の継承": "2026-11-08にworkで新たに外部本文を確認した4件を正式整理。追加4件は追加確認欄へ日付別に記録。正式化で同じ資料を新たな実証へ数え直さない。",
+  "資料": [
+    {
+      "ID": "S1",
+      "題名": "Order Book Price Impact in the Chinese Soybean Futures Market",
+      "著者": [
+        "Muzhao Jin",
+        "Fearghal Kearney",
+        "Youwei Li",
+        "Yung Chiang Yang"
+      ],
+      "種別": "大学公開の著者受理稿",
+      "版": "2021-01受理稿、刊行2023",
+      "URL": "https://livrepository.liverpool.ac.uk/3189553/7/Manuscript_%20Order%20Book%20Imbalance%20Accepted%202021.pdf",
+      "書誌URL": "https://livrepository.liverpool.ac.uk/3189553/",
+      "DOI": "10.1002/ijfe.2439",
+      "確認日": "2026-11-08",
+      "実読箇所": [
+        "PDF pp.26-27",
+        "PDF p.41/Table8",
+        "大学書誌abstract"
+      ],
+      "対象": "大連大豆粕先物",
+      "確認": "10秒OFIに対するMidの10-20秒係数は正、40-90秒は負、30秒は有意でない。時間と方向を分ける。",
+      "限界": "回帰有意性は売買勝率ではなく、NK/mini費用後利益を実証しない。",
+      "取得": "webのPDFopenは失敗。requestsで同じ大学URLから直接取得しPyMuPDFで本文確認。原PDFは保存しない。",
+      "取得bytes": 1253755,
+      "PDFページ数": 47,
+      "取得本文SHA256": "d1404482b9727b4019d118c31356aba2a4d6bbe3b35dd564005b57170f7dc8d9"
+    },
+    {
+      "ID": "S2",
+      "題名": "The Price Impact of Order Book Events",
+      "著者": [
+        "Rama Cont",
+        "Arseniy Kukanov",
+        "Sasha Stoikov"
+      ],
+      "種別": "著者公開論文稿",
+      "URL": "https://arxiv.org/html/1011.6402",
+      "DOI": "10.1093/jjfinec/nbt003",
+      "確認日": "2026-11-08",
+      "実読箇所": [
+        "2.1-2.3",
+        "3.1-3.2"
+      ],
+      "対象": "米国株50銘柄、2010年4月",
+      "確認": "最良気配のOFIは指値/取消/約定をまとめた変化で、主な10秒価格回帰は同時の応答。板厚との関係を区別する。",
+      "限界": "同時説明を将来予測や退出利益へ置き換えない。独自正規化OFIの定義も同じとは限らない。",
+      "取得": "今回web HTML本文を再読。原文保存なし"
+    },
+    {
+      "ID": "S3",
+      "題名": "Assessing liquidity – Revisiting whether book depth is a sufficiently representative measure of market liquidity",
+      "発行": "CME Group",
+      "種別": "取引所による先物流動性分析",
+      "URL": "https://www.cmegroup.com/education/articles-and-reports/assessing-liquidity",
+      "確認日": "2026-11-08",
+      "実読箇所": [
+        "Executive Summary",
+        "Introduction",
+        "Looking at order book depth",
+        "Price dispersions"
+      ],
+      "対象": "E-mini S&P500先物、2020年の市場環境を比較",
+      "確認": "表示板厚単独と執行品質は別。補充と実際の価格応答を組み合わせて評価する。",
+      "限界": "薄い板が退出条件になる、又はNKのラージ/mini執行が同じという証明ではない。",
+      "取得": "今回web HTML本文を確認。原文保存なし"
+    },
+    {
+      "ID": "S4",
+      "題名": "Trailing Stop Orders",
+      "発行": "CME Group / CME Direct",
+      "種別": "取引所提供システムの注文仕様",
+      "URL": "https://www.cmegroup.com/tools-information/webhelp/cme-direct/cme-direct-trader-broker/Content/Trailing-Stop-Orders.html",
+      "確認日": "2026-11-08",
+      "実読箇所": [
+        "Trailing Stopの方向別動作",
+        "WTI例の発動",
+        "Stop-Limit/Stop with Protection選択"
+      ],
+      "確認": "有利にだけ更新する線と発動の注文動作を分ける。基準はlast trade。",
+      "限界": "返済BBO/ソフト要求/次適格原行fill、OSE注文機能、費用後利益保証とは別。",
+      "取得": "今回web HTML本文を再読。原文保存なし"
+    }
+  ],
+  "一般論と独自案": {
+    "一般": "短期の価格応答/板更新/執行品質/追尾注文の機能。",
+    "心理仮説": "価格回復失敗と反対量の交差は維持する働きの弱まりの可能性で、主体意図を測った実証ではない。",
+    "独自未検証": [
+      "公開価格線の喪失＋現在の反対量＋短秒逆進行",
+      "喪失後の回復失敗＋新しい反対量の再確認"
+    ],
+    "採用/具体閾値固定": false
+  },
+  "入力境界": "固定TapeのScalar11に連続OFI/E08/短秒はない。5分Currentの据置きを連続の現在値にしない。将来の新入力sidecarと因果監査が別途必要。",
+  "共通維持": [
+    "現在費用後u>0の追尾義務/最低名目建値",
+    "売買sign対称/SourceSide不変",
+    "ATR距離/Source予約/次適格原行fillを別役割へ分離"
+  ],
+  "100との関係": {
+    "正式結果": {
+      "path": "study/00100_費用後利益化の前後で保護を分ける/成果物/結果.json",
+      "SHA256": "47a46a85bc30cf138effceba9cc899e33968430735c04e2aa271cc1561c839ba",
+      "今回本文再読": false
+    },
+    "保有時計の補助診断": {
+      "path": "work/101検討の前段/保有時計の停止.json",
+      "SHA256": "2f82570dbca361515e330645fc61a425fd7a88d2d1910d824ebef5a4791e94d0",
+      "scope": "P0実約定216資源・112感度行と保有枠。個別Native/原板/Source/返済理由/利益起動時計の補完なし。",
+      "本文への数値転載": false
+    },
+    "注意": "保有時計と利益後の未予約退出可能時計は同じではない。短い保有という動機を、新たな退出方式の効果の証拠へ置換しない。"
+  },
+  "正式化の変更": [
+    "導入を一般化し中央値数値を転載しない",
+    "100正本と前段時計診断の限定scopeを明示",
+    "相対リンクを正式配置へ修正",
+    "目次リンク追加"
+  ],
+  "今回の禁止範囲": {
+    "コード236編集": 0,
+    "100正式trial編集": 0,
+    "Raw/新日/Native本文読取": 0,
+    "Source/金融/チャート再生": 0,
+    "ViewerAPI": 0,
+    "新閾値/方式採用": 0,
+    "機会損失/退出後仮想利益/回収率": 0
+  },
+  "限界": "他市場・取引所仕様の一般説明。NK/miniの費用後利益、候補2案の有効性、実注文の約定は未検証。主体意図を価格図形だけで断定しない。",
+  "追加前本文SHA256": "3c63b734f4760d129b69839a8833880433225237646fa508dc77840859d95de5",
+  "追加確認": [
+    {
+      "確認日": "2026-11-08",
+      "範囲": "500msスナップショット、組合せと予測地平の違い、月ごとの記憶の違い。PnLは予測符号別の将来Mid変化合計で、NK費用後約定収支の証明ではない",
+      "種別": "著者プレプリント",
+      "ID": "S5",
+      "版": "arXiv:2505.17388v1、2025-05-23",
+      "題名": "Stochastic Price Dynamics in Response to Order Flow Imbalance: Evidence from CSI 300 Index Futures",
+      "URL": "https://arxiv.org/html/2505.17388v1",
+      "実読箇所": [
+        "2.1.1",
+        "3.1",
+        "4",
+        "5",
+        "6"
+      ],
+      "著者": [
+        "Chen Hu",
+        "Kouxiao Zhang"
+      ]
+    },
+    {
+      "ID": "S6",
+      "種別": "CME公式教材",
+      "確認日": "2026-11-08",
+      "範囲": "背景条件・具体的発動・保有管理・退出の区別。新案の収益実証には使わない",
+      "URL": "https://www.cmegroup.com/education/courses/building-a-trade-plan/trading-strategies-in-your-trade-plan",
+      "題名": "Step 4. Trading Strategies in Your Trade Plan",
+      "実読箇所": [
+        "Define set-ups and trigger points",
+        "Managing open trades",
+        "Exit strategy"
+      ]
+    },
+    {
+      "著者": "Gould・Bonart",
+      "題名": "Queue Imbalance as a One-Tick-Ahead Price Predictor in a Limit Order Book",
+      "版": "著者稿2015年・arXiv:1512.03492",
+      "URL": "https://arxiv.org/pdf/1512.03492",
+      "実読範囲": "§4、§6の分類評価、§7–8。PDF pp.8–9、24–28",
+      "対象": "Nasdaqの10株式銘柄",
+      "主要評価": "次のMid変化の方向・確率の分類",
+      "費用後先物退出の実証": false,
+      "ID": "S7",
+      "確認日": "2026-11-09"
+    },
+    {
+      "著者": "Lillo・Farmer",
+      "題名": "The long memory of the efficient market",
+      "版": "arXiv:cond-mat/0311053v2・2004年",
+      "URL": "https://arxiv.org/pdf/cond-mat/0311053",
+      "実読範囲": "§III、§VI・VI.B。PDF pp.3、9–14",
+      "対象": "LSEの注文・取消データ",
+      "主要評価": "注文符号の持続性と相対流動性・価格応答",
+      "取引費用詳細推定": false,
+      "費用後先物退出の実証": false,
+      "ID": "S8",
+      "確認日": "2026-11-09"
+    }
+  ],
+  "追加補足の由来": {
+    "path": "work/101外部補足/確認.json",
+    "SHA256": "bab08e99ef7aa9b4c106d57e2775ad7e5be85a69c077545c2f02ef6f64eec168",
+    "範囲": "外部本文2件の確認。実市場とS金融は実行しない。"
+  }
+}

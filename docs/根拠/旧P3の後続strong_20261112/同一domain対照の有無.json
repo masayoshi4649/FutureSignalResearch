@@ -1,0 +1,659 @@
+{
+  "成功": true,
+  "新採番": false,
+  "コード読取のみ": true,
+  "元metadataの分類だけ読取": true,
+  "元metadata": {
+    "path": "work\\137既知回復の評価\\固定入力\\方向と出生.json",
+    "sha256": "86f33705ba40fd3ba1b845557a2368e44c2802635082fc3bad69346770103f93"
+  },
+  "旧81の適用": [
+    {
+      "kind": "E0",
+      "direction_policy": "source",
+      "count": 9
+    },
+    {
+      "kind": "E1",
+      "direction_policy": "pattern",
+      "count": 2
+    },
+    {
+      "kind": "L0",
+      "direction_policy": "fixedT8",
+      "count": 70
+    }
+  ],
+  "旧L0補完70": [
+    {
+      "path": "deadline",
+      "strategy": "deadline",
+      "count": 38
+    },
+    {
+      "path": "strong",
+      "strategy": "reversal",
+      "count": 1
+    },
+    {
+      "path": "strong",
+      "strategy": "trend",
+      "count": 31
+    }
+  ],
+  "旧L0取得後続を全て生成した対照": "確認した123/133/137および138素材には無い。coveredでscore評価前に停止",
+  "旧E1全stream": "137が技術状態制約内の全出生/要求/取得を保存、A0へ全取得追加済み",
+  "注意": [
+    "coveredは実口座保有ではなく、その場で既に取得したという永続参加フラグ",
+    "coveredだけ外すと3h以後deadlineが原行ごと再要求し、同じ状態の回数水増しを起こし得る",
+    "新5分ID+side等の消費/再準備は次試行でF0前に定義する対象で、ここでは採用しない"
+  ],
+  "コード根拠": [
+    {
+      "role": "123 first-only",
+      "path": "work/123全場参加の入口比較/entry.go",
+      "sha256": "c4c57e55943a2a03778f280dab6385e68aee91509f6160e95cfedc4152a933a6",
+      "evidence": [
+        {
+          "needle": "covered[policy] || hasPending123",
+          "lines": [
+            {
+              "line": 453,
+              "text": "if covered[policy] || hasPending123(pending, policy) || q.Time >= s.ForceClose {"
+            }
+          ]
+        },
+        {
+          "needle": "supplements > 1",
+          "lines": [
+            {
+              "line": 546,
+              "text": "if count != len(out.Events) || supplements > 1 {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "133 first-only",
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry.go",
+      "sha256": "1c4de9282190e2a3c00c86f8a80ef9568ac329e5c24fe8948e0098fb4058652f",
+      "evidence": [
+        {
+          "needle": "covered[c.Policy] = true",
+          "lines": [
+            {
+              "line": 280,
+              "text": "covered[c.Policy] = true"
+            },
+            {
+              "line": 300,
+              "text": "covered[c.Policy] = true"
+            }
+          ]
+        },
+        {
+          "needle": "if covered[c.Policy]",
+          "lines": [
+            {
+              "line": 289,
+              "text": "if covered[c.Policy] {"
+            }
+          ]
+        },
+        {
+          "needle": "covered[policy] || hasPending133",
+          "lines": [
+            {
+              "line": 441,
+              "text": "if covered[policy] || hasPending133(pending, policy) || q.Time >= s.ForceClose {"
+            }
+          ]
+        },
+        {
+          "needle": "supplements > 1",
+          "lines": [
+            {
+              "line": 523,
+              "text": "if count != len(out.Events) || supplements > 1 {"
+            }
+          ]
+        },
+        {
+          "needle": "return s.Start + 10800",
+          "lines": [
+            {
+              "line": 228,
+              "text": "return s.Start + 10800"
+            }
+          ]
+        },
+        {
+          "needle": "if c.Path != \"E0\"",
+          "lines": [
+            {
+              "line": 185,
+              "text": "if c.Path != \"E0\" {"
+            },
+            {
+              "line": 274,
+              "text": "if c.Path != \"E0\" {"
+            }
+          ]
+        },
+        {
+          "needle": "func supplement133",
+          "lines": [
+            {
+              "line": 211,
+              "text": "func supplement133(policy, path string, d Decision133, q Quote, s Scene133) *Candidate133 {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "133 technical",
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score.go",
+      "sha256": "1a513f48e70ae65ec214caa9b69d8c0588834026963f5af66c46d95c303f6a60",
+      "evidence": [
+        {
+          "needle": "func score133",
+          "lines": [
+            {
+              "line": 109,
+              "text": "func score133(bank *rules.Bank, q Quote, window *Window133) (Decision133, error) {"
+            }
+          ]
+        },
+        {
+          "needle": "score :=",
+          "lines": [
+            {
+              "line": 215,
+              "text": "score := (t.Value + g*(m.Value+(1+u)*position.Value)) / denominator"
+            }
+          ]
+        },
+        {
+          "needle": "func strong133",
+          "lines": [
+            {
+              "line": 237,
+              "text": "func strong133(d Decision133) (Decision133, bool) {"
+            }
+          ]
+        },
+        {
+          "needle": "c[\"RVOL5\"].Value < 1",
+          "lines": [
+            {
+              "line": 242,
+              "text": "if !c[\"RVOL5\"].Known || c[\"RVOL5\"].Value < 1 || c[\"TR5\"].Value > 2*c[\"previous_ATR5\"].Value {"
+            }
+          ]
+        },
+        {
+          "needle": "math.Abs(d.Score.Value) < .5",
+          "lines": [
+            {
+              "line": 259,
+              "text": "if !rsi.Known || s*(rsi.Value-50) < 0 || s*(rsi.Value-50) > 20 || !c[\"Hist5\"].Known || s*c[\"Hist5\"].Value <= 0 || s*c[\"M\"].Value <= 0 || s*c[\"P\"].Value <= 0 || math.Abs(d.Score.Value) < .5 {"
+            }
+          ]
+        },
+        {
+          "needle": "c[\"ADX5\"].Value >= c[\"previous_ADX5\"].Value",
+          "lines": [
+            {
+              "line": 266,
+              "text": "if !c[\"prior3_low\"].Known || !c[\"prior3_high\"].Known || !c[\"previous_RSI5\"].Known || !c[\"RSI_delta\"].Known || !c[\"Hist_delta\"].Known || !c[\"ADX5\"].Known || !c[\"previous_ADX5\"].Known || c[\"ADX5\"].Value >= c[\"previous_ADX5\"].Value {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "133 clock",
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock.go",
+      "sha256": "15edbd78fd623c5aea4bd7b2172a409368bde85f9b94540f3beaca19bb36a929",
+      "evidence": [
+        {
+          "needle": "s.End-300-3600",
+          "lines": [
+            {
+              "line": 17,
+              "text": "s.ForceClose = math.Min(s.ForceClose, s.End-300-3600)"
+            },
+            {
+              "line": 18,
+              "text": "if s.End-300-3600-120 <= s.Start || s.ForceClose <= s.Start {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "133 direction",
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction.go",
+      "sha256": "3fbdffe3514c90378c74074ab04eec322df75bc9b97d065a29291ac5aeb16ee1",
+      "evidence": [
+        {
+          "needle": "ratio.Value >= .5",
+          "lines": [
+            {
+              "line": 138,
+              "text": "if ratio.Known && ratio.Value >= .5 && ratio.Value < .75 {"
+            }
+          ]
+        },
+        {
+          "needle": "histATR.Value >= .1",
+          "lines": [
+            {
+              "line": 162,
+              "text": "if longToB0.Known && longToB0.Value >= 0 && histATR.Known && histATR.Value >= .1 {"
+            }
+          ]
+        },
+        {
+          "needle": "protected := path == \"E0\"",
+          "lines": [
+            {
+              "line": 179,
+              "text": "protected := path == \"E0\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "137 legacy",
+      "path": "work/137既知回復をSourceへ接続する/Source再生器/entry.go",
+      "sha256": "60d1a19649f298d724278be3463b7ca4c23b413e6e8c80cace62953d548e4aaf",
+      "evidence": [
+        {
+          "needle": "covered[policy] || hasPending133",
+          "lines": [
+            {
+              "line": 457,
+              "text": "if covered[policy] || hasPending133(pending, policy) || q.Time >= s.ForceClose {"
+            }
+          ]
+        },
+        {
+          "needle": "supplements > 1",
+          "lines": [
+            {
+              "line": 539,
+              "text": "if count != len(out.Events) || supplements > 1 {"
+            }
+          ]
+        },
+        {
+          "needle": "observer.Accepted",
+          "lines": [
+            {
+              "line": 449,
+              "text": "if err = observer.Accepted(bank, *q, e0Born[\"L0\"], newFills, scan.Bytes()); err != nil {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "137 observer",
+      "path": "work/137既知回復をSourceへ接続する/Source再生器/observer.go",
+      "sha256": "31d6eef35e09e50aa7458bfcf6251ce9d0b22815f9fbee865426c8026f26d0fe",
+      "evidence": [
+        {
+          "needle": "func (o *e1Observer) Accepted",
+          "lines": [
+            {
+              "line": 170,
+              "text": "func (o *e1Observer) Accepted(bank *rules.Bank, q Quote, e0Born bool, legacyFills []*Candidate133, row []byte) error {"
+            }
+          ]
+        },
+        {
+          "needle": "o.Detector.Observe",
+          "lines": [
+            {
+              "line": 195,
+              "text": "events, err := o.Detector.Observe(snapshot, e1Quote(q), offered, prior)"
+            }
+          ]
+        },
+        {
+          "needle": "o.Events = append",
+          "lines": [
+            {
+              "line": 204,
+              "text": "o.Events = append(o.Events, event)"
+            }
+          ]
+        },
+        {
+          "needle": "o.Candidates = append",
+          "lines": [
+            {
+              "line": 205,
+              "text": "o.Candidates = append(o.Candidates, c)"
+            }
+          ]
+        },
+        {
+          "needle": "cancelled_e0_priority",
+          "lines": [
+            {
+              "line": 213,
+              "text": "c.Status = \"cancelled_e0_priority\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "137 frequency",
+      "path": "work/137既知回復をSourceへ接続する/Source再生器/frequency.go",
+      "sha256": "7d25ac808f6c00bf3d789afc223e3e5dcfdcbe4c86a4e24be237c3552ab13270",
+      "evidence": [
+        {
+          "needle": "func frequencyE1Scene",
+          "lines": [
+            {
+              "line": 21,
+              "text": "func frequencyE1Scene(s Scene133, legacy Result133, extra []*E1Candidate) ([]selectentry.Candidate, error) {"
+            }
+          ]
+        },
+        {
+          "needle": "for _, c := range extra",
+          "lines": [
+            {
+              "line": 35,
+              "text": "for _, c := range extra {"
+            }
+          ]
+        },
+        {
+          "needle": "if c.Entry == nil",
+          "lines": [
+            {
+              "line": 36,
+              "text": "if c.Entry == nil {"
+            }
+          ]
+        },
+        {
+          "needle": "if seen[key]",
+          "lines": [
+            {
+              "line": 30,
+              "text": "if seen[key] {"
+            },
+            {
+              "line": 41,
+              "text": "if seen[key] {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "137 full source",
+      "path": "work/137既知回復をSourceへ接続する/Source再生器/run_e1.go",
+      "sha256": "a5b0d8f3375bb1689a743c017d49a16c2885b2f6d5fe120542399dfdb3f73127",
+      "evidence": [
+        {
+          "needle": "out.E1Events = observer.Events",
+          "lines": [
+            {
+              "line": 89,
+              "text": "out.E1Events = observer.Events"
+            }
+          ]
+        },
+        {
+          "needle": "out.E1Candidates = observer.Candidates",
+          "lines": [
+            {
+              "line": 90,
+              "text": "out.E1Candidates = observer.Candidates"
+            }
+          ]
+        },
+        {
+          "needle": "out.FrequencyA0",
+          "lines": [
+            {
+              "line": 99,
+              "text": "out.FrequencyA0, err = frequencyE1Scene(s, legacy, observer.Candidates)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "137 state",
+      "path": "work/137公表時に既知の短期回復を確認する/state.go",
+      "sha256": "33fd8d6c065e37baed8facc02954375d33702968f6f80684c20a196021d55a7d",
+      "evidence": [
+        {
+          "needle": "if d.used[key]",
+          "lines": [
+            {
+              "line": 109,
+              "text": "if d.used[key] {"
+            }
+          ]
+        },
+        {
+          "needle": "q.Time-at < 600",
+          "lines": [
+            {
+              "line": 113,
+              "text": "if at, yes := d.cooldown[side]; yes && q.Time-at < 600 {"
+            }
+          ]
+        },
+        {
+          "needle": "d.used[key] = true",
+          "lines": [
+            {
+              "line": 131,
+              "text": "d.used[key] = true"
+            }
+          ]
+        },
+        {
+          "needle": "func (d *Detector) improve",
+          "lines": [
+            {
+              "line": 164,
+              "text": "func (d *Detector) improve(e *episode, s rules.Snapshot, q Quote) {"
+            }
+          ]
+        },
+        {
+          "needle": "func (d *Detector) recover",
+          "lines": [
+            {
+              "line": 186,
+              "text": "func (d *Detector) recover(e *episode, b Bar, history []Bar, s rules.Snapshot, q Quote) {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "137 background",
+      "path": "work/137公表時に既知の短期回復を確認する/helpers.go",
+      "sha256": "bbf8bca5dd0c2cf6426a80353ebad0118ab71d826f2261d6da494c60897c7042",
+      "evidence": [
+        {
+          "needle": "func context",
+          "lines": [
+            {
+              "line": 75,
+              "text": "func context(s rules.Snapshot, side int) (string, bool) {"
+            }
+          ]
+        },
+        {
+          "needle": "s.RVOL5.Value < .5",
+          "lines": [
+            {
+              "line": 83,
+              "text": "if !known(t.ATR, t.PreviousATR, t.TR, t.RSI, t.PreviousRSI, t.Histogram, s.RVOL5) || t.ATR.Value <= 0 || t.PreviousATR.Value <= 0 || t.TR.Value < 0 || t.TR.Value > 2*t.PreviousATR.Value || math.Abs(t.RSI.Value-t.PreviousRSI.Value) > 10 || s.RVOL5.Value < .5 || x*(t.RSI.Value-50) < -10 {"
+            }
+          ]
+        },
+        {
+          "needle": "d.ADX.Value < 20",
+          "lines": [
+            {
+              "line": 88,
+              "text": "if !known(d.PlusDI, d.MinusDI, d.ADX) || x*(d.PlusDI.Value-d.MinusDI.Value) <= 0 || d.ADX.Value < 20 {"
+            }
+          ]
+        },
+        {
+          "needle": "func quantity",
+          "lines": [
+            {
+              "line": 151,
+              "text": "func quantity(b Bar, history []Bar) bool {"
+            }
+          ]
+        },
+        {
+          "needle": "func rejection",
+          "lines": [
+            {
+              "line": 163,
+              "text": "func rejection(b Bar, side int) bool {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "137 selection",
+      "path": "work/押戻し回復の取得を時系列で選ぶ/select.go",
+      "sha256": "51bd48ecd7056301c34b56d8f43a5a00674cf4fb07315f25bf9fbfc617643cea",
+      "evidence": [
+        {
+          "needle": "func Select",
+          "lines": [
+            {
+              "line": 160,
+              "text": "func Select(candidates []Candidate) (Result, error) {"
+            }
+          ]
+        },
+        {
+          "needle": "if !e0Seen && !complementSelected",
+          "lines": [
+            {
+              "line": 199,
+              "text": "if !e0Seen && !complementSelected {"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "118 notifications",
+      "path": "work/118入口比較/entry.go",
+      "sha256": "2b97fe0d63ed3bac48beb7024ffa9a2f4deeebac094d06b2699171cc9e859d60",
+      "evidence": [
+        {
+          "needle": "Signals          []Signal118",
+          "lines": [
+            {
+              "line": 50,
+              "text": "Signals          []Signal118         `json:\"signals\"`"
+            }
+          ]
+        },
+        {
+          "needle": "for bi < len(signals)",
+          "lines": [
+            {
+              "line": 338,
+              "text": "for bi < len(signals) && signals[bi].Index <= q.Index {"
+            }
+          ]
+        },
+        {
+          "needle": "for _, p := range Policies118",
+          "lines": [
+            {
+              "line": 343,
+              "text": "for _, p := range Policies118 {"
+            }
+          ]
+        },
+        {
+          "needle": "if c.Policy == \"M0\"",
+          "lines": [
+            {
+              "line": 155,
+              "text": "if c.Policy == \"M0\" {"
+            }
+          ]
+        },
+        {
+          "needle": "holding = active",
+          "lines": [
+            {
+              "line": 433,
+              "text": "holding = active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role": "138 pool",
+      "path": "work/全成立poolの非金融manifest/条件.md",
+      "sha256": "ea391e80b918c2017914c261d8c36e868cd805169b163505c146816d8553f2be",
+      "evidence": [
+        {
+          "needle": "旧137A0の81件",
+          "lines": [
+            {
+              "line": 5,
+              "text": "主P0の素材は、旧137A0の81件を不変更の固定対照C0として全保持し、FAR M0のうち別台帳でinitial/delayed_initialと確認できた通知、Raw即時128 Q/R/S/Tの全取得、129新C1/C2/C3の全取得を加える。M0は(session,canonical method,id)でSource558初期/追加台帳へ結合し、456親/初期通知と対応することを確認、source_add102通知は追加しない。127CSV・128Raw遅延・129旧264はalternative/重複として主には加えない。"
+            }
+          ]
+        },
+        {
+          "needle": "Raw即時128",
+          "lines": [
+            {
+              "line": 5,
+              "text": "主P0の素材は、旧137A0の81件を不変更の固定対照C0として全保持し、FAR M0のうち別台帳でinitial/delayed_initialと確認できた通知、Raw即時128 Q/R/S/Tの全取得、129新C1/C2/C3の全取得を加える。M0は(session,canonical method,id)でSource558初期/追加台帳へ結合し、456親/初期通知と対応することを確認、source_add102通知は追加しない。127CSV・128Raw遅延・129旧264はalternative/重複として主には加えない。"
+            }
+          ]
+        },
+        {
+          "needle": "元Source保有状態に依存",
+          "lines": [
+            {
+              "line": 15,
+              "text": "FAR M0は元Source保有状態に依存して生まれた通知であり、initial限定でも独立した実口座・10枚運用の利益を意味しない。本manifestはmetadataだけの候補在庫で、70%先着率や利益の保証ではない。原板や大入力本文は複写しない。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "原板CSV読取": false,
+  "新Source生成": false,
+  "新金融読取算出": false,
+  "追加2場読取": false,
+  "旧源変更": false,
+  "前後SHA同体": true
+}

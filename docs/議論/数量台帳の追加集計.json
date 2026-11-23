@@ -1,0 +1,102 @@
+{
+  "確認日": "2026-11-04",
+  "入力台帳SHA256": "800fc5b6b0749a1df8ccf9d28500649a5a8b5225dbfd33473c7c6d25de746fc8",
+  "集計コードSHA256": "89e0c2327af818a89062ae518e2af98d6ecc908223aa3f33033dff91bd0b78a4",
+  "元の監査コード": "scripts/複合検証/データ準備.py",
+  "方法": "00008のvolume_auditを再集計。原板の新しい独立再監査ではない",
+  "数量足分": 5,
+  "全65場既使用": true,
+  "結果": {
+    "学習": {
+      "場数": 40,
+      "足件数": {
+        "price_bars": 4741,
+        "baseline_complete_bars": 4683,
+        "baseline_incomplete_bars": 58,
+        "rvol_previous_twenty_available_bars": 3812
+      },
+      "時計等件数": {
+        "cached_events": 1236063,
+        "price_clock_missing": 2493,
+        "in_session_events": 1233140,
+        "volume_pair_changes": 226473,
+        "volume_clock_after_price": 0,
+        "volume_clock_before_price": 0,
+        "volume_clock_equal_price": 1233140,
+        "initial_baselines": 58,
+        "positive_delta_updates": 226415,
+        "price_clock_outside_regular_session": 430,
+        "gaps": 18,
+        "missing_five_minute_buckets": 19
+      }
+    },
+    "条件選択": {
+      "場数": 24,
+      "足件数": {
+        "price_bars": 2854,
+        "baseline_complete_bars": 2828,
+        "baseline_incomplete_bars": 26,
+        "rvol_previous_twenty_available_bars": 2328
+      },
+      "時計等件数": {
+        "cached_events": 1076260,
+        "price_clock_missing": 2450,
+        "in_session_events": 1073224,
+        "volume_pair_changes": 210455,
+        "volume_clock_after_price": 0,
+        "volume_clock_before_price": 0,
+        "volume_clock_equal_price": 1073224,
+        "initial_baselines": 26,
+        "positive_delta_updates": 210429,
+        "price_clock_outside_regular_session": 586,
+        "gaps": 2,
+        "missing_five_minute_buckets": 2
+      }
+    },
+    "既使用11/4デイ": {
+      "場数": 1,
+      "足件数": {
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "rvol_previous_twenty_available_bars": 62
+      },
+      "時計等件数": {
+        "cached_events": 73344,
+        "price_clock_outside_regular_session": 5,
+        "price_clock_missing": 186,
+        "in_session_events": 73153,
+        "volume_pair_changes": 21083,
+        "volume_clock_after_price": 0,
+        "volume_clock_before_price": 0,
+        "volume_clock_equal_price": 73153,
+        "initial_baselines": 1,
+        "positive_delta_updates": 21082
+      }
+    },
+    "全65場": {
+      "場数": 65,
+      "足件数": {
+        "price_bars": 7678,
+        "baseline_complete_bars": 7593,
+        "baseline_incomplete_bars": 85,
+        "rvol_previous_twenty_available_bars": 6202
+      },
+      "時計等件数": {
+        "cached_events": 2385667,
+        "price_clock_missing": 5129,
+        "in_session_events": 2379517,
+        "volume_pair_changes": 458011,
+        "volume_clock_after_price": 0,
+        "volume_clock_before_price": 0,
+        "volume_clock_equal_price": 2379517,
+        "initial_baselines": 85,
+        "positive_delta_updates": 457926,
+        "price_clock_outside_regular_session": 1021,
+        "gaps": 20,
+        "missing_five_minute_buckets": 21
+      }
+    }
+  },
+  "限界": "価格時計の利用可能観測差分量。全約定数量・方向別フロー・全約定VWAPの完全性を証明しない。1/3分の数量足はこの件数表で監査していない。"
+}

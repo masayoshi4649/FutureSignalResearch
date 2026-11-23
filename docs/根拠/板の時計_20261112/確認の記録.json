@@ -1,0 +1,168 @@
+{
+  "成功": true,
+  "確認日": "2026-11-12",
+  "段階": "コードと既存証跡による非金融時計監査・編集停止",
+  "正式番号": null,
+  "結論": {
+    "ロガーメモリreceivedAt": true,
+    "bookへ独自receivedAtを付加": false,
+    "SourceRecord_scalar_received保持": true,
+    "歴史Rawreader_Receivedの値": "CurrentPriceTimeをTimeとReceivedへ代入。実受信時計測定ではない",
+    "現在133Quote受信欄": false,
+    "CSV1m": "受信時刻で作業足/閉鎖を進め、価格/数量の所属時計でも適格性を確認する混合定義",
+    "CSV_time": "足開始",
+    "CSV_closed": "形成済み足が時間境界で閉じた印",
+    "実受信モデルの既存資料からの復元": "現行保存仕様と限定証跡では73場全行の実測受信再生を認定する根拠なし。別形式やsidecar等の存在と全行結合は未確認。",
+    "Raw対CSVの生WS全面再現優劣": "未断定"
+  },
+  "参照源": {
+    "../JP_OSE_Data/README.md": {
+      "sha256": "fa93bcbd5002c626c80813328c59c52f7863d26832f53311f25475e6d5c5731c",
+      "bytes": 2491
+    },
+    "../kabus-controller/kabus_websocket_snapshot.go": {
+      "sha256": "3829b4b16dac1ea2626cd43b774547f15b68b45fff5f48a488583313a5492339",
+      "bytes": 9020
+    },
+    "../kabus-controller/server_http_api.go": {
+      "sha256": "a7ce5f5da91603c9c0a0401a3fe82ae008b42ab0b66d5446704ea022b32f3d5e",
+      "bytes": 19453
+    },
+    "../kabus-controller/future_history_store.go": {
+      "sha256": "bdfdd9c26b345a2e3dc8adcef530dfc5e97f24ee1c57dbcfbd175e93efb97152",
+      "bytes": 21522
+    },
+    "../kabus-controller/future_history_archive.go": {
+      "sha256": "4d8aa4d347919292299bf55bb4b6dd9e33c014590998713785e180e8f60184d5",
+      "bytes": 7558
+    },
+    "../kabus-controller/future_history_candles.go": {
+      "sha256": "b906e39c2f98e52bcd0f6255a5a964a5103ee83874917b0088a33ee90e15b3bf",
+      "bytes": 10945
+    },
+    "../kabus-controller/docs/future-history.md": {
+      "sha256": "5eef50e29d2656744c5855a7a406e048e4b6838aaec928c4691fe12f00e09515",
+      "bytes": 11381
+    },
+    "docs/データと閲覧形式.md": {
+      "sha256": "4ee7dc3761ac70bf04940023e3d2aa9db6ce1f8dd10f405276f3b239beb82f63",
+      "bytes": 21451
+    },
+    "work/CSVとRawの足定義を監査する/監査結果.md": {
+      "sha256": "e644ba72b2dd438138608bb38701ee1037fe617138b3270cf525ec84315ab0a8",
+      "bytes": 9558
+    },
+    "work/CSVとRawの足定義を監査する/監査の確認.json": {
+      "sha256": "373e0fa4d8feadb03bd7803efff25d7d36e5f194f79cf8855c3e6dd2d00eb216",
+      "bytes": 9505
+    },
+    "work/111元時計の連続再現/input.go": {
+      "sha256": "7ab3bc7115c97f558abcc8b850d144af002626d1042a102b50eb63fc67a01a38",
+      "bytes": 10523
+    },
+    "scripts/FAR元三手法のmini連続再現/input.go": {
+      "sha256": "27751caa39dcb1e8f36dce4713320e7a8109355c2f5e30a2898f61d47af46c45",
+      "bytes": 10435
+    },
+    "scripts/固定通知と価格行の再生/tape.go": {
+      "sha256": "4e201289dc9a0776163b03abd11c02f7c4a2e22b6e18ee052f4c4eaadae0895a",
+      "bytes": 8873
+    },
+    "work/104Source再形成CLIの準備/record.go": {
+      "sha256": "0cd4b8964ef1d772817c8305cc9d5b11a0e7bd59d20e2665e60d0405d18d051b",
+      "bytes": 5899
+    },
+    "work/133固定取得の正逆評価器/types.go": {
+      "sha256": "2675f5861fbe4c12a5f171a76b60f4467caf9b2b14d6d6ed3a2340b1609aed3d",
+      "bytes": 6616
+    },
+    "work/133固定取得の正逆評価器/reader.go": {
+      "sha256": "817ec44405214d58369522341cae03ebe325ca48d440b6494b7ce868613d9a49",
+      "bytes": 15263
+    },
+    "work/133固定取得の正逆評価器/outcome.go": {
+      "sha256": "90e378e1816d7a7cd92ba09ad8e129ff17c4a12338e06fa7eb0b5a0464727487",
+      "bytes": 1677
+    },
+    "work/128Raw価格時計の全場足生成/README.md": {
+      "sha256": "72abfc4d20f4c1231bb75783b419ac4f60a1da945541b9ade6a8699d4b7b4e4f",
+      "bytes": 7519
+    },
+    "work/128Raw価格時計の全場足生成/generator.go": {
+      "sha256": "b4b5869a6af65c54c77729f0f652de4b59f914f2e02ccf22557983e692d721df",
+      "bytes": 12203
+    },
+    "work/129短期回復の出生/minute.go": {
+      "sha256": "9d51cd96f9d7540fb18504937fd2d39acdad8e259192170011d064a75b059a82",
+      "bytes": 5930
+    },
+    "work/押戻し回復の1分入力/tracker.go": {
+      "sha256": "61020290e5ea86fb47f79a4df2dca4978181e3b0786dadc829b6e2ead47695a4",
+      "bytes": 8404
+    },
+    "work/三時間軸の市場入力口/candle.go": {
+      "sha256": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137",
+      "bytes": 5053
+    },
+    "work/三時間軸の公開器/bank.go": {
+      "sha256": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b",
+      "bytes": 13808
+    },
+    "../SessionTradeExecuter/internal/strategy/features.go": {
+      "sha256": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+      "bytes": 11747
+    }
+  },
+  "134時のロガー4源と現在の一致": [
+    "../kabus-controller/future_history_candles.go",
+    "../kabus-controller/future_history_candles_test.go",
+    "../kabus-controller/future_history_store.go",
+    "../kabus-controller/future_history_archive.go"
+  ],
+  "旧限定キー証跡": [
+    {
+      "session": "2026-09-21_Day",
+      "physical_lines_read": 1,
+      "clock_key_paths": [
+        "/TradingVolumeTime",
+        "/CurrentPriceTime",
+        "/PreviousCloseTime",
+        "/OpeningPriceTime",
+        "/HighPriceTime",
+        "/LowPriceTime"
+      ],
+      "values_saved": false,
+      "full_file_sha_recomputed": false
+    },
+    {
+      "session": "2026-11-09_Day",
+      "physical_lines_read": 1,
+      "clock_key_paths": [
+        "/TradingVolumeTime",
+        "/CurrentPriceTime",
+        "/PreviousCloseTime",
+        "/OpeningPriceTime",
+        "/HighPriceTime",
+        "/LowPriceTime"
+      ],
+      "values_saved": false,
+      "full_file_sha_recomputed": false
+    }
+  ],
+  "旧2行を全行不在へ外挿": false,
+  "新Raw_価格CSV本文読取": false,
+  "新金融_追加2場読取": false,
+  "自然時計監査": false,
+  "無約定_受信欠測の実件数計測": false,
+  "ロガー及びSource及び正式資料の変更": false,
+  "各日の稼働バイナリ版を証明": false,
+  "新receivedモデル採用": false,
+  "AvailableAt_DeliveryAt": "研究モデルの公表/利用可能時計であり、消えた受信時計の復元ではない",
+  "後段計画": "次turnのRoot F0後にCSV8列の非金融品質監査。必要時だけ既使用73のbook先頭1論理物理行からキー/時計を射影。現時点は未実行。",
+  "追加コード": "品質監査案.mdに純射影関数案のみ。ファイルopen/F0検証/自然実行は含まず、今回は呼ばない",
+  "リンク確認数": 1,
+  "成果SHA256": {
+    "README.md": "7beac05cd0db51ced538d0b42f0ae6953c26283af16a0094fe2a7e6888316786",
+    "品質監査案.md": "997df1133b0c08ced46c2cf133e0a6ed56e5d60e81916cd15d61840a5e5e2202"
+  }
+}

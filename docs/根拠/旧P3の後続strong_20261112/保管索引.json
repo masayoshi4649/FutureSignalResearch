@@ -1,0 +1,167 @@
+{
+  "確認日": "2026-11-12",
+  "対象": "旧P3/L0後続strongの未評価対照の監査",
+  "新試行/144条件/新数値採用": false,
+  "監査JSON_SHA256": "4d4ae960aec45cca9383a06a25007c328004e6f54a40325382a7d058313859bd",
+  "停止proof_SHA256": "73716c91e35705821b506f187be82b6b039433176d0093f3cf223a244b476f16",
+  "監査源ZIP": {
+    "保存元ZIP": "docs/根拠/旧P3の後続strong_20261112/監査源.zip",
+    "ZIP_SHA256": "fc408ba394f4ebf19d4ab8d96887969af52de0c67d6329d23f067b4c217538a3",
+    "ZIP_bytes": 10786,
+    "格納源": [
+      {
+        "path": "work/旧P3の全成立streamを監査する/コードとメタデータを確認する.py",
+        "sha256": "9a11de01dcf07bb658ee170b4b25d027abd523aa78df204d5cd81ad566444f31",
+        "bytes": 6400
+      },
+      {
+        "path": "work/旧P3の全成立streamを監査する/同じ入口を増やした対照の有無.md",
+        "sha256": "f516e761138cfcefd5600f48ad3ee9ba0c1b07c620a5a4d92339f1d3204dbee0",
+        "bytes": 9170
+      },
+      {
+        "path": "work/旧P3監査を恒久保存する/保存する.py",
+        "sha256": "39ad9aeb972038c1c33216503b8afffffafa526329f25a52878702f8776b0dfa",
+        "bytes": 6783
+      }
+    ]
+  },
+  "コード14源": [
+    {
+      "役割": "123 first-only",
+      "復元先": "work/123全場参加の入口比較/entry.go",
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/123全場参加の入口比較/entry.go",
+      "sha256": "c4c57e55943a2a03778f280dab6385e68aee91509f6160e95cfedc4152a933a6",
+      "bytes": 21091
+    },
+    {
+      "役割": "133 first-only",
+      "復元先": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry.go",
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry.go",
+      "sha256": "1c4de9282190e2a3c00c86f8a80ef9568ac329e5c24fe8948e0098fb4058652f",
+      "bytes": 20950
+    },
+    {
+      "役割": "133 technical",
+      "復元先": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score.go",
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score.go",
+      "sha256": "1a513f48e70ae65ec214caa9b69d8c0588834026963f5af66c46d95c303f6a60",
+      "bytes": 10639
+    },
+    {
+      "役割": "133 clock",
+      "復元先": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock.go",
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock.go",
+      "sha256": "15edbd78fd623c5aea4bd7b2172a409368bde85f9b94540f3beaca19bb36a929",
+      "bytes": 895
+    },
+    {
+      "役割": "133 direction",
+      "復元先": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction.go",
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction.go",
+      "sha256": "3fbdffe3514c90378c74074ab04eec322df75bc9b97d065a29291ac5aeb16ee1",
+      "bytes": 7759
+    },
+    {
+      "役割": "137 legacy",
+      "復元先": "work/137既知回復をSourceへ接続する/Source再生器/entry.go",
+      "保存元ZIP": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/再現資料/136_Source前F0資料.zip",
+      "ZIP_SHA256": "6c59990f0ea143784cf979a19b29c35df40638591df764e59b924fe8bdbda3ee",
+      "ZIP内path": "work/押戻し回復をSourceへ接続する/Source再生器/entry.go",
+      "sha256": "60d1a19649f298d724278be3463b7ca4c23b413e6e8c80cace62953d548e4aaf",
+      "bytes": 21600
+    },
+    {
+      "役割": "137 observer",
+      "復元先": "work/137既知回復をSourceへ接続する/Source再生器/observer.go",
+      "保存元ZIP": "study/00137_市場終端後の既知回復を公表時点で確認する/再現資料/137_Source前F0資料.zip",
+      "ZIP_SHA256": "612a76aabebef1fcf06bccc7cd82cd83d5429ffc2066e4477a132885245d2c83",
+      "ZIP内path": "work/137既知回復をSourceへ接続する/Source再生器/observer.go",
+      "sha256": "31d6eef35e09e50aa7458bfcf6251ce9d0b22815f9fbee865426c8026f26d0fe",
+      "bytes": 8121
+    },
+    {
+      "役割": "137 frequency",
+      "復元先": "work/137既知回復をSourceへ接続する/Source再生器/frequency.go",
+      "保存元ZIP": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/再現資料/136_Source前F0資料.zip",
+      "ZIP_SHA256": "6c59990f0ea143784cf979a19b29c35df40638591df764e59b924fe8bdbda3ee",
+      "ZIP内path": "work/押戻し回復をSourceへ接続する/Source再生器/frequency.go",
+      "sha256": "7d25ac808f6c00bf3d789afc223e3e5dcfdcbe4c86a4e24be237c3552ab13270",
+      "bytes": 1787
+    },
+    {
+      "役割": "137 full source",
+      "復元先": "work/137既知回復をSourceへ接続する/Source再生器/run_e1.go",
+      "保存元ZIP": "study/00137_市場終端後の既知回復を公表時点で確認する/再現資料/137_Source前F0資料.zip",
+      "ZIP_SHA256": "612a76aabebef1fcf06bccc7cd82cd83d5429ffc2066e4477a132885245d2c83",
+      "ZIP内path": "work/137既知回復をSourceへ接続する/Source再生器/run_e1.go",
+      "sha256": "a5b0d8f3375bb1689a743c017d49a16c2885b2f6d5fe120542399dfdb3f73127",
+      "bytes": 7014
+    },
+    {
+      "役割": "137 state",
+      "復元先": "work/137公表時に既知の短期回復を確認する/state.go",
+      "保存元ZIP": "study/00137_市場終端後の既知回復を公表時点で確認する/再現資料/137_Source前F0資料.zip",
+      "ZIP_SHA256": "612a76aabebef1fcf06bccc7cd82cd83d5429ffc2066e4477a132885245d2c83",
+      "ZIP内path": "work/137公表時に既知の短期回復を確認する/state.go",
+      "sha256": "33fd8d6c065e37baed8facc02954375d33702968f6f80684c20a196021d55a7d",
+      "bytes": 12915
+    },
+    {
+      "役割": "137 background",
+      "復元先": "work/137公表時に既知の短期回復を確認する/helpers.go",
+      "保存元ZIP": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/再現資料/136_Source前F0資料.zip",
+      "ZIP_SHA256": "6c59990f0ea143784cf979a19b29c35df40638591df764e59b924fe8bdbda3ee",
+      "ZIP内path": "work/押戻し位相を保存して回復を待つ入口/helpers.go",
+      "sha256": "bbf8bca5dd0c2cf6426a80353ebad0118ab71d826f2261d6da494c60897c7042",
+      "bytes": 7371
+    },
+    {
+      "役割": "137 selection",
+      "復元先": "work/押戻し回復の取得を時系列で選ぶ/select.go",
+      "保存元ZIP": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/再現資料/136_Source前F0資料.zip",
+      "ZIP_SHA256": "6c59990f0ea143784cf979a19b29c35df40638591df764e59b924fe8bdbda3ee",
+      "ZIP内path": "work/押戻し回復の取得を時系列で選ぶ/select.go",
+      "sha256": "51bd48ecd7056301c34b56d8f43a5a00674cf4fb07315f25bf9fbfc617643cea",
+      "bytes": 6744
+    },
+    {
+      "役割": "118 notifications",
+      "復元先": "work/118入口比較/entry.go",
+      "保存元ZIP": "study/00118_指値待機と複数技法の取得確認で入口を比較する/再現資料/118コード.zip",
+      "ZIP_SHA256": "4e55b4d4ff708f9d899ea0cac523cd696f493f6a39bcab01408a4072cd045218",
+      "ZIP内path": "work/118入口比較/entry.go",
+      "sha256": "2b97fe0d63ed3bac48beb7024ffa9a2f4deeebac094d06b2699171cc9e859d60",
+      "bytes": 15798
+    },
+    {
+      "役割": "138 pool",
+      "復元先": "work/全成立poolの非金融manifest/条件.md",
+      "保存元ZIP": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/再現資料/138金融前固定資料.zip",
+      "ZIP_SHA256": "9c6893ff39c3f54cb136d23baea001eef870b857c83cb45ef1f063285d0a0424",
+      "ZIP内path": "work/全成立poolの非金融manifest/条件.md",
+      "sha256": "ea391e80b918c2017914c261d8c36e868cd805169b163505c146816d8553f2be",
+      "bytes": 2985
+    }
+  ],
+  "旧137分類metadata共有": {
+    "保存元": "inputs/00137_公表時確認のSource入力/方向と出生.json.gz",
+    "復元先": "work/137既知回復の評価/固定入力/方向と出生.json",
+    "形式": "gzip",
+    "保存bytes": 42407,
+    "保存SHA256": "6bf61443442aeea22b220e8f0a86dbb8d3e955eb61b065c2150bfafedcc14701",
+    "解凍bytes": 904481,
+    "解凍SHA256": "86f33705ba40fd3ba1b845557a2368e44c2802635082fc3bad69346770103f93"
+  },
+  "原板/巨大入力/古いコード源の新複写": false
+}

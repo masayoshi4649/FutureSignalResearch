@@ -1,0 +1,743 @@
+{
+  "成功": true,
+  "段階": "Root許可後の73CSV独立品質照合・編集停止",
+  "試行": null,
+  "F0_SHA256": "85dbb9c44bca26b3c5465b3652d6d801373f1bb75bd32c6d302dd0911f45529f",
+  "正本gzipSHA256": "0f19e86d7dae0b6352d1970872fc5204a1d816720e81725674a006c3b80d24a0",
+  "正本要約SHA256": "d5fe8f316a87540a3312576c3fa9f8e35b3cd6ccde1ce80ae6c4e03b3b0a72ad",
+  "F0全源一致": 83,
+  "全場一致": 73,
+  "全minute_mask辞書一致": 43255,
+  "全scene要約辞書一致": 73,
+  "要約独立再計数": {
+    "対象場数": 73,
+    "Day場数": 37,
+    "Night場数": 36,
+    "対象分数": 43255,
+    "session_complete場数": 21,
+    "session_price_complete場数": 26,
+    "session_volume_complete場数": 21,
+    "observed_contiguous_segment_known終端場数": 73,
+    "observed_contiguous_segment_exists場数": 73,
+    "counts": {
+      "records": 40684,
+      "utf8_invalid": 0,
+      "header_invalid": 0,
+      "row_width_invalid": 0,
+      "multiline_record": 0,
+      "clock_invalid": 0,
+      "adjacent_backward": 0,
+      "below_maximum_clock": 0,
+      "off_grid_continuous": 0,
+      "csv_parse_error": 0,
+      "missing_minutes": 2586,
+      "duplicate_slots": 0,
+      "duplicate_extra_records": 0,
+      "backward_slots": 0,
+      "price_known_minutes": 40669,
+      "volume_known_minutes": 40622,
+      "joint_known_minutes": 40622,
+      "volume_known_zero_minutes": 0,
+      "volume_unknown_zero_minutes": 0,
+      "volume_known_positive_minutes": 40622,
+      "volume_known_zero_price_unknown_minutes": 0
+    },
+    "known量0かつ価格未知分数": 0
+  },
+  "別保管3場参照対応一致": [
+    {
+      "session": "2026-11-05_Night",
+      "raw": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-05_Night\\book.jsonl.gz",
+      "CSV": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_1min.csv",
+      "対応": "105の既存保存確認にあるgzip恒久先と元JSONL所在。CSV内容とRaw内容の独立同体照合ではない"
+    },
+    {
+      "session": "2026-11-06_Day",
+      "raw": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-06_Day\\book.jsonl.gz",
+      "CSV": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_1min.csv",
+      "対応": "105の既存保存確認にあるgzip恒久先と元JSONL所在。CSV内容とRaw内容の独立同体照合ではない"
+    },
+    {
+      "session": "2026-11-06_Night",
+      "raw": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-06_Night\\book.jsonl.gz",
+      "CSV": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_1min.csv",
+      "対応": "105の既存保存確認にあるgzip恒久先と元JSONL所在。CSV内容とRaw内容の独立同体照合ではない"
+    }
+  ],
+  "RawとCSV内容同体を証明": false,
+  "生成量不完全flag数": 47,
+  "生成量不完全は全て先頭CSVデータ行か": true,
+  "場別小型証跡": [
+    {
+      "session": "2026-09-21_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "d4c6a5b257eb22c92f5a15e7483e9dc0917af0987aa0fabdaf8e37332cfa6598",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 53
+    },
+    {
+      "session": "2026-09-21_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "4913af7c0a98d0ffbe25528c4f4f5615e30290daa52915fbab29a7624f65adcb",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 102
+    },
+    {
+      "session": "2026-09-22_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "218a05131e2e1cc2e542f39a55da8c025f918647bcd9a50064050729fc637747",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 29
+    },
+    {
+      "session": "2026-09-22_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "7f4de3d8aae71758b6e2ca0bdceda26ab485134ca68f068d0b31c283deb77491",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 86
+    },
+    {
+      "session": "2026-09-23_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "ed5e046763fe9b0cc9ee732c3c93c894cda1a9d9e2df18baedfab0611c9b2dbc",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 52
+    },
+    {
+      "session": "2026-09-23_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "56a04b74ccf8fcf43818ab655a651d2d607366f11934a2c757dae6df25e85172",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 98
+    },
+    {
+      "session": "2026-09-24_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "00b843dbc10ffaf21457cfcb781e74b04312a5523f7b9e49051ec14ee0426ec3",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 3
+    },
+    {
+      "session": "2026-09-24_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "7d3157764a5aa9fe45f8e70fba2c6a7d5f9b926324703f9e8faa91e8c159a8b2",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 33
+    },
+    {
+      "session": "2026-09-25_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "81364a5261d3e5ffa90ca4831a13f188c46acb38be1eb5b1dc9d4fcfb15ae933",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 2
+    },
+    {
+      "session": "2026-09-25_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "46c0792c27dc4ff072329dc6e1d88dc80d2c4ac67522887e9f39c62c513e4e65",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 78
+    },
+    {
+      "session": "2026-09-28_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "b391aab06a66976cc89350cef6645cf9d9dc43e86081a3679d6f45ec4239b5ea",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 2
+    },
+    {
+      "session": "2026-09-28_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "e2909fa79df74a29d91f5971f5759c870c2734b3b340580c6e37bb590a7dfdf7",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 51
+    },
+    {
+      "session": "2026-09-29_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "6ae40f9c7c35500c81bfb47a3c017eeef0827e779317025bec061680bb6aaaaf",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-09-29_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "a2142328467f51bf800c61ba03f0e6df65d28bef09f72bf7fe0d4ad064c08cee",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 71
+    },
+    {
+      "session": "2026-09-30_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "3d731f16292f04aeb6e69b17e5e6e68ec8a0b1102e2d89237d6c05f2380629b6",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-09-30_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "9e5059adb00e9939dccb6980a0643ae93cc676ace1010cd53e3ac0ca8ec3c2c6",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 43
+    },
+    {
+      "session": "2026-10-01_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "e683cc01285a0cbb8ab447cfae6b65bf561012eef87c33d25c1356f9edb57c04",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-01_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "6561c364f37ab2bdd26d091ff9185af7cded53aea91040c8ceddb54eca786df8",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 30
+    },
+    {
+      "session": "2026-10-02_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "4c2123996584100d9a5adecc62b8832a9b1288c91cf6cfaa8ef999cca2994914",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-02_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "f269786bb61bdf4852da2f876a4feceaecf996e79ec5fcd3a9186b8fed4e2b1b",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 36
+    },
+    {
+      "session": "2026-10-05_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "3188bddc44a66bc4d4351082daf687f0e538401d1c82933130342291cd4b3b80",
+      "session_complete": false,
+      "session_price_complete": true,
+      "session_volume_complete": false,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-05_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "41347ec3c6002d015c653594c642f5dca56097d0f348498388fba82cf02821b1",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 57
+    },
+    {
+      "session": "2026-10-06_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "75f41ec1adfcff26736d283e06814010ad210cf5795d53e66844e2e4b9a5a34d",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-06_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "6d5be059e0a25fc06df8ad4d0b7e6f9a16d6f5b68a8654e9f831f82a21cb0a06",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 72
+    },
+    {
+      "session": "2026-10-07_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "38d64acdd80fe4f8c552e0b321b5a77243bcbe7951d3983a8d3bc0b5c2f49f00",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-07_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "589a21b6e37537322371efed01576d989edd715e0d4df81601582832c0b1775a",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 40
+    },
+    {
+      "session": "2026-10-08_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "4b3b660dd9e7e14ca17c1beaf112131da1f5f9da05ae9dd8d9520ddd7da7654d",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 3
+    },
+    {
+      "session": "2026-10-08_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "7f61ab69cc076caaaa8825f48a5e5dc51e278b2546fd3628c951ffe0f08dd435",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 27
+    },
+    {
+      "session": "2026-10-09_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "9eabf01e50802078e39103b3fedebeaa1db6317c09de7475e60fdea0ca4b24db",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 2
+    },
+    {
+      "session": "2026-10-09_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "6f1e6cc1f0805206f5f7a7e8de7c6647c999c0555978df4864d0cb43b17c2702",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 80
+    },
+    {
+      "session": "2026-10-12_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "2ab9445123690bf881720d84c0d66bfd277720c7474872c867911febb93c7d35",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 33
+    },
+    {
+      "session": "2026-10-12_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "0ed233accd6bf196af82d3c73185130a782282ccdd004e2b528493645357c80b",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 105
+    },
+    {
+      "session": "2026-10-13_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "9019c6f08456985f421177a4eecf736ecd8a074e9eac34aa7397e762122c7f2f",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-13_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "5e34695b1ddff4cdc8d0d624746bd71de919035fa6342d792c6fd8d2e966c866",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 77
+    },
+    {
+      "session": "2026-10-14_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "cd6fcba0aaaa2ab386a5337059461692a68cc39e7eae1a9b7b217efe6a90ea2a",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 2
+    },
+    {
+      "session": "2026-10-14_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "75c464c3aa1557ec2742410582cbb0277d53af8cb53d8551ceaf00f12010a9bb",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 28
+    },
+    {
+      "session": "2026-10-15_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "6e4ef53b371f4df07d1ad38159432a0bd2d21263153b3151c9093af8f7f85ef3",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-15_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "4ac25b4da218b3f7aa7d3128fdf76a3971ed5f6565739ec4fd6e79c3509f8b84",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 24
+    },
+    {
+      "session": "2026-10-16_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "0f5f20ecdb3a4e55bd5f3fac0cc07d707713a6b5aa78849bd2908f1e0ddf39ef",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-16_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "75f6b564171baeaad1fd1400fc7d1b450ef5419ffb8acdfdc59ebe1a5fe3f01a",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 18
+    },
+    {
+      "session": "2026-10-19_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "814926dd6d14e90ee32b6f2386394452299e77df6d3dfb042b01a73d88b8118a",
+      "session_complete": false,
+      "session_price_complete": true,
+      "session_volume_complete": false,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-19_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "bd64ed3c1c6cdf2b8f57807df42491ad0eb445a3748e04755f1faf6491578061",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 45
+    },
+    {
+      "session": "2026-10-20_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "e43e7f07fe1d5abbd099268a36aeb74ef61500ca57456fc280d5671f6ed867d0",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-20_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "e1e7f30b92ecbf70af968524712bea0e50c28200602730a9f213a7a541c834d0",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 46
+    },
+    {
+      "session": "2026-10-21_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "ee1038f58efeaf7d3cbcfb040d5c4d2420cac27b43c3960146193c717d2e4236",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-21_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "f3509b41a19e0eda76b786b0a549b9b5d9a85a82618c493d3fae4c4d4f6feefd",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 53
+    },
+    {
+      "session": "2026-10-22_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "cf8a6339513ea1ec70425f22fe03d702608d41152dd4f7f5e00fa01cee96358d",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-22_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "b6316b9bfb264cbf9eddd910415449cad11cc72761d71cf5b4f7c6e1b76cb1ba",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 21
+    },
+    {
+      "session": "2026-10-23_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "4d14500727817d8aad332c31cde59d35567c9da3efbd86e5983dc72bf588abce",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-23_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "a1eaa07c81642a5b6dcb25296db4e18394bcc02e98d2d0de9d801296f9ef33ca",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 26
+    },
+    {
+      "session": "2026-10-26_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "ac26c8c09fb372b3ee14389bebe8c4833f5dfecba049418fa93fdfa2035dc6c2",
+      "session_complete": false,
+      "session_price_complete": true,
+      "session_volume_complete": false,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-26_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "a9dab2c2ddf303eb54a32e70ce2a6469de29f5d551ab9465f5ee66809f8ea7ba",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 33
+    },
+    {
+      "session": "2026-10-27_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "5953d041e6250802a60e0ddd7a289d3d733232172d3b865eef0611e66c8b022a",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-27_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "b1cf94b6bd9e44ce361113a6d31606d5c3fe14323aba4cef9995306a315a7b26",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 67
+    },
+    {
+      "session": "2026-10-28_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "0c0e146636dbe743289477e73eab73f9f2c1c2c1ca152877235a0a64307f6558",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-28_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "ea59d17bc74735dc5b743d2cdc6fcb90bf3cc0a2f2322d21d14b773314db927d",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 16
+    },
+    {
+      "session": "2026-10-29_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "a3e7190f1cf801a751ec976c401bf302393583cac4066433352d3cbc0bb3b170",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-29_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "c51df82e921a95ae083b6ac0e8597d0e09aa7293eb5efc4e434d290462ffc55d",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 36
+    },
+    {
+      "session": "2026-10-30_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "143517f3fc45c7fecce6457968b17eca7668514f23cd07e91201aab1e09069ae",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-10-30_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "2f9888f302c500eb07e1b52ec92851263c65d2f3304cef9def2f7c2f490bd05f",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 11
+    },
+    {
+      "session": "2026-11-02_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "8b0c00674034112df1f885b4cea14a380c18f2dc8f747a0f5972c434a66c2bd4",
+      "session_complete": false,
+      "session_price_complete": true,
+      "session_volume_complete": false,
+      "segments": 1
+    },
+    {
+      "session": "2026-11-02_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "f5948ba39f014305cc13ea1c657aae5f2e365be6b964e344a9134b780900a42d",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 26
+    },
+    {
+      "session": "2026-11-03_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "1cbbc8526787b520a7bb3144fea6bafa4fdad760e712854ecb7f64dd1ae79533",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 13
+    },
+    {
+      "session": "2026-11-03_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "2118a67cf71a4576f84ebacba92c82d7ae8f792b21e319428952b32396b2259b",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 46
+    },
+    {
+      "session": "2026-11-04_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "eca1c9db40491c81815e6e43acdcffcb8cbf1011379daf81ef25665cf289f21a",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-11-04_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "83bf650db61899e92b4768391be710c8aa35725dac6bb2aa2062f525b433bbae",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 19
+    },
+    {
+      "session": "2026-11-05_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "0a7ce79bbc72ebacd4729136f7c990a9a5e99bf8ad27ca3ac5f63bba8afd216d",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-11-05_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "9c622e2c190836cb46573eb8327253f7185ce2b3cfeb0b54c60ddcc1e38447d8",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 4
+    },
+    {
+      "session": "2026-11-06_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "55a4abda41f8b1130929f1ad28f2da11010906b4f059d781dcaf53ab10d1ba20",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    },
+    {
+      "session": "2026-11-06_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "625806d862b0fdcc55501163f0b3d9a4ac28804edc5c4a6c599010b13fbb6576",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 15
+    },
+    {
+      "session": "2026-11-09_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "699e234d12cf10a321b59a6d4bbc36d8747dda7b77f9f02e626f80e8b4b93852",
+      "session_complete": false,
+      "session_price_complete": true,
+      "session_volume_complete": false,
+      "segments": 1
+    },
+    {
+      "session": "2026-11-09_Night",
+      "minutes": 775,
+      "quality_canonical_sha256": "d8cd75e5db1887a6d1ae428b0ec09b5b2c68eeded61917755e893207674b7463",
+      "session_complete": false,
+      "session_price_complete": false,
+      "session_volume_complete": false,
+      "segments": 22
+    },
+    {
+      "session": "2026-11-10_Day",
+      "minutes": 415,
+      "quality_canonical_sha256": "e3b51670047fcb09ee94b2c0528aa76867ebd908f3b27ffd89cbbae91e0c480f",
+      "session_complete": true,
+      "session_price_complete": true,
+      "session_volume_complete": true,
+      "segments": 1
+    }
+  ],
+  "入力とコード前後同体": true,
+  "作者_Root品質関数import": false,
+  "生価格_量値保存": false,
+  "Raw_金融_追加2場読取": false,
+  "新birth又は141採番又は測定選定": false,
+  "用途": "offline品質監査のみ。未来全file/最長区間/最終完備をオンラインborn/anchorへ使わない。joint falseは全VWAP数学不能の証明ではない。",
+  "初回準備SHA256": "e26818e67aa3ea1b7a56821d6aee86df09ac07bc413eec18191cec280d4f5807",
+  "準備SHA256": "768a5196266cfc36cafad624f43dfdf96b371403bc2c18077a9b55e3e347177c",
+  "独立コードSHA256": {
+    "独立品質.py": "b329190ec7012dcdb5087754ac0942769fe5a821570664a5c4bb88c2cc57f478",
+    "人工検査.py": "c0924df5ef6fff6d813ddd0a82d9b7c00c55066394c375929e08f33c96dd7641",
+    "照合する.py": "6e27266c52a8aaa0af80eb39e6406d64613f732b00b2425410daf8e9f620b53b",
+    "条件.md": "d796c5676ec44d1044782525d988a6f323c5b96d36f8ac71714ea3da0306babf"
+  }
+}

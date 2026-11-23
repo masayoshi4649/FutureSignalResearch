@@ -1,0 +1,416 @@
+{
+  "成功": true,
+  "試行": null,
+  "作業": "全73場1分足の非金融品質監査",
+  "UTC": "2026-11-11T19:14:09.107315+00:00",
+  "metadata圧縮SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+  "metadata解凍SHA256": "b2368b1f42c16e8c96a3acd098c58a902807a3b6a5023d6d4b1e75261f3ee51b",
+  "対象場数": 73,
+  "CSV数": 73,
+  "新価格行の数値解析": false,
+  "新生入口と金融": false,
+  "追加2場を探索": false,
+  "用途": "完成fileのoffline品質監査。未来の全file mask/最長区間/最終完備性をオンライン出生やanchor選択へ流用しない",
+  "保守的十分条件": "joint/prefix falseを全VWAP定義の数学不能と断定しない。既知量0と価格未知を別計数",
+  "source_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data",
+  "CSV固定時stat": {
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_1min.csv": {
+      "bytes": 21643,
+      "mtime_ns": 1789973100664036600
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_1min.csv": {
+      "bytes": 36964,
+      "mtime_ns": 1790024400602966100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_1min.csv": {
+      "bytes": 23927,
+      "mtime_ns": 1790059500153488900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_1min.csv": {
+      "bytes": 38045,
+      "mtime_ns": 1790110801139244400
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_1min.csv": {
+      "bytes": 22318,
+      "mtime_ns": 1790145900580824100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_1min.csv": {
+      "bytes": 39321,
+      "mtime_ns": 1790197200581688700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_1min.csv": {
+      "bytes": 26052,
+      "mtime_ns": 1790232300511841700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_1min.csv": {
+      "bytes": 45968,
+      "mtime_ns": 1790283600773485000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_1min.csv": {
+      "bytes": 26169,
+      "mtime_ns": 1790318700434953100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_1min.csv": {
+      "bytes": 40525,
+      "mtime_ns": 1790370001146134000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_1min.csv": {
+      "bytes": 26144,
+      "mtime_ns": 1790577900275888000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_1min.csv": {
+      "bytes": 43337,
+      "mtime_ns": 1790629201035817800
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_1min.csv": {
+      "bytes": 26228,
+      "mtime_ns": 1790664300441888700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_1min.csv": {
+      "bytes": 43033,
+      "mtime_ns": 1790715600784554600
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_1min.csv": {
+      "bytes": 26216,
+      "mtime_ns": 1790750700356578300
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_1min.csv": {
+      "bytes": 44793,
+      "mtime_ns": 1790802001272746000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_1min.csv": {
+      "bytes": 26318,
+      "mtime_ns": 1790837100333446000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_1min.csv": {
+      "bytes": 46378,
+      "mtime_ns": 1790888400618156600
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_1min.csv": {
+      "bytes": 26261,
+      "mtime_ns": 1790923500408107800
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_1min.csv": {
+      "bytes": 45878,
+      "mtime_ns": 1790974801157427000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_1min.csv": {
+      "bytes": 26285,
+      "mtime_ns": 1791182700452278100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_1min.csv": {
+      "bytes": 44018,
+      "mtime_ns": 1791234001044078500
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_1min.csv": {
+      "bytes": 26181,
+      "mtime_ns": 1791269100240309600
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_1min.csv": {
+      "bytes": 41414,
+      "mtime_ns": 1791320400520916800
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_1min.csv": {
+      "bytes": 26177,
+      "mtime_ns": 1791355500341570000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_1min.csv": {
+      "bytes": 45591,
+      "mtime_ns": 1791406800464824000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_1min.csv": {
+      "bytes": 26072,
+      "mtime_ns": 1791441900423765500
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_1min.csv": {
+      "bytes": 46254,
+      "mtime_ns": 1791493201137307500
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_1min.csv": {
+      "bytes": 26130,
+      "mtime_ns": 1791528300346418800
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_1min.csv": {
+      "bytes": 40644,
+      "mtime_ns": 1791579601126472900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_1min.csv": {
+      "bytes": 23370,
+      "mtime_ns": 1791787500372991000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_1min.csv": {
+      "bytes": 36459,
+      "mtime_ns": 1791838800624774800
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_1min.csv": {
+      "bytes": 26239,
+      "mtime_ns": 1791873900376232000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_1min.csv": {
+      "bytes": 40820,
+      "mtime_ns": 1791925201041948200
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_1min.csv": {
+      "bytes": 26138,
+      "mtime_ns": 1791960300691058200
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_1min.csv": {
+      "bytes": 46522,
+      "mtime_ns": 1792011600688662000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_1min.csv": {
+      "bytes": 26353,
+      "mtime_ns": 1792046700591261900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_1min.csv": {
+      "bytes": 46368,
+      "mtime_ns": 1792098001164417100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_1min.csv": {
+      "bytes": 26213,
+      "mtime_ns": 1792133100386320700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_1min.csv": {
+      "bytes": 47334,
+      "mtime_ns": 1792184400858895600
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_1min.csv": {
+      "bytes": 26307,
+      "mtime_ns": 1792392300540510500
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_1min.csv": {
+      "bytes": 44850,
+      "mtime_ns": 1792443601137482800
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_1min.csv": {
+      "bytes": 26316,
+      "mtime_ns": 1792478700385396600
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_1min.csv": {
+      "bytes": 43408,
+      "mtime_ns": 1792530000603380700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_1min.csv": {
+      "bytes": 26297,
+      "mtime_ns": 1792565100489142000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_1min.csv": {
+      "bytes": 44392,
+      "mtime_ns": 1792616400885006300
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_1min.csv": {
+      "bytes": 26294,
+      "mtime_ns": 1792651500379999100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_1min.csv": {
+      "bytes": 47100,
+      "mtime_ns": 1792702800727217100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_1min.csv": {
+      "bytes": 26307,
+      "mtime_ns": 1792737900676540000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_1min.csv": {
+      "bytes": 46654,
+      "mtime_ns": 1792789200799432900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_1min.csv": {
+      "bytes": 26218,
+      "mtime_ns": 1792997100469957000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_1min.csv": {
+      "bytes": 45812,
+      "mtime_ns": 1793048400465167300
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_1min.csv": {
+      "bytes": 26217,
+      "mtime_ns": 1793083500511695700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_1min.csv": {
+      "bytes": 41486,
+      "mtime_ns": 1793134800818361100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_1min.csv": {
+      "bytes": 26305,
+      "mtime_ns": 1793169900362865600
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_1min.csv": {
+      "bytes": 47303,
+      "mtime_ns": 1793221201354191900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_1min.csv": {
+      "bytes": 26258,
+      "mtime_ns": 1793256300465416200
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_1min.csv": {
+      "bytes": 45849,
+      "mtime_ns": 1793307604252346900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_1min.csv": {
+      "bytes": 26335,
+      "mtime_ns": 1793342700415454100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_1min.csv": {
+      "bytes": 47931,
+      "mtime_ns": 1793394001457228000
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_1min.csv": {
+      "bytes": 26296,
+      "mtime_ns": 1793601900513580900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_1min.csv": {
+      "bytes": 46786,
+      "mtime_ns": 1793653200847721900
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_1min.csv": {
+      "bytes": 25152,
+      "mtime_ns": 1793688300891038100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_1min.csv": {
+      "bytes": 45121,
+      "mtime_ns": 1793739601367274300
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_1min.csv": {
+      "bytes": 26408,
+      "mtime_ns": 1793774700613443100
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_1min.csv": {
+      "bytes": 47453,
+      "mtime_ns": 1793826000735437200
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_1min.csv": {
+      "bytes": 26365,
+      "mtime_ns": 1793861100710219500
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_1min.csv": {
+      "bytes": 48682,
+      "mtime_ns": 1793912400927362400
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_1min.csv": {
+      "bytes": 26465,
+      "mtime_ns": 1793947500599061200
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_1min.csv": {
+      "bytes": 47645,
+      "mtime_ns": 1793998800833022400
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Day\\candle_1min.csv": {
+      "bytes": 26361,
+      "mtime_ns": 1794206700607422700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Night\\candle_1min.csv": {
+      "bytes": 47167,
+      "mtime_ns": 1794258001114996700
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Day\\candle_1min.csv": {
+      "bytes": 26222,
+      "mtime_ns": 1794293100530890700
+    }
+  },
+  "別保管Rawとの対応": [
+    {
+      "session": "2026-11-05_Night",
+      "raw": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-05_Night\\book.jsonl.gz",
+      "CSV": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_1min.csv",
+      "対応": "105の既存保存確認にあるgzip恒久先と元JSONL所在。CSV内容とRaw内容の独立同体照合ではない"
+    },
+    {
+      "session": "2026-11-06_Day",
+      "raw": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-06_Day\\book.jsonl.gz",
+      "CSV": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_1min.csv",
+      "対応": "105の既存保存確認にあるgzip恒久先と元JSONL所在。CSV内容とRaw内容の独立同体照合ではない"
+    },
+    {
+      "session": "2026-11-06_Night",
+      "raw": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-06_Night\\book.jsonl.gz",
+      "CSV": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_1min.csv",
+      "対応": "105の既存保存確認にあるgzip恒久先と元JSONL所在。CSV内容とRaw内容の独立同体照合ではない"
+    }
+  ],
+  "固定前補修": "RawとCSVの親path同体を仮定して停止した。105保存確認から3場の元所在対応を照合し、自然parse前に補修。",
+  "ファイル": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\00124_同入口正逆の共用入力\\入力.json.gz": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\保存の確認.json": "7b4564fc7639afe4c831c3caa84789126a92ddfbdc84aeb6399ed0754c0bcec3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\133金融前を固定して実行する.py": "a688f2ab68ed56344cc4f1154376f5655ffe2997728d9cbb02dc8651baef3a07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\全73場1分足の品質監査\\README.md": "09838bdf93523fdeaa15a7562fa8bb65fdb3416d8f36e75d89bdb67773e371d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\全73場1分足の品質監査\\人工検査.py": "3e562b7c72d778305cf2f165e82028274e2174d9962d1144593e3828a3750a5f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\全73場1分足の品質監査\\品質.py": "d18bc92aa9a7a2ba848b4c86df77e566cfd5af5d22bf744067daceb264eda967",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\全73場1分足の品質監査\\条件.md": "1bf354481a47d2934c1ca215968cd39b52836adf715b5c9a9a293ab436d62384",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\全73場1分足の品質監査\\準備の確認.json": "60b79b968eb99fec8515bab5c2ad8bb47fd8b378e5f04cc5143dd86430b362ed",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\全73場1分足の品質監査\\監査する.py": "f02f6caf00dd9bacea7c141acbcece55700a69a4ddf4000e6d55dbdce96b5fb8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\全73場の1分品質を固定して実行する.py": "471cae8be4579640d70cf51802bae16489198732bf217a7ee933953a79793b99",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_1min.csv": "4f01eaeaeb50d3c67121ccffed9ab6506c8ac8d53d5dadee1562f44ec5526c14",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_1min.csv": "e28222a0bab2073e7fbba5b5f78ec0326dddb35317df00f09e2a8ac1a941b44a",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_1min.csv": "984f865018a17649718a19482709c9ad8c157deacd9990df533290fb39bb95cb",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_1min.csv": "bdc8107f27db4f6cd34a9f0c5ab497876ab01fed55f638f7bd42eda9a1295268",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_1min.csv": "f79b4fcfe34dcffe1a0777493f26645354da18f60da575884a18b0345def604c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_1min.csv": "c9ebd482d4af77d57f7c2f121079e9da12f39f130fcca9336763218526ab081c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_1min.csv": "c00a7282b7a912c9f3941dce9661beb527f7bf67171afbf3a3a11e20ed6edcc3",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_1min.csv": "7055bbaa7b843bd38c252b6ea994ca973b02897b0352c814bd3407aa506a7535",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_1min.csv": "279c091a509fa92b234b80241087a78633f1939f1afad266a19f6b1dd93e77f7",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_1min.csv": "63a49a767133c1fabb0d29689aec3eeb23a926cb853f69e5bfeca8f26ff72cef",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_1min.csv": "36b5407caa9eab01da4b8cf5dd33723ef7bc41799ae7bb8a0ceab0eefec4ba86",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_1min.csv": "66c23cf8bbbb518bf2b30298bd38114fe7f557f96fabefe9c6cfdeb127fee905",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_1min.csv": "55c4c68b5a6ebfeae1caa81f41baf9aaf15305fdf748b2acab1d80568d0b4280",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_1min.csv": "940e2ce247e7afbd2bf0340cdb8819ab6f61c533ab11bbb612d73652b0ab49e9",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_1min.csv": "ac7bc1bce7be0d1e3d18ab001de20f39699d1b47b10891d697a36c800f822777",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_1min.csv": "7c27652dc6ea84979249199ce23d6e271da289ed49acdda5739a0f2508aed5ce",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_1min.csv": "95a36e0277cb725b913006ac8d8a50854b592128720a1579738abb022db4209c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_1min.csv": "cd8e0a42260c5828cbcf80b5dc9a642f3f842f7bc3e593ad98a73a763ea1366c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_1min.csv": "a17d3323d8e52a439e4648182cbb1b4caf5ef012a8f91bd85493ed57942182eb",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_1min.csv": "15d2517fbd64ee9b18e5ecfb203fa0bdac079e683f103ec1f13403892b4faf33",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_1min.csv": "983e3e8de35fec27eb482627f8157fb047e5d48c58bf37ea462af6a8e1d3e873",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_1min.csv": "b5289cf20df7f4190ab2f2df2041bdd057056a69edcc4b084ae069185a0db453",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_1min.csv": "16f4192158efc77696fece87c4c2ba4ede6a90b32dcf50f0c0b0ae3fd6dbcc30",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_1min.csv": "93d8db22d76a67a15f4e384d3e8aece7e36dbdf718be5cd86fa25e56ace23212",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_1min.csv": "b28fdf41f037b8c0d1b4db72e2de990538042d1e5572e4e132e1ea5a36fe62ee",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_1min.csv": "9a5c429ee00c046e5203252c24060f344bb5965f21f43eb450f7a02441bde043",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_1min.csv": "77c872b652b8d2547ea26d3296795dddec4d820d442bfc2ee77ea32a4c1e784d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_1min.csv": "dd2ffd3c7722bed9f1f0be5434ea4359172eaa56bf82a21601aeb40454ee2684",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_1min.csv": "5cf28f15576b74940245396337f4871f9af3018f8aea00bc08ea679787ab81e1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_1min.csv": "17d57dd4ab36df2ec13db5779f6e2892b86a4bc2fd7dbccad5f0b6614d75e25f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_1min.csv": "0be856c455440e5f9089f5f4e40df9071e028d9cbe18eda18f9b5512a562a606",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_1min.csv": "a3b409363dba5bcd8581abb2819e7010ebc3104aab798856b1b0ac3ac8539d74",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_1min.csv": "d539b5d50e587476b00f58198ea2b1846892b30b52558b55a3cd32eee34faa75",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_1min.csv": "f23b4f5bd1c733b26e645a3185974d639e607a54ebba15092182713d9e40d70c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_1min.csv": "2361b9c55a81b329d9eddeb373ef9e4fdca772d26bff59be0097ac87e7122834",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_1min.csv": "3a51cee49c06d5b62225a77598bcb23aa100e6f234790080b460e51966106688",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_1min.csv": "2f0d493405f5a7eb126fdf50e1bc6480749b3b32bfc0f481570d7e46250a803c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_1min.csv": "5e0e6db0ed1781ac61fb032e956b4b3a01f91cd255bec34bddd132db05fbfd38",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_1min.csv": "ba30ec76ffc1d3ea408c7a1294ecf7bece0b18f4dde9570009ce8bafea9d54cb",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_1min.csv": "80425f0e8f6741a675a6a7f911c8bf5e15a55ad313b21f48a6140c768e4a8e1f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_1min.csv": "70f19999c72279350d16dfa87a8e9fa185f910ac5686b5bb3f62f24d6470371f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_1min.csv": "1432c6b71e39fc0060983e300f9a3a69d0d225d6d0fff187cee0d02a1278c5cf",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_1min.csv": "4fe2d92369aa523bbd6d512ab14dcf6e42c8c07538fac6d95f9594f3e3e4087a",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_1min.csv": "7efa2a9b3a553fcd3d394441e319265832c6791852008fd2d6a7cc869ddd4e4a",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_1min.csv": "45d3a5e3f94efe32b93b85dbf206441d1f850eb5f4eea5972f1e45cda32ca4f0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_1min.csv": "065986f516bb1fa431e2bab9461932ee10315e408e315d91cd6e03b8ace1e226",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_1min.csv": "72d9feeda51d7d4ca090052055c4fc978fa7e36a3cb1c21b7fafd529e57b9d79",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_1min.csv": "f5e8d3bf8dd643ee3b48528d4cea4402dff25590d74745cb793a0bee5ecd0636",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_1min.csv": "7ee8bea6cc83b9ac1e95f1a292f386f04dd83c58ed23d4e7a0a39d7f92441570",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_1min.csv": "f036fc3157ef112e8d0629a00320f7d5c63e37c2d3fb604e5b8b8b584a79b7d5",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_1min.csv": "72a45248864460b0348134fa5c8c88c7730fc752c5ef4958884b89aded30d098",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_1min.csv": "e4311431ecd561973aa7af3d073e938c80a1bb69aa42d2dac75ca9c73c826a83",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_1min.csv": "a08fb61edcbda1faf5924f40d7efab7a4df29969857a143ec873f2a19f0070f4",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_1min.csv": "8d823c17906e869aef0888f80829d03010d6b257b3c5b2d9e2dc11ccef90d501",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_1min.csv": "b781bfa9b56b562097d917b112c7d7baf5d6a5b2aa1a7488d9ffd038b2e6fc7b",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_1min.csv": "d4cdbd688df1b280570d9857077f3de56e1f7ef81f601492a8d0a15709aeb063",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_1min.csv": "be89937a7160a54298eb3e6cfb2813df8b252b00f9bf219bdf11ef20859cba34",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_1min.csv": "c49872d51b964b2e2be5c24c4d848607ff5fc7679dfb5fe8ec68585c02c6e428",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_1min.csv": "d4d8b697cc0cf32a2c6ffa6432dbd8f62cffa60f89d3bb203239f203ad1baba2",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_1min.csv": "104687d9606fe869a6160cf387c0d5351a892e26a17afe4d9631a6db901b0ea5",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_1min.csv": "db565ee388bd6842265a7ae1c8cf123d6a91e28f37d0b4689c86307f55f4b012",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_1min.csv": "5eeec97e497523d1334d7941787c67ab1af716e38005ff4774b69587f7ec3e0d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_1min.csv": "9c8bb2285c175bb834a7737505ee58302a71dbf2e668bfbd12f1c4a458e3add4",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_1min.csv": "ea7cf6617884f9d09b593b4471a1ae808fb9c96c2e9b61f0305fb60597e6b750",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_1min.csv": "8553acab126f969cb2ded1959a46155952308c7718a2ef32c5e3b763412c6190",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_1min.csv": "ae8bc417f2284d78fa1b529f4deae051bef9c8edd963934ba4a9038a5096e132",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_1min.csv": "0c33062090bad6a2fa5ccfa0d6d8f22e6868da3368f574b5f89a0c9cdd293e12",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_1min.csv": "08b5a5944cccda731a600c33ed5cb3247afd21440f25ac8e39a5bc65d24af423",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_1min.csv": "b88010dbf2314cd447ea47c7e01f86d3f0bdd94807239cfd95147431578f1d83",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_1min.csv": "e9df8735f9c7855312f2c34f8d9e3b4f74e61777b8b3cf66fddbdb755b7f24a1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Day\\candle_1min.csv": "7e7f419acac72381176bf1e4fc1c8f48fd7e58a73194d84c571cd8ea7ffb1aa7",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Night\\candle_1min.csv": "82377ab931fcb9192c91e581895689f2cf728974ce91cff09699097fdb7930c0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Day\\candle_1min.csv": "58fec0415d950f027f87e6611a0c148dc06b711c5e2b84e33faf40dcfe86d0b5"
+  }
+}

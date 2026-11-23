@@ -1,0 +1,40 @@
+{
+  "確認日": "2026-11-12",
+  "状態": "停止・外部調査のみ",
+  "成果物": {
+    "path": "work/ADXの強さと新旧方向の遷移を分ける/README.md",
+    "bytes": 6347,
+    "sha256": "40cfe2b5f2dbf8c4415e0448c69394c79cbf298ec807c9c79735c2a22308a7ae"
+  },
+  "読取したローカル根拠": [
+    {
+      "path": "work/145_構造イベント入口の採用仕様.md",
+      "bytes": 11949,
+      "sha256": "38d1cc08e15438af669d318a9abd43814c590c48eadc1c8bb7ea0c255158f6b3"
+    },
+    {
+      "path": "docs/technical-analysis/組み合わせ/DMIとADXによる方向と強さ.md",
+      "bytes": 3633,
+      "sha256": "3f25231fa735836b8e1e913d46109e8c62dcf46ce11ce6c3fc1d3e73ec075da2"
+    },
+    {
+      "path": "docs/technical-analysis/指標/DMIとADX.md",
+      "bytes": 8516,
+      "sha256": "6639575762e5611a5a48af14afb770c4f8a584b61068d48e885bbac669db1865"
+    }
+  ],
+  "閲覧した一次資料": [
+    "https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/average-directional-index-adx",
+    "https://help.cqg.com/cqgic/25/Documents/averagedirectionalmovementindexadx.htm",
+    "https://www.fidelity.com/viewpoints/active-investor/average-directional-index-ADX"
+  ],
+  "確認": {
+    "145正本の指定SHA一致": true,
+    "ローカルリンク": 3,
+    "一般説明と数式推論と心理仮説を区別": true,
+    "145自然funnel金融読取": false,
+    "Raw価格CSV追加2場読取": false,
+    "条件変更実装自然抽出採番": false
+  },
+  "結論": "ADX増減には方向情報がなく、新方向DI優勢後の再上昇を145Bは取消し得る。実測件数・損益・条件変更の要否は未判定。"
+}

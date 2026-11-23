@@ -1,0 +1,73 @@
+{
+  "区分": "既使用83場・固定正本の事後診断。新入口/未知性能/除外後口座の検証ではない。",
+  "取得時計分類": true,
+  "現物休場日": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-10-12",
+    "2026-11-03"
+  ],
+  "通常日分境界": [
+    [
+      525,
+      540,
+      "現物寄付前"
+    ],
+    [
+      540,
+      690,
+      "現物前場"
+    ],
+    [
+      690,
+      750,
+      "現物昼休み"
+    ],
+    [
+      750,
+      925,
+      "現物後場ザラバ"
+    ],
+    [
+      925,
+      930,
+      "現物引け板寄せ受付"
+    ]
+  ],
+  "Source": {
+    "path": "docs/データ監査/現物制度属性と入口の分布/分類する.py",
+    "bytes": 6376,
+    "sha256": "302194f70a0874be66d81b052bd5bb8eed404c2fc94d93db72df310a91a4cb9b"
+  },
+  "入力": [
+    {
+      "path": "study/00206_指数間の相対変化を複合入口へ加える/金融正本/NK225206_E199_00_BASE.json.gz",
+      "bytes": 143293,
+      "sha256": "460c42a9307efa7b7a933cd1e6b36a42ce2aac11d5aefbff9f51c48b2665f848"
+    },
+    {
+      "path": "study/00206_指数間の相対変化を複合入口へ加える/金融正本/NK225206_E199_02_BASE.json.gz",
+      "bytes": 142673,
+      "sha256": "d5eaf41018ab69ba2900c874bcd8dcb3a5dffca708258fbe23c08fc02f8052cb"
+    },
+    {
+      "path": "study/00206_指数間の相対変化を複合入口へ加える/金融正本/NK225206_E199_05_BASE.json.gz",
+      "bytes": 142427,
+      "sha256": "a98899289ec93b26bbd59d43547d53be2aa74c1b45184af29dee18d6c48613f5"
+    },
+    {
+      "path": "study/00206_指数間の相対変化を複合入口へ加える/金融正本/TOPIX206_I00_BASE.json.gz",
+      "bytes": 23798,
+      "sha256": "68d465e53134b2c76279fdcbbf514a17383214825b4f8541edaa320ef5c54806"
+    }
+  ],
+  "制度出典": {
+    "確認日": "2026-11-18",
+    "立会": "https://www.jpx.co.jp/equities/trading/domestic/01.html",
+    "現物引け": "https://www.jpx.co.jp/english/systems/equities-trading/01.html",
+    "休業日": "https://www.jpx.co.jp/corporate/about-jpx/calendar/index.html",
+    "祝日先物": "https://www.jpx.co.jp/derivatives/rules/holidaytrading/index.html"
+  },
+  "解釈": "取得時計による群の記述。次の注文仮説に使うならq0で再分類して全後続枠を再生する。"
+}

@@ -1,0 +1,50 @@
+{
+  "確認日": "2026-11-12",
+  "用途": "停止済み非金融の受信時計監査の恒久根拠。新自然品質監査ではない",
+  "停止原文SHA256": {
+    "README.md": "7beac05cd0db51ced538d0b42f0ae6953c26283af16a0094fe2a7e6888316786",
+    "確認の記録.json": "ae2c2ea265e22a552c506c1e599567b641f7bcf0ad5d5d21ef57a5905e67e750",
+    "品質監査案.md": "997df1133b0c08ced46c2cf133e0a6ed56e5d60e81916cd15d61840a5e5e2202"
+  },
+  "共有コード": [
+    {
+      "保存元ZIP": "study/00134_Raw公表時計で複合入口を再生成する/再現資料/検算と保管の追補コード.zip",
+      "ZIP_SHA256": "2f7eb602218966c42ce08e256673b9521cba6ac12b18320be48f02d9b5502d6c",
+      "ZIP内path": "work/CSVとRawの足定義を監査する/future_history_candles.go",
+      "sha256": "b906e39c2f98e52bcd0f6255a5a964a5103ee83874917b0088a33ee90e15b3bf",
+      "bytes": 10945
+    },
+    {
+      "保存元ZIP": "study/00134_Raw公表時計で複合入口を再生成する/再現資料/検算と保管の追補コード.zip",
+      "ZIP_SHA256": "2f7eb602218966c42ce08e256673b9521cba6ac12b18320be48f02d9b5502d6c",
+      "ZIP内path": "work/CSVとRawの足定義を監査する/future_history_candles_test.go",
+      "sha256": "1b9675783742a1a014995a82d721c845e86aaf71a4d1ddbec74b708ba011f54b",
+      "bytes": 10893
+    }
+  ],
+  "今回保存コード": [
+    {
+      "元参照": "../kabus-controller/future_history_store.go",
+      "ZIP内path": "外部/kabus-controller/future_history_store.go",
+      "sha256": "bdfdd9c26b345a2e3dc8adcef530dfc5e97f24ee1c57dbcfbd175e93efb97152",
+      "bytes": 21522
+    },
+    {
+      "元参照": "../kabus-controller/future_history_archive.go",
+      "ZIP内path": "外部/kabus-controller/future_history_archive.go",
+      "sha256": "4d8aa4d347919292299bf55bb4b6dd9e33c014590998713785e180e8f60184d5",
+      "bytes": 7558
+    },
+    {
+      "元参照": "../kabus-controller/kabus_websocket_snapshot.go",
+      "ZIP内path": "外部/kabus-controller/kabus_websocket_snapshot.go",
+      "sha256": "3829b4b16dac1ea2626cd43b774547f15b68b45fff5f48a488583313a5492339",
+      "bytes": 9020
+    }
+  ],
+  "今回ZIP": "今回の小型参照コード.zip",
+  "今回ZIP_SHA256": "a42844ee19b536f3ff84cef1db674c7f206c561d6d2c6ee63dcc989b8b7c967b",
+  "追補前仕様SHA256": "4ee7dc3761ac70bf04940023e3d2aa9db6ce1f8dd10f405276f3b239beb82f63",
+  "134時の4源同SHA": "監査記録では4源。恒久134ZIPにある2源を共有参照し、未格納だったstore/archiveとWS処理源だけ今回保存",
+  "原板/大入力複製/新価格読取/金融/新採番/旧試行改変": false
+}

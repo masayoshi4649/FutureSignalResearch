@@ -1,0 +1,772 @@
+{
+  "確認日": "2026-11-12",
+  "試行": null,
+  "作業": "全73場1分足品質の停止済み監査の恒久保存",
+  "F0_SHA256": "85dbb9c44bca26b3c5465b3652d6d801373f1bb75bd32c6d302dd0911f45529f",
+  "成果": [
+    {
+      "元参照": "work/全73場1分足の品質監査実行/結果/品質監査.json.gz",
+      "保存元": "inputs/全73場1分品質_20261112/品質監査.json.gz",
+      "追加gzip": false,
+      "元bytes": 856326,
+      "元SHA256": "0f19e86d7dae0b6352d1970872fc5204a1d816720e81725674a006c3b80d24a0",
+      "保存bytes": 856326,
+      "保存SHA256": "0f19e86d7dae0b6352d1970872fc5204a1d816720e81725674a006c3b80d24a0"
+    },
+    {
+      "元参照": "work/全73場1分足の品質監査実行/F0.json",
+      "保存元": "docs/根拠/全73場1分品質_20261112/F0.json",
+      "追加gzip": false,
+      "元bytes": 27975,
+      "元SHA256": "85dbb9c44bca26b3c5465b3652d6d801373f1bb75bd32c6d302dd0911f45529f",
+      "保存bytes": 27975,
+      "保存SHA256": "85dbb9c44bca26b3c5465b3652d6d801373f1bb75bd32c6d302dd0911f45529f"
+    },
+    {
+      "元参照": "work/全73場1分足の品質監査実行/結果/要約.json",
+      "保存元": "docs/根拠/全73場1分品質_20261112/要約.json.gz",
+      "追加gzip": true,
+      "元bytes": 298229,
+      "元SHA256": "d5fe8f316a87540a3312576c3fa9f8e35b3cd6ccde1ce80ae6c4e03b3b0a72ad",
+      "保存bytes": 14367,
+      "保存SHA256": "06e458ce377cb07ce9b0f64a12495552d787b871c60593ca7a963e46053f2eef"
+    },
+    {
+      "元参照": "work/全73場1分足の品質監査実行/結果/監査の確認.json",
+      "保存元": "docs/根拠/全73場1分品質_20261112/作者の監査確認.json",
+      "追加gzip": false,
+      "元bytes": 55311,
+      "元SHA256": "2c1bb15ecb7fa00015027ac4e6467aa7bfa61919afe4bc6cebc41d0c9e88ff5c",
+      "保存bytes": 55311,
+      "保存SHA256": "2c1bb15ecb7fa00015027ac4e6467aa7bfa61919afe4bc6cebc41d0c9e88ff5c"
+    },
+    {
+      "元参照": "work/全73場1分足の品質監査実行/監査の完了.json",
+      "保存元": "docs/根拠/全73場1分品質_20261112/Rootの監査完了.json",
+      "追加gzip": false,
+      "元bytes": 1710,
+      "元SHA256": "6c5e6be759416616892ad33f6a0f73630a9324c212d6c05b66ee6f129698348b",
+      "保存bytes": 1710,
+      "保存SHA256": "6c5e6be759416616892ad33f6a0f73630a9324c212d6c05b66ee6f129698348b"
+    },
+    {
+      "元参照": "work/全73場1分足品質の独立照合/独立照合.json",
+      "保存元": "docs/根拠/全73場1分品質_20261112/独立照合.json",
+      "追加gzip": false,
+      "元bytes": 27030,
+      "元SHA256": "cf3c5958b42015704766e30dbc492bac127abda3de58099e681a9112c7172a87",
+      "保存bytes": 27030,
+      "保存SHA256": "cf3c5958b42015704766e30dbc492bac127abda3de58099e681a9112c7172a87"
+    },
+    {
+      "元参照": "work/全73場1分足品質の独立照合/停止の確認.json",
+      "保存元": "docs/根拠/全73場1分品質_20261112/独立停止の確認.json",
+      "追加gzip": false,
+      "元bytes": 1864,
+      "元SHA256": "16df15bdbfdb91aaa4a775ab559a043c420eb5c9b98587319706ded9d5a5f686",
+      "保存bytes": 1864,
+      "保存SHA256": "16df15bdbfdb91aaa4a775ab559a043c420eb5c9b98587319706ded9d5a5f686"
+    }
+  ],
+  "固定コードZIP": "固定コードと独立照合.zip",
+  "固定コードZIP_SHA256": "1f3da2b0d0c83c96cb13a3040791992ea8c15bcf553b0678586303653a5413d0",
+  "コード源": [
+    {
+      "path": "work/全73場1分足の品質監査/README.md",
+      "sha256": "09838bdf93523fdeaa15a7562fa8bb65fdb3416d8f36e75d89bdb67773e371d4",
+      "bytes": 2502,
+      "区分": "元F0固定源"
+    },
+    {
+      "path": "work/全73場1分足の品質監査/人工検査.py",
+      "sha256": "3e562b7c72d778305cf2f165e82028274e2174d9962d1144593e3828a3750a5f",
+      "bytes": 10499,
+      "区分": "元F0固定源"
+    },
+    {
+      "path": "work/全73場1分足の品質監査/品質.py",
+      "sha256": "d18bc92aa9a7a2ba848b4c86df77e566cfd5af5d22bf744067daceb264eda967",
+      "bytes": 12185,
+      "区分": "元F0固定源"
+    },
+    {
+      "path": "work/全73場1分足の品質監査/条件.md",
+      "sha256": "1bf354481a47d2934c1ca215968cd39b52836adf715b5c9a9a293ab436d62384",
+      "bytes": 9354,
+      "区分": "元F0固定源"
+    },
+    {
+      "path": "work/全73場1分足の品質監査/準備の確認.json",
+      "sha256": "60b79b968eb99fec8515bab5c2ad8bb47fd8b378e5f04cc5143dd86430b362ed",
+      "bytes": 3653,
+      "区分": "元F0固定源"
+    },
+    {
+      "path": "work/全73場1分足の品質監査/監査する.py",
+      "sha256": "f02f6caf00dd9bacea7c141acbcece55700a69a4ddf4000e6d55dbdce96b5fb8",
+      "bytes": 9269,
+      "区分": "元F0固定源"
+    },
+    {
+      "path": "work/全73場の1分品質を固定して実行する.py",
+      "sha256": "471cae8be4579640d70cf51802bae16489198732bf217a7ee933953a79793b99",
+      "bytes": 6558,
+      "区分": "元F0固定源"
+    },
+    {
+      "path": "work/全73場1分足品質の独立照合/README.md",
+      "sha256": "8bdd6f399a705a711d1e8e7c36f8d1cd2baac343eae3798e9ec572112584539d",
+      "bytes": 5241,
+      "区分": "後発独立照合源。注記訂正の追補も保存"
+    },
+    {
+      "path": "work/全73場1分足品質の独立照合/人工検査.py",
+      "sha256": "c0924df5ef6fff6d813ddd0a82d9b7c00c55066394c375929e08f33c96dd7641",
+      "bytes": 4693,
+      "区分": "後発独立照合源。注記訂正の追補も保存"
+    },
+    {
+      "path": "work/全73場1分足品質の独立照合/条件.md",
+      "sha256": "d796c5676ec44d1044782525d988a6f323c5b96d36f8ac71714ea3da0306babf",
+      "bytes": 1471,
+      "区分": "後発独立照合源。注記訂正の追補も保存"
+    },
+    {
+      "path": "work/全73場1分足品質の独立照合/注記訂正の追補.json",
+      "sha256": "768a5196266cfc36cafad624f43dfdf96b371403bc2c18077a9b55e3e347177c",
+      "bytes": 1086,
+      "区分": "後発独立照合源。注記訂正の追補も保存"
+    },
+    {
+      "path": "work/全73場1分足品質の独立照合/準備の確認.json",
+      "sha256": "e26818e67aa3ea1b7a56821d6aee86df09ac07bc413eec18191cec280d4f5807",
+      "bytes": 814,
+      "区分": "後発独立照合源。注記訂正の追補も保存"
+    },
+    {
+      "path": "work/全73場1分足品質の独立照合/照合する.py",
+      "sha256": "6e27266c52a8aaa0af80eb39e6406d64613f732b00b2425410daf8e9f620b53b",
+      "bytes": 10059,
+      "区分": "後発独立照合源。注記訂正の追補も保存"
+    },
+    {
+      "path": "work/全73場1分足品質の独立照合/独立品質.py",
+      "sha256": "b329190ec7012dcdb5087754ac0942769fe5a821570664a5c4bb88c2cc57f478",
+      "bytes": 11868,
+      "区分": "後発独立照合源。注記訂正の追補も保存"
+    },
+    {
+      "path": "work/全73場1分品質を恒久保存する.py",
+      "sha256": "c81121c2db24a332f54b4d9201df81dbc498f5bde69ce7c59c2cae47aa91d418",
+      "bytes": 11531,
+      "区分": "金融なしの恒久保存処理"
+    }
+  ],
+  "共有参照": [
+    {
+      "path": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+      "sha256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+      "用途": "既存恒久入力又は保存確認。複写しない"
+    },
+    {
+      "path": "inputs/105生成原板/保存の確認.json",
+      "sha256": "7b4564fc7639afe4c831c3caa84789126a92ddfbdc84aeb6399ed0754c0bcec3",
+      "用途": "既存恒久入力又は保存確認。複写しない"
+    },
+    {
+      "path": "work/133金融前を固定して実行する.py",
+      "sha256": "a688f2ab68ed56344cc4f1154376f5655ffe2997728d9cbb02dc8651baef3a07",
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/133金融前を固定して実行する.py"
+    }
+  ],
+  "元CSV73参照": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_1min.csv",
+      "sha256": "4f01eaeaeb50d3c67121ccffed9ab6506c8ac8d53d5dadee1562f44ec5526c14",
+      "stat": {
+        "bytes": 21643,
+        "mtime_ns": 1789973100664036600
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_1min.csv",
+      "sha256": "e28222a0bab2073e7fbba5b5f78ec0326dddb35317df00f09e2a8ac1a941b44a",
+      "stat": {
+        "bytes": 36964,
+        "mtime_ns": 1790024400602966100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_1min.csv",
+      "sha256": "984f865018a17649718a19482709c9ad8c157deacd9990df533290fb39bb95cb",
+      "stat": {
+        "bytes": 23927,
+        "mtime_ns": 1790059500153488900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_1min.csv",
+      "sha256": "bdc8107f27db4f6cd34a9f0c5ab497876ab01fed55f638f7bd42eda9a1295268",
+      "stat": {
+        "bytes": 38045,
+        "mtime_ns": 1790110801139244400
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_1min.csv",
+      "sha256": "f79b4fcfe34dcffe1a0777493f26645354da18f60da575884a18b0345def604c",
+      "stat": {
+        "bytes": 22318,
+        "mtime_ns": 1790145900580824100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_1min.csv",
+      "sha256": "c9ebd482d4af77d57f7c2f121079e9da12f39f130fcca9336763218526ab081c",
+      "stat": {
+        "bytes": 39321,
+        "mtime_ns": 1790197200581688700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_1min.csv",
+      "sha256": "c00a7282b7a912c9f3941dce9661beb527f7bf67171afbf3a3a11e20ed6edcc3",
+      "stat": {
+        "bytes": 26052,
+        "mtime_ns": 1790232300511841700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_1min.csv",
+      "sha256": "7055bbaa7b843bd38c252b6ea994ca973b02897b0352c814bd3407aa506a7535",
+      "stat": {
+        "bytes": 45968,
+        "mtime_ns": 1790283600773485000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_1min.csv",
+      "sha256": "279c091a509fa92b234b80241087a78633f1939f1afad266a19f6b1dd93e77f7",
+      "stat": {
+        "bytes": 26169,
+        "mtime_ns": 1790318700434953100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_1min.csv",
+      "sha256": "63a49a767133c1fabb0d29689aec3eeb23a926cb853f69e5bfeca8f26ff72cef",
+      "stat": {
+        "bytes": 40525,
+        "mtime_ns": 1790370001146134000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_1min.csv",
+      "sha256": "36b5407caa9eab01da4b8cf5dd33723ef7bc41799ae7bb8a0ceab0eefec4ba86",
+      "stat": {
+        "bytes": 26144,
+        "mtime_ns": 1790577900275888000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_1min.csv",
+      "sha256": "66c23cf8bbbb518bf2b30298bd38114fe7f557f96fabefe9c6cfdeb127fee905",
+      "stat": {
+        "bytes": 43337,
+        "mtime_ns": 1790629201035817800
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_1min.csv",
+      "sha256": "55c4c68b5a6ebfeae1caa81f41baf9aaf15305fdf748b2acab1d80568d0b4280",
+      "stat": {
+        "bytes": 26228,
+        "mtime_ns": 1790664300441888700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_1min.csv",
+      "sha256": "940e2ce247e7afbd2bf0340cdb8819ab6f61c533ab11bbb612d73652b0ab49e9",
+      "stat": {
+        "bytes": 43033,
+        "mtime_ns": 1790715600784554600
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_1min.csv",
+      "sha256": "ac7bc1bce7be0d1e3d18ab001de20f39699d1b47b10891d697a36c800f822777",
+      "stat": {
+        "bytes": 26216,
+        "mtime_ns": 1790750700356578300
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_1min.csv",
+      "sha256": "7c27652dc6ea84979249199ce23d6e271da289ed49acdda5739a0f2508aed5ce",
+      "stat": {
+        "bytes": 44793,
+        "mtime_ns": 1790802001272746000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_1min.csv",
+      "sha256": "95a36e0277cb725b913006ac8d8a50854b592128720a1579738abb022db4209c",
+      "stat": {
+        "bytes": 26318,
+        "mtime_ns": 1790837100333446000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_1min.csv",
+      "sha256": "cd8e0a42260c5828cbcf80b5dc9a642f3f842f7bc3e593ad98a73a763ea1366c",
+      "stat": {
+        "bytes": 46378,
+        "mtime_ns": 1790888400618156600
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_1min.csv",
+      "sha256": "a17d3323d8e52a439e4648182cbb1b4caf5ef012a8f91bd85493ed57942182eb",
+      "stat": {
+        "bytes": 26261,
+        "mtime_ns": 1790923500408107800
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_1min.csv",
+      "sha256": "15d2517fbd64ee9b18e5ecfb203fa0bdac079e683f103ec1f13403892b4faf33",
+      "stat": {
+        "bytes": 45878,
+        "mtime_ns": 1790974801157427000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_1min.csv",
+      "sha256": "983e3e8de35fec27eb482627f8157fb047e5d48c58bf37ea462af6a8e1d3e873",
+      "stat": {
+        "bytes": 26285,
+        "mtime_ns": 1791182700452278100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_1min.csv",
+      "sha256": "b5289cf20df7f4190ab2f2df2041bdd057056a69edcc4b084ae069185a0db453",
+      "stat": {
+        "bytes": 44018,
+        "mtime_ns": 1791234001044078500
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_1min.csv",
+      "sha256": "16f4192158efc77696fece87c4c2ba4ede6a90b32dcf50f0c0b0ae3fd6dbcc30",
+      "stat": {
+        "bytes": 26181,
+        "mtime_ns": 1791269100240309600
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_1min.csv",
+      "sha256": "93d8db22d76a67a15f4e384d3e8aece7e36dbdf718be5cd86fa25e56ace23212",
+      "stat": {
+        "bytes": 41414,
+        "mtime_ns": 1791320400520916800
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_1min.csv",
+      "sha256": "b28fdf41f037b8c0d1b4db72e2de990538042d1e5572e4e132e1ea5a36fe62ee",
+      "stat": {
+        "bytes": 26177,
+        "mtime_ns": 1791355500341570000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_1min.csv",
+      "sha256": "9a5c429ee00c046e5203252c24060f344bb5965f21f43eb450f7a02441bde043",
+      "stat": {
+        "bytes": 45591,
+        "mtime_ns": 1791406800464824000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_1min.csv",
+      "sha256": "77c872b652b8d2547ea26d3296795dddec4d820d442bfc2ee77ea32a4c1e784d",
+      "stat": {
+        "bytes": 26072,
+        "mtime_ns": 1791441900423765500
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_1min.csv",
+      "sha256": "dd2ffd3c7722bed9f1f0be5434ea4359172eaa56bf82a21601aeb40454ee2684",
+      "stat": {
+        "bytes": 46254,
+        "mtime_ns": 1791493201137307500
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_1min.csv",
+      "sha256": "5cf28f15576b74940245396337f4871f9af3018f8aea00bc08ea679787ab81e1",
+      "stat": {
+        "bytes": 26130,
+        "mtime_ns": 1791528300346418800
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_1min.csv",
+      "sha256": "17d57dd4ab36df2ec13db5779f6e2892b86a4bc2fd7dbccad5f0b6614d75e25f",
+      "stat": {
+        "bytes": 40644,
+        "mtime_ns": 1791579601126472900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_1min.csv",
+      "sha256": "0be856c455440e5f9089f5f4e40df9071e028d9cbe18eda18f9b5512a562a606",
+      "stat": {
+        "bytes": 23370,
+        "mtime_ns": 1791787500372991000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_1min.csv",
+      "sha256": "a3b409363dba5bcd8581abb2819e7010ebc3104aab798856b1b0ac3ac8539d74",
+      "stat": {
+        "bytes": 36459,
+        "mtime_ns": 1791838800624774800
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_1min.csv",
+      "sha256": "d539b5d50e587476b00f58198ea2b1846892b30b52558b55a3cd32eee34faa75",
+      "stat": {
+        "bytes": 26239,
+        "mtime_ns": 1791873900376232000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_1min.csv",
+      "sha256": "f23b4f5bd1c733b26e645a3185974d639e607a54ebba15092182713d9e40d70c",
+      "stat": {
+        "bytes": 40820,
+        "mtime_ns": 1791925201041948200
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_1min.csv",
+      "sha256": "2361b9c55a81b329d9eddeb373ef9e4fdca772d26bff59be0097ac87e7122834",
+      "stat": {
+        "bytes": 26138,
+        "mtime_ns": 1791960300691058200
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_1min.csv",
+      "sha256": "3a51cee49c06d5b62225a77598bcb23aa100e6f234790080b460e51966106688",
+      "stat": {
+        "bytes": 46522,
+        "mtime_ns": 1792011600688662000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_1min.csv",
+      "sha256": "2f0d493405f5a7eb126fdf50e1bc6480749b3b32bfc0f481570d7e46250a803c",
+      "stat": {
+        "bytes": 26353,
+        "mtime_ns": 1792046700591261900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_1min.csv",
+      "sha256": "5e0e6db0ed1781ac61fb032e956b4b3a01f91cd255bec34bddd132db05fbfd38",
+      "stat": {
+        "bytes": 46368,
+        "mtime_ns": 1792098001164417100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_1min.csv",
+      "sha256": "ba30ec76ffc1d3ea408c7a1294ecf7bece0b18f4dde9570009ce8bafea9d54cb",
+      "stat": {
+        "bytes": 26213,
+        "mtime_ns": 1792133100386320700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_1min.csv",
+      "sha256": "80425f0e8f6741a675a6a7f911c8bf5e15a55ad313b21f48a6140c768e4a8e1f",
+      "stat": {
+        "bytes": 47334,
+        "mtime_ns": 1792184400858895600
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_1min.csv",
+      "sha256": "70f19999c72279350d16dfa87a8e9fa185f910ac5686b5bb3f62f24d6470371f",
+      "stat": {
+        "bytes": 26307,
+        "mtime_ns": 1792392300540510500
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_1min.csv",
+      "sha256": "1432c6b71e39fc0060983e300f9a3a69d0d225d6d0fff187cee0d02a1278c5cf",
+      "stat": {
+        "bytes": 44850,
+        "mtime_ns": 1792443601137482800
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_1min.csv",
+      "sha256": "4fe2d92369aa523bbd6d512ab14dcf6e42c8c07538fac6d95f9594f3e3e4087a",
+      "stat": {
+        "bytes": 26316,
+        "mtime_ns": 1792478700385396600
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_1min.csv",
+      "sha256": "7efa2a9b3a553fcd3d394441e319265832c6791852008fd2d6a7cc869ddd4e4a",
+      "stat": {
+        "bytes": 43408,
+        "mtime_ns": 1792530000603380700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_1min.csv",
+      "sha256": "45d3a5e3f94efe32b93b85dbf206441d1f850eb5f4eea5972f1e45cda32ca4f0",
+      "stat": {
+        "bytes": 26297,
+        "mtime_ns": 1792565100489142000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_1min.csv",
+      "sha256": "065986f516bb1fa431e2bab9461932ee10315e408e315d91cd6e03b8ace1e226",
+      "stat": {
+        "bytes": 44392,
+        "mtime_ns": 1792616400885006300
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_1min.csv",
+      "sha256": "72d9feeda51d7d4ca090052055c4fc978fa7e36a3cb1c21b7fafd529e57b9d79",
+      "stat": {
+        "bytes": 26294,
+        "mtime_ns": 1792651500379999100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_1min.csv",
+      "sha256": "f5e8d3bf8dd643ee3b48528d4cea4402dff25590d74745cb793a0bee5ecd0636",
+      "stat": {
+        "bytes": 47100,
+        "mtime_ns": 1792702800727217100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_1min.csv",
+      "sha256": "7ee8bea6cc83b9ac1e95f1a292f386f04dd83c58ed23d4e7a0a39d7f92441570",
+      "stat": {
+        "bytes": 26307,
+        "mtime_ns": 1792737900676540000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_1min.csv",
+      "sha256": "f036fc3157ef112e8d0629a00320f7d5c63e37c2d3fb604e5b8b8b584a79b7d5",
+      "stat": {
+        "bytes": 46654,
+        "mtime_ns": 1792789200799432900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_1min.csv",
+      "sha256": "72a45248864460b0348134fa5c8c88c7730fc752c5ef4958884b89aded30d098",
+      "stat": {
+        "bytes": 26218,
+        "mtime_ns": 1792997100469957000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_1min.csv",
+      "sha256": "e4311431ecd561973aa7af3d073e938c80a1bb69aa42d2dac75ca9c73c826a83",
+      "stat": {
+        "bytes": 45812,
+        "mtime_ns": 1793048400465167300
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_1min.csv",
+      "sha256": "a08fb61edcbda1faf5924f40d7efab7a4df29969857a143ec873f2a19f0070f4",
+      "stat": {
+        "bytes": 26217,
+        "mtime_ns": 1793083500511695700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_1min.csv",
+      "sha256": "8d823c17906e869aef0888f80829d03010d6b257b3c5b2d9e2dc11ccef90d501",
+      "stat": {
+        "bytes": 41486,
+        "mtime_ns": 1793134800818361100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_1min.csv",
+      "sha256": "b781bfa9b56b562097d917b112c7d7baf5d6a5b2aa1a7488d9ffd038b2e6fc7b",
+      "stat": {
+        "bytes": 26305,
+        "mtime_ns": 1793169900362865600
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_1min.csv",
+      "sha256": "d4cdbd688df1b280570d9857077f3de56e1f7ef81f601492a8d0a15709aeb063",
+      "stat": {
+        "bytes": 47303,
+        "mtime_ns": 1793221201354191900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_1min.csv",
+      "sha256": "be89937a7160a54298eb3e6cfb2813df8b252b00f9bf219bdf11ef20859cba34",
+      "stat": {
+        "bytes": 26258,
+        "mtime_ns": 1793256300465416200
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_1min.csv",
+      "sha256": "c49872d51b964b2e2be5c24c4d848607ff5fc7679dfb5fe8ec68585c02c6e428",
+      "stat": {
+        "bytes": 45849,
+        "mtime_ns": 1793307604252346900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_1min.csv",
+      "sha256": "d4d8b697cc0cf32a2c6ffa6432dbd8f62cffa60f89d3bb203239f203ad1baba2",
+      "stat": {
+        "bytes": 26335,
+        "mtime_ns": 1793342700415454100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_1min.csv",
+      "sha256": "104687d9606fe869a6160cf387c0d5351a892e26a17afe4d9631a6db901b0ea5",
+      "stat": {
+        "bytes": 47931,
+        "mtime_ns": 1793394001457228000
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_1min.csv",
+      "sha256": "db565ee388bd6842265a7ae1c8cf123d6a91e28f37d0b4689c86307f55f4b012",
+      "stat": {
+        "bytes": 26296,
+        "mtime_ns": 1793601900513580900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_1min.csv",
+      "sha256": "5eeec97e497523d1334d7941787c67ab1af716e38005ff4774b69587f7ec3e0d",
+      "stat": {
+        "bytes": 46786,
+        "mtime_ns": 1793653200847721900
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_1min.csv",
+      "sha256": "9c8bb2285c175bb834a7737505ee58302a71dbf2e668bfbd12f1c4a458e3add4",
+      "stat": {
+        "bytes": 25152,
+        "mtime_ns": 1793688300891038100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_1min.csv",
+      "sha256": "ea7cf6617884f9d09b593b4471a1ae808fb9c96c2e9b61f0305fb60597e6b750",
+      "stat": {
+        "bytes": 45121,
+        "mtime_ns": 1793739601367274300
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_1min.csv",
+      "sha256": "8553acab126f969cb2ded1959a46155952308c7718a2ef32c5e3b763412c6190",
+      "stat": {
+        "bytes": 26408,
+        "mtime_ns": 1793774700613443100
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_1min.csv",
+      "sha256": "ae8bc417f2284d78fa1b529f4deae051bef9c8edd963934ba4a9038a5096e132",
+      "stat": {
+        "bytes": 47453,
+        "mtime_ns": 1793826000735437200
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_1min.csv",
+      "sha256": "0c33062090bad6a2fa5ccfa0d6d8f22e6868da3368f574b5f89a0c9cdd293e12",
+      "stat": {
+        "bytes": 26365,
+        "mtime_ns": 1793861100710219500
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_1min.csv",
+      "sha256": "08b5a5944cccda731a600c33ed5cb3247afd21440f25ac8e39a5bc65d24af423",
+      "stat": {
+        "bytes": 48682,
+        "mtime_ns": 1793912400927362400
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_1min.csv",
+      "sha256": "b88010dbf2314cd447ea47c7e01f86d3f0bdd94807239cfd95147431578f1d83",
+      "stat": {
+        "bytes": 26465,
+        "mtime_ns": 1793947500599061200
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_1min.csv",
+      "sha256": "e9df8735f9c7855312f2c34f8d9e3b4f74e61777b8b3cf66fddbdb755b7f24a1",
+      "stat": {
+        "bytes": 47645,
+        "mtime_ns": 1793998800833022400
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Day\\candle_1min.csv",
+      "sha256": "7e7f419acac72381176bf1e4fc1c8f48fd7e58a73194d84c571cd8ea7ffb1aa7",
+      "stat": {
+        "bytes": 26361,
+        "mtime_ns": 1794206700607422700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Night\\candle_1min.csv",
+      "sha256": "82377ab931fcb9192c91e581895689f2cf728974ce91cff09699097fdb7930c0",
+      "stat": {
+        "bytes": 47167,
+        "mtime_ns": 1794258001114996700
+      }
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Day\\candle_1min.csv",
+      "sha256": "58fec0415d950f027f87e6611a0c148dc06b711c5e2b84e33faf40dcfe86d0b5",
+      "stat": {
+        "bytes": 26222,
+        "mtime_ns": 1794293100530890700
+      }
+    }
+  ],
+  "CSV本文複製/新数値解析/原板/金融/出生/追加2場/旧試行変更": false,
+  "品質maskの扱い": "完成fileのoffline品質情報。オンライン出生へ未来mask/最長区間/最終完備性を流用しない"
+}

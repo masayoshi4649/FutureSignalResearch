@@ -1,0 +1,1034 @@
+{
+  "B最終": {
+    "必要未知": 12,
+    "成立": 0,
+    "既知不成立": 290
+  },
+  "B純評価数": 302,
+  "一意Source出生数": 302,
+  "一意実入口数": 302,
+  "保存AB査定照合数": 2416,
+  "入力前後不変": true,
+  "固定AB純照合数": 302,
+  "場数": 54,
+  "対象2件": [
+    {
+      "assessment": {
+        "decision": {
+          "policy": "B",
+          "snapshot_id": "2026-10-14_Day-G0075",
+          "known": true,
+          "allowed": false,
+          "role": "待機",
+          "reason": "公開済みの必要条件が不成立"
+        },
+        "checks": [
+          {
+            "id": "共通.現在価格時計",
+            "known": true,
+            "passed": true,
+            "reason": "候補とCurrentの同原行を検査済み・価格時計は15秒以内"
+          },
+          {
+            "id": "共通.確定3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定足・終端以下で足齢180秒未満"
+          },
+          {
+            "id": "共通.確定15分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定足・終端以下で足齢900秒未満"
+          },
+          {
+            "id": "共通.EMA背景既知",
+            "known": true,
+            "passed": true,
+            "reason": "固定APIのTrendKnownを使用・EMA15単独の既知性は推測しない"
+          },
+          {
+            "id": "共通.MACD増分",
+            "known": true,
+            "passed": true,
+            "reason": "3分ヒストグラム増分が候補方向へstrict正"
+          },
+          {
+            "id": "共通.終値とEMA8",
+            "known": true,
+            "passed": true,
+            "reason": "確定終値は現在EMA8の候補方向側"
+          },
+          {
+            "id": "共通.取得位置ATR",
+            "known": true,
+            "passed": false,
+            "reason": "取得側気配の符号付きEMA8距離が0以上1ATR以下・等号許容"
+          },
+          {
+            "id": "共通.同時スパイク警戒",
+            "known": true,
+            "passed": true,
+            "reason": "TR\u003e前ATRの2倍 AND RSI変化絶対値\u003e15のみ拒否・RSI水準単独では拒否しない"
+          },
+          {
+            "id": "共通.現在量支持",
+            "known": true,
+            "passed": true,
+            "reason": "当原行OwnAtの既知OFI30に候補方向を掛けstrict正・約定出来高ではない"
+          },
+          {
+            "id": "B.15分EMA逆背景",
+            "known": true,
+            "passed": true,
+            "reason": "候補方向は上位EMA8/21のstrict逆・Source方向は変更しない"
+          },
+          {
+            "id": "B.固定3足窓",
+            "known": true,
+            "passed": true,
+            "reason": "同場の最新a/b/cだけ・各足終端差180秒・空足/欠足/助走不足を補完しない"
+          },
+          {
+            "id": "B.a足は固定線反対側",
+            "known": true,
+            "passed": true,
+            "reason": "L=a時点EMA8固定・a終値は反対側又は同値"
+          },
+          {
+            "id": "B.b足で固定線奪還",
+            "known": true,
+            "passed": true,
+            "reason": "b確定終値が固定Lの候補方向側へstrict移行"
+          },
+          {
+            "id": "B.c足で固定線維持",
+            "known": true,
+            "passed": true,
+            "reason": "別の後足cでも固定L方向側を維持・後のEMAで線を更新しない"
+          },
+          {
+            "id": "B.c足で価格再進行",
+            "known": true,
+            "passed": true,
+            "reason": "c終値がb終値から候補方向へstrict進行"
+          },
+          {
+            "id": "B.c足でRSI再進行",
+            "known": true,
+            "passed": true,
+            "reason": "cのRSIがbから候補方向へstrict進行"
+          },
+          {
+            "id": "B.現在取得側も固定線方向",
+            "known": true,
+            "passed": true,
+            "reason": "取得側気配も固定Lの候補方向側・Side反転なし"
+          }
+        ]
+      },
+      "entry_order_id": "2026-10-14_Day-H0_B5Q_P0_C0_D0-O000005",
+      "position_id": "2026-10-14_Day-H0_B5Q_P0_C0_D0-P000005",
+      "session": "2026-10-14_Day",
+      "source_hold_id": "80参照-D164_15-2026-10-14_Day-NK225mini-D164_15-000007-玉",
+      "当時入力": {
+        "at": 1791957300,
+        "bar15_age_seconds": 600,
+        "bar3_age_seconds": 60,
+        "candidate": {
+          "ordinal": 4,
+          "at": 1791957300,
+          "side": -1,
+          "source": {
+            "method": "NK225_D164_15",
+            "signal_id": "80参照-D164_15-2026-10-14_Day-NK225mini-D164_15-000007",
+            "kind": "delayed_initial",
+            "parent": "core/1",
+            "source_id": "80参照-D164_15-選定源-2026-10-14_Day-NK225mini-core-000008",
+            "quantity_micro": 13,
+            "birth_quantity": 1,
+            "birth_time": 1791957036,
+            "birth_quote": {
+              "time": 1791957036,
+              "index": 118638,
+              "source_line": 119492,
+              "last": 68300,
+              "bid": 68290,
+              "ask": 68300,
+              "quote_ok": true
+            }
+          },
+          "quote": {
+            "time": 1791957295,
+            "index": 120153,
+            "source_line": 121007,
+            "last": 68210,
+            "bid": 68210,
+            "ask": 68220,
+            "quote_ok": true
+          },
+          "available": 10,
+          "quantity": 1
+        },
+        "current_source": {
+          "ask": 68220,
+          "bid": 68210,
+          "last": 68210,
+          "received": 1791957295,
+          "source_index": 120153,
+          "source_line": 121007,
+          "time": 1791957295
+        },
+        "fifteen": {
+          "bar_end": 1791956700,
+          "available_at": 1791956700,
+          "observed_clock": 1791956700,
+          "rows": 5775,
+          "data_known": true,
+          "has_last_source": true,
+          "last_source": {
+            "time": 1791956695,
+            "index": 116660,
+            "line": 117514,
+            "last": 68310,
+            "valid": true
+          },
+          "reason": "公開済み形成足の入力出典"
+        },
+        "kind": "Day",
+        "quantity": {
+          "kind": "OFI30",
+          "known": true,
+          "own_at": 1791957295,
+          "raw": -0.01021587625548068,
+          "reason": "",
+          "signed": 0.01021587625548068
+        },
+        "quote_age_seconds": 5,
+        "recent3": [
+          {
+            "at": 1791956880,
+            "close": 68350,
+            "ema8": 68323.83305731605,
+            "exit_known": true,
+            "reversal_known": true,
+            "rsi": 46.569283907316226,
+            "scene": {
+              "id": "2026-10-14_Day",
+              "contract": "161120018",
+              "start": 1791935100
+            },
+            "spike_known": true,
+            "three": {
+              "bar_end": 1791956880,
+              "available_at": 1791956880,
+              "observed_clock": 1791956880,
+              "rows": 1067,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 1791956868,
+                "index": 117727,
+                "line": 118581,
+                "last": 68350,
+                "valid": true
+              },
+              "reason": "公開済み形成足の入力出典"
+            },
+            "trend_known": true
+          },
+          {
+            "at": 1791957060,
+            "close": 68290,
+            "ema8": 68316.3146001347,
+            "exit_known": true,
+            "reversal_known": true,
+            "rsi": 41.34961053576564,
+            "scene": {
+              "id": "2026-10-14_Day",
+              "contract": "161120018",
+              "start": 1791935100
+            },
+            "spike_known": true,
+            "three": {
+              "bar_end": 1791957060,
+              "available_at": 1791957060,
+              "observed_clock": 1791957062,
+              "rows": 1052,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 1791957052,
+                "index": 118779,
+                "line": 119633,
+                "last": 68290,
+                "valid": true
+              },
+              "reason": "公開済み形成足の入力出典"
+            },
+            "trend_known": true
+          },
+          {
+            "at": 1791957240,
+            "close": 68230,
+            "ema8": 68297.13357788255,
+            "exit_known": true,
+            "reversal_known": true,
+            "rsi": 36.896041169983654,
+            "scene": {
+              "id": "2026-10-14_Day",
+              "contract": "161120018",
+              "start": 1791935100
+            },
+            "spike_known": true,
+            "three": {
+              "bar_end": 1791957240,
+              "available_at": 1791957240,
+              "observed_clock": 1791957241,
+              "rows": 1044,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 1791957228,
+                "index": 119823,
+                "line": 120677,
+                "last": 68230,
+                "valid": true
+              },
+              "reason": "公開済み形成足の入力出典"
+            },
+            "trend_known": true
+          }
+        ],
+        "scene": {
+          "id": "2026-10-14_Day",
+          "contract": "161120018",
+          "start": 1791935100
+        },
+        "snapshot_id": "2026-10-14_Day-G0075",
+        "technical": {
+          "atr3": 68.33044631015228,
+          "close3": 68230,
+          "ema21_15": 68364.24721006969,
+          "ema21_3": 68349.15885984914,
+          "ema8_15": 68407.15950637826,
+          "ema8_3": 68297.13357788255,
+          "entry_distance_atr": 1.2751794051958225,
+          "exit_known": true,
+          "histogram3": -5.0490674359124625,
+          "previous_atr3": 67.43278833401016,
+          "previous_histogram3": -1.6825113171631827,
+          "previous_rsi3": 41.34961053576564,
+          "rsi3": 36.896041169983654,
+          "signed_histogram_delta": 3.36655611874928,
+          "spike_known": true,
+          "tr3": 80,
+          "trend_known": true
+        },
+        "three": {
+          "bar_end": 1791957240,
+          "available_at": 1791957240,
+          "observed_clock": 1791957241,
+          "rows": 1044,
+          "data_known": true,
+          "has_last_source": true,
+          "last_source": {
+            "time": 1791957228,
+            "index": 119823,
+            "line": 120677,
+            "last": 68230,
+            "valid": true
+          },
+          "reason": "公開済み形成足の入力出典"
+        }
+      },
+      "必要未知check": [],
+      "既知不成立check": [
+        "共通.取得位置ATR"
+      ]
+    },
+    {
+      "assessment": {
+        "decision": {
+          "policy": "B",
+          "snapshot_id": "2026-10-22_Night-G0075",
+          "known": true,
+          "allowed": false,
+          "role": "待機",
+          "reason": "公開済みの必要条件が不成立"
+        },
+        "checks": [
+          {
+            "id": "共通.現在価格時計",
+            "known": false,
+            "passed": false,
+            "reason": "候補とCurrentの同原行を検査済み・価格時計は15秒以内"
+          },
+          {
+            "id": "共通.確定3分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定足・終端以下で足齢180秒未満"
+          },
+          {
+            "id": "共通.確定15分",
+            "known": true,
+            "passed": true,
+            "reason": "当場の既知確定足・終端以下で足齢900秒未満"
+          },
+          {
+            "id": "共通.EMA背景既知",
+            "known": true,
+            "passed": true,
+            "reason": "固定APIのTrendKnownを使用・EMA15単独の既知性は推測しない"
+          },
+          {
+            "id": "共通.MACD増分",
+            "known": true,
+            "passed": true,
+            "reason": "3分ヒストグラム増分が候補方向へstrict正"
+          },
+          {
+            "id": "共通.終値とEMA8",
+            "known": true,
+            "passed": true,
+            "reason": "確定終値は現在EMA8の候補方向側"
+          },
+          {
+            "id": "共通.取得位置ATR",
+            "known": true,
+            "passed": false,
+            "reason": "取得側気配の符号付きEMA8距離が0以上1ATR以下・等号許容"
+          },
+          {
+            "id": "共通.同時スパイク警戒",
+            "known": true,
+            "passed": true,
+            "reason": "TR\u003e前ATRの2倍 AND RSI変化絶対値\u003e15のみ拒否・RSI水準単独では拒否しない"
+          },
+          {
+            "id": "共通.現在量支持",
+            "known": true,
+            "passed": true,
+            "reason": "同時刻/同FeaturesIndexのE08数量変化4成分の符号差・約定出来高ではない"
+          },
+          {
+            "id": "B.15分EMA逆背景",
+            "known": true,
+            "passed": true,
+            "reason": "候補方向は上位EMA8/21のstrict逆・Source方向は変更しない"
+          },
+          {
+            "id": "B.固定3足窓",
+            "known": true,
+            "passed": true,
+            "reason": "同場の最新a/b/cだけ・各足終端差180秒・空足/欠足/助走不足を補完しない"
+          },
+          {
+            "id": "B.a足は固定線反対側",
+            "known": true,
+            "passed": true,
+            "reason": "L=a時点EMA8固定・a終値は反対側又は同値"
+          },
+          {
+            "id": "B.b足で固定線奪還",
+            "known": true,
+            "passed": true,
+            "reason": "b確定終値が固定Lの候補方向側へstrict移行"
+          },
+          {
+            "id": "B.c足で固定線維持",
+            "known": true,
+            "passed": true,
+            "reason": "別の後足cでも固定L方向側を維持・後のEMAで線を更新しない"
+          },
+          {
+            "id": "B.c足で価格再進行",
+            "known": true,
+            "passed": true,
+            "reason": "c終値がb終値から候補方向へstrict進行"
+          },
+          {
+            "id": "B.c足でRSI再進行",
+            "known": true,
+            "passed": true,
+            "reason": "cのRSIがbから候補方向へstrict進行"
+          },
+          {
+            "id": "B.現在取得側も固定線方向",
+            "known": true,
+            "passed": true,
+            "reason": "取得側気配も固定Lの候補方向側・Side反転なし"
+          }
+        ]
+      },
+      "entry_order_id": "2026-10-22_Night-H0_B5Q_P0_C0_D0-O000003",
+      "position_id": "2026-10-22_Night-H0_B5Q_P0_C0_D0-P000003",
+      "session": "2026-10-22_Night",
+      "source_hold_id": "80参照-U165_03-2026-10-22_Night-NK225mini-U165_03-000002-玉",
+      "当時入力": {
+        "at": 1792678200,
+        "bar15_age_seconds": 600,
+        "bar3_age_seconds": 60,
+        "candidate": {
+          "ordinal": 2,
+          "at": 1792678200,
+          "side": -1,
+          "source": {
+            "method": "NK225_U165_03",
+            "signal_id": "80参照-U165_03-2026-10-22_Night-NK225mini-U165_03-000002",
+            "kind": "source_add",
+            "parent": "episode/0",
+            "source_id": "80参照-U165_03-選定源-2026-10-22_Night-NK225mini-episode-000002",
+            "quantity_micro": 10,
+            "birth_quantity": 1,
+            "birth_time": 1792677962,
+            "birth_quote": {
+              "time": 1792677962,
+              "index": 102765,
+              "source_line": 103431,
+              "last": 63390,
+              "bid": 63380,
+              "ask": 63390,
+              "quote_ok": true
+            }
+          },
+          "quote": {
+            "time": 1792678184,
+            "index": 104480,
+            "source_line": 105146,
+            "last": 63300,
+            "bid": 63300,
+            "ask": 63310,
+            "quote_ok": true
+          },
+          "available": 10,
+          "quantity": 1
+        },
+        "current_source": {
+          "ask": 63310,
+          "bid": 63300,
+          "last": 63300,
+          "received": 1792678184,
+          "source_index": 104480,
+          "source_line": 105146,
+          "time": 1792678184
+        },
+        "fifteen": {
+          "bar_end": 1792677600,
+          "available_at": 1792677600,
+          "observed_clock": 1792677604,
+          "rows": 6902,
+          "data_known": true,
+          "has_last_source": true,
+          "last_source": {
+            "time": 1792677596,
+            "index": 100290,
+            "line": 100956,
+            "last": 63480,
+            "valid": true
+          },
+          "reason": "公開済み形成足の入力出典"
+        },
+        "kind": "Night",
+        "quantity": {
+          "ask_deplete": 0.06197691197690997,
+          "ask_refill": 0.07986211319544623,
+          "available": true,
+          "bid_deplete": 0.07079810335098892,
+          "bid_refill": 0.06529427076382414,
+          "index": 104480,
+          "kind": "E08同価格4成分差",
+          "known": true,
+          "signed": 0.023389033805701023,
+          "time": 1792678184,
+          "window": "E08"
+        },
+        "quote_age_seconds": 16,
+        "recent3": [
+          {
+            "at": 1792677780,
+            "close": 63510,
+            "ema8": 63426.57381653346,
+            "exit_known": true,
+            "reversal_known": true,
+            "rsi": 67.29059817036479,
+            "scene": {
+              "id": "2026-10-22_Night",
+              "contract": "161120018",
+              "start": 1792656000
+            },
+            "spike_known": true,
+            "three": {
+              "bar_end": 1792677780,
+              "available_at": 1792677780,
+              "observed_clock": 1792677781,
+              "rows": 1241,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 1792677768,
+                "index": 101531,
+                "line": 102197,
+                "last": 63510,
+                "valid": true
+              },
+              "reason": "公開済み形成足の入力出典"
+            },
+            "trend_known": true
+          },
+          {
+            "at": 1792677960,
+            "close": 63400,
+            "ema8": 63420.66852397047,
+            "exit_known": true,
+            "reversal_known": true,
+            "rsi": 54.027349485245296,
+            "scene": {
+              "id": "2026-10-22_Night",
+              "contract": "161120018",
+              "start": 1792656000
+            },
+            "spike_known": true,
+            "three": {
+              "bar_end": 1792677960,
+              "available_at": 1792677960,
+              "observed_clock": 1792677962,
+              "rows": 1232,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 1792677958,
+                "index": 102763,
+                "line": 103429,
+                "last": 63400,
+                "valid": true
+              },
+              "reason": "公開済み形成足の入力出典"
+            },
+            "trend_known": true
+          },
+          {
+            "at": 1792678140,
+            "close": 63320,
+            "ema8": 63398.29774086592,
+            "exit_known": true,
+            "reversal_known": true,
+            "rsi": 46.802244096201505,
+            "scene": {
+              "id": "2026-10-22_Night",
+              "contract": "161120018",
+              "start": 1792656000
+            },
+            "spike_known": true,
+            "three": {
+              "bar_end": 1792678140,
+              "available_at": 1792678140,
+              "observed_clock": 1792678142,
+              "rows": 1299,
+              "data_known": true,
+              "has_last_source": true,
+              "last_source": {
+                "time": 1792678131,
+                "index": 104062,
+                "line": 104728,
+                "last": 63320,
+                "valid": true
+              },
+              "reason": "公開済み形成足の入力出典"
+            },
+            "trend_known": true
+          }
+        ],
+        "scene": {
+          "id": "2026-10-22_Night",
+          "contract": "161120018",
+          "start": 1792656000
+        },
+        "snapshot_id": "2026-10-22_Night-G0075",
+        "technical": {
+          "atr3": 85.72878922907088,
+          "close3": 63320,
+          "ema21_15": 63291.56522360227,
+          "ema21_3": 63370.06400010436,
+          "ema8_15": 63336.36137816793,
+          "ema8_3": 63398.29774086592,
+          "entry_distance_atr": 1.1466129610586842,
+          "exit_known": true,
+          "histogram3": -3.7587790225462854,
+          "previous_atr3": 83.86177301592248,
+          "previous_histogram3": 5.298754522954653,
+          "previous_rsi3": 54.027349485245296,
+          "rsi3": 46.802244096201505,
+          "signed_histogram_delta": 9.057533545500938,
+          "spike_known": true,
+          "tr3": 110,
+          "trend_known": true
+        },
+        "three": {
+          "bar_end": 1792678140,
+          "available_at": 1792678140,
+          "observed_clock": 1792678142,
+          "rows": 1299,
+          "data_known": true,
+          "has_last_source": true,
+          "last_source": {
+            "time": 1792678131,
+            "index": 104062,
+            "line": 104728,
+            "last": 63320,
+            "valid": true
+          },
+          "reason": "公開済み形成足の入力出典"
+        }
+      },
+      "必要未知check": [
+        "共通.現在価格時計"
+      ],
+      "既知不成立check": [
+        "共通.取得位置ATR"
+      ]
+    }
+  ],
+  "市場再売買/Raw/Source再実行/新日": 0,
+  "必要条件交差": {
+    "上位逆背景も成立": 7,
+    "固定3足形状": 16,
+    "現在量支持も成立": 2
+  },
+  "成功": true,
+  "本名政策": "B",
+  "母集合射影SHA256": "c9fc82fa4b39acd27973eb66099b21b8269618ad6a714cc1f29c2eac68e58374",
+  "禁止項目のデコード": {
+    "marks": 0,
+    "u勝敗ラベル": 0,
+    "損益": 0,
+    "退出価格": 0
+  },
+  "計画SHA256": "0332fb19ee61091fcd9d7126d0224dbca9c0654b8669960b38c6dea4e3005fa3",
+  "計画固定入力": [
+    {
+      "path": "work/99B不成立の内訳/main.go",
+      "sha256": "a3035094f74a70dcfa85c2965f3e8d45d37c1c7a616f7de80ed012fafaf34611"
+    },
+    {
+      "path": "work/99B不成立の内訳/main_test.go",
+      "sha256": "01d353c199095f27cc87a4fa7d8d8da0ac02c8bac364fc62a4a535fae79f9523"
+    },
+    {
+      "path": "work/99B不成立の内訳/go.mod",
+      "sha256": "2ba1ec4247a821efbca0c5224ab9928ebaa0b039a24f47d2b74313482b0872e8"
+    },
+    {
+      "path": "work/99B不成立の内訳/go.sum",
+      "sha256": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074"
+    },
+    {
+      "path": "work/99B不成立の内訳/B純査定.exe",
+      "sha256": "676cba7f8b3dc246f0c0685257ad0a129c1d448dcd4bd0f8bdb95513aee2fe08"
+    },
+    {
+      "path": "scripts/FAR5分枠の順行反転と数量/technical_gate.go",
+      "sha256": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf"
+    },
+    {
+      "path": "scripts/FAR5分枠の順行反転と数量/entry_gate.go",
+      "sha256": "45019f080133d8087b4969e5bdee173f358994ec1ecd22dcf8fa33ee8d71c4c6"
+    },
+    {
+      "path": "scripts/FAR5分枠の順行反転と数量/actual_types.go",
+      "sha256": "fda7a5d0f99dbe6ce0d0885fd6c95edd63b3b8bc52a920b25c86f93e932dd72e"
+    },
+    {
+      "path": "scripts/複数尺度チャートの助走/bank.go",
+      "sha256": "e727cc2589d3ba1f4b8d81ff8266f29117264dbe08560c9033e68b2c4442f612"
+    },
+    {
+      "path": "work/98入口状態の比較/比較する.py",
+      "sha256": "0be6519cc7fc1e61b80efc42b012e0302c07194c19d2deffbbcd90ef71de3b63"
+    },
+    {
+      "path": "work/99純技法案/saved302_test.go",
+      "sha256": "86338b4ecf4d0e5e6ecee3083b3e9ae989739d64abde372cc902957972f9723f"
+    },
+    {
+      "path": "scripts/FAR5分枠の技法判定の監査/技法の保存照合.py",
+      "sha256": "b5d1af7fb85d4446a47573a4389abfa433177189cb01d901bdd53a8a38b8d5e6"
+    },
+    {
+      "path": "work/98入口状態の比較/結果.json",
+      "sha256": "37261350b06e5abe86622d7ec3d05b7bfaea3c11372be7817d62102b0a505676"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-21_Day.json.gz",
+      "sha256": "2be4b750731364178047a78302d4136618de2b2c518c425227d279334d8706c6",
+      "session": "2026-09-21_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-21_Night.json.gz",
+      "sha256": "13f4eb228e79a0be87c673592b5087a21331fb2f6483879209ee2ec3b1d7ba4c",
+      "session": "2026-09-21_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-22_Day.json.gz",
+      "sha256": "ee31e8b610c6f1feb0c19c0242737b2e64d8eb84022046e9c93e0c2acf7cb27b",
+      "session": "2026-09-22_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-22_Night.json.gz",
+      "sha256": "0ab0938f338342dde0a76f3506373863384ebcd613526204c409d06b0e590305",
+      "session": "2026-09-22_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-23_Day.json.gz",
+      "sha256": "af7a11b67f29fa38665235ec75966cadb64e5d7ae6fc9cadca224c40e5755d9a",
+      "session": "2026-09-23_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-23_Night.json.gz",
+      "sha256": "6303b26f2ea6c587b31802558ac84edd50f802a1dbca53cf2236155dd9125854",
+      "session": "2026-09-23_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-24_Day.json.gz",
+      "sha256": "2d31bc8ab79ceeb6f1a0049386616ca6e94aea37cff53627cd9aa692762f66e4",
+      "session": "2026-09-24_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-24_Night.json.gz",
+      "sha256": "5ff2a4c1eef635d264cd56785b2307711fc1d5a671cae7fdf4137e875dd8e661",
+      "session": "2026-09-24_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-25_Day.json.gz",
+      "sha256": "77045cdff88fb6db9098aa8e809acb382d5ca9ff4ba2129a46fd99a0a0a22b1e",
+      "session": "2026-09-25_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-25_Night.json.gz",
+      "sha256": "e6740e2ca6210f0c4fd51c04b7391086b425c4f54623bedadc41c8947679f8e2",
+      "session": "2026-09-25_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-28_Day.json.gz",
+      "sha256": "28663b58158ca83845f45fa3d168f6272171da3c89c7062602341f10b741b56a",
+      "session": "2026-09-28_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-28_Night.json.gz",
+      "sha256": "7aad3b1cf159b0ea26e26b570f31642e6b30313d9ccebe177bfa551431bd92ce",
+      "session": "2026-09-28_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-29_Day.json.gz",
+      "sha256": "e351d1453f611230807310adec17dc1f0515286638ef307419233a651bac21e9",
+      "session": "2026-09-29_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-29_Night.json.gz",
+      "sha256": "59e1b2d009a2d630a8b27e669c3a9d4333eb6195ae23a5c21d8c489adb87c58d",
+      "session": "2026-09-29_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-30_Day.json.gz",
+      "sha256": "cd7e5caeabfde44cf0055c120fd37a4d2725b2fa9fc85f7e47b4ec98b889baab",
+      "session": "2026-09-30_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-09-30_Night.json.gz",
+      "sha256": "67ff6f1ab92760a6242004e82b064ffaad0717863cfff6f4592a07570a50b262",
+      "session": "2026-09-30_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-01_Day.json.gz",
+      "sha256": "7f4e98da17dcfbcb18da2a6743d23d4583a0a35459a774017701628d9fe5d951",
+      "session": "2026-10-01_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-01_Night.json.gz",
+      "sha256": "0868f61afcb33cb357c00c4afdd9e8f64205d522cb2a02b30b1bb1051b49fe78",
+      "session": "2026-10-01_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-02_Day.json.gz",
+      "sha256": "6b2418314ed04bb48811f8181de3bd31a6b86e4972fad5e2631cc3ec30f3a720",
+      "session": "2026-10-02_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-02_Night.json.gz",
+      "sha256": "49686e0755b8d4f9e7d0985ca03ed8e3209b51b4c256f4f9ff6ee72131e3158e",
+      "session": "2026-10-02_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-05_Day.json.gz",
+      "sha256": "1f8680b44cd339516c86b0d5f7728fd9f78fefc92820f7b83c9cee22723be568",
+      "session": "2026-10-05_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-05_Night.json.gz",
+      "sha256": "8cb438ec3233d4837cde3234789aaa8de00e5ef10beaf7ab71c0812d909a7c4b",
+      "session": "2026-10-05_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-06_Day.json.gz",
+      "sha256": "4e172c8d1e4aac0c27368a6203296f25b9e5289e67d3ff907c01753f5c77012b",
+      "session": "2026-10-06_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-06_Night.json.gz",
+      "sha256": "fda09f3d9a1d7d68cf80f093f76a5d809de38734164bd1a4a126f6c46a1ac89f",
+      "session": "2026-10-06_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-07_Day.json.gz",
+      "sha256": "edb63b4dc9c8860ec4736ffe55083fccde33c8d373da792360a1b3fa8991c035",
+      "session": "2026-10-07_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-07_Night.json.gz",
+      "sha256": "eaa503d96e33a0db5b983c51d785d59295d0ec226122a5b89b20dbbc1692d388",
+      "session": "2026-10-07_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-08_Day.json.gz",
+      "sha256": "cb2c12992a4a673a4f8984d1043a2531e7ddde00e5fee44e4ae8566f1da6ad14",
+      "session": "2026-10-08_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-08_Night.json.gz",
+      "sha256": "4553c32701c7ab0442513660422e9c9b975d7d754d99d042ebda5d0d4b8177f4",
+      "session": "2026-10-08_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-09_Day.json.gz",
+      "sha256": "00033470d34fd77d879f5306367f02390bb33d1bc9458534f8aaab0608ccd9bc",
+      "session": "2026-10-09_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-09_Night.json.gz",
+      "sha256": "4723406d034e80e8dbf67d22f96d2b735643dc9ce5cc8ab107ee167369fae8ec",
+      "session": "2026-10-09_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-12_Day.json.gz",
+      "sha256": "a9bfd9c5013f518902b99c3e4e9e3b41007f409b2fb2a74f56ea716b3dbf6ef5",
+      "session": "2026-10-12_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-12_Night.json.gz",
+      "sha256": "e2b323949ff61db4e87a406934ecd10d01390629ad063d75005815fa1866adea",
+      "session": "2026-10-12_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-13_Day.json.gz",
+      "sha256": "e50409c23b71996b4f31ab6ca4401667e774de74e2ebb98455489e69ef06fd83",
+      "session": "2026-10-13_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-13_Night.json.gz",
+      "sha256": "8be3aaf0fcbdd7d43689f720ff5fcb1806db6d52c9ac3460a97f0d522541998e",
+      "session": "2026-10-13_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-14_Day.json.gz",
+      "sha256": "84138d40b586330a46a39607181b9865c96b0872041eb788a9b7ecc3c6660473",
+      "session": "2026-10-14_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-14_Night.json.gz",
+      "sha256": "db723aa711de445ae950c6f39a44020a20ec5b58edd685424418662cf9085201",
+      "session": "2026-10-14_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-15_Day.json.gz",
+      "sha256": "3486c752b035039fe2870ce94b25036eb01b0191edaa2509437e7d78c6633c42",
+      "session": "2026-10-15_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-15_Night.json.gz",
+      "sha256": "88dde62542e2a367ee8f9061caa66c4625bf04de5610122d04e2db42135b91c7",
+      "session": "2026-10-15_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-16_Day.json.gz",
+      "sha256": "8bcaf245042013865078d8d0618f1bdcccdbdf9c0441f1704ede1ba65041e8c0",
+      "session": "2026-10-16_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-16_Night.json.gz",
+      "sha256": "c2cec581bd009cf000e5c3f221add8d240d0594b118b8791579d2c215954ad88",
+      "session": "2026-10-16_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-19_Day.json.gz",
+      "sha256": "5be91635c0cb028c033a8f1d5cff2a8465c6f7580096d3656029feded05232ca",
+      "session": "2026-10-19_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-19_Night.json.gz",
+      "sha256": "8f47b68eb9e3fb424630d6ba967462be6defc292c05ca122f10408f050c4553f",
+      "session": "2026-10-19_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-20_Day.json.gz",
+      "sha256": "daab00b016c419a820d5af76b02027a1a252b815c8bed58168aa6196c55d62f4",
+      "session": "2026-10-20_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-20_Night.json.gz",
+      "sha256": "a3bff5f0bc8da3595aec5f46dd7bb2e3156dad49173ac5b6d197485b5eb6a021",
+      "session": "2026-10-20_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-21_Day.json.gz",
+      "sha256": "d59e69392fba81bc1715e462d29ef73fa5145614ac1f3146bbff3750554212dc",
+      "session": "2026-10-21_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-21_Night.json.gz",
+      "sha256": "e68d9d0d55e6193a068b6222936ed05c8c452a4b2d5ef90e696dd7bfd4506cca",
+      "session": "2026-10-21_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-22_Day.json.gz",
+      "sha256": "174fd55e1fa998228fc7f43795a423db6e8042a8c6de4357eec4af6e3021a4bb",
+      "session": "2026-10-22_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-22_Night.json.gz",
+      "sha256": "17205b5198c575a181d66b97ff785039e606be1f1603a2473dd28183d107345d",
+      "session": "2026-10-22_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-23_Day.json.gz",
+      "sha256": "663ff84f9d5382d3e3171f96b004a71f8b1c6fac1ffcca1af02f4d1023449ea3",
+      "session": "2026-10-23_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-23_Night.json.gz",
+      "sha256": "60e61ffe3cc143152a55071aa2ccd536641793858a2706c0c20b141d8e385ee9",
+      "session": "2026-10-23_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-26_Day.json.gz",
+      "sha256": "2cdb1985fe6d5e7a957c6ea9e26b0a1de203796944066788d9b1087498fbf23f",
+      "session": "2026-10-26_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-26_Night.json.gz",
+      "sha256": "812b51e643e283336a17abe29e03d7209b3452e06715ad09cc28a5136c79b0d0",
+      "session": "2026-10-26_Night"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-27_Day.json.gz",
+      "sha256": "667ec6758ce1b3a228861e7e4a5adc469e8b08095267207473bdbd3c4ca0e3c1",
+      "session": "2026-10-27_Day"
+    },
+    {
+      "path": "study/00097_初回費用後利益の全量確定/成果物/2026-10-27_Night.json.gz",
+      "sha256": "fed151f0b2a1e0d833416a302a5a46ef88ff99aa8ef767be0dda17167445baf6",
+      "session": "2026-10-27_Night"
+    }
+  ],
+  "限界": "302は既存主口座の固定標本。2件の否定内容は新B閾値の有効性や新戦略成績ではない。"
+}

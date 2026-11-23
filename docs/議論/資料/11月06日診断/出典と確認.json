@@ -1,0 +1,98 @@
+{
+  "確認日": "2026-11-09",
+  "対象": [
+    "2026-11-06_Day",
+    "2026-11-06_Night"
+  ],
+  "金融再実行": false,
+  "固定試行の変更": false,
+  "検算": {
+    "会計数": 48,
+    "主会計数": 12,
+    "実建玉": 141,
+    "当時の根拠足と値の照合": 141,
+    "ATR独立計算照合": 141,
+    "grid観測が名目枠より後の玉の別公表照合": 36,
+    "半ATR利益到達時の警戒照合": {
+      "C=False,M=True": 249
+    }
+  },
+  "出典": [
+    {
+      "path": "study\\00107_見送り明けの初回取得と利益保護\\成果物\\結果.json",
+      "sha256": "85e1d9f3de5e2e6ebec29b7e26fb152abf4ac530f46248d33e78f0f6f041bbb1"
+    },
+    {
+      "path": "study\\00107_見送り明けの初回取得と利益保護\\成果物_金融\\Native参照台帳.json",
+      "sha256": "4e6858a1107d2f910985c1833fc99e3cd60b6b06077e36fc65138a8fdaa650d2"
+    },
+    {
+      "path": "study\\00107_見送り明けの初回取得と利益保護\\成果物_金融\\Native\\2026-11-06_Day.Native.json.gz",
+      "sha256": "f9fc514a5b3458d1311622b6b576767afc6cde774fbb4c9195c575d81b52b42e"
+    },
+    {
+      "path": "study\\00107_見送り明けの初回取得と利益保護\\成果物_金融\\Native\\2026-11-06_Night.Native.json.gz",
+      "sha256": "3ab366b11166aad86e633ce223c43d6d56b0276251db28b60d8a813cba7bfbad"
+    },
+    {
+      "path": "work\\106市場\\全70場\\2026-11-06_Day.public.records.jsonl.gz",
+      "sha256": "22b3e340044bf8f48c5add0814ecd0a5d1e5e6c36f79c32d2a86a02528fb4278"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_5min.csv",
+      "sha256": "8e152242bc9b7efc3043759964226c73bac2216d008ec3bd86b9d61428ddd1e7"
+    },
+    {
+      "path": "work\\106市場\\全70場\\2026-11-06_Night.public.records.jsonl.gz",
+      "sha256": "8b030744e475e9975cd9ec3fd9fa51bee397dc1ea7a31dd221f9c9a648801c63"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_5min.csv",
+      "sha256": "badbf921d8e1dee0a634562e5b54d5d3cceb7c44debc8b4da25cf43ed2c55adc"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go",
+      "sha256": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go",
+      "sha256": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go",
+      "sha256": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\episode143.go",
+      "sha256": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go",
+      "sha256": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go",
+      "sha256": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f"
+    },
+    {
+      "path": "study\\00107_見送り明けの初回取得と利益保護\\金融条件_埋込対応.json",
+      "sha256": "4ab51b9fadc6745ac25597b09365062b629ce329e88507f261fbc0f0760cab97"
+    },
+    {
+      "path": "work\\106市場\\全70場\\2026-11-05_Night.public.header.json",
+      "sha256": "a29fee9cbe974c98d92975dfc49fc87ccdf8476ec71ce0328f4a90c9a62a4a8e"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go",
+      "sha256": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da"
+    }
+  ],
+  "再現コード": {
+    "scripts\\11月06日診断\\半ATRと警戒を照合する.py": "da2a5d408c3dda6e26f77a11f6ebf77dc73a8ba2c18a3e8e63a4d6db271cd2fa",
+    "scripts\\11月06日診断\\図にする.py": "fb06a5ef90f98b391d43d97f2b697b22a5b5d0629a65b8534293d2eec3e5f43c",
+    "scripts\\11月06日診断\\当時の指標を調べる.py": "f6e6823992cc60f81eee522c275620bbc0d315d0268294f6da115860b3db6011",
+    "scripts\\11月06日診断\\診断する.py": "3b6c45fc6adcfc0c98652789edbee78d7cd943433285c2ecb5248f15828e3089"
+  },
+  "図SHA256": "73b03ad827ca5fca715393a477befb44937e3a7a66937c4842f1a12f4b385f2b",
+  "Python版": "3.14.3"
+}

@@ -1,0 +1,123 @@
+{
+  "文書": "反転構造と注文候補の時計を分ける.md",
+  "本文SHA256": "e0af86404e23414f8dcb9853916588f2c59d6549a3ba26635ebb94003f9e2308",
+  "確認日": "2026-11-08",
+  "状態": "共通知見・新売買条件は未採用",
+  "正本範囲": "固定96の技法B・ChartGrid/Snapshot公開型・一出生一枠処理・正式96結果",
+  "正本参照SHA256前": {
+    "scripts/FAR5分枠の順行反転と数量/technical_gate.go": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf",
+    "scripts/FAR5分枠の順行反転と数量/chart_context.go": "3b111deb05514eb9d882e4c64a2724fbb4ef919fcc586ff09082a99bebee5932",
+    "scripts/FAR5分枠の順行反転と数量/entry_grid.go": "059ded903da7a615026852169571740a9b01598a5c18e97a319192f07a6ce9b1",
+    "scripts/FAR5分枠の順行反転と数量/entry_gate.go": "45019f080133d8087b4969e5bdee173f358994ec1ecd22dcf8fa33ee8d71c4c6",
+    "scripts/FAR5分枠の順行反転と数量/replay.go": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec",
+    "scripts/複数尺度チャートの助走/bank.go": "e727cc2589d3ba1f4b8d81ff8266f29117264dbe08560c9033e68b2c4442f612",
+    "scripts/定時の現在根拠と部分利益保護/entry.go": "884e0d81868437219afb16a78ac046ddaf7da76d5c6fe4a2e0dfc97cef57aab6",
+    "study/00096_5分枠の順行反転と現在数量/成果物/結果.json": "57fe5326d4a2eab6c437f50bec28ecd48d765aeaf0f2905321029828b3c8550f",
+    "study/00096_5分枠の順行反転と現在数量/検証計画.md": "b8de17e7dd01599ec661699f687086dc32fea83b63975f1f13e4810c7b90d965",
+    "docs/議論/平均方向と現在の勢いと板が食い違うとき.md": "2a4366627b4f3590acd0654d3db72a67ec597a4180add39546038feae4ffcd0f"
+  },
+  "正本参照SHA256後": {
+    "scripts/FAR5分枠の順行反転と数量/technical_gate.go": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf",
+    "scripts/FAR5分枠の順行反転と数量/chart_context.go": "3b111deb05514eb9d882e4c64a2724fbb4ef919fcc586ff09082a99bebee5932",
+    "scripts/FAR5分枠の順行反転と数量/entry_grid.go": "059ded903da7a615026852169571740a9b01598a5c18e97a319192f07a6ce9b1",
+    "scripts/FAR5分枠の順行反転と数量/entry_gate.go": "45019f080133d8087b4969e5bdee173f358994ec1ecd22dcf8fa33ee8d71c4c6",
+    "scripts/FAR5分枠の順行反転と数量/replay.go": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec",
+    "scripts/複数尺度チャートの助走/bank.go": "e727cc2589d3ba1f4b8d81ff8266f29117264dbe08560c9033e68b2c4442f612",
+    "scripts/定時の現在根拠と部分利益保護/entry.go": "884e0d81868437219afb16a78ac046ddaf7da76d5c6fe4a2e0dfc97cef57aab6",
+    "study/00096_5分枠の順行反転と現在数量/成果物/結果.json": "57fe5326d4a2eab6c437f50bec28ecd48d765aeaf0f2905321029828b3c8550f",
+    "study/00096_5分枠の順行反転と現在数量/検証計画.md": "b8de17e7dd01599ec661699f687086dc32fea83b63975f1f13e4810c7b90d965",
+    "docs/議論/平均方向と現在の勢いと板が食い違うとき.md": "2a4366627b4f3590acd0654d3db72a67ec597a4180add39546038feae4ffcd0f"
+  },
+  "正本参照前後不変": true,
+  "正式96結果で確認した範囲": {
+    "B_B5Q_P0_C0_D0": {
+      "B成立": 0,
+      "取得枚数": 0
+    },
+    "B_B5Q_P0_C0_D1": {
+      "B成立": 0,
+      "取得枚数": 0
+    },
+    "B_B5Q_P0_C5_D0": {
+      "B成立": 0,
+      "取得枚数": 0
+    },
+    "B_B5Q_P0_C5_D1": {
+      "B成立": 0,
+      "取得枚数": 0
+    }
+  },
+  "B条件交差の詳細": "本稿では未確定。work探索由来の集合件数や失敗件数を正式数値根拠として転記しない。",
+  "仕様からの確認": [
+    "BはSource出生方向を変更せず、固定L=a時点EMA8_3に対する最新3確定足を判定する",
+    "Bには3足が全て出生後という条件がない",
+    "3足終値だけでは以前の支持実績・実際の線再試験・枠間量推移を証明しない",
+    "将来の全出生後3足確認案だけにa-c=360秒と次枠最大300秒の時計制約がある",
+    "構造観測と同方向の有効出生の存在は別で、候補更新は別契約である"
+  ],
+  "外部一次資料": [
+    {
+      "提供者": "CME Group",
+      "題名": "Support and Resistance",
+      "URL": "https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance",
+      "確認日": "2026-11-08",
+      "実読範囲": "Moving Averages、Previous Highs and Lowsの役割交代、支持抵抗は帯とする本文",
+      "区分": "一般教材。固定B・NK225反転確率・費用後利益の実証ではない"
+    }
+  ],
+  "心理仮説": "取り戻せない価格帯からの反対進行が、平均背景と現在の受容価格の食い違いを表す可能性。主体意図・投げ・吸収・交代は断定しない。",
+  "実施範囲": {
+    "市場Native本文読取": 0,
+    "Tape本文読取": 0,
+    "原板読取": 0,
+    "新日読取": 0,
+    "売買再生": 0,
+    "金融Source条件変更": 0,
+    "既存正式ファイル編集": 0,
+    "新規ファイル数": 2,
+    "目次更新": "Root担当"
+  },
+  "ローカルリンク確認": [
+    {
+      "リンク": "../../scripts/FAR5分枠の順行反転と数量/technical_gate.go",
+      "存在": true
+    },
+    {
+      "リンク": "../../study/00096_5分枠の順行反転と現在数量/成果物/結果.json",
+      "存在": true
+    },
+    {
+      "リンク": "../../scripts/複数尺度チャートの助走/bank.go",
+      "存在": true
+    },
+    {
+      "リンク": "../../scripts/FAR5分枠の順行反転と数量/technical_gate.go",
+      "存在": true
+    },
+    {
+      "リンク": "../../scripts/FAR5分枠の順行反転と数量/chart_context.go",
+      "存在": true
+    },
+    {
+      "リンク": "../../scripts/FAR5分枠の順行反転と数量/entry_grid.go",
+      "存在": true
+    },
+    {
+      "リンク": "../../scripts/FAR5分枠の順行反転と数量/entry_gate.go",
+      "存在": true
+    },
+    {
+      "リンク": "../../scripts/FAR5分枠の順行反転と数量/replay.go",
+      "存在": true
+    },
+    {
+      "リンク": "平均方向と現在の勢いと板が食い違うとき.md",
+      "存在": true
+    },
+    {
+      "リンク": "反転構造と注文候補の時計_参照.json",
+      "存在": true
+    }
+  ],
+  "確認成功": true
+}

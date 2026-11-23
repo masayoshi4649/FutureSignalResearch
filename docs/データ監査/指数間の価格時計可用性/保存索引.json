@@ -1,0 +1,30 @@
+{
+  "金融未使用": true,
+  "相関や予測性能未計算": true,
+  "対象場": 81,
+  "入力NPZ複製": false,
+  "保存": [
+    {
+      "path": "docs/データ監査/指数間の価格時計可用性/両指数の過去結合可用性.json.gz",
+      "bytes": 51914,
+      "sha256": "864017e7d1cc9c539e39f55c380afb9a1712a358125662270523b7382dbe0a87"
+    },
+    {
+      "path": "docs/データ監査/指数間の価格時計可用性/人工確認.json",
+      "bytes": 1470,
+      "sha256": "a3227a2e81ad4b79c6daa4ccaae938357fff8e247ebbe198b60a68e9609bbd82"
+    },
+    {
+      "path": "docs/データ監査/指数間の価格時計可用性/独立確認.json",
+      "bytes": 1948,
+      "sha256": "ab6b3de5a3926a9b0740191440f9198f4537ca64a0d38e6aa3fcdca32b01a98c"
+    },
+    {
+      "path": "docs/データ監査/指数間の価格時計可用性/Source.zip",
+      "bytes": 10068,
+      "sha256": "5f7df4422dbfa4a4a2fd3aeb9d4148ea503a5af1902e70cc374927dfcec44de1"
+    }
+  ],
+  "再現": "Source.zipをwork直下の一つの作業フォルダへ展開し、可用性・人工確認・独立確認の順に実行。",
+  "環境": "Python 3.14.3 / NumPy 2.5.4 / America/New_Yorkを解決できるタイムゾーンデータ"
+}

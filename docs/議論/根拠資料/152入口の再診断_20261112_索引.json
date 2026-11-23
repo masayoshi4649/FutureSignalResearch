@@ -1,0 +1,272 @@
+{
+  "成功": true,
+  "編集停止": true,
+  "対象": "固定154selection.政策.B152全614、旧152B0同体の事後再診断3本",
+  "方向": "B152の最終注文sideで元tの群を固定。同q1実逆でもbinを付け替えない。最初P65側Gと区別。",
+  "金融算術": "3診断とも固定141.calculateで実Ask/Bid正逆を再計算。124作者算術やモデルの効果と混同しない。",
+  "全期既使用": true,
+  "少数群_前期限定_後4場集中": true,
+  "新閾値_新切替_新政策_70達成認定": false,
+  "利益保護又は実口座評価": false,
+  "分割": [
+    {
+      "診断": "取得位置",
+      "停止票": "work/152取得位置の再診断/停止の確認.json",
+      "停止SHA256": "0524a2ca45f5b7d294b1d6ae0bf8d69147e0d2b837da938702ad09b1fbb62ef0",
+      "最小源数": 5,
+      "最小源": [
+        "work/152取得位置の再診断/区分の事前固定.md",
+        "work/152取得位置の再診断/診断する.py",
+        "work/152取得位置の再診断/診断.json",
+        "work/152取得位置の再診断/短報.md",
+        "work/152取得位置の再診断/停止の確認.json"
+      ]
+    },
+    {
+      "診断": "勢いと価格帯",
+      "停止票": "work/152勢いと価格帯の再診断/停止.json",
+      "停止SHA256": "2fb34640004934485ad0c900dcd86b066a1d88784284c3aeedbec7eba088b12f",
+      "最小源数": 8,
+      "最小源": [
+        "work/152勢いと価格帯の再診断/人工検査.py",
+        "work/152勢いと価格帯の再診断/区分票.md",
+        "work/152勢いと価格帯の再診断/準備の確認.json",
+        "work/152勢いと価格帯の再診断/準備の確認_表記補正.json",
+        "work/152勢いと価格帯の再診断/短報.md",
+        "work/152勢いと価格帯の再診断/診断.json",
+        "work/152勢いと価格帯の再診断/診断する.py",
+        "work/152勢いと価格帯の再診断/停止.json"
+      ]
+    },
+    {
+      "診断": "背景と過熱持続",
+      "停止票": "work/152背景と過熱持続の再診断/停止の確認.json",
+      "停止SHA256": "2b193d8f8d616f3939dbc655a9e207cc53c356b3c0694af8a78a8cef6a30fa04",
+      "最小源数": 11,
+      "最小源": [
+        "work/152背景と過熱持続の再診断/人工検査.py",
+        "work/152背景と過熱持続の再診断/初回schema検査の停止.zip",
+        "work/152背景と過熱持続の再診断/区分の事前固定.md",
+        "work/152背景と過熱持続の再診断/準備する.py",
+        "work/152背景と過熱持続の再診断/準備の確認.json",
+        "work/152背景と過熱持続の再診断/準備の確認_再確認.json",
+        "work/152背景と過熱持続の再診断/短報.md",
+        "work/152背景と過熱持続の再診断/短報を作って停止する.py",
+        "work/152背景と過熱持続の再診断/診断.json",
+        "work/152背景と過熱持続の再診断/診断する.py",
+        "work/152背景と過熱持続の再診断/停止の確認.json"
+      ]
+    }
+  ],
+  "ZIP": {
+    "path": "docs/議論/根拠資料/152入口の再診断_20261112.zip",
+    "sha256": "f20317571a9ab3e1614475ca585d79d25f86d5ab4b37c470d4f93e040cb7d3b2",
+    "bytes": 128210,
+    "格納数": 25,
+    "全格納bytes再読_SHA_CRC一致": true
+  },
+  "格納源": [
+    {
+      "元path": "work/152再診断の共通保存/保存する.py",
+      "ZIP内path": "work/152再診断の共通保存/保存する.py",
+      "sha256": "ca061122b048924665cf8382ba5d44598f443c956076750153081a7bdadff23f",
+      "bytes": 7746
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/人工検査.py",
+      "ZIP内path": "work/152勢いと価格帯の再診断/人工検査.py",
+      "sha256": "109cd0e837d80ae03fb70cbcdb225ee88af14f3d456efe8fe51335059e833064",
+      "bytes": 4455
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/停止.json",
+      "ZIP内path": "work/152勢いと価格帯の再診断/停止.json",
+      "sha256": "2fb34640004934485ad0c900dcd86b066a1d88784284c3aeedbec7eba088b12f",
+      "bytes": 2383
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/区分票.md",
+      "ZIP内path": "work/152勢いと価格帯の再診断/区分票.md",
+      "sha256": "e02227dbd00407c8fcf9ac72106331d8389e57979ebabeded2d707e7dea260ba",
+      "bytes": 3079
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/準備の確認.json",
+      "ZIP内path": "work/152勢いと価格帯の再診断/準備の確認.json",
+      "sha256": "e63969d79366f40815ca93140d46241fa3dc437cdc8468a52b5c0b8fc659a6e2",
+      "bytes": 1567
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/準備の確認_表記補正.json",
+      "ZIP内path": "work/152勢いと価格帯の再診断/準備の確認_表記補正.json",
+      "sha256": "751634a1b18659800a3c85974a85c15f45a5b558ff78f6a4b2af300c9b565053",
+      "bytes": 1264
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/短報.md",
+      "ZIP内path": "work/152勢いと価格帯の再診断/短報.md",
+      "sha256": "a2892202f224fd282a1c1231c94156baf82b48a19449eb104862b955f4555bca",
+      "bytes": 6125
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/診断.json",
+      "ZIP内path": "work/152勢いと価格帯の再診断/診断.json",
+      "sha256": "cd02b82561a56a64e3f77abae5fb7014d4fc42dc5633ff82f895e3c8e764c959",
+      "bytes": 361086
+    },
+    {
+      "元path": "work/152勢いと価格帯の再診断/診断する.py",
+      "ZIP内path": "work/152勢いと価格帯の再診断/診断する.py",
+      "sha256": "52cbcb6cbfb1a8f7965ee4e1baf90b2ad106b73838935c97647a13b9809cab7e",
+      "bytes": 14057
+    },
+    {
+      "元path": "work/152取得位置の再診断/停止の確認.json",
+      "ZIP内path": "work/152取得位置の再診断/停止の確認.json",
+      "sha256": "0524a2ca45f5b7d294b1d6ae0bf8d69147e0d2b837da938702ad09b1fbb62ef0",
+      "bytes": 2469
+    },
+    {
+      "元path": "work/152取得位置の再診断/区分の事前固定.md",
+      "ZIP内path": "work/152取得位置の再診断/区分の事前固定.md",
+      "sha256": "452d9daaaf3a5728a3771741ab5e1bee2e97cd8410ba12cb3398e3dc3f94e786",
+      "bytes": 1760
+    },
+    {
+      "元path": "work/152取得位置の再診断/短報.md",
+      "ZIP内path": "work/152取得位置の再診断/短報.md",
+      "sha256": "66b6a4dc303e052ef0a53b89afb77a9fe71e28dfec3af955994e518639aab562",
+      "bytes": 5388
+    },
+    {
+      "元path": "work/152取得位置の再診断/診断.json",
+      "ZIP内path": "work/152取得位置の再診断/診断.json",
+      "sha256": "13518f2e39402e03f60f647b301bc2d39b2aa49207d8fc11eee3bba3f05aedd6",
+      "bytes": 54265
+    },
+    {
+      "元path": "work/152取得位置の再診断/診断する.py",
+      "ZIP内path": "work/152取得位置の再診断/診断する.py",
+      "sha256": "4c19c02edd248d234d88f69497c1d60b12d77629a8c1b70aadd17e03609ed22e",
+      "bytes": 15672
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/人工検査.py",
+      "ZIP内path": "work/152背景と過熱持続の再診断/人工検査.py",
+      "sha256": "28147de6676ca78c73153fd7dc47e9edbda3bb1ef90b0c299dad09a05b0fd600",
+      "bytes": 3196
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/停止の確認.json",
+      "ZIP内path": "work/152背景と過熱持続の再診断/停止の確認.json",
+      "sha256": "2b193d8f8d616f3939dbc655a9e207cc53c356b3c0694af8a78a8cef6a30fa04",
+      "bytes": 1329
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/初回schema検査の停止.zip",
+      "ZIP内path": "work/152背景と過熱持続の再診断/初回schema検査の停止.zip",
+      "sha256": "7bb2a0f38dcdad076b56401630b550b737092344a24ad971901773c956b17abd",
+      "bytes": 9417
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/区分の事前固定.md",
+      "ZIP内path": "work/152背景と過熱持続の再診断/区分の事前固定.md",
+      "sha256": "a5b5c02d3e85e179821770988624475422a05022db73a851c57de4f129802240",
+      "bytes": 3148
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/準備する.py",
+      "ZIP内path": "work/152背景と過熱持続の再診断/準備する.py",
+      "sha256": "b21cf2c0b6edfadf266687d87f075db1e51935f29d0c3e0bcb9a2a843a055cc9",
+      "bytes": 1892
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/準備の確認.json",
+      "ZIP内path": "work/152背景と過熱持続の再診断/準備の確認.json",
+      "sha256": "93f2b75e80a7b030efb4a4c1d39f8870009e0d7afde545168dca1ba7af34f6b2",
+      "bytes": 1471
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/準備の確認_再確認.json",
+      "ZIP内path": "work/152背景と過熱持続の再診断/準備の確認_再確認.json",
+      "sha256": "ba84778149f461995fc6977b11f9fe0c4d2a5385957d56a1ded250afc1d15aa6",
+      "bytes": 1471
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/短報.md",
+      "ZIP内path": "work/152背景と過熱持続の再診断/短報.md",
+      "sha256": "055c4901924bd26ab65c4b2dbf7deda8da9a45ec7b88d73fe6f036f14b06a2a0",
+      "bytes": 11329
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/短報を作って停止する.py",
+      "ZIP内path": "work/152背景と過熱持続の再診断/短報を作って停止する.py",
+      "sha256": "567ee1f1569dcb65a135316943a9d300a32deb73b8b52a3f9a17940a06d46fb6",
+      "bytes": 8314
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/診断.json",
+      "ZIP内path": "work/152背景と過熱持続の再診断/診断.json",
+      "sha256": "5652de4f17d56e47aa4eb1e789a9b60a6936609a6fa817bb2f6c09a5f9e51b63",
+      "bytes": 642297
+    },
+    {
+      "元path": "work/152背景と過熱持続の再診断/診断する.py",
+      "ZIP内path": "work/152背景と過熱持続の再診断/診断する.py",
+      "sha256": "6f4cf617e17f7e633bf064d8f913aa19ac10040f54023ee5f5fbf6d3a3393400",
+      "bytes": 16621
+    }
+  ],
+  "全小源前後SHA_stat同体": true,
+  "152154正式3MD前後同体": {
+    "study/00152_強い反対背景を複合回復で切り替える/README.md": "b21a127da3023135d9d803b2df0f4a4638153afe92dbef03512688ebd96378eb",
+    "study/00152_強い反対背景を複合回復で切り替える/条件.md": "e7f6fe3f043c6b03cddfa8916af4d1aaf61256386f64512f2e94e333962bf26b",
+    "study/00152_強い反対背景を複合回復で切り替える/設定と結果.md": "487657215b7c67461fe2a9b6dad70fbe562b8059ae4626492ebc0fc6280dbfaa",
+    "study/00154_回帰で進行と往復を分けて短期回復から入る/README.md": "d747aa21f4420a2778ea8d97d2dabaf970af9d591520226aa5cc6e17a4ba13f8",
+    "study/00154_回帰で進行と往復を分けて短期回復から入る/条件.md": "7593b20f2a728b70bb5356d936c3faab0c38aed9ae3858c5d87822a3787177e7",
+    "study/00154_回帰で進行と往復を分けて短期回復から入る/設定と結果.md": "17f7e3018e2b83c12b2bbdf4437b7e4ec2a4a1709d79de3d3a8002bc894c380e"
+  },
+  "巨大100X_観測_原板_追加2場の新複写又は再解析": false,
+  "共有参照": [
+    {
+      "path": "inputs/00154_先行終値の回帰測定/選択対応.json.gz",
+      "sha256": "b5caedd20c5f2db3f1ae8d320a043494bb0395a1f7e3fbd06313635f88733d3e",
+      "decoded_sha256": "f1a6d038c1f25ae703b7aef45c41fe4470899a531481abfd735e17c6128df5ea"
+    },
+    {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    {
+      "path": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "decoded_sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc"
+    },
+    {
+      "path": "inputs/00153_先行高安の独立出生/先行高安の入力.json.gz",
+      "sha256": "2c020fed5b336ed0b417d8e72a07c6336ea475b09b9a2ff37f26ec4ce4d56bf8",
+      "decoded_sha256": "8e145275dda385e4c2f87500978716654d10efb0903a4011f2bcc304a7906b14"
+    },
+    {
+      "path": "work/151過去場判別/data151.py",
+      "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+      "役割": "特徴射影のみ、教師/モデルAPI未使用"
+    },
+    {
+      "path": "work/141金融集計を独立に確認する.py",
+      "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+      "役割": "独立別算術"
+    },
+    {
+      "path": "study/00154_回帰で進行と往復を分けて短期回復から入る/保管索引.json",
+      "sha256": "fe8523d9256dadfe4e08afcd9b59e1fb87d3b38181cb4456a731b987628e0ce2",
+      "役割": "154恒久選択と小源の既保存索引"
+    }
+  ],
+  "共有大入力は宣言指紋の参照のみ_本保存で再読計算なし": true,
+  "初回schema検査停止は背景持続の小履歴ZIPへ分離": true,
+  "復元": "ZIP内元相対work pathへ不足源だけ復元し、既存不一致を上書きしない。共有入力の指紋は各診断Sourceが検査する。",
+  "Root執筆中の共通知見本文の編集": false,
+  "保存器SHA256": "ca061122b048924665cf8382ba5d44598f443c956076750153081a7bdadff23f"
+}
