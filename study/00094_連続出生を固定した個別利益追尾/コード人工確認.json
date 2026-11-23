@@ -1,0 +1,47 @@
+{
+  "成功": true,
+  "Go成功テスト": [
+    "TestActualWaveMirror",
+    "TestActualCapAndCancelledBirth",
+    "TestActualFinishAndCopies",
+    "TestPublishedATRCorruptions",
+    "TestPendingSourceCloseAndTimer",
+    "TestClippedEntryCeil",
+    "TestMirrorRejectsIdentityMismatch"
+  ],
+  "Go失敗": 0,
+  "vet終了": 0,
+  "実行物SHA256": "dd8984f6dc5e3e0c367517ef03c1a76bb922e90eb55503bb970a714f9e1026c2",
+  "実行時コードSHA256": {
+    "scripts\\FAR連続出生と個別利益追尾\\actual.go": "653360ffea807e865c50adc44bd54c2298d9fb519e4ccec264fcf106b5fb8fe7",
+    "scripts\\FAR連続出生と個別利益追尾\\actual_test.go": "32e6426376d87a2edc7a52e85bab775170066c091414c91178a1edd13fd5bb6e",
+    "scripts\\FAR連続出生と個別利益追尾\\actual_types.go": "fd79be2fed10aae4fb52f8ccd6bf7fbb2bf7b8fe4a41e45f534d6e39dd47a4a6",
+    "scripts\\FAR連続出生と個別利益追尾\\cmd\\batch\\main.go": "4c089961c6ba2617a91ca9696e3243cbe28113201a67823ce3ff11a0ef77548e",
+    "scripts\\FAR連続出生と個別利益追尾\\go.mod": "10522ad8fe1a20bd0a338243efdac51493cdf3961ffb74b2921ec8e77937d4b1",
+    "scripts\\FAR連続出生と個別利益追尾\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "scripts\\FAR連続出生と個別利益追尾\\input.go": "d58eb5aa11932d115d849f4a7d051e45c5c9da8854e197cea3525a4c0adfe270",
+    "scripts\\FAR連続出生と個別利益追尾\\mirror_check.go": "ca4430de80a631dae37941cfffbc48e83a2bbc18ff8d950d59c03d0fb2ab810e",
+    "scripts\\FAR連続出生と個別利益追尾\\mirror_check_test.go": "68f565d570018c5ef2ec133bde6b046fb726823d17cd866609ea7b38ab701416",
+    "scripts\\FAR連続出生と個別利益追尾\\README.md": "c854b9972b8d2094bef6c2da9e67cedc57d55e4211dc6cdab31819133d3630e4",
+    "scripts\\FAR連続出生と個別利益追尾\\replay.go": "f79df618072ed94f69775ddc241b99e40b20218f50d1fd2c801a66deb5ca7ad3",
+    "scripts\\FAR連続出生と個別利益追尾\\固定入力監査.py": "c01e433c4fa8a9145b29c938d19bb338ec45e582c7ec582d17f2da7d4d565efd",
+    "scripts\\FAR連続出生と個別利益追尾\\集計.py": "5749a1095a63849d7c1b6d66f898c26b4a9ff4ecc4a593eb075ab4d587778522"
+  },
+  "Go人工": 36,
+  "独立保存会計の人工": 36,
+  "独立保存会計の破損拒否": 32,
+  "Raw人工": {
+    "系列": 3,
+    "会計": 36,
+    "照合項目数": 93879,
+    "破損拒否数": 24
+  },
+  "Viewer人工資源": 648,
+  "元停止記録SHA256": {
+    "work\\94Actual検査\\停止.json": "838b9d873da6585f6124c054c3b0acfdc72e5aafc14344d37e608aa7118c13c2",
+    "work\\94集計人工\\停止時2\\人工確認.json": "0c5177a2fb9346db6624149e095e983f11af238211664b9a07edcf37296b44b7",
+    "work\\94Raw案\\停止.json": "554d17a81e1f047e7d0062f82f9a2e813735f2fb6969b546798f14914b1b77a0",
+    "work\\94表示監査案\\停止.json": "af66d7ed243be52345394623f4c90d510fd70b7a7dcf6cf01a5b53537ec4e4d0"
+  },
+  "人工の限界": "手製Source/ATRのGo公開型。実CSV/自然Source/全原行の検査は正式原板照合へ区別する"
+}

@@ -1,0 +1,1157 @@
+{
+  "成功": true,
+  "確認日時": "2026-11-08T14:15:45.510312+09:00",
+  "Go成功テスト": [
+    "TestActualWaveMirror",
+    "TestActualCapAndCancelledBirth",
+    "TestActualFinishAndCopies",
+    "TestPublishedATRCorruptions",
+    "TestPendingSourceCloseAndTimer",
+    "TestClippedEntryCeil",
+    "TestGrid95CaptureMirror",
+    "TestGrid95SourceStates/pending",
+    "TestGrid95SourceStates/cancelled",
+    "TestGrid95SourceStates/closing",
+    "TestGrid95SourceStates/partial_done",
+    "TestGrid95SourceStates/closed",
+    "TestGrid95SourceStates/bad_quote",
+    "TestGrid95SourceStates",
+    "TestGrid95QuietAndClock",
+    "TestGrid95StableCapacity",
+    "TestGrid95PendingClose",
+    "TestGrid95MixedUnknown",
+    "TestGrid95ForceEOFAndValidation",
+    "TestNative95EveryRowFull94",
+    "TestScheduledClocks"
+  ],
+  "Go失敗": 0,
+  "vet終了": 0,
+  "実行物SHA256": "c5aea594ea51abb2e51c97f3da4d5dfad02c97dcd9ed21085ea268d719840bb7",
+  "実行時金融コードSHA256": {
+    "scripts/FAR5分判断と出生一回/actual.go": "74a091fa6f2a0365f1f3170e5e4bee7bb9a5568c7ab2c9cdfd8be66da60c9e14",
+    "scripts/FAR5分判断と出生一回/actual_test.go": "7875db61f32ae6022a8eb02d551e42647f7a680178fd17f461410b1a4131b4ea",
+    "scripts/FAR5分判断と出生一回/actual_types.go": "73671b0a6a828a178d8d91ae3ae36f0c8df06d492a4f73b66ff3a29f28812b3a",
+    "scripts/FAR5分判断と出生一回/cmd/batch/main.go": "3f0628f91631227fde521a41c95267d98ef4f7cb3ee5da2fc5267ea0d4035211",
+    "scripts/FAR5分判断と出生一回/entry_grid.go": "3d0f7fa2f9d1bf65b9411b9bd94415e2a5ca0d62b08ea1899b9f40d93eb4371b",
+    "scripts/FAR5分判断と出生一回/entry_grid_test.go": "7301b46729c03dbbd35b9a1f3b8e5f1abd99b3482669678e1e7de20aaae057f4",
+    "scripts/FAR5分判断と出生一回/go.mod": "103117f89a0285637d6becec7b3857117300af2619d2ac0337378706edc816d7",
+    "scripts/FAR5分判断と出生一回/go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "scripts/FAR5分判断と出生一回/grid_clock.go": "31db0134d90163d12a9f6a1a8d54356517f02017c0d4c102dccc464b8f6184bf",
+    "scripts/FAR5分判断と出生一回/grid_clock_test.go": "e74d884131a3fa7720e57788dcc20915c1d3425ea0e09463fd5b2befa26e9123",
+    "scripts/FAR5分判断と出生一回/input.go": "21021e17bc58f806aba5f68338ef10af0ad489d8141f9c3808f0aeaa6c3c8cb3",
+    "scripts/FAR5分判断と出生一回/neutral_check.go": "6537c49cd02b4b41cda3e69e2fee4eabd05291dcd4a93da7c0be9b6441cba30c",
+    "scripts/FAR5分判断と出生一回/README.md": "18123ff9a669a3af0633d8bea0b80a97a528048bfda526d889110fa04a8176f8",
+    "scripts/FAR5分判断と出生一回/replay.go": "206db4edf9edcd029f69e0d2bfa0ff999e7af6ccd622d8af52a45878e5e72676",
+    "scripts/FAR5分判断と出生一回/固定入力監査.py": "d59f4734b3620b56b850e1edcccd8ba65c76acdcffa24627b51058639a2b1e3e"
+  },
+  "人工と接続": {
+    "金融停止": {
+      "元SHA256": "f04eb2d8fab61e89c2cae852207a313c412114c4db78f0812fce7c243e3115e8",
+      "記録": {
+        "成功": true,
+        "状態": "95金融8ファイル停止・人工のみ・市場実行0",
+        "確認日": "2026-11-08T12:58:07.211475",
+        "Root仕様SHA256": "012a71e17c18fadb3d34334bd1e77f5ae3eb55e34f3a3589d6d055ffff487268",
+        "所有本文SHA256": {
+          "actual.go": "74a091fa6f2a0365f1f3170e5e4bee7bb9a5568c7ab2c9cdfd8be66da60c9e14",
+          "actual_types.go": "73671b0a6a828a178d8d91ae3ae36f0c8df06d492a4f73b66ff3a29f28812b3a",
+          "actual_test.go": "7875db61f32ae6022a8eb02d551e42647f7a680178fd17f461410b1a4131b4ea",
+          "entry_grid.go": "3d0f7fa2f9d1bf65b9411b9bd94415e2a5ca0d62b08ea1899b9f40d93eb4371b",
+          "entry_grid_test.go": "7301b46729c03dbbd35b9a1f3b8e5f1abd99b3482669678e1e7de20aaae057f4",
+          "go.mod": "3c998e9bda266b230e7404c21a90445666ba2e3a52ba38d08e2e5334ef953f37",
+          "go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+          "README.md": "db2b98a33522760f9716719f36342d3c1946ed1a7b7b17ad9a00fc466b0be503"
+        },
+        "所有前後不変": true,
+        "N比較除外": [
+          "config.entry_timing",
+          "config.us_open",
+          "entry_opportunities",
+          "grid_traces",
+          "grid_metrics"
+        ],
+        "全体成功テスト": [
+          "TestActualWaveMirror",
+          "TestActualCapAndCancelledBirth",
+          "TestActualFinishAndCopies",
+          "TestPublishedATRCorruptions",
+          "TestPendingSourceCloseAndTimer",
+          "TestClippedEntryCeil",
+          "TestGrid95CaptureMirror",
+          "TestGrid95SourceStates/pending",
+          "TestGrid95SourceStates/cancelled",
+          "TestGrid95SourceStates/closing",
+          "TestGrid95SourceStates/partial_done",
+          "TestGrid95SourceStates/closed",
+          "TestGrid95SourceStates/bad_quote",
+          "TestGrid95SourceStates",
+          "TestGrid95QuietAndClock",
+          "TestGrid95StableCapacity",
+          "TestGrid95PendingClose",
+          "TestGrid95MixedUnknown",
+          "TestGrid95ForceEOFAndValidation",
+          "TestNative95EveryRowFull94",
+          "TestScheduledClocks"
+        ],
+        "全体成功テスト数": 21,
+        "通常skip": [
+          "TestExportActualFixtures",
+          "TestExportGrid95Fixtures"
+        ],
+        "ネイティブexit": {
+          "全体test": 0,
+          "全体vet": 0,
+          "明示export": 0,
+          "Go依存": 0
+        },
+        "ログSHA256": {
+          "work\\95Actual検査\\停止時\\全体test.log": "ebfc7b1b4e5886b1f765802d4b222a7e22c68c60773733e652a48f40b1768336",
+          "work\\95Actual検査\\停止時\\全体vet.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "work\\95Actual検査\\停止時\\明示export.log": "0afbd2f8d14b09d121701986ae99b07da4ac04a34767c44a9e1ee88a4fc8f16c",
+          "work\\95Actual検査\\停止時\\Go依存.log": "6ce53b4ac996b8b9dd638eda65e9c8af58d657f3820ae836b0776b1c1e3ac906"
+        },
+        "停止版人工SHA256": {
+          "売り.json": "09bc7250b8bf0a7e4ea3f2668ef504b8d0ad718d79c4eaa5eb4c167e3e5a50bb",
+          "容量と両側.json": "c0b723cc6bc6d9599fe4cda80110051b38610bcb91ae40971f97f053d54a0fc8",
+          "買い.json": "c27f6e8e5ae6f5ab58741fd64743d4ad379c768ef687c37a8cf196139295d84e"
+        },
+        "初回と停止版人工byte同一": {
+          "売り.json": true,
+          "容量と両側.json": true,
+          "買い.json": true
+        },
+        "人工Actor数": 36,
+        "直接Goとmodule依存SHA256": {
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\internal\\tz.go": "9d644e853a886015b23adc65a7dcb4eb954087fb906d9200ed984435739de075",
+          "C:\\Users\\masay\\go\\pkg\\mod\\cache\\download\\github.com\\!burnt!sushi\\toml\\@v\\v1.5.0.mod": "45d78b80571999b6a258da0f21673da39e6b501349c033a4acd169437411d733",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\decode.go": "f6053df3ce9872934d1cbf48ee544be49d517a13a00276d2ad4568155331e38a",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\deprecated.go": "ee4c75313fabce09bf33996e5d35a35fe8a3ac5c334658c143225286ae93cdf8",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\doc.go": "a180bddf47208d81d4b4fb5caa83413bc2be484e14ad91af1b40ff63365317d9",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\encode.go": "79ebc0bbd7a3c3a272b837bf3f0e5d7bcaf0e49fef0895d5f5368207c84b372a",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\error.go": "ec5b3f9f5f128097c082e587c87da4516891898544b95d9907c21ade7a42a778",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\lex.go": "a9ccaae332057902c2bb40b8af5d34b2a459ebfa38bf1c96518778e0b532b9d0",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\meta.go": "66ef26394dca6d8b430ef70ad974020e215254a55d1ef0996ced059635c619d8",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\parse.go": "1df9076dffa482c59c0fdc84945821f1f1b0877c0602b37388348aa5f017a3b4",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\type_fields.go": "b557f6362f1ffee1f5e07dda1b7be72c7579be465d0916e70e7a327129c86000",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\type_toml.go": "55baa835e33c33796ef34be6b26f73182ebc14ca038a3de63d26298f93c10311",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\decode_test.go": "09ec72324923ed2eefdcedf3e4d8432fc9a0636a32903760ac7d03fd0cd34fb3",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\encode_test.go": "e0f9e05ebe205b4e0caaa14ea51b4369903a44caec0d19eba5b1a43d6c6df8ab",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\fuzz_test.go": "4fb1da5e6fabaed1b22222d3d441c6c43d98b69b03f0b63b896feb65ab68608d",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\bench_test.go": "c00ca3ce2633213228ef1899bfe52405b2c94c36eaa17d36e4b87ca73e92bcc7",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\error_test.go": "7fc369c5d5a27a1281e67ad33aaeae4d345acb4b7285ededc19ef01d2b0c497b",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\example_test.go": "60dd6f9fd4eb1ca0b08cfa37f04cbf3b5d4bd6260559a450327b3730738d213d",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\!burnt!sushi\\toml@v1.5.0\\toml_test.go": "46402872759807285a536524e26245eb8b912cbec783c98e7e16573e90e35e79",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\internal\\deref\\deref.go": "ad8908094e6307e48f0e203f7c5d27c37740d9f27de282a2d86add296caecf01",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\internal\\deref\\deref_test.go": "4a11a67a51a6f91cf7d2017eb9a3036f75cfde51d031965dbfac02f036f6b8e1",
+          "C:\\Users\\masay\\go\\pkg\\mod\\cache\\download\\github.com\\expr-lang\\expr\\@v\\v1.17.8.mod": "257ec8bf588caa33dc310e26ee1c6763759ad3b7fc0a9da8e6efa43da847b558",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\runtime\\helpers[generated].go": "64a258c4228467c4737bace0eb38e66c0dcb827b0a2ccb43c7c8673624d34ee5",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\runtime\\runtime.go": "080c89bcc5825f40a87879bfc1dc473cea7bb38349b0f77f9547d840605340b9",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\runtime\\sort.go": "e9171a38148960b99c3d52a9af4fd5e028f49042605b2f3da1fb353f32fb2588",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\runtime\\helpers_test.go": "a481a1f472db4616e432e33de6221345371ede8524e1dfd9d36555e204651cca",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\builtin\\builtin.go": "76478008fc17dd25dcdadc1a19ecf9f4043c9b471fbe9962f9a0139fdc087479",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\builtin\\function.go": "70d5d485c8ea2f75360c8c810b46ebf675f73dbdb7796775ff36bac22d4545f3",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\builtin\\lib.go": "a16d1d1678168d60fc25f052c47137d31d5e1a6631c066e21a6c85994d59b9a7",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\builtin\\utils.go": "549488e4f57236cbd6a32f12fec298b8b855761a076ba593ab9bddcba5c25815",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\builtin\\validation.go": "eaf1573987781dcdf8e0db495e5ca7b7c395256ceb57796c7e08f72d0d6df491",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\builtin\\builtin_test.go": "213a0a0a1a37cab9f82565a887a13b4fbe1aecffef74f55393c93ed883115f57",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\checker\\nature\\nature.go": "a5a316ccbc3c2bef9cc34a114b44a6f552dfd611e5c44462510e50ef211b1c52",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\checker\\nature\\utils.go": "6ebcb13d6ba8bfc0ef5ef8c3461cb4407cb085142a57014615e36dbf6e7e4d46",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\file\\error.go": "d7ab33f28389a32818c6a3419c19b50470c431d7572df3cc862c9c4e507b417c",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\file\\location.go": "0b46ced1bd53f69a401df78fed3098b06c638270af1fd90b36447af4a2034bb0",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\file\\source.go": "978cf363fd8242695195669ef797d59b72635b363ef741a30cb103b23c4ed3b4",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\file\\source_test.go": "3c719d6c2562494549866eb5bc75daf4fe7b48566c26008d5f1ae57bfedf9372",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\operator\\operator.go": "3d3516f68fa692fb2e9b87e2acdab23f4904cc66e54411fc891b31e3d720642e",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\utils\\utils.go": "c129daa4e30560f259309c67f634f16ab52fa63d149f40bf1a1e211efcda4ecc",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\dump.go": "cbe947f220944f099524bf7d3e43c33312f7a38f31e297a607eddf877eae5317",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\find.go": "4409c5b3a42383089b529789338958225656dfa8bd97df008d1e2825ac9fc55d",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\node.go": "ec6e284bf36707d11ca1fac48fae6448a1f143c4515cb6bc2234dd293d8fdf2e",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\print.go": "25805848391de25ed31e770d8c70c68cec2d73bd8081e95df705ff23646a18ef",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\visitor.go": "9321157062af1a5a11755aee38feaa3358d576b6e0bf4c638de3054b0c92c864",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\find_test.go": "02ed61ecb8c82adbbd0f10c26e5918c5f6acfb424ada7cd11a7ac7250a800701",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\print_test.go": "9525403502a9dc75b0383a9b9af95597c8d8d830da4e79da7f3bb87cfe786c8f",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\ast\\visitor_test.go": "b0fb7dbe7d2c5dbb3878ff979ab1b626ee38f55c40607d311f7c3e00bc4ba9c9",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\types\\types.go": "1f24ec39e000695a3e98c7cc70591af71c4e76756c4a08d20f4c6a37491e9ed2",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\types\\types_test.go": "d2857df3a4e75341dafa0a9cbcc8d19672f24d708098d89593012c8337826053",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\conf\\config.go": "27a1c16f9a48cb7c5e4ea134159b19ba995a9f61af5d0a01f2507e277a01f1c6",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\conf\\env.go": "04d5ddb3174e8e0299c36af337e723e51db1b5824f50646d98cb86584b85e78a",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\internal\\ring\\ring.go": "0d718daa1bf6a9ca8f51be7d5d875e7c792b85ad99e0861f668c7d2e59aed419",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\internal\\ring\\ring_test.go": "9982622b9a962c1c611baf2b7984f465a4f646c3e13fe190b0b65f61d533330c",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\lexer\\lexer.go": "9f05b91483160b0c479636adf89183afefad00c68bc612a4efce3bcb31b3cf04",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\lexer\\state.go": "35e51daa523cf426e6df3065abfaf92e5ff9d1f2fc2399e115e2ca783c910866",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\lexer\\token.go": "65f32944a4acc42fd634fe7e09bb9a943af1bd4e568c704251e587370623de41",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\lexer\\utils.go": "d61e5682820ab885a146a8158523efae775572e98582c1db407406db7b7bac1b",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\lexer\\lexer_test.go": "ce9fca1e889ecf57f0aa1c24e8798e0fddb0f0ce21cc74c6cb73ab5d55eb81c4",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\parser.go": "c8d792819f716eede15248b5e2f8a1c4668585c3ae872bf57dbb5077228c0228",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\bench_test.go": "06d3188477c8b4f84dae4f56b70aa59eb6170562193924e1bee3707a3e86b976",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\parser\\parser_test.go": "ef207f37f98a21cbe16ca800fc5fdf684722be59767f46333747b0c1826bd165",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\debug_off.go": "2dc5b65bd7a691e2684d0ed9d680d53e9a39050b1113e75cce84efef1ecee31e",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\func_types[generated].go": "1c5ca4c59f1f5a0de66d3044761d12a09852a14bdfb35ad467c59d89ebcb2dcb",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\opcodes.go": "20ed84923995525d0bd66c458cdafffd561c7048dbb20f5c513ea3af0a643ccc",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\program.go": "6c489378c03d991387ad082243cb9e6e2dd8014311ff7fdc72622c29c53ef684",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\utils.go": "b853996f3b3e8e655a132c6e35ec23db95a26dbbbd65b140ea9385e83f3ae54b",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\vm.go": "8aa5278ddd8a00ec38f800a2894946d46dfb05e32eda01a162b7a57697bc15db",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\program_test.go": "7226c5be74d29e22bf2c0395a7f01b3b2686e1b1c60eaa432e55171f8e882b7c",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\vm_bench_test.go": "5b7e647bf92d0122ed9de6a3992c8128336ec9aa60df2e7dc7ab1382bf04d4ca",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\vm\\vm_test.go": "b518321de9888e226d9458447a66d8a0d33d90d447fbd77cd92748c5f2108f5c",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\checker\\checker.go": "06e817a63bf2452668efa40d4323c0b9e4f5114c3f60b28330531397358b19d6",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\checker\\info.go": "c724c0b4d302baa541fad99837cfed15345f139d6472b66d8273390bc187bdf6",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\checker\\checker_bench_test.go": "16eea8711b92a766863daef4f8037d64a4e8a0b3741cff19ba2831e281756345",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\checker\\checker_test.go": "c30c9ca5713a785223978230bf1a8d9343bc5cb1fe2ab9e94e66cbbec8bffe03",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\checker\\info_test.go": "19a71bc55b298453001a1cf380f5c8ebbb32c009fecdf5aea9f8189ad896df07",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\compiler\\compiler.go": "83537e9c2d587183eb09969730edf61e404934903d876bc3a020aaab82c42c4f",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\compiler\\compiler_test.go": "6b26a54376dc8f375daa8095cfcf69ab8a6ef22bfb8e49e1d0444fd4a501785d",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\const_expr.go": "138b39af3f2c2c80beb2f0fecc0ba4f77e79bbe8c6c2860328a0e4d80e0876a1",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\count_any.go": "91fb5042a8cbcae3bbad04d99316d69876c27dd81954e84d8d99012a1287f507",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\count_threshold.go": "cff60847b8efe33c7a32d429898f76e446a830174f0babb4dcdadd1b9140e662",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\filter_first.go": "49bc14c751ac80d3e5e22e9d5f3e9418b42391959788118652d76580ea59a0ef",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\filter_last.go": "e417563ef501f1e139b132d136dc6e323a2866d16c3292b8e7ee71de87a7b83b",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\filter_len.go": "7d93677ec5132fa968c568794b445ee7f7b66df53e6ad9d09bd37051cf728968",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\filter_map.go": "6f8b0202ad0a81d3ec7d8c9676d8eeb5be07a6b74008bc6d12a4a90303f4b081",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\fold.go": "23bc98113e29ffb3694030367870458b64c56e84084e3e4d874ef780e29fb116",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\in_array.go": "78931faf112a60adf90ce84c6ddc1cb9947e64fd0ea748e01be48b66da728384",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\in_range.go": "c9138adab341c6a59e70c8825109ab6eab4fa4216eaa10ab0211461c90a2af8b",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\optimizer.go": "7f8f7f81184f9bc180d17b31d2f3ba1e26ae70137506e28a06293b623edbe867",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\predicate_combination.go": "356be9fd5d7995fdc3477e63d69acab9bbd808db9b511386e435e75be5df75b2",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\sum_array.go": "eccfe0924a90fc6c0dba6e974a59c6ad15a46c8eb5fb3f9761e9ce7e7b0c0941",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\sum_map.go": "3a04204fdf295d0b7f29adba5d9edc382cc92219526cdbd6bf7e2b5d588a160e",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\sum_range.go": "37c23cca735a91e334ea88f99ed668fd10a07df4cc02c31fece93c3f16fd2467",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\count_any_test.go": "e35b8d8224ff0546cb952cc91383db8c64dd6c51d7fe277a8f0d4bfec680700d",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\count_threshold_test.go": "2b6180db8cbc3bfc5f5c60a9756024560da5beda0bbb367da3eb6be06a43468d",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\filter_map_test.go": "dd95a9a56b72b9d39f6fab358872c297b24de132844554c97015bea04fc4416e",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\fold_test.go": "acbab4a92643dbe02240fdff5022b73878957af6bcc8cc20379377b50354c4f3",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\optimizer_test.go": "25d1e6ad5a05a7f7109d0578006843edcd262cce83da034705bc7f360c01cb3d",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\sum_array_test.go": "76fbe62f1279821ca80fcadc879e4e20a52f5cc2734ae92b1c911a4a1b193db9",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\sum_map_test.go": "d770eef950e5daab6b44340912ee2b933b75290df4a77e524f438422fe97509a",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\optimizer\\sum_range_test.go": "6da7449e7d229b9afed8bbf39232d9f8f2ac5dfbfc01d9eb9b7e9ea386017364",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\patcher\\operator_override.go": "b74dc4651a30c442fe041053e6575b5e7b1165078fb66f9d9aa85f604b137b74",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\patcher\\with_context.go": "f5270d9833719736d839cbe13bd83862d5804b97fc5f26e160b871897e2ea162",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\patcher\\with_timezone.go": "84df4c5cfb10e531301503b807cdb09e3f5520dd91a5f08075a972fdfae7f3af",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\patcher\\with_context_test.go": "605b1fdc27edfb697ea99179fcb49b04035c69549b62a9c9add756d366ddbfe0",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\patcher\\with_timezone_test.go": "0add352a8f4076938ae0e7c5ed7febbbeb1223f5706bf8a2949d6c65604d2746",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\expr.go": "22a64da38a3091c8f6afd86e17a7528999811225f3dbc64fe7c0a1857fbe7936",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\bench_test.go": "baa869e8e1e71f52eb2627e7e98fbc4359c32eb91d0ebd1395028cbbb45261e5",
+          "C:\\Users\\masay\\go\\pkg\\mod\\github.com\\expr-lang\\expr@v1.17.8\\expr_test.go": "72d9c15e01a3c079437363ea104c5db0d5028f1d31edda9a85e15d77ed7a5e91",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\addon_specs.go": "8120de9c6cf27d14fae9d350bd3c0f3e9341e0474c133e1fea40f62187fd1777",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\core_specs.go": "03a52e82a95ce9e0588ead088f9afaa290a0b78540137b21001d09a459d92be4",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\engine.go": "7fb551981ddd2dfd8be0704adc9659e5d68cad4da68dfc806045a35040c267c3",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\legacy_specs.go": "f9953d5bab5b21e200a7d87bb87ceab2688a1174a0411cef64170fe0e3d434ad",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\p05.go": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\profiles.go": "9388ff4112948e96d4fe7a39f5c26ea4d2127ee49618a72bd1c24c62008431e9",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\research_specs.go": "a13abfa16c55f1e416f1c165ac188ab5bbd7e911864f9f806ac049b2cbade6a2",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\s01.go": "72e6e01b5afc5ea34f6e7e55f335e8f0848cc91173f14683a0c313810e03c379",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods.go": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\engine_test.go": "0ef1054b72b9c49f8097021414c6d78f462cf94d38beadec0003e808f610232e",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\independent_test.go": "331841fcbed787661bcd9d47cb9dd380074e6275c756f5978a8fef41a5d62a5a",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\profiles_test.go": "bbd60f0d9f305f8e0e15d3642f14728978157a81fa5aca0fa4a79492f9219621",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\s01_test.go": "e53885fef905746d0ecae4e38d280e168c0822180ab60b922d0bae0240ef0554",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods_test.go": "4696faee0f63afded3d064f29f6c208515074d23492e5d4a0e7f6f8252209cad",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.mod": "d3e95e7b7315892e0366bf1fa9b8e4fe42061f07d57aa5651ee5cfa5d67e2351",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.sum": "8c7a0a4bffe211450057b16034b8a0fc700cb12756df7133a23f6d873dcb8be5",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\engine.go": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\rules.go": "1581539bd74f81d527d7ab82e4290493a016fe1bdd10c7155e472201d98087e2",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\engine_test.go": "09a86329469385ffaa62f6d300a6738b7668fd04df36f6e9bb7e3f84a2e6e17d",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features_test.go": "40e82db312d18464c7b71966255b6311d0614ce4c55f6327423bb20622448af4",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145.go": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\episode143.go": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\exit_diagnostics.go": "d279bc7e666623633027cb603c2c5eff2abf6ead7daace7f386788cdb64bbd38",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\legacy_rules.go": "2f9537b9316c37fad97cda0f4cbbf29b10fbb1392c2fe2b4fe47a59aeb43b801",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\methods.go": "f7db068dbb83dd391ecafadbe9a7dcc51292f5b9a5d1f153c62beeecba61d248",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05.go": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\portfolio.go": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145.go": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\rules.go": "49b311c6f7afce1c14f058470bdc43f7a7867b8f5d1c8c1ca489624e24274ff8",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01.go": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_close_groups.go": "535ce6a96fa8955daff19974d6bb68093400fce7985a5496390a3713813b8f51",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day_adapter.go": "2244d48b864c40c5a62ff007621a1dd75ffda2760972873b4b13281cd9d1cc55",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_restore.go": "ecf2ddaddd26600d11b341c4a992821c906dcc6a788c70a5f92abfae8359e5b0",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_types.go": "74fb4ac16f1bd997bc1113aa43bf4de5438abf258c10620b305cae9238d489ec",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\types.go": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145_fixture_test.go": "f50553d436b85815d986894cad5e8dc17e49a05e87a894c3f46a85ddde97eb9a",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145_rules_test.go": "9577bc6fafdae2465775affe5aa2a6a76ab009748a9cb1da2560dc3cd029e03c",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145_test.go": "60f9889fdcf7eb1b7979663d7ab341ae5971cbd032d6c7d15c107c33a52df95a",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\all_rules_bridge_test.go": "2e14585842a32c48d3118d05ea5feb6085feb55e1a7e8e089e32ad4dec7f97be",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\all_rules_fixture_test.go": "c23a3bfaf87adf990b755664f562b9980b501db36fe8d71216e9633a0c75c0b0",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\current_d07_night_replay_test.go": "926ea17266d87781f5c6d3b513369a44725fd336a7122a902f22681fe8034a94",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\current_replay146_test.go": "f5346e24c3db50284b6728519b44857f33d16c018a7c3c2eb2d2769a8b02553c",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\d07_contract_test.go": "0c4f28838db84a49476b9e8b5cd97160cdcecfe1c483c9acaf0190659175faa9",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\d07_fixture_test.go": "adfd799c102d1093d06c0414b1ff1b101cdd8d2dd5f21d26f50522ce014266f2",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\exit_diagnostics_test.go": "8f914ff2395ecce065ee0e1207345c1898f165bb4bd841b4b11d4149ca41016e",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143_test.go": "7e401cc298fdd942fad14b04696ad737de72665380e22f8a3b2a0df4dd464552",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\golden_test.go": "c6369bf0fa63105511829d1fb5c1fd4e8d517685319d206063f4f970889a9dd1",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\identity_test.go": "389064a2e6dc60a2d2f0a71a1cf95e702e48a3959bdcf125067a0349e0d6423b",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\legacy_rules_test.go": "f23b22c783757045319b9d2de9ab8d050cec45f68b76c9d612068ec997498ca5",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\methods_test.go": "325d7cb4166a98845bd8b1787f74188b442ba63896544d1d4700aef097d55606",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05_test.go": "83ac5951dc7d6f43735e955e807e74537f3a23cfee75731e93b4a0455580a6c2",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143_fixture_test.go": "8d0bbf0a90657e23444536354a43f3f979aa513c4c36ded20072d8d9da3fbcfa",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143_native_fixture_test.go": "8bf5174d0a6ace4fe1d894db1c283bb161a3d61c7d59ea33ecf61cd3e7644a31",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143_rules_test.go": "7a4abd6accfa98c59def6e57fb6383d7a238cc073823613a34c82d5941202e98",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143_test.go": "8c0102d42fa1f1a4a2fc3387fcf64db4abc4f37531f6105b1cce0993de241855",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145_rules_test.go": "3c5552b9ff94ede886cb6f3bc3d075db9428730780fc511dbc572cea2f47ae25",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145_test.go": "11ecc191b3c701a9809e0205190bb0fdf3d7cd65e08f2c5039616848470a4c09",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\rules_independent_test.go": "49dee436fa00a4d76951adbac340d358e7bc33bb6a6eaf5bdb7debdebd78050f",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01_test.go": "c57bfc5b9b3b05f7696dcaf1a32381f05e5ae733e7611a63043bf097e02e5f13",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_close_groups_test.go": "016aaaa201aea026c7698ae99a7d089d8e3253d9583f3dc1351a6c7a68d77fea",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features_test.go": "abe86ae964738db6b66919d60f1a93f84ce46d872bff7f8253ebda225c80bd2f",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy_test.go": "c119cc3fb48e70166a125b49873f7cb41aea827c9166c5129f46688b0c6c7a83",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_integration_test.go": "ff66db372ab556ed305051cb3ed5c727004e017fe406bd44859fafa547504280",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features_test.go": "0563591287caa5ef96ea0a93297f7b38fa07df39b6f7f0f3f7b6acb992e54aff",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy_test.go": "012409b43894efe9de9cc2229ace34f4db6032d7db0f10a3738b487b8bd0a12e",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state_test.go": "88d97a11928917421732c6601f5ebb5180d587f526130832ea4a96514c8a4a29",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143_core_test.go": "2da11150a16c0c8c55f2965d127606c123f9b167007651b078a1bfd8fa53fc45",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143_rules_test.go": "4290a2df177c40bf0bed018798af6ea30cb15f63c0663da8a6327cecc69b9145",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143_test.go": "6d40c4e7299b4aef83daa7f48bc4e12def3370ba3beb505387f18fec80af2a86",
+          "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\strategy_test.go": "c7e3f2ffbc9f182a7eed32096c9293d77751e92e544117decbaecb63ac23bf49",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\adapter.go": "ea823b57a9eedb9cae3ce3c83fb3e8868b869b79635dc3ab0356233bce0b048d",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\input.go": "27751caa39dcb1e8f36dce4713320e7a8109355c2f5e30a2898f61d47af46c45",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\replay.go": "05c43d76690c4e8f66ea50941fac516d0561622438a382759dc57d7f1ae70a5a",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\types.go": "93e64f2b87eb8af5912fe06502b47041b0f9e8e1a8d27167a90bfd1fdf4646af",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\adapter_test.go": "d67eef3c524194b89a92c6ff3b8524b774f9d66c60647df90e33893309ed1f56",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\go.mod": "55f4e275c842f4e88cb4f1290740e7cc9f0ac3d034ed1037359f881db943347d",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\actual.go": "74a091fa6f2a0365f1f3170e5e4bee7bb9a5568c7ab2c9cdfd8be66da60c9e14",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\actual_types.go": "73671b0a6a828a178d8d91ae3ae36f0c8df06d492a4f73b66ff3a29f28812b3a",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\entry_grid.go": "3d0f7fa2f9d1bf65b9411b9bd94415e2a5ca0d62b08ea1899b9f40d93eb4371b",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\grid_clock.go": "31db0134d90163d12a9f6a1a8d54356517f02017c0d4c102dccc464b8f6184bf",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\input.go": "21021e17bc58f806aba5f68338ef10af0ad489d8141f9c3808f0aeaa6c3c8cb3",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\neutral_check.go": "42a3e1df8d2ed1b0ab4387f7c4ca0e3ab741853d8c0a0049e7867581cca38609",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\replay.go": "206db4edf9edcd029f69e0d2bfa0ff999e7af6ccd622d8af52a45878e5e72676",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\actual_test.go": "7875db61f32ae6022a8eb02d551e42647f7a680178fd17f461410b1a4131b4ea",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\entry_grid_test.go": "7301b46729c03dbbd35b9a1f3b8e5f1abd99b3482669678e1e7de20aaae057f4",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\grid_clock_test.go": "e74d884131a3fa7720e57788dcc20915c1d3425ea0e09463fd5b2befa26e9123",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\go.mod": "3c998e9bda266b230e7404c21a90445666ba2e3a52ba38d08e2e5334ef953f37",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual案\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\actual.go": "653360ffea807e865c50adc44bd54c2298d9fb519e4ccec264fcf106b5fb8fe7",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\actual_types.go": "fd79be2fed10aae4fb52f8ccd6bf7fbb2bf7b8fe4a41e45f534d6e39dd47a4a6",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\input.go": "d58eb5aa11932d115d849f4a7d051e45c5c9da8854e197cea3525a4c0adfe270",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\mirror_check.go": "ca4430de80a631dae37941cfffbc48e83a2bbc18ff8d950d59c03d0fb2ab810e",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\replay.go": "f79df618072ed94f69775ddc241b99e40b20218f50d1fd2c801a66deb5ca7ad3",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\actual_test.go": "32e6426376d87a2edc7a52e85bab775170066c091414c91178a1edd13fd5bb6e",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\mirror_check_test.go": "68f565d570018c5ef2ec133bde6b046fb726823d17cd866609ea7b38ab701416",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\go.mod": "10522ad8fe1a20bd0a338243efdac51493cdf3961ffb74b2921ec8e77937d4b1",
+          "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+          "C:\\Users\\masay\\AppData\\Local\\go-build\\49\\498ca4ceaad14e8fdf2bf95d0177c0e5a41555792c2cb0ad7758f26ac6fef280-d": "498ca4ceaad14e8fdf2bf95d0177c0e5a41555792c2cb0ad7758f26ac6fef280"
+        },
+        "直接依存数": 223,
+        "固定旧群の現物SHA256": {
+          "コードSHA256": {
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\actual.go": "653360ffea807e865c50adc44bd54c2298d9fb519e4ccec264fcf106b5fb8fe7",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\actual_test.go": "32e6426376d87a2edc7a52e85bab775170066c091414c91178a1edd13fd5bb6e",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\actual_types.go": "fd79be2fed10aae4fb52f8ccd6bf7fbb2bf7b8fe4a41e45f534d6e39dd47a4a6",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\cmd\\batch\\main.go": "4c089961c6ba2617a91ca9696e3243cbe28113201a67823ce3ff11a0ef77548e",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\go.mod": "10522ad8fe1a20bd0a338243efdac51493cdf3961ffb74b2921ec8e77937d4b1",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\input.go": "d58eb5aa11932d115d849f4a7d051e45c5c9da8854e197cea3525a4c0adfe270",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\mirror_check.go": "ca4430de80a631dae37941cfffbc48e83a2bbc18ff8d950d59c03d0fb2ab810e",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\mirror_check_test.go": "68f565d570018c5ef2ec133bde6b046fb726823d17cd866609ea7b38ab701416",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\README.md": "c854b9972b8d2094bef6c2da9e67cedc57d55e4211dc6cdab31819133d3630e4",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\replay.go": "f79df618072ed94f69775ddc241b99e40b20218f50d1fd2c801a66deb5ca7ad3",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\固定入力監査.py": "c01e433c4fa8a9145b29c938d19bb338ec45e582c7ec582d17f2da7d4d565efd",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\集計.py": "7c0c1d1b365226c74027405589099cb72382c7850090627a83788e1e2066c381"
+          },
+          "旧93コードSHA256": {
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\adapter.go": "ea823b57a9eedb9cae3ce3c83fb3e8868b869b79635dc3ab0356233bce0b048d",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\adapter_test.go": "d67eef3c524194b89a92c6ff3b8524b774f9d66c60647df90e33893309ed1f56",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\cmd\\batch\\main.go": "3a84c2826208c3ea38928c725caf224efec9e2ddc723818440ec9d519d66ffb8",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\go.mod": "55f4e275c842f4e88cb4f1290740e7cc9f0ac3d034ed1037359f881db943347d",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\input.go": "27751caa39dcb1e8f36dce4713320e7a8109355c2f5e30a2898f61d47af46c45",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\README.md": "6ff1f1d42800c8e37b0c17fe463dffddf6ebcc4b82020d0c35a95f4fa9a41562",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\replay.go": "05c43d76690c4e8f66ea50941fac516d0561622438a382759dc57d7f1ae70a5a",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\types.go": "93e64f2b87eb8af5912fe06502b47041b0f9e8e1a8d27167a90bfd1fdf4646af",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\固定入力監査.py": "82433f0dc110d4a4210580301ae7bf68fa43766983b60aa6da99e244ae5d1278",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\集計と閲覧形式.py": "57159e2aa97841d771b30b8e06bbe592918437a0f2631cf0266d6e97b0da9cd2"
+          },
+          "純戦略SHA256": {
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145.go": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\episode143.go": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\exit_diagnostics.go": "d279bc7e666623633027cb603c2c5eff2abf6ead7daace7f386788cdb64bbd38",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\legacy_rules.go": "2f9537b9316c37fad97cda0f4cbbf29b10fbb1392c2fe2b4fe47a59aeb43b801",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\methods.go": "f7db068dbb83dd391ecafadbe9a7dcc51292f5b9a5d1f153c62beeecba61d248",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05.go": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\portfolio.go": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145.go": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\rules.go": "49b311c6f7afce1c14f058470bdc43f7a7867b8f5d1c8c1ca489624e24274ff8",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01.go": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_close_groups.go": "535ce6a96fa8955daff19974d6bb68093400fce7985a5496390a3713813b8f51",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day_adapter.go": "2244d48b864c40c5a62ff007621a1dd75ffda2760972873b4b13281cd9d1cc55",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_restore.go": "ecf2ddaddd26600d11b341c4a992821c906dcc6a788c70a5f92abfae8359e5b0",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_types.go": "74fb4ac16f1bd997bc1113aa43bf4de5438abf258c10620b305cae9238d489ec",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\types.go": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\engine.go": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\rules.go": "1581539bd74f81d527d7ab82e4290493a016fe1bdd10c7155e472201d98087e2",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\addon_specs.go": "8120de9c6cf27d14fae9d350bd3c0f3e9341e0474c133e1fea40f62187fd1777",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\core_specs.go": "03a52e82a95ce9e0588ead088f9afaa290a0b78540137b21001d09a459d92be4",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\engine.go": "7fb551981ddd2dfd8be0704adc9659e5d68cad4da68dfc806045a35040c267c3",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\legacy_specs.go": "f9953d5bab5b21e200a7d87bb87ceab2688a1174a0411cef64170fe0e3d434ad",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\p05.go": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\profiles.go": "9388ff4112948e96d4fe7a39f5c26ea4d2127ee49618a72bd1c24c62008431e9",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\research_specs.go": "a13abfa16c55f1e416f1c165ac188ab5bbd7e911864f9f806ac049b2cbade6a2",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\s01.go": "72e6e01b5afc5ea34f6e7e55f335e8f0848cc91173f14683a0c313810e03c379",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods.go": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.mod": "d3e95e7b7315892e0366bf1fa9b8e4fe42061f07d57aa5651ee5cfa5d67e2351",
+            "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.sum": "8c7a0a4bffe211450057b16034b8a0fc700cb12756df7133a23f6d873dcb8be5"
+          }
+        },
+        "固定旧群の前後差": {
+          "コードSHA256": 0,
+          "旧93コードSHA256": 0,
+          "純戦略SHA256": 0
+        },
+        "94旧実行条件と現物の既知差": [
+          {
+            "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\集計.py",
+            "旧実行条件SHA256": "5749a1095a63849d7c1b6d66f898c26b4a9ff4ecc4a593eb075ab4d587778522",
+            "現固定SHA256": "7c0c1d1b365226c74027405589099cb72382c7850090627a83788e1e2066c381",
+            "根拠": "study\\00094_連続出生を固定した個別利益追尾\\コード表記訂正.json",
+            "根拠SHA256": "f29268fafabc76e2df8b20e3e97c374e519364b4b59f7707e2fa7efc3cd4fcb5",
+            "金融差": 0
+          }
+        ],
+        "Root接続は本停止対象外": true,
+        "検査済み": [
+          "N全原行/Force/Finish旧94全文",
+          "買売/費用/遅延12口座",
+          "strict5分/quiet半開/DST",
+          "Source未取得/取消/部分/closing/完結/最新badBBO",
+          "既知拒否と必要未知の混在",
+          "元追加の実初参加",
+          "登録順clip/0消費/両側予約込み10",
+          "slot後D1Sourceclose取消",
+          "Force同枠/EOF失効/clock破損"
+        ],
+        "未検査": [
+          "FAR自然生成の新規出生による市場接続",
+          "実凍結5分足からのATR源接続",
+          "保存Native54とのN全文接続はRoot実行後"
+        ],
+        "旧コード変更": 0,
+        "原板読取": 0,
+        "市場損益再生": 0,
+        "未使用日読取": 0,
+        "HTTP_live": 0,
+        "機会損失評価": 0
+      }
+    },
+    "独立保存の基礎人工": {
+      "元SHA256": "965901f448bd4fd26ae2a738ff70d0a5fc824b6b40b62afde4f4c80a45e14841",
+      "記録": {
+        "成功": true,
+        "scope": "停止Go Marshal API人工。Source/ATR手製、自然Source/実原板/正式54対照を補完しない。",
+        "場面": 3,
+        "Actor正常": 36,
+        "N対94別運転全本文": 8,
+        "除外5fieldのみ": true,
+        "Viewer資源": 36,
+        "Viewer独立純額/半円/所有": true,
+        "破損拒否": [
+          {
+            "case": "B出生即受理の偽装",
+            "拒否": true,
+            "理由": "B出生時の架空受理"
+          },
+          {
+            "case": "Source出生をgridへretime",
+            "拒否": true,
+            "理由": "B出生の当時空き: 10 != 5"
+          },
+          {
+            "case": "slotを次枠へ復活",
+            "拒否": true,
+            "理由": "strict次5分: 1789950000 != Decimal('1789949700')"
+          },
+          {
+            "case": "当時Source残量",
+            "拒否": true,
+            "理由": "当時Source残量: 6 != 5"
+          },
+          {
+            "case": "当時Source予約",
+            "拒否": true,
+            "理由": "当時Source予約: 1 != 0"
+          },
+          {
+            "case": "SourceHold推測置換",
+            "拒否": true,
+            "理由": "当時SourceHold: '別Hold' != '玉-枠A'"
+          },
+          {
+            "case": "gridの3値min",
+            "拒否": true,
+            "理由": "slot要求の3値min: 6 != 5"
+          },
+          {
+            "case": "機会の注文結合",
+            "拒否": true,
+            "理由": "'別注文'"
+          },
+          {
+            "case": "機会評価時刻",
+            "拒否": true,
+            "理由": "気配age: 1 != Decimal('2.0')"
+          },
+          {
+            "case": "未知の正常化",
+            "拒否": true,
+            "理由": "政策必須未知: True != False"
+          },
+          {
+            "case": "Sourceclose未予約量",
+            "拒否": true,
+            "理由": "Source close直前の独立実未予約量: 6 != 5"
+          },
+          {
+            "case": "Sourceceil要求量",
+            "拒否": true,
+            "理由": "Source ceil/全残: 999 != 2"
+          },
+          {
+            "case": "半円手数料",
+            "拒否": true,
+            "理由": "Fill手数料: Decimal('193.0') != Decimal('192.5')"
+          },
+          {
+            "case": "保存Position建値",
+            "拒否": true,
+            "理由": "Position.entry_price: 1015 != 1010"
+          },
+          {
+            "case": "MTM未来確定益",
+            "拒否": true,
+            "理由": "MTM.realized_net: 999 != Decimal('0')"
+          },
+          {
+            "case": "grid行動優先",
+            "拒否": true,
+            "理由": "grid行動優先: '待機' != '新規'"
+          },
+          {
+            "case": "grid予約数量",
+            "拒否": true,
+            "理由": "grid new予約量: 6 != 5"
+          },
+          {
+            "case": "grid集計分母",
+            "拒否": true,
+            "理由": "95 grid計数全体.grid_calls: 2 != 1"
+          },
+          {
+            "case": "金額最終純額",
+            "拒否": true,
+            "理由": "ActualTotals全値.net_yen: Decimal('16615.5') != Decimal('16615.0')"
+          }
+        ],
+        "CLI_help": 0,
+        "入力SHA256前": {
+          "work\\95Actual人工\\停止版\\売り.json": "09bc7250b8bf0a7e4ea3f2668ef504b8d0ad718d79c4eaa5eb4c167e3e5a50bb",
+          "work\\95Actual人工\\停止版\\容量と両側.json": "c0b723cc6bc6d9599fe4cda80110051b38610bcb91ae40971f97f053d54a0fc8",
+          "work\\95Actual人工\\停止版\\買い.json": "c27f6e8e5ae6f5ab58741fd64743d4ad379c768ef687c37a8cf196139295d84e"
+        },
+        "入力SHA256後": {
+          "work\\95Actual人工\\停止版\\売り.json": "09bc7250b8bf0a7e4ea3f2668ef504b8d0ad718d79c4eaa5eb4c167e3e5a50bb",
+          "work\\95Actual人工\\停止版\\容量と両側.json": "c0b723cc6bc6d9599fe4cda80110051b38610bcb91ae40971f97f053d54a0fc8",
+          "work\\95Actual人工\\停止版\\買い.json": "c27f6e8e5ae6f5ab58741fd64743d4ad379c768ef687c37a8cf196139295d84e"
+        },
+        "集計SHA256": "637b32be36ec8f8adfd38c4c99648e86d6637806f5cfa779a5ff471a60998eae",
+        "由来94SHA256": "7c0c1d1b365226c74027405589099cb72382c7850090627a83788e1e2066c381",
+        "正常": [
+          {
+            "scene": "売り.json",
+            "key": "B5Q_P0_C0_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "B5Q_P0_C0_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "B5Q_P0_C5_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "B5Q_P0_C5_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "B5_P0_C0_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "B5_P0_C0_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "B5_P0_C5_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "B5_P0_C5_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "P0_C0_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "P0_C0_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "P0_C5_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "売り.json",
+            "key": "P0_C5_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5Q_P0_C0_D0",
+            "positions": 4,
+            "fills": 8
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5Q_P0_C0_D1",
+            "positions": 3,
+            "fills": 6
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5Q_P0_C5_D0",
+            "positions": 4,
+            "fills": 8
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5Q_P0_C5_D1",
+            "positions": 3,
+            "fills": 6
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5_P0_C0_D0",
+            "positions": 4,
+            "fills": 8
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5_P0_C0_D1",
+            "positions": 3,
+            "fills": 6
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5_P0_C5_D0",
+            "positions": 4,
+            "fills": 8
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "B5_P0_C5_D1",
+            "positions": 3,
+            "fills": 6
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "P0_C0_D0",
+            "positions": 4,
+            "fills": 8
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "P0_C0_D1",
+            "positions": 3,
+            "fills": 6
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "P0_C5_D0",
+            "positions": 4,
+            "fills": 8
+          },
+          {
+            "scene": "容量と両側.json",
+            "key": "P0_C5_D1",
+            "positions": 3,
+            "fills": 6
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5Q_P0_C0_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5Q_P0_C0_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5Q_P0_C5_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5Q_P0_C5_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5_P0_C0_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5_P0_C0_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5_P0_C5_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "B5_P0_C5_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "P0_C0_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "P0_C0_D1",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "P0_C5_D0",
+            "positions": 1,
+            "fills": 3
+          },
+          {
+            "scene": "買い.json",
+            "key": "P0_C5_D1",
+            "positions": 1,
+            "fills": 3
+          }
+        ],
+        "原板本文読取": 0,
+        "95実市場本文読取": 0,
+        "実API": 0,
+        "留保": "人工gridは小数/境界の部分時計。正式84/156全枠は本物保存値と別境界監査で検査する。"
+      }
+    },
+    "保存EOF訂正": {
+      "元SHA256": "817fd5422246574badfc9c482c89678a8c65f6f99749253b8e71ea1299dde2c8",
+      "記録": {
+        "成功": true,
+        "scope": "EOF prefix時計だけの訂正。金融/市場/原板/全人工の再実行0",
+        "旧SHA256": "637b32be36ec8f8adfd38c4c99648e86d6637806f5cfa779a5ff471a60998eae",
+        "新SHA256": "83fa8815f5115d7440f130fadf46f53e3e9976aa70b668c9a36d6340b619fbe2",
+        "正常": [
+          {
+            "kind": "Day",
+            "予定": 84,
+            "EOF切れprefix": 83,
+            "双方正常": true
+          },
+          {
+            "kind": "Night",
+            "予定": 156,
+            "EOF切れprefix": 155,
+            "双方正常": true
+          },
+          {
+            "12Actor列一致": true,
+            "prefix": 83
+          }
+        ],
+        "拒否": [
+          "Day途中抜け",
+          "Day重複",
+          "Day余剰",
+          "Day開始欠落",
+          "Day空列",
+          "Night途中抜け",
+          "Night重複",
+          "Night余剰",
+          "Night開始欠落",
+          "Night空列",
+          "Actor列違い（各列単独はprefix）"
+        ],
+        "既存変更関数": [
+          "verify_grid",
+          "verify_book",
+          "analyze_saved"
+        ],
+        "追加関数": [
+          "verify_grid_prefix",
+          "verify_grid_columns"
+        ],
+        "他関数AST不変": [
+          "clock_delta",
+          "key_config",
+          "project94",
+          "event_before",
+          "source_at",
+          "pending_quantity",
+          "available_at",
+          "verify_source_b",
+          "viewer_trades",
+          "render",
+          "main"
+        ],
+        "変更理由": "全長84/156の完走要求はEOF後gridを作らない仕様と不整合だった。開始からの連続prefix＋12Actor列同値へ訂正。",
+        "旧実2場失敗証拠": "Root保管の旧637正式実行・正式全grid分母の長さエラーを変更/削除しない",
+        "金額検査": "元の94算術と95受付/Source/MTMを維持・disableなし",
+        "95実2場/54損益本文読取": 0,
+        "原板読取": 0,
+        "金融条件Native変更": 0,
+        "全面人工再実行": 0
+      }
+    },
+    "保存同秒訂正": {
+      "元SHA256": "2de4245b0d0132348cca1c88c5b70024dc2d12907ab0d443e60c76f338a7e662",
+      "記録": {
+        "成功": true,
+        "旧SHA256": "83fa8815f5115d7440f130fadf46f53e3e9976aa70b668c9a36d6340b619fbe2",
+        "新SHA256": "193acf7f0ddcd6b532b52d7ac7a105e2a1f61905bb97368dfeb79c177c5f5395",
+        "初回差": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Python案\\旧83fa_同時計予約\\初回不一致.json",
+          "sha256": "d5c7554ffea8e08ea7ccb484a6d04c25aae5cd3c359c51eb6526181950b5c6b7",
+          "session": "2026-09-25_Night",
+          "key": "P0_C0_D0",
+          "at": 1790344800,
+          "saved": 0,
+          "旧期待": 5
+        },
+        "限定Go型出典": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual人工\\停止版\\買い.json",
+          "sha256": "c27f6e8e5ae6f5ab58741fd64743d4ad379c768ef687c37a8cf196139295d84e"
+        },
+        "狭い検査数": 15,
+        "検査": [
+          "N同秒の後原行出生は枠に含めない",
+          "N過去受理は残す",
+          "N同秒でも公開済み原行なら含める",
+          "B5当枠受理を枠終了予約へ含める",
+          "B5未来枠受理は含めない",
+          "B5Q当枠受理を枠終了予約へ含める",
+          "B5Q未来枠受理は含めない",
+          "Force起源の旧原行通知は同時計grid前",
+          "quote起源の後原行通知は同時計grid後",
+          "Index等号だけでは物理行超過を公開済みにしない",
+          "先行受理5の未取得予約",
+          "後原行取消を枠前予約に混ぜない",
+          "枠前Force取消を当時予約から除く",
+          "初回差の実口座が全保存検査へ接続",
+          "予約量破損をsession/key/grid付きで拒否"
+        ],
+        "失敗口座の再接続": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95実行\\正式54場\\2026-09-25_Night.json",
+          "sha256": "c2617d700030398569a1bff99a2d533927d3a96d8ddabc1be5322e1e2c2af0b9"
+        },
+        "訂正範囲": "grid受理のN原行/B枠位相と同時計通知のtime/Index/物理行。金融算術/予約検査のdisableなし。",
+        "再売買": 0,
+        "原板読取": 0,
+        "金融条件Native変更": 0,
+        "既存関数変更": [
+          "event_before",
+          "verify_grid"
+        ],
+        "追加関数": [
+          "accepted_entries_at_grid"
+        ],
+        "他関数AST不変": [
+          "Baseline94",
+          "analyze_saved",
+          "available_at",
+          "clock_delta",
+          "key_config",
+          "main",
+          "pending_quantity",
+          "project94",
+          "render",
+          "source_at",
+          "verify_book",
+          "verify_grid_columns",
+          "verify_grid_prefix",
+          "verify_source_b",
+          "viewer_trades"
+        ],
+        "初回CLI失敗": {
+          "観測": "Rootから通知された保存会計の終了非0",
+          "エラー": "ValueError: grid new予約量: 0 != 5",
+          "stderr生ログ別保存": "本担当は保存元を仮定しない。再現差の元Native出典を別保存した。"
+        }
+      }
+    },
+    "原板の人工停止": {
+      "元SHA256": "dd1408138e2908d670d0933cb4eb41dba37fadf7f12cbe2aec92632f391466a0",
+      "記録": {
+        "種別": "95出生一回と5分境界の独立監査・人工停止",
+        "確認日": "2026-11-08",
+        "成功": true,
+        "コードSHA256": {
+          "work\\95境界監査案\\出生と5分境界の照合.py": "329fb9958f708bbf34fd939978f358e35333ad80053e4b5ce78521d95afca693",
+          "work\\95境界監査案\\人工と破損を確認する.py": "17b8ef5e9ba289ed79a33af47c253a9609d620bf2f1939ffeb3c37d328f5c466",
+          "work\\95境界監査案\\README.md": "dcb759bb544a2d57f38804426932e6e04292fb161068521fd5fafe9345c3ddfb",
+          "work\\95境界監査案\\仕様の独立レビュー.md": "d50a1af4214b10328e43922ef2de87f40bd2d84afdb344241624597109fd6f70"
+        },
+        "固定依存SHA256": {
+          "scripts\\FAR個別利益追尾の監査\\原板と保護の照合.py": "1437804124be71ba5254b57b583c8cc4db247f3bbb8749f89a6ac07c55caf5a6",
+          "scripts\\FAR元連続再現の監査\\原板照合.py": "49825ac408513e9cea8e9f8d852360a00436546fb9e99ec0b5edf2f86cafb62b",
+          "work\\95設計案\\Root固定仕様.md": "012a71e17c18fadb3d34334bd1e77f5ae3eb55e34f3a3589d6d055ffff487268",
+          "work\\95Actual検査\\停止.json": "f04eb2d8fab61e89c2cae852207a313c412114c4db78f0812fce7c243e3115e8",
+          "work\\95Actual案\\actual_types.go": "73671b0a6a828a178d8d91ae3ae36f0c8df06d492a4f73b66ff3a29f28812b3a",
+          "work\\95Actual案\\actual.go": "74a091fa6f2a0365f1f3170e5e4bee7bb9a5568c7ab2c9cdfd8be66da60c9e14",
+          "work\\95Actual案\\entry_grid.go": "3d0f7fa2f9d1bf65b9411b9bd94415e2a5ca0d62b08ea1899b9f40d93eb4371b"
+        },
+        "Root仕様SHA256": "012a71e17c18fadb3d34334bd1e77f5ae3eb55e34f3a3589d6d055ffff487268",
+        "Root追加合意": "全受理TOPIX/NK board・Last0含む上限までgrid、最新Actor QuoteはLast正NK、EOF以後gridなし/残SourceForceは94通り",
+        "Go実型接続": {
+          "系列数": 3,
+          "会計数": 36,
+          "N旧94全文会計数": 8,
+          "照合項目数": 124711,
+          "不一致数": 0
+        },
+        "純境界": {
+          "成功": true,
+          "scope": "型雛形を使う純境界手計算。これらのGo別実行出力を追加検証したものではない",
+          "照合項目数": 32,
+          "対象": [
+            "quiet半開/等号/再利用なし",
+            "pending/cancel/完結/closing",
+            "部分済Sourceの現在量/実要求時計/MTM0",
+            "grid後Sourcecloseは未取得全取消/受理と実取得分離/後原行fill禁止",
+            "最新badBBO/known拒否混在でもunknown",
+            "安定順/cap/返済予約/両側20",
+            "EOF一回失効/新gridなし",
+            "grid開始含む/終了除外",
+            "両市場Last0を含むEOF時計/逆行除外/全予定grid",
+            "DST合成時計のみ/原板なし"
+          ]
+        },
+        "破損拒否数": 23,
+        "基礎strictSlot": {
+          "成功": true,
+          "scope": "基礎slot算術のみ・Go型接続前",
+          "照合項目数": 8,
+          "入力前後不変": true,
+          "コード入力SHA256": {
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR個別利益追尾の監査\\原板と保護の照合.py": "1437804124be71ba5254b57b583c8cc4db247f3bbb8749f89a6ac07c55caf5a6",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元連続再現の監査\\原板照合.py": "49825ac408513e9cea8e9f8d852360a00436546fb9e99ec0b5edf2f86cafb62b",
+            "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95境界監査案\\出生と5分境界の照合.py": "329fb9958f708bbf34fd939978f358e35333ad80053e4b5ce78521d95afca693"
+          }
+        },
+        "証拠": [
+          {
+            "path": "work\\95境界監査案\\Go接続と純境界と破損_停止版.json",
+            "SHA256": "e75619cd36b9fb1c85a7d294d11c8a11ac06d3b1c8a8dd771b3f5ef945fc5022"
+          },
+          {
+            "path": "work\\95境界監査案\\基礎slot_停止版.json",
+            "SHA256": "589196860905663c9e3173381559e66a7b7c00fefaecf48af6b5c18c124fb840"
+          }
+        ],
+        "初回と停止版Go3本文byte一致": true,
+        "入力code前後不変": true,
+        "入力SHA256": {
+          "work\\95境界監査案\\出生と5分境界の照合.py": "329fb9958f708bbf34fd939978f358e35333ad80053e4b5ce78521d95afca693",
+          "work\\95境界監査案\\人工と破損を確認する.py": "17b8ef5e9ba289ed79a33af47c253a9609d620bf2f1939ffeb3c37d328f5c466",
+          "work\\95境界監査案\\README.md": "dcb759bb544a2d57f38804426932e6e04292fb161068521fd5fafe9345c3ddfb",
+          "work\\95境界監査案\\仕様の独立レビュー.md": "d50a1af4214b10328e43922ef2de87f40bd2d84afdb344241624597109fd6f70",
+          "scripts\\FAR個別利益追尾の監査\\原板と保護の照合.py": "1437804124be71ba5254b57b583c8cc4db247f3bbb8749f89a6ac07c55caf5a6",
+          "scripts\\FAR元連続再現の監査\\原板照合.py": "49825ac408513e9cea8e9f8d852360a00436546fb9e99ec0b5edf2f86cafb62b",
+          "work\\95設計案\\Root固定仕様.md": "012a71e17c18fadb3d34334bd1e77f5ae3eb55e34f3a3589d6d055ffff487268",
+          "work\\95Actual検査\\停止.json": "f04eb2d8fab61e89c2cae852207a313c412114c4db78f0812fce7c243e3115e8",
+          "work\\95Actual案\\actual_types.go": "73671b0a6a828a178d8d91ae3ae36f0c8df06d492a4f73b66ff3a29f28812b3a",
+          "work\\95Actual案\\actual.go": "74a091fa6f2a0365f1f3170e5e4bee7bb9a5568c7ab2c9cdfd8be66da60c9e14",
+          "work\\95Actual案\\entry_grid.go": "3d0f7fa2f9d1bf65b9411b9bd94415e2a5ca0d62b08ea1899b9f40d93eb4371b",
+          "work\\95Actual人工\\初回\\買い.json": "c27f6e8e5ae6f5ab58741fd64743d4ad379c768ef687c37a8cf196139295d84e",
+          "work\\95Actual人工\\初回\\売り.json": "09bc7250b8bf0a7e4ea3f2668ef504b8d0ad718d79c4eaa5eb4c167e3e5a50bb",
+          "work\\95Actual人工\\初回\\容量と両側.json": "c0b723cc6bc6d9599fe4cda80110051b38610bcb91ae40971f97f053d54a0fc8",
+          "work\\95Actual人工\\停止版\\買い.json": "c27f6e8e5ae6f5ab58741fd64743d4ad379c768ef687c37a8cf196139295d84e",
+          "work\\95Actual人工\\停止版\\売り.json": "09bc7250b8bf0a7e4ea3f2668ef504b8d0ad718d79c4eaa5eb4c167e3e5a50bb",
+          "work\\95Actual人工\\停止版\\容量と両側.json": "c0b723cc6bc6d9599fe4cda80110051b38610bcb91ae40971f97f053d54a0fc8",
+          "work\\95境界監査案\\Go接続と純境界と破損_停止版.json": "e75619cd36b9fb1c85a7d294d11c8a11ac06d3b1c8a8dd771b3f5ef945fc5022",
+          "work\\95境界監査案\\基礎slot_停止版.json": "589196860905663c9e3173381559e66a7b7c00fefaecf48af6b5c18c124fb840"
+        },
+        "重大仕様問題": [],
+        "正式実読取のCLI": [
+          "--run",
+          "--input",
+          "95保存JSONdir",
+          "--manifest",
+          "固定80台帳",
+          "--baseline94",
+          "neutral_matchと同bytesの94正式圧縮Native成果物dir",
+          "--out",
+          "新証拠",
+          "--workers",
+          "8",
+          "--limit",
+          "2"
+        ],
+        "次の実2場で初めて確認する範囲": [
+          "本物両市場Last0含むEOF時計と全予定grid列",
+          "正式95Shadow保存LedgerからNativeTapeを作り全Source/全旧金融/slotへ統合",
+          "実CSV→公開ATR/lock/利益床、全NK原行MTM/次eligibleとの非0統合",
+          "正式圧縮94 baselineとN4の5fieldだけ除外後全文一致"
+        ],
+        "限界": [
+          "Go手製APIと純境界手計算を区分し、未測定を成功へ補完しない",
+          "自然Source生成、95市場損益、実mini約定又は利益保証の証明ではない",
+          "原板/市場Nativeは未読。実読取はRoot別許可後のみ"
+        ],
+        "新原板市場読取数": 0,
+        "金融SourceRoot正式コード編集数": 0,
+        "閾値変更fit数": 0
+      }
+    },
+    "表示の人工停止": {
+      "元SHA256": "8439b8ba9b8c75e9164848da0ac7cc597913e0871a9890a2343d449fcb50118e",
+      "記録": {
+        "成功": true,
+        "scope": "表示保存会計。95のN/B5/B5Q入口・費用・partial・無取引と固定94通信比較",
+        "監査コードSHA256": "531b2e59cce7daeeefe9111513980e86eb3fff89cd29ca3c3ab7fa8899f6eec4",
+        "コード": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95表示監査案\\表示監査.py",
+        "固定94部品SHA256": "c9d514d990bbc53df0a887b227dc19b6ee8109c639502823e3eb303959be10a1",
+        "固定95集計SHA256": "83fa8815f5115d7440f130fadf46f53e3e9976aa70b668c9a36d6340b619fbe2",
+        "人工": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95表示監査案\\人工確認.json",
+          "sha256": "8e2799768f24ae3557463d8faf1ee635c6401da6c05d44b911672e14468587d6",
+          "資源数": 24,
+          "照合項目数": 1147,
+          "破損拒否": 4
+        },
+        "実2場保存入力検査": {
+          "資源数": 24,
+          "約定数": 72,
+          "成功": true
+        },
+        "実24Viewer照合": "この停止後に明示許可範囲で実施。成功証拠を別ファイルへ保存",
+        "全54損益本文読取": 0,
+        "Viewer起動停止設定変更": 0,
+        "新金融原板再生": 0,
+        "限定": "表示全約定と保存純額・所有・半円費用の一致。金融の全経路やSource生成は独立境界監査に依存。"
+      }
+    },
+    "表示の接続2場": {
+      "元SHA256": "c3e0eb726f9b6ca816cba0705be17a265ec1a0f5cc4ded59e2b5483978af8e3f",
+      "記録": {
+        "成功": true,
+        "監査CLI終了コード": 0,
+        "exec_session": 77385,
+        "監査コード": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95表示監査案\\表示監査.py",
+          "sha256": "531b2e59cce7daeeefe9111513980e86eb3fff89cd29ca3c3ab7fa8899f6eec4"
+        },
+        "停止": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95表示監査案\\停止.json",
+          "sha256": "8439b8ba9b8c75e9164848da0ac7cc597913e0871a9890a2343d449fcb50118e"
+        },
+        "人工": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95表示監査案\\人工確認.json",
+          "sha256": "8e2799768f24ae3557463d8faf1ee635c6401da6c05d44b911672e14468587d6"
+        },
+        "実2場Viewer": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95表示監査案\\実2場の照合.json",
+          "sha256": "1aad752100a97de623a2f8a2f9c3fe3b5d136c6fa90c45b9d56aaa7f99bc268c"
+        },
+        "scope": "既使用先頭2場の保存表示会計",
+        "完了資源": 24,
+        "Actor数": 12,
+        "照合項目数": 1177,
+        "不一致数": 0,
+        "APIエラー数": 0,
+        "入力前後不変": true,
+        "コード前後不変": true,
+        "N/B5/B5Q": [
+          "N",
+          "B5",
+          "B5Q"
+        ],
+        "C0/C5": [
+          "C0",
+          "C5"
+        ],
+        "固定95集計SHA256": "83fa8815f5115d7440f130fadf46f53e3e9976aa70b668c9a36d6340b619fbe2",
+        "Viewer起動停止設定変更": 0,
+        "原板直接読取": 0,
+        "新金融再生": 0,
+        "全54損益本文読取": 0,
+        "未検証": "全54/648資源はRootの金融完了通知後に別実行。今回の2場はN固定54金額の照合を行わない。"
+      }
+    }
+  },
+  "区別": "基礎人工は当時637集計。EOF11境界と同秒15境界の限定訂正は後続証拠。金融条件・約定再生成なし。全54の成功は別正式証拠",
+  "金融原板追加再生": 0
+}

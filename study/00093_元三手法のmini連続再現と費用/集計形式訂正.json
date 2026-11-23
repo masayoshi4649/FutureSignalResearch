@@ -1,0 +1,15 @@
+{
+  "対象": "集計器だけのJSONタグ訂正",
+  "条件SHA256": "49399f0d51fa755611357230596ba64d2aaef978dcf184ce3166f2c0cda3d63d",
+  "変更ファイル": "scripts/FAR元三手法のmini連続再現/集計と閲覧形式.py",
+  "旧SHA256": "e9a591dcae5f19abd304959a67fbf0e693bb8899c99d6e00ae9be914e7c42b3d",
+  "新SHA256": "57159e2aa97841d771b30b8e06bbe592918437a0f2631cf0266d6e97b0da9cd2",
+  "変更": "Fill.Closed内のstrategy.LotTargetはid/quantityのJSONタグ。ID/Quantityという誤読を訂正。独立人工の手製スキーマも実Go定義で確認し直す。",
+  "発見": "接続2場はnative0、最初のPython独立検算はKeyError:IDで終了1。訂正後に全6商品手法会計の所有・数量・費用の独立検算が成功。",
+  "売買条件変更": false,
+  "金融Go変更": false,
+  "元gross照合値変更": false,
+  "原結果の再計算": false,
+  "接続原入力前後一致": true,
+  "全54場損益実行前の訂正": true
+}

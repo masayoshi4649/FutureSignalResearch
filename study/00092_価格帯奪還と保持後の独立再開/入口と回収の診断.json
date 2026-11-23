@@ -1,0 +1,1745 @@
+{
+  "試行": 92,
+  "成功": true,
+  "範囲": "H1全3ref/6実玉と旧対応2refだけ。保存結果の記述統計で独立原板検査ではない",
+  "比較": {
+    "H0G1_D0": {
+      "費用後損益円": -177394,
+      "最大DD円": 184840,
+      "完結玉": 33,
+      "新規枚数": 577,
+      "赤字場数": 14,
+      "全玉旗": 16,
+      "全玉旗後赤字": 1,
+      "正益未観測の損益円": -202116,
+      "正益観測の損益円": 24722,
+      "取引場": 28,
+      "無取引場": 38,
+      "保護予算不足玉": 1
+    },
+    "H1G1_D0": {
+      "費用後損益円": -20378,
+      "最大DD円": 28778,
+      "完結玉": 3,
+      "新規枚数": 49,
+      "赤字場数": 2,
+      "全玉旗": 1,
+      "全玉旗後赤字": 0,
+      "正益未観測の損益円": -21050,
+      "正益観測の損益円": 672,
+      "取引場": 3,
+      "無取引場": 63,
+      "保護予算不足玉": 0
+    },
+    "H0G1_D1": {
+      "費用後損益円": -187494,
+      "最大DD円": 194340,
+      "完結玉": 33,
+      "新規枚数": 577,
+      "赤字場数": 19,
+      "全玉旗": 17,
+      "全玉旗後赤字": 6,
+      "正益未観測の損益円": -202796,
+      "正益観測の損益円": 15302,
+      "取引場": 28,
+      "無取引場": 38,
+      "保護予算不足玉": 6
+    },
+    "H1G1_D1": {
+      "費用後損益円": -20978,
+      "最大DD円": 28778,
+      "完結玉": 3,
+      "新規枚数": 49,
+      "赤字場数": 2,
+      "全玉旗": 1,
+      "全玉旗後赤字": 0,
+      "正益未観測の損益円": -21050,
+      "正益観測の損益円": 72,
+      "取引場": 3,
+      "無取引場": 63,
+      "保護予算不足玉": 1
+    }
+  },
+  "全差分解": {
+    "D0": {
+      "旧側のみ": 31,
+      "不参加による差円": 148446,
+      "除外した黒字玉": 14,
+      "除外黒字合計円": 25046,
+      "除外した赤字玉": 17,
+      "取得変更数": 2,
+      "取得変更差円": 22400,
+      "新ref数": 1,
+      "新ref損益円": -13830,
+      "同実入口数": 0,
+      "同実出口差円": 0,
+      "全差円": 157016
+    },
+    "D1": {
+      "旧側のみ": 31,
+      "不参加による差円": 158546,
+      "除外した黒字玉": 10,
+      "除外黒字合計円": 16414,
+      "除外した赤字玉": 21,
+      "取得変更数": 2,
+      "取得変更差円": 21800,
+      "新ref数": 1,
+      "新ref損益円": -13830,
+      "同実入口数": 0,
+      "同実出口差円": 0,
+      "全差円": 166516
+    }
+  },
+  "対象": [
+    {
+      "id": "M1",
+      "session": "2026-10-01_Night",
+      "reference_id": "80参照-U165_03-2026-10-01_Night-NK225micro-U165_03-000011-玉",
+      "分類": "同ref取得変更",
+      "入口前出典": [
+        {
+          "id": "M1C1",
+          "request_time": 1790881200,
+          "要求JST": "2026-10-02T04:00:00+09:00",
+          "side": 1,
+          "要求時気配": {
+            "time": 1790881192,
+            "index": 193937,
+            "line": 195145,
+            "bid": 68520,
+            "ask": 68530,
+            "last": 68530
+          },
+          "現在E0": true,
+          "旧E1": false,
+          "旧event有効": false,
+          "旧event未知": false,
+          "現在check": [
+            {
+              "id": "必要指標既知",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "確定足時計",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "旧直前3分結合",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "当時新規気配",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "15分背景",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "3分価格側",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "MACD増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "RSI増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "同時スパイクなし",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "取得0から1ATR",
+              "known": true,
+              "passed": true
+            }
+          ],
+          "想定取得EMA距離ATR": 0.8942710055912947,
+          "公開技法": {
+            "ema8_3": 68477.43669256312,
+            "ema8_15": 68377.58144555583,
+            "ema21_15": 68310.87960815533,
+            "atr3": 58.777828094881116,
+            "histogram3": 6.59993191587067,
+            "previous_histogram3": 4.975137446829805,
+            "rsi3": 62.730728528389285,
+            "previous_rsi3": 60.493515487516646,
+            "tr3": 40,
+            "previous_atr3": 60.222276409871974,
+            "bar3_end": 1790881200,
+            "bar15_end": 1790881200
+          },
+          "i出生": "fresh",
+          "独立段階": "完成",
+          "独立v有効": true,
+          "新v経過秒": 180,
+          "p経過秒": 1620,
+          "価格点": {
+            "i": {
+              "observation_id": 209,
+              "ordinal": 187496,
+              "bar_end": 1790879040,
+              "published_at": 1790879040,
+              "公開JST": "2026-10-02T03:24:00+09:00",
+              "close": 68410,
+              "origin": "three_timer",
+              "quote_index": 187247,
+              "quote_line": 188455
+            },
+            "p": {
+              "observation_id": 212,
+              "ordinal": 189522,
+              "bar_end": 1790879580,
+              "published_at": 1790879580,
+              "公開JST": "2026-10-02T03:33:00+09:00",
+              "close": 68350,
+              "origin": "three_timer",
+              "quote_index": 189269,
+              "quote_line": 190477
+            },
+            "H": {
+              "observation_id": 209,
+              "ordinal": 187496,
+              "bar_end": 1790879040,
+              "published_at": 1790879040,
+              "公開JST": "2026-10-02T03:24:00+09:00",
+              "close": 68410,
+              "origin": "three_timer",
+              "quote_index": 187247,
+              "quote_line": 188455
+            },
+            "b": {
+              "observation_id": 213,
+              "ordinal": 190174,
+              "bar_end": 1790879760,
+              "published_at": 1790879760,
+              "公開JST": "2026-10-02T03:36:00+09:00",
+              "close": 68490,
+              "origin": "three_timer",
+              "quote_index": 189920,
+              "quote_line": 191128
+            },
+            "P": {
+              "observation_id": 213,
+              "ordinal": 190174,
+              "bar_end": 1790879760,
+              "published_at": 1790879760,
+              "公開JST": "2026-10-02T03:36:00+09:00",
+              "close": 68490,
+              "origin": "three_timer",
+              "quote_index": 189920,
+              "quote_line": 191128
+            },
+            "h": {
+              "observation_id": 214,
+              "ordinal": 190785,
+              "bar_end": 1790879940,
+              "published_at": 1790879940,
+              "公開JST": "2026-10-02T03:39:00+09:00",
+              "close": 68430,
+              "origin": "three_timer",
+              "quote_index": 190530,
+              "quote_line": 191738
+            },
+            "v": {
+              "observation_id": 220,
+              "ordinal": 193751,
+              "bar_end": 1790881020,
+              "published_at": 1790881020,
+              "公開JST": "2026-10-02T03:57:00+09:00",
+              "close": 68500,
+              "origin": "three_timer",
+              "quote_index": 193489,
+              "quote_line": 194697
+            }
+          }
+        },
+        {
+          "id": "M1C2",
+          "request_time": 1790883000,
+          "要求JST": "2026-10-02T04:30:00+09:00",
+          "side": 1,
+          "要求時気配": {
+            "time": 1790882996,
+            "index": 198924,
+            "line": 200132,
+            "bid": 68480,
+            "ask": 68500,
+            "last": 68480
+          },
+          "現在E0": true,
+          "旧E1": true,
+          "旧event有効": true,
+          "旧event未知": false,
+          "現在check": [
+            {
+              "id": "必要指標既知",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "確定足時計",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "旧直前3分結合",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "当時新規気配",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "15分背景",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "3分価格側",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "MACD増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "RSI増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "同時スパイクなし",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "取得0から1ATR",
+              "known": true,
+              "passed": true
+            }
+          ],
+          "想定取得EMA距離ATR": 0.6653702840283681,
+          "公開技法": {
+            "ema8_3": 68467.62233535458,
+            "ema8_15": 68416.31470163254,
+            "ema21_15": 68339.40463483911,
+            "atr3": 48.661122118943794,
+            "histogram3": -6.7988240978229015,
+            "previous_histogram3": -7.989491535046852,
+            "rsi3": 55.905322821636275,
+            "previous_rsi3": 52.28869291192735,
+            "tr3": 40,
+            "previous_atr3": 49.32736228193947,
+            "bar3_end": 1790883000,
+            "bar15_end": 1790883000
+          },
+          "i出生": "completed_v",
+          "独立段階": "押し",
+          "独立v有効": false,
+          "新v経過秒": null,
+          "p経過秒": 180,
+          "価格点": {
+            "i": {
+              "observation_id": 220,
+              "ordinal": 193751,
+              "bar_end": 1790881020,
+              "published_at": 1790881020,
+              "公開JST": "2026-10-02T03:57:00+09:00",
+              "close": 68500,
+              "origin": "three_timer",
+              "quote_index": 193489,
+              "quote_line": 194697
+            },
+            "p": {
+              "observation_id": 230,
+              "ordinal": 198823,
+              "bar_end": 1790882820,
+              "published_at": 1790882820,
+              "公開JST": "2026-10-02T04:27:00+09:00",
+              "close": 68450,
+              "origin": "three_timer",
+              "quote_index": 198549,
+              "quote_line": 199757
+            },
+            "H": {
+              "observation_id": 221,
+              "ordinal": 194200,
+              "bar_end": 1790881200,
+              "published_at": 1790881200,
+              "公開JST": "2026-10-02T04:00:00+09:00",
+              "close": 68530,
+              "origin": "three_timer",
+              "quote_index": 193937,
+              "quote_line": 195145
+            },
+            "b": null,
+            "P": null,
+            "h": null,
+            "v": null
+          }
+        }
+      ],
+      "実行後実績": [
+        {
+          "key": "H1G1_D0",
+          "position_id": "2026-10-01_Night_S0G1_P000001",
+          "context_id": "M1C1",
+          "要求量": 10,
+          "取得後属性": {
+            "entry_time": 1790881200,
+            "取得JST": "2026-10-02T04:00:00+09:00",
+            "entry_index": 193938,
+            "entry_line": 195146,
+            "entry_price": 68530,
+            "quantity": 10,
+            "entry_atr": 58.777828094881116,
+            "固定Dpt": 60,
+            "実取得EMA距離pt": 52.56330743688159,
+            "実取得EMA距離ATR": 0.8942710055912947,
+            "実取得H/P/v差pt": {
+              "H": 120,
+              "P": 40,
+              "v": 30
+            }
+          },
+          "元参照": {
+            "at": 1790869046,
+            "出生JST": "2026-10-02T00:37:26+09:00",
+            "entry": 67860,
+            "kind": "initial",
+            "method": "NK225_U165_03",
+            "参照初期量": 10,
+            "参照現在量": 10,
+            "出生から要求秒": 12154,
+            "snapshot鮮度秒": 8,
+            "元価格から方向取得差pt": 670
+          },
+          "残玉旗": false,
+          "全玉旗": false,
+          "flag_time": null,
+          "flag_index": 0,
+          "flag_mark": null,
+          "flag_net_per_unit": null,
+          "whole_flag_time": null,
+          "whole_flag_index": 0,
+          "whole_flag_line": 0,
+          "G1": {
+            "harvest_target": 0,
+            "harvest_filled": 0,
+            "cash_floor_active": false,
+            "cash_floor": null,
+            "cash_floor_at": null,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": -6000.0,
+            "commission_yen": 220,
+            "slippage_yen": 1000,
+            "cost_yen": 1220,
+            "net_yen": -7220.0
+          },
+          "返済片": [
+            {
+              "quantity": 10,
+              "request_time": 1790881302,
+              "要求JST": "2026-10-02T04:01:42+09:00",
+              "request_index": 194284,
+              "request_line": 195492,
+              "request_mark": 68470,
+              "request_floor": -60,
+              "request_net_per_unit": -722,
+              "要求時全玉評価円": -7220,
+              "exit_time": 1790881302,
+              "返済JST": "2026-10-02T04:01:42+09:00",
+              "exit_line": 195493,
+              "exit_price": 68470,
+              "reason": "正益前ATR損失追尾",
+              "gross_yen": -6000.0,
+              "commission_yen": 220,
+              "slippage_yen": 1000,
+              "net_yen": -7220.0,
+              "要求後悪化円": 0,
+              "harvest": false,
+              "whole_net_before_fill": -7220,
+              "closed_net_after_fill": -7220,
+              "floor_jump": false,
+              "cost_loss": false
+            }
+          ]
+        },
+        {
+          "key": "H1G1_D1",
+          "position_id": "2026-10-01_Night_S0G1_P000001",
+          "context_id": "M1C1",
+          "要求量": 10,
+          "取得後属性": {
+            "entry_time": 1790881205,
+            "取得JST": "2026-10-02T04:00:05+09:00",
+            "entry_index": 193958,
+            "entry_line": 195166,
+            "entry_price": 68530,
+            "quantity": 10,
+            "entry_atr": 58.777828094881116,
+            "固定Dpt": 60,
+            "実取得EMA距離pt": 52.56330743688159,
+            "実取得EMA距離ATR": 0.8942710055912947,
+            "実取得H/P/v差pt": {
+              "H": 120,
+              "P": 40,
+              "v": 30
+            }
+          },
+          "元参照": {
+            "at": 1790869046,
+            "出生JST": "2026-10-02T00:37:26+09:00",
+            "entry": 67860,
+            "kind": "initial",
+            "method": "NK225_U165_03",
+            "参照初期量": 10,
+            "参照現在量": 10,
+            "出生から要求秒": 12154,
+            "snapshot鮮度秒": 8,
+            "元価格から方向取得差pt": 670
+          },
+          "残玉旗": false,
+          "全玉旗": false,
+          "flag_time": null,
+          "flag_index": 0,
+          "flag_mark": null,
+          "flag_net_per_unit": null,
+          "whole_flag_time": null,
+          "whole_flag_index": 0,
+          "whole_flag_line": 0,
+          "G1": {
+            "harvest_target": 0,
+            "harvest_filled": 0,
+            "cash_floor_active": false,
+            "cash_floor": null,
+            "cash_floor_at": null,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": -6000.0,
+            "commission_yen": 220,
+            "slippage_yen": 1000,
+            "cost_yen": 1220,
+            "net_yen": -7220.0
+          },
+          "返済片": [
+            {
+              "quantity": 10,
+              "request_time": 1790881302,
+              "要求JST": "2026-10-02T04:01:42+09:00",
+              "request_index": 194284,
+              "request_line": 195492,
+              "request_mark": 68470,
+              "request_floor": -60,
+              "request_net_per_unit": -722,
+              "要求時全玉評価円": -7220,
+              "exit_time": 1790881309,
+              "返済JST": "2026-10-02T04:01:49+09:00",
+              "exit_line": 195516,
+              "exit_price": 68470,
+              "reason": "正益前ATR損失追尾",
+              "gross_yen": -6000.0,
+              "commission_yen": 220,
+              "slippage_yen": 1000,
+              "net_yen": -7220.0,
+              "要求後悪化円": 0,
+              "harvest": false,
+              "whole_net_before_fill": -7220,
+              "closed_net_after_fill": -7220,
+              "floor_jump": false,
+              "cost_loss": false
+            }
+          ]
+        },
+        {
+          "key": "H0G1_D0",
+          "position_id": "2026-10-01_Night_S0G1_P000002",
+          "context_id": "M1C2",
+          "要求量": 10,
+          "取得後属性": {
+            "entry_time": 1790883000,
+            "取得JST": "2026-10-02T04:30:00+09:00",
+            "entry_index": 198925,
+            "entry_line": 200133,
+            "entry_price": 68500,
+            "quantity": 10,
+            "entry_atr": 48.661122118943794,
+            "固定Dpt": 50,
+            "実取得EMA距離pt": 32.37766464542074,
+            "実取得EMA距離ATR": 0.6653702840283681,
+            "実取得H/P/v差pt": {
+              "H": -30,
+              "P": null,
+              "v": null
+            }
+          },
+          "元参照": {
+            "at": 1790869046,
+            "出生JST": "2026-10-02T00:37:26+09:00",
+            "entry": 67860,
+            "kind": "initial",
+            "method": "NK225_U165_03",
+            "参照初期量": 10,
+            "参照現在量": 10,
+            "出生から要求秒": 13954,
+            "snapshot鮮度秒": 4,
+            "元価格から方向取得差pt": 640
+          },
+          "残玉旗": true,
+          "全玉旗": true,
+          "flag_time": 1790883064,
+          "flag_index": 199142,
+          "flag_mark": 68520,
+          "flag_net_per_unit": 78,
+          "whole_flag_time": 1790883064,
+          "whole_flag_index": 199142,
+          "whole_flag_line": 200350,
+          "G1": {
+            "harvest_target": 8,
+            "harvest_filled": 8,
+            "cash_floor_active": true,
+            "cash_floor": 0,
+            "cash_floor_at": 1790883064,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": 1600.0,
+            "commission_yen": 220,
+            "slippage_yen": 1000,
+            "cost_yen": 1220,
+            "net_yen": 380.0
+          },
+          "返済片": null
+        },
+        {
+          "key": "H0G1_D1",
+          "position_id": "2026-10-01_Night_S0G1_P000002",
+          "context_id": "M1C2",
+          "要求量": 10,
+          "取得後属性": {
+            "entry_time": 1790883003,
+            "取得JST": "2026-10-02T04:30:03+09:00",
+            "entry_index": 198933,
+            "entry_line": 200141,
+            "entry_price": 68500,
+            "quantity": 10,
+            "entry_atr": 48.661122118943794,
+            "固定Dpt": 50,
+            "実取得EMA距離pt": 32.37766464542074,
+            "実取得EMA距離ATR": 0.6653702840283681,
+            "実取得H/P/v差pt": {
+              "H": -30,
+              "P": null,
+              "v": null
+            }
+          },
+          "元参照": {
+            "at": 1790869046,
+            "出生JST": "2026-10-02T00:37:26+09:00",
+            "entry": 67860,
+            "kind": "initial",
+            "method": "NK225_U165_03",
+            "参照初期量": 10,
+            "参照現在量": 10,
+            "出生から要求秒": 13954,
+            "snapshot鮮度秒": 4,
+            "元価格から方向取得差pt": 640
+          },
+          "残玉旗": true,
+          "全玉旗": true,
+          "flag_time": 1790883064,
+          "flag_index": 199142,
+          "flag_mark": 68520,
+          "flag_net_per_unit": 78,
+          "whole_flag_time": 1790883064,
+          "whole_flag_index": 199142,
+          "whole_flag_line": 200350,
+          "G1": {
+            "harvest_target": 8,
+            "harvest_filled": 8,
+            "cash_floor_active": true,
+            "cash_floor": 0,
+            "cash_floor_at": 1790883067,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": 1600.0,
+            "commission_yen": 220,
+            "slippage_yen": 1000,
+            "cost_yen": 1220,
+            "net_yen": 380.0
+          },
+          "返済片": null
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "session": "2026-10-05_Day",
+      "reference_id": "80参照-D164_15-2026-10-05_Day-NK225micro-D164_15-000006-玉",
+      "分類": "H1新ref",
+      "入口前出典": [
+        {
+          "id": "M2C1",
+          "request_time": 1791164700,
+          "要求JST": "2026-10-05T10:45:00+09:00",
+          "side": 1,
+          "要求時気配": {
+            "time": 1791164697,
+            "index": 45706,
+            "line": 45765,
+            "bid": 70230,
+            "ask": 70240,
+            "last": 70230
+          },
+          "現在E0": true,
+          "旧E1": false,
+          "旧event有効": false,
+          "旧event未知": false,
+          "現在check": [
+            {
+              "id": "必要指標既知",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "確定足時計",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "旧直前3分結合",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "当時新規気配",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "15分背景",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "3分価格側",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "MACD増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "RSI増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "同時スパイクなし",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "取得0から1ATR",
+              "known": true,
+              "passed": true
+            }
+          ],
+          "想定取得EMA距離ATR": 0.9421088245288607,
+          "公開技法": {
+            "ema8_3": 70169.19084924774,
+            "ema8_15": 70030.82358289859,
+            "ema21_15": 69913.67399464472,
+            "atr3": 75.16026695501252,
+            "histogram3": 11.775714884803108,
+            "previous_histogram3": 11.509120011658453,
+            "rsi3": 68.07362879633212,
+            "previous_rsi3": 67.4232196231456,
+            "tr3": 50,
+            "previous_atr3": 77.0956721053981,
+            "bar3_end": 1791164700,
+            "bar15_end": 1791164700
+          },
+          "i出生": "fresh",
+          "独立段階": "完成",
+          "独立v有効": true,
+          "新v経過秒": 720,
+          "p経過秒": 1800,
+          "価格点": {
+            "i": {
+              "observation_id": 6,
+              "ordinal": 3401,
+              "bar_end": 1791158400,
+              "published_at": 1791158400,
+              "公開JST": "2026-10-05T09:00:00+09:00",
+              "close": 69800,
+              "origin": "three_timer",
+              "quote_index": 3395,
+              "quote_line": 3454
+            },
+            "p": {
+              "observation_id": 31,
+              "ordinal": 35648,
+              "bar_end": 1791162900,
+              "published_at": 1791162900,
+              "公開JST": "2026-10-05T10:15:00+09:00",
+              "close": 70010,
+              "origin": "three_timer",
+              "quote_index": 35613,
+              "quote_line": 35672
+            },
+            "H": {
+              "observation_id": 14,
+              "ordinal": 15462,
+              "bar_end": 1791159840,
+              "published_at": 1791159840,
+              "公開JST": "2026-10-05T09:24:00+09:00",
+              "close": 70090,
+              "origin": "three_timer",
+              "quote_index": 15447,
+              "quote_line": 15506
+            },
+            "b": {
+              "observation_id": 34,
+              "ordinal": 38948,
+              "bar_end": 1791163440,
+              "published_at": 1791163440,
+              "公開JST": "2026-10-05T10:24:00+09:00",
+              "close": 70130,
+              "origin": "three_timer",
+              "quote_index": 38909,
+              "quote_line": 38968
+            },
+            "P": {
+              "observation_id": 34,
+              "ordinal": 38948,
+              "bar_end": 1791163440,
+              "published_at": 1791163440,
+              "公開JST": "2026-10-05T10:24:00+09:00",
+              "close": 70130,
+              "origin": "three_timer",
+              "quote_index": 38909,
+              "quote_line": 38968
+            },
+            "h": {
+              "observation_id": 36,
+              "ordinal": 40914,
+              "bar_end": 1791163800,
+              "published_at": 1791163800,
+              "公開JST": "2026-10-05T10:30:00+09:00",
+              "close": 70100,
+              "origin": "three_timer",
+              "quote_index": 40873,
+              "quote_line": 40932
+            },
+            "v": {
+              "observation_id": 37,
+              "ordinal": 42005,
+              "bar_end": 1791163980,
+              "published_at": 1791163980,
+              "公開JST": "2026-10-05T10:33:00+09:00",
+              "close": 70180,
+              "origin": "three_timer",
+              "quote_index": 41962,
+              "quote_line": 42021
+            }
+          }
+        }
+      ],
+      "実行後実績": [
+        {
+          "key": "H1G1_D0",
+          "position_id": "2026-10-05_Day_S0G1_P000001",
+          "context_id": "M2C1",
+          "要求量": 15,
+          "取得後属性": {
+            "entry_time": 1791164702,
+            "取得JST": "2026-10-05T10:45:02+09:00",
+            "entry_index": 45707,
+            "entry_line": 45766,
+            "entry_price": 70240,
+            "quantity": 15,
+            "entry_atr": 75.16026695501252,
+            "固定Dpt": 80,
+            "実取得EMA距離pt": 70.80915075226221,
+            "実取得EMA距離ATR": 0.9421088245288607,
+            "実取得H/P/v差pt": {
+              "H": 150,
+              "P": 110,
+              "v": 60
+            }
+          },
+          "元参照": {
+            "at": 1791163860,
+            "出生JST": "2026-10-05T10:31:00+09:00",
+            "entry": 70170,
+            "kind": "delayed_initial",
+            "method": "NK225_D164_15",
+            "参照初期量": 15,
+            "参照現在量": 15,
+            "出生から要求秒": 840,
+            "snapshot鮮度秒": 3,
+            "元価格から方向取得差pt": 70
+          },
+          "残玉旗": false,
+          "全玉旗": false,
+          "flag_time": null,
+          "flag_index": 0,
+          "flag_mark": null,
+          "flag_net_per_unit": null,
+          "whole_flag_time": null,
+          "whole_flag_index": 0,
+          "whole_flag_line": 0,
+          "G1": {
+            "harvest_target": 0,
+            "harvest_filled": 0,
+            "cash_floor_active": false,
+            "cash_floor": null,
+            "cash_floor_at": null,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": -12000.0,
+            "commission_yen": 330,
+            "slippage_yen": 1500,
+            "cost_yen": 1830,
+            "net_yen": -13830.0
+          },
+          "返済片": [
+            {
+              "quantity": 15,
+              "request_time": 1791165409,
+              "要求JST": "2026-10-05T10:56:49+09:00",
+              "request_index": 49191,
+              "request_line": 49250,
+              "request_mark": 70160,
+              "request_floor": -80,
+              "request_net_per_unit": -922,
+              "要求時全玉評価円": -13830,
+              "exit_time": 1791165409,
+              "返済JST": "2026-10-05T10:56:49+09:00",
+              "exit_line": 49251,
+              "exit_price": 70160,
+              "reason": "正益前ATR損失追尾",
+              "gross_yen": -12000.0,
+              "commission_yen": 330,
+              "slippage_yen": 1500,
+              "net_yen": -13830.0,
+              "要求後悪化円": 0,
+              "harvest": false,
+              "whole_net_before_fill": -13830,
+              "closed_net_after_fill": -13830,
+              "floor_jump": false,
+              "cost_loss": false
+            }
+          ]
+        },
+        {
+          "key": "H1G1_D1",
+          "position_id": "2026-10-05_Day_S0G1_P000001",
+          "context_id": "M2C1",
+          "要求量": 15,
+          "取得後属性": {
+            "entry_time": 1791164702,
+            "取得JST": "2026-10-05T10:45:02+09:00",
+            "entry_index": 45707,
+            "entry_line": 45766,
+            "entry_price": 70240,
+            "quantity": 15,
+            "entry_atr": 75.16026695501252,
+            "固定Dpt": 80,
+            "実取得EMA距離pt": 70.80915075226221,
+            "実取得EMA距離ATR": 0.9421088245288607,
+            "実取得H/P/v差pt": {
+              "H": 150,
+              "P": 110,
+              "v": 60
+            }
+          },
+          "元参照": {
+            "at": 1791163860,
+            "出生JST": "2026-10-05T10:31:00+09:00",
+            "entry": 70170,
+            "kind": "delayed_initial",
+            "method": "NK225_D164_15",
+            "参照初期量": 15,
+            "参照現在量": 15,
+            "出生から要求秒": 840,
+            "snapshot鮮度秒": 3,
+            "元価格から方向取得差pt": 70
+          },
+          "残玉旗": false,
+          "全玉旗": false,
+          "flag_time": null,
+          "flag_index": 0,
+          "flag_mark": null,
+          "flag_net_per_unit": null,
+          "whole_flag_time": null,
+          "whole_flag_index": 0,
+          "whole_flag_line": 0,
+          "G1": {
+            "harvest_target": 0,
+            "harvest_filled": 0,
+            "cash_floor_active": false,
+            "cash_floor": null,
+            "cash_floor_at": null,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": -12000.0,
+            "commission_yen": 330,
+            "slippage_yen": 1500,
+            "cost_yen": 1830,
+            "net_yen": -13830.0
+          },
+          "返済片": [
+            {
+              "quantity": 15,
+              "request_time": 1791165409,
+              "要求JST": "2026-10-05T10:56:49+09:00",
+              "request_index": 49191,
+              "request_line": 49250,
+              "request_mark": 70160,
+              "request_floor": -80,
+              "request_net_per_unit": -922,
+              "要求時全玉評価円": -13830,
+              "exit_time": 1791165414,
+              "返済JST": "2026-10-05T10:56:54+09:00",
+              "exit_line": 49273,
+              "exit_price": 70160,
+              "reason": "正益前ATR損失追尾",
+              "gross_yen": -12000.0,
+              "commission_yen": 330,
+              "slippage_yen": 1500,
+              "net_yen": -13830.0,
+              "要求後悪化円": 0,
+              "harvest": false,
+              "whole_net_before_fill": -13830,
+              "closed_net_after_fill": -13830,
+              "floor_jump": false,
+              "cost_loss": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "session": "2026-10-19_Day",
+      "reference_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+      "分類": "同ref取得変更",
+      "入口前出典": [
+        {
+          "id": "M3C1",
+          "request_time": 1792384200,
+          "要求JST": "2026-10-19T13:30:00+09:00",
+          "side": 1,
+          "要求時気配": {
+            "time": 1792384198,
+            "index": 110826,
+            "line": 111620,
+            "bid": 65010,
+            "ask": 65020,
+            "last": 65010
+          },
+          "現在E0": true,
+          "旧E1": false,
+          "旧event有効": false,
+          "旧event未知": false,
+          "現在check": [
+            {
+              "id": "必要指標既知",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "確定足時計",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "旧直前3分結合",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "当時新規気配",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "15分背景",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "3分価格側",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "MACD増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "RSI増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "同時スパイクなし",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "取得0から1ATR",
+              "known": true,
+              "passed": true
+            }
+          ],
+          "想定取得EMA距離ATR": 0.9963241469867831,
+          "公開技法": {
+            "ema8_3": 64963.90191743642,
+            "ema8_15": 64866.48511453848,
+            "ema21_15": 64658.47201347528,
+            "atr3": 56.305051657372005,
+            "histogram3": 0.9519662024273075,
+            "previous_histogram3": -1.1721307240666334,
+            "rsi3": 66.1375484117466,
+            "previous_rsi3": 63.18158286128105,
+            "tr3": 50,
+            "previous_atr3": 56.790055631016,
+            "bar3_end": 1792384200,
+            "bar15_end": 1792384200
+          },
+          "i出生": "completed_v",
+          "独立段階": "完成",
+          "独立v有効": true,
+          "新v経過秒": 0,
+          "p経過秒": 1080,
+          "価格点": {
+            "i": {
+              "observation_id": 74,
+              "ordinal": 88134,
+              "bar_end": 1792380240,
+              "published_at": 1792380240,
+              "公開JST": "2026-10-19T12:24:00+09:00",
+              "close": 64860,
+              "origin": "three_timer",
+              "quote_index": 88047,
+              "quote_line": 88841
+            },
+            "p": {
+              "observation_id": 90,
+              "ordinal": 105281,
+              "bar_end": 1792383120,
+              "published_at": 1792383120,
+              "公開JST": "2026-10-19T13:12:00+09:00",
+              "close": 64890,
+              "origin": "three_timer",
+              "quote_index": 105175,
+              "quote_line": 105969
+            },
+            "H": {
+              "observation_id": 78,
+              "ordinal": 92315,
+              "bar_end": 1792380960,
+              "published_at": 1792380960,
+              "公開JST": "2026-10-19T12:36:00+09:00",
+              "close": 64970,
+              "origin": "three_timer",
+              "quote_index": 92223,
+              "quote_line": 93017
+            },
+            "b": {
+              "observation_id": 94,
+              "ordinal": 109074,
+              "bar_end": 1792383840,
+              "published_at": 1792383840,
+              "公開JST": "2026-10-19T13:24:00+09:00",
+              "close": 64990,
+              "origin": "three_timer",
+              "quote_index": 108963,
+              "quote_line": 109757
+            },
+            "P": {
+              "observation_id": 94,
+              "ordinal": 109074,
+              "bar_end": 1792383840,
+              "published_at": 1792383840,
+              "公開JST": "2026-10-19T13:24:00+09:00",
+              "close": 64990,
+              "origin": "three_timer",
+              "quote_index": 108963,
+              "quote_line": 109757
+            },
+            "h": {
+              "observation_id": 95,
+              "ordinal": 110104,
+              "bar_end": 1792384020,
+              "published_at": 1792384020,
+              "公開JST": "2026-10-19T13:27:00+09:00",
+              "close": 64980,
+              "origin": "three_timer",
+              "quote_index": 109992,
+              "quote_line": 110786
+            },
+            "v": {
+              "observation_id": 96,
+              "ordinal": 110939,
+              "bar_end": 1792384200,
+              "published_at": 1792384200,
+              "公開JST": "2026-10-19T13:30:00+09:00",
+              "close": 65010,
+              "origin": "three_timer",
+              "quote_index": 110826,
+              "quote_line": 111620
+            }
+          }
+        },
+        {
+          "id": "M3C2",
+          "request_time": 1792376100,
+          "要求JST": "2026-10-19T11:15:00+09:00",
+          "side": 1,
+          "要求時気配": {
+            "time": 1792376096,
+            "index": 69596,
+            "line": 70390,
+            "bid": 64760,
+            "ask": 64770,
+            "last": 64770
+          },
+          "現在E0": true,
+          "旧E1": true,
+          "旧event有効": true,
+          "旧event未知": false,
+          "現在check": [
+            {
+              "id": "必要指標既知",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "確定足時計",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "旧直前3分結合",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "当時新規気配",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "15分背景",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "3分価格側",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "MACD増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "RSI増分",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "同時スパイクなし",
+              "known": true,
+              "passed": true
+            },
+            {
+              "id": "取得0から1ATR",
+              "known": true,
+              "passed": true
+            }
+          ],
+          "想定取得EMA距離ATR": 0.695351410094361,
+          "公開技法": {
+            "ema8_3": 64695.11469964221,
+            "ema8_15": 64513.73037472757,
+            "ema21_15": 64366.59755675213,
+            "atr3": 107.694180626782,
+            "histogram3": -10.869914870511494,
+            "previous_histogram3": -16.314202443289375,
+            "rsi3": 61.07145155156617,
+            "previous_rsi3": 57.73577211121816,
+            "tr3": 120,
+            "previous_atr3": 106.74757913653445,
+            "bar3_end": 1792376100,
+            "bar15_end": 1792376100
+          },
+          "i出生": "fresh",
+          "独立段階": "奪還後",
+          "独立v有効": false,
+          "新v経過秒": null,
+          "p経過秒": 900,
+          "価格点": {
+            "i": {
+              "observation_id": 32,
+              "ordinal": 45257,
+              "bar_end": 1792372680,
+              "published_at": 1792372680,
+              "公開JST": "2026-10-19T10:18:00+09:00",
+              "close": 64670,
+              "origin": "three_timer",
+              "quote_index": 45220,
+              "quote_line": 46014
+            },
+            "p": {
+              "observation_id": 46,
+              "ordinal": 63485,
+              "bar_end": 1792375200,
+              "published_at": 1792375200,
+              "公開JST": "2026-10-19T11:00:00+09:00",
+              "close": 64540,
+              "origin": "three_timer",
+              "quote_index": 63432,
+              "quote_line": 64226
+            },
+            "H": {
+              "observation_id": 33,
+              "ordinal": 46633,
+              "bar_end": 1792372860,
+              "published_at": 1792372860,
+              "公開JST": "2026-10-19T10:21:00+09:00",
+              "close": 64760,
+              "origin": "three_timer",
+              "quote_index": 46595,
+              "quote_line": 47389
+            },
+            "b": {
+              "observation_id": 51,
+              "ordinal": 69655,
+              "bar_end": 1792376100,
+              "published_at": 1792376100,
+              "公開JST": "2026-10-19T11:15:00+09:00",
+              "close": 64770,
+              "origin": "three_timer",
+              "quote_index": 69596,
+              "quote_line": 70390
+            },
+            "P": {
+              "observation_id": 51,
+              "ordinal": 69655,
+              "bar_end": 1792376100,
+              "published_at": 1792376100,
+              "公開JST": "2026-10-19T11:15:00+09:00",
+              "close": 64770,
+              "origin": "three_timer",
+              "quote_index": 69596,
+              "quote_line": 70390
+            },
+            "h": null,
+            "v": null
+          }
+        }
+      ],
+      "実行後実績": [
+        {
+          "key": "H1G1_D0",
+          "position_id": "2026-10-19_Day_S0G1_P000001",
+          "context_id": "M3C1",
+          "要求量": 24,
+          "取得後属性": {
+            "entry_time": 1792384203,
+            "取得JST": "2026-10-19T13:30:03+09:00",
+            "entry_index": 110827,
+            "entry_line": 111621,
+            "entry_price": 65020,
+            "quantity": 24,
+            "entry_atr": 56.305051657372005,
+            "固定Dpt": 60,
+            "実取得EMA距離pt": 56.09808256357792,
+            "実取得EMA距離ATR": 0.9963241469867831,
+            "実取得H/P/v差pt": {
+              "H": 50,
+              "P": 30,
+              "v": 10
+            }
+          },
+          "元参照": {
+            "at": 1792370514,
+            "出生JST": "2026-10-19T09:41:54+09:00",
+            "entry": 64190,
+            "kind": "initial",
+            "method": "NK225_D164_15",
+            "参照初期量": 48,
+            "参照現在量": 24,
+            "出生から要求秒": 13686,
+            "snapshot鮮度秒": 2,
+            "元価格から方向取得差pt": 830
+          },
+          "残玉旗": true,
+          "全玉旗": true,
+          "flag_time": 1792384210,
+          "flag_index": 110871,
+          "flag_mark": 65040,
+          "flag_net_per_unit": 78,
+          "whole_flag_time": 1792384210,
+          "whole_flag_index": 110871,
+          "whole_flag_line": 111665,
+          "G1": {
+            "harvest_target": 18,
+            "harvest_filled": 18,
+            "cash_floor_active": true,
+            "cash_floor": 0,
+            "cash_floor_at": 1792384210,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": 3600.0,
+            "commission_yen": 528,
+            "slippage_yen": 2400,
+            "cost_yen": 2928,
+            "net_yen": 672.0
+          },
+          "返済片": [
+            {
+              "quantity": 18,
+              "request_time": 1792384210,
+              "要求JST": "2026-10-19T13:30:10+09:00",
+              "request_index": 110871,
+              "request_line": 111665,
+              "request_mark": 65040,
+              "request_floor": 0,
+              "request_net_per_unit": 78,
+              "要求時全玉評価円": 1872,
+              "exit_time": 1792384210,
+              "返済JST": "2026-10-19T13:30:10+09:00",
+              "exit_line": 111666,
+              "exit_price": 65040,
+              "reason": "正益起動の部分利確",
+              "gross_yen": 3600.0,
+              "commission_yen": 396,
+              "slippage_yen": 1800,
+              "net_yen": 1404.0,
+              "要求後悪化円": 0,
+              "harvest": true,
+              "whole_net_before_fill": 1872,
+              "closed_net_after_fill": 1404,
+              "floor_jump": false,
+              "cost_loss": false
+            },
+            {
+              "quantity": 6,
+              "request_time": 1792384215,
+              "要求JST": "2026-10-19T13:30:15+09:00",
+              "request_index": 110924,
+              "request_line": 111718,
+              "request_mark": 65020,
+              "request_floor": 0,
+              "request_net_per_unit": -122,
+              "要求時全玉評価円": 672,
+              "exit_time": 1792384215,
+              "返済JST": "2026-10-19T13:30:15+09:00",
+              "exit_line": 111719,
+              "exit_price": 65020,
+              "reason": "G1確定益予算・ATR追尾",
+              "gross_yen": 0.0,
+              "commission_yen": 132,
+              "slippage_yen": 600,
+              "net_yen": -732.0,
+              "要求後悪化円": 0,
+              "harvest": false,
+              "whole_net_before_fill": 672,
+              "closed_net_after_fill": 672,
+              "floor_jump": false,
+              "cost_loss": false
+            }
+          ]
+        },
+        {
+          "key": "H1G1_D1",
+          "position_id": "2026-10-19_Day_S0G1_P000001",
+          "context_id": "M3C1",
+          "要求量": 24,
+          "取得後属性": {
+            "entry_time": 1792384203,
+            "取得JST": "2026-10-19T13:30:03+09:00",
+            "entry_index": 110827,
+            "entry_line": 111621,
+            "entry_price": 65020,
+            "quantity": 24,
+            "entry_atr": 56.305051657372005,
+            "固定Dpt": 60,
+            "実取得EMA距離pt": 56.09808256357792,
+            "実取得EMA距離ATR": 0.9963241469867831,
+            "実取得H/P/v差pt": {
+              "H": 50,
+              "P": 30,
+              "v": 10
+            }
+          },
+          "元参照": {
+            "at": 1792370514,
+            "出生JST": "2026-10-19T09:41:54+09:00",
+            "entry": 64190,
+            "kind": "initial",
+            "method": "NK225_D164_15",
+            "参照初期量": 48,
+            "参照現在量": 24,
+            "出生から要求秒": 13686,
+            "snapshot鮮度秒": 2,
+            "元価格から方向取得差pt": 830
+          },
+          "残玉旗": true,
+          "全玉旗": true,
+          "flag_time": 1792384210,
+          "flag_index": 110871,
+          "flag_mark": 65040,
+          "flag_net_per_unit": 78,
+          "whole_flag_time": 1792384210,
+          "whole_flag_index": 110871,
+          "whole_flag_line": 111665,
+          "G1": {
+            "harvest_target": 18,
+            "harvest_filled": 18,
+            "cash_floor_active": true,
+            "cash_floor": 30,
+            "cash_floor_at": 1792384211,
+            "funding_failed": true
+          },
+          "現金": {
+            "gross_yen": 3000.0,
+            "commission_yen": 528,
+            "slippage_yen": 2400,
+            "cost_yen": 2928,
+            "net_yen": 72.0
+          },
+          "返済片": [
+            {
+              "quantity": 18,
+              "request_time": 1792384210,
+              "要求JST": "2026-10-19T13:30:10+09:00",
+              "request_index": 110871,
+              "request_line": 111665,
+              "request_mark": 65040,
+              "request_floor": 0,
+              "request_net_per_unit": 78,
+              "要求時全玉評価円": 1872,
+              "exit_time": 1792384211,
+              "返済JST": "2026-10-19T13:30:11+09:00",
+              "exit_line": 111673,
+              "exit_price": 65030,
+              "reason": "正益起動の部分利確",
+              "gross_yen": 1800.0,
+              "commission_yen": 396,
+              "slippage_yen": 1800,
+              "net_yen": -396.0,
+              "要求後悪化円": 1800,
+              "harvest": true,
+              "whole_net_before_fill": -528,
+              "closed_net_after_fill": -396,
+              "floor_jump": false,
+              "cost_loss": true
+            },
+            {
+              "quantity": 6,
+              "request_time": 1792384211,
+              "要求JST": "2026-10-19T13:30:11+09:00",
+              "request_index": 110879,
+              "request_line": 111673,
+              "request_mark": 65030,
+              "request_floor": 30,
+              "request_net_per_unit": -22,
+              "要求時全玉評価円": -528,
+              "exit_time": 1792384212,
+              "返済JST": "2026-10-19T13:30:12+09:00",
+              "exit_line": 111687,
+              "exit_price": 65040,
+              "reason": "G1確定益予算・ATR追尾",
+              "gross_yen": 1200.0,
+              "commission_yen": 132,
+              "slippage_yen": 600,
+              "net_yen": 468.0,
+              "要求後悪化円": -600,
+              "harvest": false,
+              "whole_net_before_fill": 72,
+              "closed_net_after_fill": 72,
+              "floor_jump": true,
+              "cost_loss": false
+            }
+          ]
+        },
+        {
+          "key": "H0G1_D0",
+          "position_id": "2026-10-19_Day_S0G1_P000001",
+          "context_id": "M3C2",
+          "要求量": 24,
+          "取得後属性": {
+            "entry_time": 1792376101,
+            "取得JST": "2026-10-19T11:15:01+09:00",
+            "entry_index": 69597,
+            "entry_line": 70391,
+            "entry_price": 64770,
+            "quantity": 24,
+            "entry_atr": 107.694180626782,
+            "固定Dpt": 110,
+            "実取得EMA距離pt": 74.88530035778967,
+            "実取得EMA距離ATR": 0.695351410094361,
+            "実取得H/P/v差pt": {
+              "H": 10,
+              "P": 0,
+              "v": null
+            }
+          },
+          "元参照": {
+            "at": 1792370514,
+            "出生JST": "2026-10-19T09:41:54+09:00",
+            "entry": 64190,
+            "kind": "initial",
+            "method": "NK225_D164_15",
+            "参照初期量": 48,
+            "参照現在量": 24,
+            "出生から要求秒": 5586,
+            "snapshot鮮度秒": 4,
+            "元価格から方向取得差pt": 580
+          },
+          "残玉旗": false,
+          "全玉旗": false,
+          "flag_time": null,
+          "flag_index": 0,
+          "flag_mark": null,
+          "flag_net_per_unit": null,
+          "whole_flag_time": null,
+          "whole_flag_index": 0,
+          "whole_flag_line": 0,
+          "G1": {
+            "harvest_target": 0,
+            "harvest_filled": 0,
+            "cash_floor_active": false,
+            "cash_floor": null,
+            "cash_floor_at": null,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": -26400.0,
+            "commission_yen": 528,
+            "slippage_yen": 2400,
+            "cost_yen": 2928,
+            "net_yen": -29328.0
+          },
+          "返済片": null
+        },
+        {
+          "key": "H0G1_D1",
+          "position_id": "2026-10-19_Day_S0G1_P000001",
+          "context_id": "M3C2",
+          "要求量": 24,
+          "取得後属性": {
+            "entry_time": 1792376101,
+            "取得JST": "2026-10-19T11:15:01+09:00",
+            "entry_index": 69597,
+            "entry_line": 70391,
+            "entry_price": 64770,
+            "quantity": 24,
+            "entry_atr": 107.694180626782,
+            "固定Dpt": 110,
+            "実取得EMA距離pt": 74.88530035778967,
+            "実取得EMA距離ATR": 0.695351410094361,
+            "実取得H/P/v差pt": {
+              "H": 10,
+              "P": 0,
+              "v": null
+            }
+          },
+          "元参照": {
+            "at": 1792370514,
+            "出生JST": "2026-10-19T09:41:54+09:00",
+            "entry": 64190,
+            "kind": "initial",
+            "method": "NK225_D164_15",
+            "参照初期量": 48,
+            "参照現在量": 24,
+            "出生から要求秒": 5586,
+            "snapshot鮮度秒": 4,
+            "元価格から方向取得差pt": 580
+          },
+          "残玉旗": false,
+          "全玉旗": false,
+          "flag_time": null,
+          "flag_index": 0,
+          "flag_mark": null,
+          "flag_net_per_unit": null,
+          "whole_flag_time": null,
+          "whole_flag_index": 0,
+          "whole_flag_line": 0,
+          "G1": {
+            "harvest_target": 0,
+            "harvest_filled": 0,
+            "cash_floor_active": false,
+            "cash_floor": null,
+            "cash_floor_at": null,
+            "funding_failed": false
+          },
+          "現金": {
+            "gross_yen": -26400.0,
+            "commission_yen": 528,
+            "slippage_yen": 2400,
+            "cost_yen": 2928,
+            "net_yen": -29328.0
+          },
+          "返済片": null
+        }
+      ]
+    }
+  ],
+  "限界": [
+    "3玉はすべて買い。売りの市場標本を含まず、人工の鏡像検査と区別する",
+    "現在参照量は元Source玉の量で、市場の現在出来高ではない",
+    "取得/返済/最終純額は実行後属性。入口で既知の条件へ後付けしない",
+    "旧他政策の利益/損失をH1が当時知り得た利益としない",
+    "閾値fit/未来最適出口/未使用日の本文読取/新売買/原板/APIは0"
+  ],
+  "入力": {
+    "result": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00092_価格帯奪還と保持後の独立再開\\成果物\\結果.json",
+    "trades": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00092_価格帯奪還と保持後の独立再開\\成果物\\取引診断.jsonl.gz",
+    "grids": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00092_価格帯奪還と保持後の独立再開\\成果物\\定時判断.jsonl.gz"
+  },
+  "入力SHA256": {
+    "result": "22f3dfe0b1e195dba507e257b312c16f8c767cc5dd7c62d02200bc15d9fed259",
+    "trades": "43db478f83397f928d39687a41a8a27e367ff47983261e63317c2a3696113e51",
+    "grids": "34c20dbf8dd42078906728a2c0408ab068890c10f0d6254c5dcdc8688e63869b"
+  },
+  "再現コードSHA256": "687fa58c731e14f47591d42f7c693596913b8ba9e5428cdcfd78c6d175e834cb",
+  "新市場再生": 0,
+  "原板読取": 0,
+  "API取得": 0
+}

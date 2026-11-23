@@ -1,0 +1,1818 @@
+{
+  "診断": "境界の約定価格差",
+  "成功": true,
+  "timer通知数": 23,
+  "原板場数": 17,
+  "全通知固定": true,
+  "全3手法の必要差と一致": true,
+  "手法別": {
+    "D164_15": {
+      "timer_notices": 12,
+      "sessions": 11,
+      "native_gross_yen": 1248200.0,
+      "old_reported_gross_yen": 1248500,
+      "needed_difference_yen": 300.0,
+      "boundary_price_difference_yen": 300.0,
+      "difference_only_reconciliation_yen": 1248500.0,
+      "matches_needed_difference": true,
+      "nonzero_notices": 5
+    },
+    "P164_06": {
+      "timer_notices": 2,
+      "sessions": 2,
+      "native_gross_yen": 397000.0,
+      "old_reported_gross_yen": 392000,
+      "needed_difference_yen": -5000.0,
+      "boundary_price_difference_yen": -5000.0,
+      "difference_only_reconciliation_yen": 392000.0,
+      "matches_needed_difference": true,
+      "nonzero_notices": 1
+    },
+    "U165_03": {
+      "timer_notices": 9,
+      "sessions": 6,
+      "native_gross_yen": 1181000.0,
+      "old_reported_gross_yen": 1181000,
+      "needed_difference_yen": 0.0,
+      "boundary_price_difference_yen": 0.0,
+      "difference_only_reconciliation_yen": 1181000.0,
+      "matches_needed_difference": true,
+      "nonzero_notices": 2
+    }
+  },
+  "時間窓別": {
+    "デイ場末": {
+      "timer_notices": 12,
+      "quantity": 88,
+      "price_difference_yen": 300.0
+    },
+    "ナイト場末": {
+      "timer_notices": 9,
+      "quantity": 110,
+      "price_difference_yen": 0.0
+    },
+    "ナイト米国前15分": {
+      "timer_notices": 2,
+      "quantity": 100,
+      "price_difference_yen": -5000.0
+    }
+  },
+  "通知別": [
+    {
+      "session": "2026-09-29_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-09-29_Day-NK225micro-D164_15-000034",
+      "boundary": 1790663700,
+      "boundary_jst": "2026-09-29T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 5,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1790663702.0,
+        "index": 142815,
+        "source_line": 143280,
+        "last": 65730.0,
+        "bid": 65730.0,
+        "ask": 65740.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1790663702,
+        "index": 142815,
+        "source_line": 143280,
+        "last": 65730,
+        "bid": 65730,
+        "ask": 65740,
+        "quote_ok": true
+      },
+      "native_exit_price": 65730,
+      "hypothetical_fill_quote": {
+        "time": 1790663702.0,
+        "index": 142816,
+        "source_line": 143281,
+        "last": 65730.0,
+        "bid": 65720.0,
+        "ask": 65740.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 65720.0,
+      "price_difference_pt": -10.0,
+      "price_difference_yen": -500.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-09-29_Day-NK225micro-D164_15-000031-玉",
+          "quantity": 5,
+          "entry_price": 65440,
+          "entry_source": {
+            "time": 1790662867,
+            "index": 137192,
+            "source_line": 137657
+          },
+          "native_exit_price": 65730,
+          "hypothetical_exit_price": 65720.0,
+          "price_difference_yen": -500.0
+        }
+      ]
+    },
+    {
+      "session": "2026-09-30_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-09-30_Day-NK225micro-D164_15-000014",
+      "boundary": 1790750100,
+      "boundary_jst": "2026-09-30T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 2,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1790750100.0,
+        "index": 129999,
+        "source_line": 130744,
+        "last": 67060.0,
+        "bid": 67050.0,
+        "ask": 67070.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1790750100,
+        "index": 129999,
+        "source_line": 130744,
+        "last": 67060,
+        "bid": 67050,
+        "ask": 67070,
+        "quote_ok": true
+      },
+      "native_exit_price": 67050,
+      "hypothetical_fill_quote": {
+        "time": 1790750100.0,
+        "index": 130000,
+        "source_line": 130745,
+        "last": 67060.0,
+        "bid": 67050.0,
+        "ask": 67070.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 67050.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-09-30_Day-NK225micro-D164_15-000006-玉",
+          "quantity": 2,
+          "entry_price": 66500,
+          "entry_source": {
+            "time": 1790737228,
+            "index": 66885,
+            "source_line": 67630
+          },
+          "native_exit_price": 67050,
+          "hypothetical_exit_price": 67050.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-01_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-01_Day-NK225micro-D164_15-000013",
+      "boundary": 1790836500,
+      "boundary_jst": "2026-10-01T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 2,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1790836500.0,
+        "index": 136786,
+        "source_line": 137377,
+        "last": 69130.0,
+        "bid": 69120.0,
+        "ask": 69130.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1790836500,
+        "index": 136786,
+        "source_line": 137377,
+        "last": 69130,
+        "bid": 69120,
+        "ask": 69130,
+        "quote_ok": true
+      },
+      "native_exit_price": 69120,
+      "hypothetical_fill_quote": {
+        "time": 1790836500.0,
+        "index": 136787,
+        "source_line": 137378,
+        "last": 69130.0,
+        "bid": 69130.0,
+        "ask": 69140.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 69130.0,
+      "price_difference_pt": 10.0,
+      "price_difference_yen": 200.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-01_Day-NK225micro-D164_15-000005-玉",
+          "quantity": 2,
+          "entry_price": 68140,
+          "entry_source": {
+            "time": 1790817960,
+            "index": 42516,
+            "source_line": 43107
+          },
+          "native_exit_price": 69120,
+          "hypothetical_exit_price": 69130.0,
+          "price_difference_yen": 200.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-01_Night",
+      "key": "micro_P164_06",
+      "signal_id": "80参照-P164_06-2026-10-01_Night-NK225micro-P164_06-000016",
+      "boundary": 1790860500,
+      "boundary_jst": "2026-10-01T22:15:00+09:00",
+      "window": "ナイト米国前15分",
+      "close_side": 1,
+      "quantity": 50,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1790860500.0,
+        "index": 82523,
+        "source_line": 83731,
+        "last": 68500.0,
+        "bid": 68500.0,
+        "ask": 68510.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1790860500,
+        "index": 82523,
+        "source_line": 83731,
+        "last": 68500,
+        "bid": 68500,
+        "ask": 68510,
+        "quote_ok": true
+      },
+      "native_exit_price": 68510,
+      "hypothetical_fill_quote": {
+        "time": 1790860500.0,
+        "index": 82524,
+        "source_line": 83732,
+        "last": 68500.0,
+        "bid": 68500.0,
+        "ask": 68510.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 68510.0,
+      "price_difference_pt": -0.0,
+      "price_difference_yen": -0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-P164_06-2026-10-01_Night-NK225micro-P164_06-000015-玉",
+          "quantity": 50,
+          "entry_price": 68540,
+          "entry_source": {
+            "time": 1790860170,
+            "index": 81270,
+            "source_line": 82478
+          },
+          "native_exit_price": 68510,
+          "hypothetical_exit_price": 68510.0,
+          "price_difference_yen": -0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-01_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-01_Night-NK225micro-U165_03-000016",
+      "boundary": 1790887800,
+      "boundary_jst": "2026-10-02T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": -1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1790887829.0,
+        "index": 208470,
+        "source_line": 209678,
+        "last": 68490.0,
+        "bid": 68480.0,
+        "ask": 68490.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1790887829,
+        "index": 208470,
+        "source_line": 209678,
+        "last": 68490,
+        "bid": 68480,
+        "ask": 68490,
+        "quote_ok": true
+      },
+      "native_exit_price": 68480,
+      "hypothetical_fill_quote": {
+        "time": 1790887829.0,
+        "index": 208471,
+        "source_line": 209679,
+        "last": 68490.0,
+        "bid": 68480.0,
+        "ask": 68490.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 68480.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-01_Night-NK225micro-U165_03-000011-玉",
+          "quantity": 10,
+          "entry_price": 67860,
+          "entry_source": {
+            "time": 1790869046,
+            "index": 138368,
+            "source_line": 139576
+          },
+          "native_exit_price": 68480,
+          "hypothetical_exit_price": 68480.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-05_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-05_Day-NK225micro-D164_15-000020",
+      "boundary": 1791182100,
+      "boundary_jst": "2026-10-05T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1791182100.0,
+        "index": 121623,
+        "source_line": 121682,
+        "last": 70120.0,
+        "bid": 70100.0,
+        "ask": 70120.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1791182100,
+        "index": 121623,
+        "source_line": 121682,
+        "last": 70120,
+        "bid": 70100,
+        "ask": 70120,
+        "quote_ok": true
+      },
+      "native_exit_price": 70100,
+      "hypothetical_fill_quote": {
+        "time": 1791182100.0,
+        "index": 121624,
+        "source_line": 121683,
+        "last": 70120.0,
+        "bid": 70110.0,
+        "ask": 70120.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 70110.0,
+      "price_difference_pt": 10.0,
+      "price_difference_yen": 1000.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-05_Day-NK225micro-D164_15-000014-玉",
+          "quantity": 10,
+          "entry_price": 69900,
+          "entry_source": {
+            "time": 1791175034,
+            "index": 89847,
+            "source_line": 89906
+          },
+          "native_exit_price": 70100,
+          "hypothetical_exit_price": 70110.0,
+          "price_difference_yen": 1000.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-06_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-06_Day-NK225micro-D164_15-000024",
+      "boundary": 1791268500,
+      "boundary_jst": "2026-10-06T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 2,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1791268500.0,
+        "index": 117439,
+        "source_line": 118036,
+        "last": 70940.0,
+        "bid": 70940.0,
+        "ask": 70950.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1791268500,
+        "index": 117439,
+        "source_line": 118036,
+        "last": 70940,
+        "bid": 70940,
+        "ask": 70950,
+        "quote_ok": true
+      },
+      "native_exit_price": 70940,
+      "hypothetical_fill_quote": {
+        "time": 1791268500.0,
+        "index": 117440,
+        "source_line": 118037,
+        "last": 70940.0,
+        "bid": 70930.0,
+        "ask": 70950.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 70930.0,
+      "price_difference_pt": -10.0,
+      "price_difference_yen": -200.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-06_Day-NK225micro-D164_15-000016-玉",
+          "quantity": 2,
+          "entry_price": 70360,
+          "entry_source": {
+            "time": 1791256975,
+            "index": 68929,
+            "source_line": 69526
+          },
+          "native_exit_price": 70940,
+          "hypothetical_exit_price": 70930.0,
+          "price_difference_yen": -200.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-06_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-06_Night-NK225micro-U165_03-000006",
+      "boundary": 1791319800,
+      "boundary_jst": "2026-10-07T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": 1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1791319801.0,
+        "index": 113626,
+        "source_line": 114133,
+        "last": 70950.0,
+        "bid": 70940.0,
+        "ask": 70950.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1791319801,
+        "index": 113626,
+        "source_line": 114133,
+        "last": 70950,
+        "bid": 70940,
+        "ask": 70950,
+        "quote_ok": true
+      },
+      "native_exit_price": 70950,
+      "hypothetical_fill_quote": {
+        "time": 1791319801.0,
+        "index": 113627,
+        "source_line": 114134,
+        "last": 70950.0,
+        "bid": 70940.0,
+        "ask": 70950.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 70950.0,
+      "price_difference_pt": -0.0,
+      "price_difference_yen": -0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-06_Night-NK225micro-U165_03-000001-玉",
+          "quantity": 10,
+          "entry_price": 71220,
+          "entry_source": {
+            "time": 1791300246,
+            "index": 80012,
+            "source_line": 80519
+          },
+          "native_exit_price": 70950,
+          "hypothetical_exit_price": 70950.0,
+          "price_difference_yen": -0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-07_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-07_Day-NK225micro-D164_15-000017",
+      "boundary": 1791354900,
+      "boundary_jst": "2026-10-07T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": 1,
+      "quantity": 2,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1791354900.0,
+        "index": 115887,
+        "source_line": 116471,
+        "last": 70300.0,
+        "bid": 70290.0,
+        "ask": 70310.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1791354900,
+        "index": 115887,
+        "source_line": 116471,
+        "last": 70300,
+        "bid": 70290,
+        "ask": 70310,
+        "quote_ok": true
+      },
+      "native_exit_price": 70310,
+      "hypothetical_fill_quote": {
+        "time": 1791354900.0,
+        "index": 115888,
+        "source_line": 116472,
+        "last": 70300.0,
+        "bid": 70300.0,
+        "ask": 70310.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 70310.0,
+      "price_difference_pt": -0.0,
+      "price_difference_yen": -0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-07_Day-NK225micro-D164_15-000014-玉",
+          "quantity": 2,
+          "entry_price": 70400,
+          "entry_source": {
+            "time": 1791353625,
+            "index": 110051,
+            "source_line": 110635
+          },
+          "native_exit_price": 70310,
+          "hypothetical_exit_price": 70310.0,
+          "price_difference_yen": -0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-08_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-08_Day-NK225micro-D164_15-000016",
+      "boundary": 1791441300,
+      "boundary_jst": "2026-10-08T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": 1,
+      "quantity": 2,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1791441300.0,
+        "index": 136649,
+        "source_line": 136698,
+        "last": 69280.0,
+        "bid": 69270.0,
+        "ask": 69280.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1791441300,
+        "index": 136649,
+        "source_line": 136698,
+        "last": 69280,
+        "bid": 69270,
+        "ask": 69280,
+        "quote_ok": true
+      },
+      "native_exit_price": 69280,
+      "hypothetical_fill_quote": {
+        "time": 1791441300.0,
+        "index": 136650,
+        "source_line": 136699,
+        "last": 69280.0,
+        "bid": 69280.0,
+        "ask": 69290.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 69290.0,
+      "price_difference_pt": -10.0,
+      "price_difference_yen": -200.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-08_Day-NK225micro-D164_15-000013-玉",
+          "quantity": 2,
+          "entry_price": 69540,
+          "entry_source": {
+            "time": 1791440141,
+            "index": 129799,
+            "source_line": 129848
+          },
+          "native_exit_price": 69280,
+          "hypothetical_exit_price": 69290.0,
+          "price_difference_yen": -200.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-09_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-09_Day-NK225micro-D164_15-000021",
+      "boundary": 1791527700,
+      "boundary_jst": "2026-10-09T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 3,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1791527701.0,
+        "index": 121661,
+        "source_line": 121758,
+        "last": 69320.0,
+        "bid": 69310.0,
+        "ask": 69320.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1791527701,
+        "index": 121661,
+        "source_line": 121758,
+        "last": 69320,
+        "bid": 69310,
+        "ask": 69320,
+        "quote_ok": true
+      },
+      "native_exit_price": 69310,
+      "hypothetical_fill_quote": {
+        "time": 1791527701.0,
+        "index": 121662,
+        "source_line": 121759,
+        "last": 69320.0,
+        "bid": 69310.0,
+        "ask": 69320.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 69310.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-09_Day-NK225micro-D164_15-000013-玉",
+          "quantity": 3,
+          "entry_price": 68750,
+          "entry_source": {
+            "time": 1791516600,
+            "index": 73392,
+            "source_line": 73489
+          },
+          "native_exit_price": 69310,
+          "hypothetical_exit_price": 69310.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-15_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000011",
+      "boundary": 1792097400,
+      "boundary_jst": "2026-10-16T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": -1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792097424.0,
+        "index": 207644,
+        "source_line": 208417,
+        "last": 65780.0,
+        "bid": 65770.0,
+        "ask": 65790.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792097424,
+        "index": 207644,
+        "source_line": 208417,
+        "last": 65780,
+        "bid": 65770,
+        "ask": 65790,
+        "quote_ok": true
+      },
+      "native_exit_price": 65770,
+      "hypothetical_fill_quote": {
+        "time": 1792097424.0,
+        "index": 207645,
+        "source_line": 208418,
+        "last": 65780.0,
+        "bid": 65770.0,
+        "ask": 65780.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 65770.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000007-玉",
+          "quantity": 10,
+          "entry_price": 65320,
+          "entry_source": {
+            "time": 1792079838,
+            "index": 145773,
+            "source_line": 146546
+          },
+          "native_exit_price": 65770,
+          "hypothetical_exit_price": 65770.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-15_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000012",
+      "boundary": 1792097400,
+      "boundary_jst": "2026-10-16T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": -1,
+      "quantity": 20,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792097424.0,
+        "index": 207644,
+        "source_line": 208417,
+        "last": 65780.0,
+        "bid": 65770.0,
+        "ask": 65790.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792097424,
+        "index": 207644,
+        "source_line": 208417,
+        "last": 65780,
+        "bid": 65770,
+        "ask": 65790,
+        "quote_ok": true
+      },
+      "native_exit_price": 65770,
+      "hypothetical_fill_quote": {
+        "time": 1792097424.0,
+        "index": 207645,
+        "source_line": 208418,
+        "last": 65780.0,
+        "bid": 65770.0,
+        "ask": 65780.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 65770.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000010-玉",
+          "quantity": 20,
+          "entry_price": 65800,
+          "entry_source": {
+            "time": 1792091519,
+            "index": 193336,
+            "source_line": 194109
+          },
+          "native_exit_price": 65770,
+          "hypothetical_exit_price": 65770.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "key": "micro_P164_06",
+      "signal_id": "80参照-P164_06-2026-10-16_Night-NK225micro-P164_06-000002",
+      "boundary": 1792156500,
+      "boundary_jst": "2026-10-16T22:15:00+09:00",
+      "window": "ナイト米国前15分",
+      "close_side": 1,
+      "quantity": 50,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792156508.0,
+        "index": 66390,
+        "source_line": 67115,
+        "last": 65420.0,
+        "bid": 65410.0,
+        "ask": 65420.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792156508,
+        "index": 66390,
+        "source_line": 67115,
+        "last": 65420,
+        "bid": 65410,
+        "ask": 65420,
+        "quote_ok": true
+      },
+      "native_exit_price": 65420,
+      "hypothetical_fill_quote": {
+        "time": 1792156508.0,
+        "index": 66391,
+        "source_line": 67116,
+        "last": 65420.0,
+        "bid": 65410.0,
+        "ask": 65430.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 65430.0,
+      "price_difference_pt": -10.0,
+      "price_difference_yen": -5000.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-P164_06-2026-10-16_Night-NK225micro-P164_06-000001-玉",
+          "quantity": 50,
+          "entry_price": 65390,
+          "entry_source": {
+            "time": 1792155601,
+            "index": 62667,
+            "source_line": 63392
+          },
+          "native_exit_price": 65420,
+          "hypothetical_exit_price": 65430.0,
+          "price_difference_yen": -5000.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-16_Night-NK225micro-U165_03-000028",
+      "boundary": 1792183800,
+      "boundary_jst": "2026-10-17T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": 1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792183801.0,
+        "index": 209960,
+        "source_line": 210685,
+        "last": 63640.0,
+        "bid": 63640.0,
+        "ask": 63650.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792183801,
+        "index": 209960,
+        "source_line": 210685,
+        "last": 63640,
+        "bid": 63640,
+        "ask": 63650,
+        "quote_ok": true
+      },
+      "native_exit_price": 63650,
+      "hypothetical_fill_quote": {
+        "time": 1792183801.0,
+        "index": 209961,
+        "source_line": 210686,
+        "last": 63640.0,
+        "bid": 63630.0,
+        "ask": 63650.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 63650.0,
+      "price_difference_pt": -0.0,
+      "price_difference_yen": -0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-16_Night-NK225micro-U165_03-000020-玉",
+          "quantity": 10,
+          "entry_price": 63950,
+          "entry_source": {
+            "time": 1792179078,
+            "index": 195524,
+            "source_line": 196249
+          },
+          "native_exit_price": 63650,
+          "hypothetical_exit_price": 63650.0,
+          "price_difference_yen": -0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-16_Night-NK225micro-U165_03-000029",
+      "boundary": 1792183800,
+      "boundary_jst": "2026-10-17T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": 1,
+      "quantity": 20,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792183801.0,
+        "index": 209960,
+        "source_line": 210685,
+        "last": 63640.0,
+        "bid": 63640.0,
+        "ask": 63650.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792183801,
+        "index": 209960,
+        "source_line": 210685,
+        "last": 63640,
+        "bid": 63640,
+        "ask": 63650,
+        "quote_ok": true
+      },
+      "native_exit_price": 63650,
+      "hypothetical_fill_quote": {
+        "time": 1792183801.0,
+        "index": 209961,
+        "source_line": 210686,
+        "last": 63640.0,
+        "bid": 63630.0,
+        "ask": 63650.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 63650.0,
+      "price_difference_pt": -0.0,
+      "price_difference_yen": -0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-16_Night-NK225micro-U165_03-000027-玉",
+          "quantity": 20,
+          "entry_price": 63870,
+          "entry_source": {
+            "time": 1792180818,
+            "index": 204340,
+            "source_line": 205065
+          },
+          "native_exit_price": 63650,
+          "hypothetical_exit_price": 63650.0,
+          "price_difference_yen": -0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-19_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000010",
+      "boundary": 1792391700,
+      "boundary_jst": "2026-10-19T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 24,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792391700.0,
+        "index": 155172,
+        "source_line": 155966,
+        "last": 64990.0,
+        "bid": 64970.0,
+        "ask": 64990.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792391700,
+        "index": 155172,
+        "source_line": 155966,
+        "last": 64990,
+        "bid": 64970,
+        "ask": 64990,
+        "quote_ok": true
+      },
+      "native_exit_price": 64970,
+      "hypothetical_fill_quote": {
+        "time": 1792391700.0,
+        "index": 155173,
+        "source_line": 155967,
+        "last": 64990.0,
+        "bid": 64970.0,
+        "ask": 64990.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 64970.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+          "quantity": 24,
+          "entry_price": 64190,
+          "entry_source": {
+            "time": 1792370514,
+            "index": 27681,
+            "source_line": 28475
+          },
+          "native_exit_price": 64970,
+          "hypothetical_exit_price": 64970.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-19_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000011",
+      "boundary": 1792391700,
+      "boundary_jst": "2026-10-19T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 24,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792391700.0,
+        "index": 155172,
+        "source_line": 155966,
+        "last": 64990.0,
+        "bid": 64970.0,
+        "ask": 64990.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792391700,
+        "index": 155172,
+        "source_line": 155966,
+        "last": 64990,
+        "bid": 64970,
+        "ask": 64990,
+        "quote_ok": true
+      },
+      "native_exit_price": 64970,
+      "hypothetical_fill_quote": {
+        "time": 1792391700.0,
+        "index": 155173,
+        "source_line": 155967,
+        "last": 64990.0,
+        "bid": 64970.0,
+        "ask": 64990.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 64970.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000008-玉",
+          "quantity": 24,
+          "entry_price": 64610,
+          "entry_source": {
+            "time": 1792372253,
+            "index": 41861,
+            "source_line": 42655
+          },
+          "native_exit_price": 64970,
+          "hypothetical_exit_price": 64970.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-20_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-20_Night-NK225micro-U165_03-000015",
+      "boundary": 1792529400,
+      "boundary_jst": "2026-10-21T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": 1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792529420.0,
+        "index": 204554,
+        "source_line": 205124,
+        "last": 65110.0,
+        "bid": 65100.0,
+        "ask": 65110.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792529420,
+        "index": 204554,
+        "source_line": 205124,
+        "last": 65110,
+        "bid": 65100,
+        "ask": 65110,
+        "quote_ok": true
+      },
+      "native_exit_price": 65110,
+      "hypothetical_fill_quote": {
+        "time": 1792529420.0,
+        "index": 204555,
+        "source_line": 205125,
+        "last": 65110.0,
+        "bid": 65110.0,
+        "ask": 65120.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 65120.0,
+      "price_difference_pt": -10.0,
+      "price_difference_yen": -1000.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-20_Night-NK225micro-U165_03-000012-玉",
+          "quantity": 10,
+          "entry_price": 64980,
+          "entry_source": {
+            "time": 1792509775,
+            "index": 139173,
+            "source_line": 139743
+          },
+          "native_exit_price": 65110,
+          "hypothetical_exit_price": 65120.0,
+          "price_difference_yen": -1000.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-20_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-20_Night-NK225micro-U165_03-000016",
+      "boundary": 1792529400,
+      "boundary_jst": "2026-10-21T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": -1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792529420.0,
+        "index": 204554,
+        "source_line": 205124,
+        "last": 65110.0,
+        "bid": 65100.0,
+        "ask": 65110.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792529420,
+        "index": 204554,
+        "source_line": 205124,
+        "last": 65110,
+        "bid": 65100,
+        "ask": 65110,
+        "quote_ok": true
+      },
+      "native_exit_price": 65100,
+      "hypothetical_fill_quote": {
+        "time": 1792529420.0,
+        "index": 204555,
+        "source_line": 205125,
+        "last": 65110.0,
+        "bid": 65110.0,
+        "ask": 65120.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 65110.0,
+      "price_difference_pt": 10.0,
+      "price_difference_yen": 1000.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-20_Night-NK225micro-U165_03-000013-玉",
+          "quantity": 10,
+          "entry_price": 64920,
+          "entry_source": {
+            "time": 1792510601,
+            "index": 144523,
+            "source_line": 145093
+          },
+          "native_exit_price": 65100,
+          "hypothetical_exit_price": 65110.0,
+          "price_difference_yen": 1000.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-22_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-22_Day-NK225micro-D164_15-000007",
+      "boundary": 1792650900,
+      "boundary_jst": "2026-10-22T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": 1,
+      "quantity": 7,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792650900.0,
+        "index": 166338,
+        "source_line": 167142,
+        "last": 63140.0,
+        "bid": 63120.0,
+        "ask": 63140.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792650900,
+        "index": 166338,
+        "source_line": 167142,
+        "last": 63140,
+        "bid": 63120,
+        "ask": 63140,
+        "quote_ok": true
+      },
+      "native_exit_price": 63140,
+      "hypothetical_fill_quote": {
+        "time": 1792650900.0,
+        "index": 166339,
+        "source_line": 167143,
+        "last": 63140.0,
+        "bid": 63130.0,
+        "ask": 63140.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 63140.0,
+      "price_difference_pt": -0.0,
+      "price_difference_yen": -0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-22_Day-NK225micro-D164_15-000004-玉",
+          "quantity": 7,
+          "entry_price": 64380,
+          "entry_source": {
+            "time": 1792631113,
+            "index": 35433,
+            "source_line": 36237
+          },
+          "native_exit_price": 63140,
+          "hypothetical_exit_price": 63140.0,
+          "price_difference_yen": -0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-23_Day",
+      "key": "micro_D164_15",
+      "signal_id": "80参照-D164_15-2026-10-23_Day-NK225micro-D164_15-000036",
+      "boundary": 1792737300,
+      "boundary_jst": "2026-10-23T15:35:00+09:00",
+      "window": "デイ場末",
+      "close_side": -1,
+      "quantity": 5,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792737300.0,
+        "index": 189379,
+        "source_line": 190862,
+        "last": 62850.0,
+        "bid": 62840.0,
+        "ask": 62850.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792737300,
+        "index": 189379,
+        "source_line": 190862,
+        "last": 62850,
+        "bid": 62840,
+        "ask": 62850,
+        "quote_ok": true
+      },
+      "native_exit_price": 62840,
+      "hypothetical_fill_quote": {
+        "time": 1792737300.0,
+        "index": 189380,
+        "source_line": 190863,
+        "last": 62850.0,
+        "bid": 62840.0,
+        "ask": 62850.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 62840.0,
+      "price_difference_pt": 0.0,
+      "price_difference_yen": 0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-D164_15-2026-10-23_Day-NK225micro-D164_15-000007-玉",
+          "quantity": 5,
+          "entry_price": 61920,
+          "entry_source": {
+            "time": 1792718406,
+            "index": 50578,
+            "source_line": 52061
+          },
+          "native_exit_price": 62840,
+          "hypothetical_exit_price": 62840.0,
+          "price_difference_yen": 0.0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-23_Night",
+      "key": "micro_U165_03",
+      "signal_id": "80参照-U165_03-2026-10-23_Night-NK225micro-U165_03-000014",
+      "boundary": 1792788600,
+      "boundary_jst": "2026-10-24T05:50:00+09:00",
+      "window": "ナイト場末",
+      "close_side": 1,
+      "quantity": 10,
+      "point_value": 10,
+      "first_source_after_boundary": {
+        "time": 1792788615.0,
+        "index": 214513,
+        "source_line": 215191,
+        "last": 62670.0,
+        "bid": 62660.0,
+        "ask": 62680.0,
+        "quote_ok": true
+      },
+      "native_fill_quote": {
+        "time": 1792788615,
+        "index": 214513,
+        "source_line": 215191,
+        "last": 62670,
+        "bid": 62660,
+        "ask": 62680,
+        "quote_ok": true
+      },
+      "native_exit_price": 62680,
+      "hypothetical_fill_quote": {
+        "time": 1792788615.0,
+        "index": 214514,
+        "source_line": 215192,
+        "last": 62670.0,
+        "bid": 62660.0,
+        "ask": 62680.0,
+        "quote_ok": true
+      },
+      "hypothetical_exit_price": 62680.0,
+      "price_difference_pt": -0.0,
+      "price_difference_yen": -0.0,
+      "source_rows_between_fills": 1,
+      "physical_lines_between_fills": 1,
+      "seconds_between_fills": 0.0,
+      "allocations": [
+        {
+          "hold_id": "80参照-U165_03-2026-10-23_Night-NK225micro-U165_03-000008-玉",
+          "quantity": 10,
+          "entry_price": 62750,
+          "entry_source": {
+            "time": 1792769782,
+            "index": 145847,
+            "source_line": 146525
+          },
+          "native_exit_price": 62680,
+          "hypothetical_exit_price": 62680.0,
+          "price_difference_yen": -0.0
+        }
+      ]
+    }
+  ],
+  "前提": "既存entry/所有qty/他の要求を固定し、境界後最初のLast>0 Source原行で返済を要求すると仮定。そのstrict後の次正常行のBBO価格差だけ。",
+  "代替戦略成績": false,
+  "完全代替再生": false,
+  "Source_金融_指標再生": 0,
+  "既存Native変更": 0,
+  "入力変更": 0,
+  "未検証": "元実行と当実行の全Signal/親状態/発行時点の同値、新規Core/Extraの相違、他の通知や保有への波及を再生していない。合計一致だけで完全再現済みとはしない。",
+  "コード読取": {
+    "確認日": "2026-11-08",
+    "FAR原run": {
+      "url": "https://github.com/masayoshi4649/FutureAlgorithmResearch/blob/cf0717daa1eed78759f78a428bce50129e7f705b/work/research166/replay/main.go#L98-L220",
+      "commit": "cf0717daa1eed78759f78a428bce50129e7f705b",
+      "GitBlobSHA": "6d8f1a63c94006e6cf7e80c9e988f06d995e2acb",
+      "読取範囲": "98〜220行、GitHub connectorで123行のみ独立確認",
+      "事実": "rawループで先行pendingの次正常Fill→OnOrderDone→p.Observe(o,true)→Signal受付/取消。外timer Flatten呼出なし。UはUS+900未満のObserveをskip。"
+    },
+    "純strategy": "selectedDeadlineはP=min(ForceClose,US−900)、他ForceClose。observeSelectedは当ObservationでTime>=deadlineならForced/Goalを設定しflushする。Flattenは外部呼出時にその場でGoal/返済要求を作る。",
+    "今回": "固定Native replayは各timer<=次原行時計で先にAdapter.Force→Portfolio.Flattenし、最初の適格原行で予約をFillする。"
+  },
+  "Native前後SHA256": {
+    "2026-09-21_Day.json": {
+      "before": "90b868fd3606813dcf0ae5e13225ffd572bb9d0ebbbf878d9c78d89b73a021bf",
+      "after": "90b868fd3606813dcf0ae5e13225ffd572bb9d0ebbbf878d9c78d89b73a021bf"
+    },
+    "2026-09-21_Night.json": {
+      "before": "4c31e9d4b776ac764492cb787adc293da21e79e142ed0b08d94eeb035e558ed6",
+      "after": "4c31e9d4b776ac764492cb787adc293da21e79e142ed0b08d94eeb035e558ed6"
+    },
+    "2026-09-22_Day.json": {
+      "before": "086fe080b2d15f83b7333eba110e63e547ca6af85086d5f0ec98f21e7b8c4fd4",
+      "after": "086fe080b2d15f83b7333eba110e63e547ca6af85086d5f0ec98f21e7b8c4fd4"
+    },
+    "2026-09-22_Night.json": {
+      "before": "0c9961000042af5ee65917f2159f8ca8ecef6c3d7aa23dd1a54d5b21297470b4",
+      "after": "0c9961000042af5ee65917f2159f8ca8ecef6c3d7aa23dd1a54d5b21297470b4"
+    },
+    "2026-09-23_Day.json": {
+      "before": "7e501550edf3af760940fa9f1b33e526c8c8c855ff4a71a88b954af97c06e742",
+      "after": "7e501550edf3af760940fa9f1b33e526c8c8c855ff4a71a88b954af97c06e742"
+    },
+    "2026-09-23_Night.json": {
+      "before": "75e5faeee839a7802b644ed15fc75a5713629a13a74c9e86351273f995fcc104",
+      "after": "75e5faeee839a7802b644ed15fc75a5713629a13a74c9e86351273f995fcc104"
+    },
+    "2026-09-24_Day.json": {
+      "before": "a5984d7f376bfc1fc1edbc65883ba6078cf465b2792e976401dd6384be035854",
+      "after": "a5984d7f376bfc1fc1edbc65883ba6078cf465b2792e976401dd6384be035854"
+    },
+    "2026-09-24_Night.json": {
+      "before": "c241b6679f7933db70205136f22817cfc9947009c2bfd8dd67ed59f005d3162c",
+      "after": "c241b6679f7933db70205136f22817cfc9947009c2bfd8dd67ed59f005d3162c"
+    },
+    "2026-09-25_Day.json": {
+      "before": "9dc4a615bf4c97bcda0771f46f7fae9ceee7d926f3033233a1e9697326f8403d",
+      "after": "9dc4a615bf4c97bcda0771f46f7fae9ceee7d926f3033233a1e9697326f8403d"
+    },
+    "2026-09-25_Night.json": {
+      "before": "c5a82b1f6c8b9e91b46f5e192002b8cafbdf989ae6857fe02fa63c2d7a54a370",
+      "after": "c5a82b1f6c8b9e91b46f5e192002b8cafbdf989ae6857fe02fa63c2d7a54a370"
+    },
+    "2026-09-28_Day.json": {
+      "before": "c8ccf93a4945182fa4045f4c35b2911463672c81da24d226892f539015e3fd5c",
+      "after": "c8ccf93a4945182fa4045f4c35b2911463672c81da24d226892f539015e3fd5c"
+    },
+    "2026-09-28_Night.json": {
+      "before": "eba45daf34852ab6067c364e8bed7fd2af0c72a721e985e46cdec1f29153a7b4",
+      "after": "eba45daf34852ab6067c364e8bed7fd2af0c72a721e985e46cdec1f29153a7b4"
+    },
+    "2026-09-29_Day.json": {
+      "before": "221edcbd457d88d951b8d3ba9c23f78bd0ead68d2ab4ac34bf880aa327c01793",
+      "after": "221edcbd457d88d951b8d3ba9c23f78bd0ead68d2ab4ac34bf880aa327c01793"
+    },
+    "2026-09-29_Night.json": {
+      "before": "062057556ed6714c13e524160e3d130a8dbee13cb08915e0a8e36df3d0d5227b",
+      "after": "062057556ed6714c13e524160e3d130a8dbee13cb08915e0a8e36df3d0d5227b"
+    },
+    "2026-09-30_Day.json": {
+      "before": "970d4323093e55fc96aae5f052de9067df475928ca9a04535cbc450d3612ae7f",
+      "after": "970d4323093e55fc96aae5f052de9067df475928ca9a04535cbc450d3612ae7f"
+    },
+    "2026-09-30_Night.json": {
+      "before": "f2fba29140934b1786192b333164d6fddb8cce2a53dcfa1b9f888b235dfa6840",
+      "after": "f2fba29140934b1786192b333164d6fddb8cce2a53dcfa1b9f888b235dfa6840"
+    },
+    "2026-10-01_Day.json": {
+      "before": "c898fe85b14cebff11f440b8dfe375a8dbcf2d591c1aeda95a3af24d5771ea45",
+      "after": "c898fe85b14cebff11f440b8dfe375a8dbcf2d591c1aeda95a3af24d5771ea45"
+    },
+    "2026-10-01_Night.json": {
+      "before": "ad6007e4ca75902c63c49100efb82f97512dfc6e2c601dc5096d813a47a86a21",
+      "after": "ad6007e4ca75902c63c49100efb82f97512dfc6e2c601dc5096d813a47a86a21"
+    },
+    "2026-10-02_Day.json": {
+      "before": "e1e2c2748917a7acb1c7d747978d78e30c95ab491985e43ee0a2bff0cff9aedb",
+      "after": "e1e2c2748917a7acb1c7d747978d78e30c95ab491985e43ee0a2bff0cff9aedb"
+    },
+    "2026-10-02_Night.json": {
+      "before": "9dbe88f93e3eb3c030174167e71fc3b193a39fcbabf184c8dcee2d0c793d4060",
+      "after": "9dbe88f93e3eb3c030174167e71fc3b193a39fcbabf184c8dcee2d0c793d4060"
+    },
+    "2026-10-05_Day.json": {
+      "before": "a2a7468c8982d4035b523dd05a447a5ab3c2c08269a8b46248fdcfbed9b7ec96",
+      "after": "a2a7468c8982d4035b523dd05a447a5ab3c2c08269a8b46248fdcfbed9b7ec96"
+    },
+    "2026-10-05_Night.json": {
+      "before": "589e9deffb4da5624567e7dbbf9d9f7f4a924191b4aeda56c331672a13333587",
+      "after": "589e9deffb4da5624567e7dbbf9d9f7f4a924191b4aeda56c331672a13333587"
+    },
+    "2026-10-06_Day.json": {
+      "before": "442f3cbde208d5a3caf1045c889bdf563006db135a07611d10abfeae10819e8f",
+      "after": "442f3cbde208d5a3caf1045c889bdf563006db135a07611d10abfeae10819e8f"
+    },
+    "2026-10-06_Night.json": {
+      "before": "86585b97122c178cf3fd202702bcee58dd4b55deae70be9868e8bb480710f7f9",
+      "after": "86585b97122c178cf3fd202702bcee58dd4b55deae70be9868e8bb480710f7f9"
+    },
+    "2026-10-07_Day.json": {
+      "before": "3dabb358a52de1712a9bd677b2ab815c615b4a28dc68ceaeda0dedc7baa3eb6c",
+      "after": "3dabb358a52de1712a9bd677b2ab815c615b4a28dc68ceaeda0dedc7baa3eb6c"
+    },
+    "2026-10-07_Night.json": {
+      "before": "fa5e5022ec71b08221e2155f61a29301f1fd5ded93a95e7d70eb3e88e6db4f5c",
+      "after": "fa5e5022ec71b08221e2155f61a29301f1fd5ded93a95e7d70eb3e88e6db4f5c"
+    },
+    "2026-10-08_Day.json": {
+      "before": "3a1cfe12509d6eeea51e60503c41e1b9d7d6447c7b8fa17449c53aaf1cc1c900",
+      "after": "3a1cfe12509d6eeea51e60503c41e1b9d7d6447c7b8fa17449c53aaf1cc1c900"
+    },
+    "2026-10-08_Night.json": {
+      "before": "2f7aefb2e5e4d696ee0c9e790c8a4bb82bcbae76d7c7488f7e0c3411ec163671",
+      "after": "2f7aefb2e5e4d696ee0c9e790c8a4bb82bcbae76d7c7488f7e0c3411ec163671"
+    },
+    "2026-10-09_Day.json": {
+      "before": "822716bcf78afae005c20bafd18faf0c6a5e848bd8ad6d631c76fac96aaf493b",
+      "after": "822716bcf78afae005c20bafd18faf0c6a5e848bd8ad6d631c76fac96aaf493b"
+    },
+    "2026-10-09_Night.json": {
+      "before": "02c9e7768c38637eafc894813fefc5edd9b687393d4ecbda35c7c0b62b7c8a58",
+      "after": "02c9e7768c38637eafc894813fefc5edd9b687393d4ecbda35c7c0b62b7c8a58"
+    },
+    "2026-10-12_Day.json": {
+      "before": "9f04de7ca976418ce64607796e819c72ebbf187de1189d455d73d6538a1b515e",
+      "after": "9f04de7ca976418ce64607796e819c72ebbf187de1189d455d73d6538a1b515e"
+    },
+    "2026-10-12_Night.json": {
+      "before": "398b02f2bc5403e9b1eda675170989e715cbd3e5cb6590fa3ab6687f2569035e",
+      "after": "398b02f2bc5403e9b1eda675170989e715cbd3e5cb6590fa3ab6687f2569035e"
+    },
+    "2026-10-13_Day.json": {
+      "before": "8fe21622a033c7f0ada456db0c904f6045042448af70f469a2b0ce551f8ba6d9",
+      "after": "8fe21622a033c7f0ada456db0c904f6045042448af70f469a2b0ce551f8ba6d9"
+    },
+    "2026-10-13_Night.json": {
+      "before": "22fa743369ea1f8e17ba185155bd4e16abb0ddb54db12238c0e93ad89d47ed7f",
+      "after": "22fa743369ea1f8e17ba185155bd4e16abb0ddb54db12238c0e93ad89d47ed7f"
+    },
+    "2026-10-14_Day.json": {
+      "before": "7ed3f28dc08f58b0ec3b182bed09807094f04251ab9dddf528bc6174a2c4b3bb",
+      "after": "7ed3f28dc08f58b0ec3b182bed09807094f04251ab9dddf528bc6174a2c4b3bb"
+    },
+    "2026-10-14_Night.json": {
+      "before": "9494912dff8bf620c07bffb4602c7bdc69a2b10f5f36aec49590773599106cae",
+      "after": "9494912dff8bf620c07bffb4602c7bdc69a2b10f5f36aec49590773599106cae"
+    },
+    "2026-10-15_Day.json": {
+      "before": "d6ffebe83526646a6c7831b585ba3c1365b9d5f549f7fa546b5542f162e4a4c0",
+      "after": "d6ffebe83526646a6c7831b585ba3c1365b9d5f549f7fa546b5542f162e4a4c0"
+    },
+    "2026-10-15_Night.json": {
+      "before": "15e043b9b90f858af83e4d2e6e89ff7b5d84aad426ae6cfb0078123545e09099",
+      "after": "15e043b9b90f858af83e4d2e6e89ff7b5d84aad426ae6cfb0078123545e09099"
+    },
+    "2026-10-16_Day.json": {
+      "before": "5ca7c5c368d1c614d6496a118db0ed978e278a6840565421c54b7f93cbf59eb7",
+      "after": "5ca7c5c368d1c614d6496a118db0ed978e278a6840565421c54b7f93cbf59eb7"
+    },
+    "2026-10-16_Night.json": {
+      "before": "193fa61dba5cc28025e8c7257ecd7041f1c246ef5826d2d672384f0b944208df",
+      "after": "193fa61dba5cc28025e8c7257ecd7041f1c246ef5826d2d672384f0b944208df"
+    },
+    "2026-10-19_Day.json": {
+      "before": "585ac0495d63e303c616670c66cb37d807c64808bf3ff9c480a045f841c715b3",
+      "after": "585ac0495d63e303c616670c66cb37d807c64808bf3ff9c480a045f841c715b3"
+    },
+    "2026-10-19_Night.json": {
+      "before": "d0342e70dbe036fcb62f2e1ef2deb83ff853a58d37061290d8feaf98725c1bc9",
+      "after": "d0342e70dbe036fcb62f2e1ef2deb83ff853a58d37061290d8feaf98725c1bc9"
+    },
+    "2026-10-20_Day.json": {
+      "before": "e44d63d5411c5c54e241f150176c42ffe90483b0cf5b7b2f57aeb998434e93c0",
+      "after": "e44d63d5411c5c54e241f150176c42ffe90483b0cf5b7b2f57aeb998434e93c0"
+    },
+    "2026-10-20_Night.json": {
+      "before": "b17118da185d9e4a41c8ba0e2c5ac8d202040e52762c6349f9ca3f43aacb8d52",
+      "after": "b17118da185d9e4a41c8ba0e2c5ac8d202040e52762c6349f9ca3f43aacb8d52"
+    },
+    "2026-10-21_Day.json": {
+      "before": "cd91a6f552abeef56c0e30468f76895c69bfe4e788f7b59567ce67cb07293b59",
+      "after": "cd91a6f552abeef56c0e30468f76895c69bfe4e788f7b59567ce67cb07293b59"
+    },
+    "2026-10-21_Night.json": {
+      "before": "7834582ff3e2c2b74656505fdb6c36cd4acd4b82ad9f447913f3c5f41211b039",
+      "after": "7834582ff3e2c2b74656505fdb6c36cd4acd4b82ad9f447913f3c5f41211b039"
+    },
+    "2026-10-22_Day.json": {
+      "before": "6c121ed37df1f501456fc4e39be5c1f2e132fcc1232504bc824e5030bcd1ea8b",
+      "after": "6c121ed37df1f501456fc4e39be5c1f2e132fcc1232504bc824e5030bcd1ea8b"
+    },
+    "2026-10-22_Night.json": {
+      "before": "00843c8f0be958b2baea4b70a6ffd94df3f7add2dd32a8361ec045a4b0cd98a6",
+      "after": "00843c8f0be958b2baea4b70a6ffd94df3f7add2dd32a8361ec045a4b0cd98a6"
+    },
+    "2026-10-23_Day.json": {
+      "before": "1219902cfcc3c342e722dd20bafd1817430a0f8fe905139412ad0cfd68be82c4",
+      "after": "1219902cfcc3c342e722dd20bafd1817430a0f8fe905139412ad0cfd68be82c4"
+    },
+    "2026-10-23_Night.json": {
+      "before": "424e7780837256742b078a4077e5c8d66f8aed72f09a3c2897cc9b7f94293e04",
+      "after": "424e7780837256742b078a4077e5c8d66f8aed72f09a3c2897cc9b7f94293e04"
+    },
+    "2026-10-26_Day.json": {
+      "before": "53cff4e9aa7ba604c91e3ff0b948b780d95fe457f35d1143a850d3d2f9f5a2ae",
+      "after": "53cff4e9aa7ba604c91e3ff0b948b780d95fe457f35d1143a850d3d2f9f5a2ae"
+    },
+    "2026-10-26_Night.json": {
+      "before": "624045fed82178434d035b673d7c676a80617b8543e4261d1383b065ec08b17c",
+      "after": "624045fed82178434d035b673d7c676a80617b8543e4261d1383b065ec08b17c"
+    },
+    "2026-10-27_Day.json": {
+      "before": "e3da59483b36ef9ca5f864446ef624a630325beb168b54b3d0c8ad61446653a1",
+      "after": "e3da59483b36ef9ca5f864446ef624a630325beb168b54b3d0c8ad61446653a1"
+    },
+    "2026-10-27_Night.json": {
+      "before": "5f6c9f2b1ebcc5c41198b382c5d84f58cdb205e476052dc7c5157e93efbdfa61",
+      "after": "5f6c9f2b1ebcc5c41198b382c5d84f58cdb205e476052dc7c5157e93efbdfa61"
+    }
+  },
+  "原板前後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\book.jsonl.gz": {
+      "before": "afd7286b772162d85282a95875e66d56e4da7b6652ee96eedbcac7566908908b",
+      "after": "afd7286b772162d85282a95875e66d56e4da7b6652ee96eedbcac7566908908b"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\book.jsonl.gz": {
+      "before": "1fac26c92bed327dca9f490ff74accca66724cf379617f70ced81bf961f06c3b",
+      "after": "1fac26c92bed327dca9f490ff74accca66724cf379617f70ced81bf961f06c3b"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\book.jsonl.gz": {
+      "before": "7ba2459f9d87d6d3334d0ab24f8a20ed4716b09b3c0a86e1e78b4a27859edd70",
+      "after": "7ba2459f9d87d6d3334d0ab24f8a20ed4716b09b3c0a86e1e78b4a27859edd70"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\book.jsonl.gz": {
+      "before": "c8b8548f19a04f517d122e9b33011c2719b22d92bfe46c45d8c010f954dbfa03",
+      "after": "c8b8548f19a04f517d122e9b33011c2719b22d92bfe46c45d8c010f954dbfa03"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\book.jsonl.gz": {
+      "before": "33e7ad1f259df0a8c9ffc39eb59445647f8d222b4eb2ae6c8d70156f8faa5f00",
+      "after": "33e7ad1f259df0a8c9ffc39eb59445647f8d222b4eb2ae6c8d70156f8faa5f00"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\book.jsonl.gz": {
+      "before": "e95f7a3dba2a169a0c119cf5173a5cf14a189ddb4cbdc7f23348b11c001d8c72",
+      "after": "e95f7a3dba2a169a0c119cf5173a5cf14a189ddb4cbdc7f23348b11c001d8c72"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\book.jsonl.gz": {
+      "before": "eaebe7764a0a76e10922858a98f3f059277f2d227497a1d0bb3ec87368ba3691",
+      "after": "eaebe7764a0a76e10922858a98f3f059277f2d227497a1d0bb3ec87368ba3691"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\book.jsonl.gz": {
+      "before": "c2b94e4da933dd6f12d7a0f1d341ca6adc882d0aad4abc7ac9616195f34a1d62",
+      "after": "c2b94e4da933dd6f12d7a0f1d341ca6adc882d0aad4abc7ac9616195f34a1d62"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\book.jsonl.gz": {
+      "before": "a595d76103efd9737c03593b7a1b2e218379c727d3b121ca51ce6f20892a8e4b",
+      "after": "a595d76103efd9737c03593b7a1b2e218379c727d3b121ca51ce6f20892a8e4b"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\book.jsonl.gz": {
+      "before": "f8d27b2a8fcbfd7adf3b210db7c00d0eae00b7ea3ff6bed291de08a7d6d78b3f",
+      "after": "f8d27b2a8fcbfd7adf3b210db7c00d0eae00b7ea3ff6bed291de08a7d6d78b3f"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\book.jsonl.gz": {
+      "before": "b832c643fd7fa77b75fe340e4e2063c4d9f7452012f2669d097b1a0cec76d815",
+      "after": "b832c643fd7fa77b75fe340e4e2063c4d9f7452012f2669d097b1a0cec76d815"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\book.jsonl.gz": {
+      "before": "cbfeedbd61203b32186aeac0ca0415f59b2f9f7c4dd4216d49c85466001799f3",
+      "after": "cbfeedbd61203b32186aeac0ca0415f59b2f9f7c4dd4216d49c85466001799f3"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\book.jsonl.gz": {
+      "before": "2fdda2eeece2b43de1680f1e15b3d39fdb76b6ab101af3338f761d72d01ab6c4",
+      "after": "2fdda2eeece2b43de1680f1e15b3d39fdb76b6ab101af3338f761d72d01ab6c4"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\book.jsonl.gz": {
+      "before": "ee882f6818ec51707d4dcdd3befbd35e159d12c851db6c9dc54e9dd6beb35584",
+      "after": "ee882f6818ec51707d4dcdd3befbd35e159d12c851db6c9dc54e9dd6beb35584"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\book.jsonl.gz": {
+      "before": "7d0efffdee3c1d83f4912c417de05cec8e75fb5274842adb01bc883c4284c3d8",
+      "after": "7d0efffdee3c1d83f4912c417de05cec8e75fb5274842adb01bc883c4284c3d8"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\book.jsonl.gz": {
+      "before": "9a316a16b63ad05dbe2dc4d104b2324414ad001253fc750a185c4eb9595a1cde",
+      "after": "9a316a16b63ad05dbe2dc4d104b2324414ad001253fc750a185c4eb9595a1cde"
+    },
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\book.jsonl.gz": {
+      "before": "be0aea3733de70bc62fb1e7fabe00fc20de1b322660c260f258e0990503f3e07",
+      "after": "be0aea3733de70bc62fb1e7fabe00fc20de1b322660c260f258e0990503f3e07"
+    }
+  },
+  "core11SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\adapter.go": "ea823b57a9eedb9cae3ce3c83fb3e8868b869b79635dc3ab0356233bce0b048d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\adapter_test.go": "d67eef3c524194b89a92c6ff3b8524b774f9d66c60647df90e33893309ed1f56",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\cmd\\batch\\main.go": "3a84c2826208c3ea38928c725caf224efec9e2ddc723818440ec9d519d66ffb8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\go.mod": "55f4e275c842f4e88cb4f1290740e7cc9f0ac3d034ed1037359f881db943347d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\input.go": "27751caa39dcb1e8f36dce4713320e7a8109355c2f5e30a2898f61d47af46c45",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\README.md": "6ff1f1d42800c8e37b0c17fe463dffddf6ebcc4b82020d0c35a95f4fa9a41562",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\replay.go": "05c43d76690c4e8f66ea50941fac516d0561622438a382759dc57d7f1ae70a5a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\types.go": "93e64f2b87eb8af5912fe06502b47041b0f9e8e1a8d27167a90bfd1fdf4646af",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\固定入力監査.py": "82433f0dc110d4a4210580301ae7bf68fa43766983b60aa6da99e244ae5d1278",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元三手法のmini連続再現\\集計と閲覧形式.py": "57159e2aa97841d771b30b8e06bbe592918437a0f2631cf0266d6e97b0da9cd2"
+  },
+  "純戦略43SHA256": {
+    "internal/strategy/active143.go": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+    "internal/strategy/active145.go": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+    "internal/strategy/cores.go": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+    "internal/strategy/episode143.go": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a",
+    "internal/strategy/exit_diagnostics.go": "d279bc7e666623633027cb603c2c5eff2abf6ead7daace7f386788cdb64bbd38",
+    "internal/strategy/features.go": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+    "internal/strategy/features143.go": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+    "internal/strategy/legacy_rules.go": "2f9537b9316c37fad97cda0f4cbbf29b10fbb1392c2fe2b4fe47a59aeb43b801",
+    "internal/strategy/methods.go": "f7db068dbb83dd391ecafadbe9a7dcc51292f5b9a5d1f153c62beeecba61d248",
+    "internal/strategy/p05.go": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+    "internal/strategy/portfolio.go": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+    "internal/strategy/research143.go": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+    "internal/strategy/research145.go": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+    "internal/strategy/rules.go": "49b311c6f7afce1c14f058470bdc43f7a7867b8f5d1c8c1ca489624e24274ff8",
+    "internal/strategy/s01.go": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+    "internal/strategy/selected_close_groups.go": "535ce6a96fa8955daff19974d6bb68093400fce7985a5496390a3713813b8f51",
+    "internal/strategy/selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+    "internal/strategy/selected_day164_policy.go": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+    "internal/strategy/selected_day_adapter.go": "2244d48b864c40c5a62ff007621a1dd75ffda2760972873b4b13281cd9d1cc55",
+    "internal/strategy/selected_ledger.go": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+    "internal/strategy/selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+    "internal/strategy/selected_night_policy.go": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+    "internal/strategy/selected_night_state.go": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+    "internal/strategy/selected_restore.go": "ecf2ddaddd26600d11b341c4a992821c906dcc6a788c70a5f92abfae8359e5b0",
+    "internal/strategy/selected_runtime.go": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+    "internal/strategy/selected_source.go": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+    "internal/strategy/selected_types.go": "74fb4ac16f1bd997bc1113aa43bf4de5438abf258c10620b305cae9238d489ec",
+    "internal/strategy/source143.go": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+    "internal/strategy/types.go": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+    "internal/e01/engine.go": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+    "internal/e01/features.go": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+    "internal/e01/rules.go": "1581539bd74f81d527d7ab82e4290493a016fe1bdd10c7155e472201d98087e2",
+    "internal/rules/addon_specs.go": "8120de9c6cf27d14fae9d350bd3c0f3e9341e0474c133e1fea40f62187fd1777",
+    "internal/rules/core_specs.go": "03a52e82a95ce9e0588ead088f9afaa290a0b78540137b21001d09a459d92be4",
+    "internal/rules/engine.go": "7fb551981ddd2dfd8be0704adc9659e5d68cad4da68dfc806045a35040c267c3",
+    "internal/rules/legacy_specs.go": "f9953d5bab5b21e200a7d87bb87ceab2688a1174a0411cef64170fe0e3d434ad",
+    "internal/rules/p05.go": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+    "internal/rules/profiles.go": "9388ff4112948e96d4fe7a39f5c26ea4d2127ee49618a72bd1c24c62008431e9",
+    "internal/rules/research_specs.go": "a13abfa16c55f1e416f1c165ac188ab5bbd7e911864f9f806ac049b2cbade6a2",
+    "internal/rules/s01.go": "72e6e01b5afc5ea34f6e7e55f335e8f0848cc91173f14683a0c313810e03c379",
+    "internal/rules/selected_methods.go": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+    "go.mod": "d3e95e7b7315892e0366bf1fa9b8e4fe42061f07d57aa5651ee5cfa5d67e2351",
+    "go.sum": "8c7a0a4bffe211450057b16034b8a0fc700cb12756df7133a23f6d873dcb8be5"
+  },
+  "読取コードと入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\93元連続再現\\境界1行差を診断する.py": "4c9b607e85967c2c616548545be50ac52c96b1f776004ca4e068224c01473880",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元連続再現の監査\\原板照合.py": "49825ac408513e9cea8e9f8d852360a00436546fb9e99ec0b5edf2f86cafb62b",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\93元連続再現\\timer返済の所在.json": "4cd0bc7e75fea1f5bad027d669dfc8afcdd011f87fee524cc20603c3232d88b6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\93元連続再現\\全54場\\完了.json": "9450f277376699273f72347c350d18880afb90e3cc4b86631d9d2febe0ea6f45",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\入力台帳.json": "b939bc91b33fd86e933534c3b991d844b8a0200a5f14710e1bd5004edc1aab42"
+  },
+  "人工検査": "買売価格差式・badBBOを含むfirst Sourceとstrict後normalの3手計算成功"
+}

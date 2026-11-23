@@ -1,0 +1,639 @@
+{
+  "状態": "保存値の事後記述・原板再走査/新金融/閾値探索0",
+  "件数": {
+    "C0政策差を除いた全Book経路同値": 108,
+    "同実入口・初u正益点一致玉": 359,
+    "保護要求数": 291,
+    "保護要求とfill同価格秒": 283,
+    "保護要求後に方向価格悪化": 1,
+    "保護要求後に方向価格改善": 54,
+    "保護要求後に価格不変": 236,
+    "u正益後最終赤字": 240,
+    "同うち粗額0で費用のみ赤字": 238,
+    "同うち粗額負": 2,
+    "同うち粗額正": 0
+  },
+  "保存格子": {
+    "保存BidAsk価格数": 24284,
+    "10pt格子外": 0
+  },
+  "分布": {
+    "保護要求から実fillの方向価格差pt": {
+      "0": 236,
+      "10": 54,
+      "-10": 1
+    },
+    "初u正益時の方向幅pt": {
+      "10": 310,
+      "50": 1,
+      "20": 4
+    }
+  },
+  "主同実入口の最終黒赤遷移": {
+    "赤→赤": {
+      "件数": 141,
+      "差額円": 1612000
+    },
+    "黒→赤": {
+      "件数": 143,
+      "差額円": -3855000
+    },
+    "黒→黒": {
+      "件数": 56,
+      "差額円": -1436000
+    },
+    "赤→黒": {
+      "件数": 19,
+      "差額円": 314000
+    }
+  },
+  "代表例": [
+    {
+      "session": "2026-10-19_Day",
+      "signal_id": "80参照-D164_15-2026-10-19_Day-NK225mini-D164_15-000001",
+      "side": 1,
+      "quantity": 5,
+      "entry_price": 64130,
+      "entry_quote": {
+        "time": 1792370442,
+        "index": 27080,
+        "source_line": 27874,
+        "last": 64120,
+        "bid": 64120,
+        "ask": 64130,
+        "quote_ok": true
+      },
+      "source_kind": "delayed_initial",
+      "source_parent": "episode/0",
+      "first_u_positive": {
+        "time": 1792370484,
+        "index": 27427,
+        "line": 28221,
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 64140,
+        "gain_points": 10,
+        "unit_net": 923,
+        "whole_net": 4615
+      },
+      "first_floor_hit": {
+        "time": 1792370484,
+        "index": 27428,
+        "line": 28222,
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 64130,
+        "gain_points": 0,
+        "unit_net": -77,
+        "whole_net": -385
+      },
+      "atr": {
+        "value": 375.13010399362054,
+        "available": 1792370160,
+        "nominal": 1792370160,
+        "age_seconds": 282,
+        "width": 755,
+        "quote": {
+          "time": 1792370442,
+          "index": 27080,
+          "source_line": 27874,
+          "last": 64120,
+          "bid": 64120,
+          "ask": 64130,
+          "quote_ok": true
+        },
+        "after_entry": false
+      },
+      "floor_gain_final": 0,
+      "floor_updated_last": {
+        "time": 1792370484,
+        "index": 27427,
+        "line": 28221,
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 64140,
+        "gain_points": 10,
+        "unit_net": 923,
+        "whole_net": 4615
+      },
+      "S0_net": 57615,
+      "P0_net": -385,
+      "exit_orders": [
+        {
+          "request": {
+            "time": 1792370484,
+            "index": 27428,
+            "line": 28222,
+            "phase": "after_source",
+            "quantity": 5,
+            "reserved": 0,
+            "mark_price": 64130,
+            "gain_points": 0,
+            "unit_net": -77,
+            "whole_net": -385
+          },
+          "request_time": 1792370484,
+          "quantity": 5,
+          "fill_quote": {
+            "time": 1792370484,
+            "index": 27429,
+            "source_line": 28223,
+            "last": 64130,
+            "bid": 64130,
+            "ask": 64150,
+            "quote_ok": true
+          },
+          "fill_price": 64130,
+          "allocated_net": -385
+        }
+      ],
+      "S0_exit_fills": [
+        {
+          "quantity": 2,
+          "price": 64210,
+          "quote": {
+            "time": 1792370531,
+            "index": 27834,
+            "source_line": 28628,
+            "last": 64210,
+            "bid": 64210,
+            "ask": 64220,
+            "quote_ok": true
+          },
+          "net": 15846,
+          "reason": "source_partial/D164_15"
+        },
+        {
+          "quantity": 3,
+          "price": 64270,
+          "quote": {
+            "time": 1792371170,
+            "index": 33071,
+            "source_line": 33865,
+            "last": 64280,
+            "bid": 64270,
+            "ask": 64280,
+            "quote_ok": true
+          },
+          "net": 41769,
+          "reason": "source_partial/D164_15"
+        }
+      ],
+      "same_source_parent": [
+        {
+          "kind": "delayed_initial",
+          "signal_id": "80参照-D164_15-2026-10-19_Day-NK225mini-D164_15-000001",
+          "source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-episode-000001",
+          "birth_time": 1792370442,
+          "entry_quote": {
+            "time": 1792370442,
+            "index": 27080,
+            "source_line": 27874,
+            "last": 64120,
+            "bid": 64120,
+            "ask": 64130,
+            "quote_ok": true
+          },
+          "quantity": 5,
+          "P0_net": -385
+        },
+        {
+          "kind": "source_add",
+          "signal_id": "80参照-D164_15-2026-10-19_Day-NK225mini-D164_15-000004",
+          "source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-episode-000004",
+          "birth_time": 1792370531,
+          "entry_quote": {
+            "time": 1792370531,
+            "index": 27835,
+            "source_line": 28629,
+            "last": 64210,
+            "bid": 64210,
+            "ask": 64220,
+            "quote_ok": true
+          },
+          "quantity": 2,
+          "P0_net": 1846
+        }
+      ]
+    },
+    {
+      "session": "2026-10-19_Day",
+      "signal_id": "80参照-D164_15-2026-10-19_Day-NK225mini-D164_15-000002",
+      "side": 1,
+      "quantity": 5,
+      "entry_price": 64190,
+      "entry_quote": {
+        "time": 1792370514,
+        "index": 27681,
+        "source_line": 28475,
+        "last": 64180,
+        "bid": 64170,
+        "ask": 64190,
+        "quote_ok": true
+      },
+      "source_kind": "initial",
+      "source_parent": "addon/0",
+      "first_u_positive": {
+        "time": 1792370530,
+        "index": 27820,
+        "line": 28614,
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 64200,
+        "gain_points": 10,
+        "unit_net": 923,
+        "whole_net": 4615
+      },
+      "first_floor_hit": {
+        "time": 1792370530,
+        "index": 27823,
+        "line": 28617,
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 64190,
+        "gain_points": 0,
+        "unit_net": -77,
+        "whole_net": -385
+      },
+      "atr": {
+        "value": 358.03592866081885,
+        "available": 1792370460,
+        "nominal": 1792370460,
+        "age_seconds": 54,
+        "width": 720,
+        "quote": {
+          "time": 1792370514,
+          "index": 27681,
+          "source_line": 28475,
+          "last": 64180,
+          "bid": 64170,
+          "ask": 64190,
+          "quote_ok": true
+        },
+        "after_entry": false
+      },
+      "floor_gain_final": 0,
+      "floor_updated_last": {
+        "time": 1792370530,
+        "index": 27820,
+        "line": 28614,
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 64200,
+        "gain_points": 10,
+        "unit_net": 923,
+        "whole_net": 4615
+      },
+      "S0_net": 311615,
+      "P0_net": 4615,
+      "exit_orders": [
+        {
+          "request": {
+            "time": 1792370530,
+            "index": 27823,
+            "line": 28617,
+            "phase": "after_source",
+            "quantity": 5,
+            "reserved": 0,
+            "mark_price": 64190,
+            "gain_points": 0,
+            "unit_net": -77,
+            "whole_net": -385
+          },
+          "request_time": 1792370530,
+          "quantity": 5,
+          "fill_quote": {
+            "time": 1792370530,
+            "index": 27824,
+            "source_line": 28618,
+            "last": 64200,
+            "bid": 64200,
+            "ask": 64210,
+            "quote_ok": true
+          },
+          "fill_price": 64200,
+          "allocated_net": 4615
+        }
+      ],
+      "S0_exit_fills": [
+        {
+          "quantity": 2,
+          "price": 64580,
+          "quote": {
+            "time": 1792372146,
+            "index": 40990,
+            "source_line": 41784,
+            "last": 64570,
+            "bid": 64580,
+            "ask": 64590,
+            "quote_ok": true
+          },
+          "net": 77846,
+          "reason": "source_partial/D164_15"
+        },
+        {
+          "quantity": 3,
+          "price": 64970,
+          "quote": {
+            "time": 1792391700,
+            "index": 155172,
+            "source_line": 155966,
+            "last": 64990,
+            "bid": 64970,
+            "ask": 64990,
+            "quote_ok": true
+          },
+          "net": 233769,
+          "reason": "時間境界の全返済"
+        }
+      ],
+      "same_source_parent": [
+        {
+          "kind": "initial",
+          "signal_id": "80参照-D164_15-2026-10-19_Day-NK225mini-D164_15-000002",
+          "source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-addon-000002",
+          "birth_time": 1792370514,
+          "entry_quote": {
+            "time": 1792370514,
+            "index": 27681,
+            "source_line": 28475,
+            "last": 64180,
+            "bid": 64170,
+            "ask": 64190,
+            "quote_ok": true
+          },
+          "quantity": 5,
+          "P0_net": 4615
+        }
+      ]
+    },
+    {
+      "session": "2026-10-27_Day",
+      "signal_id": "80参照-D164_15-2026-10-27_Day-NK225mini-D164_15-000004",
+      "side": -1,
+      "quantity": 6,
+      "entry_price": 63330,
+      "entry_quote": {
+        "time": 1793061189,
+        "index": 21035,
+        "source_line": 22164,
+        "last": 63330,
+        "bid": 63330,
+        "ask": 63340,
+        "quote_ok": true
+      },
+      "source_kind": "initial",
+      "source_parent": "addon/0",
+      "first_u_positive": {
+        "time": 1793061192,
+        "index": 21067,
+        "line": 22196,
+        "phase": "pre_fill",
+        "quantity": 6,
+        "reserved": 0,
+        "mark_price": 63320,
+        "gain_points": 10,
+        "unit_net": 923,
+        "whole_net": 5538
+      },
+      "first_floor_hit": {
+        "time": 1793061192,
+        "index": 21072,
+        "line": 22201,
+        "phase": "pre_fill",
+        "quantity": 6,
+        "reserved": 0,
+        "mark_price": 63330,
+        "gain_points": 0,
+        "unit_net": -77,
+        "whole_net": -462
+      },
+      "atr": {
+        "value": 157.66372396931052,
+        "available": 1793061060,
+        "nominal": 1793061060,
+        "age_seconds": 129,
+        "width": 320,
+        "quote": {
+          "time": 1793061189,
+          "index": 21035,
+          "source_line": 22164,
+          "last": 63330,
+          "bid": 63330,
+          "ask": 63340,
+          "quote_ok": true
+        },
+        "after_entry": false
+      },
+      "floor_gain_final": 0,
+      "floor_updated_last": {
+        "time": 1793061192,
+        "index": 21067,
+        "line": 22196,
+        "phase": "pre_fill",
+        "quantity": 6,
+        "reserved": 0,
+        "mark_price": 63320,
+        "gain_points": 10,
+        "unit_net": 923,
+        "whole_net": 5538
+      },
+      "S0_net": -102462,
+      "P0_net": -462,
+      "exit_orders": [
+        {
+          "request": {
+            "time": 1793061192,
+            "index": 21072,
+            "line": 22201,
+            "phase": "after_source",
+            "quantity": 6,
+            "reserved": 0,
+            "mark_price": 63330,
+            "gain_points": 0,
+            "unit_net": -77,
+            "whole_net": -462
+          },
+          "request_time": 1793061192,
+          "quantity": 6,
+          "fill_quote": {
+            "time": 1793061192,
+            "index": 21073,
+            "source_line": 22202,
+            "last": 63330,
+            "bid": 63310,
+            "ask": 63330,
+            "quote_ok": true
+          },
+          "fill_price": 63330,
+          "allocated_net": -462
+        }
+      ],
+      "S0_exit_fills": [
+        {
+          "quantity": 6,
+          "price": 63500,
+          "quote": {
+            "time": 1793061365,
+            "index": 22553,
+            "source_line": 23682,
+            "last": 63490,
+            "bid": 63480,
+            "ask": 63500,
+            "quote_ok": true
+          },
+          "net": -102462,
+          "reason": "source_end/D164_15"
+        }
+      ],
+      "same_source_parent": [
+        {
+          "kind": "initial",
+          "signal_id": "80参照-D164_15-2026-10-27_Day-NK225mini-D164_15-000004",
+          "source_id": "80参照-D164_15-選定源-2026-10-27_Day-NK225mini-addon-000006",
+          "birth_time": 1793061189,
+          "entry_quote": {
+            "time": 1793061189,
+            "index": 21035,
+            "source_line": 22164,
+            "last": 63330,
+            "bid": 63330,
+            "ask": 63340,
+            "quote_ok": true
+          },
+          "quantity": 6,
+          "P0_net": -462
+        }
+      ]
+    }
+  ],
+  "C0同値の除外": "口座ラベル/ID・政策理由/設定名・floor_gain/floor_updatedのみを除いた全Book経路を両遅延54場で照合。JSON全文同値ではない。",
+  "限界": "保存Bid/Askの格子だけを確認し全原板の再検査はしない。最終床は接触時床と同一とは限らず最終更新点も併記。親は保存source.parentとして比較し初回/追加を付け替えない。",
+  "入力SHA256前": {
+    "work\\94実行\\正式54場\\完了.json": "5a64496b817ee6f99db4ca5453ade21f10087da1bcde6159c650491df6a6d670",
+    "work\\94診断\\結果.json": "a8869f9b491114cd7b2b7d55c9985d28408d661206b873be5d4316d2ce5b3d59",
+    "study\\00094_連続出生を固定した個別利益追尾\\成果物\\結果.json": "f3696001625af9b6082555d2465349838483018a6fcc8f0d521624533f77ed36",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\94診断\\保存点から知見を確認する.py": "a4913fd1ee713312304b4ed61de00f37fbce7db9b8f56536ae30956d836fc21a",
+    "work\\94実行\\正式54場\\2026-09-21_Day.json": "a5e564bc516c8abd518720034fc83654046542bbfa635172a3c8e52fce2661f3",
+    "work\\94実行\\正式54場\\2026-09-21_Night.json": "87207a7db249a10a187b0b1c929602335704b306a0ce7d2f8005d86c8ae79f4b",
+    "work\\94実行\\正式54場\\2026-09-22_Day.json": "13205c035607eed9727555484ed402fb416ca5b0ba459d633f0fb789849dda36",
+    "work\\94実行\\正式54場\\2026-09-22_Night.json": "7824af74c02141bda3e4566f6151a5807b1e894b110ecc265a18d0c40a79db24",
+    "work\\94実行\\正式54場\\2026-09-23_Day.json": "96ff33d6515e9948490bc0949937d264b6a9f71e2ef314530e03c3c32d10f397",
+    "work\\94実行\\正式54場\\2026-09-23_Night.json": "6aa1db21d9becfbc80a25cf0320f13e4153c8a6757b7a9d013c56096e5048451",
+    "work\\94実行\\正式54場\\2026-09-24_Day.json": "8107f8b500ef52eb91e4ab009dafc2e3602ef0a8a4f5169a9c8d443a26a646f3",
+    "work\\94実行\\正式54場\\2026-09-24_Night.json": "4f9c6972d7f846269031207b878bbb1924df8442237bfbc53a9c77ddf2b5cbd2",
+    "work\\94実行\\正式54場\\2026-09-25_Day.json": "1df9720e07cff555276f563243e7d7ba06cf2ff96ceab50d648d6cbf9d55c859",
+    "work\\94実行\\正式54場\\2026-09-25_Night.json": "e53ccb79190cc653bf6e21415e33a7516528ebf7c475b9f6ececc908ec10e4c1",
+    "work\\94実行\\正式54場\\2026-09-28_Day.json": "3a716706385d370d27accf2e515dc04bc71dfd4decbc6a55497689270fb49aaf",
+    "work\\94実行\\正式54場\\2026-09-28_Night.json": "f04c9118906eb7c2a81570cd94aa96019521b505c7c232d09bd90f5ba6a181c6",
+    "work\\94実行\\正式54場\\2026-09-29_Day.json": "a4807f339036224518487c593ad3000d2ca3e7ee2579317f5e6e8b3f4813be70",
+    "work\\94実行\\正式54場\\2026-09-29_Night.json": "e1fab6d8a0d595148506fcff1e3b202fbd6d4f9aa61b38f07b4f9fcd595ee074",
+    "work\\94実行\\正式54場\\2026-09-30_Day.json": "a310bd7909699da177dd4afcae623c080bcafde49a0ec5b0a6905f1457b97ae4",
+    "work\\94実行\\正式54場\\2026-09-30_Night.json": "5e0ae6f88e0d4d080128e2b65fc0e9cff5f99b4168a4fa8ebb41c933ae501992",
+    "work\\94実行\\正式54場\\2026-10-01_Day.json": "01cf05a84e87f9839b18f73dbf68576d074805facd1929b2cb9ab15644fc91a1",
+    "work\\94実行\\正式54場\\2026-10-01_Night.json": "6b7f3f35ee5eae8982214b52296077e03dc03508733681a031b8a8903b687ac4",
+    "work\\94実行\\正式54場\\2026-10-02_Day.json": "70f816bffb0e401e32ec4c9c8db3b159cf4ffdc2811d3c8fefb137dc5b4df340",
+    "work\\94実行\\正式54場\\2026-10-02_Night.json": "33eeef03a2aa5fc6e9f84a419ea4ef10a275965dedeba8f09491b56f9bc7cd4e",
+    "work\\94実行\\正式54場\\2026-10-05_Day.json": "4ac92bc0d62bdca0a367d154452d5b97121438a648c74bde48d550e91dae56a0",
+    "work\\94実行\\正式54場\\2026-10-05_Night.json": "a7926517afad702f3ae12d4eee6d92a259d8c25e7ef5bb0baa5572df85d6e6aa",
+    "work\\94実行\\正式54場\\2026-10-06_Day.json": "f70ec38e6589b7c3051016c2fcd06081d3a360a02aae72d134f6c1acaa392d9a",
+    "work\\94実行\\正式54場\\2026-10-06_Night.json": "6fa5a782ab5014bec9fa7f4908473cefb7fe57a37dbcd03ee77c097d87e83dd8",
+    "work\\94実行\\正式54場\\2026-10-07_Day.json": "58e94e9ada9dc1479b97ede70de7c9d70af96a45b0135601718188b1d97f8625",
+    "work\\94実行\\正式54場\\2026-10-07_Night.json": "96214577eb8ef9910fe5589bbe3748fff5b3d3e751f957765c4399e885b22e30",
+    "work\\94実行\\正式54場\\2026-10-08_Day.json": "bee93344307b547f5c9fcf50c968c328787b7b969ebd0f76af7eefe9b05fba8e",
+    "work\\94実行\\正式54場\\2026-10-08_Night.json": "4caf4411ddbb849514583c396fdfc2e1c0a5648ff1e0fe2d526bb3253deaa6c0",
+    "work\\94実行\\正式54場\\2026-10-09_Day.json": "b9ed5cc2be23791572512ba6a359c820baa50d97ff2d300ee004092cab499732",
+    "work\\94実行\\正式54場\\2026-10-09_Night.json": "dd1de739cd57bb94e83e80c3d24e5d6d28664e0fbd44dc7ef35ff62761f67db7",
+    "work\\94実行\\正式54場\\2026-10-12_Day.json": "5ed663acc4d7e8901db67d67d6f21c6867a237868e21ccd305e684a635979003",
+    "work\\94実行\\正式54場\\2026-10-12_Night.json": "b2339e23c0c3f28034a362b2822b4bd7739fe16656692830c10292b65ec46a48",
+    "work\\94実行\\正式54場\\2026-10-13_Day.json": "dc735b77f06732c17098b1a592f398923aa9abf9f82fff1a306478d2c9d1aa3c",
+    "work\\94実行\\正式54場\\2026-10-13_Night.json": "351f74dd73830a9523b75947430672267dc1fd05781e3227d66c2c9866ec617a",
+    "work\\94実行\\正式54場\\2026-10-14_Day.json": "d365dcc443184fd9f6587f9795f5b615d726bead3218dff60e2a5093db3ddb10",
+    "work\\94実行\\正式54場\\2026-10-14_Night.json": "463f532bf713fd2bbdcbfebce29249dfbda9e39234ffb0ca37427cd589d65b71",
+    "work\\94実行\\正式54場\\2026-10-15_Day.json": "6608833fe726c5d1e4c9d73f7f7fde78806cf3e84b1ca816feb4e9486126414b",
+    "work\\94実行\\正式54場\\2026-10-15_Night.json": "53b0d332c1bd373b0f20a45867ffbaa8cbae236b7c606aa9ecc49209bc66f3fb",
+    "work\\94実行\\正式54場\\2026-10-16_Day.json": "dc5f6551f1d395cee4d417b06f02a59a1906be47832ca231543ac09baf3fb7b6",
+    "work\\94実行\\正式54場\\2026-10-16_Night.json": "a8e7edb952aa09610715a41e2363c25efa4f24b1d84990cf094520b9e2f97e55",
+    "work\\94実行\\正式54場\\2026-10-19_Day.json": "5110c30d09b363f579914e36e356d2b8fd30c518db3de5ff877dfe4446631dce",
+    "work\\94実行\\正式54場\\2026-10-19_Night.json": "b17e08e7ae0b76d307a1a677b6e8ffdcc094313703f665785d384657ebf43c71",
+    "work\\94実行\\正式54場\\2026-10-20_Day.json": "96df5a3c63e99245ad6b913ed63c46bd507908c6ef181000d00e6f7601e5eea8",
+    "work\\94実行\\正式54場\\2026-10-20_Night.json": "ee379ec2c1749dad2dd205421a02648ea97a25b81f5cb5bb5d1f5c57cfdc9140",
+    "work\\94実行\\正式54場\\2026-10-21_Day.json": "3bf038f6e4b15cd524108663f29ed6166a8ba9b2ddf332d5349c5da917d7b982",
+    "work\\94実行\\正式54場\\2026-10-21_Night.json": "0a8ccc5756a9ee4cb438178c5253af7f7d12547edb61670c83e20f7ba2ba908a",
+    "work\\94実行\\正式54場\\2026-10-22_Day.json": "bdbd1f702709b10199f6b855641ded6f0b4541d65428d246ec7daa5409bead8f",
+    "work\\94実行\\正式54場\\2026-10-22_Night.json": "2d6f52f5a8cafe8855e3df05bcf89401e2248df8605418589670665d41916d4b",
+    "work\\94実行\\正式54場\\2026-10-23_Day.json": "964fdccfaca0c57115889c4c7d19b8b603a93b620632d757b97ae9833c55cb63",
+    "work\\94実行\\正式54場\\2026-10-23_Night.json": "7b32029e46f14db950bf583d303d4651390f13088f02241611c2e64d6d8fe432",
+    "work\\94実行\\正式54場\\2026-10-26_Day.json": "b83af83cddafb385ab1bec998ab3001f1513b9bbc9815967808db9c0e5b7c735",
+    "work\\94実行\\正式54場\\2026-10-26_Night.json": "ce22184b370d56ac61f0c2ed6a999f0781a578c61fc18e2dc8d6b70264f6c416",
+    "work\\94実行\\正式54場\\2026-10-27_Day.json": "5b456b4898d2d4f09c807029818689720420ed16ae1a0d4d7269c50bae9d289e",
+    "work\\94実行\\正式54場\\2026-10-27_Night.json": "b0c08922b37ba804863aa4becb142d58ef91d79dc45d5227ecff6692285d06d4"
+  },
+  "入力SHA256後": {
+    "work\\94実行\\正式54場\\完了.json": "5a64496b817ee6f99db4ca5453ade21f10087da1bcde6159c650491df6a6d670",
+    "work\\94診断\\結果.json": "a8869f9b491114cd7b2b7d55c9985d28408d661206b873be5d4316d2ce5b3d59",
+    "study\\00094_連続出生を固定した個別利益追尾\\成果物\\結果.json": "f3696001625af9b6082555d2465349838483018a6fcc8f0d521624533f77ed36",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\94診断\\保存点から知見を確認する.py": "a4913fd1ee713312304b4ed61de00f37fbce7db9b8f56536ae30956d836fc21a",
+    "work\\94実行\\正式54場\\2026-09-21_Day.json": "a5e564bc516c8abd518720034fc83654046542bbfa635172a3c8e52fce2661f3",
+    "work\\94実行\\正式54場\\2026-09-21_Night.json": "87207a7db249a10a187b0b1c929602335704b306a0ce7d2f8005d86c8ae79f4b",
+    "work\\94実行\\正式54場\\2026-09-22_Day.json": "13205c035607eed9727555484ed402fb416ca5b0ba459d633f0fb789849dda36",
+    "work\\94実行\\正式54場\\2026-09-22_Night.json": "7824af74c02141bda3e4566f6151a5807b1e894b110ecc265a18d0c40a79db24",
+    "work\\94実行\\正式54場\\2026-09-23_Day.json": "96ff33d6515e9948490bc0949937d264b6a9f71e2ef314530e03c3c32d10f397",
+    "work\\94実行\\正式54場\\2026-09-23_Night.json": "6aa1db21d9becfbc80a25cf0320f13e4153c8a6757b7a9d013c56096e5048451",
+    "work\\94実行\\正式54場\\2026-09-24_Day.json": "8107f8b500ef52eb91e4ab009dafc2e3602ef0a8a4f5169a9c8d443a26a646f3",
+    "work\\94実行\\正式54場\\2026-09-24_Night.json": "4f9c6972d7f846269031207b878bbb1924df8442237bfbc53a9c77ddf2b5cbd2",
+    "work\\94実行\\正式54場\\2026-09-25_Day.json": "1df9720e07cff555276f563243e7d7ba06cf2ff96ceab50d648d6cbf9d55c859",
+    "work\\94実行\\正式54場\\2026-09-25_Night.json": "e53ccb79190cc653bf6e21415e33a7516528ebf7c475b9f6ececc908ec10e4c1",
+    "work\\94実行\\正式54場\\2026-09-28_Day.json": "3a716706385d370d27accf2e515dc04bc71dfd4decbc6a55497689270fb49aaf",
+    "work\\94実行\\正式54場\\2026-09-28_Night.json": "f04c9118906eb7c2a81570cd94aa96019521b505c7c232d09bd90f5ba6a181c6",
+    "work\\94実行\\正式54場\\2026-09-29_Day.json": "a4807f339036224518487c593ad3000d2ca3e7ee2579317f5e6e8b3f4813be70",
+    "work\\94実行\\正式54場\\2026-09-29_Night.json": "e1fab6d8a0d595148506fcff1e3b202fbd6d4f9aa61b38f07b4f9fcd595ee074",
+    "work\\94実行\\正式54場\\2026-09-30_Day.json": "a310bd7909699da177dd4afcae623c080bcafde49a0ec5b0a6905f1457b97ae4",
+    "work\\94実行\\正式54場\\2026-09-30_Night.json": "5e0ae6f88e0d4d080128e2b65fc0e9cff5f99b4168a4fa8ebb41c933ae501992",
+    "work\\94実行\\正式54場\\2026-10-01_Day.json": "01cf05a84e87f9839b18f73dbf68576d074805facd1929b2cb9ab15644fc91a1",
+    "work\\94実行\\正式54場\\2026-10-01_Night.json": "6b7f3f35ee5eae8982214b52296077e03dc03508733681a031b8a8903b687ac4",
+    "work\\94実行\\正式54場\\2026-10-02_Day.json": "70f816bffb0e401e32ec4c9c8db3b159cf4ffdc2811d3c8fefb137dc5b4df340",
+    "work\\94実行\\正式54場\\2026-10-02_Night.json": "33eeef03a2aa5fc6e9f84a419ea4ef10a275965dedeba8f09491b56f9bc7cd4e",
+    "work\\94実行\\正式54場\\2026-10-05_Day.json": "4ac92bc0d62bdca0a367d154452d5b97121438a648c74bde48d550e91dae56a0",
+    "work\\94実行\\正式54場\\2026-10-05_Night.json": "a7926517afad702f3ae12d4eee6d92a259d8c25e7ef5bb0baa5572df85d6e6aa",
+    "work\\94実行\\正式54場\\2026-10-06_Day.json": "f70ec38e6589b7c3051016c2fcd06081d3a360a02aae72d134f6c1acaa392d9a",
+    "work\\94実行\\正式54場\\2026-10-06_Night.json": "6fa5a782ab5014bec9fa7f4908473cefb7fe57a37dbcd03ee77c097d87e83dd8",
+    "work\\94実行\\正式54場\\2026-10-07_Day.json": "58e94e9ada9dc1479b97ede70de7c9d70af96a45b0135601718188b1d97f8625",
+    "work\\94実行\\正式54場\\2026-10-07_Night.json": "96214577eb8ef9910fe5589bbe3748fff5b3d3e751f957765c4399e885b22e30",
+    "work\\94実行\\正式54場\\2026-10-08_Day.json": "bee93344307b547f5c9fcf50c968c328787b7b969ebd0f76af7eefe9b05fba8e",
+    "work\\94実行\\正式54場\\2026-10-08_Night.json": "4caf4411ddbb849514583c396fdfc2e1c0a5648ff1e0fe2d526bb3253deaa6c0",
+    "work\\94実行\\正式54場\\2026-10-09_Day.json": "b9ed5cc2be23791572512ba6a359c820baa50d97ff2d300ee004092cab499732",
+    "work\\94実行\\正式54場\\2026-10-09_Night.json": "dd1de739cd57bb94e83e80c3d24e5d6d28664e0fbd44dc7ef35ff62761f67db7",
+    "work\\94実行\\正式54場\\2026-10-12_Day.json": "5ed663acc4d7e8901db67d67d6f21c6867a237868e21ccd305e684a635979003",
+    "work\\94実行\\正式54場\\2026-10-12_Night.json": "b2339e23c0c3f28034a362b2822b4bd7739fe16656692830c10292b65ec46a48",
+    "work\\94実行\\正式54場\\2026-10-13_Day.json": "dc735b77f06732c17098b1a592f398923aa9abf9f82fff1a306478d2c9d1aa3c",
+    "work\\94実行\\正式54場\\2026-10-13_Night.json": "351f74dd73830a9523b75947430672267dc1fd05781e3227d66c2c9866ec617a",
+    "work\\94実行\\正式54場\\2026-10-14_Day.json": "d365dcc443184fd9f6587f9795f5b615d726bead3218dff60e2a5093db3ddb10",
+    "work\\94実行\\正式54場\\2026-10-14_Night.json": "463f532bf713fd2bbdcbfebce29249dfbda9e39234ffb0ca37427cd589d65b71",
+    "work\\94実行\\正式54場\\2026-10-15_Day.json": "6608833fe726c5d1e4c9d73f7f7fde78806cf3e84b1ca816feb4e9486126414b",
+    "work\\94実行\\正式54場\\2026-10-15_Night.json": "53b0d332c1bd373b0f20a45867ffbaa8cbae236b7c606aa9ecc49209bc66f3fb",
+    "work\\94実行\\正式54場\\2026-10-16_Day.json": "dc5f6551f1d395cee4d417b06f02a59a1906be47832ca231543ac09baf3fb7b6",
+    "work\\94実行\\正式54場\\2026-10-16_Night.json": "a8e7edb952aa09610715a41e2363c25efa4f24b1d84990cf094520b9e2f97e55",
+    "work\\94実行\\正式54場\\2026-10-19_Day.json": "5110c30d09b363f579914e36e356d2b8fd30c518db3de5ff877dfe4446631dce",
+    "work\\94実行\\正式54場\\2026-10-19_Night.json": "b17e08e7ae0b76d307a1a677b6e8ffdcc094313703f665785d384657ebf43c71",
+    "work\\94実行\\正式54場\\2026-10-20_Day.json": "96df5a3c63e99245ad6b913ed63c46bd507908c6ef181000d00e6f7601e5eea8",
+    "work\\94実行\\正式54場\\2026-10-20_Night.json": "ee379ec2c1749dad2dd205421a02648ea97a25b81f5cb5bb5d1f5c57cfdc9140",
+    "work\\94実行\\正式54場\\2026-10-21_Day.json": "3bf038f6e4b15cd524108663f29ed6166a8ba9b2ddf332d5349c5da917d7b982",
+    "work\\94実行\\正式54場\\2026-10-21_Night.json": "0a8ccc5756a9ee4cb438178c5253af7f7d12547edb61670c83e20f7ba2ba908a",
+    "work\\94実行\\正式54場\\2026-10-22_Day.json": "bdbd1f702709b10199f6b855641ded6f0b4541d65428d246ec7daa5409bead8f",
+    "work\\94実行\\正式54場\\2026-10-22_Night.json": "2d6f52f5a8cafe8855e3df05bcf89401e2248df8605418589670665d41916d4b",
+    "work\\94実行\\正式54場\\2026-10-23_Day.json": "964fdccfaca0c57115889c4c7d19b8b603a93b620632d757b97ae9833c55cb63",
+    "work\\94実行\\正式54場\\2026-10-23_Night.json": "7b32029e46f14db950bf583d303d4651390f13088f02241611c2e64d6d8fe432",
+    "work\\94実行\\正式54場\\2026-10-26_Day.json": "b83af83cddafb385ab1bec998ab3001f1513b9bbc9815967808db9c0e5b7c735",
+    "work\\94実行\\正式54場\\2026-10-26_Night.json": "ce22184b370d56ac61f0c2ed6a999f0781a578c61fc18e2dc8d6b70264f6c416",
+    "work\\94実行\\正式54場\\2026-10-27_Day.json": "5b456b4898d2d4f09c807029818689720420ed16ae1a0d4d7269c50bae9d289e",
+    "work\\94実行\\正式54場\\2026-10-27_Night.json": "b0c08922b37ba804863aa4becb142d58ef91d79dc45d5227ecff6692285d06d4"
+  },
+  "入力前後不変": true
+}

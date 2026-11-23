@@ -1,0 +1,91 @@
+{
+  "試行": 95,
+  "成功": true,
+  "記録日時": "2026-11-08T14:08:15.396821+09:00",
+  "段階": "全54場の保存集計。金融と原板監査の再生変更ではない",
+  "初回エラー": "ValueError: grid new予約量: 0 != 5",
+  "原因": "連続Nの同じ価格秒で、grid後の原行に出生した予約をgrid前の予約へ加えていた",
+  "訂正": "time/Index/物理行とForce→grid→原行の位相を用いる。Nの後原行を除き、Bの当枠受理は含める",
+  "訂正証拠SHA256": "2de4245b0d0132348cca1c88c5b70024dc2d12907ab0d443e60c76f338a7e662",
+  "訂正証拠": {
+    "成功": true,
+    "旧SHA256": "83fa8815f5115d7440f130fadf46f53e3e9976aa70b668c9a36d6340b619fbe2",
+    "新SHA256": "193acf7f0ddcd6b532b52d7ac7a105e2a1f61905bb97368dfeb79c177c5f5395",
+    "初回差": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Python案\\旧83fa_同時計予約\\初回不一致.json",
+      "sha256": "d5c7554ffea8e08ea7ccb484a6d04c25aae5cd3c359c51eb6526181950b5c6b7",
+      "session": "2026-09-25_Night",
+      "key": "P0_C0_D0",
+      "at": 1790344800,
+      "saved": 0,
+      "旧期待": 5
+    },
+    "限定Go型出典": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95Actual人工\\停止版\\買い.json",
+      "sha256": "c27f6e8e5ae6f5ab58741fd64743d4ad379c768ef687c37a8cf196139295d84e"
+    },
+    "狭い検査数": 15,
+    "検査": [
+      "N同秒の後原行出生は枠に含めない",
+      "N過去受理は残す",
+      "N同秒でも公開済み原行なら含める",
+      "B5当枠受理を枠終了予約へ含める",
+      "B5未来枠受理は含めない",
+      "B5Q当枠受理を枠終了予約へ含める",
+      "B5Q未来枠受理は含めない",
+      "Force起源の旧原行通知は同時計grid前",
+      "quote起源の後原行通知は同時計grid後",
+      "Index等号だけでは物理行超過を公開済みにしない",
+      "先行受理5の未取得予約",
+      "後原行取消を枠前予約に混ぜない",
+      "枠前Force取消を当時予約から除く",
+      "初回差の実口座が全保存検査へ接続",
+      "予約量破損をsession/key/grid付きで拒否"
+    ],
+    "失敗口座の再接続": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\95実行\\正式54場\\2026-09-25_Night.json",
+      "sha256": "c2617d700030398569a1bff99a2d533927d3a96d8ddabc1be5322e1e2c2af0b9"
+    },
+    "訂正範囲": "grid受理のN原行/B枠位相と同時計通知のtime/Index/物理行。金融算術/予約検査のdisableなし。",
+    "再売買": 0,
+    "原板読取": 0,
+    "金融条件Native変更": 0,
+    "既存関数変更": [
+      "event_before",
+      "verify_grid"
+    ],
+    "追加関数": [
+      "accepted_entries_at_grid"
+    ],
+    "他関数AST不変": [
+      "Baseline94",
+      "analyze_saved",
+      "available_at",
+      "clock_delta",
+      "key_config",
+      "main",
+      "pending_quantity",
+      "project94",
+      "render",
+      "source_at",
+      "verify_book",
+      "verify_grid_columns",
+      "verify_grid_prefix",
+      "verify_source_b",
+      "viewer_trades"
+    ],
+    "初回CLI失敗": {
+      "観測": "Rootから通知された保存会計の終了非0",
+      "エラー": "ValueError: grid new予約量: 0 != 5",
+      "stderr生ログ別保存": "本担当は保存元を仮定しない。再現差の元Native出典を別保存した。"
+    }
+  },
+  "固定金融条件SHA256": "69c4b14e5be2198366875fc67b35c675be861c4047df7131d4a4b494d1e58006",
+  "固定金融15ファイル不変": true,
+  "金融モデル/閾値変更": false,
+  "訂正のための約定再生成": 0,
+  "訂正のための原板再走査": 0,
+  "訂正後全54保存集計終了": 0,
+  "訂正後結果SHA256": "ef73bd93aff40228c37b51ed0c6f8010ecc7871c6658fea6848c8f6fa6c1142f",
+  "初回stderr別ファイル": false
+}
