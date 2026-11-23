@@ -1,0 +1,2902 @@
+{
+  "成功": true,
+  "対象": "E1G1_D0",
+  "確認時刻UTC": "2026-11-07T21:20:24.245269+00:00",
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00089_最低建値床を共通にした収穫配分の比較\\成果物\\定時判断.jsonl.gz": "52d3ea80c89566053c731e8443922636a8cda102a8b3d899f86b1e9ea854e6d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00089_最低建値床を共通にした収穫配分の比較\\成果物\\参照判断と通知効果.jsonl.gz": "387d695f9ed3b279958cd3dbeb62bc89ba2109defcb1f9049aa85ce3545c7245",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00089_最低建値床を共通にした収穫配分の比較\\成果物\\取引診断.jsonl.gz": "c884f921cbb3072546f2989cdc6e8f341f1bc7bc33d653bc22fd96f69b73689e"
+  },
+  "コードSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\新しい再開と恒久seenの観測.py": "113e47229c0942c6ac46dee8ad288a1fb4659a0938f10a4de7f5682b85106041",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\再開価格構造の事後観測.py": "f060420401bbc3315f92a622d66a6c7a097b214aab210d28f60fd2ecaeeabe73"
+  },
+  "人工": {
+    "成功": true,
+    "照合数": 7,
+    "対象": [
+      "同秒後Lineの未来返済除外",
+      "同原行eventはfill前",
+      "公開前後",
+      "当時までに取消のみ",
+      "将来取消は当時pending"
+    ]
+  },
+  "母数": {
+    "新規要求binding": 33,
+    "全定時": 2442,
+    "時計許可定時": 2376,
+    "時計許可かつ占有なし定時": 2375,
+    "時計許可かつ占有なし外E1成立定時": 168,
+    "時計許可かつ占有なし外E1許可raw候補": 58
+  },
+  "全金融候補の保存理由": {
+    "参照現在量以内の初参加要求": 33,
+    "同枠の先行参照玉を採用済み": 4,
+    "同じ参照HoldIDへ再参加しない": 19,
+    "参照返済予約あり": 2
+  },
+  "全seen候補のgate分布": {
+    "{\"closing\": false, \"保存拒否理由\": \"同じ参照HoldIDへ再参加しない\", \"占有なし\": true, \"外E1許可\": true, \"時計許可\": true}": 19
+  },
+  "主観測": {
+    "候補出現数": 19,
+    "該当定時数": 14,
+    "一意参照HoldID_eventID数": 19,
+    "一意nativeSourceID_eventID数": 19,
+    "一意参照HoldID数": 11,
+    "eventID相違": 19,
+    "四点全て相違": 19,
+    "前回状態": {
+      "実玉返済済": 19,
+      "取消のみ": 0,
+      "未約定pending": 0,
+      "実玉又は未約定残あり": 0
+    },
+    "前回費用後実確定符号": {
+      "<=0": 15,
+      ">0": 4
+    },
+    "前回strict正益旗後": 4,
+    "前回全玉正益旗後": 4,
+    "前回部分利確済": 4,
+    "前回全返済後のk公開": 19,
+    "前回全返済後のp公開": 19,
+    "同枠会計判断": {
+      "新規要求": 3,
+      "待ち": 16
+    },
+    "先行順位の他参照採用": 0,
+    "品質関連未知": 0,
+    "全返済後p_k公開かつ前回実確定正": 4,
+    "一意今回event数": 14,
+    "前回全返済後のi公開": 16,
+    "iは返済前だがp_r_kは返済後": 3,
+    "同枠会計判断別の一意定時数": {
+      "待ち": 11,
+      "新規要求": 3
+    },
+    "前回一意実玉数": 11,
+    "前回一意実玉の費用後実確定符号": {
+      "<=0": 7,
+      ">0": 4
+    },
+    "前回一意実玉のstrict正益旗後": 4,
+    "Source生存かつclosingなし": 19,
+    "Source気配当時性成立": 19
+  },
+  "全該当出現": [
+    {
+      "session": "2026-09-25_Day",
+      "book_key": "E1G1_D0",
+      "at": 1790305200,
+      "reference_id_seenキー": "80参照-D164_15-2026-09-25_Day-NK225micro-D164_15-000001-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-09-25_Day-NK225mini-addon-000001",
+      "side": 1,
+      "Source当時枚数": 5,
+      "Source_kind": "initial",
+      "Source_at": 1790298345,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000060_S1",
+      "今回event_id": "E000065_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 53,
+          "bar_end": 1790302860,
+          "published_at": 1790302860,
+          "ordinal": 52395,
+          "close": 66120
+        },
+        "p": {
+          "observation_id": 59,
+          "bar_end": 1790303940,
+          "published_at": 1790303940,
+          "ordinal": 56301,
+          "close": 66060
+        },
+        "r": {
+          "observation_id": 60,
+          "bar_end": 1790304120,
+          "published_at": 1790304120,
+          "ordinal": 56778,
+          "close": 66090
+        },
+        "k": {
+          "observation_id": 60,
+          "bar_end": 1790304120,
+          "published_at": 1790304120,
+          "ordinal": 56778,
+          "close": 66090
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 60,
+          "bar_end": 1790304120,
+          "published_at": 1790304120,
+          "ordinal": 56778,
+          "close": 66090
+        },
+        "p": {
+          "observation_id": 64,
+          "bar_end": 1790304840,
+          "published_at": 1790304840,
+          "ordinal": 58627,
+          "close": 66060
+        },
+        "r": {
+          "observation_id": 65,
+          "bar_end": 1790305020,
+          "published_at": 1790305020,
+          "ordinal": 59034,
+          "close": 66100
+        },
+        "k": {
+          "observation_id": 65,
+          "bar_end": 1790305020,
+          "published_at": 1790305020,
+          "ordinal": 59034,
+          "close": 66100
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済前",
+          "返済後公開": false,
+          "公開秒差": -293
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 427
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 607
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 607
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-09-25_Day_S0G1_O000001",
+        "前回position_id": "2026-09-25_Day_S0G1_P000001",
+        "前回要求時計": 1790304300,
+        "前回要求枚数": 5,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 5,
+        "当時までの返済枚数": 5,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -3610,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1790304413,
+        "最後の返済片": {
+          "exit_time": 1790304413,
+          "exit_line": 57964,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": true,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "新規要求",
+      "同枠の別採用reference_id": "80参照-D164_15-2026-09-25_Day-NK225micro-D164_15-000002-玉"
+    },
+    {
+      "session": "2026-09-25_Day",
+      "book_key": "E1G1_D0",
+      "at": 1790306100,
+      "reference_id_seenキー": "80参照-D164_15-2026-09-25_Day-NK225micro-D164_15-000001-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-09-25_Day-NK225mini-addon-000001",
+      "side": 1,
+      "Source当時枚数": 5,
+      "Source_kind": "initial",
+      "Source_at": 1790298345,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000060_S1",
+      "今回event_id": "E000069_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 53,
+          "bar_end": 1790302860,
+          "published_at": 1790302860,
+          "ordinal": 52395,
+          "close": 66120
+        },
+        "p": {
+          "observation_id": 59,
+          "bar_end": 1790303940,
+          "published_at": 1790303940,
+          "ordinal": 56301,
+          "close": 66060
+        },
+        "r": {
+          "observation_id": 60,
+          "bar_end": 1790304120,
+          "published_at": 1790304120,
+          "ordinal": 56778,
+          "close": 66090
+        },
+        "k": {
+          "observation_id": 60,
+          "bar_end": 1790304120,
+          "published_at": 1790304120,
+          "ordinal": 56778,
+          "close": 66090
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 65,
+          "bar_end": 1790305020,
+          "published_at": 1790305020,
+          "ordinal": 59034,
+          "close": 66100
+        },
+        "p": {
+          "observation_id": 68,
+          "bar_end": 1790305560,
+          "published_at": 1790305560,
+          "ordinal": 60272,
+          "close": 66080
+        },
+        "r": {
+          "observation_id": 69,
+          "bar_end": 1790305740,
+          "published_at": 1790305740,
+          "ordinal": 60670,
+          "close": 66110
+        },
+        "k": {
+          "observation_id": 69,
+          "bar_end": 1790305740,
+          "published_at": 1790305740,
+          "ordinal": 60670,
+          "close": 66110
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 607
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1147
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1327
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1327
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-09-25_Day_S0G1_O000001",
+        "前回position_id": "2026-09-25_Day_S0G1_P000001",
+        "前回要求時計": 1790304300,
+        "前回要求枚数": 5,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 5,
+        "当時までの返済枚数": 5,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -3610,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1790304413,
+        "最後の返済片": {
+          "exit_time": 1790304413,
+          "exit_line": 57964,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-09-25_Day",
+      "book_key": "E1G1_D0",
+      "at": 1790306100,
+      "reference_id_seenキー": "80参照-D164_15-2026-09-25_Day-NK225micro-D164_15-000002-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-09-25_Day-NK225mini-addon-000002",
+      "side": 1,
+      "Source当時枚数": 5,
+      "Source_kind": "source_add",
+      "Source_at": 1790298483,
+      "raw_rank": 2,
+      "supplied_rank": 2,
+      "前回event_id": "E000065_S1",
+      "今回event_id": "E000069_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 60,
+          "bar_end": 1790304120,
+          "published_at": 1790304120,
+          "ordinal": 56778,
+          "close": 66090
+        },
+        "p": {
+          "observation_id": 64,
+          "bar_end": 1790304840,
+          "published_at": 1790304840,
+          "ordinal": 58627,
+          "close": 66060
+        },
+        "r": {
+          "observation_id": 65,
+          "bar_end": 1790305020,
+          "published_at": 1790305020,
+          "ordinal": 59034,
+          "close": 66100
+        },
+        "k": {
+          "observation_id": 65,
+          "bar_end": 1790305020,
+          "published_at": 1790305020,
+          "ordinal": 59034,
+          "close": 66100
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 65,
+          "bar_end": 1790305020,
+          "published_at": 1790305020,
+          "ordinal": 59034,
+          "close": 66100
+        },
+        "p": {
+          "observation_id": 68,
+          "bar_end": 1790305560,
+          "published_at": 1790305560,
+          "ordinal": 60272,
+          "close": 66080
+        },
+        "r": {
+          "observation_id": 69,
+          "bar_end": 1790305740,
+          "published_at": 1790305740,
+          "ordinal": 60670,
+          "close": 66110
+        },
+        "k": {
+          "observation_id": 69,
+          "bar_end": 1790305740,
+          "published_at": 1790305740,
+          "ordinal": 60670,
+          "close": 66110
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済前",
+          "返済後公開": false,
+          "公開秒差": -291
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 249
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 429
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 429
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-09-25_Day_S0G1_O000003",
+        "前回position_id": "2026-09-25_Day_S0G1_P000002",
+        "前回要求時計": 1790305200,
+        "前回要求枚数": 5,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 5,
+        "当時までの返済枚数": 5,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -3610,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1790305311,
+        "最後の返済片": {
+          "exit_time": 1790305311,
+          "exit_line": 60052,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-09-30_Day",
+      "book_key": "E1G1_D0",
+      "at": 1790746200,
+      "reference_id_seenキー": "80参照-D164_15-2026-09-30_Day-NK225micro-D164_15-000006-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-09-30_Day-NK225mini-core-000008",
+      "side": 1,
+      "Source当時枚数": 2,
+      "Source_kind": "initial",
+      "Source_at": 1790737228,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000076_S1",
+      "今回event_id": "E000116_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 74,
+          "bar_end": 1790738640,
+          "published_at": 1790738640,
+          "ordinal": 71631,
+          "close": 66510
+        },
+        "p": {
+          "observation_id": 75,
+          "bar_end": 1790738820,
+          "published_at": 1790738820,
+          "ordinal": 72272,
+          "close": 66480
+        },
+        "r": {
+          "observation_id": 76,
+          "bar_end": 1790739000,
+          "published_at": 1790739000,
+          "ordinal": 72856,
+          "close": 66490
+        },
+        "k": {
+          "observation_id": 76,
+          "bar_end": 1790739000,
+          "published_at": 1790739000,
+          "ordinal": 72856,
+          "close": 66490
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 114,
+          "bar_end": 1790745840,
+          "published_at": 1790745840,
+          "ordinal": 106977,
+          "close": 66950
+        },
+        "p": {
+          "observation_id": 115,
+          "bar_end": 1790746020,
+          "published_at": 1790746020,
+          "ordinal": 107917,
+          "close": 66910
+        },
+        "r": {
+          "observation_id": 116,
+          "bar_end": 1790746200,
+          "published_at": 1790746200,
+          "ordinal": 108799,
+          "close": 66960
+        },
+        "k": {
+          "observation_id": 116,
+          "bar_end": 1790746200,
+          "published_at": 1790746200,
+          "ordinal": 108799,
+          "close": 66960
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6510
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6690
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6870
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6870
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-09-30_Day_S0G1_O000001",
+        "前回position_id": "2026-09-30_Day_S0G1_P000001",
+        "前回要求時計": 1790739000,
+        "前回要求枚数": 10,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 10,
+        "当時までの返済枚数": 10,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": 2580,
+        "実確定符号": ">0",
+        "前回strict正益旗を観測済": true,
+        "前回全玉正益旗を観測済": true,
+        "返済完了時計": 1790739330,
+        "最後の返済片": {
+          "exit_time": 1790739330,
+          "exit_line": 75832,
+          "reason": "G1確定益予算・ATR追尾"
+        },
+        "部分利確済枚数": 8
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-15_Night",
+      "book_key": "E1G1_D0",
+      "at": 1792095300,
+      "reference_id_seenキー": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000007-玉",
+      "native_source_id": "80参照-U165_03-選定源-2026-10-15_Night-NK225mini-episode-000007",
+      "side": 1,
+      "Source当時枚数": 10,
+      "Source_kind": "initial",
+      "Source_at": 1792079838,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000172_S1",
+      "今回event_id": "E000245_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 169,
+          "bar_end": 1792081440,
+          "published_at": 1792081440,
+          "ordinal": 154618,
+          "close": 65310
+        },
+        "p": {
+          "observation_id": 171,
+          "bar_end": 1792081800,
+          "published_at": 1792081800,
+          "ordinal": 156332,
+          "close": 65290
+        },
+        "r": {
+          "observation_id": 172,
+          "bar_end": 1792081980,
+          "published_at": 1792081980,
+          "ordinal": 157278,
+          "close": 65300
+        },
+        "k": {
+          "observation_id": 172,
+          "bar_end": 1792081980,
+          "published_at": 1792081980,
+          "ordinal": 157278,
+          "close": 65300
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 211,
+          "bar_end": 1792089000,
+          "published_at": 1792089000,
+          "ordinal": 185968,
+          "close": 65490
+        },
+        "p": {
+          "observation_id": 244,
+          "bar_end": 1792094940,
+          "published_at": 1792094940,
+          "ordinal": 206053,
+          "close": 65780
+        },
+        "r": {
+          "observation_id": 245,
+          "bar_end": 1792095120,
+          "published_at": 1792095120,
+          "ordinal": 206099,
+          "close": 65810
+        },
+        "k": {
+          "observation_id": 245,
+          "bar_end": 1792095120,
+          "published_at": 1792095120,
+          "ordinal": 206099,
+          "close": 65810
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6180
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 12120
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 12300
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 12300
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-15_Night_S0G1_O000001",
+        "前回position_id": "2026-10-15_Night_S0G1_P000001",
+        "前回要求時計": 1792082700,
+        "前回要求枚数": 10,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 10,
+        "当時までの返済枚数": 10,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -7220,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792082820,
+        "最後の返済片": {
+          "exit_time": 1792082820,
+          "exit_line": 162180,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": true,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "新規要求",
+      "同枠の別採用reference_id": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000010-玉"
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792377900,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-addon-000002",
+      "side": 1,
+      "Source当時枚数": 24,
+      "Source_kind": "initial",
+      "Source_at": 1792370514,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000047_S1",
+      "今回event_id": "E000061_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 32,
+          "bar_end": 1792372680,
+          "published_at": 1792372680,
+          "ordinal": 45257,
+          "close": 64670
+        },
+        "p": {
+          "observation_id": 46,
+          "bar_end": 1792375200,
+          "published_at": 1792375200,
+          "ordinal": 63485,
+          "close": 64540
+        },
+        "r": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        },
+        "k": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 57,
+          "bar_end": 1792377180,
+          "published_at": 1792377180,
+          "ordinal": 76244,
+          "close": 64720
+        },
+        "p": {
+          "observation_id": 60,
+          "bar_end": 1792377720,
+          "published_at": 1792377720,
+          "ordinal": 78705,
+          "close": 64700
+        },
+        "r": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        },
+        "k": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 515
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1055
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1235
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1235
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000001",
+        "前回position_id": "2026-10-19_Day_S0G1_P000001",
+        "前回要求時計": 1792376100,
+        "前回要求枚数": 24,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 24,
+        "当時までの返済枚数": 24,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -29328,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792376665,
+        "最後の返済片": {
+          "exit_time": 1792376665,
+          "exit_line": 73915,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": true,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "新規要求",
+      "同枠の別採用reference_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000008-玉"
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792381500,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-addon-000002",
+      "side": 1,
+      "Source当時枚数": 24,
+      "Source_kind": "initial",
+      "Source_at": 1792370514,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000047_S1",
+      "今回event_id": "E000081_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 32,
+          "bar_end": 1792372680,
+          "published_at": 1792372680,
+          "ordinal": 45257,
+          "close": 64670
+        },
+        "p": {
+          "observation_id": 46,
+          "bar_end": 1792375200,
+          "published_at": 1792375200,
+          "ordinal": 63485,
+          "close": 64540
+        },
+        "r": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        },
+        "k": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 69,
+          "bar_end": 1792379340,
+          "published_at": 1792379340,
+          "ordinal": 85163,
+          "close": 64770
+        },
+        "p": {
+          "observation_id": 79,
+          "bar_end": 1792381140,
+          "published_at": 1792381140,
+          "ordinal": 93579,
+          "close": 64860
+        },
+        "r": {
+          "observation_id": 80,
+          "bar_end": 1792381320,
+          "published_at": 1792381320,
+          "ordinal": 94731,
+          "close": 64890
+        },
+        "k": {
+          "observation_id": 81,
+          "bar_end": 1792381500,
+          "published_at": 1792381500,
+          "ordinal": 95832,
+          "close": 64930
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 2675
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 4475
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 4655
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 4835
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000001",
+        "前回position_id": "2026-10-19_Day_S0G1_P000001",
+        "前回要求時計": 1792376100,
+        "前回要求枚数": 24,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 24,
+        "当時までの返済枚数": 24,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -29328,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792376665,
+        "最後の返済片": {
+          "exit_time": 1792376665,
+          "exit_line": 73915,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792381500,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000008-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-core-000008",
+      "side": 1,
+      "Source当時枚数": 39,
+      "Source_kind": "delayed_initial",
+      "Source_at": 1792372253,
+      "raw_rank": 2,
+      "supplied_rank": 2,
+      "前回event_id": "E000061_S1",
+      "今回event_id": "E000081_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 57,
+          "bar_end": 1792377180,
+          "published_at": 1792377180,
+          "ordinal": 76244,
+          "close": 64720
+        },
+        "p": {
+          "observation_id": 60,
+          "bar_end": 1792377720,
+          "published_at": 1792377720,
+          "ordinal": 78705,
+          "close": 64700
+        },
+        "r": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        },
+        "k": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 69,
+          "bar_end": 1792379340,
+          "published_at": 1792379340,
+          "ordinal": 85163,
+          "close": 64770
+        },
+        "p": {
+          "observation_id": 79,
+          "bar_end": 1792381140,
+          "published_at": 1792381140,
+          "ordinal": 93579,
+          "close": 64860
+        },
+        "r": {
+          "observation_id": 80,
+          "bar_end": 1792381320,
+          "published_at": 1792381320,
+          "ordinal": 94731,
+          "close": 64890
+        },
+        "k": {
+          "observation_id": 81,
+          "bar_end": 1792381500,
+          "published_at": 1792381500,
+          "ordinal": 95832,
+          "close": 64930
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1260
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 3060
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 3240
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 3420
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000003",
+        "前回position_id": "2026-10-19_Day_S0G1_P000002",
+        "前回要求時計": 1792377900,
+        "前回要求枚数": 39,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 39,
+        "当時までの返済枚数": 39,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -32058,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792378080,
+        "最後の返済片": {
+          "exit_time": 1792378080,
+          "exit_line": 80883,
+          "reason": "確定3分技法失敗"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792383300,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-addon-000002",
+      "side": 1,
+      "Source当時枚数": 24,
+      "Source_kind": "initial",
+      "Source_at": 1792370514,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000047_S1",
+      "今回event_id": "E000091_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 32,
+          "bar_end": 1792372680,
+          "published_at": 1792372680,
+          "ordinal": 45257,
+          "close": 64670
+        },
+        "p": {
+          "observation_id": 46,
+          "bar_end": 1792375200,
+          "published_at": 1792375200,
+          "ordinal": 63485,
+          "close": 64540
+        },
+        "r": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        },
+        "k": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 81,
+          "bar_end": 1792381500,
+          "published_at": 1792381500,
+          "ordinal": 95832,
+          "close": 64930
+        },
+        "p": {
+          "observation_id": 90,
+          "bar_end": 1792383120,
+          "published_at": 1792383120,
+          "ordinal": 105281,
+          "close": 64890
+        },
+        "r": {
+          "observation_id": 91,
+          "bar_end": 1792383300,
+          "published_at": 1792383300,
+          "ordinal": 106271,
+          "close": 64920
+        },
+        "k": {
+          "observation_id": 91,
+          "bar_end": 1792383300,
+          "published_at": 1792383300,
+          "ordinal": 106271,
+          "close": 64920
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 4835
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6455
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6635
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6635
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000001",
+        "前回position_id": "2026-10-19_Day_S0G1_P000001",
+        "前回要求時計": 1792376100,
+        "前回要求枚数": 24,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 24,
+        "当時までの返済枚数": 24,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -29328,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792376665,
+        "最後の返済片": {
+          "exit_time": 1792376665,
+          "exit_line": 73915,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792383300,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000008-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-core-000008",
+      "side": 1,
+      "Source当時枚数": 39,
+      "Source_kind": "delayed_initial",
+      "Source_at": 1792372253,
+      "raw_rank": 2,
+      "supplied_rank": 2,
+      "前回event_id": "E000061_S1",
+      "今回event_id": "E000091_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 57,
+          "bar_end": 1792377180,
+          "published_at": 1792377180,
+          "ordinal": 76244,
+          "close": 64720
+        },
+        "p": {
+          "observation_id": 60,
+          "bar_end": 1792377720,
+          "published_at": 1792377720,
+          "ordinal": 78705,
+          "close": 64700
+        },
+        "r": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        },
+        "k": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 81,
+          "bar_end": 1792381500,
+          "published_at": 1792381500,
+          "ordinal": 95832,
+          "close": 64930
+        },
+        "p": {
+          "observation_id": 90,
+          "bar_end": 1792383120,
+          "published_at": 1792383120,
+          "ordinal": 105281,
+          "close": 64890
+        },
+        "r": {
+          "observation_id": 91,
+          "bar_end": 1792383300,
+          "published_at": 1792383300,
+          "ordinal": 106271,
+          "close": 64920
+        },
+        "k": {
+          "observation_id": 91,
+          "bar_end": 1792383300,
+          "published_at": 1792383300,
+          "ordinal": 106271,
+          "close": 64920
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 3420
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 5040
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 5220
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 5220
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000003",
+        "前回position_id": "2026-10-19_Day_S0G1_P000002",
+        "前回要求時計": 1792377900,
+        "前回要求枚数": 39,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 39,
+        "当時までの返済枚数": 39,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -32058,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792378080,
+        "最後の返済片": {
+          "exit_time": 1792378080,
+          "exit_line": 80883,
+          "reason": "確定3分技法失敗"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792386000,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-addon-000002",
+      "side": 1,
+      "Source当時枚数": 24,
+      "Source_kind": "initial",
+      "Source_at": 1792370514,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000047_S1",
+      "今回event_id": "E000104_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 32,
+          "bar_end": 1792372680,
+          "published_at": 1792372680,
+          "ordinal": 45257,
+          "close": 64670
+        },
+        "p": {
+          "observation_id": 46,
+          "bar_end": 1792375200,
+          "published_at": 1792375200,
+          "ordinal": 63485,
+          "close": 64540
+        },
+        "r": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        },
+        "k": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 96,
+          "bar_end": 1792384200,
+          "published_at": 1792384200,
+          "ordinal": 110939,
+          "close": 65010
+        },
+        "p": {
+          "observation_id": 103,
+          "bar_end": 1792385460,
+          "published_at": 1792385460,
+          "ordinal": 117950,
+          "close": 64960
+        },
+        "r": {
+          "observation_id": 104,
+          "bar_end": 1792385640,
+          "published_at": 1792385640,
+          "ordinal": 118949,
+          "close": 65000
+        },
+        "k": {
+          "observation_id": 104,
+          "bar_end": 1792385640,
+          "published_at": 1792385640,
+          "ordinal": 118949,
+          "close": 65000
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 7535
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 8795
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 8975
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 8975
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000001",
+        "前回position_id": "2026-10-19_Day_S0G1_P000001",
+        "前回要求時計": 1792376100,
+        "前回要求枚数": 24,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 24,
+        "当時までの返済枚数": 24,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -29328,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792376665,
+        "最後の返済片": {
+          "exit_time": 1792376665,
+          "exit_line": 73915,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792386000,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000008-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-core-000008",
+      "side": 1,
+      "Source当時枚数": 24,
+      "Source_kind": "delayed_initial",
+      "Source_at": 1792372253,
+      "raw_rank": 2,
+      "supplied_rank": 2,
+      "前回event_id": "E000061_S1",
+      "今回event_id": "E000104_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 57,
+          "bar_end": 1792377180,
+          "published_at": 1792377180,
+          "ordinal": 76244,
+          "close": 64720
+        },
+        "p": {
+          "observation_id": 60,
+          "bar_end": 1792377720,
+          "published_at": 1792377720,
+          "ordinal": 78705,
+          "close": 64700
+        },
+        "r": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        },
+        "k": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 96,
+          "bar_end": 1792384200,
+          "published_at": 1792384200,
+          "ordinal": 110939,
+          "close": 65010
+        },
+        "p": {
+          "observation_id": 103,
+          "bar_end": 1792385460,
+          "published_at": 1792385460,
+          "ordinal": 117950,
+          "close": 64960
+        },
+        "r": {
+          "observation_id": 104,
+          "bar_end": 1792385640,
+          "published_at": 1792385640,
+          "ordinal": 118949,
+          "close": 65000
+        },
+        "k": {
+          "observation_id": 104,
+          "bar_end": 1792385640,
+          "published_at": 1792385640,
+          "ordinal": 118949,
+          "close": 65000
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 6120
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 7380
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 7560
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 7560
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000003",
+        "前回position_id": "2026-10-19_Day_S0G1_P000002",
+        "前回要求時計": 1792377900,
+        "前回要求枚数": 39,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 39,
+        "当時までの返済枚数": 39,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -32058,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792378080,
+        "最後の返済片": {
+          "exit_time": 1792378080,
+          "exit_line": 80883,
+          "reason": "確定3分技法失敗"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792388700,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-addon-000002",
+      "side": 1,
+      "Source当時枚数": 24,
+      "Source_kind": "initial",
+      "Source_at": 1792370514,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000047_S1",
+      "今回event_id": "E000120_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 32,
+          "bar_end": 1792372680,
+          "published_at": 1792372680,
+          "ordinal": 45257,
+          "close": 64670
+        },
+        "p": {
+          "observation_id": 46,
+          "bar_end": 1792375200,
+          "published_at": 1792375200,
+          "ordinal": 63485,
+          "close": 64540
+        },
+        "r": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        },
+        "k": {
+          "observation_id": 47,
+          "bar_end": 1792375380,
+          "published_at": 1792375380,
+          "ordinal": 64799,
+          "close": 64640
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 116,
+          "bar_end": 1792387800,
+          "published_at": 1792387800,
+          "ordinal": 131742,
+          "close": 64960
+        },
+        "p": {
+          "observation_id": 119,
+          "bar_end": 1792388340,
+          "published_at": 1792388340,
+          "ordinal": 135325,
+          "close": 64960
+        },
+        "r": {
+          "observation_id": 120,
+          "bar_end": 1792388520,
+          "published_at": 1792388520,
+          "ordinal": 136451,
+          "close": 64980
+        },
+        "k": {
+          "observation_id": 120,
+          "bar_end": 1792388520,
+          "published_at": 1792388520,
+          "ordinal": 136451,
+          "close": 64980
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 11135
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 11675
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 11855
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 11855
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000001",
+        "前回position_id": "2026-10-19_Day_S0G1_P000001",
+        "前回要求時計": 1792376100,
+        "前回要求枚数": 24,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 24,
+        "当時までの返済枚数": 24,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -29328,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792376665,
+        "最後の返済片": {
+          "exit_time": 1792376665,
+          "exit_line": 73915,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-19_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792388700,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000008-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-19_Day-NK225mini-core-000008",
+      "side": 1,
+      "Source当時枚数": 24,
+      "Source_kind": "delayed_initial",
+      "Source_at": 1792372253,
+      "raw_rank": 2,
+      "supplied_rank": 2,
+      "前回event_id": "E000061_S1",
+      "今回event_id": "E000120_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 57,
+          "bar_end": 1792377180,
+          "published_at": 1792377180,
+          "ordinal": 76244,
+          "close": 64720
+        },
+        "p": {
+          "observation_id": 60,
+          "bar_end": 1792377720,
+          "published_at": 1792377720,
+          "ordinal": 78705,
+          "close": 64700
+        },
+        "r": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        },
+        "k": {
+          "observation_id": 61,
+          "bar_end": 1792377900,
+          "published_at": 1792377900,
+          "ordinal": 79441,
+          "close": 64750
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 116,
+          "bar_end": 1792387800,
+          "published_at": 1792387800,
+          "ordinal": 131742,
+          "close": 64960
+        },
+        "p": {
+          "observation_id": 119,
+          "bar_end": 1792388340,
+          "published_at": 1792388340,
+          "ordinal": 135325,
+          "close": 64960
+        },
+        "r": {
+          "observation_id": 120,
+          "bar_end": 1792388520,
+          "published_at": 1792388520,
+          "ordinal": 136451,
+          "close": 64980
+        },
+        "k": {
+          "observation_id": 120,
+          "bar_end": 1792388520,
+          "published_at": 1792388520,
+          "ordinal": 136451,
+          "close": 64980
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 9720
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 10260
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 10440
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 10440
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-19_Day_S0G1_O000003",
+        "前回position_id": "2026-10-19_Day_S0G1_P000002",
+        "前回要求時計": 1792377900,
+        "前回要求枚数": 39,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 39,
+        "当時までの返済枚数": 39,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -32058,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792378080,
+        "最後の返済片": {
+          "exit_time": 1792378080,
+          "exit_line": 80883,
+          "reason": "確定3分技法失敗"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-20_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792476000,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-20_Day-NK225micro-D164_15-000023-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-20_Day-NK225mini-core-000025",
+      "side": -1,
+      "Source当時枚数": 2,
+      "Source_kind": "delayed_initial",
+      "Source_at": 1792470274,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000094_S-1",
+      "今回event_id": "E000122_S-1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 74,
+          "bar_end": 1792466640,
+          "published_at": 1792466640,
+          "ordinal": 91792,
+          "close": 64540
+        },
+        "p": {
+          "observation_id": 93,
+          "bar_end": 1792470060,
+          "published_at": 1792470060,
+          "ordinal": 112305,
+          "close": 64430
+        },
+        "r": {
+          "observation_id": 94,
+          "bar_end": 1792470240,
+          "published_at": 1792470240,
+          "ordinal": 113480,
+          "close": 64370
+        },
+        "k": {
+          "observation_id": 94,
+          "bar_end": 1792470240,
+          "published_at": 1792470240,
+          "ordinal": 113480,
+          "close": 64370
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 118,
+          "bar_end": 1792474560,
+          "published_at": 1792474560,
+          "ordinal": 140950,
+          "close": 64090
+        },
+        "p": {
+          "observation_id": 121,
+          "bar_end": 1792475100,
+          "published_at": 1792475100,
+          "ordinal": 144694,
+          "close": 64180
+        },
+        "r": {
+          "observation_id": 122,
+          "bar_end": 1792475280,
+          "published_at": 1792475280,
+          "ordinal": 146057,
+          "close": 64120
+        },
+        "k": {
+          "observation_id": 122,
+          "bar_end": 1792475280,
+          "published_at": 1792475280,
+          "ordinal": 146057,
+          "close": 64120
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 3736
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 4276
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 4456
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 4456
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-20_Day_S0G1_O000001",
+        "前回position_id": "2026-10-20_Day_S0G1_P000001",
+        "前回要求時計": 1792470600,
+        "前回要求枚数": 10,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 10,
+        "当時までの返済枚数": 10,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -8220,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1792470824,
+        "最後の返済片": {
+          "exit_time": 1792470824,
+          "exit_line": 117925,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-20_Night",
+      "book_key": "E1G1_D0",
+      "at": 1792525500,
+      "reference_id_seenキー": "80参照-U165_03-2026-10-20_Night-NK225micro-U165_03-000013-玉",
+      "native_source_id": "80参照-U165_03-選定源-2026-10-20_Night-NK225mini-episode-000013",
+      "side": 1,
+      "Source当時枚数": 10,
+      "Source_kind": "initial",
+      "Source_at": 1792510601,
+      "raw_rank": 2,
+      "supplied_rank": 1,
+      "前回event_id": "E000155_S1",
+      "今回event_id": "E000236_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 121,
+          "bar_end": 1792504800,
+          "published_at": 1792504800,
+          "ordinal": 104749,
+          "close": 64470
+        },
+        "p": {
+          "observation_id": 154,
+          "bar_end": 1792510740,
+          "published_at": 1792510740,
+          "ordinal": 145655,
+          "close": 64850
+        },
+        "r": {
+          "observation_id": 155,
+          "bar_end": 1792510920,
+          "published_at": 1792510920,
+          "ordinal": 146807,
+          "close": 64970
+        },
+        "k": {
+          "observation_id": 155,
+          "bar_end": 1792510920,
+          "published_at": 1792510920,
+          "ordinal": 146807,
+          "close": 64970
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 232,
+          "bar_end": 1792524780,
+          "published_at": 1792524780,
+          "ordinal": 195256,
+          "close": 64960
+        },
+        "p": {
+          "observation_id": 235,
+          "bar_end": 1792525320,
+          "published_at": 1792525320,
+          "ordinal": 196913,
+          "close": 64930
+        },
+        "r": {
+          "observation_id": 236,
+          "bar_end": 1792525500,
+          "published_at": 1792525500,
+          "ordinal": 197295,
+          "close": 64950
+        },
+        "k": {
+          "observation_id": 236,
+          "bar_end": 1792525500,
+          "published_at": 1792525500,
+          "ordinal": 197295,
+          "close": 64950
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 12976
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 13516
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 13696
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 13696
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-20_Night_S0G1_O000001",
+        "前回position_id": "2026-10-20_Night_S0G1_P000001",
+        "前回要求時計": 1792511100,
+        "前回要求枚数": 10,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 10,
+        "当時までの返済枚数": 10,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": 380,
+        "実確定符号": ">0",
+        "前回strict正益旗を観測済": true,
+        "前回全玉正益旗を観測済": true,
+        "返済完了時計": 1792511804,
+        "最後の返済片": {
+          "exit_time": 1792511804,
+          "exit_line": 151845,
+          "reason": "G1確定益予算・ATR追尾"
+        },
+        "部分利確済枚数": 8
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-22_Day",
+      "book_key": "E1G1_D0",
+      "at": 1792646100,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-22_Day-NK225micro-D164_15-000004-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-22_Day-NK225mini-core-000006",
+      "side": -1,
+      "Source当時枚数": 7,
+      "Source_kind": "delayed_initial",
+      "Source_at": 1792631113,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000051_S-1",
+      "今回event_id": "E000110_S-1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 44,
+          "bar_end": 1792634040,
+          "published_at": 1792634040,
+          "ordinal": 56461,
+          "close": 64180
+        },
+        "p": {
+          "observation_id": 48,
+          "bar_end": 1792634760,
+          "published_at": 1792634760,
+          "ordinal": 61554,
+          "close": 64230
+        },
+        "r": {
+          "observation_id": 49,
+          "bar_end": 1792634940,
+          "published_at": 1792634940,
+          "ordinal": 62801,
+          "close": 64180
+        },
+        "k": {
+          "observation_id": 51,
+          "bar_end": 1792635300,
+          "published_at": 1792635300,
+          "ordinal": 65146,
+          "close": 64140
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 108,
+          "bar_end": 1792645560,
+          "published_at": 1792645560,
+          "ordinal": 129002,
+          "close": 63380
+        },
+        "p": {
+          "observation_id": 109,
+          "bar_end": 1792645740,
+          "published_at": 1792645740,
+          "ordinal": 130146,
+          "close": 63450
+        },
+        "r": {
+          "observation_id": 110,
+          "bar_end": 1792645920,
+          "published_at": 1792645920,
+          "ordinal": 131466,
+          "close": 63410
+        },
+        "k": {
+          "observation_id": 110,
+          "bar_end": 1792645920,
+          "published_at": 1792645920,
+          "ordinal": 131466,
+          "close": 63410
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 10214
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 10394
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 10574
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 10574
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-22_Day_S0G1_O000001",
+        "前回position_id": "2026-10-22_Day_S0G1_P000001",
+        "前回要求時計": 1792635300,
+        "前回要求枚数": 33,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 33,
+        "当時までの返済枚数": 33,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": 974,
+        "実確定符号": ">0",
+        "前回strict正益旗を観測済": true,
+        "前回全玉正益旗を観測済": true,
+        "返済完了時計": 1792635346,
+        "最後の返済片": {
+          "exit_time": 1792635346,
+          "exit_line": 66232,
+          "reason": "G1確定益予算・ATR追尾"
+        },
+        "部分利確済枚数": 25
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-27_Day",
+      "book_key": "E1G1_D0",
+      "at": 1793068200,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-27_Day-NK225micro-D164_15-000016-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-27_Day-NK225mini-addon-000016",
+      "side": 1,
+      "Source当時枚数": 12,
+      "Source_kind": "initial",
+      "Source_at": 1793067211,
+      "raw_rank": 3,
+      "supplied_rank": 1,
+      "前回event_id": "E000051_S1",
+      "今回event_id": "E000056_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 45,
+          "bar_end": 1793066220,
+          "published_at": 1793066220,
+          "ordinal": 59609,
+          "close": 63520
+        },
+        "p": {
+          "observation_id": 50,
+          "bar_end": 1793067120,
+          "published_at": 1793067120,
+          "ordinal": 66074,
+          "close": 63390
+        },
+        "r": {
+          "observation_id": 51,
+          "bar_end": 1793067300,
+          "published_at": 1793067300,
+          "ordinal": 67343,
+          "close": 63480
+        },
+        "k": {
+          "observation_id": 51,
+          "bar_end": 1793067300,
+          "published_at": 1793067300,
+          "ordinal": 67343,
+          "close": 63480
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 51,
+          "bar_end": 1793067300,
+          "published_at": 1793067300,
+          "ordinal": 67343,
+          "close": 63480
+        },
+        "p": {
+          "observation_id": 55,
+          "bar_end": 1793068020,
+          "published_at": 1793068020,
+          "ordinal": 72296,
+          "close": 63440
+        },
+        "r": {
+          "observation_id": 56,
+          "bar_end": 1793068200,
+          "published_at": 1793068200,
+          "ordinal": 73439,
+          "close": 63490
+        },
+        "k": {
+          "observation_id": 56,
+          "bar_end": 1793068200,
+          "published_at": 1793068200,
+          "ordinal": 73439,
+          "close": 63490
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済前",
+          "返済後公開": false,
+          "公開秒差": -74
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 646
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 826
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 826
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-27_Day_S0G1_O000001",
+        "前回position_id": "2026-10-27_Day_S0G1_P000001",
+        "前回要求時計": 1793067300,
+        "前回要求枚数": 12,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 12,
+        "当時までの返済枚数": 12,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": 336,
+        "実確定符号": ">0",
+        "前回strict正益旗を観測済": true,
+        "前回全玉正益旗を観測済": true,
+        "返済完了時計": 1793067374,
+        "最後の返済片": {
+          "exit_time": 1793067374,
+          "exit_line": 68944,
+          "reason": "G1確定益予算・ATR追尾"
+        },
+        "部分利確済枚数": 9
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    },
+    {
+      "session": "2026-10-29_Day",
+      "book_key": "E1G1_D0",
+      "at": 1793254500,
+      "reference_id_seenキー": "80参照-D164_15-2026-10-29_Day-NK225micro-D164_15-000020-玉",
+      "native_source_id": "80参照-D164_15-選定源-2026-10-29_Day-NK225mini-core-000020",
+      "side": 1,
+      "Source当時枚数": 2,
+      "Source_kind": "initial",
+      "Source_at": 1793248372,
+      "raw_rank": 1,
+      "supplied_rank": 1,
+      "前回event_id": "E000121_S1",
+      "今回event_id": "E000131_S1",
+      "eventIDが異なる": true,
+      "点の変更": {
+        "i": true,
+        "p": true,
+        "r": true,
+        "k": true
+      },
+      "前回の当時点": {
+        "i": {
+          "observation_id": 111,
+          "bar_end": 1793250900,
+          "published_at": 1793250900,
+          "ordinal": 147944,
+          "close": 64820
+        },
+        "p": {
+          "observation_id": 120,
+          "bar_end": 1793252520,
+          "published_at": 1793252520,
+          "ordinal": 159646,
+          "close": 64720
+        },
+        "r": {
+          "observation_id": 121,
+          "bar_end": 1793252700,
+          "published_at": 1793252700,
+          "ordinal": 160810,
+          "close": 64790
+        },
+        "k": {
+          "observation_id": 121,
+          "bar_end": 1793252700,
+          "published_at": 1793252700,
+          "ordinal": 160810,
+          "close": 64790
+        }
+      },
+      "今回の当時点": {
+        "i": {
+          "observation_id": 127,
+          "bar_end": 1793253780,
+          "published_at": 1793253780,
+          "ordinal": 167923,
+          "close": 64760
+        },
+        "p": {
+          "observation_id": 130,
+          "bar_end": 1793254320,
+          "published_at": 1793254320,
+          "ordinal": 171444,
+          "close": 64720
+        },
+        "r": {
+          "observation_id": 131,
+          "bar_end": 1793254500,
+          "published_at": 1793254500,
+          "ordinal": 172602,
+          "close": 64750
+        },
+        "k": {
+          "observation_id": 131,
+          "bar_end": 1793254500,
+          "published_at": 1793254500,
+          "ordinal": 172602,
+          "close": 64750
+        }
+      },
+      "今回点と前回返済の順序": {
+        "i": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 939
+        },
+        "p": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1479
+        },
+        "r": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1659
+        },
+        "k": {
+          "関係": "返済後",
+          "返済後公開": true,
+          "公開秒差": 1659
+        }
+      },
+      "前回参加の当時状態": {
+        "前回entry_order_id": "2026-10-29_Day_S0G1_O000001",
+        "前回position_id": "2026-10-29_Day_S0G1_P000001",
+        "前回要求時計": 1793252700,
+        "前回要求枚数": 2,
+        "当時までの取消枚数": 0,
+        "状態": "実玉返済済",
+        "当時までの取得枚数": 2,
+        "当時までの返済枚数": 2,
+        "当時の未約定新規残": 0,
+        "当時の保有残": 0,
+        "当時までの費用後実確定円": -1844,
+        "実確定符号": "<=0",
+        "前回strict正益旗を観測済": false,
+        "前回全玉正益旗を観測済": false,
+        "返済完了時計": 1793252841,
+        "最後の返済片": {
+          "exit_time": 1793252841,
+          "exit_line": 163187,
+          "reason": "正益前ATR損失追尾"
+        },
+        "部分利確済枚数": 0
+      },
+      "他gate": {
+        "時計許可": true,
+        "占有なし": true,
+        "Source生存": true,
+        "Source_closing": false,
+        "外E1許可": true,
+        "保存quality関連未知": false,
+        "保存入力のSource気配当時性": true,
+        "C0はgate対象外": true,
+        "cap空きは占有なし100枚枠": true,
+        "同枠の他参照採用": false,
+        "先行順位の他参照採用": false
+      },
+      "実際の同枠会計判断": "待ち",
+      "同枠の別採用reference_id": null
+    }
+  ],
+  "前回実玉を一度だけ数える一覧": [
+    {
+      "session": "2026-09-25_Day",
+      "前回position_id": "2026-09-25_Day_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": -3610,
+      "実確定符号": "<=0",
+      "前回strict正益旗を観測済": false,
+      "返済完了時計": 1790304413
+    },
+    {
+      "session": "2026-09-25_Day",
+      "前回position_id": "2026-09-25_Day_S0G1_P000002",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": -3610,
+      "実確定符号": "<=0",
+      "前回strict正益旗を観測済": false,
+      "返済完了時計": 1790305311
+    },
+    {
+      "session": "2026-09-30_Day",
+      "前回position_id": "2026-09-30_Day_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": 2580,
+      "実確定符号": ">0",
+      "前回strict正益旗を観測済": true,
+      "返済完了時計": 1790739330
+    },
+    {
+      "session": "2026-10-15_Night",
+      "前回position_id": "2026-10-15_Night_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": -7220,
+      "実確定符号": "<=0",
+      "前回strict正益旗を観測済": false,
+      "返済完了時計": 1792082820
+    },
+    {
+      "session": "2026-10-19_Day",
+      "前回position_id": "2026-10-19_Day_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": -29328,
+      "実確定符号": "<=0",
+      "前回strict正益旗を観測済": false,
+      "返済完了時計": 1792376665
+    },
+    {
+      "session": "2026-10-19_Day",
+      "前回position_id": "2026-10-19_Day_S0G1_P000002",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": -32058,
+      "実確定符号": "<=0",
+      "前回strict正益旗を観測済": false,
+      "返済完了時計": 1792378080
+    },
+    {
+      "session": "2026-10-20_Day",
+      "前回position_id": "2026-10-20_Day_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": -8220,
+      "実確定符号": "<=0",
+      "前回strict正益旗を観測済": false,
+      "返済完了時計": 1792470824
+    },
+    {
+      "session": "2026-10-20_Night",
+      "前回position_id": "2026-10-20_Night_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": 380,
+      "実確定符号": ">0",
+      "前回strict正益旗を観測済": true,
+      "返済完了時計": 1792511804
+    },
+    {
+      "session": "2026-10-22_Day",
+      "前回position_id": "2026-10-22_Day_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": 974,
+      "実確定符号": ">0",
+      "前回strict正益旗を観測済": true,
+      "返済完了時計": 1792635346
+    },
+    {
+      "session": "2026-10-27_Day",
+      "前回position_id": "2026-10-27_Day_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": 336,
+      "実確定符号": ">0",
+      "前回strict正益旗を観測済": true,
+      "返済完了時計": 1793067374
+    },
+    {
+      "session": "2026-10-29_Day",
+      "前回position_id": "2026-10-29_Day_S0G1_P000001",
+      "状態": "実玉返済済",
+      "当時までの費用後実確定円": -1844,
+      "実確定符号": "<=0",
+      "前回strict正益旗を観測済": false,
+      "返済完了時計": 1793252841
+    }
+  ],
+  "入力と88_89固定コード前後不変": true,
+  "固定コード指紋正本": "work/89Go正式化/停止.json",
+  "限界": [
+    "恒久seenはReference.ID（参照HoldID）単位。native source_idは別物。",
+    "候補出現と一意(参照HoldID,eventID)と前回実玉を別集計。D1は加算しない。",
+    "eventID差だけで新局面と断定せず、i/p/r/k差と前回全返済後の公開を区別。",
+    "同枠で別の参照玉が採用されている場合は、seenを外しても単純な追加新規とならない。",
+    "過去の費用後実確定額は今回定時までのClosed片のみ。新しい再参加の仮定損益や将来選別は計算しない。"
+  ],
+  "新売買": 0,
+  "新原板読取": 0,
+  "閾値scan": 0,
+  "89変更": 0
+}

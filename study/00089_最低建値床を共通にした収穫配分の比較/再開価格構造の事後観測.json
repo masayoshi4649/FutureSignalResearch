@@ -1,0 +1,2477 @@
+{
+  "試行": "89次候補の観測・固定88主E1のみ",
+  "確認時刻UTC": "2026-11-07T21:02:03.598677+00:00",
+  "成功": true,
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00088_背景維持と押戻し再開の時系列比較\\成果物\\定時判断.jsonl.gz": "fa5eaf18e5e13caf79dcde0124a003a92f213c20d3f58b4c55cdfcae833f9ce3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00088_背景維持と押戻し再開の時系列比較\\成果物\\取引診断.jsonl.gz": "2decc78acd3836247601d44b108f43021c60e4c5560d0c922766fd6c5c19cf7e"
+  },
+  "コードSHA256": "f060420401bbc3315f92a622d66a6c7a097b214aab210d28f60fd2ecaeeabe73",
+  "人工": {
+    "成功": true,
+    "手計算照合数": 14,
+    "対象": [
+      "買売鏡像",
+      "i以後に推進Close基準が進む",
+      "越過/同値/未回復",
+      "中間足欠落は未知",
+      "要求後のkは未知",
+      "point欠落は未知",
+      "期限失効と同時に公開された足を欠落扱いしない"
+    ]
+  },
+  "定義": {
+    "推進Close基準": "保存eventのi<=Bar3End<p、同window/epochの全確定3分Closeの方向側最大（買いmax・売りmin）",
+    "k比較": "side*(k.Close-推進Close基準)>0が越過、=0が同値、<0が未回復",
+    "保存p": "最新押し足であり、最初の押し足とは限らない。iも直前ピークではない。",
+    "当時性": "EventPoint.observation_idへ結合し公開時計/ordinalを確認。k公開後の記録を基準へ混入せず、欠足/欠pointは未知。",
+    "事後損益": "分類に使わず群の記述統計のみへ保存。全玉JSONへPNLを転記しない。"
+  },
+  "全33玉の記述統計": {
+    "実玉数": 33,
+    "初期枚数": 577,
+    "費用後純額円": -177394,
+    "黒字玉": 15,
+    "赤字玉": 18,
+    "同額玉": 0,
+    "純額平均円": -5375.575757575758,
+    "純額中央値円": -1244,
+    "純額最小円": -32058,
+    "純額最大円": 12828
+  },
+  "群の記述統計": {
+    "越過": {
+      "実玉数": 5,
+      "初期枚数": 120,
+      "費用後純額円": -18940,
+      "黒字玉": 3,
+      "赤字玉": 2,
+      "同額玉": 0,
+      "純額平均円": -3788,
+      "純額中央値円": 560,
+      "純額最小円": -32058,
+      "純額最大円": 12828
+    },
+    "同値": {
+      "実玉数": 3,
+      "初期枚数": 26,
+      "費用後純額円": -11372,
+      "黒字玉": 1,
+      "赤字玉": 2,
+      "同額玉": 0,
+      "純額平均円": -3790.6666666666665,
+      "純額中央値円": -2532,
+      "純額最小円": -9220,
+      "純額最大円": 380
+    },
+    "未回復": {
+      "実玉数": 25,
+      "初期枚数": 431,
+      "費用後純額円": -147082,
+      "黒字玉": 11,
+      "赤字玉": 14,
+      "同額玉": 0,
+      "純額平均円": -5883.28,
+      "純額中央値円": -1844,
+      "純額最小円": -31100,
+      "純額最大円": 2700
+    },
+    "未知": {
+      "実玉数": 0,
+      "初期枚数": 0,
+      "費用後純額円": 0,
+      "黒字玉": 0,
+      "赤字玉": 0,
+      "同額玉": 0,
+      "純額平均円": null,
+      "純額中央値円": null,
+      "純額最小円": null,
+      "純額最大円": null
+    }
+  },
+  "iが基準ではない玉数": 20,
+  "全玉の当時観測": [
+    {
+      "session": "2026-09-23_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-09-23_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-09-23_Day-NK225micro-D164_15-000001-玉",
+      "side": -1,
+      "初期枚数": 6,
+      "request_at": 1790134200,
+      "event_id": "E000076_S-1",
+      "window": "D164_15",
+      "epoch_start": 1790120700,
+      "当時観測": {
+        "既知": true,
+        "分類": "同値",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 72,
+            "kind": "確定3分",
+            "ordinal": 33107,
+            "bar_end": 1790133480,
+            "published_at": 1790133480,
+            "close": 66540
+          },
+          "p": {
+            "observation_id": 75,
+            "kind": "確定3分",
+            "ordinal": 34155,
+            "bar_end": 1790134020,
+            "published_at": 1790134020,
+            "close": 66580
+          },
+          "r": {
+            "observation_id": 76,
+            "kind": "確定3分",
+            "ordinal": 34407,
+            "bar_end": 1790134200,
+            "published_at": 1790134200,
+            "close": 66540
+          },
+          "k": {
+            "observation_id": 76,
+            "kind": "確定3分",
+            "ordinal": 34407,
+            "bar_end": 1790134200,
+            "published_at": 1790134200,
+            "close": 66540
+          }
+        },
+        "推進Close基準": 66540,
+        "k対基準の方向差pt": 0,
+        "区間の期待足数": 3,
+        "区間の保存足数": 3,
+        "基準の出典": [
+          {
+            "observation_id": 72,
+            "bar_end": 1790133480
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-09-24_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-09-24_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-09-24_Day-NK225micro-D164_15-000005-玉",
+      "side": -1,
+      "初期枚数": 49,
+      "request_at": 1790213400,
+      "event_id": "E000035_S-1",
+      "window": "D164_15",
+      "epoch_start": 1790207100,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 33,
+            "kind": "確定3分",
+            "ordinal": 39241,
+            "bar_end": 1790212860,
+            "published_at": 1790212860,
+            "close": 65920
+          },
+          "p": {
+            "observation_id": 34,
+            "kind": "確定3分",
+            "ordinal": 40395,
+            "bar_end": 1790213040,
+            "published_at": 1790213040,
+            "close": 65960
+          },
+          "r": {
+            "observation_id": 35,
+            "kind": "確定3分",
+            "ordinal": 41497,
+            "bar_end": 1790213220,
+            "published_at": 1790213220,
+            "close": 65940
+          },
+          "k": {
+            "observation_id": 35,
+            "kind": "確定3分",
+            "ordinal": 41497,
+            "bar_end": 1790213220,
+            "published_at": 1790213220,
+            "close": 65940
+          }
+        },
+        "推進Close基準": 65920,
+        "k対基準の方向差pt": -20,
+        "区間の期待足数": 1,
+        "区間の保存足数": 1,
+        "基準の出典": [
+          {
+            "observation_id": 33,
+            "bar_end": 1790212860
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-09-25_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-09-25_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-09-25_Day-NK225micro-D164_15-000001-玉",
+      "side": 1,
+      "初期枚数": 5,
+      "request_at": 1790304300,
+      "event_id": "E000060_S1",
+      "window": "D164_15",
+      "epoch_start": 1790293500,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 53,
+            "kind": "確定3分",
+            "ordinal": 52395,
+            "bar_end": 1790302860,
+            "published_at": 1790302860,
+            "close": 66120
+          },
+          "p": {
+            "observation_id": 59,
+            "kind": "確定3分",
+            "ordinal": 56301,
+            "bar_end": 1790303940,
+            "published_at": 1790303940,
+            "close": 66060
+          },
+          "r": {
+            "observation_id": 60,
+            "kind": "確定3分",
+            "ordinal": 56778,
+            "bar_end": 1790304120,
+            "published_at": 1790304120,
+            "close": 66090
+          },
+          "k": {
+            "observation_id": 60,
+            "kind": "確定3分",
+            "ordinal": 56778,
+            "bar_end": 1790304120,
+            "published_at": 1790304120,
+            "close": 66090
+          }
+        },
+        "推進Close基準": 66140,
+        "k対基準の方向差pt": -50,
+        "区間の期待足数": 6,
+        "区間の保存足数": 6,
+        "基準の出典": [
+          {
+            "observation_id": 54,
+            "bar_end": 1790303040
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-09-25_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-09-25_Day_S0G1_P000002",
+      "reference_id": "80参照-D164_15-2026-09-25_Day-NK225micro-D164_15-000002-玉",
+      "side": 1,
+      "初期枚数": 5,
+      "request_at": 1790305200,
+      "event_id": "E000065_S1",
+      "window": "D164_15",
+      "epoch_start": 1790293500,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 60,
+            "kind": "確定3分",
+            "ordinal": 56778,
+            "bar_end": 1790304120,
+            "published_at": 1790304120,
+            "close": 66090
+          },
+          "p": {
+            "observation_id": 64,
+            "kind": "確定3分",
+            "ordinal": 58627,
+            "bar_end": 1790304840,
+            "published_at": 1790304840,
+            "close": 66060
+          },
+          "r": {
+            "observation_id": 65,
+            "kind": "確定3分",
+            "ordinal": 59034,
+            "bar_end": 1790305020,
+            "published_at": 1790305020,
+            "close": 66100
+          },
+          "k": {
+            "observation_id": 65,
+            "kind": "確定3分",
+            "ordinal": 59034,
+            "bar_end": 1790305020,
+            "published_at": 1790305020,
+            "close": 66100
+          }
+        },
+        "推進Close基準": 66110,
+        "k対基準の方向差pt": -10,
+        "区間の期待足数": 4,
+        "区間の保存足数": 4,
+        "基準の出典": [
+          {
+            "observation_id": 61,
+            "bar_end": 1790304300
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-09-28_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-09-28_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-09-28_Day-NK225micro-D164_15-000008-玉",
+      "side": -1,
+      "初期枚数": 6,
+      "request_at": 1790566200,
+      "event_id": "E000076_S-1",
+      "window": "D164_15",
+      "epoch_start": 1790552700,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 72,
+            "kind": "確定3分",
+            "ordinal": 77429,
+            "bar_end": 1790565480,
+            "published_at": 1790565480,
+            "close": 66030
+          },
+          "p": {
+            "observation_id": 74,
+            "kind": "確定3分",
+            "ordinal": 78628,
+            "bar_end": 1790565840,
+            "published_at": 1790565840,
+            "close": 66070
+          },
+          "r": {
+            "observation_id": 75,
+            "kind": "確定3分",
+            "ordinal": 79174,
+            "bar_end": 1790566020,
+            "published_at": 1790566020,
+            "close": 66050
+          },
+          "k": {
+            "observation_id": 76,
+            "kind": "確定3分",
+            "ordinal": 79784,
+            "bar_end": 1790566200,
+            "published_at": 1790566200,
+            "close": 66040
+          }
+        },
+        "推進Close基準": 66030,
+        "k対基準の方向差pt": -10,
+        "区間の期待足数": 2,
+        "区間の保存足数": 2,
+        "基準の出典": [
+          {
+            "observation_id": 72,
+            "bar_end": 1790565480
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-09-29_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-09-29_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-09-29_Day-NK225micro-D164_15-000008-玉",
+      "side": -1,
+      "初期枚数": 20,
+      "request_at": 1790647200,
+      "event_id": "E000045_S-1",
+      "window": "D164_15",
+      "epoch_start": 1790639100,
+      "当時観測": {
+        "既知": true,
+        "分類": "越過",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 42,
+            "kind": "確定3分",
+            "ordinal": 52533,
+            "bar_end": 1790646480,
+            "published_at": 1790646480,
+            "close": 65430
+          },
+          "p": {
+            "observation_id": 44,
+            "kind": "確定3分",
+            "ordinal": 54741,
+            "bar_end": 1790646840,
+            "published_at": 1790646840,
+            "close": 65440
+          },
+          "r": {
+            "observation_id": 45,
+            "kind": "確定3分",
+            "ordinal": 55797,
+            "bar_end": 1790647020,
+            "published_at": 1790647020,
+            "close": 65420
+          },
+          "k": {
+            "observation_id": 45,
+            "kind": "確定3分",
+            "ordinal": 55797,
+            "bar_end": 1790647020,
+            "published_at": 1790647020,
+            "close": 65420
+          }
+        },
+        "推進Close基準": 65430,
+        "k対基準の方向差pt": 10,
+        "区間の期待足数": 2,
+        "区間の保存足数": 2,
+        "基準の出典": [
+          {
+            "observation_id": 42,
+            "bar_end": 1790646480
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-09-30_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-09-30_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-09-30_Day-NK225micro-D164_15-000006-玉",
+      "side": 1,
+      "初期枚数": 10,
+      "request_at": 1790739000,
+      "event_id": "E000076_S1",
+      "window": "D164_15",
+      "epoch_start": 1790725500,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 74,
+            "kind": "確定3分",
+            "ordinal": 71631,
+            "bar_end": 1790738640,
+            "published_at": 1790738640,
+            "close": 66510
+          },
+          "p": {
+            "observation_id": 75,
+            "kind": "確定3分",
+            "ordinal": 72272,
+            "bar_end": 1790738820,
+            "published_at": 1790738820,
+            "close": 66480
+          },
+          "r": {
+            "observation_id": 76,
+            "kind": "確定3分",
+            "ordinal": 72856,
+            "bar_end": 1790739000,
+            "published_at": 1790739000,
+            "close": 66490
+          },
+          "k": {
+            "observation_id": 76,
+            "kind": "確定3分",
+            "ordinal": 72856,
+            "bar_end": 1790739000,
+            "published_at": 1790739000,
+            "close": 66490
+          }
+        },
+        "推進Close基準": 66510,
+        "k対基準の方向差pt": -20,
+        "区間の期待足数": 1,
+        "区間の保存足数": 1,
+        "基準の出典": [
+          {
+            "observation_id": 74,
+            "bar_end": 1790738640
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-09-30_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-09-30_Night_S0G1_P000001",
+      "reference_id": "80参照-P164_06-2026-09-30_Night-NK225micro-P164_06-000003-玉",
+      "side": 1,
+      "初期枚数": 50,
+      "request_at": 1790770500,
+      "event_id": "E000086_S1",
+      "window": "P164_06",
+      "epoch_start": 1790755200,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 80,
+            "kind": "確定3分",
+            "ordinal": 47988,
+            "bar_end": 1790769420,
+            "published_at": 1790769420,
+            "close": 67170
+          },
+          "p": {
+            "observation_id": 85,
+            "kind": "確定3分",
+            "ordinal": 51264,
+            "bar_end": 1790770320,
+            "published_at": 1790770320,
+            "close": 67070
+          },
+          "r": {
+            "observation_id": 86,
+            "kind": "確定3分",
+            "ordinal": 51690,
+            "bar_end": 1790770500,
+            "published_at": 1790770500,
+            "close": 67150
+          },
+          "k": {
+            "observation_id": 86,
+            "kind": "確定3分",
+            "ordinal": 51690,
+            "bar_end": 1790770500,
+            "published_at": 1790770500,
+            "close": 67150
+          }
+        },
+        "推進Close基準": 67180,
+        "k対基準の方向差pt": -30,
+        "区間の期待足数": 5,
+        "区間の保存足数": 5,
+        "基準の出典": [
+          {
+            "observation_id": 81,
+            "bar_end": 1790769600
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-01_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-01_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-01_Day-NK225micro-D164_15-000005-玉",
+      "side": 1,
+      "初期枚数": 2,
+      "request_at": 1790835300,
+      "event_id": "E000127_S1",
+      "window": "D164_15",
+      "epoch_start": 1790811900,
+      "当時観測": {
+        "既知": true,
+        "分類": "越過",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 115,
+            "kind": "確定3分",
+            "ordinal": 115709,
+            "bar_end": 1790832420,
+            "published_at": 1790832420,
+            "close": 69070
+          },
+          "p": {
+            "observation_id": 126,
+            "kind": "確定3分",
+            "ordinal": 125410,
+            "bar_end": 1790834400,
+            "published_at": 1790834400,
+            "close": 69080
+          },
+          "r": {
+            "observation_id": 127,
+            "kind": "確定3分",
+            "ordinal": 126629,
+            "bar_end": 1790834580,
+            "published_at": 1790834580,
+            "close": 69150
+          },
+          "k": {
+            "observation_id": 127,
+            "kind": "確定3分",
+            "ordinal": 126629,
+            "bar_end": 1790834580,
+            "published_at": 1790834580,
+            "close": 69150
+          }
+        },
+        "推進Close基準": 69140,
+        "k対基準の方向差pt": 10,
+        "区間の期待足数": 11,
+        "区間の保存足数": 11,
+        "基準の出典": [
+          {
+            "observation_id": 120,
+            "bar_end": 1790833320
+          },
+          {
+            "observation_id": 124,
+            "bar_end": 1790834040
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-01_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-01_Night_S0G1_P000001",
+      "reference_id": "80参照-P164_06-2026-10-01_Night-NK225micro-P164_06-000013-玉",
+      "side": 1,
+      "初期枚数": 50,
+      "request_at": 1790857800,
+      "event_id": "E000090_S1",
+      "window": "P164_06",
+      "epoch_start": 1790841600,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 78,
+            "kind": "期限失効",
+            "ordinal": 63079,
+            "bar_end": 1790855460,
+            "published_at": 1790855460,
+            "close": 68760
+          },
+          "p": {
+            "observation_id": 89,
+            "kind": "確定3分",
+            "ordinal": 70922,
+            "bar_end": 1790857440,
+            "published_at": 1790857440,
+            "close": 68630
+          },
+          "r": {
+            "observation_id": 90,
+            "kind": "確定3分",
+            "ordinal": 71753,
+            "bar_end": 1790857620,
+            "published_at": 1790857620,
+            "close": 68690
+          },
+          "k": {
+            "observation_id": 90,
+            "kind": "確定3分",
+            "ordinal": 71753,
+            "bar_end": 1790857620,
+            "published_at": 1790857620,
+            "close": 68690
+          }
+        },
+        "推進Close基準": 68760,
+        "k対基準の方向差pt": -70,
+        "区間の期待足数": 11,
+        "区間の保存足数": 11,
+        "基準の出典": [
+          {
+            "observation_id": 78,
+            "bar_end": 1790855460
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-10-01_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-01_Night_S0G1_P000002",
+      "reference_id": "80参照-U165_03-2026-10-01_Night-NK225micro-U165_03-000011-玉",
+      "side": 1,
+      "初期枚数": 10,
+      "request_at": 1790883000,
+      "event_id": "E000231_S1",
+      "window": "U165_03",
+      "epoch_start": 1790862300,
+      "当時観測": {
+        "既知": true,
+        "分類": "同値",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 228,
+            "kind": "確定3分",
+            "ordinal": 197826,
+            "bar_end": 1790882460,
+            "published_at": 1790882460,
+            "close": 68480
+          },
+          "p": {
+            "observation_id": 230,
+            "kind": "確定3分",
+            "ordinal": 198823,
+            "bar_end": 1790882820,
+            "published_at": 1790882820,
+            "close": 68450
+          },
+          "r": {
+            "observation_id": 231,
+            "kind": "確定3分",
+            "ordinal": 199199,
+            "bar_end": 1790883000,
+            "published_at": 1790883000,
+            "close": 68480
+          },
+          "k": {
+            "observation_id": 231,
+            "kind": "確定3分",
+            "ordinal": 199199,
+            "bar_end": 1790883000,
+            "published_at": 1790883000,
+            "close": 68480
+          }
+        },
+        "推進Close基準": 68480,
+        "k対基準の方向差pt": 0,
+        "区間の期待足数": 2,
+        "区間の保存足数": 2,
+        "基準の出典": [
+          {
+            "observation_id": 228,
+            "bar_end": 1790882460
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-10-02_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-02_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-02_Day-NK225micro-D164_15-000012-玉",
+      "side": -1,
+      "初期枚数": 14,
+      "request_at": 1790918100,
+      "event_id": "E000111_S-1",
+      "window": "D164_15",
+      "epoch_start": 1790898300,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 108,
+            "kind": "確定3分",
+            "ordinal": 107091,
+            "bar_end": 1790917560,
+            "published_at": 1790917560,
+            "close": 68430
+          },
+          "p": {
+            "observation_id": 110,
+            "kind": "確定3分",
+            "ordinal": 109017,
+            "bar_end": 1790917920,
+            "published_at": 1790917920,
+            "close": 68480
+          },
+          "r": {
+            "observation_id": 111,
+            "kind": "確定3分",
+            "ordinal": 109848,
+            "bar_end": 1790918100,
+            "published_at": 1790918100,
+            "close": 68440
+          },
+          "k": {
+            "observation_id": 111,
+            "kind": "確定3分",
+            "ordinal": 109848,
+            "bar_end": 1790918100,
+            "published_at": 1790918100,
+            "close": 68440
+          }
+        },
+        "推進Close基準": 68430,
+        "k対基準の方向差pt": -10,
+        "区間の期待足数": 2,
+        "区間の保存足数": 2,
+        "基準の出典": [
+          {
+            "observation_id": 108,
+            "bar_end": 1790917560
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-10-06_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-06_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-06_Day-NK225micro-D164_15-000016-玉",
+      "side": 1,
+      "初期枚数": 2,
+      "request_at": 1791262800,
+      "event_id": "E000106_S1",
+      "window": "D164_15",
+      "epoch_start": 1791243900,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 75,
+            "kind": "期限失効",
+            "ordinal": 69701,
+            "bar_end": 1791257220,
+            "published_at": 1791257220,
+            "close": 70370
+          },
+          "p": {
+            "observation_id": 105,
+            "kind": "確定3分",
+            "ordinal": 93528,
+            "bar_end": 1791262620,
+            "published_at": 1791262620,
+            "close": 70620
+          },
+          "r": {
+            "observation_id": 106,
+            "kind": "確定3分",
+            "ordinal": 94160,
+            "bar_end": 1791262800,
+            "published_at": 1791262800,
+            "close": 70660
+          },
+          "k": {
+            "observation_id": 106,
+            "kind": "確定3分",
+            "ordinal": 94160,
+            "bar_end": 1791262800,
+            "published_at": 1791262800,
+            "close": 70660
+          }
+        },
+        "推進Close基準": 70720,
+        "k対基準の方向差pt": -60,
+        "区間の期待足数": 30,
+        "区間の保存足数": 30,
+        "基準の出典": [
+          {
+            "observation_id": 98,
+            "bar_end": 1791261360
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-07_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-07_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-07_Day-NK225micro-D164_15-000001-玉",
+      "side": -1,
+      "初期枚数": 26,
+      "request_at": 1791338400,
+      "event_id": "E000046_S-1",
+      "window": "D164_15",
+      "epoch_start": 1791330300,
+      "当時観測": {
+        "既知": true,
+        "分類": "越過",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 25,
+            "kind": "確定3分",
+            "ordinal": 28133,
+            "bar_end": 1791334620,
+            "published_at": 1791334620,
+            "close": 70670
+          },
+          "p": {
+            "observation_id": 44,
+            "kind": "確定3分",
+            "ordinal": 46835,
+            "bar_end": 1791338040,
+            "published_at": 1791338040,
+            "close": 70580
+          },
+          "r": {
+            "observation_id": 45,
+            "kind": "確定3分",
+            "ordinal": 47741,
+            "bar_end": 1791338220,
+            "published_at": 1791338220,
+            "close": 70560
+          },
+          "k": {
+            "observation_id": 46,
+            "kind": "確定3分",
+            "ordinal": 48476,
+            "bar_end": 1791338400,
+            "published_at": 1791338400,
+            "close": 70510
+          }
+        },
+        "推進Close基準": 70530,
+        "k対基準の方向差pt": 20,
+        "区間の期待足数": 19,
+        "区間の保存足数": 19,
+        "基準の出典": [
+          {
+            "observation_id": 36,
+            "bar_end": 1791336600
+          },
+          {
+            "observation_id": 37,
+            "bar_end": 1791336780
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-14_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-14_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-14_Day-NK225micro-D164_15-000005-玉",
+      "side": 1,
+      "初期枚数": 10,
+      "request_at": 1791950400,
+      "event_id": "E000086_S1",
+      "window": "D164_15",
+      "epoch_start": 1791935100,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 61,
+            "kind": "確定3分",
+            "ordinal": 68514,
+            "bar_end": 1791945900,
+            "published_at": 1791945900,
+            "close": 68350
+          },
+          "p": {
+            "observation_id": 85,
+            "kind": "確定3分",
+            "ordinal": 84300,
+            "bar_end": 1791950220,
+            "published_at": 1791950220,
+            "close": 68440
+          },
+          "r": {
+            "observation_id": 86,
+            "kind": "確定3分",
+            "ordinal": 84899,
+            "bar_end": 1791950400,
+            "published_at": 1791950400,
+            "close": 68460
+          },
+          "k": {
+            "observation_id": 86,
+            "kind": "確定3分",
+            "ordinal": 84899,
+            "bar_end": 1791950400,
+            "published_at": 1791950400,
+            "close": 68460
+          }
+        },
+        "推進Close基準": 68500,
+        "k対基準の方向差pt": -40,
+        "区間の期待足数": 24,
+        "区間の保存足数": 24,
+        "基準の出典": [
+          {
+            "observation_id": 78,
+            "bar_end": 1791948960
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-15_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-15_Night_S0G1_P000001",
+      "reference_id": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000007-玉",
+      "side": 1,
+      "初期枚数": 10,
+      "request_at": 1792082700,
+      "event_id": "E000172_S1",
+      "window": "U165_03",
+      "epoch_start": 1792071900,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 169,
+            "kind": "確定3分",
+            "ordinal": 154618,
+            "bar_end": 1792081440,
+            "published_at": 1792081440,
+            "close": 65310
+          },
+          "p": {
+            "observation_id": 171,
+            "kind": "確定3分",
+            "ordinal": 156332,
+            "bar_end": 1792081800,
+            "published_at": 1792081800,
+            "close": 65290
+          },
+          "r": {
+            "observation_id": 172,
+            "kind": "確定3分",
+            "ordinal": 157278,
+            "bar_end": 1792081980,
+            "published_at": 1792081980,
+            "close": 65300
+          },
+          "k": {
+            "observation_id": 172,
+            "kind": "確定3分",
+            "ordinal": 157278,
+            "bar_end": 1792081980,
+            "published_at": 1792081980,
+            "close": 65300
+          }
+        },
+        "推進Close基準": 65310,
+        "k対基準の方向差pt": -10,
+        "区間の期待足数": 2,
+        "区間の保存足数": 2,
+        "基準の出典": [
+          {
+            "observation_id": 169,
+            "bar_end": 1792081440
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-10-15_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-15_Night_S0G1_P000002",
+      "reference_id": "80参照-U165_03-2026-10-15_Night-NK225micro-U165_03-000010-玉",
+      "side": 1,
+      "初期枚数": 20,
+      "request_at": 1792095300,
+      "event_id": "E000245_S1",
+      "window": "U165_03",
+      "epoch_start": 1792071900,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 211,
+            "kind": "確定3分",
+            "ordinal": 185968,
+            "bar_end": 1792089000,
+            "published_at": 1792089000,
+            "close": 65490
+          },
+          "p": {
+            "observation_id": 244,
+            "kind": "確定3分",
+            "ordinal": 206053,
+            "bar_end": 1792094940,
+            "published_at": 1792094940,
+            "close": 65780
+          },
+          "r": {
+            "observation_id": 245,
+            "kind": "確定3分",
+            "ordinal": 206099,
+            "bar_end": 1792095120,
+            "published_at": 1792095120,
+            "close": 65810
+          },
+          "k": {
+            "observation_id": 245,
+            "kind": "確定3分",
+            "ordinal": 206099,
+            "bar_end": 1792095120,
+            "published_at": 1792095120,
+            "close": 65810
+          }
+        },
+        "推進Close基準": 65850,
+        "k対基準の方向差pt": -40,
+        "区間の期待足数": 33,
+        "区間の保存足数": 33,
+        "基準の出典": [
+          {
+            "observation_id": 228,
+            "bar_end": 1792092060
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-16_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-16_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-16_Day-NK225micro-D164_15-000022-玉",
+      "side": 1,
+      "初期枚数": 13,
+      "request_at": 1792129500,
+      "event_id": "E000121_S1",
+      "window": "D164_15",
+      "epoch_start": 1792107900,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 117,
+            "kind": "確定3分",
+            "ordinal": 131011,
+            "bar_end": 1792128780,
+            "published_at": 1792128780,
+            "close": 65800
+          },
+          "p": {
+            "observation_id": 120,
+            "kind": "確定3分",
+            "ordinal": 134169,
+            "bar_end": 1792129320,
+            "published_at": 1792129320,
+            "close": 65770
+          },
+          "r": {
+            "observation_id": 121,
+            "kind": "確定3分",
+            "ordinal": 135294,
+            "bar_end": 1792129500,
+            "published_at": 1792129500,
+            "close": 65790
+          },
+          "k": {
+            "observation_id": 121,
+            "kind": "確定3分",
+            "ordinal": 135294,
+            "bar_end": 1792129500,
+            "published_at": 1792129500,
+            "close": 65790
+          }
+        },
+        "推進Close基準": 65820,
+        "k対基準の方向差pt": -30,
+        "区間の期待足数": 3,
+        "区間の保存足数": 3,
+        "基準の出典": [
+          {
+            "observation_id": 118,
+            "bar_end": 1792128960
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-16_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-16_Night_S0G1_P000001",
+      "reference_id": "80参照-U165_03-2026-10-16_Night-NK225micro-U165_03-000008-玉",
+      "side": -1,
+      "初期枚数": 10,
+      "request_at": 1792165500,
+      "event_id": "E000156_S-1",
+      "window": "U165_03",
+      "epoch_start": 1792158300,
+      "当時観測": {
+        "既知": true,
+        "分類": "同値",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 149,
+            "kind": "確定3分",
+            "ordinal": 117446,
+            "bar_end": 1792164240,
+            "published_at": 1792164240,
+            "close": 64680
+          },
+          "p": {
+            "observation_id": 155,
+            "kind": "確定3分",
+            "ordinal": 123623,
+            "bar_end": 1792165320,
+            "published_at": 1792165320,
+            "close": 64740
+          },
+          "r": {
+            "observation_id": 156,
+            "kind": "確定3分",
+            "ordinal": 124524,
+            "bar_end": 1792165500,
+            "published_at": 1792165500,
+            "close": 64670
+          },
+          "k": {
+            "observation_id": 156,
+            "kind": "確定3分",
+            "ordinal": 124524,
+            "bar_end": 1792165500,
+            "published_at": 1792165500,
+            "close": 64670
+          }
+        },
+        "推進Close基準": 64670,
+        "k対基準の方向差pt": 0,
+        "区間の期待足数": 6,
+        "区間の保存足数": 6,
+        "基準の出典": [
+          {
+            "observation_id": 151,
+            "bar_end": 1792164600
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-19_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-19_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000002-玉",
+      "side": 1,
+      "初期枚数": 24,
+      "request_at": 1792376100,
+      "event_id": "E000047_S1",
+      "window": "D164_15",
+      "epoch_start": 1792367100,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 32,
+            "kind": "確定3分",
+            "ordinal": 45257,
+            "bar_end": 1792372680,
+            "published_at": 1792372680,
+            "close": 64670
+          },
+          "p": {
+            "observation_id": 46,
+            "kind": "確定3分",
+            "ordinal": 63485,
+            "bar_end": 1792375200,
+            "published_at": 1792375200,
+            "close": 64540
+          },
+          "r": {
+            "observation_id": 47,
+            "kind": "確定3分",
+            "ordinal": 64799,
+            "bar_end": 1792375380,
+            "published_at": 1792375380,
+            "close": 64640
+          },
+          "k": {
+            "observation_id": 47,
+            "kind": "確定3分",
+            "ordinal": 64799,
+            "bar_end": 1792375380,
+            "published_at": 1792375380,
+            "close": 64640
+          }
+        },
+        "推進Close基準": 64760,
+        "k対基準の方向差pt": -120,
+        "区間の期待足数": 14,
+        "区間の保存足数": 14,
+        "基準の出典": [
+          {
+            "observation_id": 33,
+            "bar_end": 1792372860
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-19_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-19_Day_S0G1_P000002",
+      "reference_id": "80参照-D164_15-2026-10-19_Day-NK225micro-D164_15-000008-玉",
+      "side": 1,
+      "初期枚数": 39,
+      "request_at": 1792377900,
+      "event_id": "E000061_S1",
+      "window": "D164_15",
+      "epoch_start": 1792367100,
+      "当時観測": {
+        "既知": true,
+        "分類": "越過",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 57,
+            "kind": "確定3分",
+            "ordinal": 76244,
+            "bar_end": 1792377180,
+            "published_at": 1792377180,
+            "close": 64720
+          },
+          "p": {
+            "observation_id": 60,
+            "kind": "確定3分",
+            "ordinal": 78705,
+            "bar_end": 1792377720,
+            "published_at": 1792377720,
+            "close": 64700
+          },
+          "r": {
+            "observation_id": 61,
+            "kind": "確定3分",
+            "ordinal": 79441,
+            "bar_end": 1792377900,
+            "published_at": 1792377900,
+            "close": 64750
+          },
+          "k": {
+            "observation_id": 61,
+            "kind": "確定3分",
+            "ordinal": 79441,
+            "bar_end": 1792377900,
+            "published_at": 1792377900,
+            "close": 64750
+          }
+        },
+        "推進Close基準": 64730,
+        "k対基準の方向差pt": 20,
+        "区間の期待足数": 3,
+        "区間の保存足数": 3,
+        "基準の出典": [
+          {
+            "observation_id": 58,
+            "bar_end": 1792377360
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-20_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-20_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-20_Day-NK225micro-D164_15-000023-玉",
+      "side": -1,
+      "初期枚数": 10,
+      "request_at": 1792470600,
+      "event_id": "E000094_S-1",
+      "window": "D164_15",
+      "epoch_start": 1792453500,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 74,
+            "kind": "期限失効",
+            "ordinal": 91792,
+            "bar_end": 1792466640,
+            "published_at": 1792466640,
+            "close": 64540
+          },
+          "p": {
+            "observation_id": 93,
+            "kind": "確定3分",
+            "ordinal": 112305,
+            "bar_end": 1792470060,
+            "published_at": 1792470060,
+            "close": 64430
+          },
+          "r": {
+            "observation_id": 94,
+            "kind": "確定3分",
+            "ordinal": 113480,
+            "bar_end": 1792470240,
+            "published_at": 1792470240,
+            "close": 64370
+          },
+          "k": {
+            "observation_id": 94,
+            "kind": "確定3分",
+            "ordinal": 113480,
+            "bar_end": 1792470240,
+            "published_at": 1792470240,
+            "close": 64370
+          }
+        },
+        "推進Close基準": 64280,
+        "k対基準の方向差pt": -90,
+        "区間の期待足数": 19,
+        "区間の保存足数": 19,
+        "基準の出典": [
+          {
+            "observation_id": 89,
+            "bar_end": 1792469340
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-20_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-20_Night_S0G1_P000001",
+      "reference_id": "80参照-U165_03-2026-10-20_Night-NK225micro-U165_03-000013-玉",
+      "side": 1,
+      "初期枚数": 10,
+      "request_at": 1792511100,
+      "event_id": "E000155_S1",
+      "window": "U165_03",
+      "epoch_start": 1792503900,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 121,
+            "kind": "確定3分",
+            "ordinal": 104749,
+            "bar_end": 1792504800,
+            "published_at": 1792504800,
+            "close": 64470
+          },
+          "p": {
+            "observation_id": 154,
+            "kind": "確定3分",
+            "ordinal": 145655,
+            "bar_end": 1792510740,
+            "published_at": 1792510740,
+            "close": 64850
+          },
+          "r": {
+            "observation_id": 155,
+            "kind": "確定3分",
+            "ordinal": 146807,
+            "bar_end": 1792510920,
+            "published_at": 1792510920,
+            "close": 64970
+          },
+          "k": {
+            "observation_id": 155,
+            "kind": "確定3分",
+            "ordinal": 146807,
+            "bar_end": 1792510920,
+            "published_at": 1792510920,
+            "close": 64970
+          }
+        },
+        "推進Close基準": 65200,
+        "k対基準の方向差pt": -230,
+        "区間の期待足数": 33,
+        "区間の保存足数": 33,
+        "基準の出典": [
+          {
+            "observation_id": 144,
+            "bar_end": 1792508940
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-22_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-22_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-22_Day-NK225micro-D164_15-000004-玉",
+      "side": -1,
+      "初期枚数": 33,
+      "request_at": 1792635300,
+      "event_id": "E000051_S-1",
+      "window": "D164_15",
+      "epoch_start": 1792626300,
+      "当時観測": {
+        "既知": true,
+        "分類": "越過",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 44,
+            "kind": "確定3分",
+            "ordinal": 56461,
+            "bar_end": 1792634040,
+            "published_at": 1792634040,
+            "close": 64180
+          },
+          "p": {
+            "observation_id": 48,
+            "kind": "確定3分",
+            "ordinal": 61554,
+            "bar_end": 1792634760,
+            "published_at": 1792634760,
+            "close": 64230
+          },
+          "r": {
+            "observation_id": 49,
+            "kind": "確定3分",
+            "ordinal": 62801,
+            "bar_end": 1792634940,
+            "published_at": 1792634940,
+            "close": 64180
+          },
+          "k": {
+            "observation_id": 51,
+            "kind": "確定3分",
+            "ordinal": 65146,
+            "bar_end": 1792635300,
+            "published_at": 1792635300,
+            "close": 64140
+          }
+        },
+        "推進Close基準": 64150,
+        "k対基準の方向差pt": 10,
+        "区間の期待足数": 4,
+        "区間の保存足数": 4,
+        "基準の出典": [
+          {
+            "observation_id": 46,
+            "bar_end": 1792634400
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-22_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-22_Night_S0G1_P000001",
+      "reference_id": "80参照-U165_03-2026-10-22_Night-NK225micro-U165_03-000001-玉",
+      "side": -1,
+      "初期枚数": 10,
+      "request_at": 1792683000,
+      "event_id": "E000151_S-1",
+      "window": "U165_03",
+      "epoch_start": 1792676700,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 144,
+            "kind": "確定3分",
+            "ordinal": 128889,
+            "bar_end": 1792681740,
+            "published_at": 1792681740,
+            "close": 62890
+          },
+          "p": {
+            "observation_id": 150,
+            "kind": "確定3分",
+            "ordinal": 136094,
+            "bar_end": 1792682820,
+            "published_at": 1792682820,
+            "close": 62950
+          },
+          "r": {
+            "observation_id": 151,
+            "kind": "確定3分",
+            "ordinal": 137255,
+            "bar_end": 1792683000,
+            "published_at": 1792683000,
+            "close": 62820
+          },
+          "k": {
+            "observation_id": 151,
+            "kind": "確定3分",
+            "ordinal": 137255,
+            "bar_end": 1792683000,
+            "published_at": 1792683000,
+            "close": 62820
+          }
+        },
+        "推進Close基準": 62780,
+        "k対基準の方向差pt": -40,
+        "区間の期待足数": 6,
+        "区間の保存足数": 6,
+        "基準の出典": [
+          {
+            "observation_id": 146,
+            "bar_end": 1792682100
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-27_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-27_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-27_Day-NK225micro-D164_15-000016-玉",
+      "side": 1,
+      "初期枚数": 12,
+      "request_at": 1793067300,
+      "event_id": "E000051_S1",
+      "window": "D164_15",
+      "epoch_start": 1793058300,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 45,
+            "kind": "確定3分",
+            "ordinal": 59609,
+            "bar_end": 1793066220,
+            "published_at": 1793066220,
+            "close": 63520
+          },
+          "p": {
+            "observation_id": 50,
+            "kind": "確定3分",
+            "ordinal": 66074,
+            "bar_end": 1793067120,
+            "published_at": 1793067120,
+            "close": 63390
+          },
+          "r": {
+            "observation_id": 51,
+            "kind": "確定3分",
+            "ordinal": 67343,
+            "bar_end": 1793067300,
+            "published_at": 1793067300,
+            "close": 63480
+          },
+          "k": {
+            "observation_id": 51,
+            "kind": "確定3分",
+            "ordinal": 67343,
+            "bar_end": 1793067300,
+            "published_at": 1793067300,
+            "close": 63480
+          }
+        },
+        "推進Close基準": 63520,
+        "k対基準の方向差pt": -40,
+        "区間の期待足数": 5,
+        "区間の保存足数": 5,
+        "基準の出典": [
+          {
+            "observation_id": 45,
+            "bar_end": 1793066220
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-10-28_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-28_Night_S0G1_P000001",
+      "reference_id": "80参照-U165_03-2026-10-28_Night-NK225micro-U165_03-000009-玉",
+      "side": 1,
+      "初期枚数": 10,
+      "request_at": 1793204100,
+      "event_id": "E000165_S1",
+      "window": "U165_03",
+      "epoch_start": 1793195100,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 161,
+            "kind": "確定3分",
+            "ordinal": 115607,
+            "bar_end": 1793203200,
+            "published_at": 1793203200,
+            "close": 64620
+          },
+          "p": {
+            "observation_id": 164,
+            "kind": "確定3分",
+            "ordinal": 117619,
+            "bar_end": 1793203740,
+            "published_at": 1793203740,
+            "close": 64620
+          },
+          "r": {
+            "observation_id": 165,
+            "kind": "確定3分",
+            "ordinal": 118321,
+            "bar_end": 1793203920,
+            "published_at": 1793203920,
+            "close": 64630
+          },
+          "k": {
+            "observation_id": 165,
+            "kind": "確定3分",
+            "ordinal": 118321,
+            "bar_end": 1793203920,
+            "published_at": 1793203920,
+            "close": 64630
+          }
+        },
+        "推進Close基準": 64660,
+        "k対基準の方向差pt": -30,
+        "区間の期待足数": 3,
+        "区間の保存足数": 3,
+        "基準の出典": [
+          {
+            "observation_id": 163,
+            "bar_end": 1793203560
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-29_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-10-29_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-10-29_Day-NK225micro-D164_15-000020-玉",
+      "side": 1,
+      "初期枚数": 2,
+      "request_at": 1793252700,
+      "event_id": "E000121_S1",
+      "window": "D164_15",
+      "epoch_start": 1793231100,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 111,
+            "kind": "確定3分",
+            "ordinal": 147944,
+            "bar_end": 1793250900,
+            "published_at": 1793250900,
+            "close": 64820
+          },
+          "p": {
+            "observation_id": 120,
+            "kind": "確定3分",
+            "ordinal": 159646,
+            "bar_end": 1793252520,
+            "published_at": 1793252520,
+            "close": 64720
+          },
+          "r": {
+            "observation_id": 121,
+            "kind": "確定3分",
+            "ordinal": 160810,
+            "bar_end": 1793252700,
+            "published_at": 1793252700,
+            "close": 64790
+          },
+          "k": {
+            "observation_id": 121,
+            "kind": "確定3分",
+            "ordinal": 160810,
+            "bar_end": 1793252700,
+            "published_at": 1793252700,
+            "close": 64790
+          }
+        },
+        "推進Close基準": 64880,
+        "k対基準の方向差pt": -90,
+        "区間の期待足数": 9,
+        "区間の保存足数": 9,
+        "基準の出典": [
+          {
+            "observation_id": 113,
+            "bar_end": 1793251260
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-10-30_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-10-30_Night_S0G1_P000001",
+      "reference_id": "80参照-U165_03-2026-10-30_Night-NK225micro-U165_03-000015-玉",
+      "side": -1,
+      "初期枚数": 20,
+      "request_at": 1793373300,
+      "event_id": "E000142_S-1",
+      "window": "U165_03",
+      "epoch_start": 1793367900,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 129,
+            "kind": "確定3分",
+            "ordinal": 115906,
+            "bar_end": 1793370240,
+            "published_at": 1793370240,
+            "close": 62450
+          },
+          "p": {
+            "observation_id": 141,
+            "kind": "確定3分",
+            "ordinal": 131527,
+            "bar_end": 1793372400,
+            "published_at": 1793372400,
+            "close": 62840
+          },
+          "r": {
+            "observation_id": 142,
+            "kind": "確定3分",
+            "ordinal": 132830,
+            "bar_end": 1793372580,
+            "published_at": 1793372580,
+            "close": 62760
+          },
+          "k": {
+            "observation_id": 142,
+            "kind": "確定3分",
+            "ordinal": 132830,
+            "bar_end": 1793372580,
+            "published_at": 1793372580,
+            "close": 62760
+          }
+        },
+        "推進Close基準": 62450,
+        "k対基準の方向差pt": -310,
+        "区間の期待足数": 12,
+        "区間の保存足数": 12,
+        "基準の出典": [
+          {
+            "observation_id": 129,
+            "bar_end": 1793370240
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-11-02_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-11-02_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-11-02_Day-NK225micro-D164_15-000005-玉",
+      "side": 1,
+      "初期枚数": 35,
+      "request_at": 1793583900,
+      "event_id": "E000041_S1",
+      "window": "D164_15",
+      "epoch_start": 1793576700,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 34,
+            "kind": "確定3分",
+            "ordinal": 45473,
+            "bar_end": 1793582640,
+            "published_at": 1793582640,
+            "close": 63420
+          },
+          "p": {
+            "observation_id": 40,
+            "kind": "確定3分",
+            "ordinal": 53754,
+            "bar_end": 1793583720,
+            "published_at": 1793583720,
+            "close": 63300
+          },
+          "r": {
+            "observation_id": 41,
+            "kind": "確定3分",
+            "ordinal": 55121,
+            "bar_end": 1793583900,
+            "published_at": 1793583900,
+            "close": 63360
+          },
+          "k": {
+            "observation_id": 41,
+            "kind": "確定3分",
+            "ordinal": 55121,
+            "bar_end": 1793583900,
+            "published_at": 1793583900,
+            "close": 63360
+          }
+        },
+        "推進Close基準": 63440,
+        "k対基準の方向差pt": -80,
+        "区間の期待足数": 6,
+        "区間の保存足数": 6,
+        "基準の出典": [
+          {
+            "observation_id": 35,
+            "bar_end": 1793582820
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-11-02_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-11-02_Day_S0G1_P000002",
+      "reference_id": "80参照-D164_15-2026-11-02_Day-NK225micro-D164_15-000011-玉",
+      "side": 1,
+      "初期枚数": 32,
+      "request_at": 1793586600,
+      "event_id": "E000056_S1",
+      "window": "D164_15",
+      "epoch_start": 1793576700,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 50,
+            "kind": "確定3分",
+            "ordinal": 67342,
+            "bar_end": 1793585520,
+            "published_at": 1793585520,
+            "close": 63230
+          },
+          "p": {
+            "observation_id": 55,
+            "kind": "確定3分",
+            "ordinal": 73330,
+            "bar_end": 1793586420,
+            "published_at": 1793586420,
+            "close": 63140
+          },
+          "r": {
+            "observation_id": 56,
+            "kind": "確定3分",
+            "ordinal": 74424,
+            "bar_end": 1793586600,
+            "published_at": 1793586600,
+            "close": 63190
+          },
+          "k": {
+            "observation_id": 56,
+            "kind": "確定3分",
+            "ordinal": 74424,
+            "bar_end": 1793586600,
+            "published_at": 1793586600,
+            "close": 63190
+          }
+        },
+        "推進Close基準": 63230,
+        "k対基準の方向差pt": -40,
+        "区間の期待足数": 5,
+        "区間の保存足数": 5,
+        "基準の出典": [
+          {
+            "observation_id": 50,
+            "bar_end": 1793585520
+          }
+        ],
+        "iが基準と同値": true
+      }
+    },
+    {
+      "session": "2026-11-02_Night",
+      "policy": "E1_D0",
+      "position_id": "2026-11-02_Night_S0G1_P000001",
+      "reference_id": "80参照-U165_03-2026-11-02_Night-NK225micro-U165_03-000019-玉",
+      "side": -1,
+      "初期枚数": 20,
+      "request_at": 1793643300,
+      "event_id": "E000206_S-1",
+      "window": "U165_03",
+      "epoch_start": 1793630700,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 196,
+            "kind": "確定3分",
+            "ordinal": 161068,
+            "bar_end": 1793641500,
+            "published_at": 1793641500,
+            "close": 63270
+          },
+          "p": {
+            "observation_id": 205,
+            "kind": "確定3分",
+            "ordinal": 171552,
+            "bar_end": 1793643120,
+            "published_at": 1793643120,
+            "close": 63430
+          },
+          "r": {
+            "observation_id": 206,
+            "kind": "確定3分",
+            "ordinal": 172687,
+            "bar_end": 1793643300,
+            "published_at": 1793643300,
+            "close": 63370
+          },
+          "k": {
+            "observation_id": 206,
+            "kind": "確定3分",
+            "ordinal": 172687,
+            "bar_end": 1793643300,
+            "published_at": 1793643300,
+            "close": 63370
+          }
+        },
+        "推進Close基準": 63150,
+        "k対基準の方向差pt": -220,
+        "区間の期待足数": 9,
+        "区間の保存足数": 9,
+        "基準の出典": [
+          {
+            "observation_id": 197,
+            "bar_end": 1793641680
+          }
+        ],
+        "iが基準と同値": false
+      }
+    },
+    {
+      "session": "2026-11-03_Day",
+      "policy": "E1_D0",
+      "position_id": "2026-11-03_Day_S0G1_P000001",
+      "reference_id": "80参照-D164_15-2026-11-03_Day-NK225micro-D164_15-000001-玉",
+      "side": -1,
+      "初期枚数": 2,
+      "request_at": 1793683800,
+      "event_id": "E000114_S-1",
+      "window": "D164_15",
+      "epoch_start": 1793663100,
+      "当時観測": {
+        "既知": true,
+        "分類": "未回復",
+        "理由": [
+          "同窓/epochのi以上p未満の全確定Closeとk.Closeを当時の公開観測へ結合"
+        ],
+        "当時の点": {
+          "i": {
+            "observation_id": 111,
+            "kind": "確定3分",
+            "ordinal": 88428,
+            "bar_end": 1793682900,
+            "published_at": 1793682900,
+            "close": 62480
+          },
+          "p": {
+            "observation_id": 113,
+            "kind": "確定3分",
+            "ordinal": 90181,
+            "bar_end": 1793683260,
+            "published_at": 1793683260,
+            "close": 62510
+          },
+          "r": {
+            "observation_id": 114,
+            "kind": "確定3分",
+            "ordinal": 90652,
+            "bar_end": 1793683440,
+            "published_at": 1793683440,
+            "close": 62500
+          },
+          "k": {
+            "observation_id": 114,
+            "kind": "確定3分",
+            "ordinal": 90652,
+            "bar_end": 1793683440,
+            "published_at": 1793683440,
+            "close": 62500
+          }
+        },
+        "推進Close基準": 62480,
+        "k対基準の方向差pt": -20,
+        "区間の期待足数": 2,
+        "区間の保存足数": 2,
+        "基準の出典": [
+          {
+            "observation_id": 111,
+            "bar_end": 1793682900
+          }
+        ],
+        "iが基準と同値": true
+      }
+    }
+  ],
+  "固定88_89SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\actual.go": "e9e754c3ea8071b0337d1746ff511f16ea2cd58f1c45f8340f3bba274c8994ff",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\actual_test.go": "bfe1d20410420052dcae899bb90c0f08c01cb8043cc36a0150505cefc846320e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\batch.go": "f12795d6d9d414d1b77a03f2a44e81023c19ff93adf27f7c1e5a0979efa0f9c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\cmd\\batch\\main.go": "30380e144bd24440e1ba349274018636c85f3e93f9173900b4d39aa26d6c6d83",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\confirm.go": "afa3bd381c70e194624083ce431908fe5e525e403d3df812b6408209cde43b73",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\confirm_test.go": "51637806e5957940ac7430d834b18a85bfbd33265649d5f87b6710ad40ccdca0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\connection_test.go": "98e4fdb71d226e2b04f9ce5643d7b8cff570343efaec285a1af72e8f8dbae2ac",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\entry_fixture_test.go": "ed4c9addc23fc2d14dbb49a78bb9426996dc1b40a4558250c91735a19331e662",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\export_test.go": "18e9a11f3c44a3584109ca01384f9dddb2eddc2cfbc96befc1fe501eee5c92a3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\go.mod": "deef4b0dba996281864699b8ee6e017386623359e6690e5336c6e14845fd7bf2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\guard_test.go": "24135ab3dc5b9f095f032d3eff3f97965a2acd9a9cb352738a83c6afa6a854a7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\hold.go": "fe1525a729bc009a7413e28e046808864aed6f481fc14c2448099e48056f3204",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\indicator_integration_test.go": "547af5ee0697f5d9b52e98bccee58dd49cfe97490f4773259dc819c7def5d978",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\input.go": "3a00e734f4ae0c2d01c30f4d2a474df4e22aa4b1a9b7fc3419a5331b731b35ff",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\replay.go": "e63d70728b57859b9dbddce9965a5d9237183d2ad9d386ed5dac801dd0f324a0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\replay_test.go": "e9092ee599bbdf104a385d4e8b2770e21171958b8d12cad4860a488cfaff39e0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\source_entry.go": "bf4478f979d85986d2208762371fecf78523cd93f0e6cb4aa6af7041c8ed1cd4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\source_entry_test.go": "44f622d0b08f3a4ce39a4477352c3879aba0d909d3356f6311594a9105f81ecb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\source_equivalence.go": "56680746c33d780a9948401756d7915d4bfc1d0416ab8379cc814229aa4c875d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益床と収穫配分の比較\\types.go": "47d5a8659f9c52e67d35f188081657a7b5b3da1244d5d4cb9c178b5d365c3ec6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\batch.go": "a0bff2c8952d7e8ef34932d314fd42706cefecf85abcd0471f8c2b18dbb846d2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\cmd\\batch\\main.go": "6e428ad24d39587d9d53f3232fdd6a08e424f484f502a77c53c7fa9670900451",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\connection_test.go": "dde08dd9fa2f6409b1948311143782dea92b784b641fc4b2695febe523a76958",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\entry.go": "15dd2b5fe354aec9d0ea9f619d4be94734f6747795d45cf6f5129d8ee5c9427b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\entry_test.go": "5140a26426be83812f9b4c5dd831ea9a13582987ab6597aa86a49390019758df",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\event.go": "4fbcde3644a20c8dc4ba5e6afd32cdd99f0ad5a4f4710b597d5ca70a3a275f19",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\event_test.go": "9f837f5f242ba86dc8d31f973367cf2d980dc18b3792486263d3ee45ce4f1a37",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\export_test.go": "ba884ddd0d097593efcfc97363986d9579166639351526863da235b88de5598e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\go.mod": "430569df485a91c5f29b15ab35053189a851bba4513e8f911a0ea765f60e9e6c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\indicator_integration_test.go": "b4ed0ceb731f5c83156cf6ecaca5a414efb2101a4499c2d1ea46ae96a5113b34",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\input.go": "01f4bba16d224a7c44f1e6f123dacfd9a2ab115f34c09bf1651201a6622a24d9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\replay.go": "875d9b63766beb6a0db12b40f132358b6f43408f274b86b3a0678d3c2bd9cd44",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\replay_test.go": "ab7949bc72858364b250b1a4c957cb1523c0f6e033caf5bc426350dc542d524e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\source_equivalence.go": "b57e659fdec0f41198ebf6524982d8a96c98742e56e0804ae7d9d48a1bc23d69",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR背景維持と押戻し再開\\types.go": "c8285ba6c7107df502432af81046b876da49af7f02c46dcdba4d587dad0006d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\actual.go": "f70d370bc1f8681f3f6e32edc9f7be578386d18e47ad0a46b32509948c3443c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\actual_test.go": "f0633c7e2a8717cea4b5021fc2c80dc0198bdb5d8399286f7d7d7de99037a5c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\batch.go": "0d266c1afedddadaabc8ce060d0b898c28a0b3d735c4b0096079ab5b422dacad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\c0_connection_test.go": "8b070399f66c5757901645c00a3ed330bb79a1c2800c7196a8211a1818312c95",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\cmd\\batch\\main.go": "5937084ad8984c4b7110b0fa334be1cb990100094d38bab585d53be97de28ddb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\confirm.go": "888149a596ca6a244de7543aeead9cd96a03f17ff0f6eb28f9296bded6ef75f5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\confirm_test.go": "73b9136393debdbe0db46300bcd56dd5e096b706ca5e10d7b207794b5976a278",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\connection_test.go": "d8cd7565359ea5361e38382f22bb3fae7726704ab8ca5f4fd0e8b47b0130e844",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\export_test.go": "0c6f98cc4741453bfeafcfb404c41dcaf5f5e195f65f85b298c473e0a92f9e1e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\go.mod": "72ec2fca78b950b34a90a9f3d41c61a2dc48c390e5a43efd559d9c7bdba520f4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\hold.go": "10365926ed60e1ce06ae6b8a9136d02fab2d318cbfee9f29cf3eab1631daaf8c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\input.go": "2310c274bb5a4cb0450132b469e4f045889c52609fef533d9ba6cce8683d534f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\metadata.go": "f29a634d139f6b1ced3544d1d38ee0ea098ef6bdf9bd8ae9e0f6abcc5eed699e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\metadata_state_test.go": "c6801c8404c9deb6203006a4979f2a594b8767d3ded76b65d690d2b4e798b7d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\metadata_test.go": "c2fad2ab9fc19f9d89ff38bd0437192c22502539c40050b3bb7c0586390fbe32",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\replay.go": "b3c1a54ca1ea357bb92186997e9a535ec06536b186eaae0926eb7be210ce80c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\replay_test.go": "b24c2f846c6789cf97530bdc38ce31b87132e831b723ee90c0957fe998c9c8ce",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\source.go": "3d6db718d13e1bd3b7c807adb5fbb1d5916064dade09423522d0a5e76e4c9e8a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\source_entry.go": "b9a6fd1a2e9939f8a7f42bf5f57231aaeeaeff6e42f8dda66fe5218acda8f9d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\source_entry_test.go": "8f5d879d2055857f7ca38b6747b91f879f26b2c622f123ea0ca5e0bd7ee51b20",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\source_equivalence.go": "a3b079682ae47b72b4a59f29eaedfa1f3d50ab612b921c6bde107014033d6199",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\source_equivalence_test.go": "60bc6a7a2ef48da32cfe01dc294af8d5e82bce58d1600ca526955b6a115ef434",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\source_test.go": "62390855f58d366bffcda936caacc81c71969a24c2766dcafa8502abf40bb8f6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR参照玉と可変数量の比較\\types.go": "7121f2acb53ff69beed53245746bc559e179e84ebd617ef5dee7dd0ad2c57ca4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\actual.go": "f7b4e23fc95839150189b6a3a2e53a8996b2fdfde0ffa7c069231dfc2486738c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\actual_test.go": "e9cc0cab792fbbf918beb75f847b501e14d0bdd69e72d95447c02e315d623ab3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\replay.go": "8ade985b170c65183ffe62526d9bc92e6d125ca0e5dcffbf8c913682e813cee6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\replay_test.go": "75c3cbd00e326a5b15206a623bdf4292235639dd4eaf79ec6720a74166aac2d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\schedule.go": "fd3b1a977a90de40d9a2f8039f729afb8834d9740a80636113b754589b00c040",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\schedule_test.go": "d0e896b30b7e2e427c9b97b443f1fed9f0ad5e6b132829276107f51a49deffee",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\seeds.go": "7d967a6b80862091c50022059a67f57cb2491e6189b7dfb448c154a8db5bb886",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\seeds_test.go": "dcb9a6d949d0f1dd142f2cca1e3e0f005c5443e5e5b633e9e19a4f4b29fa27cd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\source.go": "2deb43405d76b6cc92a69545fd610834c88345c9ab5e346df406ae3ae9fbb837",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\source_test.go": "3a115bae631aac086eaf454008016047753310994d21962d690b58496163a2be",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\technical.go": "ba63bd64bfaaf74adfc1ab780f627828d8f92783647dbb3ee8e66968ae8082a9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\technical_test.go": "1b83d5eff4fd9507799a4c1fa151098a36cf8bdf7bf7740a823070382406b766",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\types.go": "cc732505a841de7c277b6cb892a56520e7e4d416337627bf4a43f0e7cd77b808",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\cmd\\batch\\main.go": "dc03a124f2f196b033e23c72c963d68a44852b78e41c6e17ee077a4afd1c4f39",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\cmd\\replay\\main.go": "54abcb9e62b3d9c200880f71ac1dce6cbeaa1a3e66746ffd6d103b023eb26604",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\go.mod": "eadfc00776180e47d16e8cb41f9787abfb724d9bd04ba66ef31ed5b0ce7dfd43",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\actual.go": "d5c851661c411577993259fdeb12f3f27bcb3ff4e8aef9a71c40369c6c21d83a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\actual_test.go": "deb6df7c1af807b8ce08b2da40107b15c400bdb2b4e87198585c063578cd92b3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\batch.go": "950719b961dd61071d5e7ca1dfc181a31bff90253a1791f8aee8c42e322726cb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\entry.go": "884e0d81868437219afb16a78ac046ddaf7da76d5c6fe4a2e0dfc97cef57aab6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\entry_test.go": "aa9b1efac2f9aec754e06836a0c0dfcc894bfdcd5d0aef972e96af99a5d574d8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\input.go": "6b73b297868218474a262f4a12aa290fad448f342de198afc7a9a69c46dd15d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\replay.go": "bd73fa2276e2f566f6561b4d70c8053208fa4f6a2111c09d158da40c9ea1d924",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\replay_test.go": "14d87cb7ef5a9dd1538df400baae51b81361bc2c05e8ab2ceecc7d685d194003",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\types.go": "7c576285d47f1cc1f80f2a32f0be9e32ac84aa4312380bb12180936da6cff625",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\cmd\\batch\\main.go": "71c25e125c2e503fd9676ceec43440afb7af61c7871ba2153f0ccf75d80db903",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\go.mod": "cfb5fc079951c0d0972a919c7f79983e4fbbe173fdede202fd28825c66f1f5ee",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\定時の現在根拠と部分利益保護\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\batch.go": "ab931645419fe6a546a012dedeff68c039311c8923eff6a4d6da29b2a4f5d932",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\chart.go": "17891935b6b7bce106423e0cb711a0387aef3efe66b640d0b9c740dc7ecffefa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\chart_test.go": "9e8b815ea1769a98ccf6deccc8d4352b89faa73d594e590811e2934a6debf4ad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\entry.go": "6ba1ff18e4223d7476d6a1184eab445514ad84516bdeede2501a053f77d04e6b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\entry_test.go": "8fe45748304ac33c9f7b781e40070bd061e1a961c550267cdc59df8bcafae635",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\input.go": "8bfc7e6f601abe671db6fb04dd77b40c0721659f707e9db651f179d92cb672a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\replay.go": "3b6ae6adb77602246c4c21a191c0118d88ed559958eb4f6af335cf315a18b811",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\replay_test.go": "df63293b05b01859621180d78197a610c2b6c3c1bb741287267bf7f36820347f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\types.go": "e29993314dc1639cdccff7153ea4606f02e53e35b38cd26abe6f63a947ba00fe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\cmd\\batch\\main.go": "d50ad9101dba8c8368ae9be410ac054a7b55520677d3bf7defd19a0297eb1369",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\go.mod": "d9e5525e71ebb521c271645955645fa470925333c1bb857fb768573219fb52d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\actual.go": "e2937726cc93cda363cecc22b93902a008d2a60ece3ef9132d3fc423f3400c36",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\actual_test.go": "73a1e111c1cc20d29ba1335397c43c5c6eda159d1e04235e7f0bba7be5a4c522",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\batch.go": "3a7a6cd6248c3d862e63d9e929eec9020df7a18eb985cd1c93cab5fd4d506211",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\input.go": "1f5b645ae8580851dd27d5aba869c69247735bbd42831b7f9f02c63f6278fc26",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\replay.go": "0b0a4dd7aeb959214764b7ae4055510e35469251258eded8ee43fe4f7ef28558",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\replay_test.go": "0b7f31c6da084fa11c78107035e2ebb774d65ecff3699fd7b459a2c2aeab876b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\types.go": "e323c4e9ffc69ef13a6d9439bf1b2b1b998e3aee259eea6807987de0a2fbec72",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\cmd\\batch\\main.go": "49c23f893d548195428c91dd9d2328d2a15c3882d29b98812fd7a957dc32855b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\cmd\\fixture\\main.go": "e8350b289c6f7576f47127d4501875c7038b9d4daf9b86f3e4e4d903470d7970",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\go.mod": "51999a54737f75444d95ecdde276ba4282a7924c5c7d1df42c9f0591b3670fc6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\構造否定と利益配分\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\batch.go": "a1e6297bcc739c3003c1e1beafed0e8254e25ebbe6798665aeeb5061e513bfa4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\entry.go": "e9c3b5eea434653e58e36dee93b95f3283cf4b9c2ca1b680e569b419e0fed48c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\entry_test.go": "40d1661414b63c702a90632bde6044b362eae167fff0e08efb595ef4903726e6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\export_test.go": "cfdaa6f8c599b7ac6c194fbed2365448fc8c84ff92a00357606294ad04259642",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\input.go": "5a783582d535a5a0138e9d3d53ab4cdda0ab8baad39898c33353f9897d1052d7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\policy_test.go": "d25993aa89d802b2398d31fd2400cf25ec0dcfd96d905ba12d3fb27c138cb84c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\replay.go": "5379ee00cd0a638bbdbcb12174bf9d1d5f8c334d25b022e2ca3595eb9d2a0c44",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\replay_test.go": "667beba24b2916bc900e0216f338c4dd0ebf27d527dde53b9aca2f589546fa8f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\schema.go": "7aae6ba6c15bd88ca54ca3e110e684a2700c3d45b36699d55cecb372545575b5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\types.go": "4c1118ed892feeeb56df537d089f39c7b77b60e406461e1eb39cf7a7368c355c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\cmd\\batch\\main.go": "bf3d8907260807f22fa93eaeb1592497292625790653b187ea8c650946338ff8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\go.mod": "49d5115a987ad9388ce23b871227ade78e77639c73af8721fa1c5f383321c7f5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\現在の価格応答と数量確認\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\actual.go": "4c6c19ad8d01722d27793550f0a422eb8d397c2cab0f56dafe384349f6e0aef0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\actual_test.go": "a9c57d62fd0e83b2d8720c25fd64b406214887ddb6ea2922cbf6f1c70202f57b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\batch.go": "7a893b38318f93372173774ecce9b109d406162c424ad52a6a9f05723b39c2cd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\connection_test.go": "5bdaa14a157672aa2da21e4d173453f27ac7057b8c4203a362869d749efa5518",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\export_test.go": "5e756192d639ae23321a037d8f339680008acfbde166134c26fca16af73365ea",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\hold.go": "cc1ad0a014bc0875c8d3eff1ae97c6672066c437516b34d4f09fd0f74d00c051",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\input.go": "f9598c0b114e0ce2934a8377fc890a311ddae8d778a05e83cdee9b36e9b32160",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\replay.go": "3f8c10e0864b772a3757cab950c46aa58c5bb5112a9f25444175e8c9e63a270e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\replay_test.go": "8d626786119727595e974878e7e0ba7d7d35bba82e0f64bdccc2c4b5452348f9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\types.go": "74d85c01df2fcfec3bac26612fd57be18f3c2e7bffe15bb0db61608303b86029",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\cmd\\batch\\main.go": "f30ea9ef91c933b606e076b63943a87f5e7452ea154ff13bb6ae0ec5520fd8e4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\go.mod": "158e6b471cc394e3ae1dac8961b13a14e1ffdb9d2130563f2177c0f25fa17665",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯の返済側固定否定\\go.sum": "cc9da414a961bfeec56497cdcefd99f4b8d380dc3e028df6a57c36d24676db4c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\actual.go": "bb965e820d5534c1f73d2dc87eeec4bd4b062022ecc2aefb6386ed089834a9e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\actual_test.go": "e1b49e26b1ebd92b724d35e1fae384592fd741dcabaa42f0e222fdd68fd21818",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\batch.go": "9b36afb5d864fbf87950b719ceb7e2d3143af8e0616d9afce05a69fcf8c8d807",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\confirm.go": "388ec3ce27286c00994a5d98b4cb63b122bf30863edd7b131a1dce7ddc0652a6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\confirm_test.go": "bb17a04eac48153fa4295f2433881b37215a1a353464266f1899bbc017a5c771",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\connection_test.go": "71f209b052da1c0b7e26d0e727dac173201e70bde08b7f7bd05987e86a0dc5e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\export_test.go": "ad3b13a3611f9ce8ec4862f05dee915069182d4fe480e416e6506981c385b320",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\hold.go": "21f4dfce248006aaa2a3edc318474ba05085f956640783f37c5b6fabfff25eb9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\input.go": "acbebe253e9b8b33e26c086908d9a059649dc9939099150c4ea19c280fece737",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\raw_export_test.go": "ed16aa66903e958077458fb9ee991225a881cce0c512fec5ad3be98271743728",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\replay.go": "47244d36af7bc4db13848fca7abcb8c156c1dc5c29ed16cd816e97ab0b1ae09e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\replay_test.go": "6cab483141988199914fd2f6d6fc259d1175dc44a71a79cc0c28f916e970ef59",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\row_connection_test.go": "314031d7cc306441767679863548ad6cc90e511b1351faee33937c500ccc3f26",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\types.go": "10d5eae5278c904d9278874f6a4001b30f0ffe1e3bb46af5c9cd8a357a2f1881",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\cmd\\batch\\main.go": "a4af50a812b735b213b8883f3ab3a81a8f8368f4e2f3e559166da3535674f4eb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\go.mod": "76c9d774f31c5b76085349ec317d21133aef7d71630434566b36ac0d4ba1fe5e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\保持帯喪失と短秒反対の複合退出\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\active143.go": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\active145.go": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\cores.go": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\episode143.go": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\exit_diagnostics.go": "d279bc7e666623633027cb603c2c5eff2abf6ead7daace7f386788cdb64bbd38",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\features.go": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\features143.go": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\legacy_rules.go": "2f9537b9316c37fad97cda0f4cbbf29b10fbb1392c2fe2b4fe47a59aeb43b801",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\methods.go": "f7db068dbb83dd391ecafadbe9a7dcc51292f5b9a5d1f153c62beeecba61d248",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\p05.go": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\portfolio.go": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\research143.go": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\research145.go": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\rules.go": "49b311c6f7afce1c14f058470bdc43f7a7867b8f5d1c8c1ca489624e24274ff8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\s01.go": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_close_groups.go": "535ce6a96fa8955daff19974d6bb68093400fce7985a5496390a3713813b8f51",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_day_adapter.go": "2244d48b864c40c5a62ff007621a1dd75ffda2760972873b4b13281cd9d1cc55",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_restore.go": "ecf2ddaddd26600d11b341c4a992821c906dcc6a788c70a5f92abfae8359e5b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_source.go": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\selected_types.go": "74fb4ac16f1bd997bc1113aa43bf4de5438abf258c10620b305cae9238d489ec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\source143.go": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\strategy\\types.go": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\e01\\engine.go": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\e01\\features.go": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\e01\\rules.go": "1581539bd74f81d527d7ab82e4290493a016fe1bdd10c7155e472201d98087e2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\addon_specs.go": "8120de9c6cf27d14fae9d350bd3c0f3e9341e0474c133e1fea40f62187fd1777",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\core_specs.go": "03a52e82a95ce9e0588ead088f9afaa290a0b78540137b21001d09a459d92be4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\engine.go": "7fb551981ddd2dfd8be0704adc9659e5d68cad4da68dfc806045a35040c267c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\legacy_specs.go": "f9953d5bab5b21e200a7d87bb87ceab2688a1174a0411cef64170fe0e3d434ad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\p05.go": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\profiles.go": "9388ff4112948e96d4fe7a39f5c26ea4d2127ee49618a72bd1c24c62008431e9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\research_specs.go": "a13abfa16c55f1e416f1c165ac188ab5bbd7e911864f9f806ac049b2cbade6a2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\s01.go": "72e6e01b5afc5ea34f6e7e55f335e8f0848cc91173f14683a0c313810e03c379",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\internal\\rules\\selected_methods.go": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\go.mod": "d3e95e7b7315892e0366bf1fa9b8e4fe42061f07d57aa5651ee5cfa5d67e2351",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\..\\SessionTradeExecuter\\go.sum": "8c7a0a4bffe211450057b16034b8a0fc700cb12756df7133a23f6d873dcb8be5",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145.go": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\episode143.go": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\exit_diagnostics.go": "d279bc7e666623633027cb603c2c5eff2abf6ead7daace7f386788cdb64bbd38",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\legacy_rules.go": "2f9537b9316c37fad97cda0f4cbbf29b10fbb1392c2fe2b4fe47a59aeb43b801",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\methods.go": "f7db068dbb83dd391ecafadbe9a7dcc51292f5b9a5d1f153c62beeecba61d248",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05.go": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\portfolio.go": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145.go": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\rules.go": "49b311c6f7afce1c14f058470bdc43f7a7867b8f5d1c8c1ca489624e24274ff8",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01.go": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_close_groups.go": "535ce6a96fa8955daff19974d6bb68093400fce7985a5496390a3713813b8f51",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day_adapter.go": "2244d48b864c40c5a62ff007621a1dd75ffda2760972873b4b13281cd9d1cc55",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_restore.go": "ecf2ddaddd26600d11b341c4a992821c906dcc6a788c70a5f92abfae8359e5b0",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_types.go": "74fb4ac16f1bd997bc1113aa43bf4de5438abf258c10620b305cae9238d489ec",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\types.go": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\engine.go": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\rules.go": "1581539bd74f81d527d7ab82e4290493a016fe1bdd10c7155e472201d98087e2",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\addon_specs.go": "8120de9c6cf27d14fae9d350bd3c0f3e9341e0474c133e1fea40f62187fd1777",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\core_specs.go": "03a52e82a95ce9e0588ead088f9afaa290a0b78540137b21001d09a459d92be4",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\engine.go": "7fb551981ddd2dfd8be0704adc9659e5d68cad4da68dfc806045a35040c267c3",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\legacy_specs.go": "f9953d5bab5b21e200a7d87bb87ceab2688a1174a0411cef64170fe0e3d434ad",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\p05.go": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\profiles.go": "9388ff4112948e96d4fe7a39f5c26ea4d2127ee49618a72bd1c24c62008431e9",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\research_specs.go": "a13abfa16c55f1e416f1c165ac188ab5bbd7e911864f9f806ac049b2cbade6a2",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\s01.go": "72e6e01b5afc5ea34f6e7e55f335e8f0848cc91173f14683a0c313810e03c379",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods.go": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.mod": "d3e95e7b7315892e0366bf1fa9b8e4fe42061f07d57aa5651ee5cfa5d67e2351",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.sum": "8c7a0a4bffe211450057b16034b8a0fc700cb12756df7133a23f6d873dcb8be5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\89Go正式化\\停止.json": "16507cb6b6e72f4fd47e6d448ba4e353ba064a05ceb2e6a6e70cdd867c8caa85",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00088_背景維持と押戻し再開の時系列比較\\条件.json": "c9f4dda1d50b0057188c3013008d6456ae1af856dc52569d83a26a6c8be4a9dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00088_背景維持と押戻し再開の時系列比較\\検証計画.md": "0177694e75f0a485714f5db08a38662ed1fc9b46ebd0bf5c6e3cebeebc4d56c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00089_最低建値床を共通にした収穫配分の比較\\条件.json": "b4780c2fe7e303791575c271dd8fb59bcb7dde38ec1a2edf53087951fb8ff9b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00089_最低建値床を共通にした収穫配分の比較\\検証計画.md": "20d3e434b94cebda5ae7aca0e68f1d264af4feac682588dd096a084749ead47b"
+  },
+  "入力と固定コード前後不変": true,
+  "限界": [
+    "同じ既使用66場のE1_D0実33玉のみ。D1を独立玉に加えない。",
+    "確定終値の比較であり、高安・板内極値・回復の原因を測っていない。",
+    "保存pの定義に従うため、最新押し足より前の区間を使う。",
+    "群の既存損益の足し算は、この条件で新規選別した別戦略の成績ではない。",
+    "Source年齢/指標の因果効果や最適閾値は推論しない。"
+  ],
+  "新売買": 0,
+  "閾値scan": 0,
+  "新原板読取": 0,
+  "89条件変更": 0
+}
