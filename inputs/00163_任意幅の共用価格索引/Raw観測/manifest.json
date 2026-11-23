@@ -1,0 +1,786 @@
+{
+  "config": {
+    "widths": [
+      125,
+      150,
+      175,
+      200,
+      225,
+      250,
+      300,
+      350,
+      400,
+      500,
+      750,
+      1000
+    ],
+    "horizons": [
+      {
+        "id": "H30",
+        "kind": "strict",
+        "seconds": 1800
+      },
+      {
+        "id": "H60",
+        "kind": "strict",
+        "seconds": 3600
+      },
+      {
+        "id": "H120",
+        "kind": "strict",
+        "seconds": 7200
+      },
+      {
+        "id": "SESSION",
+        "kind": "session",
+        "seconds": 0
+      }
+    ],
+    "session_exit": "last_normal_pre_end_fresh30_require_boundary",
+    "maximum_gap_seconds": 300,
+    "endpoint_grace_seconds": 30,
+    "point_yen": 100,
+    "round_trip_fee": 77,
+    "extra_round_trip_slippage": 1000
+  },
+  "config_sha256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e",
+  "index_manifest_sha256": "391217482497b2d872d73ffcd91cfe31c80a6d90e9c0e3ca12442ae6a7ccfa80",
+  "input_sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+  "new_entry_selection": false,
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "file": {
+        "path": "2026-09-21_Day.outcomes.json.gz",
+        "sha256": "3547c31fcf0bd811ea42c4439f4dd30cb6b3d5d8f3186367f75b57bbf331ff89"
+      },
+      "bytes": 66879,
+      "cases": 159,
+      "success": true
+    },
+    {
+      "session": "2026-09-21_Night",
+      "file": {
+        "path": "2026-09-21_Night.outcomes.json.gz",
+        "sha256": "12ebc153f26abc36030b496514a7ce2b129309754b22fe790a6be047c25f6978"
+      },
+      "bytes": 126427,
+      "cases": 330,
+      "success": true
+    },
+    {
+      "session": "2026-09-22_Day",
+      "file": {
+        "path": "2026-09-22_Day.outcomes.json.gz",
+        "sha256": "c6d058c534ad2ae080491942f8a672ae1b3aee1eae48e5b5b649a68174a4c97f"
+      },
+      "bytes": 110743,
+      "cases": 248,
+      "success": true
+    },
+    {
+      "session": "2026-09-22_Night",
+      "file": {
+        "path": "2026-09-22_Night.outcomes.json.gz",
+        "sha256": "f76ddb8d6462b32febc942a70cef82459bb454e36e7bb9a2d485692d0dad5050"
+      },
+      "bytes": 146497,
+      "cases": 376,
+      "success": true
+    },
+    {
+      "session": "2026-09-23_Day",
+      "file": {
+        "path": "2026-09-23_Day.outcomes.json.gz",
+        "sha256": "2c50e6ced9aac84b19c7e92592bd34afca46e38710d31786cff6a31490c8a9bb"
+      },
+      "bytes": 74964,
+      "cases": 190,
+      "success": true
+    },
+    {
+      "session": "2026-09-23_Night",
+      "file": {
+        "path": "2026-09-23_Night.outcomes.json.gz",
+        "sha256": "be276aa2504471bb41930f7a5352e21a7220c7eb91725118f55fb380058d5c51"
+      },
+      "bytes": 154061,
+      "cases": 369,
+      "success": true
+    },
+    {
+      "session": "2026-09-24_Day",
+      "file": {
+        "path": "2026-09-24_Day.outcomes.json.gz",
+        "sha256": "2817f4978ce0fee89188ed59db99c045f4a0c452eb936457a8aedae2a7b7567f"
+      },
+      "bytes": 166373,
+      "cases": 338,
+      "success": true
+    },
+    {
+      "session": "2026-09-24_Night",
+      "file": {
+        "path": "2026-09-24_Night.outcomes.json.gz",
+        "sha256": "60f952cc39723d001cdfbc33c07f7a7f2b4a7211511e59d8433a1d23569238bf"
+      },
+      "bytes": 264187,
+      "cases": 573,
+      "success": true
+    },
+    {
+      "session": "2026-09-25_Day",
+      "file": {
+        "path": "2026-09-25_Day.outcomes.json.gz",
+        "sha256": "22c3b3cb5f1351ea167ff91c0f7db595e45e0b84e2b8b1e58a86f1ed753b9f53"
+      },
+      "bytes": 157699,
+      "cases": 343,
+      "success": true
+    },
+    {
+      "session": "2026-09-25_Night",
+      "file": {
+        "path": "2026-09-25_Night.outcomes.json.gz",
+        "sha256": "12daf58dc950035444da1b941ae2b3304dd1e3bc5c2d15d879b7d2e7456ed6a8"
+      },
+      "bytes": 190257,
+      "cases": 455,
+      "success": true
+    },
+    {
+      "session": "2026-09-28_Day",
+      "file": {
+        "path": "2026-09-28_Day.outcomes.json.gz",
+        "sha256": "d30ec61a249515e37d8c2941997d300e0a35b358cc33ef62d87808e232880c81"
+      },
+      "bytes": 170205,
+      "cases": 348,
+      "success": true
+    },
+    {
+      "session": "2026-09-28_Night",
+      "file": {
+        "path": "2026-09-28_Night.outcomes.json.gz",
+        "sha256": "7ab98660e0437968a642f782e97c677da18a6b159807c048fd3cf9c364b36f73"
+      },
+      "bytes": 210163,
+      "cases": 477,
+      "success": true
+    },
+    {
+      "session": "2026-09-29_Day",
+      "file": {
+        "path": "2026-09-29_Day.outcomes.json.gz",
+        "sha256": "28dc7491367bf0854061e50bc57c85c723c16056e703e6821908faf8dc9b6676"
+      },
+      "bytes": 174688,
+      "cases": 351,
+      "success": true
+    },
+    {
+      "session": "2026-09-29_Night",
+      "file": {
+        "path": "2026-09-29_Night.outcomes.json.gz",
+        "sha256": "879def581c139827d7552f4349fd76bf3a1b85f0bbea44d5493b9825e4690746"
+      },
+      "bytes": 212666,
+      "cases": 488,
+      "success": true
+    },
+    {
+      "session": "2026-09-30_Day",
+      "file": {
+        "path": "2026-09-30_Day.outcomes.json.gz",
+        "sha256": "0d43f3f51bd76ffa40752c595382ff1de2d6e744a091fecb87c25eaac06db022"
+      },
+      "bytes": 164065,
+      "cases": 349,
+      "success": true
+    },
+    {
+      "session": "2026-09-30_Night",
+      "file": {
+        "path": "2026-09-30_Night.outcomes.json.gz",
+        "sha256": "af3dc566c4afa69f8c0c91e5b067a8e3f1c26fb6fc98b77af83393fcb170e40d"
+      },
+      "bytes": 248808,
+      "cases": 540,
+      "success": true
+    },
+    {
+      "session": "2026-10-01_Day",
+      "file": {
+        "path": "2026-10-01_Day.outcomes.json.gz",
+        "sha256": "0aaa9a1f7262bd8358841b92bc10ca09b3c3ec6a1add1cfa44bf45faf9a603e9"
+      },
+      "bytes": 158131,
+      "cases": 352,
+      "success": true
+    },
+    {
+      "session": "2026-10-01_Night",
+      "file": {
+        "path": "2026-10-01_Night.outcomes.json.gz",
+        "sha256": "632aeaac42fada58f713d906036e21fcb2e02e5e199833199aae6d0fdda64300"
+      },
+      "bytes": 286272,
+      "cases": 616,
+      "success": true
+    },
+    {
+      "session": "2026-10-02_Day",
+      "file": {
+        "path": "2026-10-02_Day.outcomes.json.gz",
+        "sha256": "87aa4fb9fee19a48cc55e04159b297080a4c0535d2199e5c1abf09559bcdcc6c"
+      },
+      "bytes": 159490,
+      "cases": 348,
+      "success": true
+    },
+    {
+      "session": "2026-10-02_Night",
+      "file": {
+        "path": "2026-10-02_Night.outcomes.json.gz",
+        "sha256": "c4fc36ff4a58e5ec2d2c877b7783d94bceb027bd9a7a0d548e7babc2b0f7cb8c"
+      },
+      "bytes": 265364,
+      "cases": 584,
+      "success": true
+    },
+    {
+      "session": "2026-10-05_Day",
+      "file": {
+        "path": "2026-10-05_Day.outcomes.json.gz",
+        "sha256": "d4aba3be7baff7cdf43b7a710cd6f0dfdad7a4933472247ddcccdc9161481252"
+      },
+      "bytes": 158347,
+      "cases": 349,
+      "success": true
+    },
+    {
+      "session": "2026-10-05_Night",
+      "file": {
+        "path": "2026-10-05_Night.outcomes.json.gz",
+        "sha256": "61dce0d0fa9e39238dd88a64c5f9d7a6348c843ab6fadd8b2a50cbaffed6015e"
+      },
+      "bytes": 195229,
+      "cases": 484,
+      "success": true
+    },
+    {
+      "session": "2026-10-06_Day",
+      "file": {
+        "path": "2026-10-06_Day.outcomes.json.gz",
+        "sha256": "49447d74e60fbb1e0229c2d783125f4d00b1dec786cc8710c543c2e1d9d0d278"
+      },
+      "bytes": 164296,
+      "cases": 348,
+      "success": true
+    },
+    {
+      "session": "2026-10-06_Night",
+      "file": {
+        "path": "2026-10-06_Night.outcomes.json.gz",
+        "sha256": "25677685e420e453fcf1d989aeb345b705714f1ea816f7e60ad300fc2d60f979"
+      },
+      "bytes": 187886,
+      "cases": 467,
+      "success": true
+    },
+    {
+      "session": "2026-10-07_Day",
+      "file": {
+        "path": "2026-10-07_Day.outcomes.json.gz",
+        "sha256": "484357c10c3062d62a49d49a77ec8925321cd9c6d874d8f763622f5ee4d39d2a"
+      },
+      "bytes": 162133,
+      "cases": 345,
+      "success": true
+    },
+    {
+      "session": "2026-10-07_Night",
+      "file": {
+        "path": "2026-10-07_Night.outcomes.json.gz",
+        "sha256": "b177d5023d5fcca1fa5631047a8ef5064e08e26a121e20c049d5df17a78a4223"
+      },
+      "bytes": 252469,
+      "cases": 585,
+      "success": true
+    },
+    {
+      "session": "2026-10-08_Day",
+      "file": {
+        "path": "2026-10-08_Day.outcomes.json.gz",
+        "sha256": "9826c8ae5fc9fb9d98df90fff9cc0150598b8341473caff954d398e01438c315"
+      },
+      "bytes": 169570,
+      "cases": 346,
+      "success": true
+    },
+    {
+      "session": "2026-10-08_Night",
+      "file": {
+        "path": "2026-10-08_Night.outcomes.json.gz",
+        "sha256": "e7e7415865a15a0bdf1ebda14d33afc6bcfa1df2bafefe0118db99f720a8fe07"
+      },
+      "bytes": 291178,
+      "cases": 618,
+      "success": true
+    },
+    {
+      "session": "2026-10-09_Day",
+      "file": {
+        "path": "2026-10-09_Day.outcomes.json.gz",
+        "sha256": "2bad5e32571290141cda32775a525d1ebfbe4b30763daab3aea8927f57e3ac60"
+      },
+      "bytes": 166809,
+      "cases": 337,
+      "success": true
+    },
+    {
+      "session": "2026-10-09_Night",
+      "file": {
+        "path": "2026-10-09_Night.outcomes.json.gz",
+        "sha256": "994245f30b5c8aba731951f392518346fcdda3d86cc4a7ec09ff4b33a0789762"
+      },
+      "bytes": 166012,
+      "cases": 423,
+      "success": true
+    },
+    {
+      "session": "2026-10-12_Day",
+      "file": {
+        "path": "2026-10-12_Day.outcomes.json.gz",
+        "sha256": "eec4b7b2f7a0590c6821f6348e6582ba0ea2d753ff667de9d04bd1ac349b31af"
+      },
+      "bytes": 86830,
+      "cases": 219,
+      "success": true
+    },
+    {
+      "session": "2026-10-12_Night",
+      "file": {
+        "path": "2026-10-12_Night.outcomes.json.gz",
+        "sha256": "58393abf9498dda4b0bf0b38f287d0e97330dde09dc4d2c751f4c679d1ae50f4"
+      },
+      "bytes": 123701,
+      "cases": 325,
+      "success": true
+    },
+    {
+      "session": "2026-10-13_Day",
+      "file": {
+        "path": "2026-10-13_Day.outcomes.json.gz",
+        "sha256": "2564920ec9ed7d499aad12879cfeef22ad60f07567545ab64380939928966daf"
+      },
+      "bytes": 169026,
+      "cases": 352,
+      "success": true
+    },
+    {
+      "session": "2026-10-13_Night",
+      "file": {
+        "path": "2026-10-13_Night.outcomes.json.gz",
+        "sha256": "4358a5dabc5a9b20eaa141d0e1dcc038187cdd0c04582be11baec66ddf0cd83c"
+      },
+      "bytes": 180455,
+      "cases": 441,
+      "success": true
+    },
+    {
+      "session": "2026-10-14_Day",
+      "file": {
+        "path": "2026-10-14_Day.outcomes.json.gz",
+        "sha256": "74376f4c78d6f945c22ee0875c7327948dfc9f3a5c4ec736cf791e8f9e58ea90"
+      },
+      "bytes": 172176,
+      "cases": 342,
+      "success": true
+    },
+    {
+      "session": "2026-10-14_Night",
+      "file": {
+        "path": "2026-10-14_Night.outcomes.json.gz",
+        "sha256": "cc88d21d81d254000a7bb0323fb38834fd1267e3897017f46194a6fbf9674fce"
+      },
+      "bytes": 282965,
+      "cases": 593,
+      "success": true
+    },
+    {
+      "session": "2026-10-15_Day",
+      "file": {
+        "path": "2026-10-15_Day.outcomes.json.gz",
+        "sha256": "4c30bdfc8ffdd59b14c635aa99eb90db55fa34c3b1f1c2e27f30357d21314beb"
+      },
+      "bytes": 164584,
+      "cases": 353,
+      "success": true
+    },
+    {
+      "session": "2026-10-15_Night",
+      "file": {
+        "path": "2026-10-15_Night.outcomes.json.gz",
+        "sha256": "d5c7001c4685a9be9a4d0e775df2e495b26be05779f4f4619cbe64bc6ee9c5a1"
+      },
+      "bytes": 290832,
+      "cases": 621,
+      "success": true
+    },
+    {
+      "session": "2026-10-16_Day",
+      "file": {
+        "path": "2026-10-16_Day.outcomes.json.gz",
+        "sha256": "059b45f9702742f8a832402028f474368d34860d6599eb3c518eb33ddb18b658"
+      },
+      "bytes": 161749,
+      "cases": 347,
+      "success": true
+    },
+    {
+      "session": "2026-10-16_Night",
+      "file": {
+        "path": "2026-10-16_Night.outcomes.json.gz",
+        "sha256": "c726c574f724e4026d060ef410fd0955344ecefd4c7bb1b968f79bfb1ce5959d"
+      },
+      "bytes": 308141,
+      "cases": 625,
+      "success": true
+    },
+    {
+      "session": "2026-10-19_Day",
+      "file": {
+        "path": "2026-10-19_Day.outcomes.json.gz",
+        "sha256": "278af85c77f4f5b12ae9df71df967854e21c9538b85742d9c0165c3df9be7f8a"
+      },
+      "bytes": 163681,
+      "cases": 350,
+      "success": true
+    },
+    {
+      "session": "2026-10-19_Night",
+      "file": {
+        "path": "2026-10-19_Night.outcomes.json.gz",
+        "sha256": "b62720cbc537a125e7dd30cdd689a9b5b951b95288c19d05584374cac419ca57"
+      },
+      "bytes": 242196,
+      "cases": 539,
+      "success": true
+    },
+    {
+      "session": "2026-10-20_Day",
+      "file": {
+        "path": "2026-10-20_Day.outcomes.json.gz",
+        "sha256": "0b2a8b1a2d6eb8fcd0e1069a9c121d0f5bc795cb6d365bbdb45fdc3646fff1a5"
+      },
+      "bytes": 161075,
+      "cases": 352,
+      "success": true
+    },
+    {
+      "session": "2026-10-20_Night",
+      "file": {
+        "path": "2026-10-20_Night.outcomes.json.gz",
+        "sha256": "f254fc343035879fdb6162e18616b9a2fc8d2e268e73ed3041abd56024188c1c"
+      },
+      "bytes": 247623,
+      "cases": 545,
+      "success": true
+    },
+    {
+      "session": "2026-10-21_Day",
+      "file": {
+        "path": "2026-10-21_Day.outcomes.json.gz",
+        "sha256": "f111ea591637dd56d45ddacb6b1b945752a26e387ba50447bda3ff95284fcc27"
+      },
+      "bytes": 155127,
+      "cases": 353,
+      "success": true
+    },
+    {
+      "session": "2026-10-21_Night",
+      "file": {
+        "path": "2026-10-21_Night.outcomes.json.gz",
+        "sha256": "ff747f0c526a26595c56d78a39f67bbf39337ae0464dfeddca9bf8cb9f814a78"
+      },
+      "bytes": 235628,
+      "cases": 528,
+      "success": true
+    },
+    {
+      "session": "2026-10-22_Day",
+      "file": {
+        "path": "2026-10-22_Day.outcomes.json.gz",
+        "sha256": "95f6f8a4a1bb95ce84e245fe40016985a42d739fdbb9cc0ea6fd0ca325b5a9a7"
+      },
+      "bytes": 172898,
+      "cases": 351,
+      "success": true
+    },
+    {
+      "session": "2026-10-22_Night",
+      "file": {
+        "path": "2026-10-22_Night.outcomes.json.gz",
+        "sha256": "a5e42ca5a6a4d38b258897b6f8e615304e3f011f5fa9f02f7dcd2e5310382833"
+      },
+      "bytes": 292376,
+      "cases": 600,
+      "success": true
+    },
+    {
+      "session": "2026-10-23_Day",
+      "file": {
+        "path": "2026-10-23_Day.outcomes.json.gz",
+        "sha256": "7a8fa64871beb0b98eec7191666a41599d23cbe127099c5d5dce875b1d6e03f8"
+      },
+      "bytes": 176532,
+      "cases": 353,
+      "success": true
+    },
+    {
+      "session": "2026-10-23_Night",
+      "file": {
+        "path": "2026-10-23_Night.outcomes.json.gz",
+        "sha256": "9318244e556e3a6f0959c60aac2053a05b93993c6c736f96a7e0d17596725183"
+      },
+      "bytes": 256725,
+      "cases": 587,
+      "success": true
+    },
+    {
+      "session": "2026-10-26_Day",
+      "file": {
+        "path": "2026-10-26_Day.outcomes.json.gz",
+        "sha256": "6e46fcfe096f5b8f063d483d09c75e84d9a528c07730bc21cebfc16184701e12"
+      },
+      "bytes": 165236,
+      "cases": 350,
+      "success": true
+    },
+    {
+      "session": "2026-10-26_Night",
+      "file": {
+        "path": "2026-10-26_Night.outcomes.json.gz",
+        "sha256": "a2726d24dc3b187502997b9e7e8543c00e5d102852fb8e2f85a5ad0325006f7f"
+      },
+      "bytes": 259966,
+      "cases": 584,
+      "success": true
+    },
+    {
+      "session": "2026-10-27_Day",
+      "file": {
+        "path": "2026-10-27_Day.outcomes.json.gz",
+        "sha256": "6a715caaa90dfe48f277a001770290807127db5e63b14c1fb9e47e638a043238"
+      },
+      "bytes": 164344,
+      "cases": 349,
+      "success": true
+    },
+    {
+      "session": "2026-10-27_Night",
+      "file": {
+        "path": "2026-10-27_Night.outcomes.json.gz",
+        "sha256": "3ce5f6e4deac28f198af5caf0ae49d7f5af33193ea5011af9eaf3dce2d944f07"
+      },
+      "bytes": 204651,
+      "cases": 468,
+      "success": true
+    },
+    {
+      "session": "2026-10-28_Day",
+      "file": {
+        "path": "2026-10-28_Day.outcomes.json.gz",
+        "sha256": "d64f8a9a90bbac1e7a16b78148f744bfc1394d69fd6a76fbc243d6bd2293b29a"
+      },
+      "bytes": 160780,
+      "cases": 351,
+      "success": true
+    },
+    {
+      "session": "2026-10-28_Night",
+      "file": {
+        "path": "2026-10-28_Night.outcomes.json.gz",
+        "sha256": "4b9278c7ff50fb553de6f3db3f9e972924bb1100041d88cf86af56e1e918ba65"
+      },
+      "bytes": 297757,
+      "cases": 608,
+      "success": true
+    },
+    {
+      "session": "2026-10-29_Day",
+      "file": {
+        "path": "2026-10-29_Day.outcomes.json.gz",
+        "sha256": "6a83c8116668ab5d76ce5e1ed0df60d83ebee6f53d1739c378c649c7c2fe5ed5"
+      },
+      "bytes": 164038,
+      "cases": 353,
+      "success": true
+    },
+    {
+      "session": "2026-10-29_Night",
+      "file": {
+        "path": "2026-10-29_Night.outcomes.json.gz",
+        "sha256": "bd473e51986ed8a4c2a369c785a8e0c3a1eb82066b0842b05befd89d8bb47f81"
+      },
+      "bytes": 269491,
+      "cases": 560,
+      "success": true
+    },
+    {
+      "session": "2026-10-30_Day",
+      "file": {
+        "path": "2026-10-30_Day.outcomes.json.gz",
+        "sha256": "146c23dc6ffd818618822fb41cf22647b4cfc6a7b21d3d964c5dd97cdef20e4b"
+      },
+      "bytes": 158638,
+      "cases": 352,
+      "success": true
+    },
+    {
+      "session": "2026-10-30_Night",
+      "file": {
+        "path": "2026-10-30_Night.outcomes.json.gz",
+        "sha256": "8cff3fb3c83ccaf7aff33991f613dbc70c9c95a2941fe06b92e3b22eefdb01e6"
+      },
+      "bytes": 316474,
+      "cases": 646,
+      "success": true
+    },
+    {
+      "session": "2026-11-02_Day",
+      "file": {
+        "path": "2026-11-02_Day.outcomes.json.gz",
+        "sha256": "47137dc292d401445b577904f61c929f6a5d09bdce249e3683d40de2a18fc087"
+      },
+      "bytes": 158388,
+      "cases": 348,
+      "success": true
+    },
+    {
+      "session": "2026-11-02_Night",
+      "file": {
+        "path": "2026-11-02_Night.outcomes.json.gz",
+        "sha256": "b9560eb77ad899283e37edabfa0e991210fd3444b633bf8050ec9c23f659d46e"
+      },
+      "bytes": 266986,
+      "cases": 576,
+      "success": true
+    },
+    {
+      "session": "2026-11-03_Day",
+      "file": {
+        "path": "2026-11-03_Day.outcomes.json.gz",
+        "sha256": "daccf594c7e200dc493f7121eabfcf554f83dc790339ffcbfccfd8acb7fde06e"
+      },
+      "bytes": 142412,
+      "cases": 297,
+      "success": true
+    },
+    {
+      "session": "2026-11-03_Night",
+      "file": {
+        "path": "2026-11-03_Night.outcomes.json.gz",
+        "sha256": "3bb7f3afa1f5ef53d551f96a06fe3a3f0481f314e5d2837eff344bc3fff868a1"
+      },
+      "bytes": 228838,
+      "cases": 508,
+      "success": true
+    },
+    {
+      "session": "2026-11-04_Day",
+      "file": {
+        "path": "2026-11-04_Day.outcomes.json.gz",
+        "sha256": "1c162862fce4c257533a132641a4fdf32c6601826f10a191731dcc462c767f24"
+      },
+      "bytes": 166577,
+      "cases": 353,
+      "success": true
+    },
+    {
+      "session": "2026-11-04_Night",
+      "file": {
+        "path": "2026-11-04_Night.outcomes.json.gz",
+        "sha256": "273a63975d010104e314759a0f40fd283df3700aa5d1998e18f94f8888a07858"
+      },
+      "bytes": 290124,
+      "cases": 650,
+      "success": true
+    },
+    {
+      "session": "2026-11-05_Day",
+      "file": {
+        "path": "2026-11-05_Day.outcomes.json.gz",
+        "sha256": "1d207b8589d620912791d41a806e2bc0fb726033da4eeacd3a80d10ce57fa4e3"
+      },
+      "bytes": 151802,
+      "cases": 352,
+      "success": true
+    },
+    {
+      "session": "2026-11-05_Night",
+      "file": {
+        "path": "2026-11-05_Night.outcomes.json.gz",
+        "sha256": "b8e53e91ce6bbe1f497374b5cf2487c74b89705a18ebd90ce225283cbbb6be42"
+      },
+      "bytes": 303577,
+      "cases": 680,
+      "success": true
+    },
+    {
+      "session": "2026-11-06_Day",
+      "file": {
+        "path": "2026-11-06_Day.outcomes.json.gz",
+        "sha256": "6dae7b922ebdf66a918a88260f4b5e21db1519e8ed58eedbbb869fb14d7f0087"
+      },
+      "bytes": 172689,
+      "cases": 353,
+      "success": true
+    },
+    {
+      "session": "2026-11-06_Night",
+      "file": {
+        "path": "2026-11-06_Night.outcomes.json.gz",
+        "sha256": "12e1fd36930b89394916dff2e9e135d48074a7d5dc7bf8684155f56e678e1410"
+      },
+      "bytes": 322456,
+      "cases": 675,
+      "success": true
+    },
+    {
+      "session": "2026-11-09_Day",
+      "file": {
+        "path": "2026-11-09_Day.outcomes.json.gz",
+        "sha256": "2ad0e762f5d7c2c036dcc04efe6099663fa8a8ba05d4cabd8b47f4da8341ffa5"
+      },
+      "bytes": 162558,
+      "cases": 353,
+      "success": true
+    },
+    {
+      "session": "2026-11-09_Night",
+      "file": {
+        "path": "2026-11-09_Night.outcomes.json.gz",
+        "sha256": "6a9018ecd77ea9251058ce9a0174546466406ae8b01a9cb56ab532e51ac1ea22"
+      },
+      "bytes": 294945,
+      "cases": 616,
+      "success": true
+    },
+    {
+      "session": "2026-11-10_Day",
+      "file": {
+        "path": "2026-11-10_Day.outcomes.json.gz",
+        "sha256": "83f18f1331ec6edb6b835d3345eceda3e7a2c84e34581ae48f8353b02d5cbedb"
+      },
+      "bytes": 165833,
+      "cases": 348,
+      "success": true
+    }
+  ],
+  "search": "Bid/Ask minmax木の原行順firstOutside。Raw再走査なし。",
+  "source_entry_count": 31642,
+  "success": true,
+  "trial": 163
+}
