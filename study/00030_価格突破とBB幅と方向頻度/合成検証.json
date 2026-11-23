@@ -1,0 +1,18 @@
+{
+  "全件成功": true,
+  "検証件数": 18,
+  "合成編集終了": true,
+  "実資料の先着損益計算": false,
+  "ファイルSHA256": {
+    "scripts/PSY突破/指標.py": "bb682cb789d7b42b6fc3e3b71a5c8a8f0a92f147beae640eb4bbdfec30da8e41",
+    "scripts/PSY突破/入口.py": "df0f61242ecc76c0d56d66bd4509bd9b46571d25265cdf2de0a1ae3574577215",
+    "scripts/PSY突破/検証.py": "636eab273bf1180c6445156f10375e1c669dcb7432ead58bf440a333fd8faa2a",
+    "scripts/PSY突破/合成検証.py": "f7cea9a7dc87dfca695a8f831901535c2dfb562dc81865b3d45246809e2cadc1",
+    "study/00030_価格突破とBB幅と方向頻度/条件.json": "eea089e3beaf6a6f20f381e8567a6ab1611ec9e411053f5abb8fcec1b30dff8a"
+  },
+  "独立数値補助SHA256": "aa5ed072d395b238b0b5dffa80d44dc4aeb3c0ecfc6aa45ef90f412d9f8f3a78",
+  "範囲": "前20HH/LLへの現Cstrict突破とcurrent除外、旧/現20BB母σ・絶対幅4σ、Fraction分散差0/正負と鏡像、PSY12のU/D/F・13/14close最速・同値中立・現前恒等式、ATRcarry/局所欠枠NP/場間reset、rawと共通M/値/time分離・snapshot、独立原窓比較、人工66非label/PnL/非量集約・純signal/固定/pointer/既存結果拒否。ATRのみabs1e−10、他値/精密分散/価格/時点/採否strict。実原板/work内npzはstat/open禁止、実先着/PnL未計算。",
+  "失敗": [],
+  "エラー": [],
+  "実行記録": "test_13closeで現12変化ができ14closeで現前が初めて揃う (__main__.PSY数値と公開窓検証.test_13closeで現12変化ができ14closeで現前が初めて揃う)\n同値12個はup/downとも0で、100−upへ反射しない。 ... ok\ntest_ATRだけ同限月carryしPSYは毎場初期化して限月尾部で数値も解除する (__main__.PSY数値と公開窓検証.test_ATRだけ同限月carryしPSYは毎場初期化して限月尾部で数値も解除する)\n場間のATR銀行と局所14closeを別状態として検査する。 ... ok\ntest_NPと不正で局所PSYを切りNPはATR数値だけ更新する (__main__.PSY数値と公開窓検証.test_NPと不正で局所PSYを切りNPはATR数値だけ更新する)\n未公開と不正OHLCの投入/保存を区別する。 ... ok\ntest_missing当足不投入と番号飛越後missing0当足新種の差を守る (__main__.PSY数値と公開窓検証.test_missing当足不投入と番号飛越後missing0当足新種の差を守る)\nmissing足はATRだけ更新し、PSY/価格窓へ入れない。 ... ok\ntest_同値を含むPSYはUとDが交換されFと母数12が保たれる (__main__.PSY数値と公開窓検証.test_同値を含むPSYはUとDが交換されFと母数12が保たれる)\nU6/D3/F3と鏡像U3/D6/F3を明示計数へ照合する。 ... ok\ntest_局所PSYと精密分散差を独立の直接計数と偏差二乗和へ照合する (__main__.PSY数値と公開窓検証.test_局所PSYと精密分散差を独立の直接計数と偏差二乗和へ照合する)\n独立PSY/ATRと別式のFraction分散を比較する。 ... ok\ntest_人工66prepareは旧台帳参照を固定し先着会計運用を呼ばない (__main__.主準備と固定境界検証.test_人工66prepareは旧台帳参照を固定し先着会計運用を呼ばない)\n入力pointerと全66×2の準備を人工へ差し替え禁止経路を検査する。 ... ok\ntest_未来labelは二案保存caseだけへ付け運用signalへ漏らさない (__main__.主準備と固定境界検証.test_未来labelは二案保存caseだけへ付け運用signalへ漏らさない)\n主driverの二案受渡しを人工labelと空運用で検査する。 ... ok\ntest_条件driftと最終未完を拒否し固定後計画差と既存結果も上書きしない (__main__.主準備と固定境界検証.test_条件driftと最終未完を拒否し固定後計画差と既存結果も上書きしない)\n数値/文字列と固定/再実行の境界を人工保存先だけで検査する。 ... ok\ntest_PSYの低い上昇率でもU優位なら可で前state中立はP1だけ見送る (__main__.価格突破と精密幅検証.test_PSYの低い上昇率でもU優位なら可で前state中立はP1だけ見送る)\nU>Dと上昇率50超/連勝の条件を混同しない。 ... ok\ntest_strict突破ではPSY前実方向正なら現在も自動で正になる (__main__.価格突破と精密幅検証.test_strict突破ではPSY前実方向正なら現在も自動で正になる)\n現差=前差+1−古Δ符号の恒等式と二gateの冗長性を検査する。 ... ok\ntest_価格突破でも幅収縮ならrawだけを残し上下反射で同じ採否になる (__main__.価格突破と精密幅検証.test_価格突破でも幅収縮ならrawだけを残し上下反射で同じ採否になる)\n最古の外れ値を落とした分散減少を新高値突破と区別する。 ... ok\ntest_価格窓は同場の公開20足だけでNP欠枠をまたがず将来も不変 (__main__.価格突破と精密幅検証.test_価格窓は同場の公開20足だけでNP欠枠をまたがず将来も不変)\n非公開/missing/番号欠の後の価格窓とprefix不変を検査する。 ... ok\ntest_共通PSY不準備とATR不準備はP0にも課してrawと別に残す (__main__.価格突破と精密幅検証.test_共通PSY不準備とATR不準備はP0にも課してrawと別に残す)\n二案の準備集合を同じにしてPSY方向の効果だけ比較する。 ... ok\ntest_前20高安current除外と旧現BB20の分散差を明示値へ照合する (__main__.価格突破と精密幅検証.test_前20高安current除外と旧現BB20の分散差を明示値へ照合する)\n95/105旧窓へ110を入れた母σと絶対幅を検査する。 ... ok\ntest_数学等幅のbreakoutは浮動表示差にかかわらず両案不採用 (__main__.価格突破と精密幅検証.test_数学等幅のbreakoutは浮動表示差にかかわらず両案不採用)\n旧94/100×19から106へ置換する厳密等号と鏡像を検査する。 ... ok\ntest_時間遅延不可もrawを消さず二案snapshotを深複写する (__main__.価格突破と精密幅検証.test_時間遅延不可もrawを消さず二案snapshotを深複写する)\n時間/遅延境界と全採否の別コピーを人工で検査する。 ... ok\ntest_現終値等号とヒゲだけの突破は原Pにしない (__main__.価格突破と精密幅検証.test_現終値等号とヒゲだけの突破は原Pにしない)\n高安の新極値だけでなくCのstrict突破を要求する。 ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.769s\n\nOK\n"
+}

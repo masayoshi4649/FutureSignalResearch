@@ -1,0 +1,714 @@
+{
+  "全件一致": true,
+  "照合項目数": 992979,
+  "不一致数": 0,
+  "不一致": [],
+  "入力場数": 66,
+  "全66場既使用": true,
+  "コードSHA256": "d6b7fb2c4462b6512289889de91f8626ddd9c95c6f6ae081aa6bd45c34914e97",
+  "追尾コードSHA256": "240d40c608b0afbf2b829d1d6fdfd6df5d2eecc4b83ed6a15bb62c4fae760890",
+  "依存コードSHA256": {
+    "scripts/CCI突破/状態独立確認.py": "22084a21feb64d5ab6142d08f94b785866e60725cd26adacdfae5cde69888fea",
+    "scripts/RSI構造/状態独立確認.py": "8f2acb0c295e7b63679d9152285d07ad95d922e074d7af48698dc50dd80c2e82",
+    "scripts/VWAP入力/独立確認.py": "2a93bf6f7543a835a66760d872f67a2457534c1f673f8bf89fd675e18c5b1449",
+    "scripts/VWAP復帰/状態独立確認.py": "b133d6adb28df42a66973f408e907f60dd5ff9e528a46f51d068a6ea6d6a8f61",
+    "scripts/一目基準線/状態独立確認.py": "c601d1cc6d973b5c540ca24558fa1b702d8d309029f6d7aace6a833ea42887b4",
+    "scripts/利益回収/出口独立確認.py": "42f300d90e7878bc40d19a63e69525d84fae69b3625dd7b881a4ecbf8e88a350",
+    "scripts/収縮反転/状態独立確認.py": "981291a7032b9bcc30f2d10f2fabc1ef8d23df56ef09cbc5c08c49629706b365",
+    "scripts/局面切替/状態独立確認.py": "6dd794b4a954efc4f7d200e14ac1a4ebb6fc5ec043135cc96000e229a7465fbd",
+    "scripts/広域研究/独立監査.py": "95434732d57454842ee3ae6de578650b3c387249960918825129ef50abc53945",
+    "scripts/異種発動/状態独立確認.py": "0b6e1ad61d8925d51c4e4bfbfe81e601e552254172a19cd80556d4e4129cfc25",
+    "scripts/異種発動/追尾独立確認.py": "0b2508d17cd63409d7e2f688a52d6f88f6e04f01a1cdc36fd5630b46169fc063"
+  },
+  "主コードSHA256": {
+    "scripts/SAR追尾/検証.py": "b6ea8fd4e612f847a6605567b8140cd574405615f07daf2a53945a1a932843f5",
+    "scripts/SAR追尾/指標.py": "2c64de7810e1a57a92b6af50f203e965d55eb3208fdd0debb8efa1a3dfd61ba2",
+    "scripts/SAR追尾/運用.py": "14e468341a2b41c94681d461056e17b00cc9a75e927ad2e634845f1c388cc51a"
+  },
+  "主準備SHA256": "cb14cbd39ea810a00769c11e9895f3b826bdc1a48ecb3d2577f820c5e8ffce31",
+  "条件SHA256": "29fba63c128cac0de709a1147a97c9b7a275ee19ae91aa14c68cbabc4872d92f",
+  "入力台帳SHA256": "1028cec8b4133385f78b4dc6f355bad62fc428e8104a0ea190fdd032a442b929",
+  "参照入力台帳SHA256": "680b831ee6bef1ec1cf49dc6283931f5b0ca9611f15f5c19d81af6e4738aaf9b",
+  "解決入力台帳SHA256": "680b831ee6bef1ec1cf49dc6283931f5b0ca9611f15f5c19d81af6e4738aaf9b",
+  "入口参照SHA256": "f0edf3ba6c31380bb041fa2b4ecaaf220842cc62b621dc1df308be16ef1659fc",
+  "旧31固定SHA256": "b1a8cc4aec9def6907f65e0372ad8d280d62390e8059e83c1f38d6c927615cce",
+  "旧31状態証明SHA256": "452fbded28ccda658a20f840fa82b3d9a399c2788f8ca61c9276283dcf8aa461",
+  "旧31追尾証明SHA256": "a891a18c5b7a96930a32ff0083cd4d8711dbfa0ca3a443331c03025f8587e075",
+  "ATR照合": {
+    "leaf数": 1220,
+    "表現差数": 23,
+    "最大絶対差": 1.4210854715202004e-14,
+    "追尾D整数差数": 0,
+    "許容": "abs1e-10/rel0と正有効/D整数厳密"
+  },
+  "厳密範囲": "SAR有理数hex/AF整数/公開元・価格/key/ID/役割/入口採否は厳密。liveは全leaf照合後にatrだけ正有効/D整数へ明示投影した判断SHAを比較。主生liveSHAと旧31case完全同値は別出典bind",
+  "ラベル計算": false,
+  "損益計算": false,
+  "旧31純信号同値": true,
+  "純信号数": 1220,
+  "場別準備": [
+    {
+      "場": "2026-09-21_Day",
+      "期間": "学習",
+      "純信号数": 2,
+      "主生live内容SHA256": "ef7df1ba49d9c2139d3578238c2d9028c943c7c687ac54167f0ca61c073f981c",
+      "独立ATR判断射影SHA256": "105abff0e8dad94a60f81eb4ee1bff1138bb3e9a09a1ac809349895e677a0057",
+      "原P判定SHA256": "fa272acc0a8d8c807e71aa158f3fa56776cc595e5240379dea5fb104c88b547c",
+      "SAR全足内容SHA256": "3496ef186d31626540a5bc1255c17725d122674a83312a21a425af481c001a0f",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-21_Night",
+      "期間": "学習",
+      "純信号数": 16,
+      "主生live内容SHA256": "a7b54f45a6958a9217b1fd42e6bb1581c20d060f4fce18612dd6090cf8ab5af4",
+      "独立ATR判断射影SHA256": "17273456dfe91883028ec3fe3cddb5e4cebbbb53c3a0b83f992cb6d9cc3a1a64",
+      "原P判定SHA256": "22d9ea379693c49edd841ffbc0defe921ace983c62efbea8111637b34bc74ef6",
+      "SAR全足内容SHA256": "24c8808b9fa5f18cd71d0eb29a609fe0593c9a888156238386ae73a6d93a79f2",
+      "SAR足数": 245
+    },
+    {
+      "場": "2026-09-22_Day",
+      "期間": "学習",
+      "純信号数": 12,
+      "主生live内容SHA256": "b667fbe5b21a884b9be77b14025f318acfcdba13d52390a848b3efe8ab2949f2",
+      "独立ATR判断射影SHA256": "08defe65ccd445395ad30d4cfb02501c8b3172ab7bf72872b3ea33f90f97eaca",
+      "原P判定SHA256": "4026bf2662f1942d4424503c82156d7ddf98f8843780e25d7d6b7535635f96a2",
+      "SAR全足内容SHA256": "227759a21978f659d6b29f576e0275941f3cb87fc07d259360e0bd70fde6fbec",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-22_Night",
+      "期間": "学習",
+      "純信号数": 13,
+      "主生live内容SHA256": "51a90a96b134d7ac2210c1ecd8c0707e9e81d5b7c50be8b9c8838780104b3e92",
+      "独立ATR判断射影SHA256": "8f92a39634154b0991c5b8583ea5e15ebac4abfff08979692fdd5626865ac13c",
+      "原P判定SHA256": "c58d6fc741c1717da3fc50bf6aaf960b49bf275b407ce23f98b3773f792039f7",
+      "SAR全足内容SHA256": "7afc977944598bfbb2f15cfb9c3b7831f160cc08e81c51f49bb83e3a09c87524",
+      "SAR足数": 240
+    },
+    {
+      "場": "2026-09-23_Day",
+      "期間": "学習",
+      "純信号数": 8,
+      "主生live内容SHA256": "3e3c89242675f41f504113b207e499ebb8e3788454a8f9dffb50b068bd474bba",
+      "独立ATR判断射影SHA256": "7236a2738aca0ee6c825dcc2a0d1cd3220d295b677936e933551b00fa28c5370",
+      "原P判定SHA256": "886da582d9448eb3c7efef040ea70e4ffddf59fca539374d74a91a7384d650b6",
+      "SAR全足内容SHA256": "98d11c286ce6517f369f32397d0e09eff4b4620c66303f3c9870d7d282251858",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-23_Night",
+      "期間": "学習",
+      "純信号数": 30,
+      "主生live内容SHA256": "a540492841e622784cf0a217ad78113c7867bb58c2629a673a562ed09c6a20fb",
+      "独立ATR判断射影SHA256": "c74f526c842ff4c6810073963d6467a0255593b6118c510096ce544580f0969a",
+      "原P判定SHA256": "35666d0a9c8080f4028af2d8f558b0f69d10adda4180b8947eecbc7e1ec260ed",
+      "SAR全足内容SHA256": "4791ae8135f1c50155aa0e2862ff65a2bbc8c3439c99c1e9414300a007069800",
+      "SAR足数": 251
+    },
+    {
+      "場": "2026-09-24_Day",
+      "期間": "学習",
+      "純信号数": 14,
+      "主生live内容SHA256": "11cdfb5ee38a829050339f46bf417e7ca71885404d7a747d5ba68c486a3a9afe",
+      "独立ATR判断射影SHA256": "0eef622643d74dc88552a80d4034d7f3a02fb294b8b4529dc519fdbd82c19369",
+      "原P判定SHA256": "4ea2be520c6c22d8639971de1051411b9482cbce41584c3c50808ed87452ed83",
+      "SAR全足内容SHA256": "f7b44288b3c987108fce301318396297f49627be0d55ffec2a495c00ca51f7b3",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-24_Night",
+      "期間": "学習",
+      "純信号数": 24,
+      "主生live内容SHA256": "5c430c9c147337f1b94228af20bf0c1c62929c39c1958e7ba1ac18249d80b313",
+      "独立ATR判断射影SHA256": "0e4c5f635f61a6d148ac22e97466a417ce26238209bf13e76de1be8bae4d4124",
+      "原P判定SHA256": "7aa20950a8e4bad0093d1ca2e1d069f9de2f9c45fe613837275ee68b903d967a",
+      "SAR全足内容SHA256": "e6e82c9b5b8e277a222d5a229382c36aa5f9ed23f1cba587e9fb424b350264e3",
+      "SAR足数": 257
+    },
+    {
+      "場": "2026-09-25_Day",
+      "期間": "学習",
+      "純信号数": 7,
+      "主生live内容SHA256": "bb5ea18540b91f54edc68e751f99bea14dbfa7094bf7a879996d6ba208982203",
+      "独立ATR判断射影SHA256": "8dfb423d0960408b69d1f8d50753bb53b3e0076586b4cf5ee65d74e05a7f9a6f",
+      "原P判定SHA256": "ec5b19f3d9af9516002c740586e939f1100ef91ce35ac67ccae646fae256e5d7",
+      "SAR全足内容SHA256": "ddc832cfe79f79ee582d70a7ab554f75f3d927ded88778ce02df96f94e3d0123",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-25_Night",
+      "期間": "学習",
+      "純信号数": 13,
+      "主生live内容SHA256": "ceeef1cb322fc1c0064438d9be5f7ee3b679df0ab390052073dbc5f6527fd1e3",
+      "独立ATR判断射影SHA256": "c72afce3a516b112332c28e5bfc65565c3e484a9fd90bcd7c3ce04d81e56c009",
+      "原P判定SHA256": "2fc4fbc12514d564a214b0df5d070ea140c0e3af5c0d0487e2bb46faa4f617ef",
+      "SAR全足内容SHA256": "d8b6a28ee23116f2015d82532def99b9ae41601c2e0c49036cd29c5859759ada",
+      "SAR足数": 250
+    },
+    {
+      "場": "2026-09-28_Day",
+      "期間": "学習",
+      "純信号数": 9,
+      "主生live内容SHA256": "de067974423b1189a69fb8048162703c8f0fa3e96a2eb8685e86d9d3d5babd68",
+      "独立ATR判断射影SHA256": "ae13dd0e6cfd4f1481649aa33682bb3b0d054fbbc055d78b115eb791a9b6e637",
+      "原P判定SHA256": "8b9be940e873604f48480ecb25f2b48ee9ae008aec7d884a6f44410aa3821ace",
+      "SAR全足内容SHA256": "7a2525db1fc9a4ac672f51546cf23d4b3db06134c2913c3b62e4d9ee539e777b",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-28_Night",
+      "期間": "学習",
+      "純信号数": 18,
+      "主生live内容SHA256": "6b84dcb7de0be6cb72ad59a13edd352fe6d1602e31a232908cc60a6cd9d0f272",
+      "独立ATR判断射影SHA256": "2b2ad8b05ed88f4a96905b61014492f857dece4c27b8e9751190da2bf13dd75c",
+      "原P判定SHA256": "0e6f0276ea746905208cc76387050152122facf5dee84e93294d1e075d17b093",
+      "SAR全足内容SHA256": "9e186b265f906c1977743692ad4ae1d92fd19b098f74d6c54cf0ed6feca858bb",
+      "SAR足数": 252
+    },
+    {
+      "場": "2026-09-29_Day",
+      "期間": "学習",
+      "純信号数": 10,
+      "主生live内容SHA256": "19a64d112c147d49be8740bf7642e1099331e175eb92f64c231982da5a483fb5",
+      "独立ATR判断射影SHA256": "5c15e1beb10498ef71aa4f2d8942f80b15a2b491519d9d470667e6860f4aa413",
+      "原P判定SHA256": "9c9f684cc4732f74c11b25c77840b1d748bf27832b425250c1f503566b44006a",
+      "SAR全足内容SHA256": "16c7f287fdf03f5c23b61dec895d53e3027fcf04235730151cb2128a73004791",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-29_Night",
+      "期間": "学習",
+      "純信号数": 17,
+      "主生live内容SHA256": "92b2bc0d163e8effb460a594aaab46959fa8cba0c4e7aa6c8a9c8e9593a62ba3",
+      "独立ATR判断射影SHA256": "828b5e60715228ca7ef2ce3acad4e76d7874e80a13fb3f2f839b0dcf9bbed2bc",
+      "原P判定SHA256": "b80fc1a1ce5394139810f9e727e50d6a60ec7615012d6a719ea80da86fb1a897",
+      "SAR全足内容SHA256": "0850f19edd0a0b0dfdef979a66d2fe65ca1c2ba815b543157ea8d64fc1057459",
+      "SAR足数": 257
+    },
+    {
+      "場": "2026-09-30_Day",
+      "期間": "学習",
+      "純信号数": 18,
+      "主生live内容SHA256": "9b8b56dd834e43d9cfee59fa9f3107048000dc9d86812ba3b51fb9e16a7b6f21",
+      "独立ATR判断射影SHA256": "620b2f38cb061474204b78430a6267430a59d8fe2cd57943e0e5e04f2a375092",
+      "原P判定SHA256": "87d718c3845e549ad20efe300e025080c93c32031255c99f90ce8fa2b57474e2",
+      "SAR全足内容SHA256": "b9f3db583122b317d583e9b6809a426d85e22576dc4a09957fe9ba52e66bdc31",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-09-30_Night",
+      "期間": "学習",
+      "純信号数": 23,
+      "主生live内容SHA256": "832bfaa2e4719eb6e5e4f0f3479f58a6664299f7fbbfb2426123a2a94dd5cde8",
+      "独立ATR判断射影SHA256": "f2cb1b4ebe28849f5a8b9c85e2f42e4d51a4306531ce4194102c9815f2ffba7c",
+      "原P判定SHA256": "d1d9e547f00f762e3ffd397f38ef1e086c6083b4537b1be65d9a9afea561ec15",
+      "SAR全足内容SHA256": "d70dd02308d436a202f96fc6770f4adbe21eb287f805548e9eb3f60a4b09bfda",
+      "SAR足数": 254
+    },
+    {
+      "場": "2026-10-01_Day",
+      "期間": "学習",
+      "純信号数": 28,
+      "主生live内容SHA256": "7d006e2c06cb55334db98574cf3cf982d6e29bd2155ba1267e52fbb618c0e9d1",
+      "独立ATR判断射影SHA256": "621a8cd73948d020806b6074a09b1c6b9706ba769039428216848d24e3220ee9",
+      "原P判定SHA256": "f56231eb0ac07f6728bb96de616fcf8329bd0f0659170d0bc8bee55c30158d8c",
+      "SAR全足内容SHA256": "c56795cf7bdffbe5504599d9189bfcff596b823b847e9e3cd5fafce79c2e1d64",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-01_Night",
+      "期間": "学習",
+      "純信号数": 30,
+      "主生live内容SHA256": "4a84c96b88757b2291c5f70191eda755f394e9290610480e508f272707c68a75",
+      "独立ATR判断射影SHA256": "cb0c9857ea0d09f364139f63faabec3b3c32550fbbb064c266ceaf19c23bfc31",
+      "原P判定SHA256": "6e933c5aee702cf701aa3563915df07080de750f07f47d8f4aa968ea133d657f",
+      "SAR全足内容SHA256": "b50f76fdac3a1cacf5ea46239e286d93449749a878d0449cd9a3b88aebb69ab5",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-02_Day",
+      "期間": "学習",
+      "純信号数": 3,
+      "主生live内容SHA256": "d3d782a1fc7592506948261935632d3326b11fecb9dd29f5b22676c81e69bf36",
+      "独立ATR判断射影SHA256": "a74d40c1ff0074ce06baef7315181cefc4776b4f60bfa0deef3c5a3118b05a92",
+      "原P判定SHA256": "0214c415b494a9e2abc993205d0c4b66a05ee07014dd176a2181b3e99603bef0",
+      "SAR全足内容SHA256": "93eb02250b89c61a84781bbb6388b1f001342eed40bed189c5fda068f0c5f98f",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-02_Night",
+      "期間": "学習",
+      "純信号数": 26,
+      "主生live内容SHA256": "510052373dd1206c20303a1fef56f9686cdb4e708f85b45e0209a9308220c4c9",
+      "独立ATR判断射影SHA256": "239b45de9052a238938113b8b335e104c6aae12c46ad6126fb0cd58daea7ae54",
+      "原P判定SHA256": "b77c106d2e482179c56ad7569dbb7b08ee630066322707f69bd5149025d37f37",
+      "SAR全足内容SHA256": "5b17101cc388e1b8790e5d17e622637f58482d1bdc24a510ffa8b830dbd7b590",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-05_Day",
+      "期間": "学習",
+      "純信号数": 6,
+      "主生live内容SHA256": "74e8889bd4f03451f6d0d3dd260d2f500fb3cb1a3700d235596952032359dc84",
+      "独立ATR判断射影SHA256": "08cf0014bc4e16e73af6523cff9307aaaa34d114cd09232aff410fd65fbbdbe8",
+      "原P判定SHA256": "ef4dacd07d3bb4ca929c61b9d1b8bc5cec7516f34b8961b07ff5c659f02bc4d1",
+      "SAR全足内容SHA256": "fbfa1b09c7cddcd5e7279d077b195cb4ff3ad754aa1f15e1afffd9ba0ccb599b",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-05_Night",
+      "期間": "学習",
+      "純信号数": 17,
+      "主生live内容SHA256": "2817b8e369b9f007b3ddaf24b78e5e832928453aaca63430f40582b8ebd829dc",
+      "独立ATR判断射影SHA256": "9dde87d3aa58b8b68d36626066014e26da3a6493c2484414930f20125344ec85",
+      "原P判定SHA256": "3975304e2efd53b0d6d16dbcb460606a8ebb7cbe346dfb195961cbb8e3f2cc4f",
+      "SAR全足内容SHA256": "dfbb461aaf49a5a23d1f64d0f909612f2ff300615587358b02944a0509b287d8",
+      "SAR足数": 255
+    },
+    {
+      "場": "2026-10-06_Day",
+      "期間": "学習",
+      "純信号数": 20,
+      "主生live内容SHA256": "b65aef0e908e5ecf406453c69ae2067813c664f42a8c8d17f938b203c8238019",
+      "独立ATR判断射影SHA256": "0ef707e3065c92042ea91b968d0793e74a9a59a66d0247a0e31dcc2812bcc379",
+      "原P判定SHA256": "045edee7d4e90f7e24f25498a255bda2fcd897e3a11569ab78c03bba80de01da",
+      "SAR全足内容SHA256": "bd98082088cc0c400a4d7122930a01134d0e3914fb404a89ad54f4bd6e641790",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-06_Night",
+      "期間": "学習",
+      "純信号数": 22,
+      "主生live内容SHA256": "c6309fda5932e81ecf890c4e16f7cc433b10f69f5ba9192eff124b75d9ae4f94",
+      "独立ATR判断射影SHA256": "a835ff6ec87c108396fe0f81e2d5597b63696b4d1e009dc4d6a6252787dbb14a",
+      "原P判定SHA256": "67daa4d1343f010ba3394991230052068785ef7a3247ac42a47374f25d50a338",
+      "SAR全足内容SHA256": "18c66747af8035a491a3425e166c86788c45ceb95ee01ab0cf7aee4304f94d29",
+      "SAR足数": 253
+    },
+    {
+      "場": "2026-10-07_Day",
+      "期間": "学習",
+      "純信号数": 20,
+      "主生live内容SHA256": "f7faa69f44695514f1abdbf20cee12e8d5fb973624b05b3c6a57a318084ba413",
+      "独立ATR判断射影SHA256": "a2da8c78933a3ef1977ad6ff2e446a5af3c3777ba92eb3c8224f61b520912cbb",
+      "原P判定SHA256": "fe5a2d3e47b85ffb10aad44a61b5582edccc116e6fafbdfcfb856474f9bc23ba",
+      "SAR全足内容SHA256": "fe70077c5c4894563db4b431cdb35a51924979c29ec9e2d2b75962fc7fab45e0",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-07_Night",
+      "期間": "学習",
+      "純信号数": 27,
+      "主生live内容SHA256": "da11574e350453c446511b1b9942c0ff1598b3b3ff2eee5c5b5532c169b79dfe",
+      "独立ATR判断射影SHA256": "31538f3249373092acafaea70cf5ebd4b08caaa9e072d4a4fceab2ce322e7250",
+      "原P判定SHA256": "d3957a4b884f5d79a587441ca6ab4e9b448d3f7212bd822a2b40ae359cd3b02b",
+      "SAR全足内容SHA256": "4026f66bbce70659b0213947aecd725f4dc53328b14accad05f01207a32aeefc",
+      "SAR足数": 257
+    },
+    {
+      "場": "2026-10-08_Day",
+      "期間": "学習",
+      "純信号数": 6,
+      "主生live内容SHA256": "fa4f60af75281e42685aff4f5f00f084e997f5cda979dd6906af6938c894bb08",
+      "独立ATR判断射影SHA256": "9dc06d1e22e68b9706af9af031abc012ea8b962d34595d6cbdd46f8e6bedf081",
+      "原P判定SHA256": "9808db7b3fc5ebdae1244f9ee5f64bc190b2121cb5834a0d8c12bfcdde22846c",
+      "SAR全足内容SHA256": "24d19edcebba9da09dd4b68e379c48fb6c5d8e94fb2ac7f8891311671ccbf7c0",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-08_Night",
+      "期間": "学習",
+      "純信号数": 41,
+      "主生live内容SHA256": "593489617490bddce8d90e84ae2435695f9320d8d9927c12a2ecea5f908a1d75",
+      "独立ATR判断射影SHA256": "b6c8ddac0aa328feeda17106bb0ef543ea743c755274f31c9b120f4be39b14f3",
+      "原P判定SHA256": "cdb9a8f4efbf645572e9d920e4dd2442ce70f35a844103a3dc45ea7b721cef22",
+      "SAR全足内容SHA256": "3a503345b69c6008f443216637dc17a9824560d1eac1c81318aa1dbf49077c43",
+      "SAR足数": 257
+    },
+    {
+      "場": "2026-10-09_Day",
+      "期間": "学習",
+      "純信号数": 7,
+      "主生live内容SHA256": "d379e10309e9cbe8495ace4fab8595d49b0a04bc28461d7610c2e6e8f4b657ee",
+      "独立ATR判断射影SHA256": "acfc92f86a4258b23746f5298ae2c68856290d6a2606d38dc13197fcf60ce825",
+      "原P判定SHA256": "d056bb4394a10bf656faf4859738c75cf4e3d42732e37ebb5ca6f115a663a391",
+      "SAR全足内容SHA256": "2a1b5771b082419ae301a33932d13d91afe7f256a6a3ff6e1f6bbbaa2c10d7ca",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-09_Night",
+      "期間": "学習",
+      "純信号数": 16,
+      "主生live内容SHA256": "d1eba5e177e240ef0d6f3231dd96118ce63ebeb3b479e36f9396ae15bd6bda0b",
+      "独立ATR判断射影SHA256": "ea1722a89b971e5dd7d945eab0a7f23f3ac516ebf53580476d94a5c883520b0b",
+      "原P判定SHA256": "60b870033cd3d8a47007a21848a1dd403f7edd160dfb2193c5318665cf1185b8",
+      "SAR全足内容SHA256": "186b8a6da8b2ca2060d86ea3035b4bd1f21aacc0c28f3a88062463880354132e",
+      "SAR足数": 252
+    },
+    {
+      "場": "2026-10-12_Day",
+      "期間": "学習",
+      "純信号数": 7,
+      "主生live内容SHA256": "1fdb63bccccf17cf92dd3f474a9a47ab541e91e560f6704a6cd6d316a7b0bc5c",
+      "独立ATR判断射影SHA256": "80f1acf0878cc61b71961beb60033c55b178cc4ef2b4a7e2cc228043f21e3a47",
+      "原P判定SHA256": "44d598df4cb1845c76e160a4e4527e37ee2587f67d35e16e53a813656cf923b9",
+      "SAR全足内容SHA256": "8caae3f38dcaca478fadabffdd4c16fe95d1fe7ddd77d49205c3809765b4dc85",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-12_Night",
+      "期間": "学習",
+      "純信号数": 5,
+      "主生live内容SHA256": "fed73f79652f4ec5d8436b52d3c0b6e659dd3af3d30d1f10ff1b759034c77ed7",
+      "独立ATR判断射影SHA256": "cc53e9dc62482e7d3340dab02569d4577217cd227e498093bc79e07591e91917",
+      "原P判定SHA256": "0c20797813364c6530fd4c4cb22b288219a56b076d857fd3cc0900e9f7febd17",
+      "SAR全足内容SHA256": "726d7fa338652b67ce08340944ef3f9cd56f99d23f0d899b24446b96b7b6a206",
+      "SAR足数": 241
+    },
+    {
+      "場": "2026-10-13_Day",
+      "期間": "学習",
+      "純信号数": 11,
+      "主生live内容SHA256": "2106787cda00f5600a263e480b625df4740f9bfd53904a26f9ceb803a3d32319",
+      "独立ATR判断射影SHA256": "3f3ba712b100f15a7c4b5dfce1d8dcde6850d6b9d1864357a20078c1a07ca62f",
+      "原P判定SHA256": "e40d7aaf50ba7ee6f71611c059a5a0691746a47a03550832716cfb02ac01f642",
+      "SAR全足内容SHA256": "f6eb6ca3966071e7ca98b272b030b277ea9df798f37fb04144a06fe81a3465ef",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-13_Night",
+      "期間": "学習",
+      "純信号数": 17,
+      "主生live内容SHA256": "5ea3c88cde6179a14dc2fee002edf6f7e04e7aa655e53f41367f79c7517c9d52",
+      "独立ATR判断射影SHA256": "c3d0e78630afb6769a55e4851c02ebd57457ea451d43fe7d96d2e355c682460d",
+      "原P判定SHA256": "1c681223ba13cc92e55e98d6113e76cea56e379e47220f4f88b5ddf09f602f06",
+      "SAR全足内容SHA256": "4bf3324529ab5cf58c302c2463a199364951ee557fdec58c631a60205db40ed0",
+      "SAR足数": 249
+    },
+    {
+      "場": "2026-10-14_Day",
+      "期間": "学習",
+      "純信号数": 9,
+      "主生live内容SHA256": "cf00e3267c6b84b0cf44d3980c0bc0ef0d5aaf7a4a8492b061a3c6966441f8f6",
+      "独立ATR判断射影SHA256": "eb45685f7947e27c508e5f2e4d78936b68c4d435450e226f020ef144b027c8ae",
+      "原P判定SHA256": "41d686276dda80d6236800115a6916d6b422f251c4d172322ae82dacca915ca6",
+      "SAR全足内容SHA256": "a9ffeafbc359353f084673aeb6e8cd7580d88e253d6fa349a488e2baac06760a",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-14_Night",
+      "期間": "学習",
+      "純信号数": 37,
+      "主生live内容SHA256": "cd218ebd4ce1540fd9e8cce6f0a7626ed9c901bcc5251275341116f840fde41e",
+      "独立ATR判断射影SHA256": "171967fd408d06dc1a44841995250d08ed9717d059ef75027cdad37936669b5d",
+      "原P判定SHA256": "a3217cb95a0ea8e2a08d17c34b4a12448d3cafc0c6da7efd247b039daf2bc841",
+      "SAR全足内容SHA256": "e01375e5b26004707e06e06fd474886ed7ed4ab1ab8cdfbf46c43fdc8656139c",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-15_Day",
+      "期間": "学習",
+      "純信号数": 22,
+      "主生live内容SHA256": "16855a4d46cdd5d1ce1cfbdb701fe35d8004375698b4168fc1b1f2f32131716c",
+      "独立ATR判断射影SHA256": "05802bc73fb11c86cf3ed33d969d47d98a32bae2f1a41eba81b5e37d39c45c78",
+      "原P判定SHA256": "e97d0945812ce5200870ef1213237e4daa57166db60e0472a7b5e314c8b7b2c3",
+      "SAR全足内容SHA256": "a9a8004f43ed7a04937d093b36e101c74ced2974d7b2b376d03352a35fa1ebfd",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-15_Night",
+      "期間": "学習",
+      "純信号数": 47,
+      "主生live内容SHA256": "3336267693a8f3d426e00d17cfcae6f03a2f44cfa82d15714fe2b2e71b17a808",
+      "独立ATR判断射影SHA256": "7da758542ea43437cdb047874a96d9d18fcb84cb58f4c629b7a18261dbb45b47",
+      "原P判定SHA256": "1d515dbf16fe1def00cd5f7a106aa810cd2f708321f63665a7dcd7bd61595ed1",
+      "SAR全足内容SHA256": "01da9e2b0176552c0eb162100dbea6244073a3cd6ebcd7adfa10d5b8b095623c",
+      "SAR足数": 256
+    },
+    {
+      "場": "2026-10-16_Day",
+      "期間": "学習",
+      "純信号数": 8,
+      "主生live内容SHA256": "2b8e3c25599704de6696ab79bdfcc21a779f4f33492dd7528afdd04b8171476c",
+      "独立ATR判断射影SHA256": "30a0a1e1f59f350df12e655ced9c68070ef2a681e47f0e8ccabe817e735a0c68",
+      "原P判定SHA256": "748b60811dc32a1530b4989851b435a29630e189d31cfb9f43cda9311b0e0a85",
+      "SAR全足内容SHA256": "6597d9bf731d455cdb076c941a3362abb784e70500e7032417a37310604f440b",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-16_Night",
+      "期間": "学習",
+      "純信号数": 33,
+      "主生live内容SHA256": "39fc8d04a98ace43f6f2f7a0910076a7f1e7307e3bb6379dd0522c4673aceb72",
+      "独立ATR判断射影SHA256": "8a7f87c38744f2f5abe035148a25818e46131c2a9ed2770a9c4910e71182bc26",
+      "原P判定SHA256": "d0ceee6776b0f476701425e00b33d732b350adb9b81fcc2c362db0b89b0ddaee",
+      "SAR全足内容SHA256": "0649e7233ba2286ae9ad98466681b2a18185f8432f4d2eadf089381f06fc2715",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-19_Day",
+      "期間": "条件選択",
+      "純信号数": 15,
+      "主生live内容SHA256": "ff088c4d7770cb264b46e049e75447867cac4fb00203d0a6e6825172b140f1ce",
+      "独立ATR判断射影SHA256": "5d05fd10b42bf99d9311d8a6cc94582737399a09189f1608516700b510d7fa55",
+      "原P判定SHA256": "b781f4384c15672736c0ac81505415b1a95c59feef1bb2dc266f032fe775b78f",
+      "SAR全足内容SHA256": "bf9e9fd60894f0e28545bf7e5e01d2d3a811ecb0dc22f500f12c5de023fa81c9",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-19_Night",
+      "期間": "条件選択",
+      "純信号数": 23,
+      "主生live内容SHA256": "6c3735637060343302ae8e4d63a36c1bc5be0f38f900d593785ead98c8fbbed4",
+      "独立ATR判断射影SHA256": "e9e2b87f941584cf43fd1df33df14fec9d8f202461d6a24534a1f0ad1dbadab2",
+      "原P判定SHA256": "21bca15b8d6dddc596567e9c62590bbf3671898f2a653ed00d7646ba7b79200e",
+      "SAR全足内容SHA256": "13a2c250eec2ccbc2380cce38bbcfbad25c8e8c18de757dd6fc4665315644923",
+      "SAR足数": 257
+    },
+    {
+      "場": "2026-10-20_Day",
+      "期間": "条件選択",
+      "純信号数": 13,
+      "主生live内容SHA256": "81731df6a71aacb9609eb8dd576c839ab5e1ef29e51f51538711b7acedb1a0f2",
+      "独立ATR判断射影SHA256": "8d29d4d917ebfd1baa47fb4753886d082cec1c41fc8d1563205b8f3e79afe1ce",
+      "原P判定SHA256": "0f5e87e03021488db540fec3b767768f71d6c44c1d393e1bee7900cd41f7c386",
+      "SAR全足内容SHA256": "dcb236da4e266a1341c00dae6dfca64b69ac08eba4af6b83fcfc05279ac62cd4",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-20_Night",
+      "期間": "条件選択",
+      "純信号数": 26,
+      "主生live内容SHA256": "d07f8e2cbc5fb240d9db08af6469fa3caec56cfa1b3b482a3679057a2feb852f",
+      "独立ATR判断射影SHA256": "7bc86901d3cd282f70d05df804cd85f64a86d54a9a51459813081965bdfe7669",
+      "原P判定SHA256": "01fd0cbcce11af5fd4f47c3690294b2386164c62504c48592b367ff3396973c3",
+      "SAR全足内容SHA256": "8a06716dc2e3457c425db8422b788b4fa7a5c60ba1c0618f2bea5eb524a52908",
+      "SAR足数": 254
+    },
+    {
+      "場": "2026-10-21_Day",
+      "期間": "条件選択",
+      "純信号数": 8,
+      "主生live内容SHA256": "2583be8d2728f78f8106941d6799357c061dd1179958423e6ca309a2f75cd9cb",
+      "独立ATR判断射影SHA256": "1f52562af6af96d7714fe74d33bbab283e1de6d38c78ab80b9210478e39103d0",
+      "原P判定SHA256": "fe6294ef9807c1bbbf10ccc28098f4174cdfd6470c4c817b38a94ba5b4a29d24",
+      "SAR全足内容SHA256": "11691c7cea14228acc7856c14065ce376dbe688b7b3d203e3f21afc2b65d4920",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-21_Night",
+      "期間": "条件選択",
+      "純信号数": 19,
+      "主生live内容SHA256": "1c3987cfc27bb7612c17536d0655c566819d181471bab70902c64ef0f5f7f614",
+      "独立ATR判断射影SHA256": "87074f9e3bf1959164c2ce27895a9a8b21298570efa3cac43ec9c1a77e574926",
+      "原P判定SHA256": "9c6387adf67ade3ca92b36d3c149b87b466d4859624620768ef86a399e2eed3b",
+      "SAR全足内容SHA256": "68f28544f2c4ca4ae37428bae88327192c1808acb16a1232cc780eff60149ed6",
+      "SAR足数": 257
+    },
+    {
+      "場": "2026-10-22_Day",
+      "期間": "条件選択",
+      "純信号数": 17,
+      "主生live内容SHA256": "a64d8b134752564e249916b326882912cf6c7517035d1f8a6cef8ce1925c1471",
+      "独立ATR判断射影SHA256": "bcb5238f904d3324abcea3afd1a75fed2e455d7af0a98cdb7badefd0403415ad",
+      "原P判定SHA256": "c08544f6788766d24c542725fda2d051aaa9660d1c952a4707b1ab9a63368f60",
+      "SAR全足内容SHA256": "c6f62326aba062d0247b0c117bbd679655717ddfe5d8f6ed9a2bc5aa98431f4a",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-22_Night",
+      "期間": "条件選択",
+      "純信号数": 23,
+      "主生live内容SHA256": "d26e1b5789c7b6d86d7e974391570fdd284c0566579ca21d2e2d9db936cf0ca5",
+      "独立ATR判断射影SHA256": "1ee641e0a544944f79e86c20224c11e3f7602a9f32d1c81b7112a92e10d90cf2",
+      "原P判定SHA256": "f50a7b7dd10fc3900822da0f0c6d32a85da5ba374f2266c4c1d86a9c8aacd27a",
+      "SAR全足内容SHA256": "028110bc4987354ae7969c69a68c019dc60612171246e1a16e587f116a1807ed",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-23_Day",
+      "期間": "条件選択",
+      "純信号数": 9,
+      "主生live内容SHA256": "8c6488c056018f8f3c2ca4e028c07128c76979854a36168b584c9382a4c1676c",
+      "独立ATR判断射影SHA256": "d1bbff1ef0450aa90a20c5af4feb42638d41452ebd2eff2d30de958485c6f1b7",
+      "原P判定SHA256": "caec9f1718995cfbdcf5779d424b03b9d1e1752a0b50d7e771b2fbcab79c717d",
+      "SAR全足内容SHA256": "348237aa0f43bb6d402cc3692d7c4ca6922db85115c26299bf3cf8a9c964ebb9",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-23_Night",
+      "期間": "条件選択",
+      "純信号数": 24,
+      "主生live内容SHA256": "0053f06abb08bdde7f6b81093f468f6d4c33f576f2b62218d1125ef4debcc49d",
+      "独立ATR判断射影SHA256": "2e51b4551cc3aed8d3eac88bfd7a00ce0604687da9b886d5ce664467bb42f875",
+      "原P判定SHA256": "f2b44bb29a5eb9d7672b04b81b4b7f3901badef9c639c8efcc38abf925442558",
+      "SAR全足内容SHA256": "6523b881b8f5cc0d20c658007c3e37da7e9cdc8b6481c878d08262ff910e4343",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-26_Day",
+      "期間": "条件選択",
+      "純信号数": 3,
+      "主生live内容SHA256": "3a5971ca8cdf6ba371c6d54072908d9c53fc1c854772c4b894e97616fbe48569",
+      "独立ATR判断射影SHA256": "394aa022d5fa013752b6a24ef3361ac39ef49d32361f2da52c4000d117b23e61",
+      "原P判定SHA256": "b9ddc93545eef93ec262cd026c46fd3a0c7c5a5b322a05b3a02547efb81905d8",
+      "SAR全足内容SHA256": "ada2cc05816252e69e8c597575ce22cda765bd65c51c9d1e5985d7bc0a23489e",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-26_Night",
+      "期間": "条件選択",
+      "純信号数": 31,
+      "主生live内容SHA256": "6be2d409152d2f49540df8420245630947a740ce085fbbd8e4267d21581bea3b",
+      "独立ATR判断射影SHA256": "4f88fd267aa87045a395733dd9cd8c1c1d32031a4694699f85a6ba7bba2c6890",
+      "原P判定SHA256": "999142178926230fb9ca3accd27dd1471939140da666ad779162282d8876a034",
+      "SAR全足内容SHA256": "c16222bcbec21aab1bfed00baf255085340afad9a3d2873b022106c41bb51dd3",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-27_Day",
+      "期間": "条件選択",
+      "純信号数": 8,
+      "主生live内容SHA256": "a2faa58e75b54b22077418dc430c92767dc5f73ed4bd1a8c27cf044dc3d17532",
+      "独立ATR判断射影SHA256": "4c2352a0f2001ada5068a8a86471cb737843ed4c89adfc52a542f1c01a253666",
+      "原P判定SHA256": "3a1b5af06d81e349538f1e09c2a96508aa425a59e3eb64ba3b04f8b51c6ebecd",
+      "SAR全足内容SHA256": "e4bfcdff1f0f03c5cd5787804345357d77ead715ae6c45d1748bf262ca8bbba1",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-27_Night",
+      "期間": "条件選択",
+      "純信号数": 28,
+      "主生live内容SHA256": "e6c3336181a075de2e6c2446de35da5c246b5abb21a2c4254f4905144f0581fb",
+      "独立ATR判断射影SHA256": "b10ab5ae435548bcca08e6fa1f11a07ec3f92b676a81b013d556af4ffa87719b",
+      "原P判定SHA256": "48f1f0226496b6b27aa46726656fa034b694f1ee2c1ae13f28a92043916a8556",
+      "SAR全足内容SHA256": "c14c1d28f2eeddccac72a70d9863f7ca60e987254eda15fda82abbb612dc55dd",
+      "SAR足数": 250
+    },
+    {
+      "場": "2026-10-28_Day",
+      "期間": "条件選択",
+      "純信号数": 11,
+      "主生live内容SHA256": "483422581c5fd8d1ac1a9d752ac92f294061411d7a1e0fb3cab08d18c24e13f3",
+      "独立ATR判断射影SHA256": "e10cbfacbabbc126c4fa1203fe56cf73b07f028717da4dd9c708b25858c5eabb",
+      "原P判定SHA256": "89396b9819343e0c2323493009630e850f6d6e9d3646b712f5f95ba355169651",
+      "SAR全足内容SHA256": "9b0f8ff1a6075cc7b4765203e1e1c0f25ee0876a23d61f020cb357d911e12b56",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-28_Night",
+      "期間": "条件選択",
+      "純信号数": 19,
+      "主生live内容SHA256": "478213c7f64ffb4a51c6ef033561b976cfa768442ab1b560951be89e38b31aaa",
+      "独立ATR判断射影SHA256": "01677f849d8b3257a23e5ab6fb7916d0b35e12b4491fae02733cdfcb92ca413d",
+      "原P判定SHA256": "46aecacc2bacfa9e88b808cd5143e37983885ba9ff49a09f2c022f38077fdbca",
+      "SAR全足内容SHA256": "a2d829d79b272e1fa811a6d081b1fad637a03d6a36f10db82a5e4ff4c6b7e578",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-29_Day",
+      "期間": "条件選択",
+      "純信号数": 28,
+      "主生live内容SHA256": "9d992eda7ecca80fb186493cd3ef23f477ab6406745f166b2b01b7a13f0580c3",
+      "独立ATR判断射影SHA256": "6d9ba68d297be14885bcbc070a4c805e2bbd97cd38d57af381c1f54c5e3fb0e3",
+      "原P判定SHA256": "52506499b82cb491bc4337e6cebf727b169684a1be150b0357e375625f73e583",
+      "SAR全足内容SHA256": "5657a8f0e89716adcec4244476bd0fbbdc71c8d2b4ff0dd882c3287e4700c558",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-29_Night",
+      "期間": "条件選択",
+      "純信号数": 22,
+      "主生live内容SHA256": "89eb699295b55683917359cddda58128c498724e18cc93b0204e3f2875053f49",
+      "独立ATR判断射影SHA256": "7ab55678ac4a288560494e15d057c0e4479c78fda1c647f41c406d88b580d0e4",
+      "原P判定SHA256": "f390bc48a1732338e6d87e729b693e9c079ce9e6e7602d13752494488210f953",
+      "SAR全足内容SHA256": "5c91fa53a5ca10094bb2b3224dcbe653809003f9abbc3636187ac59544aa0cc6",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-10-30_Day",
+      "期間": "条件選択",
+      "純信号数": 18,
+      "主生live内容SHA256": "554b40c10582f532d61cd17583e3c09402261544ff9a29049202018c704c0ea0",
+      "独立ATR判断射影SHA256": "b5c2480329512ab25bd2330e4d9e1101b595dfbf2760a16ca6a504c79709afab",
+      "原P判定SHA256": "86b00b518a40a6646042d7f38b67c56169e9681f2043ae34b73d202c90dc641d",
+      "SAR全足内容SHA256": "762f25d675d6d5afa3ebd4afe6098edc47cfdbaa65b0e58570e2476ad2aba998",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-10-30_Night",
+      "期間": "条件選択",
+      "純信号数": 30,
+      "主生live内容SHA256": "de3fcb42753c0377479d1557b29a53058cc6231479c968e20936e182f7bd1d9c",
+      "独立ATR判断射影SHA256": "889e2aaa659ba1973ff0eaa2131f48a6bc07000497808823bf2f48f56537ca46",
+      "原P判定SHA256": "9556c139f9e6af7e650b6f5259c250fe4ea3df3990c690385e8ea242bca65fcf",
+      "SAR全足内容SHA256": "44eaadf3b76a961ee4769c3ce533e5b6a4f0fe74af3f412957ab059b66bd304d",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-11-02_Day",
+      "期間": "条件選択",
+      "純信号数": 17,
+      "主生live内容SHA256": "30c88faefe72d9fb0e32fc34d493222e4782542c0d73dc648b6921dcfbbeb128",
+      "独立ATR判断射影SHA256": "03faaede4faa1595190249ebd9234ef0883ab170ad449e6ea5d3ab91ca8264e5",
+      "原P判定SHA256": "d33ffe6222d5d4f0612576c49c6416b323ededb599be59484bb7d556c9c509ef",
+      "SAR全足内容SHA256": "fdf54cbf915ca8b2f6a81dfef80b7ca5ca8fb3ab4b11bc562b93b5a03e5b2440",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-11-02_Night",
+      "期間": "条件選択",
+      "純信号数": 32,
+      "主生live内容SHA256": "a3fb137867dd9fa126f25fc4a1463a2bfe004d25a7f9a473ae18c12e20584b03",
+      "独立ATR判断射影SHA256": "0f04539ac61c24485dd0950669d1c6eeb22199ace74f01c444342cab6b0ba049",
+      "原P判定SHA256": "b0c2bc64c5db9f4610a016f7521f84fb0a08565959634debc211e1aa90ef8a64",
+      "SAR全足内容SHA256": "e5455b9f09470c744593a7032e5dff28972099fe98871497caaefe4d5acf15cf",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-11-03_Day",
+      "期間": "条件選択",
+      "純信号数": 15,
+      "主生live内容SHA256": "1be45a2bb0035e6a0ff8f7a4c0c3eac3e30b0bccb9c0fc4db4913aaad30b8111",
+      "独立ATR判断射影SHA256": "dc0ef14fa600186e78baf48fa92594c164347bc56c57fb4d7f99ccd814906fd7",
+      "原P判定SHA256": "e44c94de7712f8f22b2fdfc7ebcc9ecbd9613bb86305b2f1c579756392cc2f86",
+      "SAR全足内容SHA256": "e34adf2b65cde01532c6385f4bdabb6f2b5c5491c714ecf2ba372060f8a6d49b",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-11-03_Night",
+      "期間": "条件選択",
+      "純信号数": 21,
+      "主生live内容SHA256": "bab930be1bd1498d3aee7efaca9ebef694964eba0237de8aee5267c0b6b09064",
+      "独立ATR判断射影SHA256": "0ad064d8a4390ca2d3fcacdff5e45eb77844b13f52f4591b977bca6901b22e0b",
+      "原P判定SHA256": "a75099fd179939aa64c5c7865b9c6953267c0db37b10c9f9fba87b8adfde2bd7",
+      "SAR全足内容SHA256": "3f426137ecfd1ae33dada4454cb0bf5898547db60398cef88d8ecf952c5115bd",
+      "SAR足数": 258
+    },
+    {
+      "場": "2026-11-04_Day",
+      "期間": "後続検査",
+      "純信号数": 34,
+      "主生live内容SHA256": "37d4429753257cf9293184b144d7e8edbae965d8f983be39b7e7b1287055e7af",
+      "独立ATR判断射影SHA256": "6a4e90e3a96a9b769c42342d16c8ea5d1edd2f4d3da23406d82db9425fa37f25",
+      "原P判定SHA256": "53e933d8542c641628a97f8a288f7ca1704af65f657ada79eed58bed94b4a1e5",
+      "SAR全足内容SHA256": "8433f8f55d48e1d092b6a790eac7471e3bf35eb06ccbb5377ad4055a36e2a0a9",
+      "SAR足数": 138
+    },
+    {
+      "場": "2026-11-04_Night",
+      "期間": "後続検査",
+      "純信号数": 27,
+      "主生live内容SHA256": "8feb5849a03dceb0f78b76901967f206da164d24ec42c41ba7fd7f44160cd2cf",
+      "独立ATR判断射影SHA256": "ee72b6a32ebdb53a18132da79e6530a80b035c03f6887930ef6ae760544db702",
+      "原P判定SHA256": "a1ef956880fea26563e5983cbf863593b5990b7d42d7e203323ed9f6664e27e3",
+      "SAR全足内容SHA256": "9bd9a32f75d7d2dd965ad8ece4e755a99640bb89b950af39a4ddec5c2827ef6f",
+      "SAR足数": 258
+    }
+  ],
+  "SAR全足数": 12952,
+  "検証範囲": "固定8列cacheから独立31の3/15分数値と原P/採否を再構成し、当時whitelistだけを比較。3分原OHLCへ別実装の有理数SAR/AF整数を当て全精密/表示/前二足/公開/品質を厳密照合。原ATRは既定許容/D整数を全leaf比較してから判断SHAへ投影。生liveの旧31完全同値/共有6明細は別出典へbind。",
+  "限界": "準備はlabel/PnL/実運用を呼ばない。旧caseは当時属性だけを直ちに射影し、将来属性を運用信号へ渡さない。既使用66場の開発内検算であり未見成績ではない。"
+}

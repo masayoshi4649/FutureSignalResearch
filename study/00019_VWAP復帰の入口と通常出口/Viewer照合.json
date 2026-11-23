@@ -1,0 +1,360 @@
+{
+  "確認日時": "2026-11-04T22:39:09.002152+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "設定": "work/viewer/conf/viewer.toml",
+  "WindowStyle": "Hidden",
+  "照合": [
+    {
+      "選択理由": "順行/反転の同入口三出口",
+      "資源ID": "00019_3分_Q1_なし_X0_2026-10-15_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-15_Night",
+      "手法": "3分_Q1_なし_X0",
+      "研究側純損益円": 6412.0,
+      "独立会計": {
+        "cash": 6412.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 4
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 6412,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 8,
+      "帰属手法の約定片数": 8,
+      "API約定片数": 8,
+      "約定ファイル": "約定/3分_Q1_なし_X0/2026-10-15_Night.trades.jsonl",
+      "約定SHA256": "782f5f0c3e92432da18846e6a05b66cd66e3463571196a4094c963eeb15ec556",
+      "数値SHA256": "d2f073112e6786cdc2068e289beedc2b360002ce9d70a687596d001b89f6f220",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "d2f073112e6786cdc2068e289beedc2b360002ce9d70a687596d001b89f6f220",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792051200000,
+        "end_ms": 1792098000000,
+        "from_ms": 1792051200000,
+        "to_ms": 1792098000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 208755,
+        "invalid_clock_rows": 763,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 201749
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\約定\\3分_Q1_なし_X0\\2026-10-15_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 6412.0
+    },
+    {
+      "選択理由": "順行/反転の同入口三出口",
+      "資源ID": "00019_3分_Q1_なし_X1_2026-10-15_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-15_Night",
+      "手法": "3分_Q1_なし_X1",
+      "研究側純損益円": -2676.0,
+      "独立会計": {
+        "cash": -2676.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 8
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -2676,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 16,
+      "帰属手法の約定片数": 16,
+      "API約定片数": 16,
+      "約定ファイル": "約定/3分_Q1_なし_X1/2026-10-15_Night.trades.jsonl",
+      "約定SHA256": "f6f008b8df83721254444c786374c09df449a0304ee1ad5c27cb07ded483a806",
+      "数値SHA256": "492fc7e8ee9bb8c5bef205d3458e2a3e0928ece21e23ed3b67c2bf1508efe944",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "492fc7e8ee9bb8c5bef205d3458e2a3e0928ece21e23ed3b67c2bf1508efe944",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792051200000,
+        "end_ms": 1792098000000,
+        "from_ms": 1792051200000,
+        "to_ms": 1792098000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 208755,
+        "invalid_clock_rows": 763,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 201749
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\約定\\3分_Q1_なし_X1\\2026-10-15_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -2676.0
+    },
+    {
+      "選択理由": "順行/反転の同入口三出口",
+      "資源ID": "00019_3分_Q1_なし_X2_2026-10-15_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-15_Night",
+      "手法": "3分_Q1_なし_X2",
+      "研究側純損益円": -2176.0,
+      "独立会計": {
+        "cash": -2176.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 8
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -2176,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 16,
+      "帰属手法の約定片数": 16,
+      "API約定片数": 16,
+      "約定ファイル": "約定/3分_Q1_なし_X2/2026-10-15_Night.trades.jsonl",
+      "約定SHA256": "4f44302ae477fbfba5f6c51e500eccdd703850b08f3eb36bbf2c661e592a5e5d",
+      "数値SHA256": "9d260e3b9df6d54d3ea92ef67ee68fa461deeb3588b5875c4b33ba5b962c3668",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "9d260e3b9df6d54d3ea92ef67ee68fa461deeb3588b5875c4b33ba5b962c3668",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792051200000,
+        "end_ms": 1792098000000,
+        "from_ms": 1792051200000,
+        "to_ms": 1792098000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 208755,
+        "invalid_clock_rows": 763,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 201749
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\約定\\3分_Q1_なし_X2\\2026-10-15_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -2176.0
+    },
+    {
+      "選択理由": "順行/反転の同入口三出口",
+      "資源ID": "00019_3分_Q2_なし_X0_2026-10-01_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-01_Night",
+      "手法": "3分_Q2_なし_X0",
+      "研究側純損益円": 10212.0,
+      "独立会計": {
+        "cash": 10212.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 4
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 10212,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 8,
+      "帰属手法の約定片数": 8,
+      "API約定片数": 8,
+      "約定ファイル": "約定/3分_Q2_なし_X0/2026-10-01_Night.trades.jsonl",
+      "約定SHA256": "2f14a6193f4c232b70f5a4ef2e64edba859a07eef22a055a33d742f3dbaf9888",
+      "数値SHA256": "8b2c1e8b313f9fc579ae072940ebf56c23297a71d709355f1e278961858521ca",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "8b2c1e8b313f9fc579ae072940ebf56c23297a71d709355f1e278961858521ca",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1790841600000,
+        "end_ms": 1790888400000,
+        "from_ms": 1790841600000,
+        "to_ms": 1790888400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 210038,
+        "invalid_clock_rows": 1197,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 203346
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\約定\\3分_Q2_なし_X0\\2026-10-01_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 10212.0
+    },
+    {
+      "選択理由": "順行/反転の同入口三出口",
+      "資源ID": "00019_3分_Q2_なし_X1_2026-10-01_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-01_Night",
+      "手法": "3分_Q2_なし_X1",
+      "研究側純損益円": 1668.0,
+      "独立会計": {
+        "cash": 1668.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 6
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 1668,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 12,
+      "帰属手法の約定片数": 12,
+      "API約定片数": 12,
+      "約定ファイル": "約定/3分_Q2_なし_X1/2026-10-01_Night.trades.jsonl",
+      "約定SHA256": "01607597ba899106739eeeeb698002d9966628bcd861ddbd891557590716fd84",
+      "数値SHA256": "1c74397dfe325a9f63e41dbac3227c548cd9de4198087b87301f3e3f2b907de1",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "1c74397dfe325a9f63e41dbac3227c548cd9de4198087b87301f3e3f2b907de1",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1790841600000,
+        "end_ms": 1790888400000,
+        "from_ms": 1790841600000,
+        "to_ms": 1790888400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 210038,
+        "invalid_clock_rows": 1197,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 203346
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\約定\\3分_Q2_なし_X1\\2026-10-01_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 1668.0
+    },
+    {
+      "選択理由": "順行/反転の同入口三出口",
+      "資源ID": "00019_3分_Q2_なし_X2_2026-10-01_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-01_Night",
+      "手法": "3分_Q2_なし_X2",
+      "研究側純損益円": 1768.0,
+      "独立会計": {
+        "cash": 1768.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 6
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 1768,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 12,
+      "帰属手法の約定片数": 12,
+      "API約定片数": 12,
+      "約定ファイル": "約定/3分_Q2_なし_X2/2026-10-01_Night.trades.jsonl",
+      "約定SHA256": "4aed63ad22a9c04b466b1571b7a38cf4ee104253c33f64774c21cb04e024db0e",
+      "数値SHA256": "a11a454397848268b9506cca492c29ec807659eef8376c54aca219d029cca5c6",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "a11a454397848268b9506cca492c29ec807659eef8376c54aca219d029cca5c6",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1790841600000,
+        "end_ms": 1790888400000,
+        "from_ms": 1790841600000,
+        "to_ms": 1790888400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 210038,
+        "invalid_clock_rows": 1197,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 203346
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\約定\\3分_Q2_なし_X2\\2026-10-01_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00019_VWAP復帰の入口と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 1768.0
+    }
+  ],
+  "追加PNG数": 0,
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "代表規則": "事前表示固定3分Q1/Q2について各最大絶対観測額（同値候補ID/場順）の同入口三出口を表示。事後表示で採用選択ではない。"
+}

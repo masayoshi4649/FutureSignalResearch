@@ -1,0 +1,132 @@
+{
+  "確認日時": "2026-11-05T09:38:05.661096+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "設定": "work/viewer/conf/viewer.toml",
+  "WindowStyle": "Hidden",
+  "照合": [
+    {
+      "選択理由": "事前三分二戦略の代表",
+      "資源ID": "00025_3分_Q0_X0_2026-10-27_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Night",
+      "手法": "3分_Q0_X0",
+      "研究側純損益円": -3966.0,
+      "独立会計": {
+        "cash": -3966.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 3
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -3966,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 6,
+      "帰属手法の約定片数": 6,
+      "API約定片数": 6,
+      "約定ファイル": "約定/3分_Q0_X0/2026-10-27_Night.trades.jsonl",
+      "約定SHA256": "f567d53dd4a33443d096d02c80c14811d55d8c73823aac94dcba63af6b37e66f",
+      "数値SHA256": "ab17bbe691e9549d028462321ee58770884ba053b66872d3e2d70a26cea72a1c",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "ab17bbe691e9549d028462321ee58770884ba053b66872d3e2d70a26cea72a1c",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793088000000,
+        "end_ms": 1793134800000,
+        "from_ms": 1793088000000,
+        "to_ms": 1793134800000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 167690,
+        "invalid_clock_rows": 502,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 163427
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00025_価格イベントとSAR方向持続\\約定\\3分_Q0_X0\\2026-10-27_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00025_価格イベントとSAR方向持続\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -3966.0
+    },
+    {
+      "選択理由": "事前三分二戦略の代表",
+      "資源ID": "00025_3分_Q1_X0_2026-10-27_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Night",
+      "手法": "3分_Q1_X0",
+      "研究側純損益円": -1244.0,
+      "独立会計": {
+        "cash": -1244.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 2
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -1244,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 4,
+      "帰属手法の約定片数": 4,
+      "API約定片数": 4,
+      "約定ファイル": "約定/3分_Q1_X0/2026-10-27_Night.trades.jsonl",
+      "約定SHA256": "56b658696299428966aee6e273d47a5dfed2a23c1644c2a06263fc124c0f34a2",
+      "数値SHA256": "7b0f239af6dfe441772a8dc1bf5faf8b522d81b8898f8ce2eb3518a22fae8b35",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "7b0f239af6dfe441772a8dc1bf5faf8b522d81b8898f8ce2eb3518a22fae8b35",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793088000000,
+        "end_ms": 1793134800000,
+        "from_ms": 1793088000000,
+        "to_ms": 1793134800000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 167690,
+        "invalid_clock_rows": 502,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 163427
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00025_価格イベントとSAR方向持続\\約定\\3分_Q1_X0\\2026-10-27_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00025_価格イベントとSAR方向持続\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -1244.0
+    }
+  ],
+  "追加PNG数": 0,
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "代表規則": "事前固定三分Q0/Q1。各候補の最大絶対観測現金増減場、同値は場順。表示用選択を売買採用に使わない。"
+}

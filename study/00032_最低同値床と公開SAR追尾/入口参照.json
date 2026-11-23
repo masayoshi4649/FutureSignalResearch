@@ -1,0 +1,81 @@
+{
+  "版": 1,
+  "基準パス": "リポジトリルート",
+  "参照試行": "00031",
+  "旧固定SHA256": "b1a8cc4aec9def6907f65e0372ad8d280d62390e8059e83c1f38d6c927615cce",
+  "全66場既使用": true,
+  "大明細複製": false,
+  "文書と証明": {
+    "固定.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/固定.json",
+      "SHA256": "b1a8cc4aec9def6907f65e0372ad8d280d62390e8059e83c1f38d6c927615cce"
+    },
+    "条件.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/条件.json",
+      "SHA256": "8d4cd04e02e26144f16375dea7e722fb84f7f6384a75606b925f1ea792d9ded1"
+    },
+    "結果.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/結果.json",
+      "SHA256": "88da7383c8b45c6def17bbf93294604e39f5ea7305e21cd0b4cd8f22769fd168"
+    },
+    "作業成果物.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/作業成果物.json",
+      "SHA256": "6d8331219a5a43eba188c7af81e00873d2d7aa03931385259ff81994f9193c0e"
+    },
+    "独立監査.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/独立監査.json",
+      "SHA256": "0e80ada5073c70345c4fcddcd3a2a0fe6667faf9e7e739a1821f96e58a155fdf"
+    },
+    "状態独立確認.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/状態独立確認.json",
+      "SHA256": "452fbded28ccda658a20f840fa82b3d9a399c2788f8ca61c9276283dcf8aa461"
+    },
+    "追尾独立確認.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/追尾独立確認.json",
+      "SHA256": "a891a18c5b7a96930a32ff0083cd4d8711dbfa0ca3a443331c03025f8587e075"
+    },
+    "入力台帳.json": {
+      "パス": "study/00031_CCI持続と上位BB幅/入力台帳.json",
+      "SHA256": "1028cec8b4133385f78b4dc6f355bad62fc428e8104a0ea190fdd032a442b929"
+    }
+  },
+  "共有明細": [
+    {
+      "パス": "work/CCI突破/00031/全指標.jsonl.gz",
+      "展開内容SHA256": "7d7e66d0233ed8dd506858eddf0e08de8444c00674aa25983b42213b570edf0a",
+      "圧縮SHA256参考": "eadb9bf2515843d07edc7a42d0a6e1a492c515642bfa991c4d9f39fb300987ba",
+      "圧縮バイト": 1409021
+    },
+    {
+      "パス": "work/CCI突破/00031/全複合context.jsonl.gz",
+      "展開内容SHA256": "4f47261ecddb9d440a2397512c5e25cf621414f1df89b49fc5dcaf2694816b6a",
+      "圧縮SHA256参考": "22c3e3151af99d79836e52e06a792b6526b8dfe31d3afde5f9590c5af54dddf0",
+      "圧縮バイト": 2715962
+    },
+    {
+      "パス": "work/CCI突破/00031/全複合shadow.jsonl.gz",
+      "展開内容SHA256": "100e99b81671e8d82f9a488b76feec47e1d830b52b2aaecb0baba23d9a20d8ae",
+      "圧縮SHA256参考": "cedc7068be00d475225a75425b7888f97a7f24c595c0ae900a18b113b31a52e2",
+      "圧縮バイト": 680374
+    },
+    {
+      "パス": "work/CCI突破/00031/入口事例.jsonl.gz",
+      "展開内容SHA256": "9c7d083f28dd831378b06399831466c8acc6b3738d98f6f04221e6c9764c4d80",
+      "圧縮SHA256参考": "06891273a8e3dedee71ce4db4b587c5e2dbc7399b05ef5a6484ee91c67c5607c",
+      "圧縮バイト": 715477
+    },
+    {
+      "パス": "work/CCI突破/00031/全運用詳細.jsonl.gz",
+      "展開内容SHA256": "84899387840d753c7ed149f50063a64837f3b9ed2f3dd4d4cc54c02994d01078",
+      "圧縮SHA256参考": "d6abf5877622641871a56263d65e260f6692c4b7005f9e1c80e42e4006569446",
+      "圧縮バイト": 374157
+    },
+    {
+      "パス": "work/CCI突破/00031/追尾.jsonl.gz",
+      "展開内容SHA256": "309b52b55b4e7979a1c3546cece81c6adf1f5aa5e33c305137f81314b6c1b946",
+      "圧縮SHA256参考": "ca6ceac0fe4b33659e0cef088a620d3a1a7e20cc40a534fd35cc259cef811e51",
+      "圧縮バイト": 177991
+    }
+  ],
+  "用途": "C0/C1の純入口・125250先着評価とX0対照を固定31から共有。運用信号は明示whitelistで当時情報だけを渡し、ラベル/仮新規/判定/MFE等を渡さない。SAR数値と四運用の新結果は別に保存する。"
+}

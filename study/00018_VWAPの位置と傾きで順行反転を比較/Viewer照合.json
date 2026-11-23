@@ -1,0 +1,361 @@
+{
+  "確認日時": "2026-11-04T21:51:53.684375+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "設定": "work/viewer/conf/viewer.toml",
+  "WindowStyle": "Hidden",
+  "照合": [
+    {
+      "選択理由": "共通助走・native・差分の同場六条件",
+      "資源ID": "00018_3分_T1_N_A_X0_2026-10-27_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Day",
+      "手法": "3分_T1_N_A_X0",
+      "研究側純損益円": -6010.0,
+      "独立会計": {
+        "cash": -6010.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -6010,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 10,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/3分_T1_N_A_X0/2026-10-27_Day.trades.jsonl",
+      "約定SHA256": "d0425cfc3d7c40396b9fe43c2052284677ff5220fd6aa4b27219315ebf8cf228",
+      "数値SHA256": "eed54d14d5d40cad9fb24f204a06936d37bd6a6bd1c0074e7d789d12593d94c5",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "eed54d14d5d40cad9fb24f204a06936d37bd6a6bd1c0074e7d789d12593d94c5",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793058300000,
+        "end_ms": 1793083500000,
+        "from_ms": 1793058300000,
+        "to_ms": 1793083500000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 163299,
+        "invalid_clock_rows": 1122,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 155463
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\約定\\3分_T1_N_A_X0\\2026-10-27_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -6010.0
+    },
+    {
+      "選択理由": "共通助走・native・差分の同場六条件",
+      "資源ID": "00018_3分_T1_N_B_X0_2026-10-27_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Day",
+      "手法": "3分_T1_N_B_X0",
+      "研究側純損益円": -6010.0,
+      "独立会計": {
+        "cash": -6010.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -6010,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 10,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/3分_T1_N_B_X0/2026-10-27_Day.trades.jsonl",
+      "約定SHA256": "c638e7ea21c6a6ba02b045f22762cdd6d1638679f528ec41cb1462bf652c6e00",
+      "数値SHA256": "84653f92383b7e5da4e5abc799409b88c83e7f2b72c5585b8cfd153539ceace1",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "84653f92383b7e5da4e5abc799409b88c83e7f2b72c5585b8cfd153539ceace1",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793058300000,
+        "end_ms": 1793083500000,
+        "from_ms": 1793058300000,
+        "to_ms": 1793083500000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 163299,
+        "invalid_clock_rows": 1122,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 155463
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\約定\\3分_T1_N_B_X0\\2026-10-27_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -6010.0
+    },
+    {
+      "選択理由": "共通助走・native・差分の同場六条件",
+      "資源ID": "00018_3分_T1_N_C_X0_2026-10-27_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Day",
+      "手法": "3分_T1_N_C_X0",
+      "研究側純損益円": -6010.0,
+      "独立会計": {
+        "cash": -6010.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -6010,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 10,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/3分_T1_N_C_X0/2026-10-27_Day.trades.jsonl",
+      "約定SHA256": "847ced82aa36ecb1433994098077cf7922da6efc12571812e357398db67f39a5",
+      "数値SHA256": "0cafdfe6fcf190913a5b1b646b149d772fed45e37692f303fc2effc9b3edaa61",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "0cafdfe6fcf190913a5b1b646b149d772fed45e37692f303fc2effc9b3edaa61",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793058300000,
+        "end_ms": 1793083500000,
+        "from_ms": 1793058300000,
+        "to_ms": 1793083500000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 163299,
+        "invalid_clock_rows": 1122,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 155463
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\約定\\3分_T1_N_C_X0\\2026-10-27_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -6010.0
+    },
+    {
+      "選択理由": "共通助走・native・差分の同場六条件",
+      "資源ID": "00018_3分_T1_D_A_X0_2026-10-27_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Day",
+      "手法": "3分_T1_D_A_X0",
+      "研究側純損益円": -6010.0,
+      "独立会計": {
+        "cash": -6010.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -6010,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 10,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/3分_T1_D_A_X0/2026-10-27_Day.trades.jsonl",
+      "約定SHA256": "5b56299ee12d23f071aee096904e75b1bc2f1e11a921e07d950aacf37f5decc1",
+      "数値SHA256": "55bc5fce9f39387fdef24f39b4bdf179b47d8a1ad4d1bc8635f24ed674d0cc81",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "55bc5fce9f39387fdef24f39b4bdf179b47d8a1ad4d1bc8635f24ed674d0cc81",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793058300000,
+        "end_ms": 1793083500000,
+        "from_ms": 1793058300000,
+        "to_ms": 1793083500000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 163299,
+        "invalid_clock_rows": 1122,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 155463
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\約定\\3分_T1_D_A_X0\\2026-10-27_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -6010.0
+    },
+    {
+      "選択理由": "共通助走・native・差分の同場六条件",
+      "資源ID": "00018_3分_T1_D_B_X0_2026-10-27_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Day",
+      "手法": "3分_T1_D_B_X0",
+      "研究側純損益円": -6010.0,
+      "独立会計": {
+        "cash": -6010.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -6010,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 10,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/3分_T1_D_B_X0/2026-10-27_Day.trades.jsonl",
+      "約定SHA256": "1cc08f2c5ceea13222258865916e202958e3f563ba65ce2fce924d158febcbb5",
+      "数値SHA256": "d4f9808b2a7d1dc4b3ef715e5c52959c0f215d84b6981c16f2405163b94621c3",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "d4f9808b2a7d1dc4b3ef715e5c52959c0f215d84b6981c16f2405163b94621c3",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793058300000,
+        "end_ms": 1793083500000,
+        "from_ms": 1793058300000,
+        "to_ms": 1793083500000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 163299,
+        "invalid_clock_rows": 1122,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 155463
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\約定\\3分_T1_D_B_X0\\2026-10-27_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -6010.0
+    },
+    {
+      "選択理由": "共通助走・native・差分の同場六条件",
+      "資源ID": "00018_3分_T1_D_D_X0_2026-10-27_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-27_Day",
+      "手法": "3分_T1_D_D_X0",
+      "研究側純損益円": -3566.0,
+      "独立会計": {
+        "cash": -3566.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 3
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -3566,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 6,
+      "帰属手法の約定片数": 6,
+      "API約定片数": 6,
+      "約定ファイル": "約定/3分_T1_D_D_X0/2026-10-27_Day.trades.jsonl",
+      "約定SHA256": "1af00f25b85beb23743d3cfbe3bec08dea31503f867653ffd6997a6d36ffa00e",
+      "数値SHA256": "5700062284fc3096229e74516b586409c852fd0646db7a7c5addd16dc2d11576",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "5700062284fc3096229e74516b586409c852fd0646db7a7c5addd16dc2d11576",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793058300000,
+        "end_ms": 1793083500000,
+        "from_ms": 1793058300000,
+        "to_ms": 1793083500000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 163299,
+        "invalid_clock_rows": 1122,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 155463
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\約定\\3分_T1_D_D_X0\\2026-10-27_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00018_VWAPの位置と傾きで順行反転を比較\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -3566.0
+    }
+  ],
+  "追加PNG数": 0,
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "パス": "market_pathは設定data_root、pnl_pathはpath_base=catalogで一覧親基準。",
+  "代表規則": "実行前固定3分T1/R2だけ。D_Aに取引がある役割/場を優先し、最大絶対観測純額（同値候補ID/場順）の同役割六条件を表示。該当なしは表示固定全体。事後の表示規則で、戦略採用選択ではない。"
+}
