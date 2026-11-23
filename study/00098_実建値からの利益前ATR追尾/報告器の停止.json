@@ -1,0 +1,57 @@
+{
+  "成功": true,
+  "試行": 98,
+  "報告コード": "scripts\\FAR利益前ATR追尾の監査\\報告.py",
+  "報告コードSHA256": "1577453454e1727b81fffdd8eca04d9cc2478708e613dfed2192975ad8fc05c7",
+  "保存器SHA256": "c7bd815c4157ef28e4d52d352207c1543a6dad3fcf474cf21be096ecf0fba340",
+  "条件SHA256": "719cee62e6c1be8bfccb81b87ae5f82412776433c00faa9272f16cb3302947cb",
+  "原計画SHA256": {
+    "README.md": "10a2028b7cafdf2ae94a71c37c3edc4fecf1cabbe6b784fa10e8378199528893",
+    "設定と結果.md": "344d4ec0e0cdb0248816fe95ef9c729ff1bb996bd1847173446727e0d1b22d11",
+    "検証計画.md": "db322ba865352e98e6a44caac6faae1d1361b0703544e30f54f1f7376fd51043"
+  },
+  "固定金融183前後不変": true,
+  "元版5": "55×9/39設定/24評価をREPORT98 PLAN内の原bytesで保持し生成後から復元",
+  "入力": [
+    "result",
+    "audit",
+    "viewer",
+    "condition",
+    "plan",
+    "readme",
+    "settings"
+  ],
+  "API": "--run新規out / --check同出力",
+  "生成": [
+    "README.md",
+    "設定と結果.md",
+    "報告生成.json"
+  ],
+  "必須証拠": [
+    "成功54/1296保存",
+    "成功全経路独立54/1296と同NativeFingerprint",
+    "空Risk対正式97H0全432除外0",
+    "Viewer1296全完了/差0/API0/入力不変/同結果SHA"
+  ],
+  "内容": [
+    "全24実現粗額・指定手数料・仮定滑り・純額・正負・PF・回数枚数",
+    "u/W正益前後の最終実損失・場内DD/連結DD",
+    "実注文point/理由によるSource/H/Riskの要求/約定回数枚数",
+    "実出生＋同実入口fingerprintによる16退出差/取得変更/双方実参加額"
+  ],
+  "人工": {
+    "検査": 20,
+    "証拠SHA256": "4804794cae43b6ce8090f5374c0bfd7caf9d4b8a520439746bfd599da7337b8c",
+    "人工コードSHA256": "09e4b66fe3703d4c8cd60723db9fd8517bfcb8d320f7ed66b4488e1d61bfbeb9",
+    "実Go由来保存人工schema": 14,
+    "金融本文を持たない報告型fixture": true
+  },
+  "原計画/金融/既存97変更": 0,
+  "未実施": {
+    "98市場Native/損益/実監査読取": 0,
+    "API/原板/Go金融再生": 0,
+    "正式報告生成": 0,
+    "未参加/退出後仮想利益/回収率": "未算出・処理0回"
+  },
+  "実行時の注意": "Root完了/読取指示と全Viewer成功後にのみ正式run/check。現停止は人工とschema準備まで。"
+}

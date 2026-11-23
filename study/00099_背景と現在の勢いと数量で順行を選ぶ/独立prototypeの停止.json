@@ -1,0 +1,156 @@
+{
+  "成功": true,
+  "正式採番": false,
+  "所有SHA256": {
+    "work\\99金融監査案\\E3の純判定.py": "c84db9b29e2387429a8af9de81b2dfbbf6fd90d646dc1f66f3dc592f14ff4adf",
+    "work\\99金融監査案\\E3と金融の照合.py": "75dc5309c3e9c0b79d094df7941be4b2b5c206f0bb0d51740fd33a448cbcf834",
+    "work\\99金融監査案\\人工を確認する.py": "9fb551621396be05376051587b4f7efa0e600723da76a6314cb7e1ed838986f3",
+    "work\\99金融監査案\\README.md": "9e4080d8d2affcf4dc3ec60f455ab830d9e31905c787855e87ed74835a7991e0",
+    "work\\99金融監査案\\停止を記録する.py": "d9964fd885ce0f662716b0b1d3b6d5f082ad15b4ef660fd5d7e8f982bd60a1fa"
+  },
+  "由来停止SHA256": {
+    "work/99金融案/検査/停止.json": "7e3f40d36d4e455b4d1ce1baf9030a365a225071aad21c72cc403fe0e9076f0f",
+    "work/99純技法案/検査/停止.json": "d5dff3b77931331696a00090e8e5aadbbe5057d1763aab92d27d50d8a5649747",
+    "work/99再生接続案/停止.json": "97a567aed620f8288305acc8fb6fb3753d8aa18caa29d3c714ef8975977d962c"
+  },
+  "固定98条件SHA256": "719cee62e6c1be8bfccb81b87ae5f82412776433c00faa9272f16cb3302947cb",
+  "固定98コード一致": 183,
+  "再用コードSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の技法判定の監査\\技法の保存照合.py": "b5d1af7fb85d4446a47573a4389abfa433177189cb01d901bdd53a8a38b8d5e6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR初回利益確定の監査\\初回利益確定の金融照合.py": "ab7e95e35514ae0aadf4a833f89a1422eaa53c82339d003bba13b9df4eaec5b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR初回利益確定の監査\\Tapeと金融の照合.py": "31fdf1d566f3c117b2cb6c5ec64e3211e7c8ae33a9cab75d84c1e38af1f4dff7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR利益前ATR追尾の監査\\初期ATR追尾の金融照合.py": "ab8d6fd7245f6fe1d9528a4f81b1eeb532820bd80ea514d36c624d2c41839161",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の技法判定の監査\\出生枠と金融の照合.py": "7f673b29f27bc8f79e2c0c2e6106dc457a4697f283fdb64a7cddafa4e3210658",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分判断と出生一回の監査\\出生と5分境界の照合.py": "329fb9958f708bbf34fd939978f358e35333ad80053e4b5ce78521d95afca693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR個別利益追尾の監査\\原板と保護の照合.py": "1437804124be71ba5254b57b583c8cc4db247f3bbb8749f89a6ac07c55caf5a6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元連続再現の監査\\原板照合.py": "49825ac408513e9cea8e9f8d852360a00436546fb9e99ec0b5edf2f86cafb62b"
+  },
+  "人工結果": "work\\99金融監査案\\人工_停止候補.json",
+  "人工結果SHA256": "c73ec663a07474e9915e39ad11836eea754d1ccf275141a90c311b79d377d780",
+  "人工場面": 20,
+  "会計数": 240,
+  "非0会計数": 184,
+  "照合項目数": 441474,
+  "不一致数": 0,
+  "現在純判定": 160,
+  "Force": 20,
+  "G0旧98公開API全文会計": 80,
+  "G0全文除外": [],
+  "純境界": 40,
+  "破損拒否": 15,
+  "入力コード前後不変": true,
+  "Go人工初回と停止版SHA一致": {
+    "方向-1_API同時スパイク.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_API同時スパイク.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_API同時スパイク.json",
+      "sha256": "759ecd52d95529d12bd930975f97c19d17613b16aab9d7f938895c4716c6704a"
+    },
+    "方向-1_API必要未知.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_API必要未知.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_API必要未知.json",
+      "sha256": "4f7290ccabfdbc2e85144f1e2bb2acbc2087211aaf13953264a13f55a4e04217"
+    },
+    "方向-1_API既知否定優先.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_API既知否定優先.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_API既知否定優先.json",
+      "sha256": "55cfe0f64ec86825decf650fe1ce784996e00aa07bad5aa2b4c314cfd6578b93"
+    },
+    "方向-1_risk要求後正益.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_risk要求後正益.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_risk要求後正益.json",
+      "sha256": "c15bc570489e1e04a710e3797c375f734baed826204a5085e55328ce953ba503"
+    },
+    "方向-1_Source全予約.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_Source全予約.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_Source全予約.json",
+      "sha256": "65d49bd00435e41467912a416959a60f6b894784a6def3db7f364d77f46d64c8"
+    },
+    "方向-1_Source部分.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_Source部分.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_Source部分.json",
+      "sha256": "06817bafea839c937bc503841ece034dd8c1a8bb08c942bf8b8827cf64a1eecc"
+    },
+    "方向-1_利益移行.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_利益移行.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_利益移行.json",
+      "sha256": "264814b6813f1d945d1a90d6d5a6c99a5fb1f6c21f6a4d35d7aceb096a3224f0"
+    },
+    "方向-1_幅と次板悪化.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_幅と次板悪化.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_幅と次板悪化.json",
+      "sha256": "0090fba93fb5f9d72a3a4e3976705b42b6190ddaf9d2ef7c016b3ac5f22d48f3"
+    },
+    "方向-1_未知後既知.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_未知後既知.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_未知後既知.json",
+      "sha256": "892391a5724354ec5ff38a112066dfcbd0687438191e41bed15a5c5cddc258db"
+    },
+    "方向-1_非緩和.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向-1_非緩和.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向-1_非緩和.json",
+      "sha256": "dba8ab7853194db1d61fbbcff93cdfb13ec90d104f1288a98416d81eec17ed37"
+    },
+    "方向1_API同時スパイク.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_API同時スパイク.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_API同時スパイク.json",
+      "sha256": "73c0724967b72f44c3a19fb7de87d9a2b2f5aac9b185dddb73c98d61cd3a06e8"
+    },
+    "方向1_API必要未知.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_API必要未知.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_API必要未知.json",
+      "sha256": "bbf095595600b4896e0bfe9144e98484dba5cda544b86f33c2b26296b4ab60fb"
+    },
+    "方向1_API既知否定優先.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_API既知否定優先.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_API既知否定優先.json",
+      "sha256": "4d8015467c7d29cf53047642782c4f77df79324fcaf7a1785c1346babe8a40bc"
+    },
+    "方向1_risk要求後正益.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_risk要求後正益.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_risk要求後正益.json",
+      "sha256": "6fc0b7acc33f4dbed08c11a1995a711ec4c8e48133b79d3fed34ef9c3bd91de7"
+    },
+    "方向1_Source全予約.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_Source全予約.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_Source全予約.json",
+      "sha256": "e7adf5fec2951edc039c0535b337a919080ee4ea63bc053c65d81c6aa0b44405"
+    },
+    "方向1_Source部分.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_Source部分.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_Source部分.json",
+      "sha256": "c14f71de3f6ce57065c93a8882fc182322059aa4312f499855bd3c4f931c5047"
+    },
+    "方向1_利益移行.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_利益移行.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_利益移行.json",
+      "sha256": "c5b5d1f1272766dac7d28096428cda03d2a38406fcf7407bec675d5a5ff356b9"
+    },
+    "方向1_幅と次板悪化.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_幅と次板悪化.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_幅と次板悪化.json",
+      "sha256": "873e224a31c17ae92d2120a1de4e7f0ca9db69fabf37627a2becd567ae9a03ce"
+    },
+    "方向1_未知後既知.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_未知後既知.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_未知後既知.json",
+      "sha256": "fcafa8537c5c534936fe81965f857eb948ea627cb1c96acccec42a818e308b74"
+    },
+    "方向1_非緩和.json": {
+      "初回": "work\\99再生接続案\\人工\\初回\\方向1_非緩和.json",
+      "停止版": "work\\99再生接続案\\人工\\停止版\\方向1_非緩和.json",
+      "sha256": "69c84dbb245c71de6bc5157ea7bf944e6decf405042da8eb01b6da0c53f33641"
+    }
+  },
+  "停止版への結合で追加金融走査": 0,
+  "API": {
+    "inspect_tape": "inspect_tape(tape:dict,new99:dict)->dict",
+    "compare_empty_gate98": "compare_empty_gate98(new99:dict,old98:dict)->dict",
+    "assess": "assess(input:dict,candidate:dict,policy:str)->dict",
+    "RecomputedGates": "RecomputedGates(contexts:list,new99:dict,audit:Audit); begin_grid(context,q); claim(key,p); finish(clocks)",
+    "EntryPath": "EntryPath(actual:dict,audit:Audit,gates)"
+  },
+  "scope": "手製Source/ATR/Chartの公開Go型人工だけ。純判定は現在候補から独立Python式でE3/E3S本名の8/9checkを再計算。自然Source/チャート形成/市場の成功ではない。",
+  "市場CLI": false,
+  "98市場本文/新日/原板/Source戦略/Go金融追加実行": 0,
+  "機会損失と退出後仮想利益": "未算出"
+}

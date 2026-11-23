@@ -1,0 +1,134 @@
+{
+  "成功": true,
+  "scope": "正式採番前のwork独立金融監査。市場/Raw/98実損益未実行。",
+  "コードSHA256": "ab8d6fd7245f6fe1d9528a4f81b1eeb532820bd80ea514d36c624d2c41839161",
+  "コード": "work\\98金融監査案\\初期ATR追尾の金融照合.py",
+  "公開API": [
+    "inspect_fixture(value)",
+    "inspect_tape(tape,new98)",
+    "compare_no_risk97(new98,old97)"
+  ],
+  "政策": {
+    "RiskPolicy": [
+      "",
+      "R05",
+      "R10"
+    ],
+    "Gate": [
+      "",
+      "AB"
+    ],
+    "C": [
+      0,
+      5
+    ],
+    "D": [
+      0,
+      1
+    ],
+    "会計数": 24,
+    "H0": "固定"
+  },
+  "固定97完了SHA256": "0d7111c41c4c25140be69fe8b06d0118496ddd6de3bc9ac7467ec2f01f6aef79",
+  "固定97金融SHA256": "ab7e95e35514ae0aadf4a833f89a1422eaa53c82339d003bba13b9df4eaec5b0",
+  "固定97Tape接続SHA256": "31fdf1d566f3c117b2cb6c5ec64e3211e7c8ae33a9cab75d84c1e38af1f4dff7",
+  "prototype停止SHA256": "dfded256ac12f8b03a2e65eff80d58d464248e0588875faa8814b9257419e78c",
+  "固定155前後同一": true,
+  "API手製人工": {
+    "場面": 14,
+    "会計数": 336,
+    "非0": 336,
+    "照合項目数": 649800,
+    "不一致数": 0,
+    "破損拒否": 18,
+    "証拠SHA256": "b03f7560aa74b84f997e14ae743fc571c277fa990c6ed1a94caba9d9db0653c1"
+  },
+  "production手製人工": {
+    "場面": 14,
+    "会計数": 336,
+    "非0": 336,
+    "照合項目数": 717240,
+    "不一致数": 0,
+    "全Force": 14,
+    "現在純判定": 168,
+    "空risk旧97H0API最終全文": 112,
+    "破損拒否": 8,
+    "証拠SHA256": "21f8c22213815bbc1a0ddf898f1f6e22e76c0bd74f521c8cd99264e5b97a71fa"
+  },
+  "境界": {
+    "取得ATR/幅/既知/取得Quoteの独立照合": 128,
+    "全金融callの再照合": false,
+    "ForceのGo由来参照系列": 32,
+    "Goが全文比較したsnapshot回数": 288,
+    "限定": "境界JSONはsummaryのみ。128件の取得幅算術/出典は比較するが、未保存の各Actor全callをPythonが再照合したとは呼ばない。Force32は停止Goの除外0比較への由来参照。"
+  },
+  "破損と境界SHA256": "6ff7e5a8372b191e4a228e94a590302fc1eb8b9a0859a50e2e483c22d84d12f6",
+  "検査コードSHA256": {
+    "人工を確認する.py": "f50cafb3f32abfdc005b508f7cce69fe0800a9df0be2e9ba1570b3357d6cda53",
+    "productionを確認する.py": "fa1fa76d92b8fbffa5fc317c00e16c34019f9f5adc8074721413e624b3a5b8b7"
+  },
+  "入力コードSHA256前後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向-1_risk要求後正益.json": "f4ced10ad12a51dda08095f91f2c051ea8c83b43efda5611fccc18e42d3dbe97",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向-1_Source全予約.json": "68242c3f274d8878cd408a1b8f38e797f317a428724124ad0c56775a1a79628b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向-1_Source部分.json": "3768f7d90f864cfffd52173c0c2a17e9b88529e6c848098d1af3bdd3a9fa49f3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向-1_利益移行.json": "2f0b914b58cb5bb1c6ba62015708a3ce4b7c4babb2176966c4c15a6c5ed80843",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向-1_幅と次板悪化.json": "ac8325f00fca71fc1389e5ecd3632c55a334ab91b85a5d62ad9ec24b27adc992",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向-1_未知後既知.json": "1a67de253b862be875bf050c3ed08561a3d4e34902322f5cb8e26714adbb2c43",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向-1_非緩和.json": "4d1db3c877198562dc554c4c7b360789aa799b60abb2ec65ba1d05f64d9899e6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向1_risk要求後正益.json": "d1ef998fcda2981593e1be5b3c0f260a74f2e9dca3126f1388b0bd5021b33f80",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向1_Source全予約.json": "f3dc1e50912f6fa34631b23d2427e112eb36da1762a56cd1a8bd80cfa8f1411a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向1_Source部分.json": "3d388432fae26a9f4b7332f70b5e4050721460126092625fe05187f454eea74a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向1_利益移行.json": "88c76200ea26683755f315db353b3ae7c8c6a2d2be4c2127d39d42a56e93ff7f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向1_幅と次板悪化.json": "abed9717487482ba6d2f9eaf2122fc8dd1c56873f42fae0b566eef8fe88d00b2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向1_未知後既知.json": "ddf910201f26c6ac29d55e26a4f769547fa1ba630c6d591b9ba8036e27840f4d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98初期ATR追尾案\\人工\\停止版\\方向1_非緩和.json": "2193fc65dfe5bcfda6e7d199af88ae06ce33b2ddfc8032c764d848d4ab8b0bfb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98金融監査案\\初期ATR追尾の金融照合.py": "ab8d6fd7245f6fe1d9528a4f81b1eeb532820bd80ea514d36c624d2c41839161",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR初回利益確定の監査\\初回利益確定の金融照合.py": "ab7e95e35514ae0aadf4a833f89a1422eaa53c82339d003bba13b9df4eaec5b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR初回利益確定の監査\\Tapeと金融の照合.py": "31fdf1d566f3c117b2cb6c5ec64e3211e7c8ae33a9cab75d84c1e38af1f4dff7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向-1_risk要求後正益.json": "57b661608105988aa9584f3cfd42822ab5b81eb4a12a70fe32a2fc680515acf4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向-1_Source全予約.json": "55fdf0a60d03188bd6884ee29bab161ce7341d29b4e3e91e5be31cf63e96b94f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向-1_Source部分.json": "e43ae39244dcda51d2e204f0f2eeb38eeee99b7cf02a443fa3cd61f4f6972da4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向-1_利益移行.json": "16fdb25fe438c05d79ceac7d412d6ed5bb305b379636935508bbc7abf4f28cc0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向-1_幅と次板悪化.json": "4063467881998cd98ce0b7ac969c0cf42e3778836fce262bcb4edd762299a431",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向-1_未知後既知.json": "ceadd7aa89b312978fda2b0444e806c97a983f46bdad24e208b118eac7dfa968",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向-1_非緩和.json": "61543846a508c41feedd5b38fbdfe643ffd008b6f0cff068e4832712059c3a04",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向1_risk要求後正益.json": "d4509e4502ff6f66359ff2c533a2e6a4e0126e52dfc206a745a77b1ad4cc3747",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向1_Source全予約.json": "c7e07b4327fb8780d10b8e4bdac3a20ed107ffdb233825e29c68f49808a6f522",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向1_Source部分.json": "272b4514350478e00b345498dfd0fdd036e7e00a4c9605ce06b7cce4480f843f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向1_利益移行.json": "43e8316161bc3e88a6cfebde086f977806aaa65e8e30bc49b7cd297108086ccc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向1_幅と次板悪化.json": "36e13dd65b0c1add5fff01136029f0f8b434c5e2061127ab71d07e62b32233c4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向1_未知後既知.json": "3a7db08e3ea5697bcf9eb0736b2dfce24bd1e824e72c427067cf4c4348e260b2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98再生接続案\\人工\\初回\\方向1_非緩和.json": "fd03f56001f4aca5b7bada81d7ecea6f1e7efe86641a0371ef17afa8b7c1e6ac",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98金融監査案\\productionを確認する.py": "fa1fa76d92b8fbffa5fc317c00e16c34019f9f5adc8074721413e624b3a5b8b7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の技法判定の監査\\出生枠と金融の照合.py": "7f673b29f27bc8f79e2c0c2e6106dc457a4697f283fdb64a7cddafa4e3210658",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の技法判定の監査\\技法の保存照合.py": "b5d1af7fb85d4446a47573a4389abfa433177189cb01d901bdd53a8a38b8d5e6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分判断と出生一回の監査\\出生と5分境界の照合.py": "329fb9958f708bbf34fd939978f358e35333ad80053e4b5ce78521d95afca693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR個別利益追尾の監査\\原板と保護の照合.py": "1437804124be71ba5254b57b583c8cc4db247f3bbb8749f89a6ac07c55caf5a6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR元連続再現の監査\\原板照合.py": "49825ac408513e9cea8e9f8d852360a00436546fb9e99ec0b5edf2f86cafb62b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向-1_D0未知D1既知_ATR.json": "bfb2f3dcee711a9fa369053cc5724b2863dab3e0aaa82de8b1d311ff8037f4ae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向-1_pendingfalse_Force.json": "d1f4265860098cfc9378fa71b4a596fe68f670eea7ff4f01eb2d023fe66b531a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向-1_pendingtrue_Force.json": "29fb20a8b98d7e4ae45fd13fa64a9c1712756a6cfaac1739981e860716a95c87",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向-1_既知から未知_ATR.json": "1639c91e189260104efcf44ffc703e7f4dd5c8e33035eda22de2554ff72f099d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向-1_既知値変化_ATR.json": "fe5a5cd3e5bdb4394c1201d12fc311c7985ee99436fc28f2122ea9fd568d3e69",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向-1_未知から既知_ATR.json": "614a18c110bf3b277338459c21a7857f4f9493ceb9b8f694656d9d420aae4673",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向1_D0未知D1既知_ATR.json": "0dbbf7f6b78168613fd6ca2c39d20112e3ab35e8d45ad386c7116e708dedcb23",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向1_pendingfalse_Force.json": "d1f4265860098cfc9378fa71b4a596fe68f670eea7ff4f01eb2d023fe66b531a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向1_pendingtrue_Force.json": "29fb20a8b98d7e4ae45fd13fa64a9c1712756a6cfaac1739981e860716a95c87",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向1_既知から未知_ATR.json": "d837e0962a2ce5b56c414c7765e92c88fa8da6fae4ce3491b7e77e63f0c04fc7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向1_既知値変化_ATR.json": "ed25128907dfe7ef8b616d4b19259f36c274525d50c8595c6eddc6a20079d354",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\98境界人工\\人工\\停止版\\方向1_未知から既知_ATR.json": "1c41dfd6a56b98a11ba2b69be9d6415d7de2125d79d2a889727c69f5d2d29a5c"
+  },
+  "前後不変": true,
+  "表現対応": [
+    "Go既知4配送列のnullだけを空列へ対応",
+    "Go人工force名を旧API timerへ対応。元入力不変。",
+    "旧固定Tape return会計数16 literalは実details24へmetadataだけ明示対応"
+  ],
+  "新field": "初期化設定/計数だけ旧型へ投影し、Order/Position/metricsの全新risk fieldを最終比較へ保持。未知fieldは破損拒否。",
+  "限定": "2種類の14は同じ手製波形。自然Source/ATR/3・15分足原板生成/実市場の独立標本へ合算しない。128/Force32はsummary範囲を明記。",
+  "未実施": {
+    "市場/原板/新Go再生": 0,
+    "旧金融/条件155/正式97の変更": 0,
+    "未参加/退出後仮想利益": 0
+  }
+}

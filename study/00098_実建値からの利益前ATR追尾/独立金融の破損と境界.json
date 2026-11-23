@@ -1,0 +1,106 @@
+{
+  "成功": true,
+  "破損拒否": [
+    {
+      "種類": "取得幅+0.5",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/width:保存=50.5/期待=50.0"
+    },
+    {
+      "種類": "未知幅を後ATRで再固定",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/width:保存=20/期待=125.0"
+    },
+    {
+      "種類": "未知を既知へ偽装",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/atr_known:保存=True/期待=False"
+    },
+    {
+      "種類": "取得出典を要求Indexへ",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/entry_quote/index:保存=0/期待=2"
+    },
+    {
+      "種類": "架空初期peak",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/peak_gain:保存=0/期待=-10"
+    },
+    {
+      "種類": "初期床を緩和",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/floor_gain:保存=-126/期待=-50.0"
+    },
+    {
+      "種類": "firsthit欠落",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/first_hit:タグ集合"
+    },
+    {
+      "種類": "要求をpre_fillへ",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/orders/1/initial_risk_point/mark/phase:保存='pre_fill'/期待='after_source'"
+    },
+    {
+      "種類": "risk要求point欠落",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/orders/1:タグ集合"
+    },
+    {
+      "種類": "riskをH要求pointへ",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/orders/1/protection_point:型"
+    },
+    {
+      "種類": "riskcounter欠落",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/metrics:タグ集合"
+    },
+    {
+      "種類": "riskcounterをSourceへ混入",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/metrics/source_exit_requests:保存=1/期待=0"
+    },
+    {
+      "種類": "同原行risk約定",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/fills/1/quote/index:保存=4/期待=5"
+    },
+    {
+      "種類": "risk専用理由を書換え",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/orders/1/reason:保存='初回費用後残玉正益の全量確定'/期待='利益前の固定初期幅追尾'"
+    },
+    {
+      "種類": "H移行時u=0へ偽装",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/activation/unit_net:保存=0/期待=1923"
+    },
+    {
+      "種類": "H移行を消去",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk/profit_transition:タグ集合"
+    },
+    {
+      "種類": "未知のrisk新field",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/positions/0/initial_risk:タグ集合"
+    },
+    {
+      "種類": "Source比率数量を破壊",
+      "拒否": true,
+      "理由": "R05_H0_AB_B5Q_P0_C0_D0/source_events/0/actual_accepted:保存=999/期待=0"
+    }
+  ],
+  "境界": {
+    "取得ATR/幅/既知/取得Quoteの独立照合": 128,
+    "全金融callの再照合": false,
+    "ForceのGo由来参照系列": 32,
+    "Goが全文比較したsnapshot回数": 288,
+    "限定": "境界JSONはsummaryのみ。128件の取得幅算術/出典は比較するが、未保存の各Actor全callをPythonが再照合したとは呼ばない。Force32は停止Goの除外0比較への由来参照。"
+  },
+  "コードSHA256": "ab8d6fd7245f6fe1d9528a4f81b1eeb532820bd80ea514d36c624d2c41839161",
+  "検査コードSHA256": "f50cafb3f32abfdc005b508f7cce69fe0800a9df0be2e9ba1570b3357d6cda53",
+  "市場/原板/新Go実行": 0,
+  "旧正式/固定155変更": 0
+}

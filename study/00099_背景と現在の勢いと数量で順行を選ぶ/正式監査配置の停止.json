@@ -1,0 +1,38 @@
+{
+  "成功": true,
+  "正式98完了SHA256": "2ee9417d0cd1f8bef107712789d26e3f72c0f95a933e60b31bb3f11784ca0dfe",
+  "元workコードSHA256": {
+    "work\\99金融監査案\\E3の純判定.py": "c84db9b29e2387429a8af9de81b2dfbbf6fd90d646dc1f66f3dc592f14ff4adf",
+    "work\\99金融監査案\\E3と金融の照合.py": "75dc5309c3e9c0b79d094df7941be4b2b5c206f0bb0d51740fd33a448cbcf834",
+    "work\\99市場Tape監査案\\市場Tapeを照合する.py": "d32070f86ad7a0c99e9b5fa84176df24d6c74b08449818d4993f0911669bdf5d"
+  },
+  "正式コードSHA256": {
+    "scripts\\FAR背景と勢いと数量の監査\\E3の純判定.py": "c84db9b29e2387429a8af9de81b2dfbbf6fd90d646dc1f66f3dc592f14ff4adf",
+    "scripts\\FAR背景と勢いと数量の監査\\E3と金融の照合.py": "75dc5309c3e9c0b79d094df7941be4b2b5c206f0bb0d51740fd33a448cbcf834",
+    "scripts\\FAR背景と勢いと数量の監査\\市場Tapeを照合する.py": "55abf75a6d8b924ad22a96b57d2399e524005c004e4ee77944fdd43addadad81"
+  },
+  "核心2本本文同体": true,
+  "市場ラッパー差分": [
+    "COUPLED_PATH = ROOT / \"work/99金融監査案/E3と金融の照合.py\"",
+    "PROOF98_SHA = \"\""
+  ],
+  "差分SHA256": "7aa61116835a4bad2a2d1184daabfeeba1dbbe0f691bdac1bac8e38a3623a609",
+  "2定数を逆置換した元本文完全復元": true,
+  "work停止源前後不変": true,
+  "旧98自己除く正式全file指紋前後一致": 1384,
+  "旧98完了自己含む": 1385,
+  "旧98固定コード前後一致": 183,
+  "正式import": true,
+  "正式98/97/96/80の許可54集合一致": true,
+  "人工場面": 1,
+  "会計数": 12,
+  "非0会計数": 4,
+  "照合項目数": 24832,
+  "metadata正常": 1,
+  "破損guard": 11,
+  "人工結果SHA256": "6c3bf5705b7a223c0ed7233e65a06300e6c07854240710a8b1f19659d88375ce",
+  "空placeholderのguard試験": "メモリ内人工namespaceのみ。正式ラッパーbytesは2ee9417d...を保持。",
+  "CLI": "scripts/FAR背景と勢いと数量の監査/市場Tapeを照合する.py --index --run99 --condition --out --stage first2|full54 --workers 1..8",
+  "配置生成コードSHA256": "151bc39a417f99b917c93bbd046f29ab42ebdce9390a5e4c14f8cee80d896fe8",
+  "市場/原板/Go金融/98Native本文/20金融再走査": 0
+}

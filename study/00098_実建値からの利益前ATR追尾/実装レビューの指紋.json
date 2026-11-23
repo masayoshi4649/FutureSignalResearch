@@ -1,0 +1,40 @@
+{
+  "成功": true,
+  "種別": "独立読取レビュー。新Go試験を実行した証拠ではない。",
+  "停止SHA256": "dfded256ac12f8b03a2e65eff80d58d464248e0588875faa8814b9257419e78c",
+  "読取SHA256": {
+    "actual.go": "37c6d5cd2ee007bb5435ad43a6627662d91f77fa9a925ccde6e29bff0ee331c5",
+    "actual_types.go": "f6fccbfd1d8f8d0652869d047ae2aab88ce9354fc2de151f06bdcc49c390d8cd",
+    "initial_risk.go": "4a12b60afb7f67d05b29626cab24f6efbeda959dffb37898da2e31431da7dd59",
+    "initial_risk_test.go": "350f162c54fa67141acfa84f804181cbf9824ac33ee65f3764e3d766fedeb870",
+    "force_boundary_test.go": "484ff14932f5cac66bc8b7abb838361f9c2fe4eba9c214d6ade5530dca18d941",
+    "README.md": "8a6ab78793dff904af8c44ab94320702c0225f2c404551b2a69f6c37c57d2853",
+    "金融差分.patch": "ae7f39d982f2b51a2d7989f991678e79612317a8367da55066a179d87036e108",
+    "停止を記録する.py": "9e02fab287dac572e49494de446203992320dd3f190219fdc5e9341edc357be8"
+  },
+  "停止code依存前後同一": true,
+  "固定97コード数": 155,
+  "固定97コード前後同一": true,
+  "重大な実装指摘": 0,
+  "非停止の人工盲点": [
+    "要求からD0/D1取得までATRが変わる明示例なし",
+    "空risk32旧97JSON回帰はForceなし。旧Force試験はh旧97本体を呼ぶ。新risk14波形のForce非fill/非MTMとは別。"
+  ],
+  "停止で確認済みの由来試験": {
+    "top": 33,
+    "小試験含む成功": 99,
+    "新risk_top": 5,
+    "新risk小試験含む成功": 19,
+    "skip": [
+      "TestExportActualFixtures",
+      "TestExportGrid95Fixtures",
+      "TestExportHarvest97"
+    ]
+  },
+  "レビュー本文SHA256": "95f553db9ca40383a4954b5b6300b762e311507514d3186c733508a94c209e7a",
+  "未実施": {
+    "原板/市場/新Go試験": 0,
+    "コード/条件/旧正式変更": 0,
+    "未参加/退出後仮想利益": 0
+  }
+}

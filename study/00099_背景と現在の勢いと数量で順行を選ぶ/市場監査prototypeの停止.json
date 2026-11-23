@@ -1,0 +1,50 @@
+{
+  "成功": true,
+  "正式採番": false,
+  "市場許可指紋": "空placeholder",
+  "PROOF98_SHA": "",
+  "所有SHA256": {
+    "work\\99市場Tape監査案\\市場Tapeを照合する.py": "d32070f86ad7a0c99e9b5fa84176df24d6c74b08449818d4993f0911669bdf5d",
+    "work\\99市場Tape監査案\\人工を確認する.py": "43918723f9658b2e77c6ca13174001c93279160556bb9507b6b0117235cc3a56",
+    "work\\99市場Tape監査案\\README.md": "4f5adb16bd6bc6ac29cd94b937d8335e9795c4c411e26c2b14ca2023d5eba3b1"
+  },
+  "由来停止SHA256": {
+    "work/99金融監査案/停止.json": "c325b21780812c1a5dc2177edb34b7980db7c9ae275c5ea2b91fa8dc1293c5c1",
+    "work/99再生接続案/停止.json": "97a567aed620f8288305acc8fb6fb3753d8aa18caa29d3c714ef8975977d962c",
+    "work/99金融案/検査/停止.json": "7e3f40d36d4e455b4d1ce1baf9030a365a225071aad21c72cc403fe0e9076f0f",
+    "work/99純技法案/検査/停止.json": "d5dff3b77931331696a00090e8e5aadbbe5057d1763aab92d27d50d8a5649747"
+  },
+  "固定98条件SHA256": "719cee62e6c1be8bfccb81b87ae5f82412776433c00faa9272f16cb3302947cb",
+  "固定98コード一致": 183,
+  "核心99のSHA一致": {
+    "work\\99金融監査案\\E3の純判定.py": "c84db9b29e2387429a8af9de81b2dfbbf6fd90d646dc1f66f3dc592f14ff4adf",
+    "work\\99金融監査案\\E3と金融の照合.py": "75dc5309c3e9c0b79d094df7941be4b2b5c206f0bb0d51740fd33a448cbcf834",
+    "work\\99金融監査案\\人工を確認する.py": "9fb551621396be05376051587b4f7efa0e600723da76a6314cb7e1ed838986f3",
+    "work\\99金融監査案\\README.md": "9e4080d8d2affcf4dc3ec60f455ab830d9e31905c787855e87ed74835a7991e0",
+    "work\\99金融監査案\\停止を記録する.py": "d9964fd885ce0f662716b0b1d3b6d5f082ad15b4ef660fd5d7e8f982bd60a1fa"
+  },
+  "人工結果SHA256": "8fd844d5fcd5625023db2db4adb7dfc8f04b2e198bba46153a8b5f0f1308d8dc",
+  "CLI未固定拒否SHA256": "4d8dd199b2179c1f56bf3532da440f808f869e2fec3db99bcf36e3625c273c2c",
+  "人工場面": 1,
+  "会計数": 12,
+  "非0会計数": 4,
+  "照合項目数": 24832,
+  "G0旧98API全文会計": 4,
+  "metadata正常": 1,
+  "破損guard": 11,
+  "未固定市場入口の入力読取": 0,
+  "CLI期待終了": 1,
+  "入力コード前後不変": true,
+  "全20金融の再走査": false,
+  "CLI": "--index --run99 --condition --out --stage first2|full54 --workers 1..8",
+  "運転入力集合": "固定6(index/condition/proof98/proof97/proof96/manifest)+各Tape/98Nativegzip。独立97/96追加は別群。",
+  "API": {
+    "inspect_values": "inspect_values(tape,value,old98)->dict",
+    "inspect_task": "inspect_task(task)->dict",
+    "prepare": "prepare(index_path,run99,condition_path,stage)->(tasks,before,groups)",
+    "validate_metadata": "validate_metadata(index,completion,condition,stage,catalog)->set",
+    "validate_envelope": "validate_envelope(tape,value,old98,task)->None"
+  },
+  "scope": "手製Source/ATR/ChartのGo型一場接続。metadata器具は正式成功へ転用しない。12金融/本名E3/S必要checkは停止独立器を直接再用。旧P0/AB/Riskの成功を代用しない。",
+  "実市場/原板/新日/Go金融/Source再生成": 0
+}
