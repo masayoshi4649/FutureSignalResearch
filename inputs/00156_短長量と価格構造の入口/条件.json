@@ -1,0 +1,210 @@
+{
+  "trial": 156,
+  "name": "短長の量不一致を押戻しと反転に分ける",
+  "status": "実装準備完了・自然採否/容量/金融未実行",
+  "parent_trial": 148,
+  "primary": "U0",
+  "financial_policies": [
+    "C0",
+    "C1",
+    "RC1",
+    "B152",
+    "UB152",
+    "U155",
+    "PB",
+    "RV",
+    "RPB",
+    "RRV",
+    "N0",
+    "U0",
+    "RU0",
+    "N1",
+    "U1",
+    "RU1"
+  ],
+  "feature_rows": 35339,
+  "session_count": 73,
+  "legacy_count": 87,
+  "catalog_count": 100,
+  "catalog_definition_sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+  "features_source": {
+    "features": {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    "fixed": {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "decoded_sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+    },
+    "captures": {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "decoded_sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+    },
+    "metadata": {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "decoded_sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+    }
+  },
+  "range_input": {
+    "path": "inputs/00153_先行高安の独立出生/先行高安の入力.json.gz",
+    "sha256": "2c020fed5b336ed0b417d8e72a07c6336ea475b09b9a2ff37f26ec4ce4d56bf8",
+    "decoded_sha256": "8e145275dda385e4c2f87500978716654d10efb0903a4011f2bcc304a7906b14",
+    "bytes": 5238666,
+    "decoded_bytes": 116923668,
+    "schema": "prior_time_range_v1"
+  },
+  "quantity_input": {
+    "path": "inputs/00155_方向付き数量の測定/方向付き数量の入力.json.gz",
+    "sha256": "947dd612858e5560debe0c350c73eda2a12d821f515bd6f9627c2040676901d3",
+    "decoded_sha256": "9b8ace0d3ec2649ab484762d3bf8dc35b0a229ebe3c384a6e875cc74252be4f0",
+    "schema": "directional_volume_v1",
+    "bytes": 8215183,
+    "decoded_bytes": 190388567
+  },
+  "quantity": {
+    "obv_windows_minutes": [
+      5,
+      15
+    ],
+    "obv_field": "change",
+    "obv_ratio_used": false,
+    "known_zero_is_known_zero": true,
+    "r_included": true,
+    "CMF_and_OBV30_diagnostic_only": true,
+    "independent_roles": 1
+  },
+  "common": {
+    "eligible": true,
+    "normal_q0_bbo": true,
+    "spread_range": "(0,20]",
+    "atr5_strict_positive": true,
+    "abs_last_close_atr5_max": 1,
+    "r_price_known_closed_not_missing": true
+  },
+  "PB": {
+    "all_required_known": true,
+    "OBV15_to_side": ">0",
+    "OBV5_to_side": "<0",
+    "ema21_delta30_to_side": ">0",
+    "di15_to_side": ">0",
+    "hist5_real_delta_to_side": ">0",
+    "r_close_delta_to_side": ">0",
+    "live_r": ">0",
+    "live_p": ">0",
+    "entry_prior3_position": "[0,1]",
+    "RSI_or_Hist_level_AND": false,
+    "main_ema8_cap": false
+  },
+  "RV": {
+    "all_required_known": true,
+    "OBV15_to_side": "<0",
+    "OBV5_to_side": ">0",
+    "ema21_delta30_to_side": "<0",
+    "adx15_raw_delta": "<0",
+    "hist5_real_delta_to_side": ">0",
+    "di5_to_side": ">0",
+    "live_r": ">0",
+    "last_prior3_edge_b": ">0",
+    "entry_edge_z": "(0,1]",
+    "main_ema8_cap": false,
+    "adx_delta_multiply_side": false
+  },
+  "comparison": {
+    "PB1": "PB AND EMA8distance[-1,1]",
+    "RV1": "RV AND EMA8distance[-1,1]",
+    "N1": "PB1 OR RV1",
+    "U1": "C1 OR N1",
+    "primary_after_results_swap": false
+  },
+  "geometry": {
+    "live_r": "t*(Last0-r.Open)/ATR5",
+    "live_p": "m1_body_reclaim_atr5_to_side+q0_last_minus_m1_close_atr5_to_side",
+    "b": "q0_last_minus_prior3_forward_edge_atr5_to_side",
+    "z": "b+q0_entry_minus_last_atr5_to_side",
+    "zero_r_width_direct_difference_allowed": true,
+    "prior3_excludes_r": true,
+    "prior3_position_clip": false
+  },
+  "linking": {
+    "same_q0_both_true_wait": true,
+    "one_true_other_unknown_choose_true": true,
+    "same_q1_canonical": "q0_index,q0_line,event_id",
+    "C1_priority": true,
+    "later_alias_cannot_cancel_or_reselect": true,
+    "all_q0_saved_before_controls": true,
+    "unions": {
+      "N0": [
+        "PB",
+        "RV"
+      ],
+      "U0": [
+        "C1",
+        "N0"
+      ],
+      "N1": [
+        "PB1",
+        "RV1"
+      ],
+      "U1": [
+        "C1",
+        "N1"
+      ]
+    },
+    "nonfinancial_aliases": [
+      "PB1",
+      "RV1"
+    ]
+  },
+  "fixed155_control": {
+    "read_only_after_all_new_q0_saved": true,
+    "selection": {
+      "path": "inputs/00155_方向付き数量の測定/選択対応.json.gz",
+      "sha256": "b1d7730dc93f51d1fcfecae2de0d382fd54fff57e3a96a022daa8830768ba445",
+      "decoded_sha256": "79287fd455e74d418e2a9bb9c34baec40aa800ec02c2705ce166aae96ee2e5ff"
+    },
+    "f1": {
+      "path": "study/00155_方向付き数量で既存入口を補正し順行入口を加える/検査/F1入口選択後.json",
+      "sha256": "1eb35181e72c0c583f1087343267aded6f0894ec9e4de67f0617f53bf6cd93ac"
+    },
+    "expected_counts": {
+      "B152": 614,
+      "UB152": 697,
+      "U155": 526,
+      "C1": 87
+    },
+    "copy_all_values_without_reselection": true
+  },
+  "diagnostics": {
+    "features": "diagnostic_feature_refで共有100列へ結合",
+    "quantity": "diagnostic_quantity_refで共有量rowのCMF/OBV30を参照",
+    "additional_AND": false
+  },
+  "no_model_or_teacher": true,
+  "current100X_or_old_model_changed": false,
+  "limits": [
+    "全73場既使用・155失敗後の着想",
+    "前48/後25は未知期ではない",
+    "閾値の最適性未実証",
+    "近接H60/同場依存、独立mini1枚IFD合算は口座/追尾成績でない",
+    "旧対照に新q0品質条件を追加しない"
+  ],
+  "sources": {
+    "work/156採用条件のRoot通知.md": "33c676cf650b5af81d0f9ef1b240ac1e06dfaa60dec55fb0d863e7940980e7bd",
+    "inputs/00155_方向付き数量の測定/条件.json": "23c059a2900136f9643d61ade0a5bb7a4295ba0c87de571a1ab84b18985142e6",
+    "work/153独立出生の入口/logic153.py": "06a895067fa6c7f8edb31b6d836310ee35ba0dc7ec9d9f6d8f7a9775abe25b2c",
+    "work/153独立出生の入口/選択する.py": "48fa9da161f5a8382024407c31739087d6dcdb30bb0dc959a977256cefc57388",
+    "work/151過去場判別/data151.py": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+    "scripts/入口研究/固定特徴から可読条件を選択する.py": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+    "work/156短長量の入口/bookを準備する.py": "f070358c6929bdf65eb0e928576a9d456e06ef7d0d8f842273d5dd75e4e16c48",
+    "work/156短長量の入口/logic156.py": "6cfd8068a35d3721a0a66fa52e70508f73c2b909851bb077584bc2a2c716decf",
+    "work/156短長量の入口/人工検査.py": "30ab1e53108eff324fd45779ad415a58a5ad4fe09c59d59eab375155d8608ba2",
+    "work/156短長量の入口/人工検査_運転.py": "580ed4a811199cf04d9ecc36e4b07c33cc02442ab36e54899f16c5cde7abd045",
+    "work/156短長量の入口/準備する.py": "2fd537862bdf85031246acf58fb9de34a4c8c2a13f8c5c0622ff7fbfdb742a90",
+    "work/156短長量の入口/選択する.py": "e0e6c58d594f09f3819e3836d9e2fac9f544b61882bbf089e096ec64062a8858",
+    "work/156短長量の入口/README.md": "f89bef11681493346b41d9aa8c108cb403b5900192e7c2390b11f39744f7be00"
+  }
+}
