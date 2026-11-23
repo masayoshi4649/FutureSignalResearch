@@ -1,0 +1,97 @@
+{
+  "試行": 152,
+  "成功": true,
+  "入力": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\152複合回復の評価\\金融診断\\CSV用の表.json",
+    "sha256": "9490219016d91272740c343cf91d3498ae7ce740d5135f8fa40be06fce96a8f6"
+  },
+  "表数": 3,
+  "表別": [
+    {
+      "表名": "正逆比較",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\正逆比較.csv",
+        "sha256": "1e257ffc1f31e4d027dc7fc82d96a64f6b665b7e43541ff3112e7eeaeb0bffe1"
+      },
+      "行数": 660,
+      "列数": 34,
+      "ヘッダ比較数": 34,
+      "UTF8BOM": true,
+      "全セル比較数": 22440,
+      "数値比較数": 14520,
+      "数値零比較数": 723,
+      "文字列比較数": 2640,
+      "空文字比較数": 0,
+      "真偽値比較数": 3300,
+      "null比較数": 1980
+    },
+    {
+      "表名": "入口別診断",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\入口別診断.csv",
+        "sha256": "e044e666e99525528559f807648ca1413135cb35183d296985b4d58cabe904fb"
+      },
+      "行数": 697,
+      "列数": 47,
+      "ヘッダ比較数": 47,
+      "UTF8BOM": true,
+      "全セル比較数": 32759,
+      "数値比較数": 12990,
+      "数値零比較数": 293,
+      "文字列比較数": 15512,
+      "空文字比較数": 87,
+      "真偽値比較数": 2792,
+      "null比較数": 1465
+    },
+    {
+      "表名": "全セッション",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\全セッション.csv",
+        "sha256": "b742944e03df9d9084fd6844d6a196afcb507347e50207725c1fbd43f092229e"
+      },
+      "行数": 73,
+      "列数": 63,
+      "ヘッダ比較数": 63,
+      "UTF8BOM": true,
+      "全セル比較数": 4599,
+      "数値比較数": 4020,
+      "数値零比較数": 1302,
+      "文字列比較数": 146,
+      "空文字比較数": 0,
+      "真偽値比較数": 73,
+      "null比較数": 360
+    }
+  ],
+  "全データセル比較数": 59798,
+  "数値比較数": 31530,
+  "数値零比較数": 2318,
+  "null比較数": 3805,
+  "空文字比較数": 87,
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\152複合回復の評価\\金融診断\\CSV用の表.json": "9490219016d91272740c343cf91d3498ae7ce740d5135f8fa40be06fce96a8f6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\正逆比較.csv": "1e257ffc1f31e4d027dc7fc82d96a64f6b665b7e43541ff3112e7eeaeb0bffe1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\入口別診断.csv": "e044e666e99525528559f807648ca1413135cb35183d296985b4d58cabe904fb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\全セッション.csv": "b742944e03df9d9084fd6844d6a196afcb507347e50207725c1fbd43f092229e"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\152複合回復の評価\\金融診断\\CSV用の表.json": "9490219016d91272740c343cf91d3498ae7ce740d5135f8fa40be06fce96a8f6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\正逆比較.csv": "1e257ffc1f31e4d027dc7fc82d96a64f6b665b7e43541ff3112e7eeaeb0bffe1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\入口別診断.csv": "e044e666e99525528559f807648ca1413135cb35183d296985b4d58cabe904fb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\152_複合回復による方向切替\\全セッション.csv": "b742944e03df9d9084fd6844d6a196afcb507347e50207725c1fbd43f092229e"
+  },
+  "前後不変": true,
+  "数値照合": "Decimalによる値の完全一致。許容差なし。指数表記と末尾零の表記差だけは値同体とする。",
+  "文字列照合": "JSONで文字列のセルは先頭零を含め完全一致。数値への自動変換を行わない。",
+  "真偽値照合": "JSON booleanに対応するCSVは小文字true又はfalseに完全一致。",
+  "空欄の限界": "nullと空文字はCSV上で共に空欄となり、CSV単体では区別不能。入力JSONの型ごとに件数を記録する。数値零を空欄として受理しない。",
+  "検査範囲": "指定された3表の転記、行列数、型別全セル、UTF-8 BOM、指定入力の前後SHA256。",
+  "非対象": [
+    "金融及び技術条件の再計算",
+    "独立1mini期限評価の片側上限10枚口座への合算",
+    "未約定を損益零へ補完する評価"
+  ],
+  "金融再計算": false,
+  "運用口座への合算": false,
+  "Native読取": 0,
+  "Raw読取": 0
+}

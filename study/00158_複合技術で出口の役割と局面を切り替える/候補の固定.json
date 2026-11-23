@@ -1,0 +1,127 @@
+{
+  "試行": 158,
+  "確認日": "2026-11-13",
+  "方針": "一般的手法と独自仮説の複数技術出口を比較し、例示固定幅だけに限定しない",
+  "入口": "157固定837物理case/924所属、153U15全93・152U0全831・全73場を保持",
+  "固定入口SHA256": "eabf9819351ef77fec44a7a132a8df13fd8a3aee7c3be6d87ac81dabe34ce279",
+  "政策": [
+    {
+      "id": "F125S125",
+      "系統": "固定対照",
+      "固定式": "単純IFD±125pt。157同体。"
+    },
+    {
+      "id": "T125W100TP250",
+      "系統": "固定対照",
+      "固定式": "+125で幅100/最低0床、TP250。157同体。"
+    },
+    {
+      "id": "E0W125",
+      "系統": "固定対照",
+      "固定式": "費用後W>0で幅125/最低0床。157同体。"
+    },
+    {
+      "id": "A01_CHAND_MOM",
+      "系統": "通常揺れと失速",
+      "固定式": "arm125/TPなし。幅clamp(3ATR,50,200)、weak&&break時はclamp(1.5ATR,25,75)。取得後BBO峰を使うChandelier派生。"
+    },
+    {
+      "id": "A02_KASE_VAR",
+      "系統": "逆行幅の分散",
+      "固定式": "arm=clamp(2entryATR,50,125)、未知entryATRは125固定。TPなし。幅clamp(TRD平均20+1.64SD20,50,200)、weak&&volContra時clamp(TRD平均+SD,25,100)。"
+    },
+    {
+      "id": "A03_SUPER_CONFIRM",
+      "系統": "変動帯の失効",
+      "固定式": "arm125/TPなし。同方向SuperTrend10×3線はweak||break時だけ床候補、他は峰−clamp(3ATR,75,200)。逆ST&&weak&&breakで退出。"
+    },
+    {
+      "id": "A04_SAR_ACCEL",
+      "系統": "時間と勢い",
+      "固定式": "arm125/TPなし。同方向PSAR(.02,.2)線はweak&&signedDI1<0時だけ床候補、他は峰−clamp(3ATR,75,200)。逆SAR&&weak&&DI反対で退出。"
+    },
+    {
+      "id": "A05_SWING_CONFIRM",
+      "系統": "構造の失効",
+      "固定式": "arm125/TP250。weak||volContra時は直前10足の買low−.5ATR/売high+.5ATRを床へ、候補線は現在g−5以下へ制限。他は幅100。MFE>=50&&break&&weak&&volContraで早期退出。"
+    },
+    {
+      "id": "A06_BB_CONTRACT",
+      "系統": "収束と継続",
+      "固定式": "arm125/TP250/基本幅100。BB幅<=.9前幅&&weak&&ER10<.35で幅clamp(1.5ATR,25,60)。BB拡大&&strongなら幅clamp(3ATR,100,200)/TPなし。"
+    },
+    {
+      "id": "A07_VOL_DIVERGE",
+      "系統": "量価乖離",
+      "固定式": "arm125/TP250/基本幅100。closeが買直前20高値超/売安値割れ&&volContra&&weak&&MFE>=50で退出。volContra&&weakなら幅50。"
+    },
+    {
+      "id": "A08_VWAP_REVERT",
+      "系統": "平均価格帯への回復",
+      "固定式": "arm125/幅100。entry近似VWAPへの符号付き距離が50〜250なら固定TP、未知/逆側/範囲外はTP125。strong時はTP250。有効な順側固定目標だけ現在清算BBOの到達&&weakでも退出。動くVWAPへ目標交換しない。"
+    },
+    {
+      "id": "A09_SPIKE_CONFIRM",
+      "系統": "行き急ぎと否定",
+      "固定式": "arm125/TP250/幅100。signedbody>=1.5ATR又はsignedBBz>=2、相対量>=1.5、順側wick/range>=.35で実体中点を記憶。後続確定足が中点逆側&&weak&&MFE>=50で退出。"
+    },
+    {
+      "id": "A10_PROGRESS_CLOCK",
+      "系統": "進行速度の寿命",
+      "固定式": "arm125/TP250/幅100。取得15分後、MFE<.75entryATR&&break&&weakで退出。MFE>=50・最後の新峰から8分・ER10<.3・weakならarm50/幅50。"
+    },
+    {
+      "id": "A11_PROFIT_BUDGET",
+      "系統": "利益返却予算",
+      "固定式": "arm125/TPなし。strongなら幅max(100,.5MFE)、他はclamp(.25MFE+ATR,25,100)。weak&&breakなら幅clamp(ATR,25,60)。"
+    },
+    {
+      "id": "A12_VOL_SHOCK",
+      "系統": "異常逆行と量",
+      "固定式": "arm125/TP250/幅100。signedbody<=−prevATR、TR>=2prevATR、相対量>=1.5、breakの同時成立で損益不問の退出。"
+    },
+    {
+      "id": "A13_CUSUM_FAILURE",
+      "系統": "小さな失速の累積",
+      "固定式": "arm125/TP250/幅100。取得後の新1分event毎にx=s*(close−prevClose)/prevATR、S=max(0,S−x−.25)。欠測は連続性reset。S>=3&&break&&weakで退出。"
+    },
+    {
+      "id": "A14_PERSISTENT_CONSENSUS",
+      "系統": "根拠失効の持続",
+      "固定式": "arm125/TP250/幅100。break/weak/volContra/signedDI1<0/BB収縮の5票。3票以上2足連続で退出。2票以上&&MFE>=50なら幅50、arm125は維持。"
+    },
+    {
+      "id": "A15_EXTEND_PERMISSION",
+      "系統": "延伸を許可する条件",
+      "固定式": "最初のg>=125時、strong&&signedCMF20>0&&ER10>=.35ならTP250/arm125/幅100。満たさなければTP125で退出。未知は不許可。"
+    },
+    {
+      "id": "A16_REGIME_SWITCH",
+      "系統": "順行と往復の切替",
+      "固定式": "arm125。strong&&ER10>=.35ならTPなし/幅clamp(3ATR,100,200)。CHOP14>=61.8又はER10<.25ならTP125/幅clamp(1.5ATR,25,75)。他はTP250/幅100。MFE>=50&&weak&&break&&volContraで退出。"
+    }
+  ],
+  "観測期限": [
+    "H60",
+    "SESSION"
+  ],
+  "遅延": [
+    "D1",
+    "D0"
+  ],
+  "費用": [
+    "C5",
+    "C0"
+  ],
+  "主比較": {
+    "期限": "H60",
+    "遅延": "D1",
+    "費用": "C5"
+  },
+  "量": "147 canonical観測量。HLC3Vは近似VWAP、真の全約定VWAPや成行側数量ではない",
+  "学習モデル": "今回未実装。hazard/Bellman等は次の仮説候補、採用済みとはしない",
+  "汎用表": {
+    "path": "docs\\議論\\手法と時間スケールの汎用表_版8.md",
+    "sha256": "45de4076b1416e409f60897a887209511835be4b7866f85c51b19a2fa5f1b138"
+  }
+}

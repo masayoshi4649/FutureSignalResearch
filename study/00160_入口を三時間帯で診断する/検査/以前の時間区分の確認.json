@@ -1,0 +1,202 @@
+{
+  "success": true,
+  "checked_at": "2026-11-13",
+  "scope": "コード/仕様read-onlyと人工時計のみ",
+  "dst_examples": [
+    {
+      "ny": "2026-03-06T09:30:00-05:00",
+      "jst": "2026-03-06T23:30:00+09:00",
+      "far_p_end": "2026-03-06T23:15:00+09:00",
+      "far_u_window_start": "2026-03-06T23:45:00+09:00",
+      "legacy_core_ready": "2026-03-06T23:52:00+09:00"
+    },
+    {
+      "ny": "2026-03-09T09:30:00-04:00",
+      "jst": "2026-03-09T22:30:00+09:00",
+      "far_p_end": "2026-03-09T22:15:00+09:00",
+      "far_u_window_start": "2026-03-09T22:45:00+09:00",
+      "legacy_core_ready": "2026-03-09T22:52:00+09:00"
+    },
+    {
+      "ny": "2026-10-30T09:30:00-04:00",
+      "jst": "2026-10-30T22:30:00+09:00",
+      "far_p_end": "2026-10-30T22:15:00+09:00",
+      "far_u_window_start": "2026-10-30T22:45:00+09:00",
+      "legacy_core_ready": "2026-10-30T22:52:00+09:00"
+    },
+    {
+      "ny": "2026-11-02T09:30:00-05:00",
+      "jst": "2026-11-02T23:30:00+09:00",
+      "far_p_end": "2026-11-02T23:15:00+09:00",
+      "far_u_window_start": "2026-11-02T23:45:00+09:00",
+      "legacy_core_ready": "2026-11-02T23:52:00+09:00"
+    }
+  ],
+  "boundary_examples": [
+    {
+      "relative_seconds": -900.001,
+      "primary": "PRE_US",
+      "far_secondary": "FAR_P"
+    },
+    {
+      "relative_seconds": -900,
+      "primary": "PRE_US",
+      "far_secondary": "TRANSITION"
+    },
+    {
+      "relative_seconds": -0.001,
+      "primary": "PRE_US",
+      "far_secondary": "TRANSITION"
+    },
+    {
+      "relative_seconds": 0,
+      "primary": "POST_US",
+      "far_secondary": "TRANSITION"
+    },
+    {
+      "relative_seconds": 899.999,
+      "primary": "POST_US",
+      "far_secondary": "TRANSITION"
+    },
+    {
+      "relative_seconds": 900,
+      "primary": "POST_US",
+      "far_secondary": "FAR_U"
+    }
+  ],
+  "day_check": true,
+  "source_refs": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "0591d5ec141ea067ef7455cb951ef92b32b8d719c4ffbfad797c74eabb88b9d2",
+      "bytes": 11366
+    },
+    {
+      "path": "study/00160_入口を三時間帯で診断する/実行条件.md",
+      "sha256": "fe8fe057f137008df5eba43b953d6e4e66d3bd3e07266971b1c8cdbe57acc3a9",
+      "bytes": 5312
+    },
+    {
+      "path": "scripts/FAR後期15分移植/schedule.go",
+      "sha256": "fd3b1a977a90de40d9a2f8039f729afb8834d9740a80636113b754589b00c040",
+      "bytes": 2773
+    },
+    {
+      "path": "scripts/FAR後期15分移植/schedule_test.go",
+      "sha256": "d0e896b30b7e2e427c9b97b443f1fed9f0ad5e6b132829276107f51a49deffee",
+      "bytes": 3947
+    },
+    {
+      "path": "scripts/FAR元三手法のmini連続再現/input.go",
+      "sha256": "27751caa39dcb1e8f36dce4713320e7a8109355c2f5e30a2898f61d47af46c45",
+      "bytes": 10435
+    },
+    {
+      "path": "scripts/FAR元三手法のmini連続再現/replay.go",
+      "sha256": "05c43d76690c4e8f66ea50941fac516d0561622438a382759dc57d7f1ae70a5a",
+      "bytes": 6191
+    },
+    {
+      "path": "scripts/FAR元三手法のmini連続再現/adapter.go",
+      "sha256": "ea823b57a9eedb9cae3ce3c83fb3e8868b869b79635dc3ab0356233bce0b048d",
+      "bytes": 20802
+    },
+    {
+      "path": "../SessionTradeExecuter/internal/strategy/types.go",
+      "sha256": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+      "bytes": 14470
+    },
+    {
+      "path": "../SessionTradeExecuter/internal/strategy/selected_source.go",
+      "sha256": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+      "bytes": 5479
+    },
+    {
+      "path": "../SessionTradeExecuter/internal/strategy/cores.go",
+      "sha256": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+      "bytes": 14040
+    },
+    {
+      "path": "../SessionTradeExecuter/internal/strategy/p05.go",
+      "sha256": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+      "bytes": 14659
+    },
+    {
+      "path": "work/148全1分知得の入口母集団/population.go",
+      "sha256": "8e93fcf0cfc6775fc09e58ba6662a8260ddfea30131abd580e09bf8080f3b65d",
+      "bytes": 7887
+    },
+    {
+      "path": "work/151過去場判別/run151.py",
+      "sha256": "17ba1de23a58220f7297553313f99429138413300de74f4b4c21682fe89060d6",
+      "bytes": 14630
+    },
+    {
+      "path": "work/151過去場判別/条件.json",
+      "sha256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+      "bytes": 4120
+    },
+    {
+      "path": "work/152複合回復の入口/logic152.py",
+      "sha256": "e9d7bff7f1b02636ddb1b2ea30afaa16540cb3966d55c94edd0eb4e409c77b62",
+      "bytes": 5412
+    },
+    {
+      "path": "work/152複合回復の入口/選択する.py",
+      "sha256": "e430e730b04155b8ab7b6b2616e1629aa9101e9b489e52ad2e5e1b44aa66dbee",
+      "bytes": 12661
+    },
+    {
+      "path": "work/152複合回復の入口/条件.json",
+      "sha256": "7805b17d8125b15c8f28d6d874a0a53e2066e92f858df21b41e0e61454167067",
+      "bytes": 5003
+    },
+    {
+      "path": "work/153独立出生の入口/logic153.py",
+      "sha256": "06a895067fa6c7f8edb31b6d836310ee35ba0dc7ec9d9f6d8f7a9775abe25b2c",
+      "bytes": 14327
+    },
+    {
+      "path": "work/153独立出生の入口/選択する.py",
+      "sha256": "48fa9da161f5a8382024407c31739087d6dcdb30bb0dc959a977256cefc57388",
+      "bytes": 15733
+    },
+    {
+      "path": "work/153独立出生の入口/条件.json",
+      "sha256": "fb79cd957567ceb7b39c887daa817996383fd03183b2f2cb825a025b705d8d8d",
+      "bytes": 7216
+    },
+    {
+      "path": "work/133固定取得の正逆評価器/entry.go",
+      "sha256": "f1963e47f0efc34541d54a45c34dffc4f7dd757e0ff16717a7975bfd7482486a",
+      "bytes": 13887
+    },
+    {
+      "path": "work/133固定取得の正逆評価器/outcome.go",
+      "sha256": "90e378e1816d7a7cd92ba09ad8e129ff17c4a12338e06fa7eb0b5a0464727487",
+      "bytes": 1677
+    },
+    {
+      "path": "work/133固定取得の正逆評価器/phase.go",
+      "sha256": "5e6136b749036ca16b3d9a0cc348cae8f414495b00862dd7fc4502990593022a",
+      "bytes": 619
+    }
+  ],
+  "data_read": false,
+  "raw_or_price_csv_read": false,
+  "financial_labels_read": false,
+  "unseen_two_read": false,
+  "trial156_read": false,
+  "sources_modified": false,
+  "formal160_modified": false,
+  "external_sources": [
+    {
+      "url": "https://www.nyse.com/trade/hours-calendars",
+      "checked_at": "2026-11-13"
+    },
+    {
+      "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+      "checked_at": "2026-11-13"
+    }
+  ]
+}

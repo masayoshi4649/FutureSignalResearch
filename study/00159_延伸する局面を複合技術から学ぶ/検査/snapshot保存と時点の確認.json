@@ -1,0 +1,220 @@
+{
+  "success": true,
+  "trial": 159,
+  "scope": "snapshot抽出器だけの再現ステージ。学習/集計/CSV/最終独立票は後でRootが追加",
+  "f0": {
+    "path": "study/00159_延伸する局面を複合技術から学ぶ/検査/特徴抽出前固定.json",
+    "bytes": 1396,
+    "sha256": "5bdd61b66b1cb17203a8eb133ab081ab1ae3add308e3c9ba9c7936e8017bfb5c",
+    "mtime_ns": 1794507355416998100
+  },
+  "f0_extractor_sources_current_equal": {
+    "work/159延伸判断の特徴抽出/extract.go": {
+      "path": "work/159延伸判断の特徴抽出/extract.go",
+      "bytes": 10139,
+      "sha256": "cec9c4168f718f76455c58a10e2653be0df089a7aa5bc6b33afe9a21e664d70d",
+      "mtime_ns": 1794506965109914100
+    },
+    "work/159延伸判断の特徴抽出/extract_test.go": {
+      "path": "work/159延伸判断の特徴抽出/extract_test.go",
+      "bytes": 10928,
+      "sha256": "2dc99157f645f01255d60df3c6deab2ba7fc7f1dd6b07cc85e57023281479b6b",
+      "mtime_ns": 1794507090543983500
+    },
+    "work/159延伸判断の特徴抽出/go.mod": {
+      "path": "work/159延伸判断の特徴抽出/go.mod",
+      "bytes": 363,
+      "sha256": "280204984719095772a49e9e29aeceb1953cbc9f8864ecb2826f0422151961e1",
+      "mtime_ns": 1794506840159726100
+    },
+    "work/159延伸判断の特徴抽出/stream.go": {
+      "path": "work/159延伸判断の特徴抽出/stream.go",
+      "bytes": 12135,
+      "sha256": "6f33e47b852b94876d0f0980b47c731996978a0baa33072cc11a86e83b5613a4",
+      "mtime_ns": 1794506965211501900
+    },
+    "work/159延伸判断の特徴抽出/cmd/run/main.go": {
+      "path": "work/159延伸判断の特徴抽出/cmd/run/main.go",
+      "bytes": 3588,
+      "sha256": "81b25916c7d3947dcf0cc7aa47f78cccf028ffef16294f03622e2ec0357e1346",
+      "mtime_ns": 1794506965109914100
+    }
+  },
+  "snapshot": {
+    "success": true,
+    "snapshot": {
+      "path": "inputs/00159_延伸判断の特徴/判断時点の特徴.json.gz",
+      "bytes": 3600073,
+      "sha256": "b7be610367196246af4125cabc10ea46157d4068896d29c35d0939084b41a148",
+      "mtime_ns": 1794507378124920200
+    },
+    "decoded_sha256": "3ac97f2372c3c58b5c0e2584e0d72b27f08f3a50dec6c2cfcfe40e85db63fe7e",
+    "decoded_bytes": 33662878,
+    "crc_checked": true,
+    "scenes": 73,
+    "physical_cases": 837,
+    "memberships": 924,
+    "rows": 1674,
+    "gate_rows": 977,
+    "no_gate_rows": 697,
+    "point_feature_cells": 145573,
+    "known_cells": 133663,
+    "unknown_cells": 11910,
+    "refs": 6727,
+    "all_149_shape_finite_null_ttl_future_guards_checked": true,
+    "numeric_recalculation": false,
+    "first_tp_raw_replay": false,
+    "author_only_preservation_check": true
+  },
+  "snapshot_completion": {
+    "path": "inputs/00159_延伸判断の特徴/判断時点の特徴.json.gz.完了.json",
+    "bytes": 552,
+    "sha256": "4f3611e6985664ef157da523f22235ad2a72c5b1ee35d061010c21ad140c9e2e",
+    "mtime_ns": 1794507378124920200
+  },
+  "parent_archives": [
+    {
+      "path": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip",
+      "bytes": 246020,
+      "sha256": "348f68f9e46dc8c4b206aa5bba194612e2ce88c26fb110ef38b455d59c555743",
+      "mtime_ns": 1794507085461613100
+    },
+    {
+      "path": "study/00157_固定入口の到達距離と追尾退出を比較する/再現資料/再現コード.zip",
+      "bytes": 205975,
+      "sha256": "a63b59a8e6c7efc71480a14101ee644509b5b673ee0b8761eb79f6d084c957f3",
+      "mtime_ns": 1794485566120624000
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "work/158技術特徴/cmd/run/main.go",
+      "sha256": "4117574dbc7f8efebaeaf6b14558d9be9f3ae3b25254943d4ef59c3748ae652b",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/generate.go",
+      "sha256": "5efde5f7bc8d9312e3eb066c4f4033205202d7c9bd2748cc98cc9b94d583fcd3",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/generate_test.go",
+      "sha256": "deead05f67f7f7c159055b7665751666b39e5ca20bef1fce0eb918f5f9b2a4d6",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/go.mod",
+      "sha256": "812fef659d5863280f20ffe8abdae81cec14da9d70326327a2dee36eabd38c34",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/numeric.go",
+      "sha256": "79767a01cb6f0ec629cc190f1ebb48ec42407c9728fb3536223a66b3ccaa44a1",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/numeric_test.go",
+      "sha256": "51e7446aaa26232abe0e01302b46d90e50ecaaa7095ea856d546fb4ec78bdb7a",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/parent_stream.go",
+      "sha256": "3bbad41f8b5dbb59837dba1e78f3d3321a1833dffe655d8c81bd87462ebd88d6",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/provider.go",
+      "sha256": "be1c64d823704dbeea34c97996ce82f6915abe437f402d21393473ff9280d6c7",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/provider_test.go",
+      "sha256": "e2e5e2edfa728806f1f8cde6aedd0038544e1e2bafdada771692e8934e204ecb",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/quantity.go",
+      "sha256": "652dc50627ec2752b6024e228d6f2d6d96d21e4a6b4cecbd063dd766cb0e9d54",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/trend.go",
+      "sha256": "67cb2a939a15f1fa076815af6b4355acf722a6efc44a3397b6f7dadb2f89fe31",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/158技術特徴/types.go",
+      "sha256": "062fea8f5df7d2152e621176f2b83e7b7b3015887a44017b8e265c2cc1809425",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/157固定入口と価格経路/cmd/run/main.go",
+      "sha256": "f3887a500558e0097ca28d20245c83ee2a162dc2367288bc9cdd52f9b2a74e0f",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/157固定入口と価格経路/go.mod",
+      "sha256": "4c1ca6e30c79085fa472e87ae38b2c2b33395a26dd9711265cfb4ef06c20bbf7",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/157固定入口と価格経路/reader.go",
+      "sha256": "a4535e6a2c73a56a4b2353d80bac34be6ade77b8c0fc648feef96a9ecc0b2a96",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/157固定入口と価格経路/stream.go",
+      "sha256": "38094d7fe953db83492cf15e4a10016d68c9a231bee7adbf2607e4d2aaf1c758",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/157固定入口と価格経路/tape.go",
+      "sha256": "1c846473c982fe69c1689fa988f6f5d300519b0f5c2abe559029a10b33b2bad3",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/157固定入口と価格経路/tape_test.go",
+      "sha256": "765d563245b587297ac510851c1f7aa0f2058ac62a7cebedbd3ab73a21214008",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/157固定入口と価格経路/types.go",
+      "sha256": "946f0d38c40734ef78dc7ea6e6eb547ba94e88a5c4516f101af4f597e9a59e33",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/118複数技法の入口条件/bank.go",
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/118複数技法の入口条件/go.mod",
+      "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules.go",
+      "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules_test.go",
+      "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    },
+    {
+      "path": "work/118複数技法の入口条件/types.go",
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+      "parent_archive": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip"
+    }
+  ],
+  "shared_inputs_not_copied": true,
+  "snapshot_not_copied": true,
+  "natural_reexecuted": false,
+  "limits": [
+    "C0最初正常TP125の全Raw別再生ではない",
+    "149値の数式再実装ではない",
+    "当該snapshotの有限NULL/期限/参照時計を保存性検査した",
+    "158特徴の数式/鮮度/計測時計・既使用全73場の制限を継承する"
+  ]
+}

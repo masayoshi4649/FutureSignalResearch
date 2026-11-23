@@ -1,0 +1,107 @@
+{
+  "成功": true,
+  "試行": 149,
+  "復元源": [
+    {
+      "path": "work/149可読局面の金融集計/準備の確認.json",
+      "sha256": "506e16c2d13cdf3c7ed02e1edd3050cb452ced2e7a69268de8163ab07ce5c416",
+      "bytes": 3640
+    },
+    {
+      "path": "work/149可読局面の金融集計/人工検査.py",
+      "sha256": "bb3c3b7d42490328504451688194d7f80f5245271e0352547a87a59fe6466082",
+      "bytes": 5558
+    },
+    {
+      "path": "work/149可読局面の金融集計/条件.md",
+      "sha256": "aa259911c783c74dc762bad8e32426a46c49a3cb8469119cf6bc16e44b932405",
+      "bytes": 1536
+    },
+    {
+      "path": "work/149可読局面の金融集計/準備する.py",
+      "sha256": "fa0a9f1be14026a54ef2a9841862f458d77075f499b98d808ce5c52dc0be7c35",
+      "bytes": 3283
+    },
+    {
+      "path": "work/149可読局面の金融集計/集計する.py",
+      "sha256": "920b6a6c666318eaf5a6ea4a0047246a8d183f850fad67af52bdf6cfdcc9264f",
+      "bytes": 18307
+    },
+    {
+      "path": "work/148母集団の診断集計/人工検査.py",
+      "sha256": "4256dec3bd2bd22f51009f9efe5286c039641b5c558c724b271dd55c8f2facef",
+      "bytes": 7604
+    },
+    {
+      "path": "work/148母集団の診断集計/集計する.py",
+      "sha256": "0ae8287b67b53df0d07c22963e2bf9ecd0775af9b0545a89f6a61af6ec2ec309",
+      "bytes": 21932
+    },
+    {
+      "path": "work/124入口の原因分析/集計する.py",
+      "sha256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+      "bytes": 18019
+    },
+    {
+      "path": "work/145構造イベントの評価/固定取得の正逆観測.json",
+      "sha256": "3b92da8b447d7be9ead6a2a112759ca7272a1e65d6cb5516989e3faf50c54d62",
+      "bytes": 2349359
+    },
+    {
+      "path": "work/145構造イベントの評価/金融評価/集計.json",
+      "sha256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861",
+      "bytes": 370624
+    },
+    {
+      "path": "work/148全1分母集団の評価/母集団生成/固定取得入力.json",
+      "sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3",
+      "bytes": 12155869
+    },
+    {
+      "path": "work/148全1分母集団の評価/母集団生成/入口参照.json",
+      "sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c",
+      "bytes": 23358150
+    },
+    {
+      "path": "work/148全1分母集団の評価/母集団生成/出生台帳.json",
+      "sha256": "4f4d3ce3a652170d5d5f15941b591493592d5816bb0985c2e70c86b14323b219",
+      "bytes": 150712334
+    },
+    {
+      "path": "work/148全1分母集団の評価/母集団生成/取得対応.json",
+      "sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a",
+      "bytes": 37321760
+    },
+    {
+      "path": "work/148全1分母集団の評価/母集団生成/生成の確認.json",
+      "sha256": "9fb3737026d764d7f05aa7e4da10469bd27bdc0164c6bcbe7bb4de860bb8ea46",
+      "bytes": 3710
+    },
+    {
+      "path": "work/148全1分母集団の評価/固定取得の正逆観測.json",
+      "sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc",
+      "bytes": 842954472
+    },
+    {
+      "path": "work/149可読8局面の評価/入口選択/選択対応.json",
+      "sha256": "ecb45e18bccad7c8df50dc7edb9908233a453108e73ff41196af328cbb5eeacb",
+      "bytes": 5482805
+    },
+    {
+      "path": "work/149のCSVに既知収支と未知件数の累計を付ける.py",
+      "sha256": "a5ca0395ea4b77cab7fe1e68e6192eee90cc57a44bb8a47486afe32a9c9ea483",
+      "bytes": 4050
+    }
+  ],
+  "元F1_SHA256": "606aa4436b36db9c2df89d10bc1f9c9d9947a4bb1a3ab4372bc2ee4684fd7dde",
+  "再現F1_SHA256": "33c3808c463db015816b329ac1bf5778b2acc64fdcbc95fb60594bf6de60db61",
+  "900比較全dict一致": true,
+  "元三表JSONbytes一致": true,
+  "累計付表一致": true,
+  "元表SHA256": "f0a799440b1747657112de973d9533e75002b120548a56f19b03c652ea47f196",
+  "累計付表SHA256": "49a3514d77768437946e3f4efe7adf6d7b9b1366ee344e5228dd6fd35769c7b6",
+  "許容差": "pathだけの再現F1_SHA256と、それを含む集計SHA256の累計付metadata。数値/セルは完全一致",
+  "RawSource又は入口選び直し": false,
+  "元正本上書き": false,
+  "親大観測の恒久再複製": false
+}

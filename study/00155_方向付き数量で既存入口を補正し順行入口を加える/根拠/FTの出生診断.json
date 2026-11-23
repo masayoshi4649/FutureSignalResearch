@@ -1,0 +1,506 @@
+{
+  "成功": true,
+  "試行": 155,
+  "q0数": 35339,
+  "条件の集計順": [
+    "common",
+    "cmf_support",
+    "obv_support",
+    "same_r_volume_at_least1",
+    "ema21_delta30_positive",
+    "hist_level_positive",
+    "hist_delta_positive",
+    "r_body_positive",
+    "current_p_open_reclaim",
+    "last_at_or_beyond_r_close",
+    "entry_ema8_lower0",
+    "entry_ema8_upper1"
+  ],
+  "単条件と固定順通過": {
+    "all/1": {
+      "件数": 35339,
+      "単条件": {
+        "common": {
+          "未知": 1075,
+          "真": 33618,
+          "偽": 646
+        },
+        "cmf_support": {
+          "未知": 10602,
+          "偽": 14444,
+          "真": 10293
+        },
+        "obv_support": {
+          "未知": 9334,
+          "偽": 13130,
+          "真": 12875
+        },
+        "same_r_volume_at_least1": {
+          "未知": 3214,
+          "真": 13585,
+          "偽": 18540
+        },
+        "ema21_delta30_positive": {
+          "未知": 6572,
+          "真": 15704,
+          "偽": 13063
+        },
+        "hist_level_positive": {
+          "未知": 1770,
+          "真": 16399,
+          "偽": 17170
+        },
+        "hist_delta_positive": {
+          "未知": 1815,
+          "偽": 16932,
+          "真": 16592
+        },
+        "r_body_positive": {
+          "偽": 17161,
+          "真": 13173,
+          "未知": 5005
+        },
+        "current_p_open_reclaim": {
+          "未知": 1933,
+          "偽": 18452,
+          "真": 14954
+        },
+        "last_at_or_beyond_r_close": {
+          "未知": 815,
+          "真": 19616,
+          "偽": 14908
+        },
+        "entry_ema8_lower0": {
+          "未知": 1075,
+          "偽": 16543,
+          "真": 17721
+        },
+        "entry_ema8_upper1": {
+          "未知": 1075,
+          "真": 28486,
+          "偽": 5778
+        }
+      },
+      "固定順の全条件通過数": {
+        "common": 33618,
+        "cmf_support": 9970,
+        "obv_support": 7304,
+        "same_r_volume_at_least1": 3086,
+        "ema21_delta30_positive": 1560,
+        "hist_level_positive": 960,
+        "hist_delta_positive": 674,
+        "r_body_positive": 383,
+        "current_p_open_reclaim": 297,
+        "last_at_or_beyond_r_close": 192,
+        "entry_ema8_lower0": 192,
+        "entry_ema8_upper1": 24
+      }
+    },
+    "all/-1": {
+      "件数": 35339,
+      "単条件": {
+        "common": {
+          "未知": 1075,
+          "真": 33618,
+          "偽": 646
+        },
+        "cmf_support": {
+          "未知": 10602,
+          "真": 10030,
+          "偽": 14707
+        },
+        "obv_support": {
+          "未知": 9334,
+          "真": 13031,
+          "偽": 12974
+        },
+        "same_r_volume_at_least1": {
+          "未知": 3214,
+          "真": 13585,
+          "偽": 18540
+        },
+        "ema21_delta30_positive": {
+          "未知": 6572,
+          "偽": 15704,
+          "真": 13063
+        },
+        "hist_level_positive": {
+          "未知": 1770,
+          "偽": 16399,
+          "真": 17170
+        },
+        "hist_delta_positive": {
+          "未知": 1815,
+          "真": 16932,
+          "偽": 16592
+        },
+        "r_body_positive": {
+          "真": 13061,
+          "偽": 17273,
+          "未知": 5005
+        },
+        "current_p_open_reclaim": {
+          "未知": 1933,
+          "真": 15121,
+          "偽": 18285
+        },
+        "last_at_or_beyond_r_close": {
+          "未知": 815,
+          "真": 20078,
+          "偽": 14446
+        },
+        "entry_ema8_lower0": {
+          "未知": 1075,
+          "真": 18498,
+          "偽": 15766
+        },
+        "entry_ema8_upper1": {
+          "未知": 1075,
+          "真": 28048,
+          "偽": 6216
+        }
+      },
+      "固定順の全条件通過数": {
+        "common": 33618,
+        "cmf_support": 9709,
+        "obv_support": 7228,
+        "same_r_volume_at_least1": 3065,
+        "ema21_delta30_positive": 1463,
+        "hist_level_positive": 971,
+        "hist_delta_positive": 613,
+        "r_body_positive": 371,
+        "current_p_open_reclaim": 295,
+        "last_at_or_beyond_r_close": 199,
+        "entry_ema8_lower0": 199,
+        "entry_ema8_upper1": 23
+      }
+    },
+    "train/1": {
+      "件数": 22753,
+      "単条件": {
+        "common": {
+          "未知": 881,
+          "真": 21421,
+          "偽": 451
+        },
+        "cmf_support": {
+          "未知": 7934,
+          "偽": 8582,
+          "真": 6237
+        },
+        "obv_support": {
+          "未知": 7043,
+          "偽": 8080,
+          "真": 7630
+        },
+        "same_r_volume_at_least1": {
+          "未知": 2538,
+          "真": 8598,
+          "偽": 11617
+        },
+        "ema21_delta30_positive": {
+          "未知": 5341,
+          "真": 9057,
+          "偽": 8355
+        },
+        "hist_level_positive": {
+          "未知": 1576,
+          "真": 10293,
+          "偽": 10884
+        },
+        "hist_delta_positive": {
+          "未知": 1616,
+          "偽": 10689,
+          "真": 10448
+        },
+        "r_body_positive": {
+          "偽": 10847,
+          "真": 8137,
+          "未知": 3769
+        },
+        "current_p_open_reclaim": {
+          "未知": 1606,
+          "偽": 11725,
+          "真": 9422
+        },
+        "last_at_or_beyond_r_close": {
+          "未知": 701,
+          "真": 12648,
+          "偽": 9404
+        },
+        "entry_ema8_lower0": {
+          "未知": 881,
+          "偽": 10477,
+          "真": 11395
+        },
+        "entry_ema8_upper1": {
+          "未知": 881,
+          "真": 18142,
+          "偽": 3730
+        }
+      },
+      "固定順の全条件通過数": {
+        "common": 21421,
+        "cmf_support": 5979,
+        "obv_support": 4285,
+        "same_r_volume_at_least1": 1835,
+        "ema21_delta30_positive": 842,
+        "hist_level_positive": 500,
+        "hist_delta_positive": 356,
+        "r_body_positive": 192,
+        "current_p_open_reclaim": 146,
+        "last_at_or_beyond_r_close": 94,
+        "entry_ema8_lower0": 94,
+        "entry_ema8_upper1": 12
+      }
+    },
+    "train/-1": {
+      "件数": 22753,
+      "単条件": {
+        "common": {
+          "未知": 881,
+          "真": 21421,
+          "偽": 451
+        },
+        "cmf_support": {
+          "未知": 7934,
+          "真": 5918,
+          "偽": 8901
+        },
+        "obv_support": {
+          "未知": 7043,
+          "真": 8012,
+          "偽": 7698
+        },
+        "same_r_volume_at_least1": {
+          "未知": 2538,
+          "真": 8598,
+          "偽": 11617
+        },
+        "ema21_delta30_positive": {
+          "未知": 5341,
+          "偽": 9057,
+          "真": 8355
+        },
+        "hist_level_positive": {
+          "未知": 1576,
+          "偽": 10293,
+          "真": 10884
+        },
+        "hist_delta_positive": {
+          "未知": 1616,
+          "真": 10689,
+          "偽": 10448
+        },
+        "r_body_positive": {
+          "真": 8201,
+          "偽": 10783,
+          "未知": 3769
+        },
+        "current_p_open_reclaim": {
+          "未知": 1606,
+          "真": 9491,
+          "偽": 11656
+        },
+        "last_at_or_beyond_r_close": {
+          "未知": 701,
+          "真": 12912,
+          "偽": 9140
+        },
+        "entry_ema8_lower0": {
+          "未知": 881,
+          "真": 11805,
+          "偽": 10067
+        },
+        "entry_ema8_upper1": {
+          "未知": 881,
+          "真": 17845,
+          "偽": 4027
+        }
+      },
+      "固定順の全条件通過数": {
+        "common": 21421,
+        "cmf_support": 5679,
+        "obv_support": 4287,
+        "same_r_volume_at_least1": 1811,
+        "ema21_delta30_positive": 838,
+        "hist_level_positive": 579,
+        "hist_delta_positive": 371,
+        "r_body_positive": 216,
+        "current_p_open_reclaim": 171,
+        "last_at_or_beyond_r_close": 114,
+        "entry_ema8_lower0": 114,
+        "entry_ema8_upper1": 13
+      }
+    },
+    "validation/1": {
+      "件数": 12586,
+      "単条件": {
+        "common": {
+          "未知": 194,
+          "真": 12197,
+          "偽": 195
+        },
+        "cmf_support": {
+          "未知": 2668,
+          "偽": 5862,
+          "真": 4056
+        },
+        "obv_support": {
+          "未知": 2291,
+          "偽": 5050,
+          "真": 5245
+        },
+        "same_r_volume_at_least1": {
+          "未知": 676,
+          "偽": 6923,
+          "真": 4987
+        },
+        "ema21_delta30_positive": {
+          "未知": 1231,
+          "偽": 4708,
+          "真": 6647
+        },
+        "hist_level_positive": {
+          "未知": 194,
+          "偽": 6286,
+          "真": 6106
+        },
+        "hist_delta_positive": {
+          "未知": 199,
+          "偽": 6243,
+          "真": 6144
+        },
+        "r_body_positive": {
+          "真": 5036,
+          "偽": 6314,
+          "未知": 1236
+        },
+        "current_p_open_reclaim": {
+          "未知": 327,
+          "偽": 6727,
+          "真": 5532
+        },
+        "last_at_or_beyond_r_close": {
+          "未知": 114,
+          "偽": 5504,
+          "真": 6968
+        },
+        "entry_ema8_lower0": {
+          "未知": 194,
+          "偽": 6066,
+          "真": 6326
+        },
+        "entry_ema8_upper1": {
+          "未知": 194,
+          "真": 10344,
+          "偽": 2048
+        }
+      },
+      "固定順の全条件通過数": {
+        "common": 12197,
+        "cmf_support": 3991,
+        "obv_support": 3019,
+        "same_r_volume_at_least1": 1251,
+        "ema21_delta30_positive": 718,
+        "hist_level_positive": 460,
+        "hist_delta_positive": 318,
+        "r_body_positive": 191,
+        "current_p_open_reclaim": 151,
+        "last_at_or_beyond_r_close": 98,
+        "entry_ema8_lower0": 98,
+        "entry_ema8_upper1": 12
+      }
+    },
+    "validation/-1": {
+      "件数": 12586,
+      "単条件": {
+        "common": {
+          "未知": 194,
+          "真": 12197,
+          "偽": 195
+        },
+        "cmf_support": {
+          "未知": 2668,
+          "真": 4112,
+          "偽": 5806
+        },
+        "obv_support": {
+          "未知": 2291,
+          "真": 5019,
+          "偽": 5276
+        },
+        "same_r_volume_at_least1": {
+          "未知": 676,
+          "偽": 6923,
+          "真": 4987
+        },
+        "ema21_delta30_positive": {
+          "未知": 1231,
+          "真": 4708,
+          "偽": 6647
+        },
+        "hist_level_positive": {
+          "未知": 194,
+          "真": 6286,
+          "偽": 6106
+        },
+        "hist_delta_positive": {
+          "未知": 199,
+          "真": 6243,
+          "偽": 6144
+        },
+        "r_body_positive": {
+          "偽": 6490,
+          "真": 4860,
+          "未知": 1236
+        },
+        "current_p_open_reclaim": {
+          "未知": 327,
+          "真": 5630,
+          "偽": 6629
+        },
+        "last_at_or_beyond_r_close": {
+          "未知": 114,
+          "真": 7166,
+          "偽": 5306
+        },
+        "entry_ema8_lower0": {
+          "未知": 194,
+          "真": 6693,
+          "偽": 5699
+        },
+        "entry_ema8_upper1": {
+          "未知": 194,
+          "偽": 2189,
+          "真": 10203
+        }
+      },
+      "固定順の全条件通過数": {
+        "common": 12197,
+        "cmf_support": 4030,
+        "obv_support": 2941,
+        "same_r_volume_at_least1": 1254,
+        "ema21_delta30_positive": 625,
+        "hist_level_positive": 392,
+        "hist_delta_positive": 242,
+        "r_body_positive": 155,
+        "current_p_open_reclaim": 124,
+        "last_at_or_beyond_r_close": 85,
+        "entry_ema8_lower0": 85,
+        "entry_ema8_upper1": 10
+      }
+    }
+  },
+  "q0成立数": {
+    "FT": 47,
+    "FTZ": 52
+  },
+  "固定順の限界": "通過数の減少は順序依存の会計で、指標単独の効果や因果ではない。",
+  "新条件採用又は金融読取": false,
+  "入力": {
+    "work/155量方向による入口の評価/入口選択/q0の判断.json": "ba3087f704758a37dd4842196c7bfa74d01e48166e670b4ada1b571eaf0c8d9b",
+    "work/155量方向による入口の評価/入口選択/選択対応.json": "79287fd455e74d418e2a9bb9c34baec40aa800ec02c2705ce166aae96ee2e5ff",
+    "work/155量方向による入口の評価/F1入口選択後.json": "1eb35181e72c0c583f1087343267aded6f0894ec9e4de67f0617f53bf6cd93ac"
+  }
+}

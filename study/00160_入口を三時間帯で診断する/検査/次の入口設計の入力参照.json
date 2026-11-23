@@ -1,0 +1,98 @@
+{
+  "成功": true,
+  "試行": 160,
+  "用途": "次の入口探索の設計参照。160集計と新入口採否・学習は行わない。",
+  "原151book": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+  "読取小源": {
+    "AGENTS.md": {
+      "sha256": "0591d5ec141ea067ef7455cb951ef92b32b8d719c4ffbfad797c74eabb88b9d2",
+      "bytes": 11366
+    },
+    "study/00160_入口を三時間帯で診断する/実行条件.md": {
+      "sha256": "fe8fe057f137008df5eba43b953d6e4e66d3bd3e07266971b1c8cdbe57acc3a9",
+      "bytes": 5312
+    },
+    "study/00148_全1分知得から入口品質の母集団を固定する/README.md": {
+      "sha256": "cb6e2ebb73248aa4e70520cd3a18607700cfc8aa6ffe79e187f097020852867f",
+      "bytes": 7374
+    },
+    "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md": {
+      "sha256": "1140e7daeaf906e580d41372f6ad1d0a0d10b48c4d41bbea559cb9c3dff11131",
+      "bytes": 14097
+    },
+    "inputs/00151_過去場だけの複合判別/条件.json": {
+      "sha256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+      "bytes": 4120
+    },
+    "work/151過去場判別/run151.py": {
+      "sha256": "17ba1de23a58220f7297553313f99429138413300de74f4b4c21682fe89060d6",
+      "bytes": 14630
+    },
+    "work/151過去場判別/model151.py": {
+      "sha256": "bd5639b76d8ce12354ef1e04fef1534ca3af23bc416c2ada7ca783122526c7ae",
+      "bytes": 8991
+    },
+    "work/151過去場判別/data151.py": {
+      "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+      "bytes": 19100
+    },
+    "work/152複合回復の入口/logic152.py": {
+      "sha256": "e9d7bff7f1b02636ddb1b2ea30afaa16540cb3966d55c94edd0eb4e409c77b62",
+      "bytes": 5412
+    },
+    "work/153独立出生の入口/logic153.py": {
+      "sha256": "06a895067fa6c7f8edb31b6d836310ee35ba0dc7ec9d9f6d8f7a9775abe25b2c",
+      "bytes": 14327
+    },
+    "inputs/00148_全1分入口母集団/100特徴の列定義.json": {
+      "sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+      "bytes": 48448
+    }
+  },
+  "次試行で再用する恒久入力": {
+    "features": {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af",
+      "physical_bytes": 16988103,
+      "構造又は金融本文の追加解析": false
+    },
+    "fixed": {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "decoded_sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3",
+      "physical_bytes": 920027,
+      "構造又は金融本文の追加解析": false
+    },
+    "captures": {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "decoded_sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a",
+      "physical_bytes": 2249603,
+      "構造又は金融本文の追加解析": false
+    },
+    "metadata": {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "decoded_sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c",
+      "physical_bytes": 1189288,
+      "構造又は金融本文の追加解析": false
+    },
+    "observations": {
+      "path": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "decoded_sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc",
+      "physical_bytes": 18488267,
+      "構造又は金融本文の追加解析": false
+    }
+  },
+  "母集団の出典": "study/00148_全1分知得から入口品質の母集団を固定する/README.md",
+  "件数": {
+    "全適格q0": 35339,
+    "各実側特徴": 100,
+    "研究q1": 31632,
+    "全観測case": 31642,
+    "旧C1": 87
+  },
+  "注意": "入力の物理SHAは照合したが、今回gzipの全解凍CRC/数式/旧教師射影を再実行していない。由来の解凍SHAは151固定bookの参照値。"
+}

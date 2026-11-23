@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "trial": 159,
+  "phase": "人工準備・自然抽出未実行",
+  "tests": 6,
+  "test_vet_build_success": true,
+  "author_test_only": true,
+  "source_stopped": true,
+  "natural_results_body_read": false,
+  "raw_read": false,
+  "model_or_labels_created": false,
+  "exe_sha256": "b2905518759eaae8be0c670de08ef2164fb41e9e78b4ab311add8c66f7e4cef0",
+  "expected_cases": 837,
+  "expected_memberships": 924,
+  "expected_rows": 1674,
+  "inputs": {
+    "results158": {
+      "path": "study/00158_複合技術で出口の役割と局面を切り替える/成果物/出口結果.json.gz",
+      "bytes": 7057093,
+      "sha256": "70a4c3178206bbb3c8641901c7515f2121da11c28403b88c3f8e6f93cc0baa6c",
+      "decoded_sha256": "3c3df90244de838056ca7c98857ffe7b8f85514807e90194c07f73129ec277c7"
+    },
+    "features158": {
+      "path": "inputs/00158_複合技術特徴/特徴/特徴の確認.json",
+      "sha256": "a6dce32eb35102d95f44647d0a10811bf13ed6e36f46b08ef0956c52bb783d11"
+    },
+    "spec159": "Root最終固定のpath/SHAをCLIで必須指定"
+  },
+  "files": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159延伸判断の特徴抽出\\cmd\\run\\main.go",
+      "bytes": 3588,
+      "sha256": "81b25916c7d3947dcf0cc7aa47f78cccf028ffef16294f03622e2ec0357e1346"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159延伸判断の特徴抽出\\extract_test.go",
+      "bytes": 10928,
+      "sha256": "2dc99157f645f01255d60df3c6deab2ba7fc7f1dd6b07cc85e57023281479b6b"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159延伸判断の特徴抽出\\extract.go",
+      "bytes": 10139,
+      "sha256": "cec9c4168f718f76455c58a10e2653be0df089a7aa5bc6b33afe9a21e664d70d"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159延伸判断の特徴抽出\\go.mod",
+      "bytes": 363,
+      "sha256": "280204984719095772a49e9e29aeceb1953cbc9f8864ecb2826f0422151961e1"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159延伸判断の特徴抽出\\README.md",
+      "bytes": 3275,
+      "sha256": "9ecd32868075464e441eaa49ce1c8eeb4acd283edb61d085dbcab31256e3abe1"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159延伸判断の特徴抽出\\snapshot159.exe",
+      "bytes": 3856384,
+      "sha256": "b2905518759eaae8be0c670de08ef2164fb41e9e78b4ab311add8c66f7e4cef0"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159延伸判断の特徴抽出\\stream.go",
+      "bytes": 12135,
+      "sha256": "6f33e47b852b94876d0f0980b47c731996978a0baa33072cc11a86e83b5613a4"
+    }
+  ]
+}

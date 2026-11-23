@@ -1,0 +1,97 @@
+{
+  "試行": 154,
+  "成功": true,
+  "入力": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\154回帰環境の評価\\金融集計\\CSV用の表.json",
+    "sha256": "7c23d465a813b0517f628ffaf2d44e3db81a08614c3256a49c53b498c922ccd0"
+  },
+  "表数": 3,
+  "表別": [
+    {
+      "表名": "正逆比較",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\正逆比較.csv",
+        "sha256": "285a437549f2919e5143b7aefbf622807788458991bcefc26b257aedd8443085"
+      },
+      "行数": 1020,
+      "列数": 34,
+      "ヘッダ比較数": 34,
+      "UTF8BOM": true,
+      "全セル比較数": 34680,
+      "数値比較数": 22440,
+      "数値零比較数": 1129,
+      "文字列比較数": 4080,
+      "空文字比較数": 0,
+      "真偽値比較数": 5100,
+      "null比較数": 3060
+    },
+    {
+      "表名": "入口別診断",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\入口別診断.csv",
+        "sha256": "9b23b902b628a0aeb13f204038545f81f509436dc2753606042bb6ef37f82e47"
+      },
+      "行数": 213,
+      "列数": 47,
+      "ヘッダ比較数": 47,
+      "UTF8BOM": true,
+      "全セル比較数": 10011,
+      "数値比較数": 3841,
+      "数値零比較数": 106,
+      "文字列比較数": 4489,
+      "空文字比較数": 87,
+      "真偽値比較数": 852,
+      "null比較数": 829
+    },
+    {
+      "表名": "全セッション",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\全セッション.csv",
+        "sha256": "323747ab76f12fe2bca6b869a1d5c20358da10ba299055408dffef7f7c98491a"
+      },
+      "行数": 73,
+      "列数": 69,
+      "ヘッダ比較数": 69,
+      "UTF8BOM": true,
+      "全セル比較数": 5037,
+      "数値比較数": 4595,
+      "数値零比較数": 1322,
+      "文字列比較数": 146,
+      "空文字比較数": 0,
+      "真偽値比較数": 73,
+      "null比較数": 223
+    }
+  ],
+  "全データセル比較数": 49728,
+  "数値比較数": 30876,
+  "数値零比較数": 2557,
+  "null比較数": 4112,
+  "空文字比較数": 87,
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\154回帰環境の評価\\金融集計\\CSV用の表.json": "7c23d465a813b0517f628ffaf2d44e3db81a08614c3256a49c53b498c922ccd0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\正逆比較.csv": "285a437549f2919e5143b7aefbf622807788458991bcefc26b257aedd8443085",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\入口別診断.csv": "9b23b902b628a0aeb13f204038545f81f509436dc2753606042bb6ef37f82e47",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\全セッション.csv": "323747ab76f12fe2bca6b869a1d5c20358da10ba299055408dffef7f7c98491a"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\154回帰環境の評価\\金融集計\\CSV用の表.json": "7c23d465a813b0517f628ffaf2d44e3db81a08614c3256a49c53b498c922ccd0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\正逆比較.csv": "285a437549f2919e5143b7aefbf622807788458991bcefc26b257aedd8443085",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\入口別診断.csv": "9b23b902b628a0aeb13f204038545f81f509436dc2753606042bb6ef37f82e47",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\154_回帰環境の切替\\全セッション.csv": "323747ab76f12fe2bca6b869a1d5c20358da10ba299055408dffef7f7c98491a"
+  },
+  "前後不変": true,
+  "数値照合": "Decimalによる値の完全一致。許容差なし。指数表記と末尾零の表記差だけは値同体とする。",
+  "文字列照合": "JSONで文字列のセルは先頭零を含め完全一致。数値への自動変換を行わない。",
+  "真偽値照合": "JSON booleanに対応するCSVは小文字true又はfalseに完全一致。",
+  "空欄の限界": "nullと空文字はCSV上で共に空欄となり、CSV単体では区別不能。入力JSONの型ごとに件数を記録する。数値零を空欄として受理しない。",
+  "検査範囲": "指定された3表の転記、行列数、型別全セル、UTF-8 BOM、指定入力の前後SHA256。",
+  "非対象": [
+    "金融及び技術条件の再計算",
+    "独立1mini期限評価の片側上限10枚口座への合算",
+    "未約定を損益零へ補完する評価"
+  ],
+  "金融再計算": false,
+  "運用口座への合算": false,
+  "Native読取": 0,
+  "Raw読取": 0
+}

@@ -1,0 +1,67 @@
+{
+  "成功": true,
+  "試行": 159,
+  "ZIP": {
+    "path": "study/00159_延伸する局面を複合技術から学ぶ/再現資料/独立確認コード.zip",
+    "sha256": "ee36adaadcd0e8129584454e83b965ec919e34fd16a027728c874a0906a199d5",
+    "bytes": 65756
+  },
+  "源数": 21,
+  "manifest込み": 22,
+  "全entry_SHA_bytes_CRC": true,
+  "元源前後同体": true,
+  "正式2票copy同体": {
+    "study/00159_延伸する局面を複合技術から学ぶ/検査/モデルと選択と合成の独立確認.json": "66b78281fb135966f0b4f482af2ec255296ee5517df59b879638510becca2bfa",
+    "study/00159_延伸する局面を複合技術から学ぶ/検査/総合三表の独立確認.json": "1d15ee8213d982a33dbab33f98936c5b5d75e1697e73f9f7889b7eae2b3fc8af"
+  },
+  "学習前固定Source同体": true,
+  "外部作者ZIP復元SHA": {
+    "work/159複合条件の延伸選択/data159.py": "b27696cd223d1b4a412e1b5a464a1091e3c123e70d1ffff64da07428f599c4c4",
+    "work/159複合条件の延伸選択/rules159.py": "61a25b62cd672d1f23a5ecb695b5ec0799592cd7572ec60f1dd97fd67102658c",
+    "work/159複合条件の延伸選択/人工検査.py": "c57ff2d8c6c90451e3daba4e874c8cdba4cc43e565cd73eb3858d6d9f6b9551b",
+    "work/159複合条件の延伸選択/実行する.py": "fb4bf03070411d770712e2378ea35f90583ca34e27eed8eda4e9d2d9e18868c8",
+    "work/159複合条件の延伸選択/準備する.py": "102ac395f5d31fc83e0d637998a36d8eb17d6ec89cf17d3168078eb596ef8786"
+  },
+  "Python全源構文": true,
+  "復元人工とCLI": [
+    {
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159独立確認\\復元確認\\work\\159独立確認\\人工検査.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"訓練範囲\": [0, 48], \"教師\": 0, \"規則\": 12464}\r\n{\"訓練範囲\": [0, 24], \"教師\": 0, \"規則\": 12464}\r\n{\"訓練範囲\": [0, 36], \"教師\": 0, \"規則\": 12464}\r\n{\"訓練範囲\": [0, 60], \"教師\": 0, \"規則\": 12464}\r\n{\"訓練範囲\": [12, 48], \"教師\": 0, \"規則\": 12464}\r\n{\"訓練範囲\": [24, 60], \"教師\": 0, \"規則\": 12464}\r\n{\"成功\": true, \"人工\": 6, \"全規則\": 12464, \"自然読取\": false, \"作者関数import\": false}\r\n"
+    },
+    {
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159独立確認\\復元確認\\work\\159独立確認\\確認する.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: 確認する.py [-h] --snapshot SNAPSHOT --snapshot-sha256 SNAPSHOT_SHA256\r\n               --parent PARENT --parent-sha256 PARENT_SHA256 --models MODELS\r\n               --models-sha256 MODELS_SHA256 --choices CHOICES\r\n               --choices-sha256 CHOICES_SHA256 --result RESULT\r\n               --result-sha256 RESULT_SHA256 --book BOOK\r\n               --book-sha256 BOOK_SHA256 --output OUTPUT\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --snapshot SNAPSHOT\r\n  --snapshot-sha256 SNAPSHOT_SHA256\r\n  --parent PARENT\r\n  --parent-sha256 PARENT_SHA256\r\n  --models MODELS\r\n  --models-sha256 MODELS_SHA256\r\n  --choices CHOICES\r\n  --choices-sha256 CHOICES_SHA256\r\n  --result RESULT\r\n  --result-sha256 RESULT_SHA256\r\n  --book BOOK\r\n  --book-sha256 BOOK_SHA256\r\n  --output OUTPUT\r\n"
+    },
+    {
+      "command": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\159独立確認\\復元確認\\work\\159独立確認\\総合表確認\\確認する.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: 確認する.py [-h] --parent PARENT --parent-sha256 PARENT_SHA256\r\n               --gates GATES --gates-sha256 GATES_SHA256 --tables TABLES\r\n               --tables-sha256 TABLES_SHA256 --output OUTPUT\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --parent PARENT\r\n  --parent-sha256 PARENT_SHA256\r\n  --gates GATES\r\n  --gates-sha256 GATES_SHA256\r\n  --tables TABLES\r\n  --tables-sha256 TABLES_SHA256\r\n  --output OUTPUT\r\n"
+    }
+  ],
+  "自然再実行": false,
+  "金融再計算": false,
+  "巨大副本": false,
+  "総合表データセル": 508640,
+  "CSVヘッダー込み508748": "Root別再読、今回の独立コードはCSV未読",
+  "保存器SHA256": "0aa3affb0785f29ca62b5a5b6d0fce07926ce3379af611aa88c1f35c8803c927",
+  "確認UTC": "2026-11-12T18:53:01.360862+00:00"
+}

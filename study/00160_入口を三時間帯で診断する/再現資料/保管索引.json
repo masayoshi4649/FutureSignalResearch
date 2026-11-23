@@ -1,0 +1,259 @@
+{
+  "成功": true,
+  "試行": 160,
+  "保存日時UTC": "2026-11-13T03:20:22.933117+00:00",
+  "段階": "小源と再現資料の正式保存完了。Root専有の主文書と目次は別確認。",
+  "初回ステージの停止SHA256": "9aac1bc9576d47c0475f75dd2dcb2376214a34c82d785c1ca1415961e1cf8645",
+  "条件": {
+    "path": "study/00160_入口を三時間帯で診断する/実行条件.md",
+    "sha256": "fe8fe057f137008df5eba43b953d6e4e66d3bd3e07266971b1c8cdbe57acc3a9",
+    "bytes": 5312
+  },
+  "再開前F0": {
+    "path": "study/00160_入口を三時間帯で診断する/検査/診断再開前のソース固定.json",
+    "sha256": "77bbcde9e4a8a82db1e7600d70a168833e318dd6ca6b1943f7cde43c119709ec",
+    "bytes": 1222
+  },
+  "入力参照": {
+    "fixed": {
+      "path": "inputs/00157_固定入口と価格経路/固定入口入力.json",
+      "bytes": 2091691,
+      "sha256": "eabf9819351ef77fec44a7a132a8df13fd8a3aee7c3be6d87ac81dabe34ce279",
+      "解凍SHA256の参照値": null,
+      "本保存による解凍再走査": false
+    },
+    "observations": {
+      "path": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+      "bytes": 18488267,
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "解凍SHA256の参照値": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc",
+      "本保存による解凍再走査": false
+    },
+    "exits": {
+      "path": "study/00158_複合技術で出口の役割と局面を切り替える/成果物/出口結果.json.gz",
+      "bytes": 7057093,
+      "sha256": "70a4c3178206bbb3c8641901c7515f2121da11c28403b88c3f8e6f93cc0baa6c",
+      "解凍SHA256の参照値": "3c3df90244de838056ca7c98857ffe7b8f85514807e90194c07f73129ec277c7",
+      "本保存による解凍再走査": false
+    }
+  },
+  "環境": {
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "tzdata": "2026.6",
+    "Node": "v24.22.1",
+    "artifact-tool": "2.8.157",
+    "SDKのmetadataSHA256": "4fa613263025573d5fb8f66a60291491062701a2762926b9fe558b1297e65c72",
+    "SDKを同梱しない": true
+  },
+  "現行固定Source": {
+    "work/160時間帯診断/条件を作成する.py": {
+      "sha256": "716bcb4232edc3c286660cab19fd3df369fe7c5f882169cb7d069ae28f6b35c7",
+      "bytes": 8156
+    },
+    "work/160時間帯診断/診断する.py": {
+      "sha256": "4c7fda7c8fea1d16c9bb8adca987c5202daa561fbc2021f015286d51d9d7492f",
+      "bytes": 16751
+    },
+    "work/160時間帯診断/逐次読取.py": {
+      "sha256": "2dd1e469ce8233cb757f2ba95b7f0a60e2bf163d7c59739462132d2ec8f17cac",
+      "bytes": 5412
+    },
+    "work/160時間帯診断/人工検査.py": {
+      "sha256": "bd590578d7b07641884e9e61eb95796e83a4afb1d2bc96fc37e2fd4e3d71d1d7",
+      "bytes": 4075
+    },
+    "work/160時間帯診断/CSVへ出力する.mjs": {
+      "sha256": "bac0ce0d7587e2e9a5631e3cb93750266db7dec705e16ce2d80e48c3f82393aa",
+      "bytes": 4503
+    },
+    "work/160時間帯診断/CSVを独立再読する.py": {
+      "sha256": "1b345eecec236f3d985adece4ae1443004a32f3d95bcafc49a5c628f3d7f98b4",
+      "bytes": 2119
+    },
+    "work/160時間帯診断/初回固定のコード.zip": {
+      "sha256": "4baea668b8918febe7a01101dd6a8490d0ae6bd336d9d2503ced14cb5f5a1b6c",
+      "bytes": 15425
+    },
+    "work/160時間帯診断/完了票を回復する.py": {
+      "sha256": "dded65029b46df0efb77ed2ef255d51de9789adc2d85b5daf7f23f3aa612b9d0",
+      "bytes": 3345
+    },
+    "study/00160_入口を三時間帯で診断する/実行条件.md": {
+      "sha256": "fe8fe057f137008df5eba43b953d6e4e66d3bd3e07266971b1c8cdbe57acc3a9",
+      "bytes": 5312
+    },
+    "study/00160_入口を三時間帯で診断する/検査/診断条件の固定.json": {
+      "sha256": "e1cc5f38c75f177a28cf51663217abce428c141065f93fb091830063cb84e747",
+      "bytes": 332
+    },
+    "study/00160_入口を三時間帯で診断する/検査/診断前のソース固定.json": {
+      "sha256": "4ae44dad7ffa72393243d5ad5521a3ed8acc233535be022ad6d51f7da86fe428",
+      "bytes": 1022
+    },
+    "study/00160_入口を三時間帯で診断する/検査/診断再開前のソース固定.json": {
+      "sha256": "77bbcde9e4a8a82db1e7600d70a168833e318dd6ca6b1943f7cde43c119709ec",
+      "bytes": 1222
+    },
+    "study/00160_入口を三時間帯で診断する/検査/初回実行の管理参照消失.json": {
+      "sha256": "5b5d9a81b8e70f9695e8692aa77442c7f1dcb62f944126d75bfae567fdac31ee",
+      "bytes": 610
+    },
+    "study/00160_入口を三時間帯で診断する/検査/完了票の回復.json": {
+      "sha256": "f86f481fa0455fb56c5a829e68232909577014accf4d9482b967c479d0a69d28",
+      "bytes": 2393
+    },
+    "study/00160_入口を三時間帯で診断する/成果物/完了の確認.json": {
+      "sha256": "f86f481fa0455fb56c5a829e68232909577014accf4d9482b967c479d0a69d28",
+      "bytes": 2393
+    },
+    "work/160正式保存/保存を準備する.py": {
+      "sha256": "5b3c443de511d3aaadacaf7f4745f613c02405edf2d3f97f2d49861175ec0988",
+      "bytes": 8220
+    }
+  },
+  "後発Source": {
+    "work/160時間帯診断/報告を作成する.py": {
+      "sha256": "22f71ad6b1653ca92d197937c908e3329309b1098e884cd2fefd5fa3099b3d84",
+      "bytes": 15980
+    },
+    "work/160正式保存/正式化する.py": {
+      "sha256": "1f0d8ae144bd6d9943eeb6a46f36d98ddb773534e051728de85fd165cc7ed459",
+      "bytes": 15794
+    },
+    "work/160正式保存/ステージ索引.json": {
+      "sha256": "a2868abbf32fb61e3cd77d48a5fb74e7aa631f2260ad976d8e8f03e79506e768",
+      "bytes": 5781
+    },
+    "work/160正式保存/ステージの確認.json": {
+      "sha256": "705747d5437d90426af751fee248ccdb2df8acc0b8ac4e3744f17ce90b9a2228",
+      "bytes": 562
+    },
+    "work/160正式保存/ステージの停止.json": {
+      "sha256": "9aac1bc9576d47c0475f75dd2dcb2376214a34c82d785c1ca1415961e1cf8645",
+      "bytes": 933
+    }
+  },
+  "結果は同体参照のみ": {
+    "型付き三表.json": {
+      "path": "study/00160_入口を三時間帯で診断する/成果物/型付き三表.json",
+      "sha256": "64ed7becf05f29bd2e8e740909853080c208b69fff5d6aae81ba710dc21413ec",
+      "bytes": 223034
+    },
+    "小さい取得対応.json": {
+      "path": "study/00160_入口を三時間帯で診断する/成果物/小さい取得対応.json",
+      "sha256": "f856b228a06db69cc26240263f0bf6633e48dbdb1d3f639e4e2f4f2a54f88451",
+      "bytes": 765975
+    }
+  },
+  "CSVは同体参照のみ": {
+    "入口時間帯別": {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/00160_入口の三時間帯診断/入口時間帯別.csv",
+      "sha256": "5db57073debec1f9a4c42151a61b9291a26f070be2097ca5a0c1efe9e847231f",
+      "bytes": 5355
+    },
+    "出口時間帯別": {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/00160_入口の三時間帯診断/出口時間帯別.csv",
+      "sha256": "d0041836da2b024118937bc944e29b2fd4c029e735b69883d09b7a0d9ec42b9d",
+      "bytes": 5677
+    },
+    "全セッション": {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/00160_入口の三時間帯診断/全セッション.csv",
+      "sha256": "23eeb9729b92207a340420b2a32ed83cc469d214b9d303686dfc18b1a8feda32",
+      "bytes": 118222
+    }
+  },
+  "正式コピー": {
+    "再現コード.zip": {
+      "path": "study/00160_入口を三時間帯で診断する/再現資料/再現コード.zip",
+      "sha256": "71c47ac0f73e5c90412d643a5c0a124085c1ca0c7bbbb2453f2f6a8767737d44",
+      "bytes": 49423
+    },
+    "独立確認コード.zip": {
+      "path": "study/00160_入口を三時間帯で診断する/再現資料/独立確認コード.zip",
+      "sha256": "795b3bf9d8d8df25970a0328e9ae1ba067c6654b91c775ddaa0e26ca5dc0e9f6",
+      "bytes": 36737
+    },
+    "時間帯と全数値の独立確認.json": {
+      "path": "study/00160_入口を三時間帯で診断する/検査/時間帯と全数値の独立確認.json",
+      "sha256": "a2dbfb89b7442386c733851d1eda7a827dd8693ce3ecb09c0057f6bb0bb02e62",
+      "bytes": 8435
+    },
+    "独立確認の停止.json": {
+      "path": "study/00160_入口を三時間帯で診断する/検査/独立確認の停止.json",
+      "sha256": "2b987176dfab6c2d6cd71f5765b4b5b947fae724a8fb3224479ecd55f196309f",
+      "bytes": 1140
+    },
+    "CSV作成の確認.json": {
+      "path": "study/00160_入口を三時間帯で診断する/検査/CSV作成の確認.json",
+      "sha256": "cf88c2d04ef46e59fd88a7f5d038317bf14e734d09deeb245f19ac3132e57a44",
+      "bytes": 5426
+    },
+    "CSV全セルの標準再読.json": {
+      "path": "study/00160_入口を三時間帯で診断する/検査/CSV全セルの標準再読.json",
+      "sha256": "e43b109875a566cec70123b4aec14fa645adc5b3dfae6db6c93f6ab39910ad95",
+      "bytes": 857
+    },
+    "再現資料の準備確認.json": {
+      "path": "study/00160_入口を三時間帯で診断する/検査/再現資料の準備確認.json",
+      "sha256": "705747d5437d90426af751fee248ccdb2df8acc0b8ac4e3744f17ce90b9a2228",
+      "bytes": 562
+    },
+    "再現資料の初回ステージ停止.json": {
+      "path": "study/00160_入口を三時間帯で診断する/検査/再現資料の初回ステージ停止.json",
+      "sha256": "9aac1bc9576d47c0475f75dd2dcb2376214a34c82d785c1ca1415961e1cf8645",
+      "bytes": 933
+    },
+    "再開時の例外ログ.txt": {
+      "path": "study/00160_入口を三時間帯で診断する/検査/再開時の例外ログ.txt",
+      "sha256": "5fb54804b1bcf2484c44d4de8a70f47b1d87e19f7899c166a9b33794c8419dd0",
+      "bytes": 1377
+    }
+  },
+  "README": {
+    "path": "study/00160_入口を三時間帯で診断する/再現資料/README.md",
+    "sha256": "b57c2c2f5698b68dc76efe71587cc4f841146a7c427cc18e64c860c158134ab8",
+    "bytes": 10240
+  },
+  "再現ZIP": {
+    "再現コード.zip": {
+      "path": "study/00160_入口を三時間帯で診断する/再現資料/再現コード.zip",
+      "sha256": "71c47ac0f73e5c90412d643a5c0a124085c1ca0c7bbbb2453f2f6a8767737d44",
+      "bytes": 49423
+    },
+    "独立確認コード.zip": {
+      "path": "study/00160_入口を三時間帯で診断する/再現資料/独立確認コード.zip",
+      "sha256": "795b3bf9d8d8df25970a0328e9ae1ba067c6654b91c775ddaa0e26ca5dc0e9f6",
+      "bytes": 36737
+    },
+    "後発の報告保存コード.zip": {
+      "path": "study/00160_入口を三時間帯で診断する/再現資料/後発の報告保存コード.zip",
+      "sha256": "39b090d91f740098e96c61ac00a489d7ec1a6cda4a33c354c7a4baf668f29436",
+      "bytes": 17810
+    }
+  },
+  "ZIP確認": {
+    "再現コード.zip": {
+      "格納数": 16,
+      "Python構文確認数": 7,
+      "内包ZIPのCRC確認数": 1,
+      "全CRC": true
+    },
+    "独立確認コード.zip": {
+      "格納数": 9,
+      "Python構文確認数": 4,
+      "内包ZIPのCRC確認数": 1,
+      "全CRC": true
+    },
+    "後発の報告保存コード.zip": {
+      "格納数": 5,
+      "Python構文確認数": 2,
+      "内包ZIPのCRC確認数": 0,
+      "全CRC": true
+    }
+  },
+  "独立票とCSV標準再読の同体": true,
+  "保存による自然診断・金融・学習・Raw再実行": false,
+  "保存によるCSVと画像の再生成": false,
+  "大入力と型付き表と薄い対応の複写": false,
+  "全源が金融前F0で固定されていたとは主張しない": true
+}

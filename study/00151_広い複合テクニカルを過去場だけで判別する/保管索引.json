@@ -1,0 +1,3709 @@
+{
+  "試行": 151,
+  "段階": "正式保存完了・編集停止",
+  "F0_SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+  "F0原文": {
+    "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0入口選択前.json",
+    "復元先": "work/151過去場判別の評価/F0入口選択前.json",
+    "形式": "同体",
+    "保存SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+    "保存bytes": 5521,
+    "解凍SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+    "解凍bytes": 5521
+  },
+  "F0直接源数": 38,
+  "F0文書原文": {
+    "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0実行前文書.json.gz",
+    "保存SHA256": "a87740b70aa3e9cbc81b6d0b3014ad54977d84a793bcad2280cd55a73041217c",
+    "文書数": 3
+  },
+  "F0復元参照": {
+    "保存済み参照": [
+      {
+        "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/README.md",
+        "sha256": "d8fb3e27eaa0059366a367a08eca27c0bd340c73f0b4d665fe64cc20a414e03a",
+        "bytes": 7157,
+        "形式": "文書snapshot",
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0実行前文書.json.gz",
+        "保存SHA256": "a87740b70aa3e9cbc81b6d0b3014ad54977d84a793bcad2280cd55a73041217c",
+        "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/README.md"
+      },
+      {
+        "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md",
+        "sha256": "929e52e902c59bfae66de78e8828b8419a912c6811dade7c6648d162731ff56f",
+        "bytes": 11431,
+        "形式": "文書snapshot",
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0実行前文書.json.gz",
+        "保存SHA256": "a87740b70aa3e9cbc81b6d0b3014ad54977d84a793bcad2280cd55a73041217c",
+        "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md"
+      },
+      {
+        "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/設定と結果.md",
+        "sha256": "e4e2c85db86b8263504722d3a24a0923c9d854259dee379aca55c11fcb68dda7",
+        "bytes": 30245,
+        "形式": "文書snapshot",
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0実行前文書.json.gz",
+        "保存SHA256": "a87740b70aa3e9cbc81b6d0b3014ad54977d84a793bcad2280cd55a73041217c",
+        "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/設定と結果.md"
+      }
+    ],
+    "既存恒久正本": [
+      {
+        "保存元": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+        "復元先": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+        "形式": "同体",
+        "保存SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+        "解凍SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+        "保存bytes": 48448,
+        "解凍bytes": 48448
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+        "復元先": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+        "形式": "同体",
+        "保存SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+        "解凍SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+        "保存bytes": 1189288,
+        "解凍bytes": 1189288
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+        "復元先": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+        "形式": "同体",
+        "保存SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+        "解凍SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+        "保存bytes": 2249603,
+        "解凍bytes": 2249603
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+        "復元先": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+        "形式": "同体",
+        "保存SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+        "解凍SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+        "保存bytes": 920027,
+        "解凍bytes": 920027
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+        "復元先": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+        "形式": "同体",
+        "保存SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+        "解凍SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+        "保存bytes": 16988103,
+        "解凍bytes": 16988103
+      },
+      {
+        "保存元": "inputs/00151_過去場だけの複合判別/条件.json",
+        "復元先": "inputs/00151_過去場だけの複合判別/条件.json",
+        "形式": "同体",
+        "保存SHA256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+        "解凍SHA256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+        "保存bytes": 4120,
+        "解凍bytes": 4120
+      },
+      {
+        "保存元": "scripts/入口研究/固定特徴から可読条件を選択する.py",
+        "復元先": "scripts/入口研究/固定特徴から可読条件を選択する.py",
+        "形式": "同体",
+        "保存SHA256": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+        "解凍SHA256": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+        "保存bytes": 16417,
+        "解凍bytes": 16417
+      },
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+        "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+        "形式": "同体",
+        "保存SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+        "解凍SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+        "保存bytes": 18488267,
+        "解凍bytes": 18488267
+      }
+    ],
+    "共有源": [],
+    "新小型源": [
+      {
+        "path": "work/151モデルの独立準備レビュー/人工RootモデルA.json",
+        "sha256": "9bef6f5a3fe34450ca7687345e7fdfd2eef432afa81be056a0ad1c7966ca2d86",
+        "bytes": 244819
+      },
+      {
+        "path": "work/151モデルの独立準備レビュー/人工RootモデルB.json",
+        "sha256": "1ed4c59471b542866605d7780100a9146a4a9716f9cc346b6aef1601790e2097",
+        "bytes": 244819
+      },
+      {
+        "path": "work/151モデルの独立準備レビュー/人工のログ.txt",
+        "sha256": "593d093760c7f84ed7b5edca79976a790da0aac01be7e9072f0a771f49a8eb72",
+        "bytes": 1980
+      },
+      {
+        "path": "work/151モデルの独立準備レビュー/人工モデルの照合.json",
+        "sha256": "d68340197b70730a8f9bf9aed3a46d81daa905efdc12ab91e174c88f6dc47cc3",
+        "bytes": 496
+      },
+      {
+        "path": "work/151モデルの独立準備レビュー/独立人工.py",
+        "sha256": "2fc536a92732a574778056a9b587af7a7a32ae83022d7d46b5e4982dc8ebc396",
+        "bytes": 16626
+      },
+      {
+        "path": "work/151モデルの独立準備レビュー/確認の記録.json",
+        "sha256": "19265cad0b4dc339f7f015e64d022aeb588789fbbeaed3f9a3d44c46f93dac22",
+        "bytes": 1255
+      },
+      {
+        "path": "work/151教師選択のRoot独立検査/独立人工.py",
+        "sha256": "ff58eba6cab11e8bcdf6a7bfeae9f3add8eee0b09433a6c371d1e4a5f2182df2",
+        "bytes": 5477
+      },
+      {
+        "path": "work/151運転の独立準備レビュー/人工のログ.txt",
+        "sha256": "ce46300e1713dbbda4f0168e1a1d6337c0cd94b416e92806991f937c0d9832fe",
+        "bytes": 1264
+      },
+      {
+        "path": "work/151運転の独立準備レビュー/場開始の正規化追補.py",
+        "sha256": "df79a39313d459a03f98dc1a35ddb7a05c3c581fe51457ac2be3f555b958c4ab",
+        "bytes": 5391
+      },
+      {
+        "path": "work/151運転の独立準備レビュー/場開始の正規化追補確認.json",
+        "sha256": "1cd01b86fbeb7c48a1acba4df48cbe55103cc875fea4925085a84a2aeff1fc5f",
+        "bytes": 901
+      },
+      {
+        "path": "work/151運転の独立準備レビュー/場開始追補の人工ログ.txt",
+        "sha256": "dcd95cc5ef2136a397bea51546fa398eca0f62e52e40edadb6504ed0588f6fa9",
+        "bytes": 1847
+      },
+      {
+        "path": "work/151運転の独立準備レビュー/独立人工.py",
+        "sha256": "9aaf19cfe965f694ff2e9da3d5f6ba2dc51289f6c0b2386ac8d59b5112b98856",
+        "bytes": 19031
+      },
+      {
+        "path": "work/151運転の独立準備レビュー/確認の記録.json",
+        "sha256": "11a5dbb374b2a22bf0385a6a488f4b2d26b4bd527c48e830b3bb7b6bb6a874bd",
+        "bytes": 1878
+      },
+      {
+        "path": "work/151過去場判別/data151.py",
+        "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+        "bytes": 19100
+      },
+      {
+        "path": "work/151過去場判別/freeze151.py",
+        "sha256": "423d287a7a6a77bcab252c22a4c6e4e8d9c770b6178cf417b308bceeae921ee5",
+        "bytes": 4381
+      },
+      {
+        "path": "work/151過去場判別/model151.py",
+        "sha256": "bd5639b76d8ce12354ef1e04fef1534ca3af23bc416c2ada7ca783122526c7ae",
+        "bytes": 8991
+      },
+      {
+        "path": "work/151過去場判別/prepare_data151.py",
+        "sha256": "89f1a2189b181f547d18199c750715bdf80a815b1a69b989a8630b2f3b939780",
+        "bytes": 2992
+      },
+      {
+        "path": "work/151過去場判別/README_データ部品.md",
+        "sha256": "46f4b8341094e1e89fae600a4e271c40085dca71a8b817ce7437f441fc32244c",
+        "bytes": 5109
+      },
+      {
+        "path": "work/151過去場判別/run151.py",
+        "sha256": "17ba1de23a58220f7297553313f99429138413300de74f4b4c21682fe89060d6",
+        "bytes": 14630
+      },
+      {
+        "path": "work/151過去場判別/test_data151.py",
+        "sha256": "18677a9b4ffd5e51dffc294aea6ab9df5c99d14eefed8fbaa52e78a7ed16b86c",
+        "bytes": 12071
+      },
+      {
+        "path": "work/151過去場判別/データ準備の確認.json",
+        "sha256": "e87e564f585173bd121280253e3d1f623fe2e3be2b7d09e9a2e3a2fc2a809cf7",
+        "bytes": 2930
+      },
+      {
+        "path": "work/151過去場判別/データ部品の停止.json",
+        "sha256": "c38e14567ae0cca7e1cbf45b12927c3e48c948bfd5b0f4ab6955ce96e88f7c25",
+        "bytes": 563
+      },
+      {
+        "path": "work/151過去場判別/人工検査_model.py",
+        "sha256": "3f1faee89b531d01fd410926786fe8dafef7b3cf3f77cfc1274f90329fc01864",
+        "bytes": 3847
+      },
+      {
+        "path": "work/151過去場判別/人工検査_run_root.py",
+        "sha256": "c15d8cc1c9e20d71b2264b2ffa415d05f6814ed34d18b59dfc9e244bff4b7f8b",
+        "bytes": 2803
+      },
+      {
+        "path": "work/151過去場判別/条件.json",
+        "sha256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+        "bytes": 4120
+      },
+      {
+        "path": "work/151過去場判別/運転側Root人工の確認.json",
+        "sha256": "50e26c776e3b8e9b4036338080d34c7acb525bc2ac58813ee875122137064472",
+        "bytes": 279
+      },
+      {
+        "path": "work/過去場だけの教師選択と時間区画重み/教師選択.py",
+        "sha256": "075ac230ea4ec2b7c5aa3a59fd7348941a903f9612611ef7c26ad1d5705017df",
+        "bytes": 8491
+      }
+    ],
+    "新小型ZIP": {
+      "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+      "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+      "ZIP_bytes": 133934,
+      "格納源": [
+        {
+          "path": "work/151モデルの独立準備レビュー/人工RootモデルA.json",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工RootモデルA.json",
+          "sha256": "9bef6f5a3fe34450ca7687345e7fdfd2eef432afa81be056a0ad1c7966ca2d86",
+          "bytes": 244819,
+          "読取元": "work/151モデルの独立準備レビュー/人工RootモデルA.json"
+        },
+        {
+          "path": "work/151モデルの独立準備レビュー/人工RootモデルB.json",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工RootモデルB.json",
+          "sha256": "1ed4c59471b542866605d7780100a9146a4a9716f9cc346b6aef1601790e2097",
+          "bytes": 244819,
+          "読取元": "work/151モデルの独立準備レビュー/人工RootモデルB.json"
+        },
+        {
+          "path": "work/151モデルの独立準備レビュー/人工のログ.txt",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工のログ.txt",
+          "sha256": "593d093760c7f84ed7b5edca79976a790da0aac01be7e9072f0a771f49a8eb72",
+          "bytes": 1980,
+          "読取元": "work/151モデルの独立準備レビュー/人工のログ.txt"
+        },
+        {
+          "path": "work/151モデルの独立準備レビュー/人工モデルの照合.json",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工モデルの照合.json",
+          "sha256": "d68340197b70730a8f9bf9aed3a46d81daa905efdc12ab91e174c88f6dc47cc3",
+          "bytes": 496,
+          "読取元": "work/151モデルの独立準備レビュー/人工モデルの照合.json"
+        },
+        {
+          "path": "work/151モデルの独立準備レビュー/独立人工.py",
+          "ZIP内path": "work/151モデルの独立準備レビュー/独立人工.py",
+          "sha256": "2fc536a92732a574778056a9b587af7a7a32ae83022d7d46b5e4982dc8ebc396",
+          "bytes": 16626,
+          "読取元": "work/151モデルの独立準備レビュー/独立人工.py"
+        },
+        {
+          "path": "work/151モデルの独立準備レビュー/確認の記録.json",
+          "ZIP内path": "work/151モデルの独立準備レビュー/確認の記録.json",
+          "sha256": "19265cad0b4dc339f7f015e64d022aeb588789fbbeaed3f9a3d44c46f93dac22",
+          "bytes": 1255,
+          "読取元": "work/151モデルの独立準備レビュー/確認の記録.json"
+        },
+        {
+          "path": "work/151教師選択のRoot独立検査/独立人工.py",
+          "ZIP内path": "work/151教師選択のRoot独立検査/独立人工.py",
+          "sha256": "ff58eba6cab11e8bcdf6a7bfeae9f3add8eee0b09433a6c371d1e4a5f2182df2",
+          "bytes": 5477,
+          "読取元": "work/151教師選択のRoot独立検査/独立人工.py"
+        },
+        {
+          "path": "work/151運転の独立準備レビュー/人工のログ.txt",
+          "ZIP内path": "work/151運転の独立準備レビュー/人工のログ.txt",
+          "sha256": "ce46300e1713dbbda4f0168e1a1d6337c0cd94b416e92806991f937c0d9832fe",
+          "bytes": 1264,
+          "読取元": "work/151運転の独立準備レビュー/人工のログ.txt"
+        },
+        {
+          "path": "work/151運転の独立準備レビュー/場開始の正規化追補.py",
+          "ZIP内path": "work/151運転の独立準備レビュー/場開始の正規化追補.py",
+          "sha256": "df79a39313d459a03f98dc1a35ddb7a05c3c581fe51457ac2be3f555b958c4ab",
+          "bytes": 5391,
+          "読取元": "work/151運転の独立準備レビュー/場開始の正規化追補.py"
+        },
+        {
+          "path": "work/151運転の独立準備レビュー/場開始の正規化追補確認.json",
+          "ZIP内path": "work/151運転の独立準備レビュー/場開始の正規化追補確認.json",
+          "sha256": "1cd01b86fbeb7c48a1acba4df48cbe55103cc875fea4925085a84a2aeff1fc5f",
+          "bytes": 901,
+          "読取元": "work/151運転の独立準備レビュー/場開始の正規化追補確認.json"
+        },
+        {
+          "path": "work/151運転の独立準備レビュー/場開始追補の人工ログ.txt",
+          "ZIP内path": "work/151運転の独立準備レビュー/場開始追補の人工ログ.txt",
+          "sha256": "dcd95cc5ef2136a397bea51546fa398eca0f62e52e40edadb6504ed0588f6fa9",
+          "bytes": 1847,
+          "読取元": "work/151運転の独立準備レビュー/場開始追補の人工ログ.txt"
+        },
+        {
+          "path": "work/151運転の独立準備レビュー/独立人工.py",
+          "ZIP内path": "work/151運転の独立準備レビュー/独立人工.py",
+          "sha256": "9aaf19cfe965f694ff2e9da3d5f6ba2dc51289f6c0b2386ac8d59b5112b98856",
+          "bytes": 19031,
+          "読取元": "work/151運転の独立準備レビュー/独立人工.py"
+        },
+        {
+          "path": "work/151運転の独立準備レビュー/確認の記録.json",
+          "ZIP内path": "work/151運転の独立準備レビュー/確認の記録.json",
+          "sha256": "11a5dbb374b2a22bf0385a6a488f4b2d26b4bd527c48e830b3bb7b6bb6a874bd",
+          "bytes": 1878,
+          "読取元": "work/151運転の独立準備レビュー/確認の記録.json"
+        },
+        {
+          "path": "work/151過去場判別/README_データ部品.md",
+          "ZIP内path": "work/151過去場判別/README_データ部品.md",
+          "sha256": "46f4b8341094e1e89fae600a4e271c40085dca71a8b817ce7437f441fc32244c",
+          "bytes": 5109,
+          "読取元": "work/151過去場判別/README_データ部品.md"
+        },
+        {
+          "path": "work/151過去場判別/data151.py",
+          "ZIP内path": "work/151過去場判別/data151.py",
+          "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+          "bytes": 19100,
+          "読取元": "work/151過去場判別/data151.py"
+        },
+        {
+          "path": "work/151過去場判別/freeze151.py",
+          "ZIP内path": "work/151過去場判別/freeze151.py",
+          "sha256": "423d287a7a6a77bcab252c22a4c6e4e8d9c770b6178cf417b308bceeae921ee5",
+          "bytes": 4381,
+          "読取元": "work/151過去場判別/freeze151.py"
+        },
+        {
+          "path": "work/151過去場判別/model151.py",
+          "ZIP内path": "work/151過去場判別/model151.py",
+          "sha256": "bd5639b76d8ce12354ef1e04fef1534ca3af23bc416c2ada7ca783122526c7ae",
+          "bytes": 8991,
+          "読取元": "work/151過去場判別/model151.py"
+        },
+        {
+          "path": "work/151過去場判別/prepare_data151.py",
+          "ZIP内path": "work/151過去場判別/prepare_data151.py",
+          "sha256": "89f1a2189b181f547d18199c750715bdf80a815b1a69b989a8630b2f3b939780",
+          "bytes": 2992,
+          "読取元": "work/151過去場判別/prepare_data151.py"
+        },
+        {
+          "path": "work/151過去場判別/run151.py",
+          "ZIP内path": "work/151過去場判別/run151.py",
+          "sha256": "17ba1de23a58220f7297553313f99429138413300de74f4b4c21682fe89060d6",
+          "bytes": 14630,
+          "読取元": "work/151過去場判別/run151.py"
+        },
+        {
+          "path": "work/151過去場判別/test_data151.py",
+          "ZIP内path": "work/151過去場判別/test_data151.py",
+          "sha256": "18677a9b4ffd5e51dffc294aea6ab9df5c99d14eefed8fbaa52e78a7ed16b86c",
+          "bytes": 12071,
+          "読取元": "work/151過去場判別/test_data151.py"
+        },
+        {
+          "path": "work/151過去場判別/データ準備の確認.json",
+          "ZIP内path": "work/151過去場判別/データ準備の確認.json",
+          "sha256": "e87e564f585173bd121280253e3d1f623fe2e3be2b7d09e9a2e3a2fc2a809cf7",
+          "bytes": 2930,
+          "読取元": "work/151過去場判別/データ準備の確認.json"
+        },
+        {
+          "path": "work/151過去場判別/データ部品の停止.json",
+          "ZIP内path": "work/151過去場判別/データ部品の停止.json",
+          "sha256": "c38e14567ae0cca7e1cbf45b12927c3e48c948bfd5b0f4ab6955ce96e88f7c25",
+          "bytes": 563,
+          "読取元": "work/151過去場判別/データ部品の停止.json"
+        },
+        {
+          "path": "work/151過去場判別/人工検査_model.py",
+          "ZIP内path": "work/151過去場判別/人工検査_model.py",
+          "sha256": "3f1faee89b531d01fd410926786fe8dafef7b3cf3f77cfc1274f90329fc01864",
+          "bytes": 3847,
+          "読取元": "work/151過去場判別/人工検査_model.py"
+        },
+        {
+          "path": "work/151過去場判別/人工検査_run_root.py",
+          "ZIP内path": "work/151過去場判別/人工検査_run_root.py",
+          "sha256": "c15d8cc1c9e20d71b2264b2ffa415d05f6814ed34d18b59dfc9e244bff4b7f8b",
+          "bytes": 2803,
+          "読取元": "work/151過去場判別/人工検査_run_root.py"
+        },
+        {
+          "path": "work/151過去場判別/条件.json",
+          "ZIP内path": "work/151過去場判別/条件.json",
+          "sha256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+          "bytes": 4120,
+          "読取元": "work/151過去場判別/条件.json"
+        },
+        {
+          "path": "work/151過去場判別/運転側Root人工の確認.json",
+          "ZIP内path": "work/151過去場判別/運転側Root人工の確認.json",
+          "sha256": "50e26c776e3b8e9b4036338080d34c7acb525bc2ac58813ee875122137064472",
+          "bytes": 279,
+          "読取元": "work/151過去場判別/運転側Root人工の確認.json"
+        },
+        {
+          "path": "work/過去場だけの教師選択と時間区画重み/教師選択.py",
+          "ZIP内path": "work/過去場だけの教師選択と時間区画重み/教師選択.py",
+          "sha256": "075ac230ea4ec2b7c5aa3a59fd7348941a903f9612611ef7c26ad1d5705017df",
+          "bytes": 8491,
+          "読取元": "work/過去場だけの教師選択と時間区画重み/教師選択.py"
+        }
+      ]
+    }
+  },
+  "主政策": "U70",
+  "最終選択取引数": null,
+  "共用148特徴/100列/観測の新複製": false,
+  "初回停止履歴": "別段階へ明示保存する。",
+  "自然結果のここでの構造解析": false,
+  "初回の停止履歴": {
+    "区分": "自然教師射影済み・fit0/判断0。成功実行のF0とは別。",
+    "初回F0_SHA256": "eb694b32897b1a533cb25ac30b36b3befa7b7357bd07a737ee29ebd2e9099c61",
+    "原文": {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/初回F0入口選択前.json",
+      "復元先": "work/151過去場判別の初回射影と時計型停止/F0入口選択前.json",
+      "形式": "同体",
+      "保存SHA256": "eb694b32897b1a533cb25ac30b36b3befa7b7357bd07a737ee29ebd2e9099c61",
+      "保存bytes": 5065,
+      "解凍SHA256": "eb694b32897b1a533cb25ac30b36b3befa7b7357bd07a737ee29ebd2e9099c61",
+      "解凍bytes": 5065
+    },
+    "文書原文": {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/初回停止F0実行前文書.json.gz",
+      "保存SHA256": "fb59c0625eeb4553ca0c1624a28aab9f4b602c2e7ac60b787cb80149bee0f3f7",
+      "文書数": 3
+    },
+    "全源復元参照": {
+      "保存済み参照": [
+        {
+          "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/README.md",
+          "sha256": "d8fb3e27eaa0059366a367a08eca27c0bd340c73f0b4d665fe64cc20a414e03a",
+          "bytes": 7157,
+          "形式": "文書snapshot",
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/初回停止F0実行前文書.json.gz",
+          "保存SHA256": "fb59c0625eeb4553ca0c1624a28aab9f4b602c2e7ac60b787cb80149bee0f3f7",
+          "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/README.md"
+        },
+        {
+          "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md",
+          "sha256": "929e52e902c59bfae66de78e8828b8419a912c6811dade7c6648d162731ff56f",
+          "bytes": 11431,
+          "形式": "文書snapshot",
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/初回停止F0実行前文書.json.gz",
+          "保存SHA256": "fb59c0625eeb4553ca0c1624a28aab9f4b602c2e7ac60b787cb80149bee0f3f7",
+          "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md"
+        },
+        {
+          "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/設定と結果.md",
+          "sha256": "e4e2c85db86b8263504722d3a24a0923c9d854259dee379aca55c11fcb68dda7",
+          "bytes": 30245,
+          "形式": "文書snapshot",
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/初回停止F0実行前文書.json.gz",
+          "保存SHA256": "fb59c0625eeb4553ca0c1624a28aab9f4b602c2e7ac60b787cb80149bee0f3f7",
+          "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/設定と結果.md"
+        }
+      ],
+      "既存恒久正本": [
+        {
+          "保存元": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+          "復元先": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+          "形式": "同体",
+          "保存SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+          "解凍SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+          "保存bytes": 48448,
+          "解凍bytes": 48448
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+          "形式": "同体",
+          "保存SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+          "解凍SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+          "保存bytes": 1189288,
+          "解凍bytes": 1189288
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+          "形式": "同体",
+          "保存SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+          "解凍SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+          "保存bytes": 2249603,
+          "解凍bytes": 2249603
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+          "形式": "同体",
+          "保存SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+          "解凍SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+          "保存bytes": 920027,
+          "解凍bytes": 920027
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+          "形式": "同体",
+          "保存SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+          "解凍SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+          "保存bytes": 16988103,
+          "解凍bytes": 16988103
+        },
+        {
+          "保存元": "inputs/00151_過去場だけの複合判別/条件.json",
+          "復元先": "inputs/00151_過去場だけの複合判別/条件.json",
+          "形式": "同体",
+          "保存SHA256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+          "解凍SHA256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+          "保存bytes": 4120,
+          "解凍bytes": 4120
+        },
+        {
+          "保存元": "scripts/入口研究/固定特徴から可読条件を選択する.py",
+          "復元先": "scripts/入口研究/固定特徴から可読条件を選択する.py",
+          "形式": "同体",
+          "保存SHA256": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+          "解凍SHA256": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+          "保存bytes": 16417,
+          "解凍bytes": 16417
+        },
+        {
+          "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+          "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+          "形式": "同体",
+          "保存SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+          "解凍SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+          "保存bytes": 18488267,
+          "解凍bytes": 18488267
+        }
+      ],
+      "共有源": [
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工RootモデルA.json",
+          "sha256": "9bef6f5a3fe34450ca7687345e7fdfd2eef432afa81be056a0ad1c7966ca2d86",
+          "bytes": 244819,
+          "復元先": "work/151モデルの独立準備レビュー/人工RootモデルA.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工RootモデルB.json",
+          "sha256": "1ed4c59471b542866605d7780100a9146a4a9716f9cc346b6aef1601790e2097",
+          "bytes": 244819,
+          "復元先": "work/151モデルの独立準備レビュー/人工RootモデルB.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工のログ.txt",
+          "sha256": "593d093760c7f84ed7b5edca79976a790da0aac01be7e9072f0a771f49a8eb72",
+          "bytes": 1980,
+          "復元先": "work/151モデルの独立準備レビュー/人工のログ.txt"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工モデルの照合.json",
+          "sha256": "d68340197b70730a8f9bf9aed3a46d81daa905efdc12ab91e174c88f6dc47cc3",
+          "bytes": 496,
+          "復元先": "work/151モデルの独立準備レビュー/人工モデルの照合.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/独立人工.py",
+          "sha256": "2fc536a92732a574778056a9b587af7a7a32ae83022d7d46b5e4982dc8ebc396",
+          "bytes": 16626,
+          "復元先": "work/151モデルの独立準備レビュー/独立人工.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/確認の記録.json",
+          "sha256": "19265cad0b4dc339f7f015e64d022aeb588789fbbeaed3f9a3d44c46f93dac22",
+          "bytes": 1255,
+          "復元先": "work/151モデルの独立準備レビュー/確認の記録.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151教師選択のRoot独立検査/独立人工.py",
+          "sha256": "ff58eba6cab11e8bcdf6a7bfeae9f3add8eee0b09433a6c371d1e4a5f2182df2",
+          "bytes": 5477,
+          "復元先": "work/151教師選択のRoot独立検査/独立人工.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/人工のログ.txt",
+          "sha256": "ce46300e1713dbbda4f0168e1a1d6337c0cd94b416e92806991f937c0d9832fe",
+          "bytes": 1264,
+          "復元先": "work/151運転の独立準備レビュー/人工のログ.txt"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/独立人工.py",
+          "sha256": "9aaf19cfe965f694ff2e9da3d5f6ba2dc51289f6c0b2386ac8d59b5112b98856",
+          "bytes": 19031,
+          "復元先": "work/151運転の独立準備レビュー/独立人工.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/確認の記録.json",
+          "sha256": "11a5dbb374b2a22bf0385a6a488f4b2d26b4bd527c48e830b3bb7b6bb6a874bd",
+          "bytes": 1878,
+          "復元先": "work/151運転の独立準備レビュー/確認の記録.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/data151.py",
+          "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+          "bytes": 19100,
+          "復元先": "work/151過去場判別/data151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/freeze151.py",
+          "sha256": "423d287a7a6a77bcab252c22a4c6e4e8d9c770b6178cf417b308bceeae921ee5",
+          "bytes": 4381,
+          "復元先": "work/151過去場判別/freeze151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/model151.py",
+          "sha256": "bd5639b76d8ce12354ef1e04fef1534ca3af23bc416c2ada7ca783122526c7ae",
+          "bytes": 8991,
+          "復元先": "work/151過去場判別/model151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/prepare_data151.py",
+          "sha256": "89f1a2189b181f547d18199c750715bdf80a815b1a69b989a8630b2f3b939780",
+          "bytes": 2992,
+          "復元先": "work/151過去場判別/prepare_data151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/README_データ部品.md",
+          "sha256": "46f4b8341094e1e89fae600a4e271c40085dca71a8b817ce7437f441fc32244c",
+          "bytes": 5109,
+          "復元先": "work/151過去場判別/README_データ部品.md"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/test_data151.py",
+          "sha256": "18677a9b4ffd5e51dffc294aea6ab9df5c99d14eefed8fbaa52e78a7ed16b86c",
+          "bytes": 12071,
+          "復元先": "work/151過去場判別/test_data151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/データ準備の確認.json",
+          "sha256": "e87e564f585173bd121280253e3d1f623fe2e3be2b7d09e9a2e3a2fc2a809cf7",
+          "bytes": 2930,
+          "復元先": "work/151過去場判別/データ準備の確認.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/データ部品の停止.json",
+          "sha256": "c38e14567ae0cca7e1cbf45b12927c3e48c948bfd5b0f4ab6955ce96e88f7c25",
+          "bytes": 563,
+          "復元先": "work/151過去場判別/データ部品の停止.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/人工検査_model.py",
+          "sha256": "3f1faee89b531d01fd410926786fe8dafef7b3cf3f77cfc1274f90329fc01864",
+          "bytes": 3847,
+          "復元先": "work/151過去場判別/人工検査_model.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/人工検査_run_root.py",
+          "sha256": "c15d8cc1c9e20d71b2264b2ffa415d05f6814ed34d18b59dfc9e244bff4b7f8b",
+          "bytes": 2803,
+          "復元先": "work/151過去場判別/人工検査_run_root.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/条件.json",
+          "sha256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+          "bytes": 4120,
+          "復元先": "work/151過去場判別/条件.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/過去場だけの教師選択と時間区画重み/教師選択.py",
+          "sha256": "075ac230ea4ec2b7c5aa3a59fd7348941a903f9612611ef7c26ad1d5705017df",
+          "bytes": 8491,
+          "復元先": "work/過去場だけの教師選択と時間区画重み/教師選択.py"
+        }
+      ],
+      "新小型源": [
+        {
+          "path": "work/151過去場判別/run151.py",
+          "sha256": "e5fae2a2a1af777ff732b27ea8c1388fdd32589fbe813a3f0a8a52b72702ccc2",
+          "bytes": 14371
+        },
+        {
+          "path": "work/151過去場判別/運転側Root人工の確認.json",
+          "sha256": "e7955154b1cc1c5a0c8e86e97063b570d5e0e76b1f66b57acc550e4681243ecf",
+          "bytes": 279
+        }
+      ],
+      "新小型ZIP": {
+        "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151初回時計型停止の固定資料.zip",
+        "ZIP_SHA256": "aa3b3667b181ec6219c8aeb04a3e8bd3d45643eb1147ee6dcec9903876c26d78",
+        "ZIP_bytes": 5797,
+        "格納源": [
+          {
+            "path": "work/151過去場判別/run151.py",
+            "ZIP内path": "work/151過去場判別/run151.py",
+            "sha256": "e5fae2a2a1af777ff732b27ea8c1388fdd32589fbe813a3f0a8a52b72702ccc2",
+            "bytes": 14371,
+            "読取元": "work/151過去場判別の初回射影と時計型停止/初回run151.py"
+          },
+          {
+            "path": "work/151過去場判別/運転側Root人工の確認.json",
+            "ZIP内path": "work/151過去場判別/運転側Root人工の確認.json",
+            "sha256": "e7955154b1cc1c5a0c8e86e97063b570d5e0e76b1f66b57acc550e4681243ecf",
+            "bytes": 279,
+            "読取元": "work/151過去場判別の初回射影と時計型停止/初回Root人工の確認.json"
+          }
+        ]
+      }
+    },
+    "停止補足": {
+      "保存済み参照": [],
+      "既存恒久正本": [],
+      "共有源": [],
+      "新小型源": [
+        {
+          "path": "work/151過去場判別の初回射影と時計型停止/初回停止の確認.json",
+          "sha256": "252643d043d6a075ceac57f3194cedfb120ba97f57b04f8de3397fde624d283e",
+          "bytes": 709
+        },
+        {
+          "path": "work/151過去場判別の初回射影と時計型停止/初回確認票を保持する.py",
+          "sha256": "68b0c2e4f9836f37d1777081da58030649bce5b51896abf62b407e40244030ee",
+          "bytes": 1106
+        }
+      ],
+      "新小型ZIP": {
+        "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151初回停止の補足の固定資料.zip",
+        "ZIP_SHA256": "3368a66f60d16cb7d6a7afc2619d85d7f1c6b2d076e3979aa07cff526cf03f12",
+        "ZIP_bytes": 1866,
+        "格納源": [
+          {
+            "path": "work/151過去場判別の初回射影と時計型停止/初回停止の確認.json",
+            "ZIP内path": "work/151過去場判別の初回射影と時計型停止/初回停止の確認.json",
+            "sha256": "252643d043d6a075ceac57f3194cedfb120ba97f57b04f8de3397fde624d283e",
+            "bytes": 709,
+            "読取元": "work/151過去場判別の初回射影と時計型停止/初回停止の確認.json"
+          },
+          {
+            "path": "work/151過去場判別の初回射影と時計型停止/初回確認票を保持する.py",
+            "ZIP内path": "work/151過去場判別の初回射影と時計型停止/初回確認票を保持する.py",
+            "sha256": "68b0c2e4f9836f37d1777081da58030649bce5b51896abf62b407e40244030ee",
+            "bytes": 1106,
+            "読取元": "work/151過去場判別の初回射影と時計型停止/初回確認票を保持する.py"
+          }
+        ]
+      }
+    },
+    "初回cache非複製台帳": [
+      {
+        "path": "work/151過去場判別の初回射影と時計型停止/入口選択/cache/feature_only/features.npz",
+        "bytes": 11077409,
+        "sha256": "5b309e0821403fcf1b122956fc6c9fe20ec5dfbe4327d7d674193b8e58f99b44"
+      },
+      {
+        "path": "work/151過去場判別の初回射影と時計型停止/入口選択/cache/feature_only/features_meta.json",
+        "bytes": 8761551,
+        "sha256": "71df54db57a3093eb4de2f5ce26c654c758f9181e07f61660cb1a192f6fa4602"
+      },
+      {
+        "path": "work/151過去場判別の初回射影と時計型停止/入口選択/cache/teacher_only/teachers.npz",
+        "bytes": 185781,
+        "sha256": "ec613a27461c32d1aa09aed4ecf3b013c2d7dc827d86ba642385698547f22689"
+      },
+      {
+        "path": "work/151過去場判別の初回射影と時計型停止/入口選択/cache/teacher_only/teachers_meta.json",
+        "bytes": 20818639,
+        "sha256": "3b723ca78d5ddc8ab4f301d5f9ba18ee08bea4e0159a085558296f824d736106"
+      }
+    ],
+    "cache本文の意味読取": false,
+    "cache再生成": "同指紋data151と旧F0共用入力を用いた射影で再生成可能。初回NPZの保存bytes同体は主張しない。",
+    "修正区分": "有限で整数秒と等値のstartだけintへ無損失変換。市場値/売買閾値/bookの変更ではない。"
+  },
+  "F1_SHA256": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917",
+  "F1原文": {
+    "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F1入口選択後.json",
+    "復元先": "work/151過去場判別の評価/F1入口選択後.json",
+    "形式": "同体",
+    "保存SHA256": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917",
+    "保存bytes": 15189,
+    "解凍SHA256": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917",
+    "解凍bytes": 15189
+  },
+  "F1直接源数": 108,
+  "F1増分復元参照": {
+    "保存済み参照": [
+      {
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0入口選択前.json",
+        "復元先": "work/151過去場判別の評価/F0入口選択前.json",
+        "形式": "同体",
+        "保存SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+        "保存bytes": 5521,
+        "解凍SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+        "解凍bytes": 5521
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/008.json",
+        "sha256": "5183a0dc504cdf7b95c37cd7afb5664fe36eb9f345491d4a90ef6d3a4b182fea",
+        "復元先": "work/151過去場判別の評価/入口選択/models/008.json",
+        "bytes": 275503
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/009.json",
+        "sha256": "6d6b5f2570d95790c2d175f2aee6ae19a5dcb438777e3f0f892c420ab4a47080",
+        "復元先": "work/151過去場判別の評価/入口選択/models/009.json",
+        "bytes": 274471
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/010.json",
+        "sha256": "ecf1d7d991a45d9d439eb7079e665fbbd32c627201238098d2b2edffcd4d6d1f",
+        "復元先": "work/151過去場判別の評価/入口選択/models/010.json",
+        "bytes": 272478
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/011.json",
+        "sha256": "7b9087364e7c8d886201bf69972aac05ee1f4e7d352a1ee338e8fbe627a2ee24",
+        "復元先": "work/151過去場判別の評価/入口選択/models/011.json",
+        "bytes": 271811
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/012.json",
+        "sha256": "70d8268e6e6cbe803c9444ad7eb924c5b9e9cff442e582e07a917107241bda6a",
+        "復元先": "work/151過去場判別の評価/入口選択/models/012.json",
+        "bytes": 275297
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/013.json",
+        "sha256": "27a87a914120c6c53867347a79c551946d29a8df4658612ded45f83ec367c4b7",
+        "復元先": "work/151過去場判別の評価/入口選択/models/013.json",
+        "bytes": 274196
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/014.json",
+        "sha256": "12f517e537faf264b76277c25fd0003863658b7c6b062dec7ba92cfc99a19aaf",
+        "復元先": "work/151過去場判別の評価/入口選択/models/014.json",
+        "bytes": 271011
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/015.json",
+        "sha256": "efb418a8a8891f86b3e07ec285d7c750604067d3c6349081639c0abaed7cdb3a",
+        "復元先": "work/151過去場判別の評価/入口選択/models/015.json",
+        "bytes": 276160
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/016.json",
+        "sha256": "55b22870ed1c440a56a0db500b9834cfef772e265e980c00f300398b4ea2103a",
+        "復元先": "work/151過去場判別の評価/入口選択/models/016.json",
+        "bytes": 273814
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/017.json",
+        "sha256": "4198d70bad9a563000dcee5498122507c96433936e557b055b774e569425fb2a",
+        "復元先": "work/151過去場判別の評価/入口選択/models/017.json",
+        "bytes": 275337
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/018.json",
+        "sha256": "df0dcbcc74c74103a8ee54fd3144fb0147604669825eaa29625bfdad54f79f6f",
+        "復元先": "work/151過去場判別の評価/入口選択/models/018.json",
+        "bytes": 278637
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/019.json",
+        "sha256": "b570a75ba526b895c51f3d93e7fcf5d319c3ee654691930b117fc8886ab7e3f4",
+        "復元先": "work/151過去場判別の評価/入口選択/models/019.json",
+        "bytes": 278996
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/020.json",
+        "sha256": "b087f7812bf3caaed55a7e0b658b1cb2411bb2dbdb474a90049ccce2ce15ba66",
+        "復元先": "work/151過去場判別の評価/入口選択/models/020.json",
+        "bytes": 279345
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/021.json",
+        "sha256": "d0d596705032328b84f7a6699ade72bfa65347d6f6beb631c796813112e52de3",
+        "復元先": "work/151過去場判別の評価/入口選択/models/021.json",
+        "bytes": 279707
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/022.json",
+        "sha256": "73a7ab039cec5cb79559edd4d953ba83004ab1becfd5563541f853637e2d1b13",
+        "復元先": "work/151過去場判別の評価/入口選択/models/022.json",
+        "bytes": 280743
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/023.json",
+        "sha256": "8f690ac4841db4b2d80aa899139e923500e556a275c674199a03d79b66d5610e",
+        "復元先": "work/151過去場判別の評価/入口選択/models/023.json",
+        "bytes": 279861
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/024.json",
+        "sha256": "62e7bda9910bdd34706e02701a479fbdd8918f3a8e79dfb20ebaf4c9fb38df05",
+        "復元先": "work/151過去場判別の評価/入口選択/models/024.json",
+        "bytes": 279856
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/025.json",
+        "sha256": "7bb1f304e0e77873723c5ba0825942e9051842d48e1962775a9615c5551f7f97",
+        "復元先": "work/151過去場判別の評価/入口選択/models/025.json",
+        "bytes": 279255
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/026.json",
+        "sha256": "6b43039784e2eb2da499c56525be0de9d716b70fb4f1ab30e6c65d981491a07e",
+        "復元先": "work/151過去場判別の評価/入口選択/models/026.json",
+        "bytes": 279902
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/027.json",
+        "sha256": "06cc6019ec2555f16682d82c6c5ca12b16781d850958baa391fa9da9e403f346",
+        "復元先": "work/151過去場判別の評価/入口選択/models/027.json",
+        "bytes": 280113
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/028.json",
+        "sha256": "c6c8254cec10d20bffe20689779ae0fdd8e57e9de7b209eaff1207dc2066c627",
+        "復元先": "work/151過去場判別の評価/入口選択/models/028.json",
+        "bytes": 280431
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/029.json",
+        "sha256": "95ae60b9d5af342adb11dc47f78040bd806dac585065cff43ba5d8cb268aa667",
+        "復元先": "work/151過去場判別の評価/入口選択/models/029.json",
+        "bytes": 282662
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/030.json",
+        "sha256": "05e4a80e66efbf6c5854bc9b92e9c011ace1a9ef4ade27494fc9eec0627d2245",
+        "復元先": "work/151過去場判別の評価/入口選択/models/030.json",
+        "bytes": 280427
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/031.json",
+        "sha256": "ec73c23b5baf3ebb9ddc3a246d11c820955e5790324495dc8ddd65c7e7d38345",
+        "復元先": "work/151過去場判別の評価/入口選択/models/031.json",
+        "bytes": 280257
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/032.json",
+        "sha256": "911895cf4f260fc50653721449dfd1b0ff5122b6fb05b9572f8bf2bb6f785d82",
+        "復元先": "work/151過去場判別の評価/入口選択/models/032.json",
+        "bytes": 281746
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/033.json",
+        "sha256": "4fd76d2b2a3c0d76b6baf20eed115034fd335ccd36a549489109be58605e1d77",
+        "復元先": "work/151過去場判別の評価/入口選択/models/033.json",
+        "bytes": 281231
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/034.json",
+        "sha256": "d68a5ed52068817cdcd614b368044011efa522d5fbef6c4418d0467115a9e8bc",
+        "復元先": "work/151過去場判別の評価/入口選択/models/034.json",
+        "bytes": 281009
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/035.json",
+        "sha256": "10be650b08500c856f5673a41962fc98aeafd90cf8cb72d6821c83ff012f86b2",
+        "復元先": "work/151過去場判別の評価/入口選択/models/035.json",
+        "bytes": 278870
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/036.json",
+        "sha256": "59ffb499acc47420e17ccf7158e852f4f64955ff09e32e0a892ebfad9c6243e2",
+        "復元先": "work/151過去場判別の評価/入口選択/models/036.json",
+        "bytes": 280346
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/037.json",
+        "sha256": "1462a8c53265efc94aba643190608f6f5a7f23615f97b860c3456773ce11629c",
+        "復元先": "work/151過去場判別の評価/入口選択/models/037.json",
+        "bytes": 280070
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/038.json",
+        "sha256": "bcd17eca327a76d4b562663699e09338c20a7e5c701ca0a00e363516ddcbf22a",
+        "復元先": "work/151過去場判別の評価/入口選択/models/038.json",
+        "bytes": 277092
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/039.json",
+        "sha256": "bc9986a41aad2a54d13fbb967b748637c40c5ddbfa12aad85e4ccab72d56f66b",
+        "復元先": "work/151過去場判別の評価/入口選択/models/039.json",
+        "bytes": 276004
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/040.json",
+        "sha256": "58820d99e353c8f0fb6034c81dd3c5842ccbfbc0d98121d6c0d33033a55542b9",
+        "復元先": "work/151過去場判別の評価/入口選択/models/040.json",
+        "bytes": 273709
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/041.json",
+        "sha256": "c5932f84b770089118b2771277841e850315ea8b63c3d65a6a3726ac78f17819",
+        "復元先": "work/151過去場判別の評価/入口選択/models/041.json",
+        "bytes": 275711
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/042.json",
+        "sha256": "df48b9123fe244754251982fdf296995e4f75081f9a2cbb7927d35583c0ce963",
+        "復元先": "work/151過去場判別の評価/入口選択/models/042.json",
+        "bytes": 277964
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/043.json",
+        "sha256": "8e3fef4fd1e2bb6245d5b0bd3f2546f24e2d067e7d32de1bf9b5ebad66c2b20c",
+        "復元先": "work/151過去場判別の評価/入口選択/models/043.json",
+        "bytes": 275954
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/044.json",
+        "sha256": "5ad16d6a9c9a5b30a14558db9941fd8a9c1c1a8ca504448be17b09e6630363fc",
+        "復元先": "work/151過去場判別の評価/入口選択/models/044.json",
+        "bytes": 276029
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/045.json",
+        "sha256": "9be9cef42890ef49c5b7826bc78ff0267995d00c3269967276fef57cafd933c3",
+        "復元先": "work/151過去場判別の評価/入口選択/models/045.json",
+        "bytes": 276411
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/046.json",
+        "sha256": "f98d21d69994ce9da738eb17ae0c7e2300f56a18b499c84ec1fc1be4bed785d6",
+        "復元先": "work/151過去場判別の評価/入口選択/models/046.json",
+        "bytes": 272244
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/047.json",
+        "sha256": "43d1cd3aad75642e6b12bf047bd8e5d29dad6483e561aff0cf8b6f2ee726c406",
+        "復元先": "work/151過去場判別の評価/入口選択/models/047.json",
+        "bytes": 269654
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/048.json",
+        "sha256": "c0963fdfa6dcfed7bfdb150ad590f9147fca22e62316cb20ca2384787b8ce6cc",
+        "復元先": "work/151過去場判別の評価/入口選択/models/048.json",
+        "bytes": 272854
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/049.json",
+        "sha256": "0562b0e2b07bf0894e0bdae546725e473766c8f634acef1d1aaee7ccaca7f78d",
+        "復元先": "work/151過去場判別の評価/入口選択/models/049.json",
+        "bytes": 271846
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/050.json",
+        "sha256": "37d6a268cc50218a9383abcd2239c6fee930acb5038c3e5d5785a9474962b254",
+        "復元先": "work/151過去場判別の評価/入口選択/models/050.json",
+        "bytes": 274534
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/051.json",
+        "sha256": "6abf77c2f9f4c015a06f1ce6af9f34f658848d40e5493588d0a5fedf6e67b147",
+        "復元先": "work/151過去場判別の評価/入口選択/models/051.json",
+        "bytes": 273545
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/052.json",
+        "sha256": "0310a9e9a110bb9712e9c1408bd3d90c59741b9ed17787d54fe87f95956a38e1",
+        "復元先": "work/151過去場判別の評価/入口選択/models/052.json",
+        "bytes": 273394
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/053.json",
+        "sha256": "3c1ab3039ee81bcb12c2cd3eeb14a3b6fe6a2d655fa569e8725c23b7fd3b1d48",
+        "復元先": "work/151過去場判別の評価/入口選択/models/053.json",
+        "bytes": 271138
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/054.json",
+        "sha256": "307cf65d3db8e5942137a3fa800b5e8cdb2d8b93bfff840378cd8831a652a675",
+        "復元先": "work/151過去場判別の評価/入口選択/models/054.json",
+        "bytes": 276579
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/055.json",
+        "sha256": "6e54878f700f506126e6d21507362bcff68adac44265582f1bff9b306a09a89d",
+        "復元先": "work/151過去場判別の評価/入口選択/models/055.json",
+        "bytes": 276181
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/056.json",
+        "sha256": "f44dfdf9c2f9cc70f90ba5530b425e23afb316d530643729620b61c714302233",
+        "復元先": "work/151過去場判別の評価/入口選択/models/056.json",
+        "bytes": 276341
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/057.json",
+        "sha256": "f4594e33ad559e5497d262642bdad3adf3c65b68fa7948480a9914b6b9153478",
+        "復元先": "work/151過去場判別の評価/入口選択/models/057.json",
+        "bytes": 279994
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/058.json",
+        "sha256": "510ee388af2dbff115270eb82944fe5ab69380df050c3f33b989b5da049f2039",
+        "復元先": "work/151過去場判別の評価/入口選択/models/058.json",
+        "bytes": 280603
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/059.json",
+        "sha256": "c70d934f15725955f7978ce5fe4fbbae7efcf186aee157c89808195d1d26a07b",
+        "復元先": "work/151過去場判別の評価/入口選択/models/059.json",
+        "bytes": 281247
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/060.json",
+        "sha256": "fb0fe311a43c3a03d301fe501e3c8a8c363771cda1c033c9759f241cf73ebe1b",
+        "復元先": "work/151過去場判別の評価/入口選択/models/060.json",
+        "bytes": 279954
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/061.json",
+        "sha256": "d2d80736f40081929bb2f5c1638d64dfa9065c0ca7973519b112890df54d917a",
+        "復元先": "work/151過去場判別の評価/入口選択/models/061.json",
+        "bytes": 280613
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/062.json",
+        "sha256": "e717dd7f67f9d618a58558988637ad7411b80ba61d07715cb2544d481b010022",
+        "復元先": "work/151過去場判別の評価/入口選択/models/062.json",
+        "bytes": 279510
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/063.json",
+        "sha256": "6176942852dcc9f672752fc00a65c819e7e0dc181065b599a17d1a4573226ee6",
+        "復元先": "work/151過去場判別の評価/入口選択/models/063.json",
+        "bytes": 280484
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/064.json",
+        "sha256": "016fe7e26305dbe39ca57b404347bb84cebf08a5528e7948292ebc506ee490ce",
+        "復元先": "work/151過去場判別の評価/入口選択/models/064.json",
+        "bytes": 279312
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/065.json",
+        "sha256": "65cfe7d0680c50ca700d52cfb5645c1424730798aed4cfa71b72345e6c210306",
+        "復元先": "work/151過去場判別の評価/入口選択/models/065.json",
+        "bytes": 281403
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/066.json",
+        "sha256": "f805def7ae41e58ad0b79252e030ebcc60c332f489b71650c9269e13031afc37",
+        "復元先": "work/151過去場判別の評価/入口選択/models/066.json",
+        "bytes": 280229
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/067.json",
+        "sha256": "ab971d01b70d9c56ff90325eb8f4318a10f1b7eae614dc45851a28e4ece58855",
+        "復元先": "work/151過去場判別の評価/入口選択/models/067.json",
+        "bytes": 278769
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/068.json",
+        "sha256": "90617e36d2650661f1a879a0d25f0bc3458bdaa66a1056bf73ed1a11c78e5ee7",
+        "復元先": "work/151過去場判別の評価/入口選択/models/068.json",
+        "bytes": 280040
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/069.json",
+        "sha256": "f0546fe6dbd5267723d6ff50b34f64c575a3c1dd14070911ce86f8888b11db49",
+        "復元先": "work/151過去場判別の評価/入口選択/models/069.json",
+        "bytes": 278600
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/070.json",
+        "sha256": "94b04a05baa5f2d88be6ed07f20a4f2723abaa3f2f29b75d8c664627cd36bdf0",
+        "復元先": "work/151過去場判別の評価/入口選択/models/070.json",
+        "bytes": 279663
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/071.json",
+        "sha256": "69db1b1990c24f3b5c955da77c4e932eccfc7c88747737dd82839672b5673852",
+        "復元先": "work/151過去場判別の評価/入口選択/models/071.json",
+        "bytes": 280181
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/072.json",
+        "sha256": "6449c36d7b09ce131e5d66cd81901385e415d9a1ea920751edb9670d423c2030",
+        "復元先": "work/151過去場判別の評価/入口選択/models/072.json",
+        "bytes": 279880
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/q0の判断.json",
+        "sha256": "14b4bfaf2d6cc8832c3fb075a029389b7c0da4591489854547308919b93ba118",
+        "復元先": "work/151過去場判別の評価/入口選択/q0の判断.json",
+        "bytes": 46185439
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/場別モデルと教師.json",
+        "sha256": "91df571f7bd144e7e06b992d32165fc82e78355add4a96951c42090f81302a5b",
+        "復元先": "work/151過去場判別の評価/入口選択/場別モデルと教師.json",
+        "bytes": 15612855
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/選択の確認.json",
+        "sha256": "cd49e4fd273922ad47a78c4dbb9fe8bd9d9ab6baa6b63bdcccb1b1dbc26f615b",
+        "復元先": "work/151過去場判別の評価/入口選択/選択の確認.json",
+        "bytes": 2377
+      },
+      {
+        "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+        "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/選択対応.json",
+        "sha256": "2c8a9c9e932b2469c50534e93b8ea4770613ef951da68f2f74d7a022bcb18266",
+        "復元先": "work/151過去場判別の評価/入口選択/選択対応.json",
+        "bytes": 6935604
+      }
+    ],
+    "既存恒久正本": [],
+    "共有源": [],
+    "新小型源": []
+  },
+  "学習と選択の正本": {
+    "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+    "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+    "ZIP_bytes": 9500078,
+    "格納源": [
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/008.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/008.json",
+        "sha256": "5183a0dc504cdf7b95c37cd7afb5664fe36eb9f345491d4a90ef6d3a4b182fea",
+        "bytes": 275503,
+        "読取元": "work/151過去場判別の評価/入口選択/models/008.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/009.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/009.json",
+        "sha256": "6d6b5f2570d95790c2d175f2aee6ae19a5dcb438777e3f0f892c420ab4a47080",
+        "bytes": 274471,
+        "読取元": "work/151過去場判別の評価/入口選択/models/009.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/010.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/010.json",
+        "sha256": "ecf1d7d991a45d9d439eb7079e665fbbd32c627201238098d2b2edffcd4d6d1f",
+        "bytes": 272478,
+        "読取元": "work/151過去場判別の評価/入口選択/models/010.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/011.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/011.json",
+        "sha256": "7b9087364e7c8d886201bf69972aac05ee1f4e7d352a1ee338e8fbe627a2ee24",
+        "bytes": 271811,
+        "読取元": "work/151過去場判別の評価/入口選択/models/011.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/012.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/012.json",
+        "sha256": "70d8268e6e6cbe803c9444ad7eb924c5b9e9cff442e582e07a917107241bda6a",
+        "bytes": 275297,
+        "読取元": "work/151過去場判別の評価/入口選択/models/012.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/013.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/013.json",
+        "sha256": "27a87a914120c6c53867347a79c551946d29a8df4658612ded45f83ec367c4b7",
+        "bytes": 274196,
+        "読取元": "work/151過去場判別の評価/入口選択/models/013.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/014.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/014.json",
+        "sha256": "12f517e537faf264b76277c25fd0003863658b7c6b062dec7ba92cfc99a19aaf",
+        "bytes": 271011,
+        "読取元": "work/151過去場判別の評価/入口選択/models/014.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/015.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/015.json",
+        "sha256": "efb418a8a8891f86b3e07ec285d7c750604067d3c6349081639c0abaed7cdb3a",
+        "bytes": 276160,
+        "読取元": "work/151過去場判別の評価/入口選択/models/015.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/016.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/016.json",
+        "sha256": "55b22870ed1c440a56a0db500b9834cfef772e265e980c00f300398b4ea2103a",
+        "bytes": 273814,
+        "読取元": "work/151過去場判別の評価/入口選択/models/016.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/017.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/017.json",
+        "sha256": "4198d70bad9a563000dcee5498122507c96433936e557b055b774e569425fb2a",
+        "bytes": 275337,
+        "読取元": "work/151過去場判別の評価/入口選択/models/017.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/018.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/018.json",
+        "sha256": "df0dcbcc74c74103a8ee54fd3144fb0147604669825eaa29625bfdad54f79f6f",
+        "bytes": 278637,
+        "読取元": "work/151過去場判別の評価/入口選択/models/018.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/019.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/019.json",
+        "sha256": "b570a75ba526b895c51f3d93e7fcf5d319c3ee654691930b117fc8886ab7e3f4",
+        "bytes": 278996,
+        "読取元": "work/151過去場判別の評価/入口選択/models/019.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/020.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/020.json",
+        "sha256": "b087f7812bf3caaed55a7e0b658b1cb2411bb2dbdb474a90049ccce2ce15ba66",
+        "bytes": 279345,
+        "読取元": "work/151過去場判別の評価/入口選択/models/020.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/021.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/021.json",
+        "sha256": "d0d596705032328b84f7a6699ade72bfa65347d6f6beb631c796813112e52de3",
+        "bytes": 279707,
+        "読取元": "work/151過去場判別の評価/入口選択/models/021.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/022.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/022.json",
+        "sha256": "73a7ab039cec5cb79559edd4d953ba83004ab1becfd5563541f853637e2d1b13",
+        "bytes": 280743,
+        "読取元": "work/151過去場判別の評価/入口選択/models/022.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/023.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/023.json",
+        "sha256": "8f690ac4841db4b2d80aa899139e923500e556a275c674199a03d79b66d5610e",
+        "bytes": 279861,
+        "読取元": "work/151過去場判別の評価/入口選択/models/023.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/024.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/024.json",
+        "sha256": "62e7bda9910bdd34706e02701a479fbdd8918f3a8e79dfb20ebaf4c9fb38df05",
+        "bytes": 279856,
+        "読取元": "work/151過去場判別の評価/入口選択/models/024.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/025.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/025.json",
+        "sha256": "7bb1f304e0e77873723c5ba0825942e9051842d48e1962775a9615c5551f7f97",
+        "bytes": 279255,
+        "読取元": "work/151過去場判別の評価/入口選択/models/025.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/026.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/026.json",
+        "sha256": "6b43039784e2eb2da499c56525be0de9d716b70fb4f1ab30e6c65d981491a07e",
+        "bytes": 279902,
+        "読取元": "work/151過去場判別の評価/入口選択/models/026.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/027.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/027.json",
+        "sha256": "06cc6019ec2555f16682d82c6c5ca12b16781d850958baa391fa9da9e403f346",
+        "bytes": 280113,
+        "読取元": "work/151過去場判別の評価/入口選択/models/027.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/028.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/028.json",
+        "sha256": "c6c8254cec10d20bffe20689779ae0fdd8e57e9de7b209eaff1207dc2066c627",
+        "bytes": 280431,
+        "読取元": "work/151過去場判別の評価/入口選択/models/028.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/029.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/029.json",
+        "sha256": "95ae60b9d5af342adb11dc47f78040bd806dac585065cff43ba5d8cb268aa667",
+        "bytes": 282662,
+        "読取元": "work/151過去場判別の評価/入口選択/models/029.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/030.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/030.json",
+        "sha256": "05e4a80e66efbf6c5854bc9b92e9c011ace1a9ef4ade27494fc9eec0627d2245",
+        "bytes": 280427,
+        "読取元": "work/151過去場判別の評価/入口選択/models/030.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/031.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/031.json",
+        "sha256": "ec73c23b5baf3ebb9ddc3a246d11c820955e5790324495dc8ddd65c7e7d38345",
+        "bytes": 280257,
+        "読取元": "work/151過去場判別の評価/入口選択/models/031.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/032.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/032.json",
+        "sha256": "911895cf4f260fc50653721449dfd1b0ff5122b6fb05b9572f8bf2bb6f785d82",
+        "bytes": 281746,
+        "読取元": "work/151過去場判別の評価/入口選択/models/032.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/033.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/033.json",
+        "sha256": "4fd76d2b2a3c0d76b6baf20eed115034fd335ccd36a549489109be58605e1d77",
+        "bytes": 281231,
+        "読取元": "work/151過去場判別の評価/入口選択/models/033.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/034.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/034.json",
+        "sha256": "d68a5ed52068817cdcd614b368044011efa522d5fbef6c4418d0467115a9e8bc",
+        "bytes": 281009,
+        "読取元": "work/151過去場判別の評価/入口選択/models/034.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/035.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/035.json",
+        "sha256": "10be650b08500c856f5673a41962fc98aeafd90cf8cb72d6821c83ff012f86b2",
+        "bytes": 278870,
+        "読取元": "work/151過去場判別の評価/入口選択/models/035.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/036.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/036.json",
+        "sha256": "59ffb499acc47420e17ccf7158e852f4f64955ff09e32e0a892ebfad9c6243e2",
+        "bytes": 280346,
+        "読取元": "work/151過去場判別の評価/入口選択/models/036.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/037.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/037.json",
+        "sha256": "1462a8c53265efc94aba643190608f6f5a7f23615f97b860c3456773ce11629c",
+        "bytes": 280070,
+        "読取元": "work/151過去場判別の評価/入口選択/models/037.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/038.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/038.json",
+        "sha256": "bcd17eca327a76d4b562663699e09338c20a7e5c701ca0a00e363516ddcbf22a",
+        "bytes": 277092,
+        "読取元": "work/151過去場判別の評価/入口選択/models/038.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/039.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/039.json",
+        "sha256": "bc9986a41aad2a54d13fbb967b748637c40c5ddbfa12aad85e4ccab72d56f66b",
+        "bytes": 276004,
+        "読取元": "work/151過去場判別の評価/入口選択/models/039.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/040.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/040.json",
+        "sha256": "58820d99e353c8f0fb6034c81dd3c5842ccbfbc0d98121d6c0d33033a55542b9",
+        "bytes": 273709,
+        "読取元": "work/151過去場判別の評価/入口選択/models/040.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/041.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/041.json",
+        "sha256": "c5932f84b770089118b2771277841e850315ea8b63c3d65a6a3726ac78f17819",
+        "bytes": 275711,
+        "読取元": "work/151過去場判別の評価/入口選択/models/041.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/042.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/042.json",
+        "sha256": "df48b9123fe244754251982fdf296995e4f75081f9a2cbb7927d35583c0ce963",
+        "bytes": 277964,
+        "読取元": "work/151過去場判別の評価/入口選択/models/042.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/043.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/043.json",
+        "sha256": "8e3fef4fd1e2bb6245d5b0bd3f2546f24e2d067e7d32de1bf9b5ebad66c2b20c",
+        "bytes": 275954,
+        "読取元": "work/151過去場判別の評価/入口選択/models/043.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/044.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/044.json",
+        "sha256": "5ad16d6a9c9a5b30a14558db9941fd8a9c1c1a8ca504448be17b09e6630363fc",
+        "bytes": 276029,
+        "読取元": "work/151過去場判別の評価/入口選択/models/044.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/045.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/045.json",
+        "sha256": "9be9cef42890ef49c5b7826bc78ff0267995d00c3269967276fef57cafd933c3",
+        "bytes": 276411,
+        "読取元": "work/151過去場判別の評価/入口選択/models/045.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/046.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/046.json",
+        "sha256": "f98d21d69994ce9da738eb17ae0c7e2300f56a18b499c84ec1fc1be4bed785d6",
+        "bytes": 272244,
+        "読取元": "work/151過去場判別の評価/入口選択/models/046.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/047.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/047.json",
+        "sha256": "43d1cd3aad75642e6b12bf047bd8e5d29dad6483e561aff0cf8b6f2ee726c406",
+        "bytes": 269654,
+        "読取元": "work/151過去場判別の評価/入口選択/models/047.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/048.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/048.json",
+        "sha256": "c0963fdfa6dcfed7bfdb150ad590f9147fca22e62316cb20ca2384787b8ce6cc",
+        "bytes": 272854,
+        "読取元": "work/151過去場判別の評価/入口選択/models/048.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/049.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/049.json",
+        "sha256": "0562b0e2b07bf0894e0bdae546725e473766c8f634acef1d1aaee7ccaca7f78d",
+        "bytes": 271846,
+        "読取元": "work/151過去場判別の評価/入口選択/models/049.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/050.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/050.json",
+        "sha256": "37d6a268cc50218a9383abcd2239c6fee930acb5038c3e5d5785a9474962b254",
+        "bytes": 274534,
+        "読取元": "work/151過去場判別の評価/入口選択/models/050.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/051.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/051.json",
+        "sha256": "6abf77c2f9f4c015a06f1ce6af9f34f658848d40e5493588d0a5fedf6e67b147",
+        "bytes": 273545,
+        "読取元": "work/151過去場判別の評価/入口選択/models/051.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/052.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/052.json",
+        "sha256": "0310a9e9a110bb9712e9c1408bd3d90c59741b9ed17787d54fe87f95956a38e1",
+        "bytes": 273394,
+        "読取元": "work/151過去場判別の評価/入口選択/models/052.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/053.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/053.json",
+        "sha256": "3c1ab3039ee81bcb12c2cd3eeb14a3b6fe6a2d655fa569e8725c23b7fd3b1d48",
+        "bytes": 271138,
+        "読取元": "work/151過去場判別の評価/入口選択/models/053.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/054.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/054.json",
+        "sha256": "307cf65d3db8e5942137a3fa800b5e8cdb2d8b93bfff840378cd8831a652a675",
+        "bytes": 276579,
+        "読取元": "work/151過去場判別の評価/入口選択/models/054.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/055.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/055.json",
+        "sha256": "6e54878f700f506126e6d21507362bcff68adac44265582f1bff9b306a09a89d",
+        "bytes": 276181,
+        "読取元": "work/151過去場判別の評価/入口選択/models/055.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/056.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/056.json",
+        "sha256": "f44dfdf9c2f9cc70f90ba5530b425e23afb316d530643729620b61c714302233",
+        "bytes": 276341,
+        "読取元": "work/151過去場判別の評価/入口選択/models/056.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/057.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/057.json",
+        "sha256": "f4594e33ad559e5497d262642bdad3adf3c65b68fa7948480a9914b6b9153478",
+        "bytes": 279994,
+        "読取元": "work/151過去場判別の評価/入口選択/models/057.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/058.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/058.json",
+        "sha256": "510ee388af2dbff115270eb82944fe5ab69380df050c3f33b989b5da049f2039",
+        "bytes": 280603,
+        "読取元": "work/151過去場判別の評価/入口選択/models/058.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/059.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/059.json",
+        "sha256": "c70d934f15725955f7978ce5fe4fbbae7efcf186aee157c89808195d1d26a07b",
+        "bytes": 281247,
+        "読取元": "work/151過去場判別の評価/入口選択/models/059.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/060.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/060.json",
+        "sha256": "fb0fe311a43c3a03d301fe501e3c8a8c363771cda1c033c9759f241cf73ebe1b",
+        "bytes": 279954,
+        "読取元": "work/151過去場判別の評価/入口選択/models/060.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/061.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/061.json",
+        "sha256": "d2d80736f40081929bb2f5c1638d64dfa9065c0ca7973519b112890df54d917a",
+        "bytes": 280613,
+        "読取元": "work/151過去場判別の評価/入口選択/models/061.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/062.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/062.json",
+        "sha256": "e717dd7f67f9d618a58558988637ad7411b80ba61d07715cb2544d481b010022",
+        "bytes": 279510,
+        "読取元": "work/151過去場判別の評価/入口選択/models/062.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/063.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/063.json",
+        "sha256": "6176942852dcc9f672752fc00a65c819e7e0dc181065b599a17d1a4573226ee6",
+        "bytes": 280484,
+        "読取元": "work/151過去場判別の評価/入口選択/models/063.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/064.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/064.json",
+        "sha256": "016fe7e26305dbe39ca57b404347bb84cebf08a5528e7948292ebc506ee490ce",
+        "bytes": 279312,
+        "読取元": "work/151過去場判別の評価/入口選択/models/064.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/065.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/065.json",
+        "sha256": "65cfe7d0680c50ca700d52cfb5645c1424730798aed4cfa71b72345e6c210306",
+        "bytes": 281403,
+        "読取元": "work/151過去場判別の評価/入口選択/models/065.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/066.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/066.json",
+        "sha256": "f805def7ae41e58ad0b79252e030ebcc60c332f489b71650c9269e13031afc37",
+        "bytes": 280229,
+        "読取元": "work/151過去場判別の評価/入口選択/models/066.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/067.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/067.json",
+        "sha256": "ab971d01b70d9c56ff90325eb8f4318a10f1b7eae614dc45851a28e4ece58855",
+        "bytes": 278769,
+        "読取元": "work/151過去場判別の評価/入口選択/models/067.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/068.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/068.json",
+        "sha256": "90617e36d2650661f1a879a0d25f0bc3458bdaa66a1056bf73ed1a11c78e5ee7",
+        "bytes": 280040,
+        "読取元": "work/151過去場判別の評価/入口選択/models/068.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/069.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/069.json",
+        "sha256": "f0546fe6dbd5267723d6ff50b34f64c575a3c1dd14070911ce86f8888b11db49",
+        "bytes": 278600,
+        "読取元": "work/151過去場判別の評価/入口選択/models/069.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/070.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/070.json",
+        "sha256": "94b04a05baa5f2d88be6ed07f20a4f2723abaa3f2f29b75d8c664627cd36bdf0",
+        "bytes": 279663,
+        "読取元": "work/151過去場判別の評価/入口選択/models/070.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/071.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/071.json",
+        "sha256": "69db1b1990c24f3b5c955da77c4e932eccfc7c88747737dd82839672b5673852",
+        "bytes": 280181,
+        "読取元": "work/151過去場判別の評価/入口選択/models/071.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/models/072.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/models/072.json",
+        "sha256": "6449c36d7b09ce131e5d66cd81901385e415d9a1ea920751edb9670d423c2030",
+        "bytes": 279880,
+        "読取元": "work/151過去場判別の評価/入口選択/models/072.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/q0の判断.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/q0の判断.json",
+        "sha256": "14b4bfaf2d6cc8832c3fb075a029389b7c0da4591489854547308919b93ba118",
+        "bytes": 46185439,
+        "読取元": "work/151過去場判別の評価/入口選択/q0の判断.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/場別モデルと教師.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/場別モデルと教師.json",
+        "sha256": "91df571f7bd144e7e06b992d32165fc82e78355add4a96951c42090f81302a5b",
+        "bytes": 15612855,
+        "読取元": "work/151過去場判別の評価/入口選択/場別モデルと教師.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/選択の確認.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/選択の確認.json",
+        "sha256": "cd49e4fd273922ad47a78c4dbb9fe8bd9d9ab6baa6b63bdcccb1b1dbc26f615b",
+        "bytes": 2377,
+        "読取元": "work/151過去場判別の評価/入口選択/選択の確認.json"
+      },
+      {
+        "path": "work/151過去場判別の評価/入口選択/選択対応.json",
+        "ZIP内path": "work/151過去場判別の評価/入口選択/選択対応.json",
+        "sha256": "2c8a9c9e932b2469c50534e93b8ea4770613ef951da68f2f74d7a022bcb18266",
+        "bytes": 6935604,
+        "読取元": "work/151過去場判別の評価/入口選択/選択対応.json"
+      }
+    ]
+  },
+  "feature_cacheの複製": false,
+  "teacher_cache": "F1直接源ではなく共有入力とSourceから再生成。保存監査の配列指紋を参照。",
+  "生成JSON又はモデルのここでの構造解析": false,
+  "F2金融集計前": {
+    "SHA256": "0f0b6223f627043185f44ddf16d473736d8173fb64746d34ba8add418d2e467e",
+    "原文": {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F2金融集計前.json",
+      "復元先": "work/151過去場判別の評価/F2金融集計前.json",
+      "形式": "同体",
+      "保存SHA256": "0f0b6223f627043185f44ddf16d473736d8173fb64746d34ba8add418d2e467e",
+      "保存bytes": 17129,
+      "解凍SHA256": "0f0b6223f627043185f44ddf16d473736d8173fb64746d34ba8add418d2e467e",
+      "解凍bytes": 17129
+    },
+    "全源数": 124,
+    "復元参照": {
+      "保存済み参照": [
+        {
+          "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/README.md",
+          "sha256": "d8fb3e27eaa0059366a367a08eca27c0bd340c73f0b4d665fe64cc20a414e03a",
+          "bytes": 7157,
+          "形式": "文書snapshot",
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0実行前文書.json.gz",
+          "保存SHA256": "a87740b70aa3e9cbc81b6d0b3014ad54977d84a793bcad2280cd55a73041217c",
+          "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/README.md"
+        },
+        {
+          "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md",
+          "sha256": "929e52e902c59bfae66de78e8828b8419a912c6811dade7c6648d162731ff56f",
+          "bytes": 11431,
+          "形式": "文書snapshot",
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0実行前文書.json.gz",
+          "保存SHA256": "a87740b70aa3e9cbc81b6d0b3014ad54977d84a793bcad2280cd55a73041217c",
+          "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md"
+        },
+        {
+          "復元先": "study/00151_広い複合テクニカルを過去場だけで判別する/設定と結果.md",
+          "sha256": "e4e2c85db86b8263504722d3a24a0923c9d854259dee379aca55c11fcb68dda7",
+          "bytes": 30245,
+          "形式": "文書snapshot",
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0実行前文書.json.gz",
+          "保存SHA256": "a87740b70aa3e9cbc81b6d0b3014ad54977d84a793bcad2280cd55a73041217c",
+          "抽出キー": "study/00151_広い複合テクニカルを過去場だけで判別する/設定と結果.md"
+        }
+      ],
+      "既存恒久正本": [
+        {
+          "保存元": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+          "復元先": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+          "形式": "同体",
+          "保存SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+          "解凍SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+          "保存bytes": 48448,
+          "解凍bytes": 48448
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+          "形式": "同体",
+          "保存SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+          "解凍SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+          "保存bytes": 1189288,
+          "解凍bytes": 1189288
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+          "形式": "同体",
+          "保存SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+          "解凍SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+          "保存bytes": 2249603,
+          "解凍bytes": 2249603
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+          "形式": "同体",
+          "保存SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+          "解凍SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+          "保存bytes": 920027,
+          "解凍bytes": 920027
+        },
+        {
+          "保存元": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+          "復元先": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+          "形式": "同体",
+          "保存SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+          "解凍SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+          "保存bytes": 16988103,
+          "解凍bytes": 16988103
+        },
+        {
+          "保存元": "inputs/00151_過去場だけの複合判別/条件.json",
+          "復元先": "inputs/00151_過去場だけの複合判別/条件.json",
+          "形式": "同体",
+          "保存SHA256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+          "解凍SHA256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+          "保存bytes": 4120,
+          "解凍bytes": 4120
+        },
+        {
+          "保存元": "scripts/入口研究/固定特徴から可読条件を選択する.py",
+          "復元先": "scripts/入口研究/固定特徴から可読条件を選択する.py",
+          "形式": "同体",
+          "保存SHA256": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+          "解凍SHA256": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+          "保存bytes": 16417,
+          "解凍bytes": 16417
+        },
+        {
+          "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+          "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+          "形式": "同体",
+          "保存SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+          "解凍SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+          "保存bytes": 18488267,
+          "解凍bytes": 18488267
+        }
+      ],
+      "共有源": [
+        {
+          "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+          "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+          "ZIP内path": "work/124入口の原因分析/集計する.py",
+          "sha256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+          "bytes": 18019,
+          "復元先": "work/124入口の原因分析/集計する.py"
+        },
+        {
+          "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141金融前の追加固定資料.zip",
+          "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+          "ZIP内path": "work/141金融集計を独立に確認する.py",
+          "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+          "bytes": 7652,
+          "復元先": "work/141金融集計を独立に確認する.py"
+        },
+        {
+          "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/再現資料/148診断集計前の固定資料.zip",
+          "ZIP_SHA256": "0860e8edda20f550804a3e1f1d4853ed1625f773e8f6c00633724a3dfa049d30",
+          "ZIP内path": "work/148母集団の診断集計/集計する.py",
+          "sha256": "0ae8287b67b53df0d07c22963e2bf9ecd0775af9b0545a89f6a61af6ec2ec309",
+          "bytes": 21932,
+          "復元先": "work/148母集団の診断集計/集計する.py"
+        },
+        {
+          "保存元ZIP": "study/00149_継続と反転を可読8局面で判定する/再現資料/149金融集計前の固定資料.zip",
+          "ZIP_SHA256": "e4f290f77e894c1ac5616b15cf7dc0ba2dcba88bf9a7e60685c9df9fddb28e8a",
+          "ZIP内path": "work/149可読局面の金融集計/集計する.py",
+          "sha256": "920b6a6c666318eaf5a6ea4a0047246a8d183f850fad67af52bdf6cfdcc9264f",
+          "bytes": 18307,
+          "復元先": "work/149可読局面の金融集計/集計する.py"
+        },
+        {
+          "保存元ZIP": "study/00150_突破の現在状態と背景で順逆を切り替える/再現資料/150金融集計前の固定資料.zip",
+          "ZIP_SHA256": "4569562a577065496ca5b7b27cf8047a0cee665c2dd9468ff6963d64563f8933",
+          "ZIP内path": "work/150構造状態の金融集計/集計する.py",
+          "sha256": "017b335b3b5c1fa20ccf1bcb32c1495b84e25c7461b46c70cb9318f688f8c15a",
+          "bytes": 17285,
+          "復元先": "work/150構造状態の金融集計/集計する.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工RootモデルA.json",
+          "sha256": "9bef6f5a3fe34450ca7687345e7fdfd2eef432afa81be056a0ad1c7966ca2d86",
+          "bytes": 244819,
+          "復元先": "work/151モデルの独立準備レビュー/人工RootモデルA.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工RootモデルB.json",
+          "sha256": "1ed4c59471b542866605d7780100a9146a4a9716f9cc346b6aef1601790e2097",
+          "bytes": 244819,
+          "復元先": "work/151モデルの独立準備レビュー/人工RootモデルB.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工のログ.txt",
+          "sha256": "593d093760c7f84ed7b5edca79976a790da0aac01be7e9072f0a771f49a8eb72",
+          "bytes": 1980,
+          "復元先": "work/151モデルの独立準備レビュー/人工のログ.txt"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/人工モデルの照合.json",
+          "sha256": "d68340197b70730a8f9bf9aed3a46d81daa905efdc12ab91e174c88f6dc47cc3",
+          "bytes": 496,
+          "復元先": "work/151モデルの独立準備レビュー/人工モデルの照合.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/独立人工.py",
+          "sha256": "2fc536a92732a574778056a9b587af7a7a32ae83022d7d46b5e4982dc8ebc396",
+          "bytes": 16626,
+          "復元先": "work/151モデルの独立準備レビュー/独立人工.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151モデルの独立準備レビュー/確認の記録.json",
+          "sha256": "19265cad0b4dc339f7f015e64d022aeb588789fbbeaed3f9a3d44c46f93dac22",
+          "bytes": 1255,
+          "復元先": "work/151モデルの独立準備レビュー/確認の記録.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151教師選択のRoot独立検査/独立人工.py",
+          "sha256": "ff58eba6cab11e8bcdf6a7bfeae9f3add8eee0b09433a6c371d1e4a5f2182df2",
+          "bytes": 5477,
+          "復元先": "work/151教師選択のRoot独立検査/独立人工.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/人工のログ.txt",
+          "sha256": "ce46300e1713dbbda4f0168e1a1d6337c0cd94b416e92806991f937c0d9832fe",
+          "bytes": 1264,
+          "復元先": "work/151運転の独立準備レビュー/人工のログ.txt"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/場開始の正規化追補.py",
+          "sha256": "df79a39313d459a03f98dc1a35ddb7a05c3c581fe51457ac2be3f555b958c4ab",
+          "bytes": 5391,
+          "復元先": "work/151運転の独立準備レビュー/場開始の正規化追補.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/場開始の正規化追補確認.json",
+          "sha256": "1cd01b86fbeb7c48a1acba4df48cbe55103cc875fea4925085a84a2aeff1fc5f",
+          "bytes": 901,
+          "復元先": "work/151運転の独立準備レビュー/場開始の正規化追補確認.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/場開始追補の人工ログ.txt",
+          "sha256": "dcd95cc5ef2136a397bea51546fa398eca0f62e52e40edadb6504ed0588f6fa9",
+          "bytes": 1847,
+          "復元先": "work/151運転の独立準備レビュー/場開始追補の人工ログ.txt"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/独立人工.py",
+          "sha256": "9aaf19cfe965f694ff2e9da3d5f6ba2dc51289f6c0b2386ac8d59b5112b98856",
+          "bytes": 19031,
+          "復元先": "work/151運転の独立準備レビュー/独立人工.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151運転の独立準備レビュー/確認の記録.json",
+          "sha256": "11a5dbb374b2a22bf0385a6a488f4b2d26b4bd527c48e830b3bb7b6bb6a874bd",
+          "bytes": 1878,
+          "復元先": "work/151運転の独立準備レビュー/確認の記録.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/README_データ部品.md",
+          "sha256": "46f4b8341094e1e89fae600a4e271c40085dca71a8b817ce7437f441fc32244c",
+          "bytes": 5109,
+          "復元先": "work/151過去場判別/README_データ部品.md"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/data151.py",
+          "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+          "bytes": 19100,
+          "復元先": "work/151過去場判別/data151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/freeze151.py",
+          "sha256": "423d287a7a6a77bcab252c22a4c6e4e8d9c770b6178cf417b308bceeae921ee5",
+          "bytes": 4381,
+          "復元先": "work/151過去場判別/freeze151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/model151.py",
+          "sha256": "bd5639b76d8ce12354ef1e04fef1534ca3af23bc416c2ada7ca783122526c7ae",
+          "bytes": 8991,
+          "復元先": "work/151過去場判別/model151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/prepare_data151.py",
+          "sha256": "89f1a2189b181f547d18199c750715bdf80a815b1a69b989a8630b2f3b939780",
+          "bytes": 2992,
+          "復元先": "work/151過去場判別/prepare_data151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/run151.py",
+          "sha256": "17ba1de23a58220f7297553313f99429138413300de74f4b4c21682fe89060d6",
+          "bytes": 14630,
+          "復元先": "work/151過去場判別/run151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/test_data151.py",
+          "sha256": "18677a9b4ffd5e51dffc294aea6ab9df5c99d14eefed8fbaa52e78a7ed16b86c",
+          "bytes": 12071,
+          "復元先": "work/151過去場判別/test_data151.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/データ準備の確認.json",
+          "sha256": "e87e564f585173bd121280253e3d1f623fe2e3be2b7d09e9a2e3a2fc2a809cf7",
+          "bytes": 2930,
+          "復元先": "work/151過去場判別/データ準備の確認.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/データ部品の停止.json",
+          "sha256": "c38e14567ae0cca7e1cbf45b12927c3e48c948bfd5b0f4ab6955ce96e88f7c25",
+          "bytes": 563,
+          "復元先": "work/151過去場判別/データ部品の停止.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/人工検査_model.py",
+          "sha256": "3f1faee89b531d01fd410926786fe8dafef7b3cf3f77cfc1274f90329fc01864",
+          "bytes": 3847,
+          "復元先": "work/151過去場判別/人工検査_model.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/人工検査_run_root.py",
+          "sha256": "c15d8cc1c9e20d71b2264b2ffa415d05f6814ed34d18b59dfc9e244bff4b7f8b",
+          "bytes": 2803,
+          "復元先": "work/151過去場判別/人工検査_run_root.py"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/条件.json",
+          "sha256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+          "bytes": 4120,
+          "復元先": "work/151過去場判別/条件.json"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/151過去場判別/運転側Root人工の確認.json",
+          "sha256": "50e26c776e3b8e9b4036338080d34c7acb525bc2ac58813ee875122137064472",
+          "bytes": 279,
+          "復元先": "work/151過去場判別/運転側Root人工の確認.json"
+        },
+        {
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F0入口選択前.json",
+          "復元先": "work/151過去場判別の評価/F0入口選択前.json",
+          "形式": "同体",
+          "保存SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+          "保存bytes": 5521,
+          "解凍SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+          "解凍bytes": 5521
+        },
+        {
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F1入口選択後.json",
+          "復元先": "work/151過去場判別の評価/F1入口選択後.json",
+          "形式": "同体",
+          "保存SHA256": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917",
+          "保存bytes": 15189,
+          "解凍SHA256": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917",
+          "解凍bytes": 15189
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/008.json",
+          "sha256": "5183a0dc504cdf7b95c37cd7afb5664fe36eb9f345491d4a90ef6d3a4b182fea",
+          "bytes": 275503,
+          "復元先": "work/151過去場判別の評価/入口選択/models/008.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/009.json",
+          "sha256": "6d6b5f2570d95790c2d175f2aee6ae19a5dcb438777e3f0f892c420ab4a47080",
+          "bytes": 274471,
+          "復元先": "work/151過去場判別の評価/入口選択/models/009.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/010.json",
+          "sha256": "ecf1d7d991a45d9d439eb7079e665fbbd32c627201238098d2b2edffcd4d6d1f",
+          "bytes": 272478,
+          "復元先": "work/151過去場判別の評価/入口選択/models/010.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/011.json",
+          "sha256": "7b9087364e7c8d886201bf69972aac05ee1f4e7d352a1ee338e8fbe627a2ee24",
+          "bytes": 271811,
+          "復元先": "work/151過去場判別の評価/入口選択/models/011.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/012.json",
+          "sha256": "70d8268e6e6cbe803c9444ad7eb924c5b9e9cff442e582e07a917107241bda6a",
+          "bytes": 275297,
+          "復元先": "work/151過去場判別の評価/入口選択/models/012.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/013.json",
+          "sha256": "27a87a914120c6c53867347a79c551946d29a8df4658612ded45f83ec367c4b7",
+          "bytes": 274196,
+          "復元先": "work/151過去場判別の評価/入口選択/models/013.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/014.json",
+          "sha256": "12f517e537faf264b76277c25fd0003863658b7c6b062dec7ba92cfc99a19aaf",
+          "bytes": 271011,
+          "復元先": "work/151過去場判別の評価/入口選択/models/014.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/015.json",
+          "sha256": "efb418a8a8891f86b3e07ec285d7c750604067d3c6349081639c0abaed7cdb3a",
+          "bytes": 276160,
+          "復元先": "work/151過去場判別の評価/入口選択/models/015.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/016.json",
+          "sha256": "55b22870ed1c440a56a0db500b9834cfef772e265e980c00f300398b4ea2103a",
+          "bytes": 273814,
+          "復元先": "work/151過去場判別の評価/入口選択/models/016.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/017.json",
+          "sha256": "4198d70bad9a563000dcee5498122507c96433936e557b055b774e569425fb2a",
+          "bytes": 275337,
+          "復元先": "work/151過去場判別の評価/入口選択/models/017.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/018.json",
+          "sha256": "df0dcbcc74c74103a8ee54fd3144fb0147604669825eaa29625bfdad54f79f6f",
+          "bytes": 278637,
+          "復元先": "work/151過去場判別の評価/入口選択/models/018.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/019.json",
+          "sha256": "b570a75ba526b895c51f3d93e7fcf5d319c3ee654691930b117fc8886ab7e3f4",
+          "bytes": 278996,
+          "復元先": "work/151過去場判別の評価/入口選択/models/019.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/020.json",
+          "sha256": "b087f7812bf3caaed55a7e0b658b1cb2411bb2dbdb474a90049ccce2ce15ba66",
+          "bytes": 279345,
+          "復元先": "work/151過去場判別の評価/入口選択/models/020.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/021.json",
+          "sha256": "d0d596705032328b84f7a6699ade72bfa65347d6f6beb631c796813112e52de3",
+          "bytes": 279707,
+          "復元先": "work/151過去場判別の評価/入口選択/models/021.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/022.json",
+          "sha256": "73a7ab039cec5cb79559edd4d953ba83004ab1becfd5563541f853637e2d1b13",
+          "bytes": 280743,
+          "復元先": "work/151過去場判別の評価/入口選択/models/022.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/023.json",
+          "sha256": "8f690ac4841db4b2d80aa899139e923500e556a275c674199a03d79b66d5610e",
+          "bytes": 279861,
+          "復元先": "work/151過去場判別の評価/入口選択/models/023.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/024.json",
+          "sha256": "62e7bda9910bdd34706e02701a479fbdd8918f3a8e79dfb20ebaf4c9fb38df05",
+          "bytes": 279856,
+          "復元先": "work/151過去場判別の評価/入口選択/models/024.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/025.json",
+          "sha256": "7bb1f304e0e77873723c5ba0825942e9051842d48e1962775a9615c5551f7f97",
+          "bytes": 279255,
+          "復元先": "work/151過去場判別の評価/入口選択/models/025.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/026.json",
+          "sha256": "6b43039784e2eb2da499c56525be0de9d716b70fb4f1ab30e6c65d981491a07e",
+          "bytes": 279902,
+          "復元先": "work/151過去場判別の評価/入口選択/models/026.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/027.json",
+          "sha256": "06cc6019ec2555f16682d82c6c5ca12b16781d850958baa391fa9da9e403f346",
+          "bytes": 280113,
+          "復元先": "work/151過去場判別の評価/入口選択/models/027.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/028.json",
+          "sha256": "c6c8254cec10d20bffe20689779ae0fdd8e57e9de7b209eaff1207dc2066c627",
+          "bytes": 280431,
+          "復元先": "work/151過去場判別の評価/入口選択/models/028.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/029.json",
+          "sha256": "95ae60b9d5af342adb11dc47f78040bd806dac585065cff43ba5d8cb268aa667",
+          "bytes": 282662,
+          "復元先": "work/151過去場判別の評価/入口選択/models/029.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/030.json",
+          "sha256": "05e4a80e66efbf6c5854bc9b92e9c011ace1a9ef4ade27494fc9eec0627d2245",
+          "bytes": 280427,
+          "復元先": "work/151過去場判別の評価/入口選択/models/030.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/031.json",
+          "sha256": "ec73c23b5baf3ebb9ddc3a246d11c820955e5790324495dc8ddd65c7e7d38345",
+          "bytes": 280257,
+          "復元先": "work/151過去場判別の評価/入口選択/models/031.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/032.json",
+          "sha256": "911895cf4f260fc50653721449dfd1b0ff5122b6fb05b9572f8bf2bb6f785d82",
+          "bytes": 281746,
+          "復元先": "work/151過去場判別の評価/入口選択/models/032.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/033.json",
+          "sha256": "4fd76d2b2a3c0d76b6baf20eed115034fd335ccd36a549489109be58605e1d77",
+          "bytes": 281231,
+          "復元先": "work/151過去場判別の評価/入口選択/models/033.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/034.json",
+          "sha256": "d68a5ed52068817cdcd614b368044011efa522d5fbef6c4418d0467115a9e8bc",
+          "bytes": 281009,
+          "復元先": "work/151過去場判別の評価/入口選択/models/034.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/035.json",
+          "sha256": "10be650b08500c856f5673a41962fc98aeafd90cf8cb72d6821c83ff012f86b2",
+          "bytes": 278870,
+          "復元先": "work/151過去場判別の評価/入口選択/models/035.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/036.json",
+          "sha256": "59ffb499acc47420e17ccf7158e852f4f64955ff09e32e0a892ebfad9c6243e2",
+          "bytes": 280346,
+          "復元先": "work/151過去場判別の評価/入口選択/models/036.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/037.json",
+          "sha256": "1462a8c53265efc94aba643190608f6f5a7f23615f97b860c3456773ce11629c",
+          "bytes": 280070,
+          "復元先": "work/151過去場判別の評価/入口選択/models/037.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/038.json",
+          "sha256": "bcd17eca327a76d4b562663699e09338c20a7e5c701ca0a00e363516ddcbf22a",
+          "bytes": 277092,
+          "復元先": "work/151過去場判別の評価/入口選択/models/038.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/039.json",
+          "sha256": "bc9986a41aad2a54d13fbb967b748637c40c5ddbfa12aad85e4ccab72d56f66b",
+          "bytes": 276004,
+          "復元先": "work/151過去場判別の評価/入口選択/models/039.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/040.json",
+          "sha256": "58820d99e353c8f0fb6034c81dd3c5842ccbfbc0d98121d6c0d33033a55542b9",
+          "bytes": 273709,
+          "復元先": "work/151過去場判別の評価/入口選択/models/040.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/041.json",
+          "sha256": "c5932f84b770089118b2771277841e850315ea8b63c3d65a6a3726ac78f17819",
+          "bytes": 275711,
+          "復元先": "work/151過去場判別の評価/入口選択/models/041.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/042.json",
+          "sha256": "df48b9123fe244754251982fdf296995e4f75081f9a2cbb7927d35583c0ce963",
+          "bytes": 277964,
+          "復元先": "work/151過去場判別の評価/入口選択/models/042.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/043.json",
+          "sha256": "8e3fef4fd1e2bb6245d5b0bd3f2546f24e2d067e7d32de1bf9b5ebad66c2b20c",
+          "bytes": 275954,
+          "復元先": "work/151過去場判別の評価/入口選択/models/043.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/044.json",
+          "sha256": "5ad16d6a9c9a5b30a14558db9941fd8a9c1c1a8ca504448be17b09e6630363fc",
+          "bytes": 276029,
+          "復元先": "work/151過去場判別の評価/入口選択/models/044.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/045.json",
+          "sha256": "9be9cef42890ef49c5b7826bc78ff0267995d00c3269967276fef57cafd933c3",
+          "bytes": 276411,
+          "復元先": "work/151過去場判別の評価/入口選択/models/045.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/046.json",
+          "sha256": "f98d21d69994ce9da738eb17ae0c7e2300f56a18b499c84ec1fc1be4bed785d6",
+          "bytes": 272244,
+          "復元先": "work/151過去場判別の評価/入口選択/models/046.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/047.json",
+          "sha256": "43d1cd3aad75642e6b12bf047bd8e5d29dad6483e561aff0cf8b6f2ee726c406",
+          "bytes": 269654,
+          "復元先": "work/151過去場判別の評価/入口選択/models/047.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/048.json",
+          "sha256": "c0963fdfa6dcfed7bfdb150ad590f9147fca22e62316cb20ca2384787b8ce6cc",
+          "bytes": 272854,
+          "復元先": "work/151過去場判別の評価/入口選択/models/048.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/049.json",
+          "sha256": "0562b0e2b07bf0894e0bdae546725e473766c8f634acef1d1aaee7ccaca7f78d",
+          "bytes": 271846,
+          "復元先": "work/151過去場判別の評価/入口選択/models/049.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/050.json",
+          "sha256": "37d6a268cc50218a9383abcd2239c6fee930acb5038c3e5d5785a9474962b254",
+          "bytes": 274534,
+          "復元先": "work/151過去場判別の評価/入口選択/models/050.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/051.json",
+          "sha256": "6abf77c2f9f4c015a06f1ce6af9f34f658848d40e5493588d0a5fedf6e67b147",
+          "bytes": 273545,
+          "復元先": "work/151過去場判別の評価/入口選択/models/051.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/052.json",
+          "sha256": "0310a9e9a110bb9712e9c1408bd3d90c59741b9ed17787d54fe87f95956a38e1",
+          "bytes": 273394,
+          "復元先": "work/151過去場判別の評価/入口選択/models/052.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/053.json",
+          "sha256": "3c1ab3039ee81bcb12c2cd3eeb14a3b6fe6a2d655fa569e8725c23b7fd3b1d48",
+          "bytes": 271138,
+          "復元先": "work/151過去場判別の評価/入口選択/models/053.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/054.json",
+          "sha256": "307cf65d3db8e5942137a3fa800b5e8cdb2d8b93bfff840378cd8831a652a675",
+          "bytes": 276579,
+          "復元先": "work/151過去場判別の評価/入口選択/models/054.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/055.json",
+          "sha256": "6e54878f700f506126e6d21507362bcff68adac44265582f1bff9b306a09a89d",
+          "bytes": 276181,
+          "復元先": "work/151過去場判別の評価/入口選択/models/055.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/056.json",
+          "sha256": "f44dfdf9c2f9cc70f90ba5530b425e23afb316d530643729620b61c714302233",
+          "bytes": 276341,
+          "復元先": "work/151過去場判別の評価/入口選択/models/056.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/057.json",
+          "sha256": "f4594e33ad559e5497d262642bdad3adf3c65b68fa7948480a9914b6b9153478",
+          "bytes": 279994,
+          "復元先": "work/151過去場判別の評価/入口選択/models/057.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/058.json",
+          "sha256": "510ee388af2dbff115270eb82944fe5ab69380df050c3f33b989b5da049f2039",
+          "bytes": 280603,
+          "復元先": "work/151過去場判別の評価/入口選択/models/058.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/059.json",
+          "sha256": "c70d934f15725955f7978ce5fe4fbbae7efcf186aee157c89808195d1d26a07b",
+          "bytes": 281247,
+          "復元先": "work/151過去場判別の評価/入口選択/models/059.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/060.json",
+          "sha256": "fb0fe311a43c3a03d301fe501e3c8a8c363771cda1c033c9759f241cf73ebe1b",
+          "bytes": 279954,
+          "復元先": "work/151過去場判別の評価/入口選択/models/060.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/061.json",
+          "sha256": "d2d80736f40081929bb2f5c1638d64dfa9065c0ca7973519b112890df54d917a",
+          "bytes": 280613,
+          "復元先": "work/151過去場判別の評価/入口選択/models/061.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/062.json",
+          "sha256": "e717dd7f67f9d618a58558988637ad7411b80ba61d07715cb2544d481b010022",
+          "bytes": 279510,
+          "復元先": "work/151過去場判別の評価/入口選択/models/062.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/063.json",
+          "sha256": "6176942852dcc9f672752fc00a65c819e7e0dc181065b599a17d1a4573226ee6",
+          "bytes": 280484,
+          "復元先": "work/151過去場判別の評価/入口選択/models/063.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/064.json",
+          "sha256": "016fe7e26305dbe39ca57b404347bb84cebf08a5528e7948292ebc506ee490ce",
+          "bytes": 279312,
+          "復元先": "work/151過去場判別の評価/入口選択/models/064.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/065.json",
+          "sha256": "65cfe7d0680c50ca700d52cfb5645c1424730798aed4cfa71b72345e6c210306",
+          "bytes": 281403,
+          "復元先": "work/151過去場判別の評価/入口選択/models/065.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/066.json",
+          "sha256": "f805def7ae41e58ad0b79252e030ebcc60c332f489b71650c9269e13031afc37",
+          "bytes": 280229,
+          "復元先": "work/151過去場判別の評価/入口選択/models/066.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/067.json",
+          "sha256": "ab971d01b70d9c56ff90325eb8f4318a10f1b7eae614dc45851a28e4ece58855",
+          "bytes": 278769,
+          "復元先": "work/151過去場判別の評価/入口選択/models/067.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/068.json",
+          "sha256": "90617e36d2650661f1a879a0d25f0bc3458bdaa66a1056bf73ed1a11c78e5ee7",
+          "bytes": 280040,
+          "復元先": "work/151過去場判別の評価/入口選択/models/068.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/069.json",
+          "sha256": "f0546fe6dbd5267723d6ff50b34f64c575a3c1dd14070911ce86f8888b11db49",
+          "bytes": 278600,
+          "復元先": "work/151過去場判別の評価/入口選択/models/069.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/070.json",
+          "sha256": "94b04a05baa5f2d88be6ed07f20a4f2723abaa3f2f29b75d8c664627cd36bdf0",
+          "bytes": 279663,
+          "復元先": "work/151過去場判別の評価/入口選択/models/070.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/071.json",
+          "sha256": "69db1b1990c24f3b5c955da77c4e932eccfc7c88747737dd82839672b5673852",
+          "bytes": 280181,
+          "復元先": "work/151過去場判別の評価/入口選択/models/071.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/models/072.json",
+          "sha256": "6449c36d7b09ce131e5d66cd81901385e415d9a1ea920751edb9670d423c2030",
+          "bytes": 279880,
+          "復元先": "work/151過去場判別の評価/入口選択/models/072.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/q0の判断.json",
+          "sha256": "14b4bfaf2d6cc8832c3fb075a029389b7c0da4591489854547308919b93ba118",
+          "bytes": 46185439,
+          "復元先": "work/151過去場判別の評価/入口選択/q0の判断.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/場別モデルと教師.json",
+          "sha256": "91df571f7bd144e7e06b992d32165fc82e78355add4a96951c42090f81302a5b",
+          "bytes": 15612855,
+          "復元先": "work/151過去場判別の評価/入口選択/場別モデルと教師.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/選択の確認.json",
+          "sha256": "cd49e4fd273922ad47a78c4dbb9fe8bd9d9ab6baa6b63bdcccb1b1dbc26f615b",
+          "bytes": 2377,
+          "復元先": "work/151過去場判別の評価/入口選択/選択の確認.json"
+        },
+        {
+          "保存元ZIP": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+          "ZIP_SHA256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+          "ZIP内path": "work/151過去場判別の評価/入口選択/選択対応.json",
+          "sha256": "2c8a9c9e932b2469c50534e93b8ea4770613ef951da68f2f74d7a022bcb18266",
+          "bytes": 6935604,
+          "復元先": "work/151過去場判別の評価/入口選択/選択対応.json"
+        },
+        {
+          "保存元ZIP": "study/00149_継続と反転を可読8局面で判定する/再現資料/149正式化と再現の資料.zip",
+          "ZIP_SHA256": "7888ca4e56486aaa59516dd9a834ac8e40ade8cd4879bd75ee1c9d337b00ddc3",
+          "ZIP内path": "work/確定三表のCSV出力/CSVを独立再読する.py",
+          "sha256": "f161688d1e4f742c0e290e45bbbbbf6506ee07ac06eb01e505d3455c24c9b60b",
+          "bytes": 12933,
+          "復元先": "work/確定三表のCSV出力_版2/CSVを独立再読する.py"
+        },
+        {
+          "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/確認と保存の追補.zip",
+          "ZIP_SHA256": "ec802544329a81dd4b35eeb773c0a57710488c82268d86aee566bc0cc87681e3",
+          "ZIP内path": "work/確定三表のCSV出力_版2/出力する.mjs",
+          "sha256": "0994706575ed4fc634fe5d0577d48b5b79e95ff0db2330407daf02a74ca478d3",
+          "bytes": 11463,
+          "復元先": "work/確定三表のCSV出力_版2/出力する.mjs"
+        },
+        {
+          "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151入口選択前の固定資料.zip",
+          "ZIP_SHA256": "88c7ea0b33ac7b71171d7ac4c9a5dd33d3f90085894f482ad51dfde17baead3b",
+          "ZIP内path": "work/過去場だけの教師選択と時間区画重み/教師選択.py",
+          "sha256": "075ac230ea4ec2b7c5aa3a59fd7348941a903f9612611ef7c26ad1d5705017df",
+          "bytes": 8491,
+          "復元先": "work/過去場だけの教師選択と時間区画重み/教師選択.py"
+        }
+      ],
+      "新小型源": [
+        {
+          "path": "work/151複合テクニカルの金融集計を独立に照合する.py",
+          "sha256": "10b3a7a0595fb3b54ecfa4a6f3e8ce0013ee3390593e7089dd412f2136fd0997",
+          "bytes": 10338
+        },
+        {
+          "path": "work/151過去場判別の金融集計/人工検査.py",
+          "sha256": "dc94f306e51cdd22e0e0ca5e1a70192dd81ef8d60606605f8a236e4811c29062",
+          "bytes": 6685
+        },
+        {
+          "path": "work/151過去場判別の金融集計/停止.json",
+          "sha256": "92b0bd8c8d23fd3f3e6e8e2a78383656b14979a8eae436ff8cdc55708f8f3864",
+          "bytes": 555
+        },
+        {
+          "path": "work/151過去場判別の金融集計/条件.md",
+          "sha256": "c686345d346873961d30a513aa5d2d18a78c0451030e78823fb753c3f1919ef7",
+          "bytes": 2176
+        },
+        {
+          "path": "work/151過去場判別の金融集計/準備する.py",
+          "sha256": "56bc7070854460a1018df8eaa04acb768bf0d14dd3f4adc320003ee2d2b2a173",
+          "bytes": 4337
+        },
+        {
+          "path": "work/151過去場判別の金融集計/準備の確認.json",
+          "sha256": "46b5e27f3e89848243b8a24564db2b6c0f85a941bac48cf023185e5b271580aa",
+          "bytes": 4850
+        },
+        {
+          "path": "work/151過去場判別の金融集計/集計する.py",
+          "sha256": "1a4c23b47cc473f86434c5c30d138d0fc1e5c60bb08d276ae2117fbe6fab4b35",
+          "bytes": 20083
+        },
+        {
+          "path": "work/151金融前を固定する.py",
+          "sha256": "2ee5507aa0f12113674fa5cefc68459bb529ea1e1ddbf48458674d982d1244a1",
+          "bytes": 3066
+        }
+      ],
+      "新小型ZIP": {
+        "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151F2金融集計前の固定資料.zip",
+        "ZIP_SHA256": "cfd1483165b1341717872fdd5f4ce77ffba19b997d5a384cb2be191ed6fed67a",
+        "ZIP_bytes": 24188,
+        "格納源": [
+          {
+            "path": "work/151複合テクニカルの金融集計を独立に照合する.py",
+            "ZIP内path": "work/151複合テクニカルの金融集計を独立に照合する.py",
+            "sha256": "10b3a7a0595fb3b54ecfa4a6f3e8ce0013ee3390593e7089dd412f2136fd0997",
+            "bytes": 10338,
+            "読取元": "work/151複合テクニカルの金融集計を独立に照合する.py"
+          },
+          {
+            "path": "work/151過去場判別の金融集計/人工検査.py",
+            "ZIP内path": "work/151過去場判別の金融集計/人工検査.py",
+            "sha256": "dc94f306e51cdd22e0e0ca5e1a70192dd81ef8d60606605f8a236e4811c29062",
+            "bytes": 6685,
+            "読取元": "work/151過去場判別の金融集計/人工検査.py"
+          },
+          {
+            "path": "work/151過去場判別の金融集計/停止.json",
+            "ZIP内path": "work/151過去場判別の金融集計/停止.json",
+            "sha256": "92b0bd8c8d23fd3f3e6e8e2a78383656b14979a8eae436ff8cdc55708f8f3864",
+            "bytes": 555,
+            "読取元": "work/151過去場判別の金融集計/停止.json"
+          },
+          {
+            "path": "work/151過去場判別の金融集計/条件.md",
+            "ZIP内path": "work/151過去場判別の金融集計/条件.md",
+            "sha256": "c686345d346873961d30a513aa5d2d18a78c0451030e78823fb753c3f1919ef7",
+            "bytes": 2176,
+            "読取元": "work/151過去場判別の金融集計/条件.md"
+          },
+          {
+            "path": "work/151過去場判別の金融集計/準備する.py",
+            "ZIP内path": "work/151過去場判別の金融集計/準備する.py",
+            "sha256": "56bc7070854460a1018df8eaa04acb768bf0d14dd3f4adc320003ee2d2b2a173",
+            "bytes": 4337,
+            "読取元": "work/151過去場判別の金融集計/準備する.py"
+          },
+          {
+            "path": "work/151過去場判別の金融集計/準備の確認.json",
+            "ZIP内path": "work/151過去場判別の金融集計/準備の確認.json",
+            "sha256": "46b5e27f3e89848243b8a24564db2b6c0f85a941bac48cf023185e5b271580aa",
+            "bytes": 4850,
+            "読取元": "work/151過去場判別の金融集計/準備の確認.json"
+          },
+          {
+            "path": "work/151過去場判別の金融集計/集計する.py",
+            "ZIP内path": "work/151過去場判別の金融集計/集計する.py",
+            "sha256": "1a4c23b47cc473f86434c5c30d138d0fc1e5c60bb08d276ae2117fbe6fab4b35",
+            "bytes": 20083,
+            "読取元": "work/151過去場判別の金融集計/集計する.py"
+          },
+          {
+            "path": "work/151金融前を固定する.py",
+            "ZIP内path": "work/151金融前を固定する.py",
+            "sha256": "2ee5507aa0f12113674fa5cefc68459bb529ea1e1ddbf48458674d982d1244a1",
+            "bytes": 3066,
+            "読取元": "work/151金融前を固定する.py"
+          }
+        ]
+      }
+    }
+  },
+  "金融とCSV及び後発cache参照の保存": [
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/成果物/集計.json",
+      "復元先": "work/151過去場判別の評価/金融診断/集計.json",
+      "形式": "同体",
+      "保存SHA256": "ab002c2088784bb45ea86800550013ae44637f39d4bafb7a70e42814789ccd04",
+      "保存bytes": 1283791,
+      "解凍SHA256": "ab002c2088784bb45ea86800550013ae44637f39d4bafb7a70e42814789ccd04",
+      "解凍bytes": 1283791
+    },
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/成果物/CSV用の表.json.gz",
+      "復元先": "work/151過去場判別の評価/金融診断/CSV用の表.json",
+      "形式": "gzip",
+      "保存SHA256": "dc7c8568851cf178faadbb841acf67262b092aa74509fc0e3fcc43e964bf0851",
+      "保存bytes": 79671,
+      "解凍SHA256": "0a9ba7c3bd4ad348ae9f7628bf042a2d112b107418c59dae19dfba36acd1bd69",
+      "解凍bytes": 1194169
+    },
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/成果物/集計完了.json",
+      "復元先": "work/151過去場判別の評価/金融診断/集計完了.json",
+      "形式": "同体",
+      "保存SHA256": "963851ebc616a5944a2a756ad8bc18c71486180ce9e69bf08923197ef2b0f165",
+      "保存bytes": 3164,
+      "解凍SHA256": "963851ebc616a5944a2a756ad8bc18c71486180ce9e69bf08923197ef2b0f165",
+      "解凍bytes": 3164
+    },
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/金融独立検算.json",
+      "復元先": "work/151過去場判別の評価/金融診断/独立検算.json",
+      "形式": "同体",
+      "保存SHA256": "855af07b54b44bbc8ebeb51f2367487ab02b9490f69406570af847339e9b9fb7",
+      "保存bytes": 10924,
+      "解凍SHA256": "855af07b54b44bbc8ebeb51f2367487ab02b9490f69406570af847339e9b9fb7",
+      "解凍bytes": 10924
+    },
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/CSV独立再読.json",
+      "復元先": "work/151過去場判別の評価/金融診断/CSV独立再読.json",
+      "形式": "同体",
+      "保存SHA256": "af7a623865c657f787915fe911381e18d051a9ee4607e90fcafc4ed0e9226e5a",
+      "保存bytes": 5200,
+      "解凍SHA256": "af7a623865c657f787915fe911381e18d051a9ee4607e90fcafc4ed0e9226e5a",
+      "解凍bytes": 5200
+    },
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/監査cacheの後発参照.json",
+      "復元先": "work/151過去場判別の評価/監査cacheの後発参照.json",
+      "形式": "同体",
+      "保存SHA256": "d7bc76ec0b8ebe001e3d0df3359325d5066c63a9f4a88f686c955dcfa88d2c49",
+      "保存bytes": 2671,
+      "解凍SHA256": "d7bc76ec0b8ebe001e3d0df3359325d5066c63a9f4a88f686c955dcfa88d2c49",
+      "解凍bytes": 2671
+    }
+  ],
+  "停止した確率と背景の診断": {
+    "最終確認SHA256": "0498467713e686d14469b0d7dfda59ac7f22661eda40241e5f7782a86bf224e6",
+    "正本": [
+      {
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/確率と集中の原因.md",
+        "復元先": "work/151確率と集中の原因診断/短報.md",
+        "形式": "同体",
+        "保存SHA256": "f10a0b3aea1fdabb09ab16276bae3dbf7b8779d9988199b3910947b213d87357",
+        "保存bytes": 5755,
+        "解凍SHA256": "f10a0b3aea1fdabb09ab16276bae3dbf7b8779d9988199b3910947b213d87357",
+        "解凍bytes": 5755
+      },
+      {
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/強い反対背景と未回復の追補.md",
+        "復元先": "work/151確率と集中の原因診断/背景追補の短報.md",
+        "形式": "同体",
+        "保存SHA256": "8a9f0c6179d20c6c1cec91a477a732da446f460fa76ba821d88e37ef5ab8b0fd",
+        "保存bytes": 4048,
+        "解凍SHA256": "8a9f0c6179d20c6c1cec91a477a732da446f460fa76ba821d88e37ef5ab8b0fd",
+        "解凍bytes": 4048
+      },
+      {
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/確率と集中の診断.json.gz",
+        "復元先": "work/151確率と集中の原因診断/診断.json",
+        "形式": "gzip",
+        "保存SHA256": "8ee17e3f992f350eff64589848f075ed920a47254faf846dba0e0f2911fa1a34",
+        "保存bytes": 88914,
+        "解凍SHA256": "84926bcf2084ab51d98e5e3889993955a08d31bef1923c45c43e88fa712fa712",
+        "解凍bytes": 1730632
+      },
+      {
+        "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/背景の追補.json.gz",
+        "復元先": "work/151確率と集中の原因診断/背景追補.json",
+        "形式": "gzip",
+        "保存SHA256": "5f61bc8edf95f370602a33ef85fe8d8ecaa74cbd3633d21b75eb9bcc9ad09579",
+        "保存bytes": 17540,
+        "解凍SHA256": "2b1dc88c296f3940eaaf9470e4b4d914efe86f8b0e5910f7067fe41f2fd41146",
+        "解凍bytes": 277512
+      }
+    ],
+    "復元参照": {
+      "保存済み参照": [
+        {
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/確率と集中の原因.md",
+          "復元先": "work/151確率と集中の原因診断/短報.md",
+          "形式": "同体",
+          "保存SHA256": "f10a0b3aea1fdabb09ab16276bae3dbf7b8779d9988199b3910947b213d87357",
+          "保存bytes": 5755,
+          "解凍SHA256": "f10a0b3aea1fdabb09ab16276bae3dbf7b8779d9988199b3910947b213d87357",
+          "解凍bytes": 5755
+        },
+        {
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/背景の追補.json.gz",
+          "復元先": "work/151確率と集中の原因診断/背景追補.json",
+          "形式": "gzip",
+          "保存SHA256": "5f61bc8edf95f370602a33ef85fe8d8ecaa74cbd3633d21b75eb9bcc9ad09579",
+          "保存bytes": 17540,
+          "解凍SHA256": "2b1dc88c296f3940eaaf9470e4b4d914efe86f8b0e5910f7067fe41f2fd41146",
+          "解凍bytes": 277512
+        },
+        {
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/強い反対背景と未回復の追補.md",
+          "復元先": "work/151確率と集中の原因診断/背景追補の短報.md",
+          "形式": "同体",
+          "保存SHA256": "8a9f0c6179d20c6c1cec91a477a732da446f460fa76ba821d88e37ef5ab8b0fd",
+          "保存bytes": 4048,
+          "解凍SHA256": "8a9f0c6179d20c6c1cec91a477a732da446f460fa76ba821d88e37ef5ab8b0fd",
+          "解凍bytes": 4048
+        },
+        {
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/確率と集中の診断.json.gz",
+          "復元先": "work/151確率と集中の原因診断/診断.json",
+          "形式": "gzip",
+          "保存SHA256": "8ee17e3f992f350eff64589848f075ed920a47254faf846dba0e0f2911fa1a34",
+          "保存bytes": 88914,
+          "解凍SHA256": "84926bcf2084ab51d98e5e3889993955a08d31bef1923c45c43e88fa712fa712",
+          "解凍bytes": 1730632
+        }
+      ],
+      "既存恒久正本": [],
+      "共有源": [],
+      "新小型源": [
+        {
+          "path": "work/151確率と集中の原因診断/10月15日背景の追補範囲.md",
+          "sha256": "67400288557ef9f1235a3134bee5a92bb3d8f3770fdd07a2a5d93515ee579a53",
+          "bytes": 1894
+        },
+        {
+          "path": "work/151確率と集中の原因診断/人工検査.py",
+          "sha256": "e0f1fedacb497ff370e787f573f209d073bfd7e5a5017a6cb041ec2d21093666",
+          "bytes": 3124
+        },
+        {
+          "path": "work/151確率と集中の原因診断/停止.json",
+          "sha256": "3bfb6b4424ba201fa04277f64527f86c34888b8162ae539e780f40adeff0af4a",
+          "bytes": 1695
+        },
+        {
+          "path": "work/151確率と集中の原因診断/最終の確認.json",
+          "sha256": "0498467713e686d14469b0d7dfda59ac7f22661eda40241e5f7782a86bf224e6",
+          "bytes": 3033
+        },
+        {
+          "path": "work/151確率と集中の原因診断/確認して停止する.py",
+          "sha256": "1ebd74176f2b32a81056b075cc8b21b4b478856049be66428479df3340a2c117",
+          "bytes": 4598
+        },
+        {
+          "path": "work/151確率と集中の原因診断/背景を追補する.py",
+          "sha256": "0413440b8cc999832a23970d48a8ee322988735d67c2cf7f65c15b996e7ab196",
+          "bytes": 8707
+        },
+        {
+          "path": "work/151確率と集中の原因診断/背景追補の確認.json",
+          "sha256": "874c964ecfbc569d6dcbf582751a5127c33735909439aaf2fb244817e1a12843",
+          "bytes": 1739
+        },
+        {
+          "path": "work/151確率と集中の原因診断/診断する.py",
+          "sha256": "52db103ddf20bd1540eddadc6bba45e954ada1a4ffb9809317024b3648386a8d",
+          "bytes": 16293
+        },
+        {
+          "path": "work/151確率と集中の原因診断/診断の確認.json",
+          "sha256": "32b420ea299bebbeb91cdb0d673e4b0ba3f8af0a69fc82993072ac62b6948975",
+          "bytes": 1924
+        },
+        {
+          "path": "work/151確率と集中の原因診断/診断範囲.md",
+          "sha256": "c78fe9965515e74ec8665bd97457fd7d57023ac550817b105fc4711caaa6f183",
+          "bytes": 2428
+        }
+      ],
+      "新小型ZIP": {
+        "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151確率と背景の事後診断の固定資料.zip",
+        "ZIP_SHA256": "c908ded57576a112a4d1fb6145eab8f676ff64d43a9d0e4ba8a670329cbffd34",
+        "ZIP_bytes": 22463,
+        "格納源": [
+          {
+            "path": "work/151確率と集中の原因診断/10月15日背景の追補範囲.md",
+            "ZIP内path": "work/151確率と集中の原因診断/10月15日背景の追補範囲.md",
+            "sha256": "67400288557ef9f1235a3134bee5a92bb3d8f3770fdd07a2a5d93515ee579a53",
+            "bytes": 1894,
+            "読取元": "work/151確率と集中の原因診断/10月15日背景の追補範囲.md"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/人工検査.py",
+            "ZIP内path": "work/151確率と集中の原因診断/人工検査.py",
+            "sha256": "e0f1fedacb497ff370e787f573f209d073bfd7e5a5017a6cb041ec2d21093666",
+            "bytes": 3124,
+            "読取元": "work/151確率と集中の原因診断/人工検査.py"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/停止.json",
+            "ZIP内path": "work/151確率と集中の原因診断/停止.json",
+            "sha256": "3bfb6b4424ba201fa04277f64527f86c34888b8162ae539e780f40adeff0af4a",
+            "bytes": 1695,
+            "読取元": "work/151確率と集中の原因診断/停止.json"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/最終の確認.json",
+            "ZIP内path": "work/151確率と集中の原因診断/最終の確認.json",
+            "sha256": "0498467713e686d14469b0d7dfda59ac7f22661eda40241e5f7782a86bf224e6",
+            "bytes": 3033,
+            "読取元": "work/151確率と集中の原因診断/最終の確認.json"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/確認して停止する.py",
+            "ZIP内path": "work/151確率と集中の原因診断/確認して停止する.py",
+            "sha256": "1ebd74176f2b32a81056b075cc8b21b4b478856049be66428479df3340a2c117",
+            "bytes": 4598,
+            "読取元": "work/151確率と集中の原因診断/確認して停止する.py"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/背景を追補する.py",
+            "ZIP内path": "work/151確率と集中の原因診断/背景を追補する.py",
+            "sha256": "0413440b8cc999832a23970d48a8ee322988735d67c2cf7f65c15b996e7ab196",
+            "bytes": 8707,
+            "読取元": "work/151確率と集中の原因診断/背景を追補する.py"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/背景追補の確認.json",
+            "ZIP内path": "work/151確率と集中の原因診断/背景追補の確認.json",
+            "sha256": "874c964ecfbc569d6dcbf582751a5127c33735909439aaf2fb244817e1a12843",
+            "bytes": 1739,
+            "読取元": "work/151確率と集中の原因診断/背景追補の確認.json"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/診断する.py",
+            "ZIP内path": "work/151確率と集中の原因診断/診断する.py",
+            "sha256": "52db103ddf20bd1540eddadc6bba45e954ada1a4ffb9809317024b3648386a8d",
+            "bytes": 16293,
+            "読取元": "work/151確率と集中の原因診断/診断する.py"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/診断の確認.json",
+            "ZIP内path": "work/151確率と集中の原因診断/診断の確認.json",
+            "sha256": "32b420ea299bebbeb91cdb0d673e4b0ba3f8af0a69fc82993072ac62b6948975",
+            "bytes": 1924,
+            "読取元": "work/151確率と集中の原因診断/診断の確認.json"
+          },
+          {
+            "path": "work/151確率と集中の原因診断/診断範囲.md",
+            "ZIP内path": "work/151確率と集中の原因診断/診断範囲.md",
+            "sha256": "c78fe9965515e74ec8665bd97457fd7d57023ac550817b105fc4711caaa6f183",
+            "bytes": 2428,
+            "読取元": "work/151確率と集中の原因診断/診断範囲.md"
+          }
+        ]
+      }
+    },
+    "新条件採用": false,
+    "全期事後": true
+  },
+  "自然選択の独立監査": {
+    "保存票": {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/自然選択の独立監査.json",
+      "復元先": "work/151自然選択の独立監査/自然確認/監査の確認.json",
+      "形式": "同体",
+      "保存SHA256": "899471f1ba22e6a7ac690dcf6c334eb812f98d8a60d91492eb093d2cc69c2d37",
+      "保存bytes": 44254,
+      "解凍SHA256": "899471f1ba22e6a7ac690dcf6c334eb812f98d8a60d91492eb093d2cc69c2d37",
+      "解凍bytes": 44254
+    },
+    "復元参照": {
+      "保存済み参照": [
+        {
+          "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/自然選択の独立監査.json",
+          "復元先": "work/151自然選択の独立監査/自然確認/監査の確認.json",
+          "形式": "同体",
+          "保存SHA256": "899471f1ba22e6a7ac690dcf6c334eb812f98d8a60d91492eb093d2cc69c2d37",
+          "保存bytes": 44254,
+          "解凍SHA256": "899471f1ba22e6a7ac690dcf6c334eb812f98d8a60d91492eb093d2cc69c2d37",
+          "解凍bytes": 44254
+        }
+      ],
+      "既存恒久正本": [],
+      "共有源": [],
+      "新小型源": [
+        {
+          "path": "work/151自然選択の独立監査/README.md",
+          "sha256": "1a75bd174d035e2e0c41ceadd51b24d8cb6bc6005ea976bcb176f2cb7a5c4c7a",
+          "bytes": 4042
+        },
+        {
+          "path": "work/151自然選択の独立監査/停止の確認.json",
+          "sha256": "07e7b57d6c17533b7b2534b87020b7829dd64187cc08e1530057f68360d90d36",
+          "bytes": 1433
+        },
+        {
+          "path": "work/151自然選択の独立監査/準備の確認.json",
+          "sha256": "5424f74995aa4e66b1a5b490f6cace6f1e2076249c76319e52b2e016362046ae",
+          "bytes": 551
+        },
+        {
+          "path": "work/151自然選択の独立監査/準備人工.py",
+          "sha256": "07cf9f0c344de9f9a2daf2fe46d2ccb1ffc801cf47555e073bcf6fe62ea10386",
+          "bytes": 7247
+        },
+        {
+          "path": "work/151自然選択の独立監査/準備人工のログ.txt",
+          "sha256": "a681042d37cebd69e19b8bda03c7d394a6fa0deb976e96f0648b45cfcbc93fca",
+          "bytes": 732
+        },
+        {
+          "path": "work/151自然選択の独立監査/監査する.py",
+          "sha256": "3546d80ece35d9b94a76e48e36a73b12e118c0a8e8e02152123bde56b4bfd794",
+          "bytes": 24401
+        }
+      ],
+      "新小型ZIP": {
+        "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151自然選択の独立監査の固定資料.zip",
+        "ZIP_SHA256": "ec1752c5d36d6b59eae14724cf791bda371f7215eeb30571e278d8c4899fe643",
+        "ZIP_bytes": 16374,
+        "格納源": [
+          {
+            "path": "work/151自然選択の独立監査/README.md",
+            "ZIP内path": "work/151自然選択の独立監査/README.md",
+            "sha256": "1a75bd174d035e2e0c41ceadd51b24d8cb6bc6005ea976bcb176f2cb7a5c4c7a",
+            "bytes": 4042,
+            "読取元": "work/151自然選択の独立監査/README.md"
+          },
+          {
+            "path": "work/151自然選択の独立監査/停止の確認.json",
+            "ZIP内path": "work/151自然選択の独立監査/停止の確認.json",
+            "sha256": "07e7b57d6c17533b7b2534b87020b7829dd64187cc08e1530057f68360d90d36",
+            "bytes": 1433,
+            "読取元": "work/151自然選択の独立監査/停止の確認.json"
+          },
+          {
+            "path": "work/151自然選択の独立監査/準備の確認.json",
+            "ZIP内path": "work/151自然選択の独立監査/準備の確認.json",
+            "sha256": "5424f74995aa4e66b1a5b490f6cace6f1e2076249c76319e52b2e016362046ae",
+            "bytes": 551,
+            "読取元": "work/151自然選択の独立監査/準備の確認.json"
+          },
+          {
+            "path": "work/151自然選択の独立監査/準備人工.py",
+            "ZIP内path": "work/151自然選択の独立監査/準備人工.py",
+            "sha256": "07cf9f0c344de9f9a2daf2fe46d2ccb1ffc801cf47555e073bcf6fe62ea10386",
+            "bytes": 7247,
+            "読取元": "work/151自然選択の独立監査/準備人工.py"
+          },
+          {
+            "path": "work/151自然選択の独立監査/準備人工のログ.txt",
+            "ZIP内path": "work/151自然選択の独立監査/準備人工のログ.txt",
+            "sha256": "a681042d37cebd69e19b8bda03c7d394a6fa0deb976e96f0648b45cfcbc93fca",
+            "bytes": 732,
+            "読取元": "work/151自然選択の独立監査/準備人工のログ.txt"
+          },
+          {
+            "path": "work/151自然選択の独立監査/監査する.py",
+            "ZIP内path": "work/151自然選択の独立監査/監査する.py",
+            "sha256": "3546d80ece35d9b94a76e48e36a73b12e118c0a8e8e02152123bde56b4bfd794",
+            "bytes": 24401,
+            "読取元": "work/151自然選択の独立監査/監査する.py"
+          }
+        ]
+      }
+    },
+    "65保存JSON再推論": true,
+    "全35339q0と73場の教師署名重み": true,
+    "末端比較数": 1446946,
+    "再学習": false,
+    "金融算術とは別": true
+  },
+  "監査cacheは後発": {
+    "参照票": {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/根拠/監査cacheの後発参照.json",
+      "復元先": "work/151過去場判別の評価/監査cacheの後発参照.json",
+      "形式": "同体",
+      "保存SHA256": "d7bc76ec0b8ebe001e3d0df3359325d5066c63a9f4a88f686c955dcfa88d2c49",
+      "保存bytes": 2671,
+      "解凍SHA256": "d7bc76ec0b8ebe001e3d0df3359325d5066c63a9f4a88f686c955dcfa88d2c49",
+      "解凍bytes": 2671
+    },
+    "原cache4件の所在とSHA": {
+      "work/151過去場判別の評価/入口選択/cache/feature_only/features.npz": "5b309e0821403fcf1b122956fc6c9fe20ec5dfbe4327d7d674193b8e58f99b44",
+      "work/151過去場判別の評価/入口選択/cache/feature_only/features_meta.json": "71df54db57a3093eb4de2f5ce26c654c758f9181e07f61660cb1a192f6fa4602",
+      "work/151過去場判別の評価/入口選択/cache/teacher_only/teachers.npz": "ec613a27461c32d1aa09aed4ecf3b013c2d7dc827d86ba642385698547f22689",
+      "work/151過去場判別の評価/入口選択/cache/teacher_only/teachers_meta.json": "3b723ca78d5ddc8ab4f301d5f9ba18ee08bea4e0159a085558296f824d736106"
+    },
+    "原cache新複製": false,
+    "再現": "共有148の固定入力/特徴/取得/metadata/観測とdata151から隔離workへ再生成可能。保存モデル/配列署名/全q0の独立照合を証拠とする。NPZ物理bytes再現は主張しない。"
+  },
+  "保存と表示の後発資料": {
+    "保存済み参照": [],
+    "既存恒久正本": [],
+    "共有源": [
+      {
+        "保存元ZIP": "study/00149_継続と反転を可読8局面で判定する/再現資料/149正式化と再現の資料.zip",
+        "ZIP_SHA256": "7888ca4e56486aaa59516dd9a834ac8e40ade8cd4879bd75ee1c9d337b00ddc3",
+        "ZIP内path": "work/確定三表のCSV出力/出力する.mjs",
+        "sha256": "93ffba415bc9aa273758bd05475360256f376d601e0445b01b2b10d16240b3e5",
+        "bytes": 11457,
+        "復元先": "work/確定三表のCSV出力/出力する.mjs"
+      },
+      {
+        "保存元ZIP": "study/00149_継続と反転を可読8局面で判定する/再現資料/149正式化と再現の資料.zip",
+        "ZIP_SHA256": "7888ca4e56486aaa59516dd9a834ac8e40ade8cd4879bd75ee1c9d337b00ddc3",
+        "ZIP内path": "work/確定三表のCSV出力/CSVを独立再読する.py",
+        "sha256": "f161688d1e4f742c0e290e45bbbbbf6506ee07ac06eb01e505d3455c24c9b60b",
+        "bytes": 12933,
+        "復元先": "work/確定三表のCSV出力/CSVを独立再読する.py"
+      },
+      {
+        "保存元ZIP": "study/00149_継続と反転を可読8局面で判定する/再現資料/149正式化と再現の資料.zip",
+        "ZIP_SHA256": "7888ca4e56486aaa59516dd9a834ac8e40ade8cd4879bd75ee1c9d337b00ddc3",
+        "ZIP内path": "work/確定三表のCSV出力/由来.json",
+        "sha256": "3de4a72d35ba156d33d961cf76a0e4eecbd53df63dfd76b156aec95024b8ad98",
+        "bytes": 716,
+        "復元先": "work/確定三表のCSV出力/由来.json"
+      }
+    ],
+    "新小型源": [
+      {
+        "path": "work/151正式保存/人工検査.py",
+        "sha256": "a900fc7818cd1539a52d601aa41fa3e5c32c342494ae2ac7e16f7a5daaef7223",
+        "bytes": 8427
+      },
+      {
+        "path": "work/151正式保存/保存部品.py",
+        "sha256": "941f08fc4dc098bd00063f2c3c5a1160bc11ac2c0ea342a613138a8046d600de",
+        "bytes": 22995
+      },
+      {
+        "path": "work/151正式保存/保管する.py",
+        "sha256": "e9bb761e08a3189aec492c4eb2ec88ed26c70d9923fb9945bfc1f2cdc39b5158",
+        "bytes": 2001
+      },
+      {
+        "path": "work/151正式保存/保管を仕上げる.py",
+        "sha256": "2c73279599178815d7bfbedae5ebd16c921143780f8a2f06ff9ba63453fd6f03",
+        "bytes": 13856
+      },
+      {
+        "path": "work/151正式保存/正式結果を反映する.py",
+        "sha256": "c5f07011b16e30f57d2677320d7e6effc84bd2cad32869bf83d74943fb6c6cf0",
+        "bytes": 13692
+      },
+      {
+        "path": "work/151正式保存/人工の確認.json",
+        "sha256": "af6791dd74f97fe9750ec2f9f9518eeb75af4c8b894d9b36fb5a4da60f276c98",
+        "bytes": 796
+      },
+      {
+        "path": "work/151正式保存/準備の確認.json",
+        "sha256": "5ffe2e940f7acfcac9b722c793407fa8b1bd46d903a4fe6c074d2858477b896b",
+        "bytes": 716
+      },
+      {
+        "path": "work/151正式保存/金融保存job.json",
+        "sha256": "1b958e790d6c802972aa10af9524168b423091008e120b3491655d1182401147",
+        "bytes": 1708
+      },
+      {
+        "path": "work/151正式保存/保存方針.md",
+        "sha256": "d01c396b629e27f760d9814a2930908e9d6385e17428d11e74e5efab38beccec",
+        "bytes": 2150
+      },
+      {
+        "path": "work/151監査cacheの追補固定.py",
+        "sha256": "7e14f3e0792fb474c191a27e532516e9ed31e590bca7d9d47da75d239a4d7d36",
+        "bytes": 2314
+      },
+      {
+        "path": "work/151正式準備3MDを作成する.py",
+        "sha256": "82ab4b738f9dd40b0b5f69bc714fff6d1c700152a3ed3cfd0422ffe6980ea5dc",
+        "bytes": 27528
+      },
+      {
+        "path": "work/151正式準備をbookとSourceへ束縛する.py",
+        "sha256": "97200966bf8967c63ce9bb28a6c6122afb89b9ef368a4a61844ea0ee8fbb7451",
+        "bytes": 14639
+      },
+      {
+        "path": "work/151正式閾値準備の確認.json",
+        "sha256": "1441ae7fd09051bc079d0ba567fd4d3f11645dfcfe49222ebf7743a772fb6255",
+        "bytes": 2393
+      },
+      {
+        "path": "work/151bookとSource束縛の準備確認.json",
+        "sha256": "c5a7a97f88ed90002afd7d7faf515429f2e445daaa6ffe7cd15dbf40b4ba8e8b",
+        "bytes": 3285
+      }
+    ],
+    "新小型ZIP": {
+      "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151保存と表示の後発資料の固定資料.zip",
+      "ZIP_SHA256": "2a32be3cd0925dbc3fd67dfe87400508f3d5551da5a70d18e414cc7bcc2d8bb0",
+      "ZIP_bytes": 51275,
+      "格納源": [
+        {
+          "path": "work/151bookとSource束縛の準備確認.json",
+          "ZIP内path": "work/151bookとSource束縛の準備確認.json",
+          "sha256": "c5a7a97f88ed90002afd7d7faf515429f2e445daaa6ffe7cd15dbf40b4ba8e8b",
+          "bytes": 3285,
+          "読取元": "work/151bookとSource束縛の準備確認.json"
+        },
+        {
+          "path": "work/151正式保存/人工の確認.json",
+          "ZIP内path": "work/151正式保存/人工の確認.json",
+          "sha256": "af6791dd74f97fe9750ec2f9f9518eeb75af4c8b894d9b36fb5a4da60f276c98",
+          "bytes": 796,
+          "読取元": "work/151正式保存/人工の確認.json"
+        },
+        {
+          "path": "work/151正式保存/人工検査.py",
+          "ZIP内path": "work/151正式保存/人工検査.py",
+          "sha256": "a900fc7818cd1539a52d601aa41fa3e5c32c342494ae2ac7e16f7a5daaef7223",
+          "bytes": 8427,
+          "読取元": "work/151正式保存/人工検査.py"
+        },
+        {
+          "path": "work/151正式保存/保存方針.md",
+          "ZIP内path": "work/151正式保存/保存方針.md",
+          "sha256": "d01c396b629e27f760d9814a2930908e9d6385e17428d11e74e5efab38beccec",
+          "bytes": 2150,
+          "読取元": "work/151正式保存/保存方針.md"
+        },
+        {
+          "path": "work/151正式保存/保存部品.py",
+          "ZIP内path": "work/151正式保存/保存部品.py",
+          "sha256": "941f08fc4dc098bd00063f2c3c5a1160bc11ac2c0ea342a613138a8046d600de",
+          "bytes": 22995,
+          "読取元": "work/151正式保存/保存部品.py"
+        },
+        {
+          "path": "work/151正式保存/保管する.py",
+          "ZIP内path": "work/151正式保存/保管する.py",
+          "sha256": "e9bb761e08a3189aec492c4eb2ec88ed26c70d9923fb9945bfc1f2cdc39b5158",
+          "bytes": 2001,
+          "読取元": "work/151正式保存/保管する.py"
+        },
+        {
+          "path": "work/151正式保存/保管を仕上げる.py",
+          "ZIP内path": "work/151正式保存/保管を仕上げる.py",
+          "sha256": "2c73279599178815d7bfbedae5ebd16c921143780f8a2f06ff9ba63453fd6f03",
+          "bytes": 13856,
+          "読取元": "work/151正式保存/保管を仕上げる.py"
+        },
+        {
+          "path": "work/151正式保存/正式結果を反映する.py",
+          "ZIP内path": "work/151正式保存/正式結果を反映する.py",
+          "sha256": "c5f07011b16e30f57d2677320d7e6effc84bd2cad32869bf83d74943fb6c6cf0",
+          "bytes": 13692,
+          "読取元": "work/151正式保存/正式結果を反映する.py"
+        },
+        {
+          "path": "work/151正式保存/準備の確認.json",
+          "ZIP内path": "work/151正式保存/準備の確認.json",
+          "sha256": "5ffe2e940f7acfcac9b722c793407fa8b1bd46d903a4fe6c074d2858477b896b",
+          "bytes": 716,
+          "読取元": "work/151正式保存/準備の確認.json"
+        },
+        {
+          "path": "work/151正式保存/金融保存job.json",
+          "ZIP内path": "work/151正式保存/金融保存job.json",
+          "sha256": "1b958e790d6c802972aa10af9524168b423091008e120b3491655d1182401147",
+          "bytes": 1708,
+          "読取元": "work/151正式保存/金融保存job.json"
+        },
+        {
+          "path": "work/151正式準備3MDを作成する.py",
+          "ZIP内path": "work/151正式準備3MDを作成する.py",
+          "sha256": "82ab4b738f9dd40b0b5f69bc714fff6d1c700152a3ed3cfd0422ffe6980ea5dc",
+          "bytes": 27528,
+          "読取元": "work/151正式準備3MDを作成する.py"
+        },
+        {
+          "path": "work/151正式準備をbookとSourceへ束縛する.py",
+          "ZIP内path": "work/151正式準備をbookとSourceへ束縛する.py",
+          "sha256": "97200966bf8967c63ce9bb28a6c6122afb89b9ef368a4a61844ea0ee8fbb7451",
+          "bytes": 14639,
+          "読取元": "work/151正式準備をbookとSourceへ束縛する.py"
+        },
+        {
+          "path": "work/151正式閾値準備の確認.json",
+          "ZIP内path": "work/151正式閾値準備の確認.json",
+          "sha256": "1441ae7fd09051bc079d0ba567fd4d3f11645dfcfe49222ebf7743a772fb6255",
+          "bytes": 2393,
+          "読取元": "work/151正式閾値準備の確認.json"
+        },
+        {
+          "path": "work/151監査cacheの追補固定.py",
+          "ZIP内path": "work/151監査cacheの追補固定.py",
+          "sha256": "7e14f3e0792fb474c191a27e532516e9ed31e590bca7d9d47da75d239a4d7d36",
+          "bytes": 2314,
+          "読取元": "work/151監査cacheの追補固定.py"
+        }
+      ]
+    }
+  },
+  "CSV正本": [
+    {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/151_過去場だけの複合判別/入口別診断.csv",
+      "sha256": "813fd83067816aaea46fa409fe7df8b0f8d4a1daf5cb8d16103f132978898872",
+      "bytes": 279003
+    },
+    {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/151_過去場だけの複合判別/全セッション.csv",
+      "sha256": "d9ae6fc81a30e4243a3e12b8be3414a8123c3e316f4fb76ab399aec9ace9525d",
+      "bytes": 20772
+    },
+    {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/151_過去場だけの複合判別/正逆比較.csv",
+      "sha256": "f665b1bd543d02f1f913adc4a49b6b35a64e5a4dde96b5332ad29df1414df888",
+      "bytes": 156616
+    }
+  ],
+  "CSV支援画像": [
+    {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/151_過去場だけの複合判別/支援画像/入口別診断.png",
+      "sha256": "37ecbcf06a23fe7d5b1919f64e3eac689af1162d46e7dc95f75ffcb5e940bea4"
+    },
+    {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/151_過去場だけの複合判別/支援画像/全セッション.png",
+      "sha256": "690185f9134eece84f0165a2eb19c43c72accc220f1b1aa5a8aaaf4ac3d05e19"
+    },
+    {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/151_過去場だけの複合判別/支援画像/正逆比較.png",
+      "sha256": "5857447dfbf297d016bc84a584fb0dee5125c733fcf15cb8553b4a2b36732472"
+    }
+  ],
+  "Root画像確認": "RootがCSV3支援画像を目視確認。金融算術・CSV再読と別の表示検査。",
+  "結果文書の復元参照訂正": {
+    "対象": [
+      "study/00151_広い複合テクニカルを過去場だけで判別する/README.md",
+      "study/00151_広い複合テクニカルを過去場だけで判別する/条件.md",
+      "study/00151_広い複合テクニカルを過去場だけで判別する/設定と結果.md"
+    ],
+    "理由": "F2保管時は現在正式MDも元SHAだったが、結果追記後の復元はF0実行前snapshotへ同SHA参照する。固定票・Source・金融は不変更。"
+  },
+  "最終文書検査": [
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/正式文書の独立確認.json",
+      "復元先": "work/151正式結果の原文とリンクの独立確認/確認の記録.json",
+      "形式": "同体",
+      "保存SHA256": "9643c66b660f95fa2da47638aab4ba6292d1fcc15e8185329c0826e8c13d0b34",
+      "保存bytes": 3184,
+      "解凍SHA256": "9643c66b660f95fa2da47638aab4ba6292d1fcc15e8185329c0826e8c13d0b34",
+      "解凍bytes": 3184
+    },
+    {
+      "保存元": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/正式数値とリンクのRoot確認.json",
+      "復元先": "work/151正式数値とリンクのRoot確認.json",
+      "形式": "同体",
+      "保存SHA256": "7fe370349398b05e5612cfcca97b9443b485ca86007cf899f8102ab485d31713",
+      "保存bytes": 1429,
+      "解凍SHA256": "7fe370349398b05e5612cfcca97b9443b485ca86007cf899f8102ab485d31713",
+      "解凍bytes": 1429
+    }
+  ],
+  "最終確認コード": {
+    "保存元ZIP": "study/00151_広い複合テクニカルを過去場だけで判別する/再現資料/151最終確認の小資料.zip",
+    "ZIP_SHA256": "a5517399a614dfbebcd7e02efe74cd78e2da2f03174a235298e634e23e1a7797",
+    "ZIP_bytes": 16630,
+    "格納源": [
+      {
+        "path": "work/151正式保存/保存部品.py",
+        "ZIP内path": "work/151正式保存/保存部品.py",
+        "sha256": "aa858d760f3826a9cfb8980be5a5cc2c3690a4a439e378d1a7bc474769d7e128",
+        "bytes": 22984,
+        "読取元": "work/151正式保存/保存部品.py"
+      },
+      {
+        "path": "work/151正式保存/正式保存を確認する.py",
+        "ZIP内path": "work/151正式保存/正式保存を確認する.py",
+        "sha256": "a9c422e98f23415d323f5239a3049de6e8fb491408183f08bb49328016c880f8",
+        "bytes": 7453,
+        "読取元": "work/151正式保存/正式保存を確認する.py"
+      },
+      {
+        "path": "work/151正式数値とリンクを確認する.py",
+        "ZIP内path": "work/151正式数値とリンクを確認する.py",
+        "sha256": "ec9a790c8d821a9b9dfea25b611cdb10bf113e83d3f71ce8cde3937418cac0c8",
+        "bytes": 5566,
+        "読取元": "work/151正式数値とリンクを確認する.py"
+      },
+      {
+        "path": "work/151正式結果の原文とリンクの独立確認/確認する.py",
+        "ZIP内path": "work/151正式結果の原文とリンクの独立確認/確認する.py",
+        "sha256": "d31639edb8eac385af6a388646d5eef2ccc92cca919d3f7a22be98d506c1614f",
+        "bytes": 4832,
+        "読取元": "work/151正式結果の原文とリンクの独立確認/確認する.py"
+      }
+    ]
+  },
+  "正式3MD最終SHA256": {
+    "README.md": "36e7aedb6a61e0e28431cb9fe75e8489f11cb30f9d93f96ffada82047a3d2306",
+    "条件.md": "1140e7daeaf906e580d41372f6ad1d0a0d10b48c4d41bbea559cb9c3dff11131",
+    "設定と結果.md": "f009a961ab295decdbd213bcd001bf0349e45dd8a1c4ada884ba1eb4fdd25553"
+  },
+  "未解決事項": []
+}

@@ -1,0 +1,42 @@
+{
+  "成功": true,
+  "試行": 157,
+  "ZIP": {
+    "path": "study/00157_固定入口の到達距離と追尾退出を比較する/再現資料/再現コード.zip",
+    "sha256": "a63b59a8e6c7efc71480a14101ee644509b5b673ee0b8761eb79f6d084c957f3",
+    "bytes": 205975
+  },
+  "源ファイル": 72,
+  "manifest込み": 73,
+  "全格納bytes_SHA_CRC一致": true,
+  "元源前後同体": true,
+  "Python全源構文成功": true,
+  "Node現版構文成功": true,
+  "復元Go人工": [
+    {
+      "module": "157固定入口と価格経路",
+      "exit_code": 0,
+      "stdout": "ok  \tpricetape157\t0.043s\n?   \tpricetape157/cmd/run\t[no test files]\n",
+      "stderr": ""
+    },
+    {
+      "module": "157出口政策の再生",
+      "exit_code": 0,
+      "stdout": "ok  \texitreplay157\t0.024s\n?   \texitreplay157/cmd/exits\t[no test files]\n",
+      "stderr": ""
+    },
+    {
+      "module": "157到達距離の診断",
+      "exit_code": 0,
+      "stdout": "ok  \texitdistance157\t0.022s\n?   \texitdistance157/cmd/diagnose\t[no test files]\n",
+      "stderr": ""
+    }
+  ],
+  "共有入力と成果の複写": false,
+  "自然再実行": false,
+  "CSV再生成": false,
+  "CSV4物理SHA初回同体": true,
+  "集計独立票SHA256": "0582c6ae5df62225111a30f0ce030b3a00790e62f4529fe70ecd6f7bc85d5788",
+  "作成UTC": "2026-11-12T12:12:47.915379+00:00",
+  "保存器SHA256": "d79a494596f96e962b114ecb9dc634e49dbc3a145869b1da5b9eddd447973519"
+}

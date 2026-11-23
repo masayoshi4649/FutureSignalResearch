@@ -1,0 +1,212 @@
+{
+  "成功": true,
+  "試行": 159,
+  "作者関数import": false,
+  "新自然学習": false,
+  "物理case": 837,
+  "全gate票": 1674,
+  "全choice": 5022,
+  "G結果状態": 20088,
+  "モデル適用枠": 9,
+  "重複を除くfit": 6,
+  "全列挙規則比較": 74784,
+  "入力とprefix比較": {
+    "gate組": 3908,
+    "非gate組": 2788,
+    "prefix比較": 13392,
+    "特徴値": 145573,
+    "参照": 6727
+  },
+  "教師既知": 428,
+  "モデルの別計算": [
+    {
+      "policy": "G01_F48",
+      "train": [
+        0,
+        48
+      ],
+      "apply": [
+        48,
+        73
+      ],
+      "teacher_count": 326,
+      "model_id": "e4b5e83783d4cafc50f6ece71701e6808b036a69080193dccb52900bdfffe2fa",
+      "action": "C1",
+      "score": 34922.12611831617
+    },
+    {
+      "policy": "G02_EXP12",
+      "train": [
+        0,
+        24
+      ],
+      "apply": [
+        24,
+        36
+      ],
+      "teacher_count": 84,
+      "model_id": "4f1986428e4ff0fe94dd0e75eb97381115ce7237131d03028ccde735b146f084",
+      "action": "C1",
+      "score": 1704.9450549450548
+    },
+    {
+      "policy": "G02_EXP12",
+      "train": [
+        0,
+        36
+      ],
+      "apply": [
+        36,
+        48
+      ],
+      "teacher_count": 125,
+      "model_id": "68f0878d039acaa2eeea7756fa36a3da4f6423d2739d908e19f6a3d1e6167c88",
+      "action": "C1",
+      "score": 29416.666666666668
+    },
+    {
+      "policy": "G02_EXP12",
+      "train": [
+        0,
+        48
+      ],
+      "apply": [
+        48,
+        60
+      ],
+      "teacher_count": 326,
+      "model_id": "e4b5e83783d4cafc50f6ece71701e6808b036a69080193dccb52900bdfffe2fa",
+      "action": "C1",
+      "score": 34922.12611831617
+    },
+    {
+      "policy": "G02_EXP12",
+      "train": [
+        0,
+        60
+      ],
+      "apply": [
+        60,
+        73
+      ],
+      "teacher_count": 406,
+      "model_id": "5d3bff40f53472ce4f983e3dc61fca2588d3d81ca095a53b44a12ed0af2243a0",
+      "action": "C1",
+      "score": 36112.63063098563
+    },
+    {
+      "policy": "G03_WIN36",
+      "train": [
+        0,
+        24
+      ],
+      "apply": [
+        24,
+        36
+      ],
+      "teacher_count": 84,
+      "model_id": "4f1986428e4ff0fe94dd0e75eb97381115ce7237131d03028ccde735b146f084",
+      "action": "C1",
+      "score": 1704.9450549450548
+    },
+    {
+      "policy": "G03_WIN36",
+      "train": [
+        0,
+        36
+      ],
+      "apply": [
+        36,
+        48
+      ],
+      "teacher_count": 125,
+      "model_id": "68f0878d039acaa2eeea7756fa36a3da4f6423d2739d908e19f6a3d1e6167c88",
+      "action": "C1",
+      "score": 29416.666666666668
+    },
+    {
+      "policy": "G03_WIN36",
+      "train": [
+        12,
+        48
+      ],
+      "apply": [
+        48,
+        60
+      ],
+      "teacher_count": 313,
+      "model_id": "a6e8fed163f22070f0fb7f7ef982aea8fc1628321cec0a7aca6682e19dc683a2",
+      "action": "C1",
+      "score": 34922.12611831617
+    },
+    {
+      "policy": "G03_WIN36",
+      "train": [
+        24,
+        60
+      ],
+      "apply": [
+        60,
+        73
+      ],
+      "teacher_count": 322,
+      "model_id": "62aa55df79ba8b67ee853b68be70a4e2a219839fe02f2568fb3c676b9559bbfa",
+      "action": "C1",
+      "score": 42528.25752426268
+    }
+  ],
+  "入力前後指紋": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\00159_延伸判断の特徴\\判断時点の特徴.json.gz": [
+      "b7be610367196246af4125cabc10ea46157d4068896d29c35d0939084b41a148",
+      3600073,
+      1794507378124920200
+    ],
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00158_複合技術で出口の役割と局面を切り替える\\成果物\\出口結果.json.gz": [
+      "70a4c3178206bbb3c8641901c7515f2121da11c28403b88c3f8e6f93cc0baa6c",
+      7057093,
+      1794506235794441400
+    ],
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00159_延伸する局面を複合技術から学ぶ\\成果物\\モデルと学習報告.json": [
+      "ee00ddb5dee650c389bf98028e5836205b9ab848a09e982892ff1d8b63e2bfcf",
+      208918,
+      1794508446025226500
+    ],
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00159_延伸する局面を複合技術から学ぶ\\成果物\\全gateの出口選択.json": [
+      "496668980e3eed6094bc2ad310efac4f161c95e1a9d282b31ab3ec66c840d998",
+      2593351,
+      1794508446049226300
+    ],
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00159_延伸する局面を複合技術から学ぶ\\成果物\\固定入口の出口合成.json.gz": [
+      "40ffc8145918654b1d4ada0905bdd257a8ca732f23efeea808e74ac5c3fa60c3",
+      1081694,
+      1794508451981913400
+    ],
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00159_延伸する局面を複合技術から学ぶ\\文法と学習の固定.json": [
+      "86fa33f1e1111ddc2665e1cb6c68c7b4dae5dfc61feff0132ef144064966891a",
+      6949,
+      1794507150809022700
+    ],
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\00158_複合技術特徴\\特徴\\特徴の確認.json": [
+      "a6dce32eb35102d95f44647d0a10811bf13ed6e36f46b08ef0956c52bb783d11",
+      67452,
+      1794504983054680800
+    ]
+  },
+  "解凍確認": {
+    "snapshot": "3ac97f2372c3c58b5c0e2584e0d72b27f08f3a50dec6c2cfcfe40e85db63fe7e",
+    "parent": "3c3df90244de838056ca7c98857ffe7b8f85514807e90194c07f73129ec277c7",
+    "result": "c330177150038f5cfb412fd40e5ba45b3734293888f594cd6763f9303dfcbb5a"
+  },
+  "本コードSHA256": "8cb214d766920e7ea05f0328b6257a4273a025da50eacd6caf7c7503d090245e",
+  "oracleSHA256": "16219c78ba397ab855c4a27cefdc1fa85042ced7c5eb3a1316c68788eec6688c",
+  "検査器schema追補": {
+    "初回handle": 23555,
+    "初回終了値": 1,
+    "初回停止段階": "全入力/6fit一致後、最初choiceのmodel_has_rule/reason metadata未対応",
+    "修正": "最終固定の説明metadataとrecomposition内重複情報省略へ対応。判定/score/教師の別算術は不変",
+    "学習前固定SHA256": "30c852055d59b0337cc2b21ff8f617eba83d906022e9440e2af0aa66854ded45",
+    "自然再生成": false,
+    "同一保存結果の再照合": true
+  },
+  "限界": "反実仮想は共通prefixを持つ3親経路だけ。原行金融の再生/新規則探索はしない。"
+}

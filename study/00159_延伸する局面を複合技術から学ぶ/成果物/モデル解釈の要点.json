@@ -1,0 +1,1965 @@
+{
+  "成功": true,
+  "試行": 159,
+  "範囲": "H60/D1/C5、群別数値のみ、全件/全モデル転記なし",
+  "再学習": false,
+  "新閾値探索": false,
+  "教師総数": 837,
+  "教師既知": 428,
+  "モデル枠": 9,
+  "訓練窓": 6,
+  "異なるAND条件": 5,
+  "選択行動": {
+    "C0": 4714,
+    "C1": 308
+  },
+  "input_refs": {
+    "models": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00159_延伸する局面を複合技術から学ぶ\\成果物\\モデルと学習報告.json",
+      "sha256": "ee00ddb5dee650c389bf98028e5836205b9ab848a09e982892ff1d8b63e2bfcf",
+      "decoded_sha256": "ee00ddb5dee650c389bf98028e5836205b9ab848a09e982892ff1d8b63e2bfcf"
+    },
+    "choices": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00159_延伸する局面を複合技術から学ぶ\\成果物\\全gateの出口選択.json",
+      "sha256": "496668980e3eed6094bc2ad310efac4f161c95e1a9d282b31ab3ec66c840d998",
+      "decoded_sha256": "496668980e3eed6094bc2ad310efac4f161c95e1a9d282b31ab3ec66c840d998"
+    },
+    "result": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00159_延伸する局面を複合技術から学ぶ\\成果物\\固定入口の出口合成.json.gz",
+      "sha256": "40ffc8145918654b1d4ada0905bdd257a8ca732f23efeea808e74ac5c3fa60c3",
+      "decoded_sha256": "c330177150038f5cfb412fd40e5ba45b3734293888f594cd6763f9303dfcbb5a"
+    },
+    "parent": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00158_複合技術で出口の役割と局面を切り替える\\成果物\\出口結果.json.gz",
+      "sha256": "70a4c3178206bbb3c8641901c7515f2121da11c28403b88c3f8e6f93cc0baa6c",
+      "decoded_sha256": "3c3df90244de838056ca7c98857ffe7b8f85514807e90194c07f73129ec277c7"
+    },
+    "snapshot": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\00159_延伸判断の特徴\\判断時点の特徴.json.gz",
+      "sha256": "b7be610367196246af4125cabc10ea46157d4068896d29c35d0939084b41a148",
+      "decoded_sha256": "3ac97f2372c3c58b5c0e2584e0d72b27f08f3a50dec6c2cfcfe40e85db63fe7e"
+    }
+  },
+  "main_tables": [
+    {
+      "cohort": "153U15",
+      "part": "all",
+      "policy": "G01_F48",
+      "counts": {
+        "warmup_gate": 32,
+        "modeled_extension": 4,
+        "modeled_default_gate": 12,
+        "non_gate": 45
+      },
+      "metrics": {
+        "n": 93,
+        "known": 86,
+        "unknown": 7,
+        "profit_trades": 54,
+        "loss_trades": 32,
+        "profit_yen": 532842,
+        "loss_yen": 327464,
+        "known_net_yen": 205378,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 93,
+        "both_known": 86,
+        "unknown_pair": 7,
+        "difference_yen": -13000,
+        "improved": 1,
+        "worse": 3,
+        "equal": 82
+      },
+      "vs_C1": {
+        "n": 93,
+        "both_known": 83,
+        "unknown_pair": 10,
+        "difference_yen": -22000,
+        "improved": 21,
+        "worse": 16,
+        "equal": 46
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 32,
+          "both_known": 28,
+          "unknown_pair": 4,
+          "difference_yen": -30000,
+          "improved": 9,
+          "worse": 18,
+          "equal": 1
+        },
+        "modeled_extension": {
+          "n": 4,
+          "both_known": 4,
+          "unknown_pair": 0,
+          "difference_yen": -13000,
+          "improved": 1,
+          "worse": 3,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 12,
+          "both_known": 10,
+          "unknown_pair": 2,
+          "difference_yen": 52000,
+          "improved": 7,
+          "worse": 3,
+          "equal": 0
+        },
+        "non_gate": {
+          "n": 45,
+          "both_known": 41,
+          "unknown_pair": 4,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 41
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "all",
+      "policy": "G02_EXP12",
+      "counts": {
+        "warmup_gate": 17,
+        "modeled_extension": 6,
+        "modeled_default_gate": 25,
+        "non_gate": 45
+      },
+      "metrics": {
+        "n": 93,
+        "known": 86,
+        "unknown": 7,
+        "profit_trades": 54,
+        "loss_trades": 32,
+        "profit_yen": 557842,
+        "loss_yen": 327464,
+        "known_net_yen": 230378,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 93,
+        "both_known": 86,
+        "unknown_pair": 7,
+        "difference_yen": 12000,
+        "improved": 3,
+        "worse": 3,
+        "equal": 80
+      },
+      "vs_C1": {
+        "n": 93,
+        "both_known": 83,
+        "unknown_pair": 10,
+        "difference_yen": 3000,
+        "improved": 21,
+        "worse": 14,
+        "equal": 48
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 17,
+          "both_known": 14,
+          "unknown_pair": 3,
+          "difference_yen": -49000,
+          "improved": 3,
+          "worse": 11,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 6,
+          "both_known": 6,
+          "unknown_pair": 0,
+          "difference_yen": 12000,
+          "improved": 3,
+          "worse": 3,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 25,
+          "both_known": 22,
+          "unknown_pair": 3,
+          "difference_yen": 46000,
+          "improved": 11,
+          "worse": 10,
+          "equal": 1
+        },
+        "non_gate": {
+          "n": 45,
+          "both_known": 41,
+          "unknown_pair": 4,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 41
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "all",
+      "policy": "G03_WIN36",
+      "counts": {
+        "warmup_gate": 17,
+        "modeled_extension": 6,
+        "modeled_default_gate": 25,
+        "non_gate": 45
+      },
+      "metrics": {
+        "n": 93,
+        "known": 86,
+        "unknown": 7,
+        "profit_trades": 54,
+        "loss_trades": 32,
+        "profit_yen": 545842,
+        "loss_yen": 327464,
+        "known_net_yen": 218378,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 93,
+        "both_known": 86,
+        "unknown_pair": 7,
+        "difference_yen": 0,
+        "improved": 2,
+        "worse": 4,
+        "equal": 80
+      },
+      "vs_C1": {
+        "n": 93,
+        "both_known": 83,
+        "unknown_pair": 10,
+        "difference_yen": -9000,
+        "improved": 20,
+        "worse": 15,
+        "equal": 48
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 17,
+          "both_known": 14,
+          "unknown_pair": 3,
+          "difference_yen": -49000,
+          "improved": 3,
+          "worse": 11,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 6,
+          "both_known": 6,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 2,
+          "worse": 4,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 25,
+          "both_known": 22,
+          "unknown_pair": 3,
+          "difference_yen": 58000,
+          "improved": 12,
+          "worse": 9,
+          "equal": 1
+        },
+        "non_gate": {
+          "n": 45,
+          "both_known": 41,
+          "unknown_pair": 4,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 41
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "train",
+      "policy": "G01_F48",
+      "counts": {
+        "warmup_gate": 32,
+        "modeled_extension": 0,
+        "modeled_default_gate": 0,
+        "non_gate": 31
+      },
+      "metrics": {
+        "n": 63,
+        "known": 57,
+        "unknown": 6,
+        "profit_trades": 36,
+        "loss_trades": 21,
+        "profit_yen": 361228,
+        "loss_yen": 197617,
+        "known_net_yen": 163611,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 63,
+        "both_known": 57,
+        "unknown_pair": 6,
+        "difference_yen": 0,
+        "improved": 0,
+        "worse": 0,
+        "equal": 57
+      },
+      "vs_C1": {
+        "n": 63,
+        "both_known": 56,
+        "unknown_pair": 7,
+        "difference_yen": 30000,
+        "improved": 18,
+        "worse": 9,
+        "equal": 29
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 32,
+          "both_known": 28,
+          "unknown_pair": 4,
+          "difference_yen": -30000,
+          "improved": 9,
+          "worse": 18,
+          "equal": 1
+        },
+        "modeled_extension": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "non_gate": {
+          "n": 31,
+          "both_known": 28,
+          "unknown_pair": 3,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 28
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "train",
+      "policy": "G02_EXP12",
+      "counts": {
+        "warmup_gate": 17,
+        "modeled_extension": 1,
+        "modeled_default_gate": 14,
+        "non_gate": 31
+      },
+      "metrics": {
+        "n": 63,
+        "known": 57,
+        "unknown": 6,
+        "profit_trades": 36,
+        "loss_trades": 21,
+        "profit_yen": 372228,
+        "loss_yen": 197617,
+        "known_net_yen": 174611,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 63,
+        "both_known": 57,
+        "unknown_pair": 6,
+        "difference_yen": 11000,
+        "improved": 1,
+        "worse": 0,
+        "equal": 56
+      },
+      "vs_C1": {
+        "n": 63,
+        "both_known": 56,
+        "unknown_pair": 7,
+        "difference_yen": 41000,
+        "improved": 18,
+        "worse": 8,
+        "equal": 30
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 17,
+          "both_known": 14,
+          "unknown_pair": 3,
+          "difference_yen": -49000,
+          "improved": 3,
+          "worse": 11,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 1,
+          "both_known": 1,
+          "unknown_pair": 0,
+          "difference_yen": 11000,
+          "improved": 1,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 14,
+          "both_known": 13,
+          "unknown_pair": 1,
+          "difference_yen": 8000,
+          "improved": 5,
+          "worse": 7,
+          "equal": 1
+        },
+        "non_gate": {
+          "n": 31,
+          "both_known": 28,
+          "unknown_pair": 3,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 28
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "train",
+      "policy": "G03_WIN36",
+      "counts": {
+        "warmup_gate": 17,
+        "modeled_extension": 1,
+        "modeled_default_gate": 14,
+        "non_gate": 31
+      },
+      "metrics": {
+        "n": 63,
+        "known": 57,
+        "unknown": 6,
+        "profit_trades": 36,
+        "loss_trades": 21,
+        "profit_yen": 372228,
+        "loss_yen": 197617,
+        "known_net_yen": 174611,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 63,
+        "both_known": 57,
+        "unknown_pair": 6,
+        "difference_yen": 11000,
+        "improved": 1,
+        "worse": 0,
+        "equal": 56
+      },
+      "vs_C1": {
+        "n": 63,
+        "both_known": 56,
+        "unknown_pair": 7,
+        "difference_yen": 41000,
+        "improved": 18,
+        "worse": 8,
+        "equal": 30
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 17,
+          "both_known": 14,
+          "unknown_pair": 3,
+          "difference_yen": -49000,
+          "improved": 3,
+          "worse": 11,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 1,
+          "both_known": 1,
+          "unknown_pair": 0,
+          "difference_yen": 11000,
+          "improved": 1,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 14,
+          "both_known": 13,
+          "unknown_pair": 1,
+          "difference_yen": 8000,
+          "improved": 5,
+          "worse": 7,
+          "equal": 1
+        },
+        "non_gate": {
+          "n": 31,
+          "both_known": 28,
+          "unknown_pair": 3,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 28
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "validation",
+      "policy": "G01_F48",
+      "counts": {
+        "warmup_gate": 0,
+        "modeled_extension": 4,
+        "modeled_default_gate": 12,
+        "non_gate": 14
+      },
+      "metrics": {
+        "n": 30,
+        "known": 29,
+        "unknown": 1,
+        "profit_trades": 18,
+        "loss_trades": 11,
+        "profit_yen": 171614,
+        "loss_yen": 129847,
+        "known_net_yen": 41767,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 30,
+        "both_known": 29,
+        "unknown_pair": 1,
+        "difference_yen": -13000,
+        "improved": 1,
+        "worse": 3,
+        "equal": 25
+      },
+      "vs_C1": {
+        "n": 30,
+        "both_known": 27,
+        "unknown_pair": 3,
+        "difference_yen": -52000,
+        "improved": 3,
+        "worse": 7,
+        "equal": 17
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 4,
+          "both_known": 4,
+          "unknown_pair": 0,
+          "difference_yen": -13000,
+          "improved": 1,
+          "worse": 3,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 12,
+          "both_known": 10,
+          "unknown_pair": 2,
+          "difference_yen": 52000,
+          "improved": 7,
+          "worse": 3,
+          "equal": 0
+        },
+        "non_gate": {
+          "n": 14,
+          "both_known": 13,
+          "unknown_pair": 1,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 13
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "validation",
+      "policy": "G02_EXP12",
+      "counts": {
+        "warmup_gate": 0,
+        "modeled_extension": 5,
+        "modeled_default_gate": 11,
+        "non_gate": 14
+      },
+      "metrics": {
+        "n": 30,
+        "known": 29,
+        "unknown": 1,
+        "profit_trades": 18,
+        "loss_trades": 11,
+        "profit_yen": 185614,
+        "loss_yen": 129847,
+        "known_net_yen": 55767,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 30,
+        "both_known": 29,
+        "unknown_pair": 1,
+        "difference_yen": 1000,
+        "improved": 2,
+        "worse": 3,
+        "equal": 24
+      },
+      "vs_C1": {
+        "n": 30,
+        "both_known": 27,
+        "unknown_pair": 3,
+        "difference_yen": -38000,
+        "improved": 3,
+        "worse": 6,
+        "equal": 18
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 5,
+          "both_known": 5,
+          "unknown_pair": 0,
+          "difference_yen": 1000,
+          "improved": 2,
+          "worse": 3,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 11,
+          "both_known": 9,
+          "unknown_pair": 2,
+          "difference_yen": 38000,
+          "improved": 6,
+          "worse": 3,
+          "equal": 0
+        },
+        "non_gate": {
+          "n": 14,
+          "both_known": 13,
+          "unknown_pair": 1,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 13
+        }
+      }
+    },
+    {
+      "cohort": "153U15",
+      "part": "validation",
+      "policy": "G03_WIN36",
+      "counts": {
+        "warmup_gate": 0,
+        "modeled_extension": 5,
+        "modeled_default_gate": 11,
+        "non_gate": 14
+      },
+      "metrics": {
+        "n": 30,
+        "known": 29,
+        "unknown": 1,
+        "profit_trades": 18,
+        "loss_trades": 11,
+        "profit_yen": 173614,
+        "loss_yen": 129847,
+        "known_net_yen": 43767,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 30,
+        "both_known": 29,
+        "unknown_pair": 1,
+        "difference_yen": -11000,
+        "improved": 1,
+        "worse": 4,
+        "equal": 24
+      },
+      "vs_C1": {
+        "n": 30,
+        "both_known": 27,
+        "unknown_pair": 3,
+        "difference_yen": -50000,
+        "improved": 2,
+        "worse": 7,
+        "equal": 18
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 5,
+          "both_known": 5,
+          "unknown_pair": 0,
+          "difference_yen": -11000,
+          "improved": 1,
+          "worse": 4,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 11,
+          "both_known": 9,
+          "unknown_pair": 2,
+          "difference_yen": 50000,
+          "improved": 7,
+          "worse": 2,
+          "equal": 0
+        },
+        "non_gate": {
+          "n": 14,
+          "both_known": 13,
+          "unknown_pair": 1,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 13
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "all",
+      "policy": "G01_F48",
+      "counts": {
+        "warmup_gate": 350,
+        "modeled_extension": 27,
+        "modeled_default_gate": 76,
+        "non_gate": 378
+      },
+      "metrics": {
+        "n": 831,
+        "known": 802,
+        "unknown": 29,
+        "profit_trades": 483,
+        "loss_trades": 319,
+        "profit_yen": 5261809,
+        "loss_yen": 4055563,
+        "known_net_yen": 1206246,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 831,
+        "both_known": 802,
+        "unknown_pair": 29,
+        "difference_yen": -67000,
+        "improved": 7,
+        "worse": 20,
+        "equal": 775
+      },
+      "vs_C1": {
+        "n": 831,
+        "both_known": 788,
+        "unknown_pair": 43,
+        "difference_yen": -516000,
+        "improved": 209,
+        "worse": 166,
+        "equal": 413
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 350,
+          "both_known": 324,
+          "unknown_pair": 26,
+          "difference_yen": 195000,
+          "improved": 122,
+          "worse": 182,
+          "equal": 20
+        },
+        "modeled_extension": {
+          "n": 27,
+          "both_known": 27,
+          "unknown_pair": 0,
+          "difference_yen": -67000,
+          "improved": 7,
+          "worse": 20,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 76,
+          "both_known": 75,
+          "unknown_pair": 1,
+          "difference_yen": 321000,
+          "improved": 44,
+          "worse": 27,
+          "equal": 4
+        },
+        "non_gate": {
+          "n": 378,
+          "both_known": 362,
+          "unknown_pair": 16,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 362
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "all",
+      "policy": "G02_EXP12",
+      "counts": {
+        "warmup_gate": 94,
+        "modeled_extension": 63,
+        "modeled_default_gate": 296,
+        "non_gate": 378
+      },
+      "metrics": {
+        "n": 831,
+        "known": 802,
+        "unknown": 29,
+        "profit_trades": 483,
+        "loss_trades": 319,
+        "profit_yen": 5160809,
+        "loss_yen": 4055563,
+        "known_net_yen": 1105246,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 831,
+        "both_known": 802,
+        "unknown_pair": 29,
+        "difference_yen": -168000,
+        "improved": 14,
+        "worse": 43,
+        "equal": 745
+      },
+      "vs_C1": {
+        "n": 831,
+        "both_known": 788,
+        "unknown_pair": 43,
+        "difference_yen": -617000,
+        "improved": 186,
+        "worse": 159,
+        "equal": 443
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 94,
+          "both_known": 83,
+          "unknown_pair": 11,
+          "difference_yen": 25000,
+          "improved": 34,
+          "worse": 48,
+          "equal": 1
+        },
+        "modeled_extension": {
+          "n": 63,
+          "both_known": 63,
+          "unknown_pair": 0,
+          "difference_yen": -168000,
+          "improved": 14,
+          "worse": 43,
+          "equal": 6
+        },
+        "modeled_default_gate": {
+          "n": 296,
+          "both_known": 280,
+          "unknown_pair": 16,
+          "difference_yen": 592000,
+          "improved": 125,
+          "worse": 138,
+          "equal": 17
+        },
+        "non_gate": {
+          "n": 378,
+          "both_known": 362,
+          "unknown_pair": 16,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 362
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "all",
+      "policy": "G03_WIN36",
+      "counts": {
+        "warmup_gate": 94,
+        "modeled_extension": 62,
+        "modeled_default_gate": 297,
+        "non_gate": 378
+      },
+      "metrics": {
+        "n": 831,
+        "known": 802,
+        "unknown": 29,
+        "profit_trades": 483,
+        "loss_trades": 319,
+        "profit_yen": 5139809,
+        "loss_yen": 4055563,
+        "known_net_yen": 1084246,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 831,
+        "both_known": 802,
+        "unknown_pair": 29,
+        "difference_yen": -189000,
+        "improved": 12,
+        "worse": 44,
+        "equal": 746
+      },
+      "vs_C1": {
+        "n": 831,
+        "both_known": 788,
+        "unknown_pair": 43,
+        "difference_yen": -638000,
+        "improved": 185,
+        "worse": 161,
+        "equal": 442
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 94,
+          "both_known": 83,
+          "unknown_pair": 11,
+          "difference_yen": 25000,
+          "improved": 34,
+          "worse": 48,
+          "equal": 1
+        },
+        "modeled_extension": {
+          "n": 62,
+          "both_known": 62,
+          "unknown_pair": 0,
+          "difference_yen": -189000,
+          "improved": 12,
+          "worse": 44,
+          "equal": 6
+        },
+        "modeled_default_gate": {
+          "n": 297,
+          "both_known": 281,
+          "unknown_pair": 16,
+          "difference_yen": 613000,
+          "improved": 127,
+          "worse": 137,
+          "equal": 17
+        },
+        "non_gate": {
+          "n": 378,
+          "both_known": 362,
+          "unknown_pair": 16,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 362
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "train",
+      "policy": "G01_F48",
+      "counts": {
+        "warmup_gate": 350,
+        "modeled_extension": 0,
+        "modeled_default_gate": 0,
+        "non_gate": 260
+      },
+      "metrics": {
+        "n": 610,
+        "known": 582,
+        "unknown": 28,
+        "profit_trades": 378,
+        "loss_trades": 204,
+        "profit_yen": 4110894,
+        "loss_yen": 2495708,
+        "known_net_yen": 1615186,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 610,
+        "both_known": 582,
+        "unknown_pair": 28,
+        "difference_yen": 0,
+        "improved": 0,
+        "worse": 0,
+        "equal": 582
+      },
+      "vs_C1": {
+        "n": 610,
+        "both_known": 569,
+        "unknown_pair": 41,
+        "difference_yen": -195000,
+        "improved": 182,
+        "worse": 122,
+        "equal": 265
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 350,
+          "both_known": 324,
+          "unknown_pair": 26,
+          "difference_yen": 195000,
+          "improved": 122,
+          "worse": 182,
+          "equal": 20
+        },
+        "modeled_extension": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "non_gate": {
+          "n": 260,
+          "both_known": 245,
+          "unknown_pair": 15,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 245
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "train",
+      "policy": "G02_EXP12",
+      "counts": {
+        "warmup_gate": 94,
+        "modeled_extension": 36,
+        "modeled_default_gate": 220,
+        "non_gate": 260
+      },
+      "metrics": {
+        "n": 610,
+        "known": 582,
+        "unknown": 28,
+        "profit_trades": 378,
+        "loss_trades": 204,
+        "profit_yen": 4009894,
+        "loss_yen": 2495708,
+        "known_net_yen": 1514186,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 610,
+        "both_known": 582,
+        "unknown_pair": 28,
+        "difference_yen": -101000,
+        "improved": 7,
+        "worse": 23,
+        "equal": 552
+      },
+      "vs_C1": {
+        "n": 610,
+        "both_known": 569,
+        "unknown_pair": 41,
+        "difference_yen": -296000,
+        "improved": 159,
+        "worse": 115,
+        "equal": 295
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 94,
+          "both_known": 83,
+          "unknown_pair": 11,
+          "difference_yen": 25000,
+          "improved": 34,
+          "worse": 48,
+          "equal": 1
+        },
+        "modeled_extension": {
+          "n": 36,
+          "both_known": 36,
+          "unknown_pair": 0,
+          "difference_yen": -101000,
+          "improved": 7,
+          "worse": 23,
+          "equal": 6
+        },
+        "modeled_default_gate": {
+          "n": 220,
+          "both_known": 205,
+          "unknown_pair": 15,
+          "difference_yen": 271000,
+          "improved": 81,
+          "worse": 111,
+          "equal": 13
+        },
+        "non_gate": {
+          "n": 260,
+          "both_known": 245,
+          "unknown_pair": 15,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 245
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "train",
+      "policy": "G03_WIN36",
+      "counts": {
+        "warmup_gate": 94,
+        "modeled_extension": 36,
+        "modeled_default_gate": 220,
+        "non_gate": 260
+      },
+      "metrics": {
+        "n": 610,
+        "known": 582,
+        "unknown": 28,
+        "profit_trades": 378,
+        "loss_trades": 204,
+        "profit_yen": 4009894,
+        "loss_yen": 2495708,
+        "known_net_yen": 1514186,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 610,
+        "both_known": 582,
+        "unknown_pair": 28,
+        "difference_yen": -101000,
+        "improved": 7,
+        "worse": 23,
+        "equal": 552
+      },
+      "vs_C1": {
+        "n": 610,
+        "both_known": 569,
+        "unknown_pair": 41,
+        "difference_yen": -296000,
+        "improved": 159,
+        "worse": 115,
+        "equal": 295
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 94,
+          "both_known": 83,
+          "unknown_pair": 11,
+          "difference_yen": 25000,
+          "improved": 34,
+          "worse": 48,
+          "equal": 1
+        },
+        "modeled_extension": {
+          "n": 36,
+          "both_known": 36,
+          "unknown_pair": 0,
+          "difference_yen": -101000,
+          "improved": 7,
+          "worse": 23,
+          "equal": 6
+        },
+        "modeled_default_gate": {
+          "n": 220,
+          "both_known": 205,
+          "unknown_pair": 15,
+          "difference_yen": 271000,
+          "improved": 81,
+          "worse": 111,
+          "equal": 13
+        },
+        "non_gate": {
+          "n": 260,
+          "both_known": 245,
+          "unknown_pair": 15,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 245
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "validation",
+      "policy": "G01_F48",
+      "counts": {
+        "warmup_gate": 0,
+        "modeled_extension": 27,
+        "modeled_default_gate": 76,
+        "non_gate": 118
+      },
+      "metrics": {
+        "n": 221,
+        "known": 220,
+        "unknown": 1,
+        "profit_trades": 105,
+        "loss_trades": 115,
+        "profit_yen": 1150915,
+        "loss_yen": 1559855,
+        "known_net_yen": -408940,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 221,
+        "both_known": 220,
+        "unknown_pair": 1,
+        "difference_yen": -67000,
+        "improved": 7,
+        "worse": 20,
+        "equal": 193
+      },
+      "vs_C1": {
+        "n": 221,
+        "both_known": 219,
+        "unknown_pair": 2,
+        "difference_yen": -321000,
+        "improved": 27,
+        "worse": 44,
+        "equal": 148
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 27,
+          "both_known": 27,
+          "unknown_pair": 0,
+          "difference_yen": -67000,
+          "improved": 7,
+          "worse": 20,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 76,
+          "both_known": 75,
+          "unknown_pair": 1,
+          "difference_yen": 321000,
+          "improved": 44,
+          "worse": 27,
+          "equal": 4
+        },
+        "non_gate": {
+          "n": 118,
+          "both_known": 117,
+          "unknown_pair": 1,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 117
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "validation",
+      "policy": "G02_EXP12",
+      "counts": {
+        "warmup_gate": 0,
+        "modeled_extension": 27,
+        "modeled_default_gate": 76,
+        "non_gate": 118
+      },
+      "metrics": {
+        "n": 221,
+        "known": 220,
+        "unknown": 1,
+        "profit_trades": 105,
+        "loss_trades": 115,
+        "profit_yen": 1150915,
+        "loss_yen": 1559855,
+        "known_net_yen": -408940,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 221,
+        "both_known": 220,
+        "unknown_pair": 1,
+        "difference_yen": -67000,
+        "improved": 7,
+        "worse": 20,
+        "equal": 193
+      },
+      "vs_C1": {
+        "n": 221,
+        "both_known": 219,
+        "unknown_pair": 2,
+        "difference_yen": -321000,
+        "improved": 27,
+        "worse": 44,
+        "equal": 148
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 27,
+          "both_known": 27,
+          "unknown_pair": 0,
+          "difference_yen": -67000,
+          "improved": 7,
+          "worse": 20,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 76,
+          "both_known": 75,
+          "unknown_pair": 1,
+          "difference_yen": 321000,
+          "improved": 44,
+          "worse": 27,
+          "equal": 4
+        },
+        "non_gate": {
+          "n": 118,
+          "both_known": 117,
+          "unknown_pair": 1,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 117
+        }
+      }
+    },
+    {
+      "cohort": "152U0",
+      "part": "validation",
+      "policy": "G03_WIN36",
+      "counts": {
+        "warmup_gate": 0,
+        "modeled_extension": 26,
+        "modeled_default_gate": 77,
+        "non_gate": 118
+      },
+      "metrics": {
+        "n": 221,
+        "known": 220,
+        "unknown": 1,
+        "profit_trades": 105,
+        "loss_trades": 115,
+        "profit_yen": 1129915,
+        "loss_yen": 1559855,
+        "known_net_yen": -429940,
+        "confirmed_total_yen": null
+      },
+      "vs_IFD": {
+        "n": 221,
+        "both_known": 220,
+        "unknown_pair": 1,
+        "difference_yen": -88000,
+        "improved": 5,
+        "worse": 21,
+        "equal": 194
+      },
+      "vs_C1": {
+        "n": 221,
+        "both_known": 219,
+        "unknown_pair": 2,
+        "difference_yen": -342000,
+        "improved": 26,
+        "worse": 46,
+        "equal": 147
+      },
+      "C1_minus_IFD_by_group": {
+        "warmup_gate": {
+          "n": 0,
+          "both_known": 0,
+          "unknown_pair": 0,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 0
+        },
+        "modeled_extension": {
+          "n": 26,
+          "both_known": 26,
+          "unknown_pair": 0,
+          "difference_yen": -88000,
+          "improved": 5,
+          "worse": 21,
+          "equal": 0
+        },
+        "modeled_default_gate": {
+          "n": 77,
+          "both_known": 76,
+          "unknown_pair": 1,
+          "difference_yen": 342000,
+          "improved": 46,
+          "worse": 26,
+          "equal": 4
+        },
+        "non_gate": {
+          "n": 118,
+          "both_known": 117,
+          "unknown_pair": 1,
+          "difference_yen": 0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 117
+        }
+      }
+    }
+  ],
+  "application_blocks": [
+    {
+      "policy": "G01_F48",
+      "model_ref": "e4b5e83783d4cafc50f6ece71701e6808b036a69080193dccb52900bdfffe2fa",
+      "training_window": [
+        0,
+        48
+      ],
+      "application_window": [
+        48,
+        73
+      ],
+      "teacher_count": 326,
+      "matched_teachers": 98,
+      "matched_scenes": 13,
+      "winner_margin_score": 2241.2771133692295,
+      "physical_gate": 105,
+      "physical_gate_predicate_unknown": 2,
+      "cohort_152_trades": 221,
+      "cohort_152_gate": 103,
+      "extensions": 27,
+      "extension_scenes": 6,
+      "extension_top_scenes": [
+        [
+          "2026-10-23_Day",
+          21
+        ],
+        [
+          "2026-11-05_Night",
+          2
+        ],
+        [
+          "2026-10-28_Night",
+          1
+        ],
+        [
+          "2026-10-29_Day",
+          1
+        ],
+        [
+          "2026-11-06_Day",
+          1
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 27,
+        "both_known": 27,
+        "unknown_pair": 0,
+        "difference_yen": -67000,
+        "improved": 7,
+        "worse": 20,
+        "equal": 0
+      },
+      "default_C1_vs_IFD": {
+        "n": 76,
+        "both_known": 75,
+        "unknown_pair": 1,
+        "difference_yen": 321000,
+        "improved": 44,
+        "worse": 27,
+        "equal": 4
+      }
+    },
+    {
+      "policy": "G02_EXP12",
+      "model_ref": "4f1986428e4ff0fe94dd0e75eb97381115ce7237131d03028ccde735b146f084",
+      "training_window": [
+        0,
+        24
+      ],
+      "application_window": [
+        24,
+        36
+      ],
+      "teacher_count": 84,
+      "matched_teachers": 21,
+      "matched_scenes": 6,
+      "winner_margin_score": 903.8461538461543,
+      "physical_gate": 49,
+      "physical_gate_predicate_unknown": 12,
+      "cohort_152_trades": 89,
+      "cohort_152_gate": 48,
+      "extensions": 10,
+      "extension_scenes": 1,
+      "extension_top_scenes": [
+        [
+          "2026-10-07_Day",
+          10
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 10,
+        "both_known": 10,
+        "unknown_pair": 0,
+        "difference_yen": -92000,
+        "improved": 0,
+        "worse": 10,
+        "equal": 0
+      },
+      "default_C1_vs_IFD": {
+        "n": 38,
+        "both_known": 30,
+        "unknown_pair": 8,
+        "difference_yen": 184000,
+        "improved": 22,
+        "worse": 8,
+        "equal": 0
+      }
+    },
+    {
+      "policy": "G02_EXP12",
+      "model_ref": "68f0878d039acaa2eeea7756fa36a3da4f6423d2739d908e19f6a3d1e6167c88",
+      "training_window": [
+        0,
+        36
+      ],
+      "application_window": [
+        36,
+        48
+      ],
+      "teacher_count": 125,
+      "matched_teachers": 25,
+      "matched_scenes": 7,
+      "winner_margin_score": 46.50422041726415,
+      "physical_gate": 208,
+      "physical_gate_predicate_unknown": 1,
+      "cohort_152_trades": 344,
+      "cohort_152_gate": 208,
+      "extensions": 26,
+      "extension_scenes": 3,
+      "extension_top_scenes": [
+        [
+          "2026-10-20_Night",
+          14
+        ],
+        [
+          "2026-10-16_Day",
+          11
+        ],
+        [
+          "2026-10-22_Night",
+          1
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 26,
+        "both_known": 26,
+        "unknown_pair": 0,
+        "difference_yen": -9000,
+        "improved": 7,
+        "worse": 13,
+        "equal": 6
+      },
+      "default_C1_vs_IFD": {
+        "n": 182,
+        "both_known": 175,
+        "unknown_pair": 7,
+        "difference_yen": 87000,
+        "improved": 59,
+        "worse": 103,
+        "equal": 13
+      }
+    },
+    {
+      "policy": "G02_EXP12",
+      "model_ref": "e4b5e83783d4cafc50f6ece71701e6808b036a69080193dccb52900bdfffe2fa",
+      "training_window": [
+        0,
+        48
+      ],
+      "application_window": [
+        48,
+        60
+      ],
+      "teacher_count": 326,
+      "matched_teachers": 98,
+      "matched_scenes": 13,
+      "winner_margin_score": 2241.2771133692295,
+      "physical_gate": 81,
+      "physical_gate_predicate_unknown": 1,
+      "cohort_152_trades": 172,
+      "cohort_152_gate": 81,
+      "extensions": 23,
+      "extension_scenes": 3,
+      "extension_top_scenes": [
+        [
+          "2026-10-23_Day",
+          21
+        ],
+        [
+          "2026-10-28_Night",
+          1
+        ],
+        [
+          "2026-10-29_Day",
+          1
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 23,
+        "both_known": 23,
+        "unknown_pair": 0,
+        "difference_yen": -88000,
+        "improved": 4,
+        "worse": 19,
+        "equal": 0
+      },
+      "default_C1_vs_IFD": {
+        "n": 58,
+        "both_known": 58,
+        "unknown_pair": 0,
+        "difference_yen": 283000,
+        "improved": 35,
+        "worse": 19,
+        "equal": 4
+      }
+    },
+    {
+      "policy": "G02_EXP12",
+      "model_ref": "5d3bff40f53472ce4f983e3dc61fca2588d3d81ca095a53b44a12ed0af2243a0",
+      "training_window": [
+        0,
+        60
+      ],
+      "application_window": [
+        60,
+        73
+      ],
+      "teacher_count": 406,
+      "matched_teachers": 118,
+      "matched_scenes": 18,
+      "winner_margin_score": 6803.793634648631,
+      "physical_gate": 24,
+      "physical_gate_predicate_unknown": 1,
+      "cohort_152_trades": 49,
+      "cohort_152_gate": 22,
+      "extensions": 4,
+      "extension_scenes": 3,
+      "extension_top_scenes": [
+        [
+          "2026-11-05_Night",
+          2
+        ],
+        [
+          "2026-11-06_Day",
+          1
+        ],
+        [
+          "2026-11-09_Day",
+          1
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 4,
+        "both_known": 4,
+        "unknown_pair": 0,
+        "difference_yen": 21000,
+        "improved": 3,
+        "worse": 1,
+        "equal": 0
+      },
+      "default_C1_vs_IFD": {
+        "n": 18,
+        "both_known": 17,
+        "unknown_pair": 1,
+        "difference_yen": 38000,
+        "improved": 9,
+        "worse": 8,
+        "equal": 0
+      }
+    },
+    {
+      "policy": "G03_WIN36",
+      "model_ref": "4f1986428e4ff0fe94dd0e75eb97381115ce7237131d03028ccde735b146f084",
+      "training_window": [
+        0,
+        24
+      ],
+      "application_window": [
+        24,
+        36
+      ],
+      "teacher_count": 84,
+      "matched_teachers": 21,
+      "matched_scenes": 6,
+      "winner_margin_score": 903.8461538461543,
+      "physical_gate": 49,
+      "physical_gate_predicate_unknown": 12,
+      "cohort_152_trades": 89,
+      "cohort_152_gate": 48,
+      "extensions": 10,
+      "extension_scenes": 1,
+      "extension_top_scenes": [
+        [
+          "2026-10-07_Day",
+          10
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 10,
+        "both_known": 10,
+        "unknown_pair": 0,
+        "difference_yen": -92000,
+        "improved": 0,
+        "worse": 10,
+        "equal": 0
+      },
+      "default_C1_vs_IFD": {
+        "n": 38,
+        "both_known": 30,
+        "unknown_pair": 8,
+        "difference_yen": 184000,
+        "improved": 22,
+        "worse": 8,
+        "equal": 0
+      }
+    },
+    {
+      "policy": "G03_WIN36",
+      "model_ref": "68f0878d039acaa2eeea7756fa36a3da4f6423d2739d908e19f6a3d1e6167c88",
+      "training_window": [
+        0,
+        36
+      ],
+      "application_window": [
+        36,
+        48
+      ],
+      "teacher_count": 125,
+      "matched_teachers": 25,
+      "matched_scenes": 7,
+      "winner_margin_score": 46.50422041726415,
+      "physical_gate": 208,
+      "physical_gate_predicate_unknown": 1,
+      "cohort_152_trades": 344,
+      "cohort_152_gate": 208,
+      "extensions": 26,
+      "extension_scenes": 3,
+      "extension_top_scenes": [
+        [
+          "2026-10-20_Night",
+          14
+        ],
+        [
+          "2026-10-16_Day",
+          11
+        ],
+        [
+          "2026-10-22_Night",
+          1
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 26,
+        "both_known": 26,
+        "unknown_pair": 0,
+        "difference_yen": -9000,
+        "improved": 7,
+        "worse": 13,
+        "equal": 6
+      },
+      "default_C1_vs_IFD": {
+        "n": 182,
+        "both_known": 175,
+        "unknown_pair": 7,
+        "difference_yen": 87000,
+        "improved": 59,
+        "worse": 103,
+        "equal": 13
+      }
+    },
+    {
+      "policy": "G03_WIN36",
+      "model_ref": "a6e8fed163f22070f0fb7f7ef982aea8fc1628321cec0a7aca6682e19dc683a2",
+      "training_window": [
+        12,
+        48
+      ],
+      "application_window": [
+        48,
+        60
+      ],
+      "teacher_count": 313,
+      "matched_teachers": 98,
+      "matched_scenes": 13,
+      "winner_margin_score": 511.45317684705515,
+      "physical_gate": 81,
+      "physical_gate_predicate_unknown": 1,
+      "cohort_152_trades": 172,
+      "cohort_152_gate": 81,
+      "extensions": 23,
+      "extension_scenes": 3,
+      "extension_top_scenes": [
+        [
+          "2026-10-23_Day",
+          21
+        ],
+        [
+          "2026-10-28_Night",
+          1
+        ],
+        [
+          "2026-10-29_Day",
+          1
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 23,
+        "both_known": 23,
+        "unknown_pair": 0,
+        "difference_yen": -88000,
+        "improved": 4,
+        "worse": 19,
+        "equal": 0
+      },
+      "default_C1_vs_IFD": {
+        "n": 58,
+        "both_known": 58,
+        "unknown_pair": 0,
+        "difference_yen": 283000,
+        "improved": 35,
+        "worse": 19,
+        "equal": 4
+      }
+    },
+    {
+      "policy": "G03_WIN36",
+      "model_ref": "62aa55df79ba8b67ee853b68be70a4e2a219839fe02f2568fb3c676b9559bbfa",
+      "training_window": [
+        24,
+        60
+      ],
+      "application_window": [
+        60,
+        73
+      ],
+      "teacher_count": 322,
+      "matched_teachers": 37,
+      "matched_scenes": 13,
+      "winner_margin_score": 309.2889610762868,
+      "physical_gate": 24,
+      "physical_gate_predicate_unknown": 1,
+      "cohort_152_trades": 49,
+      "cohort_152_gate": 22,
+      "extensions": 3,
+      "extension_scenes": 3,
+      "extension_top_scenes": [
+        [
+          "2026-11-02_Day",
+          1
+        ],
+        [
+          "2026-11-06_Night",
+          1
+        ],
+        [
+          "2026-11-09_Day",
+          1
+        ]
+      ],
+      "selected_vs_IFD": {
+        "n": 3,
+        "both_known": 3,
+        "unknown_pair": 0,
+        "difference_yen": 0,
+        "improved": 1,
+        "worse": 2,
+        "equal": 0
+      },
+      "default_C1_vs_IFD": {
+        "n": 19,
+        "both_known": 18,
+        "unknown_pair": 1,
+        "difference_yen": 59000,
+        "improved": 11,
+        "worse": 7,
+        "equal": 0
+      }
+    }
+  ],
+  "extension_overlap_H60": {
+    "extensions": {
+      "G01_F48": 27,
+      "G02_EXP12": 64,
+      "G03_WIN36": 62
+    },
+    "pairs": [
+      {
+        "left": "G01_F48",
+        "right": "G02_EXP12",
+        "intersection": 27,
+        "union": 64,
+        "only_left": 0,
+        "only_right": 37
+      },
+      {
+        "left": "G01_F48",
+        "right": "G03_WIN36",
+        "intersection": 24,
+        "union": 65,
+        "only_left": 3,
+        "only_right": 38
+      },
+      {
+        "left": "G02_EXP12",
+        "right": "G03_WIN36",
+        "intersection": 60,
+        "union": 66,
+        "only_left": 4,
+        "only_right": 2
+      }
+    ],
+    "all3": 24
+  },
+  "全モデル正本": "study/00159_延伸する局面を複合技術から学ぶ/成果物/モデルと学習報告.json",
+  "全選択正本": "study/00159_延伸する局面を複合技術から学ぶ/成果物/全gateの出口選択.json"
+}

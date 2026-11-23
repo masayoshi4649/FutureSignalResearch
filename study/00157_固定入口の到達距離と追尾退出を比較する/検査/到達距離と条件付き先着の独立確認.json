@@ -1,0 +1,707 @@
+{
+  "成功": true,
+  "試行": 157,
+  "全場": 73,
+  "物理case": 837,
+  "政策所属": 924,
+  "窓": 1674,
+  "幅数": 12,
+  "起点数": 2,
+  "目標数": 4,
+  "下側数": 3,
+  "全末端比較数": 965431,
+  "対象": "全touch両側/先着/全条件付きstatus・first全Quote・peak・lower・同原行jump、全前後の全固定/全起点/確定率",
+  "OHLC_MFE_MAEの数値比較": false,
+  "作者Go関数_自然Raw_金融_追加2場読取": false,
+  "方式": "前方配列と最初の閾値交差。unknown/censor後の到達を追加せず、既知touchは保持。",
+  "入力": {
+    "fixed": {
+      "path": "inputs/00157_固定入口と価格経路/固定入口入力.json",
+      "sha256": "eabf9819351ef77fec44a7a132a8df13fd8a3aee7c3be6d87ac81dabe34ce279",
+      "bytes": 2091691
+    },
+    "manifest": {
+      "path": "inputs/00157_固定入口と価格経路/価格テープ/価格テープの確認.json",
+      "sha256": "05b703b99f4a444d0394aa40d5efd2c5ba9e7909f1a3261271143c239affb723",
+      "bytes": 481671
+    },
+    "detail": {
+      "path": "study/00157_固定入口の到達距離と追尾退出を比較する/成果物/到達距離/到達距離と条件付き先着.json.gz",
+      "sha256": "0597cf628e354eb72838626989f96698dd8a3c82ff879f34710919bc5fba32db",
+      "bytes": 1079093
+    },
+    "summary": {
+      "path": "study/00157_固定入口の到達距離と追尾退出を比較する/成果物/到達距離/到達距離の集計.json",
+      "sha256": "7bf64357a5a8bf45ea7221b5ed7fcafa536907617b2dc9a31fa3e2b74245e213",
+      "bytes": 202437
+    },
+    "completion": {
+      "path": "study/00157_固定入口の到達距離と追尾退出を比較する/成果物/到達距離/完了の確認.json",
+      "sha256": "8d274905c6dfdc9df9dca6ae1677bc7d7c9c686a69ce0db9daa080675fcbffe3",
+      "bytes": 1169
+    }
+  },
+  "詳細解凍SHA256": "1be4f128af0d687c9f3a12e6ae0f644a782c69745492e0f16db0babf389ea07a",
+  "全テープ": [
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\000_2026-09-21_Day.jsonl.gz",
+      "sha256": "a8378322aca8b763b489f30efad5d6a317a5c2b160d420f6c2ce035bb8767cd3",
+      "decoded_sha256": "3f58427bd2b0d7c22ffe960bfca8beff951cb170738b94f27e0fd1e0b7d0c901",
+      "bytes": 397738,
+      "decoded_bytes": 8046031,
+      "rows": 56420,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\001_2026-09-21_Night.jsonl.gz",
+      "sha256": "d4b2e7add2a684990d1f9ae163f9ba78a19cf56e57c7937a735f859692003f21",
+      "decoded_sha256": "ada3b8bb0ea8deaf0495eba572d71069bd0711ddb80e09ce9be41e643231b65e",
+      "bytes": 569983,
+      "decoded_bytes": 11610174,
+      "rows": 81340,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\002_2026-09-22_Day.jsonl.gz",
+      "sha256": "78866eabbdf8e2f4ad72ed750f5705edb31aa09fb6315cf125e7583c684d0379",
+      "decoded_sha256": "dce9e03e739ded94846f13983bcb1a22949a553f844c395f11ba5fa0f5276217",
+      "bytes": 475700,
+      "decoded_bytes": 9560333,
+      "rows": 67001,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\003_2026-09-22_Night.jsonl.gz",
+      "sha256": "5db003f0f344332b41004af3366ba1ba7b7b6490b0e2411ced4e3a3bcfab69de",
+      "decoded_sha256": "679d8a91ff4621117a775ebd93407cec66d7e33987c134bea14ff76e980d1b9e",
+      "bytes": 854880,
+      "decoded_bytes": 17284569,
+      "rows": 120726,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\004_2026-09-23_Day.jsonl.gz",
+      "sha256": "adbb3123dcfd66c8422202043d7aa91b619dabd84eaafb2dcf0364e117f3bbbf",
+      "decoded_sha256": "c930ffd8a8ac15b865710a48221d9b565074e984d703f212933d70b9fff8d434",
+      "bytes": 380780,
+      "decoded_bytes": 7711515,
+      "rows": 54074,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\005_2026-09-23_Night.jsonl.gz",
+      "sha256": "c94dcf00a30c321607728a168c8aa9deffe1c7069c37c58f8065ea00f1d0aab7",
+      "decoded_sha256": "44e6b5b8c683cf817c41208bc32bee34f7947a72a1940bba126a2581239cb248",
+      "bytes": 838780,
+      "decoded_bytes": 17247360,
+      "rows": 120473,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\006_2026-09-24_Day.jsonl.gz",
+      "sha256": "c5d8e39109e5d1553f17a157018ee6fbaafc6e11a510fc35ab261f7b312d730c",
+      "decoded_sha256": "5b31b826f4043da2091e29a257a12d90efa75473a073a952e1c45c85eeed4b30",
+      "bytes": 895081,
+      "decoded_bytes": 17722985,
+      "rows": 123742,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\007_2026-09-24_Night.jsonl.gz",
+      "sha256": "0a9c7ab4e21a2b1813a50a67c055983a5a07915fe5b373083649089ce8f6ad78",
+      "decoded_sha256": "af58884713e4dd7e3ce5446784c9612f6e26f8946ea33cee185733084e36041d",
+      "bytes": 1241344,
+      "decoded_bytes": 25401758,
+      "rows": 176704,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\008_2026-09-25_Day.jsonl.gz",
+      "sha256": "8569b77fde762aeffdc64fcc5ec88c71e92b7605eb47643f942353108716f7ec",
+      "decoded_sha256": "08b1dd6de659ca3b595061e5dc1aa571afa9576a679b434b199c1a5d5d1f38e7",
+      "bytes": 771357,
+      "decoded_bytes": 15276209,
+      "rows": 106874,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\009_2026-09-25_Night.jsonl.gz",
+      "sha256": "d3b7f81b79b89c4e9d5d450b76b74efc0db213dd0ee3f9ba7a0e1755c94ee269",
+      "decoded_sha256": "0f6ee37b9109c56db6d20b745f115d8100979252743c497fc5c427274bed2a3a",
+      "bytes": 1018819,
+      "decoded_bytes": 20910385,
+      "rows": 145728,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\010_2026-09-28_Day.jsonl.gz",
+      "sha256": "020e47212092d9b319192285714de3e27c4e9453c6bbfe08971225ee048fbc08",
+      "decoded_sha256": "3e29c29a4026b5eb9c963774210174d4d05c7e8386efc8c8ae229e87d16b761b",
+      "bytes": 978672,
+      "decoded_bytes": 19439336,
+      "rows": 135584,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\011_2026-09-28_Night.jsonl.gz",
+      "sha256": "b35d8a380ae0178e642ad1f0d669bc84789750cdf23aaaae57a97453757c83f3",
+      "decoded_sha256": "e26ce8677c260b28d1acd9d778e52f90a7b50c8c20bff1d698c6314a59b5fbc0",
+      "bytes": 1204197,
+      "decoded_bytes": 24680987,
+      "rows": 171733,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\012_2026-09-29_Day.jsonl.gz",
+      "sha256": "6f0b69da5b1e61635f6e7bedc58fcf715af80da3c4a084a169636c7e2749d005",
+      "decoded_sha256": "c5d858c285421363d7f4e58bd3816a49ad06bb0cabcb086843a3ccc4543283ca",
+      "bytes": 1048820,
+      "decoded_bytes": 20717195,
+      "rows": 144397,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\013_2026-09-29_Night.jsonl.gz",
+      "sha256": "7267bade832c71222b64b08b74f3139855d9b6723f6be7268c95a2875f75cfe7",
+      "decoded_sha256": "5a14cb97e5e2ef8ac1e62d286a75ae89a9d82cd43029e190748747f6f455b33b",
+      "bytes": 1140285,
+      "decoded_bytes": 23324118,
+      "rows": 162373,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\014_2026-09-30_Day.jsonl.gz",
+      "sha256": "cf963e75c95200af1c9cca0b8aec7116c486c2d3262a62bedd4f99312c902433",
+      "decoded_sha256": "8a3a5c48d1eafd996b7651e23e05b16b3f3d27c35e28cf1bc2951324914e84d9",
+      "bytes": 949423,
+      "decoded_bytes": 18890891,
+      "rows": 131796,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\015_2026-09-30_Night.jsonl.gz",
+      "sha256": "cc2b0f1dfea606341bcc42c60418f975bc4bf3c6cff0906671bc49845e2a8ab4",
+      "decoded_sha256": "332caf397eefedf460838a2a24f4c2ae7b0b1b9ae1e297e4623a5ed12ee53780",
+      "bytes": 1227901,
+      "decoded_bytes": 24783906,
+      "rows": 172444,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\016_2026-10-01_Day.jsonl.gz",
+      "sha256": "8bf8da8e5b28bf8e94dbbffb275e63e905da3a3508bdc8b7697a8365d4980a67",
+      "decoded_sha256": "db9a9660c9773dc13a92191b5e5932382dae80d645d173dbdb4a07fa9aa8f1c5",
+      "bytes": 996576,
+      "decoded_bytes": 19827621,
+      "rows": 138261,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\017_2026-10-01_Night.jsonl.gz",
+      "sha256": "153a760875730ea42555cb876a89109d229cc466059c8d0788e1c842d96333a2",
+      "decoded_sha256": "aa2081b8ffbdc86891baf47dd4d886da8ed4be70c9cb83baf895f6046092060a",
+      "bytes": 1485787,
+      "decoded_bytes": 30061962,
+      "rows": 208831,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\018_2026-10-02_Day.jsonl.gz",
+      "sha256": "cb81feefbbd2d01633b1d9a7713f97f94d8589c75248f7911275b36a2dea1130",
+      "decoded_sha256": "ffb65b352c0b2a788e2fc51cbeef8b5b99e50e225293526ec2f8786f006895eb",
+      "bytes": 967266,
+      "decoded_bytes": 19210156,
+      "rows": 133995,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\019_2026-10-02_Night.jsonl.gz",
+      "sha256": "6e4934c24476041341b4745d933333f354d308b18d32039bb18a0af768fc96bf",
+      "decoded_sha256": "bb8a425925e53879cc0b0f896ed0b7b77a481ef3cd25ac524cb8ed29e8d24ecc",
+      "bytes": 1257865,
+      "decoded_bytes": 25348333,
+      "rows": 176330,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\020_2026-10-05_Day.jsonl.gz",
+      "sha256": "5597c9a7fa5a3f2342670b377ad4dac85edbcb41d77f2e72121e5432470c9614",
+      "decoded_sha256": "7a5bc35d8f2ce2f0871ea5fd4078230b0735e53dc64c953a8ac8dfeb79e9ab78",
+      "bytes": 885486,
+      "decoded_bytes": 17602673,
+      "rows": 122928,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\021_2026-10-05_Night.jsonl.gz",
+      "sha256": "f9b1b919ee3f98bec382a6803a9bdf5790bbc2923ed429741a207488f2f351c7",
+      "decoded_sha256": "6d76a5d43d09521048945bb1f58e6e389756a0df5b7d9d2252457f3abbc47501",
+      "bytes": 947423,
+      "decoded_bytes": 19309760,
+      "rows": 134689,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\022_2026-10-06_Day.jsonl.gz",
+      "sha256": "6df335ef72af4160d6ebf99d2d8fdfa93f9a4106c837d046d0f7a13a60ffe27c",
+      "decoded_sha256": "bde714ebcce58a9c79c1c87beefbd069a77d494834eb5bd9e1f340076fa551d3",
+      "bytes": 848463,
+      "decoded_bytes": 17015621,
+      "rows": 118866,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\023_2026-10-06_Night.jsonl.gz",
+      "sha256": "24039b6c28f68b517885da43e3b8acf1f2f092b82171931141a1075530aed5f4",
+      "decoded_sha256": "844bb38e7d59ae98183ba57926ba61af7ceeb1defff2a00d77f43f140f69c996",
+      "bytes": 801485,
+      "decoded_bytes": 16291731,
+      "rows": 113877,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\024_2026-10-07_Day.jsonl.gz",
+      "sha256": "f2fcda1f8bfdf19168c5bb67a76f5c53b5e5afc52adbe45aec3c260054010be6",
+      "decoded_sha256": "0cdf6110a4cfe5f9e237606c9ca98b0409b0ddcfebbd09c9900a8897e2c0f392",
+      "bytes": 834269,
+      "decoded_bytes": 16800583,
+      "rows": 117383,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\025_2026-10-07_Night.jsonl.gz",
+      "sha256": "9726cea9b80ef011df167838e2aba6151fb09c958049c4ef05c8e6390eae5c7f",
+      "decoded_sha256": "f7bddf252ca6543485ebae7401f2a543af2be297736a12c23bf9c79cd202ff8e",
+      "bytes": 1030796,
+      "decoded_bytes": 20881627,
+      "rows": 145542,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\026_2026-10-08_Day.jsonl.gz",
+      "sha256": "e192a7b3fc2858136146daa07e6b79b7a4a5d573ecbb98b5b3c21f3519ca0516",
+      "decoded_sha256": "9106f7e14121d2e88585d8ee1527225c38e208998d9b3642df833d22e1ba9d70",
+      "bytes": 993456,
+      "decoded_bytes": 19838216,
+      "rows": 138344,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\027_2026-10-08_Night.jsonl.gz",
+      "sha256": "7d07b7871d163a03d5306b8243462fda46684222df57c49e282eb8c14bae4f06",
+      "decoded_sha256": "870653572cf0c1a3fd9433b290d4f847fde5d82225510f16d33b5521e712585b",
+      "bytes": 1323151,
+      "decoded_bytes": 26709884,
+      "rows": 185722,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\028_2026-10-09_Day.jsonl.gz",
+      "sha256": "93b93d7a1e818ab750f358e375902c2b1dbe5031498ea788b518e998bf74044f",
+      "decoded_sha256": "2597315d2e92fded16ca758cc89b8f4430f06091e1e616055c7eff40f84a7367",
+      "bytes": 888947,
+      "decoded_bytes": 17643519,
+      "rows": 123207,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\029_2026-10-09_Night.jsonl.gz",
+      "sha256": "1084fee98e904b72580db6c57f7f2e7e887d21407063807e61536fbca19a89c3",
+      "decoded_sha256": "504347e05e4e318e4d33253a29a1d8bc0a442a3f7d79c09bf9c33ed53b6c4cd3",
+      "bytes": 845176,
+      "decoded_bytes": 17276614,
+      "rows": 120672,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\030_2026-10-12_Day.jsonl.gz",
+      "sha256": "c7882b8b6d1d1e13a2535dcdb9205e42e5d698071df5785ae1de3f6425841944",
+      "decoded_sha256": "1ff2701fbd70b29e55a515b63202ec22499e7b50231c62570d5dda0770c6781a",
+      "bytes": 565474,
+      "decoded_bytes": 11667378,
+      "rows": 81730,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\031_2026-10-12_Night.jsonl.gz",
+      "sha256": "b3e545396f4c1b8d94e2faac434c139c89bc51191b4c2417f37bf83922265ca3",
+      "decoded_sha256": "a9338529c56e2330b70335aacf126c2db687f5b323082ef8bde2512500da9b0f",
+      "bytes": 780139,
+      "decoded_bytes": 16115488,
+      "rows": 112664,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\032_2026-10-13_Day.jsonl.gz",
+      "sha256": "cf50866545951708a305db6a5162a30c1bdac068c260caeba10e601e60a8d1ac",
+      "decoded_sha256": "8086d1acf84453edd3b54051544cce8708c1a93d129ef59972f7b8b3e2c5697a",
+      "bytes": 1137138,
+      "decoded_bytes": 22480509,
+      "rows": 156552,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\033_2026-10-13_Night.jsonl.gz",
+      "sha256": "c82773d08bf99eb673a018cafd5dd63615ced8700ed98ade9a89abd08f566ba6",
+      "decoded_sha256": "ae8c562ccf3a58e829666365cc69bec451685e512583352d13d3683fb2b5a6de",
+      "bytes": 936754,
+      "decoded_bytes": 19155037,
+      "rows": 133625,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\034_2026-10-14_Day.jsonl.gz",
+      "sha256": "57540626ae77003681b1c39110959a29f3486c9ab23aff635a03ebc86e58537d",
+      "decoded_sha256": "1830799f2dbde40275ce7c908138b39f24f79d1aa73c58dac11997a14380d495",
+      "bytes": 985800,
+      "decoded_bytes": 19687094,
+      "rows": 137285,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\035_2026-10-14_Night.jsonl.gz",
+      "sha256": "fbc80467813f5bfc03a75531122fc4946284e2fc0c2cfe15d2da5cccfc506078",
+      "decoded_sha256": "3651188e98656f6394a68f4544572fb98148fc338864924c431e7b371dc031fa",
+      "bytes": 1324948,
+      "decoded_bytes": 26962530,
+      "rows": 187469,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\036_2026-10-15_Day.jsonl.gz",
+      "sha256": "7ca490a7eb70a8924a677425bd318662f561dbda8dc54c1c5f7da54a2010613f",
+      "decoded_sha256": "1e313e184c9153f536f8c8889fa56868854b1f3ea8c400ac9388dff3c0481a15",
+      "bytes": 1339700,
+      "decoded_bytes": 25862927,
+      "rows": 179870,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\037_2026-10-15_Night.jsonl.gz",
+      "sha256": "3d776b5d44c6af0aefa8af9546f860493734c9f54f59e81b1955c195b463c1df",
+      "decoded_sha256": "b7ceaf1a0175e057e33f7135e0be777f64b8755e16884416677fe1c4f396d21e",
+      "bytes": 1489722,
+      "decoded_bytes": 29938016,
+      "rows": 207983,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\038_2026-10-16_Day.jsonl.gz",
+      "sha256": "9e3aecd7275ec9f3882dc89856d1093198bfdbe42ec9ea85d34a064c0cb2eda3",
+      "decoded_sha256": "1f85c2b1d455a1dc823d8ba3e7d82f2cef98d9a197386d604bc7dff7156be607",
+      "bytes": 1112745,
+      "decoded_bytes": 22113385,
+      "rows": 154016,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\039_2026-10-16_Night.jsonl.gz",
+      "sha256": "20fe73e9c5fc5b0d407fd189e29c26474aa685a880ba6f594cff737ffe1d3098",
+      "decoded_sha256": "ead8539a4c78205355f63cbd485aef384eb930b064400f0a193c9598e157e9dc",
+      "bytes": 1500689,
+      "decoded_bytes": 30315634,
+      "rows": 210589,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\040_2026-10-19_Day.jsonl.gz",
+      "sha256": "c7d7cccbde58637d33c9d7e584c0bc668ef90ab2dbd9297be35dac659ba30ce6",
+      "decoded_sha256": "f533d7cc2d47f6416339576557413357f79dca39d67479d36709c7013bb9f6e4",
+      "bytes": 1148276,
+      "decoded_bytes": 22470975,
+      "rows": 156487,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\041_2026-10-19_Night.jsonl.gz",
+      "sha256": "126b617e5593fc2a03b454a2ac22e4a75cce2f632c9dc76f146394798a29f50f",
+      "decoded_sha256": "52800bbcb94216d540e3cb5bb4b9583ce91d78d3dc195b686f0d57020d67a1a4",
+      "bytes": 1332884,
+      "decoded_bytes": 27151334,
+      "rows": 188769,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\042_2026-10-20_Day.jsonl.gz",
+      "sha256": "472e00f8aa8f8450e9947dd8171b579d927603de0bdd8533b26b6245fa46aff9",
+      "decoded_sha256": "bbeedf2afb4160e629ac4aead49d7696647a956d0b15c3d5de63de3ff52e698f",
+      "bytes": 1220579,
+      "decoded_bytes": 23958916,
+      "rows": 166746,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\043_2026-10-20_Night.jsonl.gz",
+      "sha256": "506f605f1d787f23c77cac7c3a9a16aa2fea7023366ca8390e11bde01af6c773",
+      "decoded_sha256": "f4a35c16d446ac330ad96bff80d96961957e40af0e983a4304cb11a785256339",
+      "bytes": 1462142,
+      "decoded_bytes": 29536260,
+      "rows": 205217,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\044_2026-10-21_Day.jsonl.gz",
+      "sha256": "9cf31d8fb683d1c059394dde5cd1b047cef02557edaac496cf05355201cffde1",
+      "decoded_sha256": "acb303d5f0fcab3dc59ff8c1de432063ea7f3a57081b9ab824a72da1cd1f4813",
+      "bytes": 1128047,
+      "decoded_bytes": 22287938,
+      "rows": 155223,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\045_2026-10-21_Night.jsonl.gz",
+      "sha256": "f90317735342d413c84ba627f5b67cae7795ef4ae2fa0cb48f063167cf4d2a13",
+      "decoded_sha256": "5266d3bfe63442ee3e66133b6a1dee0ef5e5f5f4bf32816b7cedafb522c6ef2d",
+      "bytes": 1271835,
+      "decoded_bytes": 26025351,
+      "rows": 181008,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\046_2026-10-22_Day.jsonl.gz",
+      "sha256": "d281dee68b37819ae26596b0be7296116e8af78cdd88c2423cd2c890cde0bb21",
+      "decoded_sha256": "3ccfc2bdf7df695168deb59820dfefe88a9918787468b306f9cccd12a9b66b1e",
+      "bytes": 1232102,
+      "decoded_bytes": 24230961,
+      "rows": 168622,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\047_2026-10-22_Night.jsonl.gz",
+      "sha256": "947e640599ecd89ec8828f09d901f17d8e632ff2905faa04c013f732f2a69b6b",
+      "decoded_sha256": "016914b06649b2c16d69e195828f223038e75ea0f2f3e8357ca81cb9ab8102a5",
+      "bytes": 1599065,
+      "decoded_bytes": 32757012,
+      "rows": 227427,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\048_2026-10-23_Day.jsonl.gz",
+      "sha256": "769cf5a5d6f2c6ef22632bce5fb7ec42a7a1c52077a932840da01a99abe09437",
+      "decoded_sha256": "dc2b14b4b80d60c657d8365bcccc285480901b9974ff22efef4485a2d092482b",
+      "bytes": 1438274,
+      "decoded_bytes": 27525623,
+      "rows": 191333,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\049_2026-10-23_Night.jsonl.gz",
+      "sha256": "2ce2527f11d99a110027f5622e852e597ed30f5dccee2e5d2ba69653d4fe6387",
+      "decoded_sha256": "59dd4eb0a8a84a90b83a6f8ba0fbaec0c8a8d7a455e732cdea024e7c9d5e3cb9",
+      "bytes": 1516058,
+      "decoded_bytes": 30938011,
+      "rows": 214882,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\050_2026-10-26_Day.jsonl.gz",
+      "sha256": "89e7409f685e916a22843bcaa7431539f4e838230b424b6562c6b11c2354a204",
+      "decoded_sha256": "4a446b3ffaa17d5b56fa20aaefa7623d29a62b32a97dcfdf8e4c9d374b1a541f",
+      "bytes": 1206760,
+      "decoded_bytes": 23750734,
+      "rows": 165295,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\051_2026-10-26_Night.jsonl.gz",
+      "sha256": "9ff6441ead5d492f59c9d0fd4836baa46fc76a3708e84dd3161ad3ca01797e74",
+      "decoded_sha256": "bb5f45051bc88ddbaace74f6499fcd6e12f75a3a27acc295a976529a68dd9cc3",
+      "bytes": 1375174,
+      "decoded_bytes": 28194234,
+      "rows": 195959,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\052_2026-10-27_Day.jsonl.gz",
+      "sha256": "dbdf351d62b8e3348fa8b2393e8171a8922d5d641e7fee8aa8fefa4eb0f59534",
+      "decoded_sha256": "e98de403f11bca61c57b907a6be708d39f443a62075c387569adefd2cb134ba5",
+      "bytes": 1172284,
+      "decoded_bytes": 23296357,
+      "rows": 162171,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\053_2026-10-27_Night.jsonl.gz",
+      "sha256": "bb9b45a4e097afe7d951baf363c563a7357a6ad7896c55f8d8f768436a7096d8",
+      "decoded_sha256": "d21f1f80950cd3b38947c5abaf78aade72bf328dc9bdbb9d5fa06ece3630b5cd",
+      "bytes": 1166429,
+      "decoded_bytes": 24020123,
+      "rows": 167176,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\054_2026-10-28_Day.jsonl.gz",
+      "sha256": "c986d5264260ee06efd57e0014efde0115107053dd1de4124c5e0c1c0b216075",
+      "decoded_sha256": "8232c746701e68b52073d256314853b43f6808e6492acb81f84dd23124cf25dd",
+      "bytes": 1096171,
+      "decoded_bytes": 21691560,
+      "rows": 151113,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\055_2026-10-28_Night.jsonl.gz",
+      "sha256": "4b2180272cb28b297644e58c3ff041b6ca310b466395ecaaf6fb23bec0ca19ad",
+      "decoded_sha256": "d3d5f2c12ff08429c96cb104fe876e6be30e0b72f29d7f8a0880641fb14e0e10",
+      "bytes": 1431833,
+      "decoded_bytes": 28886903,
+      "rows": 200737,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\056_2026-10-29_Day.jsonl.gz",
+      "sha256": "1cf4dfa171df1d5480084371f0c059cd967a6be2966c56a7a6b0924072b1f231",
+      "decoded_sha256": "23676ef6f4ee9567d6cd73e9c457e6ccf96a9a3f6f98dcd5ff55891d5e7bf24e",
+      "bytes": 1353846,
+      "decoded_bytes": 26287412,
+      "rows": 182792,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\057_2026-10-29_Night.jsonl.gz",
+      "sha256": "cedbd63ee4717196f5e182f3b5d4893e2011da6f58dc56ce508b83e0779d59fc",
+      "decoded_sha256": "8e23d9c32ae2f4fc34352bf3421c5f3e74c56691f1d1af3dc617d6f697d634ce",
+      "bytes": 1591153,
+      "decoded_bytes": 32516067,
+      "rows": 225767,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\058_2026-10-30_Day.jsonl.gz",
+      "sha256": "6c99400eb842202a5b2345df7b244cb220dda07b40b2ad056c23ded7db3f7ade",
+      "decoded_sha256": "2ab983d01384d648deb58bff76b8fc3a5735eae158a90e7808d6f1d325de102b",
+      "bytes": 1201699,
+      "decoded_bytes": 23204603,
+      "rows": 161539,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\059_2026-10-30_Night.jsonl.gz",
+      "sha256": "195bfe43a812a78e53131ff5912d47969f2fd6068f532fa3c129c31fb72de1ab",
+      "decoded_sha256": "90e8112b676ab6d2670da17b3600c855d902d88c8147973f4d43a988630556c7",
+      "bytes": 1692827,
+      "decoded_bytes": 34543242,
+      "rows": 239744,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\060_2026-11-02_Day.jsonl.gz",
+      "sha256": "e5f7e1ab8dea509e80411fa4c00284de77c5f74ec96ba03455454e403f7f75cd",
+      "decoded_sha256": "3884f323478ad0664f4821de43a15ed6633b1c73fee248b82aafd4566401bcf3",
+      "bytes": 1152583,
+      "decoded_bytes": 22677761,
+      "rows": 157907,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\061_2026-11-02_Night.jsonl.gz",
+      "sha256": "49ab4e0d90a0c9d6132511bfb508ce898e684a255bc82bccae34e8fcd66f3b01",
+      "decoded_sha256": "44c60e1209eaaff6ec6e472de124ce4f9c02df67af6b4275ac15d03236a29e84",
+      "bytes": 1589131,
+      "decoded_bytes": 32434534,
+      "rows": 225203,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\062_2026-11-03_Day.jsonl.gz",
+      "sha256": "afcf53dcc30bfa2e6b5905d388ab1c4e1c7d54583b7946f898e4ce283a681bc9",
+      "decoded_sha256": "74a9078bbf5923e50124cbc1cb8277e5016c4896e49b244c8611b74c3b7f2b28",
+      "bytes": 769884,
+      "decoded_bytes": 15574608,
+      "rows": 108921,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\063_2026-11-03_Night.jsonl.gz",
+      "sha256": "e5a7a8fe7790ece7153f260cd2b5f0a2af8402c7ea01c85542475370e552f5dc",
+      "decoded_sha256": "1aeadc6fdb8b1683c535c74b772ce1ac47de6877ba624773eab43932f41a01e0",
+      "bytes": 1368835,
+      "decoded_bytes": 28187481,
+      "rows": 195916,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\064_2026-11-04_Day.jsonl.gz",
+      "sha256": "a28f5041b5a112ef35266844e73b017850157c004cbfc855ecfd9cd9e2ddbae1",
+      "decoded_sha256": "51706478b0933c8686d56c4960fe426413b768488d526ba9ab8dde66b3417ebc",
+      "bytes": 1551098,
+      "decoded_bytes": 29314685,
+      "rows": 203674,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\065_2026-11-04_Night.jsonl.gz",
+      "sha256": "2ca59d77a97ebc38fef4931515e87137ab7df944c5cdc223b78fc46ab134c17a",
+      "decoded_sha256": "fe474466da6864e0c7ec9d0a54391ace071482dc18ab2579d7f54b89aab6ef4c",
+      "bytes": 1837086,
+      "decoded_bytes": 36963330,
+      "rows": 256439,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\066_2026-11-05_Day.jsonl.gz",
+      "sha256": "2011b9fa34d9d495552f65b10aaa4903d55b7a83b8539cd78ebc25e366b3add8",
+      "decoded_sha256": "64677c92d74127c2be03640962250e0b4208901fbac08778c3a15c0a247e8a68",
+      "bytes": 1426582,
+      "decoded_bytes": 27475308,
+      "rows": 190999,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\067_2026-11-05_Night.jsonl.gz",
+      "sha256": "ad8c985ada024f6e557581a1e0975350a04a90d825756966b198d158dd19b15e",
+      "decoded_sha256": "f6d43c7cca5593be8e81db0c94602aae9df33d0a0caf58c7eda1a520bf825547",
+      "bytes": 2232098,
+      "decoded_bytes": 43264720,
+      "rows": 299893,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\068_2026-11-06_Day.jsonl.gz",
+      "sha256": "48144151ece26bb344b4df1b8086f7d2b2c88bea75efb3aaf72514b26eb81330",
+      "decoded_sha256": "1c3c8fd5949d17097abd1152f17e7e795c73f1b9ddd219acf5c69106c200a4c2",
+      "bytes": 1719175,
+      "decoded_bytes": 31639510,
+      "rows": 219662,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\069_2026-11-06_Night.jsonl.gz",
+      "sha256": "4128e92a7726f0ea446d2d39deb82a8d9a345bec88bdda9210f38e8b651cd6cd",
+      "decoded_sha256": "dcac50fdd21a862a06140ce2e27a108255d402b192fff264e29f54df8154cbf2",
+      "bytes": 2161597,
+      "decoded_bytes": 42745267,
+      "rows": 296298,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\070_2026-11-09_Day.jsonl.gz",
+      "sha256": "95227aee306b0727e98f549b49b8219a785a23ebf49df54e983e5938f8ebf87b",
+      "decoded_sha256": "499dfe0c47cf077dbeb540b21784e2ae6053eefe505ba8a2f8c1016f2f75cd62",
+      "bytes": 1382638,
+      "decoded_bytes": 26643308,
+      "rows": 185235,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\071_2026-11-09_Night.jsonl.gz",
+      "sha256": "cca499e31b9ac211cced9d3e0575c61c3acde77a51b29094a9ab3e09176e1b13",
+      "decoded_sha256": "a5d3312d47ab438345b470b134b982486ee19254bd07d3ca1d98a9751f19b8ba",
+      "bytes": 1650394,
+      "decoded_bytes": 33026681,
+      "rows": 229275,
+      "CRC完読_前後stat": true
+    },
+    {
+      "path": "inputs\\00157_固定入口と価格経路\\価格テープ\\tapes\\072_2026-11-10_Day.jsonl.gz",
+      "sha256": "fc0b5d5912d40cd836c60571c45418f85a770bf85a70be52dfb5982dcd2610be",
+      "decoded_sha256": "e9125691c73e9fd03fe7208699fe66e37b8b16535ac2400c56af3ef469be9c7f",
+      "bytes": 1192056,
+      "decoded_bytes": 23589460,
+      "rows": 164197,
+      "CRC完読_前後stat": true
+    }
+  ],
+  "全入力前後SHA_stat同体": true,
+  "検算SourceSHA256": "c0a07d29582e65a987962cac40a578193db08b460afc2dc4ec24d16c70698564",
+  "NumPy": "2.5.4"
+}

@@ -1,0 +1,44 @@
+{
+  "成功": true,
+  "試行": 151,
+  "段階": "F1後の監査cache参照追補",
+  "UTC": "2026-11-12T05:39:44.689767+00:00",
+  "F1_SHA256": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917",
+  "F0_SHA256": "d14d98f984adf9894703a40f4c68a97347109666c0a05743459ca3822e566cf4",
+  "F1事前固定の対象だったと主張する": false,
+  "意味": "共有入力から再生成した作業cacheの現在指紋。保存学習配列署名と全予測への独立照合に用いる",
+  "全cacheは変更せず指紋のみ取得": true,
+  "ファイル": {
+    "work/151過去場判別の評価/入口選択/cache/feature_only/features.npz": "5b309e0821403fcf1b122956fc6c9fe20ec5dfbe4327d7d674193b8e58f99b44",
+    "work/151過去場判別の評価/入口選択/cache/feature_only/features_meta.json": "71df54db57a3093eb4de2f5ce26c654c758f9181e07f61660cb1a192f6fa4602",
+    "work/151過去場判別の評価/入口選択/cache/teacher_only/teachers.npz": "ec613a27461c32d1aa09aed4ecf3b013c2d7dc827d86ba642385698547f22689",
+    "work/151過去場判別の評価/入口選択/cache/teacher_only/teachers_meta.json": "3b723ca78d5ddc8ab4f301d5f9ba18ee08bea4e0159a085558296f824d736106"
+  },
+  "共有入力の由来": {
+    "features": {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    "fixed": {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "decoded_sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+    },
+    "captures": {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "decoded_sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+    },
+    "metadata": {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "decoded_sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+    },
+    "observations": {
+      "path": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "decoded_sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc"
+    }
+  }
+}

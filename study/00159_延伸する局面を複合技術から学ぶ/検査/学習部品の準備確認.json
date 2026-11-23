@@ -1,0 +1,71 @@
+{
+  "成功": true,
+  "試行": 159,
+  "自然snapshot本文読取": false,
+  "親金融本文読取": false,
+  "自然学習": false,
+  "自然採否": false,
+  "人工主群": 7,
+  "predicate数": 124,
+  "AND組数": 6232,
+  "規則数_fit": 12464,
+  "モデル適用枠": 9,
+  "重複除去訓練窓": 6,
+  "結果条件数": 24,
+  "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "NumPy": "2.5.4",
+  "CLI": "work/159複合条件の延伸選択/実行する.py",
+  "ログ": [
+    {
+      "arguments": [
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\複合テクニカル学習環境\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "人工検査.py"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": "test_composition_and_gzip_integrity (__main__.Tests.test_composition_and_gzip_integrity)\nG24合成・gzip指紋・CRC拒否を人工だけで確認する。 ... ok\ntest_dictionary_boundary_and_unknown (__main__.Tests.test_dictionary_boundary_and_unknown)\n固定辞書・等号・unknown両falseを確認する。 ... ok\ntest_future_labels_and_warmup (__main__.Tests.test_future_labels_and_warmup)\n未来label改変で既定9モデル・全採否が変わらないことを確認する。 ... ok\ntest_prefix_rejects_early_and_nonTP_difference (__main__.Tests.test_prefix_rejects_early_and_nonTP_difference)\nquery前の別行動退出と非TPの損益差を拒否する。 ... ok\ntest_prefix_teacher_unknown_and_recomposition (__main__.Tests.test_prefix_teacher_unknown_and_recomposition)\n共通prefixと未知教師・親診断の扱いを確認する。 ... ok\ntest_score_denominator_support_and_tie (__main__.Tests.test_score_denominator_support_and_tie)\n全eligible分母・最良場除去・負場罰則・同点順を確認する。 ... ok\ntest_strict_maturity_and_mirror (__main__.Tests.test_strict_maturity_and_mirror)\n成熟等号除外と25派生の買売鏡像を確認する。 ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 1.390s\n\nOK\n"
+    },
+    {
+      "arguments": [
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\複合テクニカル学習環境\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "py_compile",
+        "data159.py",
+        "rules159.py",
+        "実行する.py",
+        "人工検査.py",
+        "準備する.py"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\複合テクニカル学習環境\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "実行する.py",
+        "--help"
+      ],
+      "code": 0,
+      "stdout": "usage: 実行する.py [-h] --snapshot SNAPSHOT --snapshot-sha256 SNAPSHOT_SHA256\n               --snapshot-decoded-sha256 SNAPSHOT_DECODED_SHA256\n               --parent-result PARENT_RESULT\n               --parent-result-sha256 PARENT_RESULT_SHA256\n               --parent-result-decoded-sha256 PARENT_RESULT_DECODED_SHA256\n               --spec SPEC --spec-sha256 SPEC_SHA256 --book BOOK\n               --book-sha256 BOOK_SHA256 --execute-after-f0 EXECUTE_AFTER_F0\n               --f0-sha256 F0_SHA256 --output-dir OUTPUT_DIR\n\noptions:\n  -h, --help            show this help message and exit\n  --snapshot SNAPSHOT\n  --snapshot-sha256 SNAPSHOT_SHA256\n  --snapshot-decoded-sha256 SNAPSHOT_DECODED_SHA256\n  --parent-result PARENT_RESULT\n  --parent-result-sha256 PARENT_RESULT_SHA256\n  --parent-result-decoded-sha256 PARENT_RESULT_DECODED_SHA256\n  --spec SPEC\n  --spec-sha256 SPEC_SHA256\n  --book BOOK\n  --book-sha256 BOOK_SHA256\n  --execute-after-f0 EXECUTE_AFTER_F0\n  --f0-sha256 F0_SHA256\n  --output-dir OUTPUT_DIR\n",
+      "stderr": ""
+    }
+  ],
+  "源SHA256": {
+    "study/00159_延伸する局面を複合技術から学ぶ/実行条件.md": "8899a5a1b378abd669ec9003ded19930c4e315879b76dc67517dd0b5e4e6bdb3",
+    "study/00159_延伸する局面を複合技術から学ぶ/文法と学習の固定.json": "86fa33f1e1111ddc2665e1cb6c68c7b4dae5dfc61feff0132ef144064966891a",
+    "work/159複合条件の延伸選択/data159.py": "b27696cd223d1b4a412e1b5a464a1091e3c123e70d1ffff64da07428f599c4c4",
+    "work/159複合条件の延伸選択/README.md": "c59d30aca49c7ea86200ec9760c91dae835674c59850fd277e385877c6e26228",
+    "work/159複合条件の延伸選択/rules159.py": "61a25b62cd672d1f23a5ecb695b5ec0799592cd7572ec60f1dd97fd67102658c",
+    "work/159複合条件の延伸選択/人工検査.py": "c57ff2d8c6c90451e3daba4e874c8cdba4cc43e565cd73eb3858d6d9f6b9551b",
+    "work/159複合条件の延伸選択/実行する.py": "fb4bf03070411d770712e2378ea35f90583ca34e27eed8eda4e9d2d9e18868c8",
+    "work/159複合条件の延伸選択/準備する.py": "102ac395f5d31fc83e0d637998a36d8eb17d6ec89cf17d3168078eb596ef8786"
+  },
+  "前後同体": true
+}

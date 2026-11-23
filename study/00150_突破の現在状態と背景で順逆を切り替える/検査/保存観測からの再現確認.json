@@ -1,0 +1,91 @@
+{
+  "成功": true,
+  "試行": 150,
+  "復元源": [
+    {
+      "path": "work/150構造状態の金融集計/準備の確認.json",
+      "sha256": "f3f66016a0aeaa110cdd7749778ae48436882778f305e4111cee252e14955d9d",
+      "bytes": 3765,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/150構造状態の金融集計/人工検査.py",
+      "sha256": "a5587f5463c1babf17fb657c9c753072e45c0a1d24cf26e057ffd30ea7e53f3d",
+      "bytes": 5442,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/150構造状態の金融集計/準備する.py",
+      "sha256": "28cd1c8b7b7863f4cd9b50a107e3a8831cbf22858e4f9d933ed31d1923db388f",
+      "bytes": 2685,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/150構造状態の金融集計/集計する.py",
+      "sha256": "017b335b3b5c1fa20ccf1bcb32c1495b84e25c7461b46c70cb9318f688f8c15a",
+      "bytes": 17285,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/150構造状態の金融集計/条件.md",
+      "sha256": "4eec149f04ff6d7f91b56f20ecd6595afacb5a52a9e8ccbec850d8ed3b1694b7",
+      "bytes": 1987,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/148母集団の診断集計/人工検査.py",
+      "sha256": "4256dec3bd2bd22f51009f9efe5286c039641b5c558c724b271dd55c8f2facef",
+      "bytes": 7604,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/149可読局面の金融集計/集計する.py",
+      "sha256": "920b6a6c666318eaf5a6ea4a0047246a8d183f850fad67af52bdf6cfdcc9264f",
+      "bytes": 18307,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/148母集団の診断集計/集計する.py",
+      "sha256": "0ae8287b67b53df0d07c22963e2bf9ecd0775af9b0545a89f6a61af6ec2ec309",
+      "bytes": 21932,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "work/124入口の原因分析/集計する.py",
+      "sha256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+      "bytes": 18019,
+      "方式": "小型ZIPから復元"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/固定取得の正逆観測.json.gz",
+      "sha256": "e970b53d95ac4ff56335288ba402d59bef41558d0785d448b1cefe12bd360cbf",
+      "bytes": 80492,
+      "方式": "同一volumeの圧縮実体hardlink・読取専用扱い"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/集計.json",
+      "sha256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861",
+      "bytes": 370624,
+      "方式": "保存原文又は選択gzipから復元"
+    },
+    {
+      "path": "work/150構造状態の評価/入口選択/選択対応.json",
+      "sha256": "f6d5441a58f305d2f123011d85dca472629d5b18c7772614c0ecb6e0d9a29f16",
+      "bytes": 4012527,
+      "方式": "保存原文又は選択gzipから復元"
+    }
+  ],
+  "元F1_SHA256": "d19e311a695da3de2098956e1fee4eda28bae924f65bc0c8c452938b3131bcdf",
+  "実金融前F2_SHA256": "222b357225105a136575bfa1e914858bbe78515b11e4348a016b9e1c879bcd07",
+  "再現F1_SHA256": "90aee9c8ccfeaab9794792ac29fc65400d79144bf1ac58e711e92993195deb78",
+  "720比較/参加/頻度/累計/連結群の全dict一致": true,
+  "全三表JSONbytes一致": true,
+  "三表SHA256": "00eed952e2db37f3e0eaa1cf71ff458e41828dc6c90d5e0b11ca377b4fb39030",
+  "許容差": "隔離pathを含む再現入口F1のSHAだけ。作者キー名F2_SHA256の実値は入口F1。全統計・セルは同体。",
+  "共有4入力gzipを直接読取": true,
+  "親大観測gzipを直接読取": true,
+  "原板/出生/入口再選択": false,
+  "大観測plain新副本": false,
+  "恒久大入力複製": false,
+  "元正本上書き": false
+}

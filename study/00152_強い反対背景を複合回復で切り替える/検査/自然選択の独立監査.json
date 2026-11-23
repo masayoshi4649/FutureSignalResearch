@@ -1,0 +1,101 @@
+{
+  "成功": true,
+  "編集停止": true,
+  "試行": 152,
+  "F0_SHA256": "c880033142c9d539dd7ed6c695d923b806ecd5ec307c42a5d4ac1ff639739d21",
+  "F1_SHA256": "7111973cb5abcd4fb90a145b103357efd8204a1f684c226c0633fd9c74681aaa",
+  "bookSHA256": "7805b17d8125b15c8f28d6d874a0a53e2066e92f858df21b41e0e61454167067",
+  "全q0再構成数": 35339,
+  "末端比較数": 1144168,
+  "全G_R_B_未知_役割_origin_元予測情報一致": true,
+  "全政策所属とcanonical_C1優先一致": true,
+  "政策別取得数": {
+    "P65": 1118,
+    "A0": 748,
+    "B0": 614,
+    "NB0": 614,
+    "C1": 87,
+    "U1": 697,
+    "U0": 831,
+    "U65": 1200
+  },
+  "候補と取得": {
+    "P65": {
+      "born": 1126,
+      "filled": 1118,
+      "expired": 8
+    },
+    "A0": {
+      "born": 755,
+      "filled": 748,
+      "expired": 7
+    },
+    "B0": {
+      "born": 620,
+      "filled": 614,
+      "expired": 6
+    },
+    "NB0": {
+      "born": 620,
+      "filled": 614,
+      "expired": 6
+    }
+  },
+  "全q0再構成の正規JSON行SHA256": "745ef65716ca1818b1a4f6e2d22656a2ed0ef82a613f9f9ffeaaf9f0ade46f84",
+  "理由分布": {
+    "A0/source_wait": 34213,
+    "B0/source_wait": 34213,
+    "A0/outside_strong_opposition": 715,
+    "B0/outside_strong_opposition": 596,
+    "A0/neither_recovery": 368,
+    "B0/neither_recovery": 368,
+    "A0/background_direction_recovery_confirmed": 18,
+    "B0/chase_above_one_atr": 135,
+    "A0/countertrend_recovery_confirmed": 22,
+    "B0/countertrend_recovery_confirmed": 19,
+    "B0/background_direction_recovery_confirmed": 5,
+    "A0/recovery_unknown": 3,
+    "B0/recovery_unknown": 3
+  },
+  "固定源前後同体": {
+    "docs/議論/手法と時間スケールの汎用表_版7.md": "585d0d9ba69ff3601325e9e6564ede53aeb81b0d33a2da6cb67e20e175187c3d",
+    "inputs/00148_全1分入口母集団/100特徴の列定義.json": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+    "inputs/00148_全1分入口母集団/入口参照.json.gz": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+    "inputs/00148_全1分入口母集団/取得対応.json.gz": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+    "inputs/00148_全1分入口母集団/固定取得入力.json.gz": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+    "inputs/00148_全1分入口母集団/当時特徴.json.gz": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+    "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+    "inputs/00151_過去場だけの複合判別/条件.json": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d",
+    "inputs/00152_複合回復の方向切替/条件.json": "7805b17d8125b15c8f28d6d874a0a53e2066e92f858df21b41e0e61454167067",
+    "scripts/入口研究/固定特徴から可読条件を選択する.py": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+    "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F1入口選択後.json": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917",
+    "study/00151_広い複合テクニカルを過去場だけで判別する/検査/正式保存の最終確認.json": "324363fa3db7ade0ddc02b5864a734ed0b603209949ebc55cf8747044d615c18",
+    "study/00152_強い反対背景を複合回復で切り替える/README.md": "630c955d50dc95bc31b4e2d9ef702a32faef310616cd0367d6c53865c1fa1bd5",
+    "study/00152_強い反対背景を複合回復で切り替える/条件.md": "5a40b900b1c33a632d7744cde30578dc60feac7732ad762c6c84634c3835f105",
+    "study/00152_強い反対背景を複合回復で切り替える/設定と結果.md": "ebad849b8c6dbc7e502efdded8dc86b3778938a4ac376c861f5bef6c51aad083",
+    "work/151過去場判別/data151.py": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+    "work/152事前と選択後を固定する.py": "b1701c2d054750dbcf2d6d659a2fe4fe4728d4a9b5eaf3b60fb5cf201bb69e12",
+    "work/152正式準備/正式文書を作る.py": "f4f1ca61d39fb0022289d3da6c77c251293d81fa2a40f0cb74e05f3c0a81c22a",
+    "work/152正式準備/準備の確認.json": "90b2048c0a8af35a91b228905daa8ceebf8f6cd7cd89f1c7970a0e280dfc267b",
+    "work/152正式準備/準備を確認する.py": "d20f0f0b520f21891b543000eac43db9c8899ea021d13b0bd7d134bdf2c848ee",
+    "work/152純判定と運転の独立準備/独立人工.py": "86ae6680a48e80dd5a9cd0dcceda1fa7a0739d8d20882689c07eedc631e757c8",
+    "work/152純判定と運転の独立準備/独立人工の確認.json": "c1072f024dde2afbbdb4f4635e5f897d79146a16f2121a852297632e75d4d121",
+    "work/152複合回復の入口/logic152.py": "e9d7bff7f1b02636ddb1b2ea30afaa16540cb3966d55c94edd0eb4e409c77b62",
+    "work/152複合回復の入口/README.md": "ba27a9e8e5e0f33a42506d54e747ed1483ddabade63cbce08f69884aed7f2209",
+    "work/152複合回復の入口/人工検査.py": "0b7aedaf512c165c8565ffc560052775eed70ba3e3aea1e86423969d395509a5",
+    "work/152複合回復の入口/停止.json": "3910670316454cb6bdb9af7c29b34a006874886da8842a3514f1dbc5a7d92707",
+    "work/152複合回復の入口/条件.json": "7805b17d8125b15c8f28d6d874a0a53e2066e92f858df21b41e0e61454167067",
+    "work/152複合回復の入口/準備する.py": "0dbe632a9304a3632224b22b10198709a198221e3446837f1caf9aa6b23821f9",
+    "work/152複合回復の入口/準備の確認.json": "60358de4d930b885e36d8d75f553d21def6497d88aad772ec40e8a4f42cdc41a",
+    "work/152複合回復の入口/選択する.py": "e430e730b04155b8ab7b6b2616e1629aa9101e9b489e52ad2e5e1b44aa66dbee",
+    "work/152複合回復の評価/F0入口選択前.json": "c880033142c9d539dd7ed6c695d923b806ecd5ec307c42a5d4ac1ff639739d21",
+    "work/152複合回復の評価/入口選択/q0の判断.json": "1015e22e62ade1f8873a79b568b2b6cc872d66a4a493db0995a764ad9d5d2997",
+    "work/152複合回復の評価/入口選択/選択の確認.json": "82d81bb2db7d4915bd86e45d074071ffe4d07bc5910907cd33b13eb063838f11",
+    "work/152複合回復の評価/入口選択/選択対応.json": "d77fcb20976b6207039e31912058894fdf1cc31c7aaae604739df82d2d74110c"
+  },
+  "順序": "純G/R/B全35339再構成後にcaptures/metaを読んで独立結合。",
+  "152新Source_choose_project_connect_import": false,
+  "151ZIP読取": "固定q0 memberだけ。モデル/旧選択memberは読まない。",
+  "新しい選び直し/再学習/金融観測/教師/Raw/追加2場": false,
+  "限界": "148特徴と取得代用を固定入力として用いる。100列算術・実受信・未保存Raw firstnormal・将来成績は再検証しない。"
+}

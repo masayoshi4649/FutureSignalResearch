@@ -1,0 +1,268 @@
+{
+  "成功": true,
+  "試行": 158,
+  "ZIP": {
+    "path": "study/00158_複合技術で出口の役割と局面を切り替える/再現資料/再現コード.zip",
+    "sha256": "348f68f9e46dc8c4b206aa5bba194612e2ce88c26fb110ef38b455d59c555743",
+    "bytes": 246020
+  },
+  "源ファイル": 79,
+  "manifest込み": 80,
+  "全格納SHA_bytes_CRC一致": true,
+  "元源前後同体": true,
+  "Python全源構文": true,
+  "Go復元人工_vet_build": [
+    {
+      "module": "118複数技法の入口条件",
+      "実行": [
+        {
+          "引数": [
+            "go",
+            "test",
+            "-count=1",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\118複数技法の入口条件",
+          "終了値": 0,
+          "stdout": "ok  \tgithub.com/masayoshi4649/SessionTradeExecuter/entryrules118\t0.078s\n",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "vet",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\118複数技法の入口条件",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "build",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\118複数技法の入口条件",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "module": "157固定入口と価格経路",
+      "実行": [
+        {
+          "引数": [
+            "go",
+            "test",
+            "-count=1",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\157固定入口と価格経路",
+          "終了値": 0,
+          "stdout": "ok  \tpricetape157\t0.102s\n?   \tpricetape157/cmd/run\t[no test files]\n",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "vet",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\157固定入口と価格経路",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "build",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\157固定入口と価格経路",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "module": "157出口政策の再生",
+      "実行": [
+        {
+          "引数": [
+            "go",
+            "test",
+            "-count=1",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\157出口政策の再生",
+          "終了値": 0,
+          "stdout": "ok  \texitreplay157\t0.077s\n?   \texitreplay157/cmd/exits\t[no test files]\n",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "vet",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\157出口政策の再生",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "build",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\157出口政策の再生",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "module": "158技術特徴",
+      "実行": [
+        {
+          "引数": [
+            "go",
+            "test",
+            "-count=1",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158技術特徴",
+          "終了値": 0,
+          "stdout": "ok  \tfeatures158\t0.120s\n?   \tfeatures158/cmd/run\t[no test files]\n",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "vet",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158技術特徴",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "build",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158技術特徴",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "module": "158技術出口",
+      "実行": [
+        {
+          "引数": [
+            "go",
+            "test",
+            "-count=1",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158技術出口",
+          "終了値": 0,
+          "stdout": "ok  \ttechnicalexit158\t0.083s\n?   \ttechnicalexit158/cmd/replay\t[no test files]\n",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "vet",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158技術出口",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "引数": [
+            "go",
+            "build",
+            "./..."
+          ],
+          "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158技術出口",
+          "終了値": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    }
+  ],
+  "Node構文": [
+    {
+      "引数": [
+        "node",
+        "--check",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158集計と閲覧\\CSVへ出力する.mjs"
+      ],
+      "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch",
+      "終了値": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "結果検査器復元人工": {
+    "引数": [
+      "C:\\Python314\\python.exe",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\work\\158結果の独立確認\\人工検査.py",
+      "--output",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\158再現資料の整理\\復元確認\\再現した結果検査の人工.json"
+    ],
+    "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch",
+    "終了値": 0,
+    "stdout": "{\"成功\": true, \"人工\": 5, \"自然結果読取\": false, \"Root集計import\": false, \"内容\": [\"売買実BBO・費用・D1境界・未知null\", \"対照全旧keyと新key分離\", \"全19共通既知だけの前48順位・後25は不交換・二対照・発動\", \"同時刻DDと未知保持・全列改変拒否\", \"gzipCRCと解凍SHA\"], \"源SHA256\": {\"確認する.py\": \"e8fb9598609db74d0f12aebb6cc23f223e6f9a5360e7be894d3f38d3384e36ef\", \"別計算.py\": \"64973c6644b3db0e45dd2a5fced79b71795d82ba7e01aac07edc378d9cd991f3\", \"人工検査.py\": \"2bd0d414e7cd5f0e28d3d7e937fdb81344ab8e1cc62d41d292209ecb45f16310\"}}\n",
+    "stderr": ""
+  },
+  "再現READMEリンク": 16,
+  "自然再生成": false,
+  "金融再計算": false,
+  "CSV再出力": false,
+  "巨大資源複写": false,
+  "159混入": false,
+  "初期設定表SHA256": "ae74b8a87342a3bf14d24c83369bcf3aa7c1a49a759cac08b801acf58e55bc0a",
+  "特徴主票SHA256": "84575410f20bf8d521b87a4f4fc3b74ce68bc9862992dad50b443521fdf78e2f",
+  "結果主票SHA256": "eb34222e5e8e86f8cc7c829f36f831b5426716698b9f75bea78a87eb2f1fbb50",
+  "依存": {
+    "Go": "go version go1.24.2 windows/amd64",
+    "調査shellNode": "v24.14.0",
+    "Python": "3.14.3",
+    "実行Python": "C:\\Python314\\python.exe",
+    "特徴別算術NumPy": "2.5.3（自然主票記録）",
+    "Root集計NumPy": "未使用",
+    "CSV提供Node": "v24.22.1（Root実行環境通知）",
+    "SDK": {
+      "name": "@oai/artifact-tool",
+      "version": "2.8.129",
+      "private": true,
+      "dependencies": {
+        "skia-canvas": "^3.0.6",
+        "@oai/walnut": "0.1.282"
+      },
+      "package_metadata_sha256": "e7887299643ff13d7cc52b310aac2dc9cbc1842da2bcccdc68b7069a89cd60cb",
+      "提供SDK": true,
+      "runtime同梱": false
+    }
+  },
+  "保存UTC": "2026-11-12T18:11:59.611611+00:00",
+  "保存器SHA256": "dc427a5ff66d86e5b767df9a7dff2922750c1f4843a728a9a5e9b6e5bf873671"
+}

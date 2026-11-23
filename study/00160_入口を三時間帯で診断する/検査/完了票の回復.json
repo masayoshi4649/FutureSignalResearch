@@ -1,0 +1,51 @@
+{
+  "成功": true,
+  "試行": 160,
+  "元運転は完了票の相対path処理で例外終了": true,
+  "数値出力後の停止": "p.relative_to(ROOT) で相対Pathと絶対ROOTを比較したValueError",
+  "回復範囲": "2JSONの保存確認と完了票のみ。元コマンドの正常終了を主張しない。",
+  "入力の全73場CRC完読証拠を確認": true,
+  "数値2JSON不変更": true,
+  "固定Source不変更": true,
+  "Raw読取": false,
+  "自然再分類と金融再計算": false,
+  "出力": {
+    "型付き三表.json": {
+      "path": "study\\00160_入口を三時間帯で診断する\\成果物\\型付き三表.json",
+      "sha256": "64ed7becf05f29bd2e8e740909853080c208b69fff5d6aae81ba710dc21413ec",
+      "bytes": 223034
+    },
+    "小さい取得対応.json": {
+      "path": "study\\00160_入口を三時間帯で診断する\\成果物\\小さい取得対応.json",
+      "sha256": "f856b228a06db69cc26240263f0bf6633e48dbdb1d3f639e4e2f4f2a54f88451",
+      "bytes": 765975
+    }
+  },
+  "入力": {
+    "fixed": {
+      "path": "inputs/00157_固定入口と価格経路/固定入口入力.json",
+      "sha256": "eabf9819351ef77fec44a7a132a8df13fd8a3aee7c3be6d87ac81dabe34ce279",
+      "bytes": 2091691
+    },
+    "observations": {
+      "path": "study\\00148_全1分知得から入口品質の母集団を固定する\\成果物\\固定取得の正逆観測.json.gz",
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "decoded_sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc",
+      "physical_bytes": 18488267,
+      "decoded_bytes": 842954472,
+      "all_scenes": 73,
+      "gzip_crc_checked": true
+    },
+    "exits": {
+      "path": "study\\00158_複合技術で出口の役割と局面を切り替える\\成果物\\出口結果.json.gz",
+      "sha256": "70a4c3178206bbb3c8641901c7515f2121da11c28403b88c3f8e6f93cc0baa6c",
+      "decoded_sha256": "3c3df90244de838056ca7c98857ffe7b8f85514807e90194c07f73129ec277c7",
+      "physical_bytes": 7057093,
+      "decoded_bytes": 337535982,
+      "all_scenes": 73,
+      "gzip_crc_checked": true
+    }
+  },
+  "回復器SHA256": "dded65029b46df0efb77ed2ef255d51de9789adc2d85b5daf7f23f3aa612b9d0",
+  "例外ログSHA256": "5fb54804b1bcf2484c44d4de8a70f47b1d87e19f7899c166a9b33794c8419dd0"
+}

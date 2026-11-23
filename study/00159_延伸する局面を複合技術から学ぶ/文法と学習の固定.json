@@ -1,0 +1,346 @@
+{
+  "試行": 159,
+  "日付": "2026-11-13",
+  "学習前固定": true,
+  "手法": "異なる役割の技術2条件ANDを過去だけで選び、+125で利確/延伸の出口を切り替える",
+  "特徴": [
+    {
+      "name": "gap5_atr5",
+      "role": "trend",
+      "thresholds": [
+        0,
+        0.25,
+        0.5
+      ],
+      "formula": "s*m5.gap/m5.atr14"
+    },
+    {
+      "name": "gap15_atr15",
+      "role": "trend",
+      "thresholds": [
+        0,
+        0.25
+      ],
+      "formula": "s*m15.gap/m15.atr14"
+    },
+    {
+      "name": "gap30_atr30",
+      "role": "trend",
+      "thresholds": [
+        0
+      ],
+      "formula": "s*m30.gap/m30.atr14"
+    },
+    {
+      "name": "slope5_atr5",
+      "role": "trend",
+      "thresholds": [
+        0,
+        0.02
+      ],
+      "formula": "s*m5.ema21_delta/m5.atr14"
+    },
+    {
+      "name": "slope15_atr15",
+      "role": "trend",
+      "thresholds": [
+        0
+      ],
+      "formula": "s*m15.ema21_delta/m15.atr14"
+    },
+    {
+      "name": "slope30_atr30",
+      "role": "trend",
+      "thresholds": [
+        0
+      ],
+      "formula": "s*m30.ema21_delta/m30.atr14"
+    },
+    {
+      "name": "di1",
+      "role": "trend",
+      "thresholds": [
+        0,
+        10
+      ],
+      "formula": "s*m1.di_difference"
+    },
+    {
+      "name": "adx15",
+      "role": "trend",
+      "thresholds": [
+        15,
+        20,
+        25
+      ],
+      "formula": "m15.adx"
+    },
+    {
+      "name": "hist1_atr1",
+      "role": "momentum",
+      "thresholds": [
+        0,
+        0.02
+      ],
+      "formula": "s*m1.hist/m1.atr14"
+    },
+    {
+      "name": "hist5_atr5",
+      "role": "momentum",
+      "thresholds": [
+        0,
+        0.02
+      ],
+      "formula": "s*m5.hist/m5.atr14"
+    },
+    {
+      "name": "hist_delta1_atr1",
+      "role": "momentum",
+      "thresholds": [
+        0
+      ],
+      "formula": "s*m1.hist_delta/m1.atr14"
+    },
+    {
+      "name": "rsi_signed",
+      "role": "momentum",
+      "thresholds": [
+        -10,
+        0,
+        10
+      ],
+      "formula": "s*(m1.rsi14-50)"
+    },
+    {
+      "name": "cmf_signed",
+      "role": "volume",
+      "thresholds": [
+        -0.1,
+        0,
+        0.1
+      ],
+      "formula": "s*m1.cmf20"
+    },
+    {
+      "name": "obv_delta5_signed",
+      "role": "volume",
+      "thresholds": [
+        0
+      ],
+      "formula": "s*m1.obv_delta5"
+    },
+    {
+      "name": "rvol1",
+      "role": "volume",
+      "thresholds": [
+        0.8,
+        1.2,
+        1.5
+      ],
+      "formula": "m1.rvol"
+    },
+    {
+      "name": "er10",
+      "role": "volatility",
+      "thresholds": [
+        0.25,
+        0.35,
+        0.5,
+        0.65
+      ],
+      "formula": "m1.er10"
+    },
+    {
+      "name": "chop14",
+      "role": "volatility",
+      "thresholds": [
+        38.2,
+        50,
+        61.8
+      ],
+      "formula": "m1.chop14"
+    },
+    {
+      "name": "bb_width_ratio",
+      "role": "volatility",
+      "thresholds": [
+        0.8,
+        1,
+        1.2
+      ],
+      "formula": "m1.bb_width/m1.previous_bb_width"
+    },
+    {
+      "name": "atr1_atr5",
+      "role": "volatility",
+      "thresholds": [
+        0.1,
+        0.2,
+        0.4
+      ],
+      "formula": "m1.atr14/m5.atr14"
+    },
+    {
+      "name": "close_ema8_atr1",
+      "role": "structure",
+      "thresholds": [
+        -0.5,
+        0,
+        0.5
+      ],
+      "formula": "s*(m1.close-m1.ema8)/m1.atr14"
+    },
+    {
+      "name": "zscore_signed",
+      "role": "structure",
+      "thresholds": [
+        0,
+        1,
+        2
+      ],
+      "formula": "s*m1.zscore"
+    },
+    {
+      "name": "body_atr1",
+      "role": "structure",
+      "thresholds": [
+        0,
+        1
+      ],
+      "formula": "s*m1.body/m1.atr14"
+    },
+    {
+      "name": "forward5_atr1",
+      "role": "structure",
+      "thresholds": [
+        -0.5,
+        0,
+        0.5
+      ],
+      "formula": "s*(m1.close-(buy?m1.prior_high5:m1.prior_low5))/m1.atr14"
+    },
+    {
+      "name": "opposite5_atr1",
+      "role": "structure",
+      "thresholds": [
+        0,
+        1,
+        2
+      ],
+      "formula": "s*(m1.close-(buy?m1.prior_low5:m1.prior_high5))/m1.atr14"
+    },
+    {
+      "name": "elapsed_minutes",
+      "role": "clock",
+      "thresholds": [
+        0.5,
+        2,
+        5,
+        10,
+        20
+      ],
+      "formula": "(gate.time-entry.time)/60"
+    }
+  ],
+  "predicate_ops": [
+    ">=",
+    "<"
+  ],
+  "feature_count": 25,
+  "predicate_count": 124,
+  "pair_count": 6232,
+  "action_count": 2,
+  "rule_count_per_fit": 12464,
+  "continuation_actions": [
+    "T125W100TP250",
+    "A11_PROFIT_BUDGET"
+  ],
+  "default_action": "F125S125",
+  "missing_predicate": "unknownは>=/<の両方false、延伸せずIFD",
+  "min_matched_teachers": 12,
+  "min_matched_sessions": 6,
+  "teacher": "H60/D1/C5、3行動全closed、物理case重複除去、strict known_at<cutoff/past scenesのみ",
+  "weight": "1/各場内の全eligible gate教師数n_j。matched数で正規化しない",
+  "score": "sum(d_j)-max(0,max(d_j))-.5*sum(max(0,-d_j))、d_j=sum(matched(action_net-IFD_net))/n_j",
+  "minimum_score": 1e-09,
+  "tie_break": [
+    "最大score",
+    "一致教師数が多い",
+    "C1をA11より優先",
+    "predicate ID lexical"
+  ],
+  "policies": [
+    {
+      "id": "G01_F48",
+      "warmup": 48,
+      "blocks": [
+        [
+          48,
+          73
+        ]
+      ],
+      "training": "0..47を一回、last25へ固定"
+    },
+    {
+      "id": "G02_EXP12",
+      "warmup": 24,
+      "blocks": [
+        [
+          24,
+          36
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          48,
+          60
+        ],
+        [
+          60,
+          73
+        ]
+      ],
+      "training": "各block startより前の全場"
+    },
+    {
+      "id": "G03_WIN36",
+      "warmup": 24,
+      "blocks": [
+        [
+          24,
+          36
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          48,
+          60
+        ],
+        [
+          60,
+          73
+        ]
+      ],
+      "training": "各block start前の最大36場"
+    }
+  ],
+  "model_slots": 9,
+  "unique_training_windows": 6,
+  "axes": [
+    "H60",
+    "SESSION",
+    "D1",
+    "D0",
+    "C5",
+    "C0"
+  ],
+  "prediction": "fitした同じmodelを全H/D/cへ。各HのC0最初TP125 Quoteだけでapply、nonTPはIFD",
+  "snapshot_parent": {
+    "result_sha256": "70a4c3178206bbb3c8641901c7515f2121da11c28403b88c3f8e6f93cc0baa6c",
+    "features_sha256": "a6dce32eb35102d95f44647d0a10811bf13ed6e36f46b08ef0956c52bb783d11"
+  }
+}
