@@ -1,0 +1,133 @@
+{
+  "component_version": 166,
+  "config": {
+    "widths": [
+      125,
+      150,
+      175,
+      200,
+      225,
+      250,
+      300,
+      350,
+      400,
+      500,
+      750,
+      1000
+    ],
+    "horizons": [
+      {
+        "id": "H30",
+        "kind": "strict",
+        "seconds": 1800
+      },
+      {
+        "id": "H60",
+        "kind": "strict",
+        "seconds": 3600
+      },
+      {
+        "id": "H120",
+        "kind": "strict",
+        "seconds": 7200
+      },
+      {
+        "id": "SESSION",
+        "kind": "session",
+        "seconds": 0
+      }
+    ],
+    "session_exit": "last_normal_pre_end_fresh30_require_boundary",
+    "maximum_gap_seconds": 300,
+    "endpoint_grace_seconds": 30,
+    "point_yen": 100,
+    "round_trip_fee": 77,
+    "extra_round_trip_slippage": 1000
+  },
+  "config_sha256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e",
+  "index_input_decoded_sha256": "524fa5f1733fbe11a65c7a7889e867e9a87a0ba7288833564d044c014843c314",
+  "index_input_differs_from_entries": true,
+  "index_input_sha256": "524fa5f1733fbe11a65c7a7889e867e9a87a0ba7288833564d044c014843c314",
+  "index_manifest_scene_count": 7,
+  "index_manifest_sha256": "cfcacd4301d2ebf316d68ef28a4c2a97846239ccebc7a95d052acdf73ff4967d",
+  "input_decoded_sha256": "9ad5b84b5df527da6cadf1fa6ea4c9f66aa04db4459d058c27ac70e078efba10",
+  "input_sha256": "7e50aa094a173e71ec4cd32e606e5ccda8ae54444558af1e94d05c5c805a98c1",
+  "new_entry_selection": false,
+  "scene_count": 7,
+  "scenes": [
+    {
+      "session": "2026-11-10_Night",
+      "file": {
+        "path": "2026-11-10_Night.outcomes.json.gz",
+        "sha256": "38af272a6dea77e3de3cdc65b343f5985bb886575d95612b9778597dc3ada036"
+      },
+      "bytes": 256193,
+      "cases": 569,
+      "success": true
+    },
+    {
+      "session": "2026-11-11_Day",
+      "file": {
+        "path": "2026-11-11_Day.outcomes.json.gz",
+        "sha256": "66ad48a72675c6be7c368007eae89c7c3fd63ca49eb628df979aeded9179ebbf"
+      },
+      "bytes": 154598,
+      "cases": 347,
+      "success": true
+    },
+    {
+      "session": "2026-11-11_Night",
+      "file": {
+        "path": "2026-11-11_Night.outcomes.json.gz",
+        "sha256": "ca5b849e9067477d3fdc958ee1c1f3cdda7417a83b2d4442c2fc50bd1bd40d4b"
+      },
+      "bytes": 249955,
+      "cases": 559,
+      "success": true
+    },
+    {
+      "session": "2026-11-12_Day",
+      "file": {
+        "path": "2026-11-12_Day.outcomes.json.gz",
+        "sha256": "9b7ce02067e7962efbee3bd4560cd2620bf77fdf3a5b5cd2f03f9e5b40248f70"
+      },
+      "bytes": 159057,
+      "cases": 346,
+      "success": true
+    },
+    {
+      "session": "2026-11-12_Night",
+      "file": {
+        "path": "2026-11-12_Night.outcomes.json.gz",
+        "sha256": "8c3501a4e0dc4e8a529abe71d3f8ac2ca12448aa4874bb85e840187d81370417"
+      },
+      "bytes": 271275,
+      "cases": 574,
+      "success": true
+    },
+    {
+      "session": "2026-11-13_Day",
+      "file": {
+        "path": "2026-11-13_Day.outcomes.json.gz",
+        "sha256": "ed21688cc55176b51a028df58410a2986376d512e341eda00ef6fb98f74e6c38"
+      },
+      "bytes": 165827,
+      "cases": 350,
+      "success": true
+    },
+    {
+      "session": "2026-11-13_Night",
+      "file": {
+        "path": "2026-11-13_Night.outcomes.json.gz",
+        "sha256": "9c43c9d7e5eeb0ca86ac3d9579c75cbdc04890d8add00a88d710abc5f412f053"
+      },
+      "bytes": 236550,
+      "cases": 505,
+      "success": true
+    }
+  ],
+  "search": "Bid/Ask minmax木の原行順firstOutside。Raw再走査なし。",
+  "source_entry_count": 3250,
+  "success": true,
+  "trial": 167
+}

@@ -1,0 +1,165 @@
+{
+  "成功": true,
+  "試行": 163,
+  "条件SHA256": "a4e5a3ad0417b5790a7f17e768327648e27790d25867092e5e60944ed2863b10",
+  "Source": {
+    "arrays163.py": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6",
+    "README.md": "ca39bd061dac5299cf6cd6e3272076af091cb8049596099dc5847c1739c6bb88",
+    "run_arrays163.py": "35d5018fc1d952b22d38ab676ff78b5234e7e8fc323f6b4587f938196c63c0bb",
+    "test_arrays163.py": "db112ec211f1aa1d484afa22266d1d94f9f8249e25af21e49cc9c8862498050c"
+  },
+  "入力": {
+    "成功": true,
+    "純観測のみ": true,
+    "採否なし": true,
+    "入力物理SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+    "索引manifestSHA256": "391217482497b2d872d73ffcd91cfe31c80a6d90e9c0e3ca12442ae6a7ccfa80",
+    "観測manifestSHA256": "3e87f0c48dc03daa0dcb71475bfd84eaa461035b4986073e7d8bcbfae60e592d",
+    "観測条件SHA256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e",
+    "全73場": [
+      "2026-09-21_Day",
+      "2026-09-21_Night",
+      "2026-09-22_Day",
+      "2026-09-22_Night",
+      "2026-09-23_Day",
+      "2026-09-23_Night",
+      "2026-09-24_Day",
+      "2026-09-24_Night",
+      "2026-09-25_Day",
+      "2026-09-25_Night",
+      "2026-09-28_Day",
+      "2026-09-28_Night",
+      "2026-09-29_Day",
+      "2026-09-29_Night",
+      "2026-09-30_Day",
+      "2026-09-30_Night",
+      "2026-10-01_Day",
+      "2026-10-01_Night",
+      "2026-10-02_Day",
+      "2026-10-02_Night",
+      "2026-10-05_Day",
+      "2026-10-05_Night",
+      "2026-10-06_Day",
+      "2026-10-06_Night",
+      "2026-10-07_Day",
+      "2026-10-07_Night",
+      "2026-10-08_Day",
+      "2026-10-08_Night",
+      "2026-10-09_Day",
+      "2026-10-09_Night",
+      "2026-10-12_Day",
+      "2026-10-12_Night",
+      "2026-10-13_Day",
+      "2026-10-13_Night",
+      "2026-10-14_Day",
+      "2026-10-14_Night",
+      "2026-10-15_Day",
+      "2026-10-15_Night",
+      "2026-10-16_Day",
+      "2026-10-16_Night",
+      "2026-10-19_Day",
+      "2026-10-19_Night",
+      "2026-10-20_Day",
+      "2026-10-20_Night",
+      "2026-10-21_Day",
+      "2026-10-21_Night",
+      "2026-10-22_Day",
+      "2026-10-22_Night",
+      "2026-10-23_Day",
+      "2026-10-23_Night",
+      "2026-10-26_Day",
+      "2026-10-26_Night",
+      "2026-10-27_Day",
+      "2026-10-27_Night",
+      "2026-10-28_Day",
+      "2026-10-28_Night",
+      "2026-10-29_Day",
+      "2026-10-29_Night",
+      "2026-10-30_Day",
+      "2026-10-30_Night",
+      "2026-11-02_Day",
+      "2026-11-02_Night",
+      "2026-11-03_Day",
+      "2026-11-03_Night",
+      "2026-11-04_Day",
+      "2026-11-04_Night",
+      "2026-11-05_Day",
+      "2026-11-05_Night",
+      "2026-11-06_Day",
+      "2026-11-06_Night",
+      "2026-11-09_Day",
+      "2026-11-09_Night",
+      "2026-11-10_Day"
+    ],
+    "case数": 31642,
+    "全索引と観測gzipの物理SHAとCRC": true,
+    "side_order": [
+      1,
+      -1
+    ],
+    "条件": {
+      "widths": [
+        125,
+        150,
+        175,
+        200,
+        225,
+        250,
+        300,
+        350,
+        400,
+        500,
+        750,
+        1000
+      ],
+      "horizons": [
+        {
+          "id": "H30",
+          "kind": "strict",
+          "seconds": 1800
+        },
+        {
+          "id": "H60",
+          "kind": "strict",
+          "seconds": 3600
+        },
+        {
+          "id": "H120",
+          "kind": "strict",
+          "seconds": 7200
+        },
+        {
+          "id": "SESSION",
+          "kind": "session",
+          "seconds": 0
+        }
+      ],
+      "session_exit": "last_normal_pre_end_fresh30_require_boundary",
+      "maximum_gap_seconds": 300,
+      "endpoint_grace_seconds": 30,
+      "point_yen": 100,
+      "round_trip_fee": 77,
+      "extra_round_trip_slippage": 1000
+    },
+    "未知net0は格納値": "必ずknownを伴って集計する。points/時計は未知NaN。",
+    "SESSION成熟時計": "境界を最初に観測した原行の価格時計。清算用endpoint時計とは分ける。"
+  },
+  "cache": {
+    "任意幅配列.npz": {
+      "sha256": "72f8a79bcfb56585ee9276632d82705e6467bd99db5f9c03648a2b343b7c0a9a",
+      "bytes": 12831373
+    },
+    "任意幅識別.json.gz": {
+      "sha256": "5eb6ea0dbeed7918476952383bd1cbebdbb2c53fadfca83694cc5b5d7c9830c0",
+      "bytes": 235034
+    }
+  },
+  "shape": [
+    31642,
+    2,
+    12,
+    4
+  ],
+  "軸": "case辞書順/BUY+1 SELL−1/12幅/H30,H60,H120,SESSION",
+  "新規採否なし": true
+}

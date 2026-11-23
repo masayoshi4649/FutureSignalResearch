@@ -1,0 +1,82 @@
+{
+  "成功": true,
+  "trial": 167,
+  "book": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00167_固定した複合入口を追加七場へ適用する\\条件.json",
+    "bytes": 6370,
+    "sha256": "73e16eabfc3364a9e038d9697472abe50bb91fbba49b488dd0c8ed8d5eaea9f4"
+  },
+  "Source前後同体": true,
+  "原本指紋前後同体": true,
+  "全対象場": [
+    "2026-11-10_Night",
+    "2026-11-11_Day",
+    "2026-11-11_Night",
+    "2026-11-12_Day",
+    "2026-11-12_Night",
+    "2026-11-13_Day",
+    "2026-11-13_Night"
+  ],
+  "case数": 3250,
+  "widths": [
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    300,
+    350,
+    400,
+    500,
+    750,
+    1000
+  ],
+  "horizons": [
+    "H30",
+    "H60",
+    "H120",
+    "SESSION"
+  ],
+  "全新原本": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\新七場の原本指紋.json",
+    "bytes": 7688,
+    "sha256": "dddb542ff01dbdae2d875edb56759d4eb1061f689e16740ff625175cd880b4f6"
+  },
+  "index": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\manifest.json",
+    "bytes": 10029,
+    "sha256": "cfcacd4301d2ebf316d68ef28a4c2a97846239ccebc7a95d052acdf73ff4967d"
+  },
+  "population": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\入口母集団\\完了.json",
+    "bytes": 1909,
+    "sha256": "b452e7b83e8bbb90f44d8774582b460e007749bc25010fcab80b5f59a1261ca7"
+  },
+  "観測": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\任意幅の純観測\\manifest.json",
+    "bytes": 3587,
+    "sha256": "0ed1d6900cdccd6b5ae794d2e7c4e27d7e73dde1bcaf80febd2a65224ee35730"
+  },
+  "adapter": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\166可変場の数値化\\arrays166.py",
+    "bytes": 7903,
+    "sha256": "049645e8daa53e900a1a2c69ec78a7add9ea45dbf2179f262705c8be05c04947"
+  },
+  "cache": {
+    "任意幅配列.npz": {
+      "sha256": "8349fc1c3275561bbb9357187fb9a06e0bb4c029071b86c4d65262f52a2ee8c6",
+      "bytes": 1349847
+    },
+    "任意幅識別.json.gz": {
+      "sha256": "f4a78e54fb6997cd15331e9af4e884b400a6d5aface56160988419a12612d59f",
+      "bytes": 26315
+    }
+  },
+  "純観測のみ": true,
+  "候補選択又は損益比較": false,
+  "Clock原文": false,
+  "Clock": "索引float正本をJST canonicalへ再整形。原文の元Rawはpath/SHAで保持",
+  "取得前の期待受理品質": "未指定。実測を保存し、事前照合済みと称さない",
+  "label": "strictを保存、観測済みtouchへの主時計射影はRootが行う。direction/known/exit_timeを保持"
+}

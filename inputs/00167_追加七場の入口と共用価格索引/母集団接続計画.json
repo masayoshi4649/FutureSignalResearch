@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "trial": 167,
+  "transport": "index48",
+  "history_through": "2026-11-10_Day",
+  "history_plan": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入力\\公表生成計画.json",
+    "bytes": 83322,
+    "sha256": "584e0e95da786dfa4bcf527ed20c1222f237d068bbf5e302fddd6024a13fb7e5"
+  },
+  "prior_publications": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入力\\入力.json",
+    "bytes": 177709174,
+    "sha256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec"
+  },
+  "index_manifest": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\manifest.json",
+    "bytes": 10029,
+    "sha256": "cfcacd4301d2ebf316d68ef28a4c2a97846239ccebc7a95d052acdf73ff4967d"
+  },
+  "scenes": [
+    {
+      "session": "2026-11-10_Night",
+      "contract": "161120018",
+      "start": 1794297600,
+      "end": 1794344400,
+      "force_close": 1794343800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Night\\book.jsonl.gz",
+        "bytes": 5182443,
+        "sha256": "e1a343b832929ea97de97471ee75dc86c9a59020a9132eecae3fec6adcc737d5"
+      },
+      "expected_accepted": 239726,
+      "expected_quality": {
+        "lines": 240450,
+        "clock_missing": 0,
+        "clock_invalid": 714,
+        "outside_session": 10,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 214,
+        "source_parser_accepted": 239726,
+        "cutoff_excluded": 0,
+        "source_delivered": 239726
+      },
+      "csv_1m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Night\\candle_1min.csv",
+        "bytes": 45311,
+        "sha256": "c26015ff6d9b18da3448571f4eeeaeeb286deb67678200122ea902846f273190"
+      },
+      "csv_5m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Night\\candle_5min.csv",
+        "bytes": 9857,
+        "sha256": "e010faeb8037169070d401808e4776759411317b3b4c8b502923a02abd805df4"
+      },
+      "quote_index": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\2026-11-10_Night.quotes.bin.gz",
+        "sha256": "3a48d572683ec1596bd1ab650053d1413fe8e847907eb35b75aef6ceeaa4e705",
+        "bytes": 694636
+      }
+    },
+    {
+      "session": "2026-11-11_Day",
+      "contract": "161120018",
+      "start": 1794354300,
+      "end": 1794379500,
+      "force_close": 1794378900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-11_Day\\book.jsonl.gz",
+        "bytes": 3623833,
+        "sha256": "d7210baae366393d98c1ee57d089935fbbedf75c67a6989b6cea5082268db8bc"
+      },
+      "expected_accepted": 149258,
+      "expected_quality": {
+        "lines": 150108,
+        "clock_missing": 0,
+        "clock_invalid": 844,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 425,
+        "source_parser_accepted": 149258,
+        "cutoff_excluded": 0,
+        "source_delivered": 149258
+      },
+      "csv_1m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-11_Day\\candle_1min.csv",
+        "bytes": 26230,
+        "sha256": "1ce07830c05e71b3bd7f3850216dde16c0b9f6d4634ee64173a04d05da260469"
+      },
+      "csv_5m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-11_Day\\candle_5min.csv",
+        "bytes": 5363,
+        "sha256": "542de940098fde73df7d830c05a857ddf7e60101b65f1f1fbc38a5af53832b8a"
+      },
+      "quote_index": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\2026-11-11_Day.quotes.bin.gz",
+        "sha256": "e1dfe8bd4ccc8d4c1204256eb25d2bd44100252956dc1ab5424693ff06dab2a6",
+        "bytes": 439981
+      }
+    },
+    {
+      "session": "2026-11-11_Night",
+      "contract": "161120018",
+      "start": 1794384000,
+      "end": 1794430800,
+      "force_close": 1794430200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-11_Night\\book.jsonl.gz",
+        "bytes": 3752113,
+        "sha256": "dd27908e76401f4fe732468e36c19805141e1f89e62bb741e94c1a09f4f4c819"
+      },
+      "expected_accepted": 187231,
+      "expected_quality": {
+        "lines": 187809,
+        "clock_missing": 0,
+        "clock_invalid": 565,
+        "outside_session": 13,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 256,
+        "source_parser_accepted": 187231,
+        "cutoff_excluded": 0,
+        "source_delivered": 187231
+      },
+      "csv_1m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-11_Night\\candle_1min.csv",
+        "bytes": 45270,
+        "sha256": "f36d40a5e24760ddad865ca747f6e871c98d0cf9bbaaad29a7627f7cc083d814"
+      },
+      "csv_5m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-11_Night\\candle_5min.csv",
+        "bytes": 9859,
+        "sha256": "ba00526e9159195d5bd1fb07b040743d86a5bdeb9df750a61c59d7cffa363c2a"
+      },
+      "quote_index": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\2026-11-11_Night.quotes.bin.gz",
+        "sha256": "9c7d5c03d4cb317bd99914e7c26d34a0a8b592611e4df3d23e6603409a91ab7b",
+        "bytes": 523759
+      }
+    },
+    {
+      "session": "2026-11-12_Day",
+      "contract": "161120018",
+      "start": 1794440700,
+      "end": 1794465900,
+      "force_close": 1794465300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-12_Day\\book.jsonl.gz",
+        "bytes": 4167471,
+        "sha256": "e4abe6b9bb0ec2e63a79ccdb49f450e4a0eeabcd99bb81eded2d351f9bd5048a"
+      },
+      "expected_accepted": 165941,
+      "expected_quality": {
+        "lines": 167976,
+        "clock_missing": 0,
+        "clock_invalid": 2030,
+        "outside_session": 5,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 411,
+        "source_parser_accepted": 165941,
+        "cutoff_excluded": 0,
+        "source_delivered": 165941
+      },
+      "csv_1m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-12_Day\\candle_1min.csv",
+        "bytes": 26290,
+        "sha256": "062d5d3c74197482535bbcb2ab04a8ff20ef3d6365c28d30f4ad5191cff0ab99"
+      },
+      "csv_5m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-12_Day\\candle_5min.csv",
+        "bytes": 5421,
+        "sha256": "09b5a53df13eea85b9820957ed8d35e3072faa6618d322e0104b176c18ffebc4"
+      },
+      "quote_index": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\2026-11-12_Day.quotes.bin.gz",
+        "sha256": "15ce520677faebec4362cb86439c2a610c0dc70f3fed9fb803791a94f069d14f",
+        "bytes": 494949
+      }
+    },
+    {
+      "session": "2026-11-12_Night",
+      "contract": "161120018",
+      "start": 1794470400,
+      "end": 1794517200,
+      "force_close": 1794516600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-12_Night\\book.jsonl.gz",
+        "bytes": 4889543,
+        "sha256": "1ee19b724a2deebcd65f49b308f92eb9522481eb6b1ec6b05a518603ab341949"
+      },
+      "expected_accepted": 232020,
+      "expected_quality": {
+        "lines": 232909,
+        "clock_missing": 0,
+        "clock_invalid": 671,
+        "outside_session": 218,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 236,
+        "source_parser_accepted": 232020,
+        "cutoff_excluded": 0,
+        "source_delivered": 232020
+      },
+      "csv_1m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-12_Night\\candle_1min.csv",
+        "bytes": 45515,
+        "sha256": "9996a7316309063bf8ef5368b69a03f9c5dd1a7cef462e43c4dc84dc31945e7f"
+      },
+      "csv_5m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-12_Night\\candle_5min.csv",
+        "bytes": 9857,
+        "sha256": "8562a653b8bec8cb2811cdd80fc1c440d747ba02065868c5b5c6879a85b2be56"
+      },
+      "quote_index": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\2026-11-12_Night.quotes.bin.gz",
+        "sha256": "e02bc524a4e424cde99b7a59e6bdcf1ea9c6f1994b7b9a439e51895b6bc3f139",
+        "bytes": 665918
+      }
+    },
+    {
+      "session": "2026-11-13_Day",
+      "contract": "161120018",
+      "start": 1794527100,
+      "end": 1794552300,
+      "force_close": 1794551700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-13_Day\\book.jsonl",
+        "bytes": 267585669,
+        "sha256": "c747a98175f787298095ea4fa8e9fd36b6ff821a835806c67ae58d25f0adf90c"
+      },
+      "expected_accepted": 164505,
+      "expected_quality": {
+        "lines": 165695,
+        "clock_missing": 0,
+        "clock_invalid": 1182,
+        "outside_session": 8,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 457,
+        "source_parser_accepted": 164505,
+        "cutoff_excluded": 0,
+        "source_delivered": 164505
+      },
+      "csv_1m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-13_Day\\candle_1min.csv",
+        "bytes": 26249,
+        "sha256": "1e2fdd5317b776c6387bc44e76f42b933962880363975670ada35ed188cc00cc"
+      },
+      "csv_5m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-13_Day\\candle_5min.csv",
+        "bytes": 5365,
+        "sha256": "33ab3d782d64cb5466def84e9faaaa6b4b147dcfcfc9fecf5d11a30d5d39f939"
+      },
+      "quote_index": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\2026-11-13_Day.quotes.bin.gz",
+        "sha256": "6ed56cebc8027dea2bab5f37d4bba6ec05ca2a74b90fb65e15e0fa62c1c8d43f",
+        "bytes": 483661
+      }
+    },
+    {
+      "session": "2026-11-13_Night",
+      "contract": "161120018",
+      "start": 1794556800,
+      "end": 1794603600,
+      "force_close": 1794603000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-13_Night\\book.jsonl",
+        "bytes": 342443777,
+        "sha256": "97b50f877c570382894759f882f59e29dd752c67bb33a62e9af3eeb5090fb44b"
+      },
+      "expected_accepted": 211850,
+      "expected_quality": {
+        "lines": 212454,
+        "clock_missing": 0,
+        "clock_invalid": 595,
+        "outside_session": 9,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 282,
+        "source_parser_accepted": 211850,
+        "cutoff_excluded": 0,
+        "source_delivered": 211850
+      },
+      "csv_1m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-13_Night\\candle_1min.csv",
+        "bytes": 44901,
+        "sha256": "2b9f12fe640399b24b5cedaf14768db504cbfde6467ef168161d3a0f4a8525cf"
+      },
+      "csv_5m": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-13_Night\\candle_5min.csv",
+        "bytes": 9841,
+        "sha256": "83051acfa2752f0fa20f2f5bed576265e45e3cf82d2f932b898f51e7ccf5cf7d"
+      },
+      "quote_index": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\167追加七場の入力\\原板数値索引\\2026-11-13_Night.quotes.bin.gz",
+        "sha256": "b2c778f1e4a58607e1e1fe95fb5b81ca02700c13bfc6c577433d08a890e1d1f2",
+        "bytes": 600471
+      }
+    }
+  ]
+}

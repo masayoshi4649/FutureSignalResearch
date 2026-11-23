@@ -1,0 +1,355 @@
+{
+  "成功": true,
+  "版": "179終了前の事前決済1",
+  "条件": {
+    "終了前秒": 900,
+    "決済要求余裕秒": 60,
+    "強制注文最小遅延秒": 1,
+    "価格BBO最大gap秒": 300,
+    "通常期限猶予秒": 30,
+    "1pt円": 100,
+    "往復手数料円": 77,
+    "往復追加滑り円": 1000
+  },
+  "status名": {
+    "1": "順行先着",
+    "2": "逆行先着",
+    "3": "通常期限返済",
+    "4": "事前要求の強制返済",
+    "10": "価格gap未知",
+    "11": "BBOgap未知",
+    "12": "通常期限BBO不足",
+    "13": "強制返済窓BBO不足",
+    "14": "EOF未知",
+    "15": "新規停止後の取得"
+  },
+  "金融成績の集計なし": true,
+  "binding": {
+    "追加7": true,
+    "case数": 3250,
+    "case順SHA256": "e54a2b514ec3a5568d7e10d6d6b1a6a883559db57b7d04f82a15bc10526cb8b0",
+    "純取得SHA256": "87ca033585382ac89f4f4aa36a1e5357e98068928774d059ecdedf7b57ba22aa",
+    "幅": [
+      125,
+      150,
+      175,
+      200,
+      225,
+      250,
+      300,
+      350,
+      400,
+      500,
+      750,
+      1000
+    ],
+    "期限": [
+      "H30",
+      "H60",
+      "H120",
+      "SESSION"
+    ],
+    "場": [
+      {
+        "session": "2026-11-10_Night",
+        "start": 1794297600,
+        "original_end": 1794344400,
+        "cut": 1794343500,
+        "submit": 1794343440
+      },
+      {
+        "session": "2026-11-11_Day",
+        "start": 1794354300,
+        "original_end": 1794379500,
+        "cut": 1794378600,
+        "submit": 1794378540
+      },
+      {
+        "session": "2026-11-11_Night",
+        "start": 1794384000,
+        "original_end": 1794430800,
+        "cut": 1794429900,
+        "submit": 1794429840
+      },
+      {
+        "session": "2026-11-12_Day",
+        "start": 1794440700,
+        "original_end": 1794465900,
+        "cut": 1794465000,
+        "submit": 1794464940
+      },
+      {
+        "session": "2026-11-12_Night",
+        "start": 1794470400,
+        "original_end": 1794517200,
+        "cut": 1794516300,
+        "submit": 1794516240
+      },
+      {
+        "session": "2026-11-13_Day",
+        "start": 1794527100,
+        "original_end": 1794552300,
+        "cut": 1794551400,
+        "submit": 1794551340
+      },
+      {
+        "session": "2026-11-13_Night",
+        "start": 1794556800,
+        "original_end": 1794603600,
+        "cut": 1794602700,
+        "submit": 1794602640
+      }
+    ]
+  },
+  "SourceSHA256": "8e06c67e7a03ec01d76e39c88700fe7cc649fbc016db2d1d7c01bce690249c39",
+  "163読込SourceSHA256": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6",
+  "manifest": {
+    "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/manifest.json",
+    "sha256": "cfcacd4301d2ebf316d68ef28a4c2a97846239ccebc7a95d052acdf73ff4967d"
+  },
+  "価格索引": [
+    {
+      "session": "2026-11-10_Night",
+      "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-10_Night.quotes.bin.gz",
+      "rows": 239726,
+      "sha256": "3a48d572683ec1596bd1ab650053d1413fe8e847907eb35b75aef6ceeaa4e705"
+    },
+    {
+      "session": "2026-11-11_Day",
+      "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-11_Day.quotes.bin.gz",
+      "rows": 149258,
+      "sha256": "e1dfe8bd4ccc8d4c1204256eb25d2bd44100252956dc1ab5424693ff06dab2a6"
+    },
+    {
+      "session": "2026-11-11_Night",
+      "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-11_Night.quotes.bin.gz",
+      "rows": 187231,
+      "sha256": "9c7d5c03d4cb317bd99914e7c26d34a0a8b592611e4df3d23e6603409a91ab7b"
+    },
+    {
+      "session": "2026-11-12_Day",
+      "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-12_Day.quotes.bin.gz",
+      "rows": 165941,
+      "sha256": "15ce520677faebec4362cb86439c2a610c0dc70f3fed9fb803791a94f069d14f"
+    },
+    {
+      "session": "2026-11-12_Night",
+      "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-12_Night.quotes.bin.gz",
+      "rows": 232020,
+      "sha256": "e02bc524a4e424cde99b7a59e6bdcf1ea9c6f1994b7b9a439e51895b6bc3f139"
+    },
+    {
+      "session": "2026-11-13_Day",
+      "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-13_Day.quotes.bin.gz",
+      "rows": 164505,
+      "sha256": "6ed56cebc8027dea2bab5f37d4bba6ec05ca2a74b90fb65e15e0fa62c1c8d43f"
+    },
+    {
+      "session": "2026-11-13_Night",
+      "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-13_Night.quotes.bin.gz",
+      "rows": 211850,
+      "sha256": "b2c778f1e4a58607e1e1fe95fb5b81ca02700c13bfc6c577433d08a890e1d1f2"
+    }
+  ],
+  "契約": "cut-60に事前要求、1秒後以降cut以下の最初の正常BBO。IFD同原行優先、通常N/強制N同原行は強制優先。通常grace30/価格BBOgap300維持。",
+  "保有下限": "未知は有効観測区間の最後の正常BBO時刻。未知空白を保有下限へ加算しない。新規停止以後のcaseはC/下限NaN。",
+  "exit_deadline": "通常期限+grace30とcutの早い方。nominal_deadlineは元期限とSESSIONのcut。",
+  "旧数値表の無変更領域照合": {
+    "成功": true,
+    "旧既知exitが強制submitより前のセル数": 267438,
+    "照合属性": [
+      "label",
+      "known",
+      "net",
+      "exit_time",
+      "exit_index",
+      "exit_line"
+    ],
+    "通常期限猶予": "期限後30秒以内の正常endpointを返済に使い、touch対象は元期限まで。旧163契約を保持。"
+  },
+  "arrays": {
+    "net": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "net0": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "exit_time": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "known_at": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "holding_confirmed_until": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "exit_deadline": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "nominal_deadline": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "exit_quote_time": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "exit_price": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "points": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "exit_index": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "int64"
+    },
+    "exit_line": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "int64"
+    },
+    "label": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "int8"
+    },
+    "known": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "bool"
+    },
+    "forced": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "bool"
+    },
+    "status": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "int16"
+    },
+    "direction": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "int8"
+    },
+    "unknown_hold_lower_end": {
+      "shape": [
+        3250,
+        2,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "pair_complete": {
+      "shape": [
+        3250,
+        12,
+        4
+      ],
+      "dtype": "bool"
+    },
+    "pair_known_at": {
+      "shape": [
+        3250,
+        12,
+        4
+      ],
+      "dtype": "float64"
+    }
+  },
+  "NPZ": {
+    "path": "inputs/00179_終了前決済の共用数値表/追加7_overlay179.npz",
+    "bytes": 2438386,
+    "sha256": "54e055ac36bb5a4614e2dea3ce068b865e7c76cf18e1d63c2c3318a13885941d"
+  }
+}

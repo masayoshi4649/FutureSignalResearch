@@ -1,0 +1,71 @@
+{
+  "成功": true,
+  "試行": 179,
+  "F0": {
+    "path": "study/00179_保有時間参加率と終了前決済で入口を広げる/条件.json",
+    "bytes": 23323,
+    "sha256": "6d8284f96e615fb582d4786b9cfdbb95801f995fcdf11e2a5f3c157109c61073"
+  },
+  "Source": {
+    "path": "work/179終了前決済/early179.py",
+    "bytes": 20636,
+    "sha256": "8e06c67e7a03ec01d76e39c88700fe7cc649fbc016db2d1d7c01bce690249c39"
+  },
+  "期間": {
+    "旧73": {
+      "NPZ": {
+        "path": "inputs/00179_終了前決済の共用数値表/旧73_overlay179.npz",
+        "bytes": 23102108,
+        "sha256": "d390b3b9465d1f969c7becf409da604a1456ed6bcf2d7cc270a09418e67b503e"
+      },
+      "metadata": {
+        "path": "inputs/00179_終了前決済の共用数値表/旧73_overlay179.json",
+        "bytes": 38071,
+        "sha256": "881e07b3d0dc79ee4b3f8e12193cbf39a120ce76624890442124c0ecd9122032"
+      },
+      "case数": 31642,
+      "無変更領域": {
+        "成功": true,
+        "旧既知exitが強制submitより前のセル数": 2574413,
+        "照合属性": [
+          "label",
+          "known",
+          "net",
+          "exit_time",
+          "exit_index",
+          "exit_line"
+        ],
+        "通常期限猶予": "期限後30秒以内の正常endpointを返済に使い、touch対象は元期限まで。旧163契約を保持。"
+      }
+    },
+    "追加7": {
+      "NPZ": {
+        "path": "inputs/00179_終了前決済の共用数値表/追加7_overlay179.npz",
+        "bytes": 2438386,
+        "sha256": "54e055ac36bb5a4614e2dea3ce068b865e7c76cf18e1d63c2c3318a13885941d"
+      },
+      "metadata": {
+        "path": "inputs/00179_終了前決済の共用数値表/追加7_overlay179.json",
+        "bytes": 8678,
+        "sha256": "bdd6f017611b08ca8a2b45b12efc301ffb680df5d8b7535aa49248c5f0c470ff"
+      },
+      "case数": 3250,
+      "無変更領域": {
+        "成功": true,
+        "旧既知exitが強制submitより前のセル数": 267438,
+        "照合属性": [
+          "label",
+          "known",
+          "net",
+          "exit_time",
+          "exit_index",
+          "exit_line"
+        ],
+        "通常期限猶予": "期限後30秒以内の正常endpointを返済に使い、touch対象は元期限まで。旧163契約を保持。"
+      }
+    }
+  },
+  "生成": "F0指紋確認後に共用163/167の48byte索引から一度生成。旧数値表/原板は変更・複製しない。",
+  "再利用": "179以降はこの一組を指紋参照し、試行ごとのZIPへNPZを重複保存しない。",
+  "自然金融成績集計": "この生成処理では行わず、case順/取得/BBO/時計/旧無変更領域だけ照合。"
+}

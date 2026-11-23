@@ -1,0 +1,34 @@
+{
+  "成功": true,
+  "金融未入力": true,
+  "q0原行一致": 353,
+  "入力": {
+    "features_sha256": "70f99031acd0f6074aa54c3b4ff955d720ba363992b2005a13840abc3c63e718",
+    "価格索引": {
+      "manifest": {
+        "path": "inputs/00180_20261116デイの固定適用入力/原板数値索引/manifest.json",
+        "bytes": 1821,
+        "sha256": "b6dad8241ffe3875abe1c13f552b35c5f1f1e4d45de7c61510fd3920596249a7"
+      },
+      "scenes": [
+        {
+          "session": "2026-11-16_Day",
+          "contract": "161120018",
+          "path": "inputs/00180_20261116デイの固定適用入力/原板数値索引/2026-11-16_Day.quotes.bin.gz",
+          "sha256": "02a026047568e8f3ef58e95e13c72d924eaa96fdefbdff2e39c9653c4bb740b0",
+          "rows": 171162
+        }
+      ]
+    },
+    "Source": {
+      "path": "work/183単純IFD検証/当時価格183.py",
+      "bytes": 3476,
+      "sha256": "118036ef749e8d5953da31ad1093b4dacc39f268ac6bb23486122ec7fd15f8e5"
+    }
+  },
+  "NPZ": {
+    "path": "inputs/00183_入口判断時点の価格/本日1_q0.npz",
+    "bytes": 4841,
+    "sha256": "5cbe09f12265128b1d2ae42e8031a5c651b037aaba51d5726bba6b0368e08cf1"
+  }
+}

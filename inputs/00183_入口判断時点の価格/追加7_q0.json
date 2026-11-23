@@ -1,0 +1,76 @@
+{
+  "成功": true,
+  "金融未入力": true,
+  "q0原行一致": 3608,
+  "入力": {
+    "features_sha256": "9413430004f4431c431e6c72a645b7b70963642a495914472a38d85bffc56d04",
+    "価格索引": {
+      "manifest": {
+        "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/manifest.json",
+        "bytes": 10029,
+        "sha256": "cfcacd4301d2ebf316d68ef28a4c2a97846239ccebc7a95d052acdf73ff4967d"
+      },
+      "scenes": [
+        {
+          "session": "2026-11-10_Night",
+          "contract": "161120018",
+          "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-10_Night.quotes.bin.gz",
+          "sha256": "3a48d572683ec1596bd1ab650053d1413fe8e847907eb35b75aef6ceeaa4e705",
+          "rows": 239726
+        },
+        {
+          "session": "2026-11-11_Day",
+          "contract": "161120018",
+          "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-11_Day.quotes.bin.gz",
+          "sha256": "e1dfe8bd4ccc8d4c1204256eb25d2bd44100252956dc1ab5424693ff06dab2a6",
+          "rows": 149258
+        },
+        {
+          "session": "2026-11-11_Night",
+          "contract": "161120018",
+          "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-11_Night.quotes.bin.gz",
+          "sha256": "9c7d5c03d4cb317bd99914e7c26d34a0a8b592611e4df3d23e6603409a91ab7b",
+          "rows": 187231
+        },
+        {
+          "session": "2026-11-12_Day",
+          "contract": "161120018",
+          "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-12_Day.quotes.bin.gz",
+          "sha256": "15ce520677faebec4362cb86439c2a610c0dc70f3fed9fb803791a94f069d14f",
+          "rows": 165941
+        },
+        {
+          "session": "2026-11-12_Night",
+          "contract": "161120018",
+          "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-12_Night.quotes.bin.gz",
+          "sha256": "e02bc524a4e424cde99b7a59e6bdcf1ea9c6f1994b7b9a439e51895b6bc3f139",
+          "rows": 232020
+        },
+        {
+          "session": "2026-11-13_Day",
+          "contract": "161120018",
+          "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-13_Day.quotes.bin.gz",
+          "sha256": "6ed56cebc8027dea2bab5f37d4bba6ec05ca2a74b90fb65e15e0fa62c1c8d43f",
+          "rows": 164505
+        },
+        {
+          "session": "2026-11-13_Night",
+          "contract": "161120018",
+          "path": "inputs/00167_追加七場の入口と共用価格索引/原板数値索引/2026-11-13_Night.quotes.bin.gz",
+          "sha256": "b2c778f1e4a58607e1e1fe95fb5b81ca02700c13bfc6c577433d08a890e1d1f2",
+          "rows": 211850
+        }
+      ]
+    },
+    "Source": {
+      "path": "work/183単純IFD検証/当時価格183.py",
+      "bytes": 3476,
+      "sha256": "118036ef749e8d5953da31ad1093b4dacc39f268ac6bb23486122ec7fd15f8e5"
+    }
+  },
+  "NPZ": {
+    "path": "inputs/00183_入口判断時点の価格/追加7_q0.npz",
+    "bytes": 33931,
+    "sha256": "581d7acd8721c85ef9b0c4e959fc250576fb18c8fe7fd232009d13db84e38416"
+  }
+}
