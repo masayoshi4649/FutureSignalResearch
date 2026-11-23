@@ -1,0 +1,89 @@
+{
+  "固定日": "2026-11-07",
+  "ユーザー方針": "合格条件を一旦判定外。初回を除く15分新規、決済は連続。FAR後期指定三手法を基礎にする。",
+  "比較": [
+    "F0",
+    "P1",
+    "T1"
+  ],
+  "片側上限micro枚": 100,
+  "point_value": 10,
+  "片道手数料円": 11,
+  "片道想定滑りpt": 5,
+  "主約定": "判断後の次正常原行BBO。原価格時計を受信時計の代理にする。",
+  "追加価格時計遅延秒": [
+    0,
+    1
+  ],
+  "デイ新規時計": "09:15..15:15/15分",
+  "ナイト新規時計": "17:30..翌05:30/15分",
+  "場末返済要求": "15:35/翌05:50",
+  "参照窓": [
+    "D164_15",
+    "P164_06",
+    "U165_03"
+  ],
+  "利益床pt": 20,
+  "追尾幅": "新規時3分ATR14を5ptへ切上げ、15..125pt。未知125。",
+  "技法": "確定3/15分EMA8/21、3分RSI14とMACD12/26/9、TRと前ATRスパイク。検証計画が詳細正本。",
+  "入力場数": 66,
+  "入力全場既使用": true,
+  "接続確認": [
+    "2026-09-21_Day",
+    "2026-09-21_Night"
+  ],
+  "コードと入力SHA256": {
+    "scripts/FAR後期15分移植/actual.go": "f7b4e23fc95839150189b6a3a2e53a8996b2fdfde0ffa7c069231dfc2486738c",
+    "scripts/FAR後期15分移植/actual_test.go": "e9cc0cab792fbbf918beb75f847b501e14d0bdd69e72d95447c02e315d623ab3",
+    "scripts/FAR後期15分移植/cmd/batch/main.go": "dc03a124f2f196b033e23c72c963d68a44852b78e41c6e17ee077a4afd1c4f39",
+    "scripts/FAR後期15分移植/cmd/replay/main.go": "54abcb9e62b3d9c200880f71ac1dce6cbeaa1a3e66746ffd6d103b023eb26604",
+    "scripts/FAR後期15分移植/replay.go": "8ade985b170c65183ffe62526d9bc92e6d125ca0e5dcffbf8c913682e813cee6",
+    "scripts/FAR後期15分移植/replay_test.go": "75c3cbd00e326a5b15206a623bdf4292235639dd4eaf79ec6720a74166aac2d0",
+    "scripts/FAR後期15分移植/schedule.go": "fd3b1a977a90de40d9a2f8039f729afb8834d9740a80636113b754589b00c040",
+    "scripts/FAR後期15分移植/schedule_test.go": "d0e896b30b7e2e427c9b97b443f1fed9f0ad5e6b132829276107f51a49deffee",
+    "scripts/FAR後期15分移植/seeds.go": "7d967a6b80862091c50022059a67f57cb2491e6189b7dfb448c154a8db5bb886",
+    "scripts/FAR後期15分移植/seeds_test.go": "dcb9a6d949d0f1dd142f2cca1e3e0f005c5443e5e5b633e9e19a4f4b29fa27cd",
+    "scripts/FAR後期15分移植/source.go": "2deb43405d76b6cc92a69545fd610834c88345c9ab5e346df406ae3ae9fbb837",
+    "scripts/FAR後期15分移植/source_test.go": "3a115bae631aac086eaf454008016047753310994d21962d690b58496163a2be",
+    "scripts/FAR後期15分移植/technical.go": "ba63bd64bfaaf74adfc1ab780f627828d8f92783647dbb3ee8e66968ae8082a9",
+    "scripts/FAR後期15分移植/technical_test.go": "1b83d5eff4fd9507799a4c1fa151098a36cf8bdf7bf7740a823070382406b766",
+    "scripts/FAR後期15分移植/types.go": "cc732505a841de7c277b6cb892a56520e7e4d416337627bf4a43f0e7cd77b808",
+    "scripts/FAR後期15分移植/go.mod": "eadfc00776180e47d16e8cb41f9787abfb724d9bd04ba66ef31ed5b0ce7dfd43",
+    "scripts/FAR後期15分移植/go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "scripts/FAR後期15分移植/入力固定.py": "003f97fe3339f84754e803e1fb31d8014676a8e50ee6d63c35713562133b9324",
+    "study/00080_FAR後期三手法の15分移植と利益保護/検証計画.md": "d95369f5341683f020658f35746c2138c36f88dc2d41941aea55c6089620fd0e",
+    "study/00080_FAR後期三手法の15分移植と利益保護/入力台帳.json": "b939bc91b33fd86e933534c3b991d844b8a0200a5f14710e1bd5004edc1aab42",
+    "study/00080_FAR後期三手法の15分移植と利益保護/接続訂正.md": "cbbab5468d47f81e9d51aedef62732efc6033561be46f173ed53d9e1096ab33d"
+  },
+  "実行ファイル": "work/FAR後期15分移植/batch80_訂正版.exe",
+  "実行ファイルSHA256": "7ac02283d8529dde87a6519328be650a393c193886aa9634e26f6104b32497b7",
+  "Go": "go version go1.24.2 windows/amd64",
+  "元repoHead": "79842d2f08c80feaee0a07818024938d48e85cf2",
+  "人工確認": "44テスト関数、go test/vet成功。raceはCGO無効で実行不可。時計13、seed3を含む。",
+  "採用版": 2,
+  "初版正式採用": false,
+  "初版条件SHA256": "00e68ebbe6c8c79b22476e3c517de3f5ac54240d8b1a6a32e4102932b65a8772",
+  "訂正根拠": "接続訂正.md",
+  "訂正版接続固定SHA256": "921889a96d17224bdc332c1f8159b2982d0b8be569d694d63e05b40841bf98b2",
+  "内部時計": {
+    "Day": {
+      "USOpen": 0,
+      "ExtraAt": "Start+13500",
+      "NightCoreStart": 0
+    },
+    "Night": {
+      "USOpen": "NY09:30/DST",
+      "ExtraAt": "USOpen+1800",
+      "NightCoreStart": 0
+    },
+    "P05内部": "Legacy主担当だけStartへ設定、Supplementは0を維持"
+  },
+  "並列再計算": {
+    "workers": 16,
+    "方式": "NK全原行と同一timerで時間順の技法種を事前作成し、場×遅延に独立値copy。元Sourceと実会計は各jobで独立。",
+    "人工": "3場×2遅延の逐次・seed個別・8worker全文一致",
+    "本物接続": "先頭2場の逐次対8worker全文一致、差0"
+  },
+  "逐次実行ファイル": "work/FAR後期15分移植/replay80_訂正版.exe",
+  "逐次実行ファイルSHA256": "1e42081224f832a61c4487d6961aa7a11dfb94606eb93d25c352c2370021fed0"
+}

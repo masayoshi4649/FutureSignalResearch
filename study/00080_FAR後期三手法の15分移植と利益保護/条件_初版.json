@@ -1,0 +1,59 @@
+{
+  "固定日": "2026-11-07",
+  "ユーザー方針": "合格条件を一旦判定外。初回を除く15分新規、決済は連続。FAR後期指定三手法を基礎にする。",
+  "比較": [
+    "F0",
+    "P1",
+    "T1"
+  ],
+  "片側上限micro枚": 100,
+  "point_value": 10,
+  "片道手数料円": 11,
+  "片道想定滑りpt": 5,
+  "主約定": "判断後の次正常原行BBO。原価格時計を受信時計の代理にする。",
+  "追加価格時計遅延秒": [
+    0,
+    1
+  ],
+  "デイ新規時計": "09:15..15:15/15分",
+  "ナイト新規時計": "17:30..翌05:30/15分",
+  "場末返済要求": "15:35/翌05:50",
+  "参照窓": [
+    "D164_15",
+    "P164_06",
+    "U165_03"
+  ],
+  "利益床pt": 20,
+  "追尾幅": "新規時3分ATR14を5ptへ切上げ、15..125pt。未知125。",
+  "技法": "確定3/15分EMA8/21、3分RSI14とMACD12/26/9、TRと前ATRスパイク。検証計画が詳細正本。",
+  "入力場数": 66,
+  "入力全場既使用": true,
+  "接続確認": [
+    "2026-09-21_Day",
+    "2026-09-21_Night"
+  ],
+  "コードと入力SHA256": {
+    "scripts/FAR後期15分移植/actual.go": "f7b4e23fc95839150189b6a3a2e53a8996b2fdfde0ffa7c069231dfc2486738c",
+    "scripts/FAR後期15分移植/actual_test.go": "e9cc0cab792fbbf918beb75f847b501e14d0bdd69e72d95447c02e315d623ab3",
+    "scripts/FAR後期15分移植/cmd/replay/main.go": "54abcb9e62b3d9c200880f71ac1dce6cbeaa1a3e66746ffd6d103b023eb26604",
+    "scripts/FAR後期15分移植/replay.go": "e096d88f5daf36232a4e95eb0cd7883054bab3a94d61b7429b833db6d1d6f572",
+    "scripts/FAR後期15分移植/replay_test.go": "5ca2a2ea9b398f726da981884f5e68cc8fa2ff31d0a8a8dde67a61b09974cde3",
+    "scripts/FAR後期15分移植/schedule.go": "fd3b1a977a90de40d9a2f8039f729afb8834d9740a80636113b754589b00c040",
+    "scripts/FAR後期15分移植/schedule_test.go": "d0e896b30b7e2e427c9b97b443f1fed9f0ad5e6b132829276107f51a49deffee",
+    "scripts/FAR後期15分移植/source.go": "2deb43405d76b6cc92a69545fd610834c88345c9ab5e346df406ae3ae9fbb837",
+    "scripts/FAR後期15分移植/source_test.go": "3a115bae631aac086eaf454008016047753310994d21962d690b58496163a2be",
+    "scripts/FAR後期15分移植/technical.go": "ba63bd64bfaaf74adfc1ab780f627828d8f92783647dbb3ee8e66968ae8082a9",
+    "scripts/FAR後期15分移植/technical_test.go": "1b83d5eff4fd9507799a4c1fa151098a36cf8bdf7bf7740a823070382406b766",
+    "scripts/FAR後期15分移植/types.go": "cc732505a841de7c277b6cb892a56520e7e4d416337627bf4a43f0e7cd77b808",
+    "scripts/FAR後期15分移植/go.mod": "eadfc00776180e47d16e8cb41f9787abfb724d9bd04ba66ef31ed5b0ce7dfd43",
+    "scripts/FAR後期15分移植/go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "scripts/FAR後期15分移植/入力固定.py": "003f97fe3339f84754e803e1fb31d8014676a8e50ee6d63c35713562133b9324",
+    "study/00080_FAR後期三手法の15分移植と利益保護/検証計画.md": "d95369f5341683f020658f35746c2138c36f88dc2d41941aea55c6089620fd0e",
+    "study/00080_FAR後期三手法の15分移植と利益保護/入力台帳.json": "b939bc91b33fd86e933534c3b991d844b8a0200a5f14710e1bd5004edc1aab42"
+  },
+  "実行ファイル": "work/FAR後期15分移植/replay80.exe",
+  "実行ファイルSHA256": "b129e3fc9cf0327d09537001ba6ed9a79261294f16d910092f162da4f8b2d483",
+  "Go": "go version go1.24.2 windows/amd64",
+  "元repoHead": "79842d2f08c80feaee0a07818024938d48e85cf2",
+  "人工確認": "38テスト関数とgo vet成功。95cbb3 exit0、独立Source8/技法時計9/実所有11/IO10。"
+}

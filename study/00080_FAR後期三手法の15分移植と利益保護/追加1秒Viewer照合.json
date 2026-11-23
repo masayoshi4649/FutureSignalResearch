@@ -1,0 +1,3208 @@
+{
+  "試行": 80,
+  "確認日時": "2026-11-07T20:08:38.331256+09:00",
+  "全件一致": true,
+  "全資源検証完了": true,
+  "予定資源数": 198,
+  "数値取得完了資源数": 198,
+  "照合項目数": 19472,
+  "不一致数": 0,
+  "不一致": [],
+  "APIエラー": [],
+  "数値一致判定": "完了",
+  "Viewer設定": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "catalog_id": "3d0002016a3ffc8bd65e305cf0151ef8",
+  "一覧SHA256": "e1a08644bcbcfa24562abf129e0c53065d55cfc59a91e24da2d012efd187c19d",
+  "結果SHA256": "7da2f63035cfa61b865c868a3c4e239c1003561872e4d6caa73d9f20c0fdea85",
+  "入力SHA256前": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\一覧.resources.json": "e1a08644bcbcfa24562abf129e0c53065d55cfc59a91e24da2d012efd187c19d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\結果.json": "7da2f63035cfa61b865c868a3c4e239c1003561872e4d6caa73d9f20c0fdea85",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\表示照合.py": "2b899795f527bddb9306a89a746d15a24eb73ade8846ff8183d7b9b9e24f9d45",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-21_Day.trades.jsonl": "1801ddbccd283a1ca30624517069858e735935849c2bcfb514899c38806eea98",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-22_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-22_Night.trades.jsonl": "ff2a349d99a6ba9a83444e557d3c3059bdb35dca33bc74c97b3acec36293483d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-23_Day.trades.jsonl": "ee9feacf1a1f3b432bb2ada8b014ddae0179384d06a238e8d7a867fda7f6051a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-24_Day.trades.jsonl": "22bbb546886095a11e59d3c884b4923927e9df60e8a6f23209af4e703a2f01b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-24_Night.trades.jsonl": "d94ecc918c37e0f097bd73652795aca3e1c5ce26ee2dafd38c5a5bf9f8f17c68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-25_Day.trades.jsonl": "f8b91e47ba434f27c40c7c5af5943bce728f4820eadae457a72d2d40c5023129",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-25_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-28_Day.trades.jsonl": "d6df06bd858be7decf0cb79b4a1132432af642705f0474f93f5374559941e168",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-28_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-29_Day.trades.jsonl": "c4929be203480978e43d16f586296192390eccba55ee52c3d1bb070532d19a32",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-29_Night.trades.jsonl": "8bad2cab9ab53c68c54876de13cc38cfdb3dc92b175102f8d8c901a1cfafa1a8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-30_Day.trades.jsonl": "0b14b55c10fbc6e4ebc3a0b41815d92afad4a2372d75d22b2ed6bd01b3fbe3cf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-30_Night.trades.jsonl": "42b45ba4e643b421f2a22600183dc0af2e75f4dba87a1a001106cf36fd38912a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-01_Day.trades.jsonl": "d62b6b5c6f45e910bcdc71ec62e70b0bda08353a48ef972b15fd8464ad3cd68b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-01_Night.trades.jsonl": "1b16f086261cda05d2b304998c8ceb658bde03fffd88757ff0a240d7fc37ad60",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-02_Day.trades.jsonl": "ca000c4017c9c0b5217240189ff57ed5dcee3f3787b6ce0f3eed5eebf61bdd94",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-02_Night.trades.jsonl": "4ed8a84f485fec94231abf240d0cc4bc8a62cfc4291c05de77cfe297b6de5b0b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-05_Day.trades.jsonl": "dc139e29085b6b171923051e9e1e95d1fdb74efe284fbe493c37d21a9e8ba6ad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-05_Night.trades.jsonl": "0c12f02a0c713d0d75c5f000535c82c6d280232a64e72e43b267fde422785bdd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-06_Day.trades.jsonl": "8096098002827bbd15a3f1fe54846b061f2d932bdb5c4805bd9cbbc6d3024b1a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-06_Night.trades.jsonl": "35a26eee976564e45ce7d06f1996def822f7793916ec99507f6b25f7ddd00eeb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-07_Day.trades.jsonl": "f984a3c7fac72aeddee5dd7ea65ad028bcaaf479280421506e25869bbe29277a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-07_Night.trades.jsonl": "02bed2308dc4ae08cb85d0f5944065709eed07f2696194a0764f79eb0669573c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-08_Day.trades.jsonl": "b8c9c528164a689b934d7d8ceba4ed5122eab37f0b66c4f350e9c5cba4c0effa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-08_Night.trades.jsonl": "ded9ceaa47fc891ca1dd2c6b67f023d07b1ad666640c8fa3d70ade8b2014baef",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-09_Day.trades.jsonl": "213db164c9bdb3c89da431473336e14a930c5390643ab55b7cf9b8d617d6125b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-09_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-12_Day.trades.jsonl": "90446c6dd810323fd551211a273199171b784d8ed90a11f5f866b4f7a56e9943",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-12_Night.trades.jsonl": "2733e6dc2099cd8e015d10da7a508189dbf7fc1f966923de30676ed97b4623e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-13_Day.trades.jsonl": "282dde299b4b893d9ad84e957b02be4025465abd2e86b94c3ba89fb9e6dbb9e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-13_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-14_Day.trades.jsonl": "6514b0bb8e340f75d4f1006bafb561aaeca67f3d817925453077d375ebd2be87",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-14_Night.trades.jsonl": "39d5251bf341b442171618a2ebba36ff961c88f931766bbc3a2cc4b32224266d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-15_Day.trades.jsonl": "5ceb6396b71cb5d13f5422709b74aabd1d843512b4e7cf69ed73a2eeb1b2096b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-15_Night.trades.jsonl": "54686697b43788353d698fc37104233dfcfbfb0fc4a325e403f20948b3893446",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-16_Day.trades.jsonl": "0fe593e82e3e4777c61783d2964557b8f85d79c741fef02973864eedea335d3e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-16_Night.trades.jsonl": "aeecfdc99d9ed436dc001f73edce465a1d9afd901f804fb2d1ffbf6eee17c379",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-19_Day.trades.jsonl": "cbd50d9fa32a23dd20103efc28a89f0c28388db6b2919779fc8e40f16933605e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-19_Night.trades.jsonl": "0788e5978b8c47725f90e50c6be8afb6f2215004790950f37572656ff9a857d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-20_Day.trades.jsonl": "021ea1b769f60c506e5d86a1e495014d12ab4999664313a52b255a2d8c3d1ecd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-20_Night.trades.jsonl": "d89ec972f53e1f096ac661f22daed06c5d2e6b72a424632e0317126c5ad81a5f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-21_Day.trades.jsonl": "c806818afa8dfa750cc97eb4765ba0cf350e5aeb805ea8f659e01bf4d37a9b6a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-21_Night.trades.jsonl": "c81372aa1a2cd486b140b85d4f18dc4287df9b5ee460cb7ad7023bcae55477e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-22_Day.trades.jsonl": "033aadfb426437800785c03c560a8ce4fb0915b85683b9a5a61cbc7c6d46d41c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-22_Night.trades.jsonl": "9b251c5ab1f1e33073fa5ee9b782ae34ec8322478a4eee079f1bf9cadef79ac5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-23_Day.trades.jsonl": "07ca345559363c3efb97afb2d62200ccee05fd7c075341a610203ad63839c9e3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-23_Night.trades.jsonl": "182fff07ef98eefd6a0daa7b328bc534e1525d63548282f705a8fb5b7d9cdae5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-26_Day.trades.jsonl": "95e64110f00dac858f4555b1d938f88074951fb95cd80e55a7314ec6acc2e2da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-26_Night.trades.jsonl": "c7171a19cf53bc956bd8bff184c99d54eadb226c1d07d70674c0b03454e977d9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-27_Day.trades.jsonl": "9ec77d1d3fe2e4f2f3cde1c8de8ed0417b1e4c61dfb8ee1e217922a7881c8507",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-27_Night.trades.jsonl": "43f9e7a912d9f10b91ec3d270164c8e5be2f41292385460e775e278797763db4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-28_Day.trades.jsonl": "a70b67f0af8748e040337985943709d0d333f387fc10b1c8fdf8bbd662be6a6c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-28_Night.trades.jsonl": "be15a55764b61af600b1837606e6c060fbef5f6ea49f4c830e2e8d925bdb41ca",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-29_Day.trades.jsonl": "fafb08dd16e348087ef560dfa1ceba1dd4565dc44b45ea86acec303275223559",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-29_Night.trades.jsonl": "7ef2560012670be310437dede4d1094d7c4bf02358995b4b0c65d721c65b91b6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-30_Day.trades.jsonl": "f7c81f59574db6abc4f4794395160232915e85c5b6c8077ed1062bbded7df1fb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-30_Night.trades.jsonl": "fd7aa3d1d7fa7411da15e55c422d23980867f64e092f85db55b755cb76a3a3d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-02_Day.trades.jsonl": "741fc5be10c0b2539cea8fb5377d691bf694eb4e75010867f7884a4a2788a816",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-02_Night.trades.jsonl": "b312fc573e896a208d616ae504020b77aa507b9ea650f32154e55a4d8c8753f6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-03_Day.trades.jsonl": "3c6cd5a48852bc76e41e47611816ee2f90d18f6ac8af028285257056eab8e371",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-03_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-04_Day.trades.jsonl": "4c89640d73da519f9027e2c6c47cb44da86e44642bfc324f6c15177d0a98e607",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-04_Night.trades.jsonl": "2c72f7692aa1df38b9329de5c7a65c5c548429dad2206b9e80fce191a0a054de",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-21_Day.trades.jsonl": "dd008c2d83ccc1a42c0a33c2a880762c067b3fe68f2ff459fe329694b901a81c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-22_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-22_Night.trades.jsonl": "097cd1ee03819810903e394d09948d5f42e375a90415051911072b186b3a1fe9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-23_Day.trades.jsonl": "10d6374fe8595a573e1eaa095b177f6e70a9aeafbdf1662c391e20901512d346",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-24_Day.trades.jsonl": "fcda902b7ea0e72f4b52d94d2d76f6cd57688af595a058c4464c23aaba773f57",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-24_Night.trades.jsonl": "9b599ce39914fa835dfa4712a84f1095edca07b98592ac6bb956c9dc56a60694",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-25_Day.trades.jsonl": "4487079e929442f842a009af7301fdf47a597c80c5f2741b5dd5d92c15154d29",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-25_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-28_Day.trades.jsonl": "d4c4c86f0d630dfc26d61cf7d823e5ac767ac6f633adf59fc37200fc4a0b85c1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-28_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-29_Day.trades.jsonl": "3c02af102942db1a6253276ac549b132a0283d19bd32f8843929ccd9302d984a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-29_Night.trades.jsonl": "3910f6ba7deb37c941ea46555234551ce29ecf5f6db6d107fb15ac01192881d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-30_Day.trades.jsonl": "4d5dc78f57dbcff1d8605b936f891ec615528b836f4b2034eacab362b73f24da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-30_Night.trades.jsonl": "aabce3d3e3c5fb919acb9e04d988eead21b5ba3efb7713d61425dae3a92e8d06",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-01_Day.trades.jsonl": "41e16cf64adf208cc0d80118640ff050b72e0bd20c215ae5d3a1d2e9465c03f8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-01_Night.trades.jsonl": "43950ec432823e58a4f5af342042fb66e9007235646e18ff094261bdcc07949b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-02_Day.trades.jsonl": "d1de5cefd639d5f4bc448ab29fc9632dd1cb8944903fb1c4322fab0f1ac05b6d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-02_Night.trades.jsonl": "693c781c20bb3983378c09750099bde116f1db269097ab9bf94ace9562584a42",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-05_Day.trades.jsonl": "199fed0dc698561858a27f6935c8da9501ed600fa9d68a52df92fd7583dc117d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-05_Night.trades.jsonl": "6fa9de374266f8607f2defba86bd8df508066924b29b5c5133514ede3b75dfb0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-06_Day.trades.jsonl": "683d510c2322608aa07525fce4f9690ef4b89151060f62c906e2096880ee7810",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-06_Night.trades.jsonl": "43218d99e09cde4b43a2fb17aa7d58c5fdbfeca1b7df8b9bff8f5c1b465793cf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-07_Day.trades.jsonl": "833861f8af01abe85cda92e3e20140269f7de777380d5723d2cdf72e0db6567f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-07_Night.trades.jsonl": "ee23cb92eb82939d8509e537a34a9308072a581e424db1ca2419f94ee8e830da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-08_Day.trades.jsonl": "32442d95419f11f5bdfcf6b9457bd3498177ea497b6373f7ccd677dddcd19a09",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-08_Night.trades.jsonl": "e188f4b6cf823f563f949975bfd201cd718562f6f77aca83f1a2a921e39d16c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-09_Day.trades.jsonl": "9f160c293a676cea7d59f24b08f3713e4a043b7242936880e0d55b610c552c8a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-09_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-12_Day.trades.jsonl": "f2435ec442d97b04207acca465108a03002f99b948c0d22be3ae8de434545362",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-12_Night.trades.jsonl": "7bd16218429d7601d86f5e778724e971a3ba307e9308c6b2dc12d168a80266bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-13_Day.trades.jsonl": "53d051f984a22e93b715b055fb02aa31d4b9a69646a99d5f78c865b9aa352c7f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-13_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-14_Day.trades.jsonl": "c268da312bea6024cc587f0e514791b2447bda44bac76fe5c2802feac6b83728",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-14_Night.trades.jsonl": "16dbbc279ff9e5d4fb11adb2474b572e3959cd94deb688ef958ecc94899be54b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-15_Day.trades.jsonl": "636baa5f781983e90644a8e300ec09df47606bdf85a27f07cfa1c2d727037fa7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-15_Night.trades.jsonl": "38645740c56eb0db003a523e35e3c6f8912048ec3d888ab39b2dba98d388351f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-16_Day.trades.jsonl": "aa07ab348ce9e6142e215140798fb738b19b0701b9b056bdb46c114af556ebfa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-16_Night.trades.jsonl": "786ac20c0a2f569926a389edd33829cc5a47003aed4d4bc1394f6c874e1c5799",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-19_Day.trades.jsonl": "825c0c7a7827c6dda42209a10039268dd32f267d2d565cb2b7fc5b3db1f23b27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-19_Night.trades.jsonl": "eddaea75757591c7cd31d70474cde1068d529e99aff8c8c348a12ddc60254d1a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-20_Day.trades.jsonl": "7fbe010c8c9d1c8c39ab81d73a0cb3fd5c91bf8282dc162cc3f61889d7fc2620",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-20_Night.trades.jsonl": "5ade05a32e97dd316e2d5e97c71719c121fd9213f2f60a6053b314c624593500",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-21_Day.trades.jsonl": "de0241f61e696171b9a1a461c0110a7984d21898d852c3f90af60b1f3b8319ac",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-21_Night.trades.jsonl": "223240a53a3ffa4429839b900b67a482774812fea0f89fbf2df7719233d949dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-22_Day.trades.jsonl": "ff9eb53dd45a49b6d4a15532ae9c61ad3c9c35ba2b89969e0bbb84773f3517c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-22_Night.trades.jsonl": "4ededae30440d95fd91739e64dde860706c4adcc4ea37107ce04d722868f401c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-23_Day.trades.jsonl": "d3593a042503a83b8f2a35173a3ff9a6b1e4b698d3380f131a97f205d12992a9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-23_Night.trades.jsonl": "f879376a5884775acf53d82cf436d4a4c7d15d82e7e3c0d5059e94626a4a3887",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-26_Day.trades.jsonl": "94eb2356626f75fea17f5a18c8c71ec178d36e4ab3a55cc64d1c5b12b80c21db",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-26_Night.trades.jsonl": "1a297f28786bf02cd4872ffc0c9bb11953b56bdeb2d3aca0cb7ff399b0b46307",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-27_Day.trades.jsonl": "d88d5956e4797bbaf459b25aada588a45990caa77eda42448f4847fc1151359b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-27_Night.trades.jsonl": "86714bbe3a59f143da19337aaa0f2de62f250d9806f7ac483d81d64e01ae13fc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-28_Day.trades.jsonl": "3dafc8b8659a7635c37436a478c527e4975bcdfaf923e4fd30a22608477f954e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-28_Night.trades.jsonl": "907f8af69ee2244fa55c108320d098e8c8908efd65374f7c6e3a3b8c0b30b6be",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-29_Day.trades.jsonl": "cec1a18030cf60ba2f116f54e2b5c6ff7f8f49f549d8f466e41bdd3c6b5333db",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-29_Night.trades.jsonl": "484ca234b798ebff1e64723a7bc94929ad2ea14eb5085d1c7e78e49d01b86c43",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-30_Day.trades.jsonl": "f011b2a688e9be0717c4fbea4c3362cc43cad80e008e168ff32014d51b2e3fb0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-30_Night.trades.jsonl": "63b69877066d23d802f7be8784a013b754f2de2dc8d559ed1d1f7a9af2c56098",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-02_Day.trades.jsonl": "68dc97564d5c6abb6a13f5ca647baa3239f49a94144f8a22dfff88cb89a1bfbd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-02_Night.trades.jsonl": "506250071ae9ca0ee3c49784dcb6b71a5f4a008fbaadee881328e6026c629263",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-03_Day.trades.jsonl": "f71f835a8fd7870df3638b9a4d6d8f1df553edff0c92a5a93bf14fd50b7cf4b2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-03_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-04_Day.trades.jsonl": "20ff7080476a0410225e2e9d627d35417068340c000642d0c62026c69542dbf6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-04_Night.trades.jsonl": "42ec809a83f8db564e7d14a4d8ab2a121678b6a1590fcb726967f0329106f0c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-22_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-22_Night.trades.jsonl": "912194a21d219aadc13547e9b23764d28e267c801d11a4212fe20d747ba0b64d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-23_Day.trades.jsonl": "9d9e89f0283f4acafb9d8a3bd50446e603b5004642eb8d5ac57e8f606045567c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-24_Day.trades.jsonl": "6457a5988a3b0d951b340e31e8d6dfeb0a8be5cf130f09f13c438b7d3fac80b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-24_Night.trades.jsonl": "031d7f1c2409867193890b7b2c2c116dc563e028e5b38bb07a590bcb4b97a731",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-25_Day.trades.jsonl": "bb3894aa285b185c6de7d6a78089119db679335d1647d09540d4eec94425e071",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-25_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-28_Day.trades.jsonl": "bd17c8a0a4e1a50464c7a4d58375165e3aaba9121ec0d025908895656fa02ded",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-28_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-29_Day.trades.jsonl": "89fa88e1008aa7500da17cca2c2934cf5bb95e556d1aff6f2967f963d56ec20f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-29_Night.trades.jsonl": "8f40ba53e917fa525e0312fcf6a93ecf094b1fcc1abb4c1810616d2705da8790",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-30_Day.trades.jsonl": "cdfc53e6de58be7e6c101e1530b448d03e3d9c593660abab86e3b0615b7ad2db",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-30_Night.trades.jsonl": "638dea6c98de8f18c7a13609a0e022a3b2b4b4f84ddc5bad43de546ce3754ec8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-01_Day.trades.jsonl": "0248870a4503b17246b5776c56e6cb857e75654da3ca8a100c63ce1fd06bed68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-01_Night.trades.jsonl": "55eebfef424a570772908a399c383af36a315b57a810bf043c000663e8aa7063",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-02_Day.trades.jsonl": "6a32422e52ec52d8741337fee7ecd93093bb68a3b1b8eba6f385a6c9184eb7e9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-02_Night.trades.jsonl": "e787a2bb5b6074fcf0c05b200c90ac531eeed77a4355bf300de2b99ba1107d15",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-05_Day.trades.jsonl": "262a44047c0ef6ede5d94f5db00a619013e2b1d5dec2b2cd8fe94a33ec40c90e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-05_Night.trades.jsonl": "05bbae0d93dfefd1990b3a634aa47d24ecfe09d46ac0a961a4e06abab922b290",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-06_Day.trades.jsonl": "e0ddcde27478dff0cfd5aa817a7eccbd4d2173b891aeae8ea421ef9726952fd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-06_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-07_Day.trades.jsonl": "9f5af6e9e0202972b231e8a1263eae2e5ed92179618865ae296197b615ad0a16",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-07_Night.trades.jsonl": "e513b2113953252049a5801c38f3a6a332bb101c4db2817a2c61f8a1f16aaa40",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-08_Day.trades.jsonl": "c3972a4da606b152a602db7bc1dda3fc5e08f769f0a2b2a007c1d7c203a7b8b6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-08_Night.trades.jsonl": "22fbd2bea12bcbd3dae3d46cc2560b86bc1bffaefcb0fb25da56bd9fd6d0b648",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-09_Day.trades.jsonl": "c145da2480e7250db2fcb19e568974eae9b7d21b497fc4e55c761cb430f91faf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-09_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-12_Day.trades.jsonl": "3ed3ac7f4f04be22dbe49ff489012005de6e5384fa28f2cefb35bbae68bcd4c9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-12_Night.trades.jsonl": "1392c8e6e5dffb36d1b338479a2863172d47270d7aed51fe4a687be8458ce6ee",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-13_Day.trades.jsonl": "a6af2a7d82939c2bbbca68c2b4165213d6ef8a158dc5d367d0ca9d2da7846876",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-13_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-14_Day.trades.jsonl": "44e559a232ff34c831b4f5a1128d4e45f7aa05f44c8e8738a0bf609ac78028fe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-14_Night.trades.jsonl": "9b15e94cdb47b26e6dae3f6f78c66987cb8cc5c82e1042020b54430268478eb3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-15_Day.trades.jsonl": "4f8a67059fd314ac6b7f509b864edcd675467ff92499f66dd7fa921ed07a0b2f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-15_Night.trades.jsonl": "0d65ae244c911f26bd939563821e7a3cd216ac177c8c2947325ecc53388979d2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-16_Day.trades.jsonl": "dc560e072dcb1cf21e73932bef9ef6a2c2fbfe6624b291598bd874b7f480c744",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-16_Night.trades.jsonl": "05fa03118c06abb3f04cb18752d4a70d7dacc4420b1b07e804e1d278a5c6ad4a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-19_Day.trades.jsonl": "70ad2064ae0c01526ffa6b9729bfec91ebf50296e28897daa41b189bdfa0b481",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-19_Night.trades.jsonl": "7db0caf7e28932dde94ff6a41b2af2d5edd8cb20ddbc7ceccaecd3642669d720",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-20_Day.trades.jsonl": "5c4f13079ec001de3c284e515edb856b04563d58e7929051574ec98a449bf624",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-20_Night.trades.jsonl": "7cd7946ea97c9edd36a9fd22d3f4d6f6c1e5b0b61a602fd0c4c55c9e3004b66d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-21_Day.trades.jsonl": "fd24e374a65a477ce42687faa936091b13f139cd174c46f6feb8c2b377f4f843",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-21_Night.trades.jsonl": "de5055eb478d5f9c588dc9d59039c455a34ebc43d0a863e87b97b26e4e2349f5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-22_Day.trades.jsonl": "661d9fcbd8ed201496d1f8e02fcd48aeb8be2bb76dc91a05b4e70ae6316d57c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-22_Night.trades.jsonl": "81f938eb45ce5846c7dc56855085958302ba3e58c3da719babe4ac79711d01bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-23_Day.trades.jsonl": "3366e3b73c883bacd69e4225006c5b5bf397e8a820df564e3ea61751e8398548",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-26_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-26_Night.trades.jsonl": "9797bd01632dd89fd990084532dad116e0ab1b2c16f2a7f483ab66b51b37728c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-27_Day.trades.jsonl": "cbe83539328a8be7346d0c55c7ea7f33d1fd7d0ee0108ba2ab924e64fbea54d1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-27_Night.trades.jsonl": "1a393c3cfce3e6b038e03d76c70fcd148aab66a1e878c604ead9e69206180cd1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-28_Day.trades.jsonl": "09b549560a6c5e5e0acdbc37cedfd84498a6abff3404d7881d04a4aa37cc5a7b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-28_Night.trades.jsonl": "75b5391a15c3772d6e05528dad5c12afdbfcc64189fc7ce2991269e16205a73e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-29_Day.trades.jsonl": "5c800c99e069d22f64b02b233ec4f8e65770cc2ccddff456d6d5dbad422b0d3d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-29_Night.trades.jsonl": "56a86fd5d6ce79c131f30e9fd9c82ecf09b274bd7f925e0cb5f1c9c4d83e11f4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-30_Day.trades.jsonl": "a4de48bed63cb3ed2c84de2082c45fad0087b9f982d06c4578bb6d7a5bd3178b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-30_Night.trades.jsonl": "c52be7aab1c6e007a1e604277b5c088840ec1b7f312d8eb330d2f587dd668f9d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-02_Day.trades.jsonl": "520c5a61c87e2f0772ce5031add7deea3bccef2ba343d3c15802c16f8083456c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-02_Night.trades.jsonl": "e5dbb25fcca3f8816cef0f88b1f5bfefe6677ddeabbf8db3921aa7949c2692c9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-03_Day.trades.jsonl": "fa02e389dadf3621064e9b510b1ffa01429aa1d9ec2099e304e8ee954f51662f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-03_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-04_Day.trades.jsonl": "e25f801bdf55b2e0c823f5c7f952ed22ee1e2fde3e325eb617fe3ba83285aaa0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-04_Night.trades.jsonl": "cff4a5be2c6fb10b512299425de0291c6ae0237a81cb01ddac32f44357079bdb"
+  },
+  "入力SHA256後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\一覧.resources.json": "e1a08644bcbcfa24562abf129e0c53065d55cfc59a91e24da2d012efd187c19d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\結果.json": "7da2f63035cfa61b865c868a3c4e239c1003561872e4d6caa73d9f20c0fdea85",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\表示照合.py": "2b899795f527bddb9306a89a746d15a24eb73ade8846ff8183d7b9b9e24f9d45",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-21_Day.trades.jsonl": "1801ddbccd283a1ca30624517069858e735935849c2bcfb514899c38806eea98",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-22_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-22_Night.trades.jsonl": "ff2a349d99a6ba9a83444e557d3c3059bdb35dca33bc74c97b3acec36293483d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-23_Day.trades.jsonl": "ee9feacf1a1f3b432bb2ada8b014ddae0179384d06a238e8d7a867fda7f6051a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-24_Day.trades.jsonl": "22bbb546886095a11e59d3c884b4923927e9df60e8a6f23209af4e703a2f01b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-24_Night.trades.jsonl": "d94ecc918c37e0f097bd73652795aca3e1c5ce26ee2dafd38c5a5bf9f8f17c68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-25_Day.trades.jsonl": "f8b91e47ba434f27c40c7c5af5943bce728f4820eadae457a72d2d40c5023129",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-25_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-28_Day.trades.jsonl": "d6df06bd858be7decf0cb79b4a1132432af642705f0474f93f5374559941e168",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-28_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-29_Day.trades.jsonl": "c4929be203480978e43d16f586296192390eccba55ee52c3d1bb070532d19a32",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-29_Night.trades.jsonl": "8bad2cab9ab53c68c54876de13cc38cfdb3dc92b175102f8d8c901a1cfafa1a8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-30_Day.trades.jsonl": "0b14b55c10fbc6e4ebc3a0b41815d92afad4a2372d75d22b2ed6bd01b3fbe3cf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-09-30_Night.trades.jsonl": "42b45ba4e643b421f2a22600183dc0af2e75f4dba87a1a001106cf36fd38912a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-01_Day.trades.jsonl": "d62b6b5c6f45e910bcdc71ec62e70b0bda08353a48ef972b15fd8464ad3cd68b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-01_Night.trades.jsonl": "1b16f086261cda05d2b304998c8ceb658bde03fffd88757ff0a240d7fc37ad60",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-02_Day.trades.jsonl": "ca000c4017c9c0b5217240189ff57ed5dcee3f3787b6ce0f3eed5eebf61bdd94",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-02_Night.trades.jsonl": "4ed8a84f485fec94231abf240d0cc4bc8a62cfc4291c05de77cfe297b6de5b0b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-05_Day.trades.jsonl": "dc139e29085b6b171923051e9e1e95d1fdb74efe284fbe493c37d21a9e8ba6ad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-05_Night.trades.jsonl": "0c12f02a0c713d0d75c5f000535c82c6d280232a64e72e43b267fde422785bdd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-06_Day.trades.jsonl": "8096098002827bbd15a3f1fe54846b061f2d932bdb5c4805bd9cbbc6d3024b1a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-06_Night.trades.jsonl": "35a26eee976564e45ce7d06f1996def822f7793916ec99507f6b25f7ddd00eeb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-07_Day.trades.jsonl": "f984a3c7fac72aeddee5dd7ea65ad028bcaaf479280421506e25869bbe29277a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-07_Night.trades.jsonl": "02bed2308dc4ae08cb85d0f5944065709eed07f2696194a0764f79eb0669573c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-08_Day.trades.jsonl": "b8c9c528164a689b934d7d8ceba4ed5122eab37f0b66c4f350e9c5cba4c0effa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-08_Night.trades.jsonl": "ded9ceaa47fc891ca1dd2c6b67f023d07b1ad666640c8fa3d70ade8b2014baef",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-09_Day.trades.jsonl": "213db164c9bdb3c89da431473336e14a930c5390643ab55b7cf9b8d617d6125b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-09_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-12_Day.trades.jsonl": "90446c6dd810323fd551211a273199171b784d8ed90a11f5f866b4f7a56e9943",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-12_Night.trades.jsonl": "2733e6dc2099cd8e015d10da7a508189dbf7fc1f966923de30676ed97b4623e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-13_Day.trades.jsonl": "282dde299b4b893d9ad84e957b02be4025465abd2e86b94c3ba89fb9e6dbb9e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-13_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-14_Day.trades.jsonl": "6514b0bb8e340f75d4f1006bafb561aaeca67f3d817925453077d375ebd2be87",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-14_Night.trades.jsonl": "39d5251bf341b442171618a2ebba36ff961c88f931766bbc3a2cc4b32224266d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-15_Day.trades.jsonl": "5ceb6396b71cb5d13f5422709b74aabd1d843512b4e7cf69ed73a2eeb1b2096b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-15_Night.trades.jsonl": "54686697b43788353d698fc37104233dfcfbfb0fc4a325e403f20948b3893446",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-16_Day.trades.jsonl": "0fe593e82e3e4777c61783d2964557b8f85d79c741fef02973864eedea335d3e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-16_Night.trades.jsonl": "aeecfdc99d9ed436dc001f73edce465a1d9afd901f804fb2d1ffbf6eee17c379",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-19_Day.trades.jsonl": "cbd50d9fa32a23dd20103efc28a89f0c28388db6b2919779fc8e40f16933605e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-19_Night.trades.jsonl": "0788e5978b8c47725f90e50c6be8afb6f2215004790950f37572656ff9a857d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-20_Day.trades.jsonl": "021ea1b769f60c506e5d86a1e495014d12ab4999664313a52b255a2d8c3d1ecd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-20_Night.trades.jsonl": "d89ec972f53e1f096ac661f22daed06c5d2e6b72a424632e0317126c5ad81a5f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-21_Day.trades.jsonl": "c806818afa8dfa750cc97eb4765ba0cf350e5aeb805ea8f659e01bf4d37a9b6a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-21_Night.trades.jsonl": "c81372aa1a2cd486b140b85d4f18dc4287df9b5ee460cb7ad7023bcae55477e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-22_Day.trades.jsonl": "033aadfb426437800785c03c560a8ce4fb0915b85683b9a5a61cbc7c6d46d41c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-22_Night.trades.jsonl": "9b251c5ab1f1e33073fa5ee9b782ae34ec8322478a4eee079f1bf9cadef79ac5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-23_Day.trades.jsonl": "07ca345559363c3efb97afb2d62200ccee05fd7c075341a610203ad63839c9e3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-23_Night.trades.jsonl": "182fff07ef98eefd6a0daa7b328bc534e1525d63548282f705a8fb5b7d9cdae5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-26_Day.trades.jsonl": "95e64110f00dac858f4555b1d938f88074951fb95cd80e55a7314ec6acc2e2da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-26_Night.trades.jsonl": "c7171a19cf53bc956bd8bff184c99d54eadb226c1d07d70674c0b03454e977d9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-27_Day.trades.jsonl": "9ec77d1d3fe2e4f2f3cde1c8de8ed0417b1e4c61dfb8ee1e217922a7881c8507",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-27_Night.trades.jsonl": "43f9e7a912d9f10b91ec3d270164c8e5be2f41292385460e775e278797763db4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-28_Day.trades.jsonl": "a70b67f0af8748e040337985943709d0d333f387fc10b1c8fdf8bbd662be6a6c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-28_Night.trades.jsonl": "be15a55764b61af600b1837606e6c060fbef5f6ea49f4c830e2e8d925bdb41ca",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-29_Day.trades.jsonl": "fafb08dd16e348087ef560dfa1ceba1dd4565dc44b45ea86acec303275223559",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-29_Night.trades.jsonl": "7ef2560012670be310437dede4d1094d7c4bf02358995b4b0c65d721c65b91b6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-30_Day.trades.jsonl": "f7c81f59574db6abc4f4794395160232915e85c5b6c8077ed1062bbded7df1fb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-10-30_Night.trades.jsonl": "fd7aa3d1d7fa7411da15e55c422d23980867f64e092f85db55b755cb76a3a3d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-02_Day.trades.jsonl": "741fc5be10c0b2539cea8fb5377d691bf694eb4e75010867f7884a4a2788a816",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-02_Night.trades.jsonl": "b312fc573e896a208d616ae504020b77aa507b9ea650f32154e55a4d8c8753f6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-03_Day.trades.jsonl": "3c6cd5a48852bc76e41e47611816ee2f90d18f6ac8af028285257056eab8e371",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-03_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-04_Day.trades.jsonl": "4c89640d73da519f9027e2c6c47cb44da86e44642bfc324f6c15177d0a98e607",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\F0\\2026-11-04_Night.trades.jsonl": "2c72f7692aa1df38b9329de5c7a65c5c548429dad2206b9e80fce191a0a054de",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-21_Day.trades.jsonl": "dd008c2d83ccc1a42c0a33c2a880762c067b3fe68f2ff459fe329694b901a81c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-22_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-22_Night.trades.jsonl": "097cd1ee03819810903e394d09948d5f42e375a90415051911072b186b3a1fe9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-23_Day.trades.jsonl": "10d6374fe8595a573e1eaa095b177f6e70a9aeafbdf1662c391e20901512d346",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-24_Day.trades.jsonl": "fcda902b7ea0e72f4b52d94d2d76f6cd57688af595a058c4464c23aaba773f57",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-24_Night.trades.jsonl": "9b599ce39914fa835dfa4712a84f1095edca07b98592ac6bb956c9dc56a60694",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-25_Day.trades.jsonl": "4487079e929442f842a009af7301fdf47a597c80c5f2741b5dd5d92c15154d29",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-25_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-28_Day.trades.jsonl": "d4c4c86f0d630dfc26d61cf7d823e5ac767ac6f633adf59fc37200fc4a0b85c1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-28_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-29_Day.trades.jsonl": "3c02af102942db1a6253276ac549b132a0283d19bd32f8843929ccd9302d984a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-29_Night.trades.jsonl": "3910f6ba7deb37c941ea46555234551ce29ecf5f6db6d107fb15ac01192881d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-30_Day.trades.jsonl": "4d5dc78f57dbcff1d8605b936f891ec615528b836f4b2034eacab362b73f24da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-09-30_Night.trades.jsonl": "aabce3d3e3c5fb919acb9e04d988eead21b5ba3efb7713d61425dae3a92e8d06",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-01_Day.trades.jsonl": "41e16cf64adf208cc0d80118640ff050b72e0bd20c215ae5d3a1d2e9465c03f8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-01_Night.trades.jsonl": "43950ec432823e58a4f5af342042fb66e9007235646e18ff094261bdcc07949b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-02_Day.trades.jsonl": "d1de5cefd639d5f4bc448ab29fc9632dd1cb8944903fb1c4322fab0f1ac05b6d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-02_Night.trades.jsonl": "693c781c20bb3983378c09750099bde116f1db269097ab9bf94ace9562584a42",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-05_Day.trades.jsonl": "199fed0dc698561858a27f6935c8da9501ed600fa9d68a52df92fd7583dc117d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-05_Night.trades.jsonl": "6fa9de374266f8607f2defba86bd8df508066924b29b5c5133514ede3b75dfb0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-06_Day.trades.jsonl": "683d510c2322608aa07525fce4f9690ef4b89151060f62c906e2096880ee7810",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-06_Night.trades.jsonl": "43218d99e09cde4b43a2fb17aa7d58c5fdbfeca1b7df8b9bff8f5c1b465793cf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-07_Day.trades.jsonl": "833861f8af01abe85cda92e3e20140269f7de777380d5723d2cdf72e0db6567f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-07_Night.trades.jsonl": "ee23cb92eb82939d8509e537a34a9308072a581e424db1ca2419f94ee8e830da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-08_Day.trades.jsonl": "32442d95419f11f5bdfcf6b9457bd3498177ea497b6373f7ccd677dddcd19a09",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-08_Night.trades.jsonl": "e188f4b6cf823f563f949975bfd201cd718562f6f77aca83f1a2a921e39d16c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-09_Day.trades.jsonl": "9f160c293a676cea7d59f24b08f3713e4a043b7242936880e0d55b610c552c8a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-09_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-12_Day.trades.jsonl": "f2435ec442d97b04207acca465108a03002f99b948c0d22be3ae8de434545362",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-12_Night.trades.jsonl": "7bd16218429d7601d86f5e778724e971a3ba307e9308c6b2dc12d168a80266bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-13_Day.trades.jsonl": "53d051f984a22e93b715b055fb02aa31d4b9a69646a99d5f78c865b9aa352c7f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-13_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-14_Day.trades.jsonl": "c268da312bea6024cc587f0e514791b2447bda44bac76fe5c2802feac6b83728",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-14_Night.trades.jsonl": "16dbbc279ff9e5d4fb11adb2474b572e3959cd94deb688ef958ecc94899be54b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-15_Day.trades.jsonl": "636baa5f781983e90644a8e300ec09df47606bdf85a27f07cfa1c2d727037fa7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-15_Night.trades.jsonl": "38645740c56eb0db003a523e35e3c6f8912048ec3d888ab39b2dba98d388351f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-16_Day.trades.jsonl": "aa07ab348ce9e6142e215140798fb738b19b0701b9b056bdb46c114af556ebfa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-16_Night.trades.jsonl": "786ac20c0a2f569926a389edd33829cc5a47003aed4d4bc1394f6c874e1c5799",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-19_Day.trades.jsonl": "825c0c7a7827c6dda42209a10039268dd32f267d2d565cb2b7fc5b3db1f23b27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-19_Night.trades.jsonl": "eddaea75757591c7cd31d70474cde1068d529e99aff8c8c348a12ddc60254d1a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-20_Day.trades.jsonl": "7fbe010c8c9d1c8c39ab81d73a0cb3fd5c91bf8282dc162cc3f61889d7fc2620",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-20_Night.trades.jsonl": "5ade05a32e97dd316e2d5e97c71719c121fd9213f2f60a6053b314c624593500",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-21_Day.trades.jsonl": "de0241f61e696171b9a1a461c0110a7984d21898d852c3f90af60b1f3b8319ac",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-21_Night.trades.jsonl": "223240a53a3ffa4429839b900b67a482774812fea0f89fbf2df7719233d949dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-22_Day.trades.jsonl": "ff9eb53dd45a49b6d4a15532ae9c61ad3c9c35ba2b89969e0bbb84773f3517c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-22_Night.trades.jsonl": "4ededae30440d95fd91739e64dde860706c4adcc4ea37107ce04d722868f401c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-23_Day.trades.jsonl": "d3593a042503a83b8f2a35173a3ff9a6b1e4b698d3380f131a97f205d12992a9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-23_Night.trades.jsonl": "f879376a5884775acf53d82cf436d4a4c7d15d82e7e3c0d5059e94626a4a3887",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-26_Day.trades.jsonl": "94eb2356626f75fea17f5a18c8c71ec178d36e4ab3a55cc64d1c5b12b80c21db",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-26_Night.trades.jsonl": "1a297f28786bf02cd4872ffc0c9bb11953b56bdeb2d3aca0cb7ff399b0b46307",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-27_Day.trades.jsonl": "d88d5956e4797bbaf459b25aada588a45990caa77eda42448f4847fc1151359b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-27_Night.trades.jsonl": "86714bbe3a59f143da19337aaa0f2de62f250d9806f7ac483d81d64e01ae13fc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-28_Day.trades.jsonl": "3dafc8b8659a7635c37436a478c527e4975bcdfaf923e4fd30a22608477f954e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-28_Night.trades.jsonl": "907f8af69ee2244fa55c108320d098e8c8908efd65374f7c6e3a3b8c0b30b6be",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-29_Day.trades.jsonl": "cec1a18030cf60ba2f116f54e2b5c6ff7f8f49f549d8f466e41bdd3c6b5333db",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-29_Night.trades.jsonl": "484ca234b798ebff1e64723a7bc94929ad2ea14eb5085d1c7e78e49d01b86c43",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-30_Day.trades.jsonl": "f011b2a688e9be0717c4fbea4c3362cc43cad80e008e168ff32014d51b2e3fb0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-10-30_Night.trades.jsonl": "63b69877066d23d802f7be8784a013b754f2de2dc8d559ed1d1f7a9af2c56098",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-02_Day.trades.jsonl": "68dc97564d5c6abb6a13f5ca647baa3239f49a94144f8a22dfff88cb89a1bfbd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-02_Night.trades.jsonl": "506250071ae9ca0ee3c49784dcb6b71a5f4a008fbaadee881328e6026c629263",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-03_Day.trades.jsonl": "f71f835a8fd7870df3638b9a4d6d8f1df553edff0c92a5a93bf14fd50b7cf4b2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-03_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-04_Day.trades.jsonl": "20ff7080476a0410225e2e9d627d35417068340c000642d0c62026c69542dbf6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\P1\\2026-11-04_Night.trades.jsonl": "42ec809a83f8db564e7d14a4d8ab2a121678b6a1590fcb726967f0329106f0c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-22_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-22_Night.trades.jsonl": "912194a21d219aadc13547e9b23764d28e267c801d11a4212fe20d747ba0b64d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-23_Day.trades.jsonl": "9d9e89f0283f4acafb9d8a3bd50446e603b5004642eb8d5ac57e8f606045567c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-24_Day.trades.jsonl": "6457a5988a3b0d951b340e31e8d6dfeb0a8be5cf130f09f13c438b7d3fac80b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-24_Night.trades.jsonl": "031d7f1c2409867193890b7b2c2c116dc563e028e5b38bb07a590bcb4b97a731",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-25_Day.trades.jsonl": "bb3894aa285b185c6de7d6a78089119db679335d1647d09540d4eec94425e071",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-25_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-28_Day.trades.jsonl": "bd17c8a0a4e1a50464c7a4d58375165e3aaba9121ec0d025908895656fa02ded",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-28_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-29_Day.trades.jsonl": "89fa88e1008aa7500da17cca2c2934cf5bb95e556d1aff6f2967f963d56ec20f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-29_Night.trades.jsonl": "8f40ba53e917fa525e0312fcf6a93ecf094b1fcc1abb4c1810616d2705da8790",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-30_Day.trades.jsonl": "cdfc53e6de58be7e6c101e1530b448d03e3d9c593660abab86e3b0615b7ad2db",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-09-30_Night.trades.jsonl": "638dea6c98de8f18c7a13609a0e022a3b2b4b4f84ddc5bad43de546ce3754ec8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-01_Day.trades.jsonl": "0248870a4503b17246b5776c56e6cb857e75654da3ca8a100c63ce1fd06bed68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-01_Night.trades.jsonl": "55eebfef424a570772908a399c383af36a315b57a810bf043c000663e8aa7063",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-02_Day.trades.jsonl": "6a32422e52ec52d8741337fee7ecd93093bb68a3b1b8eba6f385a6c9184eb7e9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-02_Night.trades.jsonl": "e787a2bb5b6074fcf0c05b200c90ac531eeed77a4355bf300de2b99ba1107d15",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-05_Day.trades.jsonl": "262a44047c0ef6ede5d94f5db00a619013e2b1d5dec2b2cd8fe94a33ec40c90e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-05_Night.trades.jsonl": "05bbae0d93dfefd1990b3a634aa47d24ecfe09d46ac0a961a4e06abab922b290",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-06_Day.trades.jsonl": "e0ddcde27478dff0cfd5aa817a7eccbd4d2173b891aeae8ea421ef9726952fd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-06_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-07_Day.trades.jsonl": "9f5af6e9e0202972b231e8a1263eae2e5ed92179618865ae296197b615ad0a16",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-07_Night.trades.jsonl": "e513b2113953252049a5801c38f3a6a332bb101c4db2817a2c61f8a1f16aaa40",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-08_Day.trades.jsonl": "c3972a4da606b152a602db7bc1dda3fc5e08f769f0a2b2a007c1d7c203a7b8b6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-08_Night.trades.jsonl": "22fbd2bea12bcbd3dae3d46cc2560b86bc1bffaefcb0fb25da56bd9fd6d0b648",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-09_Day.trades.jsonl": "c145da2480e7250db2fcb19e568974eae9b7d21b497fc4e55c761cb430f91faf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-09_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-12_Day.trades.jsonl": "3ed3ac7f4f04be22dbe49ff489012005de6e5384fa28f2cefb35bbae68bcd4c9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-12_Night.trades.jsonl": "1392c8e6e5dffb36d1b338479a2863172d47270d7aed51fe4a687be8458ce6ee",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-13_Day.trades.jsonl": "a6af2a7d82939c2bbbca68c2b4165213d6ef8a158dc5d367d0ca9d2da7846876",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-13_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-14_Day.trades.jsonl": "44e559a232ff34c831b4f5a1128d4e45f7aa05f44c8e8738a0bf609ac78028fe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-14_Night.trades.jsonl": "9b15e94cdb47b26e6dae3f6f78c66987cb8cc5c82e1042020b54430268478eb3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-15_Day.trades.jsonl": "4f8a67059fd314ac6b7f509b864edcd675467ff92499f66dd7fa921ed07a0b2f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-15_Night.trades.jsonl": "0d65ae244c911f26bd939563821e7a3cd216ac177c8c2947325ecc53388979d2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-16_Day.trades.jsonl": "dc560e072dcb1cf21e73932bef9ef6a2c2fbfe6624b291598bd874b7f480c744",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-16_Night.trades.jsonl": "05fa03118c06abb3f04cb18752d4a70d7dacc4420b1b07e804e1d278a5c6ad4a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-19_Day.trades.jsonl": "70ad2064ae0c01526ffa6b9729bfec91ebf50296e28897daa41b189bdfa0b481",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-19_Night.trades.jsonl": "7db0caf7e28932dde94ff6a41b2af2d5edd8cb20ddbc7ceccaecd3642669d720",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-20_Day.trades.jsonl": "5c4f13079ec001de3c284e515edb856b04563d58e7929051574ec98a449bf624",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-20_Night.trades.jsonl": "7cd7946ea97c9edd36a9fd22d3f4d6f6c1e5b0b61a602fd0c4c55c9e3004b66d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-21_Day.trades.jsonl": "fd24e374a65a477ce42687faa936091b13f139cd174c46f6feb8c2b377f4f843",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-21_Night.trades.jsonl": "de5055eb478d5f9c588dc9d59039c455a34ebc43d0a863e87b97b26e4e2349f5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-22_Day.trades.jsonl": "661d9fcbd8ed201496d1f8e02fcd48aeb8be2bb76dc91a05b4e70ae6316d57c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-22_Night.trades.jsonl": "81f938eb45ce5846c7dc56855085958302ba3e58c3da719babe4ac79711d01bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-23_Day.trades.jsonl": "3366e3b73c883bacd69e4225006c5b5bf397e8a820df564e3ea61751e8398548",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-23_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-26_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-26_Night.trades.jsonl": "9797bd01632dd89fd990084532dad116e0ab1b2c16f2a7f483ab66b51b37728c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-27_Day.trades.jsonl": "cbe83539328a8be7346d0c55c7ea7f33d1fd7d0ee0108ba2ab924e64fbea54d1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-27_Night.trades.jsonl": "1a393c3cfce3e6b038e03d76c70fcd148aab66a1e878c604ead9e69206180cd1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-28_Day.trades.jsonl": "09b549560a6c5e5e0acdbc37cedfd84498a6abff3404d7881d04a4aa37cc5a7b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-28_Night.trades.jsonl": "75b5391a15c3772d6e05528dad5c12afdbfcc64189fc7ce2991269e16205a73e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-29_Day.trades.jsonl": "5c800c99e069d22f64b02b233ec4f8e65770cc2ccddff456d6d5dbad422b0d3d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-29_Night.trades.jsonl": "56a86fd5d6ce79c131f30e9fd9c82ecf09b274bd7f925e0cb5f1c9c4d83e11f4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-30_Day.trades.jsonl": "a4de48bed63cb3ed2c84de2082c45fad0087b9f982d06c4578bb6d7a5bd3178b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-10-30_Night.trades.jsonl": "c52be7aab1c6e007a1e604277b5c088840ec1b7f312d8eb330d2f587dd668f9d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-02_Day.trades.jsonl": "520c5a61c87e2f0772ce5031add7deea3bccef2ba343d3c15802c16f8083456c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-02_Night.trades.jsonl": "e5dbb25fcca3f8816cef0f88b1f5bfefe6677ddeabbf8db3921aa7949c2692c9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-03_Day.trades.jsonl": "fa02e389dadf3621064e9b510b1ffa01429aa1d9ec2099e304e8ee954f51662f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-03_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-04_Day.trades.jsonl": "e25f801bdf55b2e0c823f5c7f952ed22ee1e2fde3e325eb617fe3ba83285aaa0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\追加1秒\\約定\\T1\\2026-11-04_Night.trades.jsonl": "cff4a5be2c6fb10b512299425de0291c6ae0237a81cb01ddac32f44357079bdb"
+  },
+  "入力不変": true,
+  "資源別": [
+    {
+      "id": "80_F0_2026-09-21_Day",
+      "session": "2026-09-21_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 5660,
+      "正本費用後円": 5660,
+      "約定片数": 6,
+      "数値本文SHA256": "5e06d90e279a3e48aeb830a25a7773c4d1f8bc11d0ffa6d138af9f4dfc13c88c",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-21_Night",
+      "session": "2026-09-21_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "fcffdc952ca2da491b5023561fb6efa9267fd52fad7aa028a0ea1ffe20d3a6f5",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-22_Day",
+      "session": "2026-09-22_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "69e5dfc566619c932c90479c58f28bc1aeb446a960eaa386cf58fbe8bac24317",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-22_Night",
+      "session": "2026-09-22_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -320,
+      "正本費用後円": -320,
+      "約定片数": 4,
+      "数値本文SHA256": "bcc735fb0e1cdb9b1796759ad2eb32ba1eb1e21695dd197229a451c1f6f1ed05",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-23_Day",
+      "session": "2026-09-23_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 4780,
+      "正本費用後円": 4780,
+      "約定片数": 3,
+      "数値本文SHA256": "3e52ba0d88df35a68d32d2553568dc0773670c24392cad3ce9c338d3deca5870",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-23_Night",
+      "session": "2026-09-23_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "7c57db9f66ee4776b0f6868e912daa753a91071e04ebc7801ba87549aff2ab53",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-24_Day",
+      "session": "2026-09-24_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -70054,
+      "正本費用後円": -70054,
+      "約定片数": 13,
+      "数値本文SHA256": "0fb39d76a3baa7fa0d74e48a1a5f65a620e9d4f5a61ae040a20069180ccbb0c9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-24_Night",
+      "session": "2026-09-24_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -84640,
+      "正本費用後円": -84640,
+      "約定片数": 8,
+      "数値本文SHA256": "ed7a20e1af9863f27e17386fec389cc28f67f034dd1b57182d2b48129d4a62b0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-25_Day",
+      "session": "2026-09-25_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 129224,
+      "正本費用後円": 129224,
+      "約定片数": 9,
+      "数値本文SHA256": "36d43cb7b8fd630bfa9bcb6a0052106fe31695451006cf266cb75f90136b1df6",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-25_Night",
+      "session": "2026-09-25_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "45c90aaff9d1343e5ff698138ca99dc0c26ee853366494d39e9cc976562a286b",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-28_Day",
+      "session": "2026-09-28_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 16386,
+      "正本費用後円": 16386,
+      "約定片数": 12,
+      "数値本文SHA256": "c14af37d79252fc048d06f9c423ced7c600a79a36054f1be3bbe106014f13be3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-28_Night",
+      "session": "2026-09-28_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "e7a53864bf0a14e8fa24592c362c62dc9ee48190262e931bde41ea733f8b75b0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-29_Day",
+      "session": "2026-09-29_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -135278,
+      "正本費用後円": -135278,
+      "約定片数": 14,
+      "数値本文SHA256": "5603418f652ecb053155824af8e93ad11e96d276cf7fcdc96fcee9a8fc438705",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-29_Night",
+      "session": "2026-09-29_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 66020,
+      "正本費用後円": 66020,
+      "約定片数": 11,
+      "数値本文SHA256": "144bc9cf790104e26e80063dc33e377e6fed31d5c8ac685033073f8eb150625f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-30_Day",
+      "session": "2026-09-30_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 25740,
+      "正本費用後円": 25740,
+      "約定片数": 9,
+      "数値本文SHA256": "26a044961292e8f12e0ba44927b2a07e1ceebbe54194de50526451b56ecd3c18",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-09-30_Night",
+      "session": "2026-09-30_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 43240,
+      "正本費用後円": 43240,
+      "約定片数": 8,
+      "数値本文SHA256": "8f7e8d018706233004a1a19fcc1918f6b156bfcd54aa9fe15ba3fb5f914bf93f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-01_Day",
+      "session": "2026-10-01_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -94628,
+      "正本費用後円": -94628,
+      "約定片数": 11,
+      "数値本文SHA256": "1397e0f5624f16d74c3d5ccdd75b1e40e367d923f5559a5500b85f03cfaca306",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-01_Night",
+      "session": "2026-10-01_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 121580,
+      "正本費用後円": 121580,
+      "約定片数": 12,
+      "数値本文SHA256": "1b4470cda7fcf13588edd105e287ea629b33777c2d2f5b5f8e27e3af0fd375c7",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-02_Day",
+      "session": "2026-10-02_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -46944,
+      "正本費用後円": -46944,
+      "約定片数": 6,
+      "数値本文SHA256": "34e636eea7f2a3680f0e2c801ffe2d3632da512d3846ccfd3d306334b5de7536",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-02_Night",
+      "session": "2026-10-02_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 159140,
+      "正本費用後円": 159140,
+      "約定片数": 15,
+      "数値本文SHA256": "53b5da1e5843dcb04abb262856175d3266e9e0ebd2253f855bf8b1c8f1864053",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-05_Day",
+      "session": "2026-10-05_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -18032,
+      "正本費用後円": -18032,
+      "約定片数": 14,
+      "数値本文SHA256": "aae1ef0612cf44e429aa32335ca6f843e3dc5f47875c425fb01675d44ed34bda",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-05_Night",
+      "session": "2026-10-05_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -103640,
+      "正本費用後円": -103640,
+      "約定片数": 12,
+      "数値本文SHA256": "8a1c6d83e82bdc311d14c8d5b2267f639b9a9c22f5c8a39ab4d9a9414f2f91d9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-06_Day",
+      "session": "2026-10-06_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -92908,
+      "正本費用後円": -92908,
+      "約定片数": 13,
+      "数値本文SHA256": "d4caf7f0d54b4d395c7072f67b3271f279bd3edf9b0507724415178747ac15d8",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-06_Night",
+      "session": "2026-10-06_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 5460,
+      "正本費用後円": 5460,
+      "約定片数": 6,
+      "数値本文SHA256": "97138b480354a6ff8f076d833ce2a82ec1b512773e858aa678b8a1973004c105",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-07_Day",
+      "session": "2026-10-07_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 63428,
+      "正本費用後円": 63428,
+      "約定片数": 11,
+      "数値本文SHA256": "cead5f1e88523c928b3ec7a18532d0f2d10ad782f6b02d2acc55183c57233d47",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-07_Night",
+      "session": "2026-10-07_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -4540,
+      "正本費用後円": -4540,
+      "約定片数": 6,
+      "数値本文SHA256": "e4d68d2497bb7cbd50aabc0304498292b7c0da343c8c70d35d1b42fb2852c6ff",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-08_Day",
+      "session": "2026-10-08_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 17318,
+      "正本費用後円": 17318,
+      "約定片数": 4,
+      "数値本文SHA256": "4d19219ff53bfaa9f08716e14f969c4b9d7811924f225834a8dccf75233b4028",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-08_Night",
+      "session": "2026-10-08_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 142160,
+      "正本費用後円": 142160,
+      "約定片数": 29,
+      "数値本文SHA256": "d39264b03f8cec6baa83bc506c7c18c54cd57753339baaad2988b83d18ab8916",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-09_Day",
+      "session": "2026-10-09_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 107382,
+      "正本費用後円": 107382,
+      "約定片数": 11,
+      "数値本文SHA256": "0ac6636170bef89bc1edd7ba5795a61bf2510c05f327777409927d88789c3988",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-09_Night",
+      "session": "2026-10-09_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "4dd142fed71478b74b61477f6d42565c53cd8e8db77876f85e5ac8645dd85ccc",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-12_Day",
+      "session": "2026-10-12_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 7980,
+      "正本費用後円": 7980,
+      "約定片数": 4,
+      "数値本文SHA256": "efa851b0a2ef55b0b5e49e304908971c196c3fc90d3a3acdcb54b111fac88043",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-12_Night",
+      "session": "2026-10-12_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -9220,
+      "正本費用後円": -9220,
+      "約定片数": 2,
+      "数値本文SHA256": "915cfb9713e92c3fa658368a643bbfdcd21909f17efcfd59a71f58585f277b0f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-13_Day",
+      "session": "2026-10-13_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 25880,
+      "正本費用後円": 25880,
+      "約定片数": 17,
+      "数値本文SHA256": "9d3fb4860a11d62a0b3c8ed0ed99c7080408d4a8d66f76b4c9d5cfc2098ba773",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-13_Night",
+      "session": "2026-10-13_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "752dde1d562fa5eb23df2a6a56207a176652f800a7b4713579eb5ceb378fefeb",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-14_Day",
+      "session": "2026-10-14_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -38390,
+      "正本費用後円": -38390,
+      "約定片数": 8,
+      "数値本文SHA256": "80434e93c94c209b4bd6b0b6d9f84e7f5ad497ca2a427bfb3f7b7e1012abd1f3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-14_Night",
+      "session": "2026-10-14_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 157240,
+      "正本費用後円": 157240,
+      "約定片数": 7,
+      "数値本文SHA256": "b07e8d9b393e2dd214d03524a75650552eaeaf396a81266759ac3e87723549e8",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-15_Day",
+      "session": "2026-10-15_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 212368,
+      "正本費用後円": 212368,
+      "約定片数": 11,
+      "数値本文SHA256": "5166bc77e67d1a6b7744487f6d74fde0394095edff06538fb87c9a479e2c31c5",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-15_Night",
+      "session": "2026-10-15_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 73120,
+      "正本費用後円": 73120,
+      "約定片数": 6,
+      "数値本文SHA256": "13b2d4cecd32d9239bc50b35a081c3dc9d9bc633b1c7e6abf402e05013413cf0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-16_Day",
+      "session": "2026-10-16_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -48610,
+      "正本費用後円": -48610,
+      "約定片数": 11,
+      "数値本文SHA256": "6cec686ecdc230abe54647f0700c5f931a0e5a25f16a185092316a8555eebde9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-16_Night",
+      "session": "2026-10-16_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -100860,
+      "正本費用後円": -100860,
+      "約定片数": 20,
+      "数値本文SHA256": "b603c7628bb756ff18f673e5d22437da4c63b6bc69dfe9ce87ab9d83eee8ba91",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-19_Day",
+      "session": "2026-10-19_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -125258,
+      "正本費用後円": -125258,
+      "約定片数": 8,
+      "数値本文SHA256": "03e5ac2aface77a0f4ec43fd3e112ceeb46786de3f3fea8b058e5cae273ead25",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-19_Night",
+      "session": "2026-10-19_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -4400,
+      "正本費用後円": -4400,
+      "約定片数": 19,
+      "数値本文SHA256": "a8488ea1e80132b2f94b99c6a0e487b74b22bf5e01553bd991b3dec921ba6e8e",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-20_Day",
+      "session": "2026-10-20_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -36494,
+      "正本費用後円": -36494,
+      "約定片数": 13,
+      "数値本文SHA256": "f2164f0d3bf4dedcc5d2e32c0a051148362a284d64d8d1ac3b3f6ea0558dca1f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-20_Night",
+      "session": "2026-10-20_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -16880,
+      "正本費用後円": -16880,
+      "約定片数": 6,
+      "数値本文SHA256": "4e5f5aa430c4065a5d6742b2ee6abe1f699416aa0c8cdf14bee23f1df0aba9d3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-21_Day",
+      "session": "2026-10-21_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -114294,
+      "正本費用後円": -114294,
+      "約定片数": 10,
+      "数値本文SHA256": "c2ce5aae1a1cb0e328022705e38456f8e2b0452cc439ad9ed2331dd7b30516f9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-21_Night",
+      "session": "2026-10-21_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -53860,
+      "正本費用後円": -53860,
+      "約定片数": 10,
+      "数値本文SHA256": "8ca39e16de22b1f58beac939fd524259733e6ce4c3dca0b718a45881eda9f330",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-22_Day",
+      "session": "2026-10-22_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -35546,
+      "正本費用後円": -35546,
+      "約定片数": 5,
+      "数値本文SHA256": "c466f0f57ebed6e59d1021a93c02f2894f0ed7b5b2782c6401ffef3dd52a3e16",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-22_Night",
+      "session": "2026-10-22_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 71460,
+      "正本費用後円": 71460,
+      "約定片数": 7,
+      "数値本文SHA256": "b745c4b75ddef234a8d9efda60bc26b29d7af01babeac46f855d42068a91a5f7",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-23_Day",
+      "session": "2026-10-23_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -74818,
+      "正本費用後円": -74818,
+      "約定片数": 14,
+      "数値本文SHA256": "4120224db25637fc1a307a9827ea28b1c00635f53899b5858385e7fd2845813b",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-23_Night",
+      "session": "2026-10-23_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -35420,
+      "正本費用後円": -35420,
+      "約定片数": 13,
+      "数値本文SHA256": "6fe74c90161100a62acb0a88730ba274f6cd7e1f76e04618a7cd7542b453ee42",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-26_Day",
+      "session": "2026-10-26_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 19316,
+      "正本費用後円": 19316,
+      "約定片数": 8,
+      "数値本文SHA256": "b3d463143ce763e6ff754f7e650a40f4218445f72ea0b49663c1ddd2fcd0c3db",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-26_Night",
+      "session": "2026-10-26_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -19080,
+      "正本費用後円": -19080,
+      "約定片数": 14,
+      "数値本文SHA256": "c60025ff114cc1690aa17d3e95702dbfa88c7673672ed3e9bf75a94c6f3eb22f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-27_Day",
+      "session": "2026-10-27_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -42238,
+      "正本費用後円": -42238,
+      "約定片数": 15,
+      "数値本文SHA256": "07da7999c61dd68d65b70cd1028885102dfc520c9a936be749402561315d4031",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-27_Night",
+      "session": "2026-10-27_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -91320,
+      "正本費用後円": -91320,
+      "約定片数": 4,
+      "数値本文SHA256": "40a3479c8f975d71a6594e602be0a99d3ee2050b8af98e08cf281ed6bb6753b2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-28_Day",
+      "session": "2026-10-28_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -2100,
+      "正本費用後円": -2100,
+      "約定片数": 14,
+      "数値本文SHA256": "1f61affc23bcfe2bd0353785ece77406ecad52037e75aeaf38ed6aa8a6c662ea",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-28_Night",
+      "session": "2026-10-28_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -116400,
+      "正本費用後円": -116400,
+      "約定片数": 19,
+      "数値本文SHA256": "52c0e53969e2b1ec3ec4928c79b73e43c32402cdeacdd6eac5f4ae1d1affae64",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-29_Day",
+      "session": "2026-10-29_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -56770,
+      "正本費用後円": -56770,
+      "約定片数": 12,
+      "数値本文SHA256": "3c1cadf4a9eb91da49b212e76316a00a19b1aa925b58c7eebcd4d99a678568fb",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-29_Night",
+      "session": "2026-10-29_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -40540,
+      "正本費用後円": -40540,
+      "約定片数": 11,
+      "数値本文SHA256": "5116c191a647ff06603efe1b350e5dd7c0c6c638237fef800736eb25a229a621",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-30_Day",
+      "session": "2026-10-30_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 52284,
+      "正本費用後円": 52284,
+      "約定片数": 16,
+      "数値本文SHA256": "d3b77973e6b4f5ebf6a02328f137e5e50b7ca77cb034879fa817f7de4711b91f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-10-30_Night",
+      "session": "2026-10-30_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -78740,
+      "正本費用後円": -78740,
+      "約定片数": 23,
+      "数値本文SHA256": "f98216f9d0c0daabff5b5095ede982be7adb4a998cc1e9c195a4a09849c3dc04",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-11-02_Day",
+      "session": "2026-11-02_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 1126,
+      "正本費用後円": 1126,
+      "約定片数": 11,
+      "数値本文SHA256": "2df70f438955f784dd05a3837a06333a47c1cef0bb9904a35a9e6aeb8db145db",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-11-02_Night",
+      "session": "2026-11-02_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -17060,
+      "正本費用後円": -17060,
+      "約定片数": 25,
+      "数値本文SHA256": "3bcbc219deb173dd3d800f84b7c232e4c72d7c59f2e5e2e1a3c0c486f3ee7971",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-11-03_Day",
+      "session": "2026-11-03_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 8494,
+      "正本費用後円": 8494,
+      "約定片数": 7,
+      "数値本文SHA256": "7e386501436e2bdadc18f6d56137c822a7625ede3d877ff6fba9253b96553736",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-11-03_Night",
+      "session": "2026-11-03_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "f47984b0b7189ec4d934c58b4c3111fba87c57f2e768e53b64e7c6195aaa2ecf",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-11-04_Day",
+      "session": "2026-11-04_Day",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 58060,
+      "正本費用後円": 58060,
+      "約定片数": 17,
+      "数値本文SHA256": "6d002e014e9214732a560775faacc9fddab760851b3610c46ed69433ecf837e0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_F0_2026-11-04_Night",
+      "session": "2026-11-04_Night",
+      "mode": "F0",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -127980,
+      "正本費用後円": -127980,
+      "約定片数": 8,
+      "数値本文SHA256": "b3b8d949fe65d16d1dd4414ce9440cdf09e116107471c8c9b0df4f6aba77a395",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-21_Day",
+      "session": "2026-09-21_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3440,
+      "正本費用後円": -3440,
+      "約定片数": 4,
+      "数値本文SHA256": "e7003106c5f1eea8d682adad441a2d1521436e21cddcc998ae6c24f6fa4ff5db",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-21_Night",
+      "session": "2026-09-21_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "38b98036fb53dfe878b60bac5f0489d9088ef013d085f96c728702d71614b1cf",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-22_Day",
+      "session": "2026-09-22_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "fdc27c5c9f5119793dc3ce870eef71534f6de2d2b3769cea5686ef79e7a68542",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-22_Night",
+      "session": "2026-09-22_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -23320,
+      "正本費用後円": -23320,
+      "約定片数": 4,
+      "数値本文SHA256": "b2954555515b49d987404288e5acab71ad39162057001d3b707200d22cff086c",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-23_Day",
+      "session": "2026-09-23_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 780,
+      "正本費用後円": 780,
+      "約定片数": 2,
+      "数値本文SHA256": "7a5a09e75a7706c220b78395ca99f0eceee400cfc5fd59ca2e5e755d2508e7df",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-23_Night",
+      "session": "2026-09-23_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "323d02f87f952d9cfea1df1a5b6d2f1f273c4a0976a65fe3364b4e211ee40bb5",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-24_Day",
+      "session": "2026-09-24_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -8454,
+      "正本費用後円": -8454,
+      "約定片数": 10,
+      "数値本文SHA256": "04a1c42201aae77a7dd6c343f8542dee7573dac027e503b097656acd923defd0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-24_Night",
+      "session": "2026-09-24_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3640,
+      "正本費用後円": -3640,
+      "約定片数": 8,
+      "数値本文SHA256": "b0d370be5adbca5cd479d333a3ecec34e3bf530b13e81d5bddd625e9832da007",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-25_Day",
+      "session": "2026-09-25_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 8424,
+      "正本費用後円": 8424,
+      "約定片数": 8,
+      "数値本文SHA256": "3cb15e7bfb4b6d40281f5f9e7e93e17daedc6751ef739314c3188153110b81b9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-25_Night",
+      "session": "2026-09-25_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "edbd640d89c962d23c74edf9cc72feeef8e126a3df2da34f5122ddde86df0b0e",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-28_Day",
+      "session": "2026-09-28_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -6914,
+      "正本費用後円": -6914,
+      "約定片数": 10,
+      "数値本文SHA256": "b802309a52963e387d65e55e8e2b501874818d9a904e1319f24cde491afd5714",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-28_Night",
+      "session": "2026-09-28_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "28189bbd7fbd1ddbe55b5dce3b5069e7c13a42560b7bdceec1bfe93b122b6ba5",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-29_Day",
+      "session": "2026-09-29_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -100778,
+      "正本費用後円": -100778,
+      "約定片数": 12,
+      "数値本文SHA256": "7560da6b4e6d884224cae5c2003d46c3dadf707136b28e2fdefbb0fe7056c74e",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-29_Night",
+      "session": "2026-09-29_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -11980,
+      "正本費用後円": -11980,
+      "約定片数": 10,
+      "数値本文SHA256": "5f5a86cfa8e70e0a9cf2ac9b89a2b04a3442e63902a8d6f816e7e1438f81c0a9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-30_Day",
+      "session": "2026-09-30_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -6660,
+      "正本費用後円": -6660,
+      "約定片数": 6,
+      "数値本文SHA256": "9e52251b53bea375ae326605f3fec42e55ceae031d81f04dd1256012a13fc6f3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-09-30_Night",
+      "session": "2026-09-30_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -15760,
+      "正本費用後円": -15760,
+      "約定片数": 8,
+      "数値本文SHA256": "76bb7006e477ab02ed6b010d3a9e2744b8cc16af2e409eb201bd2f1ba7b3e4c1",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-01_Day",
+      "session": "2026-10-01_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -110228,
+      "正本費用後円": -110228,
+      "約定片数": 8,
+      "数値本文SHA256": "44066473499a853c9e48ea1f44824851513f6f8c4b62674e6c4ebeed514648b6",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-01_Night",
+      "session": "2026-10-01_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -7420,
+      "正本費用後円": -7420,
+      "約定片数": 12,
+      "数値本文SHA256": "a804569949346165475d0b2152ff962645daf56a1e206220872d13d1f299923a",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-02_Day",
+      "session": "2026-10-02_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -11344,
+      "正本費用後円": -11344,
+      "約定片数": 6,
+      "数値本文SHA256": "24d46fbebee71d6a9c1e5a49a5fd6f0da7fcbb74de09982731942c310425a893",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-02_Night",
+      "session": "2026-10-02_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -2860,
+      "正本費用後円": -2860,
+      "約定片数": 14,
+      "数値本文SHA256": "d205faa92a94c6d2fd43d4061410a6023633864d0b8c97181132fca671929ef2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-05_Day",
+      "session": "2026-10-05_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -11732,
+      "正本費用後円": -11732,
+      "約定片数": 12,
+      "数値本文SHA256": "89d3fc382de592cf84d533a7cc94228069702786b76903bb6544bf2141f95f30",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-05_Night",
+      "session": "2026-10-05_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -50640,
+      "正本費用後円": -50640,
+      "約定片数": 12,
+      "数値本文SHA256": "4b5322cc71e498e5bf87e929ea6ba51e6f79e15a895f3f001a80218425332d74",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-06_Day",
+      "session": "2026-10-06_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -64208,
+      "正本費用後円": -64208,
+      "約定片数": 10,
+      "数値本文SHA256": "b64e9dd7d1e7d9aa9abdb2b591a9cf69873f107c327b22af2a3f6086602806d9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-06_Night",
+      "session": "2026-10-06_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -35540,
+      "正本費用後円": -35540,
+      "約定片数": 6,
+      "数値本文SHA256": "35c0c96f6fc85c8a571327339f8b57be780423b53407f8f1594e9d44b7908c63",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-07_Day",
+      "session": "2026-10-07_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -17272,
+      "正本費用後円": -17272,
+      "約定片数": 8,
+      "数値本文SHA256": "3aaf5406b16e534eccd83b2236987e6f083ea251f99e0dd4c861454a5cac72f3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-07_Night",
+      "session": "2026-10-07_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1540,
+      "正本費用後円": -1540,
+      "約定片数": 6,
+      "数値本文SHA256": "31c835ab46506cef4e5adcb890f421287df2983ea8376b65da132c15968cba85",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-08_Day",
+      "session": "2026-10-08_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1582,
+      "正本費用後円": -1582,
+      "約定片数": 4,
+      "数値本文SHA256": "c3f30da90a32390e53fae6a3190395de7d25c718148f6c99d555ea371013b3c9",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-08_Night",
+      "session": "2026-10-08_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 1160,
+      "正本費用後円": 1160,
+      "約定片数": 28,
+      "数値本文SHA256": "3640645265701d1d20235fab84009b1a99f53768b5788f10cf0df98db9b610d7",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-09_Day",
+      "session": "2026-10-09_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -11818,
+      "正本費用後円": -11818,
+      "約定片数": 10,
+      "数値本文SHA256": "cd851d0d1e7ac19a3876a32148052f37d125e30c61bcf7d265e2b2704cfc55a0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-09_Night",
+      "session": "2026-10-09_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "54bb4c9acc29cafc6f1dccf743f52a6ab051c3cd47a5c7c2031dd3b7aa301d62",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-12_Day",
+      "session": "2026-10-12_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -8220,
+      "正本費用後円": -8220,
+      "約定片数": 2,
+      "数値本文SHA256": "974e875c311795a9c71c5e834b8c53280e4475ef802feca666cf86153ee3ff94",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-12_Night",
+      "session": "2026-10-12_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3220,
+      "正本費用後円": -3220,
+      "約定片数": 2,
+      "数値本文SHA256": "cd75b351d119be332cb7f91bec7cc991876e56cdc10669f36523b1b799861fb8",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-13_Day",
+      "session": "2026-10-13_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -74820,
+      "正本費用後円": -74820,
+      "約定片数": 14,
+      "数値本文SHA256": "1098319efb5c7e866eab9eda9b3c3069d7057e722429204bfaee40eb2de6c851",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-13_Night",
+      "session": "2026-10-13_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "d9bd59d52933850e66c69b3bbedebbe8f7eae9574392a8134cf583bea7acab48",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-14_Day",
+      "session": "2026-10-14_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3490,
+      "正本費用後円": -3490,
+      "約定片数": 6,
+      "数値本文SHA256": "f956d53a5551ab5f7de374340bc4eb1b964e80d2e83e2d7d70ff690d3d337dee",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-14_Night",
+      "session": "2026-10-14_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 3240,
+      "正本費用後円": 3240,
+      "約定片数": 6,
+      "数値本文SHA256": "26a7727913eb0eb2bd5de18ed54d23324618ab28eb5506bd7b164e6f4c9591c7",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-15_Day",
+      "session": "2026-10-15_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -13432,
+      "正本費用後円": -13432,
+      "約定片数": 9,
+      "数値本文SHA256": "d9c1368ca39ea14608c384ca309f39e25dd091fb01aa62b904b74fb5ae6b3e63",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-15_Night",
+      "session": "2026-10-15_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 3120,
+      "正本費用後円": 3120,
+      "約定片数": 6,
+      "数値本文SHA256": "56a34c9cbabfd43d13abdb92d358341435187e17b3fd222b73f92fa38928a5f0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-16_Day",
+      "session": "2026-10-16_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -310,
+      "正本費用後円": -310,
+      "約定片数": 10,
+      "数値本文SHA256": "7acfecad8d1319f09fbb1e90156d2b3759b1241a19f0bcbabcb8f1409af33ed2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-16_Night",
+      "session": "2026-10-16_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -860,
+      "正本費用後円": -860,
+      "約定片数": 20,
+      "数値本文SHA256": "c994904d4f97a602276451b6f21dadfdcc246a34c431680ee4ede2b6c133c695",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-19_Day",
+      "session": "2026-10-19_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 6942,
+      "正本費用後円": 6942,
+      "約定片数": 8,
+      "数値本文SHA256": "c900253e0b53ae4d478d308339ee85054f1d01fa7a7cbcd3f6e0109b9aaf8ee0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-19_Night",
+      "session": "2026-10-19_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -78400,
+      "正本費用後円": -78400,
+      "約定片数": 18,
+      "数値本文SHA256": "537b3a1031cfb92677c2ecf711a5c5d0f07d99a9f76070e422b266dacdc5e0e6",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-20_Day",
+      "session": "2026-10-20_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -11994,
+      "正本費用後円": -11994,
+      "約定片数": 10,
+      "数値本文SHA256": "5d71b6ab9181b0247737dcf227672de9c953b9f94fbc4324e77b1162e68f56eb",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-20_Night",
+      "session": "2026-10-20_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 2120,
+      "正本費用後円": 2120,
+      "約定片数": 6,
+      "数値本文SHA256": "42370ccfa03dacfee24071f92f581bc9bd4061bdda170a3cb08f065f739f5069",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-21_Day",
+      "session": "2026-10-21_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -106194,
+      "正本費用後円": -106194,
+      "約定片数": 10,
+      "数値本文SHA256": "385c2021d4c26ec2f2f5709dbd5ab85837b9645cfe16af799448fc7cb37e33bc",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-21_Night",
+      "session": "2026-10-21_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -12860,
+      "正本費用後円": -12860,
+      "約定片数": 10,
+      "数値本文SHA256": "d1a7f6074b93b0bffa9590190ea5a3b1babc7721cac27b2feb59937c02186a77",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-22_Day",
+      "session": "2026-10-22_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -39546,
+      "正本費用後円": -39546,
+      "約定片数": 4,
+      "数値本文SHA256": "e1f98452062b8b72d48efeb270ffc18dbf9fc5563cedc028be33e3bd03cab770",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-22_Night",
+      "session": "2026-10-22_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 460,
+      "正本費用後円": 460,
+      "約定片数": 6,
+      "数値本文SHA256": "e412f20cd2724e8647b4135e80e16b69f60910b579e49bc0dcf1c0b63dc657b3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-23_Day",
+      "session": "2026-10-23_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -13618,
+      "正本費用後円": -13618,
+      "約定片数": 12,
+      "数値本文SHA256": "6da3c717794229e4ff3aa1ae7add804b11df50f03a23f69229be8736a065a303",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-23_Night",
+      "session": "2026-10-23_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -39420,
+      "正本費用後円": -39420,
+      "約定片数": 13,
+      "数値本文SHA256": "2e61ff6b72dc649930f36767c5416aba85821160c0a83ea9a50b948c358a3a90",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-26_Day",
+      "session": "2026-10-26_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 1116,
+      "正本費用後円": 1116,
+      "約定片数": 6,
+      "数値本文SHA256": "6af2f61c7dd3042970b35e45c10a33690ad6d3b621517c7e68ed7dffce821a99",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-26_Night",
+      "session": "2026-10-26_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 14920,
+      "正本費用後円": 14920,
+      "約定片数": 14,
+      "数値本文SHA256": "caee4eb04a6bf774d16c5708bc8ca3316c363cf6c926756d3b8e0ce3dcb2b831",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-27_Day",
+      "session": "2026-10-27_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1638,
+      "正本費用後円": -1638,
+      "約定片数": 14,
+      "数値本文SHA256": "89a2df60860faff80a0bb5acc047fb53f7f88488173da9c80bf946789f12bc2d",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-27_Night",
+      "session": "2026-10-27_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3320,
+      "正本費用後円": -3320,
+      "約定片数": 4,
+      "数値本文SHA256": "7ab45e299592b68eb34d16d598eb2be38c39c876c514efc52de5f2043b61d3d2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-28_Day",
+      "session": "2026-10-28_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -14000,
+      "正本費用後円": -14000,
+      "約定片数": 10,
+      "数値本文SHA256": "409f4f02ce31e668fc8c49a5a6fb12703fa476ab857933e9f6687d4c86e540a3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-28_Night",
+      "session": "2026-10-28_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -5400,
+      "正本費用後円": -5400,
+      "約定片数": 18,
+      "数値本文SHA256": "8290136ffe1a37f9e657841ba938b6fd17f31ff1d49e80bf1511a6ac29c6a53f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-29_Day",
+      "session": "2026-10-29_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -71370,
+      "正本費用後円": -71370,
+      "約定片数": 8,
+      "数値本文SHA256": "52bc9e525a7aeefb469058931283818771772089c2da43cb198d3c885e879583",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-29_Night",
+      "session": "2026-10-29_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -16540,
+      "正本費用後円": -16540,
+      "約定片数": 11,
+      "数値本文SHA256": "34b71d943b7c90980608f997e258af34da9cfa215b741495835995540161f37c",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-30_Day",
+      "session": "2026-10-30_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -46916,
+      "正本費用後円": -46916,
+      "約定片数": 14,
+      "数値本文SHA256": "92f8355e5da95287dd5f4b33d2f0604c72814c8efc3b7d6c8fa60f4279f7fbbf",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-10-30_Night",
+      "session": "2026-10-30_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -30740,
+      "正本費用後円": -30740,
+      "約定片数": 22,
+      "数値本文SHA256": "613b6a49de1b77b07f473eca05f44c14a06c98aa9001efc465b49a79b479dd27",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-11-02_Day",
+      "session": "2026-11-02_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 7226,
+      "正本費用後円": 7226,
+      "約定片数": 10,
+      "数値本文SHA256": "ee6c6682ec3c83431ae3a0fb8b8d7c63f84a0911be884ef49dcf39d59f7f959d",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-11-02_Night",
+      "session": "2026-11-02_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -108060,
+      "正本費用後円": -108060,
+      "約定片数": 24,
+      "数値本文SHA256": "63e75892683a47e81fe0e089ee8a3986ea99a98247d60bedabc0f244a390081f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-11-03_Day",
+      "session": "2026-11-03_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -9906,
+      "正本費用後円": -9906,
+      "約定片数": 4,
+      "数値本文SHA256": "3e836439985e68588052839800002a201ae6970eea60fa8c09f78605ea34fca0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-11-03_Night",
+      "session": "2026-11-03_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "e7f9a5302576d5f7d93bb07ecdaaad03b3bbe281f54cd172b0f3ec7ff9e73f77",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-11-04_Day",
+      "session": "2026-11-04_Day",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -255540,
+      "正本費用後円": -255540,
+      "約定片数": 14,
+      "数値本文SHA256": "eddb8cb75de4a32478976402ebdbc552a2ad3e44940338355287821ac307ed8b",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_P1_2026-11-04_Night",
+      "session": "2026-11-04_Night",
+      "mode": "P1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -13980,
+      "正本費用後円": -13980,
+      "約定片数": 8,
+      "数値本文SHA256": "a1522b94c99dc330841047a22ca7c605e5b4b2360d82d00c895fc3a95d61ff6e",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-21_Day",
+      "session": "2026-09-21_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "66ad0072cffe926c5e89c1c65dedb21b59c0cab41efa20410993c0553144f4b2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-21_Night",
+      "session": "2026-09-21_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "8c0e30734ded578bcbfb52261f715f99849381be4b6d5dafce5134666a03ecae",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-22_Day",
+      "session": "2026-09-22_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "e2b5f3e5c0cc6a39851fffad52acf3262192a3a89a2d77dd0dba4058dde8c1c4",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-22_Night",
+      "session": "2026-09-22_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -7220,
+      "正本費用後円": -7220,
+      "約定片数": 2,
+      "数値本文SHA256": "37f95c132cd4d6a05e48b57cfe9e03bf8bf6f37ced6420d4557f9b6827886ec0",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-23_Day",
+      "session": "2026-09-23_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 780,
+      "正本費用後円": 780,
+      "約定片数": 2,
+      "数値本文SHA256": "b3c00a3b84321626bb596838d4abfd3492670d4c628e621fe933a3d407c95266",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-23_Night",
+      "session": "2026-09-23_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "897b27a94fec6df25077fdd56b6fb56a1a69e7fcc94145211f6afcadd0b27362",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-24_Day",
+      "session": "2026-09-24_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3158,
+      "正本費用後円": -3158,
+      "約定片数": 8,
+      "数値本文SHA256": "de01bd1d5f22c4e0dc4c8f2e65c70b301e43e830f51e50a4b22ce875dd7248e2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-24_Night",
+      "session": "2026-09-24_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -12220,
+      "正本費用後円": -12220,
+      "約定片数": 2,
+      "数値本文SHA256": "8449f5a2f8140817cc96a7d7a09a37b5a92cef5725deb74445107445c45be6fa",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-25_Day",
+      "session": "2026-09-25_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 8424,
+      "正本費用後円": 8424,
+      "約定片数": 8,
+      "数値本文SHA256": "73082efa8342054dcab1b5ca1d8121f0f880d58461dda44f996f4f74a00efe64",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-25_Night",
+      "session": "2026-09-25_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "27302e0b20aa500aadca82c65dd9b1fdebbd38a5b123c8d543386f1358d73c97",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-28_Day",
+      "session": "2026-09-28_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 1560,
+      "正本費用後円": 1560,
+      "約定片数": 4,
+      "数値本文SHA256": "0df717147b23e6c8cb829e8767a2a44fa2e1ca230d576131af430ac302b1c877",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-28_Night",
+      "session": "2026-09-28_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "ad057ad13dc3b02d3100fa4a3065e9a39ef20d10ccff2516215f292f77323a86",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-29_Day",
+      "session": "2026-09-29_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1660,
+      "正本費用後円": -1660,
+      "約定片数": 4,
+      "数値本文SHA256": "7810f828783f5eb112c1d9f0e45a96af59924a92196a2dc91a31c5d63a46e37c",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-29_Night",
+      "session": "2026-09-29_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 780,
+      "正本費用後円": 780,
+      "約定片数": 2,
+      "数値本文SHA256": "523e064dce754a2c02b4a8bdfa3b99b6f2f7402a8e101aa140334de9e1df8b86",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-30_Day",
+      "session": "2026-09-30_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -5220,
+      "正本費用後円": -5220,
+      "約定片数": 2,
+      "数値本文SHA256": "d87f42874956e6dc87c25aca6df903cd299532d7d744c5833c16c8480b09040a",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-09-30_Night",
+      "session": "2026-09-30_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -16760,
+      "正本費用後円": -16760,
+      "約定片数": 8,
+      "数値本文SHA256": "6e02d2d58218a3f00130942aeeea0d4a312527a7ac1da09620f4d6a388484263",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-01_Day",
+      "session": "2026-10-01_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -106302,
+      "正本費用後円": -106302,
+      "約定片数": 4,
+      "数値本文SHA256": "a45a50234c4a1370366874ec8a7ca2a92d6e2f858cb3aca2828e187b23b6c386",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-01_Night",
+      "session": "2026-10-01_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -6320,
+      "正本費用後円": -6320,
+      "約定片数": 4,
+      "数値本文SHA256": "2248d27ce248287074e664e8d9a3011e709e46e0b41b71c2030a2b676fe31e44",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-02_Day",
+      "session": "2026-10-02_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -8708,
+      "正本費用後円": -8708,
+      "約定片数": 2,
+      "数値本文SHA256": "746c0573441a9d84857f49af5066204b3f75a0ebeb69979a511d8fdd0113e78a",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-02_Night",
+      "session": "2026-10-02_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -220,
+      "正本費用後円": -220,
+      "約定片数": 2,
+      "数値本文SHA256": "ce53fa4ac3cbbbaa812a6d99ffce80cdddc3099196af48a63b94ed0bf666e2bd",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-05_Day",
+      "session": "2026-10-05_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -9150,
+      "正本費用後円": -9150,
+      "約定片数": 8,
+      "数値本文SHA256": "c33a3d19183a2362dbc2bb3c0adaae2e17e1bd0b7ede7a647dab423728fdd441",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-05_Night",
+      "session": "2026-10-05_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -52200,
+      "正本費用後円": -52200,
+      "約定片数": 10,
+      "数値本文SHA256": "d45ea81f3daa278651c3b748b6ad12f9e494eb375624a024dc2424ce03b44b9d",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-06_Day",
+      "session": "2026-10-06_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -67874,
+      "正本費用後円": -67874,
+      "約定片数": 4,
+      "数値本文SHA256": "fc3c9d19c3aa9eecdd9a3415ace283fb4865dbe8c4613a73ea5388e4cec5f627",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-06_Night",
+      "session": "2026-10-06_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "23c7efb598cc262878aac35982851f7b388fecdb06cddddce146042d23068749",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-07_Day",
+      "session": "2026-10-07_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 2808,
+      "正本費用後円": 2808,
+      "約定片数": 4,
+      "数値本文SHA256": "dabf97cce89e89880db774097e0d9a9033a103f78f2d59ca4aaa7512c93d12ad",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-07_Night",
+      "session": "2026-10-07_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 8900,
+      "正本費用後円": 8900,
+      "約定片数": 2,
+      "数値本文SHA256": "aab52c0a11dff37a2799f4af686b8795c772d3a9fd55b951576590ff42c573c4",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-08_Day",
+      "session": "2026-10-08_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3220,
+      "正本費用後円": -3220,
+      "約定片数": 2,
+      "数値本文SHA256": "d31b90657a7517a9be642f99c720a6cc3800655c9ea6a260c2609900e4f6f2fc",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-08_Night",
+      "session": "2026-10-08_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -67300,
+      "正本費用後円": -67300,
+      "約定片数": 24,
+      "数値本文SHA256": "beffcb3c084c5c88066ecea4165a9ba6cca071ea137eae28a3f85b409ca16c4f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-09_Day",
+      "session": "2026-10-09_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 4392,
+      "正本費用後円": 4392,
+      "約定片数": 6,
+      "数値本文SHA256": "ba5859d99da51ef3f740d41e80273fedd5ec3d7dda57af63d783409dfa5cafd2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-09_Night",
+      "session": "2026-10-09_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "9b9933dc8e934506a3fde6e734d332345b3b2f919d4024c5cf66c85dee0d7287",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-12_Day",
+      "session": "2026-10-12_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -8220,
+      "正本費用後円": -8220,
+      "約定片数": 2,
+      "数値本文SHA256": "d637cf6953e11224a811a99f81d81104618ffeca1cd4c3ad6541593c097aa7b4",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-12_Night",
+      "session": "2026-10-12_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3220,
+      "正本費用後円": -3220,
+      "約定片数": 2,
+      "数値本文SHA256": "ce5aab9dba0b020b0dd717f88db9fb5d9deeaf50de19ceafe94d99b2480a36d3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-13_Day",
+      "session": "2026-10-13_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 2434,
+      "正本費用後円": 2434,
+      "約定片数": 6,
+      "数値本文SHA256": "f19c251f42ef0b98cd87ee9ba71e2966c32582a0c0880af45b39ab2ee5eac6a5",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-13_Night",
+      "session": "2026-10-13_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "6f99f662de365551970b1e4ed3a58479ff8c90bf095d5d953d1d5660a1ca4631",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-14_Day",
+      "session": "2026-10-14_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -5596,
+      "正本費用後円": -5596,
+      "約定片数": 4,
+      "数値本文SHA256": "8f759fda1dd151d8b84c0f8c0e367f3aae1766a85606fea6075ec9a82a115454",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-14_Night",
+      "session": "2026-10-14_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 10460,
+      "正本費用後円": 10460,
+      "約定片数": 4,
+      "数値本文SHA256": "780f9695c4807b5fc0e75544d52a0a42dd975ea00512fc1d4f7bd33e9105a83f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-15_Day",
+      "session": "2026-10-15_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 788,
+      "正本費用後円": 788,
+      "約定片数": 7,
+      "数値本文SHA256": "61e43b47cdb3edcadba15849533d3a5c2353000a336ff99ffd6171b3e2e1b81a",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-15_Night",
+      "session": "2026-10-15_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 3120,
+      "正本費用後円": 3120,
+      "約定片数": 6,
+      "数値本文SHA256": "79206f3b8099ee1e005b97695cb92fa9e8098002f295e66e3d21678a9504af1c",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-16_Day",
+      "session": "2026-10-16_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1090,
+      "正本費用後円": -1090,
+      "約定片数": 8,
+      "数値本文SHA256": "317fcc6e96f8808d363c09327dd98886a9535711dc7e7113461afee7349bd689",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-16_Night",
+      "session": "2026-10-16_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -3980,
+      "正本費用後円": -3980,
+      "約定片数": 14,
+      "数値本文SHA256": "c0cb04465f2f7127a282b6ac235c6820551d537591879038e3a95ac0ed31a373",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-19_Day",
+      "session": "2026-10-19_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1386,
+      "正本費用後円": -1386,
+      "約定片数": 4,
+      "数値本文SHA256": "e4c8edbbb548b9269086b4a764a8a42c18582cdbf9ad77a3af5c915a2e596d3a",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-19_Night",
+      "session": "2026-10-19_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -51980,
+      "正本費用後円": -51980,
+      "約定片数": 14,
+      "数値本文SHA256": "5aca9c6dfd3766fb71f728d77bb3dede118ac575f8cb91887fe6931209dc4c08",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-20_Day",
+      "session": "2026-10-20_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 4446,
+      "正本費用後円": 4446,
+      "約定片数": 6,
+      "数値本文SHA256": "af75817b51409ed55706fface9c9c233797ec766e74d8d7c47849bbb4e34f037",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-20_Night",
+      "session": "2026-10-20_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -9880,
+      "正本費用後円": -9880,
+      "約定片数": 6,
+      "数値本文SHA256": "f48603082ecfea1f69c5304f0d23b54e0f592fff50ca08cfc3b3c92fab4c5687",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-21_Day",
+      "session": "2026-10-21_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -106744,
+      "正本費用後円": -106744,
+      "約定片数": 6,
+      "数値本文SHA256": "e27e44f35027cf88cbe715cb21271c08c4aece976cae532aab1b2ae606b966cf",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-21_Night",
+      "session": "2026-10-21_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -11860,
+      "正本費用後円": -11860,
+      "約定片数": 10,
+      "数値本文SHA256": "886849cba9c409163eddf4ea8daa1b48b70699315cd92b687b66dc24cb353b57",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-22_Day",
+      "session": "2026-10-22_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -39546,
+      "正本費用後円": -39546,
+      "約定片数": 4,
+      "数値本文SHA256": "97129a7b82194e92ec28205cf802209f7264fd2b1e7b02ff88b5c000a984be57",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-22_Night",
+      "session": "2026-10-22_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1320,
+      "正本費用後円": -1320,
+      "約定片数": 4,
+      "数値本文SHA256": "03e1ad71ee2fe64ce3ce05367ba496e02b1ec19b4603b6d44dedd974288250fa",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-23_Day",
+      "session": "2026-10-23_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 466,
+      "正本費用後円": 466,
+      "約定片数": 6,
+      "数値本文SHA256": "0e943e3e49f2c675ec71096eb22043b5d7969c79ae3a417aa9a7ee5304032004",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-23_Night",
+      "session": "2026-10-23_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "2c51e390de57ef7bd6b92cdbc25e5c0cb69f8f0bc939046f5b99cb595ad10871",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-26_Day",
+      "session": "2026-10-26_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "37b06dd5534c76f63424f7a0d5641d1efc0c94da059bde689e1cb05d775c3e60",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-26_Night",
+      "session": "2026-10-26_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 14920,
+      "正本費用後円": 14920,
+      "約定片数": 14,
+      "数値本文SHA256": "a9e88f9036f5aaa8c6114edfa6726572aaed8b56c20cd946e6b03c8e6c2b20f7",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-27_Day",
+      "session": "2026-10-27_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -16558,
+      "正本費用後円": -16558,
+      "約定片数": 6,
+      "数値本文SHA256": "521599314e4b42f7e20deb412f63901982a52e1357e264879930c1b964645268",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-27_Night",
+      "session": "2026-10-27_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -1100,
+      "正本費用後円": -1100,
+      "約定片数": 2,
+      "数値本文SHA256": "bb2634d8545067f926f7a255b8a740587d842d42cbd3fe35027df6df60d3cb58",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-28_Day",
+      "session": "2026-10-28_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -5550,
+      "正本費用後円": -5550,
+      "約定片数": 6,
+      "数値本文SHA256": "13823400762378800fdca0c102603a19fef989bad7c65f812e5892027db3eca4",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-28_Night",
+      "session": "2026-10-28_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -17080,
+      "正本費用後円": -17080,
+      "約定片数": 8,
+      "数値本文SHA256": "4f96643555fad10f29dd50c9c685371d29abb338cc79f6f0ab3d7cfd7c0e8fb3",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-29_Day",
+      "session": "2026-10-29_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 1092,
+      "正本費用後円": 1092,
+      "約定片数": 4,
+      "数値本文SHA256": "a656dea10a7a60f9573d5f84238cbaffc5f92462e44b042fdc011ee49548cf88",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-29_Night",
+      "session": "2026-10-29_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -45100,
+      "正本費用後円": -45100,
+      "約定片数": 7,
+      "数値本文SHA256": "042e13c5bb5533055494c9b69124a22e046b69fab95086eabb6c03cb13492443",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-30_Day",
+      "session": "2026-10-30_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -22098,
+      "正本費用後円": -22098,
+      "約定片数": 6,
+      "数値本文SHA256": "080783d05e920504e07dc761363f498b0d21f34e1bcee8e0a0854e2f270511c2",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-10-30_Night",
+      "session": "2026-10-30_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -17320,
+      "正本費用後円": -17320,
+      "約定片数": 6,
+      "数値本文SHA256": "369f261a3eae872c9279a75958b5825208a6361ee8ba7cb05a8300210e2edaa6",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-11-02_Day",
+      "session": "2026-11-02_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 6230,
+      "正本費用後円": 6230,
+      "約定片数": 2,
+      "数値本文SHA256": "3105ecd2712c824ada017445c69d78d85ad8138c85acb71f31bb88122731d34a",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-11-02_Night",
+      "session": "2026-11-02_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -72860,
+      "正本費用後円": -72860,
+      "約定片数": 16,
+      "数値本文SHA256": "9d49d9e812e170dd19efe8de4681800d005dd247b7eb129b9135e90f4b8d343c",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-11-03_Day",
+      "session": "2026-11-03_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 780,
+      "正本費用後円": 780,
+      "約定片数": 2,
+      "数値本文SHA256": "db405328d5bc545db9fe57207e7b48f3b1aafd0c55956ca7dcf42cdf9deb9390",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-11-03_Night",
+      "session": "2026-11-03_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": 0,
+      "正本費用後円": 0,
+      "約定片数": 0,
+      "数値本文SHA256": "d62be551693d6416531b84efc00df0aeb71a71b7051499aa0af4c1daaaa4528f",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-11-04_Day",
+      "session": "2026-11-04_Day",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -115118,
+      "正本費用後円": -115118,
+      "約定片数": 6,
+      "数値本文SHA256": "46aa797e60f21d02fd8970fbf813e5cb3eccae9f409799832f9b69b87a704f31",
+      "品質警告数": 1
+    },
+    {
+      "id": "80_T1_2026-11-04_Night",
+      "session": "2026-11-04_Night",
+      "mode": "T1",
+      "最終数量": {
+        "買い": 0,
+        "売り": 0
+      },
+      "API費用後円": -13880,
+      "正本費用後円": -13880,
+      "約定片数": 6,
+      "数値本文SHA256": "45dd632954c32bd101b0474b11669b7fab161b8fb4f333488ccaa4d0765579ea",
+      "品質警告数": 1
+    }
+  ],
+  "新売買再生": 0,
+  "原板直接読取": 0,
+  "原板又はAPI本文複写": 0,
+  "Viewer停止又は再起動": false,
+  "限定": "全198数値APIの終数量・費用後累積損益・全約定と終状態。画像の目視品質や実商品約定可能性の証明ではない"
+}

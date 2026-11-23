@@ -1,0 +1,7671 @@
+{
+  "schema_version": 1,
+  "policy": "B0",
+  "model_id": "B0_W20",
+  "feature_meta": [
+    {
+      "id": "F01",
+      "name": "実方向のDI優勢差",
+      "method": "I08",
+      "family": "trend",
+      "scale": "m15"
+    },
+    {
+      "id": "F02",
+      "name": "実方向のFastK中央差",
+      "method": "I07",
+      "family": "osc",
+      "scale": "m03"
+    },
+    {
+      "id": "F03",
+      "name": "実方向のFastK進行",
+      "method": "I07",
+      "family": "osc",
+      "scale": "m03"
+    },
+    {
+      "id": "F04",
+      "name": "ATR対125pt",
+      "method": "I09",
+      "family": "vol",
+      "scale": "m03"
+    },
+    {
+      "id": "F05",
+      "name": "開始帯幅対ATR",
+      "method": "P03",
+      "family": "price",
+      "scale": "m30"
+    },
+    {
+      "id": "F06",
+      "name": "実方向の開始帯中央距離",
+      "method": "P06",
+      "family": "price",
+      "scale": "m03+m30"
+    },
+    {
+      "id": "F07",
+      "name": "実方向の終値変化",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F08",
+      "name": "実方向の3分実体",
+      "method": "P01",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F09",
+      "name": "3分高安幅対ATR",
+      "method": "P01",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F10",
+      "name": "実方向の3分足内終値位置",
+      "method": "P01",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F11",
+      "name": "実方向端の進行",
+      "method": "P02",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F12",
+      "name": "反対端の実方向進行",
+      "method": "P02",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F13",
+      "name": "実方向の15分実体対3分ATR",
+      "method": "P01",
+      "family": "price",
+      "scale": "m15"
+    },
+    {
+      "id": "F14",
+      "name": "15分高安幅対3分ATR",
+      "method": "P01",
+      "family": "price",
+      "scale": "m15"
+    },
+    {
+      "id": "F15",
+      "name": "実方向の15分足内終値位置",
+      "method": "P01",
+      "family": "price",
+      "scale": "m15"
+    },
+    {
+      "id": "F16",
+      "name": "局所参照帯幅対ATR",
+      "method": "P03",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F17",
+      "name": "実方向の局所帯中央距離",
+      "method": "P06",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F18",
+      "name": "局所帯の自方向継続又は反対端内復帰",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F19",
+      "name": "T最大到達段階",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F20",
+      "name": "Tepisode有効",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F21",
+      "name": "T確認k有効",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F22",
+      "name": "T確認k公開後経過対900秒",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F23",
+      "name": "T確認k終値からの実方向進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F24",
+      "name": "T既知最大終値進行からの戻り対ATR",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F25",
+      "name": "R最大到達段階",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F26",
+      "name": "Repisode有効",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F27",
+      "name": "R確認k有効",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F28",
+      "name": "R確認k公開後経過対900秒",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F29",
+      "name": "R確認k終値からの実方向進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F30",
+      "name": "R既知最大終値進行からの戻り対ATR",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F31",
+      "name": "T登録b終値からの最大逆行対ATR",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F32",
+      "name": "Tb以後の既知最大終値進行からの戻り対ATR",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F33",
+      "name": "Tbから一足当たり平均純進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F34",
+      "name": "T保持端からの実方向終値距離対D",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F35",
+      "name": "R登録b終値からの最大逆行対ATR",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F36",
+      "name": "Rb以後の既知最大終値進行からの戻り対ATR",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F37",
+      "name": "Rbから一足当たり平均純進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F38",
+      "name": "R保持端からの実方向終値距離対D",
+      "method": "P10",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F39",
+      "name": "T登録へ至る十終値差分平均対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F40",
+      "name": "T登録へ至る十差分の符号付き効率",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F41",
+      "name": "T固定pからrへの一足当たり終値進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F42",
+      "name": "Trから現在への一足当たり純進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F43",
+      "name": "R登録へ至る十終値差分平均対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F44",
+      "name": "R登録へ至る十差分の符号付き効率",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F45",
+      "name": "R固定pからrへの一足当たり終値進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F46",
+      "name": "Rrから現在への一足当たり純進行対ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F47",
+      "name": "15分ADX水準",
+      "method": "I08",
+      "family": "trend",
+      "scale": "m15"
+    },
+    {
+      "id": "F48",
+      "name": "15分ADX現前変化",
+      "method": "I08",
+      "family": "trend",
+      "scale": "m15"
+    },
+    {
+      "id": "F49",
+      "name": "15分BB価格幅対現3分ATR",
+      "method": "I05",
+      "family": "vol",
+      "scale": "m15"
+    },
+    {
+      "id": "F50",
+      "name": "15分BB価格幅変化対現3分ATR",
+      "method": "I05",
+      "family": "vol",
+      "scale": "m15"
+    },
+    {
+      "id": "F51",
+      "name": "15分ADX現値有効",
+      "method": "I08",
+      "family": "trend",
+      "scale": "m15"
+    },
+    {
+      "id": "F52",
+      "name": "15分ADX現前変化有効",
+      "method": "I08",
+      "family": "trend",
+      "scale": "m15"
+    },
+    {
+      "id": "F53",
+      "name": "15分BB価格幅現値有効",
+      "method": "I05",
+      "family": "vol",
+      "scale": "m15"
+    },
+    {
+      "id": "F54",
+      "name": "15分BB価格幅変化有効",
+      "method": "I05",
+      "family": "vol",
+      "scale": "m15"
+    },
+    {
+      "id": "F55",
+      "name": "対応b同時刻RVOL",
+      "method": "V01",
+      "family": "volume",
+      "scale": "m03"
+    },
+    {
+      "id": "F56",
+      "name": "対応b同足進行対現在ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F57",
+      "name": "対応r同時刻RVOL",
+      "method": "V01",
+      "family": "volume",
+      "scale": "m03"
+    },
+    {
+      "id": "F58",
+      "name": "対応r同足進行対現在ATR",
+      "method": "P05",
+      "family": "price",
+      "scale": "m03"
+    },
+    {
+      "id": "F59",
+      "name": "対応b量価格ペア有効",
+      "method": "V01",
+      "family": "volume",
+      "scale": "m03"
+    },
+    {
+      "id": "F60",
+      "name": "対応r量価格ペア有効",
+      "method": "V01",
+      "family": "volume",
+      "scale": "m03"
+    },
+    {
+      "id": "F61",
+      "name": "取得位置と上位端",
+      "method": "P01",
+      "family": "price",
+      "scale": "m15"
+    }
+  ],
+  "feature_meta_sha256": "69334c97550f37a083c375ec81f643a7b2e9f0b9d9eef570fce1fd72c210c5c6",
+  "parameters": {
+    "criterion": "squared_error",
+    "splitter": "best",
+    "max_depth": 4,
+    "min_samples_split": 2,
+    "min_samples_leaf": 60,
+    "min_weight_fraction_leaf": 0.0,
+    "max_features": null,
+    "random_state": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "ccp_alpha": 0.0,
+    "monotonic_cst": null,
+    "legacy_random_state": 51,
+    "randomness_used": false,
+    "algorithm": "隣接float32境界の厳密MSE列挙",
+    "support_required": true,
+    "threshold_rule": "float32隣接異値のfloat64中点。等値は分けず、左<=/右>",
+    "tie_rule": "特徴index昇順、同特徴の閾値昇順。同じ厳密改善なら最初を保持",
+    "gain_rule": "全行半重みの親MSEから行数加重子MSEを引く。金額整数と有理数で厳密比較、正改善のみ"
+  },
+  "subtree_parameters": {
+    "criterion": "squared_error",
+    "splitter": "best",
+    "max_depth": 2,
+    "min_samples_split": 2,
+    "min_samples_leaf": 60,
+    "min_weight_fraction_leaf": 0.0,
+    "max_features": null,
+    "random_state": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "ccp_alpha": 0.0,
+    "monotonic_cst": null,
+    "legacy_random_state": 51,
+    "randomness_used": false,
+    "algorithm": "隣接float32境界の厳密MSE列挙",
+    "support_required": true,
+    "threshold_rule": "float32隣接異値のfloat64中点。等値は分けず、左<=/右>",
+    "tie_rule": "特徴index昇順、同特徴の閾値昇順。同じ厳密改善なら最初を保持",
+    "gain_rule": "全行半重みの親MSEから行数加重子MSEを引く。金額整数と有理数で厳密比較、正改善のみ"
+  },
+  "structure": {
+    "kind": "fixed_direction_current_episode",
+    "fixed_nodes": [
+      {
+        "id": 0,
+        "feature": "F01",
+        "index": 0,
+        "threshold": 0.0
+      },
+      {
+        "id": 1,
+        "feature": "F26",
+        "index": 25,
+        "threshold": 0.5
+      },
+      {
+        "id": 2,
+        "feature": "F20",
+        "index": 19,
+        "threshold": 0.5
+      }
+    ],
+    "child_depth": 2,
+    "child_features": 59,
+    "child_feature_indices": {
+      "D0": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "D1": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    "excluded_feature_indices": {
+      "D0": [
+        0,
+        25
+      ],
+      "D1": [
+        0,
+        19
+      ]
+    },
+    "feature_count": 61,
+    "max_depth": 4,
+    "fixed_mse_optimized": false,
+    "child_estimator": "隣接float32境界の厳密MSE列挙",
+    "target": "pnl5"
+  },
+  "rules": {
+    "政策深さ": {
+      "B0": 4,
+      "Q0": 4
+    },
+    "政策特徴数": {
+      "B0": 61,
+      "Q0": 64
+    },
+    "random_state": null,
+    "criterion": "squared_error",
+    "splitter": "best",
+    "min_samples_leaf": 60,
+    "min_samples_split": 2,
+    "ccp_alpha": 0.0,
+    "max_features": null,
+    "方向行重み": 0.5,
+    "score下限": {
+      "分子": 1,
+      "分母": 3,
+      "等号可": true
+    },
+    "葉支持": {
+      "unique枠": 60,
+      "日": 6,
+      "場": 10
+    },
+    "path異種family最低": 2,
+    "path必須family候補": [
+      "trend",
+      "osc"
+    ],
+    "方向差": "strict",
+    "予測入力型": "float32",
+    "未知leaf": "両方向のどちらか到達なら未学習枝WAIT。scoreを0補完しない",
+    "学習目的": "pnl5",
+    "子学習器": "隣接float32境界の厳密MSE列挙",
+    "回帰class_weight": "引数なし",
+    "方向採点": "priorは約定後250成功率の最高側へ資格判定。最終の両側適格内選択は固定66が担当し、回帰平均で順位を変えない",
+    "回収教師": "確定無取引0を含む同じpnl5。全行重み0.5、scoreと約定支持は約定既知だけ",
+    "未来回収": "非欠測のrecovery_end_timeは評価開始よりstrict前。同秒は拒否",
+    "回収正": "Decimalのpnl5合計>0。epsilonなし",
+    "Decimal平均精度": 80,
+    "数値照合許容": {
+      "mean_abs": 1e-10,
+      "mean_rel": 1e-12,
+      "mse_abs": 1e-08,
+      "mse_second_moment_rel": 1e-10
+    },
+    "群の意味": "float32 DI非正側はR/正側はTの現在episode有効。Rも出生bから真で、f/r/k成立とは別",
+    "群の除外": "V0も四群に残す。rootで未知を含むpairを共通集合から除いた後、方向行を分割し枝内pairは要求しない",
+    "複数技法": "固定DI根trendと対応episode旗priceが有効pathへ入る。従来gateは変更せず構造的に充足する",
+    "比較の限定": "同じ支持付き厳密列挙のB61対Q64。旧72Sは保存参考で、新commonreadyによる準備差を別に記録する",
+    "追加指標": "Q0だけ直近公開3分5差分C/E/Jを追加。全P05/priceで独立技法票を増やさない",
+    "mask限定": "旧60内の量maskもV01/volume。同じ資格関数を維持し、量maskだけのpathは独立した量の証拠としない",
+    "共通固定段": {
+      "根": {
+        "feature": "F01",
+        "index": 0,
+        "threshold": 0.0
+      },
+      "第二段": {
+        "D0": {
+          "feature": "F26",
+          "index": 25,
+          "threshold": 0.5,
+          "route": "R"
+        },
+        "D1": {
+          "feature": "F20",
+          "index": 19,
+          "threshold": 0.5,
+          "route": "T"
+        }
+      },
+      "群": [
+        "D0_V0",
+        "D0_V1",
+        "D1_V0",
+        "D1_V1"
+      ],
+      "子深さ": 2,
+      "子特徴数": {
+        "B0": 59,
+        "Q0": 62
+      },
+      "子特徴列index": {
+        "B0": {
+          "D0": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "D1": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "Q0": {
+          "D0": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "D1": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        }
+      },
+      "MSE最適固定段ではない": true
+    },
+    "教師": "旧69C可知pairへ当時の直近窓commonreadyを先にANDし、B61/Q64に同じpair・同じ順序を渡す",
+    "確定無取引": "filled=False/outcome=無取引/費用別回収すべて0。回帰へ含め、先着score分母へ含めない",
+    "未知": "6連続公開終値又はTV>0が成立しなければ両政策共通ready外。学習内で0補完・追加pair除外・片側追加をしない",
+    "支持": "葉の60枠/6日/10場は約定既知だけ。全可知行の回帰min_samples_leaf=60と別",
+    "回帰分母": "全可知方向行。無取引0を含むmean/MSE。全方向行の重み0.5",
+    "先着分母": "filled=Trueの250/125/期限のみ。250件数/約定既知数。約定0ならscore=None",
+    "標本なし": "data_absentは回帰行0、barrier_data_absentは約定既知行0。後者でも回帰平均0は既知になり得る",
+    "予測": "両空/片側score未知/同点はWAIT。priorは旧65同型、適格方向の最終選択は固定66へ委ねる",
+    "取得位置の限定": "旧71と同じg。欠測を補完せず、clip/mask/余分な符号gateなし",
+    "legacy_random_state": 51,
+    "randomness_used": false,
+    "学習器": "隣接float32境界の厳密MSE列挙",
+    "候補閾値": "float32隣接異値のfloat64中点。等値は分けず、左<=/右>",
+    "同改善": "特徴index昇順、同特徴の閾値昇順。同じ厳密改善なら最初を保持",
+    "改善": "全行半重みの親MSEから行数加重子MSEを引く。金額整数と有理数で厳密比較、正改善のみ",
+    "候補約定支持": {
+      "B0": "両子がfilled unique枠60・日6・場10を満たす候補だけ",
+      "Q0": "両子がfilled unique枠60・日6・場10を満たす候補だけ"
+    },
+    "全行制約": "両子それぞれ全可知方向行60以上。重み後30を60と取り違えない",
+    "学習回数": "各政策3木の四群へ独自学習を最大24回。sklearn.fit0、新分類器fit0",
+    "旧指紋": "base61_fingerprintsは同commonready教師の旧61射影。Q64の全特徴指紋と同一視しない"
+  },
+  "versions": {
+    "Python": "3.14.3",
+    "学習器": "隣接float32境界の厳密MSE列挙",
+    "算術": "整数/既約有理数",
+    "sklearn.fit": 0
+  },
+  "source_sha256": "460f1096f1afb39c309b02df67c27822e2991cbb7a37a7a7d44458c210f3867f",
+  "shared_source_sha256": {
+    "scripts/支持を満たす技法分割/学習.py": "a6d35a48ee3db75295401b0e91ba832e82ad2fe00592dcb8d5f88455fa538cc0"
+  },
+  "training": {
+    "evaluation_start": 1791157500.0,
+    "input_pairs": 537,
+    "used_pairs": 537,
+    "excluded_pair_count": 0,
+    "excluded_pairs": [],
+    "direction_rows": 1074,
+    "weight_per_direction": 0.5,
+    "total_weight": 537.0,
+    "filled_direction_rows": 320,
+    "unfilled_direction_rows": 754,
+    "row_ids": [
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789961400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789961400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789962300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789962300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789963200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789963200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789965000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789965000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789968600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789968600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789969500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789969500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789970400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789970400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789971300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Day",
+        "slot_id": "2026-09-21_Day_1789971300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789981200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789981200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789982100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789982100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789983000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789983000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789983900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789983900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789984800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789984800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789985700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789985700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789986600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789986600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789988400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789988400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789989300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789989300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789992000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789992000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789992900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789992900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789993800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789993800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789994700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789994700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789995600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789995600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789997400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789997400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789998300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789998300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789999200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1789999200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790000100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790000100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790001000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790001000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790001900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790001900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790002800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790002800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790006400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-21_Night",
+        "slot_id": "2026-09-21_Night_1790006400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790037000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790037000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790037900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790037900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790038800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790038800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790039700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790039700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790040600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790040600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790042400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790042400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790044200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790044200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790045100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790045100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790046000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790046000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790047800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790047800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790048700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790048700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790049600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790049600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790050500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790050500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790051400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790051400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790052300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790052300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790053200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790053200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790054100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790054100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790055000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790055000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790055900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790055900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790056800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790056800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790057700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Day",
+        "slot_id": "2026-09-22_Day_1790057700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790066700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790066700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790067600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790067600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790068500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790068500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790070300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790070300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790071200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790071200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790072100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790072100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790073000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790073000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790078400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790078400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790079300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790079300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790081100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790081100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790082000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790082000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790083800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790083800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790084700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790084700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790085600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790085600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790086500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790086500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790088300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790088300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790093700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-22_Night",
+        "slot_id": "2026-09-22_Night_1790093700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790123400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790123400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790124300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790124300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790125200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790125200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790126100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790126100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790127000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790127000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790127900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790127900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790128800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790128800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790129700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790129700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790130600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790130600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790131500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790131500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790132400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790132400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790134200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790134200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790136900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790136900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790137800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790137800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790139600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790139600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790140500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790140500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790141400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790141400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790142300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790142300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790143200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790143200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790144100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Day",
+        "slot_id": "2026-09-23_Day_1790144100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790154000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790154000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790155800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790155800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790160300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790160300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790161200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790161200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790163000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790163000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790163900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790163900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790164800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790164800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790168400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790168400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790169300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790169300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790170200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790170200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790171100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790171100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790172000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790172000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790172900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790172900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790173800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790173800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790174700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790174700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790176500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790176500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790177400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790177400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790178300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790178300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790179200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790179200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790181000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790181000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790182800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790182800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790183700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790183700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790189100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-23_Night",
+        "slot_id": "2026-09-23_Night_1790189100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790209800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790209800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790210700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790210700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790211600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790211600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790212500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790212500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790213400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790213400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790214300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790214300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790215200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790215200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790216100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790216100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790217000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790217000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790217900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790217900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790218800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790218800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790219700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790219700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790220600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790220600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790221500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790221500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790222400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790222400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790223300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790223300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790224200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790224200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790225100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790225100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790226000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790226000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790226900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790226900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790227800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790227800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790228700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790228700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790229600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790229600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790230500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Day",
+        "slot_id": "2026-09-24_Day_1790230500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790239500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790239500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790240400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790240400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790241300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790241300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790242200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790242200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790243100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790243100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790244900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790244900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790245800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790245800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790246700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790246700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790247600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790247600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790248500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790248500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790249400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790249400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790250300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790250300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790251200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790251200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790252100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790252100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790253000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790253000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790253900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790253900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790254800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790254800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790255700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790255700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790256600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790256600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790257500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790257500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790258400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790258400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790259300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790259300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790260200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790260200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790261100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790261100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790262000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790262000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790262900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790262900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790263800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790263800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790264700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790264700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790265600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790265600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790266500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790266500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790267400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790267400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790268300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790268300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790269200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790269200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790270100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790270100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790271000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790271000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790271900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790271900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790272800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790272800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790273700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790273700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790274600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790274600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790275500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790275500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790276400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790276400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790277300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790277300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790278200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790278200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790279100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790279100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790280900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-24_Night",
+        "slot_id": "2026-09-24_Night_1790280900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790296200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790296200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790297100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790297100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790298000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790298000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790298900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790298900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790299800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790299800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790300700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790300700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790301600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790301600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790302500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790302500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790303400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790303400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790304300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790304300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790305200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790305200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790306100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790306100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790307000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790307000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790307900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790307900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790308800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790308800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790309700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790309700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790310600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790310600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790311500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790311500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790312400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790312400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790313300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790313300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790314200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790314200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790315100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790315100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790316000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790316000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790316900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Day",
+        "slot_id": "2026-09-25_Day_1790316900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790325900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790325900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790326800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790326800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790327700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790327700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790328600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790328600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790329500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790329500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790330400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790330400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790331300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790331300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790334000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790334000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790334900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790334900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790337600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790337600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790339400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790339400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790340300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790340300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790341200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790341200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790342100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790342100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790343000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790343000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790343900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790343900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790344800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790344800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790345700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790345700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790346600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790346600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790347500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790347500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790348400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790348400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790349300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790349300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790350200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790350200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790351100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790351100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790352000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790352000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790361000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-25_Night",
+        "slot_id": "2026-09-25_Night_1790361000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790555400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790555400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790556300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790556300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790557200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790557200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790558100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790558100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790559000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790559000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790559900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790559900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790560800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790560800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790561700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790561700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790562600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790562600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790563500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790563500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790564400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790564400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790565300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790565300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790566200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790566200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790567100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790567100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790568000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790568000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790568900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790568900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790569800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790569800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790570700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790570700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790571600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790571600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790572500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790572500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790573400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790573400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790574300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790574300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790575200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790575200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790576100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Day",
+        "slot_id": "2026-09-28_Day_1790576100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790585100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790585100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790586000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790586000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790586900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790586900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790587800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790587800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790588700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790588700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790589600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790589600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790590500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790590500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790591400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790591400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790592300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790592300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790593200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790593200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790594100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790594100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790595000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790595000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790596800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790596800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790597700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790597700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790598600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790598600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790599500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790599500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790600400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790600400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790601300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790601300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790602200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790602200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790603100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790603100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790604000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790604000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790604900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790604900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790605800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790605800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790606700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790606700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790607600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790607600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790608500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790608500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790609400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790609400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790611200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790611200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790614800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790614800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790616600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790616600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790618400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-28_Night",
+        "slot_id": "2026-09-28_Night_1790618400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790641800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790641800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790642700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790642700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790643600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790643600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790644500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790644500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790645400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790645400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790646300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790646300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790647200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790647200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790648100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790648100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790649000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790649000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790649900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790649900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790650800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790650800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790651700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790651700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790652600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790652600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790653500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790653500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790654400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790654400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790655300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790655300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790656200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790656200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790657100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790657100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790658000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790658000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790658900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790658900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790659800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790659800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790660700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790660700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790661600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790661600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790662500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Day",
+        "slot_id": "2026-09-29_Day_1790662500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790671500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790671500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790672400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790672400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790673300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790673300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790674200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790674200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790675100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790675100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790676000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790676000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790676900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790676900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790677800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790677800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790679600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790679600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790681400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790681400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790683200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790683200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790684100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790684100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790685000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790685000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790685900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790685900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790686800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790686800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790687700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790687700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790689500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790689500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790690400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790690400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790691300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790691300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790692200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790692200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790693100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790693100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790694000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790694000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790694900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790694900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790695800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790695800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790696700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790696700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790697600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790697600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790698500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790698500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790699400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790699400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790700300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790700300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790701200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790701200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790702100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790702100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790703000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790703000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790703900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790703900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790704800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790704800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790711100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-29_Night",
+        "slot_id": "2026-09-29_Night_1790711100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790728200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790728200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790729100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790729100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790730000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790730000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790730900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790730900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790731800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790731800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790732700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790732700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790733600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790733600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790734500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790734500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790735400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790735400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790736300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790736300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790737200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790737200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790738100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790738100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790739000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790739000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790739900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790739900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790740800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790740800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790741700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790741700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790742600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790742600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790743500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790743500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790744400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790744400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790745300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790745300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790746200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790746200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790747100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790747100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790748000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790748000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790748900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Day",
+        "slot_id": "2026-09-30_Day_1790748900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790758800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790758800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790759700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790759700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790760600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790760600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790761500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790761500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790762400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790762400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790763300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790763300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790764200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790764200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790765100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790765100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790766000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790766000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790767800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790767800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790768700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790768700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790769600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790769600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790770500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790770500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790771400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790771400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790772300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790772300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790773200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790773200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790774100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790774100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790775000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790775000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790775900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790775900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790776800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790776800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790777700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790777700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790778600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790778600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790779500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790779500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790780400",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790780400",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790781300",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790781300",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790782200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790782200",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790783100",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790783100",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790784000",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790784000",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790784900",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790784900",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790785800",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790785800",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790786700",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790786700",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790787600",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790787600",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790788500",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790788500",
+        "side": -1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790791200",
+        "side": 1
+      },
+      {
+        "session": "2026-09-30_Night",
+        "slot_id": "2026-09-30_Night_1790791200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790814600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790814600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790815500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790815500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790816400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790816400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790817300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790817300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790818200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790818200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790819100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790819100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790820000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790820000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790820900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790820900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790821800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790821800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790822700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790822700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790823600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790823600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790824500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790824500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790825400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790825400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790826300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790826300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790827200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790827200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790828100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790828100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790829000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790829000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790829900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790829900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790830800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790830800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790831700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790831700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790832600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790832600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790833500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790833500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790834400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790834400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790835300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Day",
+        "slot_id": "2026-10-01_Day_1790835300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790844300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790844300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790845200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790845200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790846100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790846100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790847000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790847000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790847900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790847900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790848800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790848800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790849700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790849700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790850600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790850600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790852400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790852400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790853300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790853300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790854200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790854200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790855100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790855100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790856000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790856000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790856900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790856900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790857800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790857800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790858700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790858700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790859600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790859600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790860500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790860500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790861400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790861400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790862300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790862300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790863200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790863200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790864100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790864100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790865000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790865000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790865900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790865900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790866800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790866800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790867700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790867700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790868600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790868600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790869500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790869500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790870400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790870400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790871300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790871300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790872200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790872200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790873100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790873100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790874000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790874000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790874900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790874900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790875800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790875800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790877600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790877600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790878500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790878500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790879400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790879400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790880300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790880300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790881200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790881200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790882100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790882100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790883000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790883000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790883900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790883900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790884800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790884800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790885700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-01_Night",
+        "slot_id": "2026-10-01_Night_1790885700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790901000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790901000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790901900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790901900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790902800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790902800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790903700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790903700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790904600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790904600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790905500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790905500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790906400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790906400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790907300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790907300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790908200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790908200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790909100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790909100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790910000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790910000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790910900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790910900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790911800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790911800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790912700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790912700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790913600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790913600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790914500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790914500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790915400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790915400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790916300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790916300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790917200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790917200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790918100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790918100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790919000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790919000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790919900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790919900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790920800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790920800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790921700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Day",
+        "slot_id": "2026-10-02_Day_1790921700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790930700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790930700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790931600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790931600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790932500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790932500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790934300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790934300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790935200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790935200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790936100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790936100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790937000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790937000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790938800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790938800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790939700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790939700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790940600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790940600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790941500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790941500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790942400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790942400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790943300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790943300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790944200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790944200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790945100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790945100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790946000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790946000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790946900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790946900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790947800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790947800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790948700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790948700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790949600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790949600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790950500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790950500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790951400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790951400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790952300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790952300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790953200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790953200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790954100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790954100",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790955000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790955000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790955900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790955900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790956800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790956800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790957700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790957700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790958600",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790958600",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790959500",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790959500",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790960400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790960400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790961300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790961300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790962200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790962200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790964000",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790964000",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790964900",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790964900",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790965800",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790965800",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790966700",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790966700",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790969400",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790969400",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790970300",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790970300",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790971200",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790971200",
+        "side": -1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790972100",
+        "side": 1
+      },
+      {
+        "session": "2026-10-02_Night",
+        "slot_id": "2026-10-02_Night_1790972100",
+        "side": -1
+      }
+    ],
+    "input_rows_sha256": "6dc46831515efb6391dc70803e75bcb48d6c553c815ed9591b6e4deb6f86d7fc",
+    "used_rows_sha256": "6dc46831515efb6391dc70803e75bcb48d6c553c815ed9591b6e4deb6f86d7fc",
+    "row_ids_sha256": "cf1e494b7a8a0f58aded3c32d96ff119da0585661cfffb0c7bb5dc1b825eecf8",
+    "target_rows_sha256": "268ab4a900540a4908b5706ebbb908ff25f21eeeccf34aa1e95e0a3672a358bb",
+    "used_barrier_rows_sha256": "d9f4d8c2e75a1d52cb0ce9e56965efd275337ef940c5180b657dc5b161810d8e",
+    "period": {
+      "sessions": [
+        "2026-09-21_Day",
+        "2026-09-21_Night",
+        "2026-09-22_Day",
+        "2026-09-22_Night",
+        "2026-09-23_Day",
+        "2026-09-23_Night",
+        "2026-09-24_Day",
+        "2026-09-24_Night",
+        "2026-09-25_Day",
+        "2026-09-25_Night",
+        "2026-09-28_Day",
+        "2026-09-28_Night",
+        "2026-09-29_Day",
+        "2026-09-29_Night",
+        "2026-09-30_Day",
+        "2026-09-30_Night",
+        "2026-10-01_Day",
+        "2026-10-01_Night",
+        "2026-10-02_Day",
+        "2026-10-02_Night"
+      ],
+      "max_label_end_time": 1790974200.0,
+      "max_recovery_end_time": 1790972156.0,
+      "evaluation_start": 1791157500.0,
+      "same_second_allowed": false
+    },
+    "period_sha256": "3741cb7be34c8135c568d5fb1e1460a2cbe8b25019faed079fd545c3045b84e7",
+    "canonical_fields": [
+      "session",
+      "slot_id",
+      "side",
+      "features",
+      "filled",
+      "outcome",
+      "end_time",
+      "recovery_end_time",
+      "pnl0",
+      "pnl5",
+      "pnl10"
+    ],
+    "target": "pnl5",
+    "target_dtype": "Decimal金額の厳密10進整数",
+    "unknown_handling": "rootで共通pair除外済み、ここでは未知を拒否",
+    "feature_missing_handling": "73の共通readyで先に両方向pairを限定。B61/Q64に同じ可知教師。学習内の追加除外・0補完なし",
+    "base60_fingerprints": {
+      "input_rows_sha256": "daa6ce6c228a2fa9b05bedc76263f6d53e0b46cb3585b9452d28a8edbad49f82",
+      "used_rows_sha256": "daa6ce6c228a2fa9b05bedc76263f6d53e0b46cb3585b9452d28a8edbad49f82",
+      "row_ids_sha256": "cf1e494b7a8a0f58aded3c32d96ff119da0585661cfffb0c7bb5dc1b825eecf8",
+      "target_rows_sha256": "268ab4a900540a4908b5706ebbb908ff25f21eeeccf34aa1e95e0a3672a358bb",
+      "period_sha256": "3741cb7be34c8135c568d5fb1e1460a2cbe8b25019faed079fd545c3045b84e7",
+      "used_barrier_rows_sha256": "dedadaae5c107d0fac52398dfcc11294b35c3f76d574a3cd5ec3c02c30d279b7"
+    },
+    "base61_fingerprints": {
+      "input_rows_sha256": "6dc46831515efb6391dc70803e75bcb48d6c553c815ed9591b6e4deb6f86d7fc",
+      "used_rows_sha256": "6dc46831515efb6391dc70803e75bcb48d6c553c815ed9591b6e4deb6f86d7fc",
+      "row_ids_sha256": "cf1e494b7a8a0f58aded3c32d96ff119da0585661cfffb0c7bb5dc1b825eecf8",
+      "target_rows_sha256": "268ab4a900540a4908b5706ebbb908ff25f21eeeccf34aa1e95e0a3672a358bb",
+      "period_sha256": "3741cb7be34c8135c568d5fb1e1460a2cbe8b25019faed079fd545c3045b84e7",
+      "used_barrier_rows_sha256": "d9f4d8c2e75a1d52cb0ce9e56965efd275337ef940c5180b657dc5b161810d8e"
+    },
+    "partition": {
+      "D0_V0": {
+        "d": 0,
+        "v": 0,
+        "route": "R",
+        "policy": "B0",
+        "excluded_feature_indices": [
+          0,
+          25
+        ],
+        "child_feature_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "direction_rows": 238,
+        "pair_unique": 238,
+        "days": 10,
+        "sessions": 20,
+        "row_ids_sha256": "10b1b677fe4557e9a0697d9c1b05e360edab1c86611f43a5b78e7449d7e821f3",
+        "fit_performed": true,
+        "root": 3,
+        "node_count": 1,
+        "fit_parameters": {
+          "criterion": "squared_error",
+          "splitter": "best",
+          "max_depth": 2,
+          "min_samples_split": 2,
+          "min_samples_leaf": 60,
+          "min_weight_fraction_leaf": 0.0,
+          "max_features": null,
+          "random_state": null,
+          "max_leaf_nodes": null,
+          "min_impurity_decrease": 0.0,
+          "ccp_alpha": 0.0,
+          "monotonic_cst": null,
+          "legacy_random_state": 51,
+          "randomness_used": false,
+          "algorithm": "隣接float32境界の厳密MSE列挙",
+          "support_required": true,
+          "threshold_rule": "float32隣接異値のfloat64中点。等値は分けず、左<=/右>",
+          "tie_rule": "特徴index昇順、同特徴の閾値昇順。同じ厳密改善なら最初を保持",
+          "gain_rule": "全行半重みの親MSEから行数加重子MSEを引く。金額整数と有理数で厳密比較、正改善のみ"
+        }
+      },
+      "D0_V1": {
+        "d": 0,
+        "v": 1,
+        "route": "R",
+        "policy": "B0",
+        "excluded_feature_indices": [
+          0,
+          25
+        ],
+        "child_feature_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "direction_rows": 299,
+        "pair_unique": 299,
+        "days": 10,
+        "sessions": 20,
+        "row_ids_sha256": "ab6fa7c9e49fd94c1a795f3a424d0ea692bea62d990c3a883953dc5a7b3c4051",
+        "fit_performed": true,
+        "root": 4,
+        "node_count": 1,
+        "fit_parameters": {
+          "criterion": "squared_error",
+          "splitter": "best",
+          "max_depth": 2,
+          "min_samples_split": 2,
+          "min_samples_leaf": 60,
+          "min_weight_fraction_leaf": 0.0,
+          "max_features": null,
+          "random_state": null,
+          "max_leaf_nodes": null,
+          "min_impurity_decrease": 0.0,
+          "ccp_alpha": 0.0,
+          "monotonic_cst": null,
+          "legacy_random_state": 51,
+          "randomness_used": false,
+          "algorithm": "隣接float32境界の厳密MSE列挙",
+          "support_required": true,
+          "threshold_rule": "float32隣接異値のfloat64中点。等値は分けず、左<=/右>",
+          "tie_rule": "特徴index昇順、同特徴の閾値昇順。同じ厳密改善なら最初を保持",
+          "gain_rule": "全行半重みの親MSEから行数加重子MSEを引く。金額整数と有理数で厳密比較、正改善のみ"
+        }
+      },
+      "D1_V0": {
+        "d": 1,
+        "v": 0,
+        "route": "T",
+        "policy": "B0",
+        "excluded_feature_indices": [
+          0,
+          19
+        ],
+        "child_feature_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "direction_rows": 339,
+        "pair_unique": 339,
+        "days": 10,
+        "sessions": 20,
+        "row_ids_sha256": "0207734522c14214a35d913fafe179c730beafda0e6fdab13896c68b659a558e",
+        "fit_performed": true,
+        "root": 5,
+        "node_count": 1,
+        "fit_parameters": {
+          "criterion": "squared_error",
+          "splitter": "best",
+          "max_depth": 2,
+          "min_samples_split": 2,
+          "min_samples_leaf": 60,
+          "min_weight_fraction_leaf": 0.0,
+          "max_features": null,
+          "random_state": null,
+          "max_leaf_nodes": null,
+          "min_impurity_decrease": 0.0,
+          "ccp_alpha": 0.0,
+          "monotonic_cst": null,
+          "legacy_random_state": 51,
+          "randomness_used": false,
+          "algorithm": "隣接float32境界の厳密MSE列挙",
+          "support_required": true,
+          "threshold_rule": "float32隣接異値のfloat64中点。等値は分けず、左<=/右>",
+          "tie_rule": "特徴index昇順、同特徴の閾値昇順。同じ厳密改善なら最初を保持",
+          "gain_rule": "全行半重みの親MSEから行数加重子MSEを引く。金額整数と有理数で厳密比較、正改善のみ"
+        }
+      },
+      "D1_V1": {
+        "d": 1,
+        "v": 1,
+        "route": "T",
+        "policy": "B0",
+        "excluded_feature_indices": [
+          0,
+          19
+        ],
+        "child_feature_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "direction_rows": 198,
+        "pair_unique": 198,
+        "days": 10,
+        "sessions": 20,
+        "row_ids_sha256": "463e0583d7eb4233651574dea71439af1ddca7f3f4bdbd0f8e7128e047a67ffc",
+        "fit_performed": true,
+        "root": 6,
+        "node_count": 1,
+        "fit_parameters": {
+          "criterion": "squared_error",
+          "splitter": "best",
+          "max_depth": 2,
+          "min_samples_split": 2,
+          "min_samples_leaf": 60,
+          "min_weight_fraction_leaf": 0.0,
+          "max_features": null,
+          "random_state": null,
+          "max_leaf_nodes": null,
+          "min_impurity_decrease": 0.0,
+          "ccp_alpha": 0.0,
+          "monotonic_cst": null,
+          "legacy_random_state": 51,
+          "randomness_used": false,
+          "algorithm": "隣接float32境界の厳密MSE列挙",
+          "support_required": true,
+          "threshold_rule": "float32隣接異値のfloat64中点。等値は分けず、左<=/右>",
+          "tie_rule": "特徴index昇順、同特徴の閾値昇順。同じ厳密改善なら最初を保持",
+          "gain_rule": "全行半重みの親MSEから行数加重子MSEを引く。金額整数と有理数で厳密比較、正改善のみ"
+        }
+      }
+    },
+    "independent_regression_count": 4,
+    "sklearn_fit_count": 0
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "feature": 0,
+      "feature_id": "F01",
+      "family": "trend",
+      "threshold": 0.0,
+      "left": 1,
+      "right": 2,
+      "split_search": null,
+      "path": [],
+      "methods": [],
+      "families": [],
+      "training_ids_sha256": "cf1e494b7a8a0f58aded3c32d96ff119da0585661cfffb0c7bb5dc1b825eecf8",
+      "impurity_kind": "squared_error",
+      "direction_rows": 1074,
+      "weighted_rows": 537.0,
+      "total_weight": 537.0,
+      "filled_direction_rows": 320,
+      "unfilled_direction_rows": 754,
+      "barrier_total_weight": 160.0,
+      "success_weight": 43.0,
+      "score": 0.26875,
+      "fill_rate": 0.297951582867784,
+      "unique_slots": 320,
+      "days": 10,
+      "sessions": 20,
+      "filled_unique_slots": 320,
+      "filled_days": 10,
+      "filled_sessions": 20,
+      "all_unique_slots": 537,
+      "all_days": 10,
+      "all_sessions": 20,
+      "barrier_gini": 0.39304687499999996,
+      "data_absent": false,
+      "barrier_data_absent": false,
+      "recovery_filled": {
+        "pnl0": {
+          "sum": "-33940",
+          "mean": -106.0625,
+          "mean_decimal": "-106.0625"
+        },
+        "pnl5": {
+          "sum": "-65940",
+          "mean": -206.0625,
+          "mean_decimal": "-206.0625"
+        },
+        "pnl10": {
+          "sum": "-97940",
+          "mean": -306.0625,
+          "mean_decimal": "-306.0625"
+        }
+      },
+      "recovery": {
+        "pnl0": {
+          "sum": "-33940",
+          "mean": -31.60148975791434,
+          "mean_decimal": "-31.601489757914338919925512104283054003724394785847299813780260707635009310986965"
+        },
+        "pnl5": {
+          "sum": "-65940",
+          "mean": -61.39664804469274,
+          "mean_decimal": "-61.39664804469273743016759776536312849162011173184357541899441340782122905027933"
+        },
+        "pnl10": {
+          "sum": "-97940",
+          "mean": -91.19180633147114,
+          "mean_decimal": "-91.191806331471135940409683426443202979515828677839851024208566108007448789571695"
+        }
+      },
+      "recovery_positive": false,
+      "recovery_mse_decimal": "69895.703005524172154427140226584688368028463531100777129303080428201366998533129",
+      "regression_value": -61.39664804469274,
+      "impurity": 69895.70300552418,
+      "leaf_support": true,
+      "method_support": false,
+      "source_node_id": 0
+    },
+    {
+      "id": 1,
+      "feature": 25,
+      "feature_id": "F26",
+      "family": "price",
+      "threshold": 0.5,
+      "left": 3,
+      "right": 4,
+      "split_search": null,
+      "path": [
+        {
+          "node": 0,
+          "feature": 0,
+          "feature_id": "F01",
+          "method": "I08",
+          "family": "trend",
+          "threshold": 0.0,
+          "comparison": "<=",
+          "branch": "left"
+        }
+      ],
+      "methods": [
+        "I08"
+      ],
+      "families": [
+        "trend"
+      ],
+      "training_ids_sha256": "04a9e96444e4b63964980d1c0f342cca99365d9fee8039ec453f3917313d7fb8",
+      "impurity_kind": "squared_error",
+      "direction_rows": 537,
+      "weighted_rows": 268.5,
+      "total_weight": 268.5,
+      "filled_direction_rows": 158,
+      "unfilled_direction_rows": 379,
+      "barrier_total_weight": 79.0,
+      "success_weight": 17.5,
+      "score": 0.22151898734177214,
+      "fill_rate": 0.2942271880819367,
+      "unique_slots": 158,
+      "days": 10,
+      "sessions": 20,
+      "filled_unique_slots": 158,
+      "filled_days": 10,
+      "filled_sessions": 20,
+      "all_unique_slots": 537,
+      "all_days": 10,
+      "all_sessions": 20,
+      "barrier_gini": 0.34489665117769586,
+      "data_absent": false,
+      "barrier_data_absent": false,
+      "recovery_filled": {
+        "pnl0": {
+          "sum": "-23376",
+          "mean": -147.9493670886076,
+          "mean_decimal": "-147.94936708860759493670886075949367088607594936708860759493670886075949367088608"
+        },
+        "pnl5": {
+          "sum": "-39176",
+          "mean": -247.9493670886076,
+          "mean_decimal": "-247.94936708860759493670886075949367088607594936708860759493670886075949367088608"
+        },
+        "pnl10": {
+          "sum": "-54976",
+          "mean": -347.9493670886076,
+          "mean_decimal": "-347.94936708860759493670886075949367088607594936708860759493670886075949367088608"
+        }
+      },
+      "recovery": {
+        "pnl0": {
+          "sum": "-23376",
+          "mean": -43.53072625698324,
+          "mean_decimal": "-43.530726256983240223463687150837988826815642458100558659217877094972067039106145"
+        },
+        "pnl5": {
+          "sum": "-39176",
+          "mean": -72.95344506517691,
+          "mean_decimal": "-72.953445065176908752327746741154562383612662942271880819366852886405959031657356"
+        },
+        "pnl10": {
+          "sum": "-54976",
+          "mean": -102.37616387337057,
+          "mean_decimal": "-102.37616387337057728119180633147113594040968342644320297951582867783985102420857"
+        }
+      },
+      "recovery_positive": false,
+      "recovery_mse_decimal": "72028.394480682736355156067399755174793407058317641632769125668847899739569787321",
+      "regression_value": -72.95344506517691,
+      "impurity": 72028.39448068273,
+      "leaf_support": true,
+      "method_support": false,
+      "source_node_id": 1
+    },
+    {
+      "id": 2,
+      "feature": 19,
+      "feature_id": "F20",
+      "family": "price",
+      "threshold": 0.5,
+      "left": 5,
+      "right": 6,
+      "split_search": null,
+      "path": [
+        {
+          "node": 0,
+          "feature": 0,
+          "feature_id": "F01",
+          "method": "I08",
+          "family": "trend",
+          "threshold": 0.0,
+          "comparison": ">",
+          "branch": "right"
+        }
+      ],
+      "methods": [
+        "I08"
+      ],
+      "families": [
+        "trend"
+      ],
+      "training_ids_sha256": "a756260dc9ba125a72f84332e2fbc832a518f0d4fae117e857f8f7f46031dc22",
+      "impurity_kind": "squared_error",
+      "direction_rows": 537,
+      "weighted_rows": 268.5,
+      "total_weight": 268.5,
+      "filled_direction_rows": 162,
+      "unfilled_direction_rows": 375,
+      "barrier_total_weight": 81.0,
+      "success_weight": 25.5,
+      "score": 0.3148148148148148,
+      "fill_rate": 0.3016759776536313,
+      "unique_slots": 162,
+      "days": 10,
+      "sessions": 20,
+      "filled_unique_slots": 162,
+      "filled_days": 10,
+      "filled_sessions": 20,
+      "all_unique_slots": 537,
+      "all_days": 10,
+      "all_sessions": 20,
+      "barrier_gini": 0.43141289437585734,
+      "data_absent": false,
+      "barrier_data_absent": false,
+      "recovery_filled": {
+        "pnl0": {
+          "sum": "-10564",
+          "mean": -65.20987654320987,
+          "mean_decimal": "-65.209876543209876543209876543209876543209876543209876543209876543209876543209877"
+        },
+        "pnl5": {
+          "sum": "-26764",
+          "mean": -165.20987654320987,
+          "mean_decimal": "-165.20987654320987654320987654320987654320987654320987654320987654320987654320988"
+        },
+        "pnl10": {
+          "sum": "-42964",
+          "mean": -265.2098765432099,
+          "mean_decimal": "-265.20987654320987654320987654320987654320987654320987654320987654320987654320988"
+        }
+      },
+      "recovery": {
+        "pnl0": {
+          "sum": "-10564",
+          "mean": -19.672253258845437,
+          "mean_decimal": "-19.672253258845437616387337057728119180633147113594040968342644320297951582867784"
+        },
+        "pnl5": {
+          "sum": "-26764",
+          "mean": -49.83985102420856,
+          "mean_decimal": "-49.839851024208566108007448789571694599627560521415270018621973929236499068901304"
+        },
+        "pnl10": {
+          "sum": "-42964",
+          "mean": -80.0074487895717,
+          "mean_decimal": "-80.007448789571694599627560521415270018621973929236499068901303538175046554934823"
+        }
+      },
+      "recovery_positive": false,
+      "recovery_mse_decimal": "67495.892415620264314125304731091067347738487840232479912889388249083639364841575",
+      "regression_value": -49.83985102420856,
+      "impurity": 67495.89241562027,
+      "leaf_support": true,
+      "method_support": false,
+      "source_node_id": 2
+    },
+    {
+      "id": 3,
+      "feature": -2,
+      "feature_id": null,
+      "family": null,
+      "threshold": -2.0,
+      "left": -1,
+      "right": -1,
+      "split_search": {
+        "candidate_count": 5489,
+        "row_eligible_count": 2309,
+        "support_eligible_count": 0,
+        "selectable_count": 0,
+        "support_required": true,
+        "stop_reason": "支持適格候補なし",
+        "selected": null
+      },
+      "path": [
+        {
+          "node": 0,
+          "feature": 0,
+          "feature_id": "F01",
+          "method": "I08",
+          "family": "trend",
+          "threshold": 0.0,
+          "comparison": "<=",
+          "branch": "left"
+        },
+        {
+          "node": 1,
+          "feature": 25,
+          "feature_id": "F26",
+          "method": "P10",
+          "family": "price",
+          "threshold": 0.5,
+          "comparison": "<=",
+          "branch": "left"
+        }
+      ],
+      "methods": [
+        "I08",
+        "P10"
+      ],
+      "families": [
+        "price",
+        "trend"
+      ],
+      "training_ids_sha256": "10b1b677fe4557e9a0697d9c1b05e360edab1c86611f43a5b78e7449d7e821f3",
+      "impurity_kind": "squared_error",
+      "direction_rows": 238,
+      "weighted_rows": 119.0,
+      "total_weight": 119.0,
+      "filled_direction_rows": 72,
+      "unfilled_direction_rows": 166,
+      "barrier_total_weight": 36.0,
+      "success_weight": 9.0,
+      "score": 0.25,
+      "fill_rate": 0.3025210084033613,
+      "unique_slots": 72,
+      "days": 10,
+      "sessions": 20,
+      "filled_unique_slots": 72,
+      "filled_days": 10,
+      "filled_sessions": 20,
+      "all_unique_slots": 238,
+      "all_days": 10,
+      "all_sessions": 20,
+      "barrier_gini": 0.375,
+      "data_absent": false,
+      "barrier_data_absent": false,
+      "recovery_filled": {
+        "pnl0": {
+          "sum": "-5684",
+          "mean": -78.94444444444444,
+          "mean_decimal": "-78.944444444444444444444444444444444444444444444444444444444444444444444444444444"
+        },
+        "pnl5": {
+          "sum": "-12884",
+          "mean": -178.94444444444446,
+          "mean_decimal": "-178.94444444444444444444444444444444444444444444444444444444444444444444444444444"
+        },
+        "pnl10": {
+          "sum": "-20084",
+          "mean": -278.94444444444446,
+          "mean_decimal": "-278.94444444444444444444444444444444444444444444444444444444444444444444444444444"
+        }
+      },
+      "recovery": {
+        "pnl0": {
+          "sum": "-5684",
+          "mean": -23.88235294117647,
+          "mean_decimal": "-23.882352941176470588235294117647058823529411764705882352941176470588235294117647"
+        },
+        "pnl5": {
+          "sum": "-12884",
+          "mean": -54.134453781512605,
+          "mean_decimal": "-54.134453781512605042016806722689075630252100840336134453781512605042016806722689"
+        },
+        "pnl10": {
+          "sum": "-20084",
+          "mean": -84.38655462184875,
+          "mean_decimal": "-84.386554621848739495798319327731092436974789915966386554621848739495798319327731"
+        }
+      },
+      "recovery_positive": false,
+      "recovery_mse_decimal": "54893.192006214250406044770849516277099074924087281971612174281477296801073370525",
+      "regression_value": -54.134453781512605,
+      "impurity": 54893.19200621425,
+      "leaf_support": true,
+      "method_support": true,
+      "source_node_id": 3
+    },
+    {
+      "id": 4,
+      "feature": -2,
+      "feature_id": null,
+      "family": null,
+      "threshold": -2.0,
+      "left": -1,
+      "right": -1,
+      "split_search": {
+        "candidate_count": 7585,
+        "row_eligible_count": 4350,
+        "support_eligible_count": 0,
+        "selectable_count": 0,
+        "support_required": true,
+        "stop_reason": "支持適格候補なし",
+        "selected": null
+      },
+      "path": [
+        {
+          "node": 0,
+          "feature": 0,
+          "feature_id": "F01",
+          "method": "I08",
+          "family": "trend",
+          "threshold": 0.0,
+          "comparison": "<=",
+          "branch": "left"
+        },
+        {
+          "node": 1,
+          "feature": 25,
+          "feature_id": "F26",
+          "method": "P10",
+          "family": "price",
+          "threshold": 0.5,
+          "comparison": ">",
+          "branch": "right"
+        }
+      ],
+      "methods": [
+        "I08",
+        "P10"
+      ],
+      "families": [
+        "price",
+        "trend"
+      ],
+      "training_ids_sha256": "ab6fa7c9e49fd94c1a795f3a424d0ea692bea62d990c3a883953dc5a7b3c4051",
+      "impurity_kind": "squared_error",
+      "direction_rows": 299,
+      "weighted_rows": 149.5,
+      "total_weight": 149.5,
+      "filled_direction_rows": 86,
+      "unfilled_direction_rows": 213,
+      "barrier_total_weight": 43.0,
+      "success_weight": 8.5,
+      "score": 0.19767441860465115,
+      "fill_rate": 0.28762541806020064,
+      "unique_slots": 86,
+      "days": 10,
+      "sessions": 20,
+      "filled_unique_slots": 86,
+      "filled_days": 10,
+      "filled_sessions": 20,
+      "all_unique_slots": 299,
+      "all_days": 10,
+      "all_sessions": 20,
+      "barrier_gini": 0.3171984856679286,
+      "data_absent": false,
+      "barrier_data_absent": false,
+      "recovery_filled": {
+        "pnl0": {
+          "sum": "-17692",
+          "mean": -205.72093023255815,
+          "mean_decimal": "-205.72093023255813953488372093023255813953488372093023255813953488372093023255814"
+        },
+        "pnl5": {
+          "sum": "-26292",
+          "mean": -305.72093023255815,
+          "mean_decimal": "-305.72093023255813953488372093023255813953488372093023255813953488372093023255814"
+        },
+        "pnl10": {
+          "sum": "-34892",
+          "mean": -405.72093023255815,
+          "mean_decimal": "-405.72093023255813953488372093023255813953488372093023255813953488372093023255814"
+        }
+      },
+      "recovery": {
+        "pnl0": {
+          "sum": "-17692",
+          "mean": -59.17056856187291,
+          "mean_decimal": "-59.170568561872909698996655518394648829431438127090301003344481605351170568561873"
+        },
+        "pnl5": {
+          "sum": "-26292",
+          "mean": -87.93311036789298,
+          "mean_decimal": "-87.933110367892976588628762541806020066889632107023411371237458193979933110367893"
+        },
+        "pnl10": {
+          "sum": "-34892",
+          "mean": -116.69565217391305,
+          "mean_decimal": "-116.69565217391304347826086956521739130434782608695652173913043478260869565217391"
+        }
+      },
+      "recovery_positive": false,
+      "recovery_mse_decimal": "85161.493853536313911477500251675037191977718370040603572666972405230366550709724",
+      "regression_value": -87.93311036789298,
+      "impurity": 85161.49385353632,
+      "leaf_support": true,
+      "method_support": true,
+      "source_node_id": 4
+    },
+    {
+      "id": 5,
+      "feature": -2,
+      "feature_id": null,
+      "family": null,
+      "threshold": -2.0,
+      "left": -1,
+      "right": -1,
+      "split_search": {
+        "candidate_count": 8002,
+        "row_eligible_count": 4731,
+        "support_eligible_count": 0,
+        "selectable_count": 0,
+        "support_required": true,
+        "stop_reason": "支持適格候補なし",
+        "selected": null
+      },
+      "path": [
+        {
+          "node": 0,
+          "feature": 0,
+          "feature_id": "F01",
+          "method": "I08",
+          "family": "trend",
+          "threshold": 0.0,
+          "comparison": ">",
+          "branch": "right"
+        },
+        {
+          "node": 2,
+          "feature": 19,
+          "feature_id": "F20",
+          "method": "P10",
+          "family": "price",
+          "threshold": 0.5,
+          "comparison": "<=",
+          "branch": "left"
+        }
+      ],
+      "methods": [
+        "I08",
+        "P10"
+      ],
+      "families": [
+        "price",
+        "trend"
+      ],
+      "training_ids_sha256": "0207734522c14214a35d913fafe179c730beafda0e6fdab13896c68b659a558e",
+      "impurity_kind": "squared_error",
+      "direction_rows": 339,
+      "weighted_rows": 169.5,
+      "total_weight": 169.5,
+      "filled_direction_rows": 102,
+      "unfilled_direction_rows": 237,
+      "barrier_total_weight": 51.0,
+      "success_weight": 17.5,
+      "score": 0.3431372549019608,
+      "fill_rate": 0.3008849557522124,
+      "unique_slots": 102,
+      "days": 10,
+      "sessions": 20,
+      "filled_unique_slots": 102,
+      "filled_days": 10,
+      "filled_sessions": 20,
+      "all_unique_slots": 339,
+      "all_days": 10,
+      "all_sessions": 20,
+      "barrier_gini": 0.45078815840061515,
+      "data_absent": false,
+      "barrier_data_absent": false,
+      "recovery_filled": {
+        "pnl0": {
+          "sum": "-5544",
+          "mean": -54.35294117647059,
+          "mean_decimal": "-54.352941176470588235294117647058823529411764705882352941176470588235294117647059"
+        },
+        "pnl5": {
+          "sum": "-15744",
+          "mean": -154.35294117647058,
+          "mean_decimal": "-154.35294117647058823529411764705882352941176470588235294117647058823529411764706"
+        },
+        "pnl10": {
+          "sum": "-25944",
+          "mean": -254.35294117647058,
+          "mean_decimal": "-254.35294117647058823529411764705882352941176470588235294117647058823529411764706"
+        }
+      },
+      "recovery": {
+        "pnl0": {
+          "sum": "-5544",
+          "mean": -16.353982300884955,
+          "mean_decimal": "-16.353982300884955752212389380530973451327433628318584070796460176991150442477876"
+        },
+        "pnl5": {
+          "sum": "-15744",
+          "mean": -46.442477876106196,
+          "mean_decimal": "-46.442477876106194690265486725663716814159292035398230088495575221238938053097345"
+        },
+        "pnl10": {
+          "sum": "-25944",
+          "mean": -76.53097345132744,
+          "mean_decimal": "-76.530973451327433628318584070796460176991150442477876106194690265486725663716814"
+        }
+      },
+      "recovery_positive": false,
+      "recovery_mse_decimal": "81953.326337222961860756519696139086850967186153966637951288276294149894275197745",
+      "regression_value": -46.442477876106196,
+      "impurity": 81953.32633722296,
+      "leaf_support": true,
+      "method_support": true,
+      "source_node_id": 5
+    },
+    {
+      "id": 6,
+      "feature": -2,
+      "feature_id": null,
+      "family": null,
+      "threshold": -2.0,
+      "left": -1,
+      "right": -1,
+      "split_search": {
+        "candidate_count": 4938,
+        "row_eligible_count": 1746,
+        "support_eligible_count": 0,
+        "selectable_count": 0,
+        "support_required": true,
+        "stop_reason": "支持適格候補なし",
+        "selected": null
+      },
+      "path": [
+        {
+          "node": 0,
+          "feature": 0,
+          "feature_id": "F01",
+          "method": "I08",
+          "family": "trend",
+          "threshold": 0.0,
+          "comparison": ">",
+          "branch": "right"
+        },
+        {
+          "node": 2,
+          "feature": 19,
+          "feature_id": "F20",
+          "method": "P10",
+          "family": "price",
+          "threshold": 0.5,
+          "comparison": ">",
+          "branch": "right"
+        }
+      ],
+      "methods": [
+        "I08",
+        "P10"
+      ],
+      "families": [
+        "price",
+        "trend"
+      ],
+      "training_ids_sha256": "463e0583d7eb4233651574dea71439af1ddca7f3f4bdbd0f8e7128e047a67ffc",
+      "impurity_kind": "squared_error",
+      "direction_rows": 198,
+      "weighted_rows": 99.0,
+      "total_weight": 99.0,
+      "filled_direction_rows": 60,
+      "unfilled_direction_rows": 138,
+      "barrier_total_weight": 30.0,
+      "success_weight": 8.0,
+      "score": 0.26666666666666666,
+      "fill_rate": 0.30303030303030304,
+      "unique_slots": 60,
+      "days": 10,
+      "sessions": 17,
+      "filled_unique_slots": 60,
+      "filled_days": 10,
+      "filled_sessions": 17,
+      "all_unique_slots": 198,
+      "all_days": 10,
+      "all_sessions": 20,
+      "barrier_gini": 0.39111111111111113,
+      "data_absent": false,
+      "barrier_data_absent": false,
+      "recovery_filled": {
+        "pnl0": {
+          "sum": "-5020",
+          "mean": -83.66666666666667,
+          "mean_decimal": "-83.666666666666666666666666666666666666666666666666666666666666666666666666666667"
+        },
+        "pnl5": {
+          "sum": "-11020",
+          "mean": -183.66666666666666,
+          "mean_decimal": "-183.66666666666666666666666666666666666666666666666666666666666666666666666666667"
+        },
+        "pnl10": {
+          "sum": "-17020",
+          "mean": -283.6666666666667,
+          "mean_decimal": "-283.66666666666666666666666666666666666666666666666666666666666666666666666666667"
+        }
+      },
+      "recovery": {
+        "pnl0": {
+          "sum": "-5020",
+          "mean": -25.353535353535353,
+          "mean_decimal": "-25.353535353535353535353535353535353535353535353535353535353535353535353535353535"
+        },
+        "pnl5": {
+          "sum": "-11020",
+          "mean": -55.656565656565654,
+          "mean_decimal": "-55.656565656565656565656565656565656565656565656565656565656565656565656565656566"
+        },
+        "pnl10": {
+          "sum": "-17020",
+          "mean": -85.95959595959596,
+          "mean_decimal": "-85.959595959595959595959595959595959595959595959595959595959595959595959595959596"
+        }
+      },
+      "recovery_positive": false,
+      "recovery_mse_decimal": "42689.417406387103356800326497296194265891235588205285174982144679114376084073054",
+      "regression_value": -55.656565656565654,
+      "impurity": 42689.4174063871,
+      "leaf_support": true,
+      "method_support": true,
+      "source_node_id": 6
+    }
+  ],
+  "interpretation": "同commonready可知pair・同容量・同72S候補支持のB61対Q64。追加3列は同じ価格加工で独立技法票ではない。旧72全準備との同値や未知利益を主張しない",
+  "source_model_id": "B0_W20_学習",
+  "source_model_sha256": "08c8bd43b14e3902365e540b3474dd85fbff6925b794ae1d6dcf2d5ee49fb3a1",
+  "pruning": {
+    "rules": {
+      "入力": "新73のB0生木61列又はQ0生木64列。親統計と探索来歴を保持し剪定時学習0",
+      "約定支持": {
+        "unique枠": 60,
+        "日": 6,
+        "場": 10
+      },
+      "固定段": "旧node0/1/2は分割を維持。四つのDI×対応episode群を統合しない",
+      "順序": "各子木を下から先に剪定し、その結果の全終端葉を判定する",
+      "保持": "剪定後の両側すべての終端葉が約定支持を満たす場合だけ学習分割を保持",
+      "統合": "一つでも約定支持不足なら両側を親へ統合。片側だけ残さず、祖先でも再判定する",
+      "固定群不足": "四群の親自身が支持不足でも固定段を越えて統合しない。従来の支持不足WAITを維持",
+      "決定へ不使用": [
+        "score",
+        "回収額",
+        "回収平均",
+        "MSE",
+        "評価到達",
+        "評価成績",
+        "技法資格"
+      ],
+      "統計": "統合先の旧親統計を再用。子葉平均の平均や教師再生成を行わない",
+      "新ID": "残存旧IDの昇順を0から連番。旧0/1/2は新0/1/2を維持",
+      "旧学習証拠": "trainingとparameters/structureは元の学習証拠。新配置はpruning.partitionsと対応表を参照",
+      "予測": "新73の政策別61/64列JSON walk/predict。旧globalと元辞書を変更せず、64列を旧61走査へ渡さない",
+      "維持": "先着1/3・約定60枠6日10場・複数技法・過去主回収strict正・66選択・68入口・O49出口を緩めない"
+    },
+    "source_model_id": "B0_W20_学習",
+    "source_model_sha256": "08c8bd43b14e3902365e540b3474dd85fbff6925b794ae1d6dcf2d5ee49fb3a1",
+    "source_model_content_sha256": "120c2b75f83ac516d8b7ac4bd8203a0567f8bedc3dc8dd91ecc6196295788f1e",
+    "source_node_count": 7,
+    "new_node_count": 7,
+    "source_to_new": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    },
+    "new_to_source": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    },
+    "decisions": [],
+    "partitions": {
+      "D0_V0": {
+        "source_root": 3,
+        "source_node_count": 1,
+        "new_root": 3,
+        "new_node_count": 1
+      },
+      "D0_V1": {
+        "source_root": 4,
+        "source_node_count": 1,
+        "new_root": 4,
+        "new_node_count": 1
+      },
+      "D1_V0": {
+        "source_root": 5,
+        "source_node_count": 1,
+        "new_root": 5,
+        "new_node_count": 1
+      },
+      "D1_V1": {
+        "source_root": 6,
+        "source_node_count": 1,
+        "new_root": 6,
+        "new_node_count": 1
+      }
+    },
+    "fit_count": 0,
+    "code_sha256": "460f1096f1afb39c309b02df67c27822e2991cbb7a37a7a7d44458c210f3867f",
+    "shared_source_sha256": {
+      "scripts/支持を満たす技法分割/学習.py": "a6d35a48ee3db75295401b0e91ba832e82ad2fe00592dcb8d5f88455fa538cc0"
+    }
+  }
+}

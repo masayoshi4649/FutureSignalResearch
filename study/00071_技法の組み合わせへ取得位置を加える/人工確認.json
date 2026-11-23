@@ -1,0 +1,61 @@
+{
+  "試行": 71,
+  "確認日時": "2026-11-06T14:29:00.673931+09:00",
+  "成功": true,
+  "テスト件数": 26,
+  "入力人工": {
+    "成功": true,
+    "テスト件数": 6,
+    "実入力読取": false,
+    "本物fit": false,
+    "市場再生": false
+  },
+  "学習人工": {
+    "成功": true,
+    "テスト件数": 14,
+    "不一致": [],
+    "実入力読取": false,
+    "対象人工fitAPI": 3,
+    "旧69対照fitAPI": 1,
+    "独立子比較": 4,
+    "本物fit": 0,
+    "実モデル剪定": 0,
+    "市場再生": false
+  },
+  "表示人工": {
+    "成功": true,
+    "テスト件数": 6,
+    "fit": 0,
+    "本物入力読取": false,
+    "正式文書生成": false
+  },
+  "監査人工": {
+    "人工成功": true,
+    "照合項目数": 2945,
+    "不一致数": 0,
+    "不一致": [],
+    "fit API数": 2,
+    "人工回帰器数": 8,
+    "分類器fit": 0,
+    "本物入力読取": false,
+    "本物fit": 0,
+    "市場再生": false
+  },
+  "コードSHA256": {
+    "scripts/取得位置と支持/README.md": "7089ca9ed49cf9490230644eba772a64678ea4dfd36dee40a7625823676e77db",
+    "scripts/取得位置と支持/レポート.py": "16b4e9f4d5af4fe264249e5161ab4698be97feeddcd67a16e11b29b7024034bf",
+    "scripts/取得位置と支持/レポートの人工検査.py": "40d9512461d187309484dcda7eb0ea7f51df6f3f44f450eede9d2fc8b914e256",
+    "scripts/取得位置と支持/保存検証.py": "ff00114e24c905fb35f8c2d94e9a2b31ef4552a3d767f150321247e09866bfe9",
+    "scripts/取得位置と支持/保存検証の人工検査.py": "7a90e2759d6d8f772e5a8f913f5289e20693bb565c5f0b357fe797915f3b8aca",
+    "scripts/取得位置と支持/入力.py": "88c5fb667e5e50f5affd7873148923269883a01d0bf260de63c50f0dea1e4ad3",
+    "scripts/取得位置と支持/入力の人工検査.py": "1fe8e8d34cebbfd2fc7c0d0c3fa920e04e5068f4192a851cc31d0e45326bc854",
+    "scripts/取得位置と支持/学習.py": "24263093b016fd35fdfb2c11de9cbb418e13cea31fe16f41c5c71dd4bb75deb2",
+    "scripts/取得位置と支持/学習の人工検査.py": "15964a47d5937890c7174a74f0b4cbea8be511c0b10e6f4f1017cca0b3c70aa7",
+    "scripts/取得位置と支持/学習仕様.md": "1ce727da819795ea44501ee5db385533d6289f402ca13873f0249e608dd2aa35",
+    "scripts/取得位置と支持/検証.py": "5bb078e172c526f17d1d69471a430b7b942ae55b2f3cac1e041214eab389478f",
+    "scripts/取得位置と支持/監査仕様.md": "fdbe2f28ffefe49b431bebeb26933c69ee254c19ed92bf9a4208848851fa40c5"
+  },
+  "実モデル学習剪定": false,
+  "本物計測学習運用": false,
+  "本物原板入力": false
+}

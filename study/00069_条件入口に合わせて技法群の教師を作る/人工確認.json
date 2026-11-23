@@ -1,0 +1,83 @@
+{
+  "試行": 69,
+  "確認日時": "2026-11-06T13:34:46.589428+09:00",
+  "成功": true,
+  "テスト件数": 63,
+  "計測人工": {
+    "全件一致": true,
+    "人工件数": 22,
+    "詳細": [],
+    "固定参照不変": true,
+    "固定参照SHA256": {
+      "scripts/独立追尾回収/計測.py": "26f1c6f846cce9286a87ee1ab54094a38d83c23c4255335c65a807bb7ccd3e01",
+      "scripts/条件発動前の否定/運用.py": "0c107e406dc71531f6d25cf77c245bb96ab0174f6cdff4386645a76ae89c1d9b",
+      "scripts/条件発動前の否定/先着.py": "f6546699516c008e29a6d118a319167807ab6e8747e54bbf0e654990bd09b2eb"
+    },
+    "完全単独再生との比較": "comparison_view全体・条件遷移を含む",
+    "本物入力読取": false,
+    "fit": 0
+  },
+  "教師人工": {
+    "成功": true,
+    "テスト件数": 19
+  },
+  "学習人工": {
+    "成功": true,
+    "テスト件数": 14,
+    "不一致": [],
+    "本物入力読取": false,
+    "本物fit": 0,
+    "対象fitAPI": 5,
+    "旧対照fitAPI": 1,
+    "独立比較子": 4,
+    "市場再生": false
+  },
+  "接続人工": {
+    "成功": true,
+    "テスト件数": 2,
+    "不一致": "",
+    "実入力読取": false,
+    "本物fit": false
+  },
+  "表示人工": {
+    "成功": true,
+    "テスト件数": 6,
+    "実入力読取": false,
+    "fit": 0,
+    "市場再生": false
+  },
+  "監査人工": {
+    "人工成功": true,
+    "照合項目数": 3380,
+    "不一致数": 0,
+    "不一致": [],
+    "fit API数": 2,
+    "人工回帰器数": 8,
+    "分類器fit": 0,
+    "本物入力読取": false,
+    "本物fit": 0,
+    "市場戦略再生": false,
+    "Engineは人工実装側のみ": true
+  },
+  "コードSHA256": {
+    "scripts/条件入口の教師/README.md": "5ab9ce32a082e992f6c0c0adbf987ffa5da0602edf23c0e446b12714272cd0c5",
+    "scripts/条件入口の教師/レポート.py": "7b68a062d5e26ac316965918cfb3ef6e5b93e3cc2358ad1f48c568bd4e691b86",
+    "scripts/条件入口の教師/レポートの人工検査.py": "3e66ebbdf9774f893b063eebe0d184be1d2c115e93017a6b4ae0a007ced71461",
+    "scripts/条件入口の教師/保存検証.py": "87c12d58bc18d9a5796d2153eed69a153feba7c6e93788a6c376c1c6e22837c8",
+    "scripts/条件入口の教師/保存検証の人工検査.py": "5638e7cc19cfbe50710259f8e09ab9dfd2d9b758b48e06a1743449e770a43532",
+    "scripts/条件入口の教師/入力.py": "94f80f9edb5be45332aa7a41760f0a80b9d2ae1899531e5b597a7e80a8a285be",
+    "scripts/条件入口の教師/学習.py": "f0569e4d25834b038caba57929f941367e22e397a64d8306a14406f41fef77de",
+    "scripts/条件入口の教師/学習の人工検査.py": "1fa4c09c4434e70ec69101a1c3e4283e0cdc019f089233f3f794467905bff954",
+    "scripts/条件入口の教師/学習仕様.md": "cc722fa4b6f315047403fa80b1e4f7c171efd5730953cce51c90ca094802eeb4",
+    "scripts/条件入口の教師/接続の人工検査.py": "dd5ab5b0ed9cd0427a68d8c1ff387913d489394fd4ddfd7dac729069ecfccc77",
+    "scripts/条件入口の教師/教師.py": "13efda6a9f2da1bf4eb0a1eae823c788e0397b59f70e7c44eaddc424bc2ebbbf",
+    "scripts/条件入口の教師/教師の人工検査.py": "1064337ad21f9e434431e80df494ed8da30db127ce66959bb6782fe3378fcbec",
+    "scripts/条件入口の教師/検証.py": "7cddcd201d60cb6ba03199ca1f86a1970f8611261591e89389876a41ee933ced",
+    "scripts/条件入口の教師/監査仕様.md": "0daac6fbf97e62b7c27eb1cd28f1801b5bc1b2a7d7fe28ad3b65fbd0a57ad598",
+    "scripts/条件入口の教師/計測.py": "86de02bd98b8c86bc17fe5396fb85823a9458a124c7e62921f5bff9508ac5fcd",
+    "scripts/条件入口の教師/計測の人工検査.py": "9ca7bc5068b4258baf221cc90b3089b1608ed6b02b89c8ac103508d37c983238",
+    "scripts/条件入口の教師/計測仕様.md": "c9a447a565501b457fce77d18f2d29d3d90ddcadbb8080fb0423f5f842c5cea5"
+  },
+  "本物計測学習運用": false,
+  "本物原板入力": false
+}

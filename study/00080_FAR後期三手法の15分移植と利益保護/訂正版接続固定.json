@@ -1,0 +1,25 @@
+{
+  "採用版": 2,
+  "初版正式採用": false,
+  "時計訂正": "Night ExtraAt=USOpen+1800/NightCoreStart=0、Day USOpen=0/ExtraAt=Start+13500/NightCoreStart=0",
+  "条件": "初版から15分時計/保護/費用/三案/入力66場を変更せず、接続時計だけを原実装へ訂正",
+  "接続対象": [
+    "2026-09-21_Day",
+    "2026-09-21_Night"
+  ],
+  "初版条件SHA256": "00e68ebbe6c8c79b22476e3c517de3f5ac54240d8b1a6a32e4102932b65a8772",
+  "入力台帳SHA256": "b939bc91b33fd86e933534c3b991d844b8a0200a5f14710e1bd5004edc1aab42",
+  "本体SHA256": {
+    "scripts/FAR後期15分移植/actual.go": "f7b4e23fc95839150189b6a3a2e53a8996b2fdfde0ffa7c069231dfc2486738c",
+    "scripts/FAR後期15分移植/cmd/batch/main.go": "dc03a124f2f196b033e23c72c963d68a44852b78e41c6e17ee077a4afd1c4f39",
+    "scripts/FAR後期15分移植/cmd/replay/main.go": "54abcb9e62b3d9c200880f71ac1dce6cbeaa1a3e66746ffd6d103b023eb26604",
+    "scripts/FAR後期15分移植/replay.go": "8ade985b170c65183ffe62526d9bc92e6d125ca0e5dcffbf8c913682e813cee6",
+    "scripts/FAR後期15分移植/schedule.go": "fd3b1a977a90de40d9a2f8039f729afb8834d9740a80636113b754589b00c040",
+    "scripts/FAR後期15分移植/seeds.go": "7d967a6b80862091c50022059a67f57cb2491e6189b7dfb448c154a8db5bb886",
+    "scripts/FAR後期15分移植/source.go": "2deb43405d76b6cc92a69545fd610834c88345c9ab5e346df406ae3ae9fbb837",
+    "scripts/FAR後期15分移植/technical.go": "ba63bd64bfaaf74adfc1ab780f627828d8f92783647dbb3ee8e66968ae8082a9",
+    "scripts/FAR後期15分移植/types.go": "cc732505a841de7c277b6cb892a56520e7e4d416337627bf4a43f0e7cd77b808"
+  },
+  "逐次実行ファイルSHA256": "1e42081224f832a61c4487d6961aa7a11dfb94606eb93d25c352c2370021fed0",
+  "並列実行ファイルSHA256": "7ac02283d8529dde87a6519328be650a393c193886aa9634e26f6104b32497b7"
+}
