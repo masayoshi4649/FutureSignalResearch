@@ -1,0 +1,6668 @@
+{
+  "試行": 206,
+  "成功": true,
+  "金融参照": false,
+  "検査点規則": "各商品各場のq0添字 0,n//3,2*n//3,n-1。結果では選ばない。",
+  "実点数": 664,
+  "照合属性": 601584,
+  "切落しと未来価格変更で不変": true,
+  "原入力変更なし": true,
+  "時計の限界": "相手は価格時計prefixであり受信prefixではない。異商品原行番号の大小を先後に使わない。",
+  "Source": {
+    "path": "scripts/指数間純特徴206/実prefix確認206.py",
+    "bytes": 4398,
+    "sha256": "e075d9c6aee52a5d7c3440653c31a027acc659a2649639c5e86cf92507ad6c2a"
+  },
+  "生産核": {
+    "path": "scripts/指数間純特徴206/特徴核.py",
+    "bytes": 8124,
+    "sha256": "839cf2d74c472d55e47546f5833c8a5cc0100ee35d2bda2881caf06231c7677b"
+  },
+  "抽出前固定": {
+    "path": "inputs/00206_両指数の固定端点相対変化/抽出前固定.json.gz",
+    "bytes": 899590,
+    "sha256": "a3ce4fe416379bff01b94c0deec8af7fddaa4bf0db168c3574f710a7a271b73f"
+  },
+  "点別": [
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Day",
+      "q0_index": 0,
+      "line": 669,
+      "time": 1789948020,
+      "自己prefix原行": 669,
+      "相手価格prefix最終原行": 572,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Day",
+      "q0_index": 81,
+      "line": 21467,
+      "time": 1789953607,
+      "自己prefix原行": 21467,
+      "相手価格prefix最終原行": 18532,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Day",
+      "q0_index": 163,
+      "line": 37931,
+      "time": 1789961068,
+      "自己prefix原行": 37931,
+      "相手価格prefix最終原行": 32830,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Day",
+      "q0_index": 244,
+      "line": 49285,
+      "time": 1789969142,
+      "自己prefix原行": 49285,
+      "相手価格prefix最終原行": 42156,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Day",
+      "q0_index": 0,
+      "line": 34744,
+      "time": 1789962600.0,
+      "自己prefix原行": 34744,
+      "相手価格prefix最終原行": 40101,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Day",
+      "q0_index": 14,
+      "line": 35592,
+      "time": 1789963441.0,
+      "自己prefix原行": 35592,
+      "相手価格prefix最終原行": 41533,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Day",
+      "q0_index": 28,
+      "line": 43211,
+      "time": 1789969691.0,
+      "自己prefix原行": 43211,
+      "相手価格prefix最終原行": 50639,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Day",
+      "q0_index": 42,
+      "line": 46031,
+      "time": 1789971240.0,
+      "自己prefix原行": 46031,
+      "相手価格prefix最終原行": 53735,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Night",
+      "q0_index": 0,
+      "line": 836,
+      "time": 1789977727,
+      "自己prefix原行": 836,
+      "相手価格prefix最終原行": 879,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Night",
+      "q0_index": 157,
+      "line": 23305,
+      "time": 1789991821,
+      "自己prefix原行": 23305,
+      "相手価格prefix最終原行": 24993,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Night",
+      "q0_index": 314,
+      "line": 53104,
+      "time": 1790003581,
+      "自己prefix原行": 53104,
+      "相手価格prefix最終原行": 54277,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Night",
+      "q0_index": 471,
+      "line": 78538,
+      "time": 1790020261,
+      "自己prefix原行": 78538,
+      "相手価格prefix最終原行": 80368,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Night",
+      "q0_index": 0,
+      "line": 2871,
+      "time": 1789978506.0,
+      "自己prefix原行": 2871,
+      "相手価格prefix最終原行": 2954,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Night",
+      "q0_index": 72,
+      "line": 38083,
+      "time": 1789997950.0,
+      "自己prefix原行": 38083,
+      "相手価格prefix最終原行": 36188,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Night",
+      "q0_index": 144,
+      "line": 55415,
+      "time": 1790004129.0,
+      "自己prefix原行": 55415,
+      "相手価格prefix最終原行": 54387,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-21_Night",
+      "q0_index": 216,
+      "line": 81939,
+      "time": 1790020920.0,
+      "自己prefix原行": 81939,
+      "相手価格prefix最終原行": 79852,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Day",
+      "q0_index": 0,
+      "line": 1037,
+      "time": 1790034423,
+      "自己prefix原行": 1037,
+      "相手価格prefix最終原行": 718,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Day",
+      "q0_index": 100,
+      "line": 22220,
+      "time": 1790040796,
+      "自己prefix原行": 22220,
+      "相手価格prefix最終原行": 17893,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Day",
+      "q0_index": 200,
+      "line": 41129,
+      "time": 1790049131,
+      "自己prefix原行": 41129,
+      "相手価格prefix最終原行": 33700,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Day",
+      "q0_index": 299,
+      "line": 57219,
+      "time": 1790055572,
+      "自己prefix原行": 57219,
+      "相手価格prefix最終原行": 46991,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Day",
+      "q0_index": 0,
+      "line": 1984,
+      "time": 1790035200.0,
+      "自己prefix原行": 1984,
+      "相手価格prefix最終原行": 2637,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Day",
+      "q0_index": 53,
+      "line": 30576,
+      "time": 1790047206.0,
+      "自己prefix原行": 30576,
+      "相手価格prefix最終原行": 37473,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Day",
+      "q0_index": 107,
+      "line": 41907,
+      "time": 1790053512.0,
+      "自己prefix原行": 41907,
+      "相手価格prefix最終原行": 51055,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Day",
+      "q0_index": 160,
+      "line": 54528,
+      "time": 1790058482.0,
+      "自己prefix原行": 54528,
+      "相手価格prefix最終原行": 65939,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Night",
+      "q0_index": 0,
+      "line": 1084,
+      "time": 1790064120,
+      "自己prefix原行": 1084,
+      "相手価格prefix最終原行": 966,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Night",
+      "q0_index": 166,
+      "line": 43913,
+      "time": 1790077683,
+      "自己prefix原行": 43913,
+      "相手価格prefix最終原行": 43210,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Night",
+      "q0_index": 332,
+      "line": 83270,
+      "time": 1790089391,
+      "自己prefix原行": 83270,
+      "相手価格prefix最終原行": 81272,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Night",
+      "q0_index": 498,
+      "line": 118157,
+      "time": 1790106844,
+      "自己prefix原行": 118157,
+      "相手価格prefix最終原行": 118312,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Night",
+      "q0_index": 0,
+      "line": 3976,
+      "time": 1790064900.0,
+      "自己prefix原行": 3976,
+      "相手価格prefix最終原行": 4102,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Night",
+      "q0_index": 127,
+      "line": 48216,
+      "time": 1790079926.0,
+      "自己prefix原行": 48216,
+      "相手価格prefix最終原行": 49119,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Night",
+      "q0_index": 254,
+      "line": 87795,
+      "time": 1790091300.0,
+      "自己prefix原行": 87795,
+      "相手価格prefix最終原行": 89556,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-22_Night",
+      "q0_index": 380,
+      "line": 119845,
+      "time": 1790107391.0,
+      "自己prefix原行": 119845,
+      "相手価格prefix最終原行": 119452,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Day",
+      "q0_index": 0,
+      "line": 1043,
+      "time": 1790120824,
+      "自己prefix原行": 1043,
+      "相手価格prefix最終原行": 824,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Day",
+      "q0_index": 88,
+      "line": 17422,
+      "time": 1790126220,
+      "自己prefix原行": 17422,
+      "相手価格prefix最終原行": 15156,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Day",
+      "q0_index": 177,
+      "line": 34647,
+      "time": 1790134143,
+      "自己prefix原行": 34647,
+      "相手価格prefix最終原行": 30376,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Day",
+      "q0_index": 265,
+      "line": 47722,
+      "time": 1790141943,
+      "自己prefix原行": 47722,
+      "相手価格prefix最終原行": 42316,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Day",
+      "q0_index": 0,
+      "line": 3090,
+      "time": 1790121723.0,
+      "自己prefix原行": 3090,
+      "相手価格prefix最終原行": 3662,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Day",
+      "q0_index": 30,
+      "line": 12525,
+      "time": 1790125320.0,
+      "自己prefix原行": 12525,
+      "相手価格prefix最終原行": 14759,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Day",
+      "q0_index": 61,
+      "line": 37266,
+      "time": 1790138900.0,
+      "自己prefix原行": 37266,
+      "相手価格prefix最終原行": 42258,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Day",
+      "q0_index": 91,
+      "line": 46912,
+      "time": 1790144357.0,
+      "自己prefix原行": 46912,
+      "相手価格prefix最終原行": 52207,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Night",
+      "q0_index": 0,
+      "line": 738,
+      "time": 1790150521,
+      "自己prefix原行": 738,
+      "相手価格prefix最終原行": 716,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Night",
+      "q0_index": 174,
+      "line": 29782,
+      "time": 1790164808,
+      "自己prefix原行": 29782,
+      "相手価格prefix最終原行": 30424,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Night",
+      "q0_index": 348,
+      "line": 77377,
+      "time": 1790177968,
+      "自己prefix原行": 77377,
+      "相手価格prefix最終原行": 77448,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Night",
+      "q0_index": 522,
+      "line": 117449,
+      "time": 1790193260,
+      "自己prefix原行": 117449,
+      "相手価格prefix最終原行": 118495,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Night",
+      "q0_index": 0,
+      "line": 15737,
+      "time": 1790157481.0,
+      "自己prefix原行": 15737,
+      "相手価格prefix最終原行": 15311,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Night",
+      "q0_index": 86,
+      "line": 61847,
+      "time": 1790174126.0,
+      "自己prefix原行": 61847,
+      "相手価格prefix最終原行": 61939,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Night",
+      "q0_index": 172,
+      "line": 84502,
+      "time": 1790180361.0,
+      "自己prefix原行": 84502,
+      "相手価格prefix最終原行": 84119,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-23_Night",
+      "q0_index": 257,
+      "line": 119722,
+      "time": 1790193690.0,
+      "自己prefix原行": 119722,
+      "相手価格prefix最終原行": 118852,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Day",
+      "q0_index": 0,
+      "line": 1524,
+      "time": 1790207222,
+      "自己prefix原行": 1524,
+      "相手価格prefix最終原行": 1238,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Day",
+      "q0_index": 116,
+      "line": 48246,
+      "time": 1790214191,
+      "自己prefix原行": 48246,
+      "相手価格prefix最終原行": 45157,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Day",
+      "q0_index": 232,
+      "line": 77163,
+      "time": 1790221380,
+      "自己prefix原行": 77163,
+      "相手価格prefix最終原行": 71170,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Day",
+      "q0_index": 348,
+      "line": 105627,
+      "time": 1790228340,
+      "自己prefix原行": 105627,
+      "相手価格prefix最終原行": 96194,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Day",
+      "q0_index": 0,
+      "line": 4112,
+      "time": 1790208000.0,
+      "自己prefix原行": 4112,
+      "相手価格prefix最終原行": 4490,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Day",
+      "q0_index": 124,
+      "line": 52423,
+      "time": 1790215500.0,
+      "自己prefix原行": 52423,
+      "相手価格prefix最終原行": 56444,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Day",
+      "q0_index": 248,
+      "line": 79144,
+      "time": 1790223362.0,
+      "自己prefix原行": 79144,
+      "相手価格prefix最終原行": 86220,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Day",
+      "q0_index": 371,
+      "line": 109323,
+      "time": 1790231280.0,
+      "自己prefix原行": 109323,
+      "相手価格prefix最終原行": 120288,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Night",
+      "q0_index": 0,
+      "line": 1358,
+      "time": 1790236920,
+      "自己prefix原行": 1358,
+      "相手価格prefix最終原行": 1560,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Night",
+      "q0_index": 223,
+      "line": 57438,
+      "time": 1790251398,
+      "自己prefix原行": 57438,
+      "相手価格prefix最終原行": 54678,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Night",
+      "q0_index": 446,
+      "line": 115677,
+      "time": 1790265364,
+      "自己prefix原行": 115677,
+      "相手価格prefix最終原行": 109593,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Night",
+      "q0_index": 668,
+      "line": 171916,
+      "time": 1790279594,
+      "自己prefix原行": 171916,
+      "相手価格prefix最終原行": 164061,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Night",
+      "q0_index": 0,
+      "line": 5773,
+      "time": 1790237700.0,
+      "自己prefix原行": 5773,
+      "相手価格prefix最終原行": 5716,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Night",
+      "q0_index": 188,
+      "line": 68191,
+      "time": 1790255523.0,
+      "自己prefix原行": 68191,
+      "相手価格prefix最終原行": 71465,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Night",
+      "q0_index": 376,
+      "line": 124902,
+      "time": 1790268361.0,
+      "自己prefix原行": 124902,
+      "相手価格prefix最終原行": 131050,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-24_Night",
+      "q0_index": 563,
+      "line": 167826,
+      "time": 1790281925.0,
+      "自己prefix原行": 167826,
+      "相手価格prefix最終原行": 176094,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Day",
+      "q0_index": 0,
+      "line": 1112,
+      "time": 1790293621,
+      "自己prefix原行": 1112,
+      "相手価格prefix最終原行": 1132,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Day",
+      "q0_index": 117,
+      "line": 42305,
+      "time": 1790300640,
+      "自己prefix原行": 42305,
+      "相手価格prefix最終原行": 41852,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Day",
+      "q0_index": 234,
+      "line": 67426,
+      "time": 1790307787,
+      "自己prefix原行": 67426,
+      "相手価格prefix最終原行": 66621,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Day",
+      "q0_index": 350,
+      "line": 93229,
+      "time": 1790314741,
+      "自己prefix原行": 93229,
+      "相手価格prefix最終原行": 91890,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Day",
+      "q0_index": 0,
+      "line": 3665,
+      "time": 1790294400.0,
+      "自己prefix原行": 3665,
+      "相手価格prefix最終原行": 3384,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Day",
+      "q0_index": 127,
+      "line": 48346,
+      "time": 1790302020.0,
+      "自己prefix原行": 48346,
+      "相手価格prefix最終原行": 48865,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Day",
+      "q0_index": 255,
+      "line": 75459,
+      "time": 1790309948.0,
+      "自己prefix原行": 75459,
+      "相手価格prefix最終原行": 76581,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Day",
+      "q0_index": 382,
+      "line": 103483,
+      "time": 1790317680.0,
+      "自己prefix原行": 103483,
+      "相手価格prefix最終原行": 104275,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Night",
+      "q0_index": 0,
+      "line": 1139,
+      "time": 1790323320,
+      "自己prefix原行": 1139,
+      "相手価格prefix最終原行": 1141,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Night",
+      "q0_index": 185,
+      "line": 38114,
+      "time": 1790336494,
+      "自己prefix原行": 38114,
+      "相手価格prefix最終原行": 36184,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Night",
+      "q0_index": 371,
+      "line": 90913,
+      "time": 1790348722,
+      "自己prefix原行": 90913,
+      "相手価格prefix最終原行": 83691,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Night",
+      "q0_index": 556,
+      "line": 142916,
+      "time": 1790366075,
+      "自己prefix原行": 142916,
+      "相手価格prefix最終原行": 135215,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Night",
+      "q0_index": 0,
+      "line": 4554,
+      "time": 1790324103.0,
+      "自己prefix原行": 4554,
+      "相手価格prefix最終原行": 4624,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Night",
+      "q0_index": 149,
+      "line": 53212,
+      "time": 1790342523.0,
+      "自己prefix原行": 53212,
+      "相手価格prefix最終原行": 57103,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Night",
+      "q0_index": 299,
+      "line": 96399,
+      "time": 1790352000.0,
+      "自己prefix原行": 96399,
+      "相手価格prefix最終原行": 104828,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-25_Night",
+      "q0_index": 448,
+      "line": 137599,
+      "time": 1790367680.0,
+      "自己prefix原行": 137599,
+      "相手価格prefix最終原行": 145250,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Day",
+      "q0_index": 0,
+      "line": 1296,
+      "time": 1790552824,
+      "自己prefix原行": 1296,
+      "相手価格prefix最終原行": 1221,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Day",
+      "q0_index": 117,
+      "line": 50659,
+      "time": 1790559844,
+      "自己prefix原行": 50659,
+      "相手価格prefix最終原行": 46622,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Day",
+      "q0_index": 234,
+      "line": 85001,
+      "time": 1790566980,
+      "自己prefix原行": 85001,
+      "相手価格prefix最終原行": 77492,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Day",
+      "q0_index": 350,
+      "line": 115823,
+      "time": 1790573947,
+      "自己prefix原行": 115823,
+      "相手価格prefix最終原行": 106148,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Day",
+      "q0_index": 0,
+      "line": 4409,
+      "time": 1790553600.0,
+      "自己prefix原行": 4409,
+      "相手価格prefix最終原行": 4391,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Day",
+      "q0_index": 126,
+      "line": 54368,
+      "time": 1790561222.0,
+      "自己prefix原行": 54368,
+      "相手価格prefix最終原行": 59394,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Day",
+      "q0_index": 253,
+      "line": 87129,
+      "time": 1790569200.0,
+      "自己prefix原行": 87129,
+      "相手価格prefix最終原行": 95891,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Day",
+      "q0_index": 379,
+      "line": 122898,
+      "time": 1790576880.0,
+      "自己prefix原行": 122898,
+      "相手価格prefix最終原行": 131734,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Night",
+      "q0_index": 0,
+      "line": 1353,
+      "time": 1790582520,
+      "自己prefix原行": 1353,
+      "相手価格prefix最終原行": 1317,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Night",
+      "q0_index": 204,
+      "line": 51066,
+      "time": 1790596650,
+      "自己prefix原行": 51066,
+      "相手価格prefix最終原行": 49009,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Night",
+      "q0_index": 408,
+      "line": 109749,
+      "time": 1790609117,
+      "自己prefix原行": 109749,
+      "相手価格prefix最終原行": 106167,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Night",
+      "q0_index": 611,
+      "line": 168356,
+      "time": 1790625250,
+      "自己prefix原行": 168356,
+      "相手価格prefix最終原行": 161149,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Night",
+      "q0_index": 0,
+      "line": 5336,
+      "time": 1790583305.0,
+      "自己prefix原行": 5336,
+      "相手価格prefix最終原行": 5221,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Night",
+      "q0_index": 176,
+      "line": 48181,
+      "time": 1790596279.0,
+      "自己prefix原行": 48181,
+      "相手価格prefix最終原行": 50259,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Night",
+      "q0_index": 352,
+      "line": 105368,
+      "time": 1790608921.0,
+      "自己prefix原行": 105368,
+      "相手価格prefix最終原行": 108953,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-28_Night",
+      "q0_index": 527,
+      "line": 162617,
+      "time": 1790625667.0,
+      "自己prefix原行": 162617,
+      "相手価格prefix最終原行": 169773,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Day",
+      "q0_index": 0,
+      "line": 1242,
+      "time": 1790639227,
+      "自己prefix原行": 1242,
+      "相手価格prefix最終原行": 1266,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Day",
+      "q0_index": 117,
+      "line": 51460,
+      "time": 1790646245,
+      "自己prefix原行": 51460,
+      "相手価格prefix最終原行": 48650,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Day",
+      "q0_index": 235,
+      "line": 87102,
+      "time": 1790653328,
+      "自己prefix原行": 87102,
+      "相手価格prefix最終原行": 80822,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Day",
+      "q0_index": 352,
+      "line": 122137,
+      "time": 1790660340,
+      "自己prefix原行": 122137,
+      "相手価格prefix最終原行": 111709,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Day",
+      "q0_index": 0,
+      "line": 4303,
+      "time": 1790640000.0,
+      "自己prefix原行": 4303,
+      "相手価格prefix最終原行": 4137,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Day",
+      "q0_index": 129,
+      "line": 56328,
+      "time": 1790647740.0,
+      "自己prefix原行": 56328,
+      "相手価格prefix最終原行": 60268,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Day",
+      "q0_index": 258,
+      "line": 91126,
+      "time": 1790655540.0,
+      "自己prefix原行": 91126,
+      "相手価格prefix最終原行": 98437,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Day",
+      "q0_index": 386,
+      "line": 128047,
+      "time": 1790663280.0,
+      "自己prefix原行": 128047,
+      "相手価格prefix最終原行": 140111,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Night",
+      "q0_index": 0,
+      "line": 1450,
+      "time": 1790668928,
+      "自己prefix原行": 1450,
+      "相手価格prefix最終原行": 1267,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Night",
+      "q0_index": 195,
+      "line": 48271,
+      "time": 1790684301,
+      "自己prefix原行": 48271,
+      "相手価格prefix最終原行": 45884,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Night",
+      "q0_index": 391,
+      "line": 108093,
+      "time": 1790696642,
+      "自己prefix原行": 108093,
+      "相手価格prefix最終原行": 100550,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Night",
+      "q0_index": 586,
+      "line": 158817,
+      "time": 1790711642,
+      "自己prefix原行": 158817,
+      "相手価格prefix最終原行": 148172,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Night",
+      "q0_index": 0,
+      "line": 4368,
+      "time": 1790669702.0,
+      "自己prefix原行": 4368,
+      "相手価格prefix最終原行": 4777,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Night",
+      "q0_index": 177,
+      "line": 50043,
+      "time": 1790685732.0,
+      "自己prefix原行": 50043,
+      "相手価格prefix最終原行": 52947,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Night",
+      "q0_index": 354,
+      "line": 103822,
+      "time": 1790697301.0,
+      "自己prefix原行": 103822,
+      "相手価格prefix最終原行": 111874,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-29_Night",
+      "q0_index": 530,
+      "line": 150188,
+      "time": 1790712190.0,
+      "自己prefix原行": 150188,
+      "相手価格prefix最終原行": 160507,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Day",
+      "q0_index": 0,
+      "line": 1469,
+      "time": 1790725620,
+      "自己prefix原行": 1469,
+      "相手価格prefix最終原行": 1233,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Day",
+      "q0_index": 117,
+      "line": 44253,
+      "time": 1790732647,
+      "自己prefix原行": 44253,
+      "相手価格prefix最終原行": 42084,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Day",
+      "q0_index": 235,
+      "line": 78164,
+      "time": 1790739726,
+      "自己prefix原行": 78164,
+      "相手価格prefix最終原行": 73423,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Day",
+      "q0_index": 352,
+      "line": 112249,
+      "time": 1790746749,
+      "自己prefix原行": 112249,
+      "相手価格prefix最終原行": 104035,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Day",
+      "q0_index": 0,
+      "line": 4215,
+      "time": 1790726400.0,
+      "自己prefix原行": 4215,
+      "相手価格prefix最終原行": 3991,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Day",
+      "q0_index": 127,
+      "line": 49375,
+      "time": 1790734080.0,
+      "自己prefix原行": 49375,
+      "相手価格prefix最終原行": 52392,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Day",
+      "q0_index": 255,
+      "line": 83746,
+      "time": 1790742001.0,
+      "自己prefix原行": 83746,
+      "相手価格prefix最終原行": 89331,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Day",
+      "q0_index": 382,
+      "line": 118362,
+      "time": 1790749680.0,
+      "自己prefix原行": 118362,
+      "相手価格prefix最終原行": 127890,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Night",
+      "q0_index": 0,
+      "line": 1299,
+      "time": 1790755320,
+      "自己prefix原行": 1299,
+      "相手価格prefix最終原行": 1317,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Night",
+      "q0_index": 211,
+      "line": 45523,
+      "time": 1790768587,
+      "自己prefix原行": 45523,
+      "相手価格prefix最終原行": 47775,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Night",
+      "q0_index": 423,
+      "line": 112834,
+      "time": 1790781665,
+      "自己prefix原行": 112834,
+      "相手価格prefix最終原行": 116291,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Night",
+      "q0_index": 634,
+      "line": 163381,
+      "time": 1790798048,
+      "自己prefix原行": 163381,
+      "相手価格prefix最終原行": 171064,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Night",
+      "q0_index": 0,
+      "line": 5098,
+      "time": 1790756103.0,
+      "自己prefix原行": 5098,
+      "相手価格prefix最終原行": 5122,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Night",
+      "q0_index": 200,
+      "line": 63385,
+      "time": 1790772181.0,
+      "自己prefix原行": 63385,
+      "相手価格prefix最終原行": 60520,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Night",
+      "q0_index": 400,
+      "line": 130467,
+      "time": 1790784840.0,
+      "自己prefix原行": 130467,
+      "相手価格prefix最終原行": 126506,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-09-30_Night",
+      "q0_index": 600,
+      "line": 174823,
+      "time": 1790798703.0,
+      "自己prefix原行": 174823,
+      "相手価格prefix最終原行": 167023,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Day",
+      "q0_index": 0,
+      "line": 1283,
+      "time": 1790812020,
+      "自己prefix原行": 1283,
+      "相手価格prefix最終原行": 1195,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Day",
+      "q0_index": 117,
+      "line": 50166,
+      "time": 1790819040,
+      "自己prefix原行": 50166,
+      "相手価格prefix最終原行": 49051,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Day",
+      "q0_index": 235,
+      "line": 84371,
+      "time": 1790826122,
+      "自己prefix原行": 84371,
+      "相手価格prefix最終原行": 79400,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Day",
+      "q0_index": 352,
+      "line": 119788,
+      "time": 1790833146,
+      "自己prefix原行": 119788,
+      "相手価格prefix最終原行": 109669,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Day",
+      "q0_index": 0,
+      "line": 4447,
+      "time": 1790812800.0,
+      "自己prefix原行": 4447,
+      "相手価格prefix最終原行": 4375,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Day",
+      "q0_index": 126,
+      "line": 57389,
+      "time": 1790820480.0,
+      "自己prefix原行": 57389,
+      "相手価格prefix最終原行": 59436,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Day",
+      "q0_index": 252,
+      "line": 90091,
+      "time": 1790828460.0,
+      "自己prefix原行": 90091,
+      "相手価格prefix最終原行": 96612,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Day",
+      "q0_index": 378,
+      "line": 123150,
+      "time": 1790836080.0,
+      "自己prefix原行": 123150,
+      "相手価格prefix最終原行": 134760,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Night",
+      "q0_index": 0,
+      "line": 2182,
+      "time": 1790841721,
+      "自己prefix原行": 2182,
+      "相手価格prefix最終原行": 1638,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Night",
+      "q0_index": 229,
+      "line": 66123,
+      "time": 1790856004,
+      "自己prefix原行": 66123,
+      "相手価格prefix最終原行": 67693,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Night",
+      "q0_index": 458,
+      "line": 146446,
+      "time": 1790870167,
+      "自己prefix原行": 146446,
+      "相手価格prefix最終原行": 149678,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Night",
+      "q0_index": 686,
+      "line": 204477,
+      "time": 1790884450,
+      "自己prefix原行": 204477,
+      "相手価格prefix最終原行": 210420,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Night",
+      "q0_index": 0,
+      "line": 6664,
+      "time": 1790842500.0,
+      "自己prefix原行": 6664,
+      "相手価格prefix最終原行": 7221,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Night",
+      "q0_index": 191,
+      "line": 77581,
+      "time": 1790858351.0,
+      "自己prefix原行": 77581,
+      "相手価格prefix最終原行": 75415,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Night",
+      "q0_index": 382,
+      "line": 153652,
+      "time": 1790870880.0,
+      "自己prefix原行": 153652,
+      "相手価格prefix最終原行": 150843,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-01_Night",
+      "q0_index": 572,
+      "line": 213494,
+      "time": 1790885404.0,
+      "自己prefix原行": 213494,
+      "相手価格prefix最終原行": 207335,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Day",
+      "q0_index": 0,
+      "line": 1711,
+      "time": 1790898420,
+      "自己prefix原行": 1711,
+      "相手価格prefix最終原行": 1283,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Day",
+      "q0_index": 117,
+      "line": 50840,
+      "time": 1790905440,
+      "自己prefix原行": 50840,
+      "相手価格prefix最終原行": 48840,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Day",
+      "q0_index": 235,
+      "line": 83694,
+      "time": 1790912536,
+      "自己prefix原行": 83694,
+      "相手価格prefix最終原行": 79741,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Day",
+      "q0_index": 352,
+      "line": 117178,
+      "time": 1790919540,
+      "自己prefix原行": 117178,
+      "相手価格prefix最終原行": 109951,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Day",
+      "q0_index": 0,
+      "line": 4678,
+      "time": 1790899200.0,
+      "自己prefix原行": 4678,
+      "相手価格prefix最終原行": 5434,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Day",
+      "q0_index": 127,
+      "line": 56912,
+      "time": 1790906880.0,
+      "自己prefix原行": 56912,
+      "相手価格prefix最終原行": 59727,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Day",
+      "q0_index": 254,
+      "line": 89740,
+      "time": 1790914625.0,
+      "自己prefix原行": 89740,
+      "相手価格prefix最終原行": 94702,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Day",
+      "q0_index": 381,
+      "line": 122576,
+      "time": 1790922480.0,
+      "自己prefix原行": 122576,
+      "相手価格prefix最終原行": 130761,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Night",
+      "q0_index": 0,
+      "line": 1641,
+      "time": 1790928122,
+      "自己prefix原行": 1641,
+      "相手価格prefix最終原行": 1545,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Night",
+      "q0_index": 222,
+      "line": 56160,
+      "time": 1790942233,
+      "自己prefix原行": 56160,
+      "相手価格prefix最終原行": 58000,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Night",
+      "q0_index": 445,
+      "line": 128263,
+      "time": 1790955601,
+      "自己prefix原行": 128263,
+      "相手価格prefix最終原行": 131247,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Night",
+      "q0_index": 667,
+      "line": 173394,
+      "time": 1790970869,
+      "自己prefix原行": 173394,
+      "相手価格prefix最終原行": 182358,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Night",
+      "q0_index": 0,
+      "line": 6138,
+      "time": 1790928903.0,
+      "自己prefix原行": 6138,
+      "相手価格prefix最終原行": 6286,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Night",
+      "q0_index": 178,
+      "line": 73707,
+      "time": 1790945641.0,
+      "自己prefix原行": 73707,
+      "相手価格prefix最終原行": 71653,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Night",
+      "q0_index": 356,
+      "line": 138196,
+      "time": 1790957041.0,
+      "自己prefix原行": 138196,
+      "相手価格prefix最終原行": 134902,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-02_Night",
+      "q0_index": 533,
+      "line": 184621,
+      "time": 1790971925.0,
+      "自己prefix原行": 184621,
+      "相手価格prefix最終原行": 175393,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "q0_index": 0,
+      "line": 765,
+      "time": 1791157621,
+      "自己prefix原行": 765,
+      "相手価格prefix最終原行": 800,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "q0_index": 117,
+      "line": 45439,
+      "time": 1791164640,
+      "自己prefix原行": 45439,
+      "相手価格prefix最終原行": 41800,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "q0_index": 235,
+      "line": 73979,
+      "time": 1791171720,
+      "自己prefix原行": 73979,
+      "相手価格prefix最終原行": 68097,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "q0_index": 352,
+      "line": 106223,
+      "time": 1791178740,
+      "自己prefix原行": 106223,
+      "相手価格prefix最終原行": 96341,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Day",
+      "q0_index": 0,
+      "line": 3756,
+      "time": 1791158400.0,
+      "自己prefix原行": 3756,
+      "相手価格prefix最終原行": 3454,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Day",
+      "q0_index": 123,
+      "line": 47258,
+      "time": 1791165900.0,
+      "自己prefix原行": 47258,
+      "相手価格prefix最終原行": 51697,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Day",
+      "q0_index": 247,
+      "line": 78759,
+      "time": 1791174183.0,
+      "自己prefix原行": 78759,
+      "相手価格prefix最終原行": 85803,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Day",
+      "q0_index": 370,
+      "line": 107689,
+      "time": 1791181680.0,
+      "自己prefix原行": 107689,
+      "相手価格prefix最終原行": 119183,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Night",
+      "q0_index": 0,
+      "line": 1490,
+      "time": 1791187327,
+      "自己prefix原行": 1490,
+      "相手価格prefix最終原行": 1452,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Night",
+      "q0_index": 209,
+      "line": 49444,
+      "time": 1791201860,
+      "自己prefix原行": 49444,
+      "相手価格prefix最終原行": 55418,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Night",
+      "q0_index": 418,
+      "line": 102980,
+      "time": 1791215673,
+      "自己prefix原行": 102980,
+      "相手価格prefix最終原行": 113799,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Night",
+      "q0_index": 626,
+      "line": 131369,
+      "time": 1791230065,
+      "自己prefix原行": 131369,
+      "相手価格prefix最終原行": 146989,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Night",
+      "q0_index": 0,
+      "line": 5217,
+      "time": 1791188100.0,
+      "自己prefix原行": 5217,
+      "相手価格prefix最終原行": 5328,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Night",
+      "q0_index": 167,
+      "line": 60990,
+      "time": 1791203606.0,
+      "自己prefix原行": 60990,
+      "相手価格prefix最終原行": 54544,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Night",
+      "q0_index": 335,
+      "line": 106509,
+      "time": 1791213729.0,
+      "自己prefix原行": 106509,
+      "相手価格prefix最終原行": 96278,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-05_Night",
+      "q0_index": 502,
+      "line": 148713,
+      "time": 1791230460.0,
+      "自己prefix原行": 148713,
+      "相手価格prefix最終原行": 132917,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Day",
+      "q0_index": 0,
+      "line": 1408,
+      "time": 1791244020,
+      "自己prefix原行": 1408,
+      "相手価格prefix最終原行": 1377,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Day",
+      "q0_index": 117,
+      "line": 46145,
+      "time": 1791251049,
+      "自己prefix原行": 46145,
+      "相手価格prefix最終原行": 42794,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Day",
+      "q0_index": 235,
+      "line": 74482,
+      "time": 1791258120,
+      "自己prefix原行": 74482,
+      "相手価格prefix最終原行": 69278,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Day",
+      "q0_index": 352,
+      "line": 103930,
+      "time": 1791265153,
+      "自己prefix原行": 103930,
+      "相手価格prefix最終原行": 95999,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Day",
+      "q0_index": 0,
+      "line": 4972,
+      "time": 1791244860.0,
+      "自己prefix原行": 4972,
+      "相手価格prefix最終原行": 4841,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Day",
+      "q0_index": 125,
+      "line": 49513,
+      "time": 1791252420.0,
+      "自己prefix原行": 49513,
+      "相手価格prefix最終原行": 53593,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Day",
+      "q0_index": 251,
+      "line": 79005,
+      "time": 1791260401.0,
+      "自己prefix原行": 79005,
+      "相手価格prefix最終原行": 85723,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Day",
+      "q0_index": 376,
+      "line": 107724,
+      "time": 1791268080.0,
+      "自己prefix原行": 107724,
+      "相手価格prefix最終原行": 115918,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Night",
+      "q0_index": 0,
+      "line": 1248,
+      "time": 1791273721,
+      "自己prefix原行": 1248,
+      "相手価格prefix最終原行": 1449,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Night",
+      "q0_index": 189,
+      "line": 33747,
+      "time": 1791286460,
+      "自己prefix原行": 33747,
+      "相手価格prefix最終原行": 40840,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Night",
+      "q0_index": 378,
+      "line": 74477,
+      "time": 1791298269,
+      "自己prefix原行": 74477,
+      "相手価格prefix最終原行": 85197,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Night",
+      "q0_index": 567,
+      "line": 111207,
+      "time": 1791316466,
+      "自己prefix原行": 111207,
+      "相手価格prefix最終原行": 128697,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Night",
+      "q0_index": 0,
+      "line": 4753,
+      "time": 1791274500.0,
+      "自己prefix原行": 4753,
+      "相手価格prefix最終原行": 4035,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Night",
+      "q0_index": 153,
+      "line": 33643,
+      "time": 1791283922.0,
+      "自己prefix原行": 33643,
+      "相手価格prefix最終原行": 27624,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Night",
+      "q0_index": 306,
+      "line": 77240,
+      "time": 1791296462.0,
+      "自己prefix原行": 77240,
+      "相手価格prefix最終原行": 67367,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-06_Night",
+      "q0_index": 458,
+      "line": 122706,
+      "time": 1791313039.0,
+      "自己prefix原行": 122706,
+      "相手価格prefix最終原行": 106115,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "q0_index": 0,
+      "line": 1280,
+      "time": 1791330420,
+      "自己prefix原行": 1280,
+      "相手価格prefix最終原行": 1235,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "q0_index": 117,
+      "line": 44481,
+      "time": 1791337440,
+      "自己prefix原行": 44481,
+      "相手価格prefix最終原行": 40529,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "q0_index": 235,
+      "line": 73317,
+      "time": 1791344525,
+      "自己prefix原行": 73317,
+      "相手価格prefix最終原行": 66400,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "q0_index": 352,
+      "line": 102199,
+      "time": 1791351542,
+      "自己prefix原行": 102199,
+      "相手価格prefix最終原行": 90121,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Day",
+      "q0_index": 0,
+      "line": 3777,
+      "time": 1791331200.0,
+      "自己prefix原行": 3777,
+      "相手価格prefix最終原行": 3849,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Day",
+      "q0_index": 121,
+      "line": 45881,
+      "time": 1791338640.0,
+      "自己prefix原行": 45881,
+      "相手価格prefix最終原行": 50428,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Day",
+      "q0_index": 242,
+      "line": 75672,
+      "time": 1791347222.0,
+      "自己prefix原行": 75672,
+      "相手価格prefix最終原行": 84078,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Day",
+      "q0_index": 362,
+      "line": 100605,
+      "time": 1791354480.0,
+      "自己prefix原行": 100605,
+      "相手価格prefix最終原行": 114122,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Night",
+      "q0_index": 0,
+      "line": 733,
+      "time": 1791360122,
+      "自己prefix原行": 733,
+      "相手価格prefix最終原行": 803,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Night",
+      "q0_index": 221,
+      "line": 44306,
+      "time": 1791373860,
+      "自己prefix原行": 44306,
+      "相手価格prefix最終原行": 42819,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Night",
+      "q0_index": 442,
+      "line": 104662,
+      "time": 1791387127,
+      "自己prefix原行": 104662,
+      "相手価格prefix最終原行": 99255,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Night",
+      "q0_index": 662,
+      "line": 142345,
+      "time": 1791402844,
+      "自己prefix原行": 142345,
+      "相手価格prefix最終原行": 135178,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Night",
+      "q0_index": 0,
+      "line": 4301,
+      "time": 1791360903.0,
+      "自己prefix原行": 4301,
+      "相手価格prefix最終原行": 4324,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Night",
+      "q0_index": 148,
+      "line": 48105,
+      "time": 1791375383.0,
+      "自己prefix原行": 48105,
+      "相手価格prefix最終原行": 49641,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Night",
+      "q0_index": 296,
+      "line": 88391,
+      "time": 1791384789.0,
+      "自己prefix原行": 88391,
+      "相手価格prefix最終原行": 94007,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-07_Night",
+      "q0_index": 443,
+      "line": 133903,
+      "time": 1791402183.0,
+      "自己prefix原行": 133903,
+      "相手価格prefix最終原行": 141072,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Day",
+      "q0_index": 0,
+      "line": 825,
+      "time": 1791416820,
+      "自己prefix原行": 825,
+      "相手価格prefix最終原行": 724,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Day",
+      "q0_index": 116,
+      "line": 48046,
+      "time": 1791423780,
+      "自己prefix原行": 48046,
+      "相手価格prefix最終原行": 45213,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Day",
+      "q0_index": 232,
+      "line": 82323,
+      "time": 1791430981,
+      "自己prefix原行": 82323,
+      "相手価格prefix最終原行": 76347,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Day",
+      "q0_index": 348,
+      "line": 117410,
+      "time": 1791437941,
+      "自己prefix原行": 117410,
+      "相手価格prefix最終原行": 106632,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Day",
+      "q0_index": 0,
+      "line": 3837,
+      "time": 1791417600.0,
+      "自己prefix原行": 3837,
+      "相手価格prefix最終原行": 4170,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Day",
+      "q0_index": 127,
+      "line": 53783,
+      "time": 1791425340.0,
+      "自己prefix原行": 53783,
+      "相手価格prefix最終原行": 57480,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Day",
+      "q0_index": 254,
+      "line": 86740,
+      "time": 1791433268.0,
+      "自己prefix原行": 86740,
+      "相手価格prefix最終原行": 94568,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Day",
+      "q0_index": 381,
+      "line": 121666,
+      "time": 1791440881.0,
+      "自己prefix原行": 121666,
+      "相手価格prefix最終原行": 133933,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Night",
+      "q0_index": 0,
+      "line": 1545,
+      "time": 1791446527,
+      "自己prefix原行": 1545,
+      "相手価格prefix最終原行": 1651,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Night",
+      "q0_index": 229,
+      "line": 54907,
+      "time": 1791461104,
+      "自己prefix原行": 54907,
+      "相手価格prefix最終原行": 56267,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Night",
+      "q0_index": 458,
+      "line": 114775,
+      "time": 1791474979,
+      "自己prefix原行": 114775,
+      "相手価格prefix最終原行": 116486,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Night",
+      "q0_index": 686,
+      "line": 181288,
+      "time": 1791489243,
+      "自己prefix原行": 181288,
+      "相手価格prefix最終原行": 177975,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Night",
+      "q0_index": 0,
+      "line": 5802,
+      "time": 1791447300.0,
+      "自己prefix原行": 5802,
+      "相手価格prefix最終原行": 5515,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Night",
+      "q0_index": 172,
+      "line": 83050,
+      "time": 1791467584.0,
+      "自己prefix原行": 83050,
+      "相手価格prefix最終原行": 80751,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Night",
+      "q0_index": 344,
+      "line": 129971,
+      "time": 1791478201.0,
+      "自己prefix原行": 129971,
+      "相手価格prefix最終原行": 128800,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-08_Night",
+      "q0_index": 515,
+      "line": 180346,
+      "time": 1791490103.0,
+      "自己prefix原行": 180346,
+      "相手価格prefix最終原行": 183619,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Day",
+      "q0_index": 0,
+      "line": 857,
+      "time": 1791503221,
+      "自己prefix原行": 857,
+      "相手価格prefix最終原行": 828,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Day",
+      "q0_index": 117,
+      "line": 47694,
+      "time": 1791510241,
+      "自己prefix原行": 47694,
+      "相手価格prefix最終原行": 45117,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Day",
+      "q0_index": 234,
+      "line": 78078,
+      "time": 1791517380,
+      "自己prefix原行": 78078,
+      "相手価格prefix最終原行": 71300,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Day",
+      "q0_index": 350,
+      "line": 106437,
+      "time": 1791524341,
+      "自己prefix原行": 106437,
+      "相手価格prefix最終原行": 94637,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Day",
+      "q0_index": 0,
+      "line": 3930,
+      "time": 1791504000.0,
+      "自己prefix原行": 3930,
+      "相手価格prefix最終原行": 4280,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Day",
+      "q0_index": 118,
+      "line": 49888,
+      "time": 1791511084.0,
+      "自己prefix原行": 49888,
+      "相手価格prefix最終原行": 53119,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Day",
+      "q0_index": 236,
+      "line": 81057,
+      "time": 1791520092.0,
+      "自己prefix原行": 81057,
+      "相手価格prefix最終原行": 89795,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Day",
+      "q0_index": 353,
+      "line": 106166,
+      "time": 1791527280.0,
+      "自己prefix原行": 106166,
+      "相手価格prefix最終原行": 119413,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Night",
+      "q0_index": 0,
+      "line": 1077,
+      "time": 1791532921,
+      "自己prefix原行": 1077,
+      "相手価格prefix最終原行": 1215,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Night",
+      "q0_index": 186,
+      "line": 34822,
+      "time": 1791546026,
+      "自己prefix原行": 34822,
+      "相手価格prefix最終原行": 37520,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Night",
+      "q0_index": 372,
+      "line": 79590,
+      "time": 1791557953,
+      "自己prefix原行": 79590,
+      "相手価格prefix最終原行": 81750,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Night",
+      "q0_index": 558,
+      "line": 117717,
+      "time": 1791575650,
+      "自己prefix原行": 117717,
+      "相手価格prefix最終原行": 119864,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Night",
+      "q0_index": 0,
+      "line": 4313,
+      "time": 1791533700.0,
+      "自己prefix原行": 4313,
+      "相手価格prefix最終原行": 4175,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Night",
+      "q0_index": 132,
+      "line": 39438,
+      "time": 1791546850.0,
+      "自己prefix原行": 39438,
+      "相手価格prefix最終原行": 36763,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Night",
+      "q0_index": 265,
+      "line": 75365,
+      "time": 1791556142.0,
+      "自己prefix原行": 75365,
+      "相手価格prefix最終原行": 72725,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-09_Night",
+      "q0_index": 397,
+      "line": 121075,
+      "time": 1791576181.0,
+      "自己prefix原行": 121075,
+      "相手価格prefix最終原行": 118954,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Day",
+      "q0_index": 0,
+      "line": 1608,
+      "time": 1791762420,
+      "自己prefix原行": 1608,
+      "相手価格prefix最終原行": 931,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Day",
+      "q0_index": 95,
+      "line": 26950,
+      "time": 1791768246,
+      "自己prefix原行": 26950,
+      "相手価格prefix最終原行": 22429,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Day",
+      "q0_index": 191,
+      "line": 52507,
+      "time": 1791775987,
+      "自己prefix原行": 52507,
+      "相手価格prefix最終原行": 44906,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Day",
+      "q0_index": 286,
+      "line": 70930,
+      "time": 1791783300,
+      "自己prefix原行": 70930,
+      "相手価格prefix最終原行": 61970,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Day",
+      "q0_index": 0,
+      "line": 3100,
+      "time": 1791763200.0,
+      "自己prefix原行": 3100,
+      "相手価格prefix最終原行": 3746,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Day",
+      "q0_index": 38,
+      "line": 17359,
+      "time": 1791766928.0,
+      "自己prefix原行": 17359,
+      "相手価格prefix最終原行": 20686,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Day",
+      "q0_index": 76,
+      "line": 54623,
+      "time": 1791780434.0,
+      "自己prefix原行": 54623,
+      "相手価格prefix最終原行": 63199,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Day",
+      "q0_index": 114,
+      "line": 71586,
+      "time": 1791786480.0,
+      "自己prefix原行": 71586,
+      "相手価格prefix最終原行": 80660,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Night",
+      "q0_index": 0,
+      "line": 927,
+      "time": 1791792121,
+      "自己prefix原行": 927,
+      "相手価格prefix最終原行": 955,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Night",
+      "q0_index": 154,
+      "line": 32188,
+      "time": 1791804781,
+      "自己prefix原行": 32188,
+      "相手価格prefix最終原行": 35187,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Night",
+      "q0_index": 308,
+      "line": 72529,
+      "time": 1791815965,
+      "自己prefix原行": 72529,
+      "相手価格prefix最終原行": 73870,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Night",
+      "q0_index": 461,
+      "line": 110591,
+      "time": 1791834785,
+      "自己prefix原行": 110591,
+      "相手価格prefix最終原行": 111713,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Night",
+      "q0_index": 0,
+      "line": 3821,
+      "time": 1791792900.0,
+      "自己prefix原行": 3821,
+      "相手価格prefix最終原行": 3791,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Night",
+      "q0_index": 57,
+      "line": 54632,
+      "time": 1791811930.0,
+      "自己prefix原行": 54632,
+      "相手価格prefix最終原行": 51236,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Night",
+      "q0_index": 114,
+      "line": 72453,
+      "time": 1791815581.0,
+      "自己prefix原行": 72453,
+      "相手価格prefix最終原行": 71004,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-12_Night",
+      "q0_index": 171,
+      "line": 112952,
+      "time": 1791835514.0,
+      "自己prefix原行": 112952,
+      "相手価格prefix最終原行": 111988,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Day",
+      "q0_index": 0,
+      "line": 1416,
+      "time": 1791848820,
+      "自己prefix原行": 1416,
+      "相手価格prefix最終原行": 1328,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Day",
+      "q0_index": 117,
+      "line": 53133,
+      "time": 1791855841,
+      "自己prefix原行": 53133,
+      "相手価格prefix最終原行": 50042,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Day",
+      "q0_index": 235,
+      "line": 96233,
+      "time": 1791862922,
+      "自己prefix原行": 96233,
+      "相手価格prefix最終原行": 88554,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Day",
+      "q0_index": 352,
+      "line": 137602,
+      "time": 1791869946,
+      "自己prefix原行": 137602,
+      "相手価格prefix最終原行": 123294,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Day",
+      "q0_index": 0,
+      "line": 4166,
+      "time": 1791849600.0,
+      "自己prefix原行": 4166,
+      "相手価格prefix最終原行": 4150,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Day",
+      "q0_index": 128,
+      "line": 59340,
+      "time": 1791857280.0,
+      "自己prefix原行": 59340,
+      "相手価格prefix最終原行": 63406,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Day",
+      "q0_index": 256,
+      "line": 99942,
+      "time": 1791865083.0,
+      "自己prefix原行": 99942,
+      "相手価格prefix最終原行": 109386,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Day",
+      "q0_index": 383,
+      "line": 136643,
+      "time": 1791872884.0,
+      "自己prefix原行": 136643,
+      "相手価格prefix最終原行": 153126,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Night",
+      "q0_index": 0,
+      "line": 1100,
+      "time": 1791878522,
+      "自己prefix原行": 1100,
+      "相手価格prefix最終原行": 1252,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Night",
+      "q0_index": 186,
+      "line": 35250,
+      "time": 1791891491,
+      "自己prefix原行": 35250,
+      "相手価格prefix最終原行": 38303,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Night",
+      "q0_index": 372,
+      "line": 86376,
+      "time": 1791904039,
+      "自己prefix原行": 86376,
+      "相手価格prefix最終原行": 87768,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Night",
+      "q0_index": 557,
+      "line": 130390,
+      "time": 1791921242,
+      "自己prefix原行": 130390,
+      "相手価格prefix最終原行": 130605,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Night",
+      "q0_index": 0,
+      "line": 4296,
+      "time": 1791879309.0,
+      "自己prefix原行": 4296,
+      "相手価格prefix最終原行": 3993,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Night",
+      "q0_index": 115,
+      "line": 42818,
+      "time": 1791893068.0,
+      "自己prefix原行": 42818,
+      "相手価格prefix最終原行": 39498,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Night",
+      "q0_index": 230,
+      "line": 81202,
+      "time": 1791902281.0,
+      "自己prefix原行": 81202,
+      "相手価格prefix最終原行": 79159,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-13_Night",
+      "q0_index": 344,
+      "line": 132184,
+      "time": 1791921787.0,
+      "自己prefix原行": 132184,
+      "相手価格prefix最終原行": 131752,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Day",
+      "q0_index": 0,
+      "line": 1661,
+      "time": 1791935227,
+      "自己prefix原行": 1661,
+      "相手価格prefix最終原行": 1275,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Day",
+      "q0_index": 117,
+      "line": 49318,
+      "time": 1791942242,
+      "自己prefix原行": 49318,
+      "相手価格prefix最終原行": 43620,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Day",
+      "q0_index": 234,
+      "line": 81691,
+      "time": 1791949412,
+      "自己prefix原行": 81691,
+      "相手価格prefix最終原行": 70656,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Day",
+      "q0_index": 350,
+      "line": 115339,
+      "time": 1791956344,
+      "自己prefix原行": 115339,
+      "相手価格prefix最終原行": 97976,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Day",
+      "q0_index": 0,
+      "line": 4060,
+      "time": 1791936000.0,
+      "自己prefix原行": 4060,
+      "相手価格prefix最終原行": 4810,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Day",
+      "q0_index": 115,
+      "line": 48244,
+      "time": 1791943020.0,
+      "自己prefix原行": 48244,
+      "相手価格prefix最終原行": 54568,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Day",
+      "q0_index": 230,
+      "line": 78457,
+      "time": 1791951787.0,
+      "自己prefix原行": 78457,
+      "相手価格prefix最終原行": 90909,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Day",
+      "q0_index": 345,
+      "line": 114188,
+      "time": 1791959280.0,
+      "自己prefix原行": 114188,
+      "相手価格prefix最終原行": 134696,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Night",
+      "q0_index": 0,
+      "line": 1143,
+      "time": 1791964923,
+      "自己prefix原行": 1143,
+      "相手価格prefix最終原行": 1352,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Night",
+      "q0_index": 223,
+      "line": 44999,
+      "time": 1791980740,
+      "自己prefix原行": 44999,
+      "相手価格prefix最終原行": 44001,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Night",
+      "q0_index": 446,
+      "line": 124148,
+      "time": 1791994080,
+      "自己prefix原行": 124148,
+      "相手価格prefix最終原行": 113666,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Night",
+      "q0_index": 668,
+      "line": 180892,
+      "time": 1792007641,
+      "自己prefix原行": 180892,
+      "相手価格prefix最終原行": 163788,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Night",
+      "q0_index": 0,
+      "line": 4075,
+      "time": 1791965701.0,
+      "自己prefix原行": 4075,
+      "相手価格prefix最終原行": 4152,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Night",
+      "q0_index": 183,
+      "line": 70198,
+      "time": 1791985505.0,
+      "自己prefix原行": 70198,
+      "相手価格prefix最終原行": 74276,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Night",
+      "q0_index": 366,
+      "line": 123723,
+      "time": 1791996540.0,
+      "自己prefix原行": 123723,
+      "相手価格prefix最終原行": 135849,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-14_Night",
+      "q0_index": 549,
+      "line": 167176,
+      "time": 1792008790.0,
+      "自己prefix原行": 167176,
+      "相手価格prefix最終原行": 184637,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Day",
+      "q0_index": 0,
+      "line": 2149,
+      "time": 1792021620,
+      "自己prefix原行": 2149,
+      "相手価格prefix最終原行": 1665,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Day",
+      "q0_index": 117,
+      "line": 58785,
+      "time": 1792028640,
+      "自己prefix原行": 58785,
+      "相手価格prefix最終原行": 53830,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Day",
+      "q0_index": 235,
+      "line": 105106,
+      "time": 1792035720,
+      "自己prefix原行": 105106,
+      "相手価格prefix最終原行": 95566,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Day",
+      "q0_index": 352,
+      "line": 153733,
+      "time": 1792042740,
+      "自己prefix原行": 153733,
+      "相手価格prefix最終原行": 138699,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Day",
+      "q0_index": 0,
+      "line": 5216,
+      "time": 1792022400.0,
+      "自己prefix原行": 5216,
+      "相手価格prefix最終原行": 6862,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Day",
+      "q0_index": 129,
+      "line": 65319,
+      "time": 1792030200.0,
+      "自己prefix原行": 65319,
+      "相手価格prefix最終原行": 71205,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Day",
+      "q0_index": 258,
+      "line": 109356,
+      "time": 1792038000.0,
+      "自己prefix原行": 109356,
+      "相手価格prefix最終原行": 120608,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Day",
+      "q0_index": 386,
+      "line": 158882,
+      "time": 1792045680.0,
+      "自己prefix原行": 158882,
+      "相手価格prefix最終原行": 175851,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Night",
+      "q0_index": 0,
+      "line": 1625,
+      "time": 1792051324,
+      "自己prefix原行": 1625,
+      "相手価格prefix最終原行": 1886,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Night",
+      "q0_index": 227,
+      "line": 60201,
+      "time": 1792066381,
+      "自己prefix原行": 60201,
+      "相手価格prefix最終原行": 65843,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Night",
+      "q0_index": 454,
+      "line": 148932,
+      "time": 1792080251,
+      "自己prefix原行": 148932,
+      "相手価格prefix最終原行": 151048,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Night",
+      "q0_index": 680,
+      "line": 203878,
+      "time": 1792094040,
+      "自己prefix原行": 203878,
+      "相手価格prefix最終原行": 200197,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Night",
+      "q0_index": 0,
+      "line": 6299,
+      "time": 1792052100.0,
+      "自己prefix原行": 6299,
+      "相手価格prefix最終原行": 6051,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Night",
+      "q0_index": 187,
+      "line": 58304,
+      "time": 1792064462.0,
+      "自己prefix原行": 58304,
+      "相手価格prefix最終原行": 52990,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Night",
+      "q0_index": 375,
+      "line": 137062,
+      "time": 1792077722.0,
+      "自己prefix原行": 137062,
+      "相手価格prefix最終原行": 133623,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-15_Night",
+      "q0_index": 562,
+      "line": 202530,
+      "time": 1792094892.0,
+      "自己prefix原行": 202530,
+      "相手価格prefix最終原行": 206527,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Day",
+      "q0_index": 0,
+      "line": 1780,
+      "time": 1792108020,
+      "自己prefix原行": 1780,
+      "相手価格prefix最終原行": 1118,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Day",
+      "q0_index": 117,
+      "line": 52579,
+      "time": 1792115040,
+      "自己prefix原行": 52579,
+      "相手価格prefix最終原行": 50730,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Day",
+      "q0_index": 235,
+      "line": 91976,
+      "time": 1792122120,
+      "自己prefix原行": 91976,
+      "相手価格prefix最終原行": 85601,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Day",
+      "q0_index": 352,
+      "line": 133982,
+      "time": 1792129146,
+      "自己prefix原行": 133982,
+      "相手価格prefix最終原行": 121048,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Day",
+      "q0_index": 0,
+      "line": 5062,
+      "time": 1792108800.0,
+      "自己prefix原行": 5062,
+      "相手価格prefix最終原行": 5516,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Day",
+      "q0_index": 127,
+      "line": 59432,
+      "time": 1792116480.0,
+      "自己prefix原行": 59432,
+      "相手価格prefix最終原行": 62425,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Day",
+      "q0_index": 254,
+      "line": 99676,
+      "time": 1792124401.0,
+      "自己prefix原行": 99676,
+      "相手価格prefix最終原行": 107869,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Day",
+      "q0_index": 380,
+      "line": 135693,
+      "time": 1792132080.0,
+      "自己prefix原行": 135693,
+      "相手価格prefix最終原行": 150505,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Night",
+      "q0_index": 0,
+      "line": 1432,
+      "time": 1792137720,
+      "自己prefix原行": 1432,
+      "相手価格prefix最終原行": 1318,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Night",
+      "q0_index": 229,
+      "line": 52194,
+      "time": 1792152558,
+      "自己prefix原行": 52194,
+      "相手価格prefix最終原行": 53350,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Night",
+      "q0_index": 458,
+      "line": 131030,
+      "time": 1792166640,
+      "自己prefix原行": 131030,
+      "相手価格prefix最終原行": 127222,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Night",
+      "q0_index": 686,
+      "line": 203132,
+      "time": 1792180440,
+      "自己prefix原行": 203132,
+      "相手価格prefix最終原行": 199169,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Night",
+      "q0_index": 0,
+      "line": 5121,
+      "time": 1792138504.0,
+      "自己prefix原行": 5121,
+      "相手価格prefix最終原行": 5233,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Night",
+      "q0_index": 207,
+      "line": 60744,
+      "time": 1792154543.0,
+      "自己prefix原行": 60744,
+      "相手価格prefix最終原行": 59659,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Night",
+      "q0_index": 415,
+      "line": 132446,
+      "time": 1792167600.0,
+      "自己prefix原行": 132446,
+      "相手価格prefix最終原行": 136568,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-16_Night",
+      "q0_index": 622,
+      "line": 203003,
+      "time": 1792181595.0,
+      "自己prefix原行": 203003,
+      "相手価格prefix最終原行": 206992,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Day",
+      "q0_index": 0,
+      "line": 1633,
+      "time": 1792367220,
+      "自己prefix原行": 1633,
+      "相手価格prefix最終原行": 1139,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Day",
+      "q0_index": 117,
+      "line": 57710,
+      "time": 1792374242,
+      "自己prefix原行": 57710,
+      "相手価格prefix最終原行": 52507,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Day",
+      "q0_index": 235,
+      "line": 95432,
+      "time": 1792381325,
+      "自己prefix原行": 95432,
+      "相手価格prefix最終原行": 83375,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Day",
+      "q0_index": 352,
+      "line": 135979,
+      "time": 1792388346,
+      "自己prefix原行": 135979,
+      "相手価格prefix最終原行": 116363,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Day",
+      "q0_index": 0,
+      "line": 4929,
+      "time": 1792368000.0,
+      "自己prefix原行": 4929,
+      "相手価格prefix最終原行": 5740,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Day",
+      "q0_index": 129,
+      "line": 61217,
+      "time": 1792375740.0,
+      "自己prefix原行": 61217,
+      "相手価格prefix最終原行": 68068,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Day",
+      "q0_index": 259,
+      "line": 93571,
+      "time": 1792383540.0,
+      "自己prefix原行": 93571,
+      "相手価格prefix最終原行": 108255,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Day",
+      "q0_index": 388,
+      "line": 130739,
+      "time": 1792391280.0,
+      "自己prefix原行": 130739,
+      "相手価格prefix最終原行": 153332,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Night",
+      "q0_index": 0,
+      "line": 1350,
+      "time": 1792396924,
+      "自己prefix原行": 1350,
+      "相手価格prefix最終原行": 1575,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Night",
+      "q0_index": 211,
+      "line": 56187,
+      "time": 1792410955,
+      "自己prefix原行": 56187,
+      "相手価格prefix最終原行": 56270,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Night",
+      "q0_index": 422,
+      "line": 124435,
+      "time": 1792423921,
+      "自己prefix原行": 124435,
+      "相手価格prefix最終原行": 118180,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Night",
+      "q0_index": 633,
+      "line": 183785,
+      "time": 1792439649,
+      "自己prefix原行": 183785,
+      "相手価格prefix最終原行": 173191,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Night",
+      "q0_index": 0,
+      "line": 5041,
+      "time": 1792397700.0,
+      "自己prefix原行": 5041,
+      "相手価格prefix最終原行": 5082,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Night",
+      "q0_index": 150,
+      "line": 62604,
+      "time": 1792412464.0,
+      "自己prefix原行": 62604,
+      "相手価格prefix最終原行": 62788,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Night",
+      "q0_index": 301,
+      "line": 111520,
+      "time": 1792422360.0,
+      "自己prefix原行": 111520,
+      "相手価格prefix最終原行": 116923,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-19_Night",
+      "q0_index": 451,
+      "line": 175739,
+      "time": 1792440613.0,
+      "自己prefix原行": 175739,
+      "相手価格prefix最終原行": 186629,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Day",
+      "q0_index": 0,
+      "line": 1709,
+      "time": 1792453621,
+      "自己prefix原行": 1709,
+      "相手価格prefix最終原行": 1268,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Day",
+      "q0_index": 117,
+      "line": 57533,
+      "time": 1792460640,
+      "自己prefix原行": 57533,
+      "相手価格prefix最終原行": 50796,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Day",
+      "q0_index": 235,
+      "line": 98904,
+      "time": 1792467727,
+      "自己prefix原行": 98904,
+      "相手価格prefix最終原行": 85279,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Day",
+      "q0_index": 352,
+      "line": 142978,
+      "time": 1792474748,
+      "自己prefix原行": 142978,
+      "相手価格prefix最終原行": 123570,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Day",
+      "q0_index": 0,
+      "line": 4399,
+      "time": 1792454400.0,
+      "自己prefix原行": 4399,
+      "相手価格prefix最終原行": 5123,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Day",
+      "q0_index": 126,
+      "line": 59633,
+      "time": 1792462080.0,
+      "自己prefix原行": 59633,
+      "相手価格prefix最終原行": 67983,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Day",
+      "q0_index": 253,
+      "line": 97618,
+      "time": 1792470063.0,
+      "自己prefix原行": 97618,
+      "相手価格prefix最終原行": 113111,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Day",
+      "q0_index": 379,
+      "line": 141958,
+      "time": 1792477680.0,
+      "自己prefix原行": 141958,
+      "相手価格prefix最終原行": 163286,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Night",
+      "q0_index": 0,
+      "line": 1398,
+      "time": 1792483321,
+      "自己prefix原行": 1398,
+      "相手価格prefix最終原行": 1701,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Night",
+      "q0_index": 205,
+      "line": 56561,
+      "time": 1792495639,
+      "自己prefix原行": 56561,
+      "相手価格prefix最終原行": 54803,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Night",
+      "q0_index": 411,
+      "line": 127940,
+      "time": 1792508100,
+      "自己prefix原行": 127940,
+      "相手価格prefix最終原行": 122447,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Night",
+      "q0_index": 616,
+      "line": 198479,
+      "time": 1792525800,
+      "自己prefix原行": 198479,
+      "相手価格prefix最終原行": 188519,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Night",
+      "q0_index": 0,
+      "line": 6190,
+      "time": 1792484100.0,
+      "自己prefix原行": 6190,
+      "相手価格prefix最終原行": 6000,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Night",
+      "q0_index": 163,
+      "line": 69574,
+      "time": 1792498980.0,
+      "自己prefix原行": 69574,
+      "相手価格prefix最終原行": 71865,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Night",
+      "q0_index": 326,
+      "line": 128273,
+      "time": 1792509123.0,
+      "自己prefix原行": 128273,
+      "相手価格prefix最終原行": 134667,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-20_Night",
+      "q0_index": 488,
+      "line": 193793,
+      "time": 1792528563.0,
+      "自己prefix原行": 193793,
+      "相手価格prefix最終原行": 204063,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Day",
+      "q0_index": 0,
+      "line": 1884,
+      "time": 1792540020,
+      "自己prefix原行": 1884,
+      "相手価格prefix最終原行": 1593,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Day",
+      "q0_index": 117,
+      "line": 55984,
+      "time": 1792547040,
+      "自己prefix原行": 55984,
+      "相手価格prefix最終原行": 51073,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Day",
+      "q0_index": 235,
+      "line": 95060,
+      "time": 1792554120,
+      "自己prefix原行": 95060,
+      "相手価格prefix最終原行": 84582,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Day",
+      "q0_index": 352,
+      "line": 136194,
+      "time": 1792561141,
+      "自己prefix原行": 136194,
+      "相手価格prefix最終原行": 118762,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Day",
+      "q0_index": 0,
+      "line": 5054,
+      "time": 1792540800.0,
+      "自己prefix原行": 5054,
+      "相手価格prefix最終原行": 5527,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Day",
+      "q0_index": 127,
+      "line": 59788,
+      "time": 1792548481.0,
+      "自己prefix原行": 59788,
+      "相手価格prefix最終原行": 66013,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Day",
+      "q0_index": 254,
+      "line": 96492,
+      "time": 1792556460.0,
+      "自己prefix原行": 96492,
+      "相手価格prefix最終原行": 109082,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Day",
+      "q0_index": 381,
+      "line": 132597,
+      "time": 1792564080.0,
+      "自己prefix原行": 132597,
+      "相手価格prefix最終原行": 152201,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Night",
+      "q0_index": 0,
+      "line": 1120,
+      "time": 1792569729,
+      "自己prefix原行": 1120,
+      "相手価格prefix最終原行": 1519,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Night",
+      "q0_index": 204,
+      "line": 48239,
+      "time": 1792582565,
+      "自己prefix原行": 48239,
+      "相手価格prefix最終原行": 47527,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Night",
+      "q0_index": 408,
+      "line": 115884,
+      "time": 1792596245,
+      "自己prefix原行": 115884,
+      "相手価格prefix最終原行": 110254,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Night",
+      "q0_index": 612,
+      "line": 171931,
+      "time": 1792612440,
+      "自己prefix原行": 171931,
+      "相手価格prefix最終原行": 162666,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Night",
+      "q0_index": 0,
+      "line": 4567,
+      "time": 1792570502.0,
+      "自己prefix原行": 4567,
+      "相手価格prefix最終原行": 4189,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Night",
+      "q0_index": 177,
+      "line": 55341,
+      "time": 1792585026.0,
+      "自己prefix原行": 55341,
+      "相手価格prefix最終原行": 56255,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Night",
+      "q0_index": 354,
+      "line": 116275,
+      "time": 1792597581.0,
+      "自己prefix原行": 116275,
+      "相手価格prefix最終原行": 122399,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-21_Night",
+      "q0_index": 531,
+      "line": 167245,
+      "time": 1792613711.0,
+      "自己prefix原行": 167245,
+      "相手価格prefix最終原行": 176982,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Day",
+      "q0_index": 0,
+      "line": 1632,
+      "time": 1792626420,
+      "自己prefix原行": 1632,
+      "相手価格prefix最終原行": 1267,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Day",
+      "q0_index": 117,
+      "line": 52947,
+      "time": 1792633441,
+      "自己prefix原行": 52947,
+      "相手価格prefix最終原行": 48408,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Day",
+      "q0_index": 235,
+      "line": 95839,
+      "time": 1792640522,
+      "自己prefix原行": 95839,
+      "相手価格prefix最終原行": 87995,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Day",
+      "q0_index": 352,
+      "line": 143199,
+      "time": 1792647540,
+      "自己prefix原行": 143199,
+      "相手価格prefix最終原行": 128771,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Day",
+      "q0_index": 0,
+      "line": 4624,
+      "time": 1792627200.0,
+      "自己prefix原行": 4624,
+      "相手価格prefix最終原行": 5541,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Day",
+      "q0_index": 125,
+      "line": 56707,
+      "time": 1792634761.0,
+      "自己prefix原行": 56707,
+      "相手価格prefix最終原行": 62296,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Day",
+      "q0_index": 250,
+      "line": 102339,
+      "time": 1792642920.0,
+      "自己prefix原行": 102339,
+      "相手価格prefix最終原行": 112448,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Day",
+      "q0_index": 374,
+      "line": 148063,
+      "time": 1792650480.0,
+      "自己prefix原行": 148063,
+      "相手価格prefix最終原行": 163956,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Night",
+      "q0_index": 0,
+      "line": 1574,
+      "time": 1792656120,
+      "自己prefix原行": 1574,
+      "相手価格prefix最終原行": 1708,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Night",
+      "q0_index": 225,
+      "line": 63414,
+      "time": 1792669992,
+      "自己prefix原行": 63414,
+      "相手価格prefix最終原行": 61203,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Night",
+      "q0_index": 451,
+      "line": 142106,
+      "time": 1792683660,
+      "自己prefix原行": 142106,
+      "相手価格prefix最終原行": 133460,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Night",
+      "q0_index": 676,
+      "line": 217944,
+      "time": 1792698850,
+      "自己prefix原行": 217944,
+      "相手価格prefix最終原行": 202641,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Night",
+      "q0_index": 0,
+      "line": 6409,
+      "time": 1792656900.0,
+      "自己prefix原行": 6409,
+      "相手価格prefix最終原行": 6474,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Night",
+      "q0_index": 192,
+      "line": 66633,
+      "time": 1792671383.0,
+      "自己prefix原行": 66633,
+      "相手価格prefix最終原行": 69403,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Night",
+      "q0_index": 384,
+      "line": 142999,
+      "time": 1792685520.0,
+      "自己prefix原行": 142999,
+      "相手価格prefix最終原行": 153530,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-22_Night",
+      "q0_index": 576,
+      "line": 208094,
+      "time": 1792700593.0,
+      "自己prefix原行": 208094,
+      "相手価格prefix最終原行": 223962,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Day",
+      "q0_index": 0,
+      "line": 2493,
+      "time": 1792712820,
+      "自己prefix原行": 2493,
+      "相手価格prefix最終原行": 2003,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Day",
+      "q0_index": 117,
+      "line": 64352,
+      "time": 1792719840,
+      "自己prefix原行": 64352,
+      "相手価格prefix最終原行": 62792,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Day",
+      "q0_index": 235,
+      "line": 115455,
+      "time": 1792726922,
+      "自己prefix原行": 115455,
+      "相手価格prefix最終原行": 109591,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Day",
+      "q0_index": 352,
+      "line": 167084,
+      "time": 1792733941,
+      "自己prefix原行": 167084,
+      "相手価格prefix最終原行": 154584,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Day",
+      "q0_index": 0,
+      "line": 6520,
+      "time": 1792713600.0,
+      "自己prefix原行": 6520,
+      "相手価格prefix最終原行": 7751,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Day",
+      "q0_index": 128,
+      "line": 74119,
+      "time": 1792721280.0,
+      "自己prefix原行": 74119,
+      "相手価格prefix最終原行": 76200,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Day",
+      "q0_index": 256,
+      "line": 124336,
+      "time": 1792729081.0,
+      "自己prefix原行": 124336,
+      "相手価格prefix最終原行": 132400,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Day",
+      "q0_index": 383,
+      "line": 172631,
+      "time": 1792736821.0,
+      "自己prefix原行": 172631,
+      "相手価格prefix最終原行": 187772,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Night",
+      "q0_index": 0,
+      "line": 1503,
+      "time": 1792742520,
+      "自己prefix原行": 1503,
+      "相手価格prefix最終原行": 1756,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Night",
+      "q0_index": 225,
+      "line": 63832,
+      "time": 1792756520,
+      "自己prefix原行": 63832,
+      "相手価格prefix最終原行": 62866,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Night",
+      "q0_index": 450,
+      "line": 147998,
+      "time": 1792770030,
+      "自己prefix原行": 147998,
+      "相手価格prefix最終原行": 141087,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Night",
+      "q0_index": 675,
+      "line": 210328,
+      "time": 1792785289,
+      "自己prefix原行": 210328,
+      "相手価格prefix最終原行": 198185,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Night",
+      "q0_index": 0,
+      "line": 6360,
+      "time": 1792743300.0,
+      "自己prefix原行": 6360,
+      "相手価格prefix最終原行": 6240,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Night",
+      "q0_index": 177,
+      "line": 71612,
+      "time": 1792758480.0,
+      "自己prefix原行": 71612,
+      "相手価格prefix最終原行": 73088,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Night",
+      "q0_index": 354,
+      "line": 135577,
+      "time": 1792769103.0,
+      "自己prefix原行": 135577,
+      "相手価格prefix最終原行": 142089,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-23_Night",
+      "q0_index": 531,
+      "line": 199608,
+      "time": 1792785721.0,
+      "自己prefix原行": 199608,
+      "相手価格prefix最終原行": 211798,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Day",
+      "q0_index": 0,
+      "line": 2660,
+      "time": 1792972020,
+      "自己prefix原行": 2660,
+      "相手価格prefix最終原行": 1186,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Day",
+      "q0_index": 117,
+      "line": 60715,
+      "time": 1792979046,
+      "自己prefix原行": 60715,
+      "相手価格prefix最終原行": 55768,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Day",
+      "q0_index": 235,
+      "line": 105655,
+      "time": 1792986124,
+      "自己prefix原行": 105655,
+      "相手価格prefix最終原行": 96994,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Day",
+      "q0_index": 352,
+      "line": 144986,
+      "time": 1792993142,
+      "自己prefix原行": 144986,
+      "相手価格prefix最終原行": 131267,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Day",
+      "q0_index": 0,
+      "line": 5071,
+      "time": 1792972800.0,
+      "自己prefix原行": 5071,
+      "相手価格prefix最終原行": 6747,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Day",
+      "q0_index": 128,
+      "line": 66014,
+      "time": 1792980480.0,
+      "自己prefix原行": 66014,
+      "相手価格prefix最終原行": 71936,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Day",
+      "q0_index": 256,
+      "line": 108355,
+      "time": 1792988224.0,
+      "自己prefix原行": 108355,
+      "相手価格prefix最終原行": 118485,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Day",
+      "q0_index": 384,
+      "line": 146234,
+      "time": 1792996080.0,
+      "自己prefix原行": 146234,
+      "相手価格prefix最終原行": 162024,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Night",
+      "q0_index": 0,
+      "line": 1517,
+      "time": 1793001721,
+      "自己prefix原行": 1517,
+      "相手価格prefix最終原行": 1615,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Night",
+      "q0_index": 223,
+      "line": 61204,
+      "time": 1793016615,
+      "自己prefix原行": 61204,
+      "相手価格prefix最終原行": 58893,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Night",
+      "q0_index": 446,
+      "line": 137941,
+      "time": 1793030221,
+      "自己prefix原行": 137941,
+      "相手価格prefix最終原行": 126752,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Night",
+      "q0_index": 669,
+      "line": 191069,
+      "time": 1793044440,
+      "自己prefix原行": 191069,
+      "相手価格prefix最終原行": 175726,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Night",
+      "q0_index": 0,
+      "line": 6123,
+      "time": 1793002500.0,
+      "自己prefix原行": 6123,
+      "相手価格prefix最終原行": 6214,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Night",
+      "q0_index": 169,
+      "line": 66491,
+      "time": 1793018889.0,
+      "自己prefix原行": 66491,
+      "相手価格prefix最終原行": 69673,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Night",
+      "q0_index": 339,
+      "line": 122931,
+      "time": 1793029382.0,
+      "自己prefix原行": 122931,
+      "相手価格prefix最終原行": 133257,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-26_Night",
+      "q0_index": 508,
+      "line": 178080,
+      "time": 1793045059.0,
+      "自己prefix原行": 178080,
+      "相手価格prefix最終原行": 192983,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Day",
+      "q0_index": 0,
+      "line": 1929,
+      "time": 1793058420,
+      "自己prefix原行": 1929,
+      "相手価格prefix最終原行": 1943,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Day",
+      "q0_index": 117,
+      "line": 54925,
+      "time": 1793065441,
+      "自己prefix原行": 54925,
+      "相手価格prefix最終原行": 51394,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Day",
+      "q0_index": 235,
+      "line": 99675,
+      "time": 1793072520,
+      "自己prefix原行": 99675,
+      "相手価格prefix最終原行": 91654,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Day",
+      "q0_index": 352,
+      "line": 140722,
+      "time": 1793079541,
+      "自己prefix原行": 140722,
+      "相手価格prefix最終原行": 127827,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Day",
+      "q0_index": 0,
+      "line": 5147,
+      "time": 1793059200.0,
+      "自己prefix原行": 5147,
+      "相手価格prefix最終原行": 5030,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Day",
+      "q0_index": 129,
+      "line": 61396,
+      "time": 1793067000.0,
+      "自己prefix原行": 61396,
+      "相手価格prefix最終原行": 66286,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Day",
+      "q0_index": 258,
+      "line": 103083,
+      "time": 1793074742.0,
+      "自己prefix原行": 103083,
+      "相手価格prefix最終原行": 112457,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Day",
+      "q0_index": 387,
+      "line": 144170,
+      "time": 1793082480.0,
+      "自己prefix原行": 144170,
+      "相手価格prefix最終原行": 158702,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Night",
+      "q0_index": 0,
+      "line": 1350,
+      "time": 1793088120,
+      "自己prefix原行": 1350,
+      "相手価格prefix最終原行": 1481,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Night",
+      "q0_index": 192,
+      "line": 53248,
+      "time": 1793100006,
+      "自己prefix原行": 53248,
+      "相手価格prefix最終原行": 56165,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Night",
+      "q0_index": 384,
+      "line": 110631,
+      "time": 1793112484,
+      "自己prefix原行": 110631,
+      "相手価格prefix最終原行": 109622,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Night",
+      "q0_index": 575,
+      "line": 162382,
+      "time": 1793130841,
+      "自己prefix原行": 162382,
+      "相手価格prefix最終原行": 158793,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Night",
+      "q0_index": 0,
+      "line": 5866,
+      "time": 1793088905.0,
+      "自己prefix原行": 5866,
+      "相手価格prefix最終原行": 5712,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Night",
+      "q0_index": 117,
+      "line": 50867,
+      "time": 1793098867.0,
+      "自己prefix原行": 50867,
+      "相手価格prefix最終原行": 48738,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Night",
+      "q0_index": 234,
+      "line": 110432,
+      "time": 1793112662.0,
+      "自己prefix原行": 110432,
+      "相手価格prefix最終原行": 111572,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-27_Night",
+      "q0_index": 351,
+      "line": 161002,
+      "time": 1793131623.0,
+      "自己prefix原行": 161002,
+      "相手価格prefix最終原行": 164828,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Day",
+      "q0_index": 0,
+      "line": 1473,
+      "time": 1793144826,
+      "自己prefix原行": 1473,
+      "相手価格prefix最終原行": 1474,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Day",
+      "q0_index": 117,
+      "line": 54348,
+      "time": 1793151841,
+      "自己prefix原行": 54348,
+      "相手価格prefix最終原行": 49071,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Day",
+      "q0_index": 235,
+      "line": 93931,
+      "time": 1793158920,
+      "自己prefix原行": 93931,
+      "相手価格prefix最終原行": 84484,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Day",
+      "q0_index": 352,
+      "line": 132625,
+      "time": 1793165941,
+      "自己prefix原行": 132625,
+      "相手価格prefix最終原行": 117923,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Day",
+      "q0_index": 0,
+      "line": 4686,
+      "time": 1793145600.0,
+      "自己prefix原行": 4686,
+      "相手価格prefix最終原行": 4785,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Day",
+      "q0_index": 121,
+      "line": 57478,
+      "time": 1793153160.0,
+      "自己prefix原行": 57478,
+      "相手価格prefix最終原行": 63984,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Day",
+      "q0_index": 243,
+      "line": 95084,
+      "time": 1793161025.0,
+      "自己prefix原行": 95084,
+      "相手価格prefix最終原行": 105991,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Day",
+      "q0_index": 364,
+      "line": 132014,
+      "time": 1793168880.0,
+      "自己prefix原行": 132014,
+      "相手価格prefix最終原行": 147495,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Night",
+      "q0_index": 0,
+      "line": 1587,
+      "time": 1793174520,
+      "自己prefix原行": 1587,
+      "相手価格prefix最終原行": 1715,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Night",
+      "q0_index": 225,
+      "line": 48873,
+      "time": 1793188801,
+      "自己prefix原行": 48873,
+      "相手価格prefix最終原行": 49320,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Night",
+      "q0_index": 451,
+      "line": 116063,
+      "time": 1793203214,
+      "自己prefix原行": 116063,
+      "相手価格prefix最終原行": 109843,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Night",
+      "q0_index": 676,
+      "line": 184074,
+      "time": 1793217240,
+      "自己prefix原行": 184074,
+      "相手価格prefix最終原行": 172389,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Night",
+      "q0_index": 0,
+      "line": 6408,
+      "time": 1793175301.0,
+      "自己prefix原行": 6408,
+      "相手価格prefix最終原行": 6178,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Night",
+      "q0_index": 153,
+      "line": 78275,
+      "time": 1793196120.0,
+      "自己prefix原行": 78275,
+      "相手価格prefix最終原行": 79833,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Night",
+      "q0_index": 307,
+      "line": 126046,
+      "time": 1793208186.0,
+      "自己prefix原行": 126046,
+      "相手価格prefix最終原行": 133704,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-28_Night",
+      "q0_index": 460,
+      "line": 185457,
+      "time": 1793220060.0,
+      "自己prefix原行": 185457,
+      "相手価格prefix最終原行": 198211,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Day",
+      "q0_index": 0,
+      "line": 2698,
+      "time": 1793231220,
+      "自己prefix原行": 2698,
+      "相手価格prefix最終原行": 2614,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Day",
+      "q0_index": 117,
+      "line": 61720,
+      "time": 1793238240,
+      "自己prefix原行": 61720,
+      "相手価格prefix最終原行": 55842,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Day",
+      "q0_index": 235,
+      "line": 112184,
+      "time": 1793245322,
+      "自己prefix原行": 112184,
+      "相手価格prefix最終原行": 101157,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Day",
+      "q0_index": 352,
+      "line": 159909,
+      "time": 1793252341,
+      "自己prefix原行": 159909,
+      "相手価格prefix最終原行": 142144,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Day",
+      "q0_index": 0,
+      "line": 6086,
+      "time": 1793232000.0,
+      "自己prefix原行": 6086,
+      "相手価格prefix最終原行": 6977,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Day",
+      "q0_index": 128,
+      "line": 67274,
+      "time": 1793239680.0,
+      "自己prefix原行": 67274,
+      "相手価格prefix最終原行": 74610,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Day",
+      "q0_index": 256,
+      "line": 114150,
+      "time": 1793247483.0,
+      "自己prefix原行": 114150,
+      "相手価格prefix最終原行": 127187,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Day",
+      "q0_index": 383,
+      "line": 159898,
+      "time": 1793255280.0,
+      "自己prefix原行": 159898,
+      "相手価格prefix最終原行": 179378,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Night",
+      "q0_index": 0,
+      "line": 1604,
+      "time": 1793260920,
+      "自己prefix原行": 1604,
+      "相手価格prefix最終原行": 1663,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Night",
+      "q0_index": 215,
+      "line": 63854,
+      "time": 1793274302,
+      "自己prefix原行": 63854,
+      "相手価格prefix最終原行": 60126,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Night",
+      "q0_index": 430,
+      "line": 139661,
+      "time": 1793287320,
+      "自己prefix原行": 139661,
+      "相手価格prefix最終原行": 130315,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Night",
+      "q0_index": 644,
+      "line": 209343,
+      "time": 1793303641,
+      "自己prefix原行": 209343,
+      "相手価格prefix最終原行": 194162,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Night",
+      "q0_index": 0,
+      "line": 6251,
+      "time": 1793261702.0,
+      "自己prefix原行": 6251,
+      "相手価格prefix最終原行": 6624,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Night",
+      "q0_index": 168,
+      "line": 79300,
+      "time": 1793279100.0,
+      "自己prefix原行": 79300,
+      "相手価格prefix最終原行": 85330,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Night",
+      "q0_index": 337,
+      "line": 143649,
+      "time": 1793289859.0,
+      "自己prefix原行": 143649,
+      "相手価格prefix最終原行": 154016,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-29_Night",
+      "q0_index": 505,
+      "line": 205564,
+      "time": 1793305802.0,
+      "自己prefix原行": 205564,
+      "相手価格prefix最終原行": 221177,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Day",
+      "q0_index": 0,
+      "line": 2134,
+      "time": 1793317620,
+      "自己prefix原行": 2134,
+      "相手価格prefix最終原行": 1829,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Day",
+      "q0_index": 117,
+      "line": 58332,
+      "time": 1793324640,
+      "自己prefix原行": 58332,
+      "相手価格prefix最終原行": 54582,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Day",
+      "q0_index": 235,
+      "line": 97781,
+      "time": 1793331721,
+      "自己prefix原行": 97781,
+      "相手価格prefix最終原行": 93806,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Day",
+      "q0_index": 352,
+      "line": 140788,
+      "time": 1793338745,
+      "自己prefix原行": 140788,
+      "相手価格prefix最終原行": 132965,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Day",
+      "q0_index": 0,
+      "line": 4912,
+      "time": 1793318400.0,
+      "自己prefix原行": 4912,
+      "相手価格prefix最終原行": 5791,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Day",
+      "q0_index": 127,
+      "line": 64965,
+      "time": 1793326080.0,
+      "自己prefix原行": 64965,
+      "相手価格prefix最終原行": 69303,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Day",
+      "q0_index": 255,
+      "line": 105439,
+      "time": 1793333820.0,
+      "自己prefix原行": 105439,
+      "相手価格prefix最終原行": 110454,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Day",
+      "q0_index": 382,
+      "line": 149673,
+      "time": 1793341680.0,
+      "自己prefix原行": 149673,
+      "相手価格prefix最終原行": 157566,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Night",
+      "q0_index": 0,
+      "line": 1664,
+      "time": 1793347323,
+      "自己prefix原行": 1664,
+      "相手価格prefix最終原行": 1621,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Night",
+      "q0_index": 234,
+      "line": 68407,
+      "time": 1793361789,
+      "自己prefix原行": 68407,
+      "相手価格prefix最終原行": 63653,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Night",
+      "q0_index": 469,
+      "line": 152553,
+      "time": 1793375899,
+      "自己prefix原行": 152553,
+      "相手価格prefix最終原行": 137836,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Night",
+      "q0_index": 703,
+      "line": 228170,
+      "time": 1793390040,
+      "自己prefix原行": 228170,
+      "相手価格prefix最終原行": 204661,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Night",
+      "q0_index": 0,
+      "line": 5688,
+      "time": 1793348101.0,
+      "自己prefix原行": 5688,
+      "相手価格prefix最終原行": 6041,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Night",
+      "q0_index": 228,
+      "line": 66427,
+      "time": 1793362330.0,
+      "自己prefix原行": 66427,
+      "相手価格prefix最終原行": 71501,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Night",
+      "q0_index": 456,
+      "line": 143677,
+      "time": 1793377201.0,
+      "自己prefix原行": 143677,
+      "相手価格prefix最終原行": 159614,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-10-30_Night",
+      "q0_index": 684,
+      "line": 214697,
+      "time": 1793392932.0,
+      "自己prefix原行": 214697,
+      "相手価格prefix最終原行": 238959,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Day",
+      "q0_index": 0,
+      "line": 1988,
+      "time": 1793576820,
+      "自己prefix原行": 1988,
+      "相手価格prefix最終原行": 1328,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Day",
+      "q0_index": 117,
+      "line": 55788,
+      "time": 1793583841,
+      "自己prefix原行": 55788,
+      "相手価格prefix最終原行": 52418,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Day",
+      "q0_index": 235,
+      "line": 98044,
+      "time": 1793590920,
+      "自己prefix原行": 98044,
+      "相手価格prefix最終原行": 91326,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Day",
+      "q0_index": 352,
+      "line": 137725,
+      "time": 1793597947,
+      "自己prefix原行": 137725,
+      "相手価格prefix最終原行": 126199,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Day",
+      "q0_index": 0,
+      "line": 5338,
+      "time": 1793577600.0,
+      "自己prefix原行": 5338,
+      "相手価格prefix最終原行": 5939,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Day",
+      "q0_index": 128,
+      "line": 63147,
+      "time": 1793585400.0,
+      "自己prefix原行": 63147,
+      "相手価格prefix最終原行": 67594,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Day",
+      "q0_index": 256,
+      "line": 102839,
+      "time": 1793593140.0,
+      "自己prefix原行": 102839,
+      "相手価格prefix最終原行": 110888,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Day",
+      "q0_index": 384,
+      "line": 141896,
+      "time": 1793600880.0,
+      "自己prefix原行": 141896,
+      "相手価格prefix最終原行": 155306,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Night",
+      "q0_index": 0,
+      "line": 1467,
+      "time": 1793606525,
+      "自己prefix原行": 1467,
+      "相手価格prefix最終原行": 1530,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Night",
+      "q0_index": 221,
+      "line": 54441,
+      "time": 1793621777,
+      "自己prefix原行": 54441,
+      "相手価格prefix最終原行": 58331,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Night",
+      "q0_index": 442,
+      "line": 129777,
+      "time": 1793635452,
+      "自己prefix原行": 129777,
+      "相手価格prefix最終原行": 129182,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Night",
+      "q0_index": 663,
+      "line": 204062,
+      "time": 1793649189,
+      "自己prefix原行": 204062,
+      "相手価格prefix最終原行": 198618,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Night",
+      "q0_index": 0,
+      "line": 5667,
+      "time": 1793607372.0,
+      "自己prefix原行": 5667,
+      "相手価格prefix最終原行": 5120,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Night",
+      "q0_index": 203,
+      "line": 78457,
+      "time": 1793626800.0,
+      "自己prefix原行": 78457,
+      "相手価格prefix最終原行": 75332,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Night",
+      "q0_index": 406,
+      "line": 147721,
+      "time": 1793638985.0,
+      "自己prefix原行": 147721,
+      "相手価格prefix最終原行": 149275,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-02_Night",
+      "q0_index": 609,
+      "line": 214981,
+      "time": 1793652180.0,
+      "自己prefix原行": 214981,
+      "相手価格prefix最終原行": 221307,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Day",
+      "q0_index": 0,
+      "line": 1752,
+      "time": 1793663220,
+      "自己prefix原行": 1752,
+      "相手価格prefix最終原行": 1126,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Day",
+      "q0_index": 109,
+      "line": 32124,
+      "time": 1793669881,
+      "自己prefix原行": 32124,
+      "相手価格prefix最終原行": 25283,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Day",
+      "q0_index": 218,
+      "line": 65857,
+      "time": 1793677200,
+      "自己prefix原行": 65857,
+      "相手価格prefix最終原行": 49789,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Day",
+      "q0_index": 327,
+      "line": 95411,
+      "time": 1793684341,
+      "自己prefix原行": 95411,
+      "相手価格prefix最終原行": 72323,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Day",
+      "q0_index": 0,
+      "line": 5001,
+      "time": 1793664302.0,
+      "自己prefix原行": 5001,
+      "相手価格prefix最終原行": 5913,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Day",
+      "q0_index": 71,
+      "line": 32196,
+      "time": 1793671637.0,
+      "自己prefix原行": 32196,
+      "相手価格prefix最終原行": 41225,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Day",
+      "q0_index": 143,
+      "line": 60590,
+      "time": 1793680560.0,
+      "自己prefix原行": 60590,
+      "相手価格prefix最終原行": 80420,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Day",
+      "q0_index": 214,
+      "line": 81293,
+      "time": 1793687281.0,
+      "自己prefix原行": 81293,
+      "相手価格prefix最終原行": 107085,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Night",
+      "q0_index": 0,
+      "line": 1343,
+      "time": 1793692921,
+      "自己prefix原行": 1343,
+      "相手価格prefix最終原行": 1112,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Night",
+      "q0_index": 209,
+      "line": 52235,
+      "time": 1793707260,
+      "自己prefix原行": 52235,
+      "相手価格prefix最終原行": 46141,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Night",
+      "q0_index": 418,
+      "line": 123822,
+      "time": 1793720525,
+      "自己prefix原行": 123822,
+      "相手価格prefix最終原行": 107335,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Night",
+      "q0_index": 626,
+      "line": 184429,
+      "time": 1793735642,
+      "自己prefix原行": 184429,
+      "相手価格prefix最終原行": 155971,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Night",
+      "q0_index": 0,
+      "line": 4381,
+      "time": 1793693701.0,
+      "自己prefix原行": 4381,
+      "相手価格prefix最終原行": 4969,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Night",
+      "q0_index": 137,
+      "line": 44064,
+      "time": 1793706489.0,
+      "自己prefix原行": 44064,
+      "相手価格prefix最終原行": 49783,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Night",
+      "q0_index": 274,
+      "line": 91230,
+      "time": 1793717482.0,
+      "自己prefix原行": 91230,
+      "相手価格prefix最終原行": 105303,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-03_Night",
+      "q0_index": 411,
+      "line": 162620,
+      "time": 1793738400.0,
+      "自己prefix原行": 162620,
+      "相手価格prefix最終原行": 193389,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Day",
+      "q0_index": 0,
+      "line": 2190,
+      "time": 1793749621,
+      "自己prefix原行": 2190,
+      "相手価格prefix最終原行": 1590,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Day",
+      "q0_index": 117,
+      "line": 61538,
+      "time": 1793756641,
+      "自己prefix原行": 61538,
+      "相手価格prefix最終原行": 58264,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Day",
+      "q0_index": 235,
+      "line": 118981,
+      "time": 1793763720,
+      "自己prefix原行": 118981,
+      "相手価格prefix最終原行": 110938,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Day",
+      "q0_index": 352,
+      "line": 176680,
+      "time": 1793770740,
+      "自己prefix原行": 176680,
+      "相手価格prefix最終原行": 164877,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Day",
+      "q0_index": 0,
+      "line": 5054,
+      "time": 1793750400.0,
+      "自己prefix原行": 5054,
+      "相手価格prefix最終原行": 6433,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Day",
+      "q0_index": 129,
+      "line": 70783,
+      "time": 1793758140.0,
+      "自己prefix原行": 70783,
+      "相手価格prefix最終原行": 74599,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Day",
+      "q0_index": 258,
+      "line": 128382,
+      "time": 1793766000.0,
+      "自己prefix原行": 128382,
+      "相手価格prefix最終原行": 137672,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Day",
+      "q0_index": 386,
+      "line": 185118,
+      "time": 1793773680.0,
+      "自己prefix原行": 185118,
+      "相手価格prefix最終原行": 199694,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Night",
+      "q0_index": 0,
+      "line": 1454,
+      "time": 1793779320,
+      "自己prefix原行": 1454,
+      "相手価格prefix最終原行": 1478,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Night",
+      "q0_index": 231,
+      "line": 62845,
+      "time": 1793793301,
+      "自己prefix原行": 62845,
+      "相手価格prefix最終原行": 54758,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Night",
+      "q0_index": 463,
+      "line": 154201,
+      "time": 1793807220,
+      "自己prefix原行": 154201,
+      "相手価格prefix最終原行": 133716,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Night",
+      "q0_index": 694,
+      "line": 242487,
+      "time": 1793822058,
+      "自己prefix原行": 242487,
+      "相手価格prefix最終原行": 213194,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Night",
+      "q0_index": 0,
+      "line": 6027,
+      "time": 1793780101.0,
+      "自己prefix原行": 6027,
+      "相手価格prefix最終原行": 6348,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Night",
+      "q0_index": 222,
+      "line": 70492,
+      "time": 1793796603.0,
+      "自己prefix原行": 70492,
+      "相手価格prefix最終原行": 82458,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Night",
+      "q0_index": 445,
+      "line": 161867,
+      "time": 1793811122.0,
+      "自己prefix原行": 161867,
+      "相手価格prefix最終原行": 185465,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-04_Night",
+      "q0_index": 667,
+      "line": 223740,
+      "time": 1793824983.0,
+      "自己prefix原行": 223740,
+      "相手価格prefix最終原行": 253931,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Day",
+      "q0_index": 0,
+      "line": 1617,
+      "time": 1793836020,
+      "自己prefix原行": 1617,
+      "相手価格prefix最終原行": 1415,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Day",
+      "q0_index": 117,
+      "line": 60390,
+      "time": 1793843042,
+      "自己prefix原行": 60390,
+      "相手価格prefix最終原行": 59430,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Day",
+      "q0_index": 235,
+      "line": 111275,
+      "time": 1793850120,
+      "自己prefix原行": 111275,
+      "相手価格prefix最終原行": 106420,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Day",
+      "q0_index": 352,
+      "line": 164804,
+      "time": 1793857140,
+      "自己prefix原行": 164804,
+      "相手価格prefix最終原行": 154232,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Day",
+      "q0_index": 0,
+      "line": 4645,
+      "time": 1793836800.0,
+      "自己prefix原行": 4645,
+      "相手価格prefix最終原行": 4941,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Day",
+      "q0_index": 128,
+      "line": 70808,
+      "time": 1793844480.0,
+      "自己prefix原行": 70808,
+      "相手価格prefix最終原行": 72551,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Day",
+      "q0_index": 257,
+      "line": 120744,
+      "time": 1793852340.0,
+      "自己prefix原行": 120744,
+      "相手価格prefix最終原行": 127495,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Day",
+      "q0_index": 385,
+      "line": 174412,
+      "time": 1793860080.0,
+      "自己prefix原行": 174412,
+      "相手価格prefix最終原行": 187127,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Night",
+      "q0_index": 0,
+      "line": 1706,
+      "time": 1793865724,
+      "自己prefix原行": 1706,
+      "相手価格prefix最終原行": 1853,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Night",
+      "q0_index": 235,
+      "line": 67327,
+      "time": 1793880070,
+      "自己prefix原行": 67327,
+      "相手価格prefix最終原行": 62291,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Night",
+      "q0_index": 471,
+      "line": 161834,
+      "time": 1793894342,
+      "自己prefix原行": 161834,
+      "相手価格prefix最終原行": 147913,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-05_Night",
+      "q0_index": 706,
+      "line": 274499,
+      "time": 1793908450,
+      "自己prefix原行": 274499,
+      "相手価格prefix最終原行": 254070,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Night",
+      "q0_index": 0,
+      "line": 6720,
+      "time": 1793866500.0,
+      "自己prefix原行": 6720,
+      "相手価格prefix最終原行": 6662,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Night",
+      "q0_index": 238,
+      "line": 71681,
+      "time": 1793882479.0,
+      "自己prefix原行": 71681,
+      "相手価格prefix最終原行": 78317,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Night",
+      "q0_index": 476,
+      "line": 169975,
+      "time": 1793896862.0,
+      "自己prefix原行": 169975,
+      "相手価格prefix最終原行": 184847,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-05_Night",
+      "q0_index": 714,
+      "line": 274166,
+      "time": 1793911381.0,
+      "自己prefix原行": 274166,
+      "相手価格prefix最終原行": 295127,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Day",
+      "q0_index": 0,
+      "line": 5648,
+      "time": 1793922420,
+      "自己prefix原行": 5648,
+      "相手価格prefix最終原行": 3687,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Day",
+      "q0_index": 117,
+      "line": 75799,
+      "time": 1793929440,
+      "自己prefix原行": 75799,
+      "相手価格prefix最終原行": 73673,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Day",
+      "q0_index": 235,
+      "line": 136002,
+      "time": 1793936522,
+      "自己prefix原行": 136002,
+      "相手価格prefix最終原行": 129576,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Day",
+      "q0_index": 352,
+      "line": 194868,
+      "time": 1793943540,
+      "自己prefix原行": 194868,
+      "相手価格prefix最終原行": 185867,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Day",
+      "q0_index": 0,
+      "line": 10018,
+      "time": 1793923200.0,
+      "自己prefix原行": 10018,
+      "相手価格prefix最終原行": 12275,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Day",
+      "q0_index": 129,
+      "line": 87284,
+      "time": 1793930940.0,
+      "自己prefix原行": 87284,
+      "相手価格prefix最終原行": 90387,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Day",
+      "q0_index": 258,
+      "line": 147375,
+      "time": 1793938740.0,
+      "自己prefix原行": 147375,
+      "相手価格prefix最終原行": 154972,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Day",
+      "q0_index": 386,
+      "line": 208485,
+      "time": 1793946480.0,
+      "自己prefix原行": 208485,
+      "相手価格prefix最終原行": 217686,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Night",
+      "q0_index": 0,
+      "line": 2447,
+      "time": 1793952120,
+      "自己prefix原行": 2447,
+      "相手価格prefix最終原行": 2057,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Night",
+      "q0_index": 233,
+      "line": 87098,
+      "time": 1793966106,
+      "自己prefix原行": 87098,
+      "相手価格prefix最終原行": 80547,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Night",
+      "q0_index": 467,
+      "line": 186137,
+      "time": 1793980140,
+      "自己prefix原行": 186137,
+      "相手価格prefix最終原行": 172624,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-06_Night",
+      "q0_index": 700,
+      "line": 281066,
+      "time": 1793994847,
+      "自己prefix原行": 281066,
+      "相手価格prefix最終原行": 255589,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Night",
+      "q0_index": 0,
+      "line": 7549,
+      "time": 1793952900.0,
+      "自己prefix原行": 7549,
+      "相手価格prefix最終原行": 8330,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Night",
+      "q0_index": 240,
+      "line": 90321,
+      "time": 1793967840.0,
+      "自己prefix原行": 90321,
+      "相手価格prefix最終原行": 97657,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Night",
+      "q0_index": 480,
+      "line": 191215,
+      "time": 1793982720.0,
+      "自己prefix原行": 191215,
+      "相手価格prefix最終原行": 206335,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-06_Night",
+      "q0_index": 719,
+      "line": 267159,
+      "time": 1793997783.0,
+      "自己prefix原行": 267159,
+      "相手価格prefix最終原行": 294800,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Day",
+      "q0_index": 0,
+      "line": 3645,
+      "time": 1794181620,
+      "自己prefix原行": 3645,
+      "相手価格prefix最終原行": 1261,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Day",
+      "q0_index": 117,
+      "line": 66100,
+      "time": 1794188640,
+      "自己prefix原行": 66100,
+      "相手価格prefix最終原行": 61293,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Day",
+      "q0_index": 235,
+      "line": 112178,
+      "time": 1794195722,
+      "自己prefix原行": 112178,
+      "相手価格prefix最終原行": 102948,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Day",
+      "q0_index": 352,
+      "line": 161684,
+      "time": 1794202743,
+      "自己prefix原行": 161684,
+      "相手価格prefix最終原行": 147270,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Day",
+      "q0_index": 0,
+      "line": 6037,
+      "time": 1794182400.0,
+      "自己prefix原行": 6037,
+      "相手価格prefix最終原行": 8869,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Day",
+      "q0_index": 129,
+      "line": 72326,
+      "time": 1794190141.0,
+      "自己prefix原行": 72326,
+      "相手価格prefix最終原行": 78390,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Day",
+      "q0_index": 258,
+      "line": 116329,
+      "time": 1794197881.0,
+      "自己prefix原行": 116329,
+      "相手価格prefix最終原行": 127182,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Day",
+      "q0_index": 387,
+      "line": 166674,
+      "time": 1794205680.0,
+      "自己prefix原行": 166674,
+      "相手価格prefix最終原行": 182858,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Night",
+      "q0_index": 0,
+      "line": 2225,
+      "time": 1794211320,
+      "自己prefix原行": 2225,
+      "相手価格prefix最終原行": 1669,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Night",
+      "q0_index": 226,
+      "line": 73131,
+      "time": 1794224897,
+      "自己prefix原行": 73131,
+      "相手価格prefix最終原行": 65505,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Night",
+      "q0_index": 453,
+      "line": 150720,
+      "time": 1794238800,
+      "自己prefix原行": 150720,
+      "相手価格prefix最終原行": 132414,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-09_Night",
+      "q0_index": 679,
+      "line": 216086,
+      "time": 1794254042,
+      "自己prefix原行": 216086,
+      "相手価格prefix最終原行": 187050,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Night",
+      "q0_index": 0,
+      "line": 6661,
+      "time": 1794212101.0,
+      "自己prefix原行": 6661,
+      "相手価格prefix最終原行": 7458,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Night",
+      "q0_index": 178,
+      "line": 67262,
+      "time": 1794225420.0,
+      "自己prefix原行": 67262,
+      "相手価格prefix最終原行": 75293,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Night",
+      "q0_index": 357,
+      "line": 131701,
+      "time": 1794238681.0,
+      "自己prefix原行": 131701,
+      "相手価格prefix最終原行": 149888,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-09_Night",
+      "q0_index": 535,
+      "line": 197088,
+      "time": 1794256984.0,
+      "自己prefix原行": 197088,
+      "相手価格prefix最終原行": 227547,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Day",
+      "q0_index": 0,
+      "line": 1690,
+      "time": 1794268020,
+      "自己prefix原行": 1690,
+      "相手価格prefix最終原行": 1346,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Day",
+      "q0_index": 117,
+      "line": 56787,
+      "time": 1794275041,
+      "自己prefix原行": 56787,
+      "相手価格prefix最終原行": 53193,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Day",
+      "q0_index": 235,
+      "line": 97296,
+      "time": 1794282120,
+      "自己prefix原行": 97296,
+      "相手価格prefix最終原行": 89553,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Day",
+      "q0_index": 352,
+      "line": 142661,
+      "time": 1794289143,
+      "自己prefix原行": 142661,
+      "相手価格prefix最終原行": 127997,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Day",
+      "q0_index": 0,
+      "line": 5079,
+      "time": 1794268800.0,
+      "自己prefix原行": 5079,
+      "相手価格prefix最終原行": 5511,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Day",
+      "q0_index": 126,
+      "line": 61816,
+      "time": 1794276420.0,
+      "自己prefix原行": 61816,
+      "相手価格prefix最終原行": 66562,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Day",
+      "q0_index": 252,
+      "line": 102936,
+      "time": 1794284235.0,
+      "自己prefix原行": 102936,
+      "相手価格prefix最終原行": 112445,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Day",
+      "q0_index": 378,
+      "line": 143940,
+      "time": 1794292080.0,
+      "自己prefix原行": 143940,
+      "相手価格prefix最終原行": 160601,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Night",
+      "q0_index": 0,
+      "line": 1657,
+      "time": 1794297721,
+      "自己prefix原行": 1657,
+      "相手価格prefix最終原行": 1633,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Night",
+      "q0_index": 211,
+      "line": 59310,
+      "time": 1794310862,
+      "自己prefix原行": 59310,
+      "相手価格prefix最終原行": 55447,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Night",
+      "q0_index": 422,
+      "line": 137179,
+      "time": 1794324542,
+      "自己prefix原行": 137179,
+      "相手価格prefix最終原行": 125982,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-10_Night",
+      "q0_index": 633,
+      "line": 226018,
+      "time": 1794340454,
+      "自己prefix原行": 226018,
+      "相手価格prefix最終原行": 209404,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Night",
+      "q0_index": 0,
+      "line": 5788,
+      "time": 1794298504.0,
+      "自己prefix原行": 5788,
+      "相手価格prefix最終原行": 5961,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Night",
+      "q0_index": 180,
+      "line": 88765,
+      "time": 1794318784.0,
+      "自己prefix原行": 88765,
+      "相手価格prefix最終原行": 97097,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Night",
+      "q0_index": 361,
+      "line": 162699,
+      "time": 1794329892.0,
+      "自己prefix原行": 162699,
+      "相手価格prefix最終原行": 175796,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-10_Night",
+      "q0_index": 541,
+      "line": 219333,
+      "time": 1794343385.0,
+      "自己prefix原行": 219333,
+      "相手価格prefix最終原行": 237289,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Day",
+      "q0_index": 0,
+      "line": 1652,
+      "time": 1794354423,
+      "自己prefix原行": 1652,
+      "相手価格prefix最終原行": 1388,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Day",
+      "q0_index": 117,
+      "line": 54584,
+      "time": 1794361445,
+      "自己prefix原行": 54584,
+      "相手価格prefix最終原行": 44184,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Day",
+      "q0_index": 235,
+      "line": 94911,
+      "time": 1794368521,
+      "自己prefix原行": 94911,
+      "相手価格prefix最終原行": 73644,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Day",
+      "q0_index": 352,
+      "line": 131922,
+      "time": 1794375540,
+      "自己prefix原行": 131922,
+      "相手価格prefix最終原行": 100327,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Day",
+      "q0_index": 0,
+      "line": 3580,
+      "time": 1794355200.0,
+      "自己prefix原行": 3580,
+      "相手価格prefix最終原行": 4581,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Day",
+      "q0_index": 126,
+      "line": 52156,
+      "time": 1794362821.0,
+      "自己prefix原行": 52156,
+      "相手価格prefix最終原行": 64921,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Day",
+      "q0_index": 252,
+      "line": 83494,
+      "time": 1794370800.0,
+      "自己prefix原行": 83494,
+      "相手価格prefix最終原行": 107786,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Day",
+      "q0_index": 378,
+      "line": 110776,
+      "time": 1794378480.0,
+      "自己prefix原行": 110776,
+      "相手価格prefix最終原行": 146309,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Night",
+      "q0_index": 0,
+      "line": 1382,
+      "time": 1794384124,
+      "自己prefix原行": 1382,
+      "相手価格prefix最終原行": 1169,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Night",
+      "q0_index": 215,
+      "line": 51743,
+      "time": 1794397141,
+      "自己prefix原行": 51743,
+      "相手価格prefix最終原行": 37711,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Night",
+      "q0_index": 430,
+      "line": 112770,
+      "time": 1794410642,
+      "自己prefix原行": 112770,
+      "相手価格prefix最終原行": 81556,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-11_Night",
+      "q0_index": 645,
+      "line": 176453,
+      "time": 1794426822,
+      "自己prefix原行": 176453,
+      "相手価格prefix最終原行": 120618,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Night",
+      "q0_index": 0,
+      "line": 4007,
+      "time": 1794384903.0,
+      "自己prefix原行": 4007,
+      "相手価格prefix最終原行": 5138,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Night",
+      "q0_index": 158,
+      "line": 34899,
+      "time": 1794395940.0,
+      "自己prefix原行": 34899,
+      "相手価格prefix最終原行": 47571,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Night",
+      "q0_index": 316,
+      "line": 82160,
+      "time": 1794410761.0,
+      "自己prefix原行": 82160,
+      "相手価格prefix最終原行": 113545,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-11_Night",
+      "q0_index": 473,
+      "line": 124413,
+      "time": 1794429440.0,
+      "自己prefix原行": 124413,
+      "相手価格prefix最終原行": 184548,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Day",
+      "q0_index": 0,
+      "line": 2995,
+      "time": 1794440820,
+      "自己prefix原行": 2995,
+      "相手価格prefix最終原行": 1745,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Day",
+      "q0_index": 117,
+      "line": 57708,
+      "time": 1794447840,
+      "自己prefix原行": 57708,
+      "相手価格prefix最終原行": 45243,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Day",
+      "q0_index": 235,
+      "line": 97922,
+      "time": 1794454922,
+      "自己prefix原行": 97922,
+      "相手価格prefix最終原行": 73145,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Day",
+      "q0_index": 352,
+      "line": 145187,
+      "time": 1794461940,
+      "自己prefix原行": 145187,
+      "相手価格prefix最終原行": 107406,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Day",
+      "q0_index": 0,
+      "line": 4565,
+      "time": 1794441600.0,
+      "自己prefix原行": 4565,
+      "相手価格prefix最終原行": 7240,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Day",
+      "q0_index": 128,
+      "line": 52320,
+      "time": 1794449280.0,
+      "自己prefix原行": 52320,
+      "相手価格prefix最終原行": 67728,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Day",
+      "q0_index": 256,
+      "line": 83373,
+      "time": 1794457080.0,
+      "自己prefix原行": 83373,
+      "相手価格prefix最終原行": 112057,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Day",
+      "q0_index": 384,
+      "line": 121628,
+      "time": 1794464880.0,
+      "自己prefix原行": 121628,
+      "相手価格prefix最終原行": 163622,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Night",
+      "q0_index": 0,
+      "line": 1518,
+      "time": 1794470522,
+      "自己prefix原行": 1518,
+      "相手価格prefix最終原行": 1422,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Night",
+      "q0_index": 216,
+      "line": 50650,
+      "time": 1794484331,
+      "自己prefix原行": 50650,
+      "相手価格prefix最終原行": 39921,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Night",
+      "q0_index": 432,
+      "line": 131529,
+      "time": 1794497646,
+      "自己prefix原行": 131529,
+      "相手価格prefix最終原行": 105882,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-12_Night",
+      "q0_index": 648,
+      "line": 217190,
+      "time": 1794513024,
+      "自己prefix原行": 217190,
+      "相手価格prefix最終原行": 170083,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Night",
+      "q0_index": 0,
+      "line": 4390,
+      "time": 1794471300.0,
+      "自己prefix原行": 4390,
+      "相手価格prefix最終原行": 5410,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Night",
+      "q0_index": 212,
+      "line": 56711,
+      "time": 1794489181.0,
+      "自己prefix原行": 56711,
+      "相手価格prefix最終原行": 72358,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Night",
+      "q0_index": 425,
+      "line": 132553,
+      "time": 1794502685.0,
+      "自己prefix原行": 132553,
+      "相手価格prefix最終原行": 166926,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-12_Night",
+      "q0_index": 637,
+      "line": 179098,
+      "time": 1794516195.0,
+      "自己prefix原行": 179098,
+      "相手価格prefix最終原行": 230221,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Day",
+      "q0_index": 0,
+      "line": 2029,
+      "time": 1794527223,
+      "自己prefix原行": 2029,
+      "相手価格prefix最終原行": 1671,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Day",
+      "q0_index": 117,
+      "line": 53307,
+      "time": 1794534240,
+      "自己prefix原行": 53307,
+      "相手価格prefix最終原行": 40293,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Day",
+      "q0_index": 235,
+      "line": 95793,
+      "time": 1794541322,
+      "自己prefix原行": 95793,
+      "相手価格prefix最終原行": 70150,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Day",
+      "q0_index": 352,
+      "line": 143559,
+      "time": 1794548340,
+      "自己prefix原行": 143559,
+      "相手価格prefix最終原行": 106832,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Day",
+      "q0_index": 0,
+      "line": 3835,
+      "time": 1794528000.0,
+      "自己prefix原行": 3835,
+      "相手価格prefix最終原行": 5252,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Day",
+      "q0_index": 126,
+      "line": 46680,
+      "time": 1794535620.0,
+      "自己prefix原行": 46680,
+      "相手価格prefix最終原行": 62433,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Day",
+      "q0_index": 253,
+      "line": 82979,
+      "time": 1794543601.0,
+      "自己prefix原行": 82979,
+      "相手価格prefix最終原行": 112519,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Day",
+      "q0_index": 379,
+      "line": 120133,
+      "time": 1794551280.0,
+      "自己prefix原行": 120133,
+      "相手価格prefix最終原行": 161363,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Night",
+      "q0_index": 0,
+      "line": 1410,
+      "time": 1794556921,
+      "自己prefix原行": 1410,
+      "相手価格prefix最終原行": 1266,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Night",
+      "q0_index": 206,
+      "line": 54161,
+      "time": 1794571201,
+      "自己prefix原行": 54161,
+      "相手価格prefix最終原行": 40767,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Night",
+      "q0_index": 413,
+      "line": 129899,
+      "time": 1794585121,
+      "自己prefix原行": 129899,
+      "相手価格prefix最終原行": 97743,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-13_Night",
+      "q0_index": 619,
+      "line": 199619,
+      "time": 1794599651,
+      "自己prefix原行": 199619,
+      "相手価格prefix最終原行": 147118,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Night",
+      "q0_index": 0,
+      "line": 4253,
+      "time": 1794557700.0,
+      "自己prefix原行": 4253,
+      "相手価格prefix最終原行": 5248,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Night",
+      "q0_index": 170,
+      "line": 61379,
+      "time": 1794578823.0,
+      "自己prefix原行": 61379,
+      "相手価格prefix最終原行": 85501,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Night",
+      "q0_index": 340,
+      "line": 121582,
+      "time": 1794589981.0,
+      "自己prefix原行": 121582,
+      "相手価格prefix最終原行": 161107,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-13_Night",
+      "q0_index": 510,
+      "line": 152843,
+      "time": 1794602582.0,
+      "自己prefix原行": 152843,
+      "相手価格prefix最終原行": 209673,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Day",
+      "q0_index": 0,
+      "line": 2417,
+      "time": 1794786420,
+      "自己prefix原行": 2417,
+      "相手価格prefix最終原行": 981,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Day",
+      "q0_index": 117,
+      "line": 57442,
+      "time": 1794793440,
+      "自己prefix原行": 57442,
+      "相手価格prefix最終原行": 47307,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Day",
+      "q0_index": 235,
+      "line": 104636,
+      "time": 1794800520,
+      "自己prefix原行": 104636,
+      "相手価格prefix最終原行": 82440,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Day",
+      "q0_index": 352,
+      "line": 150640,
+      "time": 1794807545,
+      "自己prefix原行": 150640,
+      "相手価格prefix最終原行": 117460,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Day",
+      "q0_index": 0,
+      "line": 3285,
+      "time": 1794787200.0,
+      "自己prefix原行": 3285,
+      "相手価格prefix最終原行": 5617,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Day",
+      "q0_index": 128,
+      "line": 56843,
+      "time": 1794794940.0,
+      "自己prefix原行": 56843,
+      "相手価格prefix最終原行": 69269,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Day",
+      "q0_index": 257,
+      "line": 94217,
+      "time": 1794802744.0,
+      "自己prefix原行": 94217,
+      "相手価格prefix最終原行": 119724,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Day",
+      "q0_index": 385,
+      "line": 131238,
+      "time": 1794810480.0,
+      "自己prefix原行": 131238,
+      "相手価格prefix最終原行": 168321,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Night",
+      "q0_index": 0,
+      "line": 1687,
+      "time": 1794816120,
+      "自己prefix原行": 1687,
+      "相手価格prefix最終原行": 1556,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Night",
+      "q0_index": 220,
+      "line": 62956,
+      "time": 1794830183,
+      "自己prefix原行": 62956,
+      "相手価格prefix最終原行": 46247,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Night",
+      "q0_index": 440,
+      "line": 147695,
+      "time": 1794843600,
+      "自己prefix原行": 147695,
+      "相手価格prefix最終原行": 113514,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-16_Night",
+      "q0_index": 660,
+      "line": 231957,
+      "time": 1794858846,
+      "自己prefix原行": 231957,
+      "相手価格prefix最終原行": 177561,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Night",
+      "q0_index": 0,
+      "line": 4990,
+      "time": 1794816905.0,
+      "自己prefix原行": 4990,
+      "相手価格prefix最終原行": 6265,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Night",
+      "q0_index": 185,
+      "line": 64819,
+      "time": 1794834603.0,
+      "自己prefix原行": 64819,
+      "相手価格prefix最終原行": 87678,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Night",
+      "q0_index": 371,
+      "line": 139049,
+      "time": 1794848401.0,
+      "自己prefix原行": 139049,
+      "相手価格prefix最終原行": 179705,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-16_Night",
+      "q0_index": 556,
+      "line": 188821,
+      "time": 1794861785.0,
+      "自己prefix原行": 188821,
+      "相手価格prefix最終原行": 246996,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-17_Day",
+      "q0_index": 0,
+      "line": 1836,
+      "time": 1794872825,
+      "自己prefix原行": 1836,
+      "相手価格prefix最終原行": 1689,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-17_Day",
+      "q0_index": 117,
+      "line": 60247,
+      "time": 1794879840,
+      "自己prefix原行": 60247,
+      "相手価格prefix最終原行": 52813,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-17_Day",
+      "q0_index": 235,
+      "line": 109979,
+      "time": 1794886920,
+      "自己prefix原行": 109979,
+      "相手価格prefix最終原行": 93608,
+      "成功": true
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-17_Day",
+      "q0_index": 352,
+      "line": 157321,
+      "time": 1794893944,
+      "自己prefix原行": 157321,
+      "相手価格prefix最終原行": 131470,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-17_Day",
+      "q0_index": 0,
+      "line": 4051,
+      "time": 1794873600.0,
+      "自己prefix原行": 4051,
+      "相手価格prefix最終原行": 5321,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-17_Day",
+      "q0_index": 126,
+      "line": 61685,
+      "time": 1794881160.0,
+      "自己prefix原行": 61685,
+      "相手価格prefix最終原行": 70884,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-17_Day",
+      "q0_index": 253,
+      "line": 105073,
+      "time": 1794889080.0,
+      "自己prefix原行": 105073,
+      "相手価格prefix最終原行": 124543,
+      "成功": true
+    },
+    {
+      "symbol": "TOPIX",
+      "session": "2026-11-17_Day",
+      "q0_index": 379,
+      "line": 145087,
+      "time": 1794896880.0,
+      "自己prefix原行": 145087,
+      "相手価格prefix最終原行": 174498,
+      "成功": true
+    }
+  ]
+}
