@@ -1,0 +1,134 @@
+{
+  "成功": true,
+  "完了時刻": "2026-11-08T14:58:50.974691+09:00",
+  "対象": "先頭2場のchart_grids/chart_endのみ・損益/Current/Actor未参照",
+  "場数": 2,
+  "予定場数": 2,
+  "場別": [
+    {
+      "session": "2026-09-21_Day",
+      "grids": 83,
+      "publications": 138,
+      "quality": {
+        "TOPIX": {
+          "lines": 48692,
+          "clock_missing": 9,
+          "outside": 0,
+          "backward": 0,
+          "accepted": 48683,
+          "bad_last": 0,
+          "bad_quote": 160,
+          "contracts": [
+            "161120005"
+          ]
+        },
+        "NK225": {
+          "lines": 56436,
+          "clock_missing": 16,
+          "outside": 0,
+          "backward": 0,
+          "accepted": 56420,
+          "bad_last": 0,
+          "bad_quote": 130,
+          "contracts": [
+            "161120018"
+          ]
+        }
+      },
+      "carried_numeric_seed": false,
+      "end_at": 1789972799.0,
+      "last_reference": "NK225"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "grids": 155,
+      "publications": 258,
+      "quality": {
+        "TOPIX": {
+          "lines": 83801,
+          "clock_missing": 309,
+          "outside": 5,
+          "backward": 0,
+          "accepted": 83487,
+          "bad_last": 0,
+          "bad_quote": 105,
+          "contracts": [
+            "161120005"
+          ]
+        },
+        "NK225": {
+          "lines": 81631,
+          "clock_missing": 286,
+          "outside": 5,
+          "backward": 0,
+          "accepted": 81340,
+          "bad_last": 0,
+          "bad_quote": 80,
+          "contracts": [
+            "161120018"
+          ]
+        }
+      },
+      "carried_numeric_seed": true,
+      "end_at": 1790024070.0,
+      "last_reference": "NK225"
+    }
+  ],
+  "集計": {
+    "照合数": 251195,
+    "既知数値照合数": 10633,
+    "未知値確認skip": 2583,
+    "strict境界照合数": 9792,
+    "最大絶対誤差": 0.0,
+    "最大誤差箇所": "",
+    "不一致数": 0
+  },
+  "誤差": {
+    "abs": 1e-08,
+    "rel": 1e-12,
+    "strict境界": "許容誤差を使用しない"
+  },
+  "失敗": null,
+  "入力前SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\入力台帳.json": "b939bc91b33fd86e933534c3b991d844b8a0200a5f14710e1bd5004edc1aab42",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\複数尺度チャートの助走\\bank.go": "e727cc2589d3ba1f4b8d81ff8266f29117264dbe08560c9033e68b2c4442f612",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\technical.go": "ba63bd64bfaaf74adfc1ab780f627828d8f92783647dbb3ee8e66968ae8082a9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\chart.go": "17891935b6b7bce106423e0cb711a0387aef3efe66b640d0b9c740dc7ecffefa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\chart_seeds.go": "8ec331393e99b39cddf174790f2d2828f6287448f6b44ef94476647795f632f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\replay.go": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\grid_clock.go": "133618eef51363f740323972329fea186c85fe7525117d35a7eb19a1eb67ac4c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\input.go": "c1f531eaf96294a6f4e2cc40130e6da02a44a3f6bc2e1b079093ed3ff3d8d597",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分判断と出生一回の監査\\出生と5分境界の照合.py": "329fb9958f708bbf34fd939978f358e35333ad80053e4b5ce78521d95afca693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96チャート原板監査案\\原板から照合する.py": "995a7d17aceeec11bc2b4bb0e26212f9d40e80dec91e73eb7f192b9062badacf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96チャート原板監査案\\chart_numeric.py": "4423c9b61b318f741c61067f61eef613ac442113ffa57d61025446b5018a171f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96実行\\接続2場\\2026-09-21_Day.json": "b9257995c877d894024ecebc32c249407bad2678ace08b0d853f6af7825103ac",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-09-21_Day\\book.jsonl.gz": "bb8adff1ab76596f7ae3608089f5ee88f70bb3ed0dd894eac6e28844a4592c94",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz": "e2cdf1c1d40339ca393be4c06ac49e709b99e700b303aaf23a29c171e4c6806b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96実行\\接続2場\\2026-09-21_Night.json": "2caff1e612525e077f7ce4c95cc2aeffe0637714bae0f7e52d216ae3ad9e894a",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-09-21_Night\\book.jsonl.gz": "f9875b9bfd4e16e73c844ea0c17dfbfb20d61317210b22209c485e75f82626b0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz": "64f246378f4b0581bb16092c4977d3c4b9c83a5a755fd11d09bdc68765189ba1"
+  },
+  "入力後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\入力台帳.json": "b939bc91b33fd86e933534c3b991d844b8a0200a5f14710e1bd5004edc1aab42",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\複数尺度チャートの助走\\bank.go": "e727cc2589d3ba1f4b8d81ff8266f29117264dbe08560c9033e68b2c4442f612",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR後期15分移植\\technical.go": "ba63bd64bfaaf74adfc1ab780f627828d8f92783647dbb3ee8e66968ae8082a9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\チャートの現在性と補助確認\\chart.go": "17891935b6b7bce106423e0cb711a0387aef3efe66b640d0b9c740dc7ecffefa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\chart_seeds.go": "8ec331393e99b39cddf174790f2d2828f6287448f6b44ef94476647795f632f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\replay.go": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\grid_clock.go": "133618eef51363f740323972329fea186c85fe7525117d35a7eb19a1eb67ac4c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\input.go": "c1f531eaf96294a6f4e2cc40130e6da02a44a3f6bc2e1b079093ed3ff3d8d597",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分判断と出生一回の監査\\出生と5分境界の照合.py": "329fb9958f708bbf34fd939978f358e35333ad80053e4b5ce78521d95afca693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96チャート原板監査案\\原板から照合する.py": "995a7d17aceeec11bc2b4bb0e26212f9d40e80dec91e73eb7f192b9062badacf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96チャート原板監査案\\chart_numeric.py": "4423c9b61b318f741c61067f61eef613ac442113ffa57d61025446b5018a171f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96実行\\接続2場\\2026-09-21_Day.json": "b9257995c877d894024ecebc32c249407bad2678ace08b0d853f6af7825103ac",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-09-21_Day\\book.jsonl.gz": "bb8adff1ab76596f7ae3608089f5ee88f70bb3ed0dd894eac6e28844a4592c94",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz": "e2cdf1c1d40339ca393be4c06ac49e709b99e700b303aaf23a29c171e4c6806b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96実行\\接続2場\\2026-09-21_Night.json": "2caff1e612525e077f7ce4c95cc2aeffe0637714bae0f7e52d216ae3ad9e894a",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-09-21_Night\\book.jsonl.gz": "f9875b9bfd4e16e73c844ea0c17dfbfb20d61317210b22209c485e75f82626b0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz": "64f246378f4b0581bb16092c4977d3c4b9c83a5a755fd11d09bdc68765189ba1"
+  },
+  "入力不変": true,
+  "原板本文": "9/21 Day/NightのNK225/TOPIX計4ファイルだけ・CSV未読",
+  "指標計算": "独立Python・Go金融/Source呼出0",
+  "限界": "先頭2場だけ。数量Current・金融・Source生成の検査は別担当。unknown数値の0は数値一致へ数えない。"
+}

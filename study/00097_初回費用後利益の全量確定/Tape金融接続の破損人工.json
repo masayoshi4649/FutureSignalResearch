@@ -1,0 +1,58 @@
+{
+  "成功": true,
+  "拒否数": 12,
+  "反証": [
+    {
+      "種類": "共有Current出典を両保存で変更",
+      "拒否": "grid Currentと直前Native NK:source_line:保存=10052/期待=10051"
+    },
+    {
+      "種類": "現在候補量",
+      "拒否": "AB_B5Q_P0_C0_D0/現在候補全field/quantity:保存=6/期待=5"
+    },
+    {
+      "種類": "保存採否",
+      "拒否": "AB_B5Q_P0_C0_D0/純技法全checksとDecision/decision/allowed:保存=False/期待=True"
+    },
+    {
+      "種類": "保存個別check",
+      "拒否": "AB_B5Q_P0_C0_D0/純技法全checksとDecision/checks/0/passed:保存=False/期待=True"
+    },
+    {
+      "種類": "callback欠落",
+      "拒否": "独立callbackの保存結合/一回"
+    },
+    {
+      "種類": "callback未知tag",
+      "拒否": "新GateAssessment全字段:保存={'ordinal', 'source', 'candidate', 'key', 'assessment', '未知判断根拠'}/期待={'ordinal', 'source', 'candidate', 'key', 'assessment'}"
+    },
+    {
+      "種類": "同時刻gridと原行を逆転",
+      "拒否": "grid Currentと直前Native NK:time:保存=1789949699/期待=1789949700"
+    },
+    {
+      "種類": "空Source配送手法の欠落",
+      "拒否": "B5Q_P0_C0_D0/metrics/native_batches:保存=10/期待=9"
+    },
+    {
+      "種類": "非空Source物理行",
+      "拒否": "復元通知の時計/位相/物理行:保存=(1789949699, 'quote', 10051)/期待=(1789949699, 'quote', 10050)"
+    },
+    {
+      "種類": "H0床緩和",
+      "拒否": "H0_AB_B5Q_P0_C0_D0/positions/0/floor_gain:保存=0/期待=30"
+    },
+    {
+      "種類": "同原行fill",
+      "拒否": "H0_AB_B5Q_P0_C0_D0/fills/2/quote/time:保存=1789949702/期待=1789949703"
+    },
+    {
+      "種類": "公開ATR未来",
+      "拒否": "Scalar公開ATRの因果時計"
+    }
+  ],
+  "監査コードSHA256": "31fdf1d566f3c117b2cb6c5ec64e3211e7c8ae33a9cab75d84c1e38af1f4dff7",
+  "人工SHA256前後": "268537f5bd699ba13aa0325a4ba17151ea040a515850efb394d6033a3e5d0b1c",
+  "原板/市場/Go再生": 0,
+  "限定": "保存型の接続破損。自然Source/チャート/ATR生成の反証ではない。"
+}

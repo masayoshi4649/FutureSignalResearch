@@ -1,0 +1,68 @@
+{
+  "成功": true,
+  "確認時刻": "2026-11-08T15:52:25.852426+09:00",
+  "Native終了コード": 0,
+  "場数": 54,
+  "枠数": 6436,
+  "集計": {
+    "照合数": 11216852,
+    "既知数値照合数": 328698,
+    "未知値確認skip": 28694,
+    "strict境界照合数": 312871,
+    "最大絶対誤差": 0.0,
+    "最大誤差箇所": "",
+    "不一致数": 0
+  },
+  "原板指紋数": 108,
+  "Native指紋数": 54,
+  "Native完了結合": {
+    "場数": 54,
+    "Actor数": 16,
+    "sha256": "a2c02eb6a5a75da2f29cdc4b8ee52535094f85e43f255d4d3a30ba2aa07289a8"
+  },
+  "条件code数": 26,
+  "純Source数": 43,
+  "主source指紋": {
+    "auditor": "3aa0cfa58b8efd130c95b2fcfddfd8cec4cab26b2f7226123d234f17a30c9c72",
+    "numeric": "4423c9b61b318f741c61067f61eef613ac442113ffa57d61025446b5018a171f",
+    "condition": "24e1d04d51f0204d2bfb76728411abac2188d4a3f1097d9d25a3f0d83b4e65c9",
+    "exe": "dd0920591614eaa88931dac730b7436e757ee2fd5216baee13ed15bb6041f423"
+  },
+  "純Source43指紋集合SHA256": "b0443d44493969ad1af5f20c6494e778f2c2f4f82670e9018c509cb1847c2697",
+  "開始": "2026-11-08T15:18:19.443580+09:00",
+  "終了": "2026-11-08T15:51:38.528552+09:00",
+  "所要秒": 1999.084933099999,
+  "起動子PID": 42872,
+  "実計算PID補助": 37036,
+  "tool_session": 72074,
+  "入力前後不変": true,
+  "条件code26_Source43_exe_条件前後不変": true,
+  "成果物": {
+    "全54場.json": {
+      "bytes": 109162,
+      "sha256": "9cbc3f33e4c8482adff79fd619d1e52f67eb45819886c524fbd34362d4ffbd69"
+    },
+    "receipt.json": {
+      "bytes": 26636,
+      "sha256": "18bfbbecd64750e07ca931aeab9bbb7bac8fdb3a62d0edb6a3be5813d9ed6943"
+    },
+    "実行開始.json": {
+      "bytes": 13486,
+      "sha256": "f9057b7558609c45889068c845a592499f860b3d547fd3ccd3db6dc3b39f9b99"
+    },
+    "stdout.log": {
+      "bytes": 273,
+      "sha256": "5d0e127efe5abe121cbb7d3155a7665084169e4eb5429b332f56f4a884251d5e"
+    },
+    "stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "全54場を監査する.py": {
+      "bytes": 6018,
+      "sha256": "36d5ba35ed487c18c5f6b9734c802b87982c7dcf643bd9b90cc42402501a5368"
+    }
+  },
+  "範囲": "許可された54場NK/TOPIX108原板と共有Chartだけ。Actors/PnL/Current/対象外12場/新日未参照。exe/Source新売買再生0。",
+  "注意": "既知数値・strict検査はRepeated Recent3等の比較回数。未知値の0は数値成功へ数えない。金融・数量の正しさは別監査。"
+}

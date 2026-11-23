@@ -1,0 +1,67 @@
+{
+  "成功": true,
+  "停止時刻": "2026-11-08T16:36:00.841068+09:00",
+  "所有と証拠SHA256": {
+    "work\\97金融監査接続案\\Tapeと金融の照合.py": "31fdf1d566f3c117b2cb6c5ec64e3211e7c8ae33a9cab75d84c1e38af1f4dff7",
+    "work\\97金融監査接続案\\接続破損を確認する.py": "b37374aff69bc0803a28b44f7b3f706febe887525cb1cb7c0495968884fe7f2d",
+    "work\\97金融監査接続案\\README.md": "5a4b3d232ed3a310226ab1efa688c6dd71fa3cda1fb18a4ab07d10058c9f0075",
+    "work\\97金融監査接続案\\production人工6場面.json": "45223015b9e134379ea494b00d6fc9334a1bc5da2585a4371b498007fd71a5b9",
+    "work\\97金融監査接続案\\接続破損12.json": "846f83b78c81cb62942f08337f77b9df2834ec0daa753584f73d9bdac1ed6ee9"
+  },
+  "API": "inspect_tape(tape,new97)",
+  "正常人工": {
+    "場面": 6,
+    "会計数": 96,
+    "非0会計数": 96,
+    "照合項目数": 302900,
+    "新callback": 80,
+    "差": 0,
+    "CLI終了": 0
+  },
+  "破損拒否": {
+    "種類": 12,
+    "CLI終了": 0
+  },
+  "Forceイベント数": 0,
+  "Forceのpositive接続": "今回6場面では未検査。実装/旧timer/別Go境界証拠と区別する。",
+  "正式Go生成元停止SHA256": "df73cd76fcdb2eac8b2023275e8f1e66f60723239aaced4a844b0e94bce3608e",
+  "人工初回と停止版bytes同一": [
+    {
+      "name": "方向-1_A.json",
+      "初回SHA256": "12f4b9a16f5f7aa97a48e3ee7e89dea52fe15e9e0e54a815a30dfd61c95f2e7d",
+      "停止版SHA256": "12f4b9a16f5f7aa97a48e3ee7e89dea52fe15e9e0e54a815a30dfd61c95f2e7d"
+    },
+    {
+      "name": "方向-1_B.json",
+      "初回SHA256": "2ed34deac3e588c685f08b8db80cf8bf1ade465844633a380e69bb5f65f84e9d",
+      "停止版SHA256": "2ed34deac3e588c685f08b8db80cf8bf1ade465844633a380e69bb5f65f84e9d"
+    },
+    {
+      "name": "方向-1_容量取消未知.json",
+      "初回SHA256": "93685e41afe28bc1dd129cfaff7df2bfee39b7ad5e2b38cdce11def9e1911847",
+      "停止版SHA256": "93685e41afe28bc1dd129cfaff7df2bfee39b7ad5e2b38cdce11def9e1911847"
+    },
+    {
+      "name": "方向1_A.json",
+      "初回SHA256": "268537f5bd699ba13aa0325a4ba17151ea040a515850efb394d6033a3e5d0b1c",
+      "停止版SHA256": "268537f5bd699ba13aa0325a4ba17151ea040a515850efb394d6033a3e5d0b1c"
+    },
+    {
+      "name": "方向1_B.json",
+      "初回SHA256": "acd0ca0225cea9f57baee4d961bc9e79b5f9a1be93a4f99a3947d87ba58b711f",
+      "停止版SHA256": "acd0ca0225cea9f57baee4d961bc9e79b5f9a1be93a4f99a3947d87ba58b711f"
+    },
+    {
+      "name": "方向1_容量取消未知.json",
+      "初回SHA256": "42913df5b07920bc40e8c8822409f839ee80d647bbba901e297bb2c1ae020dd8",
+      "停止版SHA256": "42913df5b07920bc40e8c8822409f839ee80d647bbba901e297bb2c1ae020dd8"
+    }
+  ],
+  "金融監査依存SHA256": "ab7e95e35514ae0aadf4a833f89a1422eaa53c82339d003bba13b9df4eaec5b0",
+  "96純技法依存SHA256": "b5d1af7fb85d4446a47573a4389abfa433177189cb01d901bdd53a8a38b8d5e6",
+  "判定": "現在event.Context＋独立金融候補から純AB全checks/Decisionを計算して返し、保存採否は期待値に使わない。全grid Current/新callback集合順も結合。",
+  "入力コード前後不変": true,
+  "原板/市場/Go金融再生/市場CLI作成": 0,
+  "正式旧96/金融/条件/Source変更": 0,
+  "自然Source/ATR/3分15分の原板生成": "未計測"
+}

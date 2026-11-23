@@ -1,0 +1,157 @@
+{
+  "確認日": "2026-11-08",
+  "保存時刻": "2026-11-08T14:45:40.731310+09:00",
+  "主題": "板数量変化・OFIと次の進行の条件・限界",
+  "区分": "外部一次資料と固定コードの読取・将来候補のみ",
+  "本文": {
+    "path": "work/96外部再調査案/板数量変化と次の価格進行.md",
+    "sha256": "a20f759a60f921da3e973df0de8f92ca23bfa794a6c31554540dfa4233fe6d98",
+    "bytes": 10412
+  },
+  "固定範囲": {
+    "96条件": "Root通知24e1…版・条件本文未読・変更0",
+    "gate停止SHA一致": true,
+    "市場結果読取": 0,
+    "原板読取": 0,
+    "新期間読取": 0,
+    "売買再生": 0,
+    "閾値探索": 0,
+    "金融変更": 0,
+    "正式docs変更": 0,
+    "機会損失評価": 0,
+    "原文全複写保存": 0
+  },
+  "資料": [
+    {
+      "id": "S1",
+      "題名": "The Price Impact of Order Book Events",
+      "著者": [
+        "Rama Cont",
+        "Arseniy Kukanov",
+        "Sasha Stoikov"
+      ],
+      "種別": "著者公開論文稿",
+      "実読版": "arXiv 1011.6402v3・2011-04-13",
+      "刊行版": "Journal of Financial Econometrics 12(1), 2014, 47–88",
+      "url": "https://arxiv.org/html/1011.6402",
+      "版URL": "https://arxiv.org/abs/1011.6402v3",
+      "doi": "10.1093/jjfinec/nbt003",
+      "実読箇所": [
+        "2.1–2.3",
+        "3.1–3.3",
+        "4.1",
+        "Tables 3/4"
+      ],
+      "対象": "米国株50銘柄・2010年4月",
+      "要点": [
+        "OFIは指値・取消・約定を含む最良気配の需給変化",
+        "主な10秒回帰は同一区間の価格説明",
+        "板厚と価格感応度は逆関係"
+      ],
+      "示していないこと": [
+        "NK先物の次5分方向保証",
+        "mini費用後の売買成績"
+      ],
+      "取得": "webの公開HTMLを実読・本文保存なし"
+    },
+    {
+      "id": "S2",
+      "題名": "Order Book Price Impact in the Chinese Soybean Futures Market",
+      "著者": [
+        "Muzhao Jin",
+        "Fearghal Kearney",
+        "Youwei Li",
+        "Yung Chiang Yang"
+      ],
+      "種別": "大学公開の著者受理稿",
+      "実読版": "2021年1月稿・全47頁",
+      "刊行版": "International Journal of Finance & Economics 28(1), 2023, 606–625",
+      "url": "https://livrepository.liverpool.ac.uk/3189553/7/Manuscript_%20Order%20Book%20Imbalance%20Accepted%202021.pdf",
+      "書誌URL": "https://livrepository.liverpool.ac.uk/3189553/",
+      "doi": "10.1002/ijfe.2439",
+      "実読箇所": [
+        "PDF pp.9–15（データ・定義）",
+        "pp.18–29（回帰・予測・結論）",
+        "Table 7 p.40",
+        "Table 8 p.41"
+      ],
+      "対象": "DCE大豆粕先物・2008-06-02〜2013-06-28・四半秒snapshot",
+      "主要限定": [
+        "15分は10秒標本の係数推定窓",
+        "Table8の10秒ラグ1/2は正・Midラグ4..9は負",
+        "有意性比率は的中率ではない",
+        "90秒は単調な同方向継続や厳密期限ではない"
+      ],
+      "示していないこと": [
+        "NKへの係数・時間の移植",
+        "mini費用後の取引成績"
+      ],
+      "取得": "webは406、同じ大学URLをrequestsでHTTP200取得しPyMuPDFで実読・PDF保存なし",
+      "取得本文": {
+        "bytes": 1253755,
+        "sha256": "d1404482b9727b4019d118c31356aba2a4d6bbe3b35dd564005b57170f7dc8d9"
+      }
+    },
+    {
+      "id": "S3",
+      "題名": "MDP 3.0 - Trade Summary",
+      "発行者": "CME Group",
+      "種別": "取引所の市場データ公開仕様",
+      "url": "https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457418925/MDP+3.0+-+Trade+Summary",
+      "実読箇所": [
+        "Trade Summary Data Sequence",
+        "Trade Summary Market Data Entry Conditions",
+        "Trade Summary Tag Usage"
+      ],
+      "表示更新日": "Updated May 12（年は表示から確定しない）",
+      "要点": [
+        "AggressorSide/Trade price/quantityという専用約定情報がある",
+        "イベント・分割メッセージ・impliedの報告条件を区別"
+      ],
+      "示していないこと": [
+        "価格予測の有効性",
+        "JP/OSE保存データの同じ情報の存在"
+      ],
+      "取得": "webで本文・表を実読・全文保存なし"
+    }
+  ],
+  "補助閲覧": [
+    {
+      "url": "https://www.cftc.gov/sites/default/files/2019-05/FisheHaynesOnur_Determinants%20of%20New%20Order%20Latency_ada.pdf",
+      "範囲": "概要・導入を確認",
+      "扱い": "再注文の遅延を扱う別問のため主要3資料へ含めず価格予測根拠に使わない"
+    },
+    {
+      "url": "https://www.cmegroup.com/solutions/market-access/globex/trade-on-globex/faq-cf2.html",
+      "範囲": "Consolidated iLink Fill Messages・FAQ",
+      "扱い": "周辺の配信順序確認・主要資料S3へ集約せず独立した価格優位性の根拠にしない"
+    }
+  ],
+  "弱い情報の扱い": "検索要約で見た解説・独立投稿は採否根拠に使わず、著者公開稿と取引所仕様を引用。取消から操作意図を推定しない。",
+  "局所コード出典SHA256": {
+    "work/96Actual案/technical_gate.go": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf",
+    "work/96Actual案/technical_gate_test.go": "3bf1b7d81c10989937f1096c8564185b621305032e39e3a1716938a1e9782e2a",
+    "work/96Actual案/technical_gate_spec.md": "959c63b7e6d99f574997b080f4c538df51bd9c28b4be20d7eca2cf124621f4c2",
+    "../SessionTradeExecuter/internal/strategy/selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+    "../SessionTradeExecuter/internal/strategy/selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123"
+  },
+  "固定gate基準SHA256": {
+    "work/96Actual案/technical_gate.go": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf",
+    "work/96Actual案/technical_gate_test.go": "3bf1b7d81c10989937f1096c8564185b621305032e39e3a1716938a1e9782e2a",
+    "work/96Actual案/technical_gate_spec.md": "959c63b7e6d99f574997b080f4c538df51bd9c28b4be20d7eca2cf124621f4c2"
+  },
+  "分類": {
+    "実証": "S1/S2の各市場・標本・回帰範囲内のみ",
+    "心理": "表示意欲・流動性回復・吸収の可能性であり意思の確定ではない",
+    "未実証NK": "同じ価格構造で量支持を別時点に再確認する候補・未実装未採用"
+  },
+  "次候補": "量支持の単発集約対価格帯維持下での再確認。時点・適用範囲は別計画で先に固定し、まず可用性のみ。",
+  "会計確認": {
+    "手数料円_往復1枚": 77,
+    "PV円_pt": 100,
+    "手数料相当pt": 0.77,
+    "片道追加滑り5ptの往復込み相当pt": 10.77,
+    "スプレッド": "実entry/exit価格に含まれる分を重複控除しない"
+  },
+  "検証": "Markdownの資料3本とJSONのID/URL一致・ローカルリンク存在・非有限JSONなし・固定gate3SHA不変"
+}

@@ -1,0 +1,1787 @@
+{
+  "試行": 96,
+  "区分": "既存正本の保有内実取引だけを用いる事後記述統計",
+  "確認日時": "2026-11-08T16:05:47.135638+09:00",
+  "入力SHA256前後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\結果.json": "57fe5326d4a2eab6c437f50bec28ecd48d765aeaf0f2905321029828b3c8550f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-21_Day.json.gz": "bf06f28cd7ef116d3046305276c4106a88702ab064d79dce21b90e973e4b2cfc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-21_Night.json.gz": "81a054fcf2fa21565b5d092ee89ba9941bd45f527f940a4a8972a823c1f24ee8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-22_Day.json.gz": "0f31fe9ae98778d552e4177f7a17bd155be329a0843fdeb9fe5303db1697f4e3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-22_Night.json.gz": "2a21ed14762dc72d2a9cef505047c795eff7dd31b6d2069165362a43ff088e83",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-23_Day.json.gz": "2439f693a4f1bc47cc7f71af02433dfca9a9cb292c69d2ff30810adcf5f7c187",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-23_Night.json.gz": "cd259dfc6583944c5a6a90782cee2a36b801daf022ec528a64ddd595a903e873",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-24_Day.json.gz": "32a36c5a75fe6fd7ad3a3c6f0d8860fea8d59b08369cc113a2e925353f44ecd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-24_Night.json.gz": "50bd947d72df38ace572dd931882708a8e610a19afd224bedc04c0acf7b1df67",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-25_Day.json.gz": "820eb24801d5c122334f595c9ee296713c523543dfd866b17ad1755dbe777df9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-25_Night.json.gz": "a06ab239432bfb0f7f3b64e7893caf63136d51dab82fec2ad0ce7f0e91b2ae7e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-28_Day.json.gz": "8cc3c558dabcc38f97293b7f3f2ea26477b047014fd9878af718d5b353903ced",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-28_Night.json.gz": "8cc15ca65b4268e76e603da800d31885169f0816835b062aab1d1e07096eb664",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-29_Day.json.gz": "6524722d778203eed14c9a527f34244630cc68878f4a4370a801109988359536",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-29_Night.json.gz": "8bd868924e7d680d6b2313b15f4033a428d251e4ceefe2097a7c15f15a83aa14",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-30_Day.json.gz": "05af35078f24ff0ef2332d7e31c6176573f5f7cb28cff9437690787fb73f66cf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-30_Night.json.gz": "24718b949699c0ab85754e336d4e8d9a31920a42f64ed3f31a70d652808fefda",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-01_Day.json.gz": "22ad1239a80fe02d0a50d9a793aa56c59045752cd54e9da39bd8b92e83475a9a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-01_Night.json.gz": "09cfcf0dc43a4f93011740e34fb8b661f8a9ea806085c579b8a4247c63e32476",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-02_Day.json.gz": "fcf31ed6e4a91bdc6d141276cc356ca57546d6965b573ce03e97522ae5edbbb1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-02_Night.json.gz": "01a55f83817718019b2e313e9db2be221fe322fdef21267f0d3875267de00b70",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-05_Day.json.gz": "8a408fded91b749017f6447a94bb270cb91fbd9268b3b90b8779c7e0cd77ba25",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-05_Night.json.gz": "fcbc403d7dd795f2218a89c6c6090b9f63a747935b09f812a585f8a77aae1323",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-06_Day.json.gz": "abb8e968277ed20eac65c1cee1b8428c26e464623fadb1709a4ce64a4296dbab",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-06_Night.json.gz": "14574f216479eb56281e183db94fbf297c83594303feb2a6527d51beffe8eae7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-07_Day.json.gz": "a1c23ab734c64f78656762bf05ac1560f1cd1abe8033fb02bb55fed660408954",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-07_Night.json.gz": "c5e3035075efc8f763834733aff7ee8ec6468afb87aab396bc765e484e73f8d5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-08_Day.json.gz": "f2a9110ff813393ad03128004624f3d4d839bc27d79c03e894dfdd241557e3cb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-08_Night.json.gz": "f9629a44229d472a4bf958b9800fbb2fa38c134ffae25fb94512e28944c765d2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-09_Day.json.gz": "b41c664b08792c6447d01bcad626cd00110e6ba43ac24eb7b39b2b6bdeeb1a11",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-09_Night.json.gz": "8a4f64210b46041100594d0d3df79af97242b484a4bc96fe0d0da982cd58573a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-12_Day.json.gz": "6b6502b4655588145da50369bff05f4f303f91c025bd3fe0a834aad4968d3c9d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-12_Night.json.gz": "122375c8e571371a6a137cfaeb302b6cdf66d7886428687c7afc189e7e5c26e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-13_Day.json.gz": "1a780eac688a6fd3087626285af8fd61433a08048364df466dedcd1bac73c9f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-13_Night.json.gz": "9d6e8b0ded13918fbf8e500b37a32e1d854b68d47f80cfbd53a6e0e9e7fed450",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-14_Day.json.gz": "e8ef89b3fd491d5c97f0cbf633e5217eccfc172f2502e9c6a11c1c89efe48f47",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-14_Night.json.gz": "e4fe3e600eda78345d938e3bede6dec6020dd525bc5566e2851d3cb66865f38a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-15_Day.json.gz": "778743ca4ff6ef2873ab768a09952c4fa78aa2e711afaba18c596f365d467e86",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-15_Night.json.gz": "7f65a193e719bde18078e44e3c5272c76cb67ce28a57649ea5443decb3d6a466",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-16_Day.json.gz": "ef004bab99fd383137b0b31ed9c104920dfd52488fa295f6b362bcdbbf6bf30e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-16_Night.json.gz": "eed655d1e72f64e24015296b6580aaa05c44d100a1fc13686a654ebd9eba7d3f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-19_Day.json.gz": "23db5a191c21e7c304c362150db678661fd656986fb3ab15c7e31ce0b7640898",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-19_Night.json.gz": "d87d13783942f49463e7e951c975d1e8c97eac199467c00adeff81e3cd2baec6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-20_Day.json.gz": "65bcd7dd063fdb9b9381266811d68f6de90acd157c68d32c1e4ce918bed8c9b4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-20_Night.json.gz": "19d1f85872c434c291813ba8ba4356dbded8ddc3ab5196cebe9fbd091412b1f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-21_Day.json.gz": "cb4b741934dbdc1b4287f33f0d126f3b0b19fa17a3c3e2f95537a8e8625bb86f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-21_Night.json.gz": "e91c066f7d637ece8bfa0f291983e682c18773f0fb7038a3f7e0355d35a46d73",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-22_Day.json.gz": "7d29bf55407b600381a2e823ada07fb5c787559a4888c5190c3e990c465bb0a8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-22_Night.json.gz": "00f55c0fc22def23b3711849123f9277ec45b7bbbc79ccbdaafe48d45cc6f8c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-23_Day.json.gz": "b319139215847278dc395437fd5e3cadd02fb90221c39917065fe49c971e081f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-23_Night.json.gz": "d571d72e7263c20142fc1c3ad2a8b01b865e6f6c793bb761175c3f96b91d4940",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-26_Day.json.gz": "d0a7fa2468cd30ca21893494f471da809b5dc3b25ef8347dd480e8d3c7f5a55c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-26_Night.json.gz": "6e2947d1cbd81a5a4703ce6bd46f8fed3bfd3665436546286b99a98bdb6a9e8b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-27_Day.json.gz": "379c567bcf246cc6b41c265b19d364b1b377a950dfa5cefc06a49874c711aba1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-27_Night.json.gz": "2cc5f86fbc9bb5405e1ba2f441639f2ebcc97f405f0b060a68d7ea2d2f3d5e8f"
+  },
+  "入力前後不変": true,
+  "独立市場例": 6,
+  "独立の取引あり場": 5,
+  "AとABの一致": [
+    {
+      "費用": 0,
+      "遅延": 0,
+      "同実入口": 6,
+      "経済結果一致": true,
+      "AとABの判定計数差": {
+        "grid_required_unknown": {
+          "A": 14,
+          "AB": 19
+        },
+        "grid_waiting_grids": {
+          "A": 6410,
+          "AB": 6405
+        },
+        "grid_unknown_grids": {
+          "A": 14,
+          "AB": 19
+        }
+      }
+    },
+    {
+      "費用": 0,
+      "遅延": 1,
+      "同実入口": 6,
+      "経済結果一致": true,
+      "AとABの判定計数差": {
+        "grid_required_unknown": {
+          "A": 14,
+          "AB": 19
+        },
+        "grid_waiting_grids": {
+          "A": 6410,
+          "AB": 6405
+        },
+        "grid_unknown_grids": {
+          "A": 14,
+          "AB": 19
+        }
+      }
+    },
+    {
+      "費用": 5,
+      "遅延": 0,
+      "同実入口": 6,
+      "経済結果一致": true,
+      "AとABの判定計数差": {
+        "grid_required_unknown": {
+          "A": 14,
+          "AB": 19
+        },
+        "grid_waiting_grids": {
+          "A": 6370,
+          "AB": 6365
+        },
+        "grid_unknown_grids": {
+          "A": 14,
+          "AB": 19
+        }
+      }
+    },
+    {
+      "費用": 5,
+      "遅延": 1,
+      "同実入口": 6,
+      "経済結果一致": true,
+      "AとABの判定計数差": {
+        "grid_required_unknown": {
+          "A": 14,
+          "AB": 19
+        },
+        "grid_waiting_grids": {
+          "A": 6370,
+          "AB": 6365
+        },
+        "grid_unknown_grids": {
+          "A": 14,
+          "AB": 19
+        }
+      }
+    }
+  ],
+  "Aの4別運転成績": [
+    {
+      "key": "A_B5Q_P0_C0_D0",
+      "policy": "A",
+      "cost": 0,
+      "delay": 0,
+      "玉数": 6,
+      "新規枚数": 7,
+      "粗額円": 1000,
+      "指定手数料円": 539,
+      "仮定滑り円": 0,
+      "純額円": 461,
+      "黒字玉": 1,
+      "赤字玉": 5,
+      "正額円": 923,
+      "負額円": -462,
+      "PF": 1.9978354978354977,
+      "u正益玉": 6,
+      "u正益後最終赤字玉": 5,
+      "u正益後最終赤字額円": -462,
+      "u正益未観測赤字玉": 0,
+      "u正益未観測赤字額円": 0,
+      "取引あり場": 5
+    },
+    {
+      "key": "A_B5Q_P0_C0_D1",
+      "policy": "A",
+      "cost": 0,
+      "delay": 1,
+      "玉数": 6,
+      "新規枚数": 7,
+      "粗額円": 2000,
+      "指定手数料円": 539,
+      "仮定滑り円": 0,
+      "純額円": 1461,
+      "黒字玉": 4,
+      "赤字玉": 2,
+      "正額円": 3692,
+      "負額円": -2231,
+      "PF": 1.6548632900044824,
+      "u正益玉": 6,
+      "u正益後最終赤字玉": 2,
+      "u正益後最終赤字額円": -2231,
+      "u正益未観測赤字玉": 0,
+      "u正益未観測赤字額円": 0,
+      "取引あり場": 5
+    },
+    {
+      "key": "A_B5Q_P0_C5_D0",
+      "policy": "A",
+      "cost": 5,
+      "delay": 0,
+      "玉数": 6,
+      "新規枚数": 7,
+      "粗額円": 64000,
+      "指定手数料円": 539,
+      "仮定滑り円": 7000,
+      "純額円": 56461,
+      "黒字玉": 2,
+      "赤字玉": 4,
+      "正額円": 61846,
+      "負額円": -5385,
+      "PF": 11.484865366759518,
+      "u正益玉": 6,
+      "u正益後最終赤字玉": 4,
+      "u正益後最終赤字額円": -5385,
+      "u正益未観測赤字玉": 0,
+      "u正益未観測赤字額円": 0,
+      "取引あり場": 5
+    },
+    {
+      "key": "A_B5Q_P0_C5_D1",
+      "policy": "A",
+      "cost": 5,
+      "delay": 1,
+      "玉数": 6,
+      "新規枚数": 7,
+      "粗額円": 64000,
+      "指定手数料円": 539,
+      "仮定滑り円": 7000,
+      "純額円": 56461,
+      "黒字玉": 2,
+      "赤字玉": 4,
+      "正額円": 60846,
+      "負額円": -4385,
+      "PF": 13.87594070695553,
+      "u正益玉": 6,
+      "u正益後最終赤字玉": 4,
+      "u正益後最終赤字額円": -4385,
+      "u正益未観測赤字玉": 0,
+      "u正益未観測赤字額円": 0,
+      "取引あり場": 5
+    }
+  ],
+  "G0との実現額の分解": {
+    "C0_D0": {
+      "同Source出生": 6,
+      "同実入口": 6,
+      "取得変更": 0,
+      "G0だけの実玉": 296,
+      "Aだけの実玉": 0,
+      "G0だけの実収支": -415356,
+      "Aだけの実収支": 0,
+      "同実入口差円": 0,
+      "取得変更差円": 0,
+      "全差円": 415356
+    },
+    "C0_D1": {
+      "同Source出生": 6,
+      "同実入口": 6,
+      "取得変更": 0,
+      "G0だけの実玉": 295,
+      "Aだけの実玉": 0,
+      "G0だけの実収支": -244279,
+      "Aだけの実収支": 0,
+      "同実入口差円": 0,
+      "取得変更差円": 0,
+      "全差円": 244279
+    },
+    "C5_D0": {
+      "同Source出生": 6,
+      "同実入口": 6,
+      "取得変更": 0,
+      "G0だけの実玉": 296,
+      "Aだけの実玉": 0,
+      "G0だけの実収支": -564356,
+      "Aだけの実収支": 0,
+      "同実入口差円": 0,
+      "取得変更差円": 0,
+      "全差円": 564356
+    },
+    "C5_D1": {
+      "同Source出生": 6,
+      "同実入口": 6,
+      "取得変更": 0,
+      "G0だけの実玉": 295,
+      "Aだけの実玉": 0,
+      "G0だけの実収支": -436279,
+      "Aだけの実収支": 0,
+      "同実入口差円": 0,
+      "取得変更差円": 0,
+      "全差円": 436279
+    }
+  },
+  "主C0D0の6玉": [
+    {
+      "session": "2026-09-24_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-24_Day-NK225mini-D164_15-000006",
+        "80参照-D164_15-選定源-2026-09-24_Day-NK225mini-core-000010"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "side": -1,
+      "quantity": 1,
+      "entry_price": 65710,
+      "entry_quote": {
+        "time": 1790216100,
+        "index": 58864,
+        "source_line": 59596,
+        "last": 65710,
+        "bid": 65710,
+        "ask": 65720,
+        "quote_ok": true
+      },
+      "activation": {
+        "quote": {
+          "time": 1790216513,
+          "index": 60833,
+          "source_line": 61565,
+          "last": 65700,
+          "bid": 65690,
+          "ask": 65700,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 65700,
+        "gain_points": 10,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 923
+      },
+      "floor_gain": 0,
+      "first_floor_hit": {
+        "quote": {
+          "time": 1790216513,
+          "index": 60835,
+          "source_line": 61567,
+          "last": 65700,
+          "bid": 65690,
+          "ask": 65710,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 65710,
+        "gain_points": 0,
+        "unit_net": -77,
+        "realized_net": 0,
+        "whole_net": -77
+      },
+      "exit_orders": [
+        {
+          "request_time": 1790216513,
+          "request_quote": {
+            "time": 1790216513,
+            "index": 60835,
+            "source_line": 61567,
+            "last": 65700,
+            "bid": 65690,
+            "ask": 65710,
+            "quote_ok": true
+          },
+          "quantity": 1,
+          "reason": "最低建値床と固定2ATR追尾",
+          "protection_point": {
+            "quote": {
+              "time": 1790216513,
+              "index": 60835,
+              "source_line": 61567,
+              "last": 65700,
+              "bid": 65690,
+              "ask": 65710,
+              "quote_ok": true
+            },
+            "phase": "after_source",
+            "quantity": 1,
+            "reserved": 0,
+            "mark_price": 65710,
+            "gain_points": 0,
+            "unit_net": -77,
+            "realized_net": 0,
+            "whole_net": -77
+          }
+        }
+      ],
+      "repayments": [
+        {
+          "quantity": 1,
+          "exit_price": 65710,
+          "exit_quote": {
+            "time": 1790216513,
+            "index": 60836,
+            "source_line": 61568,
+            "last": 65700,
+            "bid": 65690,
+            "ask": 65710,
+            "quote_ok": true
+          },
+          "gross_yen": 0,
+          "entry_fee_yen": 38.5,
+          "exit_fee_yen": 38.5,
+          "entry_slip_yen": 0,
+          "exit_slip_yen": 0,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ],
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77
+    },
+    {
+      "session": "2026-09-30_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-30_Day-NK225mini-D164_15-000003",
+        "80参照-D164_15-選定源-2026-09-30_Day-NK225mini-core-000008"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "side": 1,
+      "quantity": 1,
+      "entry_price": 66550,
+      "entry_quote": {
+        "time": 1790737504,
+        "index": 67822,
+        "source_line": 68567,
+        "last": 66540,
+        "bid": 66530,
+        "ask": 66550,
+        "quote_ok": true
+      },
+      "activation": {
+        "quote": {
+          "time": 1790739011,
+          "index": 72871,
+          "source_line": 73616,
+          "last": 66560,
+          "bid": 66560,
+          "ask": 66570,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 66560,
+        "gain_points": 10,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 923
+      },
+      "floor_gain": 0,
+      "first_floor_hit": {
+        "quote": {
+          "time": 1790739034,
+          "index": 73094,
+          "source_line": 73839,
+          "last": 66570,
+          "bid": 66550,
+          "ask": 66570,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 66550,
+        "gain_points": 0,
+        "unit_net": -77,
+        "realized_net": 0,
+        "whole_net": -77
+      },
+      "exit_orders": [
+        {
+          "request_time": 1790739034,
+          "request_quote": {
+            "time": 1790739034,
+            "index": 73094,
+            "source_line": 73839,
+            "last": 66570,
+            "bid": 66550,
+            "ask": 66570,
+            "quote_ok": true
+          },
+          "quantity": 1,
+          "reason": "最低建値床と固定2ATR追尾",
+          "protection_point": {
+            "quote": {
+              "time": 1790739034,
+              "index": 73094,
+              "source_line": 73839,
+              "last": 66570,
+              "bid": 66550,
+              "ask": 66570,
+              "quote_ok": true
+            },
+            "phase": "after_source",
+            "quantity": 1,
+            "reserved": 0,
+            "mark_price": 66550,
+            "gain_points": 0,
+            "unit_net": -77,
+            "realized_net": 0,
+            "whole_net": -77
+          }
+        }
+      ],
+      "repayments": [
+        {
+          "quantity": 1,
+          "exit_price": 66550,
+          "exit_quote": {
+            "time": 1790739034,
+            "index": 73095,
+            "source_line": 73840,
+            "last": 66570,
+            "bid": 66550,
+            "ask": 66570,
+            "quote_ok": true
+          },
+          "gross_yen": 0,
+          "entry_fee_yen": 38.5,
+          "exit_fee_yen": 38.5,
+          "entry_slip_yen": 0,
+          "exit_slip_yen": 0,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ],
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77
+    },
+    {
+      "session": "2026-10-06_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-10-06_Day-NK225mini-D164_15-000013",
+        "80参照-D164_15-選定源-2026-10-06_Day-NK225mini-core-000016"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "side": 1,
+      "quantity": 1,
+      "entry_price": 70360,
+      "entry_quote": {
+        "time": 1791257102,
+        "index": 69279,
+        "source_line": 69876,
+        "last": 70350,
+        "bid": 70350,
+        "ask": 70360,
+        "quote_ok": true
+      },
+      "activation": {
+        "quote": {
+          "time": 1791257212,
+          "index": 69548,
+          "source_line": 70145,
+          "last": 70370,
+          "bid": 70370,
+          "ask": 70380,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 70370,
+        "gain_points": 10,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 923
+      },
+      "floor_gain": 0,
+      "first_floor_hit": {
+        "quote": {
+          "time": 1791257212,
+          "index": 69549,
+          "source_line": 70146,
+          "last": 70370,
+          "bid": 70360,
+          "ask": 70380,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 70360,
+        "gain_points": 0,
+        "unit_net": -77,
+        "realized_net": 0,
+        "whole_net": -77
+      },
+      "exit_orders": [
+        {
+          "request_time": 1791257212,
+          "request_quote": {
+            "time": 1791257212,
+            "index": 69549,
+            "source_line": 70146,
+            "last": 70370,
+            "bid": 70360,
+            "ask": 70380,
+            "quote_ok": true
+          },
+          "quantity": 1,
+          "reason": "最低建値床と固定2ATR追尾",
+          "protection_point": {
+            "quote": {
+              "time": 1791257212,
+              "index": 69549,
+              "source_line": 70146,
+              "last": 70370,
+              "bid": 70360,
+              "ask": 70380,
+              "quote_ok": true
+            },
+            "phase": "after_source",
+            "quantity": 1,
+            "reserved": 0,
+            "mark_price": 70360,
+            "gain_points": 0,
+            "unit_net": -77,
+            "realized_net": 0,
+            "whole_net": -77
+          }
+        }
+      ],
+      "repayments": [
+        {
+          "quantity": 1,
+          "exit_price": 70360,
+          "exit_quote": {
+            "time": 1791257212,
+            "index": 69550,
+            "source_line": 70147,
+            "last": 70370,
+            "bid": 70360,
+            "ask": 70370,
+            "quote_ok": true
+          },
+          "gross_yen": 0,
+          "entry_fee_yen": 38.5,
+          "exit_fee_yen": 38.5,
+          "entry_slip_yen": 0,
+          "exit_slip_yen": 0,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ],
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000008",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-core-000008"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "side": -1,
+      "quantity": 1,
+      "entry_price": 64680,
+      "entry_quote": {
+        "time": 1792164300,
+        "index": 117648,
+        "source_line": 118373,
+        "last": 64680,
+        "bid": 64680,
+        "ask": 64690,
+        "quote_ok": true
+      },
+      "activation": {
+        "quote": {
+          "time": 1792164362,
+          "index": 118083,
+          "source_line": 118808,
+          "last": 64670,
+          "bid": 64660,
+          "ask": 64670,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 64670,
+        "gain_points": 10,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 923
+      },
+      "floor_gain": 0,
+      "first_floor_hit": {
+        "quote": {
+          "time": 1792164362,
+          "index": 118084,
+          "source_line": 118809,
+          "last": 64670,
+          "bid": 64660,
+          "ask": 64680,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 64680,
+        "gain_points": 0,
+        "unit_net": -77,
+        "realized_net": 0,
+        "whole_net": -77
+      },
+      "exit_orders": [
+        {
+          "request_time": 1792164362,
+          "request_quote": {
+            "time": 1792164362,
+            "index": 118084,
+            "source_line": 118809,
+            "last": 64670,
+            "bid": 64660,
+            "ask": 64680,
+            "quote_ok": true
+          },
+          "quantity": 1,
+          "reason": "最低建値床と固定2ATR追尾",
+          "protection_point": {
+            "quote": {
+              "time": 1792164362,
+              "index": 118084,
+              "source_line": 118809,
+              "last": 64670,
+              "bid": 64660,
+              "ask": 64680,
+              "quote_ok": true
+            },
+            "phase": "after_source",
+            "quantity": 1,
+            "reserved": 0,
+            "mark_price": 64680,
+            "gain_points": 0,
+            "unit_net": -77,
+            "realized_net": 0,
+            "whole_net": -77
+          }
+        }
+      ],
+      "repayments": [
+        {
+          "quantity": 1,
+          "exit_price": 64670,
+          "exit_quote": {
+            "time": 1792164362,
+            "index": 118085,
+            "source_line": 118810,
+            "last": 64670,
+            "bid": 64660,
+            "ask": 64670,
+            "quote_ok": true
+          },
+          "gross_yen": 1000,
+          "entry_fee_yen": 38.5,
+          "exit_fee_yen": 38.5,
+          "entry_slip_yen": 0,
+          "exit_slip_yen": 0,
+          "net_yen": 923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ],
+      "gross": 1000,
+      "fee": 77,
+      "slip": 0,
+      "net": 923
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000022",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-episode-000022"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "side": -1,
+      "quantity": 1,
+      "entry_price": 63870,
+      "entry_quote": {
+        "time": 1792179611,
+        "index": 198104,
+        "source_line": 198829,
+        "last": 63870,
+        "bid": 63870,
+        "ask": 63880,
+        "quote_ok": true
+      },
+      "activation": {
+        "quote": {
+          "time": 1792179620,
+          "index": 198155,
+          "source_line": 198880,
+          "last": 63860,
+          "bid": 63850,
+          "ask": 63860,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 63860,
+        "gain_points": 10,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 923
+      },
+      "floor_gain": 0,
+      "first_floor_hit": {
+        "quote": {
+          "time": 1792179624,
+          "index": 198165,
+          "source_line": 198890,
+          "last": 63860,
+          "bid": 63850,
+          "ask": 63870,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 1,
+        "reserved": 0,
+        "mark_price": 63870,
+        "gain_points": 0,
+        "unit_net": -77,
+        "realized_net": 0,
+        "whole_net": -77
+      },
+      "exit_orders": [
+        {
+          "request_time": 1792179624,
+          "request_quote": {
+            "time": 1792179624,
+            "index": 198165,
+            "source_line": 198890,
+            "last": 63860,
+            "bid": 63850,
+            "ask": 63870,
+            "quote_ok": true
+          },
+          "quantity": 1,
+          "reason": "最低建値床と固定2ATR追尾",
+          "protection_point": {
+            "quote": {
+              "time": 1792179624,
+              "index": 198165,
+              "source_line": 198890,
+              "last": 63860,
+              "bid": 63850,
+              "ask": 63870,
+              "quote_ok": true
+            },
+            "phase": "after_source",
+            "quantity": 1,
+            "reserved": 0,
+            "mark_price": 63870,
+            "gain_points": 0,
+            "unit_net": -77,
+            "realized_net": 0,
+            "whole_net": -77
+          }
+        }
+      ],
+      "repayments": [
+        {
+          "quantity": 1,
+          "exit_price": 63870,
+          "exit_quote": {
+            "time": 1792179624,
+            "index": 198166,
+            "source_line": 198891,
+            "last": 63860,
+            "bid": 63850,
+            "ask": 63870,
+            "quote_ok": true
+          },
+          "gross_yen": 0,
+          "entry_fee_yen": 38.5,
+          "exit_fee_yen": 38.5,
+          "entry_slip_yen": 0,
+          "exit_slip_yen": 0,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ],
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77
+    },
+    {
+      "session": "2026-10-26_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-26_Night-NK225mini-U165_03-000003",
+        "80参照-U165_03-選定源-2026-10-26_Night-NK225mini-core-000003"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "side": -1,
+      "quantity": 2,
+      "entry_price": 62610,
+      "entry_quote": {
+        "time": 1793023500,
+        "index": 95385,
+        "source_line": 96083,
+        "last": 62620,
+        "bid": 62610,
+        "ask": 62620,
+        "quote_ok": true
+      },
+      "activation": {
+        "quote": {
+          "time": 1793023506,
+          "index": 95431,
+          "source_line": 96129,
+          "last": 62600,
+          "bid": 62590,
+          "ask": 62600,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 2,
+        "reserved": 0,
+        "mark_price": 62600,
+        "gain_points": 10,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 1846
+      },
+      "floor_gain": 0,
+      "first_floor_hit": {
+        "quote": {
+          "time": 1793023506,
+          "index": 95480,
+          "source_line": 96178,
+          "last": 62600,
+          "bid": 62590,
+          "ask": 62610,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 2,
+        "reserved": 0,
+        "mark_price": 62610,
+        "gain_points": 0,
+        "unit_net": -77,
+        "realized_net": 0,
+        "whole_net": -154
+      },
+      "exit_orders": [
+        {
+          "request_time": 1793023506,
+          "request_quote": {
+            "time": 1793023506,
+            "index": 95480,
+            "source_line": 96178,
+            "last": 62600,
+            "bid": 62590,
+            "ask": 62610,
+            "quote_ok": true
+          },
+          "quantity": 2,
+          "reason": "最低建値床と固定2ATR追尾",
+          "protection_point": {
+            "quote": {
+              "time": 1793023506,
+              "index": 95480,
+              "source_line": 96178,
+              "last": 62600,
+              "bid": 62590,
+              "ask": 62610,
+              "quote_ok": true
+            },
+            "phase": "after_source",
+            "quantity": 2,
+            "reserved": 0,
+            "mark_price": 62610,
+            "gain_points": 0,
+            "unit_net": -77,
+            "realized_net": 0,
+            "whole_net": -154
+          }
+        }
+      ],
+      "repayments": [
+        {
+          "quantity": 2,
+          "exit_price": 62610,
+          "exit_quote": {
+            "time": 1793023506,
+            "index": 95481,
+            "source_line": 96179,
+            "last": 62600,
+            "bid": 62590,
+            "ask": 62610,
+            "quote_ok": true
+          },
+          "gross_yen": 0,
+          "entry_fee_yen": 77,
+          "exit_fee_yen": 77,
+          "entry_slip_yen": 0,
+          "exit_slip_yen": 0,
+          "net_yen": -154,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ],
+      "gross": 0,
+      "fee": 154,
+      "slip": 0,
+      "net": -154
+    }
+  ],
+  "同6市場例の費用遅延別保有内観測": [
+    {
+      "session": "2026-09-24_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-24_Day-NK225mini-D164_15-000006",
+        "80参照-D164_15-選定源-2026-09-24_Day-NK225mini-core-000010"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 65710,
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 65710,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-09-30_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-30_Day-NK225mini-D164_15-000003",
+        "80参照-D164_15-選定源-2026-09-30_Day-NK225mini-core-000008"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 66550,
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 66550,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-06_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-10-06_Day-NK225mini-D164_15-000013",
+        "80参照-D164_15-選定源-2026-10-06_Day-NK225mini-core-000016"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 70360,
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 70360,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000008",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-core-000008"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 64680,
+      "gross": 1000,
+      "fee": 77,
+      "slip": 0,
+      "net": 923,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 64670,
+          "net_yen": 923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000022",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-episode-000022"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 63870,
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 63870,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-26_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-26_Night-NK225mini-U165_03-000003",
+        "80参照-U165_03-選定源-2026-10-26_Night-NK225mini-core-000003"
+      ],
+      "cost": 0,
+      "delay": 0,
+      "quantity": 2,
+      "entry_price": 62610,
+      "gross": 0,
+      "fee": 154,
+      "slip": 0,
+      "net": -154,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 2,
+          "exit_price": 62610,
+          "net_yen": -154,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-09-24_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-24_Day-NK225mini-D164_15-000006",
+        "80参照-D164_15-選定源-2026-09-24_Day-NK225mini-core-000010"
+      ],
+      "cost": 0,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 65710,
+      "gross": 1000,
+      "fee": 77,
+      "slip": 0,
+      "net": 923,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 65700,
+          "net_yen": 923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-09-30_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-30_Day-NK225mini-D164_15-000003",
+        "80参照-D164_15-選定源-2026-09-30_Day-NK225mini-core-000008"
+      ],
+      "cost": 0,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 66550,
+      "gross": 0,
+      "fee": 77,
+      "slip": 0,
+      "net": -77,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 66550,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-06_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-10-06_Day-NK225mini-D164_15-000013",
+        "80参照-D164_15-選定源-2026-10-06_Day-NK225mini-core-000016"
+      ],
+      "cost": 0,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 70360,
+      "gross": 1000,
+      "fee": 77,
+      "slip": 0,
+      "net": 923,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 70370,
+          "net_yen": 923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000008",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-core-000008"
+      ],
+      "cost": 0,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 64680,
+      "gross": 1000,
+      "fee": 77,
+      "slip": 0,
+      "net": 923,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 64670,
+          "net_yen": 923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000022",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-episode-000022"
+      ],
+      "cost": 0,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 63870,
+      "gross": 1000,
+      "fee": 77,
+      "slip": 0,
+      "net": 923,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 63860,
+          "net_yen": 923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-10-26_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-26_Night-NK225mini-U165_03-000003",
+        "80参照-U165_03-選定源-2026-10-26_Night-NK225mini-core-000003"
+      ],
+      "cost": 0,
+      "delay": 1,
+      "quantity": 2,
+      "entry_price": 62600,
+      "gross": -2000,
+      "fee": 154,
+      "slip": 0,
+      "net": -2154,
+      "起動gain_pt": 10,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 2,
+          "exit_price": 62610,
+          "net_yen": -2154,
+          "要求時返済側からの方向付き変化pt": -10
+        }
+      ]
+    },
+    {
+      "session": "2026-09-24_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-24_Day-NK225mini-D164_15-000006",
+        "80参照-D164_15-選定源-2026-09-24_Day-NK225mini-core-000010"
+      ],
+      "cost": 5,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 65710,
+      "gross": 0,
+      "fee": 77,
+      "slip": 1000,
+      "net": -1077,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 65710,
+          "net_yen": -1077,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-09-30_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-30_Day-NK225mini-D164_15-000003",
+        "80参照-D164_15-選定源-2026-09-30_Day-NK225mini-core-000008"
+      ],
+      "cost": 5,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 66550,
+      "gross": 0,
+      "fee": 77,
+      "slip": 1000,
+      "net": -1077,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 66550,
+          "net_yen": -1077,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-06_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-10-06_Day-NK225mini-D164_15-000013",
+        "80参照-D164_15-選定源-2026-10-06_Day-NK225mini-core-000016"
+      ],
+      "cost": 5,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 70360,
+      "gross": 58000,
+      "fee": 77,
+      "slip": 1000,
+      "net": 56923,
+      "起動gain_pt": 20,
+      "床hitあり": false,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 70940,
+          "net_yen": 56923,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000008",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-core-000008"
+      ],
+      "cost": 5,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 64680,
+      "gross": 0,
+      "fee": 77,
+      "slip": 1000,
+      "net": -1077,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 64680,
+          "net_yen": -1077,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000022",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-episode-000022"
+      ],
+      "cost": 5,
+      "delay": 0,
+      "quantity": 1,
+      "entry_price": 63870,
+      "gross": 6000,
+      "fee": 77,
+      "slip": 1000,
+      "net": 4923,
+      "起動gain_pt": 20,
+      "床hitあり": false,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 63810,
+          "net_yen": 4923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-10-26_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-26_Night-NK225mini-U165_03-000003",
+        "80参照-U165_03-選定源-2026-10-26_Night-NK225mini-core-000003"
+      ],
+      "cost": 5,
+      "delay": 0,
+      "quantity": 2,
+      "entry_price": 62610,
+      "gross": 0,
+      "fee": 154,
+      "slip": 2000,
+      "net": -2154,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 2,
+          "exit_price": 62610,
+          "net_yen": -2154,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-09-24_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-24_Day-NK225mini-D164_15-000006",
+        "80参照-D164_15-選定源-2026-09-24_Day-NK225mini-core-000010"
+      ],
+      "cost": 5,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 65710,
+      "gross": 1000,
+      "fee": 77,
+      "slip": 1000,
+      "net": -77,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 65700,
+          "net_yen": -77,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-09-30_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-09-30_Day-NK225mini-D164_15-000003",
+        "80参照-D164_15-選定源-2026-09-30_Day-NK225mini-core-000008"
+      ],
+      "cost": 5,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 66550,
+      "gross": 0,
+      "fee": 77,
+      "slip": 1000,
+      "net": -1077,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 66550,
+          "net_yen": -1077,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-06_Day",
+      "source": [
+        "NK225_D164_15",
+        "80参照-D164_15-2026-10-06_Day-NK225mini-D164_15-000013",
+        "80参照-D164_15-選定源-2026-10-06_Day-NK225mini-core-000016"
+      ],
+      "cost": 5,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 70360,
+      "gross": 57000,
+      "fee": 77,
+      "slip": 1000,
+      "net": 55923,
+      "起動gain_pt": 20,
+      "床hitあり": false,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 70930,
+          "net_yen": 55923,
+          "要求時返済側からの方向付き変化pt": -10
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000008",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-core-000008"
+      ],
+      "cost": 5,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 64680,
+      "gross": 0,
+      "fee": 77,
+      "slip": 1000,
+      "net": -1077,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 64680,
+          "net_yen": -1077,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-16_Night-NK225mini-U165_03-000022",
+        "80参照-U165_03-選定源-2026-10-16_Night-NK225mini-episode-000022"
+      ],
+      "cost": 5,
+      "delay": 1,
+      "quantity": 1,
+      "entry_price": 63870,
+      "gross": 6000,
+      "fee": 77,
+      "slip": 1000,
+      "net": 4923,
+      "起動gain_pt": 20,
+      "床hitあり": false,
+      "実返済": [
+        {
+          "quantity": 1,
+          "exit_price": 63810,
+          "net_yen": 4923,
+          "要求時返済側からの方向付き変化pt": 10
+        }
+      ]
+    },
+    {
+      "session": "2026-10-26_Night",
+      "source": [
+        "NK225_U165_03",
+        "80参照-U165_03-2026-10-26_Night-NK225mini-U165_03-000003",
+        "80参照-U165_03-選定源-2026-10-26_Night-NK225mini-core-000003"
+      ],
+      "cost": 5,
+      "delay": 1,
+      "quantity": 2,
+      "entry_price": 62600,
+      "gross": 0,
+      "fee": 154,
+      "slip": 2000,
+      "net": -2154,
+      "起動gain_pt": 20,
+      "床hitあり": true,
+      "実返済": [
+        {
+          "quantity": 2,
+          "exit_price": 62600,
+          "net_yen": -2154,
+          "要求時返済側からの方向付き変化pt": 0
+        }
+      ]
+    }
+  ],
+  "B交差": {
+    "分母": 302,
+    "決定": {
+      "必要未知": 12,
+      "既知不成立": 290
+    },
+    "条件": {
+      "共通.現在価格時計": {
+        "成立": 265,
+        "未知": 37
+      },
+      "共通.確定3分": {
+        "成立": 302
+      },
+      "共通.確定15分": {
+        "成立": 302
+      },
+      "共通.EMA背景既知": {
+        "未知": 11,
+        "成立": 291
+      },
+      "共通.MACD増分": {
+        "未知": 32,
+        "既知不成立": 80,
+        "成立": 190
+      },
+      "共通.終値とEMA8": {
+        "未知": 32,
+        "成立": 186,
+        "既知不成立": 84
+      },
+      "共通.取得位置ATR": {
+        "未知": 32,
+        "成立": 100,
+        "既知不成立": 170
+      },
+      "共通.同時スパイク警戒": {
+        "未知": 6,
+        "成立": 291,
+        "既知不成立": 5
+      },
+      "共通.現在量支持": {
+        "未知": 39,
+        "既知不成立": 119,
+        "成立": 144
+      },
+      "B.15分EMA逆背景": {
+        "未知": 11,
+        "既知不成立": 142,
+        "成立": 149
+      },
+      "B.固定3足窓": {
+        "未知": 32,
+        "成立": 270
+      },
+      "B.a足は固定線反対側": {
+        "未知": 32,
+        "既知不成立": 135,
+        "成立": 135
+      },
+      "B.b足で固定線奪還": {
+        "未知": 32,
+        "成立": 150,
+        "既知不成立": 120
+      },
+      "B.c足で固定線維持": {
+        "未知": 32,
+        "成立": 180,
+        "既知不成立": 90
+      },
+      "B.c足で価格再進行": {
+        "未知": 32,
+        "成立": 182,
+        "既知不成立": 88
+      },
+      "B.c足でRSI再進行": {
+        "未知": 32,
+        "成立": 183,
+        "既知不成立": 87
+      },
+      "B.現在取得側も固定線方向": {
+        "未知": 32,
+        "成立": 182,
+        "既知不成立": 88
+      }
+    },
+    "共通とBの交差": {
+      "必要未知 × 必要未知": 12,
+      "既知不成立 × 既知不成立": 246,
+      "成立 × 既知不成立": 18,
+      "必要未知 × 既知不成立": 11,
+      "既知不成立 × 必要未知": 8,
+      "既知不成立 × 成立": 7
+    },
+    "共通成立後の累積交差": {
+      "共通全部成立": 18,
+      "B.15分EMA逆背景": 10,
+      "B.固定3足窓": 10,
+      "B.a足は固定線反対側": 7,
+      "B.b足で固定線奪還": 0,
+      "B.c足で固定線維持": 0,
+      "B.c足で価格再進行": 0,
+      "B.c足でRSI再進行": 0,
+      "B.現在取得側も固定線方向": 0
+    },
+    "保存順で最初の既知否定": {
+      "共通.MACD増分": 80,
+      "共通.取得位置ATR": 95,
+      "B.15分EMA逆背景": 18,
+      "共通.終値とEMA8": 37,
+      "共通.現在量支持": 47,
+      "B.a足は固定線反対側": 3,
+      "B.b足で固定線奪還": 8,
+      "共通.同時スパイク警戒": 2
+    },
+    "注意": "個別条件の不成立は重複する。固定順累積は原因順位や新閾値の提案ではない。",
+    "B固有条件が全成立した7判定の共通否定": {
+      "共通.現在量支持": 5,
+      "共通.取得位置ATR": 2
+    }
+  },
+  "次の問い": {
+    "内容": "旧P0と初回strict u正益時の全未予約残量返済要求Hを新試行で比較。旧96の条件や価格を置換しない。",
+    "事前案": "work\\97設計案\\初回正益を確定する比較.md",
+    "事前案SHA256": "202a92d5f20c71b86eff760bb49b0d7c8fd3ae31a3d4341b01c023d8222d42f6",
+    "未実行": true
+  },
+  "限定": {
+    "AとAB/C0C5/D0D1を独立標本へ水増ししない": true,
+    "Source選別を指標単独/出口の効果へ帰属しない": true,
+    "表示気配量は約定出来高ではない": true,
+    "新金融/新市場/原板本文再走査": 0,
+    "未参加仮想利益/退出後価格/将来peakの評価": 0,
+    "資本金ROI": null
+  },
+  "市場例の解釈": "6はActor/費用/遅延重複を除いたSource出生数。同じ夜間に2玉あり統計的独立性を証明していない。"
+}

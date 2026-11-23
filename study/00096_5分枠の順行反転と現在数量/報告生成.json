@@ -1,0 +1,582 @@
+{
+  "試行": 96,
+  "成功": true,
+  "生成対象": [
+    "README.md",
+    "設定と結果.md"
+  ],
+  "正規化入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\結果.json": "57fe5326d4a2eab6c437f50bec28ecd48d765aeaf0f2905321029828b3c8550f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\原板照合.json": "807776f8fe7bd8e42df482a705dc7802268e014fc637215f37fb95303b72719d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\チャート原板照合.json": "9cbc3f33e4c8482adff79fd619d1e52f67eb45819886c524fbd34362d4ffbd69",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\Viewer照合.json": "5d2ea33f733ebbaa77f9eaf4be32fcec0fe61eba4061b6c0a74a64a63a86e4fe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\入力前.json": "1386608f80873264de1b3dfaa7c1a270fe2dc0425d26e71edf981cc631bbba21",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\入力後.json": "1386608f80873264de1b3dfaa7c1a270fe2dc0425d26e71edf981cc631bbba21",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\条件.json": "24e1d04d51f0204d2bfb76728411abac2188d4a3f1097d9d25a3f0d83b4e65c9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\README.md": "c1cc97f058d7884122b86f24b82e57e0bb8b0f7115ee54057d7faac1be16fd6a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\設定と結果.md": "d8c8a56b62d193a0b750962239a87ec9e118cbd91c841160541959b663e28b4d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\監査コードの補足と表記訂正.json": "1acdaa3f33b8c8930137a71a83679c7535758116cadafc35cc81f82f7c8a6ca0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\数量原板照合.json": "e6d54795a6421b66cd22a272535de870efbde6431ace357310560850fe4f9efa"
+  },
+  "原計画SHA256": {
+    "README.md": "c1cc97f058d7884122b86f24b82e57e0bb8b0f7115ee54057d7faac1be16fd6a",
+    "設定と結果.md": "d8c8a56b62d193a0b750962239a87ec9e118cbd91c841160541959b663e28b4d"
+  },
+  "出力SHA256": {
+    "README.md": "c74c5bbb9b0f1c1bda84517623916cd2359649a0ead2277adb017edea78e9fe6",
+    "設定と結果.md": "631e043ce09e78f7d8bed48a53386750a6dc7f874446be3f91f96200fd730ea4"
+  },
+  "生成コードSHA256": "307aa82c24e9de51969a113c8b4cc75f57428f12c92bdcdc33d404372c4f9f66",
+  "固定95報告部品SHA256": "c39b8db431edd1ee448b277c273ea1c995d2b8a478b80ce4e16202830eb61c39",
+  "全495セルと35設定と16評価": "固定原計画SHA復元で不変",
+  "実結果": "16口座の費用後実現額は黒字8・赤字4・同額4。うち無取引4、PF未定義4。0取引やPF未定義を安定利益と扱わず、未知期間の安定性は未証明。",
+  "元kindと当時成立role": {
+    "元手法と元kind": {
+      "B5Q_P0_C0_D0/NK225_D164_15/initial": {
+        "玉数": 93,
+        "新規枚数": 188,
+        "純額円": -207476
+      },
+      "B5Q_P0_C0_D1/NK225_D164_15/initial": {
+        "玉数": 93,
+        "新規枚数": 188,
+        "純額円": -172476
+      },
+      "B5Q_P0_C5_D0/NK225_D164_15/initial": {
+        "玉数": 93,
+        "新規枚数": 188,
+        "純額円": -465476
+      },
+      "B5Q_P0_C5_D1/NK225_D164_15/initial": {
+        "玉数": 93,
+        "新規枚数": 188,
+        "純額円": -437476
+      },
+      "B5Q_P0_C0_D0/NK225_U165_03/initial": {
+        "玉数": 78,
+        "新規枚数": 172,
+        "純額円": -77244
+      },
+      "B5Q_P0_C0_D1/NK225_U165_03/initial": {
+        "玉数": 78,
+        "新規枚数": 172,
+        "純額円": -48244
+      },
+      "B5Q_P0_C5_D0/NK225_U165_03/initial": {
+        "玉数": 78,
+        "新規枚数": 172,
+        "純額円": 103756
+      },
+      "B5Q_P0_C5_D1/NK225_U165_03/initial": {
+        "玉数": 78,
+        "新規枚数": 172,
+        "純額円": 120756
+      },
+      "B5Q_P0_C0_D0/NK225_P164_06/initial": {
+        "玉数": 26,
+        "新規枚数": 108,
+        "純額円": 15684
+      },
+      "B5Q_P0_C0_D1/NK225_P164_06/initial": {
+        "玉数": 26,
+        "新規枚数": 108,
+        "純額円": 64684
+      },
+      "B5Q_P0_C5_D0/NK225_P164_06/initial": {
+        "玉数": 26,
+        "新規枚数": 108,
+        "純額円": -32316
+      },
+      "B5Q_P0_C5_D1/NK225_P164_06/initial": {
+        "玉数": 26,
+        "新規枚数": 108,
+        "純額円": 9684
+      },
+      "B5Q_P0_C0_D0/NK225_U165_03/source_add": {
+        "玉数": 34,
+        "新規枚数": 34,
+        "純額円": -59618
+      },
+      "B5Q_P0_C0_D1/NK225_U165_03/source_add": {
+        "玉数": 34,
+        "新規枚数": 34,
+        "純額円": -48618
+      },
+      "B5Q_P0_C5_D0/NK225_U165_03/source_add": {
+        "玉数": 34,
+        "新規枚数": 34,
+        "純額円": -79618
+      },
+      "B5Q_P0_C5_D1/NK225_U165_03/source_add": {
+        "玉数": 34,
+        "新規枚数": 34,
+        "純額円": -79618
+      },
+      "AB_B5Q_P0_C0_D0/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -77
+      },
+      "AB_B5Q_P0_C0_D1/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 923
+      },
+      "AB_B5Q_P0_C5_D0/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -1077
+      },
+      "AB_B5Q_P0_C5_D1/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -77
+      },
+      "A_B5Q_P0_C0_D0/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -77
+      },
+      "A_B5Q_P0_C0_D1/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 923
+      },
+      "A_B5Q_P0_C5_D0/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -1077
+      },
+      "A_B5Q_P0_C5_D1/NK225_D164_15/delayed_initial": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -77
+      },
+      "B5Q_P0_C0_D0/NK225_D164_15/delayed_initial": {
+        "玉数": 53,
+        "新規枚数": 99,
+        "純額円": -53623
+      },
+      "B5Q_P0_C0_D0/NK225_D164_15/source_add": {
+        "玉数": 8,
+        "新規枚数": 13,
+        "純額円": -4001
+      },
+      "B5Q_P0_C0_D1/NK225_D164_15/delayed_initial": {
+        "玉数": 52,
+        "新規枚数": 98,
+        "純額円": -20546
+      },
+      "B5Q_P0_C0_D1/NK225_D164_15/source_add": {
+        "玉数": 8,
+        "新規枚数": 13,
+        "純額円": 4999
+      },
+      "B5Q_P0_C5_D0/NK225_D164_15/delayed_initial": {
+        "玉数": 53,
+        "新規枚数": 99,
+        "純額円": -94623
+      },
+      "B5Q_P0_C5_D0/NK225_D164_15/source_add": {
+        "玉数": 8,
+        "新規枚数": 13,
+        "純額円": -17001
+      },
+      "B5Q_P0_C5_D1/NK225_D164_15/delayed_initial": {
+        "玉数": 52,
+        "新規枚数": 98,
+        "純額円": -65546
+      },
+      "B5Q_P0_C5_D1/NK225_D164_15/source_add": {
+        "玉数": 8,
+        "新規枚数": 13,
+        "純額円": -6001
+      },
+      "B5Q_P0_C0_D0/NK225_U165_03/delayed_initial": {
+        "玉数": 8,
+        "新規枚数": 19,
+        "純額円": -21463
+      },
+      "B5Q_P0_C0_D1/NK225_U165_03/delayed_initial": {
+        "玉数": 8,
+        "新規枚数": 19,
+        "純額円": -15463
+      },
+      "B5Q_P0_C5_D0/NK225_U165_03/delayed_initial": {
+        "玉数": 8,
+        "新規枚数": 19,
+        "純額円": 87537
+      },
+      "B5Q_P0_C5_D1/NK225_U165_03/delayed_initial": {
+        "玉数": 8,
+        "新規枚数": 19,
+        "純額円": 86537
+      },
+      "AB_B5Q_P0_C0_D0/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": -154
+      },
+      "AB_B5Q_P0_C0_D1/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": 846
+      },
+      "AB_B5Q_P0_C5_D0/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": 55846
+      },
+      "AB_B5Q_P0_C5_D1/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": 54846
+      },
+      "A_B5Q_P0_C0_D0/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": -154
+      },
+      "A_B5Q_P0_C0_D1/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": 846
+      },
+      "A_B5Q_P0_C5_D0/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": 55846
+      },
+      "A_B5Q_P0_C5_D1/NK225_D164_15/initial": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": 54846
+      },
+      "B5Q_P0_C0_D0/NK225_P164_06/source_add": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": -7154
+      },
+      "B5Q_P0_C0_D1/NK225_P164_06/source_add": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": -7154
+      },
+      "B5Q_P0_C5_D0/NK225_P164_06/source_add": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": -10154
+      },
+      "B5Q_P0_C5_D1/NK225_P164_06/source_add": {
+        "玉数": 2,
+        "新規枚数": 2,
+        "純額円": -8154
+      },
+      "AB_B5Q_P0_C0_D0/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": 769
+      },
+      "AB_B5Q_P0_C0_D0/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -77
+      },
+      "AB_B5Q_P0_C0_D1/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": -1231
+      },
+      "AB_B5Q_P0_C0_D1/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 923
+      },
+      "AB_B5Q_P0_C5_D0/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": -3231
+      },
+      "AB_B5Q_P0_C5_D0/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 4923
+      },
+      "AB_B5Q_P0_C5_D1/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": -3231
+      },
+      "AB_B5Q_P0_C5_D1/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 4923
+      },
+      "A_B5Q_P0_C0_D0/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": 769
+      },
+      "A_B5Q_P0_C0_D0/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": -77
+      },
+      "A_B5Q_P0_C0_D1/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": -1231
+      },
+      "A_B5Q_P0_C0_D1/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 923
+      },
+      "A_B5Q_P0_C5_D0/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": -3231
+      },
+      "A_B5Q_P0_C5_D0/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 4923
+      },
+      "A_B5Q_P0_C5_D1/NK225_U165_03/initial": {
+        "玉数": 2,
+        "新規枚数": 3,
+        "純額円": -3231
+      },
+      "A_B5Q_P0_C5_D1/NK225_U165_03/source_add": {
+        "玉数": 1,
+        "新規枚数": 1,
+        "純額円": 4923
+      }
+    },
+    "成立role実取得": {
+      "B5Q_P0_C0_D0/G0・技法採否なし": {
+        "玉数": 302,
+        "新規枚数": 635,
+        "純額円": -414895
+      },
+      "B5Q_P0_C0_D1/G0・技法採否なし": {
+        "玉数": 301,
+        "新規枚数": 634,
+        "純額円": -242818
+      },
+      "B5Q_P0_C5_D0/G0・技法採否なし": {
+        "玉数": 302,
+        "新規枚数": 635,
+        "純額円": -507895
+      },
+      "B5Q_P0_C5_D1/G0・技法採否なし": {
+        "玉数": 301,
+        "新規枚数": 634,
+        "純額円": -379818
+      },
+      "AB_B5Q_P0_C0_D0/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 461
+      },
+      "AB_B5Q_P0_C0_D1/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 1461
+      },
+      "AB_B5Q_P0_C5_D0/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 56461
+      },
+      "AB_B5Q_P0_C5_D1/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 56461
+      },
+      "A_B5Q_P0_C0_D0/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 461
+      },
+      "A_B5Q_P0_C0_D1/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 1461
+      },
+      "A_B5Q_P0_C5_D0/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 56461
+      },
+      "A_B5Q_P0_C5_D1/順行": {
+        "玉数": 6,
+        "新規枚数": 7,
+        "純額円": 56461
+      }
+    },
+    "成立role受理要求": {
+      "B5Q_P0_C0_D0/G0・技法採否なし": 302,
+      "B5Q_P0_C0_D1/G0・技法採否なし": 302,
+      "B5Q_P0_C5_D0/G0・技法採否なし": 302,
+      "B5Q_P0_C5_D1/G0・技法採否なし": 302,
+      "AB_B5Q_P0_C0_D0/順行": 6,
+      "AB_B5Q_P0_C0_D1/順行": 6,
+      "AB_B5Q_P0_C5_D0/順行": 6,
+      "AB_B5Q_P0_C5_D1/順行": 6,
+      "A_B5Q_P0_C0_D0/順行": 6,
+      "A_B5Q_P0_C0_D1/順行": 6,
+      "A_B5Q_P0_C5_D0/順行": 6,
+      "A_B5Q_P0_C5_D1/順行": 6
+    },
+    "入力SHA256": {
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-21_Day.json.gz": "bf06f28cd7ef116d3046305276c4106a88702ab064d79dce21b90e973e4b2cfc",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-21_Night.json.gz": "81a054fcf2fa21565b5d092ee89ba9941bd45f527f940a4a8972a823c1f24ee8",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-22_Day.json.gz": "0f31fe9ae98778d552e4177f7a17bd155be329a0843fdeb9fe5303db1697f4e3",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-22_Night.json.gz": "2a21ed14762dc72d2a9cef505047c795eff7dd31b6d2069165362a43ff088e83",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-23_Day.json.gz": "2439f693a4f1bc47cc7f71af02433dfca9a9cb292c69d2ff30810adcf5f7c187",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-23_Night.json.gz": "cd259dfc6583944c5a6a90782cee2a36b801daf022ec528a64ddd595a903e873",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-24_Day.json.gz": "32a36c5a75fe6fd7ad3a3c6f0d8860fea8d59b08369cc113a2e925353f44ecd2",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-24_Night.json.gz": "50bd947d72df38ace572dd931882708a8e610a19afd224bedc04c0acf7b1df67",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-25_Day.json.gz": "820eb24801d5c122334f595c9ee296713c523543dfd866b17ad1755dbe777df9",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-25_Night.json.gz": "a06ab239432bfb0f7f3b64e7893caf63136d51dab82fec2ad0ce7f0e91b2ae7e",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-28_Day.json.gz": "8cc3c558dabcc38f97293b7f3f2ea26477b047014fd9878af718d5b353903ced",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-28_Night.json.gz": "8cc15ca65b4268e76e603da800d31885169f0816835b062aab1d1e07096eb664",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-29_Day.json.gz": "6524722d778203eed14c9a527f34244630cc68878f4a4370a801109988359536",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-29_Night.json.gz": "8bd868924e7d680d6b2313b15f4033a428d251e4ceefe2097a7c15f15a83aa14",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-30_Day.json.gz": "05af35078f24ff0ef2332d7e31c6176573f5f7cb28cff9437690787fb73f66cf",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-09-30_Night.json.gz": "24718b949699c0ab85754e336d4e8d9a31920a42f64ed3f31a70d652808fefda",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-01_Day.json.gz": "22ad1239a80fe02d0a50d9a793aa56c59045752cd54e9da39bd8b92e83475a9a",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-01_Night.json.gz": "09cfcf0dc43a4f93011740e34fb8b661f8a9ea806085c579b8a4247c63e32476",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-02_Day.json.gz": "fcf31ed6e4a91bdc6d141276cc356ca57546d6965b573ce03e97522ae5edbbb1",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-02_Night.json.gz": "01a55f83817718019b2e313e9db2be221fe322fdef21267f0d3875267de00b70",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-05_Day.json.gz": "8a408fded91b749017f6447a94bb270cb91fbd9268b3b90b8779c7e0cd77ba25",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-05_Night.json.gz": "fcbc403d7dd795f2218a89c6c6090b9f63a747935b09f812a585f8a77aae1323",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-06_Day.json.gz": "abb8e968277ed20eac65c1cee1b8428c26e464623fadb1709a4ce64a4296dbab",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-06_Night.json.gz": "14574f216479eb56281e183db94fbf297c83594303feb2a6527d51beffe8eae7",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-07_Day.json.gz": "a1c23ab734c64f78656762bf05ac1560f1cd1abe8033fb02bb55fed660408954",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-07_Night.json.gz": "c5e3035075efc8f763834733aff7ee8ec6468afb87aab396bc765e484e73f8d5",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-08_Day.json.gz": "f2a9110ff813393ad03128004624f3d4d839bc27d79c03e894dfdd241557e3cb",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-08_Night.json.gz": "f9629a44229d472a4bf958b9800fbb2fa38c134ffae25fb94512e28944c765d2",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-09_Day.json.gz": "b41c664b08792c6447d01bcad626cd00110e6ba43ac24eb7b39b2b6bdeeb1a11",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-09_Night.json.gz": "8a4f64210b46041100594d0d3df79af97242b484a4bc96fe0d0da982cd58573a",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-12_Day.json.gz": "6b6502b4655588145da50369bff05f4f303f91c025bd3fe0a834aad4968d3c9d",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-12_Night.json.gz": "122375c8e571371a6a137cfaeb302b6cdf66d7886428687c7afc189e7e5c26e7",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-13_Day.json.gz": "1a780eac688a6fd3087626285af8fd61433a08048364df466dedcd1bac73c9f7",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-13_Night.json.gz": "9d6e8b0ded13918fbf8e500b37a32e1d854b68d47f80cfbd53a6e0e9e7fed450",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-14_Day.json.gz": "e8ef89b3fd491d5c97f0cbf633e5217eccfc172f2502e9c6a11c1c89efe48f47",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-14_Night.json.gz": "e4fe3e600eda78345d938e3bede6dec6020dd525bc5566e2851d3cb66865f38a",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-15_Day.json.gz": "778743ca4ff6ef2873ab768a09952c4fa78aa2e711afaba18c596f365d467e86",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-15_Night.json.gz": "7f65a193e719bde18078e44e3c5272c76cb67ce28a57649ea5443decb3d6a466",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-16_Day.json.gz": "ef004bab99fd383137b0b31ed9c104920dfd52488fa295f6b362bcdbbf6bf30e",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-16_Night.json.gz": "eed655d1e72f64e24015296b6580aaa05c44d100a1fc13686a654ebd9eba7d3f",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-19_Day.json.gz": "23db5a191c21e7c304c362150db678661fd656986fb3ab15c7e31ce0b7640898",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-19_Night.json.gz": "d87d13783942f49463e7e951c975d1e8c97eac199467c00adeff81e3cd2baec6",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-20_Day.json.gz": "65bcd7dd063fdb9b9381266811d68f6de90acd157c68d32c1e4ce918bed8c9b4",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-20_Night.json.gz": "19d1f85872c434c291813ba8ba4356dbded8ddc3ab5196cebe9fbd091412b1f1",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-21_Day.json.gz": "cb4b741934dbdc1b4287f33f0d126f3b0b19fa17a3c3e2f95537a8e8625bb86f",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-21_Night.json.gz": "e91c066f7d637ece8bfa0f291983e682c18773f0fb7038a3f7e0355d35a46d73",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-22_Day.json.gz": "7d29bf55407b600381a2e823ada07fb5c787559a4888c5190c3e990c465bb0a8",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-22_Night.json.gz": "00f55c0fc22def23b3711849123f9277ec45b7bbbc79ccbdaafe48d45cc6f8c0",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-23_Day.json.gz": "b319139215847278dc395437fd5e3cadd02fb90221c39917065fe49c971e081f",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-23_Night.json.gz": "d571d72e7263c20142fc1c3ad2a8b01b865e6f6c793bb761175c3f96b91d4940",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-26_Day.json.gz": "d0a7fa2468cd30ca21893494f471da809b5dc3b25ef8347dd480e8d3c7f5a55c",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-26_Night.json.gz": "6e2947d1cbd81a5a4703ce6bd46f8fed3bfd3665436546286b99a98bdb6a9e8b",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-27_Day.json.gz": "379c567bcf246cc6b41c265b19d364b1b377a950dfa5cefc06a49874c711aba1",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\成果物\\2026-10-27_Night.json.gz": "2cc5f86fbc9bb5405e1ba2f441639f2ebcc97f405f0b060a68d7ea2d2f3d5e8f"
+    },
+    "入力前後不変": true,
+    "場統計": {
+      "B5Q_P0_C0_D0": {
+        "取引あり場": 54,
+        "黒字場": 21,
+        "赤字場": 33
+      },
+      "B5Q_P0_C0_D1": {
+        "取引あり場": 54,
+        "黒字場": 23,
+        "赤字場": 31
+      },
+      "B5Q_P0_C5_D0": {
+        "取引あり場": 54,
+        "黒字場": 13,
+        "赤字場": 41
+      },
+      "B5Q_P0_C5_D1": {
+        "取引あり場": 54,
+        "黒字場": 15,
+        "赤字場": 39
+      },
+      "A_B5Q_P0_C0_D0": {
+        "取引あり場": 5,
+        "黒字場": 1,
+        "赤字場": 4
+      },
+      "A_B5Q_P0_C0_D1": {
+        "取引あり場": 5,
+        "黒字場": 3,
+        "赤字場": 2
+      },
+      "A_B5Q_P0_C5_D0": {
+        "取引あり場": 5,
+        "黒字場": 2,
+        "赤字場": 3
+      },
+      "A_B5Q_P0_C5_D1": {
+        "取引あり場": 5,
+        "黒字場": 2,
+        "赤字場": 3
+      },
+      "B_B5Q_P0_C0_D0": {
+        "取引あり場": 0,
+        "黒字場": 0,
+        "赤字場": 0
+      },
+      "B_B5Q_P0_C0_D1": {
+        "取引あり場": 0,
+        "黒字場": 0,
+        "赤字場": 0
+      },
+      "B_B5Q_P0_C5_D0": {
+        "取引あり場": 0,
+        "黒字場": 0,
+        "赤字場": 0
+      },
+      "B_B5Q_P0_C5_D1": {
+        "取引あり場": 0,
+        "黒字場": 0,
+        "赤字場": 0
+      },
+      "AB_B5Q_P0_C0_D0": {
+        "取引あり場": 5,
+        "黒字場": 1,
+        "赤字場": 4
+      },
+      "AB_B5Q_P0_C0_D1": {
+        "取引あり場": 5,
+        "黒字場": 3,
+        "赤字場": 2
+      },
+      "AB_B5Q_P0_C5_D0": {
+        "取引あり場": 5,
+        "黒字場": 2,
+        "赤字場": 3
+      },
+      "AB_B5Q_P0_C5_D1": {
+        "取引あり場": 5,
+        "黒字場": 2,
+        "赤字場": 3
+      }
+    }
+  },
+  "flow検査範囲": {
+    "状態": "別証拠を参照",
+    "説明": "提供されたflowの検証範囲と限界を参照。この報告器自身はflow値を原板から再計算しない。",
+    "成功": true,
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00096_5分枠の順行反転と現在数量\\数量原板照合.json"
+  },
+  "金融/原板/APIの再実行": 0,
+  "機会損失/退出後仮想利益": 0,
+  "元FAR全面同値": false,
+  "未知安定性": "未証明"
+}

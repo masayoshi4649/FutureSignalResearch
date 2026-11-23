@@ -1,0 +1,70 @@
+{
+  "成功": true,
+  "作成UTC": "2026-11-08T05:53:01.880366+00:00",
+  "状態": "96表示監査案停止。full54/864未実行",
+  "code": {
+    "表示監査.py": "35e2791b38aa6849e52690eb37f202794bfd8186cdba0909323d790c858c28b4"
+  },
+  "scope": "Viewer保存会計一致。金融/Source/MTM/チャート形成/mini実執行の独立証明と区別",
+  "人工": {
+    "資源": 32,
+    "API": 0,
+    "内容": [
+      "16key/32資源/買売/partial/半円/0取引",
+      "C0/C5全3片の手計算",
+      "API fee半円拒否",
+      "API 枚数拒否",
+      "API ラベル拒否",
+      "API 終0未知拒否",
+      "API 本文SHA拒否",
+      "API 通信未完拒否",
+      "local fee半円拒否",
+      "local 枚数拒否",
+      "local 資源ラベル拒否",
+      "local G0実空Policy拒否"
+    ],
+    "正常照合項目": 1539,
+    "SHA256": "045ea3de0ec19a4f065acfec2c9ae58b9d32e3f49750152506cc0c5b7d7c3614"
+  },
+  "実2場": {
+    "資源": 32,
+    "照合項目": 849,
+    "不一致": 0,
+    "入力コード前後不変": true,
+    "SHA256": "02c4ba5712fb0f829e48882627635ca0fb04c9510ef7400c7d8bc80aa3a4b225"
+  },
+  "旧runAPI数値式不変": {
+    "成功": true,
+    "固定94runとの差": [
+      "関数名",
+      "12口座件数→len(KEYS)=16",
+      "試行表示94→96"
+    ],
+    "正規化AST同値": true,
+    "APIと金融数値式の改変": 0,
+    "fixed94SHA256": "c9d514d990bbc53df0a887b227dc19b6ee8109c639502823e3eb303959be10a1",
+    "96codeSHA256": "35e2791b38aa6849e52690eb37f202794bfd8186cdba0909323d790c858c28b4"
+  },
+  "PID": {
+    "PID": 19844,
+    "ProcessName": "session-trade-viewer",
+    "Path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\viewer\\session-trade-viewer.exe",
+    "前StartTime": "2026-11-07T22:49:17.6408535+09:00",
+    "後StartTime": "2026-11-07T22:49:17.6408535+09:00",
+    "PID起動時刻一致": true,
+    "起動停止再設定操作": 0
+  },
+  "証拠SHA256": {
+    "README.md": "700ea6f65d5ca4ce0b81e4f426460e9e1ade60ce90928d73ab41727d62db1607",
+    "runnerの最小差分.json": "9c4d2a7a107a7e517ff1402b71cf9e6b0843f39e45f3f5df5a4830f73acbbe40",
+    "Viewerプロセスの前後.json": "af2e7811b407f36523f2c8c363813937eda397fb1fbb537ea6630b8d4c43e301"
+  },
+  "固定95部品SHA256": "a8eac34c9ba1bfce1f27ff659fe66224452e254979a6cd294b72a29b6b7741b5",
+  "固定94部品SHA256": "c9d514d990bbc53df0a887b227dc19b6ee8109c639502823e3eb303959be10a1",
+  "保存集計SHA256": "32f7931f75f4b6241ced26e1f4b4014c332711c0948de104093762d01c73d750",
+  "新金融再生": 0,
+  "原板直接読取": 0,
+  "サーバ起動停止再設定": 0,
+  "正式core保存code編集": 0,
+  "full54実行": 0
+}

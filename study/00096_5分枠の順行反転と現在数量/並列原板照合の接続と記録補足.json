@@ -1,0 +1,34 @@
+{
+  "成功": true,
+  "初回並列接続": {
+    "scope": "接続2場",
+    "セッション数": 2,
+    "会計数": 32,
+    "G0基準会計数": 8,
+    "照合項目数": 34159937,
+    "不一致数": 0,
+    "入力前後不変": true,
+    "並列数": 2
+  },
+  "逐次2場と全計算詳細同一": true,
+  "記録指紋の比較対応": "既存の監査コード補足に固定したRawコードのwork→正式path/3be→7fと、関数説明のみ変更したGate713→b5の2指紋だけを対応。他の全詳細値は一致",
+  "指紋対応の正式補足SHA256": "1acdaa3f33b8c8930137a71a83679c7535758116cadafc35cc81f82f7c8a6ca0",
+  "逐次2場SHA256": "ef294fd9565568f77f1539abddcb56ff8e59f05406e0611fc97daa10ae9a905e",
+  "並列接続2場SHA256": "cc6d8f2f231359c7116b119a19b7220fd507e0e660df7a5c2bb9e390a3dd72e6",
+  "接続時コードSHA256": "18eba3c9aea40a8f8ee028628d784c79881396b4106f023b17c05df3d9a0c73e",
+  "正式コードSHA256": "1fd236d36f3d1c25177165bc05324ab932aa5a10c1916d10b3a2e1734b8dfbbd",
+  "接続後変更": "親processがbefore/afterへ固定依存4コードを含める2行のみ。main以外の全関数AST同一、場別計算式/金融式/時計/イベント順序の変更0",
+  "追加行": "    initialize_worker()\n    paths.extend([WORKER_MODULE.OLD_PATH, WORKER_MODULE.OLD.BASE_PATH, WORKER_MODULE.BASE.BASE_PATH, WORKER_MODULE.TECH_PATH])\n",
+  "全54場": {
+    "成功": true,
+    "セッション数": 54,
+    "会計数": 864,
+    "G0基準会計数": 216,
+    "照合項目数": 1983572418,
+    "不一致数": 0,
+    "入力前後不変": true,
+    "並列数": 8
+  },
+  "全54場正本SHA256": "807776f8fe7bd8e42df482a705dc7802268e014fc637215f37fb95303b72719d",
+  "記録補足による再生": 0
+}

@@ -1,0 +1,34 @@
+{
+  "成功": true,
+  "金融本体の変更": 0,
+  "市場/原板読取": 0,
+  "正常独立金融": {
+    "成功": true,
+    "会計数": 64,
+    "非0会計数": 64,
+    "照合項目数": 125440,
+    "不一致数": 0
+  },
+  "破損拒否": 11,
+  "正式Go外部package接続": {
+    "top": 1,
+    "小試験": 6,
+    "成功名": [
+      "TestForce97Boundaries/両側cap_-1",
+      "TestForce97Boundaries/両側cap_1",
+      "TestForce97Boundaries/部分と取消_-1",
+      "TestForce97Boundaries/部分と取消_1",
+      "TestForce97Boundaries/未取得取消_-1",
+      "TestForce97Boundaries/未取得取消_1",
+      "TestForce97Boundaries"
+    ],
+    "native_exit": 0
+  },
+  "証拠SHA256": {
+    "work/97正式配置確認/Force境界.jsonl": "abe984d8a354077714eb09256c0b568a3f9bdbee799227461d519f4b16c07820",
+    "work/97正式配置確認/破損人工.json": "af4742df2a8a10a45c482138755a14c3a9c42eed4221a75a7a345e58c32d8a32",
+    "work/97正式配置確認/金融人工.json": "9e7076ce9d26308060305fc12b3c149a2a24eba3f9f9cdc3f190c426192fa30d"
+  },
+  "レビュー由来SHA256": "d2b49da3f572e7a6cab4bbb0978c24a4567cf19070b8f4fae40d9330a7ecaf59",
+  "限定": "同体の正式配置/外部test package接続。Source自然生成・チャート・Tape・市場Hの追加証明ではない"
+}

@@ -1,0 +1,93 @@
+{
+  "試行": 97,
+  "成功": true,
+  "コード": "work\\97保存集計案\\集計.py",
+  "コードSHA256": "09e93302080a740d3c2add85297f9530c32f6235dabe5f08e674551b556b3208",
+  "由来": {
+    "固定96保存算術": "32f7931f75f4b6241ced26e1f4b4014c332711c0948de104093762d01c73d750",
+    "固定94共通会計": "7c0c1d1b365226c74027405589099cb72382c7850090627a83788e1e2066c381",
+    "固定95Source枠": "193acf7f0ddcd6b532b52d7ac7a105e2a1f61905bb97368dfeb79c177c5f5395",
+    "固定97独立純採否と候補": "31fdf1d566f3c117b2cb6c5ec64e3211e7c8ae33a9cab75d84c1e38af1f4dff7"
+  },
+  "変更範囲": [
+    "16外Keyの入口/出口/費用/遅延対応",
+    "H0専用の初回gain最低床・初hit・要求理由を追加検査",
+    "共通会計とSource/全枠/現在採否は停止コードを名前空間分離して再用",
+    "固定96gzipの明示decompress、全155依存と97条件SHAを固定"
+  ],
+  "人工": {
+    "場面": 6,
+    "会計数": 96,
+    "非0": 96,
+    "半円Fill数": 144,
+    "Viewer資源": 96,
+    "破損拒否": 8,
+    "証拠SHA256": "15034e4cee5f47e66c0a0d394a0a3077f6ae659c1188d232dada91a8ac879011",
+    "検査コードSHA256": "229ac3d9f60a05399d79645994739eac21da02714a1fc32622366e300b13fca1"
+  },
+  "接続2場": {
+    "終了コード": 0,
+    "場数": 2,
+    "会計数": 32,
+    "P0旧96全文会計数": 16,
+    "Viewer資源": 32,
+    "G0_C0D0": {
+      "P0純額": -35539,
+      "H0純額": -33539
+    },
+    "入力依存前後同一": true,
+    "成果物SHA256": {
+      "work\\97保存集計\\接続2場_停止候補\\2026-09-21_Day.json.gz": "2be4b750731364178047a78302d4136618de2b2c518c425227d279334d8706c6",
+      "work\\97保存集計\\接続2場_停止候補\\2026-09-21_Night.json.gz": "13f4eb228e79a0be87c673592b5087a21331fb2f6483879209ee2ec3b1d7ba4c",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C0_D0_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C0_D0_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C0_D1_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C0_D1_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C5_D0_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C5_D0_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C5_D1_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_AB_B5Q_P0_C5_D1_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C0_D0_2026-09-21_Day.trades.jsonl": "b78c4ef2441a4e168ad4bd3ea8b0f34d6023da91ef193c645f1a544ee338d182",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C0_D0_2026-09-21_Night.trades.jsonl": "9d6790fbbeadc3051ed302d1afa6f03e9f103086ff6ed26f0aaeadda146f111e",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C0_D1_2026-09-21_Day.trades.jsonl": "404e2e29bc5a0fa4c21c62f0edcaed8f5ca686e6751fcc1ead440ecde2493a98",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C0_D1_2026-09-21_Night.trades.jsonl": "7e6d4564275b8f49c757a20a36f1879645f39a68221553eab039245d4b6b1c4b",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C5_D0_2026-09-21_Day.trades.jsonl": "78516a80f6b44aaf36ead42b4ac80e53907f233566caa09f461013d07c4eb76f",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C5_D0_2026-09-21_Night.trades.jsonl": "862132ee06a1139bbed4edf1852b1ecb076c7f234f831340dc7c1dff595405fa",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C5_D1_2026-09-21_Day.trades.jsonl": "9732a6017aebd2721c107159aaa39ea5e0b2387f41dc5bdfddf5311976844be2",
+      "work\\97保存集計\\接続2場_停止候補\\97_B5Q_P0_C5_D1_2026-09-21_Night.trades.jsonl": "76343c3dbffad0d78b178625a836951a4cf81a1b18251bfe854db79a9e4a54aa",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C0_D0_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C0_D0_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C0_D1_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C0_D1_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C5_D0_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C5_D0_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C5_D1_2026-09-21_Day.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_AB_B5Q_P0_C5_D1_2026-09-21_Night.trades.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C0_D0_2026-09-21_Day.trades.jsonl": "8a8b4d3b1f9432fc658f99efca3fdcf2840028270c4d0f4bde0b2d2f4fab5cb0",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C0_D0_2026-09-21_Night.trades.jsonl": "725908f742d8a4f77b4bb84b15e883c2f86ce7f72ee1186dc655cbba1dbaf9b9",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C0_D1_2026-09-21_Day.trades.jsonl": "9b3a52f22f5e945c3a3b56ea442664e2a113599fdd13a3fb50f7298c0c901657",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C0_D1_2026-09-21_Night.trades.jsonl": "6866632f299b6410c49d0255b35958f267851ff53bd92d14fe4f44f3c53f2e19",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C5_D0_2026-09-21_Day.trades.jsonl": "ba0796da0726050d56ed9f35940f2e72971b09101f55dfda5c1010046625f455",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C5_D0_2026-09-21_Night.trades.jsonl": "48a8dac2467b6281432ed5a5d12aa1f5fdb469883337b4c173935dd84a6e21a1",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C5_D1_2026-09-21_Day.trades.jsonl": "f6b4f62a7a76e6ee2a7ca43687b60e1030c81dfc320872f3d2848f683882026c",
+      "work\\97保存集計\\接続2場_停止候補\\97_H0_B5Q_P0_C5_D1_2026-09-21_Night.trades.jsonl": "3c0b463579cb31416bf99f111e8eaf6834fdfc21fc9b19c722e8fd428f9ee3a1",
+      "work\\97保存集計\\接続2場_停止候補\\一覧.resources.json": "0dc19174ff59ccefec5e9d35b70d78d038761f0532e6f0ba230f1d4fb5cddc53",
+      "work\\97保存集計\\接続2場_停止候補\\完了.json": "cac10bd36d2fc985365206a04b1da53bd7914bdb720b21e0ec97b69036044d33",
+      "work\\97保存集計\\接続2場_停止候補\\結果.json": "f49c8f5e57d7ccad5f092a8fe673b37808bb8060a3bba17779fd3e613074040b",
+      "work\\97保存集計\\接続2場_停止候補\\結果.md": "15323de2eeab7615460814d449bcae4cb6de6349816a33958aac7ddc09249da3"
+    }
+  },
+  "初回読取失敗": {
+    "旧コードSHA256": "cb5f4073a681380aa05acdef73b7623a19eb7be8e1663ce3af84046ff62f9e03",
+    "旧本体と失敗保存": "work/97保存集計案/初回cb5",
+    "金融会計に入る前の旧96gzip読取不備": "read_textから明示decompressへ訂正",
+    "金融・Native・条件・独立監査変更": 0
+  },
+  "独立範囲": "保存の全注文/約定/配賦/半円/Source joins/保存MTM点/純技法候補/全枠を照合。全Scalarの初正益・極値・H要求取り落としは独立Tape監査へ同じJSON SHAで結合。自然Source/3・15足数値そのものの原板生成は固定96へ依存。",
+  "全54": "金融完了。独立Tape全54をRootが稼働中、成功証拠到着後この停止版を適用。",
+  "未実施": {
+    "新市場・原板・Go再生": 0,
+    "ViewerAPI": 0,
+    "未参加・退出後仮想利益": 0
+  }
+}

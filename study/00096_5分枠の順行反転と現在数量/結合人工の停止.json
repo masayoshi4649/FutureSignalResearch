@@ -1,0 +1,91 @@
+{
+  "成功": true,
+  "停止日時": "2026-11-08T14:42:48.197447+09:00",
+  "新所有コード": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96Actual案\\export96_test.go",
+    "sha256": "e353a16182691e98ec4d068731bb13bcae1ff60378a48b73d71b9096a3ec4238"
+  },
+  "人工export": {
+    "goCLI終了": 0,
+    "scope": "明示envのGo型API結合。手製Source/ATR/技法/Current・自然生成未計測",
+    "場面": [
+      {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96結合人工\\初回\\方向-1_A.json",
+        "sha256": "a397d80e42b55db331a40a522ae3412b2fc4e8193b123eef7b1436b1221e8e10",
+        "Actor数": 16,
+        "非0Actor数": 12,
+        "共有grid数": 2,
+        "callback数": 12
+      },
+      {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96結合人工\\初回\\方向-1_B.json",
+        "sha256": "9b5d6fce9898b4ca19d494af5df62322ba681b631d777ca054888e5d9df74fd3",
+        "Actor数": 16,
+        "非0Actor数": 12,
+        "共有grid数": 2,
+        "callback数": 12
+      },
+      {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96結合人工\\初回\\方向-1_容量取消未知.json",
+        "sha256": "748a974315014fcfda0be350ee3731cba5dbac145e91aa40ff15465bf5593fad",
+        "Actor数": 16,
+        "非0Actor数": 12,
+        "共有grid数": 4,
+        "callback数": 36
+      },
+      {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96結合人工\\初回\\方向1_A.json",
+        "sha256": "918f2ea894d3cebd78816459f0fa9a1024e07abfc717bd29171237a39ba8cffc",
+        "Actor数": 16,
+        "非0Actor数": 12,
+        "共有grid数": 2,
+        "callback数": 12
+      },
+      {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96結合人工\\初回\\方向1_B.json",
+        "sha256": "664847a43c1ae12a6c515291670c381827e321ab274ef1a0db0710b6ed8c41bd",
+        "Actor数": 16,
+        "非0Actor数": 12,
+        "共有grid数": 2,
+        "callback数": 12
+      },
+      {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96結合人工\\初回\\方向1_容量取消未知.json",
+        "sha256": "175d20436d178aafe6bb665a748c1c86c7270862a17a6b729bd8e75c0e6a6896",
+        "Actor数": 16,
+        "非0Actor数": 12,
+        "共有grid数": 4,
+        "callback数": 36
+      }
+    ],
+    "Actor合計": 96,
+    "非0Actor合計": 72,
+    "pure列": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96結合人工\\初回\\純技法列.json",
+      "sha256": "b8d48333f2239dadbdb5ada054a02d8156ca1f63e9eb4da97bceb9be578628ab",
+      "件数": 120
+    }
+  },
+  "金融7前後不変": {
+    "actual.go": "aa7e5dace4bf6667aea7e9a10dbbb0d956b77f63bc52886740a05d2fa56d24d2",
+    "actual_types.go": "fda7a5d0f99dbe6ce0d0885fd6c95edd63b3b8bc52a920b25c86f93e932dd72e",
+    "actual_test.go": "d74976eb9fe12d5fa8a9ca2b995739cf0634328237664f47608622ca8be55066",
+    "entry_grid.go": "059ded903da7a615026852169571740a9b01598a5c18e97a319192f07a6ce9b1",
+    "entry_grid_test.go": "508885abd7f6747c9dbbcc48967fb40589336e4ad655c71d110ceb6fa7b28ed2",
+    "entry_gate.go": "45019f080133d8087b4969e5bdee173f358994ec1ecd22dcf8fa33ee8d71c4c6",
+    "entry_gate_test.go": "3cb58b0dc8d5722fa0b157b1ec5b9ea591900a2515cee5b46013aebc78abcfca"
+  },
+  "純技法3前後不変": {
+    "technical_gate.go": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf",
+    "technical_gate_test.go": "3bf1b7d81c10989937f1096c8564185b621305032e39e3a1716938a1e9782e2a",
+    "technical_gate_spec.md": "959c63b7e6d99f574997b080f4c538df51bd9c28b4be20d7eca2cf124621f4c2"
+  },
+  "Go test終了": 0,
+  "Go vet終了": 0,
+  "全体testログSHA256": "a73a1b76ade6c2b6ae9d6b31d3e1a21073b2f81a2aae365492e4dbfb9c3be58e",
+  "人工手計算": "A/B波はG0+同役割+ABの各12非0口座にC0=16615/C5=11615円。反対役割は0。容量sceneは旧min2/Source取消/技法unknown/後枠消費をassert。",
+  "Root同型共有": "chart_grids全grid1copy。gate_assessmentsは金融がcallbackを呼んだ適格出生だけ。allConfigs/configKeyを直接再用。",
+  "擬似baseline/Shadow指紋作成": 0,
+  "G0旧95比較": "既存金融TestGate96G0Full95の回帰証拠へ分離。この人工に旧95正本全面同値を補完しない。",
+  "新市場原板読取": 0
+}

@@ -1,0 +1,59 @@
+{
+  "成功": true,
+  "拒否数": 11,
+  "反証": [
+    {
+      "種類": "H床0へ緩和",
+      "拒否": "H0_B5Q_P0_C0_D0/positions/0/floor_gain:保存=0/期待=10"
+    },
+    {
+      "種類": "初u0へ改変",
+      "拒否": "H0_B5Q_P0_C0_D0/positions/0/activation/unit_net:保存=0/期待=923"
+    },
+    {
+      "種類": "初u証拠未来",
+      "拒否": "H0_B5Q_P0_C0_D0/positions/0/activation/quote/index:保存=104/期待=4"
+    },
+    {
+      "種類": "要求phaseをpreへ",
+      "拒否": "H0_B5Q_P0_C0_D0/orders/1/protection_point/phase:保存='pre_fill'/期待='after_source'"
+    },
+    {
+      "種類": "同原行fill出典",
+      "拒否": "H0_B5Q_P0_C0_D0/fills/1/quote/time:保存=1789949702/期待=1789949703"
+    },
+    {
+      "種類": "Source優先の注文順を逆転",
+      "拒否": "H0_B5Q_P0_C0_D0/orders/1/id:保存='2026-09-21_Day-H0_B5Q_P0_C0_D0-O000003'/期待='2026-09-21_Day-H0_B5Q_P0_C0_D0-O000002'"
+    },
+    {
+      "種類": "予約超過のH要求",
+      "拒否": "H0_B5Q_P0_C0_D0/orders/1/quantity:保存=6/期待=5"
+    },
+    {
+      "種類": "H専用reasonを旧reasonへ",
+      "拒否": "H0_B5Q_P0_C0_D0/orders/1/reason:保存='最低建値床と固定2ATR追尾'/期待='初回費用後残玉正益の全量確定'"
+    },
+    {
+      "種類": "Harvest不一致key",
+      "拒否": "Actor mapと本体key:保存='B5Q_P0_C0_D0'/期待='H0_B5Q_P0_C0_D0'"
+    },
+    {
+      "種類": "未定義config追加",
+      "拒否": "97設定の全tag集合:保存={'entry_timing', 'harvest_policy', 'delay_seconds', 'us_open', 'slip_pts', 'policy', '未知保護設定'}/期待={'entry_timing', 'harvest_policy', 'delay_seconds', 'us_open', 'slip_pts', 'policy'}"
+    },
+    {
+      "種類": "未定義金融trace追加",
+      "拒否": "97金融top全tag集合:保存={'finished', 'source_events', 'grid_metrics', 'totals', 'metrics', '未知金融trace', 'fills', 'orders', 'complete', 'config', 'key', 'session', 'positions', 'entry_opportunities', 'account', 'stream_scope', 'failure', 'grid_traces'}/期待={'finished', 'source_events', 'grid_metrics', 'totals', 'metrics', 'fills', 'orders', 'complete', 'config', 'key', 'session', 'positions', 'entry_opportunities', 'account', 'stream_scope', 'failure', 'grid_traces'}"
+    }
+  ],
+  "監査コードSHA256": "0486409108298ba61753fba89516e606c56ce62ee1f9d33c8baa5acbf3d58a68",
+  "入力": {
+    "-1_次気配悪化.json": "01333d8f54b7cec8bb0f4a4a7ca12a49b43c0a301b6fbe2d4b31fdecb5b09ff9",
+    "-1_通常.json": "9ec825c22f0bb4cdb4d1943b9383b7075b33d6acb994eeb866e0d740e87a3c2f",
+    "1_同原行Source部分.json": "a7aa8afee563b477de4d2bf88a8668b614f73589833af4b90a739d8aae5578ed",
+    "1_通常.json": "cdbcd625c0b8a7a9bf473e974f8f558f006b8fb1e8af1d789df62e0d6391d180"
+  },
+  "限定": "既存Go型人工の保存値を意図的に壊す反証。u=0は保存起動証拠の改変であり、Source自然生成の境界到達を主張しない。",
+  "市場/原板/金融再生": 0
+}

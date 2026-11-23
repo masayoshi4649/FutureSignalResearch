@@ -1,0 +1,47 @@
+{
+  "試行": 97,
+  "成功": true,
+  "報告器SHA256": "0ddeae536cd7ac8db5aeb1e29baf4f9afe3c1334531fcb469b5119342619ae51",
+  "人工コードSHA256": "8018e068607b609e21561acf9c79c5f87d1d40e3ef711d5b1c1036e62bec3afa",
+  "人工証拠SHA256": "3b38562363569a33b5f55b14f575b8ca8fb097baa53bb2a1010c229a75cb402c",
+  "人工検査": 15,
+  "原計画": {
+    "README.md": "18dc57cb2a0e07688c78a3664d660d42e110cf98a24ca788ec65efa00b75d6fb",
+    "設定と結果.md": "a4f792e5ab6e9ef8420adcdc62a135636d1ac87e6fabc7910f0aef66a0c13e41",
+    "検証計画.md": "944e646392f41ff865b2440607faebbd3cc03f9f363cf1a0a335a8eb0e6fefbe"
+  },
+  "条件SHA256": "f7421f26a306eb0a49387b9dfa2104621350fac5c6ceba035a84bb3661d42c05",
+  "金融155前後同一": true,
+  "7入力": [
+    "result",
+    "audit",
+    "viewer",
+    "condition",
+    "plan",
+    "readme",
+    "settings"
+  ],
+  "API": [
+    "--run 新規outのみ",
+    "--check 同出力と内容SHA照合"
+  ],
+  "生成予定": [
+    "README.md",
+    "設定と結果.md",
+    "報告生成.json"
+  ],
+  "原計画保存": "REPORT97 PLAN BEGIN/END内に原bytes保持。生成前後から同じSHAへ復元。55×9/36設定/16評価。",
+  "主な結合": [
+    "停止保存会計09e933",
+    "独立全54/864/2436210498差0",
+    "P0対96全432除外0",
+    "54NativeFingerprintと独立監査の同本文",
+    "Viewer864全完了/差0/API0/入力不変/結果本文SHA"
+  ],
+  "正式実行": "未実行。実Viewer成功証拠が揃うまで停止。メモリ内Viewer型人工を実APIの成功証拠としない。",
+  "未実施": {
+    "正式文書生成": 0,
+    "原板/API/金融/Source/チャート再生成": 0,
+    "未参加/退出後仮想利益/回収率": "未算出・処理0回"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "保存先": "work/96技法検査",
+  "開始": "2026-11-08T14:36:58.174123+09:00",
+  "所有本文前": {
+    "work/96Actual案/technical_gate.go": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf",
+    "work/96Actual案/technical_gate_test.go": "3bf1b7d81c10989937f1096c8564185b621305032e39e3a1716938a1e9782e2a",
+    "work/96Actual案/technical_gate_spec.md": "959c63b7e6d99f574997b080f4c538df51bd9c28b4be20d7eca2cf124621f4c2"
+  },
+  "scope": "純gateと人工・実原板/市場/金融再生0・旧正式編集0",
+  "実行": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-json",
+        "-count=1",
+        "./..."
+      ],
+      "cwd": "work/96Actual案",
+      "native_exit": 0,
+      "stdout": "work/96技法検査/go.test.jsonl",
+      "stdout_sha256": "d343f62b62438e197320f57498425c4651f6596ee1ae535f3e644717a774fa59",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "全成功": 122,
+      "top成功": 30,
+      "純gate成功": 54,
+      "純gatetop成功": 8,
+      "skip": [
+        "TestExportActualFixtures",
+        "TestExportGrid95Fixtures"
+      ]
+    },
+    {
+      "command": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "cwd": "work/96Actual案",
+      "native_exit": 0,
+      "stdout": "work/96技法検査/go.vet.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "所有本文後": {
+    "work/96Actual案/technical_gate.go": "3ba3c2c8d5b67635b9f2edab076ec9cce9785fea090e8ba87191a65142985fbf",
+    "work/96Actual案/technical_gate_test.go": "3bf1b7d81c10989937f1096c8564185b621305032e39e3a1716938a1e9782e2a",
+    "work/96Actual案/technical_gate_spec.md": "959c63b7e6d99f574997b080f4c538df51bd9c28b4be20d7eca2cf124621f4c2"
+  },
+  "本文不変": true,
+  "成功": true,
+  "完了": "2026-11-08T14:36:59.509315+09:00"
+}

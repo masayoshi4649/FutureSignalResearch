@@ -1,0 +1,58 @@
+{
+  "成功": true,
+  "変更": "設計指紋のwork input.go/replay.goの2pathだけをbytes同体の正式コードへ変更。reader本体は23bとbytes同体。",
+  "対応": [
+    {
+      "旧参照": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96Actual案\\input.go",
+      "正式参照": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\input.go",
+      "SHA256": "c1f531eaf96294a6f4e2cc40130e6da02a44a3f6bc2e1b079093ed3ff3d8d597",
+      "bytes同体": true
+    },
+    {
+      "旧参照": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96Actual案\\replay.go",
+      "正式参照": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\replay.go",
+      "SHA256": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec",
+      "bytes同体": true
+    }
+  ],
+  "候補readerSHA256": "23b35f978ffe5708a4c92116a38daa1779c996018a2585f5c4ca79206c5d6216",
+  "旧readerSHA256": "23b35f978ffe5708a4c92116a38daa1779c996018a2585f5c4ca79206c5d6216",
+  "候補設計SHA256": "b589e23b075c02121c1e1f91fd72a13bd9662b6222635b167b848c43051e04e4",
+  "旧設計SHA256": "92a7f45064fd824c709d5063a42c8986629254ec3bc9e4a90f87cf660c345ea6",
+  "reader全文/全AST不変": true,
+  "設計の他字段不変": true,
+  "設計必須codeのwork依存": 0,
+  "metadata正常選択": [
+    2,
+    54
+  ],
+  "既存CLI破損人工": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96数量原板監査案\\CLI選択人工.json",
+    "sha256": "8e956a9ce211785ec0f545bd7ef31e55cb93b491d00651668ceab3a385f800c5",
+    "拒否数": 10
+  },
+  "当時の全54実行": {
+    "readerSHA256": "23b35f978ffe5708a4c92116a38daa1779c996018a2585f5c4ca79206c5d6216",
+    "設計SHA256": "92a7f45064fd824c709d5063a42c8986629254ec3bc9e4a90f87cf660c345ea6",
+    "結果SHA256": "e6d54795a6421b66cd22a272535de870efbde6431ace357310560850fe4f9efa",
+    "完了SHA256": "457576055cd658c77170de035dc739360d46fc5315d0bcf2c0ceb1f7389c19e1"
+  },
+  "定義/metadata/既存証拠SHA256前後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96数量原板監査案\\数量の独立照合.py": "23b35f978ffe5708a4c92116a38daa1779c996018a2585f5c4ca79206c5d6216",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96数量原板監査案\\読取設計.json": "92a7f45064fd824c709d5063a42c8986629254ec3bc9e4a90f87cf660c345ea6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96数量原板監査\\全54場.json": "e6d54795a6421b66cd22a272535de870efbde6431ace357310560850fe4f9efa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96数量原板監査\\全54場の完了.json": "457576055cd658c77170de035dc739360d46fc5315d0bcf2c0ceb1f7389c19e1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96実行\\正式54場\\完了.json": "a2c02eb6a5a75da2f29cdc4b8ee52535094f85e43f255d4d3a30ba2aa07289a8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00080_FAR後期三手法の15分移植と利益保護\\入力台帳.json": "b939bc91b33fd86e933534c3b991d844b8a0200a5f14710e1bd5004edc1aab42",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96Actual案\\input.go": "c1f531eaf96294a6f4e2cc40130e6da02a44a3f6bc2e1b079093ed3ff3d8d597",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\input.go": "c1f531eaf96294a6f4e2cc40130e6da02a44a3f6bc2e1b079093ed3ff3d8d597",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\96Actual案\\replay.go": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR5分枠の順行反転と数量\\replay.go": "bf9cc5bc849e2d6d863260cbd5e64a0dbea928579b50d5ee42bd7bac2f68b4ec"
+  },
+  "前後不変": true,
+  "新原板走査": 0,
+  "Native本文展開": 0,
+  "Actors/PnL展開": 0,
+  "Go計算器": 0,
+  "注意": "旧設計の状態/2場範囲の文言は設計当時の記録を保持。現在の2/54場選択はCLI、当時の全54実績は旧23b/92a7と完了証拠へ結ぶ。portable版で原板を再走査したとは扱わない。"
+}

@@ -1,0 +1,32 @@
+{
+  "成功": true,
+  "停止時刻": "2026-11-08T16:20:10.162787+09:00",
+  "証拠": {
+    "path": "work\\97境界人工\\検査\\照合.json",
+    "sha256": "4dd8005ccc044ebee01afce199ea482b4b3af92298c69c86f6cf68a7256b45c0"
+  },
+  "所有SHA256": {
+    "work\\97境界人工\\force_test.go": "53dce53a79602f5c4e9fe0697507535496c4a42cdd914a32fb1002879253dc2b",
+    "work\\97境界人工\\go.mod": "e7932d3f5fd26cee87d7d238ed030879e248cd6e847bac4af124d2c37b4684cd",
+    "work\\97境界人工\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "work\\97境界人工\\README.md": "4aae0621b5c4b74c9c37bb9b52ac4a15f6efcc7b5aaf39a081d54077d94dc0e9",
+    "work\\97境界人工\\確認する.py": "5e1c5801867b13bebc4f7e273a28cf0ebdbe8b06cd6544ea0acf0392ce7708f5"
+  },
+  "native_exit": {
+    "['go', 'test', '-json', '-count=1', './...']": 0,
+    "['go', 'vet', './...']": 0
+  },
+  "境界": {
+    "系列": 6,
+    "新口座": 96,
+    "H0": 48,
+    "空Harvest旧96全文対照": 48,
+    "除外field": 0
+  },
+  "固定82前後一致": true,
+  "金融停止版変更": 0,
+  "正式96変更": 0,
+  "Source43変更": 0,
+  "市場と原板読取": 0,
+  "scope": "手製Source/ATRの公開API人工。元FAR生成・Runtime時計・実原板の証明ではない。H0同一玉の架空未予約残を作らず、未予約Forceは反対側で確認。"
+}
