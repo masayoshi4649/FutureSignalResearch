@@ -1,0 +1,343 @@
+{
+  "success": true,
+  "checks": [
+    "TestRawPublicationsPreparationArtificial",
+    "TestRawPublicationsPreparationRejectsFuture",
+    "TestRawPublicationsPreparationInputs"
+  ],
+  "command": [
+    "go",
+    "test",
+    "-overlay=S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\P3をRaw公表時計で再生成する準備\\独立overlay.json",
+    "-run",
+    "^TestRawPublicationsPreparation",
+    "-count=1",
+    "-json",
+    "."
+  ],
+  "cwd": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\強い入口の探索期限を延ばす次仮説\\Source入口の再生器",
+  "raw_opened": false,
+  "source_replayed": false,
+  "finance_read": false,
+  "source_exe_rebuilt": false,
+  "native_validation_only": true,
+  "inputs_before": [
+    {
+      "path": "work/P3をRaw公表時計で再生成する準備/即時のSource入力.json",
+      "bytes": 83614403,
+      "sha256": "905cab946d67e368633585219fc9f4fa04efab639104dcecdc6a3d01d18eeb01"
+    },
+    {
+      "path": "work/P3をRaw公表時計で再生成する準備/遅延60秒のSource入力.json",
+      "bytes": 84670954,
+      "sha256": "8cc73c58fcf90968d177913bfdf66bdcacb3a98aa6ca1a787a35ad9301349139"
+    }
+  ],
+  "inputs_after": [
+    {
+      "path": "work/P3をRaw公表時計で再生成する準備/即時のSource入力.json",
+      "bytes": 83614403,
+      "sha256": "905cab946d67e368633585219fc9f4fa04efab639104dcecdc6a3d01d18eeb01"
+    },
+    {
+      "path": "work/P3をRaw公表時計で再生成する準備/遅延60秒のSource入力.json",
+      "bytes": 84670954,
+      "sha256": "8cc73c58fcf90968d177913bfdf66bdcacb3a98aa6ca1a787a35ad9301349139"
+    }
+  ],
+  "frozen_before": [
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/Source入口.exe",
+      "bytes": 3821568,
+      "sha256": "e6d216ffbbc9ec8d640d5d482d163de3ac289c1f46392469abb9d66eb47a905e"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock.go",
+      "bytes": 895,
+      "sha256": "15edbd78fd623c5aea4bd7b2172a409368bde85f9b94540f3beaca19bb36a929"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock_test.go",
+      "bytes": 2508,
+      "sha256": "6ebe6d126bbbba4ffe85886513537b9fd8384a94e7313590f292766ba38552ab"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/cmd/source133/main.go",
+      "bytes": 1125,
+      "sha256": "3748ca3b3d6760cc753ced40cf185db8c976d8d05efbbfbc348d935d96338796"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction.go",
+      "bytes": 7759,
+      "sha256": "3fbdffe3514c90378c74074ab04eec322df75bc9b97d065a29291ac5aeb16ee1"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction_test.go",
+      "bytes": 7827,
+      "sha256": "0fc85d794810acf60facdcd641501045ef7e7f76c9cbf77aae4ba2ea8bd533c4"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry.go",
+      "bytes": 20950,
+      "sha256": "1c4de9282190e2a3c00c86f8a80ef9568ac329e5c24fe8948e0098fb4058652f"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry_test.go",
+      "bytes": 7192,
+      "sha256": "68f4e378f5a89074f64b37ee1d77909633221dc8ee3b579f2e5d57c78fae1edb"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/participation_test.go",
+      "bytes": 3265,
+      "sha256": "594371153025a724a60f9707790bd66a3930e60947b3f43e69f9a84706735ccd"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/reader.go",
+      "bytes": 3576,
+      "sha256": "201bbe355e50ba0d61625deeaf32f95c60982dc3c3c169490c18c4b5ec9422ff"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/scan_test.go",
+      "bytes": 7416,
+      "sha256": "b83a0b7ada17e3372a5c13a91bd0fbe61c11ebd7d110822b778045ed950c8035"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score.go",
+      "bytes": 10639,
+      "sha256": "1a513f48e70ae65ec214caa9b69d8c0588834026963f5af66c46d95c303f6a60"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score_test.go",
+      "bytes": 10964,
+      "sha256": "62d4103597d1e232356a705f2cb803723c739784f19c162facb9c84509efd025"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/stream.go",
+      "bytes": 754,
+      "sha256": "0ac03dd8b31ccc491823803b1379c786e868b08b5a813ff6ae402951e1cb6547"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/types.go",
+      "bytes": 1308,
+      "sha256": "cfff555e78454efb1eb552707f15f189df3b73dfb5af3355dc13c4f43e855e87"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/validation.go",
+      "bytes": 3362,
+      "sha256": "0ce4562464bfc6107c53109fd086898e511ed9868a5ca732ee7ed6253703984f"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/go.mod",
+      "bytes": 404,
+      "sha256": "ecdc9fbe130675ea895af1386138f5fad2dccf47f7d733ef1b167379af5b131b"
+    },
+    {
+      "path": "work/118複数技法の入口条件/bank.go",
+      "bytes": 7897,
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules.go",
+      "bytes": 8347,
+      "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules_test.go",
+      "bytes": 8029,
+      "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27"
+    },
+    {
+      "path": "work/118複数技法の入口条件/types.go",
+      "bytes": 4220,
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+    },
+    {
+      "path": "work/118複数技法の入口条件/go.mod",
+      "bytes": 76,
+      "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9"
+    },
+    {
+      "path": "work/121入口の反転切替/detector.go",
+      "bytes": 9852,
+      "sha256": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4"
+    },
+    {
+      "path": "work/121入口の反転切替/detector_test.go",
+      "bytes": 16883,
+      "sha256": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90"
+    },
+    {
+      "path": "work/121入口の反転切替/policies.go",
+      "bytes": 9633,
+      "sha256": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79"
+    },
+    {
+      "path": "work/121入口の反転切替/types.go",
+      "bytes": 4031,
+      "sha256": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2"
+    },
+    {
+      "path": "work/121入口の反転切替/go.mod",
+      "bytes": 432,
+      "sha256": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b"
+    }
+  ],
+  "frozen_after": [
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/Source入口.exe",
+      "bytes": 3821568,
+      "sha256": "e6d216ffbbc9ec8d640d5d482d163de3ac289c1f46392469abb9d66eb47a905e"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock.go",
+      "bytes": 895,
+      "sha256": "15edbd78fd623c5aea4bd7b2172a409368bde85f9b94540f3beaca19bb36a929"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock_test.go",
+      "bytes": 2508,
+      "sha256": "6ebe6d126bbbba4ffe85886513537b9fd8384a94e7313590f292766ba38552ab"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/cmd/source133/main.go",
+      "bytes": 1125,
+      "sha256": "3748ca3b3d6760cc753ced40cf185db8c976d8d05efbbfbc348d935d96338796"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction.go",
+      "bytes": 7759,
+      "sha256": "3fbdffe3514c90378c74074ab04eec322df75bc9b97d065a29291ac5aeb16ee1"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction_test.go",
+      "bytes": 7827,
+      "sha256": "0fc85d794810acf60facdcd641501045ef7e7f76c9cbf77aae4ba2ea8bd533c4"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry.go",
+      "bytes": 20950,
+      "sha256": "1c4de9282190e2a3c00c86f8a80ef9568ac329e5c24fe8948e0098fb4058652f"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry_test.go",
+      "bytes": 7192,
+      "sha256": "68f4e378f5a89074f64b37ee1d77909633221dc8ee3b579f2e5d57c78fae1edb"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/participation_test.go",
+      "bytes": 3265,
+      "sha256": "594371153025a724a60f9707790bd66a3930e60947b3f43e69f9a84706735ccd"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/reader.go",
+      "bytes": 3576,
+      "sha256": "201bbe355e50ba0d61625deeaf32f95c60982dc3c3c169490c18c4b5ec9422ff"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/scan_test.go",
+      "bytes": 7416,
+      "sha256": "b83a0b7ada17e3372a5c13a91bd0fbe61c11ebd7d110822b778045ed950c8035"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score.go",
+      "bytes": 10639,
+      "sha256": "1a513f48e70ae65ec214caa9b69d8c0588834026963f5af66c46d95c303f6a60"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score_test.go",
+      "bytes": 10964,
+      "sha256": "62d4103597d1e232356a705f2cb803723c739784f19c162facb9c84509efd025"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/stream.go",
+      "bytes": 754,
+      "sha256": "0ac03dd8b31ccc491823803b1379c786e868b08b5a813ff6ae402951e1cb6547"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/types.go",
+      "bytes": 1308,
+      "sha256": "cfff555e78454efb1eb552707f15f189df3b73dfb5af3355dc13c4f43e855e87"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/validation.go",
+      "bytes": 3362,
+      "sha256": "0ce4562464bfc6107c53109fd086898e511ed9868a5ca732ee7ed6253703984f"
+    },
+    {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/go.mod",
+      "bytes": 404,
+      "sha256": "ecdc9fbe130675ea895af1386138f5fad2dccf47f7d733ef1b167379af5b131b"
+    },
+    {
+      "path": "work/118複数技法の入口条件/bank.go",
+      "bytes": 7897,
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules.go",
+      "bytes": 8347,
+      "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules_test.go",
+      "bytes": 8029,
+      "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27"
+    },
+    {
+      "path": "work/118複数技法の入口条件/types.go",
+      "bytes": 4220,
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+    },
+    {
+      "path": "work/118複数技法の入口条件/go.mod",
+      "bytes": 76,
+      "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9"
+    },
+    {
+      "path": "work/121入口の反転切替/detector.go",
+      "bytes": 9852,
+      "sha256": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4"
+    },
+    {
+      "path": "work/121入口の反転切替/detector_test.go",
+      "bytes": 16883,
+      "sha256": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90"
+    },
+    {
+      "path": "work/121入口の反転切替/policies.go",
+      "bytes": 9633,
+      "sha256": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79"
+    },
+    {
+      "path": "work/121入口の反転切替/types.go",
+      "bytes": 4031,
+      "sha256": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2"
+    },
+    {
+      "path": "work/121入口の反転切替/go.mod",
+      "bytes": 432,
+      "sha256": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b"
+    }
+  ],
+  "unchanged": true,
+  "checker": {
+    "path": "work/P3をRaw公表時計で再生成する準備/独立型検査_test.go",
+    "bytes": 5890,
+    "sha256": "afe655f04140cbadc378159667fc6ffd0192bd5e99291483714462523a9b1de2"
+  },
+  "runner": {
+    "path": "work/P3をRaw公表時計で再生成する準備/独立型検査を実行する.py",
+    "bytes": 4790,
+    "sha256": "d080b3ee57ed68de04587608f638cfa44afeb0590132ce03cee588b73bdf6677"
+  },
+  "overlay": {
+    "path": "work/P3をRaw公表時計で再生成する準備/独立overlay.json",
+    "bytes": 323,
+    "sha256": "9aae5bc824d37104aa9b3cc484a8fc09f94c2d4988f5569910b2311fcce1ef3a"
+  },
+  "log": {
+    "path": "work/P3をRaw公表時計で再生成する準備/独立型検査の実行ログ.jsonl",
+    "bytes": 3159,
+    "sha256": "d9251f64d4b8ac57adc8afefcf5efb59d359b675b3f804f4009194310f174059"
+  }
+}

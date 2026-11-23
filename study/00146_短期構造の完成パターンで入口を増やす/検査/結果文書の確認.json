@@ -1,0 +1,226 @@
+{
+  "成功": true,
+  "試行": 146,
+  "状態": "正式三文書の結果反映を停止",
+  "F1原文退避SHA256": "18970d51857a19c8d6f1828244542a4ca5f2a7f7e389abc9ba773473f5ff4b77",
+  "成果物": [
+    {
+      "path": "study/00146_短期構造の完成パターンで入口を増やす/README.md",
+      "bytes": 16200,
+      "sha256": "68120415ccd791f7b24b14642f8d6aa49d89b4faa619c6fb580987d05256559f"
+    },
+    {
+      "path": "study/00146_短期構造の完成パターンで入口を増やす/条件.md",
+      "bytes": 15977,
+      "sha256": "bfb0c02ecd63639245a37da9633b472cf0227de11a4c8e14d4c0c059d057946f"
+    },
+    {
+      "path": "study/00146_短期構造の完成パターンで入口を増やす/設定と結果.md",
+      "bytes": 25852,
+      "sha256": "ed16da6d8a337115a26a8a2b6d85b8fd0bc0b87221dfbba74741f05e0a2cec0b"
+    }
+  ],
+  "指定正本": [
+    {
+      "path": "work/146短期完成の評価/金融評価/集計.json",
+      "bytes": 530380,
+      "sha256": "70f1d57cd22febfba8c7cfe9515f633077b0f5a3bd9fe16e0c8278d8a1458d2d"
+    },
+    {
+      "path": "work/146短期完成の評価/金融評価/CSV用の表.json",
+      "bytes": 543701,
+      "sha256": "fdda133a0ea3ad5f561db9cd19416b17592b0aec981a612ddde068ea57dd79a2"
+    },
+    {
+      "path": "work/146短期パターンの非金融診断/短期化で改善した段階と残った制限.md",
+      "bytes": 5234,
+      "sha256": "16c506560f30ff6d3e822c7ed04ed196c62e19105b3c119d01f84bb57aa14769"
+    }
+  ],
+  "条件prefix完全同体": true,
+  "設定注記以外元原文prefix同体": true,
+  "汎用表": {
+    "版": 7,
+    "手法": 57,
+    "尺度": 9,
+    "セル": 513,
+    "全行文字同体": true
+  },
+  "保護対象前後同体": [
+    {
+      "path": "work/146短期完成の評価/金融評価/集計.json",
+      "bytes": 530380,
+      "sha256": "70f1d57cd22febfba8c7cfe9515f633077b0f5a3bd9fe16e0c8278d8a1458d2d"
+    },
+    {
+      "path": "work/146短期完成の評価/金融評価/CSV用の表.json",
+      "bytes": 543701,
+      "sha256": "fdda133a0ea3ad5f561db9cd19416b17592b0aec981a612ddde068ea57dd79a2"
+    },
+    {
+      "path": "work/146_短期完成パターン入口の採用仕様.md",
+      "bytes": 12203,
+      "sha256": "d43abc95616aa3fdb53fb4280da1069652cc889ff427a5517cd332ab8cd15b70"
+    },
+    {
+      "path": "work/146短期groupと旧87を固定取得へ渡す.py",
+      "bytes": 13081,
+      "sha256": "8cfb1f0a8db9b771a1252ef39d1f922ae0eaeb154ced51b3cdc4cebe0f0fdbcb"
+    },
+    {
+      "path": "work/146出生と金融を分離して実行する.py",
+      "bytes": 6880,
+      "sha256": "4d20581916c1bc522f503d7dde051dcb9bcf82d23aa450d259684c681b362737"
+    },
+    {
+      "path": "work/146短期構造の金融集計/集計する.py",
+      "bytes": 29000,
+      "sha256": "fe7c20e9bf1259c432473aa76555198837bc5d7a73ca9415d3ac71e36ddec313"
+    },
+    {
+      "path": "work/146短期完成の評価/固定入力/固定取得入力.json",
+      "bytes": 102984,
+      "sha256": "173c631e7df214b6be5b320a0b33e61715d45de45ca183d72ad5007343ea096e"
+    },
+    {
+      "path": "work/146短期完成の評価/固定入力/入口参照.json",
+      "bytes": 487462,
+      "sha256": "3746568272865b7165a00aaea04d7850034680adc29225bd870aa1a05f739d77"
+    },
+    {
+      "path": "work/146短期構造の入口/context.go",
+      "bytes": 5298,
+      "sha256": "03e0a8fadc2789b9a1b4da2614f8c04fac970fcb975c20bb33d601af4767b37c"
+    },
+    {
+      "path": "work/146短期構造の入口/csv.go",
+      "bytes": 5739,
+      "sha256": "fd39f37e2e6ee222fd2a61e0e55dc68efc7a3286f8a64f9652b11681e0991e3d"
+    },
+    {
+      "path": "work/146短期構造の入口/csvtypes.go",
+      "bytes": 1023,
+      "sha256": "707cd8a3724c9805474ce274caf1e7821e1a04c90c38a6cacbda14bb3e6bc1d9"
+    },
+    {
+      "path": "work/146短期構造の入口/decoder.go",
+      "bytes": 2934,
+      "sha256": "aa1e88015f2f72722eab4219ad20ec69b7aa41a11276a15c8fbb8bb892e98895"
+    },
+    {
+      "path": "work/146短期構造の入口/go.mod",
+      "bytes": 382,
+      "sha256": "80b09e4918961ee05a207b5650857253161d9dc96f16f876365986cbda2d9c85"
+    },
+    {
+      "path": "work/146短期構造の入口/group_io_test.go",
+      "bytes": 5976,
+      "sha256": "1ff21299d3744c9ad24efca29c8c4a7468ccd7d5548b3266ef5007f757398693"
+    },
+    {
+      "path": "work/146短期構造の入口/input.go",
+      "bytes": 1558,
+      "sha256": "c0f58be40044dd10702fcc827f75489df47bb1b3bb0fdb9438c55fd521d6d850"
+    },
+    {
+      "path": "work/146短期構造の入口/input_base.go",
+      "bytes": 4029,
+      "sha256": "cfa7a161b60d3b5e3ec12e32ffecbfb61002507a56e18cda0315680918f75943"
+    },
+    {
+      "path": "work/146短期構造の入口/rawtypes.go",
+      "bytes": 972,
+      "sha256": "9bcacec538ba04fc49b95dbcd92c61e6d709d562c353769ed89eae14dce6048c"
+    },
+    {
+      "path": "work/146短期構造の入口/scanner.go",
+      "bytes": 7804,
+      "sha256": "b99e7cde39929db65f0f080bb732260c854da814783093d4335f9eda34c320cb"
+    },
+    {
+      "path": "work/146短期構造の入口/short.go",
+      "bytes": 10799,
+      "sha256": "52978224fb80e01ee648fd290a74417bbdb5e6151f20b5e3de14192b143f2f56"
+    },
+    {
+      "path": "work/146短期構造の入口/short_test.go",
+      "bytes": 9397,
+      "sha256": "da239b1b835d246a6b1ee286f50c877b0ebd7e919504b7cb9e189ee313746d1a"
+    },
+    {
+      "path": "work/146短期構造の入口/state.go",
+      "bytes": 14113,
+      "sha256": "b63e219adfbff9c3c17a1aee3e51bb8d2acb5730fde64265b98416b9da2d1d1d"
+    },
+    {
+      "path": "work/146短期構造の入口/state_test.go",
+      "bytes": 12836,
+      "sha256": "169b564771489f9ef9d98c286ffdef2614f60c4f5e0704e039de04e8f743c152"
+    },
+    {
+      "path": "work/146短期構造の入口/types.go",
+      "bytes": 4568,
+      "sha256": "f2825c4cb56af2ae8bdc425807fa8d9f702217c3c61018b2c0bd2b1d8183fa8f"
+    },
+    {
+      "path": "work/146短期構造の入口/短期完成生成.exe",
+      "bytes": 3941888,
+      "sha256": "7c908f60d7f94c524f8a31cf06c21cd48a52f6ec57a3c613aedc14bcfb3f463a"
+    },
+    {
+      "path": "work/146短期構造の入口/internal/basenumeric/bridge.go",
+      "bytes": 1918,
+      "sha256": "fe289000e311d98424f172f62718ca068ec57733b61e6c6096f9c4587b02b6ac"
+    },
+    {
+      "path": "work/146短期構造の入口/internal/basenumeric/numeric.go",
+      "bytes": 5101,
+      "sha256": "c47e7b1f94b7683941da93941a957e683b1d206b32c9c4f4c996ec614891e78e"
+    },
+    {
+      "path": "work/146短期構造の入口/internal/basenumeric/pivot.go",
+      "bytes": 2406,
+      "sha256": "3847769da84e4ee1d1f17001f00eb6e9363787b0cf359dca0699d43d1eff24bd"
+    },
+    {
+      "path": "work/146短期構造の入口/internal/basenumeric/types.go",
+      "bytes": 6427,
+      "sha256": "055a4590a52005e0419bb9effd98051edcd9d1a9517215f022ce86e395d5e6a4"
+    },
+    {
+      "path": "work/146短期構造の入口/cmd/run/main.go",
+      "bytes": 1662,
+      "sha256": "2b6ddd8f87215a5fc94a714a8fb06a4c2eab7e3e296c79b8eddcf755937ca704"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/README.md",
+      "bytes": 11414,
+      "sha256": "b503ee1a9c9e15d18cbfa5a1ec36ad53d74158fc264ba9419f3b61b56f3cb668"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/再現手順.md",
+      "bytes": 6804,
+      "sha256": "ff717a5591a8af1e92f7208d25f799f396c3a5977714c562754468cbe50ea49c"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/条件.md",
+      "bytes": 16874,
+      "sha256": "10a2bcd01b2e59d42b50efa8009e4c8c53b12abf4b016fcea550f0c0847aa95d"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/設定と結果.md",
+      "bytes": 24850,
+      "sha256": "3c6070c789592671667dbc2603f8435149f451456cfd49f9a3307f0dede75a2e"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/閲覧資料.md",
+      "bytes": 2672,
+      "sha256": "0216966d4bd36f899dfdb8339e8bdf7b136acbee3e4ab18c5ab421ebd22b8330"
+    }
+  ],
+  "目次閲覧資料編集": false,
+  "Source金融再計算": false,
+  "RawCSV追加2場読取": false,
+  "更新器SHA256": "1b8baa30d810e979b9aad09b20a5521477136815440627a5194e18b38125b82a",
+  "Source節SHA256": "130a539e4bbc47c36666c839764a04097d46d85d68f25a7e4372ab3ef6f51def"
+}

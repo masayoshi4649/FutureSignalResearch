@@ -1,0 +1,97 @@
+{
+  "試行": 123,
+  "成功": true,
+  "入力": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\123全場参加の集計\\CSV用の表.json",
+    "sha256": "e8f60c3bd9d674a45fbae80abd7c70f085e971dac857ae895c1ef8e60d213727"
+  },
+  "表数": 3,
+  "表別": [
+    {
+      "表名": "候補別集計",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\候補別集計.csv",
+        "sha256": "ed59d586f475c26fd6585c0db641f1f40d4e64bc92e20cfbe49325eb75e9198e"
+      },
+      "行数": 8,
+      "列数": 42,
+      "ヘッダ比較数": 42,
+      "UTF8BOM": true,
+      "全セル比較数": 336,
+      "数値比較数": 288,
+      "数値零比較数": 25,
+      "文字列比較数": 16,
+      "空文字比較数": 0,
+      "真偽値比較数": 32,
+      "null比較数": 0
+    },
+    {
+      "表名": "全セッション",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\全セッション.csv",
+        "sha256": "d2d951775be009b69796909311d2e206d4b53fbdfe5d9457943aaf9b20e38237"
+      },
+      "行数": 73,
+      "列数": 23,
+      "ヘッダ比較数": 23,
+      "UTF8BOM": true,
+      "全セル比較数": 1679,
+      "数値比較数": 1125,
+      "数値零比較数": 500,
+      "文字列比較数": 365,
+      "空文字比較数": 0,
+      "真偽値比較数": 73,
+      "null比較数": 116
+    },
+    {
+      "表名": "入口明細",
+      "CSV": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\入口明細.csv",
+        "sha256": "7af34ef0e2d78a318e034110428111ca79a36991dcb5076cbf7a27ce9c3b19c7"
+      },
+      "行数": 534,
+      "列数": 28,
+      "ヘッダ比較数": 28,
+      "UTF8BOM": true,
+      "全セル比較数": 14952,
+      "数値比較数": 3404,
+      "数値零比較数": 16,
+      "文字列比較数": 10752,
+      "空文字比較数": 0,
+      "真偽値比較数": 0,
+      "null比較数": 796
+    }
+  ],
+  "全データセル比較数": 16967,
+  "数値比較数": 4817,
+  "数値零比較数": 541,
+  "null比較数": 912,
+  "空文字比較数": 0,
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\123全場参加の集計\\CSV用の表.json": "e8f60c3bd9d674a45fbae80abd7c70f085e971dac857ae895c1ef8e60d213727",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\候補別集計.csv": "ed59d586f475c26fd6585c0db641f1f40d4e64bc92e20cfbe49325eb75e9198e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\全セッション.csv": "d2d951775be009b69796909311d2e206d4b53fbdfe5d9457943aaf9b20e38237",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\入口明細.csv": "7af34ef0e2d78a318e034110428111ca79a36991dcb5076cbf7a27ce9c3b19c7"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\123全場参加の集計\\CSV用の表.json": "e8f60c3bd9d674a45fbae80abd7c70f085e971dac857ae895c1ef8e60d213727",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\候補別集計.csv": "ed59d586f475c26fd6585c0db641f1f40d4e64bc92e20cfbe49325eb75e9198e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\全セッション.csv": "d2d951775be009b69796909311d2e206d4b53fbdfe5d9457943aaf9b20e38237",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\123全場参加CSV\\入口明細.csv": "7af34ef0e2d78a318e034110428111ca79a36991dcb5076cbf7a27ce9c3b19c7"
+  },
+  "前後不変": true,
+  "数値照合": "Decimalによる値の完全一致。許容差なし。指数表記と末尾零の表記差だけは値同体とする。",
+  "文字列照合": "JSONで文字列のセルは先頭零を含め完全一致。数値への自動変換を行わない。",
+  "真偽値照合": "JSON booleanに対応するCSVは小文字true又はfalseに完全一致。",
+  "空欄の限界": "nullと空文字はCSV上で共に空欄となり、CSV単体では区別不能。入力JSONの型ごとに件数を記録する。数値零を空欄として受理しない。",
+  "検査範囲": "指定された3表の転記、行列数、型別全セル、UTF-8 BOM、指定入力の前後SHA256。",
+  "非対象": [
+    "金融及び技術条件の再計算",
+    "独立1mini期限評価の片側上限10枚口座への合算",
+    "未約定を損益零へ補完する評価"
+  ],
+  "金融再計算": false,
+  "運用口座への合算": false,
+  "Native読取": 0,
+  "Raw読取": 0
+}

@@ -1,0 +1,75 @@
+{
+  "成功": true,
+  "自然Raw未読": true,
+  "新金融未実行": true,
+  "人工成功": [
+    "TestFixedClockPricesAndSpread133",
+    "TestDeadlineKernelAndChartMoney133",
+    "TestGapAndNormalQuoteParity133",
+    "TestExactRawJoinAndFingerprint133",
+    "TestPhaseBoundary133",
+    "TestKnownTouchBeforePhase133",
+    "TestCompleteBeforePhase133",
+    "TestLatestEntryBoundary133"
+  ],
+  "固定算術の同体": {
+    "outcome.go": "133への名前変更とphase guard以外は124と全文一致",
+    "chart_outcome.go": "133への名前変更とphase guard以外は124と全文一致",
+    "reader.go": "全文一致",
+    "types.go": "全文一致"
+  },
+  "コード仕様の前後指紋": {
+    "chart_outcome.go": "e42731522a01a99418c028ee1e5c0643c237c8c94ca1ced938ca2ec2cfa84637",
+    "entry.go": "f1963e47f0efc34541d54a45c34dffc4f7dd757e0ff16717a7975bfd7482486a",
+    "entry_test.go": "f25f42cc835e44dfb56f7d981b2ad2c70cc303e3b2db1841bd086f0a77ebaf85",
+    "outcome.go": "90e378e1816d7a7cd92ba09ad8e129ff17c4a12338e06fa7eb0b5a0464727487",
+    "phase.go": "5e6136b749036ca16b3d9a0cc348cae8f414495b00862dd7fc4502990593022a",
+    "phase_test.go": "c67071d5990eb93df200d87d6e723c6e2c431abd79545575bc354f5ebdffdbea",
+    "reader.go": "817ec44405214d58369522341cae03ebe325ca48d440b6494b7ce868613d9a49",
+    "stream.go": "4b2ea61493ab2de65ed83fb6af8d6dc852ebaede4c5df9932ead48d8c75aff49",
+    "types.go": "2675f5861fbe4c12a5f171a76b60f4467caf9b2b14d6d6ed3a2340b1609aed3d",
+    "cmd\\run\\main.go": "1035b608ba2ec49eb761d6d4117014463b5cd4a42f71dfb1c64ae20248775ee5",
+    "go.mod": "93d0e423e58ac17da2f3f8f9950b9f37ee6bd0e7de31d5fe15ffdfc14865fcdb",
+    "README.md": "a5beba49c5d6f5865c55696ac5f402a306daeda03a817c30aa52cd0faaaa4052",
+    "準備を確認する.py": "2ab4d2c35bb7c1dc96640746a0749cdcdd7fbba357136452b9a50c111a4356c6"
+  },
+  "人工": {
+    "実行列": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "./..."
+    ],
+    "終了": 0,
+    "標準出力": "{\"Time\":\"2026-11-11T22:20:20.0168446+09:00\",\"Action\":\"start\",\"Package\":\"entryexperiment133\"}\n{\"Time\":\"2026-11-11T22:20:20.0168446+09:00\",\"Action\":\"start\",\"Package\":\"entryexperiment133/cmd/run\"}\n{\"Time\":\"2026-11-11T22:20:20.0173615+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133/cmd/run\",\"Output\":\"?   \\tentryexperiment133/cmd/run\\t[no test files]\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0173615+09:00\",\"Action\":\"skip\",\"Package\":\"entryexperiment133/cmd/run\",\"Elapsed\":0.001}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\",\"Output\":\"=== RUN   TestFixedClockPricesAndSpread133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\",\"Output\":\"--- PASS: TestFixedClockPricesAndSpread133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\",\"Output\":\"=== RUN   TestDeadlineKernelAndChartMoney133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\",\"Output\":\"--- PASS: TestDeadlineKernelAndChartMoney133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\",\"Output\":\"=== RUN   TestGapAndNormalQuoteParity133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\",\"Output\":\"--- PASS: TestGapAndNormalQuoteParity133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\"}\n{\"Time\":\"2026-11-11T22:20:20.0303257+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\",\"Output\":\"=== RUN   TestExactRawJoinAndFingerprint133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\",\"Output\":\"--- PASS: TestExactRawJoinAndFingerprint133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\",\"Output\":\"=== RUN   TestPhaseBoundary133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\",\"Output\":\"--- PASS: TestPhaseBoundary133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\",\"Output\":\"=== RUN   TestKnownTouchBeforePhase133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\",\"Output\":\"--- PASS: TestKnownTouchBeforePhase133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\",\"Output\":\"=== RUN   TestCompleteBeforePhase133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\",\"Output\":\"--- PASS: TestCompleteBeforePhase133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\"}\n{\"Time\":\"2026-11-11T22:20:20.0351985+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\",\"Output\":\"=== RUN   TestLatestEntryBoundary133\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0362753+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\",\"Output\":\"--- PASS: TestLatestEntryBoundary133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0362753+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:20:20.0362753+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Output\":\"PASS\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0567204+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Output\":\"ok  \\tentryexperiment133\\t0.040s\\n\"}\n{\"Time\":\"2026-11-11T22:20:20.0567204+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Elapsed\":0.04}\n",
+    "標準エラー": ""
+  },
+  "vet": {
+    "実行列": [
+      "go",
+      "vet",
+      "./..."
+    ],
+    "終了": 0,
+    "標準出力": "",
+    "標準エラー": ""
+  },
+  "build": {
+    "実行列": [
+      "go",
+      "build",
+      "-o",
+      "固定取得の正逆評価.exe",
+      "./cmd/run"
+    ],
+    "終了": 0,
+    "標準出力": "",
+    "標準エラー": ""
+  },
+  "Go版": "go version go1.24.2 windows/amd64",
+  "実行物SHA256": "033cf22a052e985bc61aa020a04fa6d499119051aaa39bb2adb715a4af1e7736",
+  "取得限界": "min(Source force_close, End−300−H60)、等号拒否",
+  "観測境界": "q>=End−300は未完了だけphase_censored。既知touch/完了を保持",
+  "差分SHA256": "5aec4908c00f851d1440df8d9fa6e2bf7835cfe5b14aa45941f0e2809670ec43"
+}

@@ -1,0 +1,100 @@
+{
+  "成功": true,
+  "試行候補": 121,
+  "市場前": true,
+  "編集停止": true,
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\go.mod": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\types.go": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\detector.go": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\policies.go": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\detector_test.go": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\README.md": "b67ddcdf475fe86932452267610d12e4a277667807d4ad7c365d6d9aa809212b"
+  },
+  "固定参照": {
+    "work/120入口の1分構造/検査/確認.json": {
+      "sha256": "edcf25c76152a5229caf10a5c9044a40c4a8f96793deb2a1da53faf266032d14",
+      "所有ファイル現在SHA一致": true,
+      "source": {
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\go.mod": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\types.go": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector.go": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector_test.go": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\README.md": "8c0f352b209237a1679a17493d066c5bd021b149c8a7a1480a0415808b9eaca9"
+      }
+    },
+    "work/118複数技法の入口条件/検査/確認.json": {
+      "sha256": "64ca0b2ba6184fdf0b3831789fe316de28e6fc2a82ea9a17537d2da93b3d1107",
+      "所有ファイル現在SHA一致": true,
+      "source": {
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\README.md": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+      }
+    }
+  },
+  "人工主検査数": 7,
+  "Go": "go1.24.2 windows/amd64",
+  "commands": [
+    {
+      "argv": [
+        "go",
+        "test",
+        "-count=1",
+        "-v",
+        "./..."
+      ],
+      "exit_code": 0,
+      "主検査": [
+        "TestSixPoliciesMirrorIncludesCohort",
+        "TestBaseCooldownOwnsDerivedSubset",
+        "TestBroadBandHighADXAndMomentumCohort",
+        "TestKnownBoundariesAndUnknown",
+        "TestCurrentHoldAndRawGapRemain",
+        "TestFrozen120CoreASTSame",
+        "TestC0Matches120P2OnArtificialRaw"
+      ]
+    },
+    {
+      "argv": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "固定core関数AST同体": 16,
+  "人工C0対照": "旧120Detectorへ同じ人工Rawを配送し、P2とC0のAt/Bar/前5range/Refs/cap/invalidation/既存Fields全キー値を買売とも一致確認",
+  "政策": [
+    "C0",
+    "E0",
+    "V0",
+    "EV",
+    "B0",
+    "B1"
+  ],
+  "出生と冷却": "C0基礎→E0/V0/EV同原行派生、B1基礎→B0同原行派生。cooldown C0/B1×sideだけ、独立派生なし。未約定でも基礎冷却消費。",
+  "統計": "AllGatesPassは基礎冷却前。該当派生も基礎冷却で拒否ならCooldownRejectedへ加算し全6政策でAllGatesPass=Births+CooldownRejected。",
+  "CohortID": "Event.CohortID文字列共有、Event.IDは政策ごと。Fieldsはcohort_sequence/base/derived数値も保存。",
+  "自然Raw/入力/121結果/11月09読取": 0,
+  "120結果読取": "別診断で許可された120固定結果2JSONを読んだ。121は後付け探索仮説で、未知場評価ではない。",
+  "120固定コード変更": false,
+  "金融実行": false,
+  "70%証明": false
+}

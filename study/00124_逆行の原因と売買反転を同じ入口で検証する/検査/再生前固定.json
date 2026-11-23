@@ -1,0 +1,62 @@
+{
+  "試行": 124,
+  "成功": true,
+  "固定UTC": "2026-11-10T16:48:17.110543+00:00",
+  "主政策": "T1",
+  "主幅pt": 125,
+  "主時間秒": 3600,
+  "政策": [
+    "O0",
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "T1",
+    "T2",
+    "T3"
+  ],
+  "追加T3": "正逆結果を見る前の当時特徴監査から別specで追加、主T1/T2の閾値は不変",
+  "価格軸": [
+    "実側BBO",
+    "Last純価格方向診断"
+  ],
+  "IFD代用": "既知touchで即時気配清算、未到達completeのみ期限清算、他は未知。実IFDと区別。",
+  "統計": "主125pt/60分C5の全73セッション復元抽出5000回seed124。探索内の参考区間、他政策・区分は多重比較未補正。",
+  "入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の原因分析\\入力.json": "b2368b1f42c16e8c96a3acd098c58a902807a3b6a5023d6d4b1e75261f3ee51b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\全79例の当時特徴.json": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3追加の切替.json": "656072b82b66564473d81aa96d4fe7dbc04ed97cfac982edc0d3b206baff7382"
+  },
+  "コード": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の原因分析\\入力を作る.py": "c566a13c5524db17f7b84087f9edb10fb3688712fdcc7a8bdf4531934f17ee96",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の原因分析\\固定して実行する.py": "859d1629e89336dd6e52823bd895b29b6968150a2712cdfd8bf0021d7dbc0a73",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の原因分析\\集計する.py": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\chart_outcome.go": "abde77e2d1e678f6a956581d58d8bdd19a1307333f7e2e49664a03cbe574596f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\cmd\\run\\main.go": "fed5040efcb8827e8ffa9fc8a239e337a47407559ae7cb940805c09282184ffe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\entry.go": "b4b6386332e99abcdef20c1d1c09eae8339c77781f6be4cc842a53e8b89dd28c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\entry_test.go": "171200d9c232adad2db0e93c81e3be13d77377c560ec88ca770865044e42868e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\go.mod": "46e10d450ec31d21968e999f12ad71db4189cf888f0db4a00a4bcdcb13abc36d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\outcome.go": "c54ae82559394207ee9fbfd6df3464739d70a48886a6f0081b0fa673f9d96ee4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\stream.go": "554847e30c8451103cbadcbc70e7e3d5a196dd6c5f99f74aede4a4579da0d503",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\固定kernelを準備する.py": "57c735d57d33399d85c342085943a7a86991c43fafdd1f6f631f857ff0eb44c9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3を追加する.py": "1d681adb5ca5989983b1c0d38b6aebc41f9e8ab6b519884bc98f67e801b016d3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\人工検査.py": "b9d394db16b16d61ef60dc981631021e1a0d521e70c0a5c6fb7afae4c3724f16",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\特徴を抽出する.py": "72f6057fec6c1d348fb4839df3b89ab506da25e85f7e5149b64dc56c7b478504"
+  },
+  "事前文書": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00124_逆行の原因と売買反転を同じ入口で検証する\\README.md": "315b4d07cef864b7c959425376c261d94ff27c5a0908f2212d37c3e85ec00d48",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00124_逆行の原因と売買反転を同じ入口で検証する\\設定と結果.md": "7f344ba55fcf37b97163c1a66e0e0e75df8dfe07b59d9610f85d17b39e792fad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\README.md": "f771f173178fdc972a9f31e04514f1bf78e39503a2dcb91508260bd87da86b6a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.md": "2d4d816fdd5c38c5800db214fc677f800eecf57b9cdba0537277b99892ad247a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.json": "a639902cf761a4517a5e946cefc93f81b30c815c7f3be5bd96da7af57277d7a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3追加仕様.md": "4adba7af0f5412cfa691a92aaa9da30643c60b7af25cdb78938a029f9fb72d6e"
+  },
+  "実行ファイル": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の正逆比較\\入口比較.exe",
+    "sha256": "542ddf707554fc9038e92fd545f86a8348a5ba9a380ad9136a5ece0174d22c66"
+  },
+  "未知データ検証": false,
+  "実口座収支": false
+}

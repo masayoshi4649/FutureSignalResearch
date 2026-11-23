@@ -1,0 +1,71 @@
+{
+  "成功": true,
+  "試行": 146,
+  "区分": "自然前・人工による短期数値/3分の別算術確認",
+  "人員分離": "Source部品作者review131/本独立確認archive130",
+  "作者Python/128/146算術import": false,
+  "公開NewShort/StartSession/Addだけを使用": true,
+  "private reflect観測": false,
+  "人工群": 7,
+  "比較": {
+    "成功": true,
+    "公開足": 381,
+    "known確認": 3810,
+    "値確認": 3810,
+    "既知の値": 2171,
+    "最大絶対差": 7.275957614183426e-12,
+    "絶対許容": 1e-09,
+    "相対許容": 1e-12
+  },
+  "旧128private4源完全同体": {
+    "bridge.go": {
+      "旧128SHA256": "fe289000e311d98424f172f62718ca068ec57733b61e6c6096f9c4587b02b6ac",
+      "新146SHA256": "fe289000e311d98424f172f62718ca068ec57733b61e6c6096f9c4587b02b6ac",
+      "bytes": 1918
+    },
+    "numeric.go": {
+      "旧128SHA256": "c47e7b1f94b7683941da93941a957e683b1d206b32c9c4f4c996ec614891e78e",
+      "新146SHA256": "c47e7b1f94b7683941da93941a957e683b1d206b32c9c4f4c996ec614891e78e",
+      "bytes": 5101
+    },
+    "pivot.go": {
+      "旧128SHA256": "3847769da84e4ee1d1f17001f00eb6e9363787b0cf359dca0699d43d1eff24bd",
+      "新146SHA256": "3847769da84e4ee1d1f17001f00eb6e9363787b0cf359dca0699d43d1eff24bd",
+      "bytes": 2406
+    },
+    "types.go": {
+      "旧128SHA256": "055a4590a52005e0419bb9effd98051edcd9d1a9517215f022ce86e395d5e6a4",
+      "新146SHA256": "055a4590a52005e0419bb9effd98051edcd9d1a9517215f022ce86e395d5e6a4",
+      "bytes": 6427
+    }
+  },
+  "Sourceコード前後不変": {
+    "work\\146短期構造の入口\\context.go": "03e0a8fadc2789b9a1b4da2614f8c04fac970fcb975c20bb33d601af4767b37c",
+    "work\\146短期構造の入口\\csv.go": "fd39f37e2e6ee222fd2a61e0e55dc68efc7a3286f8a64f9652b11681e0991e3d",
+    "work\\146短期構造の入口\\csvtypes.go": "707cd8a3724c9805474ce274caf1e7821e1a04c90c38a6cacbda14bb3e6bc1d9",
+    "work\\146短期構造の入口\\decoder.go": "aa1e88015f2f72722eab4219ad20ec69b7aa41a11276a15c8fbb8bb892e98895",
+    "work\\146短期構造の入口\\group_io_test.go": "1ff21299d3744c9ad24efca29c8c4a7468ccd7d5548b3266ef5007f757398693",
+    "work\\146短期構造の入口\\input.go": "c0f58be40044dd10702fcc827f75489df47bb1b3bb0fdb9438c55fd521d6d850",
+    "work\\146短期構造の入口\\input_base.go": "cfa7a161b60d3b5e3ec12e32ffecbfb61002507a56e18cda0315680918f75943",
+    "work\\146短期構造の入口\\rawtypes.go": "9bcacec538ba04fc49b95dbcd92c61e6d709d562c353769ed89eae14dce6048c",
+    "work\\146短期構造の入口\\scanner.go": "b99e7cde39929db65f0f080bb732260c854da814783093d4335f9eda34c320cb",
+    "work\\146短期構造の入口\\short.go": "52978224fb80e01ee648fd290a74417bbdb5e6151f20b5e3de14192b143f2f56",
+    "work\\146短期構造の入口\\short_test.go": "da239b1b835d246a6b1ee286f50c877b0ebd7e919504b7cb9e189ee313746d1a",
+    "work\\146短期構造の入口\\state.go": "b63e219adfbff9c3c17a1aee3e51bb8d2acb5730fde64265b98416b9da2d1d1d",
+    "work\\146短期構造の入口\\state_test.go": "169b564771489f9ef9d98c286ffdef2614f60c4f5e0704e039de04e8f743c152",
+    "work\\146短期構造の入口\\types.go": "f2825c4cb56af2ae8bdc425807fa8d9f702217c3c61018b2c0bd2b1d8183fa8f",
+    "work\\146短期構造の入口\\internal\\basenumeric\\bridge.go": "fe289000e311d98424f172f62718ca068ec57733b61e6c6096f9c4587b02b6ac",
+    "work\\146短期構造の入口\\internal\\basenumeric\\numeric.go": "c47e7b1f94b7683941da93941a957e683b1d206b32c9c4f4c996ec614891e78e",
+    "work\\146短期構造の入口\\internal\\basenumeric\\pivot.go": "3847769da84e4ee1d1f17001f00eb6e9363787b0cf359dca0699d43d1eff24bd",
+    "work\\146短期構造の入口\\internal\\basenumeric\\types.go": "055a4590a52005e0419bb9effd98051edcd9d1a9517215f022ce86e395d5e6a4",
+    "work\\146短期構造の入口\\cmd\\run\\main.go": "2b6ddd8f87215a5fc94a714a8fb06a4c2eab7e3e296c79b8eddcf755937ca704",
+    "work\\146短期構造の入口\\go.mod": "80b09e4918961ee05a207b5650857253161d9dc96f16f876365986cbda2d9c85"
+  },
+  "対象": "EMA8/21/増分/Gap、標準EMA12/26/Signal9からの公開Hist/前Hist、Wilder ATR14/前ATR/TR、known/助走/未知reset/量未知非reset/同限月配送prefixcarry/異限月cold/3分OHLC量/子ref/端数",
+  "未対象": "売買state/背景Contextの適格性/自然品質/利確損切り/金融/戦略精度。EMA12/26/Signal9のprivate値は直接観測せず使用値Histで照合。",
+  "自然Raw/CSV/金融/Source出力/追加2場読取": false,
+  "GEN変更": false,
+  "人工入力SHA256": "8b0589e804f810f99930f0140d6f35989ff7e19389b6254541f0d8cd7433a6fe",
+  "期待値SHA256": "a62f2317cdbeec757a3cd99575d8ab622425b201cfd923ee100bdf132a6f9c11",
+  "Go公開結果SHA256": "4566b191cd232be348687987164f6d699df156d63e4a0f902a68bd8663895ca9"
+}

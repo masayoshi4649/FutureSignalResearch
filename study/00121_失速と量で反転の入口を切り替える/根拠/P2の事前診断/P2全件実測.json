@@ -1,0 +1,5491 @@
+{
+  "試行参照": 120,
+  "件数": 22,
+  "入力SHA256": "e61846c01ff849fa132697dc456dfed32a8b470697286620d1c28a5f0925a4d6",
+  "実測": [
+    {
+      "場": "2026-09-24_Night",
+      "ID": "2026-09-24_Night/P2/-1/000001",
+      "出生日時JST": "2026-09-25T01:58:00+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-09-25T02:24:39+09:00",
+      "H60期限清算C5円": 19923,
+      "ADX30": 37.02791331706023,
+      "前ADX30": 38.60424570390061,
+      "ADX背景区分": "25超で低下",
+      "ADX30低下": true,
+      "Hist5符号水準": -49.05088002651202,
+      "Hist5符号増分": 9.12652390611845,
+      "RSI5": 65.17831089042944,
+      "RSI5符号増分": 7.711045551436726,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": 1.187624750499002,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": true,
+      "同時P2plusID": [
+        "2026-09-24_Night/P2plus/-1/000002"
+      ],
+      "30分配置傾き": "不一致",
+      "30分符号Gap": 42.8189835874,
+      "30分符号EMA8傾き": -79.67948174585035,
+      "30分符号EMA21傾き": -23.605920252302894,
+      "RSI15": 67.20554793160113,
+      "ATR5": 104.01220419145052,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 30,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.43264153807538347,
+      "実取得の否定距離pt": 45,
+      "実取得の回復pt": 30,
+      "cap余裕pt": 0,
+      "評価BBOのcap超過pt": 0,
+      "イベント": {
+        "id": "2026-09-24_Night/P2/-1/000001",
+        "scope": {
+          "session_id": "2026-09-24_Night",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1790269080,
+          "index": 133871,
+          "source_line": 134422,
+          "last": 65790
+        },
+        "bar": {
+          "start": 1790269020,
+          "end": 1790269080,
+          "ohlc": {
+            "open": 65830,
+            "high": 65830,
+            "low": 65800,
+            "close": 65800
+          },
+          "tr": {
+            "known": true,
+            "value": 30
+          },
+          "rows": 202,
+          "first": {
+            "time": 1790269036,
+            "index": 133669,
+            "source_line": 134220,
+            "last": 65830
+          },
+          "last": {
+            "time": 1790269079,
+            "index": 133870,
+            "source_line": 134421,
+            "last": 65800
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1790268720,
+          "end": 1790269020,
+          "low": 65740,
+          "high": 65820,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:c151d1f13f46ef585f807729f4a50e148a6f3692b5a880c7f19e26a7833bb2af",
+            "width_seconds": 300,
+            "end": 1790268900,
+            "delivered": {
+              "time": 1790268970,
+              "index": 133353,
+              "source_line": 133904
+            }
+          },
+          {
+            "id": "frame:109fa884874c6daddeabb1676240d039cfe779a6d315b2ff5291a92beefb0dbc",
+            "width_seconds": 900,
+            "end": 1790268300,
+            "delivered": {
+              "time": 1790268380,
+              "index": 130502,
+              "source_line": 131053
+            }
+          },
+          {
+            "id": "frame:360fae30a84fe69dafb3d260dd98b7c90621cb39de3eae6426a286a8d1806299",
+            "width_seconds": 1800,
+            "end": 1790267400,
+            "delivered": {
+              "time": 1790267463,
+              "index": 125738,
+              "source_line": 126289
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 22.834525843467862
+          },
+          "adx30": {
+            "known": true,
+            "value": 37.02791331706023
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 39.285714285714285
+          },
+          "atr5": {
+            "known": true,
+            "value": 104.01220419145052
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 562.7219562092796
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 23.605920252302894
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 79.67948174585035
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -288.13624323038675
+          },
+          "gap30": {
+            "known": true,
+            "value": -42.8189835874
+          },
+          "hist5": {
+            "known": true,
+            "value": 49.05088002651202
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 65820
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 30
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 52.00610209572526
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 30
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 30
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 30
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 16.076481411916845
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 35.74501508885181
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 65760
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 38.60424570390061
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 58.17740393263047
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 72.88935644186617
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 67.20554793160113
+          },
+          "rsi5": {
+            "known": true,
+            "value": 65.17831089042944
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.187624750499002
+          }
+        },
+        "entry_cap": 65790,
+        "invalidation": 65835
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-09-25_Day",
+      "ID": "2026-09-25_Day/P2/-1/000001",
+      "出生日時JST": "2026-09-25T10:40:04+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-09-25T11:35:34+09:00",
+      "H60期限清算C5円": 1923,
+      "ADX30": 21.167977420592898,
+      "前ADX30": 21.60906131459144,
+      "ADX背景区分": "25以下",
+      "ADX30低下": true,
+      "Hist5符号水準": -50.354887881132385,
+      "Hist5符号増分": 2.3285891017416986,
+      "RSI5": 72.60351445024403,
+      "RSI5符号増分": 0.9446665865272479,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": 1.0978080677841224,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": true,
+      "同時P2plusID": [
+        "2026-09-25_Day/P2plus/-1/000002"
+      ],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -69.10907492542174,
+      "30分符号EMA8傾き": -63.57595489070809,
+      "30分符号EMA21傾き": -29.162491704293643,
+      "RSI15": 66.49711894586333,
+      "ATR5": 107.8688243903899,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 35,
+      "出生時否定距離_ATR5比": 0.3244681695364631,
+      "実取得の否定距離pt": 35,
+      "実取得の回復pt": 20,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-09-25_Day/P2/-1/000001",
+        "scope": {
+          "session_id": "2026-09-25_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1790300404,
+          "index": 40605,
+          "source_line": 41101,
+          "last": 66140
+        },
+        "bar": {
+          "start": 1790300340,
+          "end": 1790300400,
+          "ohlc": {
+            "open": 66150,
+            "high": 66170,
+            "low": 66140,
+            "close": 66140
+          },
+          "tr": {
+            "known": true,
+            "value": 30
+          },
+          "rows": 356,
+          "first": {
+            "time": 1790300341,
+            "index": 40249,
+            "source_line": 40745,
+            "last": 66150
+          },
+          "last": {
+            "time": 1790300398,
+            "index": 40604,
+            "source_line": 41100,
+            "last": 66140
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1790300040,
+          "end": 1790300340,
+          "low": 66000,
+          "high": 66160,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:cfe9e1dbf06c27210de17a802497b3e5aa2cefc5426d28dbdf31463bd4986e5d",
+            "width_seconds": 300,
+            "end": 1790300100,
+            "delivered": {
+              "time": 1790300160,
+              "index": 39221,
+              "source_line": 39717
+            }
+          },
+          {
+            "id": "frame:23619250f3998a1d9d5659f30ca2a9eb16348f205401f43f98ce1c94b226ad3a",
+            "width_seconds": 900,
+            "end": 1790299800,
+            "delivered": {
+              "time": 1790299860,
+              "index": 37379,
+              "source_line": 37875
+            }
+          },
+          {
+            "id": "frame:1e6add2e769f0b7f3d69d84eefab1bef014cff70dbf1b9978c4e42dddb6da886",
+            "width_seconds": 1800,
+            "end": 1790298900,
+            "delivered": {
+              "time": 1790298965,
+              "index": 31789,
+              "source_line": 32285
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 16.167842024958556
+          },
+          "adx30": {
+            "known": true,
+            "value": 21.167977420592898
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 51.42857142857143
+          },
+          "atr5": {
+            "known": true,
+            "value": 107.8688243903899
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 599.6799146211197
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 29.162491704293643
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 63.57595489070809
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -411.2459208559303
+          },
+          "gap30": {
+            "known": true,
+            "value": 69.10907492542174
+          },
+          "hist5": {
+            "known": true,
+            "value": 50.354887881132385
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 66160
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 53.93441219519495
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 10
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 30
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 30
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 16.156029512357875
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 34.477268523984925
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 66120
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 21.60906131459144
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 52.68347698287408
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 73.54818103677128
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 35
+          },
+          "rsi15": {
+            "known": true,
+            "value": 66.49711894586333
+          },
+          "rsi5": {
+            "known": true,
+            "value": 72.60351445024403
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.0978080677841224
+          }
+        },
+        "entry_cap": 66130,
+        "invalidation": 66175
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-09-25_Night",
+      "ID": "2026-09-25_Night/P2/-1/000001",
+      "出生日時JST": "2026-09-25T17:35:17+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": -1,
+      "先着日時JST": "2026-09-25T17:55:03+09:00",
+      "H60期限清算C5円": -7077,
+      "ADX30": 23.805944382472045,
+      "前ADX30": 22.95053004019718,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -17.99691932079108,
+      "Hist5符号増分": -8.15078501189138,
+      "RSI5": 67.29539822841613,
+      "RSI5符号増分": -3.0974027738687653,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": null,
+      "RVOL5が1以上": null,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -208.30513652767695,
+      "30分符号EMA8傾き": -72.54395839598146,
+      "30分符号EMA21傾き": -46.22089909136412,
+      "RSI15": 68.5789006921851,
+      "ATR5": 78.37197121417708,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 10,
+      "出生時否定距離pt": 25,
+      "出生時否定距離_ATR5比": 0.31899159371249336,
+      "実取得の否定距離pt": 35,
+      "実取得の回復pt": 20,
+      "cap余裕pt": 20,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-09-25_Night/P2/-1/000001",
+        "scope": {
+          "session_id": "2026-09-25_Night",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1790325317,
+          "index": 8044,
+          "source_line": 8629,
+          "last": 66440
+        },
+        "bar": {
+          "start": 1790325240,
+          "end": 1790325300,
+          "ohlc": {
+            "open": 66450,
+            "high": 66460,
+            "low": 66430,
+            "close": 66430
+          },
+          "tr": {
+            "known": true,
+            "value": 30
+          },
+          "rows": 263,
+          "first": {
+            "time": 1790325243,
+            "index": 7781,
+            "source_line": 8366,
+            "last": 66450
+          },
+          "last": {
+            "time": 1790325292,
+            "index": 8043,
+            "source_line": 8628,
+            "last": 66430
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1790324940,
+          "end": 1790325240,
+          "low": 66390,
+          "high": 66450,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:fa0f0bc006399d492b0665e5fa5b6f6c20ff2c0939d7c83f6648078b8e0fc17f",
+            "width_seconds": 300,
+            "end": 1790325000,
+            "delivered": {
+              "time": 1790325069,
+              "index": 7239,
+              "source_line": 7824
+            }
+          },
+          {
+            "id": "frame:577b2c04f5d65229e6452c28ec89deae983442b526aaefebfbe5ea4b8ab36e5a",
+            "width_seconds": 900,
+            "end": 1790325000,
+            "delivered": {
+              "time": 1790325069,
+              "index": 7239,
+              "source_line": 7824
+            }
+          },
+          {
+            "id": "frame:5debce345aeeb73e640de6e9ed9461ee1bd2c0418169c3b7d3dd6a43ce1c2e4c",
+            "width_seconds": 1800,
+            "end": 1790325000,
+            "delivered": {
+              "time": 1790325069,
+              "index": 7239,
+              "source_line": 7824
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 22.56159507894592
+          },
+          "adx30": {
+            "known": true,
+            "value": 23.805944382472045
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 27.142857142857142
+          },
+          "atr5": {
+            "known": true,
+            "value": 78.37197121417708
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 386.21755527163623
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 46.22089909136412
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 72.54395839598146
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -234.1144342278858
+          },
+          "gap30": {
+            "known": true,
+            "value": 208.30513652767695
+          },
+          "hist5": {
+            "known": true,
+            "value": 17.99691932079108
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 66450
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 10
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 39.18598560708854
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 30
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 30
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 11.37891724819528
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 28.349682059779436
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 66400
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 22.95053004019718
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 9.8461343088997
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 64.19799545454737
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 25
+          },
+          "rsi15": {
+            "known": true,
+            "value": 68.5789006921851
+          },
+          "rsi5": {
+            "known": true,
+            "value": 67.29539822841613
+          },
+          "rvol5": {
+            "known": false,
+            "value": 0
+          }
+        },
+        "entry_cap": 66420,
+        "invalidation": 66465
+      },
+      "主評価ラベル": "逆行"
+    },
+    {
+      "場": "2026-10-01_Night",
+      "ID": "2026-10-01_Night/P2/1/000003",
+      "出生日時JST": "2026-10-02T00:43:06+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-10-02T00:56:25+09:00",
+      "H60期限清算C5円": 20923,
+      "ADX30": 22.564479269878554,
+      "前ADX30": 22.17108969347927,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -9.706161540202373,
+      "Hist5符号増分": 6.838537953203911,
+      "RSI5": 38.53476645237263,
+      "RSI5符号増分": 10.956930032638674,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": 0.965742251223491,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -74.22003586185747,
+      "30分符号EMA8傾き": -95.80459261947544,
+      "30分符号EMA21傾き": -40.95361100300215,
+      "RSI15": 31.66143105916926,
+      "ATR5": 128.9448854788265,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 30,
+      "出生Lastの回復pt": 30,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.3489863117323041,
+      "実取得の否定距離pt": 45,
+      "実取得の回復pt": 30,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-10-01_Night/P2/1/000003",
+        "scope": {
+          "session_id": "2026-10-01_Night",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1790869386,
+          "index": 140614,
+          "source_line": 141822,
+          "last": 67880
+        },
+        "bar": {
+          "start": 1790869320,
+          "end": 1790869380,
+          "ohlc": {
+            "open": 67840,
+            "high": 67880,
+            "low": 67840,
+            "close": 67880
+          },
+          "tr": {
+            "known": true,
+            "value": 40
+          },
+          "rows": 422,
+          "first": {
+            "time": 1790869320,
+            "index": 140192,
+            "source_line": 141400,
+            "last": 67840
+          },
+          "last": {
+            "time": 1790869350,
+            "index": 140613,
+            "source_line": 141821,
+            "last": 67880
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1790869020,
+          "end": 1790869320,
+          "low": 67850,
+          "high": 67970,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:f037a225cb7cd3b5feea02329c2b6211bd8f90c87588c9c21585fe024026e7f6",
+            "width_seconds": 300,
+            "end": 1790869200,
+            "delivered": {
+              "time": 1790869260,
+              "index": 139793,
+              "source_line": 141001
+            }
+          },
+          {
+            "id": "frame:3a33886079c709be2162a1281d55c6a5e4982bb389a93ef60b8b40ec90ff5084",
+            "width_seconds": 900,
+            "end": 1790868600,
+            "delivered": {
+              "time": 1790868670,
+              "index": 135930,
+              "source_line": 137138
+            }
+          },
+          {
+            "id": "frame:b17af9eaa6ed821d4ce25c35ed6c7c2784facb5936f8cc3e21a3846b955f6f09",
+            "width_seconds": 1800,
+            "end": 1790868600,
+            "delivered": {
+              "time": 1790868670,
+              "index": 135930,
+              "source_line": 137138
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 22.035445582656614
+          },
+          "adx30": {
+            "known": true,
+            "value": 22.564479269878554
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 48.57142857142857
+          },
+          "atr5": {
+            "known": true,
+            "value": 128.9448854788265
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1010.9322430311586
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -40.95361100300215
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -95.80459261947544
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -268.81804632325657
+          },
+          "gap30": {
+            "known": true,
+            "value": -74.22003586185747
+          },
+          "hist5": {
+            "known": true,
+            "value": -9.706161540202373
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 67850
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 30
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 64.47244273941325
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 40
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 40
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 40
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 33.28248259071841
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 15.802566036561135
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 67920
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 22.17108969347927
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -16.544699493406284
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 27.577836419733956
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 31.66143105916926
+          },
+          "rsi5": {
+            "known": true,
+            "value": 38.53476645237263
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.965742251223491
+          }
+        },
+        "entry_cap": 67890,
+        "invalidation": 67835
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-10-05_Day",
+      "ID": "2026-10-05_Day/P2/-1/000001",
+      "出生日時JST": "2026-10-05T10:45:02+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-10-05T11:04:14+09:00",
+      "H60期限清算C5円": 5923,
+      "ADX30": 19.780917450289934,
+      "前ADX30": 20.683907882198422,
+      "ADX背景区分": "25以下",
+      "ADX30低下": true,
+      "Hist5符号水準": -18.657490352330967,
+      "Hist5符号増分": -2.9706171972824365,
+      "RSI5": 67.82742086105219,
+      "RSI5符号増分": -2.081105545806267,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 0.7407407407407407,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -182.6913499635266,
+      "30分符号EMA8傾き": -29.847335080849007,
+      "30分符号EMA21傾き": -28.715702274654177,
+      "RSI15": 65.08252774603739,
+      "ATR5": 98.1633928532635,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 30,
+      "出生Lastの回復pt": 30,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.45841936277881973,
+      "実取得の否定距離pt": 45,
+      "実取得の回復pt": 30,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-10-05_Day/P2/-1/000001",
+        "scope": {
+          "session_id": "2026-10-05_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1791164702,
+          "index": 45707,
+          "source_line": 45766,
+          "last": 70230
+        },
+        "bar": {
+          "start": 1791164640,
+          "end": 1791164700,
+          "ohlc": {
+            "open": 70260,
+            "high": 70270,
+            "low": 70230,
+            "close": 70230
+          },
+          "tr": {
+            "known": true,
+            "value": 40
+          },
+          "rows": 327,
+          "first": {
+            "time": 1791164640,
+            "index": 45380,
+            "source_line": 45439,
+            "last": 70260
+          },
+          "last": {
+            "time": 1791164697,
+            "index": 45706,
+            "source_line": 45765,
+            "last": 70230
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1791164340,
+          "end": 1791164640,
+          "low": 70160,
+          "high": 70260,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:61f03006b67b31b61e29a60d631b50ff50363bfea2b0e50662b15055901c7785",
+            "width_seconds": 300,
+            "end": 1791164400,
+            "delivered": {
+              "time": 1791164474,
+              "index": 44460,
+              "source_line": 44519
+            }
+          },
+          {
+            "id": "frame:f5e8aa9d26ec3e514365630724ae8197b9f00959d36991f4b1d6081255f0ae7c",
+            "width_seconds": 900,
+            "end": 1791163800,
+            "delivered": {
+              "time": 1791163860,
+              "index": 41273,
+              "source_line": 41332
+            }
+          },
+          {
+            "id": "frame:a3fbd327700e0515fb70ec8edde845a9665fe7c78d3859983f5bc2e31e63f5e3",
+            "width_seconds": 1800,
+            "end": 1791162900,
+            "delivered": {
+              "time": 1791162962,
+              "index": 36045,
+              "source_line": 36104
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 12.56602870094871
+          },
+          "adx30": {
+            "known": true,
+            "value": 19.780917450289934
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 31.428571428571427
+          },
+          "atr5": {
+            "known": true,
+            "value": 98.1633928532635
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 410.7359248957946
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 28.715702274654177
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 29.847335080849007
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -251.67804087650438
+          },
+          "gap30": {
+            "known": true,
+            "value": 182.6913499635266
+          },
+          "hist5": {
+            "known": true,
+            "value": 18.657490352330967
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 70260
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 30
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 49.08169642663175
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 30
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 40
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 40
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 19.77632090114443
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 21.74075501591514
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 70230
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 20.683907882198422
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 15.68687315504853
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 65.74631531524592
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 65.08252774603739
+          },
+          "rsi5": {
+            "known": true,
+            "value": 67.82742086105219
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.7407407407407407
+          }
+        },
+        "entry_cap": 70220,
+        "invalidation": 70275
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-10-05_Day",
+      "ID": "2026-10-05_Day/P2/-1/000002",
+      "出生日時JST": "2026-10-05T11:16:00+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-10-05T11:34:45+09:00",
+      "H60期限清算C5円": 26923,
+      "ADX30": 19.639489972344727,
+      "前ADX30": 19.707584683947974,
+      "ADX背景区分": "25以下",
+      "ADX30低下": true,
+      "Hist5符号水準": -0.37829624225594216,
+      "Hist5符号増分": -2.0476410566369907,
+      "RSI5": 63.614267206415164,
+      "RSI5符号増分": -3.8193452040349456,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 0.4991624790619765,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -222.8563320392277,
+      "30分符号EMA8傾き": -56.08048665385286,
+      "30分符号EMA21傾き": -41.91380353277782,
+      "RSI15": 66.67498746051481,
+      "ATR5": 84.75906848927707,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 10,
+      "出生Lastの回復pt": 10,
+      "出生時否定距離pt": 25,
+      "出生時否定距離_ATR5比": 0.294953689859897,
+      "実取得の否定距離pt": 25,
+      "実取得の回復pt": 10,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-10-05_Day/P2/-1/000002",
+        "scope": {
+          "session_id": "2026-10-05_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1791166560,
+          "index": 54646,
+          "source_line": 54705,
+          "last": 70220
+        },
+        "bar": {
+          "start": 1791166500,
+          "end": 1791166560,
+          "ohlc": {
+            "open": 70230,
+            "high": 70240,
+            "low": 70220,
+            "close": 70220
+          },
+          "tr": {
+            "known": true,
+            "value": 20
+          },
+          "rows": 233,
+          "first": {
+            "time": 1791166500,
+            "index": 54413,
+            "source_line": 54472,
+            "last": 70230
+          },
+          "last": {
+            "time": 1791166558,
+            "index": 54645,
+            "source_line": 54704,
+            "last": 70220
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1791166200,
+          "end": 1791166500,
+          "low": 70180,
+          "high": 70230,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:fc4abfb413417f502f4f8d4dd4b1863c77e8aa66366819d168f7278ff91c5131",
+            "width_seconds": 300,
+            "end": 1791166500,
+            "delivered": {
+              "time": 1791166560,
+              "index": 54646,
+              "source_line": 54705
+            }
+          },
+          {
+            "id": "frame:25542dc33398b8d8ac72327c99bcbf00f477eb13776e1f0fb6e7e75d0194919f",
+            "width_seconds": 900,
+            "end": 1791166500,
+            "delivered": {
+              "time": 1791166560,
+              "index": 54646,
+              "source_line": 54705
+            }
+          },
+          {
+            "id": "frame:f614210a276bd8805c7b79cbc0d56eafed3a04d9ea6dbdb3a4218fc250dedf3c",
+            "width_seconds": 1800,
+            "end": 1791166500,
+            "delivered": {
+              "time": 1791166560,
+              "index": 54646,
+              "source_line": 54705
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 12.705228990994192
+          },
+          "adx30": {
+            "known": true,
+            "value": 19.639489972344727
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 20.714285714285715
+          },
+          "atr5": {
+            "known": true,
+            "value": 84.75906848927707
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 585.3682601576438
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 41.91380353277782
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 56.08048665385286
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -140.49575070518767
+          },
+          "gap30": {
+            "known": true,
+            "value": 222.8563320392277
+          },
+          "hist5": {
+            "known": true,
+            "value": 0.37829624225594216
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 70230
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 10
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 42.379534244638535
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 10
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 20
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 20
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 17.691947691467345
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 21.9212050680316
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 70220
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 19.707584683947974
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -1.6693448143810485
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 59.79492200238022
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 25
+          },
+          "rsi15": {
+            "known": true,
+            "value": 66.67498746051481
+          },
+          "rsi5": {
+            "known": true,
+            "value": 63.614267206415164
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.4991624790619765
+          }
+        },
+        "entry_cap": 70210,
+        "invalidation": 70245
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-10-06_Day",
+      "ID": "2026-10-06_Day/P2/-1/000008",
+      "出生日時JST": "2026-10-06T13:24:01+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "entry_cap_rejected",
+      "H60状態": null,
+      "H60_100pt先着": null,
+      "先着日時JST": null,
+      "H60期限清算C5円": null,
+      "ADX30": 12.470923380369351,
+      "前ADX30": 10.724496219043967,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -25.132862863036124,
+      "Hist5符号増分": 1.424481077547128,
+      "RSI5": 67.89507376534891,
+      "RSI5符号増分": 6.351388866869655,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": 0.8767851212221852,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -152.58731461383286,
+      "30分符号EMA8傾き": -72.9929132979014,
+      "30分符号EMA21傾き": -40.806251115645864,
+      "RSI15": 68.49759543508941,
+      "ATR5": 75.91034974115192,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 10,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 35,
+      "出生時否定距離_ATR5比": 0.46107019819230366,
+      "実取得の否定距離pt": null,
+      "実取得の回復pt": null,
+      "cap余裕pt": 0,
+      "評価BBOのcap超過pt": 10,
+      "イベント": {
+        "id": "2026-10-06_Day/P2/-1/000008",
+        "scope": {
+          "session_id": "2026-10-06_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1791260641,
+          "index": 86106,
+          "source_line": 86703,
+          "last": 70660
+        },
+        "bar": {
+          "start": 1791260580,
+          "end": 1791260640,
+          "ohlc": {
+            "open": 70690,
+            "high": 70690,
+            "low": 70670,
+            "close": 70670
+          },
+          "tr": {
+            "known": true,
+            "value": 20
+          },
+          "rows": 258,
+          "first": {
+            "time": 1791260580,
+            "index": 85848,
+            "source_line": 86445,
+            "last": 70690
+          },
+          "last": {
+            "time": 1791260617,
+            "index": 86105,
+            "source_line": 86702,
+            "last": 70670
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1791260280,
+          "end": 1791260580,
+          "low": 70610,
+          "high": 70680,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:66714d3e3e36bb35277c30c3850061560e2f57ebda7528249ac9d25caea2cf53",
+            "width_seconds": 300,
+            "end": 1791260400,
+            "delivered": {
+              "time": 1791260467,
+              "index": 85441,
+              "source_line": 86038
+            }
+          },
+          {
+            "id": "frame:f4d155f3d70c238596db8c5d2e103a6c28e7b0203884ba0601712be99656fe83",
+            "width_seconds": 900,
+            "end": 1791260100,
+            "delivered": {
+              "time": 1791260165,
+              "index": 84088,
+              "source_line": 84685
+            }
+          },
+          {
+            "id": "frame:68939a9defbacede6ccb0f6af486cf54cccf71a13becd05864ad1cf6671ba1a8",
+            "width_seconds": 1800,
+            "end": 1791260100,
+            "delivered": {
+              "time": 1791260165,
+              "index": 84088,
+              "source_line": 84685
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 25.4079476040321
+          },
+          "adx30": {
+            "known": true,
+            "value": 12.470923380369351
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 25.714285714285715
+          },
+          "atr5": {
+            "known": true,
+            "value": 75.91034974115192
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 511.9179621775402
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 40.806251115645864
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 72.9929132979014
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -218.7655839811341
+          },
+          "gap30": {
+            "known": true,
+            "value": 152.58731461383286
+          },
+          "hist5": {
+            "known": true,
+            "value": 25.132862863036124
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 70680
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 37.95517487057596
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 20
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 20
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 10.715573900093545
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 33.068292002308866
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 70660
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 10.724496219043967
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 26.55734394058325
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 74.24646263221857
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 35
+          },
+          "rsi15": {
+            "known": true,
+            "value": 68.49759543508941
+          },
+          "rsi5": {
+            "known": true,
+            "value": 67.89507376534891
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.8767851212221852
+          }
+        },
+        "entry_cap": 70660,
+        "invalidation": 70695
+      },
+      "主評価ラベル": "未約定"
+    },
+    {
+      "場": "2026-10-08_Day",
+      "ID": "2026-10-08_Day/P2/1/000001",
+      "出生日時JST": "2026-10-08T09:58:05+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-10-08T10:18:05+09:00",
+      "H60期限清算C5円": 10923,
+      "ADX30": 26.391535485384498,
+      "前ADX30": 27.63645111752454,
+      "ADX背景区分": "25超で低下",
+      "ADX30低下": true,
+      "Hist5符号水準": -39.9286370843178,
+      "Hist5符号増分": 10.233956111216557,
+      "RSI5": 39.986195148808136,
+      "RSI5符号増分": 9.731805633599777,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": null,
+      "RVOL5が1以上": null,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -98.95661255790037,
+      "30分符号EMA8傾き": -84.26543652653345,
+      "30分符号EMA21傾き": -39.38856404006947,
+      "RSI15": 32.45439749421212,
+      "ATR5": 105.31458729052235,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 30,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.42729123436492555,
+      "実取得の否定距離pt": 45,
+      "実取得の回復pt": 30,
+      "cap余裕pt": 0,
+      "評価BBOのcap超過pt": 0,
+      "イベント": {
+        "id": "2026-10-08_Day/P2/1/000001",
+        "scope": {
+          "session_id": "2026-10-08_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1791421085,
+          "index": 30385,
+          "source_line": 30434,
+          "last": 69510
+        },
+        "bar": {
+          "start": 1791421020,
+          "end": 1791421080,
+          "ohlc": {
+            "open": 69480,
+            "high": 69500,
+            "low": 69470,
+            "close": 69500
+          },
+          "tr": {
+            "known": true,
+            "value": 30
+          },
+          "rows": 392,
+          "first": {
+            "time": 1791421022,
+            "index": 29993,
+            "source_line": 30042,
+            "last": 69480
+          },
+          "last": {
+            "time": 1791421067,
+            "index": 30384,
+            "source_line": 30433,
+            "last": 69500
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1791420720,
+          "end": 1791421020,
+          "low": 69480,
+          "high": 69600,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:98d28bb13678268127448f358cbaa030a5daa1dbc4258fb502f76073c42d298a",
+            "width_seconds": 300,
+            "end": 1791420900,
+            "delivered": {
+              "time": 1791420965,
+              "index": 29625,
+              "source_line": 29674
+            }
+          },
+          {
+            "id": "frame:ba8c85dbadbb50bdf9de79017057e61f89e6ff9e63a4b10236cd737780749307",
+            "width_seconds": 900,
+            "end": 1791420300,
+            "delivered": {
+              "time": 1791420363,
+              "index": 25757,
+              "source_line": 25806
+            }
+          },
+          {
+            "id": "frame:c359aa90495fc94bd224d6d32b4381fd02ba5b4ce885acdec5403d7e33fc8ef6",
+            "width_seconds": 1800,
+            "end": 1791420300,
+            "delivered": {
+              "time": 1791420363,
+              "index": 25757,
+              "source_line": 25806
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 16.445651697284298
+          },
+          "adx30": {
+            "known": true,
+            "value": 26.391535485384498
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 46.42857142857143
+          },
+          "atr5": {
+            "known": true,
+            "value": 105.31458729052235
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 448.01339265695424
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -39.38856404006947
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -84.26543652653345
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -235.60898741883284
+          },
+          "gap30": {
+            "known": true,
+            "value": -98.95661255790037
+          },
+          "hist5": {
+            "known": true,
+            "value": -39.9286370843178
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 69480
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 30
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 52.65729364526118
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 30
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 30
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 34.5216456152557
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 18.26537538821221
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 69530
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 27.63645111752454
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -50.162593195534356
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 30.25438951520836
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 32.45439749421212
+          },
+          "rsi5": {
+            "known": true,
+            "value": 39.986195148808136
+          },
+          "rvol5": {
+            "known": false,
+            "value": 0
+          }
+        },
+        "entry_cap": 69510,
+        "invalidation": 69465
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-10-08_Night",
+      "ID": "2026-10-08_Night/P2/1/000002",
+      "出生日時JST": "2026-10-09T02:29:11+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-10-09T02:33:26+09:00",
+      "H60期限清算C5円": 34923,
+      "ADX30": 20.8237649634313,
+      "前ADX30": 20.852920386117813,
+      "ADX背景区分": "25以下",
+      "ADX30低下": true,
+      "Hist5符号水準": -62.329135038054204,
+      "Hist5符号増分": 1.6757588181447005,
+      "RSI5": 29.82899497803257,
+      "RSI5符号増分": -2.1858380681859586,
+      "Hist5改善": true,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 0.35136066138477434,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -200.5017735670699,
+      "30分符号EMA8傾き": -153.171766166648,
+      "30分符号EMA21傾き": -73.66029551503016,
+      "RSI15": 32.716544304331975,
+      "ATR5": 149.1108763923819,
+      "突破深さpt": 20,
+      "確定終値の回復pt": 30,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.3017888506106256,
+      "実取得の否定距離pt": 45,
+      "実取得の回復pt": 20,
+      "cap余裕pt": 20,
+      "評価BBOのcap超過pt": -20,
+      "イベント": {
+        "id": "2026-10-08_Night/P2/1/000002",
+        "scope": {
+          "session_id": "2026-10-08_Night",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1791480551,
+          "index": 144551,
+          "source_line": 145240,
+          "last": 68060
+        },
+        "bar": {
+          "start": 1791480480,
+          "end": 1791480540,
+          "ohlc": {
+            "open": 68040,
+            "high": 68080,
+            "low": 68020,
+            "close": 68070
+          },
+          "tr": {
+            "known": true,
+            "value": 60
+          },
+          "rows": 492,
+          "first": {
+            "time": 1791480480,
+            "index": 144059,
+            "source_line": 144748,
+            "last": 68040
+          },
+          "last": {
+            "time": 1791480539,
+            "index": 144550,
+            "source_line": 145239,
+            "last": 68070
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1791480180,
+          "end": 1791480480,
+          "low": 68040,
+          "high": 68220,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:140de12fb90bc526a3ef15a27978c909d6316931ffb2712fc6c8120078c8135e",
+            "width_seconds": 300,
+            "end": 1791480300,
+            "delivered": {
+              "time": 1791480363,
+              "index": 143245,
+              "source_line": 143934
+            }
+          },
+          {
+            "id": "frame:6e373128a5d07f0091c3c44b81e0ed83f226aa9cc68d8bf8a239f63573e18305",
+            "width_seconds": 900,
+            "end": 1791479700,
+            "delivered": {
+              "time": 1791479761,
+              "index": 139406,
+              "source_line": 140095
+            }
+          },
+          {
+            "id": "frame:435dada0a287791c6afd16e2912f1386f5d32beccbc7e9892fda8bbe46f78bfc",
+            "width_seconds": 1800,
+            "end": 1791478800,
+            "delivered": {
+              "time": 1791478860,
+              "index": 133360,
+              "source_line": 134049
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 17.013561627073134
+          },
+          "adx30": {
+            "known": true,
+            "value": 20.8237649634313
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 60
+          },
+          "atr5": {
+            "known": true,
+            "value": 149.1108763923819
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 931.2872811329435
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -73.66029551503016
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -153.171766166648
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -632.5361110593221
+          },
+          "gap30": {
+            "known": true,
+            "value": -200.5017735670699
+          },
+          "hist5": {
+            "known": true,
+            "value": -62.329135038054204
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 68040
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 74.55543819619095
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 30
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 0.8333333333333334
+          },
+          "min1_range": {
+            "known": true,
+            "value": 60
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 60
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 40.30645820970105
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 21.262221757953466
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 68080
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 20.852920386117813
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -64.0048938561989
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 32.01483304621853
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 32.716544304331975
+          },
+          "rsi5": {
+            "known": true,
+            "value": 29.82899497803257
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.35136066138477434
+          }
+        },
+        "entry_cap": 68080,
+        "invalidation": 68015
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-10-14_Night",
+      "ID": "2026-10-14_Night/P2/1/000001",
+      "出生日時JST": "2026-10-15T00:58:00+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": -1,
+      "先着日時JST": "2026-10-15T01:13:01+09:00",
+      "H60期限清算C5円": -14077,
+      "ADX30": 22.43797634230347,
+      "前ADX30": null,
+      "ADX背景区分": "25以下",
+      "ADX30低下": null,
+      "Hist5符号水準": -12.407560972474059,
+      "Hist5符号増分": 4.811210475550737,
+      "RSI5": 37.246727389402366,
+      "RSI5符号増分": 2.8090919632353035,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": 0.44172932330827064,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -262.1404260213021,
+      "30分符号EMA8傾き": -79.76073144283146,
+      "30分符号EMA21傾き": -54.13029860712413,
+      "RSI15": 33.70902642945239,
+      "ATR5": 104.73262519237564,
+      "突破深さpt": 30,
+      "確定終値の回復pt": 10,
+      "出生Lastの回復pt": 10,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.4296655403924309,
+      "実取得の否定距離pt": 45,
+      "実取得の回復pt": 10,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-10-14_Night/P2/1/000001",
+        "scope": {
+          "session_id": "2026-10-14_Night",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1791993480,
+          "index": 120957,
+          "source_line": 121442,
+          "last": 67230
+        },
+        "bar": {
+          "start": 1791993420,
+          "end": 1791993480,
+          "ohlc": {
+            "open": 67220,
+            "high": 67230,
+            "low": 67190,
+            "close": 67230
+          },
+          "tr": {
+            "known": true,
+            "value": 40
+          },
+          "rows": 299,
+          "first": {
+            "time": 1791993420,
+            "index": 120658,
+            "source_line": 121143,
+            "last": 67220
+          },
+          "last": {
+            "time": 1791993477,
+            "index": 120956,
+            "source_line": 121441,
+            "last": 67230
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1791993120,
+          "end": 1791993420,
+          "low": 67220,
+          "high": 67320,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:2cb1121d6669969c963998983bd1fca826b07616d3a67cf02211fb3f5d906664",
+            "width_seconds": 300,
+            "end": 1791993300,
+            "delivered": {
+              "time": 1791993361,
+              "index": 120390,
+              "source_line": 120875
+            }
+          },
+          {
+            "id": "frame:2ab6707dfac1cd5b87fad7ba88fa1ded17130122b685ebba7226b6b8adb83924",
+            "width_seconds": 900,
+            "end": 1791992700,
+            "delivered": {
+              "time": 1791992778,
+              "index": 117696,
+              "source_line": 118181
+            }
+          },
+          {
+            "id": "frame:deebedf4c7d9b82e7c1dd645a3fc497d3f5d35477ef86822017e22fa0e983ed3",
+            "width_seconds": 1800,
+            "end": 1791991800,
+            "delivered": {
+              "time": 1791991860,
+              "index": 112976,
+              "source_line": 113461
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 29.55960281756894
+          },
+          "adx30": {
+            "known": true,
+            "value": 22.43797634230347
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 29.285714285714285
+          },
+          "atr5": {
+            "known": true,
+            "value": 104.73262519237564
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1196.3544625235372
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -54.13029860712413
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -79.76073144283146
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -301.212374667477
+          },
+          "gap30": {
+            "known": true,
+            "value": -262.1404260213021
+          },
+          "hist5": {
+            "known": true,
+            "value": -12.407560972474059
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 67220
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 10
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 52.36631259618782
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 10
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 40
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 40
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 30.365837106017814
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 14.331433516138226
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 67260
+          },
+          "previous_adx30": {
+            "known": false,
+            "value": 0
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -17.218771448024796
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 34.43763542616706
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 33.70902642945239
+          },
+          "rsi5": {
+            "known": true,
+            "value": 37.246727389402366
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.44172932330827064
+          }
+        },
+        "entry_cap": 67240,
+        "invalidation": 67185
+      },
+      "主評価ラベル": "逆行"
+    },
+    {
+      "場": "2026-10-20_Day",
+      "ID": "2026-10-20_Day/P2/1/000001",
+      "出生日時JST": "2026-10-20T09:57:01+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-10-20T09:59:39+09:00",
+      "H60期限清算C5円": 28923,
+      "ADX30": 15.41541255441558,
+      "前ADX30": 14.300234853133068,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -44.870713054089606,
+      "Hist5符号増分": -2.5078279105137256,
+      "RSI5": 22.069620182468682,
+      "RSI5符号増分": -0.9289257876963717,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 1.129275999450474,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -90.56476215468865,
+      "30分符号EMA8傾き": -94.32664778294566,
+      "30分符号EMA21傾き": -42.07080293949548,
+      "RSI15": 29.488450777784706,
+      "ATR5": 124.5910703908698,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 35,
+      "出生時否定距離_ATR5比": 0.2809190088037388,
+      "実取得の否定距離pt": 35,
+      "実取得の回復pt": 20,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-10-20_Day/P2/1/000001",
+        "scope": {
+          "session_id": "2026-10-20_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1792457821,
+          "index": 33704,
+          "source_line": 34623,
+          "last": 64210
+        },
+        "bar": {
+          "start": 1792457760,
+          "end": 1792457820,
+          "ohlc": {
+            "open": 64190,
+            "high": 64210,
+            "low": 64180,
+            "close": 64210
+          },
+          "tr": {
+            "known": true,
+            "value": 30
+          },
+          "rows": 467,
+          "first": {
+            "time": 1792457760,
+            "index": 33237,
+            "source_line": 34156,
+            "last": 64190
+          },
+          "last": {
+            "time": 1792457819,
+            "index": 33703,
+            "source_line": 34622,
+            "last": 64210
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1792457460,
+          "end": 1792457760,
+          "low": 64190,
+          "high": 64270,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:7d505ad44dd3d45986d24c6c19ad941f994af5f50722a5e0c5ede928ec68e3ff",
+            "width_seconds": 300,
+            "end": 1792457700,
+            "delivered": {
+              "time": 1792457760,
+              "index": 33237,
+              "source_line": 34156
+            }
+          },
+          {
+            "id": "frame:ff3d31a57146a6f6a7818f64b502a6bcdcb080231cd950be1a8d4240b309fb3c",
+            "width_seconds": 900,
+            "end": 1792457100,
+            "delivered": {
+              "time": 1792457163,
+              "index": 28478,
+              "source_line": 29397
+            }
+          },
+          {
+            "id": "frame:aa413d3b6dc21c438dfd8300b116346dd718b1607cb37edea6843ec6c4607232",
+            "width_seconds": 1800,
+            "end": 1792457100,
+            "delivered": {
+              "time": 1792457163,
+              "index": 28478,
+              "source_line": 29397
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 20.012478449699877
+          },
+          "adx30": {
+            "known": true,
+            "value": 15.41541255441558
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 54.285714285714285
+          },
+          "atr5": {
+            "known": true,
+            "value": 124.5910703908698
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 507.13311861877446
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -42.07080293949548
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -94.32664778294566
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -362.91280686353275
+          },
+          "gap30": {
+            "known": true,
+            "value": -90.56476215468865
+          },
+          "hist5": {
+            "known": true,
+            "value": -44.870713054089606
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 64190
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 62.2955351954349
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 30
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 30
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 33.19253488711423
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 11.239467004370344
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 64210
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 14.300234853133068
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -42.36288514357588
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 22.998545970165054
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 35
+          },
+          "rsi15": {
+            "known": true,
+            "value": 29.488450777784706
+          },
+          "rsi5": {
+            "known": true,
+            "value": 22.069620182468682
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.129275999450474
+          }
+        },
+        "entry_cap": 64220,
+        "invalidation": 64175
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-10-27_Day",
+      "ID": "2026-10-27_Day/P2/-1/000001",
+      "出生日時JST": "2026-10-27T09:57:00+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "entry_cap_rejected",
+      "H60状態": null,
+      "H60_100pt先着": null,
+      "先着日時JST": null,
+      "H60期限清算C5円": null,
+      "ADX30": 13.89765863695742,
+      "前ADX30": 13.319605872160718,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -20.571529535559478,
+      "Hist5符号増分": -1.7253984003006906,
+      "RSI5": 72.24313669017619,
+      "RSI5符号増分": -2.144780354904384,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 1.0331720801658604,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -134.86776014355564,
+      "30分符号EMA8傾き": -77.30181720166729,
+      "30分符号EMA21傾き": -40.54241203494166,
+      "RSI15": 66.00762094307393,
+      "ATR5": 127.78076117035339,
+      "突破深さpt": 20,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.35216569057690444,
+      "実取得の否定距離pt": null,
+      "実取得の回復pt": null,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": 10,
+      "イベント": {
+        "id": "2026-10-27_Day/P2/-1/000001",
+        "scope": {
+          "session_id": "2026-10-27_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1793062620,
+          "index": 32219,
+          "source_line": 33348,
+          "last": 63630
+        },
+        "bar": {
+          "start": 1793062560,
+          "end": 1793062620,
+          "ohlc": {
+            "open": 63640,
+            "high": 63670,
+            "low": 63620,
+            "close": 63630
+          },
+          "tr": {
+            "known": true,
+            "value": 50
+          },
+          "rows": 443,
+          "first": {
+            "time": 1793062561,
+            "index": 31776,
+            "source_line": 32905,
+            "last": 63640
+          },
+          "last": {
+            "time": 1793062618,
+            "index": 32218,
+            "source_line": 33347,
+            "last": 63630
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793062260,
+          "end": 1793062560,
+          "low": 63550,
+          "high": 63650,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:741e8c0df60efa83256185a4902c6c85f6a70650ab7c8f24ebee5cec86f9f390",
+            "width_seconds": 300,
+            "end": 1793062500,
+            "delivered": {
+              "time": 1793062561,
+              "index": 31776,
+              "source_line": 32905
+            }
+          },
+          {
+            "id": "frame:4b236fda444cb3c466c4113bfe31b29e79af4c8f9c260bdc1fa9e14854589658",
+            "width_seconds": 900,
+            "end": 1793061900,
+            "delivered": {
+              "time": 1793061960,
+              "index": 27215,
+              "source_line": 28344
+            }
+          },
+          {
+            "id": "frame:15132a1854d66d46fc81a22720c433ac82d81e367e08924fb32f7771ea5f0240",
+            "width_seconds": 1800,
+            "end": 1793061900,
+            "delivered": {
+              "time": 1793061960,
+              "index": 27215,
+              "source_line": 28344
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 21.626770210277535
+          },
+          "adx30": {
+            "known": true,
+            "value": 13.89765863695742
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 58.57142857142857
+          },
+          "atr5": {
+            "known": true,
+            "value": 127.78076117035339
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 772.4118072634592
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 40.54241203494166
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 77.30181720166729
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -364.55833652117144
+          },
+          "gap30": {
+            "known": true,
+            "value": 134.86776014355564
+          },
+          "hist5": {
+            "known": true,
+            "value": 20.571529535559478
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 63650
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 63.89038058517669
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 10
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 0.8
+          },
+          "min1_range": {
+            "known": true,
+            "value": 50
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 50
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 17.47777896967186
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 33.2526251758498
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 63570
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 13.319605872160718
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 18.846131135258787
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 70.0983563352718
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 66.00762094307393
+          },
+          "rsi5": {
+            "known": true,
+            "value": 72.24313669017619
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.0331720801658604
+          }
+        },
+        "entry_cap": 63620,
+        "invalidation": 63675
+      },
+      "主評価ラベル": "未約定"
+    },
+    {
+      "場": "2026-10-27_Night",
+      "ID": "2026-10-27_Night/P2/-1/000001",
+      "出生日時JST": "2026-10-28T00:30:00+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": -1,
+      "先着日時JST": "2026-10-28T00:44:24+09:00",
+      "H60期限清算C5円": -18077,
+      "ADX30": 24.662524558356534,
+      "前ADX30": 24.409005742614692,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -39.436463563221906,
+      "Hist5符号増分": 2.4885167355494247,
+      "RSI5": 74.10875662468915,
+      "RSI5符号増分": -0.39932492245597473,
+      "Hist5改善": true,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 0.49119060331019754,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -197.31613255749107,
+      "30分符号EMA8傾き": -66.42462641504244,
+      "30分符号EMA21傾き": -42.980232501009596,
+      "RSI15": 68.00498899630449,
+      "ATR5": 86.74319604154213,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 10,
+      "出生Lastの回復pt": 10,
+      "出生時否定距離pt": 25,
+      "出生時否定距離_ATR5比": 0.28820704263683417,
+      "実取得の否定距離pt": 35,
+      "実取得の回復pt": 20,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": 0,
+      "イベント": {
+        "id": "2026-10-27_Night/P2/-1/000001",
+        "scope": {
+          "session_id": "2026-10-27_Night",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1793115000,
+          "index": 121757,
+          "source_line": 122272,
+          "last": 64340
+        },
+        "bar": {
+          "start": 1793114940,
+          "end": 1793115000,
+          "ohlc": {
+            "open": 64360,
+            "high": 64360,
+            "low": 64340,
+            "close": 64340
+          },
+          "tr": {
+            "known": true,
+            "value": 20
+          },
+          "rows": 199,
+          "first": {
+            "time": 1793114949,
+            "index": 121558,
+            "source_line": 122073,
+            "last": 64360
+          },
+          "last": {
+            "time": 1793114997,
+            "index": 121756,
+            "source_line": 122271,
+            "last": 64340
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793114640,
+          "end": 1793114940,
+          "low": 64320,
+          "high": 64350,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:e6371760068d1505d984eb303e636ffcb480fe5d258076daf711107f6b8bdd61",
+            "width_seconds": 300,
+            "end": 1793114700,
+            "delivered": {
+              "time": 1793114763,
+              "index": 120921,
+              "source_line": 121436
+            }
+          },
+          {
+            "id": "frame:3a97bc8d68d0570a1d8bbb6aed18f8b63272e3548e4a6af26820f0929c22d6e2",
+            "width_seconds": 900,
+            "end": 1793114100,
+            "delivered": {
+              "time": 1793114169,
+              "index": 118350,
+              "source_line": 118865
+            }
+          },
+          {
+            "id": "frame:3c6d71f4fa66a8e921ae4fc4c035e5a8944db3316f7e17cd8041e5806f07fe5d",
+            "width_seconds": 1800,
+            "end": 1793113200,
+            "delivered": {
+              "time": 1793113264,
+              "index": 114029,
+              "source_line": 114544
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 26.063614466414396
+          },
+          "adx30": {
+            "known": true,
+            "value": 24.662524558356534
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 21.428571428571427
+          },
+          "atr5": {
+            "known": true,
+            "value": 86.74319604154213
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 568.1232260698307
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 42.980232501009596
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 66.42462641504244
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -296.77441238110623
+          },
+          "gap30": {
+            "known": true,
+            "value": 197.31613255749107
+          },
+          "hist5": {
+            "known": true,
+            "value": 39.436463563221906
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 64350
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 10
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 43.37159802077107
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 20
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 20
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 13.399303295920317
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 36.01698302573879
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 64340
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 24.409005742614692
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 41.92498029877133
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 73.70943170223318
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 25
+          },
+          "rsi15": {
+            "known": true,
+            "value": 68.00498899630449
+          },
+          "rsi5": {
+            "known": true,
+            "value": 74.10875662468915
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.49119060331019754
+          }
+        },
+        "entry_cap": 64330,
+        "invalidation": 64365
+      },
+      "主評価ラベル": "逆行"
+    },
+    {
+      "場": "2026-10-30_Day",
+      "ID": "2026-10-30_Day/P2/1/000001",
+      "出生日時JST": "2026-10-30T09:31:01+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-10-30T09:35:55+09:00",
+      "H60期限清算C5円": -89077,
+      "ADX30": 17.488137716507385,
+      "前ADX30": 15.422035818130208,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -14.722155769669655,
+      "Hist5符号増分": -0.5786351737566804,
+      "RSI5": 34.30874598501683,
+      "RSI5符号増分": -0.5346443610685014,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 1.0319240724762726,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -121.35943896183744,
+      "30分符号EMA8傾き": -123.18901371781249,
+      "30分符号EMA21傾き": -55.25209869741957,
+      "RSI15": 31.564415593965634,
+      "ATR5": 166.47542713222578,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 40,
+      "出生Lastの回復pt": 30,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.2703101639394385,
+      "実取得の否定距離pt": 55,
+      "実取得の回復pt": 40,
+      "cap余裕pt": 20,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-10-30_Day/P2/1/000001",
+        "scope": {
+          "session_id": "2026-10-30_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793320261,
+          "index": 20965,
+          "source_line": 22207,
+          "last": 63790
+        },
+        "bar": {
+          "start": 1793320200,
+          "end": 1793320260,
+          "ohlc": {
+            "open": 63780,
+            "high": 63810,
+            "low": 63750,
+            "close": 63800
+          },
+          "tr": {
+            "known": true,
+            "value": 60
+          },
+          "rows": 479,
+          "first": {
+            "time": 1793320203,
+            "index": 20486,
+            "source_line": 21728,
+            "last": 63780
+          },
+          "last": {
+            "time": 1793320259,
+            "index": 20964,
+            "source_line": 22206,
+            "last": 63800
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793319900,
+          "end": 1793320200,
+          "low": 63760,
+          "high": 63890,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:a607765e531e566d31a4cb3a189fa701f15973998b680860fce9ef7bbfb12d1e",
+            "width_seconds": 300,
+            "end": 1793320200,
+            "delivered": {
+              "time": 1793320261,
+              "index": 20965,
+              "source_line": 22207
+            }
+          },
+          {
+            "id": "frame:55d73335b3ded72067e0a3e72810ccb250fc9d76ca8e252bddc071e4378d1f93",
+            "width_seconds": 900,
+            "end": 1793320200,
+            "delivered": {
+              "time": 1793320261,
+              "index": 20965,
+              "source_line": 22207
+            }
+          },
+          {
+            "id": "frame:d85ffda98d3ea4845821232744507629238c6701299c6885ff45bf83d3cfc477",
+            "width_seconds": 1800,
+            "end": 1793319300,
+            "delivered": {
+              "time": 1793319360,
+              "index": 13376,
+              "source_line": 14618
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 24.833195514930942
+          },
+          "adx30": {
+            "known": true,
+            "value": 17.488137716507385
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 72.85714285714286
+          },
+          "atr5": {
+            "known": true,
+            "value": 166.47542713222578
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1255.5333528027113
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -55.25209869741957
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -123.18901371781249
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -341.88540674612887
+          },
+          "gap30": {
+            "known": true,
+            "value": -121.35943896183744
+          },
+          "hist5": {
+            "known": true,
+            "value": -14.722155769669655
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 63760
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 30
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 83.23771356611289
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 0.8333333333333334
+          },
+          "min1_range": {
+            "known": true,
+            "value": 60
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 60
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 33.809356195227004
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 12.281117836933264
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 63840
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 15.422035818130208
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -14.143520595912975
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 34.84339034608533
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 31.564415593965634
+          },
+          "rsi5": {
+            "known": true,
+            "value": 34.30874598501683
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.0319240724762726
+          }
+        },
+        "entry_cap": 63810,
+        "invalidation": 63745
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-10-30_Day",
+      "ID": "2026-10-30_Day/P2/1/000002",
+      "出生日時JST": "2026-10-30T10:19:01+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": -1,
+      "先着日時JST": "2026-10-30T10:24:59+09:00",
+      "H60期限清算C5円": 2923,
+      "ADX30": 22.371739105022378,
+      "前ADX30": 19.544370136137395,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -57.753768635910774,
+      "Hist5符号増分": -8.906506906926381,
+      "RSI5": 23.433887537364427,
+      "RSI5符号増分": -1.2920342805487621,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 1.5416114657352764,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -368.0352184803269,
+      "30分符号EMA8傾き": -283.1637243478108,
+      "30分符号EMA21傾き": -135.9108253697632,
+      "RSI15": 22.05834578549718,
+      "ATR5": 176.2039987815555,
+      "突破深さpt": 20,
+      "確定終値の回復pt": 50,
+      "出生Lastの回復pt": 40,
+      "出生時否定距離pt": 65,
+      "出生時否定距離_ATR5比": 0.36889060662341794,
+      "実取得の否定距離pt": 75,
+      "実取得の回復pt": 50,
+      "cap余裕pt": 20,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-10-30_Day/P2/1/000002",
+        "scope": {
+          "session_id": "2026-10-30_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793323141,
+          "index": 44591,
+          "source_line": 45833,
+          "last": 62940
+        },
+        "bar": {
+          "start": 1793323080,
+          "end": 1793323140,
+          "ohlc": {
+            "open": 62900,
+            "high": 62950,
+            "low": 62880,
+            "close": 62950
+          },
+          "tr": {
+            "known": true,
+            "value": 70
+          },
+          "rows": 515,
+          "first": {
+            "time": 1793323080,
+            "index": 44076,
+            "source_line": 45318,
+            "last": 62900
+          },
+          "last": {
+            "time": 1793323137,
+            "index": 44590,
+            "source_line": 45832,
+            "last": 62950
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793322780,
+          "end": 1793323080,
+          "low": 62900,
+          "high": 63140,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:f8612d3777fdced8e9d1e64cd1710d15bffa71e23705cc2f06d9015a2c6d5499",
+            "width_seconds": 300,
+            "end": 1793322900,
+            "delivered": {
+              "time": 1793322961,
+              "index": 43034,
+              "source_line": 44276
+            }
+          },
+          {
+            "id": "frame:253282599d400aba24c78811a214716a8beedb5f14dcd014841105fd6badd7cb",
+            "width_seconds": 900,
+            "end": 1793322900,
+            "delivered": {
+              "time": 1793322961,
+              "index": 43034,
+              "source_line": 44276
+            }
+          },
+          {
+            "id": "frame:f1576ebf97989979464c676681089959e4982af6f70ba6fb08fa58f95e4c4614",
+            "width_seconds": 1800,
+            "end": 1793322900,
+            "delivered": {
+              "time": 1793322961,
+              "index": 43034,
+              "source_line": 44276
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 31.552423879758408
+          },
+          "adx30": {
+            "known": true,
+            "value": 22.371739105022378
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 67.14285714285714
+          },
+          "atr5": {
+            "known": true,
+            "value": 176.2039987815555
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1913.92371843812
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -135.9108253697632
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -283.1637243478108
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -823.5301289455674
+          },
+          "gap30": {
+            "known": true,
+            "value": -368.0352184803269
+          },
+          "hist5": {
+            "known": true,
+            "value": -57.753768635910774
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 62900
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 40
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 88.10199939077775
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 50
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 70
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 70
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 42.78564993579154
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 8.775084468665476
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 63010
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 19.544370136137395
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -48.84726172898439
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 24.72592181791319
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 65
+          },
+          "rsi15": {
+            "known": true,
+            "value": 22.05834578549718
+          },
+          "rsi5": {
+            "known": true,
+            "value": 23.433887537364427
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.5416114657352764
+          }
+        },
+        "entry_cap": 62960,
+        "invalidation": 62875
+      },
+      "主評価ラベル": "逆行"
+    },
+    {
+      "場": "2026-11-02_Day",
+      "ID": "2026-11-02_Day/P2/-1/000001",
+      "出生日時JST": "2026-11-02T10:20:03+09:00",
+      "売買": "売り",
+      "side": -1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": -1,
+      "先着日時JST": "2026-11-02T10:26:08+09:00",
+      "H60期限清算C5円": 16923,
+      "ADX30": 35.5533078417011,
+      "前ADX30": 36.35749243337791,
+      "ADX背景区分": "25超で低下",
+      "ADX30低下": true,
+      "Hist5符号水準": -10.034920389080554,
+      "Hist5符号増分": 1.015213243790754,
+      "RSI5": 73.09557982545033,
+      "RSI5符号増分": 0.7767700733069773,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": null,
+      "RVOL5が1以上": null,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -65.54183529802685,
+      "30分符号EMA8傾き": -151.1430261524947,
+      "30分符号EMA21傾き": -59.454242683175835,
+      "RSI15": 69.93540779564617,
+      "ATR5": 147.0208480331625,
+      "突破深さpt": 20,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 45,
+      "出生時否定距離_ATR5比": 0.30607903982331575,
+      "実取得の否定距離pt": 45,
+      "実取得の回復pt": 20,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-11-02_Day/P2/-1/000001",
+        "scope": {
+          "session_id": "2026-11-02_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": -1,
+        "at": {
+          "time": 1793582403,
+          "index": 43643,
+          "source_line": 44776,
+          "last": 63370
+        },
+        "bar": {
+          "start": 1793582340,
+          "end": 1793582400,
+          "ohlc": {
+            "open": 63400,
+            "high": 63410,
+            "low": 63370,
+            "close": 63370
+          },
+          "tr": {
+            "known": true,
+            "value": 40
+          },
+          "rows": 454,
+          "first": {
+            "time": 1793582341,
+            "index": 43189,
+            "source_line": 44322,
+            "last": 63400
+          },
+          "last": {
+            "time": 1793582399,
+            "index": 43642,
+            "source_line": 44775,
+            "last": 63370
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793582040,
+          "end": 1793582340,
+          "low": 63310,
+          "high": 63390,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:14bdac34c51e073992f2daf0945053963780799dc54711bf2874850fe032c0f6",
+            "width_seconds": 300,
+            "end": 1793582100,
+            "delivered": {
+              "time": 1793582164,
+              "index": 41873,
+              "source_line": 43006
+            }
+          },
+          {
+            "id": "frame:95d514cb0299ce7edbd8f72a82ee589f4a1d3c3dade786c54b98718632ffda68",
+            "width_seconds": 900,
+            "end": 1793582100,
+            "delivered": {
+              "time": 1793582164,
+              "index": 41873,
+              "source_line": 43006
+            }
+          },
+          {
+            "id": "frame:6ff6b474dd08cad68ad867b8c694d0b3325bc6e5a578d0347786e3165762f9cd",
+            "width_seconds": 1800,
+            "end": 1793582100,
+            "delivered": {
+              "time": 1793582164,
+              "index": 41873,
+              "source_line": 43006
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 28.11370090322517
+          },
+          "adx30": {
+            "known": true,
+            "value": 35.5533078417011
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 56.42857142857143
+          },
+          "atr5": {
+            "known": true,
+            "value": 147.0208480331625
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1768.2748655115865
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": 59.454242683175835
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": 151.1430261524947
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -386.90389628127014
+          },
+          "gap30": {
+            "known": true,
+            "value": 65.54183529802685
+          },
+          "hist5": {
+            "known": true,
+            "value": 10.034920389080554
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 63390
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 73.51042401658125
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 30
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 40
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 40
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 13.411002422975008
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 33.430567003558814
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 63350
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 36.35749243337791
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": 11.050133632871308
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 73.8723498987573
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 45
+          },
+          "rsi15": {
+            "known": true,
+            "value": 69.93540779564617
+          },
+          "rsi5": {
+            "known": true,
+            "value": 73.09557982545033
+          },
+          "rvol5": {
+            "known": false,
+            "value": 0
+          }
+        },
+        "entry_cap": 63360,
+        "invalidation": 63415
+      },
+      "主評価ラベル": "逆行"
+    },
+    {
+      "場": "2026-11-04_Day",
+      "ID": "2026-11-04_Day/P2/1/000001",
+      "出生日時JST": "2026-11-04T09:57:00+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "entry_cap_rejected",
+      "H60状態": null,
+      "H60_100pt先着": null,
+      "先着日時JST": null,
+      "H60期限清算C5円": null,
+      "ADX30": 21.348273951621497,
+      "前ADX30": 19.023587209003175,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -52.91210037241575,
+      "Hist5符号増分": 17.5593728666031,
+      "RSI5": 35.391523540001785,
+      "RSI5符号増分": 1.0120721657196299,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": 1.6503965832824892,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": true,
+      "同時P2plusID": [
+        "2026-11-04_Day/P2plus/1/000002"
+      ],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -123.68055298335821,
+      "30分符号EMA8傾き": -194.75878633905813,
+      "30分符号EMA21傾き": -80.5336305170058,
+      "RSI15": 20.15916879871719,
+      "ATR5": 155.5715946342617,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 30,
+      "出生Lastの回復pt": 40,
+      "出生時否定距離pt": 55,
+      "出生時否定距離_ATR5比": 0.3535349761587344,
+      "実取得の否定距離pt": null,
+      "実取得の回復pt": null,
+      "cap余裕pt": 0,
+      "評価BBOのcap超過pt": 10,
+      "イベント": {
+        "id": "2026-11-04_Day/P2/1/000001",
+        "scope": {
+          "session_id": "2026-11-04_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793753820,
+          "index": 34633,
+          "source_line": 35953,
+          "last": 62350
+        },
+        "bar": {
+          "start": 1793753760,
+          "end": 1793753820,
+          "ohlc": {
+            "open": 62310,
+            "high": 62340,
+            "low": 62300,
+            "close": 62340
+          },
+          "tr": {
+            "known": true,
+            "value": 40
+          },
+          "rows": 451,
+          "first": {
+            "time": 1793753762,
+            "index": 34182,
+            "source_line": 35502,
+            "last": 62310
+          },
+          "last": {
+            "time": 1793753819,
+            "index": 34632,
+            "source_line": 35952,
+            "last": 62340
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793753460,
+          "end": 1793753760,
+          "low": 62310,
+          "high": 62460,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:d13790cffb3d2988a35137dc2fc81275eaef78c2d350445ec6863d7d016494ba",
+            "width_seconds": 300,
+            "end": 1793753700,
+            "delivered": {
+              "time": 1793753762,
+              "index": 34182,
+              "source_line": 35502
+            }
+          },
+          {
+            "id": "frame:aba62c5cea64cb29e127c9cce5b8969aa29e7d0b02c9d4d4260fb793c345d25d",
+            "width_seconds": 900,
+            "end": 1793753100,
+            "delivered": {
+              "time": 1793753160,
+              "index": 29076,
+              "source_line": 30396
+            }
+          },
+          {
+            "id": "frame:7307ae7059bca3d8c01169d1ac52aedcf1eb60d9f50f99c088dfd9f1d7b80dbe",
+            "width_seconds": 1800,
+            "end": 1793753100,
+            "delivered": {
+              "time": 1793753160,
+              "index": 29076,
+              "source_line": 30396
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 24.625304917806936
+          },
+          "adx30": {
+            "known": true,
+            "value": 21.348273951621497
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 81.42857142857143
+          },
+          "atr5": {
+            "known": true,
+            "value": 155.5715946342617
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1083.150959008024
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -80.5336305170058
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -194.75878633905813
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -391.8381611797304
+          },
+          "gap30": {
+            "known": true,
+            "value": -123.68055298335821
+          },
+          "hist5": {
+            "known": true,
+            "value": -52.91210037241575
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 62310
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 40
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 77.78579731713084
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 30
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 40
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 40
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 46.24156625783268
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 10.393226493149225
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 62430
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 19.023587209003175
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -70.47147323901885
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 34.379451374282155
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 55
+          },
+          "rsi15": {
+            "known": true,
+            "value": 20.15916879871719
+          },
+          "rsi5": {
+            "known": true,
+            "value": 35.391523540001785
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.6503965832824892
+          }
+        },
+        "entry_cap": 62350,
+        "invalidation": 62295
+      },
+      "主評価ラベル": "未約定"
+    },
+    {
+      "場": "2026-11-04_Day",
+      "ID": "2026-11-04_Day/P2/1/000003",
+      "出生日時JST": "2026-11-04T10:08:00+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": 1,
+      "先着日時JST": "2026-11-04T10:08:27+09:00",
+      "H60期限清算C5円": -57077,
+      "ADX30": 21.348273951621497,
+      "前ADX30": 19.023587209003175,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -49.62626992312374,
+      "Hist5符号増分": -9.419152756350542,
+      "RSI5": 26.643084340348665,
+      "RSI5符号増分": -7.610567788979026,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 2.2285870158210583,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -123.68055298335821,
+      "30分符号EMA8傾き": -194.75878633905813,
+      "30分符号EMA21傾き": -80.5336305170058,
+      "RSI15": 29.82913154659616,
+      "ATR5": 169.90611986321542,
+      "突破深さpt": 20,
+      "確定終値の回復pt": 40,
+      "出生Lastの回復pt": 30,
+      "出生時否定距離pt": 55,
+      "出生時否定距離_ATR5比": 0.3237081751044535,
+      "実取得の否定距離pt": 75,
+      "実取得の回復pt": 50,
+      "cap余裕pt": 20,
+      "評価BBOのcap超過pt": 0,
+      "イベント": {
+        "id": "2026-11-04_Day/P2/1/000003",
+        "scope": {
+          "session_id": "2026-11-04_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793754480,
+          "index": 40574,
+          "source_line": 41894,
+          "last": 61910
+        },
+        "bar": {
+          "start": 1793754420,
+          "end": 1793754480,
+          "ohlc": {
+            "open": 61900,
+            "high": 61920,
+            "low": 61860,
+            "close": 61920
+          },
+          "tr": {
+            "known": true,
+            "value": 60
+          },
+          "rows": 583,
+          "first": {
+            "time": 1793754420,
+            "index": 39991,
+            "source_line": 41311,
+            "last": 61900
+          },
+          "last": {
+            "time": 1793754479,
+            "index": 40573,
+            "source_line": 41893,
+            "last": 61920
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793754120,
+          "end": 1793754420,
+          "low": 61880,
+          "high": 62300,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:a6d6f4f47517f6845a48f44449e1fd4b9341bca94e0daeaaa49901f09fe0876f",
+            "width_seconds": 300,
+            "end": 1793754300,
+            "delivered": {
+              "time": 1793754360,
+              "index": 39406,
+              "source_line": 40726
+            }
+          },
+          {
+            "id": "frame:45f50a3ac026f4979efdd4900c6148fef9d5cc16a15c2ad3186855a1913e0139",
+            "width_seconds": 900,
+            "end": 1793754000,
+            "delivered": {
+              "time": 1793754060,
+              "index": 36611,
+              "source_line": 37931
+            }
+          },
+          {
+            "id": "frame:7307ae7059bca3d8c01169d1ac52aedcf1eb60d9f50f99c088dfd9f1d7b80dbe",
+            "width_seconds": 1800,
+            "end": 1793753100,
+            "delivered": {
+              "time": 1793753160,
+              "index": 29076,
+              "source_line": 30396
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 27.387595967975464
+          },
+          "adx30": {
+            "known": true,
+            "value": 21.348273951621497
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 95
+          },
+          "atr5": {
+            "known": true,
+            "value": 169.90611986321542
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1230.6924879920261
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -80.5336305170058
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -194.75878633905813
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -745.981951388203
+          },
+          "gap30": {
+            "known": true,
+            "value": -123.68055298335821
+          },
+          "hist5": {
+            "known": true,
+            "value": -49.62626992312374
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 61880
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 30
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 84.95305993160771
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 60
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 60
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 41.10498858355331
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 9.238732398576975
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 61970
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 19.023587209003175
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -40.2071171667732
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 34.25365212932769
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 55
+          },
+          "rsi15": {
+            "known": true,
+            "value": 29.82913154659616
+          },
+          "rsi5": {
+            "known": true,
+            "value": 26.643084340348665
+          },
+          "rvol5": {
+            "known": true,
+            "value": 2.2285870158210583
+          }
+        },
+        "entry_cap": 61930,
+        "invalidation": 61855
+      },
+      "主評価ラベル": "順行"
+    },
+    {
+      "場": "2026-11-04_Day",
+      "ID": "2026-11-04_Day/P2/1/000004",
+      "出生日時JST": "2026-11-04T10:16:00+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "entry_cap_rejected",
+      "H60状態": null,
+      "H60_100pt先着": null,
+      "先着日時JST": null,
+      "H60期限清算C5円": null,
+      "ADX30": 23.911787006273464,
+      "前ADX30": 21.348273951621497,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -65.00839452651502,
+      "Hist5符号増分": -9.295460493814772,
+      "RSI5": 22.6616492935935,
+      "RSI5符号増分": -2.6944841184214425,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 1.5452441309379479,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -250.533076231608,
+      "30分符号EMA8傾き": -233.70127826371026,
+      "30分符号EMA21傾き": -106.84875501546048,
+      "RSI15": 21.546124568813056,
+      "ATR5": 179.05170539226228,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 30,
+      "出生Lastの回復pt": 10,
+      "出生時否定距離pt": 25,
+      "出生時否定距離_ATR5比": 0.13962447297126038,
+      "実取得の否定距離pt": null,
+      "実取得の回復pt": null,
+      "cap余裕pt": 30,
+      "評価BBOのcap超過pt": 10,
+      "イベント": {
+        "id": "2026-11-04_Day/P2/1/000004",
+        "scope": {
+          "session_id": "2026-11-04_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793754960,
+          "index": 44939,
+          "source_line": 46259,
+          "last": 61800
+        },
+        "bar": {
+          "start": 1793754900,
+          "end": 1793754960,
+          "ohlc": {
+            "open": 61810,
+            "high": 61830,
+            "low": 61780,
+            "close": 61820
+          },
+          "tr": {
+            "known": true,
+            "value": 50
+          },
+          "rows": 549,
+          "first": {
+            "time": 1793754900,
+            "index": 44390,
+            "source_line": 45710,
+            "last": 61810
+          },
+          "last": {
+            "time": 1793754959,
+            "index": 44938,
+            "source_line": 46258,
+            "last": 61820
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793754600,
+          "end": 1793754900,
+          "low": 61790,
+          "high": 62060,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:3c6cfd2e7b3f8bd6026f4d7de6209c826af9a881359df7be843eaafc000e8c95",
+            "width_seconds": 300,
+            "end": 1793754900,
+            "delivered": {
+              "time": 1793754960,
+              "index": 44939,
+              "source_line": 46259
+            }
+          },
+          {
+            "id": "frame:3be1e8f8b292b3562e4140f44a682d413b83c28d6988fb2f4d9f06a66d18fbd2",
+            "width_seconds": 900,
+            "end": 1793754900,
+            "delivered": {
+              "time": 1793754960,
+              "index": 44939,
+              "source_line": 46259
+            }
+          },
+          {
+            "id": "frame:8d94aee8a5e72debae2765fa1e0d904227c631d35f6569ea73097c092ed81521",
+            "width_seconds": 1800,
+            "end": 1793754900,
+            "delivered": {
+              "time": 1793754960,
+              "index": 44939,
+              "source_line": 46259
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 30.543941991465935
+          },
+          "adx30": {
+            "known": true,
+            "value": 23.911787006273464
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 115
+          },
+          "atr5": {
+            "known": true,
+            "value": 179.05170539226228
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1596.560052112036
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -106.84875501546048
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -233.70127826371026
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -701.0594639571937
+          },
+          "gap30": {
+            "known": true,
+            "value": -250.533076231608
+          },
+          "hist5": {
+            "known": true,
+            "value": -65.00839452651502
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 61790
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 10
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 89.52585269613114
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 10
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 0.8
+          },
+          "min1_range": {
+            "known": true,
+            "value": 50
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 50
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 45.00200497240141
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 7.455086332843132
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 61880
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 21.348273951621497
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -55.71293403270025
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 25.35613341201494
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 25
+          },
+          "rsi15": {
+            "known": true,
+            "value": 21.546124568813056
+          },
+          "rsi5": {
+            "known": true,
+            "value": 22.6616492935935
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.5452441309379479
+          }
+        },
+        "entry_cap": 61830,
+        "invalidation": 61775
+      },
+      "主評価ラベル": "未約定"
+    },
+    {
+      "場": "2026-11-04_Day",
+      "ID": "2026-11-04_Day/P2/1/000005",
+      "出生日時JST": "2026-11-04T10:35:00+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": -1,
+      "先着日時JST": "2026-11-04T10:38:09+09:00",
+      "H60期限清算C5円": -53077,
+      "ADX30": 23.911787006273464,
+      "前ADX30": 21.348273951621497,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -65.20385443739195,
+      "Hist5符号増分": -1.6998775378383186,
+      "RSI5": 22.917944854708622,
+      "RSI5符号増分": -3.1860978604871377,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 0.9917920656634748,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -250.533076231608,
+      "30分符号EMA8傾き": -233.70127826371026,
+      "30分符号EMA21傾き": -106.84875501546048,
+      "RSI15": 19.561410940425503,
+      "ATR5": 196.8209171817785,
+      "突破深さpt": 20,
+      "確定終値の回復pt": 60,
+      "出生Lastの回復pt": 50,
+      "出生時否定距離pt": 75,
+      "出生時否定距離_ATR5比": 0.3810570597571803,
+      "実取得の否定距離pt": 75,
+      "実取得の回復pt": 50,
+      "cap余裕pt": 20,
+      "評価BBOのcap超過pt": -20,
+      "イベント": {
+        "id": "2026-11-04_Day/P2/1/000005",
+        "scope": {
+          "session_id": "2026-11-04_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793756100,
+          "index": 55394,
+          "source_line": 56714,
+          "last": 61430
+        },
+        "bar": {
+          "start": 1793756040,
+          "end": 1793756100,
+          "ohlc": {
+            "open": 61370,
+            "high": 61440,
+            "low": 61360,
+            "close": 61440
+          },
+          "tr": {
+            "known": true,
+            "value": 80
+          },
+          "rows": 522,
+          "first": {
+            "time": 1793756040,
+            "index": 54872,
+            "source_line": 56192,
+            "last": 61370
+          },
+          "last": {
+            "time": 1793756099,
+            "index": 55393,
+            "source_line": 56713,
+            "last": 61440
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793755740,
+          "end": 1793756040,
+          "low": 61380,
+          "high": 61670,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:d0b7d894a48c90cc5847563af8b100692399794abe1485f436224defae7baec0",
+            "width_seconds": 300,
+            "end": 1793755800,
+            "delivered": {
+              "time": 1793755860,
+              "index": 53257,
+              "source_line": 54577
+            }
+          },
+          {
+            "id": "frame:7c4850791ed1a17c0eae27d526b68d46203d64941be45ec2ff542ae1abf17d79",
+            "width_seconds": 900,
+            "end": 1793755800,
+            "delivered": {
+              "time": 1793755860,
+              "index": 53257,
+              "source_line": 54577
+            }
+          },
+          {
+            "id": "frame:8d94aee8a5e72debae2765fa1e0d904227c631d35f6569ea73097c092ed81521",
+            "width_seconds": 1800,
+            "end": 1793754900,
+            "delivered": {
+              "time": 1793754960,
+              "index": 44939,
+              "source_line": 46259
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 33.70498555345042
+          },
+          "adx30": {
+            "known": true,
+            "value": 23.911787006273464
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 104.28571428571429
+          },
+          "atr5": {
+            "known": true,
+            "value": 196.8209171817785
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 1941.504571202444
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -106.84875501546048
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -233.70127826371026
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -930.1423470752707
+          },
+          "gap30": {
+            "known": true,
+            "value": -250.533076231608
+          },
+          "hist5": {
+            "known": true,
+            "value": -65.20385443739195
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 61380
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 50
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 98.41045859088925
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 70
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 80
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 80
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 46.27729648984899
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 6.671993990672116
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 61420
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 21.348273951621497
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -63.503976899553635
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 26.10404271519576
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 75
+          },
+          "rsi15": {
+            "known": true,
+            "value": 19.561410940425503
+          },
+          "rsi5": {
+            "known": true,
+            "value": 22.917944854708622
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.9917920656634748
+          }
+        },
+        "entry_cap": 61450,
+        "invalidation": 61355
+      },
+      "主評価ラベル": "逆行"
+    },
+    {
+      "場": "2026-11-05_Day",
+      "ID": "2026-11-05_Day/P2/1/000001",
+      "出生日時JST": "2026-11-05T10:08:00+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "entry_cap_rejected",
+      "H60状態": null,
+      "H60_100pt先着": null,
+      "先着日時JST": null,
+      "H60期限清算C5円": null,
+      "ADX30": 16.89024176330147,
+      "前ADX30": 16.362162789426755,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -24.812335368093272,
+      "Hist5符号増分": -5.189409947904963,
+      "RSI5": 32.0999207031479,
+      "RSI5符号増分": -3.9258915105707715,
+      "Hist5改善": false,
+      "RSI5改善": false,
+      "両方改善": false,
+      "RVOL5": 1.1568799298860648,
+      "RVOL5が1以上": true,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -20.0360626190959,
+      "30分符号EMA8傾き": -98.22792203229619,
+      "30分符号EMA21傾き": -36.38337897320889,
+      "RSI15": 32.50496650824748,
+      "ATR5": 171.40598727606312,
+      "突破深さpt": 10,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 35,
+      "出生時否定距離_ATR5比": 0.20419356730888102,
+      "実取得の否定距離pt": null,
+      "実取得の回復pt": null,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": 10,
+      "イベント": {
+        "id": "2026-11-05_Day/P2/1/000001",
+        "scope": {
+          "session_id": "2026-11-05_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793840880,
+          "index": 39859,
+          "source_line": 40689,
+          "last": 62300
+        },
+        "bar": {
+          "start": 1793840820,
+          "end": 1793840880,
+          "ohlc": {
+            "open": 62280,
+            "high": 62300,
+            "low": 62270,
+            "close": 62300
+          },
+          "tr": {
+            "known": true,
+            "value": 30
+          },
+          "rows": 470,
+          "first": {
+            "time": 1793840821,
+            "index": 39389,
+            "source_line": 40219,
+            "last": 62280
+          },
+          "last": {
+            "time": 1793840879,
+            "index": 39858,
+            "source_line": 40688,
+            "last": 62300
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793840520,
+          "end": 1793840820,
+          "low": 62280,
+          "high": 62450,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:3e45305c0806ad8d257a74cf2eb06694de2d00d06b5b4a2658e592ddab0eb346",
+            "width_seconds": 300,
+            "end": 1793840700,
+            "delivered": {
+              "time": 1793840761,
+              "index": 38900,
+              "source_line": 39730
+            }
+          },
+          {
+            "id": "frame:3966a4b9da1258fed91349a66dded610806985c57b3f21b83b749a3db382020e",
+            "width_seconds": 900,
+            "end": 1793840400,
+            "delivered": {
+              "time": 1793840464,
+              "index": 36341,
+              "source_line": 37171
+            }
+          },
+          {
+            "id": "frame:ee69c5153515990b53e24f57420b6ac26ddcc8838247b4824556aff73a35724f",
+            "width_seconds": 1800,
+            "end": 1793839500,
+            "delivered": {
+              "time": 1793839564,
+              "index": 28914,
+              "source_line": 29744
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 18.261404873733177
+          },
+          "adx30": {
+            "known": true,
+            "value": 16.89024176330147
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 59.285714285714285
+          },
+          "atr5": {
+            "known": true,
+            "value": 171.40598727606312
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 908.2378543091036
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -36.38337897320889
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -98.22792203229619
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -402.381939644627
+          },
+          "gap30": {
+            "known": true,
+            "value": -20.0360626190959
+          },
+          "hist5": {
+            "known": true,
+            "value": -24.812335368093272
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 62280
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 85.70299363803156
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 30
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 30
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 27.35768269293922
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 11.370065667023695
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 62330
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 16.362162789426755
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -19.62292542018831
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 36.02581221371867
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 35
+          },
+          "rsi15": {
+            "known": true,
+            "value": 32.50496650824748
+          },
+          "rsi5": {
+            "known": true,
+            "value": 32.0999207031479
+          },
+          "rvol5": {
+            "known": true,
+            "value": 1.1568799298860648
+          }
+        },
+        "entry_cap": 62310,
+        "invalidation": 62265
+      },
+      "主評価ラベル": "未約定"
+    },
+    {
+      "場": "2026-11-05_Day",
+      "ID": "2026-11-05_Day/P2/1/000002",
+      "出生日時JST": "2026-11-05T10:14:00+09:00",
+      "売買": "買い",
+      "side": 1,
+      "候補状態": "filled",
+      "H60状態": "complete",
+      "H60_100pt先着": -1,
+      "先着日時JST": "2026-11-05T10:15:18+09:00",
+      "H60期限清算C5円": -12077,
+      "ADX30": 16.89024176330147,
+      "前ADX30": 16.362162789426755,
+      "ADX背景区分": "25以下",
+      "ADX30低下": false,
+      "Hist5符号水準": -24.30250788666325,
+      "Hist5符号増分": 0.5098274814300225,
+      "RSI5": 33.304110406521545,
+      "RSI5符号増分": 1.2041897033736433,
+      "Hist5改善": true,
+      "RSI5改善": true,
+      "両方改善": true,
+      "RVOL5": 0.8477796247922108,
+      "RVOL5が1以上": false,
+      "P2plus既定3条件": false,
+      "同時P2plusID": [],
+      "30分配置傾き": "配置と両傾きが逆方向",
+      "30分符号Gap": -20.0360626190959,
+      "30分符号EMA8傾き": -98.22792203229619,
+      "30分符号EMA21傾き": -36.38337897320889,
+      "RSI15": 32.50496650824748,
+      "ATR5": 167.7341310420586,
+      "突破深さpt": 30,
+      "確定終値の回復pt": 20,
+      "出生Lastの回復pt": 20,
+      "出生時否定距離pt": 55,
+      "出生時否定距離_ATR5比": 0.3278998714114362,
+      "実取得の否定距離pt": 55,
+      "実取得の回復pt": 20,
+      "cap余裕pt": 10,
+      "評価BBOのcap超過pt": -10,
+      "イベント": {
+        "id": "2026-11-05_Day/P2/1/000002",
+        "scope": {
+          "session_id": "2026-11-05_Day",
+          "contract": "161120018"
+        },
+        "policy": "P2",
+        "side": 1,
+        "at": {
+          "time": 1793841240,
+          "index": 42871,
+          "source_line": 43701,
+          "last": 62130
+        },
+        "bar": {
+          "start": 1793841180,
+          "end": 1793841240,
+          "ohlc": {
+            "open": 62110,
+            "high": 62130,
+            "low": 62080,
+            "close": 62130
+          },
+          "tr": {
+            "known": true,
+            "value": 50
+          },
+          "rows": 520,
+          "first": {
+            "time": 1793841180,
+            "index": 42351,
+            "source_line": 43181,
+            "last": 62110
+          },
+          "last": {
+            "time": 1793841238,
+            "index": 42870,
+            "source_line": 43700,
+            "last": 62130
+          }
+        },
+        "previous5range": {
+          "known": true,
+          "start": 1793840880,
+          "end": 1793841180,
+          "low": 62110,
+          "high": 62390,
+          "count": 5
+        },
+        "refs": [
+          {
+            "id": "frame:ccfb30633cbc23d0d9f11fdeea232b2262ffe9471921f2719fc7f48ea1d59f5b",
+            "width_seconds": 300,
+            "end": 1793841000,
+            "delivered": {
+              "time": 1793841060,
+              "index": 41370,
+              "source_line": 42200
+            }
+          },
+          {
+            "id": "frame:3966a4b9da1258fed91349a66dded610806985c57b3f21b83b749a3db382020e",
+            "width_seconds": 900,
+            "end": 1793840400,
+            "delivered": {
+              "time": 1793840464,
+              "index": 36341,
+              "source_line": 37171
+            }
+          },
+          {
+            "id": "frame:ee69c5153515990b53e24f57420b6ac26ddcc8838247b4824556aff73a35724f",
+            "width_seconds": 1800,
+            "end": 1793839500,
+            "delivered": {
+              "time": 1793839564,
+              "index": 28914,
+              "source_line": 29744
+            }
+          }
+        ],
+        "fields": {
+          "adx15": {
+            "known": true,
+            "value": 18.261404873733177
+          },
+          "adx30": {
+            "known": true,
+            "value": 16.89024176330147
+          },
+          "atr1_before14": {
+            "known": true,
+            "value": 67.14285714285714
+          },
+          "atr5": {
+            "known": true,
+            "value": 167.7341310420586
+          },
+          "bb15_width": {
+            "known": true,
+            "value": 908.2378543091036
+          },
+          "ema21_delta30": {
+            "known": true,
+            "value": -36.38337897320889
+          },
+          "ema8_delta30": {
+            "known": true,
+            "value": -98.22792203229619
+          },
+          "extreme_ema21_5_signed": {
+            "known": true,
+            "value": -563.0744905860265
+          },
+          "gap30": {
+            "known": true,
+            "value": -20.0360626190959
+          },
+          "hist5": {
+            "known": true,
+            "value": -24.30250788666325
+          },
+          "hold_boundary": {
+            "known": true,
+            "value": 62110
+          },
+          "hold_gap_at_birth": {
+            "known": true,
+            "value": 20
+          },
+          "hold_minimum": {
+            "known": true,
+            "value": 5
+          },
+          "hold_strict": {
+            "known": true,
+            "value": 0
+          },
+          "maximum_risk": {
+            "known": true,
+            "value": 83.8670655210293
+          },
+          "min1_body_signed": {
+            "known": true,
+            "value": 20
+          },
+          "min1_close_position": {
+            "known": true,
+            "value": 1
+          },
+          "min1_range": {
+            "known": true,
+            "value": 50
+          },
+          "min1_tr": {
+            "known": true,
+            "value": 50
+          },
+          "minus_di15": {
+            "known": true,
+            "value": 27.35768269293922
+          },
+          "plus_di15": {
+            "known": true,
+            "value": 11.370065667023695
+          },
+          "previous1_boundary": {
+            "known": true,
+            "value": 62210
+          },
+          "previous_adx30": {
+            "known": true,
+            "value": 16.362162789426755
+          },
+          "previous_hist5": {
+            "known": true,
+            "value": -24.812335368093272
+          },
+          "previous_known_bb15_width": {
+            "known": false,
+            "value": 0
+          },
+          "previous_rsi5": {
+            "known": true,
+            "value": 32.0999207031479
+          },
+          "risk_at_last": {
+            "known": true,
+            "value": 55
+          },
+          "rsi15": {
+            "known": true,
+            "value": 32.50496650824748
+          },
+          "rsi5": {
+            "known": true,
+            "value": 33.304110406521545
+          },
+          "rvol5": {
+            "known": true,
+            "value": 0.8477796247922108
+          }
+        },
+        "entry_cap": 62140,
+        "invalidation": 62075
+      },
+      "主評価ラベル": "逆行"
+    }
+  ]
+}

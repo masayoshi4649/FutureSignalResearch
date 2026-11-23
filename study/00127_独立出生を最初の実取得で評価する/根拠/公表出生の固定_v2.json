@@ -1,0 +1,28 @@
+{
+  "成功": true,
+  "版": "独立出生事前案v2",
+  "固定UTC": "2026-11-10T17:50:56.460607+00:00",
+  "条件SHA256": "3552bae4bf0d72a655754abfc10b3757ce3b20ce6ce7f02fb6daade74efd444e",
+  "コード文書": {
+    "work\\126独立出生の事前案\\条件_v2.md": "3552bae4bf0d72a655754abfc10b3757ce3b20ce6ce7f02fb6daade74efd444e",
+    "work\\126独立出生の事前案\\v2を準備する.py": "09841ec0acc36f847ccb081f1e90f7d131bdb45b910b7d1eeedb5cd41b5d5359",
+    "work\\126独立出生の事前案\\v2\\main.go": "5363bce070628b265e749629e7b427d0bff18944475ad980a10aed4a4a405ea5",
+    "work\\126独立出生の事前案\\v2\\main_test.go": "e631e74e9e6b0eb5be10c147b9daed6e2d0848097d4b75ae1db7ab8c6f966495",
+    "work\\126独立出生の事前案\\v2\\v2_test.go": "fc4eeb7bff38523915995f05ed0e889ff728d797ae14e0a4541bfe9e461f223b",
+    "work\\126独立出生の事前案\\v2\\go.mod": "3ba6b3ed8d9b98c5eb4b81ccd8d99575f5bb782d60dc8fe306aef1a0dc4e130e"
+  },
+  "v1固定SHA256": "543e4370a323edf220d6c0d598dd827ecd3720ff531daa889adb74b2f4f14f60",
+  "v1出生SHA256": "6d9545ff47fff7862b0c92fb8df6ae722b5509c80ac8c8a3092ce2c3f79818b7",
+  "入力SHA256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+  "既存Bank依存": {
+    "work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+  },
+  "人工検査": "go test -count=1 ./... 成功（継承2+追加2）、go vet ./... 成功",
+  "勝敗使用": false,
+  "Raw読取": false,
+  "開始時刻fallback": false,
+  "注記": "v1カバレッジ/段階内訳を見た新仮説。v2件数・勝敗の計算前。"
+}

@@ -1,0 +1,297 @@
+{
+  "成功": true,
+  "対象": "CSV形成定義だけ。134金融とは別監査",
+  "実装と台帳の前後指紋": [
+    {
+      "path": "../kabus-controller/future_history_candles.go",
+      "bytes": 10945,
+      "sha256": "b906e39c2f98e52bcd0f6255a5a964a5103ee83874917b0088a33ee90e15b3bf"
+    },
+    {
+      "path": "../kabus-controller/future_history_candles_test.go",
+      "bytes": 10893,
+      "sha256": "1b9675783742a1a014995a82d721c845e86aaf71a4d1ddbec74b708ba011f54b"
+    },
+    {
+      "path": "../kabus-controller/future_history_store.go",
+      "bytes": 21522,
+      "sha256": "bdfdd9c26b345a2e3dc8adcef530dfc5e97f24ee1c57dbcfbd175e93efb97152"
+    },
+    {
+      "path": "../kabus-controller/future_history_archive.go",
+      "bytes": 7558,
+      "sha256": "4d8aa4d347919292299bf55bb4b6dd9e33c014590998713785e180e8f60184d5"
+    },
+    {
+      "path": "../kabus-controller/option_history_code.go",
+      "bytes": 2734,
+      "sha256": "e95b028da5d7a0aeb3d581e19181a477ba659fa302b22ff4a8b08add1c1160eb"
+    },
+    {
+      "path": "../kabus-controller/docs/future-history.md",
+      "bytes": 11381,
+      "sha256": "5eef50e29d2656744c5855a7a406e048e4b6838aaec928c4691fe12f00e09515"
+    },
+    {
+      "path": "work/三時間軸の市場入力口/candle.go",
+      "bytes": 5053,
+      "sha256": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137"
+    },
+    {
+      "path": "work/三時間軸の公開器/bank.go",
+      "bytes": 13808,
+      "sha256": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b"
+    },
+    {
+      "path": "work/三時間軸の公開器/numeric.go",
+      "bytes": 5100,
+      "sha256": "f9da01f68ef8d1e63477acbbfb950854a99874d7ce23dca4140da6148bf2411b"
+    },
+    {
+      "path": "work/三時間軸の公開器/pivot.go",
+      "bytes": 2405,
+      "sha256": "ef9d799dc978d7689167ab9c29a9bad879fd999a9993063f852d8e9432ad3f59"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/bank.go",
+      "bytes": 6392,
+      "sha256": "78d82ff18b4abf5721a7948949f6dda72a58a4dd403651ae647cdd4431338b8f"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/numeric.go",
+      "bytes": 5222,
+      "sha256": "581970bc6f39a27397d462892c6a761e7715abe1c18a36690d262d64b74f0754"
+    },
+    {
+      "path": "work/122公表生成/export.go",
+      "bytes": 9730,
+      "sha256": "33a1150dcab8ca669bbc51c22485775ee51dc99342f1f41e5f89ac87b1903d04"
+    },
+    {
+      "path": "work/122公表生成/plan.go",
+      "bytes": 7054,
+      "sha256": "a7ddf960453b6368b98e5d09ce35517cd5050363da8485fe21e9301dc85f722f"
+    },
+    {
+      "path": "work/122全場入力/公表生成計画.json",
+      "bytes": 83322,
+      "sha256": "584e0e95da786dfa4bcf527ed20c1222f237d068bbf5e302fddd6024a13fb7e5"
+    },
+    {
+      "path": "work/CSVとRawの足定義を監査する/監査結果.md",
+      "bytes": 9558,
+      "sha256": "e644ba72b2dd438138608bb38701ee1037fe617138b3270cf525ec84315ab0a8"
+    },
+    {
+      "path": "work/CSVとRawの足定義を監査する/足定義の人工検査_test.go",
+      "bytes": 6206,
+      "sha256": "d050b9a3642587d8818ffb5f32572dcef42f33fd0eccac072bb1d7db1cc2f988"
+    },
+    {
+      "path": "work/CSVとRawの足定義を監査する/go.mod",
+      "bytes": 217,
+      "sha256": "755064084cf0c9d13b0be683522f545b536c79e509314c45f4978f93d19857a3"
+    },
+    {
+      "path": "work/CSVとRawの足定義を監査する/監査する.py",
+      "bytes": 6514,
+      "sha256": "dfcf6dc1f4ceab2d0472ea4cc408a3d4358c94d5f9084d9c7ac88b78ece53b2c"
+    }
+  ],
+  "収集器コピー同体": true,
+  "人工成功": [
+    "TestFutureHistoryCandlesSameSecond",
+    "TestFutureHistoryCandlesInitialAndResetVolume",
+    "TestFutureHistoryCandlesLateData",
+    "TestFutureHistoryCandlesFiveMinutesAndEmptyGap",
+    "TestFutureHistoryCandlesSeparateTimes",
+    "TestFutureHistoryCandlesInvalidAndClosing",
+    "TestAuditMinuteBoundary",
+    "TestAuditSparseFive",
+    "TestAuditIndependentScalesAndSeeds",
+    "TestAuditFutureIndependence"
+  ],
+  "人工群数": 10,
+  "CSV直接入力": "全73件candle_5min.csv",
+  "台帳限月別場数": {
+    "161120018": 73
+  },
+  "収集器HEAD": "7a38c505db71644ff32d936538e7625e74d4f685",
+  "初回実装コミットからの価格形成コード差分": false,
+  "各日のサーバ稼働版の証明": false,
+  "限定CSV行": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_1min.csv",
+      "read_lines": 4,
+      "header_and_first3": [
+        "time,open,high,low,close,volume,volume_complete,closed",
+        "2026-09-21T08:45:00+09:00,65180,65200,64990,65020,102,false,true",
+        "2026-09-21T08:46:00+09:00,65020,65060,64990,65020,39,true,true",
+        "2026-09-21T08:47:00+09:00,65000,65000,64980,64990,16,true,true"
+      ],
+      "full_file_sha_recomputed": false
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv",
+      "read_lines": 4,
+      "header_and_first3": [
+        "time,open,high,low,close,volume,volume_complete,closed",
+        "2026-09-21T08:45:00+09:00,65180,65200,64980,65150,218,false,true",
+        "2026-09-21T08:50:00+09:00,65150,65150,65050,65060,16,true,true",
+        "2026-09-21T08:55:00+09:00,65070,65080,65050,65060,28,true,true"
+      ],
+      "full_file_sha_recomputed": false
+    }
+  ],
+  "限定Rawキー": [
+    {
+      "session": "2026-09-21_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz",
+      "physical_lines_read": 1,
+      "top_keys": [
+        "ClearingPrice",
+        "Exchange",
+        "ExchangeName",
+        "TradingVolume",
+        "TradingVolumeTime",
+        "VWAP",
+        "TradingValue",
+        "BidQty",
+        "BidPrice",
+        "BidSign",
+        "Sell1",
+        "Sell2",
+        "Sell3",
+        "Sell4",
+        "Sell5",
+        "Sell6",
+        "Sell7",
+        "Sell8",
+        "Sell9",
+        "Sell10",
+        "AskQty",
+        "AskPrice",
+        "AskSign",
+        "Buy1",
+        "Buy2",
+        "Buy3",
+        "Buy4",
+        "Buy5",
+        "Buy6",
+        "Buy7",
+        "Buy8",
+        "Buy9",
+        "Buy10",
+        "Symbol",
+        "SymbolName",
+        "CurrentPrice",
+        "CurrentPriceTime",
+        "CurrentPriceChangeStatus",
+        "CurrentPriceStatus",
+        "CalcPrice",
+        "PreviousClose",
+        "PreviousCloseTime",
+        "ChangePreviousClose",
+        "ChangePreviousClosePer",
+        "OpeningPrice",
+        "OpeningPriceTime",
+        "HighPrice",
+        "HighPriceTime",
+        "LowPrice",
+        "LowPriceTime",
+        "SecurityType"
+      ],
+      "clock_key_paths": [
+        "/TradingVolumeTime",
+        "/CurrentPriceTime",
+        "/PreviousCloseTime",
+        "/OpeningPriceTime",
+        "/HighPriceTime",
+        "/LowPriceTime"
+      ],
+      "first_line_sha256": "71344c67ae98465e908a65dc55f555de5464b8d681c8b1fbe7f89fbe0127399c",
+      "values_saved": false,
+      "full_file_sha_recomputed": false
+    },
+    {
+      "session": "2026-11-09_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Day\\book.jsonl.gz",
+      "physical_lines_read": 1,
+      "top_keys": [
+        "ClearingPrice",
+        "Exchange",
+        "ExchangeName",
+        "TradingVolume",
+        "TradingVolumeTime",
+        "VWAP",
+        "TradingValue",
+        "BidQty",
+        "BidPrice",
+        "BidSign",
+        "Sell1",
+        "Sell2",
+        "Sell3",
+        "Sell4",
+        "Sell5",
+        "Sell6",
+        "Sell7",
+        "Sell8",
+        "Sell9",
+        "Sell10",
+        "AskQty",
+        "AskPrice",
+        "AskSign",
+        "Buy1",
+        "Buy2",
+        "Buy3",
+        "Buy4",
+        "Buy5",
+        "Buy6",
+        "Buy7",
+        "Buy8",
+        "Buy9",
+        "Buy10",
+        "Symbol",
+        "SymbolName",
+        "CurrentPrice",
+        "CurrentPriceTime",
+        "CurrentPriceChangeStatus",
+        "CurrentPriceStatus",
+        "CalcPrice",
+        "PreviousClose",
+        "PreviousCloseTime",
+        "ChangePreviousClose",
+        "ChangePreviousClosePer",
+        "OpeningPrice",
+        "OpeningPriceTime",
+        "HighPrice",
+        "HighPriceTime",
+        "LowPrice",
+        "LowPriceTime",
+        "SecurityType"
+      ],
+      "clock_key_paths": [
+        "/TradingVolumeTime",
+        "/CurrentPriceTime",
+        "/PreviousCloseTime",
+        "/OpeningPriceTime",
+        "/HighPriceTime",
+        "/LowPriceTime"
+      ],
+      "first_line_sha256": "cd71b3c6729afd2f178e669ef590e56ba7123f56a5e1ceee37a88199fc28786f",
+      "values_saved": false,
+      "full_file_sha_recomputed": false
+    }
+  ],
+  "全原板走査": false,
+  "原板本文の読取範囲": "指定2ファイル各先頭1物理行。キーだけ保存",
+  "新金融読取と再計算": false,
+  "Source本体変更": false,
+  "正式資料変更": false,
+  "無約定と受信欠測の実件数判定": false,
+  "実行ログ": {
+    "path": "work/CSVとRawの足定義を監査する/人工検査のログ.jsonl",
+    "bytes": 7420,
+    "sha256": "b4cbb933f0c6e93dd19685b9aae9ed96c70988fb03f6a61cbc92389dc5e0f669"
+  }
+}

@@ -1,0 +1,1097 @@
+{
+  "成功": true,
+  "生成元SHA256": "1c034b7b55e9d5e10ed2ca9f25d4ffd5c17d5b187667dd46b69a845e6d4e7b81",
+  "全固定出生": 79,
+  "遅延変更全件": 5,
+  "同End同OHLCかつB0不変": 5,
+  "30分EMA増分が既知から未知": 5,
+  "5分HistATRも未知": 3,
+  "結論": "当該足OHLC差や実体境界でなく、数値履歴の状態差。直接分岐は長期増分未知化。reset/carry内訳は未証明",
+  "rows": [
+    {
+      "session": "2026-09-29_Day",
+      "id": "2026-09-29_Day/補完/P3/39445",
+      "csv_selected": 1,
+      "delay_selected": -1,
+      "B0同体": true,
+      "当該3尺度の同End同OHLC": true,
+      "直接分岐": "30分EMA増分の既知→未知でT8反転が不成立",
+      "5分HistATRも未知化": true,
+      "fields": {
+        "body5_signed_ratio_to_source": {
+          "csv": 0.1111111111111111,
+          "delay": 0.1111111111111111
+        },
+        "ema21_delta30_raw": {
+          "csv": -36.48447509658581,
+          "delay": null
+        },
+        "ema21_delta30_to_B0": {
+          "csv": 36.48447509658581,
+          "delay": null
+        },
+        "hist5_raw": {
+          "csv": -21.39951734834115,
+          "delay": null
+        },
+        "atr5": {
+          "csv": 106.45550236675756,
+          "delay": 113.68783541018037
+        },
+        "hist5_atr_to_B0": {
+          "csv": 0.201018424342371,
+          "delay": null
+        }
+      },
+      "foot": {
+        "300": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790644500,
+          "csv_delivery": 1790644561,
+          "delay_delivery": 1790644561,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": true
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "gap": {
+              "csv": true,
+              "delay": true
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        },
+        "900": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790644500,
+          "csv_delivery": 1790644561,
+          "delay_delivery": 1790644561,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": false
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        },
+        "1800": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790644500,
+          "csv_delivery": 1790644561,
+          "delay_delivery": 1790644561,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": false
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        }
+      },
+      "resetとcarryの内訳": "237行だけでは未証明。history_bars/最後のreset理由/seed指紋が保存されていない"
+    },
+    {
+      "session": "2026-09-30_Day",
+      "id": "2026-09-30_Day/補完/P3/12436",
+      "csv_selected": -1,
+      "delay_selected": 1,
+      "B0同体": true,
+      "当該3尺度の同End同OHLC": true,
+      "直接分岐": "30分EMA増分の既知→未知でT8反転が不成立",
+      "5分HistATRも未知化": true,
+      "fields": {
+        "body5_signed_ratio_to_source": {
+          "csv": 0,
+          "delay": 0
+        },
+        "ema21_delta30_raw": {
+          "csv": 48.80024575446441,
+          "delay": null
+        },
+        "ema21_delta30_to_B0": {
+          "csv": 48.80024575446441,
+          "delay": null
+        },
+        "hist5_raw": {
+          "csv": 17.322245406089877,
+          "delay": null
+        },
+        "atr5": {
+          "csv": 89.51489839742443,
+          "delay": null
+        },
+        "hist5_atr_to_B0": {
+          "csv": 0.19351242883819528,
+          "delay": null
+        }
+      },
+      "foot": {
+        "300": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790727600,
+          "csv_delivery": 1790727660,
+          "delay_delivery": 1790727660,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": false
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        },
+        "900": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790727300,
+          "csv_delivery": 1790727360,
+          "delay_delivery": 1790727360,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": false
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        },
+        "1800": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790727300,
+          "csv_delivery": 1790727360,
+          "delay_delivery": 1790727360,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": false
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        }
+      },
+      "resetとcarryの内訳": "237行だけでは未証明。history_bars/最後のreset理由/seed指紋が保存されていない"
+    },
+    {
+      "session": "2026-09-30_Night",
+      "id": "2026-09-30_Night/補完/P3/36001",
+      "csv_selected": -1,
+      "delay_selected": 1,
+      "B0同体": true,
+      "当該3尺度の同End同OHLC": true,
+      "直接分岐": "30分EMA増分の既知→未知でT8反転が不成立",
+      "5分HistATRも未知化": false,
+      "fields": {
+        "body5_signed_ratio_to_source": {
+          "csv": 0,
+          "delay": 0
+        },
+        "ema21_delta30_raw": {
+          "csv": 34.663150338150444,
+          "delay": null
+        },
+        "ema21_delta30_to_B0": {
+          "csv": 34.663150338150444,
+          "delay": null
+        },
+        "hist5_raw": {
+          "csv": 9.037643065543335,
+          "delay": 8.812175522233275
+        },
+        "atr5": {
+          "csv": 58.02128110297075,
+          "delay": 58.3095074361047
+        },
+        "hist5_atr_to_B0": {
+          "csv": 0.15576427982526223,
+          "delay": 0.15112759324694378
+        }
+      },
+      "foot": {
+        "300": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790765700,
+          "csv_delivery": 1790765764,
+          "delay_delivery": 1790765764,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": true
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "gap": {
+              "csv": true,
+              "delay": true
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": true
+            }
+          },
+          "history_bars_saved": false
+        },
+        "900": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790765100,
+          "csv_delivery": 1790765163,
+          "delay_delivery": 1790765163,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": true
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "gap": {
+              "csv": true,
+              "delay": true
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": true
+            }
+          },
+          "history_bars_saved": false
+        },
+        "1800": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1790764200,
+          "csv_delivery": 1790764266,
+          "delay_delivery": 1790764266,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        }
+      },
+      "resetとcarryの内訳": "237行だけでは未証明。history_bars/最後のreset理由/seed指紋が保存されていない"
+    },
+    {
+      "session": "2026-10-06_Night",
+      "id": "2026-10-06_Night/補完/P3/27629",
+      "csv_selected": -1,
+      "delay_selected": 1,
+      "B0同体": true,
+      "当該3尺度の同End同OHLC": true,
+      "直接分岐": "30分EMA増分の既知→未知でT8反転が不成立",
+      "5分HistATRも未知化": false,
+      "fields": {
+        "body5_signed_ratio_to_source": {
+          "csv": 0,
+          "delay": 0
+        },
+        "ema21_delta30_raw": {
+          "csv": 44.184528801604756,
+          "delay": null
+        },
+        "ema21_delta30_to_B0": {
+          "csv": 44.184528801604756,
+          "delay": null
+        },
+        "hist5_raw": {
+          "csv": 15.593058252282198,
+          "delay": 15.363015037440206
+        },
+        "atr5": {
+          "csv": 52.569473203423065,
+          "delay": 52.42001875740958
+        },
+        "hist5_atr_to_B0": {
+          "csv": 0.29661811888323913,
+          "delay": 0.29307534414547765
+        }
+      },
+      "foot": {
+        "300": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1791284100,
+          "csv_delivery": 1791284165,
+          "delay_delivery": 1791284165,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": true
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "gap": {
+              "csv": true,
+              "delay": true
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": true
+            }
+          },
+          "history_bars_saved": false
+        },
+        "900": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1791283500,
+          "csv_delivery": 1791283560,
+          "delay_delivery": 1791283560,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": true
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "gap": {
+              "csv": true,
+              "delay": true
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": true
+            }
+          },
+          "history_bars_saved": false
+        },
+        "1800": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1791282600,
+          "csv_delivery": 1791282679,
+          "delay_delivery": 1791282679,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        }
+      },
+      "resetとcarryの内訳": "237行だけでは未証明。history_bars/最後のreset理由/seed指紋が保存されていない"
+    },
+    {
+      "session": "2026-10-16_Day",
+      "id": "2026-10-16_Day/補完/P3/36351",
+      "csv_selected": -1,
+      "delay_selected": 1,
+      "B0同体": true,
+      "当該3尺度の同End同OHLC": true,
+      "直接分岐": "30分EMA増分の既知→未知でT8反転が不成立",
+      "5分HistATRも未知化": true,
+      "fields": {
+        "body5_signed_ratio_to_source": {
+          "csv": 0.9090909090909091,
+          "delay": 0.9090909090909091
+        },
+        "ema21_delta30_raw": {
+          "csv": 23.0528059166827,
+          "delay": null
+        },
+        "ema21_delta30_to_B0": {
+          "csv": 23.0528059166827,
+          "delay": null
+        },
+        "hist5_raw": {
+          "csv": 42.86388527634596,
+          "delay": null
+        },
+        "atr5": {
+          "csv": 126.97730913019436,
+          "delay": 148.1483708197386
+        },
+        "hist5_atr_to_B0": {
+          "csv": 0.3375712209525254,
+          "delay": null
+        }
+      },
+      "foot": {
+        "300": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1792112700,
+          "csv_delivery": 1792112770,
+          "delay_delivery": 1792112770,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": true
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": true
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": true
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        },
+        "900": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1792112400,
+          "csv_delivery": 1792112461,
+          "delay_delivery": 1792112461,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": false
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        },
+        "1800": {
+          "same_end": true,
+          "same_ohlc": true,
+          "both_price_known": true,
+          "end": 1792111500,
+          "csv_delivery": 1792111563,
+          "delay_delivery": 1792111563,
+          "knownness": {
+            "ema8": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21": {
+              "csv": true,
+              "delay": false
+            },
+            "ema8_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "ema21_delta": {
+              "csv": true,
+              "delay": false
+            },
+            "gap": {
+              "csv": true,
+              "delay": false
+            },
+            "atr": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_atr": {
+              "csv": true,
+              "delay": false
+            },
+            "tr": {
+              "csv": true,
+              "delay": true
+            },
+            "rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_rsi": {
+              "csv": true,
+              "delay": false
+            },
+            "histogram": {
+              "csv": true,
+              "delay": false
+            },
+            "previous_histogram": {
+              "csv": true,
+              "delay": false
+            }
+          },
+          "history_bars_saved": false
+        }
+      },
+      "resetとcarryの内訳": "237行だけでは未証明。history_bars/最後のreset理由/seed指紋が保存されていない"
+    }
+  ],
+  "原板読取": false,
+  "取得価格読取": false,
+  "金融読取と再計算": false,
+  "新threshold": false,
+  "元237行変更": false
+}

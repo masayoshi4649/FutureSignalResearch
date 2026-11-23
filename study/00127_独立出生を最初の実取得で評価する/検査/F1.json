@@ -1,0 +1,46 @@
+{
+  "成功": true,
+  "試行": 127,
+  "固定UTC": "2026-11-10T18:39:14.782311+00:00",
+  "主政策": "F0",
+  "主幅pt": 125,
+  "主秒": 3600,
+  "主選択": "各場最初の実取得。同行R/T/S/Q→最小risk→異方向同riskは当Raw見送り→同方向ID順。",
+  "目標": "全73場で最低1実取得代用、resolved順行率70%以上。complete率/未到達/不足も別掲。",
+  "入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\127独立出生の評価\\入力.json": "b8f382b90f345c4e2c7085ad743c95bbfd887e0cb36ec1f704f848b148bc4e85",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\126独立出生の事前案\\出生イベント_v4.json": "056ff7ef8f14d2660b7f3c7a442388695a83bcc880badee58fe4667aa1ca5c83"
+  },
+  "コード": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の原因分析\\集計する.py": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\127独立出生の評価\\入力を作る.py": "f1df5fc06c6e00580d83dfb43601be3202f230500b1fe902d309966d57bea97b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\127独立出生の集計\\人工検査.py": "8c23ea26bd1c8e2ba351a88e0de43ebd5349d63ee25aa06fd329d17b60a22887",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\127独立出生の集計\\集計する.py": "138606bebdeb4cf7dab0f9621bca8477bccf05ff23f25544805b3add0cd172de",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\127独立出生を固定して再生する.py": "abc90d9e7e92895531e2fddad9a0c79aac9f084c45ec8a30acfb38b8a657e085",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\chart_outcome.go": "1557dbf3c745bf25af8481da8817f65dd9d8cc9deb09106216611e3282a07656",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\cmd\\run\\main.go": "6021ff7020d5fcd05c6938188f6bde500ba509a6113a98f542999ba1b9a27a76",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\core.go": "d7a560d419799ff827d214709a2d50c3c2b535ca52f61fb094ad67171090a569",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\engine.go": "5e431c8216c486d3442e97990b917456c56fad1684226300ff766ab51458a34d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\engine_test.go": "427a76586f3734f799278244a69bca4ddd6e0433f7b81c3fb27f1d8a53fe9df2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\go.mod": "6878e4785ba541c6e33095cdf5c87f47dd40ba36f04dc23ec7dd3431305eb1ae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\kernel_test.go": "53b7dfc7e9744f41598d8b1a9795d9a86e9773ff6ad2bdf532276856b4fc5fea",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\minimum_risk_test.go": "0e14310eac22809be7ea4e4a5721eba4a92abff95ef46db4d2d148ffbc4d52af",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\outcome.go": "2440e9e96ba26ef5f1d6c5b90821edfb0db11844df71a49956013083af539127",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\stream.go": "6e5c74d2cb432e5a85f10afeaea68cc30ce4bb144ffe721b432baab523d7cf6d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4"
+  },
+  "事前文書": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00127_独立出生を最初の実取得で評価する\\README.md": "f8c7ec1085a1451ea6f5f9b9ab4039bab49469a28e942b3228a99b11e2d086cd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00127_独立出生を最初の実取得で評価する\\設定と結果.md": "689afc6e883ec4698caf7496509aa0aab1f359faff5c470c4b66ac1f679edebb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\127独立出生の集計\\条件.md": "c0e39b4a565c6e25cd2c54ec6877a644bb5b5bea9fa8d86c7e282b01b4716b9d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\126独立出生の事前案\\条件_v4.md": "4a683e1e23795438b627c5daf6d62f982b17a5a2638c65d36df2f0a43ebbc12a"
+  },
+  "実行ファイル": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\独立出生の再生.exe",
+    "sha256": "fb8370534f4d9c6f5a829aac4b4cfa81e97431f88bb076c2f840fa47b40feaaf"
+  },
+  "旧79入口の出生使用": false,
+  "未知期間検証": false,
+  "実口座収支": false
+}

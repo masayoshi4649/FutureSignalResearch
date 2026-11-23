@@ -1,0 +1,53 @@
+{
+  "成功": true,
+  "試行": 145,
+  "300比較": 300,
+  "主要統計セル": 7200,
+  "基礎取得": 87,
+  "union取得": 87,
+  "全73と参加頻度": true,
+  "C0優先と新A/B同原行拒否": true,
+  "作者124/138/145関数import": false,
+  "計算方法": "Root141の別算術calculateを固定再利用。期待値を再構成後に作者summaryを開いた",
+  "自然Raw/Source再走査": false,
+  "入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\145構造イベントの評価\\F1金融前.json": "6ea95b8143b31bf84c853ee4f90e66f400f6e145fe1805b9f8643eccdae08767",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\145構造イベントの評価\\固定入力\\固定取得入力.json": "d2becb3b1d6de656a6cc3f04d576d95d99693dfc42efc03582ed04d2be8784e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\145構造イベントの評価\\固定入力\\入口参照.json": "3a3a144c478fa45f85e03ad4b8e4461e420592da24088458c7aa1cb748c8eb8d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\145構造イベントの評価\\固定取得の正逆観測.json": "3b92da8b447d7be9ead6a2a112759ca7272a1e65d6cb5516989e3faf50c54d62",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\145構造イベントの評価\\金融評価\\集計.json": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141金融集計を独立に確認する.py": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\145金融を別算術で確認する.py": "49bc9a8815dab4198c1c18423b64c256166292ac18ce053fd3248a01e8e359b2"
+  },
+  "主U0": {
+    "entries": 87,
+    "sessions": 73,
+    "complete": 81,
+    "censored": 6,
+    "forward": 42,
+    "adverse": 18,
+    "neither": 21,
+    "resolved": 60,
+    "resolved_rate": 0.7,
+    "complete_rate": 0.5185185185185185,
+    "target70": true,
+    "target70_all": false,
+    "ifd_known": 84,
+    "ifd_unknown": 3,
+    "ifd_exits": {
+      "観測不足": 3,
+      "期限清算": 21,
+      "逆行到達": 20,
+      "順行到達": 43
+    },
+    "ifd_net0_sum": 294532,
+    "ifd_net5_sum": 210532,
+    "ifd_net5_profit": 544996,
+    "ifd_net5_loss": 334464,
+    "ifd_net5_mean": 2506.3333333333335,
+    "ifd_net5_pf": 1.6294608687332568,
+    "ifd_net5_positive": 52,
+    "ifd_points_mean": 35.833333333333336,
+    "flips": 0
+  }
+}

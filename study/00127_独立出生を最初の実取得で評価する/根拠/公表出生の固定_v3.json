@@ -1,0 +1,29 @@
+{
+  "成功": true,
+  "版": "独立出生事前案v3",
+  "固定UTC": "2026-11-10T17:58:53.719912+00:00",
+  "条件SHA256": "5e55af9034f797887b3a596596a6a7cb3b6f7ea404bdee777facde14cf1899a3",
+  "コード文書": {
+    "work\\126独立出生の事前案\\条件_v3.md": "5e55af9034f797887b3a596596a6a7cb3b6f7ea404bdee777facde14cf1899a3",
+    "work\\126独立出生の事前案\\v3を準備する.py": "87cdfa946a3af2939d104dea1e9d847a27105c55d2f0ece9baa8243c8f3abca3",
+    "work\\126独立出生の事前案\\v3\\main.go": "7b8f1cd786e3b95b6daf792e5c1ee471889a13f1962f2badd81305950ca4e8b0",
+    "work\\126独立出生の事前案\\v3\\main_test.go": "e631e74e9e6b0eb5be10c147b9daed6e2d0848097d4b75ae1db7ab8c6f966495",
+    "work\\126独立出生の事前案\\v3\\v2_test.go": "fc4eeb7bff38523915995f05ed0e889ff728d797ae14e0a4541bfe9e461f223b",
+    "work\\126独立出生の事前案\\v3\\v3_test.go": "d4d7c0ecea09484a4f9c2549ab8260aeffee594ac600902bad3c6b33f6d9803a",
+    "work\\126独立出生の事前案\\v3\\go.mod": "18d5e3b4c4b0a47fd3b31ab63a9c92c607e7fa4764aa6c23ba0e8abf8bc62a13"
+  },
+  "v2固定SHA256": "babced389301c61aede9ad25291699644c077edc0cef6bcd3e6a8331b4864e97",
+  "v2出生SHA256": "77971a2871406b7f4b7e7dec1b0708f0d1c66fffaff1cf16518937a85b2fd4e2",
+  "入力SHA256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+  "既存Bank依存": {
+    "work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+  },
+  "人工検査": "go test -count=1 ./...（継承4+S追加2）/go vet ./... 成功",
+  "勝敗使用": false,
+  "Raw読取": false,
+  "開始時刻fallback": false,
+  "注記": "v2の0場/段階件数からS familyを追加。R/T条件はv2維持。v3出生件数/勝敗の計算前。"
+}

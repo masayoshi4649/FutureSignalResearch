@@ -1,0 +1,166 @@
+{
+  "試行": 124,
+  "事後説明用": "各条件で最初の時系列例。政策選定や閾値変更には用いない。",
+  "例": {
+    "両逆25の例": {
+      "session": "2026-09-21_Day",
+      "id": "2026-09-21_Day/補完/P3/33849",
+      "original_side": 1,
+      "strategy": "deadline",
+      "entry": {
+        "clock": "2026-09-21T11:45:55+09:00",
+        "time": 1789958755,
+        "index": 33870,
+        "source_line": 33887,
+        "last": 64990,
+        "bid": 64990,
+        "ask": 65000,
+        "quote_ok": true
+      },
+      "entry_price_original": 65000,
+      "entry_price_reverse": 64990,
+      "body": {
+        "known": true,
+        "value": 0.6666666666666666
+      },
+      "touches": {
+        "original": {
+          "width": 25,
+          "direction": -1,
+          "quote": {
+            "clock": "2026-09-21T11:54:07+09:00",
+            "time": 1789959247,
+            "index": 34686,
+            "source_line": 34703,
+            "last": 64990,
+            "bid": 64970,
+            "ask": 64990,
+            "quote_ok": true
+          }
+        },
+        "reverse": {
+          "width": 25,
+          "direction": -1,
+          "quote": {
+            "clock": "2026-09-21T11:46:12+09:00",
+            "time": 1789958772,
+            "index": 33908,
+            "source_line": 33925,
+            "last": 65010,
+            "bid": 65000,
+            "ask": 65020,
+            "quote_ok": true
+          }
+        },
+        "chart_original": {
+          "width": 25,
+          "direction": 1,
+          "quote": {
+            "clock": "2026-09-21T11:50:08+09:00",
+            "time": 1789959008,
+            "index": 34331,
+            "source_line": 34348,
+            "last": 65020,
+            "bid": 65010,
+            "ask": 65020,
+            "quote_ok": true
+          }
+        },
+        "chart_reverse": {
+          "width": 25,
+          "direction": -1,
+          "quote": {
+            "clock": "2026-09-21T11:50:08+09:00",
+            "time": 1789959008,
+            "index": 34331,
+            "source_line": 34348,
+            "last": 65020,
+            "bid": 65010,
+            "ask": 65020,
+            "quote_ok": true
+          }
+        }
+      }
+    },
+    "実体群125反転の例": {
+      "session": "2026-09-21_Night",
+      "id": "2026-09-21_Night/補完/P3/18279",
+      "original_side": -1,
+      "strategy": "deadline",
+      "entry": {
+        "clock": "2026-09-21T20:00:16+09:00",
+        "time": 1789988416,
+        "index": 18337,
+        "source_line": 18629,
+        "last": 65740,
+        "bid": 65730,
+        "ask": 65740,
+        "quote_ok": true
+      },
+      "entry_price_original": 65730,
+      "entry_price_reverse": 65740,
+      "body": {
+        "known": true,
+        "value": 0.5
+      },
+      "touches": {
+        "original": {
+          "width": 125,
+          "direction": -1,
+          "quote": {
+            "clock": "2026-09-21T20:54:19+09:00",
+            "time": 1789991659,
+            "index": 22744,
+            "source_line": 23036,
+            "last": 65860,
+            "bid": 65850,
+            "ask": 65860,
+            "quote_ok": true
+          }
+        },
+        "reverse": {
+          "width": 125,
+          "direction": 1,
+          "quote": {
+            "clock": "2026-09-21T20:55:44+09:00",
+            "time": 1789991744,
+            "index": 22902,
+            "source_line": 23194,
+            "last": 65870,
+            "bid": 65870,
+            "ask": 65880,
+            "quote_ok": true
+          }
+        },
+        "chart_original": {
+          "width": 125,
+          "direction": -1,
+          "quote": {
+            "clock": "2026-09-21T20:55:22+09:00",
+            "time": 1789991722,
+            "index": 22857,
+            "source_line": 23149,
+            "last": 65870,
+            "bid": 65840,
+            "ask": 65860,
+            "quote_ok": true
+          }
+        },
+        "chart_reverse": {
+          "width": 125,
+          "direction": 1,
+          "quote": {
+            "clock": "2026-09-21T20:55:22+09:00",
+            "time": 1789991722,
+            "index": 22857,
+            "source_line": 23149,
+            "last": 65870,
+            "bid": 65840,
+            "ask": 65860,
+            "quote_ok": true
+          }
+        }
+      }
+    }
+  }
+}

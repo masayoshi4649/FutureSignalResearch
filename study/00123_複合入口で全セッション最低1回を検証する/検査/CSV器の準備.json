@@ -1,0 +1,86 @@
+{
+  "試行": 123,
+  "成功": true,
+  "検査種別": "人工のみ",
+  "表名": [
+    "候補別集計",
+    "全セッション",
+    "入口明細"
+  ],
+  "任意列数行数": "8列3行×3表と入口明細0行を検査。自然の列定義/値は所与のJSONへ従う",
+  "構文検査": [
+    "Node --check成功",
+    "Python py_compile成功"
+  ],
+  "人工検査": [
+    {
+      "入力SHA256": "c3ff2313ce60782afef9c673df2e4eac314307c1338e215b95dab42b2f021e16",
+      "データセル": 72,
+      "数値セル": 27,
+      "Workbookヘッダ込み": 96,
+      "前後不変": true
+    },
+    {
+      "入力SHA256": "d988e2015668c4ee5c0214396b2f8a671d62aa183e8d57a868d2cb8e0d1aba79",
+      "データセル": 48,
+      "数値セル": 18,
+      "Workbookヘッダ込み": 72,
+      "前後不変": true
+    }
+  ],
+  "画像視認": [
+    "人工三表A:G、端切れなし",
+    "入口明細0行はヘッダのみ表示",
+    "変種の他二画像は同bytes",
+    "人工先頭零/booleanの描画表現とCSV元型保持を分離"
+  ],
+  "runtime": {
+    "node": "v24.22.1",
+    "node_path": "C:\\Users\\masay\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "artifact_tool": "2.8.129",
+    "package_sha256": "e7887299643ff13d7cc52b310aac2dc9cbc1842da2bcccdc68b7069a89cd60cb"
+  },
+  "指紋": {
+    "出力する.mjs": {
+      "SHA256": "59a05a02c9cb162172acb99338084a543f1b9e210cd046648a31634964a71250",
+      "bytes": 11306
+    },
+    "CSVを独立再読する.py": {
+      "SHA256": "8c7fedee7f21b89a9d7f51768ff8f35079e1702b0ae36bb14ef8067bc4ea94e7",
+      "bytes": 12872
+    },
+    "README.md": {
+      "SHA256": "96b19b2676b29f398e22c7245e0b166bbac11e30a1a88fb0904063a310e428f2",
+      "bytes": 4676
+    },
+    "人工入力を作る.py": {
+      "SHA256": "a3adcbf94d0f8a1bd8534664b4b9368363573e49d79eed7269f6bf44dbca832b",
+      "bytes": 1495
+    },
+    "人工入力.json": {
+      "SHA256": "c3ff2313ce60782afef9c673df2e4eac314307c1338e215b95dab42b2f021e16",
+      "bytes": 2577
+    },
+    "人工ヘッダのみ入力.json": {
+      "SHA256": "d988e2015668c4ee5c0214396b2f8a671d62aa183e8d57a868d2cb8e0d1aba79",
+      "bytes": 2009
+    },
+    "人工独立再読.json": {
+      "SHA256": "b6e8d8414138cf6f659146d671b5ecaf90d06dca2d387886622998417b067de1",
+      "bytes": 4672
+    },
+    "人工ヘッダのみ独立再読.json": {
+      "SHA256": "a39c41afea295d474fb46133e37548e26714dda026dd7566e82cf3c8c7287ba6",
+      "bytes": 4850
+    }
+  },
+  "金融再計算": false,
+  "自然結果読取": false,
+  "自然表読取": false,
+  "入力本文読取": false,
+  "Raw読取": false,
+  "自然CSV作成": false,
+  "marker実行": false,
+  "xlsx生成": false,
+  "編集停止": true
+}

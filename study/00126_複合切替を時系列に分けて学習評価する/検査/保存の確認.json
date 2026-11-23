@@ -1,0 +1,157 @@
+{
+  "成功": true,
+  "試行": 126,
+  "金融再実行なし": true,
+  "実行前5原文確認済": true,
+  "コピー": [
+    {
+      "source": "work/126複合切替の探索/F1.json",
+      "path": "検査/F1.json",
+      "bytes": 3058,
+      "sha256": "b7a4bfc217baf2d4bfea3d0963376a66626a6f9a0d6563747d3f8a78d5d7cd8e"
+    },
+    {
+      "source": "work/126複合切替の探索/分割固定.json",
+      "path": "検査/分割固定.json",
+      "bytes": 784,
+      "sha256": "1a4b7bb99e010918ebd9134136e19eed9da1468320da01f8aa62e59de76d4471"
+    },
+    {
+      "source": "work/126複合切替の探索/モデル固定.json",
+      "path": "検査/モデル固定.json",
+      "bytes": 357,
+      "sha256": "f5b512bbc7c6aaaba63201c67b7d59ca3da90d14b0b2e8716bea237f05510a6d"
+    },
+    {
+      "source": "work/126複合切替の探索/段階実行完了.json",
+      "path": "検査/段階実行完了.json",
+      "bytes": 439,
+      "sha256": "fe6072af4d7d3b152481da7caa5f77968f412126be1d15b339e69d2e89423088"
+    },
+    {
+      "source": "work/126複合切替の探索/学習完了.json",
+      "path": "検査/学習完了.json",
+      "bytes": 1909,
+      "sha256": "f4efaa7fa985ca3cb9cab66cb5fde2e7ecd6da988a3e22af2596fe895aaa837b"
+    },
+    {
+      "source": "work/126複合切替の探索/評価完了.json",
+      "path": "検査/評価完了.json",
+      "bytes": 372,
+      "sha256": "92d5e88c50244f4fb7ceb87ff0ac4d91157c96dc929359f850de2ce0f22d1216"
+    },
+    {
+      "source": "work/126複合切替の探索/分割の確認.json",
+      "path": "検査/分割の確認.json",
+      "bytes": 1017,
+      "sha256": "5279df5c6ebf0679060e548d6846d8addb3c1952d585dc73b955b40d9a0b67f3"
+    },
+    {
+      "source": "work/126複合切替の探索/準備の確認.json",
+      "path": "検査/準備の確認.json",
+      "bytes": 670,
+      "sha256": "7b1e24cc134ca3b5b5412e54355463465f777ac3af09c3446f399e6576f00702"
+    },
+    {
+      "source": "work/126複合切替の探索/人工検査.json",
+      "path": "検査/人工検査.json",
+      "bytes": 4101,
+      "sha256": "68552dc1d0b15b38126f2ab4743cb55b4a58cab6419b51d1296aeb3392595ed4"
+    },
+    {
+      "source": "work/126複合切替の探索/条件.md",
+      "path": "根拠/条件.md",
+      "bytes": 7668,
+      "sha256": "6b371aca8e347853553900373cdaee894ebfbf21295132d6704a648666bdd7c3"
+    },
+    {
+      "source": "work/126複合切替の探索/探索範囲.json",
+      "path": "根拠/探索範囲.json",
+      "bytes": 9414,
+      "sha256": "6833188e81aadea2611116da95ba58eef2aacfc047bbc76b628a32ebcbc1145a"
+    },
+    {
+      "source": "work/126複合切替の探索/時系列分割.json",
+      "path": "根拠/時系列分割.json",
+      "bytes": 3625,
+      "sha256": "c07864e7fbe8cae38313754b592fa471a2f5efd115cc6077479e583074435267"
+    },
+    {
+      "source": "work/126独立検算/確認.json",
+      "path": "検査/独立検算.json",
+      "bytes": 13691,
+      "sha256": "e30bd8de78e7ec0d1c52ac83f11e8f7966fa0a8cd3b5c5d9b0b870835641440d"
+    },
+    {
+      "source": "work/126独立検算/結果の確認.md",
+      "path": "検査/独立数値検算.md",
+      "bytes": 4262,
+      "sha256": "e9ebb8fd535723406253f7b022e781a6cfa9d232f0de2feb6d56f72e178d789d"
+    }
+  ],
+  "圧縮保存": [
+    {
+      "path": "成果物/集計.json.gz",
+      "bytes": 12671,
+      "sha256": "6857c74c6956f6c3c467ecaac67e088a13264cf682373c049c6ec5a26f90f6b8",
+      "decoded_bytes": 257250,
+      "decoded_sha256": "e30aca19e553ded53ccdd3b1785bd6168e19dd210aa9c32c1f9625c0063fdcd8"
+    },
+    {
+      "path": "成果物/学習モデル.json.gz",
+      "bytes": 37711,
+      "sha256": "d0bdc9091f40b6090b0595098970f16f69bc7df1d88f89049e4c79652982f91e",
+      "decoded_bytes": 999204,
+      "decoded_sha256": "a011cb759ff5d3ab05efe7c7a97bd1686fd9bdc482dfba048e8120e56bdd7059"
+    }
+  ],
+  "コードZIP": {
+    "path": "126コード.zip",
+    "bytes": 43813,
+    "sha256": "6adcb1be39d666e8d8cafe67e8d4cc212bfccc85ed1d8f8a8b62e87920ae95bd"
+  },
+  "コードZIP全entry復元一致": true,
+  "原板と分割payload重複保存なし": true,
+  "保存コードSHA256": "e597b53de43b9b0dbc2c55836dfc3e57b7666f103c1744ee40117df438ae707a",
+  "CSV閲覧器追補": {
+    "entries": [
+      {
+        "entry": "work/126時系列CSV出力/閲覧表を整える.py",
+        "restore_relative": "work/126時系列CSV出力/閲覧表を整える.py",
+        "bytes": 1919,
+        "sha256": "b7fca9bcc06036f1b17d332e42a2f0d5d59213cc7d54ff77c656fd2b97b43a90",
+        "crc32": "8154a9e6"
+      },
+      {
+        "entry": "work/126時系列CSV出力/出力する.mjs",
+        "restore_relative": "work/126時系列CSV出力/出力する.mjs",
+        "bytes": 11330,
+        "sha256": "c0c50dfdc0ecb0832798cb307a41691044cdbcd3f65cb7d32649bc83697a60ff",
+        "crc32": "b7fb6bc5"
+      },
+      {
+        "entry": "work/126時系列CSV出力/CSVを独立再読する.py",
+        "restore_relative": "work/126時系列CSV出力/CSVを独立再読する.py",
+        "bytes": 12872,
+        "sha256": "70796cf5b91648c964a5eaa4281747ba5471a806e74a3781a1cbe7a6c362ffcd",
+        "crc32": "1c06be4e"
+      }
+    ],
+    "proofs": [
+      {
+        "path": "検査/CSVの確認.json",
+        "sha256": "af2299cb143ecd611e77c20ca44aa5c571a0ab759974e84b7ad62181e84ac20b"
+      },
+      {
+        "path": "検査/CSV独立再読.json",
+        "sha256": "b3266ea2907c07799f3de138124fc803582ee2251bf19d1efa4404e99859935f"
+      },
+      {
+        "path": "検査/見出し補正の確認.json",
+        "sha256": "3e9802613a6fb01304ee1e1f5787e026efa4c619ad2653ed9cfe4af2aecf15e0"
+      }
+    ],
+    "金融再計算なし": true,
+    "元金融表とcode変更なし": true
+  }
+}

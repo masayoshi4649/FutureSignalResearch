@@ -1,0 +1,96 @@
+{
+  "成功": true,
+  "用途": "128の全場Raw足生成準備",
+  "原板読取": false,
+  "入力読取": false,
+  "金融ラベル読取": false,
+  "exe/結果複写": false,
+  "元試作コード": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\Raw価格時計の足生成",
+  "entries": [
+    {
+      "path": "decoder.go",
+      "元SHA256": "a6467e90fb68ca68ad0ab30f5b7333120333b4a1f17483cfeb1f233d8b9413c8",
+      "複写SHA256": "a6467e90fb68ca68ad0ab30f5b7333120333b4a1f17483cfeb1f233d8b9413c8",
+      "bytes": 2931,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "generator.go",
+      "元SHA256": "d4ddbf707f680663125f352e4878cdbac13efdb005d667a74fa102326844cc26",
+      "複写SHA256": "b4b5869a6af65c54c77729f0f652de4b59f914f2e02ccf22557983e692d721df",
+      "bytes": 12203,
+      "差": "module名/internal importだけ"
+    },
+    {
+      "path": "generator_test.go",
+      "元SHA256": "16f2230acee7ef2e08e988f72fee5d575d4205b76fdee24640ca7f0c47ccaca8",
+      "複写SHA256": "16f2230acee7ef2e08e988f72fee5d575d4205b76fdee24640ca7f0c47ccaca8",
+      "bytes": 8606,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "go.mod",
+      "元SHA256": "8fdab9281b7c207183132a192b2b53e2cd31f2bb1a1843b5cb5116892aff11ab",
+      "複写SHA256": "54dd81c6aef9ad73012477df8e15798ea68b14537a2953b52841a3df8c50a7c3",
+      "bytes": 561,
+      "差": "module名/internal importだけ"
+    },
+    {
+      "path": "internal/basenumeric/bridge.go",
+      "元SHA256": "fe289000e311d98424f172f62718ca068ec57733b61e6c6096f9c4587b02b6ac",
+      "複写SHA256": "fe289000e311d98424f172f62718ca068ec57733b61e6c6096f9c4587b02b6ac",
+      "bytes": 1918,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "internal/basenumeric/numeric.go",
+      "元SHA256": "c47e7b1f94b7683941da93941a957e683b1d206b32c9c4f4c996ec614891e78e",
+      "複写SHA256": "c47e7b1f94b7683941da93941a957e683b1d206b32c9c4f4c996ec614891e78e",
+      "bytes": 5101,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "internal/basenumeric/pivot.go",
+      "元SHA256": "3847769da84e4ee1d1f17001f00eb6e9363787b0cf359dca0699d43d1eff24bd",
+      "複写SHA256": "3847769da84e4ee1d1f17001f00eb6e9363787b0cf359dca0699d43d1eff24bd",
+      "bytes": 2406,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "internal/basenumeric/types.go",
+      "元SHA256": "055a4590a52005e0419bb9effd98051edcd9d1a9517215f022ce86e395d5e6a4",
+      "複写SHA256": "055a4590a52005e0419bb9effd98051edcd9d1a9517215f022ce86e395d5e6a4",
+      "bytes": 6427,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "internal/dminumeric/bridge.go",
+      "元SHA256": "acef1f340b91812b0d2e4103ff8c1354fa97fd58932c71c1f4b755cd1d9e8a8e",
+      "複写SHA256": "acef1f340b91812b0d2e4103ff8c1354fa97fd58932c71c1f4b755cd1d9e8a8e",
+      "bytes": 1006,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "internal/dminumeric/numeric.go",
+      "元SHA256": "6e55b159156196b6f2206f924c34c8c3866e76495a485b48dc7a692ba3224ff0",
+      "複写SHA256": "6e55b159156196b6f2206f924c34c8c3866e76495a485b48dc7a692ba3224ff0",
+      "bytes": 5219,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "internal/dminumeric/types.go",
+      "元SHA256": "6904fa91eb844b0cc09928974416cc567999662b88aa1b2e597434b851f53c73",
+      "複写SHA256": "6904fa91eb844b0cc09928974416cc567999662b88aa1b2e597434b851f53c73",
+      "bytes": 4505,
+      "差": "全bytes同体"
+    },
+    {
+      "path": "types.go",
+      "元SHA256": "c83dfaea528f7e965c89d2aecaf17fb93c0f1c6c4e7250c30939e2ec9474e869",
+      "複写SHA256": "c83dfaea528f7e965c89d2aecaf17fb93c0f1c6c4e7250c30939e2ec9474e869",
+      "bytes": 2954,
+      "差": "全bytes同体"
+    }
+  ],
+  "旧reader/cmd/sample": "2場限定/CSVパリティ部分はコピーせず、metadata専用全場reader/CLIを新規作成する。"
+}

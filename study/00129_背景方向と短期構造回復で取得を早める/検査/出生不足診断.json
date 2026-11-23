@@ -1,0 +1,116 @@
+{
+  "成功": true,
+  "金融結果未読": true,
+  "原板再読なし": true,
+  "旧129指紋不変数": 15,
+  "旧129実行体不変": true,
+  "context関数同体": true,
+  "主人工検査": [
+    "Test格子とriskの交差",
+    "Test段階の単位保存",
+    "Test同Raw全TFと量窓"
+  ],
+  "検査": [
+    {
+      "引数": [
+        "go",
+        "test",
+        "-count=1",
+        "-v",
+        "./..."
+      ],
+      "終了値": 0,
+      "標準出力": "=== RUN   Test格子とriskの交差\n--- PASS: Test格子とriskの交差 (0.00s)\n=== RUN   Test段階の単位保存\n--- PASS: Test段階の単位保存 (0.00s)\n=== RUN   Test同Raw全TFと量窓\n--- PASS: Test同Raw全TFと量窓 (0.00s)\nPASS\nok  \tbirthdiagnostic129\t0.014s\n",
+      "標準エラー": ""
+    },
+    {
+      "引数": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "終了値": 0,
+      "標準出力": "",
+      "標準エラー": ""
+    },
+    {
+      "引数": [
+        "go",
+        "build",
+        "-o",
+        "不足を診断する.exe",
+        "."
+      ],
+      "終了値": 0,
+      "標準出力": "",
+      "標準エラー": ""
+    },
+    {
+      "引数": [
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\129出生の不足診断\\不足を診断する.exe"
+      ],
+      "終了値": 2,
+      "標準出力": "",
+      "標準エラー": "完成SHA通知後だけ診断。明示入力/SHA/output/executeが必要。\n"
+    }
+  ],
+  "保存診断SHA": "0191c27805fa8691c1153b7019c36649a27cbdcdb8da6e6cb99b9cdee0b7343b",
+  "コードと文書": [
+    {
+      "path": "context129.go",
+      "bytes": 6111,
+      "sha256": "6babd016446079bef88bea36dca5835afbbd982a5141805ddce0df0f3bd4fb15"
+    },
+    {
+      "path": "go.mod",
+      "bytes": 303,
+      "sha256": "afc75fae1a691cc29e2fc6b7f282d46223d9a034560ae8b2e396506d68c54cad"
+    },
+    {
+      "path": "main.go",
+      "bytes": 13062,
+      "sha256": "e7e624f5debf411653df4f531ff21d168aada7d0488d1486f9b0f627c518a6a5"
+    },
+    {
+      "path": "main_test.go",
+      "bytes": 3062,
+      "sha256": "87c68e936cfe3823b94d901b5bf5ee5c28195a857d60ff2f94ee18bdfe4c6469"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3884,
+      "sha256": "7111e756ebec7a300fb556ab6d745dcd0db029c8be8586825bf6788eecca15e9"
+    },
+    {
+      "path": "固定条件の出自.json",
+      "bytes": 253,
+      "sha256": "5e187da0acda22e40af72bf3acf5d128bfff92962676578176a6f71f02f06693"
+    },
+    {
+      "path": "固定関数を用意する.py",
+      "bytes": 1006,
+      "sha256": "a188e63e31cf3c94427d1b78569971d24a26525dd83ad68ea2fd5f47fa4f6d86"
+    },
+    {
+      "path": "報告する.py",
+      "bytes": 10978,
+      "sha256": "8c551eebcb6898b004ab2268305ddfaa6660a434c65d9bd040564b3ea8830ee5"
+    },
+    {
+      "path": "検査する.py",
+      "bytes": 2804,
+      "sha256": "271f3968e4633f11cde84c6a2b3211037d5d4936c7d76f7fab99ed38eeb4b6a2"
+    },
+    {
+      "path": "結果と次の問い.md",
+      "bytes": 9066,
+      "sha256": "2f8c42891801907e5c7791d3f6bda8d1a184ef6ec91e0d195885cf5f0c3dae4b"
+    },
+    {
+      "path": "補助レビュー.md",
+      "bytes": 5378,
+      "sha256": "e7610da687b5383b75e379b7d00f5017c55dd8345ecf6a0df89f27cdbe7a57fb"
+    }
+  ],
+  "実行体SHA": "bc66ef4f014f6439b5cb9a4241305dcb11b41f295f9539fbcdd764b32ace9b0b"
+}

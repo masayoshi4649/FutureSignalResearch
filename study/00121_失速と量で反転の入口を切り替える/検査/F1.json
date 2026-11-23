@@ -1,0 +1,96 @@
+{
+  "trial": 121,
+  "fixed": true,
+  "source_signals_used": false,
+  "policies": [
+    "C0",
+    "E0",
+    "V0",
+    "EV",
+    "B0",
+    "B1"
+  ],
+  "independent_mini_quantity": 1,
+  "portfolio_pnl": false,
+  "target": "同幅先着70%以上を目指す入口精度。未到達・観測不足・少数例を別記。IFD実約定未検証。",
+  "horizons_seconds": [
+    1800,
+    3600
+  ],
+  "widths_points": [
+    25,
+    50,
+    100,
+    125,
+    200
+  ],
+  "signal_source": "確定1分の回復又は突破。未確定足完成形なし。",
+  "same_policy_side_cooldown_seconds": 300,
+  "maximum_structure_risk": "min(100pt,.5ATR5)",
+  "entry_cap": "1分終値±min(10pt,.15ATR5)。初回正常BBOで不適なら即取消。",
+  "market_order_seconds": 30,
+  "delay_seconds": 1,
+  "normal_bbo_gap_seconds": 300,
+  "endpoint_grace_seconds": 30,
+  "fee_round_yen": 77,
+  "slip_stress_round_yen": [
+    0,
+    1000
+  ],
+  "new_entry_clock": "原行から形成した確定1分構造。Source新規・取消・旧出口を候補出生に使わない。",
+  "new_entry_end": "SourceのForceClose未満",
+  "observation_end": "Session.Endまで。期限到達の最初の正常原行で終え、同秒後続原行を混ぜない。",
+  "known_sessions": 70,
+  "out_of_sample": false,
+  "11月09読取": false,
+  "input": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\入力.json",
+    "sha256": "574771f654937036b48c78eceadb46a4c5ff3c10265f60b0ec7879efb0d862c3"
+  },
+  "code_sha256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector.go": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector_test.go": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\go.mod": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\types.go": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\detector.go": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\detector_test.go": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\go.mod": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\policies.go": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\types.go": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\cmd\\run\\main.go": "a54a7233deabb1f32f47f982a3906edd7447977a10aec974004195ba8b6be392",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\entry.go": "4e6514166710feb4b424d6aa5798b58f96e17518a47bfad2c07b31d77827fec4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\entry_test.go": "f893b3dc705facb4d5b18ea7019938c3a3e677bdcfd002a45e5a653c3122e0e3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\go.mod": "48adb3c4aa7b1c2af63b52c3e001e08e5f86f2a24159af478687026cb144dae3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\outcome.go": "89967a80c155ca05088bcad6667788633e28b1be7a6161e77f4950a5005def76",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\実行する.py": "770d06d3d76c3e9069c32301fc75da563afecb21d1f34a94d5d8d47267c60fad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\対照を照合する.py": "02a5650114619da5ba15694e7008497a00b6a401562d0a78b1cde8c9958e1c59",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\条件を固定する.py": "c0abe501be33014d37de67a32b15cd2a8cc7fcee18ff7ac7298b2aa7504fbf27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\集計する.py": "c5338c3340952b6b701caf97a0914fd7236f57fb13796c9ef00edfd295be63d2"
+  },
+  "premarket_documents": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00121_失速と量で反転の入口を切り替える\\実行前原文\\README.md": "c062b969229890f5b09169d641d1adac24596ad6aec8b2799a0790dc046292be",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00121_失速と量で反転の入口を切り替える\\実行前原文\\設定と結果.md": "e224a9eb829d2c52fa5dbd9fa7874017b543ccc4d8f0174dabd5ac0f4b45b68e"
+  },
+  "executable": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口比較\\入口比較.exe",
+    "sha256": "94d7ba58205224bf9d5f759f88593a7fb0c4470517264493d396612e38d8668e"
+  },
+  "Go_version": "go version go1.24.2 windows/amd64",
+  "structure_hold": "全政策で出生と取得評価のLastが前5本逆側境界から側5pt以上を維持。最初の正常BBOでcap→hold→risk、拒否後に待たない。",
+  "minute_raw_gap_reset_seconds": 60,
+  "cohort": "C0の出生/冷却からE0/V0/EVを同原行派生、B1の出生/冷却からB0を同原行派生。将来約定結果を出生へ返さない。",
+  "source_control": "C0を120P2の22出生17取得へ全件対応させ、共通event情報・要求・状態・取得・期限評価が同体かを検査する。",
+  "hypothesis_status": "120既知結果の診断後に立てた探索仮説。ADX低下の7例は元54場6順0逆/追加16場0順1逆。未知再現性は未証明。",
+  "primary_metric": {
+    "horizon_seconds": 3600,
+    "symmetric_width_points": 100,
+    "target_favorable_first_rate": 0.7
+  }
+}

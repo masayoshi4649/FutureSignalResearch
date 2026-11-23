@@ -1,0 +1,341 @@
+{
+  "version": 1,
+  "trial": 124,
+  "勝敗非参照": true,
+  "新正逆結果未読": true,
+  "事後仮説": true,
+  "既知123全体成績あり": true,
+  "row_scope": "123/P3/filled全79、除外なし",
+  "original_side": "123出生のside。全ての符号付き特徴はこの向き。",
+  "unknown": "known=false,value=null。値0と未知を区別。",
+  "bins": [
+    {
+      "feature": "last_ema21_atr_signed_5",
+      "edges": [
+        -1,
+        -0.25,
+        0.25,
+        1,
+        2
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "last_ema8_atr_signed_5",
+      "edges": [
+        -1,
+        -0.25,
+        0.25,
+        1,
+        2
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "rsi_center_signed_5",
+      "edges": [
+        -20,
+        -15,
+        0,
+        15,
+        20
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "rsi_delta_signed_5",
+      "edges": [
+        -10,
+        -5,
+        0,
+        5,
+        10
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "hist_atr_signed_5",
+      "edges": [
+        -0.1,
+        0,
+        0.1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "hist_delta_atr_signed_5",
+      "edges": [
+        -0.1,
+        0,
+        0.1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "tr_previous_atr_ratio_5",
+      "edges": [
+        0.5,
+        1,
+        2,
+        3
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "rvol5",
+      "edges": [
+        0.5,
+        1,
+        2
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "candle5_body_signed_ratio",
+      "edges": [
+        -0.75,
+        -0.5,
+        -0.25,
+        0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "candle5_close_location_signed",
+      "edges": [
+        0.3,
+        0.5,
+        0.7
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "candle5_favorable_wick_ratio",
+      "edges": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "candle5_adverse_wick_ratio",
+      "edges": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "birth_spread",
+      "edges": [
+        5,
+        10,
+        20,
+        25
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_spread",
+      "edges": [
+        5,
+        10,
+        20,
+        25
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "birth_fill_delay_seconds",
+      "edges": [
+        1,
+        5,
+        10,
+        30
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_last_change_signed",
+      "edges": [
+        -25,
+        -10,
+        0,
+        10,
+        25
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_price_from_birth_last_signed",
+      "edges": [
+        -25,
+        -10,
+        0,
+        10,
+        25
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "elapsed_minutes",
+      "edges": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        360,
+        600
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_spread_over_width_25",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "birth_spread_over_width_25",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_spread_over_width_50",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "birth_spread_over_width_50",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_spread_over_width_100",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "birth_spread_over_width_100",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_spread_over_width_125",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "birth_spread_over_width_125",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "entry_spread_over_width_200",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    },
+    {
+      "feature": "birth_spread_over_width_200",
+      "edges": [
+        0.1,
+        0.2,
+        0.4,
+        1
+      ],
+      "interval": "下端を含む[a,b)。外側は±無限。未知はunknown。",
+      "zero_separate": true
+    }
+  ],
+  "categorical": [
+    "ma_5_15_30_alignment",
+    "four_vote_5_15_30_alignment",
+    "strategy",
+    "daynight",
+    "side",
+    "source_candle_width"
+  ],
+  "switches": {
+    "T1": "事前区分.mdの長中期方向＋短期勢い、確認済失敗突破例外。",
+    "T2": "事前区分.mdの過伸長＋失速＋拒否足。"
+  },
+  "共通": "閾値と優先順は新正逆結果で変更しない。必要条件が未解決ならkeep。",
+  "md_sha256": "2d4d816fdd5c38c5800db214fc677f800eecf57b9cdba0537277b99892ad247a"
+}

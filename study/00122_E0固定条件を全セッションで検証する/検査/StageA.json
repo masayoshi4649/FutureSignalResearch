@@ -1,0 +1,112 @@
+{
+  "trial": 122,
+  "fixed": true,
+  "stage": "A",
+  "fixed_utc": "2026-11-10T14:20:50.613686+00:00",
+  "main_policy": "E0",
+  "algorithm": "純121の固定E0。C0と基礎冷却/同出生派生、取得cap/hold/risk・費用・先着時計は変更しない。",
+  "horizons": [
+    1800,
+    3600
+  ],
+  "widths": [
+    25,
+    50,
+    100,
+    125,
+    200
+  ],
+  "primary_horizon": 3600,
+  "primary_width": 100,
+  "target_rate": 0.7,
+  "sessions": 73,
+  "known": 70,
+  "new": 3,
+  "quantity": 1,
+  "portfolio_pnl": false,
+  "ifd_execution": false,
+  "new_data_read_before_fixed": false,
+  "data_policy": "旧70の展開bytesと現在plainを全件照合。同体なら旧70公表再用。新3は115の同じ公表モデル/予定End前史種で生成。版差は黙って混在させない。",
+  "permission": "全セッションで検証というユーザー指示により、StageA後に11/09含む新規3Raw/CSVを入力生成/検証へ読む。",
+  "source_clock": "Day08:45〜15:45/Night17:00〜翌06:00、ForceClose=End−600秒。価格時計は実受信時計でない。",
+  "fee_round": 77,
+  "stress_extra_round": 1000,
+  "code_sha256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\bank.go": "78d82ff18b4abf5721a7948949f6dda72a58a4dd403651ae647cdd4431338b8f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\bank_test.go": "6ab6eae67fb8cac451c568e4aa875bd60f6e9693e7bfa1d018eb2de1e4b8f91f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\export_test.go": "413ddc5febd18eac454cfc6ec65c20e3d48162b6d575deb033c381b9a509bd89",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\go.mod": "98e3b40f584c5d54e4945ddf923afabd8831d5823d7fe4fd75eb12df7e12b575",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\numeric.go": "581970bc6f39a27397d462892c6a761e7715abe1c18a36690d262d64b74f0754",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\types.go": "2fe96170517fbc2908a4bf413884edea9dc4b30fc653e422119599cb0d89ba98",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector.go": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector_test.go": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\go.mod": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\types.go": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\detector.go": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\detector_test.go": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\go.mod": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\policies.go": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\121入口の反転切替\\types.go": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122入力を指紋化する.py": "99e1c2dcc44e46956e3d6123344e6a3af24ec6896237b2226416ebd88bb5871f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\cmd\\run\\main.go": "f05be07a15f47d1413cf707eac5f2f740e4f44ac8d44137c40e8ce605ca2d61a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\entry.go": "523d8a1a76868e3cd8885926ff8ad44c5201373f82dff02bd70783067678e2dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\entry_test.go": "ce5c3264e21ff19990d2326257c600dc19341420c0bd9db8c0293c47388f859c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\extension_test.go": "04566296412bc1169577fa80bc9ff49597b4c7b7366b9e51127ebd30a1236396",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\go.mod": "772f291a0de13b423f9eceef411e4e529f0752d13a47b51fd52648e7434fdb93",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\outcome.go": "69634d57055fc335326d65496736127860df71c5127c6866398da9b15299d92a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\stream.go": "b8fcb1b2b4b7564cccbdf3bff233886654a3ce0c730d30f398f345da7565ab71",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\validation.go": "8f9eb50b2576d9e8f3b837783717dfed1123a09741c7b5fc1d2796449713a904",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\入力を結合する.py": "279ff2fd41692893bf6bbdf33f821317cb1b7db6cb5e6f345b3787317bc292fc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\実行する.py": "d730a7913057cf5f94c4c40dcf5f30b2a8258cf057f21b91f384ea657c7f9885",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\既知対照を確認する.py": "25332513e68c099231c63a2fb521ea0a9b208799819516769573adb703db498f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\段階を固定する.py": "fa88912351090e9e86cfa69f8504e0999b3564c52ab2b2336d70bbd482a6324c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\集計する.py": "77da7f50545094181f354f7575478f13ed16463c8e74d288931b9182489dcb97",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\cmd\\run\\main.go": "a7085ae03587f4fd6a8f77f5ed2069863fa4c126ca196a0e9c6e868a6cd0709a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\export.go": "33a1150dcab8ca669bbc51c22485775ee51dc99342f1f41e5f89ac87b1903d04",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\export_test.go": "b75fb6ca943fb68bac501db1460d163a696c8aaff5f3f7832906b1a668cc627c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\go.mod": "e13e1195d52d6740c4e4f086af3b03dbc335e5cbb0fb69db011b8b5f44e5b7e5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\plan.go": "a7ddf960453b6368b98e5d09ce35517cd5050363da8485fe21e9301dc85f722f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\reader.go": "ac54a50dfcb1374b7aac9ea4d1660f849dbc69500975727ecf8f81805712706d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\types.go": "7da5683335885d68bbef53196fa8e8969f76832d1c0b76318c5d72a5fd88414a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の公開器\\bank.go": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の公開器\\bank_test.go": "b1944823b58b1cc2d400b57b782ab7bfac990d109eafedcf7f6c8a89843a4db9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の公開器\\go.mod": "896325a90f15c6c403d442e0cff148b9a4407a2176f34970e27495dfe849a95f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の公開器\\numeric.go": "f9da01f68ef8d1e63477acbbfb950854a99874d7ce23dca4140da6148bf2411b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の公開器\\pivot.go": "ef9d799dc978d7689167ab9c29a9bad879fd999a9993063f852d8e9432ad3f59",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の公開器\\types.go": "00b9b15619358b0c8212a5dcf32c1d2fd37acc30c037bf0e0d05c800060bd2c9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の市場入力口\\candle.go": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の市場入力口\\candle_test.go": "d10db77bd84897879a1254903a079d977752d7bbf6616986d3dc584b3715a13b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\三時間軸の市場入力口\\go.mod": "9354dc403283cd78a654637eeb4a24a1650a9a19923eae47641781ef5d82e33c"
+  },
+  "premarket_documents": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00122_E0固定条件を全セッションで検証する\\実行前原文\\README.md": "f82df0cc7bced84d45aa1407700450460a2c143a59bfb1c50bed3d78d85f184c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00122_E0固定条件を全セッションで検証する\\実行前原文\\設定と結果.md": "321c9f37de5842615458636359fc9007ee7169d190b69ed81f6b8436c257bea5"
+  },
+  "artificial_proofs": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\検査\\確認.json",
+      "sha256": "012b4dd2ea04e6e2f12427359509a8b18d965fd0ee259309bcd04f0f66453385"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成の検討\\確認.json",
+      "sha256": "437b7c768281fb9a62f3f100ef5f039a90a0f331ebca5a2525861240b9bc1206"
+    }
+  ],
+  "executables": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入口比較\\入口比較.exe",
+      "sha256": "35cc03c6224ffc5b4acda8cea83dcc2017717714c09cb42dbe3ee19ca406e86b"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122公表生成\\公表生成.exe",
+      "sha256": "a8c30ea53c659f3b03dacc7ddbefcb59da66a0cbd69804a7f817e6068c02a254"
+    }
+  ]
+}

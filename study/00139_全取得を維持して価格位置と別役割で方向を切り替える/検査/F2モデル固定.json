@@ -1,0 +1,34 @@
+{
+  "成功": true,
+  "試行": 139,
+  "段階": "評価前モデル固定F2",
+  "UTC": "2026-11-11T17:58:54.388131+00:00",
+  "F1_SHA256": "410feaa8a6bf130b32018cc79587a008b5cf61be91d9eac19cd1c423ebd316a7",
+  "モデルSHA256": "9f393fa20ad1d9febf8e33d67dec70d743206947627537c6023e423020cea6c0",
+  "選定報告SHA256": "9b07cddb8629db72e244e57eb3944b59b4cbc5d81ca5bb84357788e8e54eabd9",
+  "validationラベルを学習器へ渡した": false,
+  "実行列": [
+    "C:\\Python314\\python.exe",
+    "-X",
+    "utf8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\学習する.py",
+    "--features",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\入力\\出生特徴.json",
+    "--features-sha256",
+    "1812f9d2479dcd383f257f8323cc83e714a8b42d28a0caa5b987fe1114dc5d5d",
+    "--train",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\入力\\前48場のラベル.json",
+    "--train-sha256",
+    "5ac6136ee3cede031b3a7569a4025da13b504b56365fef15983698ec664e8042",
+    "--output-model",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\選択モデル.json",
+    "--output-report",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\前48の選定報告.json",
+    "--execute-after-f1"
+  ],
+  "ファイル": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\F1学習前.json": "410feaa8a6bf130b32018cc79587a008b5cf61be91d9eac19cd1c423ebd316a7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\選択モデル.json": "9f393fa20ad1d9febf8e33d67dec70d743206947627537c6023e423020cea6c0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\前48の選定報告.json": "9b07cddb8629db72e244e57eb3944b59b4cbc5d81ca5bb84357788e8e54eabd9"
+  }
+}

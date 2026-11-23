@@ -1,0 +1,56 @@
+{
+  "成功": true,
+  "試行": 127,
+  "人工のみ": true,
+  "自然Rawと出生を実行していない": true,
+  "主テスト数": 9,
+  "Source_F1コード前後同体": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\chart_outcome.go": "1557dbf3c745bf25af8481da8817f65dd9d8cc9deb09106216611e3282a07656",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\cmd\\run\\main.go": "6021ff7020d5fcd05c6938188f6bde500ba509a6113a98f542999ba1b9a27a76",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\core.go": "d7a560d419799ff827d214709a2d50c3c2b535ca52f61fb094ad67171090a569",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\engine.go": "5e431c8216c486d3442e97990b917456c56fad1684226300ff766ab51458a34d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\engine_test.go": "427a76586f3734f799278244a69bca4ddd6e0433f7b81c3fb27f1d8a53fe9df2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\go.mod": "6878e4785ba541c6e33095cdf5c87f47dd40ba36f04dc23ec7dd3431305eb1ae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\kernel_test.go": "53b7dfc7e9744f41598d8b1a9795d9a86e9773ff6ad2bdf532276856b4fc5fea",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\minimum_risk_test.go": "0e14310eac22809be7ea4e4a5721eba4a92abff95ef46db4d2d148ffbc4d52af",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\outcome.go": "2440e9e96ba26ef5f1d6c5b90821edfb0db11844df71a49956013083af539127",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\stream.go": "6e5c74d2cb432e5a85f10afeaea68cc30ce4bb144ffe721b432baab523d7cf6d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\独立出生の再生器\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4"
+  },
+  "commands": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-count=1",
+        "-v",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "=== RUN   TestRequestDelayMirrorAndRiskBoundary127\n--- PASS: TestRequestDelayMirrorAndRiskBoundary127 (0.00s)\n=== RUN   TestFirstNormalRejectionsAndTTL127\n=== RUN   TestFirstNormalRejectionsAndTTL127/false/上限優先\n=== RUN   TestFirstNormalRejectionsAndTTL127/false/構造優先\n=== RUN   TestFirstNormalRejectionsAndTTL127/false/risk超過\n=== RUN   TestFirstNormalRejectionsAndTTL127/false/riskゼロ\n=== RUN   TestFirstNormalRejectionsAndTTL127/false/TTL等号\n=== RUN   TestFirstNormalRejectionsAndTTL127/false/Force等号\n=== RUN   TestFirstNormalRejectionsAndTTL127/true/上限優先\n=== RUN   TestFirstNormalRejectionsAndTTL127/true/構造優先\n=== RUN   TestFirstNormalRejectionsAndTTL127/true/risk超過\n=== RUN   TestFirstNormalRejectionsAndTTL127/true/riskゼロ\n=== RUN   TestFirstNormalRejectionsAndTTL127/true/TTL等号\n=== RUN   TestFirstNormalRejectionsAndTTL127/true/Force等号\n--- PASS: TestFirstNormalRejectionsAndTTL127 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/false/上限優先 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/false/構造優先 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/false/risk超過 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/false/riskゼロ (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/false/TTL等号 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/false/Force等号 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/true/上限優先 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/true/構造優先 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/true/risk超過 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/true/riskゼロ (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/true/TTL等号 (0.00s)\n    --- PASS: TestFirstNormalRejectionsAndTTL127/true/Force等号 (0.00s)\n=== RUN   TestBirthScanStampPlainGzipAndSource127\n--- PASS: TestBirthScanStampPlainGzipAndSource127 (0.00s)\n=== RUN   TestBirthZeroQualityValidationAndBoundaries127\n--- PASS: TestBirthZeroQualityValidationAndBoundaries127 (0.00s)\n=== RUN   TestRunBirth73Artificial127\n人工00 成功=true \n人工01 成功=true \n人工02 成功=true \n人工04 成功=true \n人工06 成功=true \n人工05 成功=true \n人工03 成功=true \n人工07 成功=true \n人工09 成功=true \n人工08 成功=true \n人工10 成功=true \n人工14 成功=true \n人工11 成功=true \n人工15 成功=true \n人工13 成功=true \n人工12 成功=true \n人工18 成功=true \n人工20 成功=true \n人工16 成功=true \n人工17 成功=true \n人工23 成功=true \n人工22 成功=true \n人工21 成功=true \n人工19 成功=true \n人工24 成功=true \n人工25 成功=true \n人工26 成功=true \n人工28 成功=true \n人工31 成功=true \n人工29 成功=true \n人工27 成功=true \n人工32 成功=true \n人工30 成功=true \n人工35 成功=true \n人工39 成功=true \n人工34 成功=true \n人工40 成功=true \n人工37 成功=true \n人工33 成功=true \n人工38 成功=true \n人工36 成功=true \n人工41 成功=true \n人工43 成功=true \n人工44 成功=true \n人工46 成功=true \n人工42 成功=true \n人工47 成功=true \n人工45 成功=true \n人工49 成功=true \n人工48 成功=true \n人工55 成功=true \n人工51 成功=true \n人工52 成功=true \n人工53 成功=true \n人工57 成功=true \n人工50 成功=true \n人工56 成功=true \n人工54 成功=true \n人工61 成功=true \n人工63 成功=true \n人工58 成功=true \n人工62 成功=true \n人工59 成功=true \n人工65 成功=true \n人工67 成功=true \n人工64 成功=true \n人工66 成功=true \n人工68 成功=true \n人工69 成功=true \n人工60 成功=true \n人工70 成功=true \n人工71 成功=true \n人工72 成功=true \n--- PASS: TestRunBirth73Artificial127 (0.05s)\n=== RUN   TestFixedClockPricesAndSpread127\n--- PASS: TestFixedClockPricesAndSpread127 (0.00s)\n=== RUN   TestDeadlineKernelAndChartMoney127\n--- PASS: TestDeadlineKernelAndChartMoney127 (0.00s)\n=== RUN   TestGapAndNormalQuoteParity127\n--- PASS: TestGapAndNormalQuoteParity127 (0.00s)\n=== RUN   TestMinimumRiskMirror127\n--- PASS: TestMinimumRiskMirror127 (0.00s)\nPASS\nok  \tindependentbirth127\t0.280s\n?   \tindependentbirth127/cmd/run\t[no test files]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "F1実行ファイルを変更していない": true
+}

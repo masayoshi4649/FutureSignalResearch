@@ -1,0 +1,46 @@
+{
+  "成功": true,
+  "編集停止": true,
+  "正式保存候補": [
+    "README.md",
+    "全73場の利用可能性要約.json",
+    "初日の時計監査.json"
+  ],
+  "詳細大容量は作業のみ": true,
+  "許可InputSHA": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+  "結果metadataSHA": "667193822462a71e1164db81aa2bed41ac31afd96ef6b8ddc141add321482c62",
+  "Raw読取": "初日canonical1回だけ。価格時計/最初末尾正常BBO/履歴長を抽出。他72Raw未読。",
+  "時計再生は既定結果と一致": [
+    "quality",
+    "closed_minute_bars",
+    "stale_closures",
+    "eligible_closures",
+    "raw_gap_resets",
+    "gap_resets",
+    "publication_missing",
+    "atr1_history_missing177"
+  ],
+  "OHLC/ATR数値再計算": false,
+  "金融勝敗使用/再計算": false,
+  "123金融code変更": false,
+  "sourceData変更/Raw複写": false,
+  "チェック": {
+    "go vet ./...": 0,
+    "go build ./...": 0,
+    "固定parser/types byte同体": true,
+    "要約全73/区間境界": true
+  },
+  "SHA256": {
+    "README.md": "20b3b3c1f2e2a1d20b6808010de7be6c4f4933174ece49ae818534a4368964a8",
+    "全73場の利用可能性要約.json": "31583217ced106f82be4e00414ab0f11586209cfd653b35d6919d036d21fe7f0",
+    "初日の時計監査.json": "045a15df41cdc2e3b92a7a816a1b22528c30de59ce5d1f9324cf5bc256552bdb",
+    "公表利用可能性_追加指標.json": "a4f77f325582d5589ddfbe35c791b7828a67b4d3a01003f27661685dbc042279",
+    "main.go": "f86bef761f11f312bd48aa7ed9c77bc59b56cb47db54516ed4a9fcc9bf5b608c",
+    "cmd/clock/main.go": "ebc89a65f7d16795d242f9ca940e4205cde79aeea5e4cce92a43e14376f5462e",
+    "clockmeta/audit.go": "a5229e61f1d90a3e8471d2015d871e3e82c42e518ffea63c8cca327283e523cc",
+    "clockmeta/reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "clockmeta/types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "go.mod": "1a2ed189373feb58ad072d32da8b095e6a6f6dff37903185f7034b34f15e1790",
+    "要約する.py": "6b1b4a61b1e46644a45863f5f0470eb07d924133614f93ee66136d187ca2ced7"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "trial": 126,
+  "primary": "T8",
+  "policies": [
+    "O0",
+    "B0",
+    "T8",
+    "T6"
+  ],
+  "primary_minleaf": 8,
+  "comparison_minleaf": 6,
+  "maximum_depth": 2,
+  "different_roles_required": true,
+  "unknown": "B0を維持",
+  "body_candidate": false,
+  "complexity_penalty_per_split_and_flip_leaf": 1,
+  "gain": "全H完了の±125/H60ラベル(順+1/逆-1/未到達0)のB0からの改善和",
+  "leaf_guard": "両末端の全H完了数>=minimum、反転末端gain>0、両側既知C5差合計>0",
+  "tie_order": [
+    "得点大",
+    "複雑さ小",
+    "gain大",
+    "C5差大",
+    "木ID辞書順小"
+  ],
+  "atoms": [
+    {
+      "id": "A01",
+      "role": "MA方向・位置",
+      "feature": "gap_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A02",
+      "role": "MA方向・位置",
+      "feature": "ema8_delta_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A03",
+      "role": "MA方向・位置",
+      "feature": "ema21_delta_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A04",
+      "role": "MA方向・位置",
+      "feature": "di_delta_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A05",
+      "role": "MA方向・位置",
+      "feature": "gap_signed_15",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A06",
+      "role": "MA方向・位置",
+      "feature": "ema8_delta_signed_15",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A07",
+      "role": "MA方向・位置",
+      "feature": "ema21_delta_signed_15",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A08",
+      "role": "MA方向・位置",
+      "feature": "di_delta_signed_15",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A09",
+      "role": "MA方向・位置",
+      "feature": "gap_signed_30",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A10",
+      "role": "MA方向・位置",
+      "feature": "ema8_delta_signed_30",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A11",
+      "role": "MA方向・位置",
+      "feature": "ema21_delta_signed_30",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A12",
+      "role": "MA方向・位置",
+      "feature": "di_delta_signed_30",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A13",
+      "role": "MA方向・位置",
+      "feature": "last_ema8_atr_signed_5",
+      "threshold": -1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A14",
+      "role": "MA方向・位置",
+      "feature": "last_ema8_atr_signed_5",
+      "threshold": -0.25,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A15",
+      "role": "MA方向・位置",
+      "feature": "last_ema8_atr_signed_5",
+      "threshold": 0.25,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A16",
+      "role": "MA方向・位置",
+      "feature": "last_ema8_atr_signed_5",
+      "threshold": 1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A17",
+      "role": "MA方向・位置",
+      "feature": "last_ema8_atr_signed_5",
+      "threshold": 2,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A18",
+      "role": "MA方向・位置",
+      "feature": "last_ema21_atr_signed_5",
+      "threshold": -1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A19",
+      "role": "MA方向・位置",
+      "feature": "last_ema21_atr_signed_5",
+      "threshold": -0.25,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A20",
+      "role": "MA方向・位置",
+      "feature": "last_ema21_atr_signed_5",
+      "threshold": 0.25,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A21",
+      "role": "MA方向・位置",
+      "feature": "last_ema21_atr_signed_5",
+      "threshold": 1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A22",
+      "role": "MA方向・位置",
+      "feature": "last_ema21_atr_signed_5",
+      "threshold": 2,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A23",
+      "role": "勢い",
+      "feature": "rsi_center_signed_5",
+      "threshold": -20,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A24",
+      "role": "勢い",
+      "feature": "rsi_center_signed_5",
+      "threshold": -15,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A25",
+      "role": "勢い",
+      "feature": "rsi_center_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A26",
+      "role": "勢い",
+      "feature": "rsi_center_signed_5",
+      "threshold": 15,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A27",
+      "role": "勢い",
+      "feature": "rsi_center_signed_5",
+      "threshold": 20,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A28",
+      "role": "勢い",
+      "feature": "rsi_delta_signed_5",
+      "threshold": -10,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A29",
+      "role": "勢い",
+      "feature": "rsi_delta_signed_5",
+      "threshold": -5,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A30",
+      "role": "勢い",
+      "feature": "rsi_delta_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A31",
+      "role": "勢い",
+      "feature": "rsi_delta_signed_5",
+      "threshold": 5,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A32",
+      "role": "勢い",
+      "feature": "rsi_delta_signed_5",
+      "threshold": 10,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A33",
+      "role": "勢い",
+      "feature": "hist_atr_signed_5",
+      "threshold": -0.1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A34",
+      "role": "勢い",
+      "feature": "hist_atr_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A35",
+      "role": "勢い",
+      "feature": "hist_atr_signed_5",
+      "threshold": 0.1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A36",
+      "role": "勢い",
+      "feature": "hist_delta_atr_signed_5",
+      "threshold": -0.1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A37",
+      "role": "勢い",
+      "feature": "hist_delta_atr_signed_5",
+      "threshold": 0,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A38",
+      "role": "勢い",
+      "feature": "hist_delta_atr_signed_5",
+      "threshold": 0.1,
+      "signed_to_B0": true,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A39",
+      "role": "値幅",
+      "feature": "tr_previous_atr_ratio_5",
+      "threshold": 0.5,
+      "signed_to_B0": false,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A40",
+      "role": "値幅",
+      "feature": "tr_previous_atr_ratio_5",
+      "threshold": 1,
+      "signed_to_B0": false,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A41",
+      "role": "値幅",
+      "feature": "tr_previous_atr_ratio_5",
+      "threshold": 2,
+      "signed_to_B0": false,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A42",
+      "role": "値幅",
+      "feature": "tr_previous_atr_ratio_5",
+      "threshold": 3,
+      "signed_to_B0": false,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A43",
+      "role": "量",
+      "feature": "rvol5",
+      "threshold": 0.5,
+      "signed_to_B0": false,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A44",
+      "role": "量",
+      "feature": "rvol5",
+      "threshold": 1,
+      "signed_to_B0": false,
+      "operator": "既知値<境界"
+    },
+    {
+      "id": "A45",
+      "role": "量",
+      "feature": "rvol5",
+      "threshold": 2,
+      "signed_to_B0": false,
+      "operator": "既知値<境界"
+    }
+  ],
+  "spec_sha256": "6b371aca8e347853553900373cdaee894ebfbf21295132d6704a648666bdd7c3",
+  "feature_sha256": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+  "base_choices_sha256": "16577b438f2de650c4398b313c2212fa124e812aea278e4dc00c529ffcb4c0a3"
+}

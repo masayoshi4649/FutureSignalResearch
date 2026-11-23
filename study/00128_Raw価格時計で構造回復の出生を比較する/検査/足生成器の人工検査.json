@@ -1,0 +1,69 @@
+{
+  "成功": true,
+  "準備UTC": "2026-11-10T19:02:23.015122+00:00",
+  "状態": "コード/人工検査/仕様完成・自然生成前・編集停止",
+  "自然Input読取": false,
+  "自然Raw読取": false,
+  "金融ラベル生成読取": false,
+  "原板大型入力exe結果の複写": false,
+  "主": "gap300",
+  "品質診断": "gap60",
+  "対照": "同じgap300完成値のEnd+60遅延公表",
+  "carry": "直前計画場の完全成功かつ同限月だけ、初cold/限月変更cold、数量構造等reset",
+  "旧試作12コード前後同体": true,
+  "検査": {
+    "go test -count=1 ./...": "成功",
+    "go vet ./...": "成功",
+    "go build ./...": "成功",
+    "主人工件数": 9,
+    "人工検査名": [
+      "TestMetadataIgnoresCSVAndRequiresQuality",
+      "TestDelayedCopyAndEOF",
+      "TestAll73SequentialCarryAndCold",
+      "TestQualityFailureStopsBeforeNext",
+      "TestCausalClosureAndFuture",
+      "TestOriginalNumericParity",
+      "TestGapUnknownAndQuantity",
+      "TestMirrorCarryAndContract",
+      "TestUnlocatedClockAndTerminal"
+    ]
+  },
+  "コード文書SHA256": {
+    "all.go": "2e60e29aac41341b3c1dd529980ee841cf4159492661d939c010a4c53405e7a5",
+    "all_test.go": "4a5f5ad3eebd123b5d629df69418827b9b9f0bb5c169f73a95d676e5b49caf8a",
+    "cmd/all/main.go": "37602325c7c7491d3ecd1cad0424ba50ca6fcfb666cbe6f8fddb8eecd25d2662",
+    "decoder.go": "a6467e90fb68ca68ad0ab30f5b7333120333b4a1f17483cfeb1f233d8b9413c8",
+    "delay.go": "b737c6437d716ce53b655852de215ad6967c7332264fc1ff9daadcec59a0b8a2",
+    "generator.go": "b4b5869a6af65c54c77729f0f652de4b59f914f2e02ccf22557983e692d721df",
+    "generator_test.go": "16f2230acee7ef2e08e988f72fee5d575d4205b76fdee24640ca7f0c47ccaca8",
+    "go.mod": "54dd81c6aef9ad73012477df8e15798ea68b14537a2953b52841a3df8c50a7c3",
+    "internal/basenumeric/bridge.go": "fe289000e311d98424f172f62718ca068ec57733b61e6c6096f9c4587b02b6ac",
+    "internal/basenumeric/numeric.go": "c47e7b1f94b7683941da93941a957e683b1d206b32c9c4f4c996ec614891e78e",
+    "internal/basenumeric/pivot.go": "3847769da84e4ee1d1f17001f00eb6e9363787b0cf359dca0699d43d1eff24bd",
+    "internal/basenumeric/types.go": "055a4590a52005e0419bb9effd98051edcd9d1a9517215f022ce86e395d5e6a4",
+    "internal/dminumeric/bridge.go": "acef1f340b91812b0d2e4103ff8c1354fa97fd58932c71c1f4b755cd1d9e8a8e",
+    "internal/dminumeric/numeric.go": "6e55b159156196b6f2206f924c34c8c3866e76495a485b48dc7a692ba3224ff0",
+    "internal/dminumeric/types.go": "6904fa91eb844b0cc09928974416cc567999662b88aa1b2e597434b851f53c73",
+    "metadata.go": "9e282ab62a4e3bfad1f25a2d6baae6d8f5886138376ec5ac7156c8bb9d92d49c",
+    "README.md": "72abfc4d20f4c1231bb75783b419ac4f60a1da945541b9ade6a8699d4b7b4e4f",
+    "scan.go": "141679465a6ded5308894d07372e4dfe476878442452af06eb3dfc5917ec3e1d",
+    "types.go": "ae31502e2bf7db80b9d283814601c9bbbe2870bd12e108a39ed606bcc0107463",
+    "試作コードを複写する.py": "35c07f3697e2939a82bbb0400f1529c2b2516426269a10f9b3eb0d68307bec2c"
+  },
+  "README_SHA256": "72abfc4d20f4c1231bb75783b419ac4f60a1da945541b9ade6a8699d4b7b4e4f",
+  "全場CLI": "cmd/all/main.go",
+  "明示必須": [
+    "--input",
+    "--sha256",
+    "--output",
+    "--carry",
+    "--execute-all"
+  ],
+  "出力": [
+    "gap300.json.gz",
+    "gap60.json.gz",
+    "gap300_delay60.json.gz",
+    "summary.json"
+  ],
+  "注意": "CurrentPriceTimeは受信時計実測ではない。旧CSV比較と純60秒遅延対照を区別。EOF未配送/モデル別BB-RVOL窓差を保持。"
+}

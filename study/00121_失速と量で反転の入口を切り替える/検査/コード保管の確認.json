@@ -1,0 +1,67 @@
+{
+  "試行": 121,
+  "成功": true,
+  "段階": "固定コード・最終CSV器・独立検算コードの最終保管",
+  "保存対象": [
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/成果物/集計.json",
+      "bytes": 2475486,
+      "sha256": "5f103dae6636cee921f62e86f3869602be0c62e3f7ee7576152870f282eedb96"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/検査/全70場の完了.json",
+      "bytes": 10898,
+      "sha256": "036b798cacf592858d658d291f5a27fbc54dc751dfa1031911dbe172df05c4eb"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/検査/対照の確認.json",
+      "bytes": 599,
+      "sha256": "52dd60ab290c18f0e3e00a0c775e9fe8e5f60ad439a823b2220e151e99c0cba7"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/検査/独立検算.json",
+      "bytes": 36837,
+      "sha256": "c4c384cd79a262a9f54a2b0993305c9086abf803a429e5b47bf60cd7280d91a2"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/検査/CSVの独立再読.json",
+      "bytes": 5994,
+      "sha256": "941b215789bf45e1ddb9294dbdf2e56c6b3055dad737092380bbd2507350afec"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/検査/CSVの生成確認.json",
+      "bytes": 4588,
+      "sha256": "ca1a193d41141af2f19dbe9926e3c7dc1eb66f679727da2d20a5809156c388d5"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/成果物/全70場の入口結果.json.gz",
+      "bytes": 102136,
+      "sha256": "8fa91532c23a39f234b32feba277890bc651a65642ca840d1b4f6073aef37b9d",
+      "展開後bytes": 1555591,
+      "展開後SHA256": "57118383d3e69ce341db955d0c34873b77177e497c801f6093630f4f31dd83bd"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+      "bytes": 101477,
+      "sha256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+    },
+    {
+      "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/コード復元索引.json",
+      "bytes": 11643,
+      "sha256": "ded9a67a0dadc984eb13a74b871d3f35f5e954c1e2ffaf9c6cfcfc306ca28cd2"
+    }
+  ],
+  "旧120pureは正式120ZIPの4entry参照を維持": true,
+  "ZIP全entrySHAサイズCRC一致": true,
+  "結果gzip全bytes復元一致": true,
+  "固定金融コードと原文不変": true,
+  "初期packからの非金融変更": "固定金融コードを変更せず、非金融CSV器の小範囲プレビュー修正と独立checker・結果保管器を結合",
+  "市場入力本文読取": false,
+  "Raw読取": 0,
+  "Native読取": 0,
+  "11月09読取": false,
+  "金融再実行": false,
+  "金融再集計": false,
+  "入力実行物原板Native重複複写": false,
+  "保管器SHA256": "bf89da83e917231b67290ee6eff5f3a90be962f4cfa916a9bff6e4b275e5ad20"
+}

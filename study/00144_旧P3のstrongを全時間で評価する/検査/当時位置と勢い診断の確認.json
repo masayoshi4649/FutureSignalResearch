@@ -1,0 +1,109 @@
+{
+  "成功": true,
+  "試行": 144,
+  "作業": "新strong329の当時位置・勢い・上位方向の事後診断",
+  "編集停止": true,
+  "金融生成通知後の事後診断": true,
+  "群結果参照前に区分MDを保存": true,
+  "新閾値探索": false,
+  "新候補採用": false,
+  "原板再読": false,
+  "CSV再読": false,
+  "追加2場参照": false,
+  "金融集計器のimport": false,
+  "全取得件数": 329,
+  "全場台帳": 73,
+  "新stream取得場": 72,
+  "各区分の全73場保持": true,
+  "方向別": {
+    "native": {
+      "count": 329,
+      "順行": 123,
+      "逆行": 142,
+      "未到達": 38,
+      "H不足": 26,
+      "resolved": 265,
+      "resolved_fraction": "123/265",
+      "resolved_rate": 0.4641509433962264,
+      "complete_rate": 0.40594059405940597,
+      "IFD_known": 324,
+      "IFD_unknown": 5,
+      "C5_profit": 1671373,
+      "C5_loss_absolute": 2227321,
+      "C5_net": -555948
+    },
+    "reverse": {
+      "count": 329,
+      "順行": 119,
+      "逆行": 152,
+      "未到達": 32,
+      "H不足": 26,
+      "resolved": 271,
+      "resolved_fraction": "119/271",
+      "resolved_rate": 0.43911439114391143,
+      "complete_rate": 0.3927392739273927,
+      "IFD_known": 325,
+      "IFD_unknown": 4,
+      "C5_profit": 1560528,
+      "C5_loss_absolute": 2455553,
+      "C5_net": -895025
+    },
+    "T8": {
+      "count": 329,
+      "順行": 136,
+      "逆行": 131,
+      "未到達": 36,
+      "H不足": 26,
+      "resolved": 267,
+      "resolved_fraction": "136/267",
+      "resolved_rate": 0.5093632958801498,
+      "complete_rate": 0.44884488448844884,
+      "IFD_known": 324,
+      "IFD_unknown": 5,
+      "C5_profit": 1792603,
+      "C5_loss_absolute": 2102551,
+      "C5_net": -309948
+    }
+  },
+  "検査": [
+    "全329・一意ID・全73順",
+    "3方向の全体と全15区分の件数/4ラベル/分母/利益損失の再加算",
+    "全15区分の0件場を含む73場台帳",
+    "位置境界0/.25/.75/1と売買鏡像",
+    "未知と既知0・幅非正の分離",
+    "H不足でも既知touchを保持・未touchは未知・C5費用1077円",
+    "Python構文",
+    "元2入力SHA一致"
+  ],
+  "入力": {
+    "metadata": {
+      "path": "work/144旧strongの全成立評価/固定入力/入口参照.json",
+      "sha256": "cf7bc8c0324911a46f6f0c948e06255a7319949876118620a4614b7bc3bfcd71",
+      "実SHA256": "cf7bc8c0324911a46f6f0c948e06255a7319949876118620a4614b7bc3bfcd71"
+    },
+    "observed": {
+      "path": "work/144旧strongの全成立評価/固定取得の正逆観測.json",
+      "sha256": "b6395b8e123f3b562673a695e35a28023f2419fca7100d8f40b1dfb30070ca32",
+      "実SHA256": "b6395b8e123f3b562673a695e35a28023f2419fca7100d8f40b1dfb30070ca32"
+    }
+  },
+  "停止対象": {
+    "事後診断する.py": {
+      "bytes": 8873,
+      "sha256": "06c07ef00427e33a93465cecdcf5668030c39294dc28d4df82535ffeea817a8c"
+    },
+    "区分と先読みの扱い.md": {
+      "bytes": 2718,
+      "sha256": "2c6f4c2b5bfff2bd1f1fc486f180e098e39dae51d0a71c44786159c946bed9c2"
+    },
+    "固定区分の事後比較.json": {
+      "bytes": 492262,
+      "sha256": "8b67d77787a5062579f2386c93e2f523133cff1df5caeca2d8e6ef6e92f23200"
+    },
+    "当時位置と勢いから見た限界.md": {
+      "bytes": 5795,
+      "sha256": "b6f99f55de148394ab79462fe620d03de65829d2b1676aae17b8eade2cc56e50"
+    }
+  },
+  "限界": "保存score出生時値と保存正逆BBOだけの事後診断。同場依存・全期既使用。旧scannerの再構築や実約定を証明しない。"
+}

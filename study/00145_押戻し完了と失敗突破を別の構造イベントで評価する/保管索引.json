@@ -1,0 +1,1418 @@
+{
+  "試行": 145,
+  "段階": "正式保存完了・編集停止。F0/F1原文/全55参照/52保存bytes/生成入力/観測/金融/CSV/診断/参照追補/再集計を確認",
+  "F0_SHA256": "6fadecc41c5875c37e0f2305ce7d365e0feef8bfc2b6ed4a362bcb8740b870fe",
+  "F0直接源数": 35,
+  "F0原文": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0出生前.json",
+    "復元先": "work/145構造イベントの評価/F0出生前.json",
+    "形式": "同体",
+    "保存bytes": 6718,
+    "保存SHA256": "6fadecc41c5875c37e0f2305ce7d365e0feef8bfc2b6ed4a362bcb8740b870fe",
+    "解凍bytes": 6718,
+    "解凍SHA256": "6fadecc41c5875c37e0f2305ce7d365e0feef8bfc2b6ed4a362bcb8740b870fe"
+  },
+  "F0文書原文": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0実行前文書.json.gz",
+    "保存SHA256": "d59a73cb97a2ef461451458bf3e55f7be9ad95afaeaafa443897ba83df052ba0",
+    "正式文書数": 3,
+    "文書数": 6
+  },
+  "F0復元参照": {
+    "文書snapshot": [
+      {
+        "復元先": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/README.md",
+        "sha256": "a96eb9d5817b74533d4b25968b9c962df11f09f3b8b45f4437cec192dfa16cb5",
+        "bytes": 6154,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/README.md"
+      },
+      {
+        "復元先": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/条件.md",
+        "sha256": "75d49527b555ef9c459683f1e444a0a70ec06aafa4803256fb29f5ad32ea6c9d",
+        "bytes": 16021,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/条件.md"
+      },
+      {
+        "復元先": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/設定と結果.md",
+        "sha256": "9b261978e35e46cd855de31826514159620068febf7e173d45ecfbe026ed76c9",
+        "bytes": 22948,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/設定と結果.md"
+      },
+      {
+        "復元先": "work/118複数技法の入口条件/README.md",
+        "sha256": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+        "bytes": 3780,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "work/118複数技法の入口条件/README.md"
+      },
+      {
+        "復元先": "work/145_構造イベント入口の採用仕様.md",
+        "sha256": "38d1cc08e15438af669d318a9abd43814c590c48eadc1c8bb7ea0c255158f6b3",
+        "bytes": 11949,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "work/145_構造イベント入口の採用仕様.md"
+      },
+      {
+        "復元先": "work/145構造イベントの入口/README.md",
+        "sha256": "97f14b81c1c398fcd941f0bffc3eb829c3cbf8f4a08b18b376b7a907fe57913b",
+        "bytes": 6520,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "work/145構造イベントの入口/README.md"
+      }
+    ],
+    "共有入力": [
+      {
+        "保存元": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+        "復元先": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+        "形式": "同体",
+        "保存SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+        "解凍SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b"
+      },
+      {
+        "保存元": "inputs/00138_全成立入口の共用入力/固定取得入力.json.gz",
+        "復元先": "work/138全成立入口の評価/固定入力_版2/固定取得入力.json",
+        "形式": "gzip",
+        "保存bytes": 45356,
+        "保存SHA256": "828466aaefd2a1ab5abf30527a51bd4404f5b3b6f755fa640d6d951e97557510",
+        "解凍bytes": 377079,
+        "解凍SHA256": "0c83e525dec3079ce188d942069c0d137c94f39009339752ec8227ec9ecb4ce7"
+      },
+      {
+        "保存元": "inputs/00138_全成立入口の共用入力/manifest.json.gz",
+        "復元先": "work/全成立poolの非金融manifest/manifest.json",
+        "形式": "gzip",
+        "保存bytes": 201408,
+        "保存SHA256": "69e4cbf4524a2efd27f62201cd40decbb8935fc626743b3b5aa5493ad0bf3ee1",
+        "解凍bytes": 3949676,
+        "解凍SHA256": "e7ba444fd66f9ca52e10e929eeb31d21076f97afa161de738dabca14a8ff8e35"
+      }
+    ],
+    "共有コード": [
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/bank.go",
+        "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+        "bytes": 7897,
+        "復元先": "work/118複数技法の入口条件/bank.go"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/go.mod",
+        "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+        "bytes": 76,
+        "復元先": "work/118複数技法の入口条件/go.mod"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/rules.go",
+        "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+        "bytes": 8347,
+        "復元先": "work/118複数技法の入口条件/rules.go"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/rules_test.go",
+        "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+        "bytes": 8029,
+        "復元先": "work/118複数技法の入口条件/rules_test.go"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/types.go",
+        "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+        "bytes": 4220,
+        "復元先": "work/118複数技法の入口条件/types.go"
+      },
+      {
+        "保存元ZIP": "study/00144_旧P3のstrongを全時間で評価する/再現資料/144出生前の固定資料.zip",
+        "ZIP_SHA256": "1f2ef32d408ebb21846ed60101e58116097ea143bd5a2e80b527928b80e9db16",
+        "ZIP内path": "work/118複数技法の入口条件/検査/確認.json",
+        "sha256": "64ca0b2ba6184fdf0b3831789fe316de28e6fc2a82ea9a17537d2da93b3d1107",
+        "bytes": 3542,
+        "復元先": "work/118複数技法の入口条件/検査/確認.json"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/133金融前を固定して実行する.py",
+        "sha256": "a688f2ab68ed56344cc4f1154376f5655ffe2997728d9cbb02dc8651baef3a07",
+        "bytes": 7758,
+        "復元先": "work/133金融前を固定して実行する.py"
+      }
+    ],
+    "新固定源": [
+      {
+        "path": "work/145出生と金融を分離して実行する.py",
+        "sha256": "66aa795c84999898e30723680bff32f6fabea590658ee737cc535533dd899926",
+        "bytes": 6612
+      },
+      {
+        "path": "work/145構造イベントと旧対照を固定取得へ渡す.py",
+        "sha256": "92809e1b131b06d77d9c04fef2dfabdf98bf15ab07ecdfa28a99c07a50009933",
+        "bytes": 11141
+      },
+      {
+        "path": "work/145構造イベントの入口/cmd/run/main.go",
+        "sha256": "7d8ef4298888b2dbfd6137d627244da66d426f23c6af14da4c6f25d6bcab6eaa",
+        "bytes": 1589
+      },
+      {
+        "path": "work/145構造イベントの入口/entry.go",
+        "sha256": "d1f5a164e56c270c69c5eedf3f2240ef521ac7168f26903037e5a5ed2056c7f2",
+        "bytes": 21595
+      },
+      {
+        "path": "work/145構造イベントの入口/entry_test.go",
+        "sha256": "8b2c16ccc64e6999fae32c98448eec49600e6ebba91761e2c7451551581bfda9",
+        "bytes": 19098
+      },
+      {
+        "path": "work/145構造イベントの入口/go.mod",
+        "sha256": "2dfdc346c352164b487c1d1985db9a5e3de62fa63b5ee8bd6740825afbfee4e2",
+        "bytes": 264
+      },
+      {
+        "path": "work/145構造イベントの入口/history.go",
+        "sha256": "58147116b59262594e466583c6a241294e9166bdbc770377268cf8a33f2e501d",
+        "bytes": 1384
+      },
+      {
+        "path": "work/145構造イベントの入口/reader.go",
+        "sha256": "e47622638858321da9727b30ac5cff58acd6a01193a2c22c4e11e2ac50e617f4",
+        "bytes": 3579
+      },
+      {
+        "path": "work/145構造イベントの入口/scanner.go",
+        "sha256": "bbf381eb17a521330da5a4189528c96723216143748eb1cae0e0663854dc29e9",
+        "bytes": 9206
+      },
+      {
+        "path": "work/145構造イベントの入口/stream.go",
+        "sha256": "01fc123d6c6b72f38fb15be724d2587f342e8e2d665cb80c6b6c56debac0eae5",
+        "bytes": 757
+      },
+      {
+        "path": "work/145構造イベントの入口/types.go",
+        "sha256": "18fd8079a356aaa370930ef616767594e1166e0da80df89e1fe4f0dd3912e982",
+        "bytes": 1311
+      },
+      {
+        "path": "work/145構造イベントの入口/validation.go",
+        "sha256": "412ac846476bf9b6521520cfb9edb80fbd62c2bf2bc3e909032257094c5e827f",
+        "bytes": 3365
+      },
+      {
+        "path": "work/145構造イベントの入口/準備する.py",
+        "sha256": "e31a1173e6575821a592e6a717ca645953cc4acea7d246c600cca741d401024d",
+        "bytes": 4575
+      },
+      {
+        "path": "work/145構造イベントの入口/準備の確認.json",
+        "sha256": "c06a686db7bc2da2e974b43c343ef1f2308805a6fa460013c6eb87c8eb7e9e3a",
+        "bytes": 7775
+      },
+      {
+        "path": "work/145構造イベントの入口/由来.json",
+        "sha256": "08acb3529938ff4341d3ed9e2e5eecd27ae320199eed1bbb0009b150569e34ae",
+        "bytes": 2974
+      },
+      {
+        "path": "work/145転送の人工検査.py",
+        "sha256": "e8f8f5dafa8be1a4ade6e5d6554a1908846268ed5c5d568017214ed50c62862d",
+        "bytes": 5093
+      }
+    ],
+    "意図して非複製": [
+      {
+        "path": "work/122全場入力/入力.json",
+        "sha256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+        "bytes": 177709174,
+        "理由": "共用177MB/実行体/原価格。元手順・Go源からの復元に分けて本文を複写しない"
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/固定取得の正逆評価.exe",
+        "sha256": "033cf22a052e985bc61aa020a04fa6d499119051aaa39bb2adb715a4af1e7736",
+        "bytes": 3659776,
+        "理由": "共用177MB/実行体/原価格。元手順・Go源からの復元に分けて本文を複写しない"
+      },
+      {
+        "path": "work/145構造イベントの入口/構造イベント生成.exe",
+        "sha256": "1277f1d5feae7c90735669583904a470d713ba7a97c50da2042aa9abc6c9386a",
+        "bytes": 3783680,
+        "理由": "共用177MB/実行体/原価格。元手順・Go源からの復元に分けて本文を複写しない"
+      }
+    ],
+    "保存済み参照": [],
+    "固定ZIP": {
+      "ZIP": "145出生前の固定資料.zip",
+      "ZIP_SHA256": "2ad45cf6da7e229396bcad544407d8e1578383d956e8c634779dff097d65f140",
+      "ZIP_bytes": 39324,
+      "格納源数": 16,
+      "格納源": [
+        {
+          "path": "work/145出生と金融を分離して実行する.py",
+          "sha256": "66aa795c84999898e30723680bff32f6fabea590658ee737cc535533dd899926",
+          "bytes": 6612
+        },
+        {
+          "path": "work/145構造イベントと旧対照を固定取得へ渡す.py",
+          "sha256": "92809e1b131b06d77d9c04fef2dfabdf98bf15ab07ecdfa28a99c07a50009933",
+          "bytes": 11141
+        },
+        {
+          "path": "work/145構造イベントの入口/cmd/run/main.go",
+          "sha256": "7d8ef4298888b2dbfd6137d627244da66d426f23c6af14da4c6f25d6bcab6eaa",
+          "bytes": 1589
+        },
+        {
+          "path": "work/145構造イベントの入口/entry.go",
+          "sha256": "d1f5a164e56c270c69c5eedf3f2240ef521ac7168f26903037e5a5ed2056c7f2",
+          "bytes": 21595
+        },
+        {
+          "path": "work/145構造イベントの入口/entry_test.go",
+          "sha256": "8b2c16ccc64e6999fae32c98448eec49600e6ebba91761e2c7451551581bfda9",
+          "bytes": 19098
+        },
+        {
+          "path": "work/145構造イベントの入口/go.mod",
+          "sha256": "2dfdc346c352164b487c1d1985db9a5e3de62fa63b5ee8bd6740825afbfee4e2",
+          "bytes": 264
+        },
+        {
+          "path": "work/145構造イベントの入口/history.go",
+          "sha256": "58147116b59262594e466583c6a241294e9166bdbc770377268cf8a33f2e501d",
+          "bytes": 1384
+        },
+        {
+          "path": "work/145構造イベントの入口/reader.go",
+          "sha256": "e47622638858321da9727b30ac5cff58acd6a01193a2c22c4e11e2ac50e617f4",
+          "bytes": 3579
+        },
+        {
+          "path": "work/145構造イベントの入口/scanner.go",
+          "sha256": "bbf381eb17a521330da5a4189528c96723216143748eb1cae0e0663854dc29e9",
+          "bytes": 9206
+        },
+        {
+          "path": "work/145構造イベントの入口/stream.go",
+          "sha256": "01fc123d6c6b72f38fb15be724d2587f342e8e2d665cb80c6b6c56debac0eae5",
+          "bytes": 757
+        },
+        {
+          "path": "work/145構造イベントの入口/types.go",
+          "sha256": "18fd8079a356aaa370930ef616767594e1166e0da80df89e1fe4f0dd3912e982",
+          "bytes": 1311
+        },
+        {
+          "path": "work/145構造イベントの入口/validation.go",
+          "sha256": "412ac846476bf9b6521520cfb9edb80fbd62c2bf2bc3e909032257094c5e827f",
+          "bytes": 3365
+        },
+        {
+          "path": "work/145構造イベントの入口/準備する.py",
+          "sha256": "e31a1173e6575821a592e6a717ca645953cc4acea7d246c600cca741d401024d",
+          "bytes": 4575
+        },
+        {
+          "path": "work/145構造イベントの入口/準備の確認.json",
+          "sha256": "c06a686db7bc2da2e974b43c343ef1f2308805a6fa460013c6eb87c8eb7e9e3a",
+          "bytes": 7775
+        },
+        {
+          "path": "work/145構造イベントの入口/由来.json",
+          "sha256": "08acb3529938ff4341d3ed9e2e5eecd27ae320199eed1bbb0009b150569e34ae",
+          "bytes": 2974
+        },
+        {
+          "path": "work/145転送の人工検査.py",
+          "sha256": "e8f8f5dafa8be1a4ade6e5d6554a1908846268ed5c5d568017214ed50c62862d",
+          "bytes": 5093
+        }
+      ]
+    }
+  },
+  "追加固定資料": {
+    "ZIP": "145出生前の固定資料.zip",
+    "ZIP_SHA256": "2ad45cf6da7e229396bcad544407d8e1578383d956e8c634779dff097d65f140",
+    "ZIP_bytes": 39324,
+    "格納源数": 16,
+    "格納源": [
+      {
+        "path": "work/145出生と金融を分離して実行する.py",
+        "sha256": "66aa795c84999898e30723680bff32f6fabea590658ee737cc535533dd899926",
+        "bytes": 6612
+      },
+      {
+        "path": "work/145構造イベントと旧対照を固定取得へ渡す.py",
+        "sha256": "92809e1b131b06d77d9c04fef2dfabdf98bf15ab07ecdfa28a99c07a50009933",
+        "bytes": 11141
+      },
+      {
+        "path": "work/145構造イベントの入口/cmd/run/main.go",
+        "sha256": "7d8ef4298888b2dbfd6137d627244da66d426f23c6af14da4c6f25d6bcab6eaa",
+        "bytes": 1589
+      },
+      {
+        "path": "work/145構造イベントの入口/entry.go",
+        "sha256": "d1f5a164e56c270c69c5eedf3f2240ef521ac7168f26903037e5a5ed2056c7f2",
+        "bytes": 21595
+      },
+      {
+        "path": "work/145構造イベントの入口/entry_test.go",
+        "sha256": "8b2c16ccc64e6999fae32c98448eec49600e6ebba91761e2c7451551581bfda9",
+        "bytes": 19098
+      },
+      {
+        "path": "work/145構造イベントの入口/go.mod",
+        "sha256": "2dfdc346c352164b487c1d1985db9a5e3de62fa63b5ee8bd6740825afbfee4e2",
+        "bytes": 264
+      },
+      {
+        "path": "work/145構造イベントの入口/history.go",
+        "sha256": "58147116b59262594e466583c6a241294e9166bdbc770377268cf8a33f2e501d",
+        "bytes": 1384
+      },
+      {
+        "path": "work/145構造イベントの入口/reader.go",
+        "sha256": "e47622638858321da9727b30ac5cff58acd6a01193a2c22c4e11e2ac50e617f4",
+        "bytes": 3579
+      },
+      {
+        "path": "work/145構造イベントの入口/scanner.go",
+        "sha256": "bbf381eb17a521330da5a4189528c96723216143748eb1cae0e0663854dc29e9",
+        "bytes": 9206
+      },
+      {
+        "path": "work/145構造イベントの入口/stream.go",
+        "sha256": "01fc123d6c6b72f38fb15be724d2587f342e8e2d665cb80c6b6c56debac0eae5",
+        "bytes": 757
+      },
+      {
+        "path": "work/145構造イベントの入口/types.go",
+        "sha256": "18fd8079a356aaa370930ef616767594e1166e0da80df89e1fe4f0dd3912e982",
+        "bytes": 1311
+      },
+      {
+        "path": "work/145構造イベントの入口/validation.go",
+        "sha256": "412ac846476bf9b6521520cfb9edb80fbd62c2bf2bc3e909032257094c5e827f",
+        "bytes": 3365
+      },
+      {
+        "path": "work/145構造イベントの入口/準備する.py",
+        "sha256": "e31a1173e6575821a592e6a717ca645953cc4acea7d246c600cca741d401024d",
+        "bytes": 4575
+      },
+      {
+        "path": "work/145構造イベントの入口/準備の確認.json",
+        "sha256": "c06a686db7bc2da2e974b43c343ef1f2308805a6fa460013c6eb87c8eb7e9e3a",
+        "bytes": 7775
+      },
+      {
+        "path": "work/145構造イベントの入口/由来.json",
+        "sha256": "08acb3529938ff4341d3ed9e2e5eecd27ae320199eed1bbb0009b150569e34ae",
+        "bytes": 2974
+      },
+      {
+        "path": "work/145転送の人工検査.py",
+        "sha256": "e8f8f5dafa8be1a4ade6e5d6554a1908846268ed5c5d568017214ed50c62862d",
+        "bytes": 5093
+      }
+    ]
+  },
+  "共有入力": [
+    {
+      "保存元": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+      "復元先": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+      "形式": "同体",
+      "保存SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+      "解凍SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b"
+    },
+    {
+      "保存元": "inputs/00138_全成立入口の共用入力/固定取得入力.json.gz",
+      "復元先": "work/138全成立入口の評価/固定入力_版2/固定取得入力.json",
+      "形式": "gzip",
+      "保存bytes": 45356,
+      "保存SHA256": "828466aaefd2a1ab5abf30527a51bd4404f5b3b6f755fa640d6d951e97557510",
+      "解凍bytes": 377079,
+      "解凍SHA256": "0c83e525dec3079ce188d942069c0d137c94f39009339752ec8227ec9ecb4ce7"
+    },
+    {
+      "保存元": "inputs/00138_全成立入口の共用入力/manifest.json.gz",
+      "復元先": "work/全成立poolの非金融manifest/manifest.json",
+      "形式": "gzip",
+      "保存bytes": 201408,
+      "保存SHA256": "69e4cbf4524a2efd27f62201cd40decbb8935fc626743b3b5aa5493ad0bf3ee1",
+      "解凍bytes": 3949676,
+      "解凍SHA256": "e7ba444fd66f9ca52e10e929eeb31d21076f97afa161de738dabca14a8ff8e35"
+    }
+  ],
+  "共有固定コード": [
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/118複数技法の入口条件/bank.go",
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+      "bytes": 7897,
+      "復元先": "work/118複数技法の入口条件/bank.go"
+    },
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/118複数技法の入口条件/go.mod",
+      "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+      "bytes": 76,
+      "復元先": "work/118複数技法の入口条件/go.mod"
+    },
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/118複数技法の入口条件/rules.go",
+      "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+      "bytes": 8347,
+      "復元先": "work/118複数技法の入口条件/rules.go"
+    },
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/118複数技法の入口条件/rules_test.go",
+      "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+      "bytes": 8029,
+      "復元先": "work/118複数技法の入口条件/rules_test.go"
+    },
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/118複数技法の入口条件/types.go",
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+      "bytes": 4220,
+      "復元先": "work/118複数技法の入口条件/types.go"
+    },
+    {
+      "保存元ZIP": "study/00144_旧P3のstrongを全時間で評価する/再現資料/144出生前の固定資料.zip",
+      "ZIP_SHA256": "1f2ef32d408ebb21846ed60101e58116097ea143bd5a2e80b527928b80e9db16",
+      "ZIP内path": "work/118複数技法の入口条件/検査/確認.json",
+      "sha256": "64ca0b2ba6184fdf0b3831789fe316de28e6fc2a82ea9a17537d2da93b3d1107",
+      "bytes": 3542,
+      "復元先": "work/118複数技法の入口条件/検査/確認.json"
+    },
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/133金融前を固定して実行する.py",
+      "sha256": "a688f2ab68ed56344cc4f1154376f5655ffe2997728d9cbb02dc8651baef3a07",
+      "bytes": 7758,
+      "復元先": "work/133金融前を固定して実行する.py"
+    }
+  ],
+  "意図して複製しない固定源": [
+    {
+      "path": "work/122全場入力/入力.json",
+      "sha256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+      "bytes": 177709174,
+      "理由": "共用177MB/実行体/原価格。元手順・Go源からの復元に分けて本文を複写しない"
+    },
+    {
+      "path": "work/133固定取得の正逆評価器/固定取得の正逆評価.exe",
+      "sha256": "033cf22a052e985bc61aa020a04fa6d499119051aaa39bb2adb715a4af1e7736",
+      "bytes": 3659776,
+      "理由": "共用177MB/実行体/原価格。元手順・Go源からの復元に分けて本文を複写しない"
+    },
+    {
+      "path": "work/145構造イベントの入口/構造イベント生成.exe",
+      "sha256": "1277f1d5feae7c90735669583904a470d713ba7a97c50da2042aa9abc6c9386a",
+      "bytes": 3783680,
+      "理由": "共用177MB/実行体/原価格。元手順・Go源からの復元に分けて本文を複写しない"
+    }
+  ],
+  "122巨大入力の復元": {
+    "手順": "study/00122_E0固定条件を全セッションで検証する/再現資料/再現手順.md",
+    "SHA256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+    "本文新複写/解析": false
+  },
+  "kernel共有源": {
+    "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+    "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+    "格納源数": 13,
+    "格納源": [
+      {
+        "path": "work/133固定取得の正逆評価器/README.md",
+        "bytes": 2664,
+        "sha256": "a5beba49c5d6f5865c55696ac5f402a306daeda03a817c30aa52cd0faaaa4052",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/chart_outcome.go",
+        "bytes": 1660,
+        "sha256": "e42731522a01a99418c028ee1e5c0643c237c8c94ca1ced938ca2ec2cfa84637",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/cmd/run/main.go",
+        "bytes": 585,
+        "sha256": "1035b608ba2ec49eb761d6d4117014463b5cd4a42f71dfb1c64ae20248775ee5",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/entry.go",
+        "bytes": 13887,
+        "sha256": "f1963e47f0efc34541d54a45c34dffc4f7dd757e0ff16717a7975bfd7482486a",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/entry_test.go",
+        "bytes": 7952,
+        "sha256": "f25f42cc835e44dfb56f7d981b2ad2c70cc303e3b2db1841bd086f0a77ebaf85",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/go.mod",
+        "bytes": 40,
+        "sha256": "93d0e423e58ac17da2f3f8f9950b9f37ee6bd0e7de31d5fe15ffdfc14865fcdb",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/outcome.go",
+        "bytes": 1677,
+        "sha256": "90e378e1816d7a7cd92ba09ad8e129ff17c4a12338e06fa7eb0b5a0464727487",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/phase.go",
+        "bytes": 619,
+        "sha256": "5e6136b749036ca16b3d9a0cc348cae8f414495b00862dd7fc4502990593022a",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/phase_test.go",
+        "bytes": 2551,
+        "sha256": "c67071d5990eb93df200d87d6e723c6e2c431abd79545575bc354f5ebdffdbea",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/reader.go",
+        "bytes": 15263,
+        "sha256": "817ec44405214d58369522341cae03ebe325ca48d440b6494b7ce868613d9a49",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/stream.go",
+        "bytes": 781,
+        "sha256": "4b2ea61493ab2de65ed83fb6af8d6dc852ebaede4c5df9932ead48d8c75aff49",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/types.go",
+        "bytes": 6616,
+        "sha256": "2675f5861fbe4c12a5f171a76b60f4467caf9b2b14d6d6ed3a2340b1609aed3d",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/準備を確認する.py",
+        "bytes": 4161,
+        "sha256": "2ab4d2c35bb7c1dc96640746a0749cdcdd7fbba357136452b9a50c111a4356c6",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      }
+    ],
+    "扱い": "F1はexe指紋を直接固定。133保存源は同体再現用であり138直接F1へ後付け追加したとはしない"
+  },
+  "正式3MD変更": false,
+  "新Raw/金融結果/追加2場読取": false,
+  "F1_SHA256": "6ea95b8143b31bf84c853ee4f90e66f400f6e145fe1805b9f8643eccdae08767",
+  "F1直接源数": 55,
+  "F1増分源数": 20,
+  "F1原文": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F1金融前.json",
+    "復元先": "work/145構造イベントの評価/F1金融前.json",
+    "形式": "同体",
+    "保存bytes": 10400,
+    "保存SHA256": "6ea95b8143b31bf84c853ee4f90e66f400f6e145fe1805b9f8643eccdae08767",
+    "解凍bytes": 10400,
+    "解凍SHA256": "6ea95b8143b31bf84c853ee4f90e66f400f6e145fe1805b9f8643eccdae08767"
+  },
+  "F1文書原文": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F1実行前文書.json.gz",
+    "保存SHA256": "e2849e24bd804d193b33a537c030fb692dcf671977ff5a68d81c19ba1cd57214",
+    "正式文書数": 3,
+    "文書数": 9
+  },
+  "F1増分復元参照": {
+    "文書snapshot": [
+      {
+        "復元先": "work/145構造イベントの金融集計/README.md",
+        "sha256": "a387dd50ece67b6f9d9e18bdd7b58e161e06e6e513d870624dd069694fed3476",
+        "bytes": 966,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F1実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "work/145構造イベントの金融集計/README.md"
+      },
+      {
+        "復元先": "work/145構造イベントの金融集計/最小設計.md",
+        "sha256": "7b34415e2caae5befab00b0ca685ce17756f37607905f08f404c19c7b12ea237",
+        "bytes": 4700,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F1実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "work/145構造イベントの金融集計/最小設計.md"
+      },
+      {
+        "復元先": "work/145構造イベントの金融集計/条件.md",
+        "sha256": "bcf4595bef979fe3511ef0ee2522b64fb87c1866d994dcb757e5c415ef3ee014",
+        "bytes": 5531,
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F1実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "work/145構造イベントの金融集計/条件.md"
+      }
+    ],
+    "共有入力": [
+      {
+        "保存元": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/成果物/集計.json",
+        "復元先": "work/138全成立入口と頻度の集計/集計.json",
+        "形式": "同体",
+        "保存bytes": 231706,
+        "保存SHA256": "6ef283db667603884b42260affce732ba5c9b31731d24b1bb18f9e96ee4b3486",
+        "解凍bytes": 231706,
+        "解凍SHA256": "6ef283db667603884b42260affce732ba5c9b31731d24b1bb18f9e96ee4b3486"
+      },
+      {
+        "保存元": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/成果物/固定取得の正逆観測.json.gz",
+        "復元先": "work/138全成立入口の評価/固定取得の正逆観測.json",
+        "形式": "gzip",
+        "保存bytes": 610222,
+        "保存SHA256": "5e98af3fae819642496e1db8390dcfa2d15c6a9188f8cbae020b922573a317aa",
+        "解凍bytes": 22517620,
+        "解凍SHA256": "d272fc6f6768342ff67e1a9ec58b0b7307a0a5b07cc215ba5ff7bcb50865b742"
+      }
+    ],
+    "共有コード": [
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/124入口の原因分析/集計する.py",
+        "sha256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+        "bytes": 18019,
+        "復元先": "work/124入口の原因分析/集計する.py"
+      },
+      {
+        "保存元ZIP": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/再現資料/138金融前固定資料.zip",
+        "ZIP_SHA256": "9c6893ff39c3f54cb136d23baea001eef870b857c83cb45ef1f063285d0a0424",
+        "ZIP内path": "work/138全成立入口と頻度の集計/集計する.py",
+        "sha256": "e8671638600dc4b23ef9256ba5be535f20c6f8e1d5097457a56fbea9fb30c1f1",
+        "bytes": 22098,
+        "復元先": "work/138全成立入口と頻度の集計/集計する.py"
+      },
+      {
+        "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141金融前の追加固定資料.zip",
+        "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+        "ZIP内path": "work/141金融集計を独立に確認する.py",
+        "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+        "bytes": 7652,
+        "復元先": "work/141金融集計を独立に確認する.py"
+      }
+    ],
+    "新固定源": [
+      {
+        "path": "work/145構造イベントの金融集計/144部品から準備する.py",
+        "sha256": "64ef08cf5cad263a0a5881309f84413308d9a6ac363928d48d5b42e39ce28ec3",
+        "bytes": 4312
+      },
+      {
+        "path": "work/145構造イベントの金融集計/人工の素案を作る.py",
+        "sha256": "7512977bed9d7a7225b9c26734e77529c3981aeb6e711d09d152c521e590ad06",
+        "bytes": 1164
+      },
+      {
+        "path": "work/145構造イベントの金融集計/人工検査.py",
+        "sha256": "1aed38b2535eb6e0968f47c0fe99c8b30666d2f94c48ba31efcfec9efb4eb0d3",
+        "bytes": 11379
+      },
+      {
+        "path": "work/145構造イベントの金融集計/準備の確認.json",
+        "sha256": "8fe74bf9a21d266637e39f7e70c32bc7e4ec8a2a0a6199a62133afa1b4725ea1",
+        "bytes": 4346
+      },
+      {
+        "path": "work/145構造イベントの金融集計/準備を確認する.py",
+        "sha256": "128057b4ed673b23cf83cc30a6733c548449ab5d7d61b3e71fe382c95788dabc",
+        "bytes": 3846
+      },
+      {
+        "path": "work/145構造イベントの金融集計/集計する.py",
+        "sha256": "7016e00b339e62f56c1878c9c4e1ef3e297c2faa2d7d5cd0b9fcbb52bdfa3c74",
+        "bytes": 23822
+      },
+      {
+        "path": "work/145金融を別算術で確認する.py",
+        "sha256": "49bc9a8815dab4198c1c18423b64c256166292ac18ce053fd3248a01e8e359b2",
+        "bytes": 7171
+      }
+    ],
+    "意図して非複製": [],
+    "保存済み参照": [
+      {
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0出生前.json",
+        "復元先": "work/145構造イベントの評価/F0出生前.json",
+        "形式": "同体",
+        "保存bytes": 6718,
+        "保存SHA256": "6fadecc41c5875c37e0f2305ce7d365e0feef8bfc2b6ed4a362bcb8740b870fe",
+        "解凍bytes": 6718,
+        "解凍SHA256": "6fadecc41c5875c37e0f2305ce7d365e0feef8bfc2b6ed4a362bcb8740b870fe"
+      },
+      {
+        "保存元": "inputs/00145_構造イベントの入口/入口参照.json.gz",
+        "復元先": "work/145構造イベントの評価/固定入力/入口参照.json",
+        "形式": "gzip",
+        "保存bytes": 25652,
+        "保存SHA256": "a3b1da02d0ab3fdafac66cdc105e4b63081632da50753a9f8f1a2a2f5767d04f",
+        "解凍bytes": 320958,
+        "解凍SHA256": "3a3a144c478fa45f85e03ad4b8e4461e420592da24088458c7aa1cb748c8eb8d"
+      },
+      {
+        "保存元": "inputs/00145_構造イベントの入口/固定取得入力.json.gz",
+        "復元先": "work/145構造イベントの評価/固定入力/固定取得入力.json",
+        "形式": "gzip",
+        "保存bytes": 11808,
+        "保存SHA256": "6a4d4b259fc3b8e145b3dd898119b264d4d1deaf90f6f84cec24f4b49eec6b5e",
+        "解凍bytes": 93140,
+        "解凍SHA256": "d2becb3b1d6de656a6cc3f04d576d95d99693dfc42efc03582ed04d2be8784e8"
+      },
+      {
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/転送の確認.json",
+        "復元先": "work/145構造イベントの評価/固定入力/転送の確認.json",
+        "形式": "同体",
+        "保存bytes": 596,
+        "保存SHA256": "12bbeadf9e65830fc8044d843e79a733851d75970023888e773fbca01abf0f55",
+        "解凍bytes": 596,
+        "解凍SHA256": "12bbeadf9e65830fc8044d843e79a733851d75970023888e773fbca01abf0f55"
+      },
+      {
+        "保存元": "inputs/00145_構造イベントの入口/Sourceの出生と取得.json.gz",
+        "復元先": "work/145構造イベントの評価/構造イベントの出生と取得.json",
+        "形式": "gzip",
+        "保存bytes": 3063818,
+        "保存SHA256": "b631f2eb26d163f7b500b9ad4706eac0bcd5a060f87bdb2e7a9cc62362ca1568",
+        "解凍bytes": 48237927,
+        "解凍SHA256": "b0b70aa28c990291eb5f7b8a8a8f19d29ff4b4231ee4367cee6828af99e69d5c"
+      }
+    ],
+    "固定ZIP": {
+      "ZIP": "145金融前追加の固定資料.zip",
+      "ZIP_SHA256": "3b2fa9599793feb1cd2b8da0e77bd48feb05a72cb87fd98e27c74b79536d2412",
+      "ZIP_bytes": 23099,
+      "格納源数": 7,
+      "格納源": [
+        {
+          "path": "work/145構造イベントの金融集計/144部品から準備する.py",
+          "sha256": "64ef08cf5cad263a0a5881309f84413308d9a6ac363928d48d5b42e39ce28ec3",
+          "bytes": 4312
+        },
+        {
+          "path": "work/145構造イベントの金融集計/人工の素案を作る.py",
+          "sha256": "7512977bed9d7a7225b9c26734e77529c3981aeb6e711d09d152c521e590ad06",
+          "bytes": 1164
+        },
+        {
+          "path": "work/145構造イベントの金融集計/人工検査.py",
+          "sha256": "1aed38b2535eb6e0968f47c0fe99c8b30666d2f94c48ba31efcfec9efb4eb0d3",
+          "bytes": 11379
+        },
+        {
+          "path": "work/145構造イベントの金融集計/準備の確認.json",
+          "sha256": "8fe74bf9a21d266637e39f7e70c32bc7e4ec8a2a0a6199a62133afa1b4725ea1",
+          "bytes": 4346
+        },
+        {
+          "path": "work/145構造イベントの金融集計/準備を確認する.py",
+          "sha256": "128057b4ed673b23cf83cc30a6733c548449ab5d7d61b3e71fe382c95788dabc",
+          "bytes": 3846
+        },
+        {
+          "path": "work/145構造イベントの金融集計/集計する.py",
+          "sha256": "7016e00b339e62f56c1878c9c4e1ef3e297c2faa2d7d5cd0b9fcbb52bdfa3c74",
+          "bytes": 23822
+        },
+        {
+          "path": "work/145金融を別算術で確認する.py",
+          "sha256": "49bc9a8815dab4198c1c18423b64c256166292ac18ce053fd3248a01e8e359b2",
+          "bytes": 7171
+        }
+      ]
+    }
+  },
+  "F1増分固定資料": {
+    "ZIP": "145金融前追加の固定資料.zip",
+    "ZIP_SHA256": "3b2fa9599793feb1cd2b8da0e77bd48feb05a72cb87fd98e27c74b79536d2412",
+    "ZIP_bytes": 23099,
+    "格納源数": 7,
+    "格納源": [
+      {
+        "path": "work/145構造イベントの金融集計/144部品から準備する.py",
+        "sha256": "64ef08cf5cad263a0a5881309f84413308d9a6ac363928d48d5b42e39ce28ec3",
+        "bytes": 4312
+      },
+      {
+        "path": "work/145構造イベントの金融集計/人工の素案を作る.py",
+        "sha256": "7512977bed9d7a7225b9c26734e77529c3981aeb6e711d09d152c521e590ad06",
+        "bytes": 1164
+      },
+      {
+        "path": "work/145構造イベントの金融集計/人工検査.py",
+        "sha256": "1aed38b2535eb6e0968f47c0fe99c8b30666d2f94c48ba31efcfec9efb4eb0d3",
+        "bytes": 11379
+      },
+      {
+        "path": "work/145構造イベントの金融集計/準備の確認.json",
+        "sha256": "8fe74bf9a21d266637e39f7e70c32bc7e4ec8a2a0a6199a62133afa1b4725ea1",
+        "bytes": 4346
+      },
+      {
+        "path": "work/145構造イベントの金融集計/準備を確認する.py",
+        "sha256": "128057b4ed673b23cf83cc30a6733c548449ab5d7d61b3e71fe382c95788dabc",
+        "bytes": 3846
+      },
+      {
+        "path": "work/145構造イベントの金融集計/集計する.py",
+        "sha256": "7016e00b339e62f56c1878c9c4e1ef3e297c2faa2d7d5cd0b9fcbb52bdfa3c74",
+        "bytes": 23822
+      },
+      {
+        "path": "work/145金融を別算術で確認する.py",
+        "sha256": "49bc9a8815dab4198c1c18423b64c256166292ac18ce053fd3248a01e8e359b2",
+        "bytes": 7171
+      }
+    ]
+  },
+  "新共用入力": [
+    {
+      "保存元": "inputs/00145_構造イベントの入口/Sourceの出生と取得.json.gz",
+      "復元先": "work/145構造イベントの評価/構造イベントの出生と取得.json",
+      "形式": "gzip",
+      "保存bytes": 3063818,
+      "保存SHA256": "b631f2eb26d163f7b500b9ad4706eac0bcd5a060f87bdb2e7a9cc62362ca1568",
+      "解凍bytes": 48237927,
+      "解凍SHA256": "b0b70aa28c990291eb5f7b8a8a8f19d29ff4b4231ee4367cee6828af99e69d5c"
+    },
+    {
+      "保存元": "inputs/00145_構造イベントの入口/固定取得入力.json.gz",
+      "復元先": "work/145構造イベントの評価/固定入力/固定取得入力.json",
+      "形式": "gzip",
+      "保存bytes": 11808,
+      "保存SHA256": "6a4d4b259fc3b8e145b3dd898119b264d4d1deaf90f6f84cec24f4b49eec6b5e",
+      "解凍bytes": 93140,
+      "解凍SHA256": "d2becb3b1d6de656a6cc3f04d576d95d99693dfc42efc03582ed04d2be8784e8"
+    },
+    {
+      "保存元": "inputs/00145_構造イベントの入口/入口参照.json.gz",
+      "復元先": "work/145構造イベントの評価/固定入力/入口参照.json",
+      "形式": "gzip",
+      "保存bytes": 25652,
+      "保存SHA256": "a3b1da02d0ab3fdafac66cdc105e4b63081632da50753a9f8f1a2a2f5767d04f",
+      "解凍bytes": 320958,
+      "解凍SHA256": "3a3a144c478fa45f85e03ad4b8e4461e420592da24088458c7aa1cb748c8eb8d"
+    }
+  ],
+  "F1共有入力": [
+    {
+      "保存元": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/成果物/集計.json",
+      "復元先": "work/138全成立入口と頻度の集計/集計.json",
+      "形式": "同体",
+      "保存bytes": 231706,
+      "保存SHA256": "6ef283db667603884b42260affce732ba5c9b31731d24b1bb18f9e96ee4b3486",
+      "解凍bytes": 231706,
+      "解凍SHA256": "6ef283db667603884b42260affce732ba5c9b31731d24b1bb18f9e96ee4b3486"
+    },
+    {
+      "保存元": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/成果物/固定取得の正逆観測.json.gz",
+      "復元先": "work/138全成立入口の評価/固定取得の正逆観測.json",
+      "形式": "gzip",
+      "保存bytes": 610222,
+      "保存SHA256": "5e98af3fae819642496e1db8390dcfa2d15c6a9188f8cbae020b922573a317aa",
+      "解凍bytes": 22517620,
+      "解凍SHA256": "d272fc6f6768342ff67e1a9ec58b0b7307a0a5b07cc215ba5ff7bcb50865b742"
+    }
+  ],
+  "F1共有コード": [
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "ZIP内path": "work/124入口の原因分析/集計する.py",
+      "sha256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+      "bytes": 18019,
+      "復元先": "work/124入口の原因分析/集計する.py"
+    },
+    {
+      "保存元ZIP": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/再現資料/138金融前固定資料.zip",
+      "ZIP_SHA256": "9c6893ff39c3f54cb136d23baea001eef870b857c83cb45ef1f063285d0a0424",
+      "ZIP内path": "work/138全成立入口と頻度の集計/集計する.py",
+      "sha256": "e8671638600dc4b23ef9256ba5be535f20c6f8e1d5097457a56fbea9fb30c1f1",
+      "bytes": 22098,
+      "復元先": "work/138全成立入口と頻度の集計/集計する.py"
+    },
+    {
+      "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141金融前の追加固定資料.zip",
+      "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+      "ZIP内path": "work/141金融集計を独立に確認する.py",
+      "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+      "bytes": 7652,
+      "復元先": "work/141金融集計を独立に確認する.py"
+    }
+  ],
+  "F1追加入力": [
+    {
+      "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/F0出生前.json",
+      "復元先": "work/145構造イベントの評価/F0出生前.json",
+      "形式": "同体",
+      "保存bytes": 6718,
+      "保存SHA256": "6fadecc41c5875c37e0f2305ce7d365e0feef8bfc2b6ed4a362bcb8740b870fe",
+      "解凍bytes": 6718,
+      "解凍SHA256": "6fadecc41c5875c37e0f2305ce7d365e0feef8bfc2b6ed4a362bcb8740b870fe"
+    },
+    {
+      "保存元": "inputs/00145_構造イベントの入口/入口参照.json.gz",
+      "復元先": "work/145構造イベントの評価/固定入力/入口参照.json",
+      "形式": "gzip",
+      "保存bytes": 25652,
+      "保存SHA256": "a3b1da02d0ab3fdafac66cdc105e4b63081632da50753a9f8f1a2a2f5767d04f",
+      "解凍bytes": 320958,
+      "解凍SHA256": "3a3a144c478fa45f85e03ad4b8e4461e420592da24088458c7aa1cb748c8eb8d"
+    },
+    {
+      "保存元": "inputs/00145_構造イベントの入口/固定取得入力.json.gz",
+      "復元先": "work/145構造イベントの評価/固定入力/固定取得入力.json",
+      "形式": "gzip",
+      "保存bytes": 11808,
+      "保存SHA256": "6a4d4b259fc3b8e145b3dd898119b264d4d1deaf90f6f84cec24f4b49eec6b5e",
+      "解凍bytes": 93140,
+      "解凍SHA256": "d2becb3b1d6de656a6cc3f04d576d95d99693dfc42efc03582ed04d2be8784e8"
+    },
+    {
+      "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/検査/転送の確認.json",
+      "復元先": "work/145構造イベントの評価/固定入力/転送の確認.json",
+      "形式": "同体",
+      "保存bytes": 596,
+      "保存SHA256": "12bbeadf9e65830fc8044d843e79a733851d75970023888e773fbca01abf0f55",
+      "解凍bytes": 596,
+      "解凍SHA256": "12bbeadf9e65830fc8044d843e79a733851d75970023888e773fbca01abf0f55"
+    },
+    {
+      "保存元": "inputs/00145_構造イベントの入口/Sourceの出生と取得.json.gz",
+      "復元先": "work/145構造イベントの評価/構造イベントの出生と取得.json",
+      "形式": "gzip",
+      "保存bytes": 3063818,
+      "保存SHA256": "b631f2eb26d163f7b500b9ad4706eac0bcd5a060f87bdb2e7a9cc62362ca1568",
+      "解凍bytes": 48237927,
+      "解凍SHA256": "b0b70aa28c990291eb5f7b8a8a8f19d29ff4b4231ee4367cee6828af99e69d5c"
+    }
+  ],
+  "金融結果/Raw/追加2場読取": false,
+  "保存済み正逆観測": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/固定取得の正逆観測.json.gz",
+    "復元先": "work/145構造イベントの評価/固定取得の正逆観測.json",
+    "形式": "gzip",
+    "保存bytes": 80492,
+    "保存SHA256": "e970b53d95ac4ff56335288ba402d59bef41558d0785d448b1cefe12bd360cbf",
+    "解凍bytes": 2349359,
+    "解凍SHA256": "3b92da8b447d7be9ead6a2a112759ca7272a1e65d6cb5516989e3faf50c54d62"
+  },
+  "集計正本": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/集計.json",
+    "復元先": "work/145構造イベントの評価/金融評価/集計.json",
+    "形式": "同体",
+    "保存bytes": 370624,
+    "保存SHA256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861",
+    "解凍bytes": 370624,
+    "解凍SHA256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861"
+  },
+  "表JSON再現期待SHA256": "200a9019c1a6148ef06b91d5cd82ff9808b0a4d810f1dea1185bd9e4acb72fd0",
+  "金融を新規実行": false,
+  "金融別算術SHA256": "aa2e8979be245869bc91eb52e1ffac93a5d5d014c2bd5025b7421f8415c58899",
+  "Source非金融段階票": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/根拠/全73場の段階件数.json.gz",
+    "復元先": "work/145全episodeの非金融診断/結果/全73場の段階件数.json",
+    "形式": "gzip",
+    "保存bytes": 18024,
+    "保存SHA256": "be0ffb15b1551dcdebeabb5a9cc1d9e47a1d88bf0b10f20713d80abdb8a91784",
+    "解凍bytes": 434884,
+    "解凍SHA256": "3cbc7caaab52d4e3d1ad3683bdbccfa42f0ebe613aad3dc5843078d9c47117bf"
+  },
+  "Source非金融個別票": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/根拠/保存原値の個別内訳.json.gz",
+    "復元先": "work/145全episodeの非金融診断/結果/保存原値の個別内訳.json",
+    "形式": "gzip",
+    "保存bytes": 3088,
+    "保存SHA256": "4d8b5ed4a8db234db4814af930d79d4e8b004ffd6b5f95e21489a543413ae880",
+    "解凍bytes": 19216,
+    "解凍SHA256": "7e56e50f92c4a9b0834a026fedaa57b03fa70b4865fe6009227d13684b066db8"
+  },
+  "Source非金融診断SHA256": "f8785461771ef603e4bcb74230b48574d79e9a6cc513991a1f15061838d42584",
+  "保存観測再現SHA256": "83b498eb3ae92c0bfbb43d7220609a4280a51c75aba35996957fbace2ada242c",
+  "CSV正本": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/145_構造イベント入口",
+  "CSV_SHA256": {
+    "正逆比較.csv": "009395325348da2bfdd261f77c6b28861dd7cfb0bd665de77f52fc54ebbdea40",
+    "入口別診断.csv": "1842766befd05ee15688a91b456a7e2d81f791c424fa07aeace3bafcbf6898d0",
+    "全セッション.csv": "29fc379414967aeae124ce9be55fc18eafb38841cd6541331dd77b96dde94457"
+  },
+  "金融後の共有コード": [
+    {
+      "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/確認と保存の追補.zip",
+      "ZIP_SHA256": "ec802544329a81dd4b35eeb773c0a57710488c82268d86aee566bc0cc87681e3",
+      "格納源数": 1,
+      "格納源": [
+        {
+          "復元先": "work/確定三表のCSV出力_版2/出力する.mjs",
+          "ZIP内path": "work/確定三表のCSV出力_版2/出力する.mjs",
+          "sha256": "0994706575ed4fc634fe5d0577d48b5b79e95ff0db2330407daf02a74ca478d3",
+          "bytes": 11463
+        }
+      ]
+    },
+    {
+      "保存元ZIP": "study/00140_出生時の失敗突破と同足の勢いと量で方向を切り替える/再現資料/確認と保管の追補.zip",
+      "ZIP_SHA256": "417eff64d828822ab1091877ee86c96e81833338b11dee93285c7eb0c0e1ef29",
+      "格納源数": 1,
+      "格納源": [
+        {
+          "復元先": "work/確定三表のCSV出力/CSVを独立再読する.py",
+          "ZIP内path": "work/確定三表のCSV出力/CSVを独立再読する.py",
+          "sha256": "f161688d1e4f742c0e290e45bbbbbf6506ee07ac06eb01e505d3455c24c9b60b",
+          "bytes": 12933
+        }
+      ]
+    },
+    {
+      "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141金融前の追加固定資料.zip",
+      "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+      "格納源": [
+        {
+          "復元先": "work/141金融集計を独立に確認する.py",
+          "ZIP内path": "work/141金融集計を独立に確認する.py",
+          "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+          "bytes": 7652
+        }
+      ],
+      "格納源数": 1
+    }
+  ],
+  "122参照照合追補": [
+    {
+      "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/根拠/公表参照追補/追補の確認.json",
+      "復元先": "work/145不成立armの公表参照を補う/追補の確認.json",
+      "形式": "同体",
+      "保存bytes": 3656,
+      "保存SHA256": "58d93eda48fd1a505d8a57ed44a75daf4581a016bc17d20b2129ee0cddda5af0",
+      "解凍bytes": 3656,
+      "解凍SHA256": "58d93eda48fd1a505d8a57ed44a75daf4581a016bc17d20b2129ee0cddda5af0"
+    },
+    {
+      "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/根拠/公表参照追補/結果/要約.json",
+      "復元先": "work/145不成立armの公表参照を補う/結果/要約.json",
+      "形式": "同体",
+      "保存bytes": 8110,
+      "保存SHA256": "251e683b5d4d912173330245af64a6a98495de386a08cf80f9ea6cfb890cc7fe",
+      "解凍bytes": 8110,
+      "解凍SHA256": "251e683b5d4d912173330245af64a6a98495de386a08cf80f9ea6cfb890cc7fe"
+    },
+    {
+      "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/根拠/公表参照追補/結果/全不成立armの個別内訳.json.gz",
+      "復元先": "work/145不成立armの公表参照を補う/結果/全不成立armの個別内訳.json.gz",
+      "形式": "同体",
+      "保存bytes": 494215,
+      "保存SHA256": "73f68fbc1f5b8ef7fc60a2c60ab6bba61ccd85adee75daa97a9c3aaa0b2654ae",
+      "解凍bytes": 494215,
+      "解凍SHA256": "73f68fbc1f5b8ef7fc60a2c60ab6bba61ccd85adee75daa97a9c3aaa0b2654ae"
+    },
+    {
+      "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/根拠/公表参照追補/未知を解消した不成立要素.md",
+      "復元先": "work/145不成立armの公表参照を補う/未知を解消した不成立要素.md",
+      "形式": "同体",
+      "保存bytes": 2638,
+      "保存SHA256": "d0ac17ee3fd07217fc735f0a6c7925620882a675a9deae974ca0e17282992e31",
+      "解凍bytes": 2638,
+      "解凍SHA256": "d0ac17ee3fd07217fc735f0a6c7925620882a675a9deae974ca0e17282992e31",
+      "原文SHA256": "ec7dd81d98d1d6742878ecc253aeb8de428081816c6fe2581b0e22bf09c4412c",
+      "変更は恒久リンクのみ": true
+    }
+  ],
+  "金融後の小資料": {
+    "保存元ZIP": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/再現資料/金融後の確認と保存資料.zip",
+    "ZIP_SHA256": "8ae3a23f98301256adc3e7fe78c48811b8c32c378aece27b1c3895fe3d8c4753",
+    "格納源数": 34,
+    "格納源": [
+      {
+        "復元先": "work/145不成立armの公表参照を補う/人工検査.py",
+        "ZIP内path": "work/145不成立armの公表参照を補う/人工検査.py",
+        "sha256": "99bc3ca0949843603f9c2153badbc2ffd93f28bd6cc1e5baa0910a5e7370e553",
+        "bytes": 2196
+      },
+      {
+        "復元先": "work/145不成立armの公表参照を補う/公表を結合する.py",
+        "ZIP内path": "work/145不成立armの公表参照を補う/公表を結合する.py",
+        "sha256": "abe907c14be8d532e3903946a524636f4622fb5e13eda4ba605a60fc972d4575",
+        "bytes": 12177
+      },
+      {
+        "復元先": "work/145不成立armの公表参照を補う/未知を解消した不成立要素.md",
+        "ZIP内path": "work/145不成立armの公表参照を補う/未知を解消した不成立要素.md",
+        "sha256": "ec7dd81d98d1d6742878ecc253aeb8de428081816c6fe2581b0e22bf09c4412c",
+        "bytes": 2606
+      },
+      {
+        "復元先": "work/145不成立armの公表参照を補う/結合条件.md",
+        "ZIP内path": "work/145不成立armの公表参照を補う/結合条件.md",
+        "sha256": "56ccb60e071ffdc19cd4a763c9fb64727a5d13bc75ea172e2aa0bd49b4af64ee",
+        "bytes": 1399
+      },
+      {
+        "復元先": "work/145全episodeの非金融診断/人工検査.py",
+        "ZIP内path": "work/145全episodeの非金融診断/人工検査.py",
+        "sha256": "62b422aa0f053f70cb664b3f67d8bf09df48b9745e3e91228b18a28f8973f51e",
+        "bytes": 5922
+      },
+      {
+        "復元先": "work/145全episodeの非金融診断/保存原値を個別に分ける.py",
+        "ZIP内path": "work/145全episodeの非金融診断/保存原値を個別に分ける.py",
+        "sha256": "c7604de6445cc83e8dec4a4dcff437b406c80d99ff0fb5204a4c051dac043d58",
+        "bytes": 9420
+      },
+      {
+        "復元先": "work/145全episodeの非金融診断/条件と分母.md",
+        "ZIP内path": "work/145全episodeの非金融診断/条件と分母.md",
+        "sha256": "fc1cbdcefa812963ac3cd40a6fb5bd59a78d2c6545e40d9985c779e6e9fae87c",
+        "bytes": 1761
+      },
+      {
+        "復元先": "work/145全episodeの非金融診断/段階を診断する.py",
+        "ZIP内path": "work/145全episodeの非金融診断/段階を診断する.py",
+        "sha256": "9eca28325201633655f2b945e32bc7e21f74c7dc31a3d83de907c85ddb6c7590",
+        "bytes": 14573
+      },
+      {
+        "復元先": "work/145全episodeの非金融診断/準備の確認.json",
+        "ZIP内path": "work/145全episodeの非金融診断/準備の確認.json",
+        "sha256": "105cd0c74fe20c872e603392abb6edc62dd3663244f2c47905765666295614fa",
+        "bytes": 1537
+      },
+      {
+        "復元先": "work/145全episodeの非金融診断/状態遷移のどこで減ったか.md",
+        "ZIP内path": "work/145全episodeの非金融診断/状態遷移のどこで減ったか.md",
+        "sha256": "231f94f6e9ef974f6cdaefa895af7d5c81e3a9c7f44e124ddd7b7fa4d7b8be74",
+        "bytes": 5069
+      },
+      {
+        "復元先": "work/145全episodeの非金融診断/結果/段階と削減理由.md",
+        "ZIP内path": "work/145全episodeの非金融診断/結果/段階と削減理由.md",
+        "sha256": "3ccb2839a43140cb7c68a91f598e1d81f6fc19fe4161e0f7233d24c7a67cef69",
+        "bytes": 4997
+      },
+      {
+        "復元先": "work/145構造時計の独立準備レビュー/overlay.json",
+        "ZIP内path": "work/145構造時計の独立準備レビュー/overlay.json",
+        "sha256": "49d594f5fdaddb89e96770f4966009df0088b370bbe4003ba94e104b435a95ce",
+        "bytes": 249
+      },
+      {
+        "復元先": "work/145構造時計の独立準備レビュー/準備の確認.json",
+        "ZIP内path": "work/145構造時計の独立準備レビュー/準備の確認.json",
+        "sha256": "e2ed6ad3f7613c43a75670a4729541a70254784866aeab36a24a3d929b9207c5",
+        "bytes": 12601
+      },
+      {
+        "復元先": "work/145構造時計の独立準備レビュー/準備を確認する.py",
+        "ZIP内path": "work/145構造時計の独立準備レビュー/準備を確認する.py",
+        "sha256": "b8314b550212410d53e725f0d0bf563e49a82f5e21803aba6407e747c519992d",
+        "bytes": 5556
+      },
+      {
+        "復元先": "work/145構造時計の独立準備レビュー/独立人工_test.go",
+        "ZIP内path": "work/145構造時計の独立準備レビュー/独立人工_test.go",
+        "sha256": "52a9f01d077d67a4cd7edc29613987649e6aee1d8ac03a2198cb6b0d48575dd6",
+        "bytes": 6555
+      },
+      {
+        "復元先": "work/145正式保存/122参照追補の保存指示.json",
+        "ZIP内path": "work/145正式保存/122参照追補の保存指示.json",
+        "sha256": "626b96cea6269bc743e4d9f6309a3e12e0223bb7ec01a73338f7991559993f5e",
+        "bytes": 1300
+      },
+      {
+        "復元先": "work/145正式保存/F0原文を保管する.py",
+        "ZIP内path": "work/145正式保存/F0原文を保管する.py",
+        "sha256": "3d08a160322eb17422bc5ffccb545d73b6bffa37c6362a58b5fa2fb464990c88",
+        "bytes": 508
+      },
+      {
+        "復元先": "work/145正式保存/F1の追加資料を保管する.py",
+        "ZIP内path": "work/145正式保存/F1の追加資料を保管する.py",
+        "sha256": "9432458e1cd346c680c529abef2900dad2a0629f44c948ba8baae1185f583b06",
+        "bytes": 801
+      },
+      {
+        "復元先": "work/145正式保存/保存の人工検査.py",
+        "ZIP内path": "work/145正式保存/保存の人工検査.py",
+        "sha256": "2c13866dad267efb741e291d919633254fdd59693b6b2a54f11d632fef27ed5c",
+        "bytes": 6083
+      },
+      {
+        "復元先": "work/145正式保存/保存部品.py",
+        "ZIP内path": "work/145正式保存/保存部品.py",
+        "sha256": "5737f7018c54d8b543673a28b80f8f8f5f291de4d44d1c953eaf2f51efcfea3d",
+        "bytes": 12417
+      },
+      {
+        "復元先": "work/145正式保存/再現器を準備する.py",
+        "ZIP内path": "work/145正式保存/再現器を準備する.py",
+        "sha256": "e9e3a3b7a5786acba1a93d8dfd95930e66f416986874726cc9fde2de42c165af",
+        "bytes": 3070
+      },
+      {
+        "復元先": "work/145正式保存/正式保存を確認する.py",
+        "ZIP内path": "work/145正式保存/正式保存を確認する.py",
+        "sha256": "f84631d2bf2d2c95df8120d3c0cd9d91ae133d17e5e4a09a0963fb19e2470c83",
+        "bytes": 8243
+      },
+      {
+        "復元先": "work/145正式保存/準備とF0保存の確認.json",
+        "ZIP内path": "work/145正式保存/準備とF0保存の確認.json",
+        "sha256": "f25c8430afc611acc8fbe10a45a13f76b13136b343d363113ac3b2e4312c7652",
+        "bytes": 1535
+      },
+      {
+        "復元先": "work/145正式保存/追補資料を保管する.py",
+        "ZIP内path": "work/145正式保存/追補資料を保管する.py",
+        "sha256": "1e68a25e41a013050b93337563c91e13d4896276ebf2b0b466c191ff36f36d47",
+        "bytes": 5649
+      },
+      {
+        "復元先": "work/145正式保存/金融正本を保管する.py",
+        "ZIP内path": "work/145正式保存/金融正本を保管する.py",
+        "sha256": "730bde0fb4cd2412598ecceae39645c36d430449ea9e0f147c6a40b91198a7a3",
+        "bytes": 1761
+      },
+      {
+        "復元先": "work/145正式保存/金融証跡と診断を保管する.py",
+        "ZIP内path": "work/145正式保存/金融証跡と診断を保管する.py",
+        "sha256": "9943d96dbab4fae65ef330de0f94f8de9bac498fcba56b83076aeb46308b8571",
+        "bytes": 4748
+      },
+      {
+        "復元先": "work/145正式結果を反映する/停止の確認.json",
+        "ZIP内path": "work/145正式結果を反映する/停止の確認.json",
+        "sha256": "b09cb2007a8575cbe804b1ea0c02872795a45039c2c4c9285dc5da19223b2339",
+        "bytes": 2153
+      },
+      {
+        "復元先": "work/145正式結果を反映する/文書反映の確認.json",
+        "ZIP内path": "work/145正式結果を反映する/文書反映の確認.json",
+        "sha256": "03a29a6224f1fdbcd1f92f8a4d131f83e77f88bdc23ca2f9c7e40527cc560ccc",
+        "bytes": 8717
+      },
+      {
+        "復元先": "work/145正式結果を反映する/更新する.py",
+        "ZIP内path": "work/145正式結果を反映する/更新する.py",
+        "sha256": "abb2d7f7c710c1ab93f97279063a02a0b15993e760851246a3897e6058beb14d",
+        "bytes": 20442
+      },
+      {
+        "復元先": "work/145正式結果を反映する/確認する.py",
+        "ZIP内path": "work/145正式結果を反映する/確認する.py",
+        "sha256": "27c16df2a2e0d0d6a14b3f2a3f9241f1e2664c799c1684f8273c93dba32327e2",
+        "bytes": 5134
+      },
+      {
+        "復元先": "work/145転送と運転の独立準備レビュー/F1固定対象追加の確認.json",
+        "ZIP内path": "work/145転送と運転の独立準備レビュー/F1固定対象追加の確認.json",
+        "sha256": "388676e69ecbef6cd1e3835b7230a839d0770037b33b582703f7d1438cf75458",
+        "bytes": 1012
+      },
+      {
+        "復元先": "work/145転送と運転の独立準備レビュー/refs説明追加の確認.json",
+        "ZIP内path": "work/145転送と運転の独立準備レビュー/refs説明追加の確認.json",
+        "sha256": "bc7eba9149784c5d9458c3c5bd3ac7c818aa8737eef19a2453da563fe657e167",
+        "bytes": 646
+      },
+      {
+        "復元先": "work/145転送と運転の独立準備レビュー/準備の確認.json",
+        "ZIP内path": "work/145転送と運転の独立準備レビュー/準備の確認.json",
+        "sha256": "015c02f72f9272d1ad6a8e15825f0e9d179ea3a8d520bd9201278f85d9905db7",
+        "bytes": 2033
+      },
+      {
+        "復元先": "work/145転送と運転の独立準備レビュー/確認する.py",
+        "ZIP内path": "work/145転送と運転の独立準備レビュー/確認する.py",
+        "sha256": "3647b8fc23b72ad6dd927a23082c935fc3b62154904bbff0b186232b846cdb65",
+        "bytes": 7558
+      }
+    ],
+    "金融前固定への後付け": false
+  },
+  "再集計器": {
+    "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/再現資料/保存観測から再集計する.py",
+    "復元先": "work/145正式保存/保存観測から再集計する.py",
+    "形式": "同体",
+    "保存bytes": 7493,
+    "保存SHA256": "0d70c50b3b9c65b53050c08544c3cc291d826071c1c56b959bc8610a3994961e",
+    "解凍bytes": 7493,
+    "解凍SHA256": "0d70c50b3b9c65b53050c08544c3cc291d826071c1c56b959bc8610a3994961e"
+  },
+  "金融後正式文書SHA256": {
+    "README.md": "b503ee1a9c9e15d18cbfa5a1ec36ad53d74158fc264ba9419f3b61b56f3cb668",
+    "条件.md": "10a2bcd01b2e59d42b50efa8009e4c8c53b12abf4b016fcea550f0c0847aa95d",
+    "設定と結果.md": "3c6070c789592671667dbc2603f8435149f451456cfd49f9a3307f0dede75a2e",
+    "閲覧資料.md": "0216966d4bd36f899dfdb8339e8bdf7b136acbee3e4ab18c5ab421ebd22b8330"
+  },
+  "正式結果文書確認SHA256": "03a29a6224f1fdbcd1f92f8a4d131f83e77f88bdc23ca2f9c7e40527cc560ccc",
+  "最終確認": "検査/正式保存の最終確認.json",
+  "重大不足": []
+}

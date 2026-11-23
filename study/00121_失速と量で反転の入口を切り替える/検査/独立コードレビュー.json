@@ -1,0 +1,53 @@
+{
+  "試行": 121,
+  "成功": true,
+  "段階": "F1前・自然市場未読の独立コードレビュー",
+  "コード変更": false,
+  "重大欠陥": [],
+  "検査": {
+    "pure主検査": 7,
+    "runner主検査": 4,
+    "go_test": "双方-count=1 -v成功",
+    "go_vet": "双方成功",
+    "RootPython構文": 4,
+    "固定120core人工AST対照関数": 16,
+    "人工C0_P2鏡像対照": true
+  },
+  "確認事項": [
+    "C0基礎からE0/V0/EV、B1基礎からB0を同原行同cohort派生",
+    "cooldownはC0/B1側のみ、未知を支持化しない",
+    "広い帯・ADX低下・量・勢い・cap/hold/riskがMDと一致",
+    "1分因果形成・ATR当足除外・gap60・買売鏡像",
+    "全C0 22出生17取得と全共通取得/期限を市場後checkerで照合する設計",
+    "同cohort双方完了比較と全出生の分母を分離"
+  ],
+  "確認したファイルSHA256": {
+    "work\\121入口の反転切替\\detector.go": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4",
+    "work\\121入口の反転切替\\detector_test.go": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90",
+    "work\\121入口の反転切替\\policies.go": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79",
+    "work\\121入口の反転切替\\types.go": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2",
+    "work\\121入口の反転切替\\go.mod": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b",
+    "work\\121入口比較\\entry.go": "4e6514166710feb4b424d6aa5798b58f96e17518a47bfad2c07b31d77827fec4",
+    "work\\121入口比較\\entry_test.go": "f893b3dc705facb4d5b18ea7019938c3a3e677bdcfd002a45e5a653c3122e0e3",
+    "work\\121入口比較\\outcome.go": "89967a80c155ca05088bcad6667788633e28b1be7a6161e77f4950a5005def76",
+    "work\\121入口比較\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "work\\121入口比較\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "work\\121入口比較\\go.mod": "48adb3c4aa7b1c2af63b52c3e001e08e5f86f2a24159af478687026cb144dae3",
+    "work\\121入口比較\\cmd\\run\\main.go": "a54a7233deabb1f32f47f982a3906edd7447977a10aec974004195ba8b6be392",
+    "work\\121入口比較\\条件を固定する.py": "c0abe501be33014d37de67a32b15cd2a8cc7fcee18ff7ac7298b2aa7504fbf27",
+    "work\\121入口比較\\実行する.py": "770d06d3d76c3e9069c32301fc75da563afecb21d1f34a94d5d8d47267c60fad",
+    "work\\121入口比較\\集計する.py": "c5338c3340952b6b701caf97a0914fd7236f57fb13796c9ef00edfd295be63d2",
+    "work\\121入口比較\\対照を照合する.py": "02a5650114619da5ba15694e7008497a00b6a401562d0a78b1cde8c9958e1c59",
+    "work\\120入口の1分構造\\detector.go": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+    "study\\00121_失速と量で反転の入口を切り替える\\README.md": "c062b969229890f5b09169d641d1adac24596ad6aec8b2799a0790dc046292be",
+    "study\\00121_失速と量で反転の入口を切り替える\\設定と結果.md": "e224a9eb829d2c52fa5dbd9fa7874017b543ccc4d8f0174dabd5ac0f4b45b68e"
+  },
+  "レビューMD_SHA256": "fa7a91f4b29d01de4e7c5da41952e1b5e42daf27bc71be3a619bae4167edfcae",
+  "121自然市場結果読取": false,
+  "市場入力JSON読取": false,
+  "Raw読取": 0,
+  "Native読取": 0,
+  "11月09読取": false,
+  "金融再実行": false,
+  "独立実行物build": "未実施。go testによるコンパイルは成功。"
+}

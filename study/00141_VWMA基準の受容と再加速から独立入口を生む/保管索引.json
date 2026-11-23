@@ -1,0 +1,1306 @@
+{
+  "試行": 141,
+  "段階": "Source/金融/Source独立/金融独立/CSV/保存観測再現/正式保存完了。V0未評価、U0は70%/頻度未達、編集停止",
+  "F0_SHA256": "05e66573e55377e4d89b66fce2c00abaa4a247a04d1916de7b2ebff7b8cfaffb",
+  "F0直接源数": 112,
+  "追加固定資料": {
+    "ZIP": "141出生前の固定資料.zip",
+    "ZIP_SHA256": "20df2e25ad179a94933f62d03d8466e89d267ff19e7c2058a0b3506ccedf7bde",
+    "ZIP_bytes": 74021,
+    "格納源数": 26,
+    "格納源": [
+      {
+        "path": "study/00141_VWMA基準の受容と再加速から独立入口を生む/README.md",
+        "sha256": "c8f551123035297512cdcc6ef16292e7cded9b8cea6ba750a57c682f24598779",
+        "bytes": 6454
+      },
+      {
+        "path": "study/00141_VWMA基準の受容と再加速から独立入口を生む/条件.md",
+        "sha256": "c2d907b22f84fdbaac51bc7bfa1109f40076ffb0d31dfd762fe00d8c684c6bca",
+        "bytes": 16812
+      },
+      {
+        "path": "study/00141_VWMA基準の受容と再加速から独立入口を生む/設定と結果.md",
+        "sha256": "8cc3a47941304965f7640dcbb03ac38a5c5230b086d60fe3ddf21836a27628b1",
+        "bytes": 22196
+      },
+      {
+        "path": "work/118複数技法の入口条件/README.md",
+        "sha256": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+        "bytes": 3780
+      },
+      {
+        "path": "work/118複数技法の入口条件/検査/確認.json",
+        "sha256": "64ca0b2ba6184fdf0b3831789fe316de28e6fc2a82ea9a17537d2da93b3d1107",
+        "bytes": 3542
+      },
+      {
+        "path": "work/141_VWMA独立入口の採用仕様.md",
+        "sha256": "ce879a8f650e760f782ad203585a62e484916bcc0360dbe26ba8fda6e32e1873",
+        "bytes": 9202
+      },
+      {
+        "path": "work/141V0と旧対照を固定取得へ渡す.py",
+        "sha256": "68320652cf6e393b9c6c7ed94e748878a4fd240b7eb33814e3e77197093371b7",
+        "bytes": 9693
+      },
+      {
+        "path": "work/141VWMAの独立入口/cmd/run/main.go",
+        "sha256": "ecf6e6c0a789d7fa78b619a5e3e05f9757833f1cb22eecdbe9f3ebf82281f13b",
+        "bytes": 1853
+      },
+      {
+        "path": "work/141VWMAの独立入口/csv.go",
+        "sha256": "b6bd3ba1837c43ebf8c8004d2eee728436df09790d11bdd89b32210a30d3fb69",
+        "bytes": 5736
+      },
+      {
+        "path": "work/141VWMAの独立入口/decoder.go",
+        "sha256": "3f3cbc921d5deb239f73d6e6e3638d8d274549c823347d6ef7bc1000f621b39b",
+        "bytes": 2931
+      },
+      {
+        "path": "work/141VWMAの独立入口/go.mod",
+        "sha256": "540b433d61c877df402334bca992cb90b93a1e853f56d7cd789b13e7e30d2e7f",
+        "bytes": 259
+      },
+      {
+        "path": "work/141VWMAの独立入口/helpers.go",
+        "sha256": "da655282db44f982a774106215989ed03f0e2ddaa2b399c74185f13127aae6ea",
+        "bytes": 6315
+      },
+      {
+        "path": "work/141VWMAの独立入口/input.go",
+        "sha256": "034810316ca182425803ab228669e2b20d6714a470f888457b60778bacc58d16",
+        "bytes": 4019
+      },
+      {
+        "path": "work/141VWMAの独立入口/README.md",
+        "sha256": "11077e329716cd70c8b3ffe3a4a069c62722a3ac4e1f89845f9d73a3b5a744db",
+        "bytes": 4184
+      },
+      {
+        "path": "work/141VWMAの独立入口/scanner.go",
+        "sha256": "78c2c91cb36caafa61a265b8e299c8176231aa742866b4d3fe5ec8c242279de9",
+        "bytes": 7884
+      },
+      {
+        "path": "work/141VWMAの独立入口/scanner_test.go",
+        "sha256": "c9a9d83e6be0fd776f1c10fecf9d9b8d98486c95d83087068464fb147925475c",
+        "bytes": 4638
+      },
+      {
+        "path": "work/141VWMAの独立入口/state.go",
+        "sha256": "82201fe818d041b775128e3b5b01d9dbfe10c502c7b1666c744afa08d95a001e",
+        "bytes": 19087
+      },
+      {
+        "path": "work/141VWMAの独立入口/state_test.go",
+        "sha256": "38505e1b032530ccd485ff15f8832b724976f28f36115460ba44ef1f26f9f978",
+        "bytes": 7664
+      },
+      {
+        "path": "work/141VWMAの独立入口/tracker.go",
+        "sha256": "57ff321497d520fdcbcb3b4b2b1bc0c902bb2f5bc1fab2433518aba03fb3b83f",
+        "bytes": 4812
+      },
+      {
+        "path": "work/141VWMAの独立入口/tracker_test.go",
+        "sha256": "0e466fb201d1910fe5912cdfa199dfc82e758c3ee05c09115750b1bda7200ac8",
+        "bytes": 3820
+      },
+      {
+        "path": "work/141VWMAの独立入口/types.go",
+        "sha256": "32f449cc1bca4da1807c671a779a8f66c9ae855303b1329ab14d5cc866dc51eb",
+        "bytes": 4632
+      },
+      {
+        "path": "work/141VWMAの独立入口/準備の確認.json",
+        "sha256": "ec0227d024ab93e5c215a4a6e9d60c14bae403a3d3e34e9f39f281f02e25a258",
+        "bytes": 7777
+      },
+      {
+        "path": "work/141入力を準備する.py",
+        "sha256": "4cb4686c00ee5a2bd03922c2a11cb48b7732fb93d635fd6937782719fa759cd1",
+        "bytes": 2341
+      },
+      {
+        "path": "work/141出生と金融を分離して実行する.py",
+        "sha256": "0d7e691c5bb392e0da4373f48a8159996618004400802dc62c094d5485918101",
+        "bytes": 7958
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/Source最終の確認.json",
+        "sha256": "2a2e08128a8cf73064003c5b31894ce5c9f2c8ce8b50997b2e17102560457c65",
+        "bytes": 12252
+      },
+      {
+        "path": "work/141転送の人工検査.py",
+        "sha256": "cb7b5ca0993c4571d480887c313ea5e05adb126e6fd94c946f51bd9c93fb7b50",
+        "bytes": 3922
+      }
+    ]
+  },
+  "共有固定コード": {
+    "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+    "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+    "格納源": [
+      {
+        "復元先": "work/118複数技法の入口条件/bank.go",
+        "ZIP内path": "work/118複数技法の入口条件/bank.go",
+        "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+        "bytes": 7897
+      },
+      {
+        "復元先": "work/118複数技法の入口条件/go.mod",
+        "ZIP内path": "work/118複数技法の入口条件/go.mod",
+        "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+        "bytes": 76
+      },
+      {
+        "復元先": "work/118複数技法の入口条件/rules.go",
+        "ZIP内path": "work/118複数技法の入口条件/rules.go",
+        "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+        "bytes": 8347
+      },
+      {
+        "復元先": "work/118複数技法の入口条件/rules_test.go",
+        "ZIP内path": "work/118複数技法の入口条件/rules_test.go",
+        "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+        "bytes": 8029
+      },
+      {
+        "復元先": "work/118複数技法の入口条件/types.go",
+        "ZIP内path": "work/118複数技法の入口条件/types.go",
+        "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+        "bytes": 4220
+      },
+      {
+        "復元先": "work/133金融前を固定して実行する.py",
+        "ZIP内path": "work/133金融前を固定して実行する.py",
+        "sha256": "a688f2ab68ed56344cc4f1154376f5655ffe2997728d9cbb02dc8651baef3a07",
+        "bytes": 7758
+      }
+    ],
+    "格納源数": 6
+  },
+  "共有入力": [
+    {
+      "保存元": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+      "復元先": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+      "形式": "同体",
+      "保存SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+      "解凍SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b"
+    },
+    {
+      "保存元": "inputs/00138_全成立入口の共用入力/固定取得入力.json.gz",
+      "復元先": "work/138全成立入口の評価/固定入力_版2/固定取得入力.json",
+      "形式": "gzip",
+      "保存bytes": 45356,
+      "保存SHA256": "828466aaefd2a1ab5abf30527a51bd4404f5b3b6f755fa640d6d951e97557510",
+      "解凍bytes": 377079,
+      "解凍SHA256": "0c83e525dec3079ce188d942069c0d137c94f39009339752ec8227ec9ecb4ce7"
+    },
+    {
+      "保存元": "inputs/00138_全成立入口の共用入力/manifest.json.gz",
+      "復元先": "work/全成立poolの非金融manifest/manifest.json",
+      "形式": "gzip",
+      "保存bytes": 201408,
+      "保存SHA256": "69e4cbf4524a2efd27f62201cd40decbb8935fc626743b3b5aa5493ad0bf3ee1",
+      "解凍bytes": 3949676,
+      "解凍SHA256": "e7ba444fd66f9ca52e10e929eeb31d21076f97afa161de738dabca14a8ff8e35"
+    }
+  ],
+  "新共用入力": [
+    {
+      "保存元": "inputs/00141_VWMA独立入口/CSV73参照.json.gz",
+      "復元先": "work/141VWMA独立入口の評価/CSV73参照.json",
+      "形式": "gzip",
+      "保存bytes": 4288,
+      "保存SHA256": "af357c7193f75de5c49c0fa2472aae4e97c7e8461e0b658c03756f2eb449ad64",
+      "解凍bytes": 23482,
+      "解凍SHA256": "07e136e2b77a0029ddacd955abad16a9240373fa849ec96b553c2875e1e85147"
+    }
+  ],
+  "共用CSV参照": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_1min.csv",
+      "sha256": "4f01eaeaeb50d3c67121ccffed9ab6506c8ac8d53d5dadee1562f44ec5526c14",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_1min.csv",
+      "sha256": "e28222a0bab2073e7fbba5b5f78ec0326dddb35317df00f09e2a8ac1a941b44a",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_1min.csv",
+      "sha256": "984f865018a17649718a19482709c9ad8c157deacd9990df533290fb39bb95cb",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_1min.csv",
+      "sha256": "bdc8107f27db4f6cd34a9f0c5ab497876ab01fed55f638f7bd42eda9a1295268",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_1min.csv",
+      "sha256": "f79b4fcfe34dcffe1a0777493f26645354da18f60da575884a18b0345def604c",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_1min.csv",
+      "sha256": "c9ebd482d4af77d57f7c2f121079e9da12f39f130fcca9336763218526ab081c",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_1min.csv",
+      "sha256": "c00a7282b7a912c9f3941dce9661beb527f7bf67171afbf3a3a11e20ed6edcc3",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_1min.csv",
+      "sha256": "7055bbaa7b843bd38c252b6ea994ca973b02897b0352c814bd3407aa506a7535",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_1min.csv",
+      "sha256": "279c091a509fa92b234b80241087a78633f1939f1afad266a19f6b1dd93e77f7",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_1min.csv",
+      "sha256": "63a49a767133c1fabb0d29689aec3eeb23a926cb853f69e5bfeca8f26ff72cef",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_1min.csv",
+      "sha256": "36b5407caa9eab01da4b8cf5dd33723ef7bc41799ae7bb8a0ceab0eefec4ba86",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_1min.csv",
+      "sha256": "66c23cf8bbbb518bf2b30298bd38114fe7f557f96fabefe9c6cfdeb127fee905",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_1min.csv",
+      "sha256": "55c4c68b5a6ebfeae1caa81f41baf9aaf15305fdf748b2acab1d80568d0b4280",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_1min.csv",
+      "sha256": "940e2ce247e7afbd2bf0340cdb8819ab6f61c533ab11bbb612d73652b0ab49e9",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_1min.csv",
+      "sha256": "ac7bc1bce7be0d1e3d18ab001de20f39699d1b47b10891d697a36c800f822777",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_1min.csv",
+      "sha256": "7c27652dc6ea84979249199ce23d6e271da289ed49acdda5739a0f2508aed5ce",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_1min.csv",
+      "sha256": "95a36e0277cb725b913006ac8d8a50854b592128720a1579738abb022db4209c",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_1min.csv",
+      "sha256": "cd8e0a42260c5828cbcf80b5dc9a642f3f842f7bc3e593ad98a73a763ea1366c",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_1min.csv",
+      "sha256": "a17d3323d8e52a439e4648182cbb1b4caf5ef012a8f91bd85493ed57942182eb",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_1min.csv",
+      "sha256": "15d2517fbd64ee9b18e5ecfb203fa0bdac079e683f103ec1f13403892b4faf33",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_1min.csv",
+      "sha256": "983e3e8de35fec27eb482627f8157fb047e5d48c58bf37ea462af6a8e1d3e873",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_1min.csv",
+      "sha256": "b5289cf20df7f4190ab2f2df2041bdd057056a69edcc4b084ae069185a0db453",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_1min.csv",
+      "sha256": "16f4192158efc77696fece87c4c2ba4ede6a90b32dcf50f0c0b0ae3fd6dbcc30",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_1min.csv",
+      "sha256": "93d8db22d76a67a15f4e384d3e8aece7e36dbdf718be5cd86fa25e56ace23212",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_1min.csv",
+      "sha256": "b28fdf41f037b8c0d1b4db72e2de990538042d1e5572e4e132e1ea5a36fe62ee",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_1min.csv",
+      "sha256": "9a5c429ee00c046e5203252c24060f344bb5965f21f43eb450f7a02441bde043",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_1min.csv",
+      "sha256": "77c872b652b8d2547ea26d3296795dddec4d820d442bfc2ee77ea32a4c1e784d",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_1min.csv",
+      "sha256": "dd2ffd3c7722bed9f1f0be5434ea4359172eaa56bf82a21601aeb40454ee2684",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_1min.csv",
+      "sha256": "5cf28f15576b74940245396337f4871f9af3018f8aea00bc08ea679787ab81e1",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_1min.csv",
+      "sha256": "17d57dd4ab36df2ec13db5779f6e2892b86a4bc2fd7dbccad5f0b6614d75e25f",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_1min.csv",
+      "sha256": "0be856c455440e5f9089f5f4e40df9071e028d9cbe18eda18f9b5512a562a606",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_1min.csv",
+      "sha256": "a3b409363dba5bcd8581abb2819e7010ebc3104aab798856b1b0ac3ac8539d74",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_1min.csv",
+      "sha256": "d539b5d50e587476b00f58198ea2b1846892b30b52558b55a3cd32eee34faa75",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_1min.csv",
+      "sha256": "f23b4f5bd1c733b26e645a3185974d639e607a54ebba15092182713d9e40d70c",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_1min.csv",
+      "sha256": "2361b9c55a81b329d9eddeb373ef9e4fdca772d26bff59be0097ac87e7122834",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_1min.csv",
+      "sha256": "3a51cee49c06d5b62225a77598bcb23aa100e6f234790080b460e51966106688",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_1min.csv",
+      "sha256": "2f0d493405f5a7eb126fdf50e1bc6480749b3b32bfc0f481570d7e46250a803c",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_1min.csv",
+      "sha256": "5e0e6db0ed1781ac61fb032e956b4b3a01f91cd255bec34bddd132db05fbfd38",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_1min.csv",
+      "sha256": "ba30ec76ffc1d3ea408c7a1294ecf7bece0b18f4dde9570009ce8bafea9d54cb",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_1min.csv",
+      "sha256": "80425f0e8f6741a675a6a7f911c8bf5e15a55ad313b21f48a6140c768e4a8e1f",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_1min.csv",
+      "sha256": "70f19999c72279350d16dfa87a8e9fa185f910ac5686b5bb3f62f24d6470371f",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_1min.csv",
+      "sha256": "1432c6b71e39fc0060983e300f9a3a69d0d225d6d0fff187cee0d02a1278c5cf",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_1min.csv",
+      "sha256": "4fe2d92369aa523bbd6d512ab14dcf6e42c8c07538fac6d95f9594f3e3e4087a",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_1min.csv",
+      "sha256": "7efa2a9b3a553fcd3d394441e319265832c6791852008fd2d6a7cc869ddd4e4a",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_1min.csv",
+      "sha256": "45d3a5e3f94efe32b93b85dbf206441d1f850eb5f4eea5972f1e45cda32ca4f0",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_1min.csv",
+      "sha256": "065986f516bb1fa431e2bab9461932ee10315e408e315d91cd6e03b8ace1e226",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_1min.csv",
+      "sha256": "72d9feeda51d7d4ca090052055c4fc978fa7e36a3cb1c21b7fafd529e57b9d79",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_1min.csv",
+      "sha256": "f5e8d3bf8dd643ee3b48528d4cea4402dff25590d74745cb793a0bee5ecd0636",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_1min.csv",
+      "sha256": "7ee8bea6cc83b9ac1e95f1a292f386f04dd83c58ed23d4e7a0a39d7f92441570",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_1min.csv",
+      "sha256": "f036fc3157ef112e8d0629a00320f7d5c63e37c2d3fb604e5b8b8b584a79b7d5",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_1min.csv",
+      "sha256": "72a45248864460b0348134fa5c8c88c7730fc752c5ef4958884b89aded30d098",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_1min.csv",
+      "sha256": "e4311431ecd561973aa7af3d073e938c80a1bb69aa42d2dac75ca9c73c826a83",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_1min.csv",
+      "sha256": "a08fb61edcbda1faf5924f40d7efab7a4df29969857a143ec873f2a19f0070f4",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_1min.csv",
+      "sha256": "8d823c17906e869aef0888f80829d03010d6b257b3c5b2d9e2dc11ccef90d501",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_1min.csv",
+      "sha256": "b781bfa9b56b562097d917b112c7d7baf5d6a5b2aa1a7488d9ffd038b2e6fc7b",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_1min.csv",
+      "sha256": "d4cdbd688df1b280570d9857077f3de56e1f7ef81f601492a8d0a15709aeb063",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_1min.csv",
+      "sha256": "be89937a7160a54298eb3e6cfb2813df8b252b00f9bf219bdf11ef20859cba34",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_1min.csv",
+      "sha256": "c49872d51b964b2e2be5c24c4d848607ff5fc7679dfb5fe8ec68585c02c6e428",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_1min.csv",
+      "sha256": "d4d8b697cc0cf32a2c6ffa6432dbd8f62cffa60f89d3bb203239f203ad1baba2",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_1min.csv",
+      "sha256": "104687d9606fe869a6160cf387c0d5351a892e26a17afe4d9631a6db901b0ea5",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_1min.csv",
+      "sha256": "db565ee388bd6842265a7ae1c8cf123d6a91e28f37d0b4689c86307f55f4b012",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_1min.csv",
+      "sha256": "5eeec97e497523d1334d7941787c67ab1af716e38005ff4774b69587f7ec3e0d",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_1min.csv",
+      "sha256": "9c8bb2285c175bb834a7737505ee58302a71dbf2e668bfbd12f1c4a458e3add4",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_1min.csv",
+      "sha256": "ea7cf6617884f9d09b593b4471a1ae808fb9c96c2e9b61f0305fb60597e6b750",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_1min.csv",
+      "sha256": "8553acab126f969cb2ded1959a46155952308c7718a2ef32c5e3b763412c6190",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_1min.csv",
+      "sha256": "ae8bc417f2284d78fa1b529f4deae051bef9c8edd963934ba4a9038a5096e132",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_1min.csv",
+      "sha256": "0c33062090bad6a2fa5ccfa0d6d8f22e6868da3368f574b5f89a0c9cdd293e12",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_1min.csv",
+      "sha256": "08b5a5944cccda731a600c33ed5cb3247afd21440f25ac8e39a5bc65d24af423",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_1min.csv",
+      "sha256": "b88010dbf2314cd447ea47c7e01f86d3f0bdd94807239cfd95147431578f1d83",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_1min.csv",
+      "sha256": "e9df8735f9c7855312f2c34f8d9e3b4f74e61777b8b3cf66fddbdb755b7f24a1",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Day\\candle_1min.csv",
+      "sha256": "7e7f419acac72381176bf1e4fc1c8f48fd7e58a73194d84c571cd8ea7ffb1aa7",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Night\\candle_1min.csv",
+      "sha256": "82377ab931fcb9192c91e581895689f2cf728974ce91cff09699097fdb7930c0",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Day\\candle_1min.csv",
+      "sha256": "58fec0415d950f027f87e6611a0c148dc06b711c5e2b84e33faf40dcfe86d0b5",
+      "用途": "共用原CSV。恒久品質F0と同体指紋、本文未複写/未読"
+    }
+  ],
+  "意図して複製しない固定源": [
+    {
+      "path": "work/122全場入力/入力.json",
+      "sha256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+      "bytes": 177709174,
+      "理由": "共有巨大入力又は実行体。既存入力差分/コードから復元・ビルドし複写しない"
+    },
+    {
+      "path": "work/133固定取得の正逆評価器/固定取得の正逆評価.exe",
+      "sha256": "033cf22a052e985bc61aa020a04fa6d499119051aaa39bb2adb715a4af1e7736",
+      "bytes": 3659776,
+      "理由": "共有巨大入力又は実行体。既存入力差分/コードから復元・ビルドし複写しない"
+    },
+    {
+      "path": "work/141VWMAの独立入口/V0独立生成.exe",
+      "sha256": "e93c66ca70ee2467bdcb80ea6f21f463ad905add07b4bec1c4159cb7782224b4",
+      "bytes": 3917312,
+      "理由": "共有巨大入力又は実行体。既存入力差分/コードから復元・ビルドし複写しない"
+    }
+  ],
+  "共有の原板参照": "inputs/00124_同入口正逆の共用入力/入力.json.gz。原板105恒久先とJP_OSE_Dataを元指紋で参照",
+  "122巨大入力の復元": {
+    "手順": "study/00122_E0固定条件を全セッションで検証する/再現資料/再現手順.md",
+    "StageB": "study/00122_E0固定条件を全セッションで検証する/検査/StageB.json",
+    "SHA256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+    "旧70入力": "study/00118_指値待機と複数技法の取得確認で入口を比較する/再現資料/再現手順.md",
+    "新3差分": "inputs/00122_新規3場公表/新規公表.json.gz",
+    "新3差分SHA256": "39ccf4ff92bc03276839b899ec2e1a067c6570e140ecc3c66a445f0167125c42",
+    "結合源": "study/00122_E0固定条件を全セッションで検証する/再現資料/122コード.zip",
+    "今回再生成/本文読取": false
+  },
+  "kernel共有源": {
+    "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+    "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+    "格納源数": 13,
+    "格納源": [
+      {
+        "path": "work/133固定取得の正逆評価器/README.md",
+        "bytes": 2664,
+        "sha256": "a5beba49c5d6f5865c55696ac5f402a306daeda03a817c30aa52cd0faaaa4052",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/chart_outcome.go",
+        "bytes": 1660,
+        "sha256": "e42731522a01a99418c028ee1e5c0643c237c8c94ca1ced938ca2ec2cfa84637",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/cmd/run/main.go",
+        "bytes": 585,
+        "sha256": "1035b608ba2ec49eb761d6d4117014463b5cd4a42f71dfb1c64ae20248775ee5",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/entry.go",
+        "bytes": 13887,
+        "sha256": "f1963e47f0efc34541d54a45c34dffc4f7dd757e0ff16717a7975bfd7482486a",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/entry_test.go",
+        "bytes": 7952,
+        "sha256": "f25f42cc835e44dfb56f7d981b2ad2c70cc303e3b2db1841bd086f0a77ebaf85",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/go.mod",
+        "bytes": 40,
+        "sha256": "93d0e423e58ac17da2f3f8f9950b9f37ee6bd0e7de31d5fe15ffdfc14865fcdb",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/outcome.go",
+        "bytes": 1677,
+        "sha256": "90e378e1816d7a7cd92ba09ad8e129ff17c4a12338e06fa7eb0b5a0464727487",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/phase.go",
+        "bytes": 619,
+        "sha256": "5e6136b749036ca16b3d9a0cc348cae8f414495b00862dd7fc4502990593022a",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/phase_test.go",
+        "bytes": 2551,
+        "sha256": "c67071d5990eb93df200d87d6e723c6e2c431abd79545575bc354f5ebdffdbea",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/reader.go",
+        "bytes": 15263,
+        "sha256": "817ec44405214d58369522341cae03ebe325ca48d440b6494b7ce868613d9a49",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/stream.go",
+        "bytes": 781,
+        "sha256": "4b2ea61493ab2de65ed83fb6af8d6dc852ebaede4c5df9932ead48d8c75aff49",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/types.go",
+        "bytes": 6616,
+        "sha256": "2675f5861fbe4c12a5f171a76b60f4467caf9b2b14d6d6ed3a2340b1609aed3d",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/準備を確認する.py",
+        "bytes": 4161,
+        "sha256": "2ab4d2c35bb7c1dc96640746a0749cdcdd7fbba357136452b9a50c111a4356c6",
+        "段階": [
+          "F0",
+          "F1"
+        ]
+      }
+    ],
+    "扱い": "F1はexe指紋を直接固定。133保存源は同体再現用であり138直接F1へ後付け追加したとはしない"
+  },
+  "恒久品質監査": "docs/根拠/全73場1分品質_20261112/保管索引.json",
+  "新Raw/巨大入力/実行体/CSV複写/自然結果参照": false,
+  "正式README/条件/513セルの変更": false,
+  "出生後段の準備資料": {
+    "ZIP": "金融前準備と復元の小資料.zip",
+    "ZIP_SHA256": "3577d7f62cbbcb4b05c9008dc31f27be8ead57c00cd76f9a141b83b1f508c7fd",
+    "ZIP_bytes": 38713,
+    "格納源数": 16,
+    "格納源": [
+      {
+        "path": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/F0保存資料を復元する.py",
+        "sha256": "6ecaf2ce2c75b2bd4eba6a9bbc23935b42f9d97630c7bdfb4cb88d5f896a4008",
+        "bytes": 4677,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141正式保存/F0原文を保管する.py",
+        "sha256": "6ddd82c807e91e6dd0528e0e2f1b40161d80f76b67078f1d6b948ddc0665882e",
+        "bytes": 7924,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141正式保存/後段準備を保管する.py",
+        "sha256": "8bb0d84753abda93eb1761c86563955946d2df6e6247fb3c16ccfb0f18c4b5b2",
+        "bytes": 2544,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141独立入口とunionの集計/README.md",
+        "sha256": "e5db79bc120aa7cfa0f02692cbc729139568dcd326cff62cbf916c9d6bf72c31",
+        "bytes": 1586,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141独立入口とunionの集計/人工検査.py",
+        "sha256": "e4f77754606eddb6b0239f03051e5c57359a04c74c5a346cc27d19c4fab97fec",
+        "bytes": 8510,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141独立入口とunionの集計/条件.md",
+        "sha256": "8a301e958155d2ad4b159fa489d8e5e38504342de1edb3898be8f99eccd33c03",
+        "bytes": 5288,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141独立入口とunionの集計/準備の確認.json",
+        "sha256": "a37af856cb19f9d6bda32881bd91b1a8bec90d7c6fb7e0ab50d252851cf30d18",
+        "bytes": 2615,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141独立入口とunionの集計/集計する.py",
+        "sha256": "ccadd80b98ca9e8ff9798ef0a8a7a3847ac4b48bd72f89622d7c6c9c5013b274",
+        "bytes": 21256,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/README.md",
+        "sha256": "2cd3c87eb54fb938f3afcee3d30fc7a0783ae7b2d5c9e794c2d83b0af91ef4c9",
+        "bytes": 3984,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/人工overlay.json",
+        "sha256": "16da98f35334954c31521c0a7385becb00a0f940f76a0eda16876ddbd16d2dd2",
+        "bytes": 252,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/最終レビューを確認する.py",
+        "sha256": "6affcfd93306e7d5e4ce6c6f0aefb42f1067c2837b76c6d1facf610b9b33250b",
+        "bytes": 5459,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/準備の確認.json",
+        "sha256": "61db6a8b4cb135a7bbafae5786c73fdf1a8979b816d8aaa5492244cc6d62a400",
+        "bytes": 2220,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/状態の独立人工_test.go",
+        "sha256": "bf7f1389b31e9daf35c7189548b1888da869d7d47ac5859ce76b036f746eba56",
+        "bytes": 6519,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/状態人工overlay.json",
+        "sha256": "628e7fc90971290a9908e96a1ec2e5ca7960b04115db18083240c5dda0a12670",
+        "bytes": 261,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/独立人工_test.go",
+        "sha256": "056da412697f8a1ba6212e60899b202b9e735d5b05f8f1dc350e41bb01428c94",
+        "bytes": 4607,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      },
+      {
+        "path": "work/141窓と転送の独立準備レビュー/転送の独立人工.py",
+        "sha256": "7741eb2fc4d35c79e34b8e46d9d911a569eb10e47ec4e0a34d7b0b6a604a5cd3",
+        "bytes": 4205,
+        "区分": "F0直接源外。独立人工/後段金融前準備/保管/復元"
+      }
+    ],
+    "注記": "F0への後付けではない。集計準備proofの採用仕様SHAはRootの0量中間待機追補より前の段階で、その差はRoot固定で区別する"
+  },
+  "F1_SHA256": "0602d5e3653d3981f11819d623376b64be0dea9d06e636aeba0abbac3c958f02",
+  "F1直接源数": 127,
+  "F1増分源数": 15,
+  "F1増分固定資料": {
+    "ZIP": "141金融前の追加固定資料.zip",
+    "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+    "ZIP_bytes": 3246,
+    "格納源数": 1,
+    "格納源": [
+      {
+        "path": "work/141金融集計を独立に確認する.py",
+        "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+        "bytes": 7652
+      }
+    ]
+  },
+  "F1共有コード": [
+    {
+      "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+      "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+      "格納源": [
+        {
+          "復元先": "work/124入口の原因分析/集計する.py",
+          "ZIP内path": "work/124入口の原因分析/集計する.py",
+          "sha256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+          "bytes": 18019
+        }
+      ],
+      "格納源数": 1
+    },
+    {
+      "保存元ZIP": "study/00138_全成立の独立入口を統合して頻度と先着を診断する/再現資料/138金融前固定資料.zip",
+      "ZIP_SHA256": "9c6893ff39c3f54cb136d23baea001eef870b857c83cb45ef1f063285d0a0424",
+      "格納源": [
+        {
+          "復元先": "work/138全成立入口と頻度の集計/集計する.py",
+          "ZIP内path": "work/138全成立入口と頻度の集計/集計する.py",
+          "sha256": "e8671638600dc4b23ef9256ba5be535f20c6f8e1d5097457a56fbea9fb30c1f1",
+          "bytes": 22098
+        }
+      ],
+      "格納源数": 1
+    },
+    {
+      "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/金融前準備と復元の小資料.zip",
+      "ZIP_SHA256": "3577d7f62cbbcb4b05c9008dc31f27be8ead57c00cd76f9a141b83b1f508c7fd",
+      "格納源": [
+        {
+          "復元先": "work/141独立入口とunionの集計/README.md",
+          "ZIP内path": "work/141独立入口とunionの集計/README.md",
+          "sha256": "e5db79bc120aa7cfa0f02692cbc729139568dcd326cff62cbf916c9d6bf72c31",
+          "bytes": 1586
+        },
+        {
+          "復元先": "work/141独立入口とunionの集計/人工検査.py",
+          "ZIP内path": "work/141独立入口とunionの集計/人工検査.py",
+          "sha256": "e4f77754606eddb6b0239f03051e5c57359a04c74c5a346cc27d19c4fab97fec",
+          "bytes": 8510
+        },
+        {
+          "復元先": "work/141独立入口とunionの集計/条件.md",
+          "ZIP内path": "work/141独立入口とunionの集計/条件.md",
+          "sha256": "8a301e958155d2ad4b159fa489d8e5e38504342de1edb3898be8f99eccd33c03",
+          "bytes": 5288
+        },
+        {
+          "復元先": "work/141独立入口とunionの集計/準備の確認.json",
+          "ZIP内path": "work/141独立入口とunionの集計/準備の確認.json",
+          "sha256": "a37af856cb19f9d6bda32881bd91b1a8bec90d7c6fb7e0ab50d252851cf30d18",
+          "bytes": 2615
+        },
+        {
+          "復元先": "work/141独立入口とunionの集計/集計する.py",
+          "ZIP内path": "work/141独立入口とunionの集計/集計する.py",
+          "sha256": "ccadd80b98ca9e8ff9798ef0a8a7a3847ac4b48bd72f89622d7c6c9c5013b274",
+          "bytes": 21256
+        }
+      ],
+      "格納源数": 5
+    }
+  ],
+  "F1共有入力": [
+    {
+      "保存元": "study/00137_市場終端後の既知回復を公表時点で確認する/成果物/集計.json",
+      "復元先": "work/137既知回復と頻度の集計/集計.json",
+      "形式": "同体",
+      "保存bytes": 366996,
+      "保存SHA256": "f7c73cc87948fa17174e3909f89aa63d74abe76191bf435788e71cb0d400548b",
+      "解凍bytes": 366996,
+      "解凍SHA256": "f7c73cc87948fa17174e3909f89aa63d74abe76191bf435788e71cb0d400548b"
+    },
+    {
+      "保存元": "study/00137_市場終端後の既知回復を公表時点で確認する/成果物/固定取得の正逆観測.json.gz",
+      "復元先": "work/137既知回復の評価/固定取得の正逆観測.json",
+      "形式": "gzip",
+      "保存bytes": 135370,
+      "保存SHA256": "2059137b583907ad8ded5c35a0d76c9471ff450e90b72b24856a94125da4514d",
+      "解凍bytes": 6286859,
+      "解凍SHA256": "f0adca92cf1f1db25e75e4d92187952e2920ea7126b3790ece89df1c7f00369a"
+    }
+  ],
+  "F1追加入力": [
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/F0出生前.json",
+      "復元先": "work/141VWMA独立入口の評価/F0出生前.json",
+      "形式": "同体",
+      "保存bytes": 19074,
+      "保存SHA256": "05e66573e55377e4d89b66fce2c00abaa4a247a04d1916de7b2ebff7b8cfaffb",
+      "解凍bytes": 19074,
+      "解凍SHA256": "05e66573e55377e4d89b66fce2c00abaa4a247a04d1916de7b2ebff7b8cfaffb"
+    },
+    {
+      "保存元": "inputs/00141_VWMA独立入口/V0の出生と取得.json.gz",
+      "復元先": "work/141VWMA独立入口の評価/V0の出生と取得.json",
+      "形式": "gzip",
+      "保存bytes": 3139102,
+      "保存SHA256": "4c4db97d94b4907ae7b91d13713db78535f579f4041366c407b0ee5ecb1e24ad",
+      "解凍bytes": 75549241,
+      "解凍SHA256": "81f7c380f47b06952eaa4a8eae8f4b3821c49361fafe1afd93ef3367a23de40b"
+    },
+    {
+      "保存元": "inputs/00141_VWMA独立入口/入口参照.json.gz",
+      "復元先": "work/141VWMA独立入口の評価/固定入力/入口参照.json",
+      "形式": "gzip",
+      "保存bytes": 20086,
+      "保存SHA256": "5fb794956b62537300b4b6f79247c1ed3ac5cb97798ccca8359d997426700347",
+      "解凍bytes": 291610,
+      "解凍SHA256": "f636586410e676607015c2ac0201f23c72e5b3d82b591935496f606f90a4aaa9"
+    },
+    {
+      "保存元": "inputs/00141_VWMA独立入口/固定取得入力.json.gz",
+      "復元先": "work/141VWMA独立入口の評価/固定入力/固定取得入力.json",
+      "形式": "gzip",
+      "保存bytes": 11454,
+      "保存SHA256": "c91d7660ca6215ad3187bc77fa457daa7db409a0ae00ca95335dbfc8a928871b",
+      "解凍bytes": 90762,
+      "解凍SHA256": "874fdd8d01a5773df6d93a6511ee86e6ef08b4baae0c405bb44640d73198364e"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/転送の確認.json",
+      "復元先": "work/141VWMA独立入口の評価/固定入力/転送の確認.json",
+      "形式": "同体",
+      "保存bytes": 544,
+      "保存SHA256": "9c88bbc78616c38f386dcf06e23f394d6f9c039bdbe7b8293261f00d935af565",
+      "解凍bytes": 544,
+      "解凍SHA256": "9c88bbc78616c38f386dcf06e23f394d6f9c039bdbe7b8293261f00d935af565"
+    }
+  ],
+  "Source既報": "Root通知でV0出生0/取得0。保存だけ行い、本工程では内容を解析しない",
+  "集計正本": {
+    "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/成果物/集計.json",
+    "復元先": "work/141VWMA独立入口の評価/金融評価/集計.json",
+    "形式": "同体",
+    "保存bytes": 345042,
+    "保存SHA256": "0d1ff05a9893df786a9bc1d7478508fd4d263dc936865efee62ee7c812c44ec3",
+    "解凍bytes": 345042,
+    "解凍SHA256": "0d1ff05a9893df786a9bc1d7478508fd4d263dc936865efee62ee7c812c44ec3"
+  },
+  "保存済み正逆観測": {
+    "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/成果物/固定取得の正逆観測.json.gz",
+    "復元先": "work/141VWMA独立入口の評価/固定取得の正逆観測.json",
+    "形式": "gzip",
+    "保存bytes": 74921,
+    "保存SHA256": "c423b49e09cc1ba6c448ce43d221e20c44e031164d833c72721a85aa1ffb6beb",
+    "解凍bytes": 2205866,
+    "解凍SHA256": "63a2ccb58454fbdecd0df8be7e4e7758e6ee21230846e6c654b1fbe2544b0e41"
+  },
+  "自然後の小型証跡": [
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/出生の完了.json",
+      "復元先": "work/141VWMA独立入口の評価/出生の完了.json",
+      "形式": "同体",
+      "保存bytes": 917,
+      "保存SHA256": "69368507f704cfa68c0013b76bd08c667c29f533cb8d8ba85d829ce7b42617ef",
+      "解凍bytes": 917,
+      "解凍SHA256": "69368507f704cfa68c0013b76bd08c667c29f533cb8d8ba85d829ce7b42617ef"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/転送の完了.json",
+      "復元先": "work/141VWMA独立入口の評価/転送の完了.json",
+      "形式": "同体",
+      "保存bytes": 921,
+      "保存SHA256": "9ef72d52a0b36422adfed44382bb3db6387f45830bf04a9ca7d9cf8c670fc0da",
+      "解凍bytes": 921,
+      "解凍SHA256": "9ef72d52a0b36422adfed44382bb3db6387f45830bf04a9ca7d9cf8c670fc0da"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/観測の完了.json",
+      "復元先": "work/141VWMA独立入口の評価/観測の完了.json",
+      "形式": "同体",
+      "保存bytes": 729,
+      "保存SHA256": "e9722219650c5bb33df48e8f9986bc7c29f9a4bff0be29b1ac57a9a0e58c442b",
+      "解凍bytes": 729,
+      "解凍SHA256": "e9722219650c5bb33df48e8f9986bc7c29f9a4bff0be29b1ac57a9a0e58c442b"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/集計の完了.json",
+      "復元先": "work/141VWMA独立入口の評価/集計の完了.json",
+      "形式": "同体",
+      "保存bytes": 1430,
+      "保存SHA256": "371287801908c8293562f932f1861e7888ec8e9f7a18d9b44e267b0575e57ee2",
+      "解凍bytes": 1430,
+      "解凍SHA256": "371287801908c8293562f932f1861e7888ec8e9f7a18d9b44e267b0575e57ee2"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/金融集計の独立確認.json",
+      "復元先": "work/141VWMA独立入口の評価/金融集計の独立確認.json",
+      "形式": "同体",
+      "保存bytes": 1161,
+      "保存SHA256": "67fc5bdc7ef98459c60a42621e4cfb1867222af6ce176c4a79128824657479c3",
+      "解凍bytes": 1161,
+      "解凍SHA256": "67fc5bdc7ef98459c60a42621e4cfb1867222af6ce176c4a79128824657479c3"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/CSV全セルの独立再読.json",
+      "復元先": "work/141VWMA独立入口の評価/CSV全セルの独立再読.json",
+      "形式": "同体",
+      "保存bytes": 5069,
+      "保存SHA256": "039a11d0d0aded013e5439b52188b366244beac5c3d9cc14989757e63191889d",
+      "解凍bytes": 5069,
+      "解凍SHA256": "039a11d0d0aded013e5439b52188b366244beac5c3d9cc14989757e63191889d"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/集計器の完了.json",
+      "復元先": "work/141VWMA独立入口の評価/金融評価/集計完了.json",
+      "形式": "同体",
+      "保存bytes": 2191,
+      "保存SHA256": "8cdf4a94e0eacf6bf28ce178da6fdc4e92fc53260771b1fd23cae945bcd9466f",
+      "解凍bytes": 2191,
+      "解凍SHA256": "8cdf4a94e0eacf6bf28ce178da6fdc4e92fc53260771b1fd23cae945bcd9466f"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/CSV作成の確認.json",
+      "復元先": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/141_VWMA独立入口/CSVの確認.json",
+      "形式": "同体",
+      "保存bytes": 4205,
+      "保存SHA256": "7276d605fbe08168f5489ef58f2a2a55630c882d6c368ad17527dd4173ad128f",
+      "解凍bytes": 4205,
+      "解凍SHA256": "7276d605fbe08168f5489ef58f2a2a55630c882d6c368ad17527dd4173ad128f"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/Source独立/独立照合.json",
+      "復元先": "work/141出生取得とunionの独立照合/独立照合.json",
+      "形式": "同体",
+      "保存bytes": 3715,
+      "保存SHA256": "c74befa7cd849575f4ac79ee8ffaeb7e95d7bb514bc73fbc9d21e7d4d5107ad6",
+      "解凍bytes": 3715,
+      "解凍SHA256": "c74befa7cd849575f4ac79ee8ffaeb7e95d7bb514bc73fbc9d21e7d4d5107ad6"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/Source独立/停止の確認.json",
+      "復元先": "work/141出生取得とunionの独立照合/停止の確認.json",
+      "形式": "同体",
+      "保存bytes": 1324,
+      "保存SHA256": "f8da4a005e96056a6dbdcbbab418fd67631b4107d33fd85fd77d372042b06f11",
+      "解凍bytes": 1324,
+      "解凍SHA256": "f8da4a005e96056a6dbdcbbab418fd67631b4107d33fd85fd77d372042b06f11"
+    },
+    {
+      "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/検査/Source原因の確認.json",
+      "復元先": "work/141出生前の取消と取得時計の診断/診断の確認.json",
+      "形式": "同体",
+      "保存bytes": 1811,
+      "保存SHA256": "d638ad98e07ec340d41a55467a981bf3e50ac307548ef3c8ce66d91fb02dccc2",
+      "解凍bytes": 1811,
+      "解凍SHA256": "d638ad98e07ec340d41a55467a981bf3e50ac307548ef3c8ce66d91fb02dccc2"
+    }
+  ],
+  "Source原因票": {
+    "保存元": "study/00141_VWMA基準の受容と再加速から独立入口を生む/根拠/全取消と再加速7件.json.gz",
+    "復元先": "work/141出生前の取消と取得時計の診断/全取消と再加速7件.json",
+    "形式": "gzip",
+    "保存bytes": 37128,
+    "保存SHA256": "df9778bb633669a2d26a7a097ad3bff89f4da0f6bfb17f6644838d747e826d1d",
+    "解凍bytes": 502741,
+    "解凍SHA256": "664b6945cf1b9952c0eea8b44a69fcb19886054caa3bd1d2221f0fbe79ed85c1"
+  },
+  "CSV正本": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/141_VWMA独立入口",
+  "表JSON再現期待SHA256": "a3ac697504155e5ba60bc674e6b68bd8ea3b0117fc74bb60dece8c45a4087ab4",
+  "Source独立照合SHA256": "c74befa7cd849575f4ac79ee8ffaeb7e95d7bb514bc73fbc9d21e7d4d5107ad6",
+  "後発資料": {
+    "ZIP": "確認と保存の追補.zip",
+    "ZIP_SHA256": "ec802544329a81dd4b35eeb773c0a57710488c82268d86aee566bc0cc87681e3",
+    "ZIP_bytes": 78121,
+    "格納源数": 18,
+    "格納源": [
+      {
+        "path": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/F1保存資料を復元する.py",
+        "sha256": "d84697ce3206adf65232fa871f4da4b98ce33750a40e17a3c1debcff53f72352",
+        "bytes": 4993,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/保存観測から再集計する.py",
+        "sha256": "41c31e8478d9961bc09a643b829889d69eba7f9b9bd12feb18d880cca8b83ad7",
+        "bytes": 3527,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生前の取消と取得時計の診断/原因と次の問い.md",
+        "sha256": "1a0bd6194e2075a46b68f22bec43cb599f491cf28880513a9d5b19d05ee6f51f",
+        "bytes": 6018,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生前の取消と取得時計の診断/診断する.py",
+        "sha256": "7c10ac2956c1e7768aa51dcfb2950a03366217e445aabb280b0d2d75267c21f7",
+        "bytes": 10142,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/README.md",
+        "sha256": "40015c100040070870c1d94ea127e367d6b81ff1761e1344b7a9f8cbedc2230d",
+        "bytes": 3584,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/schema期限の追補.json",
+        "sha256": "898e97100230affa63d60f373f35becc89919a7036234340e3740b17e197d3be",
+        "bytes": 1014,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/schema追補の確認.json",
+        "sha256": "d0831c2c64db3c43d30950c97171a3d06926da6f9942c9cd543fa6d5321fd482",
+        "bytes": 929,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/人工検査.py",
+        "sha256": "e9678e4a89673fce6670b53a210bb216f3b89247d06fe1b903c55d7149c23214",
+        "bytes": 10659,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/条件.md",
+        "sha256": "7b3bca420eb3d48cce3f49a333f3e57cba8de9789d388d487ffc6c73cbff13ea",
+        "bytes": 1684,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/検査器の追補履歴.zip",
+        "sha256": "01dc3cc74ffa43d1628d16abd6e395e87162acd9c6ecf33b619fe7df3f227767",
+        "bytes": 27711,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/準備の確認.json",
+        "sha256": "aa34977cc8a336d968407983694e1efafbdf8c64d8408b055aa3e1ae16703524",
+        "bytes": 670,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/照合する.py",
+        "sha256": "a02165c4f158973c49a3df74783242d41df4e107cc15f855705346995fcfdef8",
+        "bytes": 6790,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141出生取得とunionの独立照合/独立算術.py",
+        "sha256": "64c34eb9509f1a108e6491c144c21bb0dae74e718c4315c0b9cd7f219b86420c",
+        "bytes": 20354,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141正式保存/F1の追加資料を保管する.py",
+        "sha256": "97c19f9b1c1616fc2e8bc72e16ee63eabb3a779884f35ebb9a06674e3ce55f01",
+        "bytes": 7157,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141正式保存/正式保存を完了する.py",
+        "sha256": "8d1daeab47654e456479e001b67235d4a53d1190d7f9c20d76927d1aa39f7bca",
+        "bytes": 9914,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141正式保存/正式結果を記す.py",
+        "sha256": "b78d276059b62183770e814da1de8a5452a43401a2d40545fbacb7b58996a074",
+        "bytes": 13832,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/141正式保存/金融正本を保管する.py",
+        "sha256": "68a9f9defcf87b52a2b6f7162bf7700bd8e0d5e635663c00041b56c6e53490ee",
+        "bytes": 4099,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      },
+      {
+        "path": "work/確定三表のCSV出力_版2/出力する.mjs",
+        "sha256": "0994706575ed4fc634fe5d0577d48b5b79e95ff0db2330407daf02a74ca478d3",
+        "bytes": 11463,
+        "区分": "F0/F1直接源外の独立・原因・CSV作者v2・保存/復元"
+      }
+    ]
+  },
+  "後発共有コード": [
+    {
+      "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141出生前の固定資料.zip",
+      "ZIP_SHA256": "20df2e25ad179a94933f62d03d8466e89d267ff19e7c2058a0b3506ccedf7bde",
+      "格納源": [],
+      "格納源数": 0
+    },
+    {
+      "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/金融前準備と復元の小資料.zip",
+      "ZIP_SHA256": "3577d7f62cbbcb4b05c9008dc31f27be8ead57c00cd76f9a141b83b1f508c7fd",
+      "格納源": [
+        {
+          "復元先": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/F0保存資料を復元する.py",
+          "ZIP内path": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/F0保存資料を復元する.py",
+          "sha256": "6ecaf2ce2c75b2bd4eba6a9bbc23935b42f9d97630c7bdfb4cb88d5f896a4008",
+          "bytes": 4677
+        },
+        {
+          "復元先": "work/141正式保存/F0原文を保管する.py",
+          "ZIP内path": "work/141正式保存/F0原文を保管する.py",
+          "sha256": "6ddd82c807e91e6dd0528e0e2f1b40161d80f76b67078f1d6b948ddc0665882e",
+          "bytes": 7924
+        },
+        {
+          "復元先": "work/141正式保存/後段準備を保管する.py",
+          "ZIP内path": "work/141正式保存/後段準備を保管する.py",
+          "sha256": "8bb0d84753abda93eb1761c86563955946d2df6e6247fb3c16ccfb0f18c4b5b2",
+          "bytes": 2544
+        }
+      ],
+      "格納源数": 3
+    },
+    {
+      "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141金融前の追加固定資料.zip",
+      "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+      "格納源": [],
+      "格納源数": 0
+    },
+    {
+      "保存元ZIP": "study/00140_出生時の失敗突破と同足の勢いと量で方向を切り替える/再現資料/確認と保管の追補.zip",
+      "ZIP_SHA256": "417eff64d828822ab1091877ee86c96e81833338b11dee93285c7eb0c0e1ef29",
+      "格納源": [
+        {
+          "復元先": "work/確定三表のCSV出力_版2/CSVを独立再読する.py",
+          "ZIP内path": "work/確定三表のCSV出力/CSVを独立再読する.py",
+          "sha256": "f161688d1e4f742c0e290e45bbbbbf6506ee07ac06eb01e505d3455c24c9b60b",
+          "bytes": 12933
+        }
+      ],
+      "格納源数": 1
+    }
+  ],
+  "保存観測再現SHA256": "6d6954a0252926e269c97320736240e19ecb82da43c0af334878d107b3673593",
+  "Source独立停止SHA256": "f8da4a005e96056a6dbdcbbab418fd67631b4107d33fd85fd77d372042b06f11"
+}

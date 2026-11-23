@@ -1,0 +1,57 @@
+{
+  "確認日": "2026-11-10",
+  "用途": "121未実行の事前仮説。120金融コード・自然入力・市場結果を追加読取せず、外部公式資料から分類の妥当性を検討した。",
+  "資料": [
+    {
+      "ID": "RSI",
+      "提供者": "Fidelity",
+      "URL": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI",
+      "確認範囲": "本文の上昇局面40〜90・40〜50支持、下降局面10〜60・50〜60抵抗、強いトレンド時の過熱継続",
+      "読取": "公式HTML本文を確認"
+    },
+    {
+      "ID": "ADXの方向と強さ",
+      "提供者": "Fidelity",
+      "URL": "https://www.fidelity.com/viewpoints/active-investor/average-directional-index-adx",
+      "確認範囲": "ADXの強さ、DIの方向、20未満・25超・20〜25の不明瞭域",
+      "読取": "公式HTML本文を確認。記事内の個別相場判断は研究条件に使用しない"
+    },
+    {
+      "ID": "高ADX低下",
+      "提供者": "Charles Schwab",
+      "URL": "https://www.schwab.com/learn/story/how-to-tell-if-market-is-overbought-or-oversold",
+      "記事表示日": "2025-10-14",
+      "確認範囲": "高ADX45から低下しても強いトレンドが続く場合、弱化後に横ばいとなる場合",
+      "読取": "公式HTML本文を確認"
+    },
+    {
+      "ID": "突破不成立と反対方向への突破",
+      "提供者": "Fidelity",
+      "URL": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/Deck_Chart%20patterns.pdf",
+      "確認範囲": "PDF12ページの確認フィルター、14ページの即時回復とさらに反対方向へ突破する場合の区別",
+      "読取": "公式PDFのテキストを確認。全文又は画像の複製は保存しない",
+      "補足": "別名Idenitfying-Chart-Patterns.pdfの取得はタイムアウトしたため、取得できた公式Deck版を正本URLとした"
+    },
+    {
+      "ID": "支持抵抗",
+      "提供者": "CME Group",
+      "URL": "https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance",
+      "確認範囲": "過去高安・移動平均、領域としての支持抵抗、成立した突破後の支持抵抗転換",
+      "読取": "公式HTML本文を確認"
+    },
+    {
+      "ID": "BB",
+      "提供者": "Fidelity",
+      "URL": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/bollinger-bands",
+      "確認範囲": "相対的位置・他指標との併用・強いトレンドでのバンド沿い又は外側滞在・即時内側回復",
+      "読取": "公式HTML本文を確認"
+    }
+  ],
+  "不使用資料": "検索結果の一般サイト、掲示板、本文取得がタイムアウトしたFOREX.comの記述は今回の正式根拠に使用しない。",
+  "自然Raw追加読取": false,
+  "固定入力JSON追加読取": false,
+  "120市場結果追加読取": false,
+  "120金融コード変更": false,
+  "121市場実行": false,
+  "11月09価格読取": false
+}

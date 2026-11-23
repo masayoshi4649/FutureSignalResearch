@@ -1,0 +1,78 @@
+{
+  "成功": true,
+  "試行": 144,
+  "比較数": 300,
+  "統計leaf数": 7919,
+  "全73場/基礎全件/union/C0保護": true,
+  "参加/加重頻度/場別分布": true,
+  "IFDFraction照合": true,
+  "phase": {
+    "stream検査": 1640,
+    "entry検査": 1640,
+    "endpoint検査": 3048,
+    "touch検査": 13581
+  },
+  "union": {
+    "成功": true,
+    "基礎取得数": 410,
+    "C0": 81,
+    "S0": 329,
+    "U0": 379,
+    "同原行aliasで除いた取得数": 31,
+    "代表と反対方向のalias数": 19,
+    "C0優先": true,
+    "方向/成績による選別": false
+  },
+  "旧C0": {
+    "旧C0取得": 81,
+    "4stream全H幅": 3240,
+    "旧金融条件": 60
+  },
+  "主U0": {
+    "entries": 379,
+    "sessions": 73,
+    "complete": 352,
+    "censored": 27,
+    "forward": 159,
+    "adverse": 144,
+    "neither": 49,
+    "resolved": 303,
+    "resolved_rate": 0.5247524752475248,
+    "complete_rate": 0.45170454545454547,
+    "target70": false,
+    "target70_all": false,
+    "ifd_known": 374,
+    "ifd_unknown": 5,
+    "ifd_exits": {
+      "期限清算": 49,
+      "順行到達": 167,
+      "逆行到達": 158,
+      "観測不足": 5
+    },
+    "ifd_net0_sum": 135202,
+    "ifd_net5_sum": -238798,
+    "ifd_net5_profit": 2092293,
+    "ifd_net5_loss": 2331091,
+    "ifd_net5_mean": -638.4973262032086,
+    "ifd_net5_pf": 0.8975595547320976,
+    "ifd_net5_positive": 191,
+    "ifd_points_mean": 4.385026737967914,
+    "flips": 202
+  },
+  "作者summaryを開く前に全期待値を算出": true,
+  "144/141AGG/124/138作者算術import": false,
+  "別算術": "Root141 calculateのみ＋Fraction清算/独立結合・場頻度",
+  "人員独立": false,
+  "担当者は144AGG作者でもある": true,
+  "新Raw/価格CSV/学習/追加2場読取": false,
+  "旧成果変更": false,
+  "コードSHA256": "53e006bb99317df91c7382c3db64cca0947ca19c7139713b812a3a2a80be5975",
+  "入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\144旧strongの全成立評価\\F1金融前.json": "42a57a1037342884c34a1fb71550eb2f2e504e8c66f93c84217cdb5be3da6e0b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\144旧strongの全成立評価\\固定入力\\固定取得入力.json": "b5350cfb388c3d3260fdf34a92b2d5cb784dd6cc26723b8da4ffd39d2aba8481",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\144旧strongの全成立評価\\固定入力\\入口参照.json": "cf7bc8c0324911a46f6f0c948e06255a7319949876118620a4614b7bc3bfcd71",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\144旧strongの全成立評価\\固定取得の正逆観測.json": "b6395b8e123f3b562673a695e35a28023f2419fca7100d8f40b1dfb30070ca32",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\144旧strongの全成立評価\\金融評価\\集計.json": "08e6976bcedfea3af4a0947825409eb8cca1f0da56b55759d9f047d76411367a"
+  },
+  "Root141算術SHA256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e"
+}

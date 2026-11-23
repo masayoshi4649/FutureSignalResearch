@@ -1,0 +1,137 @@
+{
+  "試行": 121,
+  "成功": true,
+  "Go": "go1.24.2 windows/amd64",
+  "検査": {
+    "runner主テスト": 4,
+    "非キャッシュtest": "成功",
+    "vet": "成功",
+    "build": "成功"
+  },
+  "人工検査内容": [
+    "要求後の別原行・1秒・正常BBOを満たす最初の評価、買売鏡像、既取得非改変",
+    "価格cap即拒否、構造維持strict正/0/負、non-strict5pt等号/4pt拒否、risk0/負/上限超/等号",
+    "cap→hold→riskの優先順位、拒否後に価格改善や構造回復を待たない",
+    "場/限月/原行差、CohortIDなし拒否と値保存、未知ATR、TTL30秒等号、ForceClose後Requestnil",
+    "120同一kernelの同秒後行除外、Raw/正常BBO欠測のnil、人工gzip全採用行・SHA及び不一致拒否"
+  ],
+  "120reader同体": true,
+  "120types同体": true,
+  "120kernel関数型名以外同体": true,
+  "120pending関数型名以外同体": true,
+  "120fill関数型名以外同体": true,
+  "市場実行": false,
+  "自然Raw読取": 0,
+  "固定入力JSON読取": 0,
+  "121市場結果読取": 0,
+  "11月09読取": false,
+  "120金融コード変更": false,
+  "コード": [
+    {
+      "path": "work/121入口比較/cmd/run/main.go",
+      "bytes": 569,
+      "sha256": "a54a7233deabb1f32f47f982a3906edd7447977a10aec974004195ba8b6be392"
+    },
+    {
+      "path": "work/121入口比較/entry.go",
+      "bytes": 15102,
+      "sha256": "4e6514166710feb4b424d6aa5798b58f96e17518a47bfad2c07b31d77827fec4"
+    },
+    {
+      "path": "work/121入口比較/entry_test.go",
+      "bytes": 10037,
+      "sha256": "f893b3dc705facb4d5b18ea7019938c3a3e677bdcfd002a45e5a653c3122e0e3"
+    },
+    {
+      "path": "work/121入口比較/go.mod",
+      "bytes": 391,
+      "sha256": "48adb3c4aa7b1c2af63b52c3e001e08e5f86f2a24159af478687026cb144dae3"
+    },
+    {
+      "path": "work/121入口比較/outcome.go",
+      "bytes": 1634,
+      "sha256": "89967a80c155ca05088bcad6667788633e28b1be7a6161e77f4950a5005def76"
+    },
+    {
+      "path": "work/121入口比較/reader.go",
+      "bytes": 14851,
+      "sha256": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a"
+    },
+    {
+      "path": "work/121入口比較/README.md",
+      "bytes": 2849,
+      "sha256": "cb5165c643837b266c6137a5cc602e6c8f02fe68d95e46bfb4484290556b04c5"
+    },
+    {
+      "path": "work/121入口比較/types.go",
+      "bytes": 6443,
+      "sha256": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4"
+    },
+    {
+      "path": "work/121入口比較/入口比較.exe",
+      "bytes": 3730944,
+      "sha256": "94d7ba58205224bf9d5f759f88593a7fb0c4470517264493d396612e38d8668e"
+    },
+    {
+      "path": "work/121入口の反転切替/detector.go",
+      "bytes": 9852,
+      "sha256": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4"
+    },
+    {
+      "path": "work/121入口の反転切替/detector_test.go",
+      "bytes": 16883,
+      "sha256": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90"
+    },
+    {
+      "path": "work/121入口の反転切替/go.mod",
+      "bytes": 432,
+      "sha256": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b"
+    },
+    {
+      "path": "work/121入口の反転切替/policies.go",
+      "bytes": 9633,
+      "sha256": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79"
+    },
+    {
+      "path": "work/121入口の反転切替/README.md",
+      "bytes": 5271,
+      "sha256": "b67ddcdf475fe86932452267610d12e4a277667807d4ad7c365d6d9aa809212b"
+    },
+    {
+      "path": "work/121入口の反転切替/types.go",
+      "bytes": 4031,
+      "sha256": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2"
+    },
+    {
+      "path": "work/118複数技法の入口条件/bank.go",
+      "bytes": 7897,
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695"
+    },
+    {
+      "path": "work/118複数技法の入口条件/go.mod",
+      "bytes": 76,
+      "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9"
+    },
+    {
+      "path": "work/118複数技法の入口条件/README.md",
+      "bytes": 3780,
+      "sha256": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules.go",
+      "bytes": 8347,
+      "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules_test.go",
+      "bytes": 8029,
+      "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27"
+    },
+    {
+      "path": "work/118複数技法の入口条件/types.go",
+      "bytes": 4220,
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+    }
+  ],
+  "注意": "人工検査は市場優位性・mini実約定を証明しない。C0と120P2の自然対応はRootが別に検査する。市場実行はRootのF1固定後に限定する。"
+}

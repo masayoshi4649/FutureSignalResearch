@@ -1,0 +1,78 @@
+{
+  "成功": true,
+  "試行": 145,
+  "編集停止": true,
+  "作業": "全episode非金融funnelと保存原値の個別削減診断",
+  "Source": {
+    "path": "work\\145構造イベントの評価\\構造イベントの出生と取得.json",
+    "sha256": "b0b70aa28c990291eb5f7b8a8a8f19d29ff4b4231ee4367cee6828af99e69d5c"
+  },
+  "funnel": {
+    "episode": 682,
+    "technical_confirm": 45,
+    "birth": 13,
+    "filled": 6,
+    "sessions_filled": 6,
+    "all_sessions": 73
+  },
+  "Source固定18源同体": true,
+  "新金融読取": false,
+  "原板再読": false,
+  "価格CSV読取": false,
+  "追加2場読取": false,
+  "Source変更": false,
+  "新条件採用": false,
+  "準備3人工成功": true,
+  "原値補足の未知0境界人工": true,
+  "確認": [
+    "全73保持・0場",
+    "stage/source summaryの算術一致",
+    "複合理由のチェック/episode別分母",
+    "I282・confirm位置32・出生13の保存値一致",
+    "保存pub同体・当時refs/配送以前の結合",
+    "元Sourceと実装源18のSHA一致"
+  ],
+  "補足の成立時点": "元Source完成後の非金融意味区分診断。新金融は参照せず条件最適化なし。",
+  "停止対象": {
+    "人工検査.py": {
+      "bytes": 5922,
+      "sha256": "62b422aa0f053f70cb664b3f67d8bf09df48b9745e3e91228b18a28f8973f51e"
+    },
+    "保存原値を個別に分ける.py": {
+      "bytes": 9420,
+      "sha256": "c7604de6445cc83e8dec4a4dcff437b406c80d99ff0fb5204a4c051dac043d58"
+    },
+    "条件と分母.md": {
+      "bytes": 1761,
+      "sha256": "fc1cbdcefa812963ac3cd40a6fb5bd59a78d2c6545e40d9985c779e6e9fae87c"
+    },
+    "段階を診断する.py": {
+      "bytes": 14573,
+      "sha256": "9eca28325201633655f2b945e32bc7e21f74c7dc31a3d83de907c85ddb6c7590"
+    },
+    "準備の確認.json": {
+      "bytes": 1537,
+      "sha256": "105cd0c74fe20c872e603392abb6edc62dd3663244f2c47905765666295614fa"
+    },
+    "状態遷移のどこで減ったか.md": {
+      "bytes": 5069,
+      "sha256": "231f94f6e9ef974f6cdaefa895af7d5c81e3a9c7f44e124ddd7b7fa4d7b8be74"
+    },
+    "結果\\保存原値の個別内訳.json": {
+      "bytes": 19216,
+      "sha256": "7e56e50f92c4a9b0834a026fedaa57b03fa70b4865fe6009227d13684b066db8"
+    },
+    "結果\\全73場の段階件数.json": {
+      "bytes": 434884,
+      "sha256": "3cbc7caaab52d4e3d1ad3683bdbccfa42f0ebe613aad3dc5843078d9c47117bf"
+    },
+    "結果\\段階と削減理由.md": {
+      "bytes": 4997,
+      "sha256": "3ccb2839a43140cb7c68a91f598e1d81f6fc19fe4161e0f7233d24c7a67cef69"
+    },
+    "結果\\診断の確認.json": {
+      "bytes": 932,
+      "sha256": "0e769f7e01f9effa9909b054fdaec9d98797f8404c4a5cb33fb663df5999b915"
+    }
+  }
+}

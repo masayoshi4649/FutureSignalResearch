@@ -1,0 +1,75 @@
+{
+  "試行": 122,
+  "成功": true,
+  "検査種別": "人工のみ",
+  "ヘッダ参照": "work/122全場入口比較/集計する.pyの定数をASTで読取。import又は金融実行なし",
+  "表": [
+    "全セッション",
+    "E0入口明細"
+  ],
+  "構文検査": [
+    "Node --check成功",
+    "Python py_compile成功"
+  ],
+  "Workbook全セル比較数": 263,
+  "独立データセル比較数": 205,
+  "独立数値比較数": 105,
+  "前後不変": true,
+  "画像視認": {
+    "全セッション": "A:G固定幅・ヘッダ端切れなし",
+    "E0入口明細": "A:G固定幅・ヘッダ端切れなし。人工007は描画で7となるがCSVと型照合では文字列007保持"
+  },
+  "runtime": {
+    "node": "v24.22.1",
+    "node_path": "C:\\Users\\masay\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "artifact_tool": "2.8.129",
+    "package_sha256": "e7887299643ff13d7cc52b310aac2dc9cbc1842da2bcccdc68b7069a89cd60cb"
+  },
+  "指紋": {
+    "出力する.mjs": {
+      "SHA256": "d3d232fd974041979bfcd812207295a5371c95a0e0b2b9f2a0db89f18ce047d8",
+      "bytes": 11232
+    },
+    "CSVを独立再読する.py": {
+      "SHA256": "0825412bfffc77da4c62e7444f6cb594d76f2f86d1b0c87910db37c08339775b",
+      "bytes": 12855
+    },
+    "README.md": {
+      "SHA256": "efba86c580627ee645b33a71400b97d350e75bd3338341a9cf89531f64aecc93",
+      "bytes": 4856
+    },
+    "人工入力を作る.py": {
+      "SHA256": "69eb243c79a97144bb80276cd4dc0dab19e96d5f277b8a0f33a1e171ca7b17a4",
+      "bytes": 3625
+    },
+    "人工入力.json": {
+      "SHA256": "69f3249ea81b62ff49e6f461e63b2f7ded024cb03cca2f2db9bfe1e8eb0c8c69",
+      "bytes": 5962
+    },
+    "人工独立再読.json": {
+      "SHA256": "affc4d35cf9c8fb3cb81dd8ea75638ad82bf27e7125805f177fced6d0a6c2b51",
+      "bytes": 3739
+    },
+    "人工出力/CSVの確認.json": {
+      "SHA256": "6787e396a2da799d7fe54b3515fdfa0f4d5cd01bdf7c116f6142b8697d6969e7",
+      "bytes": 3568
+    },
+    "人工出力/支援画像/全セッション.png": {
+      "SHA256": "407011895d88e6d816dc4d211f3f0bf82151d5eddd6cd248287f3d3499b63858",
+      "bytes": 17763
+    },
+    "人工出力/支援画像/E0入口明細.png": {
+      "SHA256": "c2e3c8614bdebe54597fd71d31b2b512c209c395bd55c10befcb3ada3386c11d",
+      "bytes": 26860
+    }
+  },
+  "金融計算": false,
+  "自然122表読取": false,
+  "自然122結果読取": false,
+  "Raw読取": false,
+  "未知3場読取": false,
+  "自然CSV作成": false,
+  "操作marker実行": false,
+  "xlsx生成": false,
+  "編集停止": true
+}

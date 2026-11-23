@@ -1,0 +1,1457 @@
+{
+  "試行": 148,
+  "段階": "正式保存完了・母集団診断完了。売買政策は未選択null",
+  "F0_SHA256": "d3f6888e97cb2373a83fb95576175ef1f76b5c59ff8ffaa60a9391ac2fb8d00d",
+  "F0直接源数": 87,
+  "F0原文": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F0母集団前.json",
+    "復元先": "work/148全1分母集団の評価/F0母集団前.json",
+    "形式": "同体",
+    "保存bytes": 16442,
+    "保存SHA256": "d3f6888e97cb2373a83fb95576175ef1f76b5c59ff8ffaa60a9391ac2fb8d00d",
+    "解凍bytes": 16442,
+    "解凍SHA256": "d3f6888e97cb2373a83fb95576175ef1f76b5c59ff8ffaa60a9391ac2fb8d00d"
+  },
+  "F0文書原文": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F0実行前文書.json.gz",
+    "保存SHA256": "ba24378fee0fa82c00d26b2a7097943a8f97b02c33f9dd39e109bc2235dd466a",
+    "正式コア3MD数": 3
+  },
+  "F0復元参照": {
+    "文書snapshot": [
+      {
+        "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/README.md",
+        "sha256": "009c845226d2af4b65063cfb3fee86f2f6dde277698cef493024d04e59cdcddb",
+        "bytes": 11731,
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F0実行前文書.json.gz",
+        "保存SHA256": "ba24378fee0fa82c00d26b2a7097943a8f97b02c33f9dd39e109bc2235dd466a",
+        "形式": "文書snapshot",
+        "抽出キー": "study/00148_全1分知得から入口品質の母集団を固定する/README.md"
+      },
+      {
+        "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/条件.md",
+        "sha256": "f569f0722a6914d2c638f73559e2f48c66a618423ebfadd59eafe17ed280a1f3",
+        "bytes": 21606,
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F0実行前文書.json.gz",
+        "保存SHA256": "ba24378fee0fa82c00d26b2a7097943a8f97b02c33f9dd39e109bc2235dd466a",
+        "形式": "文書snapshot",
+        "抽出キー": "study/00148_全1分知得から入口品質の母集団を固定する/条件.md"
+      },
+      {
+        "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/設定と結果.md",
+        "sha256": "0928300519bf96082e78176d7ed54ebff47137e9012da3ababe080ac50235210",
+        "bytes": 27165,
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F0実行前文書.json.gz",
+        "保存SHA256": "ba24378fee0fa82c00d26b2a7097943a8f97b02c33f9dd39e109bc2235dd466a",
+        "形式": "文書snapshot",
+        "抽出キー": "study/00148_全1分知得から入口品質の母集団を固定する/設定と結果.md"
+      }
+    ],
+    "既存恒久正本": [
+      {
+        "保存元": "inputs/00145_構造イベントの入口/入口参照.json.gz",
+        "復元先": "inputs/00145_構造イベントの入口/入口参照.json.gz",
+        "形式": "同体",
+        "保存SHA256": "a3b1da02d0ab3fdafac66cdc105e4b63081632da50753a9f8f1a2a2f5767d04f",
+        "解凍SHA256": "a3b1da02d0ab3fdafac66cdc105e4b63081632da50753a9f8f1a2a2f5767d04f",
+        "保存bytes": 25652,
+        "解凍bytes": 25652
+      },
+      {
+        "保存元": "inputs/00145_構造イベントの入口/固定取得入力.json.gz",
+        "復元先": "inputs/00145_構造イベントの入口/固定取得入力.json.gz",
+        "形式": "同体",
+        "保存SHA256": "6a4d4b259fc3b8e145b3dd898119b264d4d1deaf90f6f84cec24f4b49eec6b5e",
+        "解凍SHA256": "6a4d4b259fc3b8e145b3dd898119b264d4d1deaf90f6f84cec24f4b49eec6b5e",
+        "保存bytes": 11808,
+        "解凍bytes": 11808
+      },
+      {
+        "保存元": "inputs/00147_中位価格位置と実体回復/Sourceの出生と取得.json.gz",
+        "復元先": "inputs/00147_中位価格位置と実体回復/Sourceの出生と取得.json.gz",
+        "形式": "同体",
+        "保存SHA256": "b99c49f06fe7e2306e59733b1cff26e3bb351f64edee220c98bc30b62c016d77",
+        "解凍SHA256": "b99c49f06fe7e2306e59733b1cff26e3bb351f64edee220c98bc30b62c016d77",
+        "保存bytes": 10401387,
+        "解凍bytes": 10401387
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+        "復元先": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+        "形式": "同体",
+        "保存SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+        "解凍SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+        "保存bytes": 48448,
+        "解凍bytes": 48448
+      },
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/100特徴の列定義.md",
+        "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/100特徴の列定義.md",
+        "形式": "同体",
+        "保存SHA256": "396de0910a6a2ef05765b6bf6d68be9f97ddf0cb3a277eaccdf3c4d9e1d4cac6",
+        "解凍SHA256": "396de0910a6a2ef05765b6bf6d68be9f97ddf0cb3a277eaccdf3c4d9e1d4cac6",
+        "保存bytes": 37826,
+        "解凍bytes": 37826
+      },
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/100特徴のF0前固定.json",
+        "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/検査/100特徴のF0前固定.json",
+        "形式": "同体",
+        "保存SHA256": "8eb776a7211edd65fef0598a3538444cd11bcb66a5a62162a111c0fb8b3afc4b",
+        "解凍SHA256": "8eb776a7211edd65fef0598a3538444cd11bcb66a5a62162a111c0fb8b3afc4b",
+        "保存bytes": 13196,
+        "解凍bytes": 13196
+      },
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/100特徴の固定停止.json",
+        "復元先": "study/00148_全1分知得から入口品質の母集団を固定する/検査/100特徴の固定停止.json",
+        "形式": "同体",
+        "保存SHA256": "dcbb7b273f9ef210df74861a63709c263b011be58d6b8db08324761594019906",
+        "解凍SHA256": "dcbb7b273f9ef210df74861a63709c263b011be58d6b8db08324761594019906",
+        "保存bytes": 2837,
+        "解凍bytes": 2837
+      }
+    ],
+    "共有入力": [
+      {
+        "保存元": "inputs/00145_構造イベントの入口/入口参照.json.gz",
+        "復元先": "work/145構造イベントの評価/固定入力/入口参照.json",
+        "形式": "gzip",
+        "保存bytes": 25652,
+        "保存SHA256": "a3b1da02d0ab3fdafac66cdc105e4b63081632da50753a9f8f1a2a2f5767d04f",
+        "解凍bytes": 320958,
+        "解凍SHA256": "3a3a144c478fa45f85e03ad4b8e4461e420592da24088458c7aa1cb748c8eb8d"
+      },
+      {
+        "保存元": "inputs/00145_構造イベントの入口/固定取得入力.json.gz",
+        "復元先": "work/145構造イベントの評価/固定入力/固定取得入力.json",
+        "形式": "gzip",
+        "保存bytes": 11808,
+        "保存SHA256": "6a4d4b259fc3b8e145b3dd898119b264d4d1deaf90f6f84cec24f4b49eec6b5e",
+        "解凍bytes": 93140,
+        "解凍SHA256": "d2becb3b1d6de656a6cc3f04d576d95d99693dfc42efc03582ed04d2be8784e8"
+      },
+      {
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/固定取得の正逆観測.json.gz",
+        "復元先": "work/145構造イベントの評価/固定取得の正逆観測.json",
+        "形式": "gzip",
+        "保存bytes": 80492,
+        "保存SHA256": "e970b53d95ac4ff56335288ba402d59bef41558d0785d448b1cefe12bd360cbf",
+        "解凍bytes": 2349359,
+        "解凍SHA256": "3b92da8b447d7be9ead6a2a112759ca7272a1e65d6cb5516989e3faf50c54d62"
+      },
+      {
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/集計.json",
+        "復元先": "work/145構造イベントの評価/金融評価/集計.json",
+        "形式": "同体",
+        "保存bytes": 370624,
+        "保存SHA256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861",
+        "解凍bytes": 370624,
+        "解凍SHA256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861"
+      }
+    ],
+    "共有コード又は文書": [
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/bank.go",
+        "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+        "bytes": 7897,
+        "復元先": "work/118複数技法の入口条件/bank.go"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/go.mod",
+        "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+        "bytes": 76,
+        "復元先": "work/118複数技法の入口条件/go.mod"
+      },
+      {
+        "復元先": "work/118複数技法の入口条件/README.md",
+        "sha256": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+        "bytes": 3780,
+        "保存元": "study/00147_中位足の価格位置と短期実体回復から入口を生む/検査/F0実行前文書.json.gz",
+        "形式": "文書snapshot",
+        "抽出キー": "work/118複数技法の入口条件/README.md"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/rules.go",
+        "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+        "bytes": 8347,
+        "復元先": "work/118複数技法の入口条件/rules.go"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/rules_test.go",
+        "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+        "bytes": 8029,
+        "復元先": "work/118複数技法の入口条件/rules_test.go"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/118複数技法の入口条件/types.go",
+        "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+        "bytes": 4220,
+        "復元先": "work/118複数技法の入口条件/types.go"
+      },
+      {
+        "保存元ZIP": "study/00144_旧P3のstrongを全時間で評価する/再現資料/144出生前の固定資料.zip",
+        "ZIP_SHA256": "1f2ef32d408ebb21846ed60101e58116097ea143bd5a2e80b527928b80e9db16",
+        "ZIP内path": "work/118複数技法の入口条件/検査/確認.json",
+        "sha256": "64ca0b2ba6184fdf0b3831789fe316de28e6fc2a82ea9a17537d2da93b3d1107",
+        "bytes": 3542,
+        "復元先": "work/118複数技法の入口条件/検査/確認.json"
+      },
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/133金融前を固定して実行する.py",
+        "sha256": "a688f2ab68ed56344cc4f1154376f5655ffe2997728d9cbb02dc8651baef3a07",
+        "bytes": 7758,
+        "復元先": "work/133金融前を固定して実行する.py"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "元正式準備/採用仕様.md",
+        "sha256": "675b1afd79729ce6cd6f4d604337a92d006554d1c7963dcece23afaae4894f36",
+        "bytes": 16664,
+        "復元先": "work/148_全1分知得の入口母集団を固定する採用仕様.md"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/catalog.go",
+        "sha256": "25ae67c78dfc7887461b7172dd7b4c079ff415b63d071b4d61b540dbb12cc9dc",
+        "bytes": 8322,
+        "復元先": "work/148全1分候補の当時特徴/catalog.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/cmd/catalog/main.go",
+        "sha256": "d6483b9001e10397627d19b417abb595321570ec6f9dd2b39a9f72dc630eb250",
+        "bytes": 581,
+        "復元先": "work/148全1分候補の当時特徴/cmd/catalog/main.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/compute.go",
+        "sha256": "efe8d39343653e5df15f4f246391af2f0740283547c7a1cc365a0fe5e247149d",
+        "bytes": 12172,
+        "復元先": "work/148全1分候補の当時特徴/compute.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/compute_test.go",
+        "sha256": "3dc50ba036d37f696a96476a303975255529b52920ed3d0fe1308ca197101010",
+        "bytes": 18268,
+        "復元先": "work/148全1分候補の当時特徴/compute_test.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/go.mod",
+        "sha256": "c3d9c9001c1bbd7f77a22780f74027498593f4d7ef2e92c774f3e650b37a99e1",
+        "bytes": 258,
+        "復元先": "work/148全1分候補の当時特徴/go.mod"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/legacy74.go",
+        "sha256": "7389ffb8922e7e1825fc35b41ca938c7cee9b95e70ec9e35d3e9f3c5cc5e793f",
+        "bytes": 8129,
+        "復元先": "work/148全1分候補の当時特徴/legacy74.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/legacy_types.go",
+        "sha256": "e4d1f85ef308d43445187737de1e618dfb4d2c89e3fe5dbc80de3012106ad8a1",
+        "bytes": 1522,
+        "復元先": "work/148全1分候補の当時特徴/legacy_types.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/README.md",
+        "sha256": "e352826e997709f4296d91559ec0201a4e0e978a581096d54467234bab0e12c0",
+        "bytes": 4517,
+        "復元先": "work/148全1分候補の当時特徴/README.md"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/types.go",
+        "sha256": "db8f67cbfdcc96e4f17fb8f83c5119ddfa827e5b35dea760630e5499005a28c9",
+        "bytes": 3154,
+        "復元先": "work/148全1分候補の当時特徴/types.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/停止の確認.json",
+        "sha256": "fbfbd6aa076fd311d930539b57ff8fd0138a140df48070662aae15ec1ac40cc1",
+        "bytes": 2875,
+        "復元先": "work/148全1分候補の当時特徴/停止の確認.json"
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+        "保存SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+        "形式": "同体",
+        "解凍SHA256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+        "解凍bytes": 48448,
+        "復元先": "work/148全1分候補の当時特徴/列定義.json"
+      },
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/100特徴の列定義.md",
+        "保存SHA256": "396de0910a6a2ef05765b6bf6d68be9f97ddf0cb3a277eaccdf3c4d9e1d4cac6",
+        "形式": "先頭bytes",
+        "抽出bytes": 37503,
+        "解凍SHA256": "f9646d75fdfa1fce4fd4da1e81a51a177a163531bb274b65808317bcb64815cb",
+        "復元先": "work/148全1分候補の当時特徴/列定義.md"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/列定義を書き出す.py",
+        "sha256": "8d390b237198cc5635490b7543ab75dc9d58c6873dfbadac7b87fdd50de39c55",
+        "bytes": 2967,
+        "復元先": "work/148全1分候補の当時特徴/列定義を書き出す.py"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/準備の確認.json",
+        "sha256": "f2bd1fa4d2536f5013254f04f64bcffd04e21f949f8dda9e26ddec70a15413ad",
+        "bytes": 5215,
+        "復元先": "work/148全1分候補の当時特徴/準備の確認.json"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "特徴部品/準備を確認する.py",
+        "sha256": "dafec6bd5db76845acc3faadf1f65ffd383e3defaf91721ae29673ab5a55fc2f",
+        "bytes": 5907,
+        "復元先": "work/148全1分候補の当時特徴/準備を確認する.py"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "Root独立人工/go.mod",
+        "sha256": "1d41722b127d2b8fa0d189516588534e178b59508489a71855cc8dcb397fda3f",
+        "bytes": 390,
+        "復元先": "work/148特徴の独立検算/go.mod"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "Root独立人工/independent_test.go",
+        "sha256": "dbc64f391856f959e9fc1f88e6b4e12f52d36602e0a4bdb5a47cc548925be327",
+        "bytes": 7565,
+        "復元先": "work/148特徴の独立検算/independent_test.go"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "Root独立人工/人工の実行.txt",
+        "sha256": "f7b17d8adf1617ec853b4e33a156105da8aa5a814361131e69ba87de084fe424",
+        "bytes": 312,
+        "復元先": "work/148特徴の独立検算/人工の実行.txt"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "Root独立人工/準備の確認.json",
+        "sha256": "9cc5f52caa370bfa766e18b445e6849f7bce69c245d147cf0c70399945cb43f2",
+        "bytes": 4234,
+        "復元先": "work/148特徴の独立検算/準備の確認.json"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/根拠/100特徴の固定前資料.zip",
+        "ZIP_SHA256": "0d491f803e71490b91acd6d84f1e4401a3b39eef6785560a06b0f6d7ced45ab3",
+        "ZIP内path": "Root独立人工/証跡を固定する.py",
+        "sha256": "7401055a1a9a142d881bd92d2b7d2aad7c463f17c947d393fbc36a276f85a935",
+        "bytes": 2605,
+        "復元先": "work/148特徴の独立検算/証跡を固定する.py"
+      }
+    ],
+    "保存済み参照": [],
+    "新固定源": [
+      {
+        "path": "work/148case統合の独立検査/go.mod",
+        "sha256": "8d3c74f3299703f37802caefa3f50e7610bd68ede0966af1fea2a46663fe11cd",
+        "bytes": 490
+      },
+      {
+        "path": "work/148case統合の独立検査/independent_test.go",
+        "sha256": "bd60999887b57694ff971d32f48e34b700681ebf6d4d9fc7d63a9154c65fbaac",
+        "bytes": 6435
+      },
+      {
+        "path": "work/148case統合の独立検査/人工の実行.txt",
+        "sha256": "f718477a2ad318dca5de008d13f70fed88810eae5c4d00f1470df6fc8e94cd61",
+        "bytes": 211
+      },
+      {
+        "path": "work/148case統合の独立検査/準備の確認.json",
+        "sha256": "1f30ae1eaad13b0f115b429490619986db53dc7014c2189737b2f29f2c8d13d1",
+        "bytes": 1997
+      },
+      {
+        "path": "work/148case統合の独立検査/証跡を固定する.py",
+        "sha256": "b8ea4b88f257e78f34d05067a7381f95e74163a129bca682e3743cecbf459ab3",
+        "bytes": 2473
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/148母集団生成と観測を分離して実行する_helpのログ.txt",
+        "sha256": "2b613490e0dc76674912b647670d7752250b4c3e8cfecb5b91e771a763034578",
+        "bytes": 278
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/148観測の実行性能を測る_helpのログ.txt",
+        "sha256": "6f66ae6a5f7704d2df9826b4d9230494c49598b3b69a8bd40b79a25e1f78a48c",
+        "bytes": 305
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/buildのログ.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/overlay.json",
+        "sha256": "73b56058828f6a4a054cb4d93c698521e4504baae6745888d0e510165cc56923",
+        "bytes": 285
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/Source_helpのログ.txt",
+        "sha256": "0e595d82f760bb4a048ca8dc5f6868a2e1bd43dd0714d7f94c80910a9e430b4b",
+        "bytes": 353
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/vetのログ.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/全作者人工のログ.txt",
+        "sha256": "5486c99637b3d7654a5e28250fb75380f75e9977057c60f2a358d1c9e0877325",
+        "bytes": 81
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/準備の確認.json",
+        "sha256": "968812e6adbcb205e61d3a7e08ad41d568c2812f8241972bfd73c063dcefaaf9",
+        "bytes": 13037
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/独立5群のログ.txt",
+        "sha256": "b6245d7b15803dd7bd0b1d96ad85adf2c4983fa613e59262a494d92a95ef0631",
+        "bytes": 1489
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/独立境界_test.go.txt",
+        "sha256": "48d2318d381fdeb868096bb182723a55619e84ee31e6485c25aa6067e4688d96",
+        "bytes": 10333
+      },
+      {
+        "path": "work/148Source因果の独立準備レビュー/確認する.py",
+        "sha256": "e68661e9a0cb02cb2f6ef18073ff870f219fc9c938dd9aba871b5829b781bbde",
+        "bytes": 6012
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/case_builder.go",
+        "sha256": "c8df813b5c98998e945b36ef7767ac50e2ee9ab98cfcd3f4fddb2a41075820db",
+        "bytes": 15500
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/case_builder_test.go",
+        "sha256": "2c0ff9160f0ecabdb4d4dd802616bf67bb94b0e5f7af9697c9e02c24129a8ae6",
+        "bytes": 10336
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/cmd/run/main.go",
+        "sha256": "788b72f3659436a0c4e7028ad35b4792465b6c0a9b1bdf706cf530fdb905ec60",
+        "bytes": 1488
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/decoder.go",
+        "sha256": "798c6377e9ac1821748bf056b047baa41d9dfea1d79b7b0d8a4b350b70087934",
+        "bytes": 2937
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/generate.go",
+        "sha256": "87047c8ff9d055c1cf403616af400e38d13cb936bd9affd0057d72ed8d77f343",
+        "bytes": 8621
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/go.mod",
+        "sha256": "2185ffca79f98e78468803ad904adb9ae79f427a7d7947dd5e1f3e9dab7a90cf",
+        "bytes": 407
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/helpers.go",
+        "sha256": "aea53975acc5bcebbddb3eeb85c9420d6f64fcad8dcfe4098c3d09fb2d18d9a8",
+        "bytes": 848
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/input.go",
+        "sha256": "c28f57fdedc32648c49cd21bfceb957741dabd4ec80b20eeb19b24a59ee305a7",
+        "bytes": 7580
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/parent_stream.go",
+        "sha256": "62b9c2d86ad7bb729e15a0afca367fa682ad2bfad516609c9a9629f702fb6e9a",
+        "bytes": 6045
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/parent_stream_test.go",
+        "sha256": "7a68395fc010d77b4ef105dbf9baad64292f33e08ec44d6110ce4cb37e3608c0",
+        "bytes": 3081
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/population.go",
+        "sha256": "8e93fcf0cfc6775fc09e58ba6662a8260ddfea30131abd580e09bf8080f3b65d",
+        "bytes": 7887
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/population_test.go",
+        "sha256": "9aa9bcc045d6abd0552b4f6f9d7d40971ea6e1ba61c16372297ce5cd91cdff12",
+        "bytes": 7100
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/publications.go",
+        "sha256": "11fbbe4ffd7349d3cfb1b47d9174558b4387754258d0d419ad6e1357f1f2c972",
+        "bytes": 8606
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/rawtypes.go",
+        "sha256": "e6d6997a4988674fb258cc43d93d89c890da5ea528e7dbd6f4bb2d03c444dd64",
+        "bytes": 975
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/README.md",
+        "sha256": "d1279c450580250f87c6b45f2e402021ad97b68bb7047bb87250108015ed2e43",
+        "bytes": 5861
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/scanner.go",
+        "sha256": "79efb2c2dc6dc267a2a1fb2637737e086481739ac785fb7dc1c4490e0a065cf8",
+        "bytes": 7976
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/scanner_test.go",
+        "sha256": "e82ca46ad10a786335d5e6ab6b14342534f0b66746426039a252986b7bdb85d7",
+        "bytes": 4759
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/types.go",
+        "sha256": "bd95adac5947ce52c73a18da3fb0757d9814dda17183d5ff89e84b0b8eda86bc",
+        "bytes": 5182
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/入力参照.json",
+        "sha256": "335fc381a99c351161642555c583f7256a643aaebcdfa2248ff741d3fca8a4ce",
+        "bytes": 1329
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/準備する.py",
+        "sha256": "611de40801146f1b90b41dc2b406c0c30e0fc6115759921b6423621dfd673916",
+        "bytes": 4771
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/準備の確認.json",
+        "sha256": "7446c126e20039acdb3f2cbaacdc8b29c60681267d67864b42a09e11682ea1d6",
+        "bytes": 13378
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/由来.json",
+        "sha256": "9c53dbe4d48c16ef73375c3f26108f89f90e917ab93c3e8e7d9c7dc268eb0638",
+        "bytes": 2270
+      },
+      {
+        "path": "work/148性能計測器の準備/人工の確認.json",
+        "sha256": "ca9ea0a6c7be676573e35b7dcd516f6e8004f36781283307639e2039cb8aeb12",
+        "bytes": 1395
+      },
+      {
+        "path": "work/148母集団生成と観測を分離して実行する.py",
+        "sha256": "bc18d243f7ad1692b0d1cc17b3b058cff4bdd26331b9c3672857fc799215d920",
+        "bytes": 10022
+      },
+      {
+        "path": "work/148観測の実行性能を測る.py",
+        "sha256": "e52a5e99693dcfe88851f3d14d4c63b41eba1d7b5c5c6546620cebbb25c17783",
+        "bytes": 5864
+      }
+    ],
+    "意図して非複製": [
+      {
+        "path": "work/122全場入力/入力.json",
+        "sha256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+        "bytes": 177709174,
+        "理由": "共用巨大入力/実行体/原価格は非複製。既存生成手順とGo源を参照"
+      },
+      {
+        "path": "work/133固定取得の正逆評価器/固定取得の正逆評価.exe",
+        "sha256": "033cf22a052e985bc61aa020a04fa6d499119051aaa39bb2adb715a4af1e7736",
+        "bytes": 3659776,
+        "理由": "共用巨大入力/実行体/原価格は非複製。既存生成手順とGo源を参照"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/全1分母集団生成.exe",
+        "sha256": "841a03e500ee87c5bc4a6dd503e391e722af9602b287d3d2c881e10c6db1dac3",
+        "bytes": 4067328,
+        "理由": "共用巨大入力/実行体/原価格は非複製。既存生成手順とGo源を参照"
+      }
+    ],
+    "固定ZIP": {
+      "ZIP": "148母集団前の固定資料.zip",
+      "ZIP_SHA256": "9574e22fd6460d3d4e1e70108632ea8921719ca1656e582aaaaac2960190cca6",
+      "ZIP_bytes": 79908,
+      "格納源数": 41,
+      "格納源": [
+        {
+          "path": "work/148case統合の独立検査/go.mod",
+          "sha256": "8d3c74f3299703f37802caefa3f50e7610bd68ede0966af1fea2a46663fe11cd",
+          "bytes": 490
+        },
+        {
+          "path": "work/148case統合の独立検査/independent_test.go",
+          "sha256": "bd60999887b57694ff971d32f48e34b700681ebf6d4d9fc7d63a9154c65fbaac",
+          "bytes": 6435
+        },
+        {
+          "path": "work/148case統合の独立検査/人工の実行.txt",
+          "sha256": "f718477a2ad318dca5de008d13f70fed88810eae5c4d00f1470df6fc8e94cd61",
+          "bytes": 211
+        },
+        {
+          "path": "work/148case統合の独立検査/準備の確認.json",
+          "sha256": "1f30ae1eaad13b0f115b429490619986db53dc7014c2189737b2f29f2c8d13d1",
+          "bytes": 1997
+        },
+        {
+          "path": "work/148case統合の独立検査/証跡を固定する.py",
+          "sha256": "b8ea4b88f257e78f34d05067a7381f95e74163a129bca682e3743cecbf459ab3",
+          "bytes": 2473
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/148母集団生成と観測を分離して実行する_helpのログ.txt",
+          "sha256": "2b613490e0dc76674912b647670d7752250b4c3e8cfecb5b91e771a763034578",
+          "bytes": 278
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/148観測の実行性能を測る_helpのログ.txt",
+          "sha256": "6f66ae6a5f7704d2df9826b4d9230494c49598b3b69a8bd40b79a25e1f78a48c",
+          "bytes": 305
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/buildのログ.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/overlay.json",
+          "sha256": "73b56058828f6a4a054cb4d93c698521e4504baae6745888d0e510165cc56923",
+          "bytes": 285
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/Source_helpのログ.txt",
+          "sha256": "0e595d82f760bb4a048ca8dc5f6868a2e1bd43dd0714d7f94c80910a9e430b4b",
+          "bytes": 353
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/vetのログ.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/全作者人工のログ.txt",
+          "sha256": "5486c99637b3d7654a5e28250fb75380f75e9977057c60f2a358d1c9e0877325",
+          "bytes": 81
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/準備の確認.json",
+          "sha256": "968812e6adbcb205e61d3a7e08ad41d568c2812f8241972bfd73c063dcefaaf9",
+          "bytes": 13037
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/独立5群のログ.txt",
+          "sha256": "b6245d7b15803dd7bd0b1d96ad85adf2c4983fa613e59262a494d92a95ef0631",
+          "bytes": 1489
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/独立境界_test.go.txt",
+          "sha256": "48d2318d381fdeb868096bb182723a55619e84ee31e6485c25aa6067e4688d96",
+          "bytes": 10333
+        },
+        {
+          "path": "work/148Source因果の独立準備レビュー/確認する.py",
+          "sha256": "e68661e9a0cb02cb2f6ef18073ff870f219fc9c938dd9aba871b5829b781bbde",
+          "bytes": 6012
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/case_builder.go",
+          "sha256": "c8df813b5c98998e945b36ef7767ac50e2ee9ab98cfcd3f4fddb2a41075820db",
+          "bytes": 15500
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/case_builder_test.go",
+          "sha256": "2c0ff9160f0ecabdb4d4dd802616bf67bb94b0e5f7af9697c9e02c24129a8ae6",
+          "bytes": 10336
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/cmd/run/main.go",
+          "sha256": "788b72f3659436a0c4e7028ad35b4792465b6c0a9b1bdf706cf530fdb905ec60",
+          "bytes": 1488
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/decoder.go",
+          "sha256": "798c6377e9ac1821748bf056b047baa41d9dfea1d79b7b0d8a4b350b70087934",
+          "bytes": 2937
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/generate.go",
+          "sha256": "87047c8ff9d055c1cf403616af400e38d13cb936bd9affd0057d72ed8d77f343",
+          "bytes": 8621
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/go.mod",
+          "sha256": "2185ffca79f98e78468803ad904adb9ae79f427a7d7947dd5e1f3e9dab7a90cf",
+          "bytes": 407
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/helpers.go",
+          "sha256": "aea53975acc5bcebbddb3eeb85c9420d6f64fcad8dcfe4098c3d09fb2d18d9a8",
+          "bytes": 848
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/input.go",
+          "sha256": "c28f57fdedc32648c49cd21bfceb957741dabd4ec80b20eeb19b24a59ee305a7",
+          "bytes": 7580
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/parent_stream.go",
+          "sha256": "62b9c2d86ad7bb729e15a0afca367fa682ad2bfad516609c9a9629f702fb6e9a",
+          "bytes": 6045
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/parent_stream_test.go",
+          "sha256": "7a68395fc010d77b4ef105dbf9baad64292f33e08ec44d6110ce4cb37e3608c0",
+          "bytes": 3081
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/population.go",
+          "sha256": "8e93fcf0cfc6775fc09e58ba6662a8260ddfea30131abd580e09bf8080f3b65d",
+          "bytes": 7887
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/population_test.go",
+          "sha256": "9aa9bcc045d6abd0552b4f6f9d7d40971ea6e1ba61c16372297ce5cd91cdff12",
+          "bytes": 7100
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/publications.go",
+          "sha256": "11fbbe4ffd7349d3cfb1b47d9174558b4387754258d0d419ad6e1357f1f2c972",
+          "bytes": 8606
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/rawtypes.go",
+          "sha256": "e6d6997a4988674fb258cc43d93d89c890da5ea528e7dbd6f4bb2d03c444dd64",
+          "bytes": 975
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/README.md",
+          "sha256": "d1279c450580250f87c6b45f2e402021ad97b68bb7047bb87250108015ed2e43",
+          "bytes": 5861
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/scanner.go",
+          "sha256": "79efb2c2dc6dc267a2a1fb2637737e086481739ac785fb7dc1c4490e0a065cf8",
+          "bytes": 7976
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/scanner_test.go",
+          "sha256": "e82ca46ad10a786335d5e6ab6b14342534f0b66746426039a252986b7bdb85d7",
+          "bytes": 4759
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/types.go",
+          "sha256": "bd95adac5947ce52c73a18da3fb0757d9814dda17183d5ff89e84b0b8eda86bc",
+          "bytes": 5182
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/入力参照.json",
+          "sha256": "335fc381a99c351161642555c583f7256a643aaebcdfa2248ff741d3fca8a4ce",
+          "bytes": 1329
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/準備する.py",
+          "sha256": "611de40801146f1b90b41dc2b406c0c30e0fc6115759921b6423621dfd673916",
+          "bytes": 4771
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/準備の確認.json",
+          "sha256": "7446c126e20039acdb3f2cbaacdc8b29c60681267d67864b42a09e11682ea1d6",
+          "bytes": 13378
+        },
+        {
+          "path": "work/148全1分知得の入口母集団/由来.json",
+          "sha256": "9c53dbe4d48c16ef73375c3f26108f89f90e917ab93c3e8e7d9c7dc268eb0638",
+          "bytes": 2270
+        },
+        {
+          "path": "work/148性能計測器の準備/人工の確認.json",
+          "sha256": "ca9ea0a6c7be676573e35b7dcd516f6e8004f36781283307639e2039cb8aeb12",
+          "bytes": 1395
+        },
+        {
+          "path": "work/148母集団生成と観測を分離して実行する.py",
+          "sha256": "bc18d243f7ad1692b0d1cc17b3b058cff4bdd26331b9c3672857fc799215d920",
+          "bytes": 10022
+        },
+        {
+          "path": "work/148観測の実行性能を測る.py",
+          "sha256": "e52a5e99693dcfe88851f3d14d4c63b41eba1d7b5c5c6546620cebbb25c17783",
+          "bytes": 5864
+        }
+      ]
+    }
+  },
+  "122巨大入力の復元": {
+    "手順": "study/00122_E0固定条件を全セッションで検証する/再現資料/再現手順.md",
+    "SHA256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+    "本文新複写/解析": false
+  },
+  "147Source共有": "inputs/00147_中位価格位置と実体回復/Sourceの出生と取得.json.gz。解凍本文は本保存器で未読",
+  "旧145共有": "inputs/00145_構造イベントの入口/と旧145保管索引を参照",
+  "最終選択取引数": null,
+  "データcase数を目標頻度へ代用": false,
+  "正式3MD変更": false,
+  "自然生成5点/新金融/Raw/追加2場読取": false,
+  "保存器の準備": {
+    "区分": "F0後に実装した保存器。F0直接源へ後付け固定しない",
+    "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/再現資料/148保存器の準備資料.zip",
+    "ZIP_SHA256": "eea5b646bebc7b52bb6f87f79907eace765ed15539404766c68de45a4eaa0a26",
+    "ZIP_bytes": 14335,
+    "格納源": [
+      {
+        "path": "work/148正式保存/F0原文を保管する.py",
+        "bytes": 525,
+        "sha256": "ba90bf024f1b045c10913d3d04a2b6b5e1721ab323d9e36c93442d72a9a3b235"
+      },
+      {
+        "path": "work/148正式保存/F1の追加資料を保管する.py",
+        "bytes": 659,
+        "sha256": "6ab1ac9b631c9979174bfb8850509e7a0f5e0a813e0bb73bae96ca95c410f824"
+      },
+      {
+        "path": "work/148正式保存/保存の人工検査.py",
+        "bytes": 5681,
+        "sha256": "3afc3257f3de0bffc369f22c5b33faf752a99c58afa054afc3eb30c85328e7e9"
+      },
+      {
+        "path": "work/148正式保存/保存の準備.md",
+        "bytes": 2577,
+        "sha256": "9782706802f8d88a9fb9690e82bbd5efcbcc9c49b3ff39cc315cf8e02230710d"
+      },
+      {
+        "path": "work/148正式保存/保存部品.py",
+        "bytes": 16069,
+        "sha256": "cbad513178d529a988a14e4d876cdc57fe30091d46d320db5e571fb58f793737"
+      },
+      {
+        "path": "work/148正式保存/準備の確認.json",
+        "bytes": 3482,
+        "sha256": "a12a431482fdc07820734564d4ea8db20ac98b3a6aa1743d3c5ffff954f51346"
+      },
+      {
+        "path": "work/148正式保存/準備を確認する.py",
+        "bytes": 3005,
+        "sha256": "05c53c36b7cf2e811ff22cd34f3a2cc08d92c7ec2c6ce70357de138e73ad1ea5"
+      }
+    ],
+    "準備SHA256": "a12a431482fdc07820734564d4ea8db20ac98b3a6aa1743d3c5ffff954f51346",
+    "人工主群": 5,
+    "金融再集計": "まだ未準備・観測完成通知後に追記"
+  },
+  "F1_SHA256": "c1d2873f9bf7cce046c40e1353126dfb7b375b11f328674117946799b599e6ad",
+  "F1直接源数": 95,
+  "F1増分源数": 8,
+  "F1原文": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F1観測前.json",
+    "復元先": "work/148全1分母集団の評価/F1全case観測前.json",
+    "形式": "同体",
+    "保存bytes": 18071,
+    "保存SHA256": "c1d2873f9bf7cce046c40e1353126dfb7b375b11f328674117946799b599e6ad",
+    "解凍bytes": 18071,
+    "解凍SHA256": "c1d2873f9bf7cce046c40e1353126dfb7b375b11f328674117946799b599e6ad"
+  },
+  "F1文書原文": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F1実行前文書.json.gz",
+    "保存SHA256": "469b5a684d95e2fbd93b85ab1f9a038d9239c26ecdd7326da6bc6245ffc89ab0",
+    "正式コア3MD数": 3
+  },
+  "新共用入力": [
+    {
+      "保存元": "inputs/00148_全1分入口母集団/出生台帳.json.gz",
+      "復元先": "work/148全1分母集団の評価/母集団生成/出生台帳.json",
+      "形式": "gzip",
+      "保存bytes": 4755046,
+      "保存SHA256": "9d589488bca8e83be3fd23ed230b6f7cae176acbbe96dd2d04a62d3bbfb6e753",
+      "解凍bytes": 150712334,
+      "解凍SHA256": "4f4d3ce3a652170d5d5f15941b591493592d5816bb0985c2e70c86b14323b219"
+    },
+    {
+      "保存元": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "復元先": "work/148全1分母集団の評価/母集団生成/当時特徴.json",
+      "形式": "gzip",
+      "保存bytes": 16988103,
+      "保存SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "解凍bytes": 387681322,
+      "解凍SHA256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    {
+      "保存元": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "復元先": "work/148全1分母集団の評価/母集団生成/取得対応.json",
+      "形式": "gzip",
+      "保存bytes": 2249603,
+      "保存SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "解凍bytes": 37321760,
+      "解凍SHA256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+    },
+    {
+      "保存元": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "復元先": "work/148全1分母集団の評価/母集団生成/固定取得入力.json",
+      "形式": "gzip",
+      "保存bytes": 920027,
+      "保存SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "解凍bytes": 12155869,
+      "解凍SHA256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+    },
+    {
+      "保存元": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "復元先": "work/148全1分母集団の評価/母集団生成/入口参照.json",
+      "形式": "gzip",
+      "保存bytes": 1189288,
+      "保存SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "解凍bytes": 23358150,
+      "解凍SHA256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+    }
+  ],
+  "F1増分復元参照": {
+    "文書snapshot": [],
+    "既存恒久正本": [],
+    "共有入力": [],
+    "共有コード又は文書": [],
+    "保存済み参照": [
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F0母集団前.json",
+        "復元先": "work/148全1分母集団の評価/F0母集団前.json",
+        "形式": "同体",
+        "保存bytes": 16442,
+        "保存SHA256": "d3f6888e97cb2373a83fb95576175ef1f76b5c59ff8ffaa60a9391ac2fb8d00d",
+        "解凍bytes": 16442,
+        "解凍SHA256": "d3f6888e97cb2373a83fb95576175ef1f76b5c59ff8ffaa60a9391ac2fb8d00d"
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+        "復元先": "work/148全1分母集団の評価/母集団生成/入口参照.json",
+        "形式": "gzip",
+        "保存bytes": 1189288,
+        "保存SHA256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+        "解凍bytes": 23358150,
+        "解凍SHA256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/出生台帳.json.gz",
+        "復元先": "work/148全1分母集団の評価/母集団生成/出生台帳.json",
+        "形式": "gzip",
+        "保存bytes": 4755046,
+        "保存SHA256": "9d589488bca8e83be3fd23ed230b6f7cae176acbbe96dd2d04a62d3bbfb6e753",
+        "解凍bytes": 150712334,
+        "解凍SHA256": "4f4d3ce3a652170d5d5f15941b591493592d5816bb0985c2e70c86b14323b219"
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+        "復元先": "work/148全1分母集団の評価/母集団生成/取得対応.json",
+        "形式": "gzip",
+        "保存bytes": 2249603,
+        "保存SHA256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+        "解凍bytes": 37321760,
+        "解凍SHA256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+        "復元先": "work/148全1分母集団の評価/母集団生成/固定取得入力.json",
+        "形式": "gzip",
+        "保存bytes": 920027,
+        "保存SHA256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+        "解凍bytes": 12155869,
+        "解凍SHA256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+      },
+      {
+        "保存元": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+        "復元先": "work/148全1分母集団の評価/母集団生成/当時特徴.json",
+        "形式": "gzip",
+        "保存bytes": 16988103,
+        "保存SHA256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+        "解凍bytes": 387681322,
+        "解凍SHA256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+      }
+    ],
+    "新固定源": [
+      {
+        "path": "work/148全1分母集団の評価/生成の完了.json",
+        "sha256": "a80119afac7c44766e37ba21d221480b421e9beb8fd037bd4f01b5bd678cbe74",
+        "bytes": 650
+      },
+      {
+        "path": "work/148全1分母集団の評価/生成の実行性能.json",
+        "sha256": "1c2d4e9f4a68f6587d9b913860ea88b799c6961b08471bcbf2bc9dccc982256c",
+        "bytes": 1584
+      }
+    ],
+    "意図して非複製": [],
+    "固定ZIP": {
+      "ZIP": "148観測前追加の固定資料.zip",
+      "ZIP_SHA256": "a9dcf1318f1e9f8ca8e0692e61e0397edd7406b1bf02871400500f5860ec2be5",
+      "ZIP_bytes": 1717,
+      "格納源数": 2,
+      "格納源": [
+        {
+          "path": "work/148全1分母集団の評価/生成の完了.json",
+          "sha256": "a80119afac7c44766e37ba21d221480b421e9beb8fd037bd4f01b5bd678cbe74",
+          "bytes": 650
+        },
+        {
+          "path": "work/148全1分母集団の評価/生成の実行性能.json",
+          "sha256": "1c2d4e9f4a68f6587d9b913860ea88b799c6961b08471bcbf2bc9dccc982256c",
+          "bytes": 1584
+        }
+      ]
+    }
+  },
+  "保存済み正逆観測": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+    "復元先": "work/148全1分母集団の評価/固定取得の正逆観測.json",
+    "形式": "gzip",
+    "保存bytes": 18488267,
+    "保存SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+    "解凍bytes": 842954472,
+    "解凍SHA256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc"
+  },
+  "観測保存の区分": "全caseの両側観測。最終選択取引数/目標頻度の達成とは別",
+  "F1後発小資料": {
+    "区分": "F1一覧外の生成確認/性能/全case補足/保存器。事前固定への後付けではない",
+    "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/再現資料/148F1後発の小資料.zip",
+    "ZIP_SHA256": "55ab9a00dadb839da50d1f7462195cf60c77151a45c8619de3bd5abe52cb9d8b",
+    "ZIP_bytes": 17775,
+    "格納源": [
+      {
+        "path": "work/148全1分母集団の評価/生成の完了.json",
+        "bytes": 650,
+        "sha256": "a80119afac7c44766e37ba21d221480b421e9beb8fd037bd4f01b5bd678cbe74"
+      },
+      {
+        "path": "work/148全1分母集団の評価/生成の実行性能.json",
+        "bytes": 1584,
+        "sha256": "1c2d4e9f4a68f6587d9b913860ea88b799c6961b08471bcbf2bc9dccc982256c"
+      },
+      {
+        "path": "work/148全1分母集団の評価/母集団生成/生成の確認.json",
+        "bytes": 3710,
+        "sha256": "9fb3737026d764d7f05aa7e4da10469bd27bdc0164c6bcbe7bb4de860bb8ea46"
+      },
+      {
+        "path": "work/148全1分母集団の評価/観測の完了.json",
+        "bytes": 468,
+        "sha256": "307041eb70ccc3ae4843a1af9d8b7320411b2216bab0fb1a749aa64356bebfa8"
+      },
+      {
+        "path": "work/148全1分母集団の評価/全case観測の実行性能.json",
+        "bytes": 1592,
+        "sha256": "aa4ba888f48ad7b225db89d220227248feea607e74958ab7bc7f8a6ca776fa8b"
+      },
+      {
+        "path": "work/148母集団の独立全件監査/全case記述を補足する.py",
+        "bytes": 3138,
+        "sha256": "dd6637410a4f60cfe7f5e383f7cc57f35f3580f1b6b08708708675b7e760e082"
+      },
+      {
+        "path": "work/148母集団の独立全件監査/全case記述の補足.json",
+        "bytes": 428,
+        "sha256": "7419950437e76fe916aa19b9946341d1ea3a90e622abb6d2e8b43e5dd9be636c"
+      },
+      {
+        "path": "work/148母集団の金融診断を独立に照合する.py",
+        "bytes": 7918,
+        "sha256": "b4e9b4f85b54f624eb820b5c7dd2a2285d7532a89eed39f8f3561cca9771a6a8"
+      },
+      {
+        "path": "work/148正式保存/F1保管を確認する.py",
+        "bytes": 5832,
+        "sha256": "a85b372d7ed256080abc3f9e40d43d065a9f3f8b2582d79dbd67a89a0a95cf90"
+      },
+      {
+        "path": "work/148正式保存/観測を一度保存する.py",
+        "bytes": 2681,
+        "sha256": "ac9cc356a6e7d59cac662548a292f7099953f85ed0cc24de56e2777a62c006c4"
+      },
+      {
+        "path": "work/148正式保存/生成5正本の保管計画.json",
+        "bytes": 2867,
+        "sha256": "b90890678f58570d349d3d1ee8f8c9eeae67336c264016ba86262616030cd595"
+      },
+      {
+        "path": "work/148正式保存/後発小資料を保管する.py",
+        "bytes": 3911,
+        "sha256": "f49e5f63a3e6f39b9fd4ec5b7e218bb69247cac8a0e80e8b6f19c8598bde22d4"
+      }
+    ],
+    "主独立監査": "主コードとe4d628a7票はF1追加固定ZIP内で共有し、ここへ再複製しない",
+    "補足SHA256": "7419950437e76fe916aa19b9946341d1ea3a90e622abb6d2e8b43e5dd9be636c",
+    "Root金融監査コード": "本保存時点版。まだ実行せず、将来の確定票と指紋で再照合する"
+  },
+  "Root金融監査の共有算術": {
+    "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141金融前の追加固定資料.zip",
+    "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+    "ZIP内path": "work/141金融集計を独立に確認する.py",
+    "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+    "bytes": 7652,
+    "復元先": "work/141金融集計を独立に確認する.py"
+  },
+  "F1復元照合": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F1全源の復元参照確認.json",
+    "SHA256": "d022567f5f62dbdd45f53ef9b5ac3d7cebae16350b13ce4ed43caa640bb34588",
+    "全源数": 95,
+    "保存bytes一致": 92,
+    "非複製": 3
+  },
+  "F2_SHA256": "00f1061e6a43450bd1a596056fec84ca912e06ab7e09a37ec23b955c46cdfb4b",
+  "F2原文": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F2診断集計前.json",
+    "復元先": "work/148全1分母集団の評価/F2診断集計前.json",
+    "形式": "同体",
+    "保存bytes": 2622,
+    "保存SHA256": "00f1061e6a43450bd1a596056fec84ca912e06ab7e09a37ec23b955c46cdfb4b",
+    "解凍bytes": 2622,
+    "解凍SHA256": "00f1061e6a43450bd1a596056fec84ca912e06ab7e09a37ec23b955c46cdfb4b"
+  },
+  "F2直接源数": 13,
+  "F2復元参照": {
+    "文書snapshot": [],
+    "既存恒久正本": [],
+    "共有入力": [
+      {
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/固定取得の正逆観測.json.gz",
+        "復元先": "work/145構造イベントの評価/固定取得の正逆観測.json",
+        "形式": "gzip",
+        "保存bytes": 80492,
+        "保存SHA256": "e970b53d95ac4ff56335288ba402d59bef41558d0785d448b1cefe12bd360cbf",
+        "解凍bytes": 2349359,
+        "解凍SHA256": "3b92da8b447d7be9ead6a2a112759ca7272a1e65d6cb5516989e3faf50c54d62"
+      },
+      {
+        "保存元": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/集計.json",
+        "復元先": "work/145構造イベントの評価/金融評価/集計.json",
+        "形式": "同体",
+        "保存bytes": 370624,
+        "保存SHA256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861",
+        "解凍bytes": 370624,
+        "解凍SHA256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861"
+      },
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/F1観測前.json",
+        "復元先": "work/148全1分母集団の評価/F1全case観測前.json",
+        "形式": "同体",
+        "保存bytes": 18071,
+        "保存SHA256": "c1d2873f9bf7cce046c40e1353126dfb7b375b11f328674117946799b599e6ad",
+        "解凍bytes": 18071,
+        "解凍SHA256": "c1d2873f9bf7cce046c40e1353126dfb7b375b11f328674117946799b599e6ad"
+      },
+      {
+        "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+        "復元先": "work/148全1分母集団の評価/固定取得の正逆観測.json",
+        "形式": "gzip",
+        "保存bytes": 18488267,
+        "保存SHA256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+        "解凍bytes": 842954472,
+        "解凍SHA256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc"
+      }
+    ],
+    "共有コード又は文書": [
+      {
+        "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+        "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+        "ZIP内path": "work/124入口の原因分析/集計する.py",
+        "sha256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+        "bytes": 18019,
+        "復元先": "work/124入口の原因分析/集計する.py"
+      },
+      {
+        "保存元ZIP": "study/00141_VWMA基準の受容と再加速から独立入口を生む/再現資料/141金融前の追加固定資料.zip",
+        "ZIP_SHA256": "64234884e86938921f9753ceed08cd8854698e289957536075cfd3dcf8d01523",
+        "ZIP内path": "work/141金融集計を独立に確認する.py",
+        "sha256": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+        "bytes": 7652,
+        "復元先": "work/141金融集計を独立に確認する.py"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/再現資料/148F1後発の小資料.zip",
+        "ZIP_SHA256": "55ab9a00dadb839da50d1f7462195cf60c77151a45c8619de3bd5abe52cb9d8b",
+        "ZIP内path": "work/148全1分母集団の評価/観測の完了.json",
+        "sha256": "307041eb70ccc3ae4843a1af9d8b7320411b2216bab0fb1a749aa64356bebfa8",
+        "bytes": 468,
+        "復元先": "work/148全1分母集団の評価/観測の完了.json"
+      },
+      {
+        "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/再現資料/148F1後発の小資料.zip",
+        "ZIP_SHA256": "55ab9a00dadb839da50d1f7462195cf60c77151a45c8619de3bd5abe52cb9d8b",
+        "ZIP内path": "work/148母集団の金融診断を独立に照合する.py",
+        "sha256": "b4e9b4f85b54f624eb820b5c7dd2a2285d7532a89eed39f8f3561cca9771a6a8",
+        "bytes": 7918,
+        "復元先": "work/148母集団の金融診断を独立に照合する.py"
+      }
+    ],
+    "保存済み参照": [],
+    "新固定源": [
+      {
+        "path": "work/148母集団の診断集計/人工検査.py",
+        "sha256": "4256dec3bd2bd22f51009f9efe5286c039641b5c558c724b271dd55c8f2facef",
+        "bytes": 7604
+      },
+      {
+        "path": "work/148母集団の診断集計/条件.md",
+        "sha256": "61c1c01fc02dfbb5d4486e1b189cc9cc0912dc562801dc5fd260f04771bfa7a7",
+        "bytes": 1808
+      },
+      {
+        "path": "work/148母集団の診断集計/準備の確認.json",
+        "sha256": "fcd5c81366bb7640fd330e1a7b93043b3195f5026e016d7c7683e326345f545c",
+        "bytes": 3003
+      },
+      {
+        "path": "work/148母集団の診断集計/準備の確認_文字コード補正.json",
+        "sha256": "1e295712f4b9687e2e24573bc823efbb3f121e223f4170744f4701c6cbe7f9cc",
+        "bytes": 3132
+      },
+      {
+        "path": "work/148母集団の診断集計/集計する.py",
+        "sha256": "0ae8287b67b53df0d07c22963e2bf9ecd0775af9b0545a89f6a61af6ec2ec309",
+        "bytes": 21932
+      }
+    ],
+    "意図して非複製": [],
+    "固定ZIP": {
+      "ZIP": "148診断集計前の固定資料.zip",
+      "ZIP_SHA256": "0860e8edda20f550804a3e1f1d4853ed1625f773e8f6c00633724a3dfa049d30",
+      "ZIP_bytes": 15614,
+      "格納源数": 5,
+      "格納源": [
+        {
+          "path": "work/148母集団の診断集計/人工検査.py",
+          "sha256": "4256dec3bd2bd22f51009f9efe5286c039641b5c558c724b271dd55c8f2facef",
+          "bytes": 7604
+        },
+        {
+          "path": "work/148母集団の診断集計/条件.md",
+          "sha256": "61c1c01fc02dfbb5d4486e1b189cc9cc0912dc562801dc5fd260f04771bfa7a7",
+          "bytes": 1808
+        },
+        {
+          "path": "work/148母集団の診断集計/準備の確認.json",
+          "sha256": "fcd5c81366bb7640fd330e1a7b93043b3195f5026e016d7c7683e326345f545c",
+          "bytes": 3003
+        },
+        {
+          "path": "work/148母集団の診断集計/準備の確認_文字コード補正.json",
+          "sha256": "1e295712f4b9687e2e24573bc823efbb3f121e223f4170744f4701c6cbe7f9cc",
+          "bytes": 3132
+        },
+        {
+          "path": "work/148母集団の診断集計/集計する.py",
+          "sha256": "0ae8287b67b53df0d07c22963e2bf9ecd0775af9b0545a89f6a61af6ec2ec309",
+          "bytes": 21932
+        }
+      ]
+    }
+  },
+  "保存金融正本": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/集計.json",
+    "復元先": "work/148全1分母集団の評価/金融診断/集計.json",
+    "形式": "同体",
+    "保存bytes": 333658,
+    "保存SHA256": "062c6e93eefd9f06c8e972d5737561259f753174f06015a4d1e927a4ea8118a7",
+    "解凍bytes": 333658,
+    "解凍SHA256": "062c6e93eefd9f06c8e972d5737561259f753174f06015a4d1e927a4ea8118a7"
+  },
+  "保存CSV用の表": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/CSV用の表.json.gz",
+    "復元先": "work/148全1分母集団の評価/金融診断/CSV用の表.json",
+    "形式": "gzip",
+    "保存bytes": 2841810,
+    "保存SHA256": "c696f6deca6c95fdf4cfd39288726fd3d29b494f58cb3e1bb60fc16f0f66725b",
+    "解凍bytes": 51833830,
+    "解凍SHA256": "3707d7d59ca9913999d9a44ee290cd58005147590fb35f0d5aa0c0c5ca744e86"
+  },
+  "金融完成票と独立票": [
+    {
+      "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/集計完了.json",
+      "復元先": "work/148全1分母集団の評価/金融診断/集計完了.json",
+      "形式": "同体",
+      "保存bytes": 2227,
+      "保存SHA256": "bbe4e5a1492e79d7f35c50a561a37b97f5fe5f8094b80ccdd41d8b66c99ea734",
+      "解凍bytes": 2227,
+      "解凍SHA256": "bbe4e5a1492e79d7f35c50a561a37b97f5fe5f8094b80ccdd41d8b66c99ea734"
+    },
+    {
+      "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/金融独立検算.json",
+      "復元先": "work/148全1分母集団の評価/金融診断/独立検算.json",
+      "形式": "同体",
+      "保存bytes": 5580,
+      "保存SHA256": "0dbdbe830419b921310333d03c9049755fd1e6a0443447c5dde40aad3d5e685d",
+      "解凍bytes": 5580,
+      "解凍SHA256": "0dbdbe830419b921310333d03c9049755fd1e6a0443447c5dde40aad3d5e685d"
+    },
+    {
+      "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/独立検算の修正前固定.json",
+      "復元先": "work/148全1分母集団の評価/金融診断/独立検算の修正前固定.json",
+      "形式": "同体",
+      "保存bytes": 681,
+      "保存SHA256": "a619556d13497007d16ea7938c4806a639f55f3e304edf8aff961eca6c46d0da",
+      "解凍bytes": 681,
+      "解凍SHA256": "a619556d13497007d16ea7938c4806a639f55f3e304edf8aff961eca6c46d0da"
+    }
+  ],
+  "金融後発小資料": {
+    "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/再現資料/148金融後発の小資料.zip",
+    "ZIP_SHA256": "dabbf7db2c7e2995c0829dc4f61c1a2c0e0bb70a8333033f4742551d62b8275a",
+    "ZIP_bytes": 11239,
+    "格納源": [
+      {
+        "path": "work/148母集団の金融診断を独立に照合する_版2.py",
+        "bytes": 8194,
+        "sha256": "4ad86a23d195c4da4fdedd26a265c7523df7c95230e06ed5f40048a076241be5"
+      },
+      {
+        "path": "work/148正式保存/金融正本を保管する.py",
+        "bytes": 5205,
+        "sha256": "2c3ac8d105db976490eb04ecc1ce26a9330bc07c2532289d2764e04ca4e081ca"
+      },
+      {
+        "path": "work/148正式保存/保存部品.py",
+        "bytes": 16151,
+        "sha256": "7a622f8b5c2eee978d54839bdaec73c508f1cd0039fad7bb6ba04c132ad7844e"
+      }
+    ],
+    "区分": "F2旧checkerを変更せず、flipsメタの意味修正だけを別版で記録"
+  },
+  "診断主政策": null,
+  "新選択共同目標": null,
+  "金融診断は運用収支": false,
+  "元準備票とUTF8補正票": "F2源として両方保持・元票不変更",
+  "保存観測の再現": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/保存観測からの再現確認.json",
+    "復元先": "work/148保存観測の再現/保存観測からの再現確認.json",
+    "形式": "同体",
+    "保存bytes": 3231,
+    "保存SHA256": "7faec8061231710b0f879b6dbc874d7e088f43d8441fe10ac9f687933320c499",
+    "解凍bytes": 3231,
+    "解凍SHA256": "7faec8061231710b0f879b6dbc874d7e088f43d8441fe10ac9f687933320c499"
+  },
+  "CSV独立再読": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/CSV独立再読.json",
+    "復元先": "work/148全1分母集団の評価/金融診断/CSV独立再読.json",
+    "形式": "同体",
+    "保存bytes": 5233,
+    "保存SHA256": "bd83b7e28152d66000c471c88a5601e6c2561df45bba0f1452f99ff32c066190",
+    "解凍bytes": 5233,
+    "解凍SHA256": "bd83b7e28152d66000c471c88a5601e6c2561df45bba0f1452f99ff32c066190"
+  },
+  "正式原文の独立確認": {
+    "保存元": "study/00148_全1分知得から入口品質の母集団を固定する/検査/正式原文とリンクの独立確認.json",
+    "復元先": "work/148正式結果の原文とリンクの独立確認/確認の記録.json",
+    "形式": "同体",
+    "保存bytes": 2567,
+    "保存SHA256": "5cd352c168c01b1e3123a8744ec5f704f3deecfea8e09521199b83f5eb521419",
+    "解凍bytes": 2567,
+    "解凍SHA256": "5cd352c168c01b1e3123a8744ec5f704f3deecfea8e09521199b83f5eb521419"
+  },
+  "CSV閲覧": {
+    "正逆比較": {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/148_全1分知得の母集団診断/正逆比較.csv",
+      "sha256": "68f80087da7d44a7282c7bfff3daa4db2a1db86ff06b3962c39b96896095290d",
+      "rows": 300,
+      "columns": 34
+    },
+    "入口別診断": {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/148_全1分知得の母集団診断/入口別診断.csv",
+      "sha256": "4d3dd423db79697cf088a89467adbf18e9c5f603be6263985faa68290badc96b",
+      "rows": 40544,
+      "columns": 52
+    },
+    "全セッション": {
+      "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/148_全1分知得の母集団診断/全セッション.csv",
+      "sha256": "6cc360a9e62d96f1bd11408ebf28e1f4d017b17990e3c12645f62cde469e3fe2",
+      "rows": 73,
+      "columns": 75
+    }
+  },
+  "正式化とCSVの資料": {
+    "保存元ZIP": "study/00148_全1分知得から入口品質の母集団を固定する/再現資料/148正式化とCSVの資料.zip",
+    "ZIP_SHA256": "96a310ffb8a40f9bf4c8060be0aa40546dd25893a2d278424a69c077b38efead",
+    "ZIP_bytes": 25083,
+    "格納源": [
+      {
+        "path": "work/148正式保存/正式結果を反映する.py",
+        "bytes": 12314,
+        "sha256": "47cfe24013518c5966f293aedc1b5e6d34bce05d9bca12f19376bc23d798805c"
+      },
+      {
+        "path": "work/148正式保存/保存観測から再集計する.py",
+        "bytes": 6347,
+        "sha256": "a19230e8b70b49861c928d9e4b9874ae63443f2802e009a9b1e55d8e8cec43f3"
+      },
+      {
+        "path": "work/148正式保存/正式保存を確認する.py",
+        "bytes": 10204,
+        "sha256": "06519d5614293f670874f27188932cdcf6be433031dee3ad14b8525bc15e70cd"
+      },
+      {
+        "path": "work/148正式結果の原文とリンクの独立確認/確認する.py",
+        "bytes": 4410,
+        "sha256": "c9fc521681482f9408dd6d621432bdd50e68427080cd959cf23e3c7c63960322"
+      },
+      {
+        "path": "work/確定三表のCSV出力/出力する.mjs",
+        "bytes": 11457,
+        "sha256": "93ffba415bc9aa273758bd05475360256f376d601e0445b01b2b10d16240b3e5"
+      },
+      {
+        "path": "work/確定三表のCSV出力/CSVを独立再読する.py",
+        "bytes": 12933,
+        "sha256": "f161688d1e4f742c0e290e45bbbbbf6506ee07ac06eb01e505d3455c24c9b60b"
+      },
+      {
+        "path": "work/確定三表のCSV出力/由来.json",
+        "bytes": 716,
+        "sha256": "3de4a72d35ba156d33d961cf76a0e4eecbd53df63dfd76b156aec95024b8ad98"
+      }
+    ]
+  },
+  "正式3MD最終SHA256": {
+    "README.md": "cb6e2ebb73248aa4e70520cd3a18607700cfc8aa6ffe79e187f097020852867f",
+    "条件.md": "8c3756e36258293a12b1e6ab388b7acf62d3febdc16a9ceac29a0d7c37ffec89",
+    "設定と結果.md": "8d7e63534638fa624fca17336ed5d37bb634faf912e1d89de08b47d1f1cf4109"
+  },
+  "目標を母集団件数で代用": false
+}

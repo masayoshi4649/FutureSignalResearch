@@ -1,0 +1,87 @@
+{
+  "試行": 124,
+  "成功": true,
+  "F1_SHA256": "7fdfbf3b8ef9166d7bcaf0b5503a711f6a808dcba718e67c951fe627f71210d3",
+  "原文gzip": {
+    "path": "実行前文書.json.gz",
+    "SHA256": "4c87d0d5242b07e3d84dd527584fa589607a5295ab5f8d4a60fbc28ab4101e22",
+    "bytes": 15043,
+    "解凍SHA256": "d7c9feed74b6574ac8bf5bb79a51b10078a6186b9ae6bb049e4746c9bc7c50f1",
+    "解凍bytes": 59122,
+    "原文数": 6
+  },
+  "F1コード16_文書6_入力3前後同体": true,
+  "入力gzip": [
+    {
+      "source_path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124入口の原因分析\\入力.json",
+      "restore_relative": "work/124入口の原因分析/入力.json",
+      "path": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+      "SHA256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+      "bytes": 11620,
+      "解凍SHA256": "b2368b1f42c16e8c96a3acd098c58a902807a3b6a5023d6d4b1e75261f3ee51b",
+      "解凍bytes": 90300
+    },
+    {
+      "source_path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\全79例の当時特徴.json",
+      "restore_relative": "work/124当時特徴の診断/全79例の当時特徴.json",
+      "path": "inputs/00124_同入口正逆の共用入力/全79例の当時特徴.json.gz",
+      "SHA256": "c68526a9954fccf74969bfe669559c6e89c71b4c7a19ddb7cbf159347020a03d",
+      "bytes": 198856,
+      "解凍SHA256": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+      "解凍bytes": 2077049
+    },
+    {
+      "source_path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3追加の切替.json",
+      "restore_relative": "work/124当時特徴の診断/T3追加の切替.json",
+      "path": "inputs/00124_同入口正逆の共用入力/T3追加の切替.json.gz",
+      "SHA256": "3c36bf9929a8e504b125830ac514c2f8c73b563aa09c385212e4aa1c60dfbdf7",
+      "bytes": 1946,
+      "解凍SHA256": "656072b82b66564473d81aa96d4fe7dbc04ed97cfac982edc0d3b206baff7382",
+      "解凍bytes": 47821
+    }
+  ],
+  "コードZIP": {
+    "path": "124コード.zip",
+    "SHA256": "71664dd715fad8c6d44d0015ddc77ab85a3fcf148446020a3a88ed667e240753",
+    "bytes": 59426
+  },
+  "entry数": 20,
+  "小型検査の保存": [
+    {
+      "path": "検査/入力生成の確認.json",
+      "SHA256": "36723610d580dde1fff89944083ecaae5c0f986203129b84666a967fa02d47ed",
+      "bytes": 1392
+    },
+    {
+      "path": "検査/当時特徴器の完了.json",
+      "SHA256": "1a6166a57f679b86b26538cf1be7f6aa5e212e2b5b70567af133825295028d74",
+      "bytes": 2262
+    },
+    {
+      "path": "検査/当時特徴器の人工検査.json",
+      "SHA256": "fe71f12fc0250e0651c2337c62967f75cb828afbc90084b383b8dca94e4d77ad",
+      "bytes": 1208
+    },
+    {
+      "path": "検査/当時特徴の抽出確認.json",
+      "SHA256": "561a040a257e67fb2bb90b2a854b92c207ccdbc1663e997aba7f8d02968f073d",
+      "bytes": 12544
+    },
+    {
+      "path": "根拠/当時特徴の診断.md",
+      "SHA256": "6375edbcf0cdcedcfb7e11c0519626d8da1aedca24380387744539eed4275481",
+      "bytes": 4634
+    },
+    {
+      "path": "検査/CSV器の準備.json",
+      "SHA256": "85dfd4e9d89abe35a31661a557aa3e8fe20e4ececf98c573b7d2fb14ea848541",
+      "bytes": 2729
+    }
+  ],
+  "金融実行": false,
+  "新金融結果読取": false,
+  "Raw読取": false,
+  "177MB入力本文読取": false,
+  "123結果本文読取": false,
+  "exe本文読取": false
+}

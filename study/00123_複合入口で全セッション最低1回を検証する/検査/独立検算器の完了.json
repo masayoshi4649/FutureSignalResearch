@@ -1,0 +1,55 @@
+{
+  "成功": true,
+  "試行": 123,
+  "編集停止": true,
+  "F1": "bf6481b5b1377743fce9687237c7adf0b1bdb845384df45a904a4d215306f509",
+  "所有ファイル": {
+    "README.md": {
+      "bytes": 4700,
+      "sha256": "fa1c11a545916776464b42421b03f240992f4013262d3b71f1fe7c0f6c31550a"
+    },
+    "入力指紋.json": {
+      "bytes": 697,
+      "sha256": "4ebab5fe949bfd01dd8cc5cea543eb9dc7558fbe5d2a4c981c74f812ad7baa70"
+    },
+    "全73場の独立検算.json": {
+      "bytes": 39205,
+      "sha256": "f23a71d89cf03b733ede6d66cf436734f94a6b0f47c71cabcb18e62eaef0fbeb"
+    },
+    "検算する.py": {
+      "bytes": 22907,
+      "sha256": "0da4963c425a2a6006e27ef4aebd1c6a01c4818ad2a260eda7af30dfd4a7ec0f"
+    },
+    "補足の独立照合.json": {
+      "bytes": 1488,
+      "sha256": "066fbabbc90dbda43590c12530cdcc3959de672584680cd5112516e6ed5c116a"
+    },
+    "補足を照合する.py": {
+      "bytes": 3704,
+      "sha256": "1241b57b8f0f94d14a00dd5fab58e92b1d2e77994375f542016cf3dfb1a5f261"
+    }
+  },
+  "レビュー済コードの最終不変確認": {
+    "entry.go": "c4c57e55943a2a03778f280dab6385e68aee91509f6160e95cfedc4152a933a6",
+    "score.go": "d2c7d1b5d0692b80261c06ea16a7e2a0ebc18bb3dd722df99d8b7348f6dfd6a7",
+    "score_test.go": "2d7ab5d372b9be613b91fdd645463be0651f8c7d5dec16680a5e937d4445e64e",
+    "outcome.go": "77676389334d29cb8dbeef9626ad1208e934d69d7eeabe07f33268d23153390c",
+    "reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "stream.go": "4f09ea07f677ed6d62f16946c2e6a32a1b2aa2015b4d50c7156cffce71dfb70b",
+    "validation.go": "9ac9665953e0f98abf9278f7c5b778469f1680ba6aa404e90f0c13aa42e2518a",
+    "participation_test.go": "08a1cf6e016c35afa1a4e949fecb23f25c1e86869703a1e3deda2047d53145f6"
+  },
+  "再利用独立補助": {
+    "path": "work\\122独立検算\\独立検算する.py",
+    "sha256": "5ea22f01f1600ce266b602cca5e4ca518dc2560ada2e1249b06e0c5c9e26d5f4"
+  },
+  "人工検査": {
+    "go test -count=1 -v ./...": "主10件成功（F1前独立実行）",
+    "go vet ./...": "成功（F1前独立実行）"
+  },
+  "結果": "全73場取得達成。主125pt/H60の精度未達。",
+  "新金融再生": false,
+  "新Raw/Input/実CSV読取": false,
+  "限界": "Raw最初性と全指標の再形成は再証明しない。CSV実体はRoot別検査。期限観測はIFD/追尾決済/口座損益ではない。"
+}

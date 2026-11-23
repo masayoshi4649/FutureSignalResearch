@@ -1,0 +1,205 @@
+{
+  "成功": true,
+  "勝敗使用": false,
+  "新正逆結果読取": false,
+  "T1": {
+    "全例action": {
+      "keep": 79
+    },
+    "gate別": {
+      "background_direction": {
+        "None": 22,
+        "0": 19,
+        "1": 23,
+        "-1": 15
+      },
+      "background_momentum_volume": {
+        "False": 46,
+        "None": 22,
+        "True": 11
+      },
+      "confirmed_recovery": {
+        "False": 74,
+        "True": 3,
+        "None": 2
+      }
+    },
+    "モード別": {
+      "E0": {
+        "件数": 9,
+        "action": {
+          "keep": 9
+        }
+      },
+      "trend": {
+        "件数": 31,
+        "action": {
+          "keep": 31
+        }
+      },
+      "reversal": {
+        "件数": 1,
+        "action": {
+          "keep": 1
+        }
+      },
+      "deadline": {
+        "件数": 38,
+        "action": {
+          "keep": 38
+        }
+      }
+    }
+  },
+  "T2": {
+    "全例action": {
+      "keep": 79
+    },
+    "gate別": {
+      "extended_at_least_1atr": {
+        "False": 36,
+        "True": 43
+      },
+      "rsi_side_center_at_least_15": {
+        "False": 65,
+        "True": 14
+      },
+      "rsi_delta_waning": {
+        "False": 70,
+        "True": 9
+      },
+      "hist_delta_waning": {
+        "True": 13,
+        "False": 65,
+        "None": 1
+      },
+      "candle_rejection": {
+        "True": 35,
+        "False": 43,
+        "None": 1
+      },
+      "current_last_not_above_close_in_original_side": {
+        "False": 35,
+        "True": 44
+      },
+      "adx_falling_5_or_30": {
+        "True": 56,
+        "None": 11,
+        "False": 12
+      },
+      "volume_ge_1": {
+        "False": 38,
+        "True": 39,
+        "None": 2
+      }
+    },
+    "モード別": {
+      "E0": {
+        "件数": 9,
+        "action": {
+          "keep": 9
+        }
+      },
+      "trend": {
+        "件数": 31,
+        "action": {
+          "keep": 31
+        }
+      },
+      "reversal": {
+        "件数": 1,
+        "action": {
+          "keep": 1
+        }
+      },
+      "deadline": {
+        "件数": 38,
+        "action": {
+          "keep": 38
+        }
+      }
+    }
+  },
+  "T3": {
+    "全例action": {
+      "keep": 78,
+      "flip": 1
+    },
+    "gate別": {
+      "extended_at_least_1atr": {
+        "False": 36,
+        "True": 43
+      },
+      "current_last_not_above_close_in_original_side": {
+        "False": 35,
+        "True": 44
+      },
+      "rsi_delta_waning": {
+        "False": 70,
+        "True": 9
+      },
+      "hist_delta_waning": {
+        "True": 13,
+        "False": 65,
+        "None": 1
+      },
+      "candle_rejection": {
+        "True": 35,
+        "False": 43,
+        "None": 1
+      },
+      "two_or_more": {
+        "True": 13,
+        "False": 66
+      },
+      "known_pass_count": {
+        "2": 10,
+        "0": 38,
+        "1": 28,
+        "3": 3
+      },
+      "unknown_count": {
+        "0": 77,
+        "1": 2
+      }
+    },
+    "モード別": {
+      "E0": {
+        "keep": 9
+      },
+      "trend": {
+        "keep": 31
+      },
+      "reversal": {
+        "keep": 1
+      },
+      "deadline": {
+        "keep": 37,
+        "flip": 1
+      }
+    }
+  },
+  "構造的な制約": [
+    "通常trend入口は元向きHist>0、RSI中心>=0、M>0を要求する。RSIΔとHistΔが両方逆なら4票のMは最大0となり、同じ票でT2には入れない。",
+    "通常reversal入口は元向きRSIΔ/HistΔ両方>0を要求するため、同じ票の両方<0を求めるT2は成立しない。",
+    "T1の上位整合と勢い・量が成立しても、元向きが既に同じならkeepとなる。条件成立数とflip数を区別する。",
+    "T3は失速2項又は失速1項＋拒否であり、通常trendとの論理的排他を緩める追加探索。元条件T1/T2は変更しない。"
+  ],
+  "前SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\全79例の当時特徴.json": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.md": "2d4d816fdd5c38c5800db214fc677f800eecf57b9cdba0537277b99892ad247a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.json": "a639902cf761a4517a5e946cefc93f81b30c815c7f3be5bd96da7af57277d7a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3追加仕様.md": "4adba7af0f5412cfa691a92aaa9da30643c60b7af25cdb78938a029f9fb72d6e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3を追加する.py": "1d681adb5ca5989983b1c0d38b6aebc41f9e8ab6b519884bc98f67e801b016d3"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\全79例の当時特徴.json": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.md": "2d4d816fdd5c38c5800db214fc677f800eecf57b9cdba0537277b99892ad247a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.json": "a639902cf761a4517a5e946cefc93f81b30c815c7f3be5bd96da7af57277d7a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3追加仕様.md": "4adba7af0f5412cfa691a92aaa9da30643c60b7af25cdb78938a029f9fb72d6e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\T3を追加する.py": "1d681adb5ca5989983b1c0d38b6aebc41f9e8ab6b519884bc98f67e801b016d3"
+  },
+  "前後不変": true,
+  "T3choicesSHA256": "656072b82b66564473d81aa96d4fe7dbc04ed97cfac982edc0d3b206baff7382",
+  "人工検査": "反射鏡像/価格と時点境界/未知/既知0/2成立なら残る未知を許容/79票の符号鏡像"
+}

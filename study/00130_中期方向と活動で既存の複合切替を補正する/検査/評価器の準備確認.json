@@ -1,0 +1,36 @@
+{
+  "成功": true,
+  "試行": 130,
+  "状態": "金融前準備完了",
+  "自然Source124outcomes読取": false,
+  "自然金融評価": false,
+  "原板読取": false,
+  "人工主検査数": 8,
+  "検査command": [
+    "python",
+    "-X",
+    "utf8",
+    "人工検査.py"
+  ],
+  "検査exit_code": 0,
+  "人工内容": [
+    "300/79/73と全入力不変",
+    "実正逆spread/T8既知ペア差",
+    "不足touch既知/未知/空場",
+    "Last金額null",
+    "全原逆BBO/Lastとentry/touch/endpoint境界等号拒否",
+    "全票/方向改変拒否",
+    "価格売買鏡像",
+    "F1未指定の自然読取前拒否"
+  ],
+  "既存算術コードSHA256": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a",
+  "choices期待SHA256": "93c204569d7a9828708d3891d984551784961138534c3cbde80759b602b24a9e",
+  "コード仕様SHA256": {
+    "条件.md": "4d75c2c2225084e37ded19509f3906ac038c79d83953441f15b4ed40007507c2",
+    "評価する.py": "8ad4b1ec47ae58d9bd1040719eff45d7fdb5121f2b49cb4050afb13ea32dee93",
+    "人工検査.py": "d34b636b0ce608245a44eeda35c1568912e22aa0fa6c90eb33f65cbada5d97ee",
+    "README.md": "8571211b1e2d062b4bd38ede79b89df5246f5d8b330cd9a59fc4d0e92cf7a27e"
+  },
+  "金融時assert": "O0/B0/T8の全180条件・既報T8全体値、全5政策/両軸/両H/全幅のphase未満",
+  "金融実行": "RootのF1固定後のみ、まだ未実行"
+}

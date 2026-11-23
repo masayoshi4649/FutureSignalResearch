@@ -1,0 +1,25 @@
+{
+  "成功": true,
+  "試行": 125,
+  "自然金融結果未読": true,
+  "人工のみ": true,
+  "主検査数": 4,
+  "境界鏡像検査数": 166,
+  "command": [
+    "python",
+    "work\\125足の実体と反転切替\\人工検査.py"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_actual_side_touch_before_censor_and_last_nil (__main__.Artificial125.test_actual_side_touch_before_censor_and_last_nil)\n機能: 実方向選択・spread双方損失・既知touch優先・Last金額nilを検査する。 ... ok\ntest_all_tables_and_bootstrap (__main__.Artificial125.test_all_tables_and_bootstrap)\n機能: 80/79/73表と全73場bootstrapの接続を検査する。 ... ok\ntest_boundaries (__main__.Artificial125.test_boundaries)\n機能: 選択関数の境界・未知・鏡像を検査する。 ... ok\ntest_deepcopy_and_all_scenes (__main__.Artificial125.test_deepcopy_and_all_scenes)\n機能: 全79/73対応と原特徴不変を検査する。 ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.227s\n\nOK\n",
+  "入力とコード指紋前後不変": {
+    "work\\125足の実体と反転切替\\条件.md": "73e64c419fd643a25683f1b1dbae0f34a796ae7880c6c7b786e9e86fd1d729ad",
+    "work\\125足の実体と反転切替\\choicesを作る.py": "53515cac1da2017ab8aa4e6652a8c33db5286ea3cb6988ea5916de4043342fb7",
+    "work\\125足の実体と反転切替\\choices.json": "16577b438f2de650c4398b313c2212fa124e812aea278e4dc00c529ffcb4c0a3",
+    "work\\125足の実体と反転切替\\選択票生成の確認.json": "3897d5137e5eefb8f3d9ed8d828a87e930d89f586f49abda8fd37ca0e7b04eb8",
+    "work\\125足の実体と反転切替\\評価する.py": "30507c42e4d2808c3ce1b1c79394d966ff615b8940a6fec2e2e36ebac19e9d36",
+    "work\\125足の実体と反転切替\\人工検査.py": "bf56627d97ed889fc604554ff7d26c554c450f9790d0fffd53e7d00310caf196",
+    "work\\124入口の原因分析\\集計する.py": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a"
+  },
+  "金融評価未実行": true
+}

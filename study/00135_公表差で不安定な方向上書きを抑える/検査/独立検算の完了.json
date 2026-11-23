@@ -1,0 +1,48 @@
+{
+  "成功": true,
+  "試行": 135,
+  "確認日時": "2026-11-12T00:24:15.794878+09:00",
+  "編集停止": true,
+  "主証跡SHA256": "21d753c1ee5f836ae1baa89b4253dd749a98cfb65908d69ec9e43d91d8c4a7ba",
+  "全360条件一致": true,
+  "旧120条件同体": true,
+  "全表19809セル一致": true,
+  "全73場79例保持": true,
+  "全選択streamのphase一致": true,
+  "人工検査": {
+    "実行": "python work/135独立検算/人工検査.py",
+    "主検査数": 4,
+    "成功": true,
+    "対象": [
+      "後のH不足より既知touch優先",
+      "未知を0円にしない",
+      "77/1077円とLast金額None",
+      "実BBO正逆双方損失"
+    ]
+  },
+  "原典SHA前後同体": true,
+  "原板再読": false,
+  "Root又は124金融算術のimport": false,
+  "bootstrap再実装": false,
+  "実CSV再読又は描画": false,
+  "既定条件変更": false,
+  "正式資料変更": false,
+  "固定ファイル": {
+    "検算する.py": {
+      "bytes": 24968,
+      "sha256": "a679af8d01cbda246cba3cdfa5c1ca1917a6f9be3225e935c275dc298bd6ab5d"
+    },
+    "人工検査.py": {
+      "bytes": 4476,
+      "sha256": "a49055f27501c4fe7064b634ab4ef4390dc7b5d697f0ed4623035dad6484bbe4"
+    },
+    "独立確認.json": {
+      "bytes": 9828,
+      "sha256": "21d753c1ee5f836ae1baa89b4253dd749a98cfb65908d69ec9e43d91d8c4a7ba"
+    },
+    "README.md": {
+      "bytes": 2522,
+      "sha256": "32957244c326cef0fdf794648b5008d76ce921cf8108de8d1fb63450997fa8bd"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "成功": true,
+  "試行": 139,
+  "学習場数": 48,
+  "学習全例": 433,
+  "学習追加例": 379,
+  "固定候補数": 28,
+  "u差とC5差が共に負": 27,
+  "40完了かつ10場を満たす候補数": 10,
+  "支持条件を満たすがu差とC5差が共に負": 10,
+  "唯一の両差正候補": {
+    "rule_id": "A3_B10",
+    "table_order": 27,
+    "matched_additional": 14,
+    "complete_pairs": 13,
+    "support_sessions": 9,
+    "utility_gain": 6,
+    "score": 3,
+    "cash_pairs": 14,
+    "net5_pair_gain": 121000,
+    "gain_without_best_session": 3,
+    "gates": {
+      "40両側H完了": false,
+      "10場以上": false,
+      "gain罰則後正": true,
+      "C5両側既知差正": true,
+      "最良1場除外gain正": true
+    },
+    "eligible": false
+  },
+  "選定規則": null,
+  "固定報告から確認できること": "支持不足だけではなく、支持のある全10規則でも当該ANDの反転は悪化した",
+  "固定報告だけでは確定できないこと": "各悪化例が持続トレンド、短い押戻し、価格時計差のどれだったかという個別原因",
+  "後25を使う再選択": false,
+  "139変更又は再学習": false,
+  "原板又はCSV又は追加2場読取": false,
+  "新候補の抽出又は金融計算": false,
+  "出典": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\139複合方向切替\\前48の選定報告.json",
+    "sha256": "9b07cddb8629db72e244e57eb3944b59b4cbc5d81ca5bb84357788e8e54eabd9"
+  },
+  "コードSHA256": "5d707d55e9a3b580218de8f34e49318ed0891bc985d00d20e0a505f6e174060e"
+}

@@ -1,0 +1,120 @@
+{
+  "成功": true,
+  "試行": 133,
+  "段階": "固定取得kernelの自然入力前の独立準備レビュー",
+  "UTC": "2026-11-11T13:27:27.040896+00:00",
+  "Root準備SHA256": "34ff92b612108c498344a46cd45ca9a2691d4c2c88c31befd1b3057be9ea7d48",
+  "同体照合": {
+    "reader.go": {
+      "名前とphase guard以外のテキスト一致": true,
+      "元bytesSHA256": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+      "新bytesSHA256": "817ec44405214d58369522341cae03ebe325ca48d440b6494b7ce868613d9a49",
+      "注記": "比較時はUTF8改行を正規化。reader/typesは改行以外の本文が全文一致"
+    },
+    "types.go": {
+      "名前とphase guard以外のテキスト一致": true,
+      "元bytesSHA256": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+      "新bytesSHA256": "2675f5861fbe4c12a5f171a76b60f4467caf9b2b14d6d6ed3a2340b1609aed3d",
+      "注記": "比較時はUTF8改行を正規化。reader/typesは改行以外の本文が全文一致"
+    },
+    "stream.go": {
+      "名前とphase guard以外のテキスト一致": true,
+      "元bytesSHA256": "554847e30c8451103cbadcbc70e7e3d5a196dd6c5f99f74aede4a4579da0d503",
+      "新bytesSHA256": "4b2ea61493ab2de65ed83fb6af8d6dc852ebaede4c5df9932ead48d8c75aff49",
+      "注記": "比較時はUTF8改行を正規化。reader/typesは改行以外の本文が全文一致"
+    },
+    "outcome.go": {
+      "名前とphase guard以外のテキスト一致": true,
+      "元bytesSHA256": "c54ae82559394207ee9fbfd6df3464739d70a48886a6f0081b0fa673f9d96ee4",
+      "新bytesSHA256": "90e378e1816d7a7cd92ba09ad8e129ff17c4a12338e06fa7eb0b5a0464727487",
+      "注記": "比較時はUTF8改行を正規化。reader/typesは改行以外の本文が全文一致"
+    },
+    "chart_outcome.go": {
+      "名前とphase guard以外のテキスト一致": true,
+      "元bytesSHA256": "abde77e2d1e678f6a956581d58d8bdd19a1307333f7e2e49664a03cbe574596f",
+      "新bytesSHA256": "e42731522a01a99418c028ee1e5c0643c237c8c94ca1ced938ca2ec2cfa84637",
+      "注記": "比較時はUTF8改行を正規化。reader/typesは改行以外の本文が全文一致"
+    }
+  },
+  "名前以外不変の関数": [
+    "fixedCandidate124",
+    "fixedCase124",
+    "candidates124",
+    "stepCase124",
+    "finalize124",
+    "validSHA124"
+  ],
+  "人工成功": [
+    "TestFixedClockPricesAndSpread133",
+    "TestDeadlineKernelAndChartMoney133",
+    "TestGapAndNormalQuoteParity133",
+    "TestExactRawJoinAndFingerprint133",
+    "TestPhaseBoundary133",
+    "TestKnownTouchBeforePhase133",
+    "TestCompleteBeforePhase133",
+    "TestLatestEntryBoundary133",
+    "TestReview133VariableCountAndEmptyScenes",
+    "TestReview133BothEntryLimits",
+    "TestReview133PhasePriorityAndMixedCompletion"
+  ],
+  "人工": {
+    "command": [
+      "go",
+      "test",
+      "-count=1",
+      "-json",
+      "-overlay=S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\133固定取得kernelの独立準備レビュー\\overlay.json",
+      "./..."
+    ],
+    "returncode": 0,
+    "stdout": "{\"Time\":\"2026-11-11T22:27:24.7340062+09:00\",\"Action\":\"start\",\"Package\":\"entryexperiment133\"}\n{\"Time\":\"2026-11-11T22:27:24.7340062+09:00\",\"Action\":\"start\",\"Package\":\"entryexperiment133/cmd/run\"}\n{\"Time\":\"2026-11-11T22:27:24.7340062+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133/cmd/run\",\"Output\":\"?   \\tentryexperiment133/cmd/run\\t[no test files]\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7340062+09:00\",\"Action\":\"skip\",\"Package\":\"entryexperiment133/cmd/run\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7470621+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\",\"Output\":\"=== RUN   TestFixedClockPricesAndSpread133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\",\"Output\":\"--- PASS: TestFixedClockPricesAndSpread133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestFixedClockPricesAndSpread133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\",\"Output\":\"=== RUN   TestDeadlineKernelAndChartMoney133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\",\"Output\":\"--- PASS: TestDeadlineKernelAndChartMoney133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestDeadlineKernelAndChartMoney133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\",\"Output\":\"=== RUN   TestGapAndNormalQuoteParity133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\",\"Output\":\"--- PASS: TestGapAndNormalQuoteParity133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestGapAndNormalQuoteParity133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\"}\n{\"Time\":\"2026-11-11T22:27:24.7475829+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\",\"Output\":\"=== RUN   TestExactRawJoinAndFingerprint133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\",\"Output\":\"--- PASS: TestExactRawJoinAndFingerprint133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestExactRawJoinAndFingerprint133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\",\"Output\":\"=== RUN   TestPhaseBoundary133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\",\"Output\":\"--- PASS: TestPhaseBoundary133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestPhaseBoundary133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\",\"Output\":\"=== RUN   TestKnownTouchBeforePhase133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\",\"Output\":\"--- PASS: TestKnownTouchBeforePhase133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestKnownTouchBeforePhase133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\",\"Output\":\"=== RUN   TestCompleteBeforePhase133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\",\"Output\":\"--- PASS: TestCompleteBeforePhase133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestCompleteBeforePhase133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\"}\n{\"Time\":\"2026-11-11T22:27:24.7517655+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\",\"Output\":\"=== RUN   TestLatestEntryBoundary133\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\",\"Output\":\"--- PASS: TestLatestEntryBoundary133 (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestLatestEntryBoundary133\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133VariableCountAndEmptyScenes\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133VariableCountAndEmptyScenes\",\"Output\":\"=== RUN   TestReview133VariableCountAndEmptyScenes\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133VariableCountAndEmptyScenes\",\"Output\":\"--- PASS: TestReview133VariableCountAndEmptyScenes (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133VariableCountAndEmptyScenes\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133BothEntryLimits\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133BothEntryLimits\",\"Output\":\"=== RUN   TestReview133BothEntryLimits\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133BothEntryLimits\",\"Output\":\"--- PASS: TestReview133BothEntryLimits (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133BothEntryLimits\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"run\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133PhasePriorityAndMixedCompletion\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133PhasePriorityAndMixedCompletion\",\"Output\":\"=== RUN   TestReview133PhasePriorityAndMixedCompletion\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133PhasePriorityAndMixedCompletion\",\"Output\":\"--- PASS: TestReview133PhasePriorityAndMixedCompletion (0.00s)\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Test\":\"TestReview133PhasePriorityAndMixedCompletion\",\"Elapsed\":0}\n{\"Time\":\"2026-11-11T22:27:24.7533217+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Output\":\"PASS\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7731182+09:00\",\"Action\":\"output\",\"Package\":\"entryexperiment133\",\"Output\":\"ok  \\tentryexperiment133\\t0.039s\\n\"}\n{\"Time\":\"2026-11-11T22:27:24.7731182+09:00\",\"Action\":\"pass\",\"Package\":\"entryexperiment133\",\"Elapsed\":0.039}\n",
+    "stderr": ""
+  },
+  "vet": {
+    "command": [
+      "go",
+      "vet",
+      "-overlay=S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\133固定取得kernelの独立準備レビュー\\overlay.json",
+      "./..."
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "全コード仕様実行物の前後SHA256": {
+    "work\\133固定取得の正逆評価器\\chart_outcome.go": "e42731522a01a99418c028ee1e5c0643c237c8c94ca1ced938ca2ec2cfa84637",
+    "work\\133固定取得の正逆評価器\\cmd\\run\\main.go": "1035b608ba2ec49eb761d6d4117014463b5cd4a42f71dfb1c64ae20248775ee5",
+    "work\\133固定取得の正逆評価器\\entry.go": "f1963e47f0efc34541d54a45c34dffc4f7dd757e0ff16717a7975bfd7482486a",
+    "work\\133固定取得の正逆評価器\\entry_test.go": "f25f42cc835e44dfb56f7d981b2ad2c70cc303e3b2db1841bd086f0a77ebaf85",
+    "work\\133固定取得の正逆評価器\\go.mod": "93d0e423e58ac17da2f3f8f9950b9f37ee6bd0e7de31d5fe15ffdfc14865fcdb",
+    "work\\133固定取得の正逆評価器\\outcome.go": "90e378e1816d7a7cd92ba09ad8e129ff17c4a12338e06fa7eb0b5a0464727487",
+    "work\\133固定取得の正逆評価器\\phase.go": "5e6136b749036ca16b3d9a0cc348cae8f414495b00862dd7fc4502990593022a",
+    "work\\133固定取得の正逆評価器\\phase_test.go": "c67071d5990eb93df200d87d6e723c6e2c431abd79545575bc354f5ebdffdbea",
+    "work\\133固定取得の正逆評価器\\reader.go": "817ec44405214d58369522341cae03ebe325ca48d440b6494b7ce868613d9a49",
+    "work\\133固定取得の正逆評価器\\README.md": "a5beba49c5d6f5865c55696ac5f402a306daeda03a817c30aa52cd0faaaa4052",
+    "work\\133固定取得の正逆評価器\\stream.go": "4b2ea61493ab2de65ed83fb6af8d6dc852ebaede4c5df9932ead48d8c75aff49",
+    "work\\133固定取得の正逆評価器\\types.go": "2675f5861fbe4c12a5f171a76b60f4467caf9b2b14d6d6ed3a2340b1609aed3d",
+    "work\\133固定取得の正逆評価器\\固定取得の正逆評価.exe": "033cf22a052e985bc61aa020a04fa6d499119051aaa39bb2adb715a4af1e7736",
+    "work\\133固定取得の正逆評価器\\準備の確認.json": "34ff92b612108c498344a46cd45ca9a2691d4c2c88c31befd1b3057be9ea7d48",
+    "work\\133固定取得の正逆評価器\\準備を確認する.py": "2ab4d2c35bb7c1dc96640746a0749cdcdd7fbba357136452b9a50c111a4356c6"
+  },
+  "前後不変": true,
+  "追加人工": {
+    "方式": "Go overlay。元kernelに物理ファイルを追加しない",
+    "件数": 3,
+    "SHA256": "f9685bb696b4e4a29f99b92ef004dfab7f00011ca9abe2ec70d5e7629371b5f1"
+  },
+  "確認範囲": [
+    "期待取得総数を1/2に変更して正しく受理し不一致拒否、0取得場を含む全73場保持",
+    "Source force_closeとEnd−3900の小さい側の等号拒否、直前受理",
+    "BBO/Last両方でphaseを価格/gapより先に適用、H30完了とH60既知touchを保持",
+    "元の価格/費用/欠測算術、SHA/stat/全Raw行品質の走査とCLI引数をコード確認"
+  ],
+  "build確認": "Root保存exeのSHAとRoot成功証跡へ一致。独立Go testはcmd/runもコンパイル。重複exeを生成しない",
+  "自然Raw読取": false,
+  "Stage1結果又は自然金融結果読取": false,
+  "Rootコード変更": false,
+  "限界": "L0/L1の自然cohort・全73場取得の成立・実ラベル/損益・真の受信時計/実IFDは未検証",
+  "重大な未解決": [],
+  "検査コードSHA256": "d0de4ec717eba591a2ca692340d7134578ed90911b3b375bef17ace32e2ade70"
+}

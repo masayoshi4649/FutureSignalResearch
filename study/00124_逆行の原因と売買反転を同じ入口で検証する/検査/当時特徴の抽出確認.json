@@ -1,0 +1,435 @@
+{
+  "成功": true,
+  "試行": 124,
+  "前SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\123全場参加の入口比較\\全73場の入口結果.json": "9823c9b3f257d97462f295e696b649d41a10ea538dd816490d70e60b34c4146f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入力\\入力.json": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.json": "a639902cf761a4517a5e946cefc93f81b30c815c7f3be5bd96da7af57277d7a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.md": "2d4d816fdd5c38c5800db214fc677f800eecf57b9cdba0537277b99892ad247a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\特徴を抽出する.py": "72f6057fec6c1d348fb4839df3b89ab506da25e85f7e5149b64dc56c7b478504"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\123全場参加の入口比較\\全73場の入口結果.json": "9823c9b3f257d97462f295e696b649d41a10ea538dd816490d70e60b34c4146f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入力\\入力.json": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.json": "a639902cf761a4517a5e946cefc93f81b30c815c7f3be5bd96da7af57277d7a1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\事前区分.md": "2d4d816fdd5c38c5800db214fc677f800eecf57b9cdba0537277b99892ad247a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\124当時特徴の診断\\特徴を抽出する.py": "72f6057fec6c1d348fb4839df3b89ab506da25e85f7e5149b64dc56c7b478504"
+  },
+  "前後不変": true,
+  "当時特徴SHA256": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+  "行数": 79,
+  "場数": 73,
+  "検査数": {
+    "全項目参照結合": 232,
+    "保存方向成分照合": 820,
+    "保存5分技術照合": 490,
+    "構造参照結合": 206,
+    "保存E0技術照合": 90
+  },
+  "モード別": {
+    "deadline": 38,
+    "trend": 31,
+    "E0": 9,
+    "reversal": 1
+  },
+  "特徴別既知数": {
+    "ema8_5": 79,
+    "ema21_5": 79,
+    "gap_5": 79,
+    "ema8_delta_5": 79,
+    "ema21_delta_5": 79,
+    "atr_5": 79,
+    "previous_atr_5": 79,
+    "tr_5": 79,
+    "rsi_5": 79,
+    "previous_rsi_5": 79,
+    "hist_5": 79,
+    "previous_hist_5": 78,
+    "plus_di_5": 79,
+    "minus_di_5": 79,
+    "adx_5": 79,
+    "previous_adx_5": 79,
+    "rsi_delta_5": 79,
+    "hist_delta_5": 78,
+    "adx_delta_5": 79,
+    "di_delta_5": 79,
+    "rsi_center_signed_5": 79,
+    "gap_signed_5": 79,
+    "gap_atr_signed_5": 79,
+    "ema8_delta_signed_5": 79,
+    "ema8_delta_atr_signed_5": 79,
+    "ema21_delta_signed_5": 79,
+    "ema21_delta_atr_signed_5": 79,
+    "di_delta_signed_5": 79,
+    "di_delta_atr_signed_5": 79,
+    "rsi_delta_signed_5": 79,
+    "rsi_delta_atr_signed_5": 79,
+    "hist_signed_5": 79,
+    "hist_atr_signed_5": 79,
+    "hist_delta_signed_5": 78,
+    "hist_delta_atr_signed_5": 78,
+    "last_ema8_signed_5": 79,
+    "last_ema8_atr_signed_5": 79,
+    "last_ema21_signed_5": 79,
+    "last_ema21_atr_signed_5": 79,
+    "tr_previous_atr_ratio_5": 79,
+    "trend_known_count_5": 79,
+    "trend_support_count_5": 79,
+    "trend_opposite_count_5": 79,
+    "trend_neutral_count_5": 79,
+    "trend_T_5": 79,
+    "ma_direction_5": 79,
+    "four_vote_direction_5": 79,
+    "ema8_15": 77,
+    "ema21_15": 67,
+    "gap_15": 67,
+    "ema8_delta_15": 77,
+    "ema21_delta_15": 67,
+    "atr_15": 68,
+    "previous_atr_15": 68,
+    "tr_15": 77,
+    "rsi_15": 68,
+    "previous_rsi_15": 67,
+    "hist_15": 67,
+    "previous_hist_15": 66,
+    "plus_di_15": 68,
+    "minus_di_15": 68,
+    "adx_15": 67,
+    "previous_adx_15": 67,
+    "rsi_delta_15": 67,
+    "hist_delta_15": 66,
+    "adx_delta_15": 67,
+    "di_delta_15": 68,
+    "rsi_center_signed_15": 68,
+    "gap_signed_15": 67,
+    "gap_atr_signed_15": 67,
+    "ema8_delta_signed_15": 77,
+    "ema8_delta_atr_signed_15": 68,
+    "ema21_delta_signed_15": 67,
+    "ema21_delta_atr_signed_15": 67,
+    "di_delta_signed_15": 68,
+    "di_delta_atr_signed_15": 68,
+    "rsi_delta_signed_15": 67,
+    "rsi_delta_atr_signed_15": 67,
+    "hist_signed_15": 67,
+    "hist_atr_signed_15": 67,
+    "hist_delta_signed_15": 66,
+    "hist_delta_atr_signed_15": 66,
+    "last_ema8_signed_15": 77,
+    "last_ema8_atr_signed_15": 68,
+    "last_ema21_signed_15": 67,
+    "last_ema21_atr_signed_15": 67,
+    "tr_previous_atr_ratio_15": 68,
+    "trend_known_count_15": 79,
+    "trend_support_count_15": 79,
+    "trend_opposite_count_15": 79,
+    "trend_neutral_count_15": 79,
+    "trend_T_15": 77,
+    "ma_direction_15": 67,
+    "four_vote_direction_15": 67,
+    "ema8_30": 67,
+    "ema21_30": 58,
+    "gap_30": 58,
+    "ema8_delta_30": 67,
+    "ema21_delta_30": 58,
+    "atr_30": 67,
+    "previous_atr_30": 67,
+    "tr_30": 76,
+    "rsi_30": 67,
+    "previous_rsi_30": 67,
+    "hist_30": 57,
+    "previous_hist_30": 57,
+    "plus_di_30": 67,
+    "minus_di_30": 67,
+    "adx_30": 58,
+    "previous_adx_30": 58,
+    "rsi_delta_30": 67,
+    "hist_delta_30": 57,
+    "adx_delta_30": 58,
+    "di_delta_30": 67,
+    "rsi_center_signed_30": 67,
+    "gap_signed_30": 58,
+    "gap_atr_signed_30": 58,
+    "ema8_delta_signed_30": 67,
+    "ema8_delta_atr_signed_30": 67,
+    "ema21_delta_signed_30": 58,
+    "ema21_delta_atr_signed_30": 58,
+    "di_delta_signed_30": 67,
+    "di_delta_atr_signed_30": 67,
+    "rsi_delta_signed_30": 67,
+    "rsi_delta_atr_signed_30": 67,
+    "hist_signed_30": 57,
+    "hist_atr_signed_30": 57,
+    "hist_delta_signed_30": 57,
+    "hist_delta_atr_signed_30": 57,
+    "last_ema8_signed_30": 67,
+    "last_ema8_atr_signed_30": 67,
+    "last_ema21_signed_30": 58,
+    "last_ema21_atr_signed_30": 58,
+    "tr_previous_atr_ratio_30": 67,
+    "trend_known_count_30": 79,
+    "trend_support_count_30": 79,
+    "trend_opposite_count_30": 79,
+    "trend_neutral_count_30": 79,
+    "trend_T_30": 67,
+    "ma_direction_30": 58,
+    "four_vote_direction_30": 58,
+    "candle5_range": 79,
+    "candle5_range_atr5": 79,
+    "candle5_body_signed": 79,
+    "candle5_body_signed_ratio": 78,
+    "candle5_close_location_signed": 78,
+    "candle5_favorable_wick_ratio": 78,
+    "candle5_adverse_wick_ratio": 78,
+    "last_close_signed_5": 79,
+    "last_close_atr_signed_5": 79,
+    "birth_spread": 78,
+    "entry_spread": 79,
+    "entry_initial_liquidation_points": 79,
+    "birth_fill_delay_seconds": 79,
+    "entry_last_change_signed": 79,
+    "entry_price_from_birth_last_signed": 79,
+    "entry_price_from_entry_last_signed": 79,
+    "entry_price_from_c5_atr_signed": 79,
+    "elapsed_minutes": 79,
+    "birth_spread_over_width_25": 78,
+    "entry_spread_over_width_25": 79,
+    "birth_spread_over_width_50": 78,
+    "entry_spread_over_width_50": 79,
+    "birth_spread_over_width_100": 78,
+    "entry_spread_over_width_100": 79,
+    "birth_spread_over_width_125": 78,
+    "entry_spread_over_width_125": 79,
+    "birth_spread_over_width_200": 78,
+    "entry_spread_over_width_200": 79,
+    "rvol5": 77,
+    "source_candle_width": 79,
+    "source_candle_range": 79,
+    "source_candle_range_atr5": 79,
+    "source_candle_body_signed": 79,
+    "source_candle_body_signed_ratio": 78,
+    "source_candle_close_location_signed": 78,
+    "source_candle_favorable_wick_ratio": 78,
+    "source_candle_adverse_wick_ratio": 78,
+    "source_candle_age_seconds": 79,
+    "score": 70,
+    "prior3_high_5": 68,
+    "prior3_low_5": 68,
+    "prior3_range_atr5": 68
+  },
+  "区分別件数": {
+    "last_ema21_atr_signed_5": {
+      "[0.25,1)": 12,
+      "[-1,-0.25)": 4,
+      "[1,2)": 28,
+      "[2,inf)": 15,
+      "[-inf,-1)": 14,
+      "[-0.25,0.25)": 6
+    },
+    "last_ema8_atr_signed_5": {
+      "[0.25,1)": 22,
+      "[1,2)": 28,
+      "[-0.25,0.25)": 12,
+      "[-1,-0.25)": 10,
+      "[-inf,-1)": 6,
+      "[2,inf)": 1
+    },
+    "rsi_center_signed_5": {
+      "[-15,0)": 13,
+      "[0,15)": 44,
+      "[-20,-15)": 2,
+      "[-inf,-20)": 6,
+      "[15,20)": 9,
+      "[20,inf)": 5
+    },
+    "rsi_delta_signed_5": {
+      "[0,5)": 45,
+      "[5,10)": 18,
+      "[-5,0)": 9,
+      "zero": 7
+    },
+    "hist_atr_signed_5": {
+      "[0.1,inf)": 32,
+      "[0,0.1)": 19,
+      "[-inf,-0.1)": 22,
+      "[-0.1,0)": 6
+    },
+    "hist_delta_atr_signed_5": {
+      "[-0.1,0)": 13,
+      "[0,0.1)": 60,
+      "unknown": 1,
+      "[0.1,inf)": 5
+    },
+    "tr_previous_atr_ratio_5": {
+      "[0.5,1)": 30,
+      "[1,2)": 33,
+      "[-inf,0.5)": 16
+    },
+    "rvol5": {
+      "[-inf,0.5)": 28,
+      "[1,2)": 23,
+      "[2,inf)": 16,
+      "[0.5,1)": 10,
+      "unknown": 2
+    },
+    "candle5_body_signed_ratio": {
+      "[0.5,0.75)": 20,
+      "[0.75,inf)": 22,
+      "unknown": 1,
+      "[0,0.25)": 9,
+      "[0.25,0.5)": 11,
+      "zero": 6,
+      "[-0.25,0)": 5,
+      "[-0.5,-0.25)": 3,
+      "[-inf,-0.75)": 2
+    },
+    "candle5_close_location_signed": {
+      "[0.5,0.7)": 16,
+      "[0.7,inf)": 50,
+      "unknown": 1,
+      "[-inf,0.3)": 6,
+      "[0.3,0.5)": 4,
+      "zero": 2
+    },
+    "candle5_favorable_wick_ratio": {
+      "[0.25,0.5)": 18,
+      "zero": 25,
+      "unknown": 1,
+      "[-inf,0.25)": 24,
+      "[0.75,inf)": 2,
+      "[0.5,0.75)": 9
+    },
+    "candle5_adverse_wick_ratio": {
+      "zero": 29,
+      "[0.5,0.75)": 13,
+      "unknown": 1,
+      "[-inf,0.25)": 17,
+      "[0.25,0.5)": 14,
+      "[0.75,inf)": 5
+    },
+    "birth_spread": {
+      "[10,20)": 60,
+      "[20,25)": 18,
+      "unknown": 1
+    },
+    "entry_spread": {
+      "[10,20)": 66,
+      "[20,25)": 13
+    },
+    "birth_fill_delay_seconds": {
+      "[10,30)": 21,
+      "[5,10)": 9,
+      "[1,5)": 49
+    },
+    "entry_last_change_signed": {
+      "[10,25)": 22,
+      "[-25,-10)": 2,
+      "zero": 34,
+      "[-10,0)": 19,
+      "[25,inf)": 1,
+      "[-inf,-25)": 1
+    },
+    "entry_price_from_birth_last_signed": {
+      "[10,25)": 38,
+      "[-10,0)": 3,
+      "zero": 35,
+      "[25,inf)": 2,
+      "[-25,-10)": 1
+    },
+    "elapsed_minutes": {
+      "[180,240)": 38,
+      "[120,180)": 20,
+      "[60,120)": 8,
+      "[360,600)": 2,
+      "[30,60)": 8,
+      "[-inf,30)": 3
+    },
+    "entry_spread_over_width_25": {
+      "[0.4,1)": 79
+    },
+    "birth_spread_over_width_25": {
+      "[0.4,1)": 78,
+      "unknown": 1
+    },
+    "entry_spread_over_width_50": {
+      "[0.2,0.4)": 66,
+      "[0.4,1)": 13
+    },
+    "birth_spread_over_width_50": {
+      "[0.2,0.4)": 60,
+      "[0.4,1)": 18,
+      "unknown": 1
+    },
+    "entry_spread_over_width_100": {
+      "[0.1,0.2)": 66,
+      "[0.2,0.4)": 13
+    },
+    "birth_spread_over_width_100": {
+      "[0.1,0.2)": 60,
+      "[0.2,0.4)": 18,
+      "unknown": 1
+    },
+    "entry_spread_over_width_125": {
+      "[-inf,0.1)": 66,
+      "[0.1,0.2)": 13
+    },
+    "birth_spread_over_width_125": {
+      "[-inf,0.1)": 60,
+      "[0.1,0.2)": 18,
+      "unknown": 1
+    },
+    "entry_spread_over_width_200": {
+      "[-inf,0.1)": 66,
+      "[0.1,0.2)": 13
+    },
+    "birth_spread_over_width_200": {
+      "[-inf,0.1)": 60,
+      "[0.1,0.2)": 18,
+      "unknown": 1
+    },
+    "ma_5_15_30_alignment": {
+      "partial_no_opposition": 18,
+      "partial_opposition": 4,
+      "mixed_or_neutral": 22,
+      "all_opposite": 10,
+      "all_support": 25
+    },
+    "four_vote_5_15_30_alignment": {
+      "partial_no_opposition": 18,
+      "partial_opposition": 4,
+      "mixed_or_neutral": 27,
+      "all_opposite": 8,
+      "all_support": 22
+    },
+    "strategy": {
+      "deadline": 38,
+      "trend": 31,
+      "E0": 9,
+      "reversal": 1
+    },
+    "daynight": {
+      "Day": 41,
+      "Night": 38
+    },
+    "side": {
+      "buy": 30,
+      "sell": 49
+    },
+    "source_candle_width": {
+      "300": 70,
+      "60": 9
+    }
+  },
+  "切替件数": {
+    "T1": {
+      "keep": 79
+    },
+    "T2": {
+      "keep": 79
+    }
+  },
+  "勝敗使用": false,
+  "新正逆結果読取": false,
+  "原板読取": false,
+  "元指標と条件の変更": false
+}

@@ -1,0 +1,46 @@
+{
+  "成功": true,
+  "試行": 134,
+  "F0_SHA256": "b4729dc22249fe7b8b54937c7b1ff0ce784d546c7e55d3ccf1fe84455628bc40",
+  "全固定源前後同体": true,
+  "Source版": 133,
+  "新金融未実行": true,
+  "結果": {
+    "instant": {
+      "Source_SHA256": "9137c2adb4aec58d7de37a5ca725b933b618ba0f72669477f6ebd265c92ead1e",
+      "取得数": 78,
+      "取得場数": 73,
+      "未取得場": [],
+      "実行列": [
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\強い入口の探索期限を延ばす次仮説\\Source入口の再生器\\Source入口.exe",
+        "--input",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\P3をRaw公表時計で再生成する準備\\即時のSource入力.json",
+        "--expected-sha",
+        "905cab946d67e368633585219fc9f4fa04efab639104dcecdc6a3d01d18eeb01",
+        "--output",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\134公表時計の評価\\instantのSource出生.json",
+        "--workers",
+        "8",
+        "--execute-after-f0"
+      ]
+    },
+    "delay": {
+      "Source_SHA256": "9aa496ff2e0d8a3ef238abf494c0a53b89d968cebbab1b12eec9cac9c21ce4b8",
+      "取得数": 78,
+      "取得場数": 73,
+      "未取得場": [],
+      "実行列": [
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\強い入口の探索期限を延ばす次仮説\\Source入口の再生器\\Source入口.exe",
+        "--input",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\P3をRaw公表時計で再生成する準備\\遅延60秒のSource入力.json",
+        "--expected-sha",
+        "8cc73c58fcf90968d177913bfdf66bdcacb3a98aa6ca1a787a35ad9301349139",
+        "--output",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\134公表時計の評価\\delayのSource出生.json",
+        "--workers",
+        "8",
+        "--execute-after-f0"
+      ]
+    }
+  }
+}

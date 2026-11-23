@@ -1,0 +1,836 @@
+{
+  "試行": 122,
+  "段階": "StageA後の事前pack",
+  "StageA_SHA256": "dc338f810f3426cb0bfa2dce455a4560da470f54915c1335b4b1656618b2d6a3",
+  "zip": {
+    "path": "122コード.zip",
+    "SHA256": "788e5646cb42ac6ea8420be48221f9ea8d147510122a31abb47eb1c57288a18a",
+    "bytes": 78532
+  },
+  "entries": [
+    {
+      "entry": "work/122入力を指紋化する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122入力を指紋化する.py",
+      "SHA256": "99e1c2dcc44e46956e3d6123344e6a3af24ec6896237b2226416ebd88bb5871f",
+      "bytes": 7644,
+      "CRC32": "fc7f377e"
+    },
+    {
+      "entry": "work/122全場CSV出力/CSVを独立再読する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場CSV出力/CSVを独立再読する.py",
+      "SHA256": "0825412bfffc77da4c62e7444f6cb594d76f2f86d1b0c87910db37c08339775b",
+      "bytes": 12855,
+      "CRC32": "d4c07cee"
+    },
+    {
+      "entry": "work/122全場CSV出力/README.md",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場CSV出力/README.md",
+      "SHA256": "efba86c580627ee645b33a71400b97d350e75bd3338341a9cf89531f64aecc93",
+      "bytes": 4856,
+      "CRC32": "9221ecac"
+    },
+    {
+      "entry": "work/122全場CSV出力/人工入力を作る.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場CSV出力/人工入力を作る.py",
+      "SHA256": "69eb243c79a97144bb80276cd4dc0dab19e96d5f277b8a0f33a1e171ca7b17a4",
+      "bytes": 3625,
+      "CRC32": "fbdc4ac7"
+    },
+    {
+      "entry": "work/122全場CSV出力/出力する.mjs",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場CSV出力/出力する.mjs",
+      "SHA256": "d3d232fd974041979bfcd812207295a5371c95a0e0b2b9f2a0db89f18ce047d8",
+      "bytes": 11232,
+      "CRC32": "48287cd1"
+    },
+    {
+      "entry": "work/122全場入口比較/README.md",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/README.md",
+      "SHA256": "b64c2f9dc43c5498ca7db6e027c422c83de32e4dedfdb8d053dc7fee84ad22a3",
+      "bytes": 3959,
+      "CRC32": "070688a1"
+    },
+    {
+      "entry": "work/122全場入口比較/cmd/run/main.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/cmd/run/main.go",
+      "SHA256": "f05be07a15f47d1413cf707eac5f2f740e4f44ac8d44137c40e8ce605ca2d61a",
+      "bytes": 569,
+      "CRC32": "007d7922"
+    },
+    {
+      "entry": "work/122全場入口比較/entry.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/entry.go",
+      "SHA256": "523d8a1a76868e3cd8885926ff8ad44c5201373f82dff02bd70783067678e2dc",
+      "bytes": 15145,
+      "CRC32": "61219f8a"
+    },
+    {
+      "entry": "work/122全場入口比較/entry_test.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/entry_test.go",
+      "SHA256": "ce5c3264e21ff19990d2326257c600dc19341420c0bd9db8c0293c47388f859c",
+      "bytes": 10037,
+      "CRC32": "039ab4c0"
+    },
+    {
+      "entry": "work/122全場入口比較/extension_test.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/extension_test.go",
+      "SHA256": "04566296412bc1169577fa80bc9ff49597b4c7b7366b9e51127ebd30a1236396",
+      "bytes": 10515,
+      "CRC32": "c96be7ec"
+    },
+    {
+      "entry": "work/122全場入口比較/go.mod",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/go.mod",
+      "SHA256": "772f291a0de13b423f9eceef411e4e529f0752d13a47b51fd52648e7434fdb93",
+      "bytes": 391,
+      "CRC32": "515b2d68"
+    },
+    {
+      "entry": "work/122全場入口比較/outcome.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/outcome.go",
+      "SHA256": "69634d57055fc335326d65496736127860df71c5127c6866398da9b15299d92a",
+      "bytes": 1634,
+      "CRC32": "e505a52a"
+    },
+    {
+      "entry": "work/122全場入口比較/reader.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/reader.go",
+      "SHA256": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+      "bytes": 14851,
+      "CRC32": "2251451c"
+    },
+    {
+      "entry": "work/122全場入口比較/stream.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/stream.go",
+      "SHA256": "b8fcb1b2b4b7564cccbdf3bff233886654a3ce0c730d30f398f345da7565ab71",
+      "bytes": 754,
+      "CRC32": "1da55d9a"
+    },
+    {
+      "entry": "work/122全場入口比較/types.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/types.go",
+      "SHA256": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+      "bytes": 6443,
+      "CRC32": "2e6eb680"
+    },
+    {
+      "entry": "work/122全場入口比較/validation.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/validation.go",
+      "SHA256": "8f9eb50b2576d9e8f3b837783717dfed1123a09741c7b5fc1d2796449713a904",
+      "bytes": 3362,
+      "CRC32": "bfa8e671"
+    },
+    {
+      "entry": "work/122全場入口比較/入力を結合する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/入力を結合する.py",
+      "SHA256": "279ff2fd41692893bf6bbdf33f821317cb1b7db6cb5e6f345b3787317bc292fc",
+      "bytes": 4318,
+      "CRC32": "ac65d551"
+    },
+    {
+      "entry": "work/122全場入口比較/実行する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/実行する.py",
+      "SHA256": "d730a7913057cf5f94c4c40dcf5f30b2a8258cf057f21b91f384ea657c7f9885",
+      "bytes": 2813,
+      "CRC32": "9dc29ff9"
+    },
+    {
+      "entry": "work/122全場入口比較/既知対照を確認する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/既知対照を確認する.py",
+      "SHA256": "25332513e68c099231c63a2fb521ea0a9b208799819516769573adb703db498f",
+      "bytes": 1877,
+      "CRC32": "6a1a6fcf"
+    },
+    {
+      "entry": "work/122全場入口比較/段階を固定する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/段階を固定する.py",
+      "SHA256": "fa88912351090e9e86cfa69f8504e0999b3564c52ab2b2336d70bbd482a6324c",
+      "bytes": 5808,
+      "CRC32": "322b316c"
+    },
+    {
+      "entry": "work/122全場入口比較/集計する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122全場入口比較/集計する.py",
+      "SHA256": "77da7f50545094181f354f7575478f13ed16463c8e74d288931b9182489dcb97",
+      "bytes": 15229,
+      "CRC32": "122137b2"
+    },
+    {
+      "entry": "work/122公表生成/cmd/run/main.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成/cmd/run/main.go",
+      "SHA256": "a7085ae03587f4fd6a8f77f5ed2069863fa4c126ca196a0e9c6e868a6cd0709a",
+      "bytes": 633,
+      "CRC32": "53ede9fb"
+    },
+    {
+      "entry": "work/122公表生成/export.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成/export.go",
+      "SHA256": "33a1150dcab8ca669bbc51c22485775ee51dc99342f1f41e5f89ac87b1903d04",
+      "bytes": 9730,
+      "CRC32": "af34c0a5"
+    },
+    {
+      "entry": "work/122公表生成/export_test.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成/export_test.go",
+      "SHA256": "b75fb6ca943fb68bac501db1460d163a696c8aaff5f3f7832906b1a668cc627c",
+      "bytes": 8141,
+      "CRC32": "82ccf62f"
+    },
+    {
+      "entry": "work/122公表生成/go.mod",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成/go.mod",
+      "SHA256": "e13e1195d52d6740c4e4f086af3b03dbc335e5cbb0fb69db011b8b5f44e5b7e5",
+      "bytes": 570,
+      "CRC32": "89fae989"
+    },
+    {
+      "entry": "work/122公表生成/plan.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成/plan.go",
+      "SHA256": "a7ddf960453b6368b98e5d09ce35517cd5050363da8485fe21e9301dc85f722f",
+      "bytes": 7054,
+      "CRC32": "f366304e"
+    },
+    {
+      "entry": "work/122公表生成/reader.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成/reader.go",
+      "SHA256": "ac54a50dfcb1374b7aac9ea4d1660f849dbc69500975727ecf8f81805712706d",
+      "bytes": 3473,
+      "CRC32": "0499b500"
+    },
+    {
+      "entry": "work/122公表生成/types.go",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成/types.go",
+      "SHA256": "7da5683335885d68bbef53196fa8e8969f76832d1c0b76318c5d72a5fd88414a",
+      "bytes": 5206,
+      "CRC32": "f5ee6c91"
+    },
+    {
+      "entry": "work/122公表生成の検討/公表生成経路.md",
+      "restore_root": "repository",
+      "restore_relative": "work/122公表生成の検討/公表生成経路.md",
+      "SHA256": "aaeddf42c277c80a3fcb39d72ae53e32cd0b91593abb39453feb8a6b4b068e6c",
+      "bytes": 6282,
+      "CRC32": "6f841250"
+    },
+    {
+      "entry": "work/122正式保存を準備する.py",
+      "restore_root": "repository",
+      "restore_relative": "work/122正式保存を準備する.py",
+      "SHA256": "002b36b283f58e1bb6ee676d92b03677eb342f64412576ac40deaa57966f6157",
+      "bytes": 8065,
+      "CRC32": "63d6b798"
+    }
+  ],
+  "external_entries": [
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/115三時間軸と方向性の公開/bank.go",
+      "SHA256": "78d82ff18b4abf5721a7948949f6dda72a58a4dd403651ae647cdd4431338b8f",
+      "bytes": 6392,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/115三時間軸と方向性の公開/bank.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/115三時間軸と方向性の公開/bank_test.go",
+      "SHA256": "6ab6eae67fb8cac451c568e4aa875bd60f6e9693e7bfa1d018eb2de1e4b8f91f",
+      "bytes": 15768,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/115三時間軸と方向性の公開/bank_test.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/115三時間軸と方向性の公開/export_test.go",
+      "SHA256": "413ddc5febd18eac454cfc6ec65c20e3d48162b6d575deb033c381b9a509bd89",
+      "bytes": 1748,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/115三時間軸と方向性の公開/export_test.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/115三時間軸と方向性の公開/go.mod",
+      "SHA256": "98e3b40f584c5d54e4945ddf923afabd8831d5823d7fe4fd75eb12df7e12b575",
+      "bytes": 248,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/115三時間軸と方向性の公開/go.mod"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/115三時間軸と方向性の公開/numeric.go",
+      "SHA256": "581970bc6f39a27397d462892c6a761e7715abe1c18a36690d262d64b74f0754",
+      "bytes": 5222,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/115三時間軸と方向性の公開/numeric.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/115三時間軸と方向性の公開/types.go",
+      "SHA256": "2fe96170517fbc2908a4bf413884edea9dc4b30fc653e422119599cb0d89ba98",
+      "bytes": 4508,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/115三時間軸と方向性の公開/types.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/118複数技法の入口条件/bank.go",
+      "SHA256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+      "bytes": 7897,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/118複数技法の入口条件/bank.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/118複数技法の入口条件/go.mod",
+      "SHA256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+      "bytes": 76,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/118複数技法の入口条件/go.mod"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/118複数技法の入口条件/rules.go",
+      "SHA256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+      "bytes": 8347,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/118複数技法の入口条件/rules.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/118複数技法の入口条件/rules_test.go",
+      "SHA256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+      "bytes": 8029,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/118複数技法の入口条件/rules_test.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/118複数技法の入口条件/types.go",
+      "SHA256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+      "bytes": 4220,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/118複数技法の入口条件/types.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/120入口の1分構造/detector.go",
+      "SHA256": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+      "bytes": 16847,
+      "archive": {
+        "path": "study/00120_1分構造と無効化距離で入口を作る/再現資料/120コード.zip",
+        "SHA256": "ac3c159fe9b9cffda8e8ed4260029e191577e9921537d982a973f6e454ced771"
+      },
+      "entry": "work/120入口の1分構造/detector.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/120入口の1分構造/detector_test.go",
+      "SHA256": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+      "bytes": 16724,
+      "archive": {
+        "path": "study/00120_1分構造と無効化距離で入口を作る/再現資料/120コード.zip",
+        "SHA256": "ac3c159fe9b9cffda8e8ed4260029e191577e9921537d982a973f6e454ced771"
+      },
+      "entry": "work/120入口の1分構造/detector_test.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/120入口の1分構造/go.mod",
+      "SHA256": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07",
+      "bytes": 260,
+      "archive": {
+        "path": "study/00120_1分構造と無効化距離で入口を作る/再現資料/120コード.zip",
+        "SHA256": "ac3c159fe9b9cffda8e8ed4260029e191577e9921537d982a973f6e454ced771"
+      },
+      "entry": "work/120入口の1分構造/go.mod"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/120入口の1分構造/types.go",
+      "SHA256": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708",
+      "bytes": 3982,
+      "archive": {
+        "path": "study/00120_1分構造と無効化距離で入口を作る/再現資料/120コード.zip",
+        "SHA256": "ac3c159fe9b9cffda8e8ed4260029e191577e9921537d982a973f6e454ced771"
+      },
+      "entry": "work/120入口の1分構造/types.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/121入口の反転切替/detector.go",
+      "SHA256": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4",
+      "bytes": 9852,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/121入口の反転切替/detector.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/121入口の反転切替/detector_test.go",
+      "SHA256": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90",
+      "bytes": 16883,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/121入口の反転切替/detector_test.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/121入口の反転切替/go.mod",
+      "SHA256": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b",
+      "bytes": 432,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/121入口の反転切替/go.mod"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/121入口の反転切替/policies.go",
+      "SHA256": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79",
+      "bytes": 9633,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/121入口の反転切替/policies.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/121入口の反転切替/types.go",
+      "SHA256": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2",
+      "bytes": 4031,
+      "archive": {
+        "path": "study/00121_失速と量で反転の入口を切り替える/再現資料/121コード.zip",
+        "SHA256": "e2d974a7d13202caa1435d4b5f52b12214c0d4fa7fbe6f66f04f4c477e973994"
+      },
+      "entry": "work/121入口の反転切替/types.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の公開器/bank.go",
+      "SHA256": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b",
+      "bytes": 13808,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の公開器/bank.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の公開器/bank_test.go",
+      "SHA256": "b1944823b58b1cc2d400b57b782ab7bfac990d109eafedcf7f6c8a89843a4db9",
+      "bytes": 22551,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の公開器/bank_test.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の公開器/go.mod",
+      "SHA256": "896325a90f15c6c403d442e0cff148b9a4407a2176f34970e27495dfe849a95f",
+      "bytes": 75,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の公開器/go.mod"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の公開器/numeric.go",
+      "SHA256": "f9da01f68ef8d1e63477acbbfb950854a99874d7ce23dca4140da6148bf2411b",
+      "bytes": 5100,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の公開器/numeric.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の公開器/pivot.go",
+      "SHA256": "ef9d799dc978d7689167ab9c29a9bad879fd999a9993063f852d8e9432ad3f59",
+      "bytes": 2405,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の公開器/pivot.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の公開器/types.go",
+      "SHA256": "00b9b15619358b0c8212a5dcf32c1d2fd37acc30c037bf0e0d05c800060bd2c9",
+      "bytes": 6426,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の公開器/types.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の市場入力口/candle.go",
+      "SHA256": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137",
+      "bytes": 5053,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の市場入力口/candle.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の市場入力口/candle_test.go",
+      "SHA256": "d10db77bd84897879a1254903a079d977752d7bbf6616986d3dc584b3715a13b",
+      "bytes": 3482,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の市場入力口/candle_test.go"
+    },
+    {
+      "restore_root": "repository",
+      "restore_relative": "work/三時間軸の市場入力口/go.mod",
+      "SHA256": "9354dc403283cd78a654637eeb4a24a1650a9a19923eae47641781ef5d82e33c",
+      "bytes": 252,
+      "archive": {
+        "path": "study/00115_三時間軸の方向性と局所構造で入口を分ける/再現資料/コードと実使用実行物.zip",
+        "SHA256": "d78ee4ea380dee717a8f9fb54546482f12f50769f9c85e01c1f51cf2ffcaeb28"
+      },
+      "entry": "復元/repository/work/三時間軸の市場入力口/go.mod"
+    }
+  ],
+  "StageAコード": [
+    {
+      "restore_relative": "work/115三時間軸と方向性の公開/bank.go",
+      "SHA256": "78d82ff18b4abf5721a7948949f6dda72a58a4dd403651ae647cdd4431338b8f",
+      "bytes": 6392
+    },
+    {
+      "restore_relative": "work/115三時間軸と方向性の公開/bank_test.go",
+      "SHA256": "6ab6eae67fb8cac451c568e4aa875bd60f6e9693e7bfa1d018eb2de1e4b8f91f",
+      "bytes": 15768
+    },
+    {
+      "restore_relative": "work/115三時間軸と方向性の公開/export_test.go",
+      "SHA256": "413ddc5febd18eac454cfc6ec65c20e3d48162b6d575deb033c381b9a509bd89",
+      "bytes": 1748
+    },
+    {
+      "restore_relative": "work/115三時間軸と方向性の公開/go.mod",
+      "SHA256": "98e3b40f584c5d54e4945ddf923afabd8831d5823d7fe4fd75eb12df7e12b575",
+      "bytes": 248
+    },
+    {
+      "restore_relative": "work/115三時間軸と方向性の公開/numeric.go",
+      "SHA256": "581970bc6f39a27397d462892c6a761e7715abe1c18a36690d262d64b74f0754",
+      "bytes": 5222
+    },
+    {
+      "restore_relative": "work/115三時間軸と方向性の公開/types.go",
+      "SHA256": "2fe96170517fbc2908a4bf413884edea9dc4b30fc653e422119599cb0d89ba98",
+      "bytes": 4508
+    },
+    {
+      "restore_relative": "work/118複数技法の入口条件/bank.go",
+      "SHA256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+      "bytes": 7897
+    },
+    {
+      "restore_relative": "work/118複数技法の入口条件/go.mod",
+      "SHA256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+      "bytes": 76
+    },
+    {
+      "restore_relative": "work/118複数技法の入口条件/rules.go",
+      "SHA256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+      "bytes": 8347
+    },
+    {
+      "restore_relative": "work/118複数技法の入口条件/rules_test.go",
+      "SHA256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+      "bytes": 8029
+    },
+    {
+      "restore_relative": "work/118複数技法の入口条件/types.go",
+      "SHA256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+      "bytes": 4220
+    },
+    {
+      "restore_relative": "work/120入口の1分構造/detector.go",
+      "SHA256": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+      "bytes": 16847
+    },
+    {
+      "restore_relative": "work/120入口の1分構造/detector_test.go",
+      "SHA256": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+      "bytes": 16724
+    },
+    {
+      "restore_relative": "work/120入口の1分構造/go.mod",
+      "SHA256": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07",
+      "bytes": 260
+    },
+    {
+      "restore_relative": "work/120入口の1分構造/types.go",
+      "SHA256": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708",
+      "bytes": 3982
+    },
+    {
+      "restore_relative": "work/121入口の反転切替/detector.go",
+      "SHA256": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4",
+      "bytes": 9852
+    },
+    {
+      "restore_relative": "work/121入口の反転切替/detector_test.go",
+      "SHA256": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90",
+      "bytes": 16883
+    },
+    {
+      "restore_relative": "work/121入口の反転切替/go.mod",
+      "SHA256": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b",
+      "bytes": 432
+    },
+    {
+      "restore_relative": "work/121入口の反転切替/policies.go",
+      "SHA256": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79",
+      "bytes": 9633
+    },
+    {
+      "restore_relative": "work/121入口の反転切替/types.go",
+      "SHA256": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2",
+      "bytes": 4031
+    },
+    {
+      "restore_relative": "work/122入力を指紋化する.py",
+      "SHA256": "99e1c2dcc44e46956e3d6123344e6a3af24ec6896237b2226416ebd88bb5871f",
+      "bytes": 7644
+    },
+    {
+      "restore_relative": "work/122全場入口比較/cmd/run/main.go",
+      "SHA256": "f05be07a15f47d1413cf707eac5f2f740e4f44ac8d44137c40e8ce605ca2d61a",
+      "bytes": 569
+    },
+    {
+      "restore_relative": "work/122全場入口比較/entry.go",
+      "SHA256": "523d8a1a76868e3cd8885926ff8ad44c5201373f82dff02bd70783067678e2dc",
+      "bytes": 15145
+    },
+    {
+      "restore_relative": "work/122全場入口比較/entry_test.go",
+      "SHA256": "ce5c3264e21ff19990d2326257c600dc19341420c0bd9db8c0293c47388f859c",
+      "bytes": 10037
+    },
+    {
+      "restore_relative": "work/122全場入口比較/extension_test.go",
+      "SHA256": "04566296412bc1169577fa80bc9ff49597b4c7b7366b9e51127ebd30a1236396",
+      "bytes": 10515
+    },
+    {
+      "restore_relative": "work/122全場入口比較/go.mod",
+      "SHA256": "772f291a0de13b423f9eceef411e4e529f0752d13a47b51fd52648e7434fdb93",
+      "bytes": 391
+    },
+    {
+      "restore_relative": "work/122全場入口比較/outcome.go",
+      "SHA256": "69634d57055fc335326d65496736127860df71c5127c6866398da9b15299d92a",
+      "bytes": 1634
+    },
+    {
+      "restore_relative": "work/122全場入口比較/reader.go",
+      "SHA256": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+      "bytes": 14851
+    },
+    {
+      "restore_relative": "work/122全場入口比較/stream.go",
+      "SHA256": "b8fcb1b2b4b7564cccbdf3bff233886654a3ce0c730d30f398f345da7565ab71",
+      "bytes": 754
+    },
+    {
+      "restore_relative": "work/122全場入口比較/types.go",
+      "SHA256": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+      "bytes": 6443
+    },
+    {
+      "restore_relative": "work/122全場入口比較/validation.go",
+      "SHA256": "8f9eb50b2576d9e8f3b837783717dfed1123a09741c7b5fc1d2796449713a904",
+      "bytes": 3362
+    },
+    {
+      "restore_relative": "work/122全場入口比較/入力を結合する.py",
+      "SHA256": "279ff2fd41692893bf6bbdf33f821317cb1b7db6cb5e6f345b3787317bc292fc",
+      "bytes": 4318
+    },
+    {
+      "restore_relative": "work/122全場入口比較/実行する.py",
+      "SHA256": "d730a7913057cf5f94c4c40dcf5f30b2a8258cf057f21b91f384ea657c7f9885",
+      "bytes": 2813
+    },
+    {
+      "restore_relative": "work/122全場入口比較/既知対照を確認する.py",
+      "SHA256": "25332513e68c099231c63a2fb521ea0a9b208799819516769573adb703db498f",
+      "bytes": 1877
+    },
+    {
+      "restore_relative": "work/122全場入口比較/段階を固定する.py",
+      "SHA256": "fa88912351090e9e86cfa69f8504e0999b3564c52ab2b2336d70bbd482a6324c",
+      "bytes": 5808
+    },
+    {
+      "restore_relative": "work/122全場入口比較/集計する.py",
+      "SHA256": "77da7f50545094181f354f7575478f13ed16463c8e74d288931b9182489dcb97",
+      "bytes": 15229
+    },
+    {
+      "restore_relative": "work/122公表生成/cmd/run/main.go",
+      "SHA256": "a7085ae03587f4fd6a8f77f5ed2069863fa4c126ca196a0e9c6e868a6cd0709a",
+      "bytes": 633
+    },
+    {
+      "restore_relative": "work/122公表生成/export.go",
+      "SHA256": "33a1150dcab8ca669bbc51c22485775ee51dc99342f1f41e5f89ac87b1903d04",
+      "bytes": 9730
+    },
+    {
+      "restore_relative": "work/122公表生成/export_test.go",
+      "SHA256": "b75fb6ca943fb68bac501db1460d163a696c8aaff5f3f7832906b1a668cc627c",
+      "bytes": 8141
+    },
+    {
+      "restore_relative": "work/122公表生成/go.mod",
+      "SHA256": "e13e1195d52d6740c4e4f086af3b03dbc335e5cbb0fb69db011b8b5f44e5b7e5",
+      "bytes": 570
+    },
+    {
+      "restore_relative": "work/122公表生成/plan.go",
+      "SHA256": "a7ddf960453b6368b98e5d09ce35517cd5050363da8485fe21e9301dc85f722f",
+      "bytes": 7054
+    },
+    {
+      "restore_relative": "work/122公表生成/reader.go",
+      "SHA256": "ac54a50dfcb1374b7aac9ea4d1660f849dbc69500975727ecf8f81805712706d",
+      "bytes": 3473
+    },
+    {
+      "restore_relative": "work/122公表生成/types.go",
+      "SHA256": "7da5683335885d68bbef53196fa8e8969f76832d1c0b76318c5d72a5fd88414a",
+      "bytes": 5206
+    },
+    {
+      "restore_relative": "work/三時間軸の公開器/bank.go",
+      "SHA256": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b",
+      "bytes": 13808
+    },
+    {
+      "restore_relative": "work/三時間軸の公開器/bank_test.go",
+      "SHA256": "b1944823b58b1cc2d400b57b782ab7bfac990d109eafedcf7f6c8a89843a4db9",
+      "bytes": 22551
+    },
+    {
+      "restore_relative": "work/三時間軸の公開器/go.mod",
+      "SHA256": "896325a90f15c6c403d442e0cff148b9a4407a2176f34970e27495dfe849a95f",
+      "bytes": 75
+    },
+    {
+      "restore_relative": "work/三時間軸の公開器/numeric.go",
+      "SHA256": "f9da01f68ef8d1e63477acbbfb950854a99874d7ce23dca4140da6148bf2411b",
+      "bytes": 5100
+    },
+    {
+      "restore_relative": "work/三時間軸の公開器/pivot.go",
+      "SHA256": "ef9d799dc978d7689167ab9c29a9bad879fd999a9993063f852d8e9432ad3f59",
+      "bytes": 2405
+    },
+    {
+      "restore_relative": "work/三時間軸の公開器/types.go",
+      "SHA256": "00b9b15619358b0c8212a5dcf32c1d2fd37acc30c037bf0e0d05c800060bd2c9",
+      "bytes": 6426
+    },
+    {
+      "restore_relative": "work/三時間軸の市場入力口/candle.go",
+      "SHA256": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137",
+      "bytes": 5053
+    },
+    {
+      "restore_relative": "work/三時間軸の市場入力口/candle_test.go",
+      "SHA256": "d10db77bd84897879a1254903a079d977752d7bbf6616986d3dc584b3715a13b",
+      "bytes": 3482
+    },
+    {
+      "restore_relative": "work/三時間軸の市場入力口/go.mod",
+      "SHA256": "9354dc403283cd78a654637eeb4a24a1650a9a19923eae47641781ef5d82e33c",
+      "bytes": 252
+    }
+  ],
+  "備考": "52の固定コードを全て復元可能。旧正式ZIPの同bytes依存を重複保存しない。自然結果・入力・Raw・Native・exeは含まない。"
+}

@@ -1,0 +1,73 @@
+{
+  "成功": true,
+  "試行": 146,
+  "編集停止": true,
+  "初回Go比較成功": true,
+  "作者最終停止SHA256": "a144becad036990b47d5893b866b416d4e6818482813b7673aeb99b3f05d09af",
+  "独立確認SHA256": "db60e4d1d302a6281e09a1c7074857c862c07819e1d9cf27ec92bc73a600dd60",
+  "比較": {
+    "成功": true,
+    "公開足": 381,
+    "known確認": 3810,
+    "値確認": 3810,
+    "既知の値": 2171,
+    "最大絶対差": 7.275957614183426e-12,
+    "絶対許容": 1e-09,
+    "相対許容": 1e-12
+  },
+  "旧128private4源完全同体": true,
+  "GEN前後不変": true,
+  "private reflect観測": false,
+  "小型保存対象": {
+    "go.mod": {
+      "bytes": 459,
+      "sha256": "446448df46ed51b003202c56dcb42276463f41e211d293919cba11d9654e9e54"
+    },
+    "main.go": {
+      "bytes": 3080,
+      "sha256": "27d02ff0d2991d4f7ea36b55c6ebf47412faf2432eaacbefd7151a457e25dcf2"
+    },
+    "独立比較する.py": {
+      "bytes": 15125,
+      "sha256": "cde00006b74911c30b804df5759324a9b2975e3ba844b9cb3978f45cbb1f7dc3"
+    },
+    "確認を停止する.py": {
+      "bytes": 2661,
+      "sha256": "4a8d5c4b756c87a46247ed72131af4dc41b48828df76586121a30611fb978a98"
+    },
+    "README.md": {
+      "bytes": 3386,
+      "sha256": "ded0c01821914f50e0e910595b28ef9113487b39e39f172e2a41978e985337e6"
+    },
+    "独立確認.json": {
+      "bytes": 4855,
+      "sha256": "db60e4d1d302a6281e09a1c7074857c862c07819e1d9cf27ec92bc73a600dd60"
+    },
+    "人工比較の票.zip": {
+      "bytes": 108431,
+      "sha256": "8c7cb80d9b2022b3edb1872cc9ba8e99a6d97db0d60f38bbec4611b7c8491517"
+    }
+  },
+  "人工票ZIP内": [
+    {
+      "ZIP内path": "人工入力.json",
+      "bytes": 234545,
+      "sha256": "8b0589e804f810f99930f0140d6f35989ff7e19389b6254541f0d8cd7433a6fe"
+    },
+    {
+      "ZIP内path": "Python標準式の期待値.json",
+      "bytes": 823546,
+      "sha256": "a62f2317cdbeec757a3cd99575d8ab622425b201cfd923ee100bdf132a6f9c11"
+    },
+    {
+      "ZIP内path": "Go公開結果.json",
+      "bytes": 912752,
+      "sha256": "4566b191cd232be348687987164f6d699df156d63e4a0f902a68bd8663895ca9"
+    }
+  ],
+  "plain3JSONの正式複写不要": true,
+  "停止票自身も保存": true,
+  "自然Raw/CSV/新金融/Source出力/追加2場読取": false,
+  "売買stateや戦略精度の確認": false,
+  "重大不足": []
+}

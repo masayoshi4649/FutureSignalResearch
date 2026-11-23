@@ -1,0 +1,77 @@
+{
+  "成功": true,
+  "試行": 126,
+  "学習入力SHA256": "251fd25f75510a98efc30535df0493a60a07c09edfc44d1c16a4d887681b6ca7",
+  "モデルSHA256": "a011cb759ff5d3ab05efe7c7a97bd1686fd9bdc482dfba048e8120e56bdd7059",
+  "評価入力を開いたか": false,
+  "学習場": 48,
+  "学習取得": 53,
+  "主T8": {
+    "minimum_complete_leaf": 8,
+    "id": "A11|1:-|0:A35:0",
+    "tree": {
+      "root": {
+        "id": "A11",
+        "role": "MA方向・位置",
+        "feature": "ema21_delta_signed_30",
+        "threshold": 0,
+        "signed_to_B0": true,
+        "operator": "既知値<境界"
+      },
+      "left": null,
+      "right": {
+        "atom": {
+          "id": "A35",
+          "role": "勢い",
+          "feature": "hist_atr_signed_5",
+          "threshold": 0.1,
+          "signed_to_B0": true,
+          "operator": "既知値<境界"
+        },
+        "flip_branch": false
+      }
+    },
+    "gain": 10,
+    "money_gain": "130000",
+    "complexity": 3,
+    "score": 7,
+    "training_rows": 53,
+    "training_complete": 49,
+    "training_flips": 9,
+    "evaluated_roots": 45
+  },
+  "比較T6": {
+    "minimum_complete_leaf": 6,
+    "id": "A11|1:-|0:A35:0",
+    "tree": {
+      "root": {
+        "id": "A11",
+        "role": "MA方向・位置",
+        "feature": "ema21_delta_signed_30",
+        "threshold": 0,
+        "signed_to_B0": true,
+        "operator": "既知値<境界"
+      },
+      "left": null,
+      "right": {
+        "atom": {
+          "id": "A35",
+          "role": "勢い",
+          "feature": "hist_atr_signed_5",
+          "threshold": 0.1,
+          "signed_to_B0": true,
+          "operator": "既知値<境界"
+        },
+        "flip_branch": false
+      }
+    },
+    "gain": 10,
+    "money_gain": "130000",
+    "complexity": 3,
+    "score": 7,
+    "training_rows": 53,
+    "training_complete": 49,
+    "training_flips": 9,
+    "evaluated_roots": 45
+  }
+}

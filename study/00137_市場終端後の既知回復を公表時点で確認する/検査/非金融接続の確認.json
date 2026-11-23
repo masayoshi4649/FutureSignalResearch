@@ -1,0 +1,59 @@
+{
+  "成功": true,
+  "試行": 137,
+  "段階": "F1前の非金融239行接続のみ",
+  "固定入力SHA256": "be370b6316af511804d9e7c2ef2d3b17b9bbc4eea7f24140f3ca9800913567fc",
+  "metadataSHA256": "86f33705ba40fd3ba1b845557a2368e44c2802635082fc3bad69346770103f93",
+  "全場数": 73,
+  "取得数": {
+    "C0": 79,
+    "S0": 79,
+    "A0": 81
+  },
+  "全model全73最低1": true,
+  "全239方向geometry照合": true,
+  "entryQuoteとGo_entry全239同体": true,
+  "C0旧79をS0とA0が非金融同体保持": true,
+  "E1回復trace照合": [
+    {
+      "session": "2026-09-25_Day",
+      "id": "A0/2026-09-25_Day/E1/1/000002/86026",
+      "side": 1,
+      "回復時計": "market_end",
+      "回復trace同episode": true,
+      "前足量と確認時30秒照合": true,
+      "entryQuoteとGo_entry同体": true,
+      "継承する限界": [
+        "拒否足の直前量はEvent/回復traceに無いため比較は固定部品証跡を継承"
+      ]
+    },
+    {
+      "session": "2026-10-28_Night",
+      "id": "A0/2026-10-28_Night/E1/1/000001/149822",
+      "side": 1,
+      "回復時計": "market_end",
+      "回復trace同episode": true,
+      "前足量と確認時30秒照合": true,
+      "entryQuoteとGo_entry同体": true,
+      "継承する限界": [
+        "拒否足の直前量はEvent/回復traceに無いため比較は固定部品証跡を継承"
+      ]
+    }
+  ],
+  "コード前後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\137既知回復と頻度の集計\\条件.md": "998e66553f47a500268100ddfcc392d078f0f5437b79725f87c7acb740df1ffa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\137既知回復と頻度の集計\\計算.py": "ca88fd550ab113d720fea81c20089916dedfc899c9ddad839c9f5990aa4983fc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\137既知回復と頻度の集計\\集計する.py": "ca9aae81fdd1f67656b3dea8fd27968e9caea57963a3404d3cfcb5142dc27454",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\137既知回復と頻度の集計\\人工検査.py": "76c42698b0c8f36a668b0e0f6cfcf91cda767b61810d64dde086813967b24e64",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\137出生を固定入力へ渡す\\転送する.py": "bcf8f0922a4110eae8370ae4c8a9384dda6fdf57feb8825a5fc8f994b3d68b2d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\137出生を固定入力へ渡す\\人工検査.py": "785c3fd093bc00a86e9119376c790dc361b9df7bab7525ed71855fbaf63f4812",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\137金融前を固定して実行する.py": "2c5e4a00da34873b5bd489ded3f08d017584b13caef551e6d31cd6f5f9f7d3c1"
+  },
+  "前後同体": true,
+  "Source本文読取": false,
+  "新金融とRawとCSV読取": false,
+  "追加2場読取": false,
+  "集計器変更": false,
+  "自然金融再計算": false,
+  "未検査": "新金融の4streamはF1後に集計CLIで結合・照合する"
+}

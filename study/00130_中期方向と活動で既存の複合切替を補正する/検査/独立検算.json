@@ -1,0 +1,757 @@
+{
+  "成功": true,
+  "試行": 130,
+  "独立計算": "標準ライブラリ/Fraction。評価器/124算術をimportしない。",
+  "全固定取得": 79,
+  "全固定場": 73,
+  "前48場取得": 53,
+  "後25場取得": 26,
+  "全条件照合数": 300,
+  "旧126固定対照照合数": 180,
+  "比較値総数": 31437,
+  "CSV用3表全データセル照合数": 16258,
+  "全選択streamのphase照合": {
+    "entry検査": 790,
+    "touch検査": 6020,
+    "endpoint検査": 1460,
+    "選択stream検査": 790
+  },
+  "方向再構成": "原特徴からO0/B0/T8/V1/V2を独立再構成し79票一致",
+  "主と前後参考": {
+    "all": {
+      "O0": {
+        "entries": 79,
+        "sessions": 73,
+        "complete": 73,
+        "censored": 6,
+        "forward": 26,
+        "adverse": 31,
+        "neither": 16,
+        "resolved": 57,
+        "resolved_rate": {
+          "分数": "26/57",
+          "近似": 0.45614035087719296
+        },
+        "complete_rate": {
+          "分数": "26/73",
+          "近似": 0.3561643835616438
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 76,
+        "ifd_unknown": 3,
+        "ifd_exits": {
+          "期限清算": 16,
+          "逆行到達": 34,
+          "順行到達": 26,
+          "観測不足": 3
+        },
+        "ifd_net0_sum": -71852,
+        "ifd_net5_sum": -147852,
+        "ifd_net5_mean": {
+          "分数": "-36963/19",
+          "近似": -1945.421052631579
+        },
+        "ifd_net5_profit": 355228,
+        "ifd_net5_loss": 503080,
+        "ifd_net5_pf": {
+          "分数": "88807/125770",
+          "近似": 0.7061063846704302
+        },
+        "ifd_net5_positive": 36,
+        "ifd_points_mean": {
+          "分数": "-165/19",
+          "近似": -8.68421052631579
+        },
+        "flips": 0
+      },
+      "B0": {
+        "entries": 79,
+        "sessions": 73,
+        "complete": 73,
+        "censored": 6,
+        "forward": 34,
+        "adverse": 23,
+        "neither": 16,
+        "resolved": 57,
+        "resolved_rate": {
+          "分数": "34/57",
+          "近似": 0.5964912280701754
+        },
+        "complete_rate": {
+          "分数": "34/73",
+          "近似": 0.4657534246575342
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 76,
+        "ifd_unknown": 3,
+        "ifd_exits": {
+          "期限清算": 16,
+          "順行到達": 34,
+          "逆行到達": 26,
+          "観測不足": 3
+        },
+        "ifd_net0_sum": 109148,
+        "ifd_net5_sum": 33148,
+        "ifd_net5_mean": {
+          "分数": "8287/19",
+          "近似": 436.1578947368421
+        },
+        "ifd_net5_profit": 434766,
+        "ifd_net5_loss": 401618,
+        "ifd_net5_pf": {
+          "分数": "217383/200809",
+          "近似": 1.0825361413084076
+        },
+        "ifd_net5_positive": 42,
+        "ifd_points_mean": {
+          "分数": "575/38",
+          "近似": 15.131578947368421
+        },
+        "flips": 20
+      },
+      "T8": {
+        "entries": 79,
+        "sessions": 73,
+        "complete": 73,
+        "censored": 6,
+        "forward": 39,
+        "adverse": 18,
+        "neither": 16,
+        "resolved": 57,
+        "resolved_rate": {
+          "分数": "13/19",
+          "近似": 0.6842105263157895
+        },
+        "complete_rate": {
+          "分数": "39/73",
+          "近似": 0.5342465753424658
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 76,
+        "ifd_unknown": 3,
+        "ifd_exits": {
+          "期限清算": 16,
+          "順行到達": 40,
+          "逆行到達": 20,
+          "観測不足": 3
+        },
+        "ifd_net0_sum": 269148,
+        "ifd_net5_sum": 193148,
+        "ifd_net5_mean": {
+          "分数": "48287/19",
+          "近似": 2541.4210526315787
+        },
+        "ifd_net5_profit": 506304,
+        "ifd_net5_loss": 313156,
+        "ifd_net5_pf": {
+          "分数": "126576/78289",
+          "近似": 1.6167788578216609
+        },
+        "ifd_net5_positive": 48,
+        "ifd_points_mean": {
+          "分数": "1375/38",
+          "近似": 36.18421052631579
+        },
+        "flips": 31
+      },
+      "V1": {
+        "entries": 79,
+        "sessions": 73,
+        "complete": 73,
+        "censored": 6,
+        "forward": 35,
+        "adverse": 22,
+        "neither": 16,
+        "resolved": 57,
+        "resolved_rate": {
+          "分数": "35/57",
+          "近似": 0.6140350877192983
+        },
+        "complete_rate": {
+          "分数": "35/73",
+          "近似": 0.4794520547945205
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 76,
+        "ifd_unknown": 3,
+        "ifd_exits": {
+          "期限清算": 16,
+          "順行到達": 35,
+          "逆行到達": 25,
+          "観測不足": 3
+        },
+        "ifd_net0_sum": 135148,
+        "ifd_net5_sum": 59148,
+        "ifd_net5_mean": {
+          "分数": "14787/19",
+          "近似": 778.2631578947369
+        },
+        "ifd_net5_profit": 446689,
+        "ifd_net5_loss": 387541,
+        "ifd_net5_pf": {
+          "分数": "446689/387541",
+          "近似": 1.1526238514118505
+        },
+        "ifd_net5_positive": 43,
+        "ifd_points_mean": {
+          "分数": "705/38",
+          "近似": 18.55263157894737
+        },
+        "flips": 23
+      },
+      "V2": {
+        "entries": 79,
+        "sessions": 73,
+        "complete": 73,
+        "censored": 6,
+        "forward": 39,
+        "adverse": 18,
+        "neither": 16,
+        "resolved": 57,
+        "resolved_rate": {
+          "分数": "13/19",
+          "近似": 0.6842105263157895
+        },
+        "complete_rate": {
+          "分数": "39/73",
+          "近似": 0.5342465753424658
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 76,
+        "ifd_unknown": 3,
+        "ifd_exits": {
+          "期限清算": 16,
+          "順行到達": 39,
+          "逆行到達": 21,
+          "観測不足": 3
+        },
+        "ifd_net0_sum": 243148,
+        "ifd_net5_sum": 167148,
+        "ifd_net5_mean": {
+          "分数": "41787/19",
+          "近似": 2199.315789473684
+        },
+        "ifd_net5_profit": 494381,
+        "ifd_net5_loss": 327233,
+        "ifd_net5_pf": {
+          "分数": "494381/327233",
+          "近似": 1.5107920044738765
+        },
+        "ifd_net5_positive": 47,
+        "ifd_points_mean": {
+          "分数": "1245/38",
+          "近似": 32.76315789473684
+        },
+        "flips": 27
+      }
+    },
+    "train": {
+      "O0": {
+        "entries": 53,
+        "sessions": 48,
+        "complete": 49,
+        "censored": 4,
+        "forward": 16,
+        "adverse": 21,
+        "neither": 12,
+        "resolved": 37,
+        "resolved_rate": {
+          "分数": "16/37",
+          "近似": 0.43243243243243246
+        },
+        "complete_rate": {
+          "分数": "16/49",
+          "近似": 0.32653061224489793
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 51,
+        "ifd_unknown": 2,
+        "ifd_exits": {
+          "期限清算": 12,
+          "逆行到達": 23,
+          "順行到達": 16,
+          "観測不足": 2
+        },
+        "ifd_net0_sum": -57927,
+        "ifd_net5_sum": -108927,
+        "ifd_net5_mean": {
+          "分数": "-36309/17",
+          "近似": -2135.823529411765
+        },
+        "ifd_net5_profit": 231152,
+        "ifd_net5_loss": 340079,
+        "ifd_net5_pf": {
+          "分数": "231152/340079",
+          "近似": 0.6797008930277965
+        },
+        "ifd_net5_positive": 24,
+        "ifd_points_mean": {
+          "分数": "-180/17",
+          "近似": -10.588235294117647
+        },
+        "flips": 0
+      },
+      "B0": {
+        "entries": 53,
+        "sessions": 48,
+        "complete": 49,
+        "censored": 4,
+        "forward": 22,
+        "adverse": 15,
+        "neither": 12,
+        "resolved": 37,
+        "resolved_rate": {
+          "分数": "22/37",
+          "近似": 0.5945945945945946
+        },
+        "complete_rate": {
+          "分数": "22/49",
+          "近似": 0.4489795918367347
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 51,
+        "ifd_unknown": 2,
+        "ifd_exits": {
+          "期限清算": 12,
+          "順行到達": 22,
+          "逆行到達": 17,
+          "観測不足": 2
+        },
+        "ifd_net0_sum": 71073,
+        "ifd_net5_sum": 20073,
+        "ifd_net5_mean": {
+          "分数": "6691/17",
+          "近似": 393.5882352941176
+        },
+        "ifd_net5_profit": 286844,
+        "ifd_net5_loss": 266771,
+        "ifd_net5_pf": {
+          "分数": "286844/266771",
+          "近似": 1.0752443106634528
+        },
+        "ifd_net5_positive": 28,
+        "ifd_points_mean": {
+          "分数": "250/17",
+          "近似": 14.705882352941176
+        },
+        "flips": 12
+      },
+      "T8": {
+        "entries": 53,
+        "sessions": 48,
+        "complete": 49,
+        "censored": 4,
+        "forward": 27,
+        "adverse": 10,
+        "neither": 12,
+        "resolved": 37,
+        "resolved_rate": {
+          "分数": "27/37",
+          "近似": 0.7297297297297297
+        },
+        "complete_rate": {
+          "分数": "27/49",
+          "近似": 0.5510204081632653
+        },
+        "target70": true,
+        "target70_all": false,
+        "ifd_known": 51,
+        "ifd_unknown": 2,
+        "ifd_exits": {
+          "期限清算": 12,
+          "順行到達": 28,
+          "逆行到達": 11,
+          "観測不足": 2
+        },
+        "ifd_net0_sum": 227073,
+        "ifd_net5_sum": 176073,
+        "ifd_net5_mean": {
+          "分数": "58691/17",
+          "近似": 3452.4117647058824
+        },
+        "ifd_net5_profit": 358382,
+        "ifd_net5_loss": 182309,
+        "ifd_net5_pf": {
+          "分数": "358382/182309",
+          "近似": 1.9657943381840721
+        },
+        "ifd_net5_positive": 34,
+        "ifd_points_mean": {
+          "分数": "770/17",
+          "近似": 45.294117647058826
+        },
+        "flips": 19
+      },
+      "V1": {
+        "entries": 53,
+        "sessions": 48,
+        "complete": 49,
+        "censored": 4,
+        "forward": 23,
+        "adverse": 14,
+        "neither": 12,
+        "resolved": 37,
+        "resolved_rate": {
+          "分数": "23/37",
+          "近似": 0.6216216216216216
+        },
+        "complete_rate": {
+          "分数": "23/49",
+          "近似": 0.46938775510204084
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 51,
+        "ifd_unknown": 2,
+        "ifd_exits": {
+          "期限清算": 12,
+          "順行到達": 23,
+          "逆行到達": 16,
+          "観測不足": 2
+        },
+        "ifd_net0_sum": 97073,
+        "ifd_net5_sum": 46073,
+        "ifd_net5_mean": {
+          "分数": "46073/51",
+          "近似": 903.3921568627451
+        },
+        "ifd_net5_profit": 298767,
+        "ifd_net5_loss": 252694,
+        "ifd_net5_pf": {
+          "分数": "298767/252694",
+          "近似": 1.1823272416440438
+        },
+        "ifd_net5_positive": 29,
+        "ifd_points_mean": {
+          "分数": "1010/51",
+          "近似": 19.80392156862745
+        },
+        "flips": 15
+      },
+      "V2": {
+        "entries": 53,
+        "sessions": 48,
+        "complete": 49,
+        "censored": 4,
+        "forward": 26,
+        "adverse": 11,
+        "neither": 12,
+        "resolved": 37,
+        "resolved_rate": {
+          "分数": "26/37",
+          "近似": 0.7027027027027027
+        },
+        "complete_rate": {
+          "分数": "26/49",
+          "近似": 0.5306122448979592
+        },
+        "target70": true,
+        "target70_all": false,
+        "ifd_known": 51,
+        "ifd_unknown": 2,
+        "ifd_exits": {
+          "期限清算": 12,
+          "順行到達": 26,
+          "逆行到達": 13,
+          "観測不足": 2
+        },
+        "ifd_net0_sum": 175073,
+        "ifd_net5_sum": 124073,
+        "ifd_net5_mean": {
+          "分数": "124073/51",
+          "近似": 2432.8039215686276
+        },
+        "ifd_net5_profit": 334536,
+        "ifd_net5_loss": 210463,
+        "ifd_net5_pf": {
+          "分数": "6312/3971",
+          "近似": 1.5895240493578444
+        },
+        "ifd_net5_positive": 32,
+        "ifd_points_mean": {
+          "分数": "1790/51",
+          "近似": 35.09803921568628
+        },
+        "flips": 16
+      }
+    },
+    "validation": {
+      "O0": {
+        "entries": 26,
+        "sessions": 25,
+        "complete": 24,
+        "censored": 2,
+        "forward": 10,
+        "adverse": 10,
+        "neither": 4,
+        "resolved": 20,
+        "resolved_rate": {
+          "分数": "1/2",
+          "近似": 0.5
+        },
+        "complete_rate": {
+          "分数": "5/12",
+          "近似": 0.4166666666666667
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 25,
+        "ifd_unknown": 1,
+        "ifd_exits": {
+          "順行到達": 10,
+          "期限清算": 4,
+          "逆行到達": 11,
+          "観測不足": 1
+        },
+        "ifd_net0_sum": -13925,
+        "ifd_net5_sum": -38925,
+        "ifd_net5_mean": -1557,
+        "ifd_net5_profit": 124076,
+        "ifd_net5_loss": 163001,
+        "ifd_net5_pf": {
+          "分数": "124076/163001",
+          "近似": 0.7611977840626745
+        },
+        "ifd_net5_positive": 12,
+        "ifd_points_mean": {
+          "分数": "-24/5",
+          "近似": -4.8
+        },
+        "flips": 0
+      },
+      "B0": {
+        "entries": 26,
+        "sessions": 25,
+        "complete": 24,
+        "censored": 2,
+        "forward": 12,
+        "adverse": 8,
+        "neither": 4,
+        "resolved": 20,
+        "resolved_rate": {
+          "分数": "3/5",
+          "近似": 0.6
+        },
+        "complete_rate": {
+          "分数": "1/2",
+          "近似": 0.5
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 25,
+        "ifd_unknown": 1,
+        "ifd_exits": {
+          "逆行到達": 9,
+          "期限清算": 4,
+          "順行到達": 12,
+          "観測不足": 1
+        },
+        "ifd_net0_sum": 38075,
+        "ifd_net5_sum": 13075,
+        "ifd_net5_mean": 523,
+        "ifd_net5_profit": 147922,
+        "ifd_net5_loss": 134847,
+        "ifd_net5_pf": {
+          "分数": "147922/134847",
+          "近似": 1.0969617418259212
+        },
+        "ifd_net5_positive": 14,
+        "ifd_points_mean": 16,
+        "flips": 8
+      },
+      "T8": {
+        "entries": 26,
+        "sessions": 25,
+        "complete": 24,
+        "censored": 2,
+        "forward": 12,
+        "adverse": 8,
+        "neither": 4,
+        "resolved": 20,
+        "resolved_rate": {
+          "分数": "3/5",
+          "近似": 0.6
+        },
+        "complete_rate": {
+          "分数": "1/2",
+          "近似": 0.5
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 25,
+        "ifd_unknown": 1,
+        "ifd_exits": {
+          "逆行到達": 9,
+          "期限清算": 4,
+          "順行到達": 12,
+          "観測不足": 1
+        },
+        "ifd_net0_sum": 42075,
+        "ifd_net5_sum": 17075,
+        "ifd_net5_mean": 683,
+        "ifd_net5_profit": 147922,
+        "ifd_net5_loss": 130847,
+        "ifd_net5_pf": {
+          "分数": "147922/130847",
+          "近似": 1.1304959227189006
+        },
+        "ifd_net5_positive": 14,
+        "ifd_points_mean": {
+          "分数": "88/5",
+          "近似": 17.6
+        },
+        "flips": 12
+      },
+      "V1": {
+        "entries": 26,
+        "sessions": 25,
+        "complete": 24,
+        "censored": 2,
+        "forward": 12,
+        "adverse": 8,
+        "neither": 4,
+        "resolved": 20,
+        "resolved_rate": {
+          "分数": "3/5",
+          "近似": 0.6
+        },
+        "complete_rate": {
+          "分数": "1/2",
+          "近似": 0.5
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 25,
+        "ifd_unknown": 1,
+        "ifd_exits": {
+          "逆行到達": 9,
+          "期限清算": 4,
+          "順行到達": 12,
+          "観測不足": 1
+        },
+        "ifd_net0_sum": 38075,
+        "ifd_net5_sum": 13075,
+        "ifd_net5_mean": 523,
+        "ifd_net5_profit": 147922,
+        "ifd_net5_loss": 134847,
+        "ifd_net5_pf": {
+          "分数": "147922/134847",
+          "近似": 1.0969617418259212
+        },
+        "ifd_net5_positive": 14,
+        "ifd_points_mean": 16,
+        "flips": 8
+      },
+      "V2": {
+        "entries": 26,
+        "sessions": 25,
+        "complete": 24,
+        "censored": 2,
+        "forward": 13,
+        "adverse": 7,
+        "neither": 4,
+        "resolved": 20,
+        "resolved_rate": {
+          "分数": "13/20",
+          "近似": 0.65
+        },
+        "complete_rate": {
+          "分数": "13/24",
+          "近似": 0.5416666666666666
+        },
+        "target70": false,
+        "target70_all": false,
+        "ifd_known": 25,
+        "ifd_unknown": 1,
+        "ifd_exits": {
+          "逆行到達": 8,
+          "期限清算": 4,
+          "順行到達": 13,
+          "観測不足": 1
+        },
+        "ifd_net0_sum": 68075,
+        "ifd_net5_sum": 43075,
+        "ifd_net5_mean": 1723,
+        "ifd_net5_profit": 159845,
+        "ifd_net5_loss": 116770,
+        "ifd_net5_pf": {
+          "分数": "31969/23354",
+          "近似": 1.3688875567354628
+        },
+        "ifd_net5_positive": 15,
+        "ifd_points_mean": 28,
+        "flips": 11
+      }
+    }
+  },
+  "主V2変更4票": [
+    {
+      "session": "2026-09-30_Day",
+      "id": "2026-09-30_Day/補完/P3/12436",
+      "T8方向": -1,
+      "V2方向": 1,
+      "V2_C5": -14077,
+      "T8_C5": -14077,
+      "両側既知差": 0
+    },
+    {
+      "session": "2026-10-01_Night",
+      "id": "2026-10-01_Night/補完/P3/47102",
+      "T8方向": -1,
+      "V2方向": 1,
+      "V2_C5": -14077,
+      "T8_C5": 11923,
+      "両側既知差": -26000
+    },
+    {
+      "session": "2026-10-02_Day",
+      "id": "2026-10-02_Day/補完/P3/17844",
+      "T8方向": -1,
+      "V2方向": 1,
+      "V2_C5": -14077,
+      "T8_C5": 11923,
+      "両側既知差": -26000
+    },
+    {
+      "session": "2026-10-30_Night",
+      "id": "2026-10-30_Night/補完/P3/32265",
+      "T8方向": 1,
+      "V2方向": -1,
+      "V2_C5": 11923,
+      "T8_C5": -14077,
+      "両側既知差": 26000
+    }
+  ],
+  "前SHA256": {
+    "work\\130既存入口の活動切替評価\\集計.json": "8bf8b0becf88de61ad31d206e629509030e2d40c6d6aa1d8ab4a59aeaf07ba2c",
+    "work\\130既存入口の活動切替評価\\CSV用の表.json": "1f21a01e09eba835f0f5498b865ffb8a12290e7a7bd4a5fda35bcc42b21c8ed4",
+    "work\\130既存入口の活動切替評価\\F1.json": "6d09694cb22abbbbe5de62f0aa66afa927ad01e99faf02f75dcbba0df5229f03",
+    "work\\T8の活動による切替案\\choices.json": "93c204569d7a9828708d3891d984551784961138534c3cbde80759b602b24a9e",
+    "work\\124入口の正逆比較\\全73場の正逆結果.json": "25517066b291a0434211190299b9f0195e67f9a7d2e89c801d5b9e6b4b51c3a1",
+    "work\\124当時特徴の診断\\全79例の当時特徴.json": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+    "work\\126複合切替の探索\\集計.json": "e30aca19e553ded53ccdd3b1785bd6168e19dd210aa9c32c1f9625c0063fdcd8"
+  },
+  "後SHA256": {
+    "work\\130既存入口の活動切替評価\\集計.json": "8bf8b0becf88de61ad31d206e629509030e2d40c6d6aa1d8ab4a59aeaf07ba2c",
+    "work\\130既存入口の活動切替評価\\CSV用の表.json": "1f21a01e09eba835f0f5498b865ffb8a12290e7a7bd4a5fda35bcc42b21c8ed4",
+    "work\\130既存入口の活動切替評価\\F1.json": "6d09694cb22abbbbe5de62f0aa66afa927ad01e99faf02f75dcbba0df5229f03",
+    "work\\T8の活動による切替案\\choices.json": "93c204569d7a9828708d3891d984551784961138534c3cbde80759b602b24a9e",
+    "work\\124入口の正逆比較\\全73場の正逆結果.json": "25517066b291a0434211190299b9f0195e67f9a7d2e89c801d5b9e6b4b51c3a1",
+    "work\\124当時特徴の診断\\全79例の当時特徴.json": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774",
+    "work\\126複合切替の探索\\集計.json": "e30aca19e553ded53ccdd3b1785bd6168e19dd210aa9c32c1f9625c0063fdcd8"
+  },
+  "前後不変": true,
+  "共用metadata解凍SHA256": "b2368b1f42c16e8c96a3acd098c58a902807a3b6a5023d6d4b1e75261f3ee51b",
+  "検算コードSHA256": "c7f5c3756fd87f207e1f1d0c5077457855a42c5ad02cb05ccceb57b0ef58d063",
+  "Raw再読": false,
+  "新探索": false,
+  "評価器実行流用": false,
+  "限界": "保存touchの最初性/中間gapはRaw再走査しない。bootstrap区間の再実装とCSVファイル自体の再読は対象外。"
+}

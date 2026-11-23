@@ -1,0 +1,1115 @@
+{
+  "success": true,
+  "scope": "134の入力JSON同体・metadata・配送時計だけの独立確認",
+  "input_and_source_hashes_before_after_equal": true,
+  "files": {
+    "work\\P3をRaw公表時計で再生成する準備\\即時のSource入力.json": "905cab946d67e368633585219fc9f4fa04efab639104dcecdc6a3d01d18eeb01",
+    "work\\P3をRaw公表時計で再生成する準備\\遅延60秒のSource入力.json": "8cc73c58fcf90968d177913bfdf66bdcacb3a98aa6ca1a787a35ad9301349139",
+    "work\\128全場のRaw公表\\gap300.json.gz": "e382858a62865b321449279d9653f5b1c644c97f6c4254cbae8dd9d3ea065e62",
+    "work\\128全場のRaw公表\\gap300_delay60.json.gz": "ce2add7e0a01fd1ab31c0510194b4647144c01034701f548253c307f6334c830",
+    "work\\P3をRaw公表時計で再生成する準備\\入力を変換する.py": "2f159d05e555538818455722637b2b20501748c21d523f781b80abf003889c00",
+    "work\\強い入口の探索期限を延ばす次仮説\\Source入口の再生器\\Source入口.exe": "e6d216ffbbc9ec8d640d5d482d163de3ac289c1f46392469abb9d66eb47a905e"
+  },
+  "metadata_gzip_sha256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b",
+  "metadata_decompressed_sha256": "b2368b1f42c16e8c96a3acd098c58a902807a3b6a5023d6d4b1e75261f3ee51b",
+  "models": {
+    "即時": {
+      "sessions": 73,
+      "publications": 12809,
+      "width_counts": {
+        "300": 8593,
+        "900": 2835,
+        "1800": 1381
+      },
+      "all_publications_exact_original": true,
+      "all_metadata_equal_common124": true,
+      "scenes": [
+        {
+          "session": "2026-09-21_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": ""
+        },
+        {
+          "session": "2026-09-21_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-21_Day"
+        },
+        {
+          "session": "2026-09-22_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-21_Night"
+        },
+        {
+          "session": "2026-09-22_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-22_Day"
+        },
+        {
+          "session": "2026-09-23_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-22_Night"
+        },
+        {
+          "session": "2026-09-23_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-23_Day"
+        },
+        {
+          "session": "2026-09-24_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-23_Night"
+        },
+        {
+          "session": "2026-09-24_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-24_Day"
+        },
+        {
+          "session": "2026-09-25_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-24_Night"
+        },
+        {
+          "session": "2026-09-25_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-25_Day"
+        },
+        {
+          "session": "2026-09-28_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-25_Night"
+        },
+        {
+          "session": "2026-09-28_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-28_Day"
+        },
+        {
+          "session": "2026-09-29_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-28_Night"
+        },
+        {
+          "session": "2026-09-29_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-29_Day"
+        },
+        {
+          "session": "2026-09-30_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-29_Night"
+        },
+        {
+          "session": "2026-09-30_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-30_Day"
+        },
+        {
+          "session": "2026-10-01_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-30_Night"
+        },
+        {
+          "session": "2026-10-01_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-01_Day"
+        },
+        {
+          "session": "2026-10-02_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-01_Night"
+        },
+        {
+          "session": "2026-10-02_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-02_Day"
+        },
+        {
+          "session": "2026-10-05_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-02_Night"
+        },
+        {
+          "session": "2026-10-05_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-05_Day"
+        },
+        {
+          "session": "2026-10-06_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-05_Night"
+        },
+        {
+          "session": "2026-10-06_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-06_Day"
+        },
+        {
+          "session": "2026-10-07_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-06_Night"
+        },
+        {
+          "session": "2026-10-07_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-07_Day"
+        },
+        {
+          "session": "2026-10-08_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-07_Night"
+        },
+        {
+          "session": "2026-10-08_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-08_Day"
+        },
+        {
+          "session": "2026-10-09_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-08_Night"
+        },
+        {
+          "session": "2026-10-09_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-09_Day"
+        },
+        {
+          "session": "2026-10-12_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-09_Night"
+        },
+        {
+          "session": "2026-10-12_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-12_Day"
+        },
+        {
+          "session": "2026-10-13_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-12_Night"
+        },
+        {
+          "session": "2026-10-13_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-13_Day"
+        },
+        {
+          "session": "2026-10-14_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-13_Night"
+        },
+        {
+          "session": "2026-10-14_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-14_Day"
+        },
+        {
+          "session": "2026-10-15_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-14_Night"
+        },
+        {
+          "session": "2026-10-15_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-15_Day"
+        },
+        {
+          "session": "2026-10-16_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-15_Night"
+        },
+        {
+          "session": "2026-10-16_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-16_Day"
+        },
+        {
+          "session": "2026-10-19_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-16_Night"
+        },
+        {
+          "session": "2026-10-19_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-19_Day"
+        },
+        {
+          "session": "2026-10-20_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-19_Night"
+        },
+        {
+          "session": "2026-10-20_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-20_Day"
+        },
+        {
+          "session": "2026-10-21_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-20_Night"
+        },
+        {
+          "session": "2026-10-21_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-21_Day"
+        },
+        {
+          "session": "2026-10-22_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-21_Night"
+        },
+        {
+          "session": "2026-10-22_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-22_Day"
+        },
+        {
+          "session": "2026-10-23_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-22_Night"
+        },
+        {
+          "session": "2026-10-23_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-23_Day"
+        },
+        {
+          "session": "2026-10-26_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-23_Night"
+        },
+        {
+          "session": "2026-10-26_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-26_Day"
+        },
+        {
+          "session": "2026-10-27_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-26_Night"
+        },
+        {
+          "session": "2026-10-27_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-27_Day"
+        },
+        {
+          "session": "2026-10-28_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-27_Night"
+        },
+        {
+          "session": "2026-10-28_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-28_Day"
+        },
+        {
+          "session": "2026-10-29_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-28_Night"
+        },
+        {
+          "session": "2026-10-29_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-29_Day"
+        },
+        {
+          "session": "2026-10-30_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-29_Night"
+        },
+        {
+          "session": "2026-10-30_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-30_Day"
+        },
+        {
+          "session": "2026-11-02_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-30_Night"
+        },
+        {
+          "session": "2026-11-02_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-02_Day"
+        },
+        {
+          "session": "2026-11-03_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-02_Night"
+        },
+        {
+          "session": "2026-11-03_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-03_Day"
+        },
+        {
+          "session": "2026-11-04_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-03_Night"
+        },
+        {
+          "session": "2026-11-04_Night",
+          "publications": 231,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-04_Day"
+        },
+        {
+          "session": "2026-11-05_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-04_Night"
+        },
+        {
+          "session": "2026-11-05_Night",
+          "publications": 231,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-05_Day"
+        },
+        {
+          "session": "2026-11-06_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-05_Night"
+        },
+        {
+          "session": "2026-11-06_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-06_Day"
+        },
+        {
+          "session": "2026-11-09_Day",
+          "publications": 123,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-06_Night"
+        },
+        {
+          "session": "2026-11-09_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-09_Day"
+        },
+        {
+          "session": "2026-11-10_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-09_Night"
+        }
+      ]
+    },
+    "遅延60秒": {
+      "sessions": 73,
+      "publications": 12794,
+      "width_counts": {
+        "300": 8578,
+        "900": 2835,
+        "1800": 1381
+      },
+      "all_publications_exact_original": true,
+      "all_metadata_equal_common124": true,
+      "scenes": [
+        {
+          "session": "2026-09-21_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": ""
+        },
+        {
+          "session": "2026-09-21_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-21_Day"
+        },
+        {
+          "session": "2026-09-22_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-21_Night"
+        },
+        {
+          "session": "2026-09-22_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-22_Day"
+        },
+        {
+          "session": "2026-09-23_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-22_Night"
+        },
+        {
+          "session": "2026-09-23_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-23_Day"
+        },
+        {
+          "session": "2026-09-24_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-23_Night"
+        },
+        {
+          "session": "2026-09-24_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-24_Day"
+        },
+        {
+          "session": "2026-09-25_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-24_Night"
+        },
+        {
+          "session": "2026-09-25_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-25_Day"
+        },
+        {
+          "session": "2026-09-28_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-25_Night"
+        },
+        {
+          "session": "2026-09-28_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-28_Day"
+        },
+        {
+          "session": "2026-09-29_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-28_Night"
+        },
+        {
+          "session": "2026-09-29_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-29_Day"
+        },
+        {
+          "session": "2026-09-30_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-29_Night"
+        },
+        {
+          "session": "2026-09-30_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-30_Day"
+        },
+        {
+          "session": "2026-10-01_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-09-30_Night"
+        },
+        {
+          "session": "2026-10-01_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-01_Day"
+        },
+        {
+          "session": "2026-10-02_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-01_Night"
+        },
+        {
+          "session": "2026-10-02_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-02_Day"
+        },
+        {
+          "session": "2026-10-05_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-02_Night"
+        },
+        {
+          "session": "2026-10-05_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-05_Day"
+        },
+        {
+          "session": "2026-10-06_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-05_Night"
+        },
+        {
+          "session": "2026-10-06_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-06_Day"
+        },
+        {
+          "session": "2026-10-07_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-06_Night"
+        },
+        {
+          "session": "2026-10-07_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-07_Day"
+        },
+        {
+          "session": "2026-10-08_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-07_Night"
+        },
+        {
+          "session": "2026-10-08_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-08_Day"
+        },
+        {
+          "session": "2026-10-09_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-08_Night"
+        },
+        {
+          "session": "2026-10-09_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-09_Day"
+        },
+        {
+          "session": "2026-10-12_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-09_Night"
+        },
+        {
+          "session": "2026-10-12_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-12_Day"
+        },
+        {
+          "session": "2026-10-13_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-12_Night"
+        },
+        {
+          "session": "2026-10-13_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-13_Day"
+        },
+        {
+          "session": "2026-10-14_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-13_Night"
+        },
+        {
+          "session": "2026-10-14_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-14_Day"
+        },
+        {
+          "session": "2026-10-15_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-14_Night"
+        },
+        {
+          "session": "2026-10-15_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-15_Day"
+        },
+        {
+          "session": "2026-10-16_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-15_Night"
+        },
+        {
+          "session": "2026-10-16_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-16_Day"
+        },
+        {
+          "session": "2026-10-19_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-16_Night"
+        },
+        {
+          "session": "2026-10-19_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-19_Day"
+        },
+        {
+          "session": "2026-10-20_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-19_Night"
+        },
+        {
+          "session": "2026-10-20_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-20_Day"
+        },
+        {
+          "session": "2026-10-21_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-20_Night"
+        },
+        {
+          "session": "2026-10-21_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-21_Day"
+        },
+        {
+          "session": "2026-10-22_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-21_Night"
+        },
+        {
+          "session": "2026-10-22_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-22_Day"
+        },
+        {
+          "session": "2026-10-23_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-22_Night"
+        },
+        {
+          "session": "2026-10-23_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-23_Day"
+        },
+        {
+          "session": "2026-10-26_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-23_Night"
+        },
+        {
+          "session": "2026-10-26_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-26_Day"
+        },
+        {
+          "session": "2026-10-27_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-26_Night"
+        },
+        {
+          "session": "2026-10-27_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-27_Day"
+        },
+        {
+          "session": "2026-10-28_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-27_Night"
+        },
+        {
+          "session": "2026-10-28_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-28_Day"
+        },
+        {
+          "session": "2026-10-29_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-28_Night"
+        },
+        {
+          "session": "2026-10-29_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-29_Day"
+        },
+        {
+          "session": "2026-10-30_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-29_Night"
+        },
+        {
+          "session": "2026-10-30_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-30_Day"
+        },
+        {
+          "session": "2026-11-02_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-10-30_Night"
+        },
+        {
+          "session": "2026-11-02_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-02_Day"
+        },
+        {
+          "session": "2026-11-03_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-02_Night"
+        },
+        {
+          "session": "2026-11-03_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-03_Day"
+        },
+        {
+          "session": "2026-11-04_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-03_Night"
+        },
+        {
+          "session": "2026-11-04_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-04_Day"
+        },
+        {
+          "session": "2026-11-05_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-04_Night"
+        },
+        {
+          "session": "2026-11-05_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-05_Day"
+        },
+        {
+          "session": "2026-11-06_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-05_Night"
+        },
+        {
+          "session": "2026-11-06_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-06_Day"
+        },
+        {
+          "session": "2026-11-09_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-06_Night"
+        },
+        {
+          "session": "2026-11-09_Night",
+          "publications": 230,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-09_Day"
+        },
+        {
+          "session": "2026-11-10_Day",
+          "publications": 122,
+          "raw_metadata_and_quality_equal": true,
+          "carry_from": "2026-11-09_Night"
+        }
+      ]
+    }
+  },
+  "common_foot_value_count": 12794,
+  "common_foot_values_identical": true,
+  "delivery_stamp_changed_count": 12156,
+  "immediate_only_foot_count": 15,
+  "EOF_dropped": [
+    {
+      "session": "2026-09-25_Day",
+      "id": "raw-price-clock:8b1c5cf8e95f84f07a95920b74a145e851149da714e0b9171e089b7a9296794b",
+      "end": 1790318400,
+      "eligible_at": 1790318460,
+      "closed_at": {
+        "time": 1790318400,
+        "index": 106874,
+        "source_line": 107370
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-01_Day",
+      "id": "raw-price-clock:aadf8dfb9660c19f397c04438716d9c06b9cf17bd6a2453d4927b4d78a4e4d9c",
+      "end": 1790836800,
+      "eligible_at": 1790836860,
+      "closed_at": {
+        "time": 1790836800,
+        "index": 138261,
+        "source_line": 138852
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-02_Day",
+      "id": "raw-price-clock:1fd3ee63eed3830dc116bd9df39fa46ebf26aa524ad152f7bae8b7245f9a260d",
+      "end": 1790923200,
+      "eligible_at": 1790923260,
+      "closed_at": {
+        "time": 1790923200,
+        "index": 133995,
+        "source_line": 134968
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-05_Day",
+      "id": "raw-price-clock:7352daea6c7f50d302fa9012326dbf6877757c18d2e1c160a207c3d03ff9d556",
+      "end": 1791182400,
+      "eligible_at": 1791182460,
+      "closed_at": {
+        "time": 1791182400,
+        "index": 122928,
+        "source_line": 122987
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-19_Day",
+      "id": "raw-price-clock:6d94c24505dd12ec2feba9643b2436dc9f4d2ea70a823b21f7dcadc5c940683b",
+      "end": 1792392000,
+      "eligible_at": 1792392060,
+      "closed_at": {
+        "time": 1792392000,
+        "index": 156487,
+        "source_line": 157281
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-20_Day",
+      "id": "raw-price-clock:b868f83d464bede8770704a6bab7e58baa01cfc8ed0f6f4bfe4711fb5859f715",
+      "end": 1792478400,
+      "eligible_at": 1792478460,
+      "closed_at": {
+        "time": 1792478400,
+        "index": 166746,
+        "source_line": 167665
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-21_Day",
+      "id": "raw-price-clock:f53ecc9a0fc1f8cb908f00cb013e3f49376dcecf2cd87c07196055b6d9177a9f",
+      "end": 1792564800,
+      "eligible_at": 1792564860,
+      "closed_at": {
+        "time": 1792564800,
+        "index": 155223,
+        "source_line": 156093
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-28_Day",
+      "id": "raw-price-clock:dfd101825ed0445f55f44135fae420ae618d22844d646f9e276c96d5f4b2536d",
+      "end": 1793169600,
+      "eligible_at": 1793169660,
+      "closed_at": {
+        "time": 1793169600,
+        "index": 151113,
+        "source_line": 151841
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-10-30_Day",
+      "id": "raw-price-clock:a02dc629fdf05da5c9608d49f8a82970086b1a97e70b356da6695691082914bb",
+      "end": 1793342400,
+      "eligible_at": 1793342460,
+      "closed_at": {
+        "time": 1793342400,
+        "index": 161539,
+        "source_line": 162781
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-11-02_Day",
+      "id": "raw-price-clock:7d1c680c74fefb636f1c9e94b1d25ec6a09375be0521c7f81257b0056c0f7f49",
+      "end": 1793601600,
+      "eligible_at": 1793601660,
+      "closed_at": {
+        "time": 1793601600,
+        "index": 157907,
+        "source_line": 159040
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-11-03_Day",
+      "id": "raw-price-clock:670175be2eb46e3dbf77cd9dac28c6110534f6672be46b8c9bb7ac5bc64a1744",
+      "end": 1793688000,
+      "eligible_at": 1793688060,
+      "closed_at": {
+        "time": 1793688000,
+        "index": 108921,
+        "source_line": 109990
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-11-04_Night",
+      "id": "raw-price-clock:e1e4e7b360c95b1d46fb83142c1de8678c79ad08330aea1b74c60bb32a01c490",
+      "end": 1793825700,
+      "eligible_at": 1793825760,
+      "closed_at": {
+        "time": 1793825700,
+        "index": 256439,
+        "source_line": 256993
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-11-05_Day",
+      "id": "raw-price-clock:dded5cca96fc9b9230c6e28c34312405712324b93a5c757e1e2c7c786a87558b",
+      "end": 1793860800,
+      "eligible_at": 1793860860,
+      "closed_at": {
+        "time": 1793860800,
+        "index": 190999,
+        "source_line": 191829
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-11-05_Night",
+      "id": "raw-price-clock:174b2051bea5536eaf1ef91836079a4f33f70cca5cb24dd8e85f77d90b7ea7cf",
+      "end": 1793912100,
+      "eligible_at": 1793912160,
+      "closed_at": {
+        "time": 1793912100,
+        "index": 299893,
+        "source_line": 300629
+      },
+      "width_seconds": 300
+    },
+    {
+      "session": "2026-11-09_Day",
+      "id": "raw-price-clock:1f2f95c72cf3e3568b8234e8c981e708caca8195b61237cce812678c8125a05f",
+      "end": 1794206400,
+      "eligible_at": 1794206460,
+      "closed_at": {
+        "time": 1794206400,
+        "index": 185235,
+        "source_line": 187865
+      },
+      "width_seconds": 300
+    }
+  ],
+  "EOF_drop_only_5min": true,
+  "same_frame_IDs_and_observed_at_preserved": true,
+  "native_Source_type_validation": "別担当のoverlay検査へ分離",
+  "BB15_RVOL_delivered_window_may_differ_due_to_EOF": true,
+  "price_volume_warmup_not_only_latency": true,
+  "raw_read": false,
+  "new_Source_scan": false,
+  "financial_read_or_calculation": false,
+  "Source_executable_rebuilt_or_edited": false,
+  "code_sha256": "34d744dea09b5319f3012c50ff577310182757d410c42ee2c26e08fdad7fe3ac"
+}

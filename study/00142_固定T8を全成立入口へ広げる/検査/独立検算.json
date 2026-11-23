@@ -1,0 +1,122 @@
+{
+  "成功": true,
+  "確認日": "2026-11-12",
+  "試行": 142,
+  "段階": "方向と保存金融全表の独立再構成・停止",
+  "全origin独立再計算": {
+    "全752方向": 752,
+    "固定81保護": 81,
+    "全833入口": 833,
+    "全850relations": 850,
+    "全769query": 769,
+    "方向件数": {
+      "keep": 604,
+      "flip": 148
+    },
+    "段階別未知感度": {
+      "追加全3特徴既知": 582,
+      "追加に未知あり": 89,
+      "参考_全3既知を足した反転数": 129,
+      "主では反転_参考全3既知guardなら維持": 19
+    }
+  },
+  "全73場": true,
+  "全833保存入口": 833,
+  "全180比較": 180,
+  "統計セル": 4320,
+  "旧native対照同体": 120,
+  "全3表セル": 39685,
+  "phase既知quote照合数": 34133,
+  "主T0": {
+    "entries": 752,
+    "sessions": 73,
+    "complete": 699,
+    "censored": 53,
+    "forward": 319,
+    "adverse": 306,
+    "neither": 74,
+    "resolved": 625,
+    "resolved_rate": 0.5104,
+    "complete_rate": 0.4563662374821173,
+    "target70": false,
+    "target70_all": false,
+    "ifd_known": 735,
+    "ifd_unknown": 17,
+    "ifd_exits": {
+      "逆行到達": 326,
+      "期限清算": 74,
+      "観測不足": 17,
+      "順行到達": 335
+    },
+    "ifd_net0_sum": -23595,
+    "ifd_net5_sum": -758595,
+    "ifd_net5_mean": -1032.1020408163265,
+    "ifd_net5_profit": 4098280,
+    "ifd_net5_loss": 4856875,
+    "ifd_net5_pf": 0.8438100630549479,
+    "ifd_net5_positive": 360,
+    "ifd_points_mean": 0.4489795918367347,
+    "flips": 148
+  },
+  "Root_作者関数import": false,
+  "金融算術": "Fractionによる保存実BBO/Lastのtouch優先IFD独立再計算",
+  "入力前後同体": true,
+  "Raw_CSV本文_追加2場読取": false,
+  "正式142_旧源変更": false,
+  "準備時点": "Rootの主結果見出し、JSON構造と先頭表行のschema閲覧後に検査器準備。閾値/条件選定は行わない。",
+  "入力": {
+    "F0": {
+      "path": "work/142固定T8の拡張評価/F0方向前.json",
+      "sha256": "7ef0d3ddcc8c0618edd657a9d45b9e9971bb946f3c6803f2a5efe04466805509"
+    },
+    "F1": {
+      "path": "work/142固定T8の拡張評価/F1金融前.json",
+      "sha256": "2060e25bdf7dff165cedf1797500ca1644d1710f11e7cd84bf69d10362075a14"
+    },
+    "方向": {
+      "path": "work/142固定T8の拡張評価/方向票/全752の方向.json",
+      "sha256": "7c76a270325aeeb45fff97d4f549568d86920d3452f1d1f9d6e92b9d1988deb8"
+    },
+    "集計": {
+      "path": "work/142固定T8の拡張評価/金融評価/集計.json",
+      "sha256": "e5b0d87e1fde42619470fa9e6f06d1bdf91e74e9ff96a2af3dee9b889cc3f3c5"
+    },
+    "表": {
+      "path": "work/142固定T8の拡張評価/金融評価/CSV用の表.json",
+      "sha256": "aa478a32cf65bf8d62c4ecabe3a7245061395e1b0e259021f1328ab59713c189"
+    },
+    "model": {
+      "path": "work/142固定T8の全成立への方向票/固定条件.json",
+      "sha256": "abf6f27834ec1eaf38104f094337adc9da635abcc8ef157ee5aef378c1af8708"
+    },
+    "manifest": {
+      "path": "work/全成立poolの非金融manifest/manifest.json",
+      "sha256": "e7ba444fd66f9ca52e10e929eeb31d21076f97afa161de738dabca14a8ff8e35"
+    },
+    "queries": {
+      "path": "work/138全成立入口の評価/固定入力_版2/特徴照会.json",
+      "sha256": "81442c3ebaa3065213d0844417bb0462cfa3e5d0a05c4f44edfb3fb14191e75c"
+    },
+    "features": {
+      "path": "work/138全成立入口の評価/全出生の当時特徴.json",
+      "sha256": "c2b9b8efeb65ba22b2dac3147fdefa3b513cb5cc61cd69249864065f2fcca6e4"
+    },
+    "fixed": {
+      "path": "work/138全成立入口の評価/固定入力_版2/固定取得入力.json",
+      "sha256": "0c83e525dec3079ce188d942069c0d137c94f39009339752ec8227ec9ecb4ce7"
+    },
+    "pairs": {
+      "path": "work/138全成立入口の評価/固定取得の正逆観測.json",
+      "sha256": "d272fc6f6768342ff67e1a9ec58b0b7307a0a5b07cc215ba5ff7bcb50865b742"
+    },
+    "old_stats": {
+      "path": "work/138全成立入口と頻度の集計/集計.json",
+      "sha256": "6ef283db667603884b42260affce732ba5c9b31731d24b1bb18f9e96ee4b3486"
+    },
+    "old_tables": {
+      "path": "work/138全成立入口と頻度の集計/CSV用の表.json",
+      "sha256": "c8a83240c0345662353af42d5eeafa306bd68a710f53985be01dc0676c5f2f5d"
+    }
+  },
+  "独立コードSHA256": "0cc551754dbb6efff0e413237f1da5f646c636a62d6ef549be08ab1004a79bca"
+}

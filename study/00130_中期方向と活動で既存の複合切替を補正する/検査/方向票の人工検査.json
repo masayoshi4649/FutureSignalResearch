@@ -1,0 +1,14 @@
+{
+  "成功": true,
+  "主人工検査数": 8,
+  "command": [
+    "C:\\Python314\\python.exe",
+    "-X",
+    "utf8",
+    "人工検査.py"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_15分は厳密正 (__main__.Artificial.test_15分は厳密正)\n機能: 15分の0/逆/未知を支持に変えないことを確認する。 ... ok\ntest_B0の実体境界 (__main__.Artificial.test_B0の実体境界)\n機能: 実体比の下端/上端/未知の既存B0を確認する。 ... ok\ntest_B0基準への符号変換 (__main__.Artificial.test_B0基準への符号変換)\n機能: B0が元方向と逆の時に15/30分とHistを同じ基準へ変換する。 ... ok\ntest_T8の等号と未知 (__main__.Artificial.test_T8の等号と未知)\n機能: MA30の0以上/MACD比.1以上と未知fallbackを確認する。 ... ok\ntest_T8非反転には介入しない (__main__.Artificial.test_T8非反転には介入しない)\n機能: 活動が高くてもT8非反転局面から新方向を作らない。 ... ok\ntest_不正既知値は拒否 (__main__.Artificial.test_不正既知値は拒否)\n機能: 非有限/既知null/未知0を黙って支持へ変えないことを確認する。 ... ok\ntest_売買鏡像と部分集合 (__main__.Artificial.test_売買鏡像と部分集合)\n機能: 元向き符号特徴を保つ価格鏡像で全方向が反転することを確認する。 ... ok\ntest_活動の下端 (__main__.Artificial.test_活動の下端)\n機能: V1>=1/V2>=2の等号と部分集合を確認する。 ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n",
+  "市場入力読取": false
+}

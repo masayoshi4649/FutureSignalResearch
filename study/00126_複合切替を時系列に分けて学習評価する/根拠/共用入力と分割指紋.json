@@ -1,0 +1,34 @@
+{
+  "trial": 126,
+  "references": [
+    {
+      "repository_relative": "study/00124_逆行の原因と売買反転を同じ入口で検証する/成果物/全73場の正逆結果.json.gz",
+      "gzip_bytes": 71496,
+      "gzip_sha256": "6e4708e4911409ccab1ef854b247a0e0d69e6e557d0e1ce20ab68379e0e0b5a6",
+      "decoded_bytes": 2143746,
+      "decoded_sha256": "25517066b291a0434211190299b9f0195e67f9a7d2e89c801d5b9e6b4b51c3a1"
+    },
+    {
+      "repository_relative": "inputs/00124_同入口正逆の共用入力/全79例の当時特徴.json.gz",
+      "gzip_bytes": 198856,
+      "gzip_sha256": "c68526a9954fccf74969bfe669559c6e89c71b4c7a19ddb7cbf159347020a03d",
+      "decoded_bytes": 2077049,
+      "decoded_sha256": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774"
+    },
+    {
+      "repository_relative": "inputs/00125_条件付き反転/choices.json.gz",
+      "gzip_bytes": 7004,
+      "gzip_sha256": "86c3e532679423275a26d8ed82853bd7220f33b60cb342a66f9ed0ac80d3ad97",
+      "decoded_bytes": 142907,
+      "decoded_sha256": "16577b438f2de650c4398b313c2212fa124e812aea278e4dc00c529ffcb4c0a3"
+    }
+  ],
+  "generated_inputs_not_duplicated": true,
+  "training_bytes": 2748212,
+  "training_sha256": "251fd25f75510a98efc30535df0493a60a07c09edfc44d1c16a4d887681b6ca7",
+  "validation_bytes": 1348617,
+  "validation_sha256": "b11f5c671e54ba0e1efbda3adf47db0a8af7e12046e02364b37508041ba943b1",
+  "recipe": "入力を分割する.py。固定48/25場でjoinのみ。",
+  "tables_regenerated_not_duplicated": true,
+  "tables_sha256": "f48f2fa944960d27331f6a80f9f2ea274c1473b3991d7402074292b47620bd57"
+}

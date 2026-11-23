@@ -1,0 +1,14 @@
+{
+  "成功": true,
+  "主人工検査数": 8,
+  "command": [
+    "C:\\Python314\\python.exe",
+    "-X",
+    "utf8",
+    "人工検査.py"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_15分MAとT8枝が必要 (__main__.Artificial.test_15分MAとT8枝が必要)\n機能: MAの0/逆/未知又はT8非反転では新しい向きを作らない。 ... ok\ntest_B0とT8の固定境界 (__main__.Artificial.test_B0とT8の固定境界)\n機能: B0実体比とT8の既定等号・未知を再現する。 ... ok\ntest_B0基準への全符号変換 (__main__.Artificial.test_B0基準への全符号変換)\n機能: B0が元向きと逆でも15Hist/増分を他指標と同じ基準へ変換する。 ... ok\ntest_H1の追加増分 (__main__.Artificial.test_H1の追加増分)\n機能: 主を保ちながら副は増分が厳密正の時だけ復帰する。 ... ok\ntest_Hist15は厳密正 (__main__.Artificial.test_Hist15は厳密正)\n機能: 負/0/未知はT8維持、正は主H0の復帰となることを確認する。 ... ok\ntest_RVOLは判断へ使わない (__main__.Artificial.test_RVOLは判断へ使わない)\n機能: 活動の未知/0/大小でH0/H1が変わらず、記録だけ残ることを確認する。 ... ok\ntest_不正既知値は拒否 (__main__.Artificial.test_不正既知値は拒否)\n機能: 非有限/真偽値/既知null/未知0を黙って計算しない。 ... ok\ntest_売買鏡像と部分集合と非改変 (__main__.Artificial.test_売買鏡像と部分集合と非改変)\n機能: 鏡像・副⊆主・元の特徴非改変を確認する。 ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.002s\n\nOK\n",
+  "市場入力読取": false
+}

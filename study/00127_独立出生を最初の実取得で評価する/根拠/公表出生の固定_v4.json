@@ -1,0 +1,32 @@
+{
+  "成功": true,
+  "版": "独立出生事前案v4",
+  "固定UTC": "2026-11-10T18:11:29.809050+00:00",
+  "条件SHA256": "4a683e1e23795438b627c5daf6d62f982b17a5a2638c65d36df2f0a43ebbc12a",
+  "コード文書": {
+    "work\\126独立出生の事前案\\条件_v4.md": "4a683e1e23795438b627c5daf6d62f982b17a5a2638c65d36df2f0a43ebbc12a",
+    "work\\126独立出生の事前案\\v4を準備する.py": "c657a61f1e8fbad092dbd220398c110e7a41591cb627c99d0ae3d99fbd41756c",
+    "work\\126独立出生の事前案\\残る場を診断する.py": "544802770b2e91ccee2612dd108a73ba14dbfe1ee2d9ace7ad6c525b1c4e59b1",
+    "work\\126独立出生の事前案\\残るNightの事後診断.json": "97dd7ad4f371c80182755702f81cec7e9afc2872519b63bc23071a5bc1f53d63",
+    "work\\126独立出生の事前案\\v4\\main.go": "854ca60502426c3c7f1928b7b7ac1a45f498c1c7c7e0792b7b5e75cd6f1f47a0",
+    "work\\126独立出生の事前案\\v4\\main_test.go": "e631e74e9e6b0eb5be10c147b9daed6e2d0848097d4b75ae1db7ab8c6f966495",
+    "work\\126独立出生の事前案\\v4\\v2_test.go": "fc4eeb7bff38523915995f05ed0e889ff728d797ae14e0a4541bfe9e461f223b",
+    "work\\126独立出生の事前案\\v4\\v3_test.go": "d4d7c0ecea09484a4f9c2549ab8260aeffee594ac600902bad3c6b33f6d9803a",
+    "work\\126独立出生の事前案\\v4\\v4_test.go": "c98056e280f9da33840dc3c229c3a1270ab68f8188f928fdd42f0251247c4a9a",
+    "work\\126独立出生の事前案\\v4\\go.mod": "63dda52069ac339eca1ca62d307069ab1f0243f31f663b74e450fa53bf8e3637"
+  },
+  "v3固定SHA256": "5d1ee8c07f2abcb0d228b53cf5f52e5377a58eec5cfea33558e7fddc8b8f3b88",
+  "v3出生SHA256": "8447f5cd18069dc0edcbf4b0fc34da3e2d68dc045c4867c18c5b70ecf9250192",
+  "入力SHA256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+  "既存Bank依存": {
+    "work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+  },
+  "人工検査": "go test -count=1 ./...（継承6+追加2）/go vet ./... 成功",
+  "勝敗使用": false,
+  "Raw読取": false,
+  "開始時刻fallback": false,
+  "注記": "v3の0場とpub-only整場/局所診断を踏まえたT背景手順変更とQ追加。v4件数/勝敗の計算前。整場統計をsignalへ使わない。"
+}

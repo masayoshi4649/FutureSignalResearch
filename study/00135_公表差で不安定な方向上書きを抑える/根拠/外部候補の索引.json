@@ -1,0 +1,62 @@
+{
+  "success": true,
+  "status": "未実行・未採用の差分候補",
+  "date_jst": "2026-11-12",
+  "formal_trial_number": null,
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "id": "E1",
+      "name": "順行背景から押戻し履歴と回復を接続",
+      "sequence": [
+        "30背景",
+        "15押戻しHist位相を保存",
+        "後の5公表でHist改善",
+        "後続1分の凍結K回復と現在維持"
+      ],
+      "new_difference": "接触前Hist正を必須にせず、接触後の新公表を改善へ束縛",
+      "overlap": [
+        "119接触→確認→再試験",
+        "129C1/C3"
+      ]
+    },
+    {
+      "id": "E2",
+      "name": "元方向失速から失敗突破と確認足量へ",
+      "sequence": [
+        "旧方向進行",
+        "15Hist旧符号の縮小を保存",
+        "後の5分失敗突破/回復と同足量",
+        "後続1分維持"
+      ],
+      "new_difference": "15分位相を保存し、価格回復とその足の量を時点結合",
+      "overlap": [
+        "120P2/P2plus",
+        "119反転確認",
+        "129C2"
+      ]
+    },
+    {
+      "id": "E3",
+      "name": "低強度収束から実際の突破と再試験へ",
+      "sequence": [
+        "BB/ATR収束を保存",
+        "凍結レンジを後の5分終値で突破",
+        "同足量/勢い",
+        "別の後続1分が再試験維持"
+      ],
+      "new_difference": "方向をMAで先決めせず、突破後の別足再試験を待つ",
+      "overlap": [
+        "120P3/P3plus",
+        "119再試験",
+        "129C3"
+      ]
+    }
+  ],
+  "buy_sell_symmetric": true,
+  "same_time_vs_sequence_separated": true,
+  "source_claim_psychology_proposal_separated": true,
+  "thresholds_optimized_to_past": false,
+  "full73_coverage_proven": false,
+  "new_finance_or_Raw": false
+}

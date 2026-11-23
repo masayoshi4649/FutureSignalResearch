@@ -1,0 +1,75 @@
+{
+  "成功": true,
+  "試行": 144,
+  "編集停止": true,
+  "作業": "旧32保存票と新329取得の同原行集合差追補",
+  "旧保存票": 32,
+  "同原行取得一致": 31,
+  "欠落": 1,
+  "欠落session": "2026-10-27_Night",
+  "欠落id": "2026-10-27_Night/補完/L0/31751",
+  "先行旧新技術票全値一致": true,
+  "旧同キー失効後再要求": true,
+  "新出生時消費で同キー再要求なし": true,
+  "検査": [
+    "全32と新329の取得原行突合",
+    "一致31はQuote全値/native/T8一致",
+    "欠落1の旧先行要求と新同キー要求のDecision/Direction/出生Quote/期限/status同体",
+    "旧再要求の出生Quote=新失効確認Quote",
+    "旧再要求9秒後取得とTTL内",
+    "元6ファイルSHA前後一致",
+    "Python構文"
+  ],
+  "原板再読": false,
+  "新金融参照": false,
+  "全32Snapshot再構築": false,
+  "新条件採用": false,
+  "固定Source変更": false,
+  "入力": {
+    "旧32保存票": {
+      "path": "work/144旧Strong32保存票の回帰/旧Strong32の保存票.json",
+      "sha256": "faad4a3d3fbdcd62f0649bca11f35108e851b51f2be84e137d5784ed749c6106",
+      "照合後SHA256": "faad4a3d3fbdcd62f0649bca11f35108e851b51f2be84e137d5784ed749c6106"
+    },
+    "旧137Source": {
+      "path": "work/137既知回復の評価/Sourceの出生と取得.json",
+      "sha256": "d5c2e8e772e1658015d82497760b56ef40d6cae07da40eb8f148f601795628e5",
+      "照合後SHA256": "d5c2e8e772e1658015d82497760b56ef40d6cae07da40eb8f148f601795628e5"
+    },
+    "旧137metadata": {
+      "path": "work/137既知回復の評価/固定入力/方向と出生.json",
+      "sha256": "86f33705ba40fd3ba1b845557a2368e44c2802635082fc3bad69346770103f93",
+      "照合後SHA256": "86f33705ba40fd3ba1b845557a2368e44c2802635082fc3bad69346770103f93"
+    },
+    "新144Source": {
+      "path": "work/144旧strongの全成立評価/Sourceの出生と取得.json",
+      "sha256": "03b20f5a2181ce2eabae04ca650f235d8a039a9112747a0ea7197a704cc2b73e",
+      "照合後SHA256": "03b20f5a2181ce2eabae04ca650f235d8a039a9112747a0ea7197a704cc2b73e"
+    },
+    "旧133要求処理": {
+      "path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry.go",
+      "sha256": "1c4de9282190e2a3c00c86f8a80ef9568ac329e5c24fe8948e0098fb4058652f",
+      "照合後SHA256": "1c4de9282190e2a3c00c86f8a80ef9568ac329e5c24fe8948e0098fb4058652f"
+    },
+    "新144要求処理": {
+      "path": "work/144旧P3strongの全成立/entry.go",
+      "sha256": "a9934447a1ab4bf5f12c8b08d6178ca31a664909eb2a3fdcd3ce8fa6029b05ae",
+      "照合後SHA256": "a9934447a1ab4bf5f12c8b08d6178ca31a664909eb2a3fdcd3ce8fa6029b05ae"
+    }
+  },
+  "停止対象": {
+    "取得集合差を照合する.py": {
+      "bytes": 8392,
+      "sha256": "bc0d9415d9c5bd536c48ae4d0da26e7629574074835e44cdc57e15774e2ce3cd"
+    },
+    "旧32と新329の取得集合差.json": {
+      "bytes": 18608,
+      "sha256": "fd7e99ee5042bf5962677c11e075f75e5bbe45cc1023f2ba3c63e8c90365628d"
+    },
+    "欠けた旧1件と出生消費.md": {
+      "bytes": 3266,
+      "sha256": "2355f32cd75359aff188f53aac7772438ba3dedcc7357a4348b863740d38206c"
+    }
+  },
+  "限界": "保存集合と要求履歴・固定コード契約の説明。中間原行の正常BBO列や金融の良否はこの追補で検証しない。"
+}

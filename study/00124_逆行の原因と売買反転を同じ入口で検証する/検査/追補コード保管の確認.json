@@ -1,0 +1,67 @@
+{
+  "成功": true,
+  "試行": 124,
+  "前後同体": true,
+  "ZIP全entry再読": true,
+  "F1コード変更": false,
+  "目的": "金融後の独立検算・保存・文書化。金融の再実行なし。",
+  "zip": {
+    "path": "検算と保存の追補コード.zip",
+    "bytes": 22480,
+    "SHA256": "b8c5158ddbf128df77594f61a04af60cc9c811a712201f488d5492f948f6d5e0"
+  },
+  "entries": [
+    {
+      "entry": "work/124正式文書を仕上げる.py",
+      "restore_relative": "work/124正式文書を仕上げる.py",
+      "bytes": 24618,
+      "SHA256": "5f013e6b88a93868673f6e32782ae7bccf4ced54eb1bf7e1fbd31ea4239066ab",
+      "CRC32": "a698e95a"
+    },
+    {
+      "entry": "work/124正逆の独立検算/README.md",
+      "restore_relative": "work/124正逆の独立検算/README.md",
+      "bytes": 3384,
+      "SHA256": "cdf88eb992afac74b7f105545eb7e17bbd9a07068ec6d219cc2260d227ed1a4a",
+      "CRC32": "de9035d6"
+    },
+    {
+      "entry": "work/124正逆の独立検算/完了.json",
+      "restore_relative": "work/124正逆の独立検算/完了.json",
+      "bytes": 707,
+      "SHA256": "dab51db0bcdfd5ee77e8ab3d163c51d64ec2064755b2111f32689be9f7b1d3f5",
+      "CRC32": "e6781479"
+    },
+    {
+      "entry": "work/124正逆の独立検算/検算する.py",
+      "restore_relative": "work/124正逆の独立検算/検算する.py",
+      "bytes": 18495,
+      "SHA256": "0305f507a74f9728fbdb1ecabe406a3bfcb2f8657a4d1ee2556ca50dbe6585be",
+      "CRC32": "5f65824a"
+    },
+    {
+      "entry": "work/124結果を保管する.py",
+      "restore_relative": "work/124結果を保管する.py",
+      "bytes": 4449,
+      "SHA256": "af4a85207561bb19ee5d01b053664a26a0479fe2b3522ab2989ddc772f9347bf",
+      "CRC32": "dcb53d30"
+    },
+    {
+      "entry": "work/124追補を保存する.py",
+      "restore_relative": "work/124追補を保存する.py",
+      "bytes": 3627,
+      "SHA256": "5d9ae86f45a9163dfd2de0f8b178c7bb54ed98a9593dbdd6981138cef826773a",
+      "CRC32": "19c9da43"
+    }
+  ],
+  "独立検算proof": {
+    "path": "../検査/独立検算.json",
+    "SHA256": "dd4754899cad43cbc97cb5fda9b1bbbdecdb0d36de0fc7037bf927c628b8e4d8"
+  },
+  "独立checker外部コード依存": false,
+  "説明例": {
+    "path": "../根拠/説明用の二例.json",
+    "SHA256": "fb367d9a095f1e28da3722023cb4d642cae9fe83a18a8051b441b344243e6451",
+    "用途": "最初の該当例の事後説明のみ。閾値/政策変更なし"
+  }
+}

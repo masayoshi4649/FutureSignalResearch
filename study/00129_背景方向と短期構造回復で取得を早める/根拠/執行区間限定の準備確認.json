@@ -1,0 +1,146 @@
+{
+  "成功": true,
+  "試行": 129,
+  "状態": "執行区間限定・金融前準備完了",
+  "自然129Raw/出生/入力/金融結果読取": false,
+  "自然金融再生": false,
+  "旧未限定129変更": false,
+  "旧128変更": false,
+  "コード編集停止": true,
+  "旧後段準備proofSHA256": "40f0e4f1f971ac2b85b52c467b9ecc67130f8abe3212b9be490416d0340180e7",
+  "差分": {
+    "旧同体": [
+      "cmd\\run\\main.go",
+      "engine_test.go",
+      "go.mod",
+      "kernel_test.go",
+      "minimum_risk_test.go",
+      "reader.go",
+      "stream.go",
+      "types.go"
+    ],
+    "旧から変更": [
+      "chart_outcome.go",
+      "core.go",
+      "engine.go",
+      "outcome.go"
+    ],
+    "追加": [
+      "phase.go",
+      "phase_test.go"
+    ],
+    "技術閾値変更": false,
+    "費用/先着/IFD式変更": false
+  },
+  "境界": {
+    "execution_end": "session.end−300、指定時は一致必須、省略時導出",
+    "effective_force_close": "min(source.force_close,execution_end−120)",
+    "観測": "q.Time>=execution_endを除外、pendingだけphase_censored",
+    "既知touch": "保持、未touch未完了は未知",
+    "Raw品質": "全Session.Endまで既存11項目/採用数/全出生/hash/stat認証"
+  },
+  "旧入力互換": "Top trial未使用。旧128即時Input474455be28a60248c7418fd69e123297738f6f782648b9c52aab076384e3c384を同じbytesで使用可能。今回自然Inputは開いていない。",
+  "時計の限界": "CurrentPriceTimeのみ。2分bufferは受信時刻/BBO更新時計を復元するものではない。",
+  "制度参照": {
+    "URL": "https://www.jpx.co.jp/derivatives/rules/trading-hours/",
+    "確認日": "2026-11-11"
+  },
+  "人工検査": {
+    "go test -count=1 ./...": {
+      "exit_code": 0,
+      "主検査数": 13,
+      "主検査名": [
+        "TestRequestDelayMirrorAndRiskBoundary129",
+        "TestFirstNormalRejectionsAndTTL129",
+        "TestBirthScanStampPlainGzipAndSource129",
+        "TestBirthZeroQualityValidationAndBoundaries129",
+        "TestRunBirth73Artificial129",
+        "TestFixedClockPricesAndSpread129",
+        "TestDeadlineKernelAndChartMoney129",
+        "TestGapAndNormalQuoteParity129",
+        "TestMinimumRiskMirror129",
+        "TestPhaseSceneLimits129",
+        "TestPhaseObservationBoundaryMirror129",
+        "TestPhaseKnownTouchRetained129",
+        "TestPhaseScanKeepsAllRawQuality129"
+      ]
+    },
+    "go vet ./...": {
+      "exit_code": 0
+    },
+    "go build -o 独立出生の再生.exe ./cmd/run": {
+      "exit_code": 0
+    }
+  },
+  "独立レビュー": "review119がphase/gap/touch/endpoint/未知/全Raw品質の主要差分を確認、Go13/vet成功・重大齟齬なしと通知。最終SHA同体は別途依頼。",
+  "ファイル": {
+    "chart_outcome.go": {
+      "bytes": 1610,
+      "sha256": "b1f55f39d578f02f83df61da97bdae9a81f8546a7d9c223db9d0e67a7e6ab76f"
+    },
+    "cmd\\run\\main.go": {
+      "bytes": 553,
+      "sha256": "db10be7040ffb195f78389011c8d2a964e6f1beef19f04093e3ca6d2206ed8b5"
+    },
+    "core.go": {
+      "bytes": 6223,
+      "sha256": "1305747a028fc6a69ccc6f5d42adc68ab0f915a7f87012f12857f127f1b2fb96"
+    },
+    "engine.go": {
+      "bytes": 10784,
+      "sha256": "ee4f96a0ee8af18327a1d719145bc383fd753196b3616e08c77c9c7db412179f"
+    },
+    "engine_test.go": {
+      "bytes": 14778,
+      "sha256": "d595bd58fe92d7ac4e91351c3d48c8e79187dc9447a7b1d9861aaeff7c52ff71"
+    },
+    "go.mod": {
+      "bytes": 41,
+      "sha256": "70b9538ec4a7d9b3706937650d2543edef6c222378ba095aecc5cfea73254d26"
+    },
+    "kernel_test.go": {
+      "bytes": 4460,
+      "sha256": "b39bb441a12ef4afcd5485d94bf70053c6c5fab1c677d274df81613a01108f35"
+    },
+    "minimum_risk_test.go": {
+      "bytes": 1092,
+      "sha256": "837f057f7a747cd1baf9c540324ed7cbc359e1fd04718d722d8b35a914f31e18"
+    },
+    "outcome.go": {
+      "bytes": 1627,
+      "sha256": "c9cba22605655eadb7fcd2f94edcb36202d15061c8d31dc0e51f543d938bb3ee"
+    },
+    "phase.go": {
+      "bytes": 1796,
+      "sha256": "fb233fc62dbe7bc80d0802c49ecafcfe66aea4148c53e663b7e9ed204784adaf"
+    },
+    "phase_test.go": {
+      "bytes": 8671,
+      "sha256": "c1f62b19e6e449e8ea5325a5a92af12f6ab6d0314a691866285f621e2e2490f9"
+    },
+    "reader.go": {
+      "bytes": 14851,
+      "sha256": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a"
+    },
+    "README.md": {
+      "bytes": 4862,
+      "sha256": "53d35acf0bf6c636ca691bcc00007332e43a713b27175d5778f0a19f593e7719"
+    },
+    "stream.go": {
+      "bytes": 754,
+      "sha256": "2c424e73a6cc64e49c831be8231b6bd51216e2771ada40b130e244b6241c8708"
+    },
+    "types.go": {
+      "bytes": 6443,
+      "sha256": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4"
+    },
+    "旧未限定129からの由来.json": {
+      "bytes": 3073,
+      "sha256": "fd6fcaba5b04c414bde99df60d37c0b0802aa5ab7271aef5dd69209410af9795"
+    },
+    "独立出生の再生.exe": {
+      "bytes": 3666944,
+      "sha256": "3669ef574eb0feb94780dcd7c6e6ea9182143e768870bc7aa343e168c5560b5e"
+    }
+  }
+}

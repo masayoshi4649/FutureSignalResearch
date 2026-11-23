@@ -1,0 +1,31 @@
+{
+  "成功": true,
+  "試行": 127,
+  "自然Raw出生入力再生結果未読": true,
+  "金融集計未実行": true,
+  "人工のみ": true,
+  "主人工検査数": 4,
+  "commands": [
+    {
+      "command": [
+        "C:\\Python314\\python.exe",
+        "work\\127独立出生の集計\\人工検査.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_direction_tie_skips_whole_raw (__main__.Artificial127.test_direction_tie_skips_whole_raw)\n機能: 両side同riskは同Rawの他modeへ降格せず次Rawへ進む。 ... ok\ntest_earliest_clock_then_mode_risk_and_id (__main__.Artificial127.test_earliest_clock_then_mode_risk_and_id)\n機能: 未来R非優先、同Rawmode優先、最小risk、同sideIDを検査する。 ... ok\ntest_full_73_650_mirror_unknown_and_touch (__main__.Artificial127.test_full_73_650_mirror_unknown_and_touch)\n機能: 全73/650・鏡像・既知touch優先・Last金額nil・140表を検査する。 ... ok\ntest_zero_scene_kept_and_malformed_refused (__main__.Artificial127.test_zero_scene_kept_and_malformed_refused)\n機能: 0出生/0取得も73分母、未知金額はnull、riskとSource不整合は拒否する。 ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.528s\n\nOK\n"
+    }
+  ],
+  "ソース前後指紋": {
+    "work\\127独立出生の集計\\条件.md": "c0e39b4a565c6e25cd2c54ec6877a644bb5b5bea9fa8d86c7e282b01b4716b9d",
+    "work\\127独立出生の集計\\集計する.py": "138606bebdeb4cf7dab0f9621bca8477bccf05ff23f25544805b3add0cd172de",
+    "work\\127独立出生の集計\\人工検査.py": "8c23ea26bd1c8e2ba351a88e0de43ebd5349d63ee25aa06fd329d17b60a22887",
+    "work\\124入口の原因分析\\集計する.py": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a"
+  },
+  "人工全73場650出生": true,
+  "人工140比較と全取得全73表": true,
+  "未知0埋めなし": true,
+  "Last金額null": true,
+  "鏡像": true,
+  "同Raw方向未解決": true
+}

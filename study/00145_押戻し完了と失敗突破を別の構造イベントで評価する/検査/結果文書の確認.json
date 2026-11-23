@@ -1,0 +1,249 @@
+{
+  "成功": true,
+  "試行": 145,
+  "状態": "正式結果反映・編集停止",
+  "更新対象": [
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/README.md",
+      "bytes": 11414,
+      "sha256": "b503ee1a9c9e15d18cbfa5a1ec36ad53d74158fc264ba9419f3b61b56f3cb668"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/条件.md",
+      "bytes": 16874,
+      "sha256": "10a2bcd01b2e59d42b50efa8009e4c8c53b12abf4b016fcea550f0c0847aa95d"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/設定と結果.md",
+      "bytes": 24850,
+      "sha256": "3c6070c789592671667dbc2603f8435149f451456cfd49f9a3307f0dede75a2e"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/閲覧資料.md",
+      "bytes": 2672,
+      "sha256": "0216966d4bd36f899dfdb8339e8bdf7b136acbee3e4ab18c5ab421ebd22b8330"
+    },
+    {
+      "path": "study/README.md",
+      "bytes": 90464,
+      "sha256": "998eb9dd18001b58e7b56ce1eed100b049386f4a22aec61788a21502addf42de"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 102639,
+      "sha256": "ebb6e3f2bb23c1e4668c6ed1efc12a5e416f90d14556adfda07e78b22eee31a4"
+    },
+    {
+      "path": "docs/議論/README.md",
+      "bytes": 87654,
+      "sha256": "d1f5454bf4c31643ba872b741386193212ddd6e4d5354c545a59443de3e73ce9"
+    }
+  ],
+  "入力": [
+    {
+      "path": "work/145構造イベントの評価/金融評価/集計.json",
+      "bytes": 370624,
+      "sha256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861"
+    },
+    {
+      "path": "work/145全episodeの非金融診断/状態遷移のどこで減ったか.md",
+      "bytes": 5069,
+      "sha256": "231f94f6e9ef974f6cdaefa895af7d5c81e3a9c7f44e124ddd7b7fa4d7b8be74"
+    }
+  ],
+  "元正式3SHA": {
+    "README.md": "a96eb9d5817b74533d4b25968b9c962df11f09f3b8b45f4437cec192dfa16cb5",
+    "条件.md": "75d49527b555ef9c459683f1e444a0a70ec06aafa4803256fb29f5ad32ea6c9d",
+    "設定と結果.md": "9b261978e35e46cd855de31826514159620068febf7e173d45ecfbe026ed76c9"
+  },
+  "条件prefix完全同体": true,
+  "設定原文は状況注記を除き完全prefix同体": true,
+  "汎用表": {
+    "版": 7,
+    "行": 57,
+    "尺度": 9,
+    "セル": 513,
+    "全行文字同体": true
+  },
+  "主数値": {
+    "entries": 87,
+    "sessions": 73,
+    "complete": 81,
+    "censored": 6,
+    "forward": 42,
+    "adverse": 18,
+    "neither": 21,
+    "resolved": 60,
+    "resolved_rate": 0.7,
+    "complete_rate": 0.5185185185185185,
+    "target70": true,
+    "target70_all": false,
+    "ifd_known": 84,
+    "ifd_unknown": 3,
+    "ifd_exits": {
+      "期限清算": 21,
+      "順行到達": 43,
+      "逆行到達": 20,
+      "観測不足": 3
+    },
+    "ifd_net0_sum": 294532,
+    "ifd_net5_sum": 210532,
+    "ifd_net5_mean": 2506.3333333333335,
+    "ifd_net5_profit": 544996,
+    "ifd_net5_loss": 334464,
+    "ifd_net5_pf": 1.6294608687332568,
+    "ifd_net5_positive": 52,
+    "ifd_points_mean": 35.833333333333336,
+    "flips": 0
+  },
+  "主評価": {
+    "主": "U0/union/全73場/実BBO/H60/±125pt",
+    "全73場最低1取得": true,
+    "到達済み先着70%以上": true,
+    "全時間平均1件毎時以上": false,
+    "三項目すべて達成": false,
+    "順": 42,
+    "逆": 18,
+    "未到達": 21,
+    "全H不足": 6,
+    "到達済み率": 0.7,
+    "完了分母率": 0.5185185185185185,
+    "全件分母率": 0.4827586206896552,
+    "全時間平均件数毎時": 0.12067969020922438,
+    "参加": {
+      "対象場数": 73,
+      "取得数": 87,
+      "取得場数": 73,
+      "未取得場数": 0,
+      "未取得場": [],
+      "全場最低1取得": true
+    }
+  },
+  "保護対象前後同体": [
+    {
+      "path": "work/145構造イベントの評価/金融評価/集計.json",
+      "bytes": 370624,
+      "sha256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861"
+    },
+    {
+      "path": "study/00145_押戻し完了と失敗突破を別の構造イベントで評価する/成果物/集計.json",
+      "bytes": 370624,
+      "sha256": "fb374d53982ce7727c5ae936d72a20a973029de35480ed442a6cb2305fc9c861"
+    },
+    {
+      "path": "work/145_構造イベント入口の採用仕様.md",
+      "bytes": 11949,
+      "sha256": "38d1cc08e15438af669d318a9abd43814c590c48eadc1c8bb7ea0c255158f6b3"
+    },
+    {
+      "path": "work/145構造イベントと旧対照を固定取得へ渡す.py",
+      "bytes": 11141,
+      "sha256": "92809e1b131b06d77d9c04fef2dfabdf98bf15ab07ecdfa28a99c07a50009933"
+    },
+    {
+      "path": "work/145出生と金融を分離して実行する.py",
+      "bytes": 6612,
+      "sha256": "66aa795c84999898e30723680bff32f6fabea590658ee737cc535533dd899926"
+    },
+    {
+      "path": "work/145構造イベントの金融集計/集計する.py",
+      "bytes": 23822,
+      "sha256": "7016e00b339e62f56c1878c9c4e1ef3e297c2faa2d7d5cd0b9fcbb52bdfa3c74"
+    },
+    {
+      "path": "work/145構造イベントの評価/固定入力/固定取得入力.json",
+      "bytes": 93140,
+      "sha256": "d2becb3b1d6de656a6cc3f04d576d95d99693dfc42efc03582ed04d2be8784e8"
+    },
+    {
+      "path": "work/145構造イベントの評価/固定入力/入口参照.json",
+      "bytes": 320958,
+      "sha256": "3a3a144c478fa45f85e03ad4b8e4461e420592da24088458c7aa1cb748c8eb8d"
+    },
+    {
+      "path": "work/145構造イベントの入口/entry.go",
+      "bytes": 21595,
+      "sha256": "d1f5a164e56c270c69c5eedf3f2240ef521ac7168f26903037e5a5ed2056c7f2"
+    },
+    {
+      "path": "work/145構造イベントの入口/entry_test.go",
+      "bytes": 19098,
+      "sha256": "8b2c16ccc64e6999fae32c98448eec49600e6ebba91761e2c7451551581bfda9"
+    },
+    {
+      "path": "work/145構造イベントの入口/go.mod",
+      "bytes": 264,
+      "sha256": "2dfdc346c352164b487c1d1985db9a5e3de62fa63b5ee8bd6740825afbfee4e2"
+    },
+    {
+      "path": "work/145構造イベントの入口/history.go",
+      "bytes": 1384,
+      "sha256": "58147116b59262594e466583c6a241294e9166bdbc770377268cf8a33f2e501d"
+    },
+    {
+      "path": "work/145構造イベントの入口/reader.go",
+      "bytes": 3579,
+      "sha256": "e47622638858321da9727b30ac5cff58acd6a01193a2c22c4e11e2ac50e617f4"
+    },
+    {
+      "path": "work/145構造イベントの入口/scanner.go",
+      "bytes": 9206,
+      "sha256": "bbf381eb17a521330da5a4189528c96723216143748eb1cae0e0663854dc29e9"
+    },
+    {
+      "path": "work/145構造イベントの入口/stream.go",
+      "bytes": 757,
+      "sha256": "01fc123d6c6b72f38fb15be724d2587f342e8e2d665cb80c6b6c56debac0eae5"
+    },
+    {
+      "path": "work/145構造イベントの入口/types.go",
+      "bytes": 1311,
+      "sha256": "18fd8079a356aaa370930ef616767594e1166e0da80df89e1fe4f0dd3912e982"
+    },
+    {
+      "path": "work/145構造イベントの入口/validation.go",
+      "bytes": 3365,
+      "sha256": "412ac846476bf9b6521520cfb9edb80fbd62c2bf2bc3e909032257094c5e827f"
+    },
+    {
+      "path": "work/145構造イベントの入口/構造イベント生成.exe",
+      "bytes": 3783680,
+      "sha256": "1277f1d5feae7c90735669583904a470d713ba7a97c50da2042aa9abc6c9386a"
+    },
+    {
+      "path": "work/145構造イベントの入口/cmd/run/main.go",
+      "bytes": 1589,
+      "sha256": "7d8ef4298888b2dbfd6137d627244da66d426f23c6af14da4c6f25d6bcab6eaa"
+    },
+    {
+      "path": "study/00144_旧P3のstrongを全時間で評価する/README.md",
+      "bytes": 9071,
+      "sha256": "390fabdbefdbaae8d2f02ccd1a88b3828d8f8fe83a1d0fee0088950801aa4e21"
+    },
+    {
+      "path": "study/00144_旧P3のstrongを全時間で評価する/再現手順.md",
+      "bytes": 7945,
+      "sha256": "1c7586dff14f7b8e2531341920d10e6ab6da7c2b31ad53eddbf980dd225f588d"
+    },
+    {
+      "path": "study/00144_旧P3のstrongを全時間で評価する/条件.md",
+      "bytes": 15609,
+      "sha256": "378255846c6a8a73942067b339a30bd4f4b89804524204313b2730fb37d2b641"
+    },
+    {
+      "path": "study/00144_旧P3のstrongを全時間で評価する/設定と結果.md",
+      "bytes": 22804,
+      "sha256": "ef87ba0068f91de66b4c754028bd78c44fb7e91ac12a7d7e4dcea6f58ba03834"
+    },
+    {
+      "path": "study/00144_旧P3のstrongを全時間で評価する/閲覧資料.md",
+      "bytes": 1814,
+      "sha256": "ff8c75aa01f883889cecaaa4d79d8f5d70c4263285979b38dfbeb85b11202315"
+    }
+  ],
+  "CSV再生成": false,
+  "Source金融の再計算": false,
+  "Raw価格CSV追加2場読取": false,
+  "F0F1原文退避確認": true,
+  "金融値は指定SHA正本から参照": true
+}

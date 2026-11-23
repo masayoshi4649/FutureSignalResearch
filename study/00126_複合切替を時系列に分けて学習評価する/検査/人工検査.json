@@ -1,0 +1,30 @@
+{
+  "成功": true,
+  "試行": 126,
+  "人工のみ": true,
+  "自然金融入力の分割学習評価未実行": true,
+  "主検査数": 4,
+  "command": [
+    "python",
+    "work\\126複合切替の探索\\人工検査.py"
+  ],
+  "exit_code": 0,
+  "stdout_人工値のみ": "{\"成功\": true, \"モデルSHA256\": \"2e32f6539e0ee6fdce77a70dd7e58005c698fc69fbfae8b1df738e45dea57af7\", \"T8\": \"B0\", \"T6\": \"B0\", \"評価入力を開いたか\": false}\n{\"成功\": true, \"主評価\": {\"entries\": 26, \"sessions\": 25, \"complete\": 26, \"censored\": 0, \"forward\": 12, \"adverse\": 14, \"neither\": 0, \"resolved\": 26, \"resolved_rate\": 0.46153846153846156, \"complete_rate\": 0.46153846153846156, \"target70\": false, \"target70_all\": false, \"ifd_known\": 26, \"ifd_unknown\": 0, \"ifd_exits\": {\"逆行到達\": 14, \"順行到達\": 12}, \"ifd_net0_sum\": -68002.0, \"ifd_net5_sum\": -94002.0, \"ifd_net5_mean\": -3615.4615384615386, \"ifd_net5_profit\": 215076.0, \"ifd_net5_loss\": 309078.0, \"ifd_net5_pf\": 0.6958631801681129, \"ifd_net5_positive\": 12, \"ifd_points_mean\": -25.384615384615383, \"flips\": 10}, \"全体参考\": {\"entries\": 79, \"sessions\": 73, \"complete\": 79, \"censored\": 0, \"forward\": 39, \"adverse\": 40, \"neither\": 0, \"resolved\": 79, \"resolved_rate\": 0.4936708860759494, \"complete_rate\": 0.4936708860759494, \"target70\": false, \"target70_all\": false, \"ifd_known\": 79, \"ifd_unknown\": 0, \"ifd_exits\": {\"逆行到達\": 40, \"順行到達\": 39}, \"ifd_net0_sum\": -105083.0, \"ifd_net5_sum\": -184083.0, \"ifd_net5_mean\": -2330.1645569620255, \"ifd_net5_profit\": 698997.0, \"ifd_net5_loss\": 883080.0, \"ifd_net5_pf\": 0.7915443674412285, \"ifd_net5_positive\": 39, \"ifd_points_mean\": -12.531645569620252, \"flips\": 27}, \"CSV行数\": [240, 79, 73]}\n",
+  "stderr": "test_catalogue_and_price_mirror (__main__.Artificial126.test_catalogue_and_price_mirror)\n機能: 45固定条件・body除外とB0変換の買売対称を検査する。 ... ok\ntest_dp_matches_exhaustive (__main__.Artificial126.test_dp_matches_exhaustive)\n機能: DP最良木を全木直接列挙と照合する。 ... ok\ntest_physical_partition_and_train_read_isolation (__main__.Artificial126.test_physical_partition_and_train_read_isolation)\n機能: 人工53/26物理分割から、学習が評価入力を開かないことを実際に監視する。 ... ok\ntest_unknown_minleaf_cost_and_two_roles (__main__.Artificial126.test_unknown_minleaf_cost_and_two_roles)\n機能: 未知保持・末端最小数・負の費用差・同役割禁止を検査する。 ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.843s\n\nOK\n",
+  "ソース指紋前後不変": {
+    "work\\126複合切替の探索\\条件.md": "6b371aca8e347853553900373cdaee894ebfbf21295132d6704a648666bdd7c3",
+    "work\\126複合切替の探索\\learner.py": "19ab48e541cd27ae1e4e7f725d2f8c194bd0543e575acccaa1cd9fc9ee376c32",
+    "work\\126複合切替の探索\\準備する.py": "43877f1e70ae424f6bdbf0c640215293ef8a475bcad0b044a9311fb4dc99865a",
+    "work\\126複合切替の探索\\入力を分割する.py": "b1b7626cacddfb2b4c1bc75808014caa23b99741e53a32c5314367428aeeeca7",
+    "work\\126複合切替の探索\\探索する.py": "558446afcd4fcb49746af26ddd347f998b0e184d6b423d1f0b8f315d9f54a746",
+    "work\\126複合切替の探索\\人工検査.py": "1fc8eac0c6616a9fa001ac2779913eb56a06f9153c5687c48cedb1559128d8ba",
+    "work\\126複合切替の探索\\探索範囲.json": "6833188e81aadea2611116da95ba58eef2aacfc047bbc76b628a32ebcbc1145a",
+    "work\\126複合切替の探索\\時系列分割.json": "c07864e7fbe8cae38313754b592fa471a2f5efd115cc6077479e583074435267",
+    "work\\126複合切替の探索\\準備の確認.json": "7b1e24cc134ca3b5b5412e54355463465f777ac3af09c3446f399e6576f00702",
+    "work\\124入口の原因分析\\集計する.py": "8479ca348231ffd77a637360797750833c9e6617c7fc4a6502e015c7a1d9f04a"
+  },
+  "金融入力未生成": true,
+  "全候補数": 45,
+  "主minleaf": 8,
+  "比較minleaf": 6
+}

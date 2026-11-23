@@ -1,0 +1,676 @@
+{
+  "試行": 136,
+  "段階": "非金融同体試行。Source完了・新E1なし・新金融F1/集計/CSVを意図して生成しない",
+  "F0_SHA256": "3fe3ceae426787b689145fd7aa7730b4bc27ea1dfbb918c93f3d66eb463211ba",
+  "F0直接源数": 63,
+  "F0追加資料": {
+    "ZIP": "136_Source前F0資料.zip",
+    "ZIP_SHA256": "6c59990f0ea143784cf979a19b29c35df40638591df764e59b924fe8bdbda3ee",
+    "ZIP_bytes": 111613,
+    "格納源数": 47,
+    "格納源": [
+      {
+        "path": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/E1状態の定義.md",
+        "bytes": 9573,
+        "sha256": "5ef2efd5b66c64e72595fc817ddabcc7bb25f020ec6893e12d6166b143f31664",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/README.md",
+        "bytes": 2384,
+        "sha256": "0ec6c0ba29f6c1234a93c790bdeb0f2bdf38c2805ca7d40f95219f14546cc01d",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/条件.md",
+        "bytes": 5017,
+        "sha256": "43b6b4aeae51b3230c8d598283e0493e002dfbca73109f4c1c94da65078d911f",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/設定と結果.md",
+        "bytes": 20904,
+        "sha256": "41a78190e061f32e3ac6697f257aac5506c782a7cd683a190e56ba7beef4ca0c",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/136出生前を固定して実行する.py",
+        "bytes": 9998,
+        "sha256": "59a53377a835008c7c6bf2ccf45acc176f573ca9043bf86a1a1ae3d38d7fe27c",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/独立確認.json",
+        "bytes": 9386,
+        "sha256": "5370014e83e576038fd621664bc37e331b5dfd0cd1b07fcb0c9fa453e1e4936c",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/E1設計の独立確認/条件レビュー.md",
+        "bytes": 4094,
+        "sha256": "a462a113f738f524d311568c7ce1ab3d191680637ffe92cf99f0e4559a81d6aa",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/E1設計の独立確認/確認.json",
+        "bytes": 1519,
+        "sha256": "087c4f99406271f7059b7a2dc6bae20651cab68f9581fd113b60f1f14fde6af7",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/E1設計の独立確認/秒位相の補足.md",
+        "bytes": 1370,
+        "sha256": "349867fb519ff41ad0511d5790c9fbb9e76b6bf58e2e19539963e9e71f9fae6a",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/E1設計の独立確認/部品コードの確認.json",
+        "bytes": 2242,
+        "sha256": "4dc1141229a81869b508d9b7301faf2373cd70f2dbfa075a2b49d9c9faa24926",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/E1設計の独立確認/部品コードの確認.md",
+        "bytes": 2164,
+        "sha256": "543bfeb57cd1ebfa6a748684dc3ee3a9424114dcafe9071f6ea415f9ec3d94f7",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/go.mod",
+        "bytes": 256,
+        "sha256": "25acd16cc2b54313c78f99fc648f5b97731196bb23b7f07e43ba7f43ec0a0ed1",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/helpers.go",
+        "bytes": 7371,
+        "sha256": "bbf8bca5dd0c2cf6426a80353ebad0118ab71d826f2261d6da494c60897c7042",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/README.md",
+        "bytes": 2978,
+        "sha256": "1dcaa8d2ec2a13a0b29b3c59dd07dda181e67164cabcb91fe3c4a86a33e3d489",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/state.go",
+        "bytes": 12896,
+        "sha256": "56ea24d00eecfd853049f8fecd03b381c78fc2753e9a93b95be3213aa5259dd2",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/state_test.go",
+        "bytes": 14670,
+        "sha256": "39a84cdbce16ae186d42d9341962a3aaf36f5fabdb17845708bb00c13333a683",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/types.go",
+        "bytes": 3101,
+        "sha256": "ee517fc44a2019c54969e8b0da49d695e67eb8734de475ce2e5bd2936d7b2939",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/条件表と差分案.md",
+        "bytes": 9573,
+        "sha256": "5ef2efd5b66c64e72595fc817ddabcc7bb25f020ec6893e12d6166b143f31664",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/準備の確認.json",
+        "bytes": 4172,
+        "sha256": "ce4d201c02004da32ef99c6b938082cb351e5a21cfec102701db8b3fef44bd15",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し位相を保存して回復を待つ入口/準備を確認する.py",
+        "bytes": 4611,
+        "sha256": "f5a8616f78d368a8e1d2d7e31ede5a011d6d2700393782566183ab2211f0e140",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の1分入力/go.mod",
+        "bytes": 447,
+        "sha256": "e51bed32dfdb9c69210cd92741754a4e3d50d99624ea54ca17625ceb3d4b54ce",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の1分入力/quantity.go",
+        "bytes": 838,
+        "sha256": "879cf2e809e8939c0578cc313f383461ddde855febe08de181b4a9d53b1f0b69",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の1分入力/quantity_test.go",
+        "bytes": 1096,
+        "sha256": "bc38859ee2a92b7cc4053b5d1db0ed4216a950272ff95e2c1c41acc3bcca82e0",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の1分入力/README.md",
+        "bytes": 3632,
+        "sha256": "e0c224f7d74078321e515d8978897e78e3e89fdc899184be40e8db4428651273",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の1分入力/tracker.go",
+        "bytes": 8404,
+        "sha256": "61020290e5ea86fb47f79a4df2dca4978181e3b0786dadc829b6e2ead47695a4",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の1分入力/tracker_test.go",
+        "bytes": 10570,
+        "sha256": "2fc0ffec8d1477b9804e2fc79e2e6168e2950ce1964f5d31b51b42d0b78d154c",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の1分入力/準備の確認.json",
+        "bytes": 3147,
+        "sha256": "192522a936120e44d6e104dcf9c7d77001e5634bef87c355b7cab07a0e612527",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の取得を時系列で選ぶ/go.mod",
+        "bytes": 73,
+        "sha256": "1ebe18ca88aded187aacfba6eb5e583554e8c6189a676e4effea4918ec117230",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の取得を時系列で選ぶ/README.md",
+        "bytes": 4230,
+        "sha256": "8d3858cbf2de1c3d71c5029a685266a8a546fa6398208e8fe5f82d876203bba3",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の取得を時系列で選ぶ/select.go",
+        "bytes": 6744,
+        "sha256": "51bd48ecd7056301c34b56d8f43a5a00674cf4fb07315f25bf9fbfc617643cea",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の取得を時系列で選ぶ/select_test.go",
+        "bytes": 11763,
+        "sha256": "06802f8ea68a2f22759a0df1279dddfb971f3c0438d00f57b7c5d4aa8910a6bc",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の取得を時系列で選ぶ/人工の確認.json",
+        "bytes": 1903,
+        "sha256": "c8c016198c8ec862af2aa7ad7e8de61439f80471f6cbe79c0f906efdb6b064a1",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の取得を時系列で選ぶ/完了.json",
+        "bytes": 999,
+        "sha256": "4655f4c475866f5ffe8d5fccc1b956985d5c16b4373f6dc287a8965c3036c8fa",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復の取得を時系列で選ぶ/確認する.py",
+        "bytes": 3529,
+        "sha256": "2126079712123fe359aeb4d97abc2cbb791582b9d2f258e7d46d05efe7afbef2",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Rootの準備の確認.json",
+        "bytes": 8582,
+        "sha256": "61a808f6b203fae50e09fbd8ac5f5490c2c1aeec96c72306305623244f1e4a50",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/cmd/e1source/main.go",
+        "bytes": 1003,
+        "sha256": "c5ae6ac17ef53e39886423f85c9d7196d61546a3a80b9446c24d115065e3a6e8",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/entry.go",
+        "bytes": 21600,
+        "sha256": "60d1a19649f298d724278be3463b7ca4c23b413e6e8c80cace62953d548e4aaf",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/frequency.go",
+        "bytes": 1787,
+        "sha256": "7d25ac808f6c00bf3d789afc223e3e5dcfdcbe4c86a4e24be237c3552ab13270",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/frequency_test.go",
+        "bytes": 2240,
+        "sha256": "18ead38a1bf6aaaa0868826e2fb797b39eee365cad35363d14a60445a70075ef",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/go.mod",
+        "bytes": 960,
+        "sha256": "f4652cf0c16806f45fd365955adea0f390dbea936b5d935be17d17c81072a5e1",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/observer.go",
+        "bytes": 7902,
+        "sha256": "5100b554e354375c1c49ad973d96fb258c0f5eac93234af43896d0be090192b0",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/observer_test.go",
+        "bytes": 8273,
+        "sha256": "2610222435afed592463a58a30533b35ca216cb56b2e7ac6f7905c3d3b3f7c6e",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/Source再生器/run_e1.go",
+        "bytes": 6797,
+        "sha256": "a501dc7dba35a46930c1c24de312b4f766ad0f87110ac02278984008ec165641",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/接続の条件.md",
+        "bytes": 5017,
+        "sha256": "43b6b4aeae51b3230c8d598283e0493e002dfbca73109f4c1c94da65078d911f",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/準備を確認する.py",
+        "bytes": 3416,
+        "sha256": "1aae190c8e1371ace0dd281cbe2e87fe2149e1436d26a8ae66cedd2d3d2fbbc4",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/複写して接続点を作る.py",
+        "bytes": 3677,
+        "sha256": "d4fcd8ffbc73557d1efd099f0c04acb7e2ed228c3596f584f6953002c854d3ed",
+        "固定方法": "F0直接固定"
+      },
+      {
+        "path": "work/押戻し回復をSourceへ接続する/複写の確認.json",
+        "bytes": 2904,
+        "sha256": "bdec74b1645752a576154211e3b82d4f9408f512f9ddd8bcc7eefcc38f40fa33",
+        "固定方法": "F0直接固定"
+      }
+    ]
+  },
+  "F0共有コード": {
+    "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+    "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+    "格納源数": 13,
+    "格納源": [
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/clock.go",
+        "bytes": 895,
+        "sha256": "15edbd78fd623c5aea4bd7b2172a409368bde85f9b94540f3beaca19bb36a929",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/clock_test.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/clock_test.go",
+        "bytes": 2508,
+        "sha256": "6ebe6d126bbbba4ffe85886513537b9fd8384a94e7313590f292766ba38552ab",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/direction.go",
+        "bytes": 7759,
+        "sha256": "3fbdffe3514c90378c74074ab04eec322df75bc9b97d065a29291ac5aeb16ee1",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/direction_test.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/direction_test.go",
+        "bytes": 7827,
+        "sha256": "0fc85d794810acf60facdcd641501045ef7e7f76c9cbf77aae4ba2ea8bd533c4",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/entry_test.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/entry_test.go",
+        "bytes": 7192,
+        "sha256": "68f4e378f5a89074f64b37ee1d77909633221dc8ee3b579f2e5d57c78fae1edb",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/participation_test.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/participation_test.go",
+        "bytes": 3265,
+        "sha256": "594371153025a724a60f9707790bd66a3930e60947b3f43e69f9a84706735ccd",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/reader.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/reader.go",
+        "bytes": 3576,
+        "sha256": "201bbe355e50ba0d61625deeaf32f95c60982dc3c3c169490c18c4b5ec9422ff",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/scan_test.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/scan_test.go",
+        "bytes": 7416,
+        "sha256": "b83a0b7ada17e3372a5c13a91bd0fbe61c11ebd7d110822b778045ed950c8035",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/score.go",
+        "bytes": 10639,
+        "sha256": "1a513f48e70ae65ec214caa9b69d8c0588834026963f5af66c46d95c303f6a60",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/score_test.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/score_test.go",
+        "bytes": 10964,
+        "sha256": "62d4103597d1e232356a705f2cb803723c739784f19c162facb9c84509efd025",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/stream.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/stream.go",
+        "bytes": 754,
+        "sha256": "0ac03dd8b31ccc491823803b1379c786e868b08b5a813ff6ae402951e1cb6547",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/types.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/types.go",
+        "bytes": 1308,
+        "sha256": "cfff555e78454efb1eb552707f15f189df3b73dfb5af3355dc13c4f43e855e87",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      },
+      {
+        "ZIP内path": "work/強い入口の探索期限を延ばす次仮説/Source入口の再生器/validation.go",
+        "復元先": "work/押戻し回復をSourceへ接続する/Source再生器/validation.go",
+        "bytes": 3362,
+        "sha256": "0ce4562464bfc6107c53109fd086898e511ed9868a5ca732ee7ed6253703984f",
+        "固定方法": "F0直接固定。旧133保存コードの復元先を写像"
+      }
+    ]
+  },
+  "間接固定の共有依存": {
+    "保存元ZIP": "study/00133_全場参加を維持して強い入口の探索期限を延ばす/再現資料/133固定コード.zip",
+    "ZIP_SHA256": "0715be8bd1993b511dc8bcc0ac5b148414dae12260a87bdb3b88d646f7272ef2",
+    "格納源数": 10,
+    "格納源": [
+      {
+        "ZIP内path": "work/118複数技法の入口条件/bank.go",
+        "復元先": "work/118複数技法の入口条件/bank.go",
+        "bytes": 7897,
+        "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/118複数技法の入口条件/go.mod",
+        "復元先": "work/118複数技法の入口条件/go.mod",
+        "bytes": 76,
+        "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/118複数技法の入口条件/rules.go",
+        "復元先": "work/118複数技法の入口条件/rules.go",
+        "bytes": 8347,
+        "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/118複数技法の入口条件/rules_test.go",
+        "復元先": "work/118複数技法の入口条件/rules_test.go",
+        "bytes": 8029,
+        "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/118複数技法の入口条件/types.go",
+        "復元先": "work/118複数技法の入口条件/types.go",
+        "bytes": 4220,
+        "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/121入口の反転切替/detector.go",
+        "復元先": "work/121入口の反転切替/detector.go",
+        "bytes": 9852,
+        "sha256": "c2db138fba1b6493715ebf2a6c0b2ac1fcc1b6959872a5a4ae2bf33dc022ced4",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/121入口の反転切替/detector_test.go",
+        "復元先": "work/121入口の反転切替/detector_test.go",
+        "bytes": 16883,
+        "sha256": "16c3573df39f285165355b14b9a09c48f85a38852f9b471357cd9ef326a8bf90",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/121入口の反転切替/go.mod",
+        "復元先": "work/121入口の反転切替/go.mod",
+        "bytes": 432,
+        "sha256": "241663ea0efc1a72cdb983e58a4ed4b0c51fa20509bc15de7fe1bfd25e99518b",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/121入口の反転切替/policies.go",
+        "復元先": "work/121入口の反転切替/policies.go",
+        "bytes": 9633,
+        "sha256": "fa5763da466a8644018755d50727aaf16a896d0d88983ffcab58112b3e679f79",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      },
+      {
+        "ZIP内path": "work/121入口の反転切替/types.go",
+        "復元先": "work/121入口の反転切替/types.go",
+        "bytes": 4031,
+        "sha256": "8e5227d46def52b793f1051be2e22d88108d5e88548ba0ae83d79152add6efd2",
+        "固定方法": "F0内の独立確認JSONが持つ共有依存の間接指紋。F0直接63源へ後付けしない"
+      }
+    ]
+  },
+  "F0共有入力": [
+    {
+      "保存元": "inputs/00133_探索期限延長の共用入力/Sourceの出生と取得.json.gz",
+      "復元先": "work/133探索期限の評価/Sourceの出生と取得.json",
+      "保存bytes": 242804,
+      "保存SHA256": "4a42d6429937c39e69e9d1b860aee009b21d7e32e7e449cd549a57747fb9161e",
+      "解凍bytes": 3358269,
+      "解凍SHA256": "4c9449b620c15a63c00f9810eeaa52fc8f0eb5f92f7ea2d124cc9db12cc728f6",
+      "形式": "gzip"
+    }
+  ],
+  "意図して複製しないF0源": [
+    {
+      "path": "work/122全場入力/入力.json",
+      "sha256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+      "bytes": 177709174,
+      "理由": "共用177MB入力は生成元参照。実行体は元SHAを残しコードから別途再ビルド。本文の恒久複製なし"
+    },
+    {
+      "path": "work/押戻し回復をSourceへ接続する/Source再生器/E1接続Source.exe",
+      "sha256": "824303bc64124931b026ec03ef25cea01730bfa620b7e20156b0bfa833fd6fd1",
+      "bytes": 3993600,
+      "理由": "共用177MB入力は生成元参照。実行体は元SHAを残しコードから別途再ビルド。本文の恒久複製なし"
+    }
+  ],
+  "F0原文MD": {
+    "gzip": "検査/実行前文書_F0.json.gz",
+    "保存SHA256": "0ce9bf311777eeeb29dfca49d89399a1a2d31d6398fdef874ce593df5c1cf083",
+    "解凍SHA256": "cc20a3d8c9ecdc9c09d23efc3ca6d0c00bb2166c86eec3ae87b98e090fbdecb0",
+    "MD数": 12,
+    "正式MD数": 4
+  },
+  "金融前F1を作成": false,
+  "結果文面を編集": false,
+  "Sourceプロセスを操作": false,
+  "自然Raw/CSV/177MB本文/追加2場読取": false,
+  "新Source入力": {
+    "保存元": "inputs/00136_E1のSource接続/Sourceの出生と取得.json.gz",
+    "復元先": "work/136押戻し回復の評価/Sourceの出生と取得.json",
+    "形式": "gzip",
+    "保存bytes": 408361,
+    "保存SHA256": "66e66c4a475ee95edc747a5078f255b51878366b1abcd0def81a7f34af86f9a4",
+    "解凍bytes": 4836317,
+    "解凍SHA256": "f777aa32ab145bf5b9ba570b06244ec071fb40356eff67efce55137ba197b6c2"
+  },
+  "金融非実行": {
+    "新金融F1": false,
+    "新金融集計": false,
+    "新CSV": false,
+    "正逆Raw再走査": false,
+    "理由": "新E1出生/取得0でC0/S0/A0の全79参照・方向が同体。旧対照を継承参照する"
+  },
+  "原因資料": [
+    {
+      "由来": "work/136順次確認が出生しない原因/README.md",
+      "保存元": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/根拠/出生ゼロの原因.md",
+      "形式": "同体",
+      "保存SHA256": "a7d81090edcf9f71d93bab7d34fb61b97d9e7401bf31c1e1cf95dcf7c794d79d",
+      "原文SHA256": "a7d81090edcf9f71d93bab7d34fb61b97d9e7401bf31c1e1cf95dcf7c794d79d"
+    },
+    {
+      "由来": "work/136順次確認が出生しない原因/診断の確認.json",
+      "保存元": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/根拠/原因診断の確認.json",
+      "形式": "同体",
+      "保存SHA256": "4620d3673a7964cffd6b135a14a3f31bcbbccda6c8023318d8abefd4b9f2d16c",
+      "原文SHA256": "4620d3673a7964cffd6b135a14a3f31bcbbccda6c8023318d8abefd4b9f2d16c"
+    },
+    {
+      "由来": "work/136順次確認が出生しない原因/時計と幾何の集約.json",
+      "保存元": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/根拠/時計と幾何の集約.json",
+      "形式": "同体",
+      "保存SHA256": "b43d8cef6a4ef9d1c7d0ad9ddba194986d448801a82a4084178a166bb90914d3",
+      "原文SHA256": "b43d8cef6a4ef9d1c7d0ad9ddba194986d448801a82a4084178a166bb90914d3"
+    },
+    {
+      "由来": "work/136順次確認が出生しない原因/全34改善の時計.json",
+      "保存元": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/根拠/全34改善の時計.json.gz",
+      "形式": "gzip",
+      "保存SHA256": "1ce7cec09814de5140fb2b7afe0cd3a767dffba7d7eac4175415932b43f3c1a2",
+      "原文SHA256": "8376670055b23ca2a83925668a216240e29c9d8fa04d03fafc1f312ba53ccfc7"
+    },
+    {
+      "由来": "work/136順次確認が出生しない原因/回復3例の位置条件.json",
+      "保存元": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/根拠/回復3例の位置条件.json",
+      "形式": "同体",
+      "保存SHA256": "3312ba6eed767f003bd2125ceb08e758aebbbee0365623c3ed42a226ba9453df",
+      "原文SHA256": "3312ba6eed767f003bd2125ceb08e758aebbbee0365623c3ed42a226ba9453df"
+    }
+  ],
+  "後発資料": {
+    "ZIP": "確認と保管の追補.zip",
+    "ZIP_SHA256": "50bcdc50991a3407ae294eb5222f014160da6b8b7fbece461b8335808c4bcf6e",
+    "ZIP_bytes": 43454,
+    "格納源数": 18,
+    "格納源": [
+      {
+        "path": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/再現資料/F0資料を復元する.py",
+        "bytes": 4574,
+        "sha256": "e6f7a27f7823f57eeedffab6a0a93fb7479bf53f5a072a682890f3d3262fce9a",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "study/00136_押戻し後の回復入口を加えて頻度と先着を比較する/再現資料/保管を確認する.py",
+        "bytes": 8450,
+        "sha256": "9d56fbcff03414470548f745286491b8b718941be932fcde69441339870d0371",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/136全方向同体を確認する.py",
+        "bytes": 4560,
+        "sha256": "8f3947151c5f48ffc02f8589831d2f90b711bb484e62fecaa3aab143208c02da",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/136正式保存/F0を退避して保管する.py",
+        "bytes": 8027,
+        "sha256": "159cbe50162c8a7e63e3ed62183e450a38ef2b59eb6642431bca897db889eb2f",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/136正式保存/F0復元を確認する.py",
+        "bytes": 4667,
+        "sha256": "d7d1b61cca807d22941dfaee945fc35a40d6acf28c0eb44968ea5a0e2a62bbba",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/136正式保存/Sourceと同体確認を保管する.py",
+        "bytes": 3257,
+        "sha256": "2c2c53da5ea6c95d7ea096a66a81ba1c188de2c471a15d5875b52708ff9bd480",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/136正式保存/原因と追補を保管する.py",
+        "bytes": 5372,
+        "sha256": "9bc3077d286197b451468ee14f1231a468a4fde47fbeecb63a6272699808f06f",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/136正式保存/結果を記す.py",
+        "bytes": 9307,
+        "sha256": "ec698d4db675a65791fdf519b4a4374210a56fb6afab49974840012ed087c224",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/136順次確認が出生しない原因/診断する.py",
+        "bytes": 10064,
+        "sha256": "3f6aee02d455dd5bea31c252de2ca9f17d897a148e0b7e1807cb57fe123514c4",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/overlay.json",
+        "bytes": 574,
+        "sha256": "67b38a9ca8705b1c7293ce61c6b07882049f7452426a39e58943ec0e470bce26",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/README.md",
+        "bytes": 3428,
+        "sha256": "99478c278818752f16742d1395092d8163aa4804de42b0ccbcbad687e78b1a80",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/人工のログ.jsonl",
+        "bytes": 3798,
+        "sha256": "934530b2cdf1d91b8e05c65700855ab97a8efb3e0280e5896ba568db067c692f",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/凍結走査の参照_test.go",
+        "bytes": 6804,
+        "sha256": "9f9382cdcaa6f2e4a8d455b2c084f29adbad486255ed6aa1bad98e218a2ebe1c",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/完了.json",
+        "bytes": 1404,
+        "sha256": "350bbe57668aafcdab0343f65f0c6f41f05ec544f64f5f2a18a21a3870a587eb",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/接続を人工確認_test.go",
+        "bytes": 11155,
+        "sha256": "88219302b5002746289eb1510b2047d81c030c3ff4a08364b1d2a2b4d1b16ff6",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/準備する.py",
+        "bytes": 2860,
+        "sha256": "88c938c9004d551d3832910da4aa95684d18777d8f0926d626cfc5b90d637a2d",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/準備の確認.json",
+        "bytes": 423,
+        "sha256": "1a3c814a14c0dd66d4ac7cd6a90cf6f6d841e5bd575d6071311003537908ebd0",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      },
+      {
+        "path": "work/E1のSource接続を独立確認する/確認する.py",
+        "bytes": 6217,
+        "sha256": "384d2ad74f5b10b2651f208f8b4c44b83f3d260c585601c48629ab656bab9444",
+        "区分": "Source後の保管/原因と独立人工の補助。F0直接63源とは別"
+      }
+    ]
+  }
+}

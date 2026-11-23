@@ -1,0 +1,74 @@
+{
+  "成功": true,
+  "試行": 124,
+  "編集停止": true,
+  "新正逆結果読取": false,
+  "元勝敗で閾値選択": false,
+  "原板読取": false,
+  "金融再生": false,
+  "固定ファイル": {
+    "README.md": {
+      "bytes": 4634,
+      "sha256": "6375edbcf0cdcedcfb7e11c0519626d8da1aedca24380387744539eed4275481"
+    },
+    "T3を追加する.py": {
+      "bytes": 8156,
+      "sha256": "1d681adb5ca5989983b1c0d38b6aebc41f9e8ab6b519884bc98f67e801b016d3"
+    },
+    "T3追加の切替.json": {
+      "bytes": 47821,
+      "sha256": "656072b82b66564473d81aa96d4fe7dbc04ed97cfac982edc0d3b206baff7382"
+    },
+    "T3追加仕様.md": {
+      "bytes": 1663,
+      "sha256": "4adba7af0f5412cfa691a92aaa9da30643c60b7af25cdb78938a029f9fb72d6e"
+    },
+    "事前区分.json": {
+      "bytes": 8155,
+      "sha256": "a639902cf761a4517a5e946cefc93f81b30c815c7f3be5bd96da7af57277d7a1"
+    },
+    "事前区分.md": {
+      "bytes": 6478,
+      "sha256": "2d4d816fdd5c38c5800db214fc677f800eecf57b9cdba0537277b99892ad247a"
+    },
+    "人工検査.json": {
+      "bytes": 1208,
+      "sha256": "fe71f12fc0250e0651c2337c62967f75cb828afbc90084b383b8dca94e4d77ad"
+    },
+    "人工検査.py": {
+      "bytes": 5326,
+      "sha256": "b9d394db16b16d61ef60dc981631021e1a0d521e70c0a5c6fb7afae4c3724f16"
+    },
+    "全79例の当時特徴.json": {
+      "bytes": 2077049,
+      "sha256": "e4f0bf25156c1fe732b186c5c5d90b6e9f95718985a440d8eb7005588f734774"
+    },
+    "抽出確認.json": {
+      "bytes": 12544,
+      "sha256": "561a040a257e67fb2bb90b2a854b92c207ccdbc1663e997aba7f8d02968f073d"
+    },
+    "条件の診断.json": {
+      "bytes": 6075,
+      "sha256": "25173e63ee6cb91062b04289f6fe7b245b41ac86737538eef5f5541a7a1d97f8"
+    },
+    "特徴を抽出する.py": {
+      "bytes": 26540,
+      "sha256": "72f6057fec6c1d348fb4839df3b89ab506da25e85f7e5149b64dc56c7b478504"
+    }
+  },
+  "元特徴とT1T2不変": true,
+  "主変更": false,
+  "T1": {
+    "keep": 79,
+    "flip": 0
+  },
+  "T2": {
+    "keep": 79,
+    "flip": 0
+  },
+  "T3追加探索": {
+    "keep": 78,
+    "flip": 1
+  },
+  "制限": "全79は既知123の選択された出生。新正逆の性能は未確認。"
+}

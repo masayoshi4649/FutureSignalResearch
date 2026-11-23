@@ -1,0 +1,169 @@
+{
+  "試行": 122,
+  "成功": true,
+  "Go": "go1.24.2 windows/amd64",
+  "122主人工テスト": 4,
+  "非キャッシュtest": "成功",
+  "vet": "成功",
+  "build": "成功",
+  "121decodeRow本文同体": true,
+  "人工検査内容": [
+    "gzip/plainの同じ復号Rawが同じ全公表JSON・Countsになる",
+    "公表の足幅順序、実配送Time/Index/物理行/RecordOrdinalが一致する",
+    "RawEOF種3/1/0本と予定End種83/27/13本を区別し、後者だけをcarryする",
+    "未知の追加公表キーを落とさずGolden差として拒否する",
+    "Raw/CSV SHA・Symbol・qualityの差を成功へ置換しない",
+    "knownは検査末尾を越すCSVや新3Rawを開かない（未存在の人工参照で確認）"
+  ],
+  "自然Raw読取": 0,
+  "自然CSV本文読取": 0,
+  "旧118入力JSON読取": 0,
+  "自然公表生成": 0,
+  "金融実行": false,
+  "11月09価格読取": false,
+  "FAR実行": false,
+  "既存金融コード変更": false,
+  "コード": [
+    {
+      "path": "work/122公表生成/cmd/run/main.go",
+      "bytes": 633,
+      "sha256": "a7085ae03587f4fd6a8f77f5ed2069863fa4c126ca196a0e9c6e868a6cd0709a"
+    },
+    {
+      "path": "work/122公表生成/export.go",
+      "bytes": 9730,
+      "sha256": "33a1150dcab8ca669bbc51c22485775ee51dc99342f1f41e5f89ac87b1903d04"
+    },
+    {
+      "path": "work/122公表生成/export_test.go",
+      "bytes": 8141,
+      "sha256": "b75fb6ca943fb68bac501db1460d163a696c8aaff5f3f7832906b1a668cc627c"
+    },
+    {
+      "path": "work/122公表生成/go.mod",
+      "bytes": 570,
+      "sha256": "e13e1195d52d6740c4e4f086af3b03dbc335e5cbb0fb69db011b8b5f44e5b7e5"
+    },
+    {
+      "path": "work/122公表生成/plan.go",
+      "bytes": 7054,
+      "sha256": "a7ddf960453b6368b98e5d09ce35517cd5050363da8485fe21e9301dc85f722f"
+    },
+    {
+      "path": "work/122公表生成/reader.go",
+      "bytes": 3473,
+      "sha256": "ac54a50dfcb1374b7aac9ea4d1660f849dbc69500975727ecf8f81805712706d"
+    },
+    {
+      "path": "work/122公表生成/README.md",
+      "bytes": 3888,
+      "sha256": "399a517e18003cee5fbde37d3cb4897c5a238110429469e1a3b4162f56482e34"
+    },
+    {
+      "path": "work/122公表生成/types.go",
+      "bytes": 5206,
+      "sha256": "7da5683335885d68bbef53196fa8e8969f76832d1c0b76318c5d72a5fd88414a"
+    },
+    {
+      "path": "work/122公表生成/公表生成.exe",
+      "bytes": 3934208,
+      "sha256": "a8c30ea53c659f3b03dacc7ddbefcb59da66a0cbd69804a7f817e6068c02a254"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/bank.go",
+      "bytes": 6392,
+      "sha256": "78d82ff18b4abf5721a7948949f6dda72a58a4dd403651ae647cdd4431338b8f"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/bank_test.go",
+      "bytes": 15768,
+      "sha256": "6ab6eae67fb8cac451c568e4aa875bd60f6e9693e7bfa1d018eb2de1e4b8f91f"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/export_test.go",
+      "bytes": 1748,
+      "sha256": "413ddc5febd18eac454cfc6ec65c20e3d48162b6d575deb033c381b9a509bd89"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/go.mod",
+      "bytes": 248,
+      "sha256": "98e3b40f584c5d54e4945ddf923afabd8831d5823d7fe4fd75eb12df7e12b575"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/numeric.go",
+      "bytes": 5222,
+      "sha256": "581970bc6f39a27397d462892c6a761e7715abe1c18a36690d262d64b74f0754"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/README.md",
+      "bytes": 4661,
+      "sha256": "8519c97139fd99e27ed42001fb393dfb093f60681727e87048a0a3339ba33f4b"
+    },
+    {
+      "path": "work/115三時間軸と方向性の公開/types.go",
+      "bytes": 4508,
+      "sha256": "2fe96170517fbc2908a4bf413884edea9dc4b30fc653e422119599cb0d89ba98"
+    },
+    {
+      "path": "work/三時間軸の公開器/bank.go",
+      "bytes": 13808,
+      "sha256": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b"
+    },
+    {
+      "path": "work/三時間軸の公開器/bank_test.go",
+      "bytes": 22551,
+      "sha256": "b1944823b58b1cc2d400b57b782ab7bfac990d109eafedcf7f6c8a89843a4db9"
+    },
+    {
+      "path": "work/三時間軸の公開器/go.mod",
+      "bytes": 75,
+      "sha256": "896325a90f15c6c403d442e0cff148b9a4407a2176f34970e27495dfe849a95f"
+    },
+    {
+      "path": "work/三時間軸の公開器/numeric.go",
+      "bytes": 5100,
+      "sha256": "f9da01f68ef8d1e63477acbbfb950854a99874d7ce23dca4140da6148bf2411b"
+    },
+    {
+      "path": "work/三時間軸の公開器/pivot.go",
+      "bytes": 2405,
+      "sha256": "ef9d799dc978d7689167ab9c29a9bad879fd999a9993063f852d8e9432ad3f59"
+    },
+    {
+      "path": "work/三時間軸の公開器/README.md",
+      "bytes": 3390,
+      "sha256": "046045ebb0da8c072432dcdd3539257fd4ce8af3f184bac3600fbb11175acd08"
+    },
+    {
+      "path": "work/三時間軸の公開器/types.go",
+      "bytes": 6426,
+      "sha256": "00b9b15619358b0c8212a5dcf32c1d2fd37acc30c037bf0e0d05c800060bd2c9"
+    },
+    {
+      "path": "work/三時間軸の公開器/仕様.md",
+      "bytes": 6665,
+      "sha256": "8d379bb2cd629d402f6b2a754192a1af57d5766b3019f6a015738eb268b162af"
+    },
+    {
+      "path": "work/三時間軸の市場入力口/candle.go",
+      "bytes": 5053,
+      "sha256": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137"
+    },
+    {
+      "path": "work/三時間軸の市場入力口/candle_test.go",
+      "bytes": 3482,
+      "sha256": "d10db77bd84897879a1254903a079d977752d7bbf6616986d3dc584b3715a13b"
+    },
+    {
+      "path": "work/三時間軸の市場入力口/go.mod",
+      "bytes": 252,
+      "sha256": "9354dc403283cd78a654637eeb4a24a1650a9a19923eae47641781ef5d82e33c"
+    },
+    {
+      "path": "work/三時間軸の市場入力口/README.md",
+      "bytes": 1320,
+      "sha256": "814587608ccdf7871cef67a171283abd4e26057b6499625058366430e87c410c"
+    }
+  ],
+  "限界": "人工成功は既知70の自然公表一致を証明しない。RootのStageA/F1後にknownを実行し、一致確認後だけ新3公表とE0検証へ進む。"
+}

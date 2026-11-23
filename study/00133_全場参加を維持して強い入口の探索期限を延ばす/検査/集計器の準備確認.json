@@ -1,0 +1,20 @@
+{
+  "成功": true,
+  "自然金融結果未読": true,
+  "自然金融集計未実行": true,
+  "人工成功": 8,
+  "人工stdout": "",
+  "人工stderr": "test_0取得と0knownを0円にしない (__main__.Artificial133.test_0取得と0knownを0円にしない)\n機能: 空集合と観測不足だけの金額を未知にする。 ... ok\ntest_3表と適用外nullと未取得場 (__main__.Artificial133.test_3表と適用外nullと未取得場)\n機能: 入口5行・全73行を保持し、別cohortへ0円を入れない。 ... ok\ntest_F1なしCLIは読取前に拒否 (__main__.Artificial133.test_F1なしCLIは読取前に拒否)\n機能: 入力SHA/F1を省略した自然CLIを開始しない。 ... ok\ntest_bootstrapはL1とO1だけ (__main__.Artificial133.test_bootstrapはL1とO1だけ)\n機能: L0を加えても主のクラスタ再標本化を変えない。 ... ok\ntest_可変cohortと前後分割を混ぜない (__main__.Artificial133.test_可変cohortと前後分割を混ぜない)\n機能: 2対3取得と前後48/25を別に集計する。 ... ok\ntest_同群だけペア差を作る (__main__.Artificial133.test_同群だけペア差を作る)\n機能: 主L1と同群O1だけをペア化し、L0/L1を拒否する。 ... ok\ntest_既知0円とLast金額null (__main__.Artificial133.test_既知0円とLast金額null)\n機能: 既知の金額0と未知を区別し、Lastへ金額を作らない。 ... ok\ntest_未来phaseと結合改変を拒否 (__main__.Artificial133.test_未来phaseと結合改変を拒否)\n機能: 同件数でも方向・Quote・phaseが違えば保存前に拒否する。 ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.621s\n\nOK\n",
+  "前後SHA256": {
+    "work\\133期限別の集計\\条件.md": "096a26466eb647415963360655846dc037f314eb09bddd329986e9b46e69fabb",
+    "work\\133期限別の集計\\計算.py": "58d85d35aee22f59d1f4fa8372181d42c139454ee929c676ca4f544f7cdf0b84",
+    "work\\133期限別の集計\\集計する.py": "e79e9e12082644b7fb4fe3f553d4a3a606721877671b0499a5b127ab4bc72fcd",
+    "work\\133期限別の集計\\人工検査.py": "2cc1b446f07d078a3689405d0b5db4a6851ec05bdc297f86bebfb3186feac582"
+  },
+  "前後不変": true,
+  "主": "L1",
+  "取得集合": "O0/L0はL0だけ、O1/L1/R1はL1だけ",
+  "算術": "SHA固定124を原文不変import、statsに政策別subsetだけ渡す",
+  "bootstrap": "L1群の全73場5000回/seed124、同群O1との差。L0/L1のcaseペアなし",
+  "RawRef照合": "path/sha必須、optional bytes/mod_time_nsはstat_before.bytes/mtime_nsへ対応"
+}

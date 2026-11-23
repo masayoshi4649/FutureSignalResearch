@@ -1,0 +1,90 @@
+{
+  "成功": true,
+  "確認日": "2026-11-12",
+  "試行": 141,
+  "段階": "金融を読まないSource/bridge独立照合",
+  "入力": {
+    "F0": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141VWMA独立入口の評価\\F0出生前.json",
+      "sha256": "05e66573e55377e4d89b66fce2c00abaa4a247a04d1916de7b2ebff7b8cfaffb"
+    },
+    "F1": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141VWMA独立入口の評価\\F1金融前.json",
+      "sha256": "0602d5e3653d3981f11819d623376b64be0dea9d06e636aeba0abbac3c958f02"
+    },
+    "Source": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141VWMA独立入口の評価\\V0の出生と取得.json",
+      "sha256": "81f7c380f47b06952eaa4a8eae8f4b3821c49361fafe1afd93ef3367a23de40b"
+    },
+    "73場宣言": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\00124_同入口正逆の共用入力\\入力.json.gz",
+      "sha256": "717f41674a4c99f94545a5e147495ae66498dbbc1afa48d7f34d04c40514843b"
+    },
+    "CSV73参照": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141VWMA独立入口の評価\\CSV73参照.json",
+      "sha256": "07e136e2b77a0029ddacd955abad16a9240373fa849ec96b553c2875e1e85147"
+    },
+    "旧固定取得": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\138全成立入口の評価\\固定入力_版2\\固定取得入力.json",
+      "sha256": "0c83e525dec3079ce188d942069c0d137c94f39009339752ec8227ec9ecb4ce7"
+    }
+  },
+  "動的固定入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141VWMA独立入口の評価\\固定入力\\固定取得入力.json": "874fdd8d01a5773df6d93a6511ee86e6ef08b4baae0c405bb44640d73198364e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141VWMA独立入口の評価\\固定入力\\入口参照.json": "f636586410e676607015c2ac0201f23c72e5b3d82b591935496f606f90a4aaa9"
+  },
+  "Source再計数": {
+    "場数": 73,
+    "出生数": 0,
+    "取得数": 0,
+    "状態": {},
+    "段階": {
+      "受容a1": 689,
+      "受容a2": 550,
+      "現在背景検査": 490,
+      "取消": 689,
+      "再接近j": 207,
+      "再加速b": 7,
+      "維持1": 1
+    },
+    "取消": {
+      "episode_expired": 226,
+      "background_or_latest_w_unknown_or_denied": 146,
+      "last_invalidation": 108,
+      "next_a2_failed": 112,
+      "hold_entry_cap_rejected": 7,
+      "next_b_failed": 80,
+      "entry_limit": 10
+    },
+    "CSV": {
+      "rows": 40684,
+      "grid_minutes": 43255,
+      "missing": 2586,
+      "price_known": 40669,
+      "volume_known": 40622,
+      "delivered": 43124,
+      "eof_undelivered": 131
+    }
+  },
+  "union再構成": {
+    "旧C0同体件数": 81,
+    "V0取得件数": 0,
+    "基礎集合件数": 81,
+    "U0件数": 81,
+    "同原行alias除去": 0,
+    "全場保持": 73
+  },
+  "Source全73のSHA宣言_stat_品質_格子一致": true,
+  "全保存段階の主要式_時点_期限照合": true,
+  "全birth_entry当時参照": "保存された全件を照合。0件ならその事実を残し、存在しない成功例を作らない。",
+  "入力と独立コード前後同体": true,
+  "Raw_CSV本文_金融_追加2場読取": false,
+  "Root_作者関数import": false,
+  "未証明": [
+    "保存されない中間Rawと最初適格候補列の再生",
+    "不成立取消足の未保存OHLCと背景拒否時に未保存のAssessment",
+    "CSVからの全VWMA値/指標seedの別再計算"
+  ],
+  "初回準備SHA256": "aa34977cc8a336d968407983694e1efafbdf8c64d8408b055aa3e1ae16703524",
+  "準備SHA256": "898e97100230affa63d60f373f35becc89919a7036234340e3740b17e197d3be"
+}

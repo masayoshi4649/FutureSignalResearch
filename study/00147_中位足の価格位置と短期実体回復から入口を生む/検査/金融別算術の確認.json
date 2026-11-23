@@ -1,0 +1,53 @@
+{
+  "成功": true,
+  "試行": 147,
+  "比較数": 300,
+  "主要統計セル": 7200,
+  "基礎取得": 92,
+  "T0物理取得": 5,
+  "union取得": 92,
+  "全73と参加頻度": true,
+  "物理とmembershipを分離": true,
+  "作者124/138/147関数import": false,
+  "自然Raw/CSV/Source再走査": false,
+  "入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\147中位実体回復の評価\\F1金融前.json": "8a858d589515a61582ffef45df887925787bc6a663150714ae4e6de7fa62a022",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\147中位実体回復の評価\\固定入力\\固定取得入力.json": "79e15a06bb25ec62fc598d56d900579d2bae27c54ab4cbea2fcf4afc1e3b160e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\147中位実体回復の評価\\固定入力\\入口参照.json": "aaf32114ddec35bed91790ae5668d58566f7e8f4cea930ee5160201abffeee42",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\147中位実体回復の評価\\固定取得の正逆観測.json": "354bb795727c06eb600802f1be56d93283c4fd28c9b46dbd8f91d90c401155aa",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\147中位実体回復の評価\\金融評価\\集計.json": "afcef5ac1b72567cd7512c5818d2f832c77d0a93fdab07a8d7869b2ada167750",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\141金融集計を独立に確認する.py": "30bd4aef8c2809699cb013f930cfbce152f3986fe8d3d3cc6b49452104c2269e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\147金融を別算術で確認する.py": "62bb02e825e65d0d3ded5877a60de83a1776f2496b4be6257dea192c5c77358f"
+  },
+  "主U0": {
+    "entries": 92,
+    "sessions": 73,
+    "complete": 86,
+    "censored": 6,
+    "forward": 44,
+    "adverse": 19,
+    "neither": 23,
+    "resolved": 63,
+    "resolved_rate": 0.6984126984126984,
+    "complete_rate": 0.5116279069767442,
+    "target70": false,
+    "target70_all": false,
+    "ifd_known": 89,
+    "ifd_unknown": 3,
+    "ifd_exits": {
+      "順行到達": 45,
+      "期限清算": 23,
+      "観測不足": 3,
+      "逆行到達": 21
+    },
+    "ifd_net0_sum": 292147,
+    "ifd_net5_sum": 203147,
+    "ifd_net5_profit": 568842,
+    "ifd_net5_loss": 365695,
+    "ifd_net5_mean": 2282.550561797753,
+    "ifd_net5_pf": 1.5555093725645688,
+    "ifd_net5_positive": 54,
+    "ifd_points_mean": 33.59550561797753,
+    "flips": 0
+  }
+}
