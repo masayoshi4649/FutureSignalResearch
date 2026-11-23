@@ -1,0 +1,48 @@
+{
+  "試行": 114,
+  "成功": true,
+  "原文": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\根拠\\市場前原文\\設定と結果.md.txt",
+    "sha256": "45837672457a1b9119a840a38430a5a28c8f24252ea3b3918f23a681c5251c10"
+  },
+  "校正先SHA256": "93d864b4afd115ca68c5f40191a87d1efb10b8cb6bccf35aa7946fd2d8b4b3c6",
+  "現在結果表": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\設定と結果.md",
+    "sha256": "245c0b228bff58137e714bb7c318a38d5dd1c0ec9ba3863fd7c3dc325e500a8b"
+  },
+  "差分": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114再現補足\\設定入力の進捗校正差分.json",
+    "sha256": "d60590c20350f4b5a58d3d3756396cdf544a1f730a3d7e016efeee239a4ba5fc"
+  },
+  "復元helper": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114再現補足\\設定入力の進捗を復元する.py",
+    "sha256": "f61697bee7fef317bdb4d4a6c818df8261c6e637d945a67bd2d45ae1e7835694"
+  },
+  "変更行数": 15,
+  "新規復元の全bytes同体": true,
+  "一時出力の検査後残存": false,
+  "拒否": [
+    "既存出力",
+    "元原文",
+    "現在表",
+    "差分SHA違い"
+  ],
+  "入力前SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\根拠\\市場前原文\\設定と結果.md.txt": "45837672457a1b9119a840a38430a5a28c8f24252ea3b3918f23a681c5251c10",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\校正済み入力表.md": "93d864b4afd115ca68c5f40191a87d1efb10b8cb6bccf35aa7946fd2d8b4b3c6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\設定と結果.md": "245c0b228bff58137e714bb7c318a38d5dd1c0ec9ba3863fd7c3dc325e500a8b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114再現補足\\設定入力の進捗を復元する.py": "f61697bee7fef317bdb4d4a6c818df8261c6e637d945a67bd2d45ae1e7835694",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114再現補足\\設定入力の進捗校正差分.json": "d60590c20350f4b5a58d3d3756396cdf544a1f730a3d7e016efeee239a4ba5fc"
+  },
+  "入力後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\根拠\\市場前原文\\設定と結果.md.txt": "45837672457a1b9119a840a38430a5a28c8f24252ea3b3918f23a681c5251c10",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\校正済み入力表.md": "93d864b4afd115ca68c5f40191a87d1efb10b8cb6bccf35aa7946fd2d8b4b3c6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\設定と結果.md": "245c0b228bff58137e714bb7c318a38d5dd1c0ec9ba3863fd7c3dc325e500a8b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114再現補足\\設定入力の進捗を復元する.py": "f61697bee7fef317bdb4d4a6c818df8261c6e637d945a67bd2d45ae1e7835694",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114再現補足\\設定入力の進捗校正差分.json": "d60590c20350f4b5a58d3d3756396cdf544a1f730a3d7e016efeee239a4ba5fc"
+  },
+  "前後不変": true,
+  "金融/Source/停止所有の変更": false,
+  "原板/Native/CSV読取": false,
+  "注記": "元の確認は保持し、helper参照と入力mapのpathだけを解決絶対位置へ統一。金融・復元bytes・確認結果は不変。"
+}

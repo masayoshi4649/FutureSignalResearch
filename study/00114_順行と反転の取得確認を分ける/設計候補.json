@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "trial": 114,
+  "fixed": false,
+  "market_executed": false,
+  "purpose": "P100共通保護の下で元入口/順行T/T又は回復Rを分離する",
+  "configurations": [
+    {
+      "policy": "P100",
+      "entry_mode": "A0",
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "A0",
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "A0",
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "A0",
+      "slip_pts": 5,
+      "delay_seconds": 1
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "T",
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "T",
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "T",
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "T",
+      "slip_pts": 5,
+      "delay_seconds": 1
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "TR",
+      "slip_pts": 0,
+      "delay_seconds": 0
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "TR",
+      "slip_pts": 0,
+      "delay_seconds": 1
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "TR",
+      "slip_pts": 5,
+      "delay_seconds": 0
+    },
+    {
+      "policy": "P100",
+      "entry_mode": "TR",
+      "slip_pts": 5,
+      "delay_seconds": 1
+    }
+  ],
+  "T": "G>0 AND a8>0 AND a21>0 AND x8>0 AND side*Hist>0",
+  "R": "G<0 AND a8>0 AND x8p<=0 AND x8>0 AND side*deltaHist>0",
+  "source": "111の元原行連続・Source非返送・研究新規時計なし",
+  "input_scope": "既使用70場、11/09は価格/損益/入力指紋未読",
+  "catalogue_sha256": "5c383fc2e6f39e96d0163fe1c84d97d57eaf4e41424f521631e59c5d431a4a42",
+  "basis_completion_sha256": "cd6187bbf4ac665e1da94b0f62f86db3524b2edc64fc1d6062395ca179e1fdc1",
+  "baseline_settings_sha256": "5e5f6d800bc7d4ec7a53d35c3102de64e0de3cc5deabf01dd547c5f2679b48e7",
+  "adopted": false,
+  "stable_profit_proven": false
+}

@@ -1,0 +1,133 @@
+{
+  "試行": 114,
+  "成功": true,
+  "市場前": true,
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\出力する.mjs": "19fb8448742d6fa94c81032908149fb62fcf8624fbb63cc562adb99310602c1f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py": "0e37b68258d6db8227af0cb433cca2c4968731d4d75a0c8f3dd2ecb9a6948869",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\README.md": "72e3b4975e79703f26d83a639a92cb36e568fe7d4093652cb0d8e5aba40b204f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工を実行して停止する.py": "3dba406c1bb0e3bcc572adc4755c88cd5f5dcb4a0464d45cd92d5a3137ff88a7"
+  },
+  "前後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\出力する.mjs": "19fb8448742d6fa94c81032908149fb62fcf8624fbb63cc562adb99310602c1f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py": "0e37b68258d6db8227af0cb433cca2c4968731d4d75a0c8f3dd2ecb9a6948869",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\README.md": "72e3b4975e79703f26d83a639a92cb36e568fe7d4093652cb0d8e5aba40b204f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工を実行して停止する.py": "3dba406c1bb0e3bcc572adc4755c88cd5f5dcb4a0464d45cd92d5a3137ff88a7"
+  },
+  "前後不変": true,
+  "人工": {
+    "場数": 2,
+    "候補数": 12,
+    "場別行数": 24,
+    "0取引行数": 8,
+    "数値比較数": 1676,
+    "空欄比率確認数": 100
+  },
+  "Root未指定の本文前拒否": true,
+  "独立数値破壊拒否": true,
+  "JST文字列/書式@": true,
+  "xlsx生成": false,
+  "入力": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\手製の独立結果.json",
+    "sha256": "63ac50b66abf7a3725eeac0c7e8eb7f1b174dea8dd0ab463921af2a91c903a2e"
+  },
+  "人工出力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSVの独立再読.json": "d0cb58873124d08820b62b3a5c7b7e5d0207f3f343aa460c3f7798baf74bbdf3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\手製の独立結果.json": "63ac50b66abf7a3725eeac0c7e8eb7f1b174dea8dd0ab463921af2a91c903a2e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\正本の数値破壊.json": "6462605e56ee38075b7cec845f7e75870e360931e8d0b96ca1246436911097ec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV\\CSVの確認.json": "fc038a340c91e173b4139721009cd836c2d338e36fefb6aa2db21948fd25c420",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV\\候補別集計.csv": "0a40768a3a24626895d1ca81782a3c1435c250957ac7510692effbcc1d5b1f03",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV\\候補別集計の人工プレビュー.png": "745197de066985470e4cac320388b2060655f0abc9d4b9ba4e11d6aa83a6afb3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV\\全セッション.csv": "d749b0db369f5718d3519cade7ca3d514c749517f84304b89dc83595c229d7e3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV\\全セッションの人工プレビュー.png": "f6ace50cd3c621f35cb4338967aba298464c210798bf21b11f91d6b8a75fc8ef"
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\masay\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\出力する.mjs",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\決して開かない.json",
+        "0000000000000000000000000000000000000000000000000000000000000000",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\未許可出力"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "node:internal/modules/run_main:107\n    triggerUncaughtException(\n    ^\n\nAssertionError [ERR_ASSERTION]: 人工又はRootの成功結果指定が必要\n    at file:///S:/GitHub/masayoshi4649/FutureSignalResearch/work/114%E6%90%8D%E7%9B%8ACSV%E3%81%AE%E5%87%BA%E5%8A%9B/%E5%87%BA%E5%8A%9B%E3%81%99%E3%82%8B.mjs:87:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async node:internal/modules/esm/loader:647:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {\n  generatedMessage: false,\n  code: 'ERR_ASSERTION',\n  actual: false,\n  expected: true,\n  operator: '==',\n  diff: 'simple'\n}\n\nNode.js v24.22.1\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\masay\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+        "C:\\Users\\masay\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.1104.22356\\skills\\spreadsheets\\container_tools\\mark_artifact_operation_started.mjs",
+        "--operation-kind",
+        "create",
+        "--expected-output-count",
+        "2",
+        "--output-format",
+        "csv"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Users\\masay\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\出力する.mjs",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\手製の独立結果.json",
+        "63ac50b66abf7a3725eeac0c7e8eb7f1b174dea8dd0ab463921af2a91c903a2e",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV",
+        "--artificial"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"成功\":true,\"人工\":true,\"出力先\":\"S:\\\\GitHub\\\\masayoshi4649\\\\FutureSignalResearch\\\\work\\\\114損益CSVの出力\\\\人工_停止版\\\\CSV\",\"出力\":{\"候補別集計.csv\":{\"sha256\":\"0a40768a3a24626895d1ca81782a3c1435c250957ac7510692effbcc1d5b1f03\",\"データ行数\":12,\"列数\":42},\"全セッション.csv\":{\"sha256\":\"d749b0db369f5718d3519cade7ca3d514c749517f84304b89dc83595c229d7e3\",\"データ行数\":24,\"列数\":38}}}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py",
+        "--result",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\手製の独立結果.json",
+        "--sha256",
+        "63ac50b66abf7a3725eeac0c7e8eb7f1b174dea8dd0ab463921af2a91c903a2e",
+        "--folder",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV",
+        "--output",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSVの独立再読.json",
+        "--artificial"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"成功\": true, \"数値比較数\": 1676, \"空欄比率確認数\": 100, \"0取引行数\": 8}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "C:\\Python314\\python.exe",
+        "-X",
+        "utf8",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py",
+        "--result",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\正本の数値破壊.json",
+        "--sha256",
+        "6462605e56ee38075b7cec845f7e75870e360931e8d0b96ca1246436911097ec",
+        "--folder",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\CSV",
+        "--output",
+        "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\破壊が通ったら誤り.json",
+        "--artificial"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py\", line 176, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py\", line 172, in main\n    report=verify(Path(args.result).resolve(),args.sha256,Path(args.folder).resolve(),Path(args.output).resolve(),args.artificial)\n  File \"S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py\", line 128, in verify\n    for header,field in MAPPED.items():number(row[header],original[field],key+'/'+sid+'/'+header)\n                                       ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py\", line 56, in number\n    need(actual.is_finite() and abs(actual-Decimal(expected))<=TOLERANCE,'CSV数値差:'+label)\n    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py\", line 34, in need\n    if not value:raise ValueError(label)\n                 ^^^^^^^^^^^^^^^^^^^^^^^\nValueError: CSV数値差:A0_C0_D0/2026-09-21_Day/純損益円\n"
+    }
+  ],
+  "実市場結果/実CSV/Raw/11月09日本文読取": false,
+  "実行環境": {
+    "Node": "v24.22.1",
+    "artifact_tool": "2.8.129"
+  },
+  "研究目標達成": false,
+  "採用": false
+}

@@ -1,0 +1,493 @@
+{
+  "version": 1,
+  "trial": 114,
+  "fixed": true,
+  "stage": "full70",
+  "market_native_read_authorized": true,
+  "refs": {
+    "condition": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\F2_114金融条件_設計原文参照.json",
+      "sha256": "b0bf17c4bcd435dcca13da12995a11a9c6f5617f86a27ca2f0994528a3823167"
+    },
+    "core_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114順行と反転取得の連続比較\\停止.json",
+      "sha256": "8e48f8c008a3bb6ab72ef9ec21f2b474dc403c79aa4a6b1a34f7b1d30d0ae729"
+    },
+    "actor_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114順行反転取得を執行する会計\\Actor停止.json",
+      "sha256": "2178d1fbe7b980d7f507d6d9c99c6cdef1a8bde8702e4e4a69dbe97b687a9b93"
+    },
+    "pure_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113起動前の支持否定と利益保護の純演算\\停止.json",
+      "sha256": "81f54d965ef8d81c65a7b58f4d376374b79c765e1ad4ada5cc6270159e4ed312"
+    },
+    "entry_gate_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114順行と反転取得の純判定\\停止.json",
+      "sha256": "3e721f461a0b737140771335bcee67c033f3413a911910cf256f1b453f8037d6"
+    },
+    "save_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114利益保護を固定した入口比較の会計\\会計停止.json",
+      "sha256": "1c746b02409398afcbd70f4aea6362ddb3da0a30e80fa0c7ca4aba0139a8373c"
+    },
+    "P_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114利益保護を固定した入口比較の会計\\P停止.json",
+      "sha256": "f2c19983d428fd0bf6dbc49266751fb08498ed10bd754505bc6bed577ccd72dd"
+    },
+    "entry_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114入口判定を独立検算する\\停止.json",
+      "sha256": "369eda8990de9faa430ca575b3cf6f114abf73bea1cfebf32522ceef166f1eb6"
+    },
+    "formal_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続_入口票の零項目\\検査_停止版\\停止.json",
+      "sha256": "4b186c4725e3082d3bc7eeea73728504951afd38ace58125e8a1e887f5b637b6"
+    },
+    "code_material_stop": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続_入口票の零項目\\検査_停止版\\コード分類の停止.json",
+      "sha256": "5ada6ddd90ab691e2f5656c532df3e45427c215039127db74dc2e595fe3e86b3"
+    },
+    "code_material": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続\\金融コードの正式化素材.json",
+      "sha256": "f92ad9ac5afba4e426597cdd52f4ee343585f50ab4cbe4e501002d922d13c07e"
+    },
+    "market": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114金融F2\\全70場\\完了.json",
+      "sha256": "2589160f6e86e618a64372a52cad0abd76e19e5b49d607897f758604600a0b18"
+    },
+    "result": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114独立保存F2\\全70場\\結果.json",
+      "sha256": "28006bfa74cee9ac93e85496590c4b93479bc0c7d31080c3b2f1eeb938d9fb1c"
+    },
+    "saved_check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114独立保存F2\\全70場\\保存会計の確認.json",
+      "sha256": "301c2b4359484ba2e4a4748dae4c069201ed03c959ff10be452531ad200a34b7"
+    },
+    "entry_check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114入口独立F2\\全70場\\結果.json",
+      "sha256": "5e5bc4e9ceeba8a1522becc5842a7dc259f94d18b8d527447d1f912496f15b1f"
+    },
+    "csv_check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\114損益CSV\\CSVの独立再読.json",
+      "sha256": "1ea6ab25e9e6fee6a400369bdc130c598d790d992e7b464bffd1801121f5c7f5"
+    }
+  },
+  "csv_refs": {
+    "候補別集計.csv": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\114損益CSV\\候補別集計.csv",
+      "sha256": "de1cab06ee857c23736aec14da20695346c70bdefcf14e2fef5dda7dcf35a57d"
+    },
+    "全セッション.csv": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\114損益CSV\\全セッション.csv",
+      "sha256": "9f48e7cfef1bfe403e7b7a1fafc243a1fa5f628259548ae1cfbf00d6326ad70a"
+    }
+  },
+  "code_refs": [
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\研究資料を準備する.py",
+        "sha256": "220f4d5ea8e822fbcc0f5642fd33b2278644560309efa8a2f1ea4be8bb606ef1"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\金融条件を固定する.py",
+        "sha256": "c835210e32306a5c920a82f002b34716c8fb0f777b647f9f7acb499512b0675a"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\設計根拠を不変参照へ移す.py",
+        "sha256": "dde3dfe3b32cd8e0c9fc6357f2e69309ec354f74de191a3bdc2160f1178beb8d"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\入口独立要求を固定する.py",
+        "sha256": "2943c9d215dc8e8c769737b6cca9b8225731d8f718cc4808bb30360b64a6cfa6"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\独立保存要求を固定する.py",
+        "sha256": "b4de450f5f7a65e8548e332f44fada9d83b4fc7f44f48964b2564d2983f14f53"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\正式保存要求を作る.py",
+        "sha256": "d3b73c8929eac112072832a27f456e86f29a5e16c0181129aa4dc92c4c9492c9"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\Viewer取得を確認する.py",
+        "sha256": "91d313f8619016360a9a8bbf87d68185c9387d8e806cbe939ad81d16f24f3927"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114入口判定を独立検算する\\独立式.py",
+        "sha256": "75279ee570a1dbea59588eebf8b3c39acb0d9f30bbc1bb145314f8e468ea39f3"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114入口判定を独立検算する\\人工検査.py",
+        "sha256": "0c01cfb907a4c6e8f88f67309ec71bb8e81af67bd058c83c6775defbd8497588"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114同入口と要求時技法の実現差\\実現差の演算.py",
+        "sha256": "bcc2a6c103713625204e5f5af63c827e1c279a16f921b6b4007f2d479e54037c"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114同入口と要求時技法の実現差\\診断する.py",
+        "sha256": "223ff517cfc37f4cf5ab3186d8616a0cd94e7f8f18e8a212ae5e11c13c368ba6"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114同入口と要求時技法の実現差\\人工検査.py",
+        "sha256": "b0a1df5c68baf2841aac7c8c85289b66f05b1ca24b2f6cfda339624dc80d5ad8"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114同入口と要求時技法の実現差\\検査して停止する.py",
+        "sha256": "9284420283ce229596dec6844ac2e7ef79ee7ab5eb9076ca9059f93ee34f314b"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114同入口と要求時技法の実現差\\README.md",
+        "sha256": "1a7fc1b64f1dea59859856f941643265793540ef62c1c267a36b4436c6795d49"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\出力する.mjs",
+        "sha256": "19fb8448742d6fa94c81032908149fb62fcf8624fbb63cc562adb99310602c1f"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\CSVを独立再読する.py",
+        "sha256": "0e37b68258d6db8227af0cb433cca2c4968731d4d75a0c8f3dd2ecb9a6948869"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\README.md",
+        "sha256": "72e3b4975e79703f26d83a639a92cb36e568fe7d4093652cb0d8e5aba40b204f"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工を実行して停止する.py",
+        "sha256": "3dba406c1bb0e3bcc572adc4755c88cd5f5dcb4a0464d45cd92d5a3137ff88a7"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\結合する.py",
+        "sha256": "47ac92127515f129b411b1175700aa8f864aeb41dee8fb7ade81023f12a00b9e"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\人工検査.py",
+        "sha256": "c2042f66e7a5e1983e68038b5b2c26a8e81a4e64afddf311b44e923730acfb9b"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\README.md",
+        "sha256": "2e9242cefd17ac5e700e3a1f9a1bc69e483e3d16b7f2fc592f378b54d177354d"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\検査して停止する.py",
+        "sha256": "2943cb2b87d11f2a4ed5e04f770727e7af9bc3ef677886215ba11bdf9e3d3b05"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\確認する.py",
+        "sha256": "c69c5c131682e9dd30a64cd17d21c2de3d67d499915efb8c902a88c5389c2087"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\EMAの同足関係を確認する.py",
+        "sha256": "67b95c0f561e20e5982d5c15581f6f81da65f5e9cacb23f0024a3d7608308d0d"
+      },
+      "role": "Rootの実使用検査/CSV/表結合/記述診断コード"
+    }
+  ],
+  "extra_refs": [
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続_入口票の零項目\\限定差と分類素材の再用確認.json",
+        "sha256": "fd9051995f1745a74cbe44beb841855048e7f09386c25e9cd8a8a61a074fe078"
+      },
+      "target": "検査/正式保存器の限定差と分類素材再用.json",
+      "role": "入口票の零項目だけの限定派生と旧金融1205素材の同体再認証"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\同入口と要求時技法の実現差.json.gz",
+        "sha256": "48ef675a698ac84cf175968c2449722dfac76d1839c722c7d4f9c57c6e7fbccb"
+      },
+      "target": "診断/同入口と要求時技法の実現差.json.gz",
+      "role": "原結果JSONを全bytes同体でgzip保存。解凍後SHA775b5f…"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\実entry対応.json.gz",
+        "sha256": "38ec741cb08c61e9df2433cfd34d6e09e4c8ee53df35c5e95f83ce8611fe0ced"
+      },
+      "target": "診断/実entry対応.json.gz",
+      "role": "原JSONL5060行をrecords配列へ同値で格納、原圧縮Refを保存。金銭改変なし"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114同入口と要求時技法の実現差\\停止.json",
+        "sha256": "593245ed865763e40dfb48cb9e62980b46c17fb20669f2f9bdaa4ecf8f3ed648"
+      },
+      "target": "検査/同入口診断の停止.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\full70_同入口診断要求.json",
+        "sha256": "b4c47a33e578b08d81159cb73d69f5f432d41dbb7588341d5c3f2bafa1aa96f0"
+      },
+      "target": "検査/同入口診断の要求.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114金融F2\\先頭2場\\完了.json",
+        "sha256": "3e1d70a31b02b1003720eb6d2c41a0cd2aa20de645316b06fb7d427dffdf7184"
+      },
+      "target": "検査/先頭2金融成功.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114独立保存F2\\先頭2場\\保存会計の確認.json",
+        "sha256": "fba68dade79417f894153380c0365d071d3d9b1fe342f9d6d80cd0bad4d70283"
+      },
+      "target": "検査/先頭2独立保存確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114入口独立F2\\先頭2場\\結果.json",
+        "sha256": "df80b11849d7a31c3f9b05732c7f7047b74d0d0cca3077c23f879f89dd82e9e4"
+      },
+      "target": "検査/先頭2入口独立確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114独立保存F2\\元54場\\保存会計の確認.json",
+        "sha256": "77bb814c2e9f6cc69bf6b7d5fa9c15bf24c3de08e4931790dadd60450ea007ab"
+      },
+      "target": "検査/元54独立保存確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\first2_独立保存要求.json",
+        "sha256": "a828cc2316975df67054bbe25d3eeed34776d371fe28656d84b5bbca782ff1f5"
+      },
+      "target": "再現資料/独立保存要求_first2.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\base54_独立保存要求.json",
+        "sha256": "f3b2a43626ae15a258e9212bfff9d71a8f2c0c33fa8412688bdad62efd3e0f7b"
+      },
+      "target": "再現資料/独立保存要求_base54.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\full70_独立保存要求.json",
+        "sha256": "96105da743a8e1be12e45cbb01fdb1841b9b10e120901dfc780fc5de56c7a7ac"
+      },
+      "target": "再現資料/独立保存要求_full70.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\full70_入口独立要求.json",
+        "sha256": "63ccb70b8ba3f8426de2d5d89fe327d8fdaf705ba58ec905c1c14e355c08db3a"
+      },
+      "target": "再現資料/入口独立要求_full70.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\F1_114金融条件.json",
+        "sha256": "45193a0cac5ce98045a4e9a952ebba898b57618a6a940665b38e1f8fa6971989"
+      },
+      "target": "検査/初期固定F1_市場未実行.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\設計原文参照の確認.json",
+        "sha256": "b44051f81521b156064f4a7996d671512378758e8f19ad31c4aca634567d406e"
+      },
+      "target": "検査/設計原文参照の確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114F2固定の監査\\監査.json",
+        "sha256": "e13f8138a9aa8b7fe5eb94748ee712d9e8f5a90316bc6df9b2256d67d1d67d57"
+      },
+      "target": "検査/F2固定の監査.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114F2固定の監査\\監査.md",
+        "sha256": "ca6ca3483b55eca7064388dddf5c6d703d20509c603f4db223280c3c1746d132"
+      },
+      "target": "診断/F2固定の監査.md",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\114損益CSV\\CSVの確認.json",
+        "sha256": "a34c71f9033d3861028fd3c7c64f2e5034c57c1503898199a6403753ca66f997"
+      },
+      "target": "検査/CSVの生成確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114損益CSVの出力\\人工_停止版\\停止.json",
+        "sha256": "fce19bc6b0b90d5015c84b993f543d265ebc870ec73e4f5d5db06a4596325856"
+      },
+      "target": "検査/CSV出力の停止.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\人工_停止版\\停止.json",
+        "sha256": "e42b623a0b1da31142979441d9ba04740c622851f30c6e8acb48c21ac9025bc4"
+      },
+      "target": "検査/設定表の結合停止.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\全70設定表の結合要求.json",
+        "sha256": "36a0491a61221cb0d6965058f99bc39973e3e00cd543874c23550fa65bbd2a7c"
+      },
+      "target": "再現資料/設定表の結合要求.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114設定表の結果結合準備\\全70の結果版\\結合の確認.json",
+        "sha256": "280b16752594ec009c38831d4d976de9354b91bbf09278dbfbf6773e0022e77e"
+      },
+      "target": "検査/設定表の結合確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\レビュー.md",
+        "sha256": "1db5096bd29acfc2ab124a289d2ddd98b79ad5b33c08fe4470dfb8408a0dc12b"
+      },
+      "target": "診断/要求時技法の文脈/レビュー.md",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\正本の独立確認.json",
+        "sha256": "7379b4498abb7e5f835b723d092f4f458422eb5c8ba2eaec55608a23d52bc191"
+      },
+      "target": "診断/要求時技法の文脈/正本の独立確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\Rの当時値の記述診断.md",
+        "sha256": "366b4d4ef1ff241d19844610c722e4f131c5497258e2dfa70b29fef05e7c624b"
+      },
+      "target": "診断/要求時技法の文脈/Rの当時値の記述診断.md",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\R25玉の要求時文脈.json",
+        "sha256": "8d1ac3932ca6fec4fe3b74acd10e9e168f3c67d21debc999840a99698dca7f70"
+      },
+      "target": "診断/要求時技法の文脈/R25玉の要求時文脈.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\EMA同足の数式確認.json",
+        "sha256": "8d80c45c68ae3e7bc49c7f6144bd0be8099b290e03f53389b3845c8056a09b60"
+      },
+      "target": "診断/要求時技法の文脈/EMA同足の数式確認.json",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\確認する.py",
+        "sha256": "c69c5c131682e9dd30a64cd17d21c2de3d67d499915efb8c902a88c5389c2087"
+      },
+      "target": "診断/要求時技法の文脈/確認する.py",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    },
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114全70実現差のレビュー\\EMAの同足関係を確認する.py",
+        "sha256": "67b95c0f561e20e5982d5c15581f6f81da65f5e9cacb23f0024a3d7608308d0d"
+      },
+      "target": "診断/要求時技法の文脈/EMAの同足関係を確認する.py",
+      "role": "実行済み検査・固定原文・市場後の記述診断の根拠"
+    }
+  ],
+  "注意": [
+    "これは未固定の要求素材。全70金融/独立840/入口独立840成功へ結ぶRootの新固定要求でのみ正式保存する。",
+    "CSV二点はoutputs唯一正本。Root全セル再読成功と現SHAをbindする。",
+    "Viewer TOML等の実使用コードはextra_refsでなくcode_refsへ。既存試行文書は複写/上書きしない。",
+    "正式先はstudy/00114_順行と反転の取得確認を分ける。新保存器の停止済み5所有と旧b8停止を以後編集しない。"
+  ]
+}

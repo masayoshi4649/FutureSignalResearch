@@ -1,0 +1,48 @@
+{
+  "試行": 114,
+  "成功": true,
+  "旧保存停止": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続\\検査_停止版\\停止.json",
+    "sha256": "b8e7e3a74b026b825cd60a6c3f9fd3bcba1a18ddaf3d57562665303b27430445"
+  },
+  "新保存停止": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続_入口票の零項目\\検査_停止版\\停止.json",
+    "sha256": "4b186c4725e3082d3bc7eeea73728504951afd38ace58125e8a1e887f5b637b6"
+  },
+  "旧保存コード": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続\\正式保存する.py",
+    "sha256": "f4d4a124926efe8509086170657933f1617ab0286e8ec03fc5f047f5c8ed5c3a"
+  },
+  "新保存コード": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続_入口票の零項目\\正式保存する.py",
+    "sha256": "6c68da721ede44229a671335a39bd5bd27aec1a10526534ee7ef43d0c712410e"
+  },
+  "保存本体の差": {
+    "機能": "入口票の70場合算のみ、合計0キー欠落を許容",
+    "置換前": "need(dict(totals) == result['入口票集計'][key], '全70の入口票合算同体')",
+    "置換後": "need(totals == Counter(result['入口票集計'][key]), '全70の入口票合算同体。欠落キーは合計0だけ許容')",
+    "完全一致の1式置換": true
+  },
+  "旧分類素材": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114正式保存への接続\\金融コードの正式化素材.json",
+    "sha256": "f92ad9ac5afba4e426597cdd52f4ee343585f50ab4cbe4e501002d922d13c07e"
+  },
+  "分類コード同bytes": true,
+  "分類の再認証全JSON同体": true,
+  "分類件数": {
+    "Goコンパイラ環境参照": 1,
+    "GoRoot環境参照": 716,
+    "旧同パス同SHA参照": 421,
+    "新規同梱予定": 64,
+    "旧同bytes別パス参照": 3
+  },
+  "金融固定とコード1205": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\114進行\\F2_114金融条件_設計原文参照.json",
+    "sha256": "b0bf17c4bcd435dcca13da12995a11a9c6f5617f86a27ca2f0994528a3823167"
+  },
+  "市場/Raw/CSV本文読取": false,
+  "金融再実行": false,
+  "分類素材の再保存": false,
+  "採用": false,
+  "研究目標達成": false
+}
