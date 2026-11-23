@@ -1,0 +1,69 @@
+{
+  "試行": 108,
+  "原金融条件変更": false,
+  "最初の全70": {
+    "状態": "handle75547とOSプロセスの不存在、完了記録なし",
+    "保存済みNative": 33,
+    "未完了": 37,
+    "全70成功とした": false,
+    "元保存先": "work/108市場/全70場"
+  },
+  "回復金融": {
+    "方法": "同じ固定binary/金融条件/成功first2で新規先へ全70を再計算",
+    "未処理分だけのresume": false,
+    "完了SHA256": "bf0278e332386701221313de8a215fe04adea7666c22bad54c0055303440aae4",
+    "場数": 70,
+    "新会計": 840,
+    "中断33全bytes一致": true,
+    "重複加算": false
+  },
+  "検査器の初回誤り": {
+    "内容": "旧Native相対pathの基準を台帳親に取り成果物_金融を二重連結。実物は未変更、試行親基準へ修正して全1342参照差0",
+    "金融実行への影響": false
+  },
+  "事後保存器の実行前修正": {
+    "内容": "strの__file__へresolveを呼ぶ記載をRootが実行前に発見。Path(__file__).resolve()へ修正",
+    "修正前本体実行": 0,
+    "小人工": "実CLIでinputs自己SHA生成を通過し、次の必須condition欠落で期待どおり拒否",
+    "金融再実行": false
+  },
+  "Viewer": {
+    "旧8092": "指定PID19844不存在・LISTENなし・info接続拒否。data GET試行0。停止再起動設定変更0",
+    "独立8093": "Rootが別設定で新規起動。新wrapperと元検査関数で一覧840/固定先頭Day12GET差0。旧helper/OLD.BASE変更0。描画未確認"
+  },
+  "根拠": [
+    {
+      "source": "work/108進行/中断部分の検査.json",
+      "path": "検査/中断部分の検査.json",
+      "sha256": "6adc86cc41e58db2dff029817fb195a4c0276880bb013a00c111121de57dd58e"
+    },
+    {
+      "source": "work/108進行/中断33場との同体確認.json",
+      "path": "検査/中断33場との同体確認.json",
+      "sha256": "28cc18d5946f63718c384b9ada855e9d460422de545232940216f3a253baeba5"
+    },
+    {
+      "source": "work/108進行/同条件再実行前の全入力確認.json",
+      "path": "検査/同条件再実行前の全入力確認.json",
+      "sha256": "a635e8f5d91cf82e1e37141fb36ab550e50ad4baf8b942f6fbf341529266bd30"
+    },
+    {
+      "source": "work/108再現保存の準備/Native保存の確認.json",
+      "path": "検査/Native保存の確認.json",
+      "sha256": "d6b4fe85421adf1085d593662a39ff3a2bc72ab21d66f16792a4b60c1f203d97"
+    },
+    {
+      "source": "work/108再現保存の準備/導入部の人工/確認.json",
+      "path": "検査/事後保存器の導入部確認.json",
+      "sha256": "e196fbe6786cf48d3096a5e4e860afa9ec4fc23ce14c6252612535814ed99f8e"
+    },
+    {
+      "path": "検査/Viewer接続の未成立.json",
+      "sha256": "707c10e01e2824e07e8a4b5edfeb47ba12d178e7bc47e803087bb271a7821ba9"
+    },
+    {
+      "path": "検査/Viewer専用8093代表12資源.json",
+      "sha256": "c9a893d5b861cb5da2206bd70c69fb952c9c2ae40739914fe4a3fc82437c363f"
+    }
+  ]
+}

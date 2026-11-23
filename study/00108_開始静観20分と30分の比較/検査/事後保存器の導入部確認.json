@@ -1,0 +1,23 @@
+{
+  "成功": true,
+  "目的": "事後保存器の実CLIで固定計画検査とinputsの自己コード指紋まで実行し、次の必須condition欠落で拒否することを確認",
+  "argv": [
+    "C:\\Python314\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\108再現保存の準備\\事後コードを保存する.py",
+    "--plan",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\108再現保存の準備\\導入部の人工\\参照を省略した計画.json",
+    "--plan-sha",
+    "9498cf8672397212095620064f1620f82a13b4f87714ca6f6cd712807f10bb51",
+    "--out",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\108再現保存の準備\\導入部の人工\\生成禁止"
+  ],
+  "終了コード": 1,
+  "期待した拒否": "KeyError condition",
+  "AttributeError": false,
+  "保存器SHA256": "25ff0d99deeddaf98f8f6f159eb60f0c20cdf69733b49df4e7d9c66ebf073ab1",
+  "出力生成": false,
+  "金融再実行": false
+}
