@@ -1,0 +1,71 @@
+{
+  "成功": true,
+  "scope": "元Source連続会計の参考C5。B5Q・開始30分・追加全玉保護を備える主候補とは時計/取得が異なる。",
+  "場別": [
+    {
+      "session": "2026-11-05_Day",
+      "books": 1,
+      "entry_quantity": 16,
+      "close_quantity": 16,
+      "gross_yen": 0,
+      "fee_yen": 1232,
+      "slippage_yen": 16000,
+      "net_yen": -17232
+    },
+    {
+      "session": "2026-11-05_Night",
+      "books": 2,
+      "entry_quantity": 33,
+      "close_quantity": 33,
+      "gross_yen": 218000,
+      "fee_yen": 2541,
+      "slippage_yen": 33000,
+      "net_yen": 182459
+    },
+    {
+      "session": "2026-11-06_Day",
+      "books": 1,
+      "entry_quantity": 53,
+      "close_quantity": 53,
+      "gross_yen": -151000,
+      "fee_yen": 4081,
+      "slippage_yen": 53000,
+      "net_yen": -208081
+    },
+    {
+      "session": "2026-11-06_Night",
+      "books": 2,
+      "entry_quantity": 37,
+      "close_quantity": 37,
+      "gross_yen": -19000,
+      "fee_yen": 2849,
+      "slippage_yen": 37000,
+      "net_yen": -58849
+    }
+  ],
+  "合計": {
+    "entry_quantity": 139,
+    "close_quantity": 139,
+    "gross_yen": 48000,
+    "fee_yen": 10703,
+    "slippage_yen": 139000,
+    "net_yen": -101703
+  },
+  "合算口座数": 6,
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105Source市場\\全4場\\完了.json": "8eeefe0fca05bde964dc2a247a42cb9d09192676ded32f1343abb4da2ef5a1d2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105進行\\元Sourceの参考損益を保存する.py": "5c3f654c54bdb0fd3979a07db531089317c9ba5077b27068c728c15d4a3c6374",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105Source市場\\全4場\\2026-11-05_Day_symmetric.result.json": "b8bde508f8b217157bb830cbaf363a62b2a21ea0cde02295eedc6ed327055abc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105Source市場\\全4場\\2026-11-05_Night_symmetric.result.json": "dbb3b7e7a842176cb336b1e23ed94c7e9f6b5a8ed7302a47df32561ee8f72153",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105Source市場\\全4場\\2026-11-06_Day_symmetric.result.json": "8d960a128218cf1be8037f050a1e95a138a801da4f950d485eb8befd8aaa0198",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105Source市場\\全4場\\2026-11-06_Night_symmetric.result.json": "f6b2729769689aa20e725dd31f876f034fa4f5c96ae6f333a617cd239d5a26d6"
+  },
+  "前後不変": true,
+  "旧市場golden": "対象外",
+  "未実施": [
+    "C0への再生/推定変換",
+    "入口差と保護効果の因果分解",
+    "参加条件を満たす候補としての採用",
+    "金融再実行"
+  ]
+}

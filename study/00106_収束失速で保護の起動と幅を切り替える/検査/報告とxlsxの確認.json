@@ -1,0 +1,36 @@
+{
+  "成功": true,
+  "試行": 106,
+  "金融全70SHA256": "c1370aac63c1905f132237becd5d5bb37c6bd06e20b061800c9d0caa02a1769f",
+  "保存結果SHA256": "9c809c4135b8f7df3aa6427232e4bc7f4c57df0821a2dade68ba75c6514950da",
+  "保存確認SHA256": "472c8741eed631eda88f00e0149fc040207504460a493d7804ab88efae1cef1d",
+  "報告コードSHA256": "6ad47e55c07e3f37699e6f76f8618f9076a533a6104ad92ec4f7e81ba7aed89a",
+  "報告停止SHA256": "9820fc6269dfa31086603fde4cc207adf52ae90ff38f2fb51f9582cd46053a01",
+  "正式報告": {
+    "README.md": "2a48d141b45dfc7e15f522fe8c98067448efd46054488e61930ea29a57ba735c",
+    "設定と結果.md": "fda596943628cb7b91c2c326a5721c1fafadd43807d57c8924e60c07b25bcdc7",
+    "結果欄の値.json": "bc9042481bb8202822de3fe0b79d4e2920ecd819c186de76534315f4fbeefcf9"
+  },
+  "xlsx": {
+    "path": "outputs/01a1889f-f2af-7943-a047-543275ee9ed2/元アルゴリズムと現行代表候補の損益比較.xlsx",
+    "sha256": "69509c40c1f65214322a73b27c1e94e791df3b44d35e384cff555a62a1872206",
+    "旧全セル保持": 11760,
+    "旧図表parts保持": 8,
+    "Rootの7領域PNG視認": true,
+    "marker編集回数": 1,
+    "実Excel本体検査": false
+  },
+  "xlsx根拠": {
+    "xlsx追記の完了.json": "4c94e30981e3dc2e1d775321a4be1b5b7da1dddd7583552fa721ae827dfe1c3a",
+    "xlsx保存後確認.json": "9d6210efbb7ede8ff8bae883794e4cb652f5f358e8160a3893306eeb0563c26b"
+  },
+  "Viewer": {
+    "sha256": "bb0e8d27b2d8251ed7a37b3d4aae62b82aa0370a3ca6f6df98e19feaa0968453",
+    "scope": "1400一覧読込と事前固定20の表示API。全資源/ブラウザ描画の照合ではない。",
+    "一覧": 1400,
+    "実GET": 20
+  },
+  "表示処理の修正": "報告は場別counts-onlyと集約率の型を区別。xlsxのt=d/ISO日付は読取QA側で厳密に正規化。売買・金融計算・保存正本は変更0。",
+  "研究目標達成": false,
+  "実運用採用": false
+}

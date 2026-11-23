@@ -1,0 +1,25 @@
+{
+  "成功": true,
+  "scope": "全て手製4場。新4場/旧実原板/CSV本文は0。Source/指標/金融は実行しない",
+  "人工入力": 24,
+  "人工stat": 32,
+  "人工生成gzip": 6,
+  "人工共有gzip": 2,
+  "人工共有CSV": 16,
+  "解凍bytes同体/元前後statSHA": true,
+  "NK_SymbolをContractへ/年月変換なし": true,
+  "共有親相対path結合": true,
+  "必要な拒否": [
+    "既存生成先拒否",
+    "既存gzip上書き拒否",
+    "gzipCRC破損",
+    "解凍bytes差",
+    "Symbol複数",
+    "Symbol欠損",
+    "CSV非有限",
+    "同size同mtimeでも元SHA変更",
+    "Root未固定は本文前拒否"
+  ],
+  "未固定Rootでの元本文アクセス": 0,
+  "helperSHA256": "fe476a1ed9f548206d0f1ab53bddbfccb34bcfc7c20f54725b13d4f6449ffcd5"
+}

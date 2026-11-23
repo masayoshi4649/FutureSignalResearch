@@ -1,0 +1,113 @@
+{
+  "成功": true,
+  "試行": 105,
+  "基準": "trialdir",
+  "場数": 4,
+  "金融会計": 16,
+  "元金融完了": {
+    "path": "../../work/105LD10市場/全4場/完了.json",
+    "sha256": "07452277aaefaf90d0fdc2a7bf24c4507d792d856b1bafac226af025a7cbed60",
+    "bytes": 161338
+  },
+  "旧市場golden": "対象外",
+  "参照": [
+    {
+      "session": "2026-11-05_Day",
+      "path": "成果物_主B/Native/2026-11-05_Day.json.gz",
+      "sha256": "268566e7d26c32fb047df74644e84f4d358094f62cacf49322e7683921b60a87",
+      "bytes": 45119,
+      "work元": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-05_Day.json.gz",
+        "sha256": "268566e7d26c32fb047df74644e84f4d358094f62cacf49322e7683921b60a87"
+      },
+      "同bytes": true,
+      "会計": 4
+    },
+    {
+      "session": "2026-11-05_Night",
+      "path": "成果物_主B/Native/2026-11-05_Night.json.gz",
+      "sha256": "d8e135ce000d70b4c57b41ca344e36a6d330b89b756a05f898d88ab951366805",
+      "bytes": 96876,
+      "work元": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-05_Night.json.gz",
+        "sha256": "d8e135ce000d70b4c57b41ca344e36a6d330b89b756a05f898d88ab951366805"
+      },
+      "同bytes": true,
+      "会計": 4
+    },
+    {
+      "session": "2026-11-06_Day",
+      "path": "成果物_主B/Native/2026-11-06_Day.json.gz",
+      "sha256": "45a6e287d65ef075e81abde541a786e5e1bb71e86db0c95987ba052ba426fe7e",
+      "bytes": 74619,
+      "work元": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-06_Day.json.gz",
+        "sha256": "45a6e287d65ef075e81abde541a786e5e1bb71e86db0c95987ba052ba426fe7e"
+      },
+      "同bytes": true,
+      "会計": 4
+    },
+    {
+      "session": "2026-11-06_Night",
+      "path": "成果物_主B/Native/2026-11-06_Night.json.gz",
+      "sha256": "897da21dd24765943640ec999f47112c5feef4de511b4935dd49a1ec3d4b9423",
+      "bytes": 79165,
+      "work元": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-06_Night.json.gz",
+        "sha256": "897da21dd24765943640ec999f47112c5feef4de511b4935dd49a1ec3d4b9423"
+      },
+      "同bytes": true,
+      "会計": 4
+    }
+  ],
+  "価格Tape": {
+    "保存": "work参照のみ・本文未読/非複製",
+    "場別": [
+      {
+        "session": "2026-11-05_Day",
+        "fresh_legacy_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-05_Day_legacy.tape.json.gz",
+          "sha256": "c4b1606fb1346c5c3fdca6a1791f96f971d10ee3e5a06d6f09dc8fbbcb60c68b"
+        },
+        "symmetric_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-05_Day_symmetric.tape.json.gz",
+          "sha256": "3f77546dd0cb11d21bd8cc9877ee7d0901c3d6ce6f4909069cf88deb012b717e"
+        }
+      },
+      {
+        "session": "2026-11-05_Night",
+        "fresh_legacy_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-05_Night_legacy.tape.json.gz",
+          "sha256": "c7ed8bd3870e5a48d641dc2cb019e8a09523c4da86a337fbdae4a4733b32139e"
+        },
+        "symmetric_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-05_Night_symmetric.tape.json.gz",
+          "sha256": "0b41e89b199bcde6f4b9138e88dab03bf5e2662f396cbd7941143db6edb3671f"
+        }
+      },
+      {
+        "session": "2026-11-06_Day",
+        "fresh_legacy_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-06_Day_legacy.tape.json.gz",
+          "sha256": "29e4faa9a70068a741cfdc980acc274f62e501503815481aa81f68341830f354"
+        },
+        "symmetric_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-06_Day_symmetric.tape.json.gz",
+          "sha256": "67f5282fa27d05995122e01963322dfd6db2bce199dc546c65217fa7128bd411"
+        }
+      },
+      {
+        "session": "2026-11-06_Night",
+        "fresh_legacy_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-06_Night_legacy.tape.json.gz",
+          "sha256": "0089fce664e4bb4c6e9a2aa5f7981e5e4db45ddb0893f394ccb6801de42ddcc9"
+        },
+        "symmetric_tape": {
+          "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105LD10市場\\全4場\\2026-11-06_Night_symmetric.tape.json.gz",
+          "sha256": "f92651f43dbc8c54c647d79d8a1de64516d68799f9d9c9140418df4b40eb36ac"
+        }
+      }
+    ]
+  },
+  "金融本文JSON解析/金融再生": 0
+}

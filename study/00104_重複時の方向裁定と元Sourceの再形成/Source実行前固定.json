@@ -1,0 +1,42 @@
+{
+  "成功": true,
+  "段階": "A/Source再形成",
+  "条件": {
+    "path": "Source条件.json",
+    "sha256": "05b8275a5c1abb60aab3402c617f62d5583852dacacce48e2b831430223ea266"
+  },
+  "市場実行前": true,
+  "実行物": {
+    "path": "../../work/104Source再形成CLIの準備_版2/検査/Source準備.exe",
+    "sha256": "6b5f897e62f91a94fbe2e6b6a82e7d1855fe741f8a452753245c62672e1e5033"
+  },
+  "固定code資料数": 930,
+  "ZIP": {
+    "path": "Source再現コード.zip",
+    "sha256": "a43897f922d346d6c5d1e74593527b9253db2ea9d16f5922f47fb184789c4a18",
+    "bytes": 613570,
+    "本文保存code資料数": 213,
+    "toolchain指紋参照数": 717
+  },
+  "下書き": {
+    "path": "work\\104条件固定の準備_版2\\候補\\条件_未固定.json",
+    "sha256": "87077ad96e46d089d3d5406973abd060137fdf5daa0f66b3b4434bc094bb871c"
+  },
+  "Go版": "go version go1.24.2 windows/amd64",
+  "Source条件変更": "共有range_sideの両側成立だけ待機、他式と元商品規格は固定",
+  "場": 54,
+  "先頭2": [
+    "2026-09-21_Day",
+    "2026-09-21_Night"
+  ],
+  "mode": [
+    "legacy",
+    "default",
+    "symmetric"
+  ],
+  "Raw_CSV本文読取": 0,
+  "Source実行": 0,
+  "B金融実行": 0,
+  "旧103変更": 0,
+  "限界": "固定はWindows/amd64の実Go版と参照配置。toolchain本文/原板/旧NativeはZIP複製しない。段階Bは別固定。"
+}

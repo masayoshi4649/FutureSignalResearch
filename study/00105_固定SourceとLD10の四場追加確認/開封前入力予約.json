@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "trial": 105,
+  "予約固定": true,
+  "入力内容固定": false,
+  "Scope": "新4場の内容を開く前のstat予約・候補/条件固定。Raw/CSV本文/内容SHA/Source/金融0",
+  "sessions": [
+    "2026-11-05_Day",
+    "2026-11-05_Night",
+    "2026-11-06_Day",
+    "2026-11-06_Night"
+  ],
+  "source_mode": "symmetric",
+  "policy": "B5Q/P0/LD10",
+  "costs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "参照SHA256": {
+    "study/00105_固定SourceとLD10の四場追加確認/実行前仕様/README.md": "2948be77ae2642bae8292e4f0d9f10e5986ae7970a729cd5e9d053b0e374223d",
+    "study/00105_固定SourceとLD10の四場追加確認/実行前仕様/設定と結果.md": "3ffb49b3c7d04ebb1d48cb36f848ef4dc2b1618e3202bdad997c80a1738f37c1",
+    "study/00105_固定SourceとLD10の四場追加確認/入力仕様補足.md": "83707d1ccc945cfc96e6338a8bb8d27f548ec5b866e95ef05c9cc153323a5d67",
+    "work/105計画を作成する.py": "6c3f58b46943086b1ec1e3b30cb5ee74a6888105dcdaaa15cf189fdfb476dc7b",
+    "work/次の固定後確認の使用歴監査/停止.json": "05e5575866c7cc4c59379a1085f2ce3ac19d12fdd42e76fc2d0253a7ca86062b",
+    "work/105開封前予約/入力metadata.json": "2b83b180374ff9ee618e79f7399a6adaf180f0ba70bc78fa7ca0e0fa552b7ce3"
+  },
+  "stat32": [
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Day",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\book.jsonl",
+      "exists": true,
+      "size": 310638493,
+      "mtime_ns": 1793861100610454100
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Day",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\book.jsonl.gz",
+      "exists": true,
+      "size": 5239648,
+      "mtime_ns": 1793879923514021400
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Day",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_1min.csv",
+      "exists": true,
+      "size": 26365,
+      "mtime_ns": 1793861100710219500
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Day",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_5min.csv",
+      "exists": true,
+      "size": 5424,
+      "mtime_ns": 1793861100714615500
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Day",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Day\\book.jsonl",
+      "exists": true,
+      "size": 282868286,
+      "mtime_ns": 1793861102382035800
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Day",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Day\\book.jsonl.gz",
+      "exists": true,
+      "size": 4636624,
+      "mtime_ns": 1793879934906754300
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Day",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Day\\candle_1min.csv",
+      "exists": true,
+      "size": 26547,
+      "mtime_ns": 1793861102532348800
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Day",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Day\\candle_5min.csv",
+      "exists": true,
+      "size": 5477,
+      "mtime_ns": 1793861102542389700
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Night",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\book.jsonl",
+      "exists": true,
+      "size": 485107188,
+      "mtime_ns": 1793912400634497800
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Night",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\book.jsonl.gz",
+      "exists": false,
+      "size": null,
+      "mtime_ns": null
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Night",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_1min.csv",
+      "exists": true,
+      "size": 48682,
+      "mtime_ns": 1793912400927362400
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-05_Night",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_5min.csv",
+      "exists": true,
+      "size": 9978,
+      "mtime_ns": 1793912400929629400
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Night",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Night\\book.jsonl",
+      "exists": true,
+      "size": 438464655,
+      "mtime_ns": 1793912402396960700
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Night",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Night\\book.jsonl.gz",
+      "exists": false,
+      "size": null,
+      "mtime_ns": null
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Night",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Night\\candle_1min.csv",
+      "exists": true,
+      "size": 48653,
+      "mtime_ns": 1793912402732826900
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-05_Night",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-05_Night\\candle_5min.csv",
+      "exists": true,
+      "size": 9892,
+      "mtime_ns": 1793912402768521200
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Day",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\book.jsonl",
+      "exists": true,
+      "size": 361596823,
+      "mtime_ns": 1793947500508350000
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Day",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\book.jsonl.gz",
+      "exists": false,
+      "size": null,
+      "mtime_ns": null
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Day",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_1min.csv",
+      "exists": true,
+      "size": 26465,
+      "mtime_ns": 1793947500599061200
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Day",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_5min.csv",
+      "exists": true,
+      "size": 5385,
+      "mtime_ns": 1793947500612240900
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Day",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Day\\book.jsonl",
+      "exists": true,
+      "size": 338535312,
+      "mtime_ns": 1793947502184412700
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Day",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Day\\book.jsonl.gz",
+      "exists": false,
+      "size": null,
+      "mtime_ns": null
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Day",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Day\\candle_1min.csv",
+      "exists": true,
+      "size": 26645,
+      "mtime_ns": 1793947502376777700
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Day",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Day\\candle_5min.csv",
+      "exists": true,
+      "size": 5448,
+      "mtime_ns": 1793947502381590200
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Night",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\book.jsonl",
+      "exists": true,
+      "size": 478257763,
+      "mtime_ns": 1793998800452665300
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Night",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\book.jsonl.gz",
+      "exists": false,
+      "size": null,
+      "mtime_ns": null
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Night",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_1min.csv",
+      "exists": true,
+      "size": 47645,
+      "mtime_ns": 1793998800833022400
+    },
+    {
+      "market": "NK225",
+      "session": "2026-11-06_Night",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_5min.csv",
+      "exists": true,
+      "size": 9900,
+      "mtime_ns": 1793998800835209700
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Night",
+      "name": "book.jsonl",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Night\\book.jsonl",
+      "exists": true,
+      "size": 421309057,
+      "mtime_ns": 1793998801831913600
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Night",
+      "name": "book.jsonl.gz",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Night\\book.jsonl.gz",
+      "exists": false,
+      "size": null,
+      "mtime_ns": null
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Night",
+      "name": "candle_1min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Night\\candle_1min.csv",
+      "exists": true,
+      "size": 48748,
+      "mtime_ns": 1793998802127408000
+    },
+    {
+      "market": "TOPIX",
+      "session": "2026-11-06_Night",
+      "name": "candle_5min.csv",
+      "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-11-06_Night\\candle_5min.csv",
+      "exists": true,
+      "size": 9919,
+      "mtime_ns": 1793998802131050700
+    }
+  ],
+  "前stat予約との相違": 0,
+  "限月識別コード": null,
+  "新場損益": null
+}

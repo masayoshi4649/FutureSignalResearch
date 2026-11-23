@@ -1,0 +1,74 @@
+{
+  "成功": true,
+  "scope": "停止済みSourceA保存整理器の全54接続。完成結果と圧縮recordsSHA/旧93小Native比較のみ。B5Q/LD10後ではない",
+  "native_exit": 0,
+  "場数": 54,
+  "case数": 162,
+  "Sourcebook数": 486,
+  "旧93全文再照合": {
+    "case": 108,
+    "Book": 324,
+    "除外": []
+  },
+  "Source完了metadata前後": {
+    "件数": 1324,
+    "同一": true
+  },
+  "整理器の保存参照現物前後": {
+    "件数": 384,
+    "同一": true
+  },
+  "整理器/元停止/条件/完了SHA256": {
+    "work/104Source結果の整理/SourceAを整理する.py": "1cebe87c7dc1a3ab099069c09ff835db799edca9458605f8e33723cc365a13cc",
+    "work/104Source結果の整理/停止.json": "d0b0f06f695efe30323383772f15e4dcd990c136c8cad04f1e689286ab9d24b0",
+    "work/104Source市場再生/全54場/完了.json": "190719818d9a34f1cb1eb5836c5545d57cd581e468d168ae612bf1cf8b532fc9",
+    "study/00104_重複時の方向裁定と元Sourceの再形成/Source条件.json": "05b8275a5c1abb60aab3402c617f62d5583852dacacce48e2b831430223ea266"
+  },
+  "出力SHA256": {
+    "work/104Source結果の整理/全54場/結果.json": "a302ae2bd73ecb07fb1963424dc392f6aace0aec5c7915135c9bba2ca446021c",
+    "work/104Source結果の整理/全54場/要約.md": "6f1a77e1cb04fdb2043f039dc99d961e4ec09a914aa9fc27dd1db9733af34a2c",
+    "work/104Source結果の整理/全54場検査/stdout.txt": "6742107d37253d8a089dff39d98ae52c26c06a1401100f1f54fb77534f0249e1",
+    "work/104Source結果の整理/全54場検査/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "work/104Source結果の整理/全54場検査/exit.txt": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+  },
+  "旧対称の公開JSON差": {
+    "signals": 0,
+    "fills": 0,
+    "cancellations": 0
+  },
+  "mini各modeの元連続会計": {
+    "legacy": {
+      "gross": 2898000,
+      "fee": 58135,
+      "slip": 755000,
+      "fee_only": 2839865,
+      "net": 2084865,
+      "entry_qty": 755,
+      "new_fills": 359,
+      "close_fills": 411
+    },
+    "default": {
+      "gross": 2898000,
+      "fee": 58135,
+      "slip": 755000,
+      "fee_only": 2839865,
+      "net": 2084865,
+      "entry_qty": 755,
+      "new_fills": 359,
+      "close_fills": 411
+    },
+    "symmetric": {
+      "gross": 2898000,
+      "fee": 58135,
+      "slip": 755000,
+      "fee_only": 2839865,
+      "net": 2084865,
+      "entry_qty": 755,
+      "new_fills": 359,
+      "close_fills": 411
+    }
+  },
+  "限定": "公開通知への影響未観測。range_sideのL/H重複実評価件数は未計測。重複不発生や自然Source全体の対称性とはしない",
+  "Raw/CSV/Source/金融再実行": 0,
+  "正式成果物への編集/コピー": 0
+}

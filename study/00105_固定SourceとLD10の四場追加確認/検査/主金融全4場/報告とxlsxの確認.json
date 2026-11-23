@@ -1,0 +1,142 @@
+{
+  "成功": true,
+  "scope": "105正式3文書と既存単一xlsxの実結果追記・経済目標達成とは別",
+  "報告固定": {
+    "path": "work/105正式反映の実行/報告固定.json",
+    "sha256": "9ff644b38896393de98b93c38710f9cb1522beaf0004bc3b358c512d19c91a0b"
+  },
+  "xlsx固定": {
+    "path": "work/105正式反映の実行/xlsx固定.json",
+    "sha256": "6607d0d41a99bdd51a1b6203209fcbaa97deba1b59e4038dcf183e3b3d152325"
+  },
+  "コードSHA256": {
+    "work/105報告の準備/報告を差し替える.py": "e09539c38606e999f2e7278c3b078dcb470f2ee334ab811b21cb921fbc065b15",
+    "work/105正式反映の実行/実報告を仕上げる.py": "445378fc086c0c5a04233a6e9acde2a9bb1832dfe2bcc08f408da38336349a46",
+    "work/105xlsx追記の準備/105を追記する.mjs": "9235b992b95be3738d913e5df9cc3742bdb9d1afac4f00e75cd98b177c109ba9",
+    "work/105xlsx追記の準備/保存後を確認する.py": "75531de49ecd607a382a27ec80cae26e0967cf0dd1fbd2930d4b707d43d959a6"
+  },
+  "正式文書SHA256": {
+    "README.md": "613ecdb11df017a0227191e50f8223a5244ca4003f809aacee0553f6ef76713f",
+    "設定と結果.md": "6f1d3cdc8d9d702f473c63f4e04694774fa88c34778db5b76d4bab96316ae042",
+    "時計仕様補足.md": "91350d84dfe7d09ba5ffc99a5c20a8a9627fc3770f6cb96d28f8cb654e2e4ba5"
+  },
+  "報告生成SHA256": "4bf9bf1b9c421c112b24f39e124bb333f8ad03f3903934ae0218a8ff8b78c5b1",
+  "リンク確認": {
+    "README.md": {
+      "検査数": 15,
+      "不達": 0
+    },
+    "設定と結果.md": {
+      "検査数": 63,
+      "不達": 0
+    },
+    "時計仕様補足.md": {
+      "検査数": 7,
+      "不達": 0
+    }
+  },
+  "版5": {
+    "行": 55,
+    "尺度": 9,
+    "設定SとK": 18,
+    "評価R": 7,
+    "原文行保持": true
+  },
+  "保護対象不変数": 423,
+  "条件/固定コード/主金融前Snapshot/成果物正本不変": true,
+  "Source条件SHA256": "fd027f68e68b2425dbf99206f6205fa103bd6d55fb848bd2ee718789d08e854c",
+  "主金融条件SHA256": "f13f90ecda3b3797d08c903017ad231abd267a9dad4ae2b7946c1ee713b8bb8e",
+  "Source固定コード数": 335,
+  "主金融固定コード数": 412,
+  "全四感度赤字": true,
+  "全四感度純額円": [
+    -52854,
+    -18700,
+    -154854,
+    -118700
+  ],
+  "主参加枠": [
+    164,
+    163,
+    164,
+    163
+  ],
+  "主分母": 448,
+  "最低25達成": true,
+  "目標50達成": false,
+  "研究目標達成": false,
+  "実採用": false,
+  "Viewer": {
+    "一覧": 16,
+    "代表GET": 4,
+    "全16表示": false
+  },
+  "xlsx": {
+    "成功": true,
+    "marker操作": "edit",
+    "marker期待出力数": 1,
+    "marker形式": "xlsx",
+    "marker実行回数": 1,
+    "実画像3領域目視済み": true,
+    "表示確認": "四感度赤字・二旗・全16会計・注記の文字切れ/数値欠けなし",
+    "画像SHA256": {
+      "work\\105xlsx追記の準備\\105四感度.png": "890c884673773cee41da664c6a20f292c3a31bc7af4e06a120498beaa99a0de0",
+      "work\\105xlsx追記の準備\\105四場明細.png": "7fad4c3d7c848def96bb77c701204bae4470265cd855008d3026da2793053a30",
+      "work\\105xlsx追記の準備\\105注記.png": "db073c9d302940a141c3b345203122ebd4541bfec6dee05fbe94b3a0e4d87a51"
+    },
+    "旧全セル": 11244,
+    "旧図表parts": 8,
+    "104_A64_L77保持": true,
+    "保存後QA": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105正式反映の実行\\xlsx保存後QA.json",
+      "sha256": "f0e4c0e77aec779dd8df7d6dd9db2df070e4d39e3b0f48dde5e473b2736ad41b"
+    },
+    "最終xlsxSHA256": "298fe652463db911177f8fa359240d7ff0f0b1e4bf804c4b155fedd55fbd03a9",
+    "金融/Source/API再実行": 0,
+    "全16Viewer表示確認": false,
+    "Excel本体実行": false
+  },
+  "xlsx保存後QA": {
+    "旧4tab": [
+      {
+        "sheet": "比較",
+        "旧全セル": 1120,
+        "全値/式/型/スタイル保持": true,
+        "旧worksheet構造保持": true
+      },
+      {
+        "sheet": "セッション明細",
+        "旧全セル": 8588,
+        "全値/式/型/スタイル保持": true,
+        "旧worksheet構造保持": true
+      },
+      {
+        "sheet": "新条件102",
+        "旧全セル": 624,
+        "全値/式/型/スタイル保持": true,
+        "旧worksheet構造保持": true
+      },
+      {
+        "sheet": "一定利益後103",
+        "旧全セル": 912,
+        "全値/式/型/スタイル保持": true,
+        "旧worksheet構造保持": true
+      }
+    ],
+    "旧図表parts保持": 8,
+    "旧styles定義保持": true,
+    "104_A64_L77保持": true,
+    "全ZIP_CRC": true,
+    "105四感度/16場別正本一致": true,
+    "正本SHA256": "e3b9ad102b55c48f259194a468638125f7699e526dbb60ecd4f4642451476d4e",
+    "成功": true,
+    "scope": "105追記後の旧保持/正本照合",
+    "ブックSHA256": "298fe652463db911177f8fa359240d7ff0f0b1e4bf804c4b155fedd55fbd03a9",
+    "xlsx編集/生成/marker": 0,
+    "105実結果読取": 1
+  },
+  "補足helper差のscope": "停止e095本文不変で再用。全4赤字主文/代表Viewer4/確定証拠・原計画リンク/時計実行後欄だけ補足。数値規則変更なし。",
+  "金融/Source/Raw/Native/API再実行": 0,
+  "旧104編集": 0,
+  "正式知見/目次/完了記録編集": 0
+}
