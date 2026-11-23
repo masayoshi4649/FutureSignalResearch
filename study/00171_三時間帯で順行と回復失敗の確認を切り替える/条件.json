@@ -1,0 +1,166 @@
+{
+  "core_profiles": [
+    "MP0057_EX0075_B0_IMMEDIATE",
+    "MP0057_EX0076_B0_IMMEDIATE",
+    "MP0058_EX0075_B0_IMMEDIATE",
+    "MP0058_EX0076_B0_IMMEDIATE"
+  ],
+  "cost": {
+    "point_yen": 100,
+    "fee_round_trip": 77,
+    "additional_round_trip_slippage_yen": 1000
+  },
+  "base_support": {
+    "minimum_count": 250,
+    "minimum_resolved": 100,
+    "minimum_rate": 0.7,
+    "minimum_per_hour": 0.75,
+    "all_48_scenes": true,
+    "maximum_unknown_fraction": 0.1,
+    "minimum_pf": 1.2,
+    "minimum_net": 0
+  },
+  "score": "前48場F/(F+A)のWilson95%下限を順位指標とする。近接取得の独立性は仮定できず統計保証として使わない。次に取得数、PF、安定添字。",
+  "selectors": {
+    "A": "base_support適格からscore最大。",
+    "B": "base_supportかつ前48の三帯それぞれ到達6以上・率55%以上・既知PF1.05以上・差引正からscore最大。適格なしならnullを保持。"
+  },
+  "discovery_support": {
+    "minimum_count": 200,
+    "minimum_new_count": 100,
+    "minimum_resolved": 100,
+    "minimum_resolved_each_period": 30,
+    "minimum_rate": 0.7,
+    "minimum_rate_each_period": 0.65,
+    "maximum_financial_unknown_fraction": 0.1,
+    "minimum_known_net_each_period": 0,
+    "all_73_acquisitions": true,
+    "frequency_preferred_per_hour": 0.8,
+    "interpretation": "全期探索の報告支持条件であり、未見統計保証や自動採用条件ではない。前後は既使用。"
+  },
+  "trial": 171,
+  "date": "2026-11-15",
+  "name": "三時間帯で順行と回復失敗の確認を切り替える",
+  "parent": {
+    "path": "study/00169_数量枠の下で技術近傍と任意幅を再探索する/条件.json",
+    "sha256": "526d2c7bacf2ca3b3050ddbbb152ff9e26a8659515a5ef33166266f3a395b884"
+  },
+  "hypothesis": "同じBB端の弱い回復でもデイと夜間では継続性が異なる可能性がある。デイの元技術幹を残し、夜間は長期方向の裏付け・後続の失速確認又は順行専用へ切り替える。時間帯だけで全て静観とはしない。",
+  "day_policy": "IMMEDIATE_B0固定。元MP/EX複合と同じ。",
+  "pre_options": [
+    {
+      "id": "IMMEDIATE_B0",
+      "background": 0,
+      "timing": "IMMEDIATE"
+    },
+    {
+      "id": "IMMEDIATE_B2",
+      "background": 2,
+      "timing": "IMMEDIATE"
+    },
+    {
+      "id": "IMMEDIATE_B3",
+      "background": 3,
+      "timing": "IMMEDIATE"
+    },
+    {
+      "id": "CONF5_BASIC",
+      "background": 0,
+      "timing": "CONF5_BASIC"
+    },
+    {
+      "id": "CONF10_BASIC",
+      "background": 0,
+      "timing": "CONF10_BASIC"
+    },
+    {
+      "id": "CONF5_STRONG",
+      "background": 0,
+      "timing": "CONF5_STRONG"
+    },
+    {
+      "id": "CONF10_STRONG",
+      "background": 0,
+      "timing": "CONF10_STRONG"
+    },
+    {
+      "id": "MOMENTUM_ONLY",
+      "background": 0,
+      "timing": "OFF"
+    }
+  ],
+  "post_options": [
+    {
+      "id": "IMMEDIATE_B0",
+      "background": 0,
+      "timing": "IMMEDIATE"
+    },
+    {
+      "id": "IMMEDIATE_B2",
+      "background": 2,
+      "timing": "IMMEDIATE"
+    },
+    {
+      "id": "IMMEDIATE_B3",
+      "background": 3,
+      "timing": "IMMEDIATE"
+    },
+    {
+      "id": "CONF5_BASIC",
+      "background": 0,
+      "timing": "CONF5_BASIC"
+    },
+    {
+      "id": "CONF10_BASIC",
+      "background": 0,
+      "timing": "CONF10_BASIC"
+    },
+    {
+      "id": "CONF5_STRONG",
+      "background": 0,
+      "timing": "CONF5_STRONG"
+    },
+    {
+      "id": "CONF10_STRONG",
+      "background": 0,
+      "timing": "CONF10_STRONG"
+    },
+    {
+      "id": "MOMENTUM_ONLY",
+      "background": 0,
+      "timing": "OFF"
+    }
+  ],
+  "entry_roles": "MPはHist/RSI/ADX/量の複合順行。EXはBB端/ヒゲ/RSI/Hist/実体/量の元回復への反対側。B2/3は実注文側15/30分EMA21傾きとDI差の4票、CONFは元回復arm後の実注文側5分Hist/RSI/価格回復、STRONGはDI/量を追加する。MOMENTUM_ONLYはEXを外し複合MPで判断を継続する。",
+  "causal_route": "判断q0をDAY/NY09:30厳密前/等号以後へ夏冬変換し、その時点の選択技術式で合成する。CONFは全場内の165と同じarm履歴を使い、帯境界で履歴を捨てたりarmを作ったりしない。",
+  "merge": "当該q0のMPと帯別fadeの片方/同方向は採用、反対は待機、両同方向の幅はMP優先。同物理q1は最初要求、cap10で予約と保有を管理する。",
+  "technical_fallback": "166 L180_S4/H200を固定。開始45分・未取得・主未決なしのみ旧T又は当時長期未知の局所へ。各時間帯の強制取得は追加せず各Day/Night最低1取得を評価する。",
+  "momentum_widths": [
+    150,
+    175,
+    200,
+    225,
+    250
+  ],
+  "fade_widths": [
+    300,
+    350,
+    400,
+    500
+  ],
+  "horizon": "H60",
+  "screen": "4主profile×8米国前×8米国後×5順行幅×4回復失敗幅=5120政策。純H200・L180S4・cap10。全期発見と前48固定A/Bを分離し、支持は169のまま。",
+  "main_profile": {
+    "profile": "MP0057_EX0076_B0_IMMEDIATE",
+    "pre": "IMMEDIATE_B0",
+    "post": "MOMENTUM_ONLY",
+    "momentum_width": 200,
+    "fade_width": 400,
+    "horizon": "H60",
+    "integration": "H200",
+    "hierarchy": "L180_S4"
+  },
+  "birth_source": "165の金融未入力で封印した240複合出生を同体再用する。OFF時のMPは163金融未入力出生から取り出す。phase切替後の新方向/枝を金融前に別封印する。新7場も同じ純特徴式を使用する。",
+  "new_period_status": "追加7場の167/168/170基準はRoot既使用。171全候補の追加探索はせず、固定主案と前48選択A/Bだけ確認する。追加七場を新規独立未見とは呼ばない。",
+  "report": "全場、q0/q1三帯、主枝/技術補完、FANC/率/既知利益損失、数量棄却、頻度・参加を比較。夜間を絞った場合は回数低下を隠さず、棄却後の機会損失を最適化しない。"
+}

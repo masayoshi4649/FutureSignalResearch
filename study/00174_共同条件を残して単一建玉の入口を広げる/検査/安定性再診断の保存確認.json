@@ -1,0 +1,95 @@
+{
+  "成功": true,
+  "確認日": "2026-11-16",
+  "位置づけ": "固定8候補の事後診断と評価の見直し。新しい売買条件・政策の採用ではない。",
+  "archive": {
+    "path": "study/00174_共同条件を残して単一建玉の入口を広げる/再現資料/安定性再診断.zip",
+    "bytes": 39780,
+    "sha256": "10245e884b6e338d0769a3675648bb22b6ca8b0722ea01ce33f1bc82988840da"
+  },
+  "members": [
+    {
+      "path": "scripts/実現利益の集中/累計経路を診断する.py",
+      "bytes": 5310,
+      "sha256": "8ba24f5cfd29eb0e8a7352dda0de0454f50064f685d838f6c8c31db5e5f4ec27"
+    },
+    {
+      "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/固定8候補の累計経路診断.json",
+      "bytes": 38782,
+      "sha256": "84c2dc4245c92ab89e5f47f3d9f4bc37fa9d7df35b203bfce04324285a875c51"
+    },
+    {
+      "path": "work/安定性の再診断/173独立診断/173前48J026の経路診断.json",
+      "bytes": 43587,
+      "sha256": "9f6a51fe3e72091d5f9aee5c91c6661cfb34b5d43ad61cbbe843b6890805e95e"
+    },
+    {
+      "path": "work/安定性の再診断/173独立診断/診断.md",
+      "bytes": 3118,
+      "sha256": "0ab9e52d7bf2ee00f88be4d04f00ab66d9e2260f53c4de05b41797fbfef2c420"
+    },
+    {
+      "path": "work/安定性の再診断/173独立診断/診断する.py",
+      "bytes": 18041,
+      "sha256": "39daf7bc8a7b132327920a13122e5f5e7948c8514f8a400be0d690dd772ee01e"
+    },
+    {
+      "path": "work/安定性の再診断/174POST診断/README.md",
+      "bytes": 4708,
+      "sha256": "4b83cbe54d06556480e70680cefafe7214d2e543d3efb57ed53d90e9f51b642c"
+    },
+    {
+      "path": "work/安定性の再診断/174POST診断/必要指標と条件の診断.json",
+      "bytes": 10859,
+      "sha256": "af1c24e5ef3b3dfa22a86d5f7745f5c9b133ee99a445b98ee81ec01abec7b2cb"
+    },
+    {
+      "path": "work/安定性の再診断/174POST診断/必要指標を診断する.py",
+      "bytes": 3912,
+      "sha256": "9e92d6acb820343b85d34af10d83dfa5560f0a6c8f1f61dfef313a044c3fc090"
+    },
+    {
+      "path": "work/安定性の再診断/174POST診断/成立と保有を診断する.py",
+      "bytes": 8300,
+      "sha256": "12238bb1a1d92b73c5fecb57e691179d64ec73967e38ee0d7265854a96e3136f"
+    },
+    {
+      "path": "work/安定性の再診断/174POST診断/成立と占有の診断.json",
+      "bytes": 17052,
+      "sha256": "579fce1e2dd6a42dde8e2481b88e6056646776db2d7211157d78323e94817c43"
+    },
+    {
+      "path": "work/安定性の再診断/174POST診断/集中/集中と決済の独立集計.json",
+      "bytes": 7291,
+      "sha256": "1a5af02cfecbc24e4f8659d884ecad6d3311501171168b22939780c22d1be678"
+    },
+    {
+      "path": "work/安定性の再診断/174POST診断/集中/集計する.py",
+      "bytes": 4560,
+      "sha256": "e11530f4e7a8c71703516828367928aeccee1533da9495bb9871eee1f0e0bc41"
+    },
+    {
+      "path": "work/安定性の再診断/正式記録を保存する.py",
+      "bytes": 3512,
+      "sha256": "515163148d6a08d64a91eb19c3209989b1c5a1c1f977d52de46262baa3600b08"
+    },
+    {
+      "path": "work/安定性の再診断/累計経路の比較.json",
+      "bytes": 38782,
+      "sha256": "84c2dc4245c92ab89e5f47f3d9f4bc37fa9d7df35b203bfce04324285a875c51"
+    },
+    {
+      "path": "work/安定性の再診断/累計経路を比較する.py",
+      "bytes": 4959,
+      "sha256": "b9f969b6baf3a4425494fb466bd9ff2b3b4d72669ce8a7396b4110a803bac53d"
+    }
+  ],
+  "正式文書": {
+    "path": "docs/議論/安定性を累計経路と取引の広がりで評価する.md",
+    "bytes": 5141,
+    "sha256": "c6ca5be346ee6db52d081c7931ed1f08dc85e833f4889bf15904ca4dec68d821"
+  },
+  "既存研究ZIPと32CSV不変": true,
+  "原資料": "173/174正式Source・小正本・恒久共用入力・候補別32CSV。Rawを複製していない。",
+  "注意": "未知を含む経路は既知寄与だけ。場末実現損益DDと建玉中時価DDを区別。"
+}

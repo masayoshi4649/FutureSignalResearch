@@ -1,0 +1,369 @@
+{
+  "成功": true,
+  "試行": 170,
+  "条件": {
+    "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/条件.json",
+    "bytes": 6076,
+    "sha256": "c7c0ebeaebc51a24b256c74ad0dfe1aeaa1d7ff8d4ee019d25d5d92f064a0f1b"
+  },
+  "環境": {
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "NumPy": "2.5.4",
+    "tzdata": "2026.6"
+  },
+  "正本": [
+    {
+      "archive": {
+        "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/再現資料/Source.zip",
+        "bytes": 91424,
+        "sha256": "9294d57f10d898650846a9d3ef7d824f4f3b06e9d196b612a1052289a3702ca5"
+      },
+      "members": [
+        {
+          "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/条件.json",
+          "bytes": 6076,
+          "sha256": "c7c0ebeaebc51a24b256c74ad0dfe1aeaa1d7ff8d4ee019d25d5d92f064a0f1b"
+        },
+        {
+          "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/検査/F0_ATR幅固定前.json",
+          "bytes": 687,
+          "sha256": "bd9aa1d60e7a6e4c6a7f90c0263970e48bf874000013fda252c6120da2090da2"
+        },
+        {
+          "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/検査/F0_旧七十三場の数量探索前.json",
+          "bytes": 2017,
+          "sha256": "43e7239234881a968c6d675ceeee3b57e4c20d60bcf69fbb7d50a22962628be6"
+        },
+        {
+          "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/検査/F1_追加固定候補幅の金融前封印.json",
+          "bytes": 1511,
+          "sha256": "88cd2b71e4421232122112af9c140ad424642d5b7754a2db53e9c732808b62fb"
+        },
+        {
+          "path": "work/169数量枠と技術近傍/selector169.py",
+          "bytes": 6592,
+          "sha256": "8f9ce8f1ea8e16cc1aff91e5549b3b506f75fe27d7601767bdbfae832cf0cdb2"
+        },
+        {
+          "path": "work/169数量枠と技術近傍/選択の人工確認.json",
+          "bytes": 1426,
+          "sha256": "f6b198ca8d25c48613d8e72c620f4f9f16ee5517d54748064bd46484b298b781"
+        },
+        {
+          "path": "work/170ATRと三時間帯/engine170.py",
+          "bytes": 9283,
+          "sha256": "a834cdad94eac7e71bc1dce0ff267c16c6d2ca43fe4e4f9caa5ca7365ada10b8"
+        },
+        {
+          "path": "work/170ATRと三時間帯/README.md",
+          "bytes": 3553,
+          "sha256": "eb607eecce7a841f4bc864131d4ae241b357e1bdf40ff67e364d526aa5531bc7"
+        },
+        {
+          "path": "work/170ATRと三時間帯/width170.py",
+          "bytes": 1932,
+          "sha256": "1b50924c36337383b49345c6e613c9af89805525c946d21540ccdd49ce70b363"
+        },
+        {
+          "path": "work/170ATRと三時間帯/仕様を固定する.py",
+          "bytes": 4638,
+          "sha256": "be6c3c6d587cb79c44e08872a7b641335012c75fd5a6243452eab351521bb129"
+        },
+        {
+          "path": "work/170ATRと三時間帯/前半不適格を診断する.py",
+          "bytes": 5099,
+          "sha256": "51af85e7dd4f838e4d41753620aee62a5fc77383c2ca35b2aacc39917a764340"
+        },
+        {
+          "path": "work/170ATRと三時間帯/固定主案を二期間に適用する.py",
+          "bytes": 4792,
+          "sha256": "82953a58686f7e86aa3102fb044142c2f5b212bf5ecf153e282406df6148dfb6"
+        },
+        {
+          "path": "work/170ATRと三時間帯/固定候補を再生する.py",
+          "bytes": 5875,
+          "sha256": "df36672ca5aaff8e21551f54ff4f5def860213d6b39b1207a774c02f429880ed"
+        },
+        {
+          "path": "work/170ATRと三時間帯/固定候補二期間の完了.json",
+          "bytes": 2138,
+          "sha256": "cd6f0c17f9246e2a4d47256dcbf5ccee54d88240c8a000b4eca4c4c8493b044a"
+        },
+        {
+          "path": "work/170ATRと三時間帯/定数配列の旧七十三場同体.json",
+          "bytes": 975,
+          "sha256": "22d5a4dd51642004498b170cfa9ab61adf50ea069ef454b4f96207d7be47a5ce"
+        },
+        {
+          "path": "work/170ATRと三時間帯/定数配列を照合する.py",
+          "bytes": 3048,
+          "sha256": "a557364d07057c80e8c21123101023e902059b34e5cc8e4363d5e14dc0b75760"
+        },
+        {
+          "path": "work/170ATRと三時間帯/幅の人工検査.py",
+          "bytes": 5014,
+          "sha256": "e256315fb236bc37322146e9f97671b036382ee2f985986768086107438f2e38"
+        },
+        {
+          "path": "work/170ATRと三時間帯/幅の人工確認.json",
+          "bytes": 928,
+          "sha256": "765ced42e53a3d8addb559ecd3bfcb1daaabd57220711838c85d3333f175812f"
+        },
+        {
+          "path": "work/170ATRと三時間帯/幅を固定する.py",
+          "bytes": 3245,
+          "sha256": "1866a3c7e003b9ba8d9e49430ece9dae19c835ec498cfc71bcf75c8066709536"
+        },
+        {
+          "path": "work/170ATRと三時間帯/探索する.py",
+          "bytes": 17589,
+          "sha256": "10b1155c6efc5d392d4a614153b5b96877a3b2b8f75679141ff5a5e250589f85"
+        },
+        {
+          "path": "work/170ATRと三時間帯/自然統計を確認する.py",
+          "bytes": 4692,
+          "sha256": "43b0ac0d27063a086ef38cb1a175f3f24634a3f79a8eca8adb91c1d73a6991c7"
+        },
+        {
+          "path": "work/170ATRと三時間帯/部品の停止.json",
+          "bytes": 6652,
+          "sha256": "c74543ac33e58114dcfbe2f863cd7d6c1f29796a47d5a8af790c9d14b1d34ae1"
+        },
+        {
+          "path": "work/170正式保存/正式保存する.py",
+          "bytes": 16744,
+          "sha256": "edf924039a461ad501fbd3a4d36f54a2c34e4f057016301e02b27743898975e3"
+        },
+        {
+          "path": "work/170正式保存/正式入力から再現する.py",
+          "bytes": 4922,
+          "sha256": "217f69f4bf874fb29bb29cdca445c2ea8427d9279a0cae8c697c3030be9282d8"
+        },
+        {
+          "path": "work/170純幅独立確認/README.md",
+          "bytes": 2291,
+          "sha256": "6fd8182a460f79c3b22f12ed1e76bb0ba3fc1b17f6438d988334b8ae94f26705"
+        },
+        {
+          "path": "work/170純幅独立確認/幅と配列engineを検査する.py",
+          "bytes": 17310,
+          "sha256": "2b9205cb84534e9fd981f7bf5d2ce72008dae933a2adfed5d2a96f16d0c08982"
+        },
+        {
+          "path": "work/170純幅独立確認/純幅とengineの独立確認.json",
+          "bytes": 3542,
+          "sha256": "a17d6ac37c08fe95043414a1068de1e26c384c2bc120d8679428ac8b69713e4c"
+        },
+        {
+          "path": "work/170純幅独立確認/純幅確認の停止.json",
+          "bytes": 229,
+          "sha256": "dafb4eb1242bd98da27a048b1360e5f03f5bfeb8d94734ee34334a81b248272f"
+        },
+        {
+          "path": "work/170自然独立確認/README.md",
+          "bytes": 2510,
+          "sha256": "a31921465b0e3758f0ba82d2362dc23cea3fd60dab6e2625d8337975c71c71ae"
+        },
+        {
+          "path": "work/170自然独立確認/全支持と層別の位置.json",
+          "bytes": 72858,
+          "sha256": "0ce955f8be5ae0a6ad8577cd8c65143471b0f5652da1d8fcffd10b6b9396cb7c"
+        },
+        {
+          "path": "work/170自然独立確認/固定主案の二期間を検算する.py",
+          "bytes": 8153,
+          "sha256": "2bdedd071b5be50cec62d2c1a33da59a0ebb2021fed9b2783dcc9dc1ff594a6d"
+        },
+        {
+          "path": "work/170自然独立確認/固定主案二期間の独立確認.json",
+          "bytes": 8410,
+          "sha256": "6218a07b477da7ed455e6cfb87ba6430e49062a3c31d6eb55616dad34934d41f"
+        },
+        {
+          "path": "work/170自然独立確認/固定主案二期間確認の停止.json",
+          "bytes": 238,
+          "sha256": "ab11a5e59e968061f5fa8ee04b46236826753ebfaef4b3af114c1dc2c8aaecff"
+        },
+        {
+          "path": "work/170自然独立確認/旧七十三場の独立確認.json",
+          "bytes": 3882,
+          "sha256": "3dc98cad01228ba9c46f01c36b5781806b6196d5197d4ab0deb4b9b641335c98"
+        },
+        {
+          "path": "work/170自然独立確認/旧七十三場を層別検算する.py",
+          "bytes": 19156,
+          "sha256": "5de434f8befb2795c4c444d4f39f957a2f7effe0b6bde03dbc8462b8cbf300b0"
+        },
+        {
+          "path": "work/170自然独立確認/自然確認の停止.json",
+          "bytes": 319,
+          "sha256": "330a005c4b21c0d058e90ec8f3ded665a2f05a48f66a3d2e27af7b6b17100558"
+        }
+      ]
+    },
+    {
+      "archive": {
+        "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/再現資料/ATR探索と固定適用の統計正本.zip",
+        "bytes": 3825862,
+        "sha256": "648cab63aac496b9f8e39f7dff2bf1978028874bdf72ef9dd482660edc67339d"
+      },
+      "members": [
+        {
+          "path": "work/170ATRと三時間帯/全幅/幅の確認.json",
+          "bytes": 3372,
+          "sha256": "87c13a02def24681768f36b39f8d0da8c23877a8ca36ad0374aedd974c21a7c7"
+        },
+        {
+          "path": "work/170ATRと三時間帯/全幅/当時ATRの幅.npz",
+          "bytes": 47022,
+          "sha256": "7c736e3e5795a4f8de9685f53360848e41668d485526d741c98ef069a0c0582d"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73固定候補/全取得参照.json",
+          "bytes": 13716,
+          "sha256": "3372a492b36beed41ef4622fe2454fa8783152244aa70db5fc5dc5ed23e5153c"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73固定候補/固定候補の数量比較.json",
+          "bytes": 73364,
+          "sha256": "4f42453cf38b3d2d344f3a1d86172735cd46f0127a387076b0ebe215ce692829"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73固定候補/完了.json",
+          "bytes": 1368,
+          "sha256": "3d8f467c1af44d645f665e4a3c2083a4442743f3cb2ae3c0a686cec0b77bac5c"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73固定候補/数量と要求の監査.json.gz",
+          "bytes": 15045,
+          "sha256": "162b0cfa12cea39a111f6f11d4ffcec6d461897517898f25140178b45ef05f94"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/ATR数量探索の統計配列.npz",
+          "bytes": 3716263,
+          "sha256": "d80714c8a2c6c8d7df4e6f07f0c59026a692f3979d5d6b7fa0c37ca79cf6a71e"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/主案と前半A-Bの封印.json",
+          "bytes": 5549,
+          "sha256": "c29a8f61e662e3e7ca1d5159d5e35a033af6a171ff343c9e5ebdca9b70c47b62"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/全期発見の上位.json",
+          "bytes": 119732,
+          "sha256": "7b7ea43e873d218fe255a7bd3fea164d44b86be8106605d2fe3eb8a16cc01966"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/前半不適格の原因.json",
+          "bytes": 8776,
+          "sha256": "e5c8e73e3a03a56919aeca11b67737377661577cae6860eed6b1f7b04322e61e"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/前半不適格の原因.md",
+          "bytes": 1088,
+          "sha256": "c12ca488dd9f81d0a8bcee8a41ed35efea57e72a6e363378abd2745d0068574c"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/完了.json",
+          "bytes": 2514,
+          "sha256": "984cfe9386e873f30d2cbd9726c17c3b4736baaa1defeede0c145a5ed39ee757"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/統計軸.json",
+          "bytes": 1575,
+          "sha256": "d22c2d139c6063038ce48a9a300a722b152c9fd10f2cd7faa90763fa7a966069"
+        },
+        {
+          "path": "work/170ATRと三時間帯/旧73探索/自然統計の自己確認.json",
+          "bytes": 480,
+          "sha256": "7669de43e27c69049236a57fe1abd940a317e6e6e5df9ac15ab55ba59877f165"
+        },
+        {
+          "path": "work/170ATRと三時間帯/追加7固定候補/全取得参照.json",
+          "bytes": 2389,
+          "sha256": "a30d6c944cc5a20101aa135a21dadbbef1f6228b6d6f87565671122e915aeaa8"
+        },
+        {
+          "path": "work/170ATRと三時間帯/追加7固定候補/固定候補の数量比較.json",
+          "bytes": 13423,
+          "sha256": "19723290cb500383dfa54a7848621027ec1c183c1080b4d3890fa01483dd2396"
+        },
+        {
+          "path": "work/170ATRと三時間帯/追加7固定候補/完了.json",
+          "bytes": 1366,
+          "sha256": "2ecb86f4617c1d0db59fd89328c6098900e5a01d455116bdb9dca0ccdd1555ef"
+        },
+        {
+          "path": "work/170ATRと三時間帯/追加7固定候補/数量と要求の監査.json.gz",
+          "bytes": 3295,
+          "sha256": "e17a5677dd7a2c99d9308821349293e1de970064e1560322e2e26e65248249b9"
+        },
+        {
+          "path": "work/170ATRと三時間帯/追加7固定候補の幅と出生.npz",
+          "bytes": 4854,
+          "sha256": "69c4fabb36ad27e443c626c729a494dbd6e0e82f0157e79615d1359dc9f136e3"
+        }
+      ]
+    }
+  ],
+  "共用入力と親参照": [
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/保存索引.json",
+      "bytes": 49671,
+      "sha256": "19b81bf6b135c65b6355e2de3d1c24008a4c7c70616f7d45e5b87ccb6a23768b"
+    },
+    {
+      "path": "inputs/00167_追加七場の入口と共用価格索引/保存索引.json",
+      "bytes": 14088,
+      "sha256": "3cdf8b0daf92d3b4fd7eea3ddbff6793e7aed36ff140e4808a63f42f72fef6d9"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/Source.zip",
+      "bytes": 121987,
+      "sha256": "e417ceb2701c01465edb9850c8e2976b9346352c288780ec7bb2ccbdaa048ab7"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/Source.zip",
+      "bytes": 190361,
+      "sha256": "222b9663bd50b19e0b1bb72bd2af72a6dd9e1012a68d502c73f9d1181e75bde0"
+    },
+    {
+      "path": "study/00164_IFD最初到達の確定時計で入口と反転を比較する/再現資料/Source.zip",
+      "bytes": 56528,
+      "sha256": "eadcb42f909ec18d0ad77d7a4d4617210f603394053d85fe59c7977e33eefc2a"
+    },
+    {
+      "path": "study/00165_順行と回復失敗を組み合わせ技術条件で初参加を補う/再現資料/Source.zip",
+      "bytes": 111913,
+      "sha256": "e5b3071c2f4812af68a3bd49fc84cca68259cf48ff47aba2933aab72955969b6"
+    },
+    {
+      "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/再現資料/Source.zip",
+      "bytes": 69975,
+      "sha256": "8c931589e4093cf88da7d642e93e418a2395ff42bbef9d29458df6bcced6d249"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/再現資料/Source.zip",
+      "bytes": 415571,
+      "sha256": "8e24d3adbba2d3c997e7cf61842b08db6645cc98d0d3ef107f08cb1b79ee7b54"
+    },
+    {
+      "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/再現資料/Source.zip",
+      "bytes": 44569,
+      "sha256": "464feed731867d65afd26f29fc96974662e92267c27b6bc7e45023575ddad8a0"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/出生と探索.zip",
+      "bytes": 24934994,
+      "sha256": "bee0d12c8e37f20a46f2bf8775d519548c91f1153af117a117d9ed1f66b0f776"
+    },
+    {
+      "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/再現資料/出生と統計正本.zip",
+      "bytes": 1127165,
+      "sha256": "d120a6387bb1bcc20e22967ec835d25ecde3ba3cc87a02829b0c4bbdb3d5307b"
+    }
+  ],
+  "非重複": "Raw/価格索引/生金融/当時特徴は親の一組を参照。169純selectorだけ小型依存として同体収録。",
+  "区別": "旧73全期発見・事前主案・前48A/Bnull・既使用追加7固定適用を別に保持。",
+  "再現wrapper": "compileだけ確認。独立自然QAと保存QAは別。"
+}

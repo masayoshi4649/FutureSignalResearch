@@ -1,0 +1,121 @@
+{
+  "core_profiles": [
+    "MP0057_EX0075_B0_IMMEDIATE",
+    "MP0057_EX0076_B0_IMMEDIATE",
+    "MP0058_EX0075_B0_IMMEDIATE",
+    "MP0058_EX0076_B0_IMMEDIATE"
+  ],
+  "hierarchy_variants": [
+    {
+      "id": "L120_S4",
+      "after_minutes": 120,
+      "minimum_score": 4
+    },
+    {
+      "id": "L120_S5",
+      "after_minutes": 120,
+      "minimum_score": 5
+    },
+    {
+      "id": "L180_S4",
+      "after_minutes": 180,
+      "minimum_score": 4
+    },
+    {
+      "id": "L180_S5",
+      "after_minutes": 180,
+      "minimum_score": 5
+    }
+  ],
+  "momentum_widths": [
+    150,
+    175,
+    200,
+    225,
+    250,
+    300
+  ],
+  "fade_widths": [
+    250,
+    300,
+    350,
+    400,
+    500
+  ],
+  "integration": [
+    "H150",
+    "H200"
+  ],
+  "technical_first": {
+    "after_start_seconds": 2700,
+    "widths": [
+      150,
+      200
+    ],
+    "score_minimum": 5,
+    "minimum_side_margin": 1,
+    "gate": "正常spread0< <=20、absq0gap<=1、EMA8追値<=1ATR、RSI中心側<=25、absRSIΔ5<=12、相対量1分>=0.5。",
+    "votes": "162 technical_scoreの8票。全必要17列既知、加えてEMA/DI方向整合どちらかとMACD/RSI/実体動力どれかを要求。両側のうちscore差>=1の高い側を採る。",
+    "controller": "開始45分以降、主新規の実取得0かつ主注文未決なしの各q0でTを判断。失敗取消後は次成立q0で再試行、最初T取得後は補完停止。主新規は継続。",
+    "request_priority": "同q0は主新規優先。未約定主要求の終了原行がまだ来なければ補完しない。同物理q1は最初要求q0、同時は主優先。",
+    "no_future_best": "後の勝者を補完せず、旧C1保存参照を持ち込まない。未取得場は未達として残す。"
+  },
+  "cost": {
+    "point_yen": 100,
+    "fee_round_trip": 77,
+    "additional_round_trip_slippage_yen": 1000
+  },
+  "discovery_support": {
+    "minimum_count": 200,
+    "minimum_new_count": 100,
+    "minimum_resolved": 100,
+    "minimum_resolved_each_period": 30,
+    "minimum_rate": 0.7,
+    "minimum_rate_each_period": 0.65,
+    "maximum_financial_unknown_fraction": 0.1,
+    "minimum_known_net_each_period": 0,
+    "all_73_acquisitions": true,
+    "frequency_preferred_per_hour": 0.8,
+    "interpretation": "全期探索の報告支持条件であり、未見統計保証や自動採用条件ではない。前後は既使用。"
+  },
+  "trial": 169,
+  "date": "2026-11-15",
+  "name": "数量枠の下で技術近傍と任意幅を再探索する",
+  "parents": [
+    {
+      "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/条件.json",
+      "sha256": "5c3ad73b0003da91749c50e0242b973951c74993db6a9156dfa951d8020f5a49"
+    },
+    {
+      "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/条件.json",
+      "sha256": "b8acd5daf5050b16a0d36c74d207db8e60d77a817b6fb62964f08b416c8b1f89"
+    }
+  ],
+  "reason": "168主案は片側10枚を守り全73場/0.932hを維持したが195順86逆で69.395%へ低下。元入口を固定10枚へ増幅せず、取得の保有時間と重複を変える枝幅・期限及び技術近傍を比べる。",
+  "capacity": "168の同体・人工確認済みengineを未改変で利用。買売各10枚、要求1枚、pending予約、未知は場末枠保持、同秒exit保守時計。",
+  "horizons": [
+    "H30",
+    "H60",
+    "H120",
+    "SESSION"
+  ],
+  "screen": "4主profile×4階層×6順行幅×5回復失敗幅×4期限×H150/H200=3840政策。旧73場の発見用。全期bestを未見性能と称さない。",
+  "training": "前48場のみで固定二選択A/Bを行う。追加七場の価格・金融入力は生成済みだがRoot/選択担当は成績を未参照。後25場も既使用なので新規未見とは呼ばない。",
+  "base_support": {
+    "minimum_count": 250,
+    "minimum_resolved": 100,
+    "minimum_rate": 0.7,
+    "minimum_per_hour": 0.75,
+    "all_48_scenes": true,
+    "maximum_unknown_fraction": 0.1,
+    "minimum_pf": 1.2,
+    "minimum_net": 0
+  },
+  "score": "前48場F/(F+A)のWilson95%下限を順位指標とする。近接取得の独立性は仮定できず統計保証として使わない。次に取得数、PF、安定添字。",
+  "selectors": {
+    "A": "base_support適格からscore最大。",
+    "B": "base_supportかつ前48の三帯それぞれ到達6以上・率55%以上・既知PF1.05以上・差引正からscore最大。適格なしならnullを保持。"
+  },
+  "new_period": "固定A/Bだけを追加七場へ適用。3840全候補の追加七場探索は禁止し、追加成績によりA/Bを交換しない。167/168の固定主案も対照として残す。",
+  "report": "全場参加・頻度・FANC・決済勝率・利益損失・前後とq0/q1三帯・数量棄却・最大同時数。各技術近傍と幅・期限を明示。"
+}

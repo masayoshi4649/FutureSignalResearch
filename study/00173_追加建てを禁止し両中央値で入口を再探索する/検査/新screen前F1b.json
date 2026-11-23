@@ -1,0 +1,463 @@
+{
+  "試行": 173,
+  "GO": true,
+  "固定UTC": "2026-11-15T14:40:31.996097+00:00",
+  "固定対象": [
+    {
+      "path": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+      "bytes": 48448,
+      "sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4"
+    },
+    {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "bytes": 2249603,
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc"
+    },
+    {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "bytes": 920027,
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a"
+    },
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/数値表/任意幅識別.json.gz",
+      "bytes": 235034,
+      "sha256": "5eb6ea0dbeed7918476952383bd1cbebdbb2c53fadfca83694cc5b5d7c9830c0"
+    },
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/数値表/任意幅配列.npz",
+      "bytes": 12831373,
+      "sha256": "72f8a79bcfb56585ee9276632d82705e6467bd99db5f9c03648a2b343b7c0a9a"
+    },
+    {
+      "path": "study/00173_追加建てを禁止し両中央値で入口を再探索する/条件.json",
+      "bytes": 5001,
+      "sha256": "60df537b08d32b304b07aaadac4d2c96117f1cdeef6025b803563734826d65ab"
+    },
+    {
+      "path": "study/00173_追加建てを禁止し両中央値で入口を再探索する/研究手順追補.json",
+      "bytes": 1304,
+      "sha256": "9910e2e5c7532ef9b435dfa92dc3b523d49257888725a465a98f2f159feaab99"
+    },
+    {
+      "path": "work/151過去場判別の評価/入口選択/cache/feature_only/features.npz",
+      "bytes": 11077409,
+      "sha256": "5b309e0821403fcf1b122956fc6c9fe20ec5dfbe4327d7d674193b8e58f99b44"
+    },
+    {
+      "path": "work/151過去場判別の評価/入口選択/cache/feature_only/features_meta.json",
+      "bytes": 8761551,
+      "sha256": "71df54db57a3093eb4de2f5ce26c654c758f9181e07f61660cb1a192f6fa4602"
+    },
+    {
+      "path": "work/161三時間帯入口のデータ/data161.py",
+      "bytes": 23344,
+      "sha256": "1aa4ab452d26d507f532c78ebf036ca37690642cd1cf140f01eb0423f0fe03fe"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/全出生の確認.json",
+      "bytes": 1817257,
+      "sha256": "a4f4d09361c9dee7ca732b694c78cc9c146d46ca94670e73c3c21861d0f0d843"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生1000.npz",
+      "bytes": 1457336,
+      "sha256": "1e7a888b0fe00df267338ac1d26e74fb113c8da7e849cb897b436573425b0a3c"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生125.npz",
+      "bytes": 1787554,
+      "sha256": "35035a8eb3f30e3fc9617db2bb7521237fcc518b0b0c41303ae1e7b66f90258f"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生150.npz",
+      "bytes": 1769526,
+      "sha256": "753705b5bbb5f32a9c0b2ab4121571515f76da7bf8771232ee3d62c51a2be257"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生175.npz",
+      "bytes": 1749067,
+      "sha256": "37d04c22a7e3cdd381006b1115f72e2636280f38b948c4ac402b2fff77d7406b"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生200.npz",
+      "bytes": 1729709,
+      "sha256": "99178e614f6e020bc247d5e4ec047568cbcaaa582ff790f95d84c812a7f591cd"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生225.npz",
+      "bytes": 1713939,
+      "sha256": "79a1719f388acb37dea78d273cf26283038f62e2df4eea64ef4e70d2a582a193"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生250.npz",
+      "bytes": 1699932,
+      "sha256": "6e11dae28fe336f22318b22c7fe6988720e62aee8bb0d342cf04dc1d50e26d56"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生300.npz",
+      "bytes": 1666565,
+      "sha256": "0c417f98ea5ec039e6bb4ea2b15d824d1548c103cfcb89dc878cdc921342964a"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生350.npz",
+      "bytes": 1637554,
+      "sha256": "7adf6d4632fb43cb6aafdd10dc84cd23315a4af92164eba72ccab5d3dedd479d"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生400.npz",
+      "bytes": 1610904,
+      "sha256": "41f9c2e6a6d8c63e8e816bd04a7d5279125b53e4576fa184a0b8fcb9a352c02a"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生500.npz",
+      "bytes": 1565841,
+      "sha256": "d1f6577f9be2eadc1d7460e3001a942093bae75fad9f7b38fa874caade749a9a"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生750.npz",
+      "bytes": 1493248,
+      "sha256": "3e689a890e87a1acd0848e7f659eaa860dfcca800f364fbe85028bc4d1963411"
+    },
+    {
+      "path": "work/164先着確定と反転比較/比較/最初到達の統計配列.npz",
+      "bytes": 155986103,
+      "sha256": "64b8f1e621390dc71aa765cb85b66f493c923b960d5c2c33078e952279dcb0a9"
+    },
+    {
+      "path": "work/164先着確定と反転比較/比較/統計軸.json",
+      "bytes": 13848,
+      "sha256": "d46d3fc600e7266130c3f8ed986fd7bac93bf2f2cd4a2edfdafc3ed0cbfc4d0a"
+    },
+    {
+      "path": "work/172ナイト基礎診断/1460再集計の完了.json",
+      "bytes": 4780,
+      "sha256": "8e0ecbb0717b58ac9c9e547ac9541d62502ed4da0a0029e4e46200959fad99ea"
+    },
+    {
+      "path": "work/172ナイト基礎診断/1460純新規のナイト診断軸.json",
+      "bytes": 26870,
+      "sha256": "edcdc2fff650e50978d145df25ec9c8ac2e473fab4708d3542f7f620a71c971e"
+    },
+    {
+      "path": "work/172ナイト基礎診断/1460純新規のナイト診断配列.npz",
+      "bytes": 68085196,
+      "sha256": "63b1a8ad27fe5eccc49a3bd804a083a96660292b8c630458dcced0ba16c49820"
+    },
+    {
+      "path": "work/172ナイト基礎診断/基礎診断.py",
+      "bytes": 29652,
+      "sha256": "8b43b81b782af866f68ce54f905fd6728635fceb428dd638c5552439577c1c3a"
+    },
+    {
+      "path": "work/172ナイト複合候補/全出生/全出生の確認.json",
+      "bytes": 385300,
+      "sha256": "2e4f65b79fd5705990e2fa2ad851f23fa4b6a0a4e35becc90343c83347cddc0b"
+    },
+    {
+      "path": "work/172ナイト複合候補/全出生/新768の出生.npz",
+      "bytes": 164447,
+      "sha256": "da6fb4b961d4c3704e3ca3396e0593b7b4dfed02049a230403de59610fa323eb"
+    },
+    {
+      "path": "work/172ナイト複合候補/金融比較/完了.json",
+      "bytes": 5612,
+      "sha256": "9a4eae3a805741987d28a07a7b0e4204c5807fcd504d0159dfcda82c6d4b846c"
+    },
+    {
+      "path": "work/172ナイト複合候補/金融比較/新768のナイト診断軸.json",
+      "bytes": 17001,
+      "sha256": "d2b0db580e68b1990ca17c65c06d8db662003fe3cf18cab7c5f997b10474035b"
+    },
+    {
+      "path": "work/172ナイト複合候補/金融比較/新768のナイト診断配列.npz",
+      "bytes": 13334559,
+      "sha256": "bc7201cd075fc82366c640524a734e6eef0ae262d7b8f38d1f8d71cb322d1245"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/F1を固定する.py",
+      "bytes": 4172,
+      "sha256": "503c5ee55f1012ccab0d9aa8369706ded1abae68a981a825ee1075b067802127"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/仕様を固定する.py",
+      "bytes": 6382,
+      "sha256": "8aab254fe12cd1a3bf39c375f0c9e71598d15e70957872ed94516de297e30c7a"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/基盤173.py",
+      "bytes": 7270,
+      "sha256": "89b132081a722e112077fba8103f98f9e38bd210ee640da1410dc8c47b4d5854"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/対照を再生する.py",
+      "bytes": 3135,
+      "sha256": "74787dd2c9a805e0c8674f4493be7a8a2a37ccb7905f51630d7fdb620e2d5104"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/局所出生を作る.py",
+      "bytes": 2680,
+      "sha256": "78db6c7d1fea5d0d15063a53545b8eb68cf36024bfa522245df1b221bc43a82c"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/数量候補を選ぶ.py",
+      "bytes": 5569,
+      "sha256": "eb424cda2c6471dc8c3af8172252d309d6e5e090034b3ba2744e9e734934cc19"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/構成173.py",
+      "bytes": 4721,
+      "sha256": "d9ac90fe0c0b1889be7e95192747551968e58480288172401931779f637e95eb"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/段階再生173.py",
+      "bytes": 15746,
+      "sha256": "2422de749d5ecd0ffb88c0bd23ed347a0eb3b419ec0a0f1de9b163b99c0e473d"
+    },
+    {
+      "path": "work/173予備入口screen/pool173.py",
+      "bytes": 8576,
+      "sha256": "1a5fe06b5262b2576aea5eca5f18a3287f6df2e78a5e5ae3ffce3fcd688875b8"
+    },
+    {
+      "path": "work/173予備入口screen/README.md",
+      "bytes": 5567,
+      "sha256": "50518f97e26686f37783e65ba3f3254d1ce15adcbcff2feb1ccae740199557f6"
+    },
+    {
+      "path": "work/173予備入口screen/screen173.py",
+      "bytes": 22005,
+      "sha256": "cf78f29ac016b64b3e9289c52595157660021d7e35625032c0b7dc04c421dfc6"
+    },
+    {
+      "path": "work/173予備入口screen/人工検査.py",
+      "bytes": 8073,
+      "sha256": "39d4d2b973d535de217c2bc2fcb08098b6f83bba3f249c82999de2cf28f74543"
+    },
+    {
+      "path": "work/173予備入口screen/人工確認.json",
+      "bytes": 1509,
+      "sha256": "61db1c56fdc7d8a5972f2929c439aa3b1c5db45cde7b396dd8bab9ec15bc6e62"
+    },
+    {
+      "path": "work/173予備入口screen/独立検算.py",
+      "bytes": 6966,
+      "sha256": "41717c159de7d8dab2617117f6640e453def90162fc83f8f430cf7030dad2ba6"
+    },
+    {
+      "path": "work/173局所技術の主入口/local173.py",
+      "bytes": 16473,
+      "sha256": "d05edad8816980eb2a03c9fbef285f31a6653ee6a5650eaac77ebb4af34af4f3"
+    },
+    {
+      "path": "work/173局所技術の主入口/README.md",
+      "bytes": 7169,
+      "sha256": "166c6641d99c771bfc125022d26008e5a9b014a1f12baba917505edba8527149"
+    },
+    {
+      "path": "work/173局所技術の主入口/SHA256.json",
+      "bytes": 647,
+      "sha256": "62ff95d09dd73f666088ebd6ef02de9df5b366b97208ea3f68ff716111b52a42"
+    },
+    {
+      "path": "work/173局所技術の主入口/SourceCatalog.json",
+      "bytes": 88006,
+      "sha256": "b2fde4df5f2429c01a34648bb3a30ac3dda885ded6db226abede0811cfbea112"
+    },
+    {
+      "path": "work/173局所技術の主入口/人工保存のみ/出生manifest173LOCAL.json",
+      "bytes": 12117,
+      "sha256": "6ee6ba19bd2d48f5385cd5e395bd9793d5e278ff7ee6d64e4fc3528b0435b197"
+    },
+    {
+      "path": "work/173局所技術の主入口/人工保存のみ/出生完了173LOCAL.json",
+      "bytes": 1786,
+      "sha256": "5af90f0795bb85d521c0f9810c331622ee4af88401cc4946582f605ca0fc912b"
+    },
+    {
+      "path": "work/173局所技術の主入口/人工検査.py",
+      "bytes": 16116,
+      "sha256": "f850e5a3df2b73c70848e7b951653725d39ab96810654fbda0a1a73b0496dea7"
+    },
+    {
+      "path": "work/173局所技術の主入口/人工結果.json",
+      "bytes": 1425,
+      "sha256": "4f129b5d8a9fe016f3ce1510230e0cc3c17fcf19cbe9db9edbfe3a2a21916e3b"
+    },
+    {
+      "path": "work/173局所技術の主入口/保存人工結果.json",
+      "bytes": 339,
+      "sha256": "1bb459e922d206dfb83ba6d1869ee24752865419b79f16ee4614685f35389cd3"
+    },
+    {
+      "path": "work/173局所技術の主入口/出生を保存する.py",
+      "bytes": 6271,
+      "sha256": "a98a09757bbce5664c387a92d5fd7d0f14a9406fe22fbfe6f3e39dd49062747d"
+    },
+    {
+      "path": "work/173追加なしの候補計画/Source/Stage1から短表を作る.py",
+      "bytes": 17129,
+      "sha256": "2c8e087fe807dbd2589cac4cc9dda37585552e4796c6299638c10c7afe83f074"
+    },
+    {
+      "path": "work/173追加なしの候補計画/Source/人工を確認する.py",
+      "bytes": 7838,
+      "sha256": "26b95e81e69ee8050771b7c9239478653465e9067463a80ff8d698eb72c798a1"
+    },
+    {
+      "path": "work/173追加なしの候補計画/Source/接続の人工を確認する.py",
+      "bytes": 10638,
+      "sha256": "61cf4ce9bb083acb79fd195f92f8622d588d972ff939243a1c3d59780b56a304"
+    },
+    {
+      "path": "work/173追加なしの候補計画/Source/支持と多様性で短表を選ぶ.py",
+      "bytes": 10999,
+      "sha256": "3a0772f62314b6cd3e76097f0abdc770bd2bf5cb89afc7cdf6c1b16d6f37063a"
+    },
+    {
+      "path": "work/173追加なしの候補計画/人工接続/人工F1.json",
+      "bytes": 34,
+      "sha256": "0a81d15a30a9fb48f7d1a7c598e1d9c55fdc125a8e8969172ad715e60e7e86e6"
+    },
+    {
+      "path": "work/173追加なしの候補計画/人工確認.json",
+      "bytes": 311,
+      "sha256": "8fd3440bcd91c9b9e19b54f550a128891478cf2f38b457f4d7c36ab1a5bfb80a"
+    },
+    {
+      "path": "work/173追加なしの候補計画/接続README.md",
+      "bytes": 2858,
+      "sha256": "6d67f6afa90efc831f9511f023030f98fc05b4658706063109230929cee432ee"
+    },
+    {
+      "path": "work/173追加なしの候補計画/接続の人工確認.json",
+      "bytes": 257,
+      "sha256": "e5533b405481b58e5191619e880182a59d1bd8f1c04f9bbdf5a083ea99aaaa67"
+    },
+    {
+      "path": "work/173追加なしの候補計画/計画.md",
+      "bytes": 13405,
+      "sha256": "20e5e8f73b412926b7ce94c41a0e4c103fe25e93595d9be9127a998bffd7ef6c"
+    },
+    {
+      "path": "work/173追加なしの因果再生/engine173.py",
+      "bytes": 13575,
+      "sha256": "4e5e90ee2a8548b65133feb1eb8ffa873acf693bbd923c71b4063a1a053b7b84"
+    },
+    {
+      "path": "work/173追加なしの因果再生/README.md",
+      "bytes": 6710,
+      "sha256": "12afb23add3481b7289ec3647bcf98ae8788286cda0f79d85bef91408ae5205d"
+    },
+    {
+      "path": "work/173追加なしの因果再生/SourceSHA256.json",
+      "bytes": 491,
+      "sha256": "a10a0931c7271eaab95a36d245d22a4fbb597561f480c35b053845340e5e1405"
+    },
+    {
+      "path": "work/173追加なしの因果再生/人工検査.py",
+      "bytes": 24941,
+      "sha256": "6831aad72d62354487995b5e2c629f7fee0a79b0fd6d036d9853fd168c239afa"
+    },
+    {
+      "path": "work/173追加なしの因果再生/人工確認.json",
+      "bytes": 1885,
+      "sha256": "c92872c34efcc8123d6a3bcfe1bcd8aeddb54c75d4d9807d149751edb4999102"
+    },
+    {
+      "path": "work/173追加なしの評価/metrics173.py",
+      "bytes": 21035,
+      "sha256": "ab20c7dd9bcf6783b2aa2366eaebb92b6c8644c4ebfcec48eef3faf9ca25834f"
+    },
+    {
+      "path": "work/173追加なしの評価/README.md",
+      "bytes": 5638,
+      "sha256": "ba92b1021543cb13bdc0c4baa6f915cf8664cc6901c5740db3dcb089b6d84e64"
+    },
+    {
+      "path": "work/173追加なしの評価/SHA256.json",
+      "bytes": 353,
+      "sha256": "e4031d1baa9dfd596f5b0c7d07c2cbbf6fcc9c4c5d241cfac513a69982d48e0a"
+    },
+    {
+      "path": "work/173追加なしの評価/検証.py",
+      "bytes": 12547,
+      "sha256": "7d10d8d8876864b0403413dbaa426f422efd33b8a448cf67a06fe72653cbb366"
+    },
+    {
+      "path": "work/173追加なしの評価/検証結果.json",
+      "bytes": 1327,
+      "sha256": "0e1f4c97f9bd2fd4347483ad134a6a0efebce7570fa54ef68c80263127262827"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/F1の接続訂正を固定する.py",
+      "bytes": 2660,
+      "sha256": "683d7cf50441dfdc63e3db9ba30b2ffaa3b32b8f5f179336c6673b94c9c46d7f"
+    }
+  ],
+  "既閲覧": "171/172全使用結果、デイ集中診断、173の旧固定三案global1・旧73対照6本は閲覧済。新DAY全候補/LOCAL152自然出生/新候補global1は未実行。",
+  "手順": {
+    "候補": {
+      "固定1460と新768": 427776,
+      "LOCAL173_mode込み152": 14592,
+      "合計設定": 442368,
+      "3帯統計行": 1327104
+    },
+    "局所新規": "旧166同式8＋2開始(120/180分)*2score(4/5)*3持続(0/2/5実分)*2逆RSI増分下限(-8/-12)*3量(.5/.75/1)*ALL/EDGE=144。M15一度公表後は局所禁止、gapは持続/EDGEだけreset。",
+    "段階": "独立screen→全期/前48を別に最大36/帯→global1単独→4観点各2で最大8→異技術OR最大28/帯とDayの旧初参加T比較→PRE×POST最大64とN0/T→最大8Day×8Night。",
+    "採用": "各Day/Nightで両中央値の下界>0、先着率>=70%、取得>=24・到達>=12・到達場>=6・既知net>0を主案支持とし、0参加場を最優先で減らす。旧73と前48をそれぞれの選択範囲だけで判定。",
+    "未知": "中央値の符号上下限を残す。正確な金額を未知から推定せず、Cを0決済と扱わない。",
+    "補完": "無条件発注なし。異技術ORは主同士で1要求、逆同時は旧Tも待機。旧Tは始めて取得するまで・45分以後、局所階層は171固定を保持。",
+    "参考適用": "旧73で固定した全期/前半の各最大2、対照を含め最大6設定だけ追加7参考へ。追加7は既使用。"
+  },
+  "自然出生": "LOCALはこのF1のSource/当時入力から先に出生を封印してから金融screenへ渡す。",
+  "元F1": {
+    "path": "study/00173_追加建てを禁止し両中央値で入口を再探索する/検査/新screen前F1.json",
+    "bytes": 16995,
+    "sha256": "4d34ecaf36c13ff90cf5d823dd3fcfa497a4c0c771717107ad4374c7bca8debb"
+  },
+  "接続訂正": {
+    "UTC": "2026-11-15T14:44:22.574182+00:00",
+    "変更": [
+      {
+        "before": {
+          "path": "work/173予備入口screen/pool173.py",
+          "bytes": 8240,
+          "sha256": "6af12cf3417d91a4a92f5db7713f85a8d0a14ea07d76ea2824e0bf60a0cda0eb"
+        },
+        "after": {
+          "path": "work/173予備入口screen/pool173.py",
+          "bytes": 8576,
+          "sha256": "1a5fe06b5262b2576aea5eca5f18a3287f6df2e78a5e5ae3ffce3fcd688875b8"
+        }
+      },
+      {
+        "before": {
+          "path": "work/173予備入口screen/人工検査.py",
+          "bytes": 7242,
+          "sha256": "6d55cbaafdab5a75031448b4e4dad28c87ddcab8ed16f9e836840fd8f215e52c"
+        },
+        "after": {
+          "path": "work/173予備入口screen/人工検査.py",
+          "bytes": 8073,
+          "sha256": "39d4d2b973d535de217c2bc2fcb08098b6f83bba3f249c82999de2cf28f74543"
+        }
+      },
+      {
+        "before": {
+          "path": "work/173予備入口screen/人工確認.json",
+          "bytes": 1301,
+          "sha256": "1ccd760823f301a99fe3bd153771601b2f6ce22728e380828f44c25d17d3ce92"
+        },
+        "after": {
+          "path": "work/173予備入口screen/人工確認.json",
+          "bytes": 1509,
+          "sha256": "61db1c56fdc7d8a5972f2929c439aa3b1c5db45cde7b396dd8bab9ec15bc6e62"
+        }
+      }
+    ],
+    "根因": "LOCAL出生参照へlayout/array_nameが付くため、3field物理指紋とのdict完全一致が停止。",
+    "訂正": "物理3fieldを照合し、付加属性はdeclared/directions対だけ許可。未知属性・誤値・誤指紋を拒否する人工追加。",
+    "不変": "売買条件、出生、金額、screen集計式、旧172統計は変更なし。旧partial DAYは残し、自然結果bへ新規再実行。",
+    "先の実行": "OLD/NEW DAY全計算と代表別集計・旧164差分確認は完了、LOCAL入口で停止。新候補の選択/global1は未実行。"
+  }
+}

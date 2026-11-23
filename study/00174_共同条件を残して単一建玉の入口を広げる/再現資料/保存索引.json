@@ -1,0 +1,2512 @@
+{
+  "成功": true,
+  "保存UTC": "2026-11-15T15:25:02.011830+00:00",
+  "保存Source": {
+    "path": "work/174正式保存/保存174.py",
+    "bytes": 20146,
+    "sha256": "bafdce3b62714e87c2c5a11aa05a4b1b87128954fe36a979b43865d9c08fd7ea"
+  },
+  "条件": {
+    "path": "study/00174_共同条件を残して単一建玉の入口を広げる/条件.json",
+    "bytes": 4061,
+    "sha256": "34c05584847d076663793840683122e385124607af1495c78c25f69a1ef92a32"
+  },
+  "Source": {
+    "archive": {
+      "path": "study/00174_共同条件を残して単一建玉の入口を広げる/再現資料/Source.zip",
+      "bytes": 996133,
+      "sha256": "0284e44c2d8020b463054a630777d3353f2489d4b43ca3ceac0df8cf963b838b"
+    },
+    "members": [
+      {
+        "path": "work/151過去場判別/data151.py",
+        "bytes": 19100,
+        "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c"
+      },
+      {
+        "path": "work/161三時間帯入口のデータ/data161.py",
+        "bytes": 23344,
+        "sha256": "1aa4ab452d26d507f532c78ebf036ca37690642cd1cf140f01eb0423f0fe03fe"
+      },
+      {
+        "path": "work/162入口探索/共通.py",
+        "bytes": 2639,
+        "sha256": "4195017fc1ae7c62f5a733e268ce25ca35e97161c4cb0322af6dbbaf097fc84f"
+      },
+      {
+        "path": "work/162入口探索/評価基盤.py",
+        "bytes": 11854,
+        "sha256": "fb4a053bcde76c6aea7d53381b510b9ed0ffb009c0cc6ed5370c0526e312a926"
+      },
+      {
+        "path": "work/162複合入口候補/rules162.py",
+        "bytes": 17497,
+        "sha256": "93d8ef4d5e18f2835e4835f63c60912088103003f8b5c1ed8dd13560a2e7836a"
+      },
+      {
+        "path": "work/162複合入口候補/rules162_stateful.py",
+        "bytes": 14634,
+        "sha256": "3a3fb01a5d16e2a1ab58a0120253c0d35badd874a52ebf0a1778ef81e13b5279"
+      },
+      {
+        "path": "work/163任意幅の数値化/arrays163.py",
+        "bytes": 17857,
+        "sha256": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6"
+      },
+      {
+        "path": "work/163入口と任意幅/共通163.py",
+        "bytes": 1564,
+        "sha256": "ec344a23e888343d966f6d88ebc417c578ce3081bcb7caef29f2c1fc04bd3fe8"
+      },
+      {
+        "path": "work/163入口と任意幅/評価163.py",
+        "bytes": 6320,
+        "sha256": "16e118fbd085e1f3171158b7cd446bdc919a361f8961e58881e3229f07ee4ebe"
+      },
+      {
+        "path": "work/164先着確定と反転比較/比較する.py",
+        "bytes": 8504,
+        "sha256": "3e378b6c2407046c8b205997df17eea89bdf84e13ef6fddb8b1a2d8877bec786"
+      },
+      {
+        "path": "work/165順行と回復失敗の複合/出生を作る.py",
+        "bytes": 8553,
+        "sha256": "54db3ff0b72547d8e0317067d17a2332fbb8a4d7aaa47c231a52f5467148ea27"
+      },
+      {
+        "path": "work/165順行と回復失敗の複合/評価基盤165.py",
+        "bytes": 7525,
+        "sha256": "999225c47b9a88633fe7330e79235e33fe310b0d8f5d528a7ec0cbff024035fd"
+      },
+      {
+        "path": "work/166可変場の数値化/arrays166.py",
+        "bytes": 7903,
+        "sha256": "049645e8daa53e900a1a2c69ec78a7add9ea45dbf2179f262705c8be05c04947"
+      },
+      {
+        "path": "work/166可用指標の階層化/local166.py",
+        "bytes": 5946,
+        "sha256": "9085db8c15c1494729315b54ed08810bf405baf482c1f760210990d9588f597b"
+      },
+      {
+        "path": "work/167固定入口の別期間/適用基盤167.py",
+        "bytes": 11079,
+        "sha256": "d37d6c8cec944a4029b1719db0e7a66cc1fd056a35612e8aa952e44003d6a987"
+      },
+      {
+        "path": "work/168数量枠の因果再生/engine168.py",
+        "bytes": 8579,
+        "sha256": "a2f728bf7e7c925495d01670f1bbf89d88aaea6b8e207490e080d6c2d9f21050"
+      },
+      {
+        "path": "work/168数量枠の因果再生/再生する.py",
+        "bytes": 10669,
+        "sha256": "e075f37f56d24b19ace21ae0b3a88a5010cc43bd6840342c544ce121870074ca"
+      },
+      {
+        "path": "work/171三帯の入口切替/route171.py",
+        "bytes": 5622,
+        "sha256": "fae66a54edda60b6f2959af0e39a290413783a6d646365bd00ac9f53b8c96f6f"
+      },
+      {
+        "path": "work/171三帯の入口切替/固定候補を再生する.py",
+        "bytes": 2442,
+        "sha256": "a16e29bd9951777d6fba242c8a66d44e879ce6bed63baafd81738d5d77f498bd"
+      },
+      {
+        "path": "work/172ナイト入口探索/CSVへ出力する.mjs",
+        "bytes": 4762,
+        "sha256": "a6483b32cfca617f0614d9a866b6e154315bddc37eedf927aa03cb77b53d6f04"
+      },
+      {
+        "path": "work/172ナイト入口探索/仕様を固定する.py",
+        "bytes": 6739,
+        "sha256": "a1089dcd257fe1dc48bcaa584ea91a3bf4deba3c99d07947dc374c0d42c77e17"
+      },
+      {
+        "path": "work/172ナイト入口探索/再生172.py",
+        "bytes": 9840,
+        "sha256": "bee4c88f1c3e1e0a20347f6877e279bd36e1f578c8eb9e3216974e81e6106753"
+      },
+      {
+        "path": "work/172ナイト入口探索/出生前を固定する.py",
+        "bytes": 2571,
+        "sha256": "0cc543fe9e78f1da9d000ceb94ad0a902723458cc110063b2a2dfda68c35b381"
+      },
+      {
+        "path": "work/172ナイト入口探索/参考適用案を固定する.py",
+        "bytes": 2834,
+        "sha256": "ef1b2d60f9194ce95d2abab1aa572d4d51ee162f5f5cebf282e3a1ac30d8f0fe"
+      },
+      {
+        "path": "work/172ナイト入口探索/固定案を参考適用する.py",
+        "bytes": 7461,
+        "sha256": "69bc3431d86e0026f0a6d46ba84e049314aaa24923bcd427d6884f7088b24688"
+      },
+      {
+        "path": "work/172ナイト入口探索/基準を確認する.py",
+        "bytes": 3502,
+        "sha256": "7201e87340ef4daa79fe73fb0786e5b02b804afe9626c7c19b929982c3437e5c"
+      },
+      {
+        "path": "work/172ナイト入口探索/数量比較する.py",
+        "bytes": 9733,
+        "sha256": "6fec0dda2110c76c478bbf7a2802d6dc2b4d90c40f955efc487749f8e52e0465"
+      },
+      {
+        "path": "work/172ナイト入口探索/最終化する.py",
+        "bytes": 6152,
+        "sha256": "040f8a0e75e616ecda84b6827014dbb144d1c25e60114b3dc0d534211cf83ac1"
+      },
+      {
+        "path": "work/172ナイト入口探索/正式保存する.py",
+        "bytes": 23560,
+        "sha256": "84545fe4244c6053dc0b6ef384b51b1733d7156024990827d1a0e1cd77bb50fc"
+      },
+      {
+        "path": "work/172ナイト入口探索/正式入力で再現する.py",
+        "bytes": 5360,
+        "sha256": "053be6c090afdcae11ca5c7c510083b2a6bba5d509d661009483eda820c120cb"
+      },
+      {
+        "path": "work/172ナイト入口探索/補正選択.py",
+        "bytes": 4552,
+        "sha256": "a12b439cf2044808552a63af62e629726e04751b46a8beb6245027fac083de76"
+      },
+      {
+        "path": "work/172ナイト入口探索/追加固定する.py",
+        "bytes": 2239,
+        "sha256": "855e177ecd624d16e8c733b076891eeb7d4b791b6ff52767fde108a9e447c2f9"
+      },
+      {
+        "path": "work/172ナイト入口探索/選定政策の出生.py",
+        "bytes": 6573,
+        "sha256": "ccdda9b10f5ba2e2da525d07984682ddd0c9e21f7c46377f20f5b6d279e8a612"
+      },
+      {
+        "path": "work/172ナイト入口探索/選定政策出生の人工検査.py",
+        "bytes": 8410,
+        "sha256": "12ee224a1de5ed7b2592f2c7353f9308505848206eb2279797ed9e859436c152"
+      },
+      {
+        "path": "work/172ナイト入口探索/集計を作る.py",
+        "bytes": 9275,
+        "sha256": "bdd5d74fc360e3a8af3ddca98cbfe1d29b2bb21a619c787b66dd43faa37489d1"
+      },
+      {
+        "path": "work/172ナイト基礎診断/441前後を事後診断する.py",
+        "bytes": 6417,
+        "sha256": "fa181d3beef3e41c5d4aeef7ddc81003dadd112b3c7e9509501438561470b6e4"
+      },
+      {
+        "path": "work/172ナイト基礎診断/Root支持を適用する.py",
+        "bytes": 3073,
+        "sha256": "44174ecd3cf2f4befafb9e7c81067150a14424158e0817ec8796c06273068ce3"
+      },
+      {
+        "path": "work/172ナイト基礎診断/selector172.py",
+        "bytes": 12987,
+        "sha256": "fbc44bbd9884fa621cc4d77b9860c21d246e4644d73a18e059519054cb57f25e"
+      },
+      {
+        "path": "work/172ナイト基礎診断/selector人工検査.py",
+        "bytes": 6363,
+        "sha256": "724fbfa254e993351745c5558f6a9b9987dd325183a078b88c4d2201a01b09c4"
+      },
+      {
+        "path": "work/172ナイト基礎診断/保有時間を独立確認する.py",
+        "bytes": 5897,
+        "sha256": "828a01da8d440a89b9b0c9da9fc2d6b830faabff40047952931b9e1f1ad84b9c"
+      },
+      {
+        "path": "work/172ナイト基礎診断/全80の保有と支持を独立集計する.py",
+        "bytes": 18144,
+        "sha256": "18d4d2e692aafaace454481be57b154c2aba5f342214560ec758e3d47a232bdb"
+      },
+      {
+        "path": "work/172ナイト基礎診断/基礎診断.py",
+        "bytes": 29652,
+        "sha256": "8b43b81b782af866f68ce54f905fd6728635fceb428dd638c5552439577c1c3a"
+      },
+      {
+        "path": "work/172ナイト基礎診断/結合短表を作る.py",
+        "bytes": 4226,
+        "sha256": "e04374d1901bba0d0afc3e33d418dd9c03d0874be32095090a7ff7378b6e4c76"
+      },
+      {
+        "path": "work/172ナイト基礎診断/追加安定一組を固定する.py",
+        "bytes": 5189,
+        "sha256": "77f9a4f37499434b2198d50794c7ac5fd9695c6a5547b79087d69aa6904531a2"
+      },
+      {
+        "path": "work/172ナイト数量再生/CSVを独立検算する.py",
+        "bytes": 16140,
+        "sha256": "15a7be21bff7d6d91827f338b6a65b2e3948c7e42ed0d2be283af7bb45c34611"
+      },
+      {
+        "path": "work/172ナイト数量再生/engine172.py",
+        "bytes": 9548,
+        "sha256": "d1b1fab0daad8f74d8928ea985a311288e5417a4455bf7209783c263b17a91a7"
+      },
+      {
+        "path": "work/172ナイト数量再生/人工検査.py",
+        "bytes": 20906,
+        "sha256": "03842b2ece10a3ccb381c784443108d059e5575462676554e9ebec36e2459092"
+      },
+      {
+        "path": "work/172ナイト数量再生/接続器を人工確認する.py",
+        "bytes": 12462,
+        "sha256": "28261b12722aeac0893d6f2f83ed0de39a1e13d1827736ceb8472540f329a3ce"
+      },
+      {
+        "path": "work/172ナイト数量再生/数量選択を人工確認する.py",
+        "bytes": 13991,
+        "sha256": "d8772ee6bb05383074cb693eb5222617478a710ae25bdd242f96ce43fd649b01"
+      },
+      {
+        "path": "work/172ナイト数量再生/旧73を独立検算する.py",
+        "bytes": 19098,
+        "sha256": "4cd705924bcb0cd9affdb435866eaa41edeb4c68111b12b96f9f8349ef91b307"
+      },
+      {
+        "path": "work/172ナイト数量再生/補正選択の人工検査.py",
+        "bytes": 8459,
+        "sha256": "daa545f74ea949df76e87cdc2809749e25113abf5b4934e93e10a258dba17a98"
+      },
+      {
+        "path": "work/172ナイト数量再生/追加7を独立検算する.py",
+        "bytes": 7123,
+        "sha256": "2da6ddd5b87ae608f259e49a4beda2f2cfed28016b477bd7463ef7b1a07eafa2"
+      },
+      {
+        "path": "work/172ナイト複合候補/rules172_night.py",
+        "bytes": 21962,
+        "sha256": "33d51c7d302f911754722e6460eff72a6ea42f294ccc6189ee8551797438ac3c"
+      },
+      {
+        "path": "work/172ナイト複合候補/人工検査.py",
+        "bytes": 12088,
+        "sha256": "354073e72974801345702774c984e5124e0e008329132227364194979f7d83d5"
+      },
+      {
+        "path": "work/172ナイト複合候補/出生を作る.py",
+        "bytes": 12709,
+        "sha256": "1a080afd2a8bdd49554501cb8822e8a1548d983ed8661cbce1c7d5779b064f7b"
+      },
+      {
+        "path": "work/172ナイト複合候補/段階を診断する.py",
+        "bytes": 7095,
+        "sha256": "b3e57daba191f506f4d5d3af19c4ed4a67960026ffd377e199d3c20ff16854d5"
+      },
+      {
+        "path": "work/172ナイト複合候補/金融を独立検算する.py",
+        "bytes": 7049,
+        "sha256": "49f1eb7355c409eb71e028ffa6bb3b389117e4ee439c562e3bef792bb6845038"
+      },
+      {
+        "path": "work/172ナイト複合候補/金融比較する.py",
+        "bytes": 14856,
+        "sha256": "a773381faccd4a78f904ee58b6093bea042941d3620d1e1d8c3cecd40afa3c12"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/F1の接続訂正を固定する.py",
+        "bytes": 2660,
+        "sha256": "683d7cf50441dfdc63e3db9ba30b2ffaa3b32b8f5f179336c6673b94c9c46d7f"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/F1を固定する.py",
+        "bytes": 4172,
+        "sha256": "503c5ee55f1012ccab0d9aa8369706ded1abae68a981a825ee1075b067802127"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/仕様を固定する.py",
+        "bytes": 6382,
+        "sha256": "8aab254fe12cd1a3bf39c375f0c9e71598d15e70957872ed94516de297e30c7a"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/基盤173.py",
+        "bytes": 7270,
+        "sha256": "89b132081a722e112077fba8103f98f9e38bd210ee640da1410dc8c47b4d5854"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/対照を再生する.py",
+        "bytes": 3135,
+        "sha256": "74787dd2c9a805e0c8674f4493be7a8a2a37ccb7905f51630d7fdb620e2d5104"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/局所出生を作る.py",
+        "bytes": 2680,
+        "sha256": "78db6c7d1fea5d0d15063a53545b8eb68cf36024bfa522245df1b221bc43a82c"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/数量候補を選ぶ.py",
+        "bytes": 5569,
+        "sha256": "eb424cda2c6471dc8c3af8172252d309d6e5e090034b3ba2744e9e734934cc19"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/構成173.py",
+        "bytes": 4721,
+        "sha256": "d9ac90fe0c0b1889be7e95192747551968e58480288172401931779f637e95eb"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/正式入力で再現する.py",
+        "bytes": 5840,
+        "sha256": "fca9400847bac6f86d57e878447986a5aee9c3fcf595d826b159b7712b940cee"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/段階再生173.py",
+        "bytes": 15746,
+        "sha256": "2422de749d5ecd0ffb88c0bd23ed347a0eb3b419ec0a0f1de9b163b99c0e473d"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/結果文書を作る.py",
+        "bytes": 12593,
+        "sha256": "49a274b35434723b723e41c68e0e0049e659925fa9a16fd31ff7cb36903bd2e2"
+      },
+      {
+        "path": "work/173予備入口screen/pool173.py",
+        "bytes": 8576,
+        "sha256": "1a5fe06b5262b2576aea5eca5f18a3287f6df2e78a5e5ae3ffce3fcd688875b8"
+      },
+      {
+        "path": "work/173予備入口screen/screen173.py",
+        "bytes": 22005,
+        "sha256": "cf78f29ac016b64b3e9289c52595157660021d7e35625032c0b7dc04c421dfc6"
+      },
+      {
+        "path": "work/173予備入口screen/人工検査.py",
+        "bytes": 8073,
+        "sha256": "39d4d2b973d535de217c2bc2fcb08098b6f83bba3f249c82999de2cf28f74543"
+      },
+      {
+        "path": "work/173予備入口screen/修正前Source/pool173.py",
+        "bytes": 8240,
+        "sha256": "6af12cf3417d91a4a92f5db7713f85a8d0a14ea07d76ea2824e0bf60a0cda0eb"
+      },
+      {
+        "path": "work/173予備入口screen/修正前Source/人工検査.py",
+        "bytes": 7242,
+        "sha256": "6d55cbaafdab5a75031448b4e4dad28c87ddcab8ed16f9e836840fd8f215e52c"
+      },
+      {
+        "path": "work/173予備入口screen/独立検算.py",
+        "bytes": 6966,
+        "sha256": "41717c159de7d8dab2617117f6640e453def90162fc83f8f430cf7030dad2ba6"
+      },
+      {
+        "path": "work/173局所技術の主入口/local173.py",
+        "bytes": 16473,
+        "sha256": "d05edad8816980eb2a03c9fbef285f31a6653ee6a5650eaac77ebb4af34af4f3"
+      },
+      {
+        "path": "work/173局所技術の主入口/人工検査.py",
+        "bytes": 16116,
+        "sha256": "f850e5a3df2b73c70848e7b951653725d39ab96810654fbda0a1a73b0496dea7"
+      },
+      {
+        "path": "work/173局所技術の主入口/出生を保存する.py",
+        "bytes": 6271,
+        "sha256": "a98a09757bbce5664c387a92d5fd7d0f14a9406fe22fbfe6f3e39dd49062747d"
+      },
+      {
+        "path": "work/173数量接続の独立確認/Source/人工点検.py",
+        "bytes": 19985,
+        "sha256": "5ea1b039e4affd5e731dc0c5dafd699d28752f678570893e9d326145a1eaaf36"
+      },
+      {
+        "path": "work/173正式保存/保存173.py",
+        "bytes": 15771,
+        "sha256": "a4251c9bdb77a8da70d2a377c34d8ea6baeb8acef8d4d4c5222aa31ceb0a7277"
+      },
+      {
+        "path": "work/173自然結果の独立検査/Source/旧73を検査する.py",
+        "bytes": 27360,
+        "sha256": "cf4b18df52a1ff4ab993aea2ce05c1d7f2ac41e6b55265d00e6a90d61d92d6ab"
+      },
+      {
+        "path": "work/173自然結果の独立検査/Source/追加7と全80を検査する.py",
+        "bytes": 14691,
+        "sha256": "4fd6e37bab3a21e85361b553d0e94e324d8477bb570408facea6ecac1b3cfd4f"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/Stage1から短表を作る.py",
+        "bytes": 17129,
+        "sha256": "2c8e087fe807dbd2589cac4cc9dda37585552e4796c6299638c10c7afe83f074"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/人工を確認する.py",
+        "bytes": 7838,
+        "sha256": "26b95e81e69ee8050771b7c9239478653465e9067463a80ff8d698eb72c798a1"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/接続の人工を確認する.py",
+        "bytes": 10638,
+        "sha256": "61cf4ce9bb083acb79fd195f92f8622d588d972ff939243a1c3d59780b56a304"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/支持と多様性で短表を選ぶ.py",
+        "bytes": 10999,
+        "sha256": "3a0772f62314b6cd3e76097f0abdc770bd2bf5cb89afc7cdf6c1b16d6f37063a"
+      },
+      {
+        "path": "work/173追加なしの因果再生/engine173.py",
+        "bytes": 13575,
+        "sha256": "4e5e90ee2a8548b65133feb1eb8ffa873acf693bbd923c71b4063a1a053b7b84"
+      },
+      {
+        "path": "work/173追加なしの因果再生/人工検査.py",
+        "bytes": 24941,
+        "sha256": "6831aad72d62354487995b5e2c629f7fee0a79b0fd6d036d9853fd168c239afa"
+      },
+      {
+        "path": "work/173追加なしの評価/metrics173.py",
+        "bytes": 21035,
+        "sha256": "ab20c7dd9bcf6783b2aa2366eaebb92b6c8644c4ebfcec48eef3faf9ca25834f"
+      },
+      {
+        "path": "work/173追加なしの評価/検証.py",
+        "bytes": 12547,
+        "sha256": "7d10d8d8876864b0403413dbaa426f422efd33b8a448cf67a06fe72653cbb366"
+      },
+      {
+        "path": "work/173追加七場適用/固定四政策を適用する.py",
+        "bytes": 16016,
+        "sha256": "892b1f35534d8837c616366fb32658d8428e680a86da16a83992f22403c20750"
+      },
+      {
+        "path": "work/173選択診断/173選択を診断する.py",
+        "bytes": 10043,
+        "sha256": "cd503414dd20d426aa2270089802b0e20e1293a71c7ca4f405ba1753ff275ac5"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSVの入力を作る.py",
+        "bytes": 5469,
+        "sha256": "6f9391718c89a9235b77098be8fd8e1ebd304c28aa4d39cd3fadba602cc85d74"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSVへ出力する.mjs",
+        "bytes": 4373,
+        "sha256": "3983791eca620304b2f69283e9d88d1b05a769c5bf2f71c58e1eb9cd14789d66"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/F0を固定する.py",
+        "bytes": 3276,
+        "sha256": "8e7775cb4fcc5508b01e4e15ae014d3a7b76eeca273c7a956e23307065770aad"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/中間を診断する.py",
+        "bytes": 1484,
+        "sha256": "50c3dbdf9e79333e34e60e3afdaf7c6740e0bb2bddac196dd0332b7dc585fb01"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/人工接続を確認する.py",
+        "bytes": 1561,
+        "sha256": "5186a55e08f4dd0362878429c69c8d774a68c9669a2e30d067cf671336a07c7e"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/固定案の要点を読む.py",
+        "bytes": 1373,
+        "sha256": "ce32d89870cdcd29d62a1419e9d4d21b83ab27ed5fc9ce13f5eb7c099b5880ec"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/数量候補を選ぶ.py",
+        "bytes": 4808,
+        "sha256": "469fd397d03bc9d98252e1e0b60a0792e7c5a57f18096d099394a6a3ea52b386"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/数量候補を選ぶ173原版.py",
+        "bytes": 5569,
+        "sha256": "eb424cda2c6471dc8c3af8172252d309d6e5e090034b3ba2744e9e734934cc19"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/正式入力で再現する.py",
+        "bytes": 4231,
+        "sha256": "7b836c50897e2e8fc0214952cd60dd71abdf65503472676a2e2fdec82ed166b9"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/段階再生174.py",
+        "bytes": 17289,
+        "sha256": "6d5cecdf85fad9988f7a7437b265fa6ad86ade7b64123b2843f7f4a1f19e2b59"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/結果文書を作る.py",
+        "bytes": 11238,
+        "sha256": "dee23d18cdd73ff5496a5e7f7d7d6fa0d302089ca091a16dc2cedb8cad89f6ef"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/DAY候補を広く選ぶ.py",
+        "bytes": 8276,
+        "sha256": "3833d9307846b55f5053ba5864092bb5eb3223daa69f49d259887c059b6d28e2"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/DAY短表へ接続する.py",
+        "bytes": 8027,
+        "sha256": "c323223b15c6c38ee4b5aec84235c77b819de66cb595c66222c87833cf27a825"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/人工検査.py",
+        "bytes": 6990,
+        "sha256": "3222ea820d749014b01de45300c45fd7b328edd188d93c20d4097e0383c8b2a3"
+      },
+      {
+        "path": "work/174正式保存/保存174.py",
+        "bytes": 20146,
+        "sha256": "bafdce3b62714e87c2c5a11aa05a4b1b87128954fe36a979b43865d9c08fd7ea"
+      },
+      {
+        "path": "work/174結果診断/固定四案を診断する.py",
+        "bytes": 12073,
+        "sha256": "38e1268216f348db8e82ad02a3411f66a378f22d13c7b5afe45673577cf04e89"
+      },
+      {
+        "path": "work/174自然結果の独立検査/Source/CSVを独立検算する174.py",
+        "bytes": 11245,
+        "sha256": "ececf44b2a8df5bd65378c01d954a6bf63de14c6e05332a4bd57259facd810c7"
+      },
+      {
+        "path": "work/174自然結果の独立検査/Source/人工点検174.py",
+        "bytes": 15090,
+        "sha256": "d53f0a6d4d857790e619150a1a3300235cc544f70706e9e81cf36902288c1b7b"
+      },
+      {
+        "path": "work/174自然結果の独立検査/Source/接続174.py",
+        "bytes": 3244,
+        "sha256": "9ba38f0ad07ce72ca94d94e0291ab1f516b9b13b6eddc2b6ab20769f494eabc0"
+      },
+      {
+        "path": "work/174自然結果の独立検査/Source/自然固定案174を検査する.py",
+        "bytes": 15941,
+        "sha256": "d71a5c90256f41bd02318eaaaec0a124e568155c84ab1a25f681c3f0a679693f"
+      },
+      {
+        "path": "work/174追加七場適用/固定政策を適用する.py",
+        "bytes": 17701,
+        "sha256": "29ada26ed37882c3229e8f15c1640accc3c8904aa2f2b63400d0de67294393ed"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/__config__.py",
+        "bytes": 5638,
+        "sha256": "7484592aa3f8dc04c44d13ab7520d27429ee47b03090a49b6a6c7a221cf52130"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/__init__.py",
+        "bytes": 26470,
+        "sha256": "a6958cb364663b7acce81ccfd58eeb65a2b34d5376157f924777b97211a73be4"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_array_api_info.py",
+        "bytes": 10864,
+        "sha256": "feb8737051eb453b8364621d24b640fa635fd504e405654e998659651754c0f5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/__init__.py",
+        "bytes": 6865,
+        "sha256": "73c57a7f3a54e33399ddb9b142eb27ed3aae2bf4be2f4c159396788e16b620e5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_add_newdocs.py",
+        "bytes": 222296,
+        "sha256": "02b9fc008a77b0148bca7790944edb6499575f66eb0327385dbd9fca1f76072d"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_add_newdocs_scalars.py",
+        "bytes": 13314,
+        "sha256": "562316500225b142a8b1dd661292e8f74edc65e692ed583f19eaf30832005144"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_asarray.py",
+        "bytes": 4024,
+        "sha256": "314d672bbea64388036425996dd57ece692666984054090dc2085b9384e0aa54"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_dtype.py",
+        "bytes": 10880,
+        "sha256": "07e3d5e42bbcbb84117243c82355ef70246f3dd1923849c5dbd0277965b21e22"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_dtype_ctypes.py",
+        "bytes": 3846,
+        "sha256": "7bc1207daa97889f3e5188bc14ce6c9bd5bc7a1aaf706feb4e90d139a2b04ca8"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_exceptions.py",
+        "bytes": 5321,
+        "sha256": "ba6c5687d4cb8435f2f4b996efbc2420731e80593f2857c10799ddc6c25de45e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_internal.py",
+        "bytes": 30365,
+        "sha256": "2f27033e087b4afbc3312a294f4b2ee11c935113d66f962c58c5a59629bfb795"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_methods.py",
+        "bytes": 9645,
+        "sha256": "5dd70c059e7359916950988bfa29b6482b6cbf2627fcd0e2ad25880a4cedd9fc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_string_helpers.py",
+        "bytes": 2945,
+        "sha256": "697d4de54b0d794172e78a39b6e4c2e97e8df4026e785376ffa408c88503d978"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_type_aliases.py",
+        "bytes": 3927,
+        "sha256": "d69c1598322e00cee8a07a13e65ec35ec1aeb157f781b49c18bed983e9eb055b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_ufunc_config.py",
+        "bytes": 16126,
+        "sha256": "c5e272dcaeca3d5e4fa496e45bd9dc598fd49e72c794cf4ceab5f80bd78db369"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/arrayprint.py",
+        "bytes": 67483,
+        "sha256": "d6a74d6044359653eae24f3f30731d2419705723eeba52cd24ab304e468ca373"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/einsumfunc.py",
+        "bytes": 59481,
+        "sha256": "16e0c6ac0634ed3d9811428a476a82cbe88ffb454ac37413773f0624cec57563"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/fromnumeric.py",
+        "bytes": 148231,
+        "sha256": "52c70bd82e3f6783f8bbcf8e99daf987bf7416cab99b1ef1655bb44b66646b03"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/function_base.py",
+        "bytes": 20236,
+        "sha256": "826eb1f0e08ce2e93de7274232ccf8bff4fea02ccad763e3d3353f0110d7cd89"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/getlimits.py",
+        "bytes": 15063,
+        "sha256": "c01955f10cd38e898ab9ce33884f65d3cb85a8d1ffe3d6102b34d3ae558aa3a1"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/memmap.py",
+        "bytes": 13000,
+        "sha256": "242086cc9b13487cfe6c102b88075fb1849a9f1360f9f97f05876f9f73f6fa2c"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/multiarray.py",
+        "bytes": 58628,
+        "sha256": "233a6c2def357506b505407e6f85e1715822545fda42b02e3f12697d897bf9e5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/numeric.py",
+        "bytes": 83290,
+        "sha256": "1701f78f500b8ba6beb435f8861db4d9ba900c3625c5b7d8237cb39c49fce3dc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/numerictypes.py",
+        "bytes": 15392,
+        "sha256": "135b154b3cc2d83caa725dabd8686b18488089bc43fe0ea9cfb49cc81b23c6b9"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/overrides.py",
+        "bytes": 7666,
+        "sha256": "bbd2f3457b59ae357e01003ab66fb51a9ef1c3dd417883cb97cf7ff5197ce819"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/printoptions.py",
+        "bytes": 1088,
+        "sha256": "6577a406be9f235f1d571b0ce9bc401a2f340a232568c3787696cf1c342204e2"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/records.py",
+        "bytes": 38365,
+        "sha256": "f1a961055e140b98a7c18d4c540bd2c1e597b54a9836bf117cb1fb373ef8de03"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/shape_base.py",
+        "bytes": 33708,
+        "sha256": "a32e3688fa2368b8d08ec432d5cdf95e5ef6c3456d2d909bb62a5995bf171a8a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/umath.py",
+        "bytes": 2176,
+        "sha256": "3679c7c58c32c89fecb9f4e6e73606b9dd01ab350797c0d041484f6140fd359f"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_distributor_init.py",
+        "bytes": 436,
+        "sha256": "879fc2abb22d0ebb75259a00874e1a3b9e195ec5d1464c86a0d1451fd4fed3c5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_expired_attrs_2_0.py",
+        "bytes": 3853,
+        "sha256": "7fba906bc3cd76d97be7f446ce120379a98e925458465aa5caf65a988b4e513b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_globals.py",
+        "bytes": 4277,
+        "sha256": "22fb9c5a81e206f4e592b5fef6d6d90c38be2ade565381de6b3d502b00f5a1cf"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_pytesttester.py",
+        "bytes": 5844,
+        "sha256": "c4e6afb1ba88b1fa577f923dfc4f57aa524c5cd071fcb55f166ae8db7e81aa08"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/__init__.py",
+        "bytes": 4744,
+        "sha256": "790e275f35f7f953db317c79b288a3af4bba75954b2f12b9efdccc0709f786f6"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_array_like.py",
+        "bytes": 3483,
+        "sha256": "f4faa8bee26c19f737c13c96e5a6c6aea54a7487fdbd01e095296e7586262a53"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_char_codes.py",
+        "bytes": 6718,
+        "sha256": "cbb06821ed49fc157eefd3c840fd67f70550cbd9d231b0f7e20fc82c2de75111"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_dtype_like.py",
+        "bytes": 3814,
+        "sha256": "d8dc806845aa0e91d68157596f23ca064a3a7293942933c77eb0b4439ec9029b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_nbit.py",
+        "bytes": 553,
+        "sha256": "7f2ad95e9da6633f861dc65126e0c36c23aaad84fcdd60b1ca7db669385bda8a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_nbit_base.py",
+        "bytes": 3107,
+        "sha256": "3dfd8ad7ebdf5923bf97dcd23a432067cb68e45a9daf1fa380d9ab368b410379"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_nested_sequence.py",
+        "bytes": 2725,
+        "sha256": "e25e57fd1ac28930340979cf7e73c53b28a988e9a35436bf16b7fb6bffecd3f7"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_scalars.py",
+        "bytes": 893,
+        "sha256": "3530803e5bd9302e23d9d1617c57a7ccb5c462e8f235def84bf008a267c97d31"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_shape.py",
+        "bytes": 254,
+        "sha256": "93f44b7ebce45548be6fb8330958d8e5009f492774b1e85455e52370875c9714"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_ufunc.py",
+        "bytes": 163,
+        "sha256": "968939421439689040469c95a1f7eb6deb8426c279bc0e83689e1a1d3794866b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_utils/__init__.py",
+        "bytes": 3572,
+        "sha256": "720c31649c81a85fd479cef84d179d0ce6cad2dd858878f576f9919ba61118bc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_utils/_conversions.py",
+        "bytes": 347,
+        "sha256": "bdeb5916a0b5a81f99f63bdced12ae53fe444ce6926e385b29afac570615f135"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_utils/_inspect.py",
+        "bytes": 7628,
+        "sha256": "7e91db2f51b1edf970e071e39cd1cd37ebfc34ac755a01415a09d7f13e619626"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/dtypes.py",
+        "bytes": 2995,
+        "sha256": "39d584de738ae5a26c0bf0e4e37c1b8a6cd414dccdf23da66a7141c3cede7681"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/exceptions.py",
+        "bytes": 7955,
+        "sha256": "1e04ff12b64b8937dc782bf4cb6758a1eb2d0e92add8847ae8c1eef8b015a4d2"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/__init__.py",
+        "bytes": 2784,
+        "sha256": "0ce3331e49ee0df28b302688cd034fb3fd090113a48f3a8e59ef3c7844dce2f5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_array_utils_impl.py",
+        "bytes": 1766,
+        "sha256": "678bae7c8bb8ffd1192e59e711589f850340923820226e1ca6d2f85cd027338a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_arraypad_impl.py",
+        "bytes": 34445,
+        "sha256": "ac7fce53a5efa26de5e29d836eb840ad020f8ec8ccf4438dc6d4aa28dcf177a8"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_arraysetops_impl.py",
+        "bytes": 38499,
+        "sha256": "1154611100aa471ce1794ebcbb9906812f29925b3fb1448cf565daf59f58de1a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_arrayterator_impl.py",
+        "bytes": 7442,
+        "sha256": "1d4b422c15dc1bb982e405f72ae25c0e31c3f4510f85e09c1f2a53e8fb52b306"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_datasource.py",
+        "bytes": 23423,
+        "sha256": "dbbf26c57ccd4d2dc435304f4418f967411261230fa2f9850e1788f57db7ea1f"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_format_impl.py",
+        "bytes": 37920,
+        "sha256": "0e46ac1ee13b0e49a5342aa037dfbc8da0bbe1aadf5e0d149e1edaf9590fd80c"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_function_base_impl.py",
+        "bytes": 200086,
+        "sha256": "c31c78b1a332d69b6f6f7bf8cd37d04d2eaf1795422a97732c863a38321ba0ae"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_histograms_impl.py",
+        "bytes": 39523,
+        "sha256": "773fe670440f30c1498417cfa36eed094a5a87162d16d7119a98938f73bc03bf"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_index_tricks_impl.py",
+        "bytes": 32571,
+        "sha256": "3f2a02c7c241ace7b73e7d9c1044dbcdf2d1f954f9060fa895ae306bce57a185"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_iotools.py",
+        "bytes": 31789,
+        "sha256": "5ca1fc42347e4b20b331b066d7689fabafe27791a897ddfed609c39086d635a7"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_nanfunctions_impl.py",
+        "bytes": 73411,
+        "sha256": "a0664d8d7cf2ebaa5baf0969d1742c2508ccbed89113cc2dba53fb34b54cf79b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_npyio_impl.py",
+        "bytes": 98775,
+        "sha256": "749b07678d02700c57dddfbccb50880f75ca5a5f0e1cd17d41f9541af51bdc6e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_polynomial_impl.py",
+        "bytes": 45689,
+        "sha256": "2924662b87b32bbf0b50e4656aa454a5c73a645c6b2ba11d794107b3b3b8573b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_scimath_impl.py",
+        "bytes": 16326,
+        "sha256": "563cac448db898c77819a684cb97b59e90110dcd3f4ca810aaae9346888d7406"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_shape_base_impl.py",
+        "bytes": 39107,
+        "sha256": "ec55b38a78c5eea46aff544cd7ddf766774b9e5e606539500cbcfd6e8b9f0287"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_stride_tricks_impl.py",
+        "bytes": 22028,
+        "sha256": "3c0d26a3083be9285cae8b053e71cecc7ac60009a3529429876111c05d38fee3"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_twodim_base_impl.py",
+        "bytes": 36484,
+        "sha256": "cc80c3563ebf1fed60a7fff0c0ba006ea7dbe476bbf069cd35549305d69cd076"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_type_check_impl.py",
+        "bytes": 20818,
+        "sha256": "de876218e8874c0ee3f575859398b2f00a24a00f94452a12e84723caf7c8eb14"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_ufunclike_impl.py",
+        "bytes": 6631,
+        "sha256": "13bb347e660f99ef0107f5ecc737d5f2f83199e3a9dc8bfe7dcd7010fc178792"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_utils_impl.py",
+        "bytes": 17392,
+        "sha256": "12ba291eb095f685fa2d04f25d12518d5fd13039680d0f83769004b2c0cad748"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_version.py",
+        "bytes": 4936,
+        "sha256": "275a6aba3384e11fe41fb475cb1b629b06d6551c43367043f365c867d972d726"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/array_utils.py",
+        "bytes": 151,
+        "sha256": "ce6ad421595e5845b397d5e31295250d4407b7da9b6eccadcaefe32e3f8e8271"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/format.py",
+        "bytes": 501,
+        "sha256": "8a2f0c45098f6759c06aa9cca9e62d2a074d44fe76899b073e8e6b383976d143"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/introspect.py",
+        "bytes": 2843,
+        "sha256": "1c1c92ad97cae677a27a58e9f6adbdb7b04f6a0f1c15fa80b83f278e02436778"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/mixins.py",
+        "bytes": 7375,
+        "sha256": "b98fb87429b3be218fd64a5f92cc522e7fff100fe84f098bab2af80e5fca034e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/npyio.py",
+        "bytes": 69,
+        "sha256": "118e7fb6a1a9951a3e077709b6abdff470b7e2740aaf924d832ca41d68f9abf1"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/scimath.py",
+        "bytes": 182,
+        "sha256": "de7b18a85746a28d1d6a76879c62bc42bcf4000037d531d45f4aa742ca797aef"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/stride_tricks.py",
+        "bytes": 89,
+        "sha256": "a976a7f7f5295c50280cb040689d7061bd01f3a0e03f8f28829e6c52edecd4bc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/linalg/__init__.py",
+        "bytes": 2171,
+        "sha256": "cb491584b896825cd10be0fa03ea70d7ccbfa7a1143d2e7acc772543209cb560"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/linalg/_linalg.py",
+        "bytes": 119048,
+        "sha256": "99ff1dd00a09a032c49208a79dfa4cee369c9061202891d3cc211a3f169b0810"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/matrixlib/__init__.py",
+        "bytes": 255,
+        "sha256": "68f5db68de0e603a7d4c503c906cedda04c11dbde8f0d6a7c3eb8cff75e80c5e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/matrixlib/defmatrix.py",
+        "bytes": 31951,
+        "sha256": "a766d971656d0ae22697aa8afc2b027dbef631915694ceafb2725ac0b47a37fb"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/version.py",
+        "bytes": 304,
+        "sha256": "9e3f3df57c760c394031e9a96250e0bd3787d3abb301047d73c0621bb3337826"
+      }
+    ]
+  },
+  "正本": {
+    "archive": {
+      "path": "study/00174_共同条件を残して単一建玉の入口を広げる/再現資料/出生と比較正本.zip",
+      "bytes": 13242769,
+      "sha256": "52fe9391261c01cf1b9f50dccf86abf33fc3df947cd9e15026ef65f74410c510"
+    },
+    "members": [
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/条件.json",
+        "bytes": 4061,
+        "sha256": "34c05584847d076663793840683122e385124607af1495c78c25f69a1ef92a32"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/CSV作成確認.json",
+        "bytes": 4657,
+        "sha256": "9f4e7aa56984e70c47c01c3980b7c3f7727cb1713866a86625668742771f0573"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/CSV独立検算.json",
+        "bytes": 2484,
+        "sha256": "b417b3f257186165321071b99d252a2b8e142a2f5e70ad0e40fc5719204b394c"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/CSV表示確認.json",
+        "bytes": 4657,
+        "sha256": "90877abab7cf09063ba1ef9098bf5a7a00a51643b7e265c76490bfa2a1756b18"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/F2_Night接合global1.json",
+        "bytes": 3439028,
+        "sha256": "cbcc9d53b8a15b6d9ae6de48db2289e7449a1aaed13ee5ac29077b50b3275b66"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/F2_三帯接合global1.json",
+        "bytes": 2987573,
+        "sha256": "2034db5c8331b3946a1214be525fc8abf0b311963603c4a48d2932a979f2a467"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/F2_単独global1.json",
+        "bytes": 913281,
+        "sha256": "9a721c764fdf2784513ca62f923c2e367fc972d3f1a4bf3160faf2f59dc78120"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/F2_異技術ORglobal1.json",
+        "bytes": 2486513,
+        "sha256": "ae635a7202641f7656e70f01925753d96275687d0f19549b40a45f1ad7aad99a"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/旧73独立検算.json",
+        "bytes": 268409,
+        "sha256": "5b71e46dd17774572fba34770c109b9bbbae4381f9eed9336ed2efddce91542d"
+      },
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/検査/追加7と全80の独立検算.json",
+        "bytes": 125948,
+        "sha256": "07bb3d9e74251f935cd4995cbf10541a51e8a089d8869cba514a7e6cc07817f4"
+      },
+      {
+        "path": "work/171三帯の入口切替/旧73探索/主案と前半A-Bの封印.json",
+        "bytes": 4872,
+        "sha256": "2dada6882201c2fc9b17be105959a5243a987478d4f746e7a36d9701ceaffd4c"
+      },
+      {
+        "path": "work/173局所技術の主入口/SourceCatalog.json",
+        "bytes": 88006,
+        "sha256": "b2fde4df5f2429c01a34648bb3a30ac3dda885ded6db226abede0811cfbea112"
+      },
+      {
+        "path": "work/173追加七場適用/全80の両中央値173.json.gz",
+        "bytes": 83328,
+        "sha256": "4ff6fe8add4ff503090a76db36dd58bf2829bd0f82696bbc60519a906344c00f"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSVの型付き入力.json",
+        "bytes": 402495,
+        "sha256": "3b099802c0fc78f82aa7b1d7050e3014b2705e060c8ea4ca88ee20f081dfd9e5"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSV作成確認.json",
+        "bytes": 4657,
+        "sha256": "9f4e7aa56984e70c47c01c3980b7c3f7727cb1713866a86625668742771f0573"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSV表示確認.json",
+        "bytes": 4657,
+        "sha256": "90877abab7cf09063ba1ef9098bf5a7a00a51643b7e265c76490bfa2a1756b18"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/Night接合global1.json.gz",
+        "bytes": 3836768,
+        "sha256": "3bf453e8670ed793c82c9a634598c77132081d6c2b21f9e80e9bd38458263837"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/Night接合の短表.json",
+        "bytes": 210264,
+        "sha256": "a1b6de9499e7df119b6c8780ceea1ab4ea04c7df43807d9d6f6a746f1f2a3307"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/三帯接合global1.json.gz",
+        "bytes": 2595376,
+        "sha256": "bb736b9a47f1464c7765a776c0244a9564c1c485b5a63a27daf46c45a8f524fe"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/人工接続確認.json",
+        "bytes": 253,
+        "sha256": "cfe24b0b5724e50d12d6b12f3f456775728c80c45bb87c486ffce892618be4e3"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/単独global1.json.gz",
+        "bytes": 1906011,
+        "sha256": "2571008986a4ca7814326f540974afcdda298f3980f971b517632b300497bde5"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/単独global1の短表.json",
+        "bytes": 119377,
+        "sha256": "e7023aae9204dd692d0941421a25a16a986d54af673966ea2907dc303ea3fb48"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/帯ごとの数量短表.json",
+        "bytes": 231857,
+        "sha256": "a0fb8aa8b9ee147bc8a04c413f7f89220e82b0179af6cf1299b650edc29beb81"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/旧73jointの固定選択.json",
+        "bytes": 30515,
+        "sha256": "1d31d7c8e69168a6eb1c025add255ae1a57e6f91d909c0ab4d1eb0c606e65f6e"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/異技術ORglobal1.json.gz",
+        "bytes": 3391833,
+        "sha256": "8b0222e3c3940ac11ceacf619ee1bd788fca0cc9202648befa63347c2ccdf0eb"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/短表の純出生173.npz",
+        "bytes": 527128,
+        "sha256": "b24c6491c8c5d8618c6b5ec647f99ee228c7f1b7ea812b01d34bbe619100a117"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/README.md",
+        "bytes": 3367,
+        "sha256": "b1da5b3660cfc0abec37097455fdc97dd80ccb82475c56a0584711a47f4a2ff2"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/人工入力/LOCAL173_0.npz",
+        "bytes": 421,
+        "sha256": "6d3e3a1df8d8524516b5adeb41f905e884da3a8d3a751e5e984bc0c10f8d4e57"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/人工入力/NEW768_0.npz",
+        "bytes": 598,
+        "sha256": "ed2a8d89f9d0afd39fc9406cf76ca6f89f3a65a6524e7e6ce50f5409715e4565"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/人工入力/OLD1460_200.npz",
+        "bytes": 598,
+        "sha256": "ed2a8d89f9d0afd39fc9406cf76ca6f89f3a65a6524e7e6ce50f5409715e4565"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/人工入力/OLD1460_400.npz",
+        "bytes": 602,
+        "sha256": "192c694e1b9031e13497c3106e849122018617dc5b6c8f295161090a8f690bac"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/人工確認.json",
+        "bytes": 486,
+        "sha256": "45da8a3c103c95d6e34a69af9bf8ccd710dbdc2a34eb2626be43b364447550b4"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/自然選択/DAY短表174.json",
+        "bytes": 1225800,
+        "sha256": "4757b4c90bf49de2904540755d7bf3501122576d4b092e4a327e0ab823e8c19e"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/自然選択/接続確認174.json",
+        "bytes": 7415,
+        "sha256": "421b18dfda1d0ea4330829c62cca9d3fa7a1d1d412abba3163d2bc80d89db40a"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/自然選択/短表174.json",
+        "bytes": 1538151,
+        "sha256": "4f7b1becf960051a222f15f78b25768f5d54bc6ccad9499dd193e37c737136ec"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/自然選択/選択後の不変と併合確認.json",
+        "bytes": 6848,
+        "sha256": "da4db8743723d93d464b63a351b35117a17da82dc23c7769bf82ed81c3a58e64"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/自然選択前の指紋.json",
+        "bytes": 3189,
+        "sha256": "3dcf50477b95ea5f3231d0d2dc57721e587b568b0d4a17bb86e95ddfac64b6e4"
+      },
+      {
+        "path": "work/174結果診断/固定四案の診断.json",
+        "bytes": 686142,
+        "sha256": "f7f67936ac88ffcec4cac04b3cf79adfb7b8554ee612a50ee139eea5115b4ad7"
+      },
+      {
+        "path": "work/174結果診断/採用技術の全条件.json",
+        "bytes": 28822,
+        "sha256": "1edb96eab4eab030e32b3f74faba31a2dafa90b72e058ff8d47bb4150465a272"
+      },
+      {
+        "path": "work/174自然結果の独立検査/CSV独立SHA256.json",
+        "bytes": 460,
+        "sha256": "9d0181377fd767aba855e9c0beda4f41a320c9e6d847e5996fcb047e5c81f9d8"
+      },
+      {
+        "path": "work/174自然結果の独立検査/CSV独立検算.json",
+        "bytes": 2484,
+        "sha256": "b417b3f257186165321071b99d252a2b8e142a2f5e70ad0e40fc5719204b394c"
+      },
+      {
+        "path": "work/174自然結果の独立検査/README.md",
+        "bytes": 5109,
+        "sha256": "fbbdbd341799ee67566f68f361d208f40b288ac1536f677427c0a58af1d462ae"
+      },
+      {
+        "path": "work/174自然結果の独立検査/SHA256.json",
+        "bytes": 294,
+        "sha256": "343acddb760f489498b7356160c167438623750ff78803b7df053cbb2c7ecb22"
+      },
+      {
+        "path": "work/174自然結果の独立検査/人工結果174.json",
+        "bytes": 2228,
+        "sha256": "50741b4373971fcba0d285b40769004668854981f2a595f22163f496144c2217"
+      },
+      {
+        "path": "work/174自然結果の独立検査/旧73独立結果174.json",
+        "bytes": 268409,
+        "sha256": "5b71e46dd17774572fba34770c109b9bbbae4381f9eed9336ed2efddce91542d"
+      },
+      {
+        "path": "work/174自然結果の独立検査/自然検査SHA256174.json",
+        "bytes": 1365,
+        "sha256": "f4b651d4b864dd75f5ad6c6e8b203b9da70132b00ec8025353a82fc8d2ab8632"
+      },
+      {
+        "path": "work/174自然結果の独立検査/追加7と全80の独立結果174.json",
+        "bytes": 125948,
+        "sha256": "07bb3d9e74251f935cd4995cbf10541a51e8a089d8869cba514a7e6cc07817f4"
+      },
+      {
+        "path": "work/174追加七場適用/README.md",
+        "bytes": 2789,
+        "sha256": "f8894169af39d97c9ff9c6c4766bb463bb994f2145be314cac9c22cc94d0a56b"
+      },
+      {
+        "path": "work/174追加七場適用/全80の両中央値174.json.gz",
+        "bytes": 82342,
+        "sha256": "dd9786229e4df2b58bc056992031608b1655b73dbac5dbb9621d6893bf3606e3"
+      },
+      {
+        "path": "work/174追加七場適用/出生前の固定.json",
+        "bytes": 3664,
+        "sha256": "c72051c53b6adc65d09ca1bcc472f29e5cf0ae2bd199e8f887dabcda8aa70e45"
+      },
+      {
+        "path": "work/174追加七場適用/完了.json",
+        "bytes": 5606,
+        "sha256": "7f1c9b347169470e9e9eac2c97d6be67b7da5520baca03a81af9b7dadf5f00c3"
+      },
+      {
+        "path": "work/174追加七場適用/旧73の全取得174.json.gz",
+        "bytes": 123208,
+        "sha256": "92f9c3f0d70595e25af15e1f70d7e943e4451df600ffed702f922703612af413"
+      },
+      {
+        "path": "work/174追加七場適用/旧73の純出生174.npz",
+        "bytes": 54096,
+        "sha256": "fe3fd637c759df23738fa9dafaae7c25b6fd569371c44817b2a8b90399f867d8"
+      },
+      {
+        "path": "work/174追加七場適用/追加7の全取得174.json.gz",
+        "bytes": 35558,
+        "sha256": "fb33654fbdb4677065916558f8037d53b45112e47e8e9efebf215ca4fc1ebaf2"
+      },
+      {
+        "path": "work/174追加七場適用/追加7の純出生174.npz",
+        "bytes": 14597,
+        "sha256": "a74597e3ae979e090af20572f5bb7ef1bf28510e47232bbe39344571a4d21720"
+      },
+      {
+        "path": "work/174追加七場適用/金融前の出生固定.json",
+        "bytes": 7956,
+        "sha256": "a194aaf7f2b8701a95e37f612466f793adb4982933b67346471c873667e6228b"
+      }
+    ]
+  },
+  "Source継承元": {
+    "archive": {
+      "path": "study/00173_追加建てを禁止し両中央値で入口を再探索する/再現資料/Source.zip",
+      "bytes": 920009,
+      "sha256": "bc2d3f62e644fc1f37e9b4d39db2cedf99da8f75e6f7b16255e5b686664673f7"
+    },
+    "index": {
+      "path": "study/00173_追加建てを禁止し両中央値で入口を再探索する/再現資料/保存索引.json",
+      "bytes": 102231,
+      "sha256": "bb571825526b6c72d00784ccb19ca241a395fa54b213c26ff312c964314d5fe3"
+    },
+    "members": [
+      {
+        "path": "work/151過去場判別/data151.py",
+        "bytes": 19100,
+        "sha256": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c"
+      },
+      {
+        "path": "work/161三時間帯入口のデータ/data161.py",
+        "bytes": 23344,
+        "sha256": "1aa4ab452d26d507f532c78ebf036ca37690642cd1cf140f01eb0423f0fe03fe"
+      },
+      {
+        "path": "work/162入口探索/共通.py",
+        "bytes": 2639,
+        "sha256": "4195017fc1ae7c62f5a733e268ce25ca35e97161c4cb0322af6dbbaf097fc84f"
+      },
+      {
+        "path": "work/162入口探索/評価基盤.py",
+        "bytes": 11854,
+        "sha256": "fb4a053bcde76c6aea7d53381b510b9ed0ffb009c0cc6ed5370c0526e312a926"
+      },
+      {
+        "path": "work/162複合入口候補/rules162.py",
+        "bytes": 17497,
+        "sha256": "93d8ef4d5e18f2835e4835f63c60912088103003f8b5c1ed8dd13560a2e7836a"
+      },
+      {
+        "path": "work/162複合入口候補/rules162_stateful.py",
+        "bytes": 14634,
+        "sha256": "3a3fb01a5d16e2a1ab58a0120253c0d35badd874a52ebf0a1778ef81e13b5279"
+      },
+      {
+        "path": "work/163任意幅の数値化/arrays163.py",
+        "bytes": 17857,
+        "sha256": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6"
+      },
+      {
+        "path": "work/163入口と任意幅/共通163.py",
+        "bytes": 1564,
+        "sha256": "ec344a23e888343d966f6d88ebc417c578ce3081bcb7caef29f2c1fc04bd3fe8"
+      },
+      {
+        "path": "work/163入口と任意幅/評価163.py",
+        "bytes": 6320,
+        "sha256": "16e118fbd085e1f3171158b7cd446bdc919a361f8961e58881e3229f07ee4ebe"
+      },
+      {
+        "path": "work/164先着確定と反転比較/比較する.py",
+        "bytes": 8504,
+        "sha256": "3e378b6c2407046c8b205997df17eea89bdf84e13ef6fddb8b1a2d8877bec786"
+      },
+      {
+        "path": "work/165順行と回復失敗の複合/出生を作る.py",
+        "bytes": 8553,
+        "sha256": "54db3ff0b72547d8e0317067d17a2332fbb8a4d7aaa47c231a52f5467148ea27"
+      },
+      {
+        "path": "work/165順行と回復失敗の複合/評価基盤165.py",
+        "bytes": 7525,
+        "sha256": "999225c47b9a88633fe7330e79235e33fe310b0d8f5d528a7ec0cbff024035fd"
+      },
+      {
+        "path": "work/166可変場の数値化/arrays166.py",
+        "bytes": 7903,
+        "sha256": "049645e8daa53e900a1a2c69ec78a7add9ea45dbf2179f262705c8be05c04947"
+      },
+      {
+        "path": "work/166可用指標の階層化/local166.py",
+        "bytes": 5946,
+        "sha256": "9085db8c15c1494729315b54ed08810bf405baf482c1f760210990d9588f597b"
+      },
+      {
+        "path": "work/167固定入口の別期間/適用基盤167.py",
+        "bytes": 11079,
+        "sha256": "d37d6c8cec944a4029b1719db0e7a66cc1fd056a35612e8aa952e44003d6a987"
+      },
+      {
+        "path": "work/168数量枠の因果再生/engine168.py",
+        "bytes": 8579,
+        "sha256": "a2f728bf7e7c925495d01670f1bbf89d88aaea6b8e207490e080d6c2d9f21050"
+      },
+      {
+        "path": "work/168数量枠の因果再生/再生する.py",
+        "bytes": 10669,
+        "sha256": "e075f37f56d24b19ace21ae0b3a88a5010cc43bd6840342c544ce121870074ca"
+      },
+      {
+        "path": "work/171三帯の入口切替/route171.py",
+        "bytes": 5622,
+        "sha256": "fae66a54edda60b6f2959af0e39a290413783a6d646365bd00ac9f53b8c96f6f"
+      },
+      {
+        "path": "work/171三帯の入口切替/固定候補を再生する.py",
+        "bytes": 2442,
+        "sha256": "a16e29bd9951777d6fba242c8a66d44e879ce6bed63baafd81738d5d77f498bd"
+      },
+      {
+        "path": "work/172ナイト入口探索/CSVへ出力する.mjs",
+        "bytes": 4762,
+        "sha256": "a6483b32cfca617f0614d9a866b6e154315bddc37eedf927aa03cb77b53d6f04"
+      },
+      {
+        "path": "work/172ナイト入口探索/仕様を固定する.py",
+        "bytes": 6739,
+        "sha256": "a1089dcd257fe1dc48bcaa584ea91a3bf4deba3c99d07947dc374c0d42c77e17"
+      },
+      {
+        "path": "work/172ナイト入口探索/再生172.py",
+        "bytes": 9840,
+        "sha256": "bee4c88f1c3e1e0a20347f6877e279bd36e1f578c8eb9e3216974e81e6106753"
+      },
+      {
+        "path": "work/172ナイト入口探索/出生前を固定する.py",
+        "bytes": 2571,
+        "sha256": "0cc543fe9e78f1da9d000ceb94ad0a902723458cc110063b2a2dfda68c35b381"
+      },
+      {
+        "path": "work/172ナイト入口探索/参考適用案を固定する.py",
+        "bytes": 2834,
+        "sha256": "ef1b2d60f9194ce95d2abab1aa572d4d51ee162f5f5cebf282e3a1ac30d8f0fe"
+      },
+      {
+        "path": "work/172ナイト入口探索/固定案を参考適用する.py",
+        "bytes": 7461,
+        "sha256": "69bc3431d86e0026f0a6d46ba84e049314aaa24923bcd427d6884f7088b24688"
+      },
+      {
+        "path": "work/172ナイト入口探索/基準を確認する.py",
+        "bytes": 3502,
+        "sha256": "7201e87340ef4daa79fe73fb0786e5b02b804afe9626c7c19b929982c3437e5c"
+      },
+      {
+        "path": "work/172ナイト入口探索/数量比較する.py",
+        "bytes": 9733,
+        "sha256": "6fec0dda2110c76c478bbf7a2802d6dc2b4d90c40f955efc487749f8e52e0465"
+      },
+      {
+        "path": "work/172ナイト入口探索/最終化する.py",
+        "bytes": 6152,
+        "sha256": "040f8a0e75e616ecda84b6827014dbb144d1c25e60114b3dc0d534211cf83ac1"
+      },
+      {
+        "path": "work/172ナイト入口探索/正式保存する.py",
+        "bytes": 23560,
+        "sha256": "84545fe4244c6053dc0b6ef384b51b1733d7156024990827d1a0e1cd77bb50fc"
+      },
+      {
+        "path": "work/172ナイト入口探索/正式入力で再現する.py",
+        "bytes": 5360,
+        "sha256": "053be6c090afdcae11ca5c7c510083b2a6bba5d509d661009483eda820c120cb"
+      },
+      {
+        "path": "work/172ナイト入口探索/補正選択.py",
+        "bytes": 4552,
+        "sha256": "a12b439cf2044808552a63af62e629726e04751b46a8beb6245027fac083de76"
+      },
+      {
+        "path": "work/172ナイト入口探索/追加固定する.py",
+        "bytes": 2239,
+        "sha256": "855e177ecd624d16e8c733b076891eeb7d4b791b6ff52767fde108a9e447c2f9"
+      },
+      {
+        "path": "work/172ナイト入口探索/選定政策の出生.py",
+        "bytes": 6573,
+        "sha256": "ccdda9b10f5ba2e2da525d07984682ddd0c9e21f7c46377f20f5b6d279e8a612"
+      },
+      {
+        "path": "work/172ナイト入口探索/選定政策出生の人工検査.py",
+        "bytes": 8410,
+        "sha256": "12ee224a1de5ed7b2592f2c7353f9308505848206eb2279797ed9e859436c152"
+      },
+      {
+        "path": "work/172ナイト入口探索/集計を作る.py",
+        "bytes": 9275,
+        "sha256": "bdd5d74fc360e3a8af3ddca98cbfe1d29b2bb21a619c787b66dd43faa37489d1"
+      },
+      {
+        "path": "work/172ナイト基礎診断/441前後を事後診断する.py",
+        "bytes": 6417,
+        "sha256": "fa181d3beef3e41c5d4aeef7ddc81003dadd112b3c7e9509501438561470b6e4"
+      },
+      {
+        "path": "work/172ナイト基礎診断/Root支持を適用する.py",
+        "bytes": 3073,
+        "sha256": "44174ecd3cf2f4befafb9e7c81067150a14424158e0817ec8796c06273068ce3"
+      },
+      {
+        "path": "work/172ナイト基礎診断/selector172.py",
+        "bytes": 12987,
+        "sha256": "fbc44bbd9884fa621cc4d77b9860c21d246e4644d73a18e059519054cb57f25e"
+      },
+      {
+        "path": "work/172ナイト基礎診断/selector人工検査.py",
+        "bytes": 6363,
+        "sha256": "724fbfa254e993351745c5558f6a9b9987dd325183a078b88c4d2201a01b09c4"
+      },
+      {
+        "path": "work/172ナイト基礎診断/保有時間を独立確認する.py",
+        "bytes": 5897,
+        "sha256": "828a01da8d440a89b9b0c9da9fc2d6b830faabff40047952931b9e1f1ad84b9c"
+      },
+      {
+        "path": "work/172ナイト基礎診断/全80の保有と支持を独立集計する.py",
+        "bytes": 18144,
+        "sha256": "18d4d2e692aafaace454481be57b154c2aba5f342214560ec758e3d47a232bdb"
+      },
+      {
+        "path": "work/172ナイト基礎診断/基礎診断.py",
+        "bytes": 29652,
+        "sha256": "8b43b81b782af866f68ce54f905fd6728635fceb428dd638c5552439577c1c3a"
+      },
+      {
+        "path": "work/172ナイト基礎診断/結合短表を作る.py",
+        "bytes": 4226,
+        "sha256": "e04374d1901bba0d0afc3e33d418dd9c03d0874be32095090a7ff7378b6e4c76"
+      },
+      {
+        "path": "work/172ナイト基礎診断/追加安定一組を固定する.py",
+        "bytes": 5189,
+        "sha256": "77f9a4f37499434b2198d50794c7ac5fd9695c6a5547b79087d69aa6904531a2"
+      },
+      {
+        "path": "work/172ナイト数量再生/CSVを独立検算する.py",
+        "bytes": 16140,
+        "sha256": "15a7be21bff7d6d91827f338b6a65b2e3948c7e42ed0d2be283af7bb45c34611"
+      },
+      {
+        "path": "work/172ナイト数量再生/engine172.py",
+        "bytes": 9548,
+        "sha256": "d1b1fab0daad8f74d8928ea985a311288e5417a4455bf7209783c263b17a91a7"
+      },
+      {
+        "path": "work/172ナイト数量再生/人工検査.py",
+        "bytes": 20906,
+        "sha256": "03842b2ece10a3ccb381c784443108d059e5575462676554e9ebec36e2459092"
+      },
+      {
+        "path": "work/172ナイト数量再生/接続器を人工確認する.py",
+        "bytes": 12462,
+        "sha256": "28261b12722aeac0893d6f2f83ed0de39a1e13d1827736ceb8472540f329a3ce"
+      },
+      {
+        "path": "work/172ナイト数量再生/数量選択を人工確認する.py",
+        "bytes": 13991,
+        "sha256": "d8772ee6bb05383074cb693eb5222617478a710ae25bdd242f96ce43fd649b01"
+      },
+      {
+        "path": "work/172ナイト数量再生/旧73を独立検算する.py",
+        "bytes": 19098,
+        "sha256": "4cd705924bcb0cd9affdb435866eaa41edeb4c68111b12b96f9f8349ef91b307"
+      },
+      {
+        "path": "work/172ナイト数量再生/補正選択の人工検査.py",
+        "bytes": 8459,
+        "sha256": "daa545f74ea949df76e87cdc2809749e25113abf5b4934e93e10a258dba17a98"
+      },
+      {
+        "path": "work/172ナイト数量再生/追加7を独立検算する.py",
+        "bytes": 7123,
+        "sha256": "2da6ddd5b87ae608f259e49a4beda2f2cfed28016b477bd7463ef7b1a07eafa2"
+      },
+      {
+        "path": "work/172ナイト複合候補/rules172_night.py",
+        "bytes": 21962,
+        "sha256": "33d51c7d302f911754722e6460eff72a6ea42f294ccc6189ee8551797438ac3c"
+      },
+      {
+        "path": "work/172ナイト複合候補/人工検査.py",
+        "bytes": 12088,
+        "sha256": "354073e72974801345702774c984e5124e0e008329132227364194979f7d83d5"
+      },
+      {
+        "path": "work/172ナイト複合候補/出生を作る.py",
+        "bytes": 12709,
+        "sha256": "1a080afd2a8bdd49554501cb8822e8a1548d983ed8661cbce1c7d5779b064f7b"
+      },
+      {
+        "path": "work/172ナイト複合候補/段階を診断する.py",
+        "bytes": 7095,
+        "sha256": "b3e57daba191f506f4d5d3af19c4ed4a67960026ffd377e199d3c20ff16854d5"
+      },
+      {
+        "path": "work/172ナイト複合候補/金融を独立検算する.py",
+        "bytes": 7049,
+        "sha256": "49f1eb7355c409eb71e028ffa6bb3b389117e4ee439c562e3bef792bb6845038"
+      },
+      {
+        "path": "work/172ナイト複合候補/金融比較する.py",
+        "bytes": 14856,
+        "sha256": "a773381faccd4a78f904ee58b6093bea042941d3620d1e1d8c3cecd40afa3c12"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/F1の接続訂正を固定する.py",
+        "bytes": 2660,
+        "sha256": "683d7cf50441dfdc63e3db9ba30b2ffaa3b32b8f5f179336c6673b94c9c46d7f"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/F1を固定する.py",
+        "bytes": 4172,
+        "sha256": "503c5ee55f1012ccab0d9aa8369706ded1abae68a981a825ee1075b067802127"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/仕様を固定する.py",
+        "bytes": 6382,
+        "sha256": "8aab254fe12cd1a3bf39c375f0c9e71598d15e70957872ed94516de297e30c7a"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/基盤173.py",
+        "bytes": 7270,
+        "sha256": "89b132081a722e112077fba8103f98f9e38bd210ee640da1410dc8c47b4d5854"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/対照を再生する.py",
+        "bytes": 3135,
+        "sha256": "74787dd2c9a805e0c8674f4493be7a8a2a37ccb7905f51630d7fdb620e2d5104"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/局所出生を作る.py",
+        "bytes": 2680,
+        "sha256": "78db6c7d1fea5d0d15063a53545b8eb68cf36024bfa522245df1b221bc43a82c"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/数量候補を選ぶ.py",
+        "bytes": 5569,
+        "sha256": "eb424cda2c6471dc8c3af8172252d309d6e5e090034b3ba2744e9e734934cc19"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/構成173.py",
+        "bytes": 4721,
+        "sha256": "d9ac90fe0c0b1889be7e95192747551968e58480288172401931779f637e95eb"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/正式入力で再現する.py",
+        "bytes": 5840,
+        "sha256": "fca9400847bac6f86d57e878447986a5aee9c3fcf595d826b159b7712b940cee"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/段階再生173.py",
+        "bytes": 15746,
+        "sha256": "2422de749d5ecd0ffb88c0bd23ed347a0eb3b419ec0a0f1de9b163b99c0e473d"
+      },
+      {
+        "path": "work/173両中央値と単一建玉/結果文書を作る.py",
+        "bytes": 12593,
+        "sha256": "49a274b35434723b723e41c68e0e0049e659925fa9a16fd31ff7cb36903bd2e2"
+      },
+      {
+        "path": "work/173予備入口screen/pool173.py",
+        "bytes": 8576,
+        "sha256": "1a5fe06b5262b2576aea5eca5f18a3287f6df2e78a5e5ae3ffce3fcd688875b8"
+      },
+      {
+        "path": "work/173予備入口screen/screen173.py",
+        "bytes": 22005,
+        "sha256": "cf78f29ac016b64b3e9289c52595157660021d7e35625032c0b7dc04c421dfc6"
+      },
+      {
+        "path": "work/173予備入口screen/人工検査.py",
+        "bytes": 8073,
+        "sha256": "39d4d2b973d535de217c2bc2fcb08098b6f83bba3f249c82999de2cf28f74543"
+      },
+      {
+        "path": "work/173予備入口screen/修正前Source/pool173.py",
+        "bytes": 8240,
+        "sha256": "6af12cf3417d91a4a92f5db7713f85a8d0a14ea07d76ea2824e0bf60a0cda0eb"
+      },
+      {
+        "path": "work/173予備入口screen/修正前Source/人工検査.py",
+        "bytes": 7242,
+        "sha256": "6d55cbaafdab5a75031448b4e4dad28c87ddcab8ed16f9e836840fd8f215e52c"
+      },
+      {
+        "path": "work/173予備入口screen/独立検算.py",
+        "bytes": 6966,
+        "sha256": "41717c159de7d8dab2617117f6640e453def90162fc83f8f430cf7030dad2ba6"
+      },
+      {
+        "path": "work/173局所技術の主入口/local173.py",
+        "bytes": 16473,
+        "sha256": "d05edad8816980eb2a03c9fbef285f31a6653ee6a5650eaac77ebb4af34af4f3"
+      },
+      {
+        "path": "work/173局所技術の主入口/人工検査.py",
+        "bytes": 16116,
+        "sha256": "f850e5a3df2b73c70848e7b951653725d39ab96810654fbda0a1a73b0496dea7"
+      },
+      {
+        "path": "work/173局所技術の主入口/出生を保存する.py",
+        "bytes": 6271,
+        "sha256": "a98a09757bbce5664c387a92d5fd7d0f14a9406fe22fbfe6f3e39dd49062747d"
+      },
+      {
+        "path": "work/173数量接続の独立確認/Source/人工点検.py",
+        "bytes": 19985,
+        "sha256": "5ea1b039e4affd5e731dc0c5dafd699d28752f678570893e9d326145a1eaaf36"
+      },
+      {
+        "path": "work/173正式保存/保存173.py",
+        "bytes": 15771,
+        "sha256": "a4251c9bdb77a8da70d2a377c34d8ea6baeb8acef8d4d4c5222aa31ceb0a7277"
+      },
+      {
+        "path": "work/173自然結果の独立検査/Source/旧73を検査する.py",
+        "bytes": 27360,
+        "sha256": "cf4b18df52a1ff4ab993aea2ce05c1d7f2ac41e6b55265d00e6a90d61d92d6ab"
+      },
+      {
+        "path": "work/173自然結果の独立検査/Source/追加7と全80を検査する.py",
+        "bytes": 14691,
+        "sha256": "4fd6e37bab3a21e85361b553d0e94e324d8477bb570408facea6ecac1b3cfd4f"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/Stage1から短表を作る.py",
+        "bytes": 17129,
+        "sha256": "2c8e087fe807dbd2589cac4cc9dda37585552e4796c6299638c10c7afe83f074"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/人工を確認する.py",
+        "bytes": 7838,
+        "sha256": "26b95e81e69ee8050771b7c9239478653465e9067463a80ff8d698eb72c798a1"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/接続の人工を確認する.py",
+        "bytes": 10638,
+        "sha256": "61cf4ce9bb083acb79fd195f92f8622d588d972ff939243a1c3d59780b56a304"
+      },
+      {
+        "path": "work/173追加なしの候補計画/Source/支持と多様性で短表を選ぶ.py",
+        "bytes": 10999,
+        "sha256": "3a0772f62314b6cd3e76097f0abdc770bd2bf5cb89afc7cdf6c1b16d6f37063a"
+      },
+      {
+        "path": "work/173追加なしの因果再生/engine173.py",
+        "bytes": 13575,
+        "sha256": "4e5e90ee2a8548b65133feb1eb8ffa873acf693bbd923c71b4063a1a053b7b84"
+      },
+      {
+        "path": "work/173追加なしの因果再生/人工検査.py",
+        "bytes": 24941,
+        "sha256": "6831aad72d62354487995b5e2c629f7fee0a79b0fd6d036d9853fd168c239afa"
+      },
+      {
+        "path": "work/173追加なしの評価/metrics173.py",
+        "bytes": 21035,
+        "sha256": "ab20c7dd9bcf6783b2aa2366eaebb92b6c8644c4ebfcec48eef3faf9ca25834f"
+      },
+      {
+        "path": "work/173追加なしの評価/検証.py",
+        "bytes": 12547,
+        "sha256": "7d10d8d8876864b0403413dbaa426f422efd33b8a448cf67a06fe72653cbb366"
+      },
+      {
+        "path": "work/173追加七場適用/固定四政策を適用する.py",
+        "bytes": 16016,
+        "sha256": "892b1f35534d8837c616366fb32658d8428e680a86da16a83992f22403c20750"
+      },
+      {
+        "path": "work/173選択診断/173選択を診断する.py",
+        "bytes": 10043,
+        "sha256": "cd503414dd20d426aa2270089802b0e20e1293a71c7ca4f405ba1753ff275ac5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/__config__.py",
+        "bytes": 5638,
+        "sha256": "7484592aa3f8dc04c44d13ab7520d27429ee47b03090a49b6a6c7a221cf52130"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/__init__.py",
+        "bytes": 26470,
+        "sha256": "a6958cb364663b7acce81ccfd58eeb65a2b34d5376157f924777b97211a73be4"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_array_api_info.py",
+        "bytes": 10864,
+        "sha256": "feb8737051eb453b8364621d24b640fa635fd504e405654e998659651754c0f5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/__init__.py",
+        "bytes": 6865,
+        "sha256": "73c57a7f3a54e33399ddb9b142eb27ed3aae2bf4be2f4c159396788e16b620e5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_add_newdocs.py",
+        "bytes": 222296,
+        "sha256": "02b9fc008a77b0148bca7790944edb6499575f66eb0327385dbd9fca1f76072d"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_add_newdocs_scalars.py",
+        "bytes": 13314,
+        "sha256": "562316500225b142a8b1dd661292e8f74edc65e692ed583f19eaf30832005144"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_asarray.py",
+        "bytes": 4024,
+        "sha256": "314d672bbea64388036425996dd57ece692666984054090dc2085b9384e0aa54"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_dtype.py",
+        "bytes": 10880,
+        "sha256": "07e3d5e42bbcbb84117243c82355ef70246f3dd1923849c5dbd0277965b21e22"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_dtype_ctypes.py",
+        "bytes": 3846,
+        "sha256": "7bc1207daa97889f3e5188bc14ce6c9bd5bc7a1aaf706feb4e90d139a2b04ca8"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_exceptions.py",
+        "bytes": 5321,
+        "sha256": "ba6c5687d4cb8435f2f4b996efbc2420731e80593f2857c10799ddc6c25de45e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_internal.py",
+        "bytes": 30365,
+        "sha256": "2f27033e087b4afbc3312a294f4b2ee11c935113d66f962c58c5a59629bfb795"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_methods.py",
+        "bytes": 9645,
+        "sha256": "5dd70c059e7359916950988bfa29b6482b6cbf2627fcd0e2ad25880a4cedd9fc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_string_helpers.py",
+        "bytes": 2945,
+        "sha256": "697d4de54b0d794172e78a39b6e4c2e97e8df4026e785376ffa408c88503d978"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_type_aliases.py",
+        "bytes": 3927,
+        "sha256": "d69c1598322e00cee8a07a13e65ec35ec1aeb157f781b49c18bed983e9eb055b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/_ufunc_config.py",
+        "bytes": 16126,
+        "sha256": "c5e272dcaeca3d5e4fa496e45bd9dc598fd49e72c794cf4ceab5f80bd78db369"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/arrayprint.py",
+        "bytes": 67483,
+        "sha256": "d6a74d6044359653eae24f3f30731d2419705723eeba52cd24ab304e468ca373"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/einsumfunc.py",
+        "bytes": 59481,
+        "sha256": "16e0c6ac0634ed3d9811428a476a82cbe88ffb454ac37413773f0624cec57563"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/fromnumeric.py",
+        "bytes": 148231,
+        "sha256": "52c70bd82e3f6783f8bbcf8e99daf987bf7416cab99b1ef1655bb44b66646b03"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/function_base.py",
+        "bytes": 20236,
+        "sha256": "826eb1f0e08ce2e93de7274232ccf8bff4fea02ccad763e3d3353f0110d7cd89"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/getlimits.py",
+        "bytes": 15063,
+        "sha256": "c01955f10cd38e898ab9ce33884f65d3cb85a8d1ffe3d6102b34d3ae558aa3a1"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/memmap.py",
+        "bytes": 13000,
+        "sha256": "242086cc9b13487cfe6c102b88075fb1849a9f1360f9f97f05876f9f73f6fa2c"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/multiarray.py",
+        "bytes": 58628,
+        "sha256": "233a6c2def357506b505407e6f85e1715822545fda42b02e3f12697d897bf9e5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/numeric.py",
+        "bytes": 83290,
+        "sha256": "1701f78f500b8ba6beb435f8861db4d9ba900c3625c5b7d8237cb39c49fce3dc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/numerictypes.py",
+        "bytes": 15392,
+        "sha256": "135b154b3cc2d83caa725dabd8686b18488089bc43fe0ea9cfb49cc81b23c6b9"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/overrides.py",
+        "bytes": 7666,
+        "sha256": "bbd2f3457b59ae357e01003ab66fb51a9ef1c3dd417883cb97cf7ff5197ce819"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/printoptions.py",
+        "bytes": 1088,
+        "sha256": "6577a406be9f235f1d571b0ce9bc401a2f340a232568c3787696cf1c342204e2"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/records.py",
+        "bytes": 38365,
+        "sha256": "f1a961055e140b98a7c18d4c540bd2c1e597b54a9836bf117cb1fb373ef8de03"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/shape_base.py",
+        "bytes": 33708,
+        "sha256": "a32e3688fa2368b8d08ec432d5cdf95e5ef6c3456d2d909bb62a5995bf171a8a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_core/umath.py",
+        "bytes": 2176,
+        "sha256": "3679c7c58c32c89fecb9f4e6e73606b9dd01ab350797c0d041484f6140fd359f"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_distributor_init.py",
+        "bytes": 436,
+        "sha256": "879fc2abb22d0ebb75259a00874e1a3b9e195ec5d1464c86a0d1451fd4fed3c5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_expired_attrs_2_0.py",
+        "bytes": 3853,
+        "sha256": "7fba906bc3cd76d97be7f446ce120379a98e925458465aa5caf65a988b4e513b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_globals.py",
+        "bytes": 4277,
+        "sha256": "22fb9c5a81e206f4e592b5fef6d6d90c38be2ade565381de6b3d502b00f5a1cf"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_pytesttester.py",
+        "bytes": 5844,
+        "sha256": "c4e6afb1ba88b1fa577f923dfc4f57aa524c5cd071fcb55f166ae8db7e81aa08"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/__init__.py",
+        "bytes": 4744,
+        "sha256": "790e275f35f7f953db317c79b288a3af4bba75954b2f12b9efdccc0709f786f6"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_array_like.py",
+        "bytes": 3483,
+        "sha256": "f4faa8bee26c19f737c13c96e5a6c6aea54a7487fdbd01e095296e7586262a53"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_char_codes.py",
+        "bytes": 6718,
+        "sha256": "cbb06821ed49fc157eefd3c840fd67f70550cbd9d231b0f7e20fc82c2de75111"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_dtype_like.py",
+        "bytes": 3814,
+        "sha256": "d8dc806845aa0e91d68157596f23ca064a3a7293942933c77eb0b4439ec9029b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_nbit.py",
+        "bytes": 553,
+        "sha256": "7f2ad95e9da6633f861dc65126e0c36c23aaad84fcdd60b1ca7db669385bda8a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_nbit_base.py",
+        "bytes": 3107,
+        "sha256": "3dfd8ad7ebdf5923bf97dcd23a432067cb68e45a9daf1fa380d9ab368b410379"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_nested_sequence.py",
+        "bytes": 2725,
+        "sha256": "e25e57fd1ac28930340979cf7e73c53b28a988e9a35436bf16b7fb6bffecd3f7"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_scalars.py",
+        "bytes": 893,
+        "sha256": "3530803e5bd9302e23d9d1617c57a7ccb5c462e8f235def84bf008a267c97d31"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_shape.py",
+        "bytes": 254,
+        "sha256": "93f44b7ebce45548be6fb8330958d8e5009f492774b1e85455e52370875c9714"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_typing/_ufunc.py",
+        "bytes": 163,
+        "sha256": "968939421439689040469c95a1f7eb6deb8426c279bc0e83689e1a1d3794866b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_utils/__init__.py",
+        "bytes": 3572,
+        "sha256": "720c31649c81a85fd479cef84d179d0ce6cad2dd858878f576f9919ba61118bc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_utils/_conversions.py",
+        "bytes": 347,
+        "sha256": "bdeb5916a0b5a81f99f63bdced12ae53fe444ce6926e385b29afac570615f135"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/_utils/_inspect.py",
+        "bytes": 7628,
+        "sha256": "7e91db2f51b1edf970e071e39cd1cd37ebfc34ac755a01415a09d7f13e619626"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/dtypes.py",
+        "bytes": 2995,
+        "sha256": "39d584de738ae5a26c0bf0e4e37c1b8a6cd414dccdf23da66a7141c3cede7681"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/exceptions.py",
+        "bytes": 7955,
+        "sha256": "1e04ff12b64b8937dc782bf4cb6758a1eb2d0e92add8847ae8c1eef8b015a4d2"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/__init__.py",
+        "bytes": 2784,
+        "sha256": "0ce3331e49ee0df28b302688cd034fb3fd090113a48f3a8e59ef3c7844dce2f5"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_array_utils_impl.py",
+        "bytes": 1766,
+        "sha256": "678bae7c8bb8ffd1192e59e711589f850340923820226e1ca6d2f85cd027338a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_arraypad_impl.py",
+        "bytes": 34445,
+        "sha256": "ac7fce53a5efa26de5e29d836eb840ad020f8ec8ccf4438dc6d4aa28dcf177a8"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_arraysetops_impl.py",
+        "bytes": 38499,
+        "sha256": "1154611100aa471ce1794ebcbb9906812f29925b3fb1448cf565daf59f58de1a"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_arrayterator_impl.py",
+        "bytes": 7442,
+        "sha256": "1d4b422c15dc1bb982e405f72ae25c0e31c3f4510f85e09c1f2a53e8fb52b306"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_datasource.py",
+        "bytes": 23423,
+        "sha256": "dbbf26c57ccd4d2dc435304f4418f967411261230fa2f9850e1788f57db7ea1f"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_format_impl.py",
+        "bytes": 37920,
+        "sha256": "0e46ac1ee13b0e49a5342aa037dfbc8da0bbe1aadf5e0d149e1edaf9590fd80c"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_function_base_impl.py",
+        "bytes": 200086,
+        "sha256": "c31c78b1a332d69b6f6f7bf8cd37d04d2eaf1795422a97732c863a38321ba0ae"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_histograms_impl.py",
+        "bytes": 39523,
+        "sha256": "773fe670440f30c1498417cfa36eed094a5a87162d16d7119a98938f73bc03bf"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_index_tricks_impl.py",
+        "bytes": 32571,
+        "sha256": "3f2a02c7c241ace7b73e7d9c1044dbcdf2d1f954f9060fa895ae306bce57a185"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_iotools.py",
+        "bytes": 31789,
+        "sha256": "5ca1fc42347e4b20b331b066d7689fabafe27791a897ddfed609c39086d635a7"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_nanfunctions_impl.py",
+        "bytes": 73411,
+        "sha256": "a0664d8d7cf2ebaa5baf0969d1742c2508ccbed89113cc2dba53fb34b54cf79b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_npyio_impl.py",
+        "bytes": 98775,
+        "sha256": "749b07678d02700c57dddfbccb50880f75ca5a5f0e1cd17d41f9541af51bdc6e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_polynomial_impl.py",
+        "bytes": 45689,
+        "sha256": "2924662b87b32bbf0b50e4656aa454a5c73a645c6b2ba11d794107b3b3b8573b"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_scimath_impl.py",
+        "bytes": 16326,
+        "sha256": "563cac448db898c77819a684cb97b59e90110dcd3f4ca810aaae9346888d7406"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_shape_base_impl.py",
+        "bytes": 39107,
+        "sha256": "ec55b38a78c5eea46aff544cd7ddf766774b9e5e606539500cbcfd6e8b9f0287"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_stride_tricks_impl.py",
+        "bytes": 22028,
+        "sha256": "3c0d26a3083be9285cae8b053e71cecc7ac60009a3529429876111c05d38fee3"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_twodim_base_impl.py",
+        "bytes": 36484,
+        "sha256": "cc80c3563ebf1fed60a7fff0c0ba006ea7dbe476bbf069cd35549305d69cd076"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_type_check_impl.py",
+        "bytes": 20818,
+        "sha256": "de876218e8874c0ee3f575859398b2f00a24a00f94452a12e84723caf7c8eb14"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_ufunclike_impl.py",
+        "bytes": 6631,
+        "sha256": "13bb347e660f99ef0107f5ecc737d5f2f83199e3a9dc8bfe7dcd7010fc178792"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_utils_impl.py",
+        "bytes": 17392,
+        "sha256": "12ba291eb095f685fa2d04f25d12518d5fd13039680d0f83769004b2c0cad748"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/_version.py",
+        "bytes": 4936,
+        "sha256": "275a6aba3384e11fe41fb475cb1b629b06d6551c43367043f365c867d972d726"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/array_utils.py",
+        "bytes": 151,
+        "sha256": "ce6ad421595e5845b397d5e31295250d4407b7da9b6eccadcaefe32e3f8e8271"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/format.py",
+        "bytes": 501,
+        "sha256": "8a2f0c45098f6759c06aa9cca9e62d2a074d44fe76899b073e8e6b383976d143"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/introspect.py",
+        "bytes": 2843,
+        "sha256": "1c1c92ad97cae677a27a58e9f6adbdb7b04f6a0f1c15fa80b83f278e02436778"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/mixins.py",
+        "bytes": 7375,
+        "sha256": "b98fb87429b3be218fd64a5f92cc522e7fff100fe84f098bab2af80e5fca034e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/npyio.py",
+        "bytes": 69,
+        "sha256": "118e7fb6a1a9951a3e077709b6abdff470b7e2740aaf924d832ca41d68f9abf1"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/scimath.py",
+        "bytes": 182,
+        "sha256": "de7b18a85746a28d1d6a76879c62bc42bcf4000037d531d45f4aa742ca797aef"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/lib/stride_tricks.py",
+        "bytes": 89,
+        "sha256": "a976a7f7f5295c50280cb040689d7061bd01f3a0e03f8f28829e6c52edecd4bc"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/linalg/__init__.py",
+        "bytes": 2171,
+        "sha256": "cb491584b896825cd10be0fa03ea70d7ccbfa7a1143d2e7acc772543209cb560"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/linalg/_linalg.py",
+        "bytes": 119048,
+        "sha256": "99ff1dd00a09a032c49208a79dfa4cee369c9061202891d3cc211a3f169b0810"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/matrixlib/__init__.py",
+        "bytes": 255,
+        "sha256": "68f5db68de0e603a7d4c503c906cedda04c11dbde8f0d6a7c3eb8cff75e80c5e"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/matrixlib/defmatrix.py",
+        "bytes": 31951,
+        "sha256": "a766d971656d0ae22697aa8afc2b027dbef631915694ceafb2725ac0b47a37fb"
+      },
+      {
+        "path": "work/複合テクニカル学習環境/Lib/site-packages/numpy/version.py",
+        "bytes": 304,
+        "sha256": "9e3f3df57c760c394031e9a96250e0bd3787d3abb301047d73c0621bb3337826"
+      }
+    ],
+    "member_count": 174,
+    "継承": "173の正式ZIP内元byteを継承。旧workの現在値へ置き換えない。"
+  },
+  "正本継承小入力": [
+    {
+      "archive": {
+        "path": "study/00172_デイを固定しナイト米国前後の複合入口を探索する/再現資料/出生と比較正本.zip",
+        "bytes": 1859402,
+        "sha256": "78cd9ede0f38277904f77f777886e916b1ac0ca663252df5c841eb09de24d937"
+      },
+      "index": {
+        "path": "study/00172_デイを固定しナイト米国前後の複合入口を探索する/再現資料/保存索引.json",
+        "bytes": 47662,
+        "sha256": "8ab439d81854b98dde4a067f9594d6f28741911085b30e784bba202913b92bbe"
+      },
+      "members": [
+        {
+          "path": "work/171三帯の入口切替/旧73探索/主案と前半A-Bの封印.json",
+          "bytes": 4872,
+          "sha256": "2dada6882201c2fc9b17be105959a5243a987478d4f746e7a36d9701ceaffd4c"
+        }
+      ]
+    },
+    {
+      "archive": {
+        "path": "study/00173_追加建てを禁止し両中央値で入口を再探索する/再現資料/出生と比較正本.zip",
+        "bytes": 4239844,
+        "sha256": "3a435d288f9e6a2f0b8135a4908d6dcfbf57f0260a046c33c48c22074b8d32e4"
+      },
+      "index": {
+        "path": "study/00173_追加建てを禁止し両中央値で入口を再探索する/再現資料/保存索引.json",
+        "bytes": 102231,
+        "sha256": "bb571825526b6c72d00784ccb19ca241a395fa54b213c26ff312c964314d5fe3"
+      },
+      "members": [
+        {
+          "path": "work/173局所技術の主入口/SourceCatalog.json",
+          "bytes": 88006,
+          "sha256": "b2fde4df5f2429c01a34648bb3a30ac3dda885ded6db226abede0811cfbea112"
+        },
+        {
+          "path": "work/173追加七場適用/全80の両中央値173.json.gz",
+          "bytes": 83328,
+          "sha256": "4ff6fe8add4ff503090a76db36dd58bf2829bd0f82696bbc60519a906344c00f"
+        }
+      ]
+    }
+  ],
+  "174新Source": [
+    {
+      "path": "work/174参加と両中央値の再探索/CSVの入力を作る.py",
+      "bytes": 5469,
+      "sha256": "6f9391718c89a9235b77098be8fd8e1ebd304c28aa4d39cd3fadba602cc85d74"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/CSVへ出力する.mjs",
+      "bytes": 4373,
+      "sha256": "3983791eca620304b2f69283e9d88d1b05a769c5bf2f71c58e1eb9cd14789d66"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/F0を固定する.py",
+      "bytes": 3276,
+      "sha256": "8e7775cb4fcc5508b01e4e15ae014d3a7b76eeca273c7a956e23307065770aad"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/中間を診断する.py",
+      "bytes": 1484,
+      "sha256": "50c3dbdf9e79333e34e60e3afdaf7c6740e0bb2bddac196dd0332b7dc585fb01"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/人工接続を確認する.py",
+      "bytes": 1561,
+      "sha256": "5186a55e08f4dd0362878429c69c8d774a68c9669a2e30d067cf671336a07c7e"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/固定案の要点を読む.py",
+      "bytes": 1373,
+      "sha256": "ce32d89870cdcd29d62a1419e9d4d21b83ab27ed5fc9ce13f5eb7c099b5880ec"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/数量候補を選ぶ.py",
+      "bytes": 4808,
+      "sha256": "469fd397d03bc9d98252e1e0b60a0792e7c5a57f18096d099394a6a3ea52b386"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/数量候補を選ぶ173原版.py",
+      "bytes": 5569,
+      "sha256": "eb424cda2c6471dc8c3af8172252d309d6e5e090034b3ba2744e9e734934cc19"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/正式入力で再現する.py",
+      "bytes": 4231,
+      "sha256": "7b836c50897e2e8fc0214952cd60dd71abdf65503472676a2e2fdec82ed166b9"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/段階再生174.py",
+      "bytes": 17289,
+      "sha256": "6d5cecdf85fad9988f7a7437b265fa6ad86ade7b64123b2843f7f4a1f19e2b59"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/結果文書を作る.py",
+      "bytes": 11238,
+      "sha256": "dee23d18cdd73ff5496a5e7f7d7d6fa0d302089ca091a16dc2cedb8cad89f6ef"
+    },
+    {
+      "path": "work/174参加と両中央値の選択/DAY候補を広く選ぶ.py",
+      "bytes": 8276,
+      "sha256": "3833d9307846b55f5053ba5864092bb5eb3223daa69f49d259887c059b6d28e2"
+    },
+    {
+      "path": "work/174参加と両中央値の選択/DAY短表へ接続する.py",
+      "bytes": 8027,
+      "sha256": "c323223b15c6c38ee4b5aec84235c77b819de66cb595c66222c87833cf27a825"
+    },
+    {
+      "path": "work/174参加と両中央値の選択/人工検査.py",
+      "bytes": 6990,
+      "sha256": "3222ea820d749014b01de45300c45fd7b328edd188d93c20d4097e0383c8b2a3"
+    },
+    {
+      "path": "work/174正式保存/保存174.py",
+      "bytes": 20146,
+      "sha256": "bafdce3b62714e87c2c5a11aa05a4b1b87128954fe36a979b43865d9c08fd7ea"
+    },
+    {
+      "path": "work/174結果診断/固定四案を診断する.py",
+      "bytes": 12073,
+      "sha256": "38e1268216f348db8e82ad02a3411f66a378f22d13c7b5afe45673577cf04e89"
+    },
+    {
+      "path": "work/174自然結果の独立検査/Source/CSVを独立検算する174.py",
+      "bytes": 11245,
+      "sha256": "ececf44b2a8df5bd65378c01d954a6bf63de14c6e05332a4bd57259facd810c7"
+    },
+    {
+      "path": "work/174自然結果の独立検査/Source/人工点検174.py",
+      "bytes": 15090,
+      "sha256": "d53f0a6d4d857790e619150a1a3300235cc544f70706e9e81cf36902288c1b7b"
+    },
+    {
+      "path": "work/174自然結果の独立検査/Source/接続174.py",
+      "bytes": 3244,
+      "sha256": "9ba38f0ad07ce72ca94d94e0291ab1f516b9b13b6eddc2b6ab20769f494eabc0"
+    },
+    {
+      "path": "work/174自然結果の独立検査/Source/自然固定案174を検査する.py",
+      "bytes": 15941,
+      "sha256": "d71a5c90256f41bd02318eaaaec0a124e568155c84ab1a25f681c3f0a679693f"
+    },
+    {
+      "path": "work/174追加七場適用/固定政策を適用する.py",
+      "bytes": 17701,
+      "sha256": "29ada26ed37882c3229e8f15c1640accc3c8904aa2f2b63400d0de67294393ed"
+    }
+  ],
+  "完了gate": {
+    "成功": true,
+    "固定参考政策": [
+      "全期_J002",
+      "全期_J003",
+      "前48_J000",
+      "前48_J001"
+    ],
+    "独立73と全80成功": true,
+    "CSV全セル独立一致": true,
+    "正式CSV": [
+      {
+        "path": "outputs/00174_追加禁止と両中央値の比較/デイ.csv",
+        "bytes": 32402,
+        "sha256": "1ab98c2cee375c933cfbd3481a142a17f3c5596ceb0ff9e9aa890b14cc492748"
+      },
+      {
+        "path": "outputs/00174_追加禁止と両中央値の比較/ナイト_米前.csv",
+        "bytes": 32416,
+        "sha256": "e841004c9a9b91ec1181c18283d93b41d21ddff2ed240ba72a6bdcff8cbff4b2"
+      },
+      {
+        "path": "outputs/00174_追加禁止と両中央値の比較/ナイト_米後.csv",
+        "bytes": 48521,
+        "sha256": "6334b186ee0cfa75c389f3a9bb7e411e36b1b47f4b2822cdb49c1b74a737c8ca"
+      },
+      {
+        "path": "outputs/00174_追加禁止と両中央値の比較/候補比較.csv",
+        "bytes": 5657,
+        "sha256": "b71eaa6f3ae1773f5b6e3ec52d22f2868fedabe7c7b297d0d020eb4249e4f1b3"
+      }
+    ],
+    "CSV出力器の由来": {
+      "CSV作成時SourceSHA256": "49b8375d52cee3af22ec654e3815f50b8a1b81a2e4857a75c56bfb559a4cf346",
+      "表示専用実行の現SourceSHA256": "3983791eca620304b2f69283e9d88d1b05a769c5bf2f71c58e1eb9cd14789d66",
+      "四CSVと型付き入力は両票同一": true
+    },
+    "必須": [
+      {
+        "path": "study/00174_共同条件を残して単一建玉の入口を広げる/条件.json",
+        "bytes": 4061,
+        "sha256": "34c05584847d076663793840683122e385124607af1495c78c25f69a1ef92a32"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSVの型付き入力.json",
+        "bytes": 402495,
+        "sha256": "3b099802c0fc78f82aa7b1d7050e3014b2705e060c8ea4ca88ee20f081dfd9e5"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSV作成確認.json",
+        "bytes": 4657,
+        "sha256": "9f4e7aa56984e70c47c01c3980b7c3f7727cb1713866a86625668742771f0573"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/CSV表示確認.json",
+        "bytes": 4657,
+        "sha256": "90877abab7cf09063ba1ef9098bf5a7a00a51643b7e265c76490bfa2a1756b18"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/Night接合global1.json.gz",
+        "bytes": 3836768,
+        "sha256": "3bf453e8670ed793c82c9a634598c77132081d6c2b21f9e80e9bd38458263837"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/Night接合の短表.json",
+        "bytes": 210264,
+        "sha256": "a1b6de9499e7df119b6c8780ceea1ab4ea04c7df43807d9d6f6a746f1f2a3307"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/三帯接合global1.json.gz",
+        "bytes": 2595376,
+        "sha256": "bb736b9a47f1464c7765a776c0244a9564c1c485b5a63a27daf46c45a8f524fe"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/単独global1.json.gz",
+        "bytes": 1906011,
+        "sha256": "2571008986a4ca7814326f540974afcdda298f3980f971b517632b300497bde5"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/単独global1の短表.json",
+        "bytes": 119377,
+        "sha256": "e7023aae9204dd692d0941421a25a16a986d54af673966ea2907dc303ea3fb48"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/帯ごとの数量短表.json",
+        "bytes": 231857,
+        "sha256": "a0fb8aa8b9ee147bc8a04c413f7f89220e82b0179af6cf1299b650edc29beb81"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/旧73jointの固定選択.json",
+        "bytes": 30515,
+        "sha256": "1d31d7c8e69168a6eb1c025add255ae1a57e6f91d909c0ab4d1eb0c606e65f6e"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/正式入力で再現する.py",
+        "bytes": 4231,
+        "sha256": "7b836c50897e2e8fc0214952cd60dd71abdf65503472676a2e2fdec82ed166b9"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/異技術ORglobal1.json.gz",
+        "bytes": 3391833,
+        "sha256": "8b0222e3c3940ac11ceacf619ee1bd788fca0cc9202648befa63347c2ccdf0eb"
+      },
+      {
+        "path": "work/174参加と両中央値の再探索/短表の純出生173.npz",
+        "bytes": 527128,
+        "sha256": "b24c6491c8c5d8618c6b5ec647f99ee228c7f1b7ea812b01d34bbe619100a117"
+      },
+      {
+        "path": "work/174参加と両中央値の選択/自然選択/選択後の不変と併合確認.json",
+        "bytes": 6848,
+        "sha256": "da4db8743723d93d464b63a351b35117a17da82dc23c7769bf82ed81c3a58e64"
+      },
+      {
+        "path": "work/174自然結果の独立検査/CSV独立検算.json",
+        "bytes": 2484,
+        "sha256": "b417b3f257186165321071b99d252a2b8e142a2f5e70ad0e40fc5719204b394c"
+      },
+      {
+        "path": "work/174自然結果の独立検査/旧73独立結果174.json",
+        "bytes": 268409,
+        "sha256": "5b71e46dd17774572fba34770c109b9bbbae4381f9eed9336ed2efddce91542d"
+      },
+      {
+        "path": "work/174自然結果の独立検査/追加7と全80の独立結果174.json",
+        "bytes": 125948,
+        "sha256": "07bb3d9e74251f935cd4995cbf10541a51e8a089d8869cba514a7e6cc07817f4"
+      },
+      {
+        "path": "work/174追加七場適用/全80の両中央値174.json.gz",
+        "bytes": 82342,
+        "sha256": "dd9786229e4df2b58bc056992031608b1655b73dbac5dbb9621d6893bf3606e3"
+      },
+      {
+        "path": "work/174追加七場適用/完了.json",
+        "bytes": 5606,
+        "sha256": "7f1c9b347169470e9e9eac2c97d6be67b7da5520baca03a81af9b7dadf5f00c3"
+      },
+      {
+        "path": "work/174追加七場適用/旧73の全取得174.json.gz",
+        "bytes": 123208,
+        "sha256": "92f9c3f0d70595e25af15e1f70d7e943e4451df600ffed702f922703612af413"
+      },
+      {
+        "path": "work/174追加七場適用/追加7の全取得174.json.gz",
+        "bytes": 35558,
+        "sha256": "fb33654fbdb4677065916558f8037d53b45112e47e8e9efebf215ca4fc1ebaf2"
+      },
+      {
+        "path": "work/174追加七場適用/金融前の出生固定.json",
+        "bytes": 7956,
+        "sha256": "a194aaf7f2b8701a95e37f612466f793adb4982933b67346471c873667e6228b"
+      }
+    ]
+  },
+  "CSV": [
+    {
+      "path": "outputs/00174_追加禁止と両中央値の比較/デイ.csv",
+      "bytes": 32402,
+      "sha256": "1ab98c2cee375c933cfbd3481a142a17f3c5596ceb0ff9e9aa890b14cc492748"
+    },
+    {
+      "path": "outputs/00174_追加禁止と両中央値の比較/ナイト_米前.csv",
+      "bytes": 32416,
+      "sha256": "e841004c9a9b91ec1181c18283d93b41d21ddff2ed240ba72a6bdcff8cbff4b2"
+    },
+    {
+      "path": "outputs/00174_追加禁止と両中央値の比較/ナイト_米後.csv",
+      "bytes": 48521,
+      "sha256": "6334b186ee0cfa75c389f3a9bb7e411e36b1b47f4b2822cdb49c1b74a737c8ca"
+    },
+    {
+      "path": "outputs/00174_追加禁止と両中央値の比較/候補比較.csv",
+      "bytes": 5657,
+      "sha256": "b71eaa6f3ae1773f5b6e3ec52d22f2868fedabe7c7b297d0d020eb4249e4f1b3"
+    }
+  ],
+  "省略中間指紋": [],
+  "保存範囲": "174全段stage・短表・小出生・F0/F2・固定4取得pack/全80・人工独立検査・CSV型付き入力と作成票。必要小入力は旧正式ZIPから継承。",
+  "収録対象外": "node_modules・仮想環境・cache・隔離repoは走査しない。PNG/CSV本文はZIPへ重複保存しない。",
+  "共用入力": {
+    "旧73金融": "inputs/00163_任意幅の共用価格索引/数値表",
+    "追加7非金融と金融": "inputs/00167_追加七場の入口と共用価格索引",
+    "旧特徴と取得対応": "inputs/00148_全1分入口母集団",
+    "方針": "旧原板・金融配列・feature cacheは複製しない。大きい予備統計は再生成中間として軸と物理指紋だけを保存する。"
+  },
+  "注意": "全80既使用、固定参考四案。保存処理では政策・出生・金融額・中央値・採否を変更しない。CSVや画像は本ZIPへ重複保存しない。"
+}

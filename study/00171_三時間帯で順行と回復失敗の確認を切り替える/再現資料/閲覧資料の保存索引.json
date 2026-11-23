@@ -1,0 +1,232 @@
+{
+  "成功": true,
+  "作成日": "2026-11-15",
+  "試行": 171,
+  "用途": "四CSVの閲覧と作成入力・独立接続検査の保存",
+  "CSV正本": [
+    {
+      "path": "outputs/00171_複合入口と数量枠の比較/候補比較.csv",
+      "bytes": 12596,
+      "sha256": "b8dcce1ca8108bdd878df63b97319740d7aa66212d93c09a0f4f6653803515dc"
+    },
+    {
+      "path": "outputs/00171_複合入口と数量枠の比較/全セッション.csv",
+      "bytes": 172529,
+      "sha256": "a4e1ffe331525f85cabdeb19344cf6fb91cef4c2af11bbbfd5c1939f76e36e8b"
+    },
+    {
+      "path": "outputs/00171_複合入口と数量枠の比較/時間帯別.csv",
+      "bytes": 65701,
+      "sha256": "dee984b6d05094dc214c17aa21ee94e26f15ceac39a1f2fe1f95b0717af9ff5a"
+    },
+    {
+      "path": "outputs/00171_複合入口と数量枠の比較/条件一覧.csv",
+      "bytes": 10741,
+      "sha256": "476d7e35bd343082ffab229a5bb3b0e3e1bd07fe5686f911d43f61792aef88fe"
+    }
+  ],
+  "CSV再複製": false,
+  "資料ZIP": {
+    "path": "study/00171_三時間帯で順行と回復失敗の確認を切り替える/再現資料/閲覧表作成資料.zip",
+    "bytes": 312246,
+    "sha256": "6e5b82bae349e7774faec7343610d6220f0bf2809e78605322b14b69b5d8622c",
+    "members": {
+      "work/入口検証CSV/CSVへ出力する.mjs": {
+        "path": "work/入口検証CSV/CSVへ出力する.mjs",
+        "bytes": 5982,
+        "sha256": "f1b540401419ac24651fe99e1df8fec819701a83543da2ebebbe3ce30646ad0c"
+      },
+      "work/入口検証CSV/CSVを独立再読する.py": {
+        "path": "work/入口検証CSV/CSVを独立再読する.py",
+        "bytes": 4723,
+        "sha256": "99a88ad1c4f0b7c2565e789c1ac04599a0d77cb6e5034d34ef348406eedd3c89"
+      },
+      "work/入口検証CSV/tables.json": {
+        "path": "work/入口検証CSV/tables.json",
+        "bytes": 297640,
+        "sha256": "d07f94581db990d79d1b1d064531405f80e5dd17236c87c18fe9872cc455b855"
+      },
+      "work/入口検証CSV/作成確認.json": {
+        "path": "work/入口検証CSV/作成確認.json",
+        "bytes": 12634,
+        "sha256": "a770c38182127c1c7581ddd7c2665258e65bf09d18cab854ddf83bc900f1202b"
+      },
+      "work/入口検証CSV/型付き接続の確認.json": {
+        "path": "work/入口検証CSV/型付き接続の確認.json",
+        "bytes": 371,
+        "sha256": "7dab2487e6c68befbd1b9e441109218fd73bf1e4dc93d1dae9b2c621868ab1f3"
+      },
+      "work/入口検証CSV/最終型付き表を作る.py": {
+        "path": "work/入口検証CSV/最終型付き表を作る.py",
+        "bytes": 10549,
+        "sha256": "1b8b5fe6531e344bd2843be26e8a4375e3bb0e82211115f50dd20dcf3763e2bb"
+      },
+      "work/入口検証CSV/独立再読確認.json": {
+        "path": "work/入口検証CSV/独立再読確認.json",
+        "bytes": 1500,
+        "sha256": "3335e7f13f9a76092f090edb35db197f4a6eb89666164698172f33b34263cbe2"
+      },
+      "work/入口検証CSV/追加政策.json": {
+        "path": "work/入口検証CSV/追加政策.json",
+        "bytes": 3755,
+        "sha256": "9dcce42fb4403fcaf5a19cdd6bbda1b80f292e33b97f3d816102b80f3b1bdb44"
+      },
+      "work/入口検証CSV/追加表の基盤.py": {
+        "path": "work/入口検証CSV/追加表の基盤.py",
+        "bytes": 4165,
+        "sha256": "279a97c531f40e489890f21d9be50a13044107154e1c07ebc9a9bfa560c8df8c"
+      },
+      "work/166閲覧集計/README.md": {
+        "path": "work/166閲覧集計/README.md",
+        "bytes": 2434,
+        "sha256": "42709acf410803680370f916162af0eaead28770c786330abe00c8942c16a3a9"
+      },
+      "work/166閲覧集計/tables.json": {
+        "path": "work/166閲覧集計/tables.json",
+        "bytes": 584963,
+        "sha256": "f3cd4cf6f47930926411da001bb70dfd93fed32e4b5053e5124ff26a7ab4c9b0"
+      },
+      "work/166閲覧集計/型付き四表を作る.py": {
+        "path": "work/166閲覧集計/型付き四表を作る.py",
+        "bytes": 24727,
+        "sha256": "47d1eae9c7badec3aabd020d82fd79893ee24fbfea6fb1324a2026d913587073"
+      },
+      "work/166閲覧集計/型付き集計の確認.json": {
+        "path": "work/166閲覧集計/型付き集計の確認.json",
+        "bytes": 763,
+        "sha256": "2632f5710c0b9f51fe2c549f678edb6197d71658bf04c6343d59665162acbe1b"
+      },
+      "work/166閲覧集計/政策と取得.json": {
+        "path": "work/166閲覧集計/政策と取得.json",
+        "bytes": 1943280,
+        "sha256": "05def8e9e1099354749e3a41af629b0962ed1520a4937f52a76e18e8ba032949"
+      },
+      "work/171閲覧独立確認/閲覧資料を保存する.py": {
+        "path": "work/171閲覧独立確認/閲覧資料を保存する.py",
+        "bytes": 15555,
+        "sha256": "d75ad91aaa36a558c2488dc4fe4a51f85bc064fc7f585f674b296854f6ea19a8"
+      },
+      "work/171閲覧独立確認/四表と共通既知を検査する.py": {
+        "path": "work/171閲覧独立確認/四表と共通既知を検査する.py",
+        "bytes": 23543,
+        "sha256": "3bde47864bf19f5e90ed1f7b466d072291cc0ad05f9b483a9b51965b8abc0c96"
+      }
+    },
+    "全CRC_SHA_元bytes同体": true
+  },
+  "親正式ZIP": [
+    {
+      "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/再現資料/数量再生の統計正本.zip",
+      "bytes": 120309,
+      "sha256": "70bf258b724172620ff6a7d27b64467ae434fe8190fa3c81b5329fd757507dd7"
+    },
+    {
+      "path": "study/00170_ATRと三時間帯の幅で複合入口を数量枠に適合させる/再現資料/ATR探索と固定適用の統計正本.zip",
+      "bytes": 3825862,
+      "sha256": "648cab63aac496b9f8e39f7dff2bf1978028874bdf72ef9dd482660edc67339d"
+    },
+    {
+      "path": "study/00171_三時間帯で順行と回復失敗の確認を切り替える/再現資料/出生と全統計正本.zip",
+      "bytes": 4625361,
+      "sha256": "ebef817e0496750c7cb5729204f0f004c75e7fcc8a02a78a424c2a3f096e24bf"
+    }
+  ],
+  "共用正式入力": [
+    {
+      "path": "inputs/00148_全1分入口母集団/出生台帳.json.gz",
+      "bytes": 4755046,
+      "sha256": "9d589488bca8e83be3fd23ed230b6f7cae176acbbe96dd2d04a62d3bbfb6e753"
+    },
+    {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "bytes": 16988103,
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7"
+    },
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/数値表/任意幅識別.json.gz",
+      "bytes": 235034,
+      "sha256": "5eb6ea0dbeed7918476952383bd1cbebdbb2c53fadfca83694cc5b5d7c9830c0"
+    },
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/数値表/任意幅配列.npz",
+      "bytes": 12831373,
+      "sha256": "72f8a79bcfb56585ee9276632d82705e6467bd99db5f9c03648a2b343b7c0a9a"
+    },
+    {
+      "path": "inputs/00167_追加七場の入口と共用価格索引/入口母集団/出生台帳.json.gz",
+      "bytes": 356127,
+      "sha256": "95288b66ddb0a9e5b05ac23765afd87b774f77f19d3983319bc08a7693dab8db"
+    },
+    {
+      "path": "inputs/00167_追加七場の入口と共用価格索引/入口母集団/当時特徴.json.gz",
+      "bytes": 1492546,
+      "sha256": "f459d1cf74803634089940d0c1c1cc9cc11fd2acb9264ae7afd065a89a5b912e"
+    },
+    {
+      "path": "inputs/00167_追加七場の入口と共用価格索引/自然数値表/任意幅識別.json.gz",
+      "bytes": 26315,
+      "sha256": "f4a78e54fb6997cd15331e9af4e884b400a6d5aface56160988419a12612d59f"
+    },
+    {
+      "path": "inputs/00167_追加七場の入口と共用価格索引/自然数値表/任意幅配列.npz",
+      "bytes": 1349847,
+      "sha256": "8349fc1c3275561bbb9357187fb9a06e0bb4c029071b86c4d65262f52a2ee8c6"
+    },
+    {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "bytes": 1189288,
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6"
+    },
+    {
+      "path": "inputs/00152_複合回復の方向切替/選択対応.json.gz",
+      "bytes": 206028,
+      "sha256": "8f7815505f3a0bc158d738a128df1b7d9a140455aa5178ba7f1b8b1eb447032b"
+    },
+    {
+      "path": "inputs/00153_先行高安の独立出生/選択対応.json.gz",
+      "bytes": 102440,
+      "sha256": "3ffdab0cfd846e250473206b2e55c9cd45a8b18e1c9a73285537319aa1e99334"
+    }
+  ],
+  "独立接続票": {
+    "path": "study/00171_三時間帯で順行と回復失敗の確認を切り替える/検査/閲覧資料/閲覧四表の独立接続.json",
+    "bytes": 12112,
+    "sha256": "722eab420fa9a8300f492fa8fe6588f66a6e98df36eca2235aea4407fef0ba8d"
+  },
+  "共通既知の出口診断": {
+    "path": "study/00171_三時間帯で順行と回復失敗の確認を切り替える/検査/閲覧資料/共通既知の出口診断.json",
+    "bytes": 2256,
+    "sha256": "2d596a5e014ea92a7af520ed997a0d3151abaf2d78b0103e9b35940bc490d018"
+  },
+  "Root作成根拠": [
+    "work/入口検証CSV/作成確認.json",
+    "work/入口検証CSV/独立再読確認.json",
+    "work/入口検証CSV/型付き接続の確認.json"
+  ],
+  "独立検査Source": "work/171閲覧独立確認/四表と共通既知を検査する.py",
+  "依存": {
+    "Node.js": "24.22.1（作成確認票）",
+    "artifact-tool": "2.8.157（作成担当報告）",
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "NumPy": "2.5.4"
+  },
+  "除外": [
+    "CSV正本の再複製",
+    "共用NPZ・原板の再複製",
+    "node_modules",
+    "PNG",
+    "venv",
+    "作成開始マーカー再実行"
+  ],
+  "検査範囲": [
+    "CSV標準再読と元型付き全セル",
+    "全22固定取得の実側・幅・期限から金融NPZ直接参照",
+    "全比較・全場・前後・q0q1三帯・未知と既知累計",
+    "171同取得125の共通金融既知ペア"
+  ],
+  "限界": [
+    "入口出生と数量枠の全要求再生は親独立QA参照",
+    "Raw再解析や実mini約定は本検査の対象外",
+    "旧13政策の固定取得列は閲覧準備入力を使用。候補の再探索はしない"
+  ]
+}

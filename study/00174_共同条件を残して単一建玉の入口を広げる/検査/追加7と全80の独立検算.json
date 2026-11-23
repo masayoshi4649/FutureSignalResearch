@@ -1,0 +1,3861 @@
+{
+  "確認日": "2026-11-16",
+  "結果": "全検査成功",
+  "対象": [
+    "全期_J002",
+    "全期_J003",
+    "前48_J000",
+    "前48_J001"
+  ],
+  "全場数": 80,
+  "検査前後Source一致": true,
+  "固定選択SHA256": "1d31d7c8e69168a6eb1c025add255ae1a57e6f91d909c0ab4d1eb0c606e65f6e",
+  "Source": [
+    {
+      "path": "work/174参加と両中央値の再探索/段階再生174.py",
+      "bytes": 17289,
+      "sha256": "6d5cecdf85fad9988f7a7437b265fa6ad86ade7b64123b2843f7f4a1f19e2b59"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/数量候補を選ぶ.py",
+      "bytes": 4808,
+      "sha256": "469fd397d03bc9d98252e1e0b60a0792e7c5a57f18096d099394a6a3ea52b386"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/数量候補を選ぶ173原版.py",
+      "bytes": 5569,
+      "sha256": "eb424cda2c6471dc8c3af8172252d309d6e5e090034b3ba2744e9e734934cc19"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/基盤173.py",
+      "bytes": 7270,
+      "sha256": "89b132081a722e112077fba8103f98f9e38bd210ee640da1410dc8c47b4d5854"
+    },
+    {
+      "path": "work/173両中央値と単一建玉/構成173.py",
+      "bytes": 4721,
+      "sha256": "d9ac90fe0c0b1889be7e95192747551968e58480288172401931779f637e95eb"
+    },
+    {
+      "path": "work/173追加なしの因果再生/engine173.py",
+      "bytes": 13575,
+      "sha256": "4e5e90ee2a8548b65133feb1eb8ffa873acf693bbd923c71b4063a1a053b7b84"
+    },
+    {
+      "path": "work/173追加なしの評価/metrics173.py",
+      "bytes": 21035,
+      "sha256": "ab20c7dd9bcf6783b2aa2366eaebb92b6c8644c4ebfcec48eef3faf9ca25834f"
+    },
+    {
+      "path": "work/174自然結果の独立検査/Source/接続174.py",
+      "bytes": 3244,
+      "sha256": "9ba38f0ad07ce72ca94d94e0291ab1f516b9b13b6eddc2b6ab20769f494eabc0"
+    },
+    {
+      "path": "work/173自然結果の独立検査/Source/旧73を検査する.py",
+      "bytes": 27360,
+      "sha256": "cf4b18df52a1ff4ab993aea2ce05c1d7f2ac41e6b55265d00e6a90d61d92d6ab"
+    }
+  ],
+  "入力": [
+    {
+      "path": "work/174参加と両中央値の再探索/旧73jointの固定選択.json",
+      "bytes": 30515,
+      "sha256": "1d31d7c8e69168a6eb1c025add255ae1a57e6f91d909c0ab4d1eb0c606e65f6e"
+    },
+    {
+      "path": "work/174参加と両中央値の再探索/三帯接合global1.json.gz",
+      "bytes": 2595376,
+      "sha256": "bb736b9a47f1464c7765a776c0244a9564c1c485b5a63a27daf46c45a8f524fe"
+    },
+    {
+      "path": "work/174追加七場適用/旧73の全取得174.json.gz",
+      "bytes": 123208,
+      "sha256": "92f9c3f0d70595e25af15e1f70d7e943e4451df600ffed702f922703612af413"
+    },
+    {
+      "path": "work/174追加七場適用/追加7の全取得174.json.gz",
+      "bytes": 35558,
+      "sha256": "fb33654fbdb4677065916558f8037d53b45112e47e8e9efebf215ca4fc1ebaf2"
+    },
+    {
+      "path": "work/174追加七場適用/全80の両中央値174.json.gz",
+      "bytes": 82342,
+      "sha256": "dd9786229e4df2b58bc056992031608b1655b73dbac5dbb9621d6893bf3606e3"
+    },
+    {
+      "path": "work/174追加七場適用/旧73の純出生174.npz",
+      "bytes": 54096,
+      "sha256": "fe3fd637c759df23738fa9dafaae7c25b6fd569371c44817b2a8b90399f867d8"
+    },
+    {
+      "path": "work/174追加七場適用/追加7の純出生174.npz",
+      "bytes": 14597,
+      "sha256": "a74597e3ae979e090af20572f5bb7ef1bf28510e47232bbe39344571a4d21720"
+    }
+  ],
+  "元出生": [
+    {
+      "path": "work/163入口と任意幅/全出生/出生150.npz",
+      "bytes": 1769526,
+      "sha256": "753705b5bbb5f32a9c0b2ab4121571515f76da7bf8771232ee3d62c51a2be257"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生350.npz",
+      "bytes": 1637554,
+      "sha256": "7adf6d4632fb43cb6aafdd10dc84cd23315a4af92164eba72ccab5d3dedd479d"
+    },
+    {
+      "path": "work/172ナイト複合候補/全出生/新768の出生.npz",
+      "bytes": 164447,
+      "sha256": "da6fb4b961d4c3704e3ca3396e0593b7b4dfed02049a230403de59610fa323eb"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生400.npz",
+      "bytes": 1610904,
+      "sha256": "41f9c2e6a6d8c63e8e816bd04a7d5279125b53e4576fa184a0b8fcb9a352c02a"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生250.npz",
+      "bytes": 1699932,
+      "sha256": "6e11dae28fe336f22318b22c7fe6988720e62aee8bb0d342cf04dc1d50e26d56"
+    },
+    {
+      "path": "work/163入口と任意幅/全出生/出生125.npz",
+      "bytes": 1787554,
+      "sha256": "35035a8eb3f30e3fc9617db2bb7521237fcc518b0b0c41303ae1e7b66f90258f"
+    }
+  ],
+  "policies": [
+    {
+      "id": "全期_J002",
+      "Day補完待機分": 45,
+      "追加7独立再生一致": true,
+      "全80財務一致": true,
+      "枠占有違反": 0,
+      "全80財務照合数": 27,
+      "旧73": {
+        "財務照合数": 27,
+        "要求数": 474,
+        "要求SHA256": "ed60da57bb627a392cb4a4a26ce5039ef7b9225976b3b301dea009bc41f3c0d1",
+        "取得SHA256": "eb571b7aea015b6219f750b1c897934fc15ee3a82972c6d5137cebce266c8a75",
+        "groups": {
+          "ALL": {
+            "取得": 209,
+            "既知": 204,
+            "未知": 5,
+            "利益": 2339760.0,
+            "損失": 1369468.0,
+            "既知収支": 970292.0,
+            "対象場": 73,
+            "取得場": 73,
+            "未取得場": [],
+            "未知場": 5,
+            "建玉中央値": {
+              "known_count": 204,
+              "unknown_count": 5,
+              "all_count": 209,
+              "known_median": 9423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 6923.0,
+              "upper": 10923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 68,
+              "unknown_count": 5,
+              "all_count": 73,
+              "known_median": 13423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 12692.0,
+              "upper": 16538.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 73,
+              "A": 27,
+              "N": 104,
+              "C": 5,
+              "reached_count": 100,
+              "first_f_rate_reached": 0.73
+            },
+            "時間当たり取得": 0.28990868107733225
+          },
+          "DAY": {
+            "取得": 145,
+            "既知": 144,
+            "未知": 1,
+            "利益": 1460840.0,
+            "損失": 1081928.0,
+            "既知収支": 378912.0,
+            "対象場": 37,
+            "取得場": 37,
+            "未取得場": [],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 144,
+              "unknown_count": 1,
+              "all_count": 145,
+              "known_median": 5923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 5923.0,
+              "upper": 5923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 36,
+              "unknown_count": 1,
+              "all_count": 37,
+              "known_median": 10692.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 10692.0,
+              "upper": 10692.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 44,
+              "A": 17,
+              "N": 83,
+              "C": 1,
+              "reached_count": 61,
+              "first_f_rate_reached": 0.7213114754098361
+            },
+            "時間当たり取得": 0.5665906870726152
+          },
+          "PRE": {
+            "取得": 48,
+            "既知": 46,
+            "未知": 2,
+            "利益": 588844.0,
+            "損失": 268386.0,
+            "既知収支": 320458.0,
+            "対象場": 36,
+            "取得場": 35,
+            "未取得場": [
+              "2026-09-23_Night"
+            ],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 46,
+              "unknown_count": 2,
+              "all_count": 48,
+              "known_median": 9923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 5923.0,
+              "upper": 13423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 34,
+              "unknown_count": 2,
+              "all_count": 36,
+              "known_median": 9846.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 5884.5,
+              "upper": 12884.5,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 19,
+              "A": 10,
+              "N": 17,
+              "C": 2,
+              "reached_count": 29,
+              "first_f_rate_reached": 0.6551724137931034
+            },
+            "時間当たり取得": 0.23529411764705882
+          },
+          "POST": {
+            "取得": 16,
+            "既知": 14,
+            "未知": 2,
+            "利益": 290076.0,
+            "損失": 19154.0,
+            "既知収支": 270922.0,
+            "対象場": 36,
+            "取得場": 9,
+            "未取得場": [
+              "2026-09-21_Night",
+              "2026-09-22_Night",
+              "2026-09-24_Night",
+              "2026-09-25_Night",
+              "2026-09-28_Night",
+              "2026-09-30_Night",
+              "2026-10-01_Night",
+              "2026-10-02_Night",
+              "2026-10-06_Night",
+              "2026-10-07_Night",
+              "2026-10-09_Night",
+              "2026-10-12_Night",
+              "2026-10-13_Night",
+              "2026-10-14_Night",
+              "2026-10-15_Night",
+              "2026-10-16_Night",
+              "2026-10-20_Night",
+              "2026-10-22_Night",
+              "2026-10-23_Night",
+              "2026-10-27_Night",
+              "2026-10-28_Night",
+              "2026-10-30_Night",
+              "2026-11-02_Night",
+              "2026-11-03_Night",
+              "2026-11-04_Night",
+              "2026-11-05_Night",
+              "2026-11-09_Night"
+            ],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 14,
+              "unknown_count": 2,
+              "all_count": 16,
+              "known_median": 13923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 13923.0,
+              "upper": 16423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 34,
+              "unknown_count": 2,
+              "all_count": 36,
+              "known_median": 0.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 0.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 10,
+              "A": 0,
+              "N": 4,
+              "C": 2,
+              "reached_count": 10,
+              "first_f_rate_reached": 1.0
+            },
+            "時間当たり取得": 0.06130268199233719
+          },
+          "NIGHT": {
+            "取得": 64,
+            "既知": 60,
+            "未知": 4,
+            "利益": 878920.0,
+            "損失": 287540.0,
+            "既知収支": 591380.0,
+            "対象場": 36,
+            "取得場": 36,
+            "未取得場": [],
+            "未知場": 4,
+            "建玉中央値": {
+              "known_count": 60,
+              "unknown_count": 4,
+              "all_count": 64,
+              "known_median": 13923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 13423.0,
+              "upper": 13923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 32,
+              "unknown_count": 4,
+              "all_count": 36,
+              "known_median": 17884.5,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 15307.5,
+              "upper": 18884.5,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 29,
+              "A": 10,
+              "N": 21,
+              "C": 4,
+              "reached_count": 39,
+              "first_f_rate_reached": 0.7435897435897436
+            },
+            "時間当たり取得": 0.13763440860215048
+          }
+        }
+      },
+      "追加7": {
+        "財務照合数": 27,
+        "要求数": 55,
+        "要求SHA256": "42e53f9fb091e2b4ab3d8c38581906a0d4f0f57c65cbbead371cde6309985f4d",
+        "取得SHA256": "def84fecc02cd9012102ffef1a23216a42e01a7c943632b0e64623b793e0c02f",
+        "groups": {
+          "ALL": {
+            "取得": 23,
+            "既知": 23,
+            "未知": 0,
+            "利益": 192076.0,
+            "損失": 242847.0,
+            "既知収支": -50771.0,
+            "対象場": 7,
+            "取得場": 7,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 23,
+              "unknown_count": 0,
+              "all_count": 23,
+              "known_median": 2923.0,
+              "all_median": 2923.0,
+              "all_median_exact": true,
+              "lower": 2923.0,
+              "upper": 2923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 7,
+              "unknown_count": 0,
+              "all_count": 7,
+              "known_median": -7539.0,
+              "all_median": -7539.0,
+              "all_median_exact": true,
+              "lower": -7539.0,
+              "upper": -7539.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 7,
+              "A": 7,
+              "N": 9,
+              "C": 0,
+              "reached_count": 14,
+              "first_f_rate_reached": 0.5
+            },
+            "時間当たり取得": 0.31760644418872264
+          },
+          "DAY": {
+            "取得": 16,
+            "既知": 16,
+            "未知": 0,
+            "利益": 141307.0,
+            "損失": 133539.0,
+            "既知収支": 7768.0,
+            "対象場": 3,
+            "取得場": 3,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 16,
+              "unknown_count": 0,
+              "all_count": 16,
+              "known_median": 4923.0,
+              "all_median": 4923.0,
+              "all_median_exact": true,
+              "lower": 4923.0,
+              "upper": 4923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 0,
+              "all_count": 3,
+              "known_median": -7539.0,
+              "all_median": -7539.0,
+              "all_median_exact": true,
+              "lower": -7539.0,
+              "upper": -7539.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 6,
+              "A": 3,
+              "N": 7,
+              "C": 0,
+              "reached_count": 9,
+              "first_f_rate_reached": 0.6666666666666666
+            },
+            "時間当たり取得": 0.7710843373493976
+          },
+          "PRE": {
+            "取得": 7,
+            "既知": 7,
+            "未知": 0,
+            "利益": 50769.0,
+            "損失": 109308.0,
+            "既知収支": -58539.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 7,
+              "unknown_count": 0,
+              "all_count": 7,
+              "known_median": -21077.0,
+              "all_median": -21077.0,
+              "all_median_exact": true,
+              "lower": -21077.0,
+              "upper": -21077.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 4,
+              "unknown_count": 0,
+              "all_count": 4,
+              "known_median": -7654.0,
+              "all_median": -7654.0,
+              "all_median_exact": true,
+              "lower": -7654.0,
+              "upper": -7654.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 1,
+              "A": 4,
+              "N": 2,
+              "C": 0,
+              "reached_count": 5,
+              "first_f_rate_reached": 0.2
+            },
+            "時間当たり取得": 0.2692307692307692
+          },
+          "POST": {
+            "取得": 0,
+            "既知": 0,
+            "未知": 0,
+            "利益": 0,
+            "損失": 0,
+            "既知収支": 0,
+            "対象場": 4,
+            "取得場": 0,
+            "未取得場": [
+              "2026-11-10_Night",
+              "2026-11-11_Night",
+              "2026-11-12_Night",
+              "2026-11-13_Night"
+            ],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 0,
+              "unknown_count": 0,
+              "all_count": 0,
+              "known_median": null,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": null,
+              "upper": null,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 4,
+              "unknown_count": 0,
+              "all_count": 4,
+              "known_median": 0.0,
+              "all_median": 0.0,
+              "all_median_exact": true,
+              "lower": 0.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "評価不能",
+            "IFD_FIRSTFANC": {
+              "F": 0,
+              "A": 0,
+              "N": 0,
+              "C": 0,
+              "reached_count": 0,
+              "first_f_rate_reached": null
+            },
+            "時間当たり取得": 0.0
+          },
+          "NIGHT": {
+            "取得": 7,
+            "既知": 7,
+            "未知": 0,
+            "利益": 50769.0,
+            "損失": 109308.0,
+            "既知収支": -58539.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 7,
+              "unknown_count": 0,
+              "all_count": 7,
+              "known_median": -21077.0,
+              "all_median": -21077.0,
+              "all_median_exact": true,
+              "lower": -21077.0,
+              "upper": -21077.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 4,
+              "unknown_count": 0,
+              "all_count": 4,
+              "known_median": -7654.0,
+              "all_median": -7654.0,
+              "all_median_exact": true,
+              "lower": -7654.0,
+              "upper": -7654.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 1,
+              "A": 4,
+              "N": 2,
+              "C": 0,
+              "reached_count": 5,
+              "first_f_rate_reached": 0.2
+            },
+            "時間当たり取得": 0.13548387096774195
+          }
+        }
+      },
+      "全80": {
+        "ALL": {
+          "取得": 232,
+          "既知": 227,
+          "未知": 5,
+          "利益": 2531836.0,
+          "損失": 1612315.0,
+          "既知収支": 919521.0,
+          "対象場": 80,
+          "取得場": 80,
+          "未取得場": [],
+          "未知場": 5,
+          "建玉中央値": {
+            "known_count": 227,
+            "unknown_count": 5,
+            "all_count": 232,
+            "known_median": 7923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 6923.0,
+            "upper": 9923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 75,
+            "unknown_count": 5,
+            "all_count": 80,
+            "known_median": 12846.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11307.5,
+            "upper": 13923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 80,
+            "A": 34,
+            "N": 113,
+            "C": 5,
+            "reached_count": 114,
+            "first_f_rate_reached": 0.7017543859649122
+          },
+          "時間当たり取得": 0.2924369747899162
+        },
+        "DAY": {
+          "取得": 161,
+          "既知": 160,
+          "未知": 1,
+          "利益": 1602147.0,
+          "損失": 1215467.0,
+          "既知収支": 386680.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 1,
+          "建玉中央値": {
+            "known_count": 160,
+            "unknown_count": 1,
+            "all_count": 161,
+            "known_median": 5923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 5923.0,
+            "upper": 5923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 39,
+            "unknown_count": 1,
+            "all_count": 40,
+            "known_median": 10692.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 9076.5,
+            "upper": 10692.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 50,
+            "A": 20,
+            "N": 90,
+            "C": 1,
+            "reached_count": 70,
+            "first_f_rate_reached": 0.7142857142857143
+          },
+          "時間当たり取得": 0.5819277108433737
+        },
+        "PRE": {
+          "取得": 55,
+          "既知": 53,
+          "未知": 2,
+          "利益": 639613.0,
+          "損失": 377694.0,
+          "既知収支": 261919.0,
+          "対象場": 40,
+          "取得場": 39,
+          "未取得場": [
+            "2026-09-23_Night"
+          ],
+          "未知場": 2,
+          "建玉中央値": {
+            "known_count": 53,
+            "unknown_count": 2,
+            "all_count": 55,
+            "known_median": 6923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 4923.0,
+            "upper": 12923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 38,
+            "unknown_count": 2,
+            "all_count": 40,
+            "known_median": 5884.5,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 3423.0,
+            "upper": 9846.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 20,
+            "A": 14,
+            "N": 19,
+            "C": 2,
+            "reached_count": 34,
+            "first_f_rate_reached": 0.5882352941176471
+          },
+          "時間当たり取得": 0.2391304347826087
+        },
+        "POST": {
+          "取得": 16,
+          "既知": 14,
+          "未知": 2,
+          "利益": 290076.0,
+          "損失": 19154.0,
+          "既知収支": 270922.0,
+          "対象場": 40,
+          "取得場": 9,
+          "未取得場": [
+            "2026-09-21_Night",
+            "2026-09-22_Night",
+            "2026-09-24_Night",
+            "2026-09-25_Night",
+            "2026-09-28_Night",
+            "2026-09-30_Night",
+            "2026-10-01_Night",
+            "2026-10-02_Night",
+            "2026-10-06_Night",
+            "2026-10-07_Night",
+            "2026-10-09_Night",
+            "2026-10-12_Night",
+            "2026-10-13_Night",
+            "2026-10-14_Night",
+            "2026-10-15_Night",
+            "2026-10-16_Night",
+            "2026-10-20_Night",
+            "2026-10-22_Night",
+            "2026-10-23_Night",
+            "2026-10-27_Night",
+            "2026-10-28_Night",
+            "2026-10-30_Night",
+            "2026-11-02_Night",
+            "2026-11-03_Night",
+            "2026-11-04_Night",
+            "2026-11-05_Night",
+            "2026-11-09_Night",
+            "2026-11-10_Night",
+            "2026-11-11_Night",
+            "2026-11-12_Night",
+            "2026-11-13_Night"
+          ],
+          "未知場": 2,
+          "建玉中央値": {
+            "known_count": 14,
+            "unknown_count": 2,
+            "all_count": 16,
+            "known_median": 13923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 13923.0,
+            "upper": 16423.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 38,
+            "unknown_count": 2,
+            "all_count": 40,
+            "known_median": 0.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 0.0,
+            "upper": 0.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "ゼロ"
+            ],
+            "strictly_positive_guaranteed": false,
+            "strictly_positive_possible": false
+          },
+          "両中央値判定": "不適合",
+          "IFD_FIRSTFANC": {
+            "F": 10,
+            "A": 0,
+            "N": 4,
+            "C": 2,
+            "reached_count": 10,
+            "first_f_rate_reached": 1.0
+          },
+          "時間当たり取得": 0.0558139534883721
+        },
+        "NIGHT": {
+          "取得": 71,
+          "既知": 67,
+          "未知": 4,
+          "利益": 929689.0,
+          "損失": 396848.0,
+          "既知収支": 532841.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 4,
+          "建玉中央値": {
+            "known_count": 67,
+            "unknown_count": 4,
+            "all_count": 71,
+            "known_median": 13923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 12923.0,
+            "upper": 13923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 36,
+            "unknown_count": 4,
+            "all_count": 40,
+            "known_median": 15307.5,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 13423.0,
+            "upper": 17884.5,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 30,
+            "A": 14,
+            "N": 23,
+            "C": 4,
+            "reached_count": 44,
+            "first_f_rate_reached": 0.6818181818181818
+          },
+          "時間当たり取得": 0.1374193548387096
+        }
+      }
+    },
+    {
+      "id": "全期_J003",
+      "Day補完待機分": 45,
+      "追加7独立再生一致": true,
+      "全80財務一致": true,
+      "枠占有違反": 0,
+      "全80財務照合数": 27,
+      "旧73": {
+        "財務照合数": 27,
+        "要求数": 474,
+        "要求SHA256": "ed60da57bb627a392cb4a4a26ce5039ef7b9225976b3b301dea009bc41f3c0d1",
+        "取得SHA256": "eb571b7aea015b6219f750b1c897934fc15ee3a82972c6d5137cebce266c8a75",
+        "groups": {
+          "ALL": {
+            "取得": 209,
+            "既知": 204,
+            "未知": 5,
+            "利益": 2339760.0,
+            "損失": 1369468.0,
+            "既知収支": 970292.0,
+            "対象場": 73,
+            "取得場": 73,
+            "未取得場": [],
+            "未知場": 5,
+            "建玉中央値": {
+              "known_count": 204,
+              "unknown_count": 5,
+              "all_count": 209,
+              "known_median": 9423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 6923.0,
+              "upper": 10923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 68,
+              "unknown_count": 5,
+              "all_count": 73,
+              "known_median": 13423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 12692.0,
+              "upper": 16538.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 73,
+              "A": 27,
+              "N": 104,
+              "C": 5,
+              "reached_count": 100,
+              "first_f_rate_reached": 0.73
+            },
+            "時間当たり取得": 0.28990868107733225
+          },
+          "DAY": {
+            "取得": 145,
+            "既知": 144,
+            "未知": 1,
+            "利益": 1460840.0,
+            "損失": 1081928.0,
+            "既知収支": 378912.0,
+            "対象場": 37,
+            "取得場": 37,
+            "未取得場": [],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 144,
+              "unknown_count": 1,
+              "all_count": 145,
+              "known_median": 5923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 5923.0,
+              "upper": 5923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 36,
+              "unknown_count": 1,
+              "all_count": 37,
+              "known_median": 10692.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 10692.0,
+              "upper": 10692.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 44,
+              "A": 17,
+              "N": 83,
+              "C": 1,
+              "reached_count": 61,
+              "first_f_rate_reached": 0.7213114754098361
+            },
+            "時間当たり取得": 0.5665906870726152
+          },
+          "PRE": {
+            "取得": 48,
+            "既知": 46,
+            "未知": 2,
+            "利益": 588844.0,
+            "損失": 268386.0,
+            "既知収支": 320458.0,
+            "対象場": 36,
+            "取得場": 35,
+            "未取得場": [
+              "2026-09-23_Night"
+            ],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 46,
+              "unknown_count": 2,
+              "all_count": 48,
+              "known_median": 9923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 5923.0,
+              "upper": 13423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 34,
+              "unknown_count": 2,
+              "all_count": 36,
+              "known_median": 9846.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 5884.5,
+              "upper": 12884.5,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 19,
+              "A": 10,
+              "N": 17,
+              "C": 2,
+              "reached_count": 29,
+              "first_f_rate_reached": 0.6551724137931034
+            },
+            "時間当たり取得": 0.23529411764705882
+          },
+          "POST": {
+            "取得": 16,
+            "既知": 14,
+            "未知": 2,
+            "利益": 290076.0,
+            "損失": 19154.0,
+            "既知収支": 270922.0,
+            "対象場": 36,
+            "取得場": 9,
+            "未取得場": [
+              "2026-09-21_Night",
+              "2026-09-22_Night",
+              "2026-09-24_Night",
+              "2026-09-25_Night",
+              "2026-09-28_Night",
+              "2026-09-30_Night",
+              "2026-10-01_Night",
+              "2026-10-02_Night",
+              "2026-10-06_Night",
+              "2026-10-07_Night",
+              "2026-10-09_Night",
+              "2026-10-12_Night",
+              "2026-10-13_Night",
+              "2026-10-14_Night",
+              "2026-10-15_Night",
+              "2026-10-16_Night",
+              "2026-10-20_Night",
+              "2026-10-22_Night",
+              "2026-10-23_Night",
+              "2026-10-27_Night",
+              "2026-10-28_Night",
+              "2026-10-30_Night",
+              "2026-11-02_Night",
+              "2026-11-03_Night",
+              "2026-11-04_Night",
+              "2026-11-05_Night",
+              "2026-11-09_Night"
+            ],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 14,
+              "unknown_count": 2,
+              "all_count": 16,
+              "known_median": 13923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 13923.0,
+              "upper": 16423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 34,
+              "unknown_count": 2,
+              "all_count": 36,
+              "known_median": 0.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 0.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 10,
+              "A": 0,
+              "N": 4,
+              "C": 2,
+              "reached_count": 10,
+              "first_f_rate_reached": 1.0
+            },
+            "時間当たり取得": 0.06130268199233719
+          },
+          "NIGHT": {
+            "取得": 64,
+            "既知": 60,
+            "未知": 4,
+            "利益": 878920.0,
+            "損失": 287540.0,
+            "既知収支": 591380.0,
+            "対象場": 36,
+            "取得場": 36,
+            "未取得場": [],
+            "未知場": 4,
+            "建玉中央値": {
+              "known_count": 60,
+              "unknown_count": 4,
+              "all_count": 64,
+              "known_median": 13923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 13423.0,
+              "upper": 13923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 32,
+              "unknown_count": 4,
+              "all_count": 36,
+              "known_median": 17884.5,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 15307.5,
+              "upper": 18884.5,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 29,
+              "A": 10,
+              "N": 21,
+              "C": 4,
+              "reached_count": 39,
+              "first_f_rate_reached": 0.7435897435897436
+            },
+            "時間当たり取得": 0.13763440860215048
+          }
+        }
+      },
+      "追加7": {
+        "財務照合数": 27,
+        "要求数": 55,
+        "要求SHA256": "42e53f9fb091e2b4ab3d8c38581906a0d4f0f57c65cbbead371cde6309985f4d",
+        "取得SHA256": "def84fecc02cd9012102ffef1a23216a42e01a7c943632b0e64623b793e0c02f",
+        "groups": {
+          "ALL": {
+            "取得": 23,
+            "既知": 23,
+            "未知": 0,
+            "利益": 192076.0,
+            "損失": 242847.0,
+            "既知収支": -50771.0,
+            "対象場": 7,
+            "取得場": 7,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 23,
+              "unknown_count": 0,
+              "all_count": 23,
+              "known_median": 2923.0,
+              "all_median": 2923.0,
+              "all_median_exact": true,
+              "lower": 2923.0,
+              "upper": 2923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 7,
+              "unknown_count": 0,
+              "all_count": 7,
+              "known_median": -7539.0,
+              "all_median": -7539.0,
+              "all_median_exact": true,
+              "lower": -7539.0,
+              "upper": -7539.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 7,
+              "A": 7,
+              "N": 9,
+              "C": 0,
+              "reached_count": 14,
+              "first_f_rate_reached": 0.5
+            },
+            "時間当たり取得": 0.31760644418872264
+          },
+          "DAY": {
+            "取得": 16,
+            "既知": 16,
+            "未知": 0,
+            "利益": 141307.0,
+            "損失": 133539.0,
+            "既知収支": 7768.0,
+            "対象場": 3,
+            "取得場": 3,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 16,
+              "unknown_count": 0,
+              "all_count": 16,
+              "known_median": 4923.0,
+              "all_median": 4923.0,
+              "all_median_exact": true,
+              "lower": 4923.0,
+              "upper": 4923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 0,
+              "all_count": 3,
+              "known_median": -7539.0,
+              "all_median": -7539.0,
+              "all_median_exact": true,
+              "lower": -7539.0,
+              "upper": -7539.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 6,
+              "A": 3,
+              "N": 7,
+              "C": 0,
+              "reached_count": 9,
+              "first_f_rate_reached": 0.6666666666666666
+            },
+            "時間当たり取得": 0.7710843373493976
+          },
+          "PRE": {
+            "取得": 7,
+            "既知": 7,
+            "未知": 0,
+            "利益": 50769.0,
+            "損失": 109308.0,
+            "既知収支": -58539.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 7,
+              "unknown_count": 0,
+              "all_count": 7,
+              "known_median": -21077.0,
+              "all_median": -21077.0,
+              "all_median_exact": true,
+              "lower": -21077.0,
+              "upper": -21077.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 4,
+              "unknown_count": 0,
+              "all_count": 4,
+              "known_median": -7654.0,
+              "all_median": -7654.0,
+              "all_median_exact": true,
+              "lower": -7654.0,
+              "upper": -7654.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 1,
+              "A": 4,
+              "N": 2,
+              "C": 0,
+              "reached_count": 5,
+              "first_f_rate_reached": 0.2
+            },
+            "時間当たり取得": 0.2692307692307692
+          },
+          "POST": {
+            "取得": 0,
+            "既知": 0,
+            "未知": 0,
+            "利益": 0,
+            "損失": 0,
+            "既知収支": 0,
+            "対象場": 4,
+            "取得場": 0,
+            "未取得場": [
+              "2026-11-10_Night",
+              "2026-11-11_Night",
+              "2026-11-12_Night",
+              "2026-11-13_Night"
+            ],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 0,
+              "unknown_count": 0,
+              "all_count": 0,
+              "known_median": null,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": null,
+              "upper": null,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 4,
+              "unknown_count": 0,
+              "all_count": 4,
+              "known_median": 0.0,
+              "all_median": 0.0,
+              "all_median_exact": true,
+              "lower": 0.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "評価不能",
+            "IFD_FIRSTFANC": {
+              "F": 0,
+              "A": 0,
+              "N": 0,
+              "C": 0,
+              "reached_count": 0,
+              "first_f_rate_reached": null
+            },
+            "時間当たり取得": 0.0
+          },
+          "NIGHT": {
+            "取得": 7,
+            "既知": 7,
+            "未知": 0,
+            "利益": 50769.0,
+            "損失": 109308.0,
+            "既知収支": -58539.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 7,
+              "unknown_count": 0,
+              "all_count": 7,
+              "known_median": -21077.0,
+              "all_median": -21077.0,
+              "all_median_exact": true,
+              "lower": -21077.0,
+              "upper": -21077.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 4,
+              "unknown_count": 0,
+              "all_count": 4,
+              "known_median": -7654.0,
+              "all_median": -7654.0,
+              "all_median_exact": true,
+              "lower": -7654.0,
+              "upper": -7654.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 1,
+              "A": 4,
+              "N": 2,
+              "C": 0,
+              "reached_count": 5,
+              "first_f_rate_reached": 0.2
+            },
+            "時間当たり取得": 0.13548387096774195
+          }
+        }
+      },
+      "全80": {
+        "ALL": {
+          "取得": 232,
+          "既知": 227,
+          "未知": 5,
+          "利益": 2531836.0,
+          "損失": 1612315.0,
+          "既知収支": 919521.0,
+          "対象場": 80,
+          "取得場": 80,
+          "未取得場": [],
+          "未知場": 5,
+          "建玉中央値": {
+            "known_count": 227,
+            "unknown_count": 5,
+            "all_count": 232,
+            "known_median": 7923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 6923.0,
+            "upper": 9923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 75,
+            "unknown_count": 5,
+            "all_count": 80,
+            "known_median": 12846.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11307.5,
+            "upper": 13923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 80,
+            "A": 34,
+            "N": 113,
+            "C": 5,
+            "reached_count": 114,
+            "first_f_rate_reached": 0.7017543859649122
+          },
+          "時間当たり取得": 0.2924369747899162
+        },
+        "DAY": {
+          "取得": 161,
+          "既知": 160,
+          "未知": 1,
+          "利益": 1602147.0,
+          "損失": 1215467.0,
+          "既知収支": 386680.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 1,
+          "建玉中央値": {
+            "known_count": 160,
+            "unknown_count": 1,
+            "all_count": 161,
+            "known_median": 5923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 5923.0,
+            "upper": 5923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 39,
+            "unknown_count": 1,
+            "all_count": 40,
+            "known_median": 10692.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 9076.5,
+            "upper": 10692.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 50,
+            "A": 20,
+            "N": 90,
+            "C": 1,
+            "reached_count": 70,
+            "first_f_rate_reached": 0.7142857142857143
+          },
+          "時間当たり取得": 0.5819277108433737
+        },
+        "PRE": {
+          "取得": 55,
+          "既知": 53,
+          "未知": 2,
+          "利益": 639613.0,
+          "損失": 377694.0,
+          "既知収支": 261919.0,
+          "対象場": 40,
+          "取得場": 39,
+          "未取得場": [
+            "2026-09-23_Night"
+          ],
+          "未知場": 2,
+          "建玉中央値": {
+            "known_count": 53,
+            "unknown_count": 2,
+            "all_count": 55,
+            "known_median": 6923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 4923.0,
+            "upper": 12923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 38,
+            "unknown_count": 2,
+            "all_count": 40,
+            "known_median": 5884.5,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 3423.0,
+            "upper": 9846.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 20,
+            "A": 14,
+            "N": 19,
+            "C": 2,
+            "reached_count": 34,
+            "first_f_rate_reached": 0.5882352941176471
+          },
+          "時間当たり取得": 0.2391304347826087
+        },
+        "POST": {
+          "取得": 16,
+          "既知": 14,
+          "未知": 2,
+          "利益": 290076.0,
+          "損失": 19154.0,
+          "既知収支": 270922.0,
+          "対象場": 40,
+          "取得場": 9,
+          "未取得場": [
+            "2026-09-21_Night",
+            "2026-09-22_Night",
+            "2026-09-24_Night",
+            "2026-09-25_Night",
+            "2026-09-28_Night",
+            "2026-09-30_Night",
+            "2026-10-01_Night",
+            "2026-10-02_Night",
+            "2026-10-06_Night",
+            "2026-10-07_Night",
+            "2026-10-09_Night",
+            "2026-10-12_Night",
+            "2026-10-13_Night",
+            "2026-10-14_Night",
+            "2026-10-15_Night",
+            "2026-10-16_Night",
+            "2026-10-20_Night",
+            "2026-10-22_Night",
+            "2026-10-23_Night",
+            "2026-10-27_Night",
+            "2026-10-28_Night",
+            "2026-10-30_Night",
+            "2026-11-02_Night",
+            "2026-11-03_Night",
+            "2026-11-04_Night",
+            "2026-11-05_Night",
+            "2026-11-09_Night",
+            "2026-11-10_Night",
+            "2026-11-11_Night",
+            "2026-11-12_Night",
+            "2026-11-13_Night"
+          ],
+          "未知場": 2,
+          "建玉中央値": {
+            "known_count": 14,
+            "unknown_count": 2,
+            "all_count": 16,
+            "known_median": 13923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 13923.0,
+            "upper": 16423.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 38,
+            "unknown_count": 2,
+            "all_count": 40,
+            "known_median": 0.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 0.0,
+            "upper": 0.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "ゼロ"
+            ],
+            "strictly_positive_guaranteed": false,
+            "strictly_positive_possible": false
+          },
+          "両中央値判定": "不適合",
+          "IFD_FIRSTFANC": {
+            "F": 10,
+            "A": 0,
+            "N": 4,
+            "C": 2,
+            "reached_count": 10,
+            "first_f_rate_reached": 1.0
+          },
+          "時間当たり取得": 0.0558139534883721
+        },
+        "NIGHT": {
+          "取得": 71,
+          "既知": 67,
+          "未知": 4,
+          "利益": 929689.0,
+          "損失": 396848.0,
+          "既知収支": 532841.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 4,
+          "建玉中央値": {
+            "known_count": 67,
+            "unknown_count": 4,
+            "all_count": 71,
+            "known_median": 13923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 12923.0,
+            "upper": 13923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 36,
+            "unknown_count": 4,
+            "all_count": 40,
+            "known_median": 15307.5,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 13423.0,
+            "upper": 17884.5,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 30,
+            "A": 14,
+            "N": 23,
+            "C": 4,
+            "reached_count": 44,
+            "first_f_rate_reached": 0.6818181818181818
+          },
+          "時間当たり取得": 0.1374193548387096
+        }
+      }
+    },
+    {
+      "id": "前48_J000",
+      "Day補完待機分": 90,
+      "追加7独立再生一致": true,
+      "全80財務一致": true,
+      "枠占有違反": 0,
+      "全80財務照合数": 27,
+      "旧73": {
+        "財務照合数": 27,
+        "要求数": 1011,
+        "要求SHA256": "4c8758eb929fe04458fb222e9e6919008bb8405abb1b2853716b7e2d5b8401a7",
+        "取得SHA256": "d92aafa5f143c5aebf45d34ada59e5974cd5f4286066a8125bea43ad2ddac06a",
+        "groups": {
+          "ALL": {
+            "取得": 131,
+            "既知": 125,
+            "未知": 6,
+            "利益": 2506763.0,
+            "損失": 1283388.0,
+            "既知収支": 1223375.0,
+            "対象場": 73,
+            "取得場": 73,
+            "未取得場": [],
+            "未知場": 6,
+            "建玉中央値": {
+              "known_count": 125,
+              "unknown_count": 6,
+              "all_count": 131,
+              "known_median": 18923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 11923.0,
+              "upper": 23923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 67,
+              "unknown_count": 6,
+              "all_count": 73,
+              "known_median": 10923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 6923.0,
+              "upper": 19846.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 72,
+              "A": 35,
+              "N": 18,
+              "C": 6,
+              "reached_count": 107,
+              "first_f_rate_reached": 0.6728971962616822
+            },
+            "時間当たり取得": 0.1817130967518207
+          },
+          "DAY": {
+            "取得": 56,
+            "既知": 55,
+            "未知": 1,
+            "利益": 900459.0,
+            "損失": 445694.0,
+            "既知収支": 454765.0,
+            "対象場": 37,
+            "取得場": 37,
+            "未取得場": [],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 55,
+              "unknown_count": 1,
+              "all_count": 56,
+              "known_median": 17923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 14423.0,
+              "upper": 18423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 36,
+              "unknown_count": 1,
+              "all_count": 37,
+              "known_median": 3423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 2923.0,
+              "upper": 3923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 26,
+              "A": 14,
+              "N": 15,
+              "C": 1,
+              "reached_count": 40,
+              "first_f_rate_reached": 0.65
+            },
+            "時間当たり取得": 0.21882123086942376
+          },
+          "PRE": {
+            "取得": 61,
+            "既知": 56,
+            "未知": 5,
+            "利益": 1471228.0,
+            "損失": 821540.0,
+            "既知収支": 649688.0,
+            "対象場": 36,
+            "取得場": 36,
+            "未取得場": [],
+            "未知場": 5,
+            "建玉中央値": {
+              "known_count": 56,
+              "unknown_count": 5,
+              "all_count": 61,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 38923.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 31,
+              "unknown_count": 5,
+              "all_count": 36,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 36769.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 36,
+              "A": 20,
+              "N": 0,
+              "C": 5,
+              "reached_count": 56,
+              "first_f_rate_reached": 0.6428571428571429
+            },
+            "時間当たり取得": 0.29901960784313725
+          },
+          "POST": {
+            "取得": 14,
+            "既知": 14,
+            "未知": 0,
+            "利益": 135076.0,
+            "損失": 16154.0,
+            "既知収支": 118922.0,
+            "対象場": 36,
+            "取得場": 12,
+            "未取得場": [
+              "2026-09-24_Night",
+              "2026-09-25_Night",
+              "2026-09-28_Night",
+              "2026-09-30_Night",
+              "2026-10-01_Night",
+              "2026-10-05_Night",
+              "2026-10-06_Night",
+              "2026-10-08_Night",
+              "2026-10-09_Night",
+              "2026-10-12_Night",
+              "2026-10-13_Night",
+              "2026-10-14_Night",
+              "2026-10-16_Night",
+              "2026-10-21_Night",
+              "2026-10-23_Night",
+              "2026-10-26_Night",
+              "2026-10-27_Night",
+              "2026-10-28_Night",
+              "2026-10-29_Night",
+              "2026-11-02_Night",
+              "2026-11-03_Night",
+              "2026-11-04_Night",
+              "2026-11-05_Night",
+              "2026-11-06_Night"
+            ],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 14,
+              "unknown_count": 0,
+              "all_count": 14,
+              "known_median": 11923.0,
+              "all_median": 11923.0,
+              "all_median_exact": true,
+              "lower": 11923.0,
+              "upper": 11923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 36,
+              "unknown_count": 0,
+              "all_count": 36,
+              "known_median": 0.0,
+              "all_median": 0.0,
+              "all_median_exact": true,
+              "lower": 0.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 10,
+              "A": 1,
+              "N": 3,
+              "C": 0,
+              "reached_count": 11,
+              "first_f_rate_reached": 0.9090909090909091
+            },
+            "時間当たり取得": 0.05363984674329504
+          },
+          "NIGHT": {
+            "取得": 75,
+            "既知": 70,
+            "未知": 5,
+            "利益": 1606304.0,
+            "損失": 837694.0,
+            "既知収支": 768610.0,
+            "対象場": 36,
+            "取得場": 36,
+            "未取得場": [],
+            "未知場": 5,
+            "建玉中央値": {
+              "known_count": 70,
+              "unknown_count": 5,
+              "all_count": 75,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 11923.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 31,
+              "unknown_count": 5,
+              "all_count": 36,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 36769.0,
+              "upper": 40384.5,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 46,
+              "A": 21,
+              "N": 3,
+              "C": 5,
+              "reached_count": 67,
+              "first_f_rate_reached": 0.6865671641791045
+            },
+            "時間当たり取得": 0.16129032258064507
+          }
+        }
+      },
+      "追加7": {
+        "財務照合数": 27,
+        "要求数": 152,
+        "要求SHA256": "80fafd0329c3a3077fc08789a9798e49feb843b71acb686fe26188be03d403bc",
+        "取得SHA256": "2367cd0d1205ac40d8fe1ac04313b8b7e7bdba81fbf740892354a8044a5cfa62",
+        "groups": {
+          "ALL": {
+            "取得": 18,
+            "既知": 16,
+            "未知": 2,
+            "利益": 219307.0,
+            "損失": 203539.0,
+            "既知収支": 15768.0,
+            "対象場": 7,
+            "取得場": 7,
+            "未取得場": [],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 16,
+              "unknown_count": 2,
+              "all_count": 18,
+              "known_median": 3423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -5577.0,
+              "upper": 13923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 5,
+              "unknown_count": 2,
+              "all_count": 7,
+              "known_median": 21769.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 2923.0,
+              "upper": 25692.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "保留",
+            "IFD_FIRSTFANC": {
+              "F": 7,
+              "A": 7,
+              "N": 2,
+              "C": 2,
+              "reached_count": 14,
+              "first_f_rate_reached": 0.5
+            },
+            "時間当たり取得": 0.2485615650172612
+          },
+          "DAY": {
+            "取得": 8,
+            "既知": 8,
+            "未知": 0,
+            "利益": 102538.0,
+            "損失": 52154.0,
+            "既知収支": 50384.0,
+            "対象場": 3,
+            "取得場": 3,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 8,
+              "unknown_count": 0,
+              "all_count": 8,
+              "known_median": 13923.0,
+              "all_median": 13923.0,
+              "all_median_exact": true,
+              "lower": 13923.0,
+              "upper": 13923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 0,
+              "all_count": 3,
+              "known_median": 21769.0,
+              "all_median": 21769.0,
+              "all_median_exact": true,
+              "lower": 21769.0,
+              "upper": 21769.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 4,
+              "A": 2,
+              "N": 2,
+              "C": 0,
+              "reached_count": 6,
+              "first_f_rate_reached": 0.6666666666666666
+            },
+            "時間当たり取得": 0.3855421686746988
+          },
+          "PRE": {
+            "取得": 7,
+            "既知": 6,
+            "未知": 1,
+            "利益": 116769.0,
+            "損失": 123231.0,
+            "既知収支": -6462.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 6,
+              "unknown_count": 1,
+              "all_count": 7,
+              "known_median": -1077.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -41077.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 1,
+              "all_count": 4,
+              "known_median": -2154.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -42154.0,
+              "upper": 37846.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "保留",
+            "IFD_FIRSTFANC": {
+              "F": 3,
+              "A": 3,
+              "N": 0,
+              "C": 1,
+              "reached_count": 6,
+              "first_f_rate_reached": 0.5
+            },
+            "時間当たり取得": 0.2692307692307692
+          },
+          "POST": {
+            "取得": 3,
+            "既知": 2,
+            "未知": 1,
+            "利益": 0,
+            "損失": 28154.0,
+            "既知収支": -28154.0,
+            "対象場": 4,
+            "取得場": 2,
+            "未取得場": [
+              "2026-11-10_Night",
+              "2026-11-12_Night"
+            ],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 2,
+              "unknown_count": 1,
+              "all_count": 3,
+              "known_median": -14077.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -14077.0,
+              "upper": -14077.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 1,
+              "all_count": 4,
+              "known_median": 0.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -14077.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 0,
+              "A": 2,
+              "N": 0,
+              "C": 1,
+              "reached_count": 2,
+              "first_f_rate_reached": 0.0
+            },
+            "時間当たり取得": 0.11688311688311688
+          },
+          "NIGHT": {
+            "取得": 10,
+            "既知": 8,
+            "未知": 2,
+            "利益": 116769.0,
+            "損失": 151385.0,
+            "既知収支": -34616.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 8,
+              "unknown_count": 2,
+              "all_count": 10,
+              "known_median": -14077.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -27577.0,
+              "upper": 12423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 2,
+              "unknown_count": 2,
+              "all_count": 4,
+              "known_median": 23769.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": null,
+              "upper": null,
+              "lower_unbounded": true,
+              "upper_unbounded": true,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "保留",
+            "IFD_FIRSTFANC": {
+              "F": 3,
+              "A": 5,
+              "N": 0,
+              "C": 2,
+              "reached_count": 8,
+              "first_f_rate_reached": 0.375
+            },
+            "時間当たり取得": 0.19354838709677422
+          }
+        }
+      },
+      "全80": {
+        "ALL": {
+          "取得": 149,
+          "既知": 141,
+          "未知": 8,
+          "利益": 2726070.0,
+          "損失": 1486927.0,
+          "既知収支": 1239143.0,
+          "対象場": 80,
+          "取得場": 80,
+          "未取得場": [],
+          "未知場": 8,
+          "建玉中央値": {
+            "known_count": 141,
+            "unknown_count": 8,
+            "all_count": 149,
+            "known_median": 17923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11923.0,
+            "upper": 23923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 72,
+            "unknown_count": 8,
+            "all_count": 80,
+            "known_median": 14384.5,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 5423.0,
+            "upper": 22846.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 79,
+            "A": 42,
+            "N": 20,
+            "C": 8,
+            "reached_count": 121,
+            "first_f_rate_reached": 0.6528925619834711
+          },
+          "時間当たり取得": 0.18781512605042033
+        },
+        "DAY": {
+          "取得": 64,
+          "既知": 63,
+          "未知": 1,
+          "利益": 1002997.0,
+          "損失": 497848.0,
+          "既知収支": 505149.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 1,
+          "建玉中央値": {
+            "known_count": 63,
+            "unknown_count": 1,
+            "all_count": 64,
+            "known_median": 17923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 14423.0,
+            "upper": 18423.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 39,
+            "unknown_count": 1,
+            "all_count": 40,
+            "known_median": 3923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 3423.0,
+            "upper": 5423.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 30,
+            "A": 16,
+            "N": 17,
+            "C": 1,
+            "reached_count": 46,
+            "first_f_rate_reached": 0.6521739130434783
+          },
+          "時間当たり取得": 0.23132530120481937
+        },
+        "PRE": {
+          "取得": 68,
+          "既知": 62,
+          "未知": 6,
+          "利益": 1587997.0,
+          "損失": 944771.0,
+          "既知収支": 643226.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 6,
+          "建玉中央値": {
+            "known_count": 62,
+            "unknown_count": 6,
+            "all_count": 68,
+            "known_median": 38923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 38923.0,
+            "upper": 38923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 34,
+            "unknown_count": 6,
+            "all_count": 40,
+            "known_median": 37846.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 17307.5,
+            "upper": 38923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 39,
+            "A": 23,
+            "N": 0,
+            "C": 6,
+            "reached_count": 62,
+            "first_f_rate_reached": 0.6290322580645161
+          },
+          "時間当たり取得": 0.2956521739130435
+        },
+        "POST": {
+          "取得": 17,
+          "既知": 16,
+          "未知": 1,
+          "利益": 135076.0,
+          "損失": 44308.0,
+          "既知収支": 90768.0,
+          "対象場": 40,
+          "取得場": 14,
+          "未取得場": [
+            "2026-09-24_Night",
+            "2026-09-25_Night",
+            "2026-09-28_Night",
+            "2026-09-30_Night",
+            "2026-10-01_Night",
+            "2026-10-05_Night",
+            "2026-10-06_Night",
+            "2026-10-08_Night",
+            "2026-10-09_Night",
+            "2026-10-12_Night",
+            "2026-10-13_Night",
+            "2026-10-14_Night",
+            "2026-10-16_Night",
+            "2026-10-21_Night",
+            "2026-10-23_Night",
+            "2026-10-26_Night",
+            "2026-10-27_Night",
+            "2026-10-28_Night",
+            "2026-10-29_Night",
+            "2026-11-02_Night",
+            "2026-11-03_Night",
+            "2026-11-04_Night",
+            "2026-11-05_Night",
+            "2026-11-06_Night",
+            "2026-11-10_Night",
+            "2026-11-12_Night"
+          ],
+          "未知場": 1,
+          "建玉中央値": {
+            "known_count": 16,
+            "unknown_count": 1,
+            "all_count": 17,
+            "known_median": 11923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11923.0,
+            "upper": 11923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 39,
+            "unknown_count": 1,
+            "all_count": 40,
+            "known_median": 0.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 0.0,
+            "upper": 0.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "ゼロ"
+            ],
+            "strictly_positive_guaranteed": false,
+            "strictly_positive_possible": false
+          },
+          "両中央値判定": "不適合",
+          "IFD_FIRSTFANC": {
+            "F": 10,
+            "A": 3,
+            "N": 3,
+            "C": 1,
+            "reached_count": 13,
+            "first_f_rate_reached": 0.7692307692307693
+          },
+          "時間当たり取得": 0.05930232558139536
+        },
+        "NIGHT": {
+          "取得": 85,
+          "既知": 78,
+          "未知": 7,
+          "利益": 1723073.0,
+          "損失": 989079.0,
+          "既知収支": 733994.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 7,
+          "建玉中央値": {
+            "known_count": 78,
+            "unknown_count": 7,
+            "all_count": 85,
+            "known_median": 27923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11923.0,
+            "upper": 38923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 33,
+            "unknown_count": 7,
+            "all_count": 40,
+            "known_median": 38923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 23269.0,
+            "upper": 45269.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 49,
+            "A": 26,
+            "N": 3,
+            "C": 7,
+            "reached_count": 75,
+            "first_f_rate_reached": 0.6533333333333333
+          },
+          "時間当たり取得": 0.16451612903225796
+        }
+      }
+    },
+    {
+      "id": "前48_J001",
+      "Day補完待機分": 90,
+      "追加7独立再生一致": true,
+      "全80財務一致": true,
+      "枠占有違反": 0,
+      "全80財務照合数": 27,
+      "旧73": {
+        "財務照合数": 27,
+        "要求数": 1011,
+        "要求SHA256": "4c8758eb929fe04458fb222e9e6919008bb8405abb1b2853716b7e2d5b8401a7",
+        "取得SHA256": "d92aafa5f143c5aebf45d34ada59e5974cd5f4286066a8125bea43ad2ddac06a",
+        "groups": {
+          "ALL": {
+            "取得": 131,
+            "既知": 125,
+            "未知": 6,
+            "利益": 2506763.0,
+            "損失": 1283388.0,
+            "既知収支": 1223375.0,
+            "対象場": 73,
+            "取得場": 73,
+            "未取得場": [],
+            "未知場": 6,
+            "建玉中央値": {
+              "known_count": 125,
+              "unknown_count": 6,
+              "all_count": 131,
+              "known_median": 18923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 11923.0,
+              "upper": 23923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 67,
+              "unknown_count": 6,
+              "all_count": 73,
+              "known_median": 10923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 6923.0,
+              "upper": 19846.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 72,
+              "A": 35,
+              "N": 18,
+              "C": 6,
+              "reached_count": 107,
+              "first_f_rate_reached": 0.6728971962616822
+            },
+            "時間当たり取得": 0.1817130967518207
+          },
+          "DAY": {
+            "取得": 56,
+            "既知": 55,
+            "未知": 1,
+            "利益": 900459.0,
+            "損失": 445694.0,
+            "既知収支": 454765.0,
+            "対象場": 37,
+            "取得場": 37,
+            "未取得場": [],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 55,
+              "unknown_count": 1,
+              "all_count": 56,
+              "known_median": 17923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 14423.0,
+              "upper": 18423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 36,
+              "unknown_count": 1,
+              "all_count": 37,
+              "known_median": 3423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 2923.0,
+              "upper": 3923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 26,
+              "A": 14,
+              "N": 15,
+              "C": 1,
+              "reached_count": 40,
+              "first_f_rate_reached": 0.65
+            },
+            "時間当たり取得": 0.21882123086942376
+          },
+          "PRE": {
+            "取得": 61,
+            "既知": 56,
+            "未知": 5,
+            "利益": 1471228.0,
+            "損失": 821540.0,
+            "既知収支": 649688.0,
+            "対象場": 36,
+            "取得場": 36,
+            "未取得場": [],
+            "未知場": 5,
+            "建玉中央値": {
+              "known_count": 56,
+              "unknown_count": 5,
+              "all_count": 61,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 38923.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 31,
+              "unknown_count": 5,
+              "all_count": 36,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 36769.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 36,
+              "A": 20,
+              "N": 0,
+              "C": 5,
+              "reached_count": 56,
+              "first_f_rate_reached": 0.6428571428571429
+            },
+            "時間当たり取得": 0.29901960784313725
+          },
+          "POST": {
+            "取得": 14,
+            "既知": 14,
+            "未知": 0,
+            "利益": 135076.0,
+            "損失": 16154.0,
+            "既知収支": 118922.0,
+            "対象場": 36,
+            "取得場": 12,
+            "未取得場": [
+              "2026-09-24_Night",
+              "2026-09-25_Night",
+              "2026-09-28_Night",
+              "2026-09-30_Night",
+              "2026-10-01_Night",
+              "2026-10-05_Night",
+              "2026-10-06_Night",
+              "2026-10-08_Night",
+              "2026-10-09_Night",
+              "2026-10-12_Night",
+              "2026-10-13_Night",
+              "2026-10-14_Night",
+              "2026-10-16_Night",
+              "2026-10-21_Night",
+              "2026-10-23_Night",
+              "2026-10-26_Night",
+              "2026-10-27_Night",
+              "2026-10-28_Night",
+              "2026-10-29_Night",
+              "2026-11-02_Night",
+              "2026-11-03_Night",
+              "2026-11-04_Night",
+              "2026-11-05_Night",
+              "2026-11-06_Night"
+            ],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 14,
+              "unknown_count": 0,
+              "all_count": 14,
+              "known_median": 11923.0,
+              "all_median": 11923.0,
+              "all_median_exact": true,
+              "lower": 11923.0,
+              "upper": 11923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 36,
+              "unknown_count": 0,
+              "all_count": 36,
+              "known_median": 0.0,
+              "all_median": 0.0,
+              "all_median_exact": true,
+              "lower": 0.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 10,
+              "A": 1,
+              "N": 3,
+              "C": 0,
+              "reached_count": 11,
+              "first_f_rate_reached": 0.9090909090909091
+            },
+            "時間当たり取得": 0.05363984674329504
+          },
+          "NIGHT": {
+            "取得": 75,
+            "既知": 70,
+            "未知": 5,
+            "利益": 1606304.0,
+            "損失": 837694.0,
+            "既知収支": 768610.0,
+            "対象場": 36,
+            "取得場": 36,
+            "未取得場": [],
+            "未知場": 5,
+            "建玉中央値": {
+              "known_count": 70,
+              "unknown_count": 5,
+              "all_count": 75,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 11923.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 31,
+              "unknown_count": 5,
+              "all_count": 36,
+              "known_median": 38923.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 36769.0,
+              "upper": 40384.5,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 46,
+              "A": 21,
+              "N": 3,
+              "C": 5,
+              "reached_count": 67,
+              "first_f_rate_reached": 0.6865671641791045
+            },
+            "時間当たり取得": 0.16129032258064507
+          }
+        }
+      },
+      "追加7": {
+        "財務照合数": 27,
+        "要求数": 152,
+        "要求SHA256": "80fafd0329c3a3077fc08789a9798e49feb843b71acb686fe26188be03d403bc",
+        "取得SHA256": "2367cd0d1205ac40d8fe1ac04313b8b7e7bdba81fbf740892354a8044a5cfa62",
+        "groups": {
+          "ALL": {
+            "取得": 18,
+            "既知": 16,
+            "未知": 2,
+            "利益": 219307.0,
+            "損失": 203539.0,
+            "既知収支": 15768.0,
+            "対象場": 7,
+            "取得場": 7,
+            "未取得場": [],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 16,
+              "unknown_count": 2,
+              "all_count": 18,
+              "known_median": 3423.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -5577.0,
+              "upper": 13923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 5,
+              "unknown_count": 2,
+              "all_count": 7,
+              "known_median": 21769.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": 2923.0,
+              "upper": 25692.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "保留",
+            "IFD_FIRSTFANC": {
+              "F": 7,
+              "A": 7,
+              "N": 2,
+              "C": 2,
+              "reached_count": 14,
+              "first_f_rate_reached": 0.5
+            },
+            "時間当たり取得": 0.2485615650172612
+          },
+          "DAY": {
+            "取得": 8,
+            "既知": 8,
+            "未知": 0,
+            "利益": 102538.0,
+            "損失": 52154.0,
+            "既知収支": 50384.0,
+            "対象場": 3,
+            "取得場": 3,
+            "未取得場": [],
+            "未知場": 0,
+            "建玉中央値": {
+              "known_count": 8,
+              "unknown_count": 0,
+              "all_count": 8,
+              "known_median": 13923.0,
+              "all_median": 13923.0,
+              "all_median_exact": true,
+              "lower": 13923.0,
+              "upper": 13923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 0,
+              "all_count": 3,
+              "known_median": 21769.0,
+              "all_median": 21769.0,
+              "all_median_exact": true,
+              "lower": 21769.0,
+              "upper": 21769.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "正"
+              ],
+              "strictly_positive_guaranteed": true,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "適合",
+            "IFD_FIRSTFANC": {
+              "F": 4,
+              "A": 2,
+              "N": 2,
+              "C": 0,
+              "reached_count": 6,
+              "first_f_rate_reached": 0.6666666666666666
+            },
+            "時間当たり取得": 0.3855421686746988
+          },
+          "PRE": {
+            "取得": 7,
+            "既知": 6,
+            "未知": 1,
+            "利益": 116769.0,
+            "損失": 123231.0,
+            "既知収支": -6462.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 6,
+              "unknown_count": 1,
+              "all_count": 7,
+              "known_median": -1077.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -41077.0,
+              "upper": 38923.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 1,
+              "all_count": 4,
+              "known_median": -2154.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -42154.0,
+              "upper": 37846.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "保留",
+            "IFD_FIRSTFANC": {
+              "F": 3,
+              "A": 3,
+              "N": 0,
+              "C": 1,
+              "reached_count": 6,
+              "first_f_rate_reached": 0.5
+            },
+            "時間当たり取得": 0.2692307692307692
+          },
+          "POST": {
+            "取得": 3,
+            "既知": 2,
+            "未知": 1,
+            "利益": 0,
+            "損失": 28154.0,
+            "既知収支": -28154.0,
+            "対象場": 4,
+            "取得場": 2,
+            "未取得場": [
+              "2026-11-10_Night",
+              "2026-11-12_Night"
+            ],
+            "未知場": 1,
+            "建玉中央値": {
+              "known_count": 2,
+              "unknown_count": 1,
+              "all_count": 3,
+              "known_median": -14077.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -14077.0,
+              "upper": -14077.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "場中央値": {
+              "known_count": 3,
+              "unknown_count": 1,
+              "all_count": 4,
+              "known_median": 0.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -14077.0,
+              "upper": 0.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": false
+            },
+            "両中央値判定": "不適合",
+            "IFD_FIRSTFANC": {
+              "F": 0,
+              "A": 2,
+              "N": 0,
+              "C": 1,
+              "reached_count": 2,
+              "first_f_rate_reached": 0.0
+            },
+            "時間当たり取得": 0.11688311688311688
+          },
+          "NIGHT": {
+            "取得": 10,
+            "既知": 8,
+            "未知": 2,
+            "利益": 116769.0,
+            "損失": 151385.0,
+            "既知収支": -34616.0,
+            "対象場": 4,
+            "取得場": 4,
+            "未取得場": [],
+            "未知場": 2,
+            "建玉中央値": {
+              "known_count": 8,
+              "unknown_count": 2,
+              "all_count": 10,
+              "known_median": -14077.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": -27577.0,
+              "upper": 12423.0,
+              "lower_unbounded": false,
+              "upper_unbounded": false,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "場中央値": {
+              "known_count": 2,
+              "unknown_count": 2,
+              "all_count": 4,
+              "known_median": 23769.0,
+              "all_median": null,
+              "all_median_exact": false,
+              "lower": null,
+              "upper": null,
+              "lower_unbounded": true,
+              "upper_unbounded": true,
+              "possible_signs": [
+                "負",
+                "ゼロ",
+                "正"
+              ],
+              "strictly_positive_guaranteed": false,
+              "strictly_positive_possible": true
+            },
+            "両中央値判定": "保留",
+            "IFD_FIRSTFANC": {
+              "F": 3,
+              "A": 5,
+              "N": 0,
+              "C": 2,
+              "reached_count": 8,
+              "first_f_rate_reached": 0.375
+            },
+            "時間当たり取得": 0.19354838709677422
+          }
+        }
+      },
+      "全80": {
+        "ALL": {
+          "取得": 149,
+          "既知": 141,
+          "未知": 8,
+          "利益": 2726070.0,
+          "損失": 1486927.0,
+          "既知収支": 1239143.0,
+          "対象場": 80,
+          "取得場": 80,
+          "未取得場": [],
+          "未知場": 8,
+          "建玉中央値": {
+            "known_count": 141,
+            "unknown_count": 8,
+            "all_count": 149,
+            "known_median": 17923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11923.0,
+            "upper": 23923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 72,
+            "unknown_count": 8,
+            "all_count": 80,
+            "known_median": 14384.5,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 5423.0,
+            "upper": 22846.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 79,
+            "A": 42,
+            "N": 20,
+            "C": 8,
+            "reached_count": 121,
+            "first_f_rate_reached": 0.6528925619834711
+          },
+          "時間当たり取得": 0.18781512605042033
+        },
+        "DAY": {
+          "取得": 64,
+          "既知": 63,
+          "未知": 1,
+          "利益": 1002997.0,
+          "損失": 497848.0,
+          "既知収支": 505149.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 1,
+          "建玉中央値": {
+            "known_count": 63,
+            "unknown_count": 1,
+            "all_count": 64,
+            "known_median": 17923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 14423.0,
+            "upper": 18423.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 39,
+            "unknown_count": 1,
+            "all_count": 40,
+            "known_median": 3923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 3423.0,
+            "upper": 5423.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 30,
+            "A": 16,
+            "N": 17,
+            "C": 1,
+            "reached_count": 46,
+            "first_f_rate_reached": 0.6521739130434783
+          },
+          "時間当たり取得": 0.23132530120481937
+        },
+        "PRE": {
+          "取得": 68,
+          "既知": 62,
+          "未知": 6,
+          "利益": 1587997.0,
+          "損失": 944771.0,
+          "既知収支": 643226.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 6,
+          "建玉中央値": {
+            "known_count": 62,
+            "unknown_count": 6,
+            "all_count": 68,
+            "known_median": 38923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 38923.0,
+            "upper": 38923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 34,
+            "unknown_count": 6,
+            "all_count": 40,
+            "known_median": 37846.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 17307.5,
+            "upper": 38923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 39,
+            "A": 23,
+            "N": 0,
+            "C": 6,
+            "reached_count": 62,
+            "first_f_rate_reached": 0.6290322580645161
+          },
+          "時間当たり取得": 0.2956521739130435
+        },
+        "POST": {
+          "取得": 17,
+          "既知": 16,
+          "未知": 1,
+          "利益": 135076.0,
+          "損失": 44308.0,
+          "既知収支": 90768.0,
+          "対象場": 40,
+          "取得場": 14,
+          "未取得場": [
+            "2026-09-24_Night",
+            "2026-09-25_Night",
+            "2026-09-28_Night",
+            "2026-09-30_Night",
+            "2026-10-01_Night",
+            "2026-10-05_Night",
+            "2026-10-06_Night",
+            "2026-10-08_Night",
+            "2026-10-09_Night",
+            "2026-10-12_Night",
+            "2026-10-13_Night",
+            "2026-10-14_Night",
+            "2026-10-16_Night",
+            "2026-10-21_Night",
+            "2026-10-23_Night",
+            "2026-10-26_Night",
+            "2026-10-27_Night",
+            "2026-10-28_Night",
+            "2026-10-29_Night",
+            "2026-11-02_Night",
+            "2026-11-03_Night",
+            "2026-11-04_Night",
+            "2026-11-05_Night",
+            "2026-11-06_Night",
+            "2026-11-10_Night",
+            "2026-11-12_Night"
+          ],
+          "未知場": 1,
+          "建玉中央値": {
+            "known_count": 16,
+            "unknown_count": 1,
+            "all_count": 17,
+            "known_median": 11923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11923.0,
+            "upper": 11923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 39,
+            "unknown_count": 1,
+            "all_count": 40,
+            "known_median": 0.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 0.0,
+            "upper": 0.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "ゼロ"
+            ],
+            "strictly_positive_guaranteed": false,
+            "strictly_positive_possible": false
+          },
+          "両中央値判定": "不適合",
+          "IFD_FIRSTFANC": {
+            "F": 10,
+            "A": 3,
+            "N": 3,
+            "C": 1,
+            "reached_count": 13,
+            "first_f_rate_reached": 0.7692307692307693
+          },
+          "時間当たり取得": 0.05930232558139536
+        },
+        "NIGHT": {
+          "取得": 85,
+          "既知": 78,
+          "未知": 7,
+          "利益": 1723073.0,
+          "損失": 989079.0,
+          "既知収支": 733994.0,
+          "対象場": 40,
+          "取得場": 40,
+          "未取得場": [],
+          "未知場": 7,
+          "建玉中央値": {
+            "known_count": 78,
+            "unknown_count": 7,
+            "all_count": 85,
+            "known_median": 27923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 11923.0,
+            "upper": 38923.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "場中央値": {
+            "known_count": 33,
+            "unknown_count": 7,
+            "all_count": 40,
+            "known_median": 38923.0,
+            "all_median": null,
+            "all_median_exact": false,
+            "lower": 23269.0,
+            "upper": 45269.0,
+            "lower_unbounded": false,
+            "upper_unbounded": false,
+            "possible_signs": [
+              "正"
+            ],
+            "strictly_positive_guaranteed": true,
+            "strictly_positive_possible": true
+          },
+          "両中央値判定": "適合",
+          "IFD_FIRSTFANC": {
+            "F": 49,
+            "A": 26,
+            "N": 3,
+            "C": 7,
+            "reached_count": 75,
+            "first_f_rate_reached": 0.6533333333333333
+          },
+          "時間当たり取得": 0.16451612903225796
+        }
+      }
+    }
+  ]
+}
