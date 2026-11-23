@@ -1,0 +1,105 @@
+{
+  "scope": "既存first2失敗のmetadataと共有records冒頭3rowずつによる型差診断。金融再実行なし",
+  "条件SHA256": "c46eeac9ce2f27d2dcbe113890f2dd4b2944c36e06544d7994c3560bdd19aace",
+  "first2失敗完了SHA256": "ec25d3172f361bda693cc31ef4cbcc71916cff3b3cbbca29ceaaf79c74f7db96",
+  "失敗結果": [
+    {
+      "session": "2026-09-21_Day",
+      "books": 0,
+      "error": "Scalar時計/Index/正NK受理列不正"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "books": 0,
+      "error": "Scalar時計/Index/正NK受理列不正"
+    }
+  ],
+  "会計数": 0,
+  "前後不変": true,
+  "冒頭観測": [
+    {
+      "session": "2026-09-21_Day",
+      "records内JSON行": 15,
+      "time": 1789947901,
+      "received": 1789947901,
+      "index": 0,
+      "source_line": 17,
+      "last": 65180,
+      "bid": 65180,
+      "ask": 65180,
+      "quote_ok": false,
+      "後続index": [
+        1,
+        2
+      ]
+    },
+    {
+      "session": "2026-09-21_Night",
+      "records内JSON行": 18,
+      "time": 1789977601,
+      "received": 1789977601,
+      "index": 0,
+      "source_line": 292,
+      "last": 65500,
+      "bid": 65500,
+      "ask": 65500,
+      "quote_ok": false,
+      "後続index": [
+        1,
+        2
+      ]
+    }
+  ],
+  "入力参照": [
+    {
+      "session": "2026-09-21_Day",
+      "records": {
+        "path": "S:/GitHub/masayoshi4649/FutureSignalResearch/work/101連続入力の全54場_版3/生成/2026-09-21_Day.records.jsonl.gz",
+        "sha256": "9f0255ce3d2abb3d96c57981a3924024521ed0225439d4acbc0ad002fedf7f0e"
+      }
+    },
+    {
+      "session": "2026-09-21_Night",
+      "records": {
+        "path": "S:/GitHub/masayoshi4649/FutureSignalResearch/work/101連続入力の全54場_版3/生成/2026-09-21_Night.records.jsonl.gz",
+        "sha256": "d5854a0dafd889a1907bb1810bad6fcf266f044cbc284f2013899e91c33ba957"
+      }
+    }
+  ],
+  "原因": {
+    "file": "work/102定時チャート売買_版3/main.go",
+    "line": 612,
+    "誤検査": "index <= 0",
+    "正規型": "producer FeaturesIndexは0始まり。会計Quoteもindex<0だけを拒否",
+    "人工の不足": "mainのScalar正常人工は1始まりだけで0始まりを含めていなかった"
+  },
+  "根拠": [
+    {
+      "path": "scripts/保護判断の連続技法入力/build.go",
+      "lines": [
+        230,
+        231,
+        234,
+        235
+      ],
+      "要点": "初期値0のfeatures[市場]をexpectedとしてOnBoard.Indexと照合、保存後に++"
+    },
+    {
+      "path": "work/102定時チャート売買_版3/会計.go",
+      "lines": [
+        135,
+        136
+      ],
+      "要点": "0を許し、負数・後続の非増加・時計逆行を拒否"
+    }
+  ],
+  "コードSHA256": {
+    "work/102定時チャート売買_版3/main.go": "3a7160e9344c1afb7c49ca1e54f535a07d5c78ebe8678a9a740fe497714f617d",
+    "work/102定時チャート売買_版3/会計.go": "30ebd0cfdc62fe5f55c8107a807af87eb4f7f4ba3457d41d5b9a4819ff55752a",
+    "scripts/保護判断の連続技法入力/build.go": "c433828a2f962037b6fd7c575148ae550a106c54eea58097459fbc4ce16ba875"
+  },
+  "変更": 0,
+  "市場再生_金融計算_Raw_Native": 0,
+  "損益採用": false,
+  "訂正候補": "別版CLIに正規index0の受理を実装。値変更/0補完せず、負数・重複・逆行・同原行約定禁止を維持。旧版/条件/失敗成果物は保存"
+}

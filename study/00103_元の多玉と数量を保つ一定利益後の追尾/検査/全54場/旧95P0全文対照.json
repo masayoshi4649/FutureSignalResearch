@@ -1,0 +1,507 @@
+{
+  "成功": true,
+  "scope": "新103追加policy空P0四Bookと固定95B5Q四の全JSON・除外0",
+  "stage": "full54",
+  "場数": 54,
+  "会計数": 216,
+  "照合項目数": 1655919,
+  "除外": [],
+  "LD対照": false,
+  "S0対照": false,
+  "金融再実行": 0,
+  "Source再形成": 0,
+  "入力コードSHA256前後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\完了.json": "9fb6e9b994be9fe0aec7186ea0926663c4ddc444601b8d7e4e2e7a620ddd6812",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\完了記録.json": "b7df0d9f793fca1ee9fbb489e045b927f8cf4b46e0e81a6c199920f128e4d943",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103実行条件の準備\\旧95のP0と照合する.py": "e66673fcb5798c2c0928473bd5f6c651d801ce84a98eb57c330afc8530c65afb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-21_Day.json.gz": "8f09d42270bd2c783b5e390c180a5b73aec994993cee8873405a29615357d432",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-21_Day.json.gz": "0a5590bbf7e1aafc4a17fa4f7ea0bae0a0611e1b44221e0aed99c1ad79c822d9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-21_Night.json.gz": "88b42ff7c4aaee290e301b027ba66ac34cd5422eea30e0478d9791c013d3d975",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-21_Night.json.gz": "4da0fbb087a033c41a54bd422505a0448016d0e49e6c6d26f9e2d2c40b4b3304",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-22_Day.json.gz": "f28ae159d1711b39cacbde22502eb1a9da25a5218538c8d1ca3688b86e5d23ee",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-22_Day.json.gz": "268c9743836b1444c522c5a43ea1ee2cd18bf90e070ddadcf684b8b3198c10da",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-22_Night.json.gz": "fc016599e36ccacaa87344804ff673e8d62b8037dd82d4d1f36b859784ce9165",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-22_Night.json.gz": "f8d7c4a670cd49a7f8059058db6c45361fb322920e60e75fe15562551525ec4c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-23_Day.json.gz": "058e15e79aeea3d092af80c486d24deafc5be1edf0f88200885dcce3b457df12",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-23_Day.json.gz": "1c5ebe416ff034fb88f8bf77f054a48019bdeb1880c1ed285f3a072180b792f3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-23_Night.json.gz": "ef4b3b4e083f749a20fad0d81d4ff8ec633994501df15754a53c1cc9d9f4eea8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-23_Night.json.gz": "a911499b1f2e087d5c25610b9107f7c360b4677bccbf0b635a78a2d55c338f80",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-24_Day.json.gz": "8d770315a8cd03efe8efd4d34fa077855575cc0a40de2fa1e9f2ac76e6ca3833",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-24_Day.json.gz": "0001c4f01ee643cbd6058890cc130da9de37c49f41b2f3d9f3666c9ce1a8d6e0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-24_Night.json.gz": "5d0aa126ba7b894773a4493834d428e5d88f607063432dba632cdb2571015d6b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-24_Night.json.gz": "474d8073d6999990ac163017b5ff777ddc04178937d77b61763157ff791b205d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-25_Day.json.gz": "2afbcd21b58199fc3947a81e321cd202db7ddebefeabee6f58744ea599288d89",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-25_Day.json.gz": "51262e50dadae73d99ad78115d553bc160f653d2d76216ca33797a9c8ae73a1b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-25_Night.json.gz": "e947d238f6a9abff74c412f24ea6a17bcd1d9655e589f3767db6dad7c8ec0fdf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-25_Night.json.gz": "467b44f4c96cf7b4f4752c8b9000fd90a67d36268ed593d2ddba71faf5c66765",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-28_Day.json.gz": "c555c8ec6b3ac10bb81bb4433f4f949737ab5c2874045731de5e33e49e21963f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-28_Day.json.gz": "6effe8a6a8f61d700e3e122b90c17027d6a1453c28a87a6c5e4259555c5d03c1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-28_Night.json.gz": "daec45d32319bbae52cf5730455dacc672a6c5350a82c61b9a1ea1e93f8f393d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-28_Night.json.gz": "5042b29965e37b9abf3bc07e50a84da214b11bce5b958d9f15b26b605d2e6d0d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-29_Day.json.gz": "5666fe808339caef64eb427508fbeef016f1aeba2777522761173081ab958e15",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-29_Day.json.gz": "618968f3cca636810a139841d89d62cc2b6a7a2f15c70924962eb20d98939ec3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-29_Night.json.gz": "95dc52c42cd6a9e19b352b57a9cef7130524c400c1dafabfd52ebbab1727522d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-29_Night.json.gz": "4fd22e62f8394074297f52db3cfe80401cfc3da5f282928e40bb89bfab96d3fd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-30_Day.json.gz": "662b97eade13031fb0f6e62fe7adc253a03c5bffcd816f5a818a11ecb584cc8e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-30_Day.json.gz": "5e3fc232189da2b52846f47d5328cd47f07e7630d484a2fbef59808cab10c05d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-09-30_Night.json.gz": "d6f325bf5e81340df258ab87912c017061ad6a563a85142cf1d4f4a35400cefc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-09-30_Night.json.gz": "44eb1b925ec16f92c403e2aec2baee6c49c30bab4a23fd19d5597e80e5c55e1c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-01_Day.json.gz": "63fc188c09bea34a461769ac9248dd5afb8f9adf735f641811c6cfb32983ad47",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-01_Day.json.gz": "bf2795bd38bd41511a53b21683122b09a3341ec859d2bc2485f28f7d46edb0dd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-01_Night.json.gz": "af9dd2a665f43ffc7aedaa61e356ffb745b9e5465a7df3d7ccfba389b377cad9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-01_Night.json.gz": "f9421eab827c080f20031cfd3ae468cbed5be714520753f55de38fc9d7033835",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-02_Day.json.gz": "9999418d26443b4947b93c6ae93b4bfa707ca664349436edc412e9989102758f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-02_Day.json.gz": "78cd9b1f8097d953de7815ebca79d15c6fc07358b9aa6a9682f42f419c899d55",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-02_Night.json.gz": "68ba301a49de78767693ebaf10464d756150da8661cd0109dced0cbe882a7a40",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-02_Night.json.gz": "8794d54e51999029d8aac2b6c4e3ac4020d761bb5046ad779392f29fe5df4c89",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-05_Day.json.gz": "ebfe0a431241c01fc35a70d63d6c695b16170c11b7abb4b51414f2910cb2eb3d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-05_Day.json.gz": "fcb6f9e16727838af0dedf14f82e8e011a8e486f976b699304cb57ad06c2ecbd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-05_Night.json.gz": "c2a7c26cac0db6d11d1f0447a80cfc762d6b8b68c9906c2eb336fa170c356e27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-05_Night.json.gz": "8f5b5f342ee4791b012a681f15f6beb9ab08d42fdb8236df5059c56e4254b083",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-06_Day.json.gz": "990c510bf445401dbe3bf64d1952f2e1c1e42f9f2c3557fc195f28544cd96436",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-06_Day.json.gz": "a2d342971052139c24228b69b77de1b9bf653b03143778593b46345a38b98acc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-06_Night.json.gz": "4a7e9ce152a5c0d9d872a24f375615b8da5e9250914b9c3a184c686caa98f1d1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-06_Night.json.gz": "3dcbe8bb6f54f85b41ac91b0f4ef4d99d7abeef69f4843d76f1dfccd69c56cd8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-07_Day.json.gz": "15e4f4a09df4155dd7977f843777e21e007ace38ef69455c5c12477ab74bb133",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-07_Day.json.gz": "22319c3b8e15be29da102fd4acaba1ef810cc432cd2bc4e9ae0ab78f6175e9ea",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-07_Night.json.gz": "9707d73f923602ed976b4e33c98c07c43d3725495f05c140f70b902c564cc395",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-07_Night.json.gz": "6d07bc92422a03266527cbd9d9127db5e7034621ca19e5d66a960f9a797610b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-08_Day.json.gz": "7a5df6362a4614482b29e6be82b3856c7eea02f00ba045dfd7127df2e4669b1e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-08_Day.json.gz": "2874f02850c7dc445209cddc3072f07ed34627b93dbd85c12bde3cac683cbddc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-08_Night.json.gz": "045721340e5081c1a99ad591f3171ac5ed59d8e4290853f002f79edf1397c0d2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-08_Night.json.gz": "2dbacb1df75696a42bfd6e5415f2a57864ab08a447d5c1fac904ea255e843c18",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-09_Day.json.gz": "303246d50cfc8833bd9f300e1539a370c2b4554afd744b357f7774ba8eaccc03",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-09_Day.json.gz": "bec59482640efed02ad963bfda0d1f310280955668b49d2c50e30969dd1f10e0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-09_Night.json.gz": "b5774ed29f92ff0dfa9977eaa7ea5a737bb05156be3899ef2977321d7e2a4259",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-09_Night.json.gz": "cf8eb92ec7f55a96f06be806af20a55a7bee4d30e1f8da1226bf3fed08c24fa5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-12_Day.json.gz": "9fb81376bcd917a408c8cf2929bb789b17bc6d5c8281857ccafe8974314a522b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-12_Day.json.gz": "fe449b20497f36e9089cab71c8b05f0d8a2576cce34e5045cb9359517005eb62",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-12_Night.json.gz": "5a1eb4dbee43b243386e6fd3c57d13e932cbe2ce437167050fca003ab7ceba92",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-12_Night.json.gz": "c10f69e89bb6dd495561fa6716dff7ecc23dc82f76ef67b27dc25bbbd49003f4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-13_Day.json.gz": "4feb3b273682501c7df79e3422615638a70b7a4bce967c25f45ffd27213107c7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-13_Day.json.gz": "081bc52c682641e65c2e839bc6aa92e723809d78a09bf378b5586819363470fb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-13_Night.json.gz": "7f20887e42a3cee6d891875605c66eefcd157ae48b343e04762c6deee04c64ad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-13_Night.json.gz": "2a2b920bd182b7cd75a19e4e8936744bc714bef57b04d165aa50c9222ae03a80",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-14_Day.json.gz": "38de8ae51f1c3b43156a2f52e2d0d5be8418933d55789e3d294f6c333f9a5585",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-14_Day.json.gz": "becae6a0dfac0304714e659bf397d364fa73e09f8b13d3057f21765610bbac2b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-14_Night.json.gz": "e663b8ad19f1a1f8b09903b0dfdbde66247e043abd2cb56ed3990056a9ca5f72",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-14_Night.json.gz": "b33c623ecdcb2782005dab10dee972f2dfed1cae951747831b8b9778b79474e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-15_Day.json.gz": "def37e349866734c0808dcd9507aff05f1737940f652ca60fdbc4d07cd39c1b8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-15_Day.json.gz": "d88f44617c2fb8c79e85b2a232657d631be9ef2bfcf2b2fb03d007030183c6d7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-15_Night.json.gz": "3f7b848d91168296bbac5838b6006b6e72267e5a55c2bd61bcbb81aced45f5d7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-15_Night.json.gz": "ccde5da3476fe758a15c1edc781d2218744ef7d5bda63a432e5573f12c7b1d3e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-16_Day.json.gz": "1b1bfbb6c86b08fc170209a509ba9c483296017ebb15d6db688a1e8f445f249c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-16_Day.json.gz": "671e52cc80512a3e8bf64a098feb2fbef4ccd75f8dd08302262c09eb7cfef7ac",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-16_Night.json.gz": "585d8f2f9517f9d19137bb038c230c04b9025862d5c3461df9d0200533b08905",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-16_Night.json.gz": "cf2c577304657d981842a43cd9cef040515ac4faf3e4738a39822d6dbdfb7873",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-19_Day.json.gz": "05b1449c1b19d1886de918a47c779f0a5119f1022e00133d5870f6428470ce94",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-19_Day.json.gz": "718a5a5e2444a1dd17b5db0854e565a8e3d9fad386382fa0ab88f0ff2ef8a3a7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-19_Night.json.gz": "455bf4d9dd6485d4fafacfa19affe1f32c0c20e7deac53429440f3f89e184d06",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-19_Night.json.gz": "b1c4459202fcb3c67985e3e3231eb67c6ffd776d3c97b038d7f774751ead9765",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-20_Day.json.gz": "7b80e6eacd4570afe6c983f2cccb919d04957c1813419849603172f3130188e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-20_Day.json.gz": "2a3d67caae1c6a72470b64ce0a73caccc667ee2d5f3f0583adb8b3feb716f891",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-20_Night.json.gz": "985153424ce8bac3165f33344d69f56030cf0be4e30e285520293c61802b5e5c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-20_Night.json.gz": "5d7378a7de3e08ef2a25bd562a4234273ca865a233ce085e2f9c56b1ec5bb7bb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-21_Day.json.gz": "9f4e6e3ffc57f57801b0ab1571d4c56e66a2694e4ccb106b3e3f0c6635fe4d03",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-21_Day.json.gz": "cbc1c786b6dcfb75c31994d7e42383a309867e3a1ca8e6350da7c09a87c08e0c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-21_Night.json.gz": "0677c751c3aedb744fa1bb9d35b0ce7b977e7a3768bfdab1427f2bccb6769471",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-21_Night.json.gz": "3587ff6d6ffe0e5636190fcd774e59683de742b9638090133c6cab9e431b77c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-22_Day.json.gz": "908b03feb1fca867a84752850d30134c6c53d10ac87122010a97520978abf516",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-22_Day.json.gz": "3100b835b60b17c4c4dc006bd4ad203e582af3314e21c19883b9a595a2109cbc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-22_Night.json.gz": "d04b1e58a0872ff9f4ba5cc2025c79398dd41ae9f81488e9ed4029c43d3ab7f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-22_Night.json.gz": "ecb5aee7fa4b9599eec9eda09609e35fd8529114f624423036c87aeeae2c2e30",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-23_Day.json.gz": "3bc181e64faed2dfc4e6afe5877fb79cedfe3d7d00557c53617876f3822c939b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-23_Day.json.gz": "d1adc9ba4fdf8a711a898ed2fa21b86ab9c5b150d9807ce9b70ef50795f9d6c7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-23_Night.json.gz": "86c18710e733f7971abd4173e539c587a280e3ddbe2c1140e254393d3dc733f8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-23_Night.json.gz": "b07194f033fa98321ce329d4282da65704b4c669fc75415dc57d952459f66e76",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-26_Day.json.gz": "baaa03840fd013ee86476ff7cf7ffafb7a2fa7b0fa48e3d2f51c8c5357340db0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-26_Day.json.gz": "92c9d23a94c099bc2b308e38bfc7f05b0657ab773ff2f3276fd0ef945b58057d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-26_Night.json.gz": "4941e22de6ba022304ce23e90418d57d59d5ef1f6dd0f7c707cd5123ea99bb05",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-26_Night.json.gz": "44502203eb13204f80db3326b7de52120fe978444dcaf4843d9101d5bfc48e9e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-27_Day.json.gz": "bcd3bac0f1ca8322be91722a1791a315cd025a28e0a6147243532e508e6f62cc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-27_Day.json.gz": "3474d1ca8172d77be60bc6061d301d4b1888cea67a639b43cee34cc440b0b5d2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\103市場再生\\全54場\\2026-10-27_Night.json.gz": "d6ae0102b3f513ec5c03a08ae94f481dd07169d4879a4d13fdeee0c69b7ea249",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00095_5分判断と開始30分見送り\\成果物\\2026-10-27_Night.json.gz": "8d3076c824e0db89914266f29234d4a385dc04d3cb84bd1b632a403bcf559aa1"
+  },
+  "前後不変": true,
+  "details": [
+    {
+      "session": "2026-09-21_Day",
+      "会計": 4,
+      "照合項目": 16140,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-21_Night",
+      "会計": 4,
+      "照合項目": 21424,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-22_Day",
+      "会計": 4,
+      "照合項目": 14068,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-22_Night",
+      "会計": 4,
+      "照合項目": 25060,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-23_Day",
+      "会計": 4,
+      "照合項目": 13424,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-23_Night",
+      "会計": 4,
+      "照合項目": 25672,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-24_Day",
+      "会計": 4,
+      "照合項目": 25836,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-24_Night",
+      "会計": 4,
+      "照合項目": 30292,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-25_Day",
+      "会計": 4,
+      "照合項目": 21428,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-25_Night",
+      "会計": 4,
+      "照合項目": 22940,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-28_Day",
+      "会計": 4,
+      "照合項目": 30500,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-28_Night",
+      "会計": 4,
+      "照合項目": 28240,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-29_Day",
+      "会計": 4,
+      "照合項目": 33244,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-29_Night",
+      "会計": 4,
+      "照合項目": 35862,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-30_Day",
+      "会計": 4,
+      "照合項目": 21716,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-09-30_Night",
+      "会計": 4,
+      "照合項目": 31428,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-01_Day",
+      "会計": 4,
+      "照合項目": 21520,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-01_Night",
+      "会計": 4,
+      "照合項目": 54086,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-02_Day",
+      "会計": 4,
+      "照合項目": 19716,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-02_Night",
+      "会計": 4,
+      "照合項目": 51984,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-05_Day",
+      "会計": 4,
+      "照合項目": 30043,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-05_Night",
+      "会計": 4,
+      "照合項目": 38972,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-06_Day",
+      "会計": 4,
+      "照合項目": 33000,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-06_Night",
+      "会計": 4,
+      "照合項目": 26696,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-07_Day",
+      "会計": 4,
+      "照合項目": 23716,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-07_Night",
+      "会計": 4,
+      "照合項目": 28176,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-08_Day",
+      "会計": 4,
+      "照合項目": 27088,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-08_Night",
+      "会計": 4,
+      "照合項目": 64312,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-09_Day",
+      "会計": 4,
+      "照合項目": 27278,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-09_Night",
+      "会計": 4,
+      "照合項目": 27712,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-12_Day",
+      "会計": 4,
+      "照合項目": 16192,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-12_Night",
+      "会計": 4,
+      "照合項目": 22518,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-13_Day",
+      "会計": 4,
+      "照合項目": 37576,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-13_Night",
+      "会計": 4,
+      "照合項目": 23352,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-14_Day",
+      "会計": 4,
+      "照合項目": 22360,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-14_Night",
+      "会計": 4,
+      "照合項目": 31262,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-15_Day",
+      "会計": 4,
+      "照合項目": 23932,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-15_Night",
+      "会計": 4,
+      "照合項目": 35244,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-16_Day",
+      "会計": 4,
+      "照合項目": 39558,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-16_Night",
+      "会計": 4,
+      "照合項目": 56546,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-19_Day",
+      "会計": 4,
+      "照合項目": 22532,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-19_Night",
+      "会計": 4,
+      "照合項目": 49540,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-20_Day",
+      "会計": 4,
+      "照合項目": 37950,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-20_Night",
+      "会計": 4,
+      "照合項目": 35230,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-21_Day",
+      "会計": 4,
+      "照合項目": 32384,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-21_Night",
+      "会計": 4,
+      "照合項目": 32902,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-22_Day",
+      "会計": 4,
+      "照合項目": 16652,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-22_Night",
+      "会計": 4,
+      "照合項目": 27854,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-23_Day",
+      "会計": 4,
+      "照合項目": 42438,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-23_Night",
+      "会計": 4,
+      "照合項目": 42464,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-26_Day",
+      "会計": 4,
+      "照合項目": 23592,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-26_Night",
+      "会計": 4,
+      "照合項目": 48100,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-27_Day",
+      "会計": 4,
+      "照合項目": 40816,
+      "差分数": 0,
+      "差分先頭": []
+    },
+    {
+      "session": "2026-10-27_Night",
+      "会計": 4,
+      "照合項目": 23352,
+      "差分数": 0,
+      "差分先頭": []
+    }
+  ]
+}
