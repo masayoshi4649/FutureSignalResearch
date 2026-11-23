@@ -1,0 +1,358 @@
+{
+  "確認日時": "2026-10-31T20:01:09.242511+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "カタログ": "study/00003_四系統の入口と決済方法の比較/追加確認/一覧.resources.json",
+  "カタログSHA256": "31f2eb5a1fedc8620fcb8a3b1c29be548c5dffba5d85760bb7e1b6c0a94294f7",
+  "API資源数": 18,
+  "全期間で無取引の候補": [],
+  "選択手法": "1ATR利確",
+  "選択方式": "max-absolute",
+  "選択規則": "各指数の指定手法で最大絶対損益の場を画像化し、同場の他手法は数値だけ照合。同値は開始日順の先頭。",
+  "Viewer実行コピー": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\viewer\\session-trade-viewer.exe",
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "表示設定": {
+    "interval": "5",
+    "price": "last",
+    "width": 1600,
+    "height": 1200
+  },
+  "照合": [
+    {
+      "選択理由": "最大絶対損益場",
+      "資源ID": "NK225_2026-10-30_Night_1",
+      "銘柄": "NK225",
+      "場": "2026-10-30_Night",
+      "手法": "1ATR利確",
+      "研究側純損益円": 3824.0,
+      "独立会計": {
+        "cash": 3824.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 8
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 3824,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 24,
+      "帰属手法の約定片数": 16,
+      "API約定片数": 16,
+      "約定ファイル": "約定/NK225/2026-10-30_Night.trades.jsonl",
+      "約定SHA256": "1036517bc70ceacb5881cbb3fa0f07db8046c366b4c15999d49a600f8ed48482",
+      "数値SHA256": "9225f5c73cc459c35f8237751c563f038a50fc5bfd542bd50b122a4e2682e311",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "9225f5c73cc459c35f8237751c563f038a50fc5bfd542bd50b122a4e2682e311",
+      "画像ヘッダSHA256": "9225f5c73cc459c35f8237751c563f038a50fc5bfd542bd50b122a4e2682e311",
+      "PNG": "図/NK225_最大絶対損益場_2026-10-30_Night.png",
+      "PNGSHA256": "c16e0f08f1778b63db94412f17a18a8a9b74696fe79ff2d185198cf72c6c6c48",
+      "表示範囲": {
+        "start_ms": 1793347200000,
+        "end_ms": 1793394000000,
+        "from_ms": 1793347200000,
+        "to_ms": 1793394000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 240743,
+        "invalid_clock_rows": 746,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 233543
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\約定\\NK225\\2026-10-30_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "同場の別決済条件",
+      "資源ID": "NK225_2026-10-30_Night_2",
+      "銘柄": "NK225",
+      "場": "2026-10-30_Night",
+      "手法": "2ATR追尾",
+      "研究側純損益円": 5756.0,
+      "独立会計": {
+        "cash": 5756.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 2
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 5756,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 24,
+      "帰属手法の約定片数": 4,
+      "API約定片数": 4,
+      "約定ファイル": "約定/NK225/2026-10-30_Night.trades.jsonl",
+      "約定SHA256": "1036517bc70ceacb5881cbb3fa0f07db8046c366b4c15999d49a600f8ed48482",
+      "数値SHA256": "57474c6095204ffdba266cbfe901bd7bc7085f94ca7c89125c99311153657d20",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "57474c6095204ffdba266cbfe901bd7bc7085f94ca7c89125c99311153657d20",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793347200000,
+        "end_ms": 1793394000000,
+        "from_ms": 1793347200000,
+        "to_ms": 1793394000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 240743,
+        "invalid_clock_rows": 746,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 233543
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\約定\\NK225\\2026-10-30_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "同場の別決済条件",
+      "資源ID": "NK225_2026-10-30_Night_0",
+      "銘柄": "NK225",
+      "場": "2026-10-30_Night",
+      "手法": "EMA決済",
+      "研究側純損益円": 5356.0,
+      "独立会計": {
+        "cash": 5356.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 2
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 5356,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 24,
+      "帰属手法の約定片数": 4,
+      "API約定片数": 4,
+      "約定ファイル": "約定/NK225/2026-10-30_Night.trades.jsonl",
+      "約定SHA256": "1036517bc70ceacb5881cbb3fa0f07db8046c366b4c15999d49a600f8ed48482",
+      "数値SHA256": "64085860fe5ef1700c42a6b76e2609ddcaa8c55c11ee77e40b0670f4f609cc98",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "64085860fe5ef1700c42a6b76e2609ddcaa8c55c11ee77e40b0670f4f609cc98",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793347200000,
+        "end_ms": 1793394000000,
+        "from_ms": 1793347200000,
+        "to_ms": 1793394000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 240743,
+        "invalid_clock_rows": 746,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 233543
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\約定\\NK225\\2026-10-30_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "最大絶対損益場",
+      "資源ID": "TOPIX_2026-10-29_Night_1",
+      "銘柄": "TOPIX",
+      "場": "2026-10-29_Night",
+      "手法": "1ATR利確",
+      "研究側純損益円": -24910.0,
+      "独立会計": {
+        "cash": -24910.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -24910,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 30,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/TOPIX/2026-10-29_Night.trades.jsonl",
+      "約定SHA256": "46e74e8996c868322fa8708047a3774c1b63ac03d11ef61999b1873573cce418",
+      "数値SHA256": "1a94ef8ba7006db4093be010278c486bf26d90966c4c1671e0c46a784fe9dd92",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "1a94ef8ba7006db4093be010278c486bf26d90966c4c1671e0c46a784fe9dd92",
+      "画像ヘッダSHA256": "1a94ef8ba7006db4093be010278c486bf26d90966c4c1671e0c46a784fe9dd92",
+      "PNG": "図/TOPIX_最大絶対損益場_2026-10-29_Night.png",
+      "PNGSHA256": "96f88326daefe83f75af8041f4794b29ca5f028c297f6b5f8c11f949ae093aa6",
+      "表示範囲": {
+        "start_ms": 1793260800000,
+        "end_ms": 1793307600000,
+        "from_ms": 1793260800000,
+        "to_ms": 1793307600000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 210526,
+        "invalid_clock_rows": 688,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 203586
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-10-29_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\約定\\TOPIX\\2026-10-29_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "同場の別決済条件",
+      "資源ID": "TOPIX_2026-10-29_Night_2",
+      "銘柄": "TOPIX",
+      "場": "2026-10-29_Night",
+      "手法": "2ATR追尾",
+      "研究側純損益円": -28410.0,
+      "独立会計": {
+        "cash": -28410.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -28410,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 30,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/TOPIX/2026-10-29_Night.trades.jsonl",
+      "約定SHA256": "46e74e8996c868322fa8708047a3774c1b63ac03d11ef61999b1873573cce418",
+      "数値SHA256": "21f9b22a840aa2bbb63273c9aa67019829cce314a0f7098ebca48aa7e8020587",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "21f9b22a840aa2bbb63273c9aa67019829cce314a0f7098ebca48aa7e8020587",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793260800000,
+        "end_ms": 1793307600000,
+        "from_ms": 1793260800000,
+        "to_ms": 1793307600000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 210526,
+        "invalid_clock_rows": 688,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 203586
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-10-29_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\約定\\TOPIX\\2026-10-29_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "同場の別決済条件",
+      "資源ID": "TOPIX_2026-10-29_Night_0",
+      "銘柄": "TOPIX",
+      "場": "2026-10-29_Night",
+      "手法": "EMA決済",
+      "研究側純損益円": -24910.0,
+      "独立会計": {
+        "cash": -24910.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -24910,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 30,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/TOPIX/2026-10-29_Night.trades.jsonl",
+      "約定SHA256": "46e74e8996c868322fa8708047a3774c1b63ac03d11ef61999b1873573cce418",
+      "数値SHA256": "6593824b742c6880626a05f4c30437ee9ff5597aa89c330145eca1eb38e48b1b",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "6593824b742c6880626a05f4c30437ee9ff5597aa89c330145eca1eb38e48b1b",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793260800000,
+        "end_ms": 1793307600000,
+        "from_ms": 1793260800000,
+        "to_ms": 1793307600000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 210526,
+        "invalid_clock_rows": 688,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 203586
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-10-29_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\約定\\TOPIX\\2026-10-29_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00003_四系統の入口と決済方法の比較\\追加確認\\一覧.resources.json"
+      },
+      "一致": true
+    }
+  ],
+  "注意": "研究損益を画像表示から再算出していない。図は表示・会計の代表確認用で、選択した場を収益性の証拠にしない。"
+}

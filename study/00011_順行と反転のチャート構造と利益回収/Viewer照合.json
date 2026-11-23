@@ -1,0 +1,133 @@
+{
+  "確認日時": "2026-11-04T19:08:10.521638+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "設定": "work/viewer/conf/viewer.toml",
+  "WindowStyle": "Hidden",
+  "照合": [
+    {
+      "選択理由": "表示固定通常出口の最大絶対観測損益場と同場X0",
+      "資源ID": "00011_3分_T2_X0_2026-10-15_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-15_Day",
+      "手法": "3分_T2_X0",
+      "研究側純損益円": 4956.0,
+      "独立会計": {
+        "cash": 4956.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 2
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 4956,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 4,
+      "帰属手法の約定片数": 4,
+      "API約定片数": 4,
+      "約定ファイル": "約定/3分_T2_X0/2026-10-15_Day.trades.jsonl",
+      "約定SHA256": "74e2d5e7e623491e83351475dc7cb91e797db27ae61764fb1abe98d3a6fd7e98",
+      "数値SHA256": "3ffa54fb33286d75e26d09a8b5e75b244319ebe87f1148e81e1e4ca3d41b235a",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "3ffa54fb33286d75e26d09a8b5e75b244319ebe87f1148e81e1e4ca3d41b235a",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792021500000,
+        "end_ms": 1792046700000,
+        "from_ms": 1792021500000,
+        "to_ms": 1792046700000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 181067,
+        "invalid_clock_rows": 1191,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 169621
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00011_順行と反転のチャート構造と利益回収\\約定\\3分_T2_X0\\2026-10-15_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00011_順行と反転のチャート構造と利益回収\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 4956.0
+    },
+    {
+      "選択理由": "表示固定通常出口の最大絶対観測損益場と同場X0",
+      "資源ID": "00011_3分_T2_X1_2026-10-15_Day",
+      "銘柄": "NK225",
+      "場": "2026-10-15_Day",
+      "手法": "3分_T2_X1",
+      "研究側純損益円": 13278.0,
+      "独立会計": {
+        "cash": 13278.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 1
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 13278,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 2,
+      "帰属手法の約定片数": 2,
+      "API約定片数": 2,
+      "約定ファイル": "約定/3分_T2_X1/2026-10-15_Day.trades.jsonl",
+      "約定SHA256": "7631c326500d1bed86fa90fb0f743cd33dd1f02c3a5b824429019b3d73719d45",
+      "数値SHA256": "383806c091bc15327206dc239033f8fd5fc81fd96dfb663e84c61a52bb06c86b",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "383806c091bc15327206dc239033f8fd5fc81fd96dfb663e84c61a52bb06c86b",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792021500000,
+        "end_ms": 1792046700000,
+        "from_ms": 1792021500000,
+        "to_ms": 1792046700000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 181067,
+        "invalid_clock_rows": 1191,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 169621
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00011_順行と反転のチャート構造と利益回収\\約定\\3分_T2_X1\\2026-10-15_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00011_順行と反転のチャート構造と利益回収\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 13278.0
+    }
+  ],
+  "追加PNG数": 0,
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "パス": "market_pathは設定data_root、pnl_pathはpath_base=catalogで一覧親基準。",
+  "代表選択": "表示固定の通常出口から最大絶対観測損益、同値候補ID/場順。同場X0と比較。全65場既使用の事後表示。"
+}

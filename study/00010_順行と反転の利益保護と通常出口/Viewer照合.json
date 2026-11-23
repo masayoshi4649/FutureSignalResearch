@@ -1,0 +1,135 @@
+{
+  "確認日時": "2026-11-04T18:45:09.795892+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "設定": "work/viewer/conf/viewer.toml",
+  "WindowStyle": "Hidden",
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "パス": "market_pathは設定data_root、pnl_pathはpath_base=catalogで一覧親基準。",
+  "代表選択": "R02_X04の最大絶対観測損益場。同率は場名順。同場X00を比較。全65場既使用、表示用の事後選択。",
+  "表示コードSHA256": "1beae560a0ea810930d9bc75d5fb77eff66cfee87e844bfcb476f2f617acdded",
+  "照合": [
+    {
+      "選択理由": "通常出口の最大絶対観測損益場と同場基準",
+      "資源ID": "00010_R02_X00_2026-10-26_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-26_Night",
+      "手法": "R02_X00",
+      "研究側純損益円": 12224.0,
+      "独立会計": {
+        "cash": 12224.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 8
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 12224,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 16,
+      "帰属手法の約定片数": 16,
+      "API約定片数": 16,
+      "約定ファイル": "約定/R02_X00/2026-10-26_Night.trades.jsonl",
+      "約定SHA256": "a6812d8f0caabb08901c57bc82b6cad6c8975a6d07a79805873b8a8b4d30cc3f",
+      "数値SHA256": "f975f31102b10e7ee217231c18fb483d1312ce19026cf75c5162fc044d054361",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "f975f31102b10e7ee217231c18fb483d1312ce19026cf75c5162fc044d054361",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793001600000,
+        "end_ms": 1793048400000,
+        "from_ms": 1793001600000,
+        "to_ms": 1793048400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 196656,
+        "invalid_clock_rows": 684,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 190900
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00010_順行と反転の利益保護と通常出口\\約定\\R02_X00\\2026-10-26_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00010_順行と反転の利益保護と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 12224.0
+    },
+    {
+      "選択理由": "通常出口の最大絶対観測損益場と同場基準",
+      "資源ID": "00010_R02_X04_2026-10-26_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-26_Night",
+      "手法": "R02_X04",
+      "研究側純損益円": 11324.0,
+      "独立会計": {
+        "cash": 11324.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 8
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 11324,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 16,
+      "帰属手法の約定片数": 16,
+      "API約定片数": 16,
+      "約定ファイル": "約定/R02_X04/2026-10-26_Night.trades.jsonl",
+      "約定SHA256": "64bb1bb9daac0c0769cb3b028c85cf178222744b46a26fa8bd364086d334164f",
+      "数値SHA256": "2929dd918e49a6f30ae68f6ce2ae479c05facd48cd6f2d1b6141a0d8ee760081",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "2929dd918e49a6f30ae68f6ce2ae479c05facd48cd6f2d1b6141a0d8ee760081",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793001600000,
+        "end_ms": 1793048400000,
+        "from_ms": 1793001600000,
+        "to_ms": 1793048400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 196656,
+        "invalid_clock_rows": 684,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 190900
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00010_順行と反転の利益保護と通常出口\\約定\\R02_X04\\2026-10-26_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00010_順行と反転の利益保護と通常出口\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 11324.0
+    }
+  ],
+  "追加PNG数": 0,
+  "意味": "micro1枚代理・片道11円・追加滑り0ptの観測会計。床や通常出口の一般優位を図から主張しない。"
+}

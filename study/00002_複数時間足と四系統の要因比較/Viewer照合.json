@@ -1,0 +1,301 @@
+{
+  "確認日時": "2026-10-31T19:57:56.481034+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "カタログ": "study/00002_複数時間足と四系統の要因比較/一覧.resources.json",
+  "カタログSHA256": "29c87241a25ff9345630685dbbcf0462baa3114ddaa937bcbb1d98f433ddfdbc",
+  "API資源数": 1824,
+  "全期間で無取引の候補": [],
+  "選択規則": "各指数の基準候補の場別純損益が最大/最小の場。同値は開始日順の先頭。無取引資源は他手法の取引が多い場を優先。",
+  "Viewer実行コピー": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\viewer\\session-trade-viewer.exe",
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "表示設定": {
+    "interval": "5",
+    "price": "last",
+    "width": 1600,
+    "height": 1200
+  },
+  "照合": [
+    {
+      "選択理由": "最大利益場",
+      "資源ID": "NK225_2026-10-16_Night_0",
+      "銘柄": "NK225",
+      "場": "2026-10-16_Night",
+      "手法": "基準",
+      "研究側純損益円": 9790.0,
+      "独立会計": {
+        "cash": 9790.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 9790,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 132,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/NK225/2026-10-16_Night.trades.jsonl",
+      "約定SHA256": "b369865d7ac680f5ccee52661bc059b3fb650e913b9bbb9e089158c4c9bf0eb2",
+      "数値SHA256": "a153d4d3c3defa2241c2ff54b4826550b86d13c6c1ba356f609316714999f923",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "a153d4d3c3defa2241c2ff54b4826550b86d13c6c1ba356f609316714999f923",
+      "画像ヘッダSHA256": "a153d4d3c3defa2241c2ff54b4826550b86d13c6c1ba356f609316714999f923",
+      "PNG": "図/NK225_最大利益場_2026-10-16_Night.png",
+      "PNGSHA256": "57ab54a0bfc19b60458121138c664b74d8ebbe03401f8dcd7b17ff61ed808ab0",
+      "表示範囲": {
+        "start_ms": 1792137600000,
+        "end_ms": 1792184400000,
+        "from_ms": 1792137600000,
+        "to_ms": 1792184400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 211313,
+        "invalid_clock_rows": 713,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 204454
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\約定\\NK225\\2026-10-16_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "最大損失場",
+      "資源ID": "NK225_2026-10-19_Night_0",
+      "銘柄": "NK225",
+      "場": "2026-10-19_Night",
+      "手法": "基準",
+      "研究側純損益円": -10486.0,
+      "独立会計": {
+        "cash": -10486.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 13
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -10486,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 188,
+      "帰属手法の約定片数": 26,
+      "API約定片数": 26,
+      "約定ファイル": "約定/NK225/2026-10-19_Night.trades.jsonl",
+      "約定SHA256": "bc9209b6b4c6ed5a4a77d53070c2273832258225fb709c31326218b69767aea0",
+      "数値SHA256": "e3b40a6fa5d884e97061aa6f3a0d028991706384b3a9cea6a3009082b7a14b7d",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "e3b40a6fa5d884e97061aa6f3a0d028991706384b3a9cea6a3009082b7a14b7d",
+      "画像ヘッダSHA256": "e3b40a6fa5d884e97061aa6f3a0d028991706384b3a9cea6a3009082b7a14b7d",
+      "PNG": "図/NK225_最大損失場_2026-10-19_Night.png",
+      "PNGSHA256": "b92cd72426a1b781d6028033a1ac6074c9583a5bcb9e9b8fc04dba6bc5076680",
+      "表示範囲": {
+        "start_ms": 1792396800000,
+        "end_ms": 1792443600000,
+        "from_ms": 1792396800000,
+        "to_ms": 1792443600000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 189351,
+        "invalid_clock_rows": 569,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 183713
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\約定\\NK225\\2026-10-19_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "最大利益場",
+      "資源ID": "TOPIX_2026-09-30_Day_0",
+      "銘柄": "TOPIX",
+      "場": "2026-09-30_Day",
+      "手法": "基準",
+      "研究側純損益円": 33836.0,
+      "独立会計": {
+        "cash": 33836.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 2
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 33836,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 32,
+      "帰属手法の約定片数": 4,
+      "API約定片数": 4,
+      "約定ファイル": "約定/TOPIX/2026-09-30_Day.trades.jsonl",
+      "約定SHA256": "575411022ea882b5ec6e39fae8043ef158de6eff1da96aee56ca83d2797a2796",
+      "数値SHA256": "7a5c3beabc977852616fbf51e5e4e397a34898a15d823de9b751cab4c11123c9",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "7a5c3beabc977852616fbf51e5e4e397a34898a15d823de9b751cab4c11123c9",
+      "画像ヘッダSHA256": "7a5c3beabc977852616fbf51e5e4e397a34898a15d823de9b751cab4c11123c9",
+      "PNG": "図/TOPIX_最大利益場_2026-09-30_Day.png",
+      "PNGSHA256": "42209510a3e2fccf20f6b49db5f17085e41e3e9bc53b5246357ce3729ae21d24",
+      "表示範囲": {
+        "start_ms": 1790725500000,
+        "end_ms": 1790750700000,
+        "from_ms": 1790725500000,
+        "to_ms": 1790750700000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 123566,
+        "invalid_clock_rows": 456,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 115001
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-09-30_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\約定\\TOPIX\\2026-09-30_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "最大損失場",
+      "資源ID": "TOPIX_2026-10-15_Night_0",
+      "銘柄": "TOPIX",
+      "場": "2026-10-15_Night",
+      "手法": "基準",
+      "研究側純損益円": -39402.0,
+      "独立会計": {
+        "cash": -39402.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 11
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -39402,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 160,
+      "帰属手法の約定片数": 22,
+      "API約定片数": 22,
+      "約定ファイル": "約定/TOPIX/2026-10-15_Night.trades.jsonl",
+      "約定SHA256": "347e44d09cd8b31b36fa6e145c7b7fd14fc6bfa3a96af0a882e6e4247a1004ec",
+      "数値SHA256": "10f49b5d6a0f4f7f18b748ef370c654df5877e3f738a339efbd80d74bf5cd08b",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "10f49b5d6a0f4f7f18b748ef370c654df5877e3f738a339efbd80d74bf5cd08b",
+      "画像ヘッダSHA256": "10f49b5d6a0f4f7f18b748ef370c654df5877e3f738a339efbd80d74bf5cd08b",
+      "PNG": "図/TOPIX_最大損失場_2026-10-15_Night.png",
+      "PNGSHA256": "8e7ac6e168d28ad49c7af7e502e25caa0a39fd57c6ce7aec049e69f42d39308f",
+      "表示範囲": {
+        "start_ms": 1792051200000,
+        "end_ms": 1792098000000,
+        "from_ms": 1792051200000,
+        "to_ms": 1792098000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 204917,
+        "invalid_clock_rows": 957,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 196874
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-10-15_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\約定\\TOPIX\\2026-10-15_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\一覧.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "選択理由": "無取引手法の帰属分離",
+      "資源ID": "TOPIX_2026-10-28_Night_15",
+      "銘柄": "TOPIX",
+      "場": "2026-10-28_Night",
+      "手法": "M+R+V+B",
+      "研究側純損益円": 0.0,
+      "独立会計": {
+        "cash": 0.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 0
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 0,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 132,
+      "帰属手法の約定片数": 0,
+      "API約定片数": 0,
+      "約定ファイル": "約定/TOPIX/2026-10-28_Night.trades.jsonl",
+      "約定SHA256": "bb04a5317f4d05c07655190ec175e44ff96c309cb420af7ebd60def52dddee37",
+      "数値SHA256": "29c7ba94565a0ef948c939e729b64f038d37b4daa67225a5d59fa19150184d73",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "29c7ba94565a0ef948c939e729b64f038d37b4daa67225a5d59fa19150184d73",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793174400000,
+        "end_ms": 1793221200000,
+        "from_ms": 1793174400000,
+        "to_ms": 1793221200000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 188367,
+        "invalid_clock_rows": 809,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 181847
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-10-28_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\約定\\TOPIX\\2026-10-28_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00002_複数時間足と四系統の要因比較\\一覧.resources.json"
+      },
+      "一致": true
+    }
+  ],
+  "注意": "研究損益を画像表示から再算出していない。図の選択は代表確認用で、選択した4場を収益性の証拠にしない。"
+}

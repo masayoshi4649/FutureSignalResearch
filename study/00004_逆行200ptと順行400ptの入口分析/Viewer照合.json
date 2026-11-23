@@ -1,0 +1,229 @@
+{
+  "確認日時": "2026-11-01T15:44:16.186451+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "API資源数": 4,
+  "カタログ": "study/00004_逆行200ptと順行400ptの入口分析/シナリオ.resources.json",
+  "カタログSHA256": "ea33dd0db6d47e9140b16fde1c6b9ff8cbe2464a05052766818022ce3d5e1a16",
+  "Viewer実行コピー": "work/viewer/session-trade-viewer.exe",
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "表示設定": {
+    "interval": "5",
+    "price": "last",
+    "width": 2000,
+    "height": 1300
+  },
+  "照合": [
+    {
+      "資源ID": "単独例_整合突破_順行先着_NK225_2026-09-21_Night_069_1",
+      "条件群": "整合突破",
+      "ラベル": "順行先着",
+      "イベントID": "NK225_2026-09-21_Night_069_1",
+      "独立会計_単独例粗損益円": 3900.0,
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 3900,
+        "unrealized_pnl_yen": 0
+      },
+      "API約定片数": 2,
+      "約定": "シナリオ/整合突破_順行先着_NK225_2026-09-21_Night_069_1.trades.jsonl",
+      "約定SHA256": "f55f6d17c6bacd686320840b8fa50e655bee27614c316feaee5fd36a211ef693",
+      "原行BBOの照合": "代表事例生成時に新規・到達・返済を固定npzで照合。Viewerのeventsにはsource_line列はない。",
+      "到達時計JST": "2026-09-22T00:36:44+09:00",
+      "返済時計JST": "2026-09-22T00:36:45+09:00",
+      "到達返済気配": 66290.0,
+      "返済価格": 66280.0,
+      "数値SHA256": "9d6cc9b640d469f6c882e0541f21e517ce6b9a2f51e4af00c8edaa1642822b51",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "9d6cc9b640d469f6c882e0541f21e517ce6b9a2f51e4af00c8edaa1642822b51",
+      "画像ヘッダSHA256": "9d6cc9b640d469f6c882e0541f21e517ce6b9a2f51e4af00c8edaa1642822b51",
+      "PNG": "図/整合突破_順行先着_NK225_2026-09-21_Night_069_1.png",
+      "PNGSHA256": "0efe093ecd2b2eddf384b03f2b8c0e9cc9cd8b597f1c938fa97f537ea8362a35",
+      "表示範囲": {
+        "start_ms": 1789977600000,
+        "end_ms": 1790024400000,
+        "from_ms": 1789997729000,
+        "to_ms": 1790005905000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 81631,
+        "invalid_clock_rows": 286,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 79442
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ\\整合突破_順行先着_NK225_2026-09-21_Night_069_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "資源ID": "単独例_整合突破_逆行先着_NK225_2026-09-21_Night_048_1",
+      "条件群": "整合突破",
+      "ラベル": "逆行先着",
+      "イベントID": "NK225_2026-09-21_Night_048_1",
+      "独立会計_単独例粗損益円": -2000.0,
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -2000,
+        "unrealized_pnl_yen": 0
+      },
+      "API約定片数": 2,
+      "約定": "シナリオ/整合突破_逆行先着_NK225_2026-09-21_Night_048_1.trades.jsonl",
+      "約定SHA256": "0e8e834b6eb40315e36c56282b3d98f9f66d5492abf416e707d59b2d856493f1",
+      "原行BBOの照合": "代表事例生成時に新規・到達・返済を固定npzで照合。Viewerのeventsにはsource_line列はない。",
+      "到達時計JST": "2026-09-21T22:28:57+09:00",
+      "返済時計JST": "2026-09-21T22:29:31+09:00",
+      "到達返済気配": 65730.0,
+      "返済価格": 65730.0,
+      "数値SHA256": "9cd09be8bf0569efb23b054e9855f48a35bb081f86cacfecf4317da9dc78fb06",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "9cd09be8bf0569efb23b054e9855f48a35bb081f86cacfecf4317da9dc78fb06",
+      "画像ヘッダSHA256": "9cd09be8bf0569efb23b054e9855f48a35bb081f86cacfecf4317da9dc78fb06",
+      "PNG": "図/整合突破_逆行先着_NK225_2026-09-21_Night_048_1.png",
+      "PNGSHA256": "66a2721220f83d03992fe1fa41d44549bf65e19c6d40b9bdda49bbf8eb446582",
+      "表示範囲": {
+        "start_ms": 1789977600000,
+        "end_ms": 1790024400000,
+        "from_ms": 1789991417000,
+        "to_ms": 1789998271000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 81631,
+        "invalid_clock_rows": 286,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 79442
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ\\整合突破_逆行先着_NK225_2026-09-21_Night_048_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "資源ID": "単独例_押し戻り復帰_順行先着_NK225_2026-09-21_Night_068_1",
+      "条件群": "押し戻り復帰",
+      "ラベル": "順行先着",
+      "イベントID": "NK225_2026-09-21_Night_068_1",
+      "独立会計_単独例粗損益円": 3900.0,
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 3900,
+        "unrealized_pnl_yen": 0
+      },
+      "API約定片数": 2,
+      "約定": "シナリオ/押し戻り復帰_順行先着_NK225_2026-09-21_Night_068_1.trades.jsonl",
+      "約定SHA256": "76c2a830be91804a3d3c583a51bced63c595af68d3187346510a0144085b6c82",
+      "原行BBOの照合": "代表事例生成時に新規・到達・返済を固定npzで照合。Viewerのeventsにはsource_line列はない。",
+      "到達時計JST": "2026-09-22T00:03:59+09:00",
+      "返済時計JST": "2026-09-22T00:04:36+09:00",
+      "到達返済気配": 66240.0,
+      "返済価格": 66230.0,
+      "数値SHA256": "1877d4719789dacb5872bc7a51d8d08e5e10f446d746c50cfec3a319775ac157",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "1877d4719789dacb5872bc7a51d8d08e5e10f446d746c50cfec3a319775ac157",
+      "画像ヘッダSHA256": "1877d4719789dacb5872bc7a51d8d08e5e10f446d746c50cfec3a319775ac157",
+      "PNG": "図/押し戻り復帰_順行先着_NK225_2026-09-21_Night_068_1.png",
+      "PNGSHA256": "92567007017a7f143b060ccc51b23d5915650098920f724a904d970908d1fb94",
+      "表示範囲": {
+        "start_ms": 1789977600000,
+        "end_ms": 1790024400000,
+        "from_ms": 1789997406000,
+        "to_ms": 1790003976000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 81631,
+        "invalid_clock_rows": 286,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 79442
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ\\押し戻り復帰_順行先着_NK225_2026-09-21_Night_068_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ.resources.json"
+      },
+      "一致": true
+    },
+    {
+      "資源ID": "単独例_押し戻り復帰_逆行先着_NK225_2026-09-24_Night_124_1",
+      "条件群": "押し戻り復帰",
+      "ラベル": "逆行先着",
+      "イベントID": "NK225_2026-09-24_Night_124_1",
+      "独立会計_単独例粗損益円": -2000.0,
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -2000,
+        "unrealized_pnl_yen": 0
+      },
+      "API約定片数": 2,
+      "約定": "シナリオ/押し戻り復帰_逆行先着_NK225_2026-09-24_Night_124_1.trades.jsonl",
+      "約定SHA256": "1313501c328d73d1c7cf80dff0df52f602599719197ccc75c88ac2ba7aeda611",
+      "原行BBOの照合": "代表事例生成時に新規・到達・返済を固定npzで照合。Viewerのeventsにはsource_line列はない。",
+      "到達時計JST": "2026-09-25T05:18:07+09:00",
+      "返済時計JST": "2026-09-25T05:18:19+09:00",
+      "到達返済気配": 65420.0,
+      "返済価格": 65420.0,
+      "数値SHA256": "ed69169a35fa3b7396caa7b226de031e95255d6d88cad2ffd6d593d9ff999571",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "ed69169a35fa3b7396caa7b226de031e95255d6d88cad2ffd6d593d9ff999571",
+      "画像ヘッダSHA256": "ed69169a35fa3b7396caa7b226de031e95255d6d88cad2ffd6d593d9ff999571",
+      "PNG": "図/押し戻り復帰_逆行先着_NK225_2026-09-24_Night_124_1.png",
+      "PNGSHA256": "7f45371bfd448d17ed351aac2c3dabf27693ff759db8908f06e481b87d3fb89c",
+      "表示範囲": {
+        "start_ms": 1790236800000,
+        "end_ms": 1790283600000,
+        "from_ms": 1790273417000,
+        "to_ms": 1790281999000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 177254,
+        "invalid_clock_rows": 539,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 172752
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ\\押し戻り復帰_逆行先着_NK225_2026-09-24_Night_124_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00004_逆行200ptと順行400ptの入口分析\\シナリオ.resources.json"
+      },
+      "一致": true
+    }
+  ],
+  "全件一致": true,
+  "注意": "独立入口の単独2約定例。ラベルは返済約定・運用損益とは別。全件ラベルの証明は独立照合結果.jsonで行う。PNG代表4例は収益性の立証ではない。"
+}

@@ -1,0 +1,289 @@
+{
+  "確認日時": "2026-10-30T11:51:04.446073+09:00",
+  "接続先": "http://127.0.0.1:8092/",
+  "全件一致": true,
+  "選択規則": "指数ごとに未使用評価・方向条件の最大利益場と最大損失場。結果の代表性や平均成績を示す選択ではない。",
+  "Viewerコミット": "74169d50d0726cf3285cc901517789795ae8c8fe",
+  "共通指定": {
+    "catalog_path": "study/00001_MACDと方向条件の比較/一覧.resources.json",
+    "interval": "5",
+    "price": "last",
+    "width": 1600,
+    "height": 1200,
+    "範囲": "全セッション"
+  },
+  "原系列の保存": "API数値の原系列は複製せず、指紋・終端状態・品質・出所のみ保存した。",
+  "資源": [
+    {
+      "選択": "最大利益場",
+      "銘柄": "NK225",
+      "場": "2026-10-20_Day",
+      "期間": "未使用評価",
+      "手法": "方向条件",
+      "資源ID": "NK225_2026-10-20_Day_1",
+      "取引数": 3,
+      "CSV純損益円": "2834.0",
+      "Viewer終端": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 2834,
+        "unrealized_pnl_yen": 0
+      },
+      "照合": {
+        "純損益一致": true,
+        "買数量ゼロ": true,
+        "売数量ゼロ": true,
+        "含みゼロ": true,
+        "約定片数一致": true,
+        "メタと数値の状態一致": true
+      },
+      "画像": "図/NK225_2026-10-20_Day_最大利益場.png",
+      "画像バイト": 142039,
+      "画像SHA256": "abbe86d4f6f309d429237059440de7f08c39ef7fc913f3b3c0bbc26e4362d23e",
+      "データ指紋": "70c76f6fc3c968df50d2903035f6f03334cb77b0926cc5c5202982c53d1c9559",
+      "指紋一致": true,
+      "指紋の照合値": {
+        "メタヘッダー": "70c76f6fc3c968df50d2903035f6f03334cb77b0926cc5c5202982c53d1c9559",
+        "PNGヘッダー": "70c76f6fc3c968df50d2903035f6f03334cb77b0926cc5c5202982c53d1c9559",
+        "数値ヘッダー": "70c76f6fc3c968df50d2903035f6f03334cb77b0926cc5c5202982c53d1c9559",
+        "数値応答SHA256": "70c76f6fc3c968df50d2903035f6f03334cb77b0926cc5c5202982c53d1c9559"
+      },
+      "表示範囲": {
+        "start_ms": 1792453500000,
+        "end_ms": 1792478700000,
+        "from_ms": 1792453500000,
+        "to_ms": 1792478700000
+      },
+      "終端評価時刻ms": 1792478700000,
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 167977,
+        "invalid_clock_rows": 913,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 159247
+      },
+      "縮約": {
+        "price_input": 167059,
+        "price_output": 84,
+        "state_input": 167073,
+        "state_output": 84,
+        "algorithm": "ohlc_interval_last_state"
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\約定\\NK225\\2026-10-20_Day_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\一覧.resources.json"
+      }
+    },
+    {
+      "選択": "最大損失場",
+      "銘柄": "NK225",
+      "場": "2026-10-26_Day",
+      "期間": "未使用評価",
+      "手法": "方向条件",
+      "資源ID": "NK225_2026-10-26_Day_1",
+      "取引数": 6,
+      "CSV純損益円": "-8732.0",
+      "Viewer終端": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -8732,
+        "unrealized_pnl_yen": 0
+      },
+      "照合": {
+        "純損益一致": true,
+        "買数量ゼロ": true,
+        "売数量ゼロ": true,
+        "含みゼロ": true,
+        "約定片数一致": true,
+        "メタと数値の状態一致": true
+      },
+      "画像": "図/NK225_2026-10-26_Day_最大損失場.png",
+      "画像バイト": 142517,
+      "画像SHA256": "07683ffaa839198750bd457db4281ba681db3d46e7c1aeb3eb7fd53f01635cf1",
+      "データ指紋": "49c071f3d25da84f58578d2c850ff6fba3894a2e84e6f49963cef796c2345ea4",
+      "指紋一致": true,
+      "指紋の照合値": {
+        "メタヘッダー": "49c071f3d25da84f58578d2c850ff6fba3894a2e84e6f49963cef796c2345ea4",
+        "PNGヘッダー": "49c071f3d25da84f58578d2c850ff6fba3894a2e84e6f49963cef796c2345ea4",
+        "数値ヘッダー": "49c071f3d25da84f58578d2c850ff6fba3894a2e84e6f49963cef796c2345ea4",
+        "数値応答SHA256": "49c071f3d25da84f58578d2c850ff6fba3894a2e84e6f49963cef796c2345ea4"
+      },
+      "表示範囲": {
+        "start_ms": 1792971900000,
+        "end_ms": 1792997100000,
+        "from_ms": 1792971900000,
+        "to_ms": 1792997100000
+      },
+      "終端評価時刻ms": 1792997100000,
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 167154,
+        "invalid_clock_rows": 1859,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 158134
+      },
+      "縮約": {
+        "price_input": 165295,
+        "price_output": 84,
+        "state_input": 165321,
+        "state_output": 84,
+        "algorithm": "ohlc_interval_last_state"
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\約定\\NK225\\2026-10-26_Day_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\一覧.resources.json"
+      }
+    },
+    {
+      "選択": "最大利益場",
+      "銘柄": "TOPIX",
+      "場": "2026-10-20_Night",
+      "期間": "未使用評価",
+      "手法": "方向条件",
+      "資源ID": "TOPIX_2026-10-20_Night_1",
+      "取引数": 7,
+      "CSV純損益円": "19426.0",
+      "Viewer終端": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 19426,
+        "unrealized_pnl_yen": 0
+      },
+      "照合": {
+        "純損益一致": true,
+        "買数量ゼロ": true,
+        "売数量ゼロ": true,
+        "含みゼロ": true,
+        "約定片数一致": true,
+        "メタと数値の状態一致": true
+      },
+      "画像": "図/TOPIX_2026-10-20_Night_最大利益場.png",
+      "画像バイト": 153164,
+      "画像SHA256": "266a8c63617cf3b787cf5d7c685d769fa10181774a0e68b83fe167386c463c1b",
+      "データ指紋": "5fa94ab5aca7bc61b13344c4877507463a374bb6d49cb9a5e412662a71504687",
+      "指紋一致": true,
+      "指紋の照合値": {
+        "メタヘッダー": "5fa94ab5aca7bc61b13344c4877507463a374bb6d49cb9a5e412662a71504687",
+        "PNGヘッダー": "5fa94ab5aca7bc61b13344c4877507463a374bb6d49cb9a5e412662a71504687",
+        "数値ヘッダー": "5fa94ab5aca7bc61b13344c4877507463a374bb6d49cb9a5e412662a71504687",
+        "数値応答SHA256": "5fa94ab5aca7bc61b13344c4877507463a374bb6d49cb9a5e412662a71504687"
+      },
+      "表示範囲": {
+        "start_ms": 1792483200000,
+        "end_ms": 1792530000000,
+        "from_ms": 1792483200000,
+        "to_ms": 1792530000000
+      },
+      "終端評価時刻ms": 1792530000000,
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 195567,
+        "invalid_clock_rows": 855,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 188534
+      },
+      "縮約": {
+        "price_input": 194696,
+        "price_output": 156,
+        "state_input": 194726,
+        "state_output": 156,
+        "algorithm": "ohlc_interval_last_state"
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-10-20_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\約定\\TOPIX\\2026-10-20_Night_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\一覧.resources.json"
+      }
+    },
+    {
+      "選択": "最大損失場",
+      "銘柄": "TOPIX",
+      "場": "2026-10-21_Day",
+      "期間": "未使用評価",
+      "手法": "方向条件",
+      "資源ID": "TOPIX_2026-10-21_Day_1",
+      "取引数": 6,
+      "CSV純損益円": "-43492.0",
+      "Viewer終端": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -43492,
+        "unrealized_pnl_yen": 0
+      },
+      "照合": {
+        "純損益一致": true,
+        "買数量ゼロ": true,
+        "売数量ゼロ": true,
+        "含みゼロ": true,
+        "約定片数一致": true,
+        "メタと数値の状態一致": true
+      },
+      "画像": "図/TOPIX_2026-10-21_Day_最大損失場.png",
+      "画像バイト": 140814,
+      "画像SHA256": "481c9f48ca20cf6ceeb225ff258625ecaa6f368cc35ae11968a3388d5421e2d5",
+      "データ指紋": "b5cecdea5c2a9ecc620cd50ad1785dd9c059aa5a480aba699bc2c4158a94d09e",
+      "指紋一致": true,
+      "指紋の照合値": {
+        "メタヘッダー": "b5cecdea5c2a9ecc620cd50ad1785dd9c059aa5a480aba699bc2c4158a94d09e",
+        "PNGヘッダー": "b5cecdea5c2a9ecc620cd50ad1785dd9c059aa5a480aba699bc2c4158a94d09e",
+        "数値ヘッダー": "b5cecdea5c2a9ecc620cd50ad1785dd9c059aa5a480aba699bc2c4158a94d09e",
+        "数値応答SHA256": "b5cecdea5c2a9ecc620cd50ad1785dd9c059aa5a480aba699bc2c4158a94d09e"
+      },
+      "表示範囲": {
+        "start_ms": 1792539900000,
+        "end_ms": 1792565100000,
+        "from_ms": 1792539900000,
+        "to_ms": 1792565100000
+      },
+      "終端評価時刻ms": 1792565100000,
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 136414,
+        "invalid_clock_rows": 698,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 128145
+      },
+      "縮約": {
+        "price_input": 135708,
+        "price_output": 84,
+        "state_input": 135734,
+        "state_output": 84,
+        "algorithm": "ohlc_interval_last_state"
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\TOPIX\\2026-10-21_Day\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\約定\\TOPIX\\2026-10-21_Day_1.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00001_MACDと方向条件の比較\\一覧.resources.json"
+      }
+    }
+  ],
+  "目視確認": {
+    "実施": true,
+    "枚数": 4,
+    "観点": [
+      "日本語の見出し・凡例・時刻・価格軸を読める",
+      "価格・売保有・買保有・確定損益・含み損益の5段が欠けていない",
+      "期間末に買保有・売保有・含みがゼロとなる",
+      "確定損益の正負とCSVの最終値が整合する"
+    ],
+    "注意": "末尾の原板観測が場末前のため、未完区間の暫定足というViewerの注記を残した。画像は未使用期間から損益の両端を選んだ例であり、平均成績の代表標本ではない。"
+  }
+}

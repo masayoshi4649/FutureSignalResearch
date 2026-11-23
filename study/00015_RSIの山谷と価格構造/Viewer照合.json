@@ -1,0 +1,133 @@
+{
+  "確認日時": "2026-11-04T20:35:17.846377+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "設定": "work/viewer/conf/viewer.toml",
+  "WindowStyle": "Hidden",
+  "照合": [
+    {
+      "選択理由": "最大絶対観測損益場の同系統補助比較",
+      "資源ID": "00015_3分_押し戻り継続_なし_X0_2026-10-16_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-16_Night",
+      "手法": "3分_押し戻り継続_なし_X0",
+      "研究側純損益円": 7434.0,
+      "独立会計": {
+        "cash": 7434.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 3
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 7434,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 6,
+      "帰属手法の約定片数": 6,
+      "API約定片数": 6,
+      "約定ファイル": "約定/3分_押し戻り継続_なし_X0/2026-10-16_Night.trades.jsonl",
+      "約定SHA256": "779d9bde6187b53605dd0a7a8b9fd5ba0c892a5d1c5cd2965178aea8ac24fb25",
+      "数値SHA256": "c3e2e541550bcf4aceb34df0948439a4715a9be1fc66b3015f7f7561a2f9c747",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "c3e2e541550bcf4aceb34df0948439a4715a9be1fc66b3015f7f7561a2f9c747",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792137600000,
+        "end_ms": 1792184400000,
+        "from_ms": 1792137600000,
+        "to_ms": 1792184400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 211313,
+        "invalid_clock_rows": 713,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 204454
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00015_RSIの山谷と価格構造\\約定\\3分_押し戻り継続_なし_X0\\2026-10-16_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00015_RSIの山谷と価格構造\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 7434.0
+    },
+    {
+      "選択理由": "最大絶対観測損益場の同系統補助比較",
+      "資源ID": "00015_3分_押し戻り継続_ネック位置確認_X0_2026-10-16_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-16_Night",
+      "手法": "3分_押し戻り継続_ネック位置確認_X0",
+      "研究側純損益円": 2478.0,
+      "独立会計": {
+        "cash": 2478.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 1
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 2478,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 2,
+      "帰属手法の約定片数": 2,
+      "API約定片数": 2,
+      "約定ファイル": "約定/3分_押し戻り継続_ネック位置確認_X0/2026-10-16_Night.trades.jsonl",
+      "約定SHA256": "e184a2f2be5194b8fe5841944c70238628758dd1febb8b942a4326f2868a7521",
+      "数値SHA256": "626aae05ea9af79bee8fae0a7dc837abd803e7f7b4a6be03f7d376fbae3dfdd5",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "626aae05ea9af79bee8fae0a7dc837abd803e7f7b4a6be03f7d376fbae3dfdd5",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792137600000,
+        "end_ms": 1792184400000,
+        "from_ms": 1792137600000,
+        "to_ms": 1792184400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 211313,
+        "invalid_clock_rows": 713,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 204454
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00015_RSIの山谷と価格構造\\約定\\3分_押し戻り継続_ネック位置確認_X0\\2026-10-16_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00015_RSIの山谷と価格構造\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 2478.0
+    }
+  ],
+  "追加PNG数": 0,
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "パス": "market_pathは設定data_root、pnl_pathはpath_base=catalogで一覧親基準。",
+  "代表規則": "全12候補・65場から最大絶対観測損益、同値候補ID/場順。同尺度同系統のネック位置条件2つを比較する事後表示で、採用選択ではない。"
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "resources": [
+    {
+      "id": "00008_5分_RSI回復_40_なし_2026-11-04_Day",
+      "title": "2026-11-04_Day 5分_RSI回復_40_なし 基準費用・観測代理",
+      "symbol": "NK225",
+      "session": "2026-11-04_Day",
+      "product": "NK225micro",
+      "method_id": "5分_RSI回復_40_なし",
+      "entry_method_id": "5分_RSI回復_40_なし",
+      "point_value": 10,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "pnl_path": "約定/5分_RSI回復_40_なし/2026-11-04_Day.trades.jsonl",
+      "market_path": "NK225/2026-11-04_Day/book.jsonl"
+    },
+    {
+      "id": "00008_対照_3分開始15分失敗復帰_ADX20未満_2026-11-04_Day",
+      "title": "2026-11-04_Day 対照_3分開始15分失敗復帰_ADX20未満 基準費用・観測代理",
+      "symbol": "NK225",
+      "session": "2026-11-04_Day",
+      "product": "NK225micro",
+      "method_id": "対照_3分開始15分失敗復帰_ADX20未満",
+      "entry_method_id": "対照_3分開始15分失敗復帰_ADX20未満",
+      "point_value": 10,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "pnl_path": "約定/対照_3分開始15分失敗復帰_ADX20未満/2026-11-04_Day.trades.jsonl",
+      "market_path": "NK225/2026-11-04_Day/book.jsonl"
+    }
+  ]
+}

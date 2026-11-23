@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "path_base": "catalog",
+  "resources": [
+    {
+      "id": "00007_2026-11-02_Day",
+      "title": "2026-11-02_Day 固定入口・追加滑り0pt・観測代理",
+      "symbol": "NK225",
+      "session": "2026-11-02_Day",
+      "product": "NK225micro",
+      "method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "entry_method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "point_value": 10,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "pnl_path": "約定/NK225/2026-11-02_Day.trades.jsonl",
+      "market_path": "NK225/2026-11-02_Day/book.jsonl.gz"
+    },
+    {
+      "id": "00007_2026-11-02_Night",
+      "title": "2026-11-02_Night 固定入口・追加滑り0pt・観測代理",
+      "symbol": "NK225",
+      "session": "2026-11-02_Night",
+      "product": "NK225micro",
+      "method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "entry_method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "point_value": 10,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "pnl_path": "約定/NK225/2026-11-02_Night.trades.jsonl",
+      "market_path": "NK225/2026-11-02_Night/book.jsonl"
+    },
+    {
+      "id": "00007_2026-11-03_Day",
+      "title": "2026-11-03_Day 固定入口・追加滑り0pt・観測代理",
+      "symbol": "NK225",
+      "session": "2026-11-03_Day",
+      "product": "NK225micro",
+      "method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "entry_method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "point_value": 10,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "pnl_path": "約定/NK225/2026-11-03_Day.trades.jsonl",
+      "market_path": "NK225/2026-11-03_Day/book.jsonl"
+    },
+    {
+      "id": "00007_2026-11-03_Night",
+      "title": "2026-11-03_Night 固定入口・追加滑り0pt・観測代理",
+      "symbol": "NK225",
+      "session": "2026-11-03_Night",
+      "product": "NK225micro",
+      "method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "entry_method_id": "3分_開始幅失敗復帰_15_ADX環境",
+      "point_value": 10,
+      "pnl_format": "trades",
+      "pnl_basis": "net",
+      "pnl_path": "約定/NK225/2026-11-03_Night.trades.jsonl",
+      "market_path": "NK225/2026-11-03_Night/book.jsonl"
+    }
+  ]
+}

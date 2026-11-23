@@ -1,0 +1,4006 @@
+{
+  "schema_version": 1,
+  "created_at_jst": "2026-11-04T16:07:19.129601+09:00",
+  "source_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+  "entries": [
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Day",
+      "source_path": "NK225/2026-09-21_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-21_Day.npz",
+      "source_size": 1140467,
+      "source_mtime_ns": 1792680356896022600,
+      "raw_lines": 56436,
+      "decoded_rows": 56436,
+      "events": 12332,
+      "omitted_identical": 44104,
+      "sha256_uncompressed": "332b5885814a21de36ea002eb99ef9fde16487f8cfaccb438620089d304c4888",
+      "sha256_cache": "e3f38d90b66ff5b421172457a17f91941d3d4d51661ea60f69671e78d9664865",
+      "cache_size": 43842,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 16,
+        "last_missing_or_nonpositive": 16,
+        "invalid_bbo_or_quantity": 146,
+        "volume_missing_or_invalid": 16,
+        "volume_clock_missing_or_invalid": 16,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 56420,
+        "same_price_clock_rows": 55221,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 12332,
+          "price_clock_missing": 8,
+          "in_session_events": 12324,
+          "volume_pair_changes": 1354,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 12324,
+          "initial_baselines": 1,
+          "positive_delta_updates": 1353
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-21_Night",
+      "source_path": "NK225/2026-09-21_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-21_Night.npz",
+      "source_size": 1492173,
+      "source_mtime_ns": 1792680356460723500,
+      "raw_lines": 81631,
+      "decoded_rows": 81631,
+      "events": 15708,
+      "omitted_identical": 65923,
+      "sha256_uncompressed": "887ce536c0416748da79533b20a8af499cefb106cebf1852966c09a3316e8b32",
+      "sha256_cache": "053b9271e57921d776aa3d68970567ae725ce9355c2181f73af13a7112e63d79",
+      "cache_size": 56725,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 286,
+        "last_missing_or_nonpositive": 286,
+        "invalid_bbo_or_quantity": 364,
+        "volume_missing_or_invalid": 286,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 5,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 81345,
+        "same_price_clock_rows": 79445,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 15708,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 16,
+          "in_session_events": 15688,
+          "volume_pair_changes": 2273,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 15688,
+          "initial_baselines": 4,
+          "positive_delta_updates": 2269,
+          "gaps": 3,
+          "missing_five_minute_buckets": 3
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 152,
+        "baseline_complete_bars": 148,
+        "baseline_incomplete_bars": 4,
+        "longest_complete_run": 144,
+        "rvol_previous_twenty_available_bars": 124,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Day",
+      "source_path": "NK225/2026-09-22_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-22_Day.npz",
+      "source_size": 1375825,
+      "source_mtime_ns": 1792680356918531900,
+      "raw_lines": 67575,
+      "decoded_rows": 67575,
+      "events": 15240,
+      "omitted_identical": 52335,
+      "sha256_uncompressed": "1e0f54c99956b18bb92db9ba8d278c7e747115499305c8cba4e7b56f0dffdabd",
+      "sha256_cache": "be96657af5e876019ff99a47470667a2e6117b3f0b95731fc7ddb82ab0dd40da",
+      "cache_size": 54635,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 567,
+        "last_missing_or_nonpositive": 567,
+        "invalid_bbo_or_quantity": 715,
+        "volume_missing_or_invalid": 567,
+        "volume_clock_missing_or_invalid": 567,
+        "price_clock_outside_regular_session": 7,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 67008,
+        "same_price_clock_rows": 65319,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 15240,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 46,
+          "in_session_events": 15190,
+          "volume_pair_changes": 1889,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 15190,
+          "initial_baselines": 1,
+          "positive_delta_updates": 1888
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-22_Night",
+      "source_path": "NK225/2026-09-22_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-22_Night.npz",
+      "source_size": 2291273,
+      "source_mtime_ns": 1792680352302103300,
+      "raw_lines": 121169,
+      "decoded_rows": 121169,
+      "events": 30203,
+      "omitted_identical": 90966,
+      "sha256_uncompressed": "ac5cb5721e1db13fa6d92ed27ab8d85ae8fd9c30e9185a1386bbb34ecf7f7cbb",
+      "sha256_cache": "1b6a1a748dce1442569edd9b53795f388c042546f254fd5aeef8fd5c54ccaf80",
+      "cache_size": 99210,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 436,
+        "last_missing_or_nonpositive": 436,
+        "invalid_bbo_or_quantity": 509,
+        "volume_missing_or_invalid": 436,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 7,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 120733,
+        "same_price_clock_rows": 118034,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 30203,
+          "price_clock_outside_regular_session": 5,
+          "price_clock_missing": 33,
+          "in_session_events": 30165,
+          "volume_pair_changes": 3467,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 30165,
+          "initial_baselines": 4,
+          "positive_delta_updates": 3463,
+          "gaps": 3,
+          "missing_five_minute_buckets": 3
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 152,
+        "baseline_complete_bars": 148,
+        "baseline_incomplete_bars": 4,
+        "longest_complete_run": 111,
+        "rvol_previous_twenty_available_bars": 104,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Day",
+      "source_path": "NK225/2026-09-23_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-23_Day.npz",
+      "source_size": 1056573,
+      "source_mtime_ns": 1792680356963533000,
+      "raw_lines": 54501,
+      "decoded_rows": 54501,
+      "events": 11480,
+      "omitted_identical": 43021,
+      "sha256_uncompressed": "69d18625134c6fd441dc088be0c0718b6ee346be1a821e7091a3fa678c5ad455",
+      "sha256_cache": "7fe8e1345416f108680c0d54529ac1d5484a3bf6407f10447fb5a7a2076bddc2",
+      "cache_size": 40866,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 421,
+        "last_missing_or_nonpositive": 421,
+        "invalid_bbo_or_quantity": 609,
+        "volume_missing_or_invalid": 421,
+        "volume_clock_missing_or_invalid": 421,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 54080,
+        "same_price_clock_rows": 52887,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 11480,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 48,
+          "in_session_events": 11428,
+          "volume_pair_changes": 1362,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 11428,
+          "initial_baselines": 1,
+          "positive_delta_updates": 1361
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-23_Night",
+      "source_path": "NK225/2026-09-23_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-23_Night.npz",
+      "source_size": 2188707,
+      "source_mtime_ns": 1792680352403615900,
+      "raw_lines": 120740,
+      "decoded_rows": 120740,
+      "events": 25917,
+      "omitted_identical": 94823,
+      "sha256_uncompressed": "22c49a4b4134efb4c09f293cc004ed9c815f5fdd6f91a7b050ebeef1dce37a6c",
+      "sha256_cache": "8d537226fe6fbff47c13ce04649832845d24d6de386a0d7f09dc1f64ccc0cf4b",
+      "cache_size": 83847,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 261,
+        "last_missing_or_nonpositive": 261,
+        "invalid_bbo_or_quantity": 339,
+        "volume_missing_or_invalid": 261,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 120479,
+        "same_price_clock_rows": 118227,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 25917,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 28,
+          "in_session_events": 25885,
+          "volume_pair_changes": 2682,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 25885,
+          "initial_baselines": 3,
+          "positive_delta_updates": 2679,
+          "gaps": 2,
+          "missing_five_minute_buckets": 2
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 153,
+        "baseline_complete_bars": 150,
+        "baseline_incomplete_bars": 3,
+        "longest_complete_run": 145,
+        "rvol_previous_twenty_available_bars": 125,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Day",
+      "source_path": "NK225/2026-09-24_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-24_Day.npz",
+      "source_size": 2924027,
+      "source_mtime_ns": 1792680350707998300,
+      "raw_lines": 124473,
+      "decoded_rows": 124473,
+      "events": 26219,
+      "omitted_identical": 98254,
+      "sha256_uncompressed": "71f3b1c31c12a3739e1b78924abfee22b768b7638555ee298f1794232c54f411",
+      "sha256_cache": "b2e249f1f884f9f29e710788705d113345c98ba88885ea1a6909c1f2ee0c919f",
+      "cache_size": 109773,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 731,
+        "last_missing_or_nonpositive": 731,
+        "invalid_bbo_or_quantity": 1038,
+        "volume_missing_or_invalid": 731,
+        "volume_clock_missing_or_invalid": 731,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 123742,
+        "same_price_clock_rows": 118665,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 26219,
+          "price_clock_missing": 65,
+          "in_session_events": 26154,
+          "volume_pair_changes": 6376,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 26154,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6375
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-24_Night",
+      "source_path": "NK225/2026-09-24_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-24_Night.npz",
+      "source_size": 3452937,
+      "source_mtime_ns": 1792680337237432000,
+      "raw_lines": 177254,
+      "decoded_rows": 177254,
+      "events": 41636,
+      "omitted_identical": 135618,
+      "sha256_uncompressed": "6e9886ecdd02a4d3c61dac1031848e0a33d7b05e236369a27958680bfdb69ce2",
+      "sha256_cache": "e3d081f9dfe1ebf20629e6a5966d08bb7990ab1d9b1cb65129aef77e15a2d306",
+      "cache_size": 138726,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 539,
+        "last_missing_or_nonpositive": 539,
+        "invalid_bbo_or_quantity": 671,
+        "volume_missing_or_invalid": 539,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 11,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 176715,
+        "same_price_clock_rows": 172761,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 41636,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 67,
+          "in_session_events": 41566,
+          "volume_pair_changes": 5180,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 41566,
+          "initial_baselines": 1,
+          "positive_delta_updates": 5179
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Day",
+      "source_path": "NK225/2026-09-25_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-25_Day.npz",
+      "source_size": 2473301,
+      "source_mtime_ns": 1792680355760710300,
+      "raw_lines": 107576,
+      "decoded_rows": 107576,
+      "events": 22098,
+      "omitted_identical": 85478,
+      "sha256_uncompressed": "e7ddc57982263efcce12bb6fc80a1a20cd5d618c631e38dbf918b155bda14178",
+      "sha256_cache": "9d12ac2f497547ef646ee0f3452868f0c726a3347b71aa2a084423ad78b46899",
+      "cache_size": 93936,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 490,
+        "last_missing_or_nonpositive": 490,
+        "invalid_bbo_or_quantity": 794,
+        "volume_missing_or_invalid": 490,
+        "volume_clock_missing_or_invalid": 490,
+        "price_clock_outside_regular_session": 212,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 107086,
+        "same_price_clock_rows": 102579,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 22098,
+          "price_clock_outside_regular_session": 43,
+          "price_clock_missing": 61,
+          "in_session_events": 21994,
+          "volume_pair_changes": 5570,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 21994,
+          "initial_baselines": 1,
+          "positive_delta_updates": 5569
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-25_Night",
+      "source_path": "NK225/2026-09-25_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-25_Night.npz",
+      "source_size": 2786275,
+      "source_mtime_ns": 1792680344902380800,
+      "raw_lines": 146312,
+      "decoded_rows": 146312,
+      "events": 31564,
+      "omitted_identical": 114748,
+      "sha256_uncompressed": "4d0e81142a95b5c88d9d4d51e9bcb608f1aeee04c7ee09ffcb0dde3ead2f1e2e",
+      "sha256_cache": "427e4bb80f17005bf15872dd5d4fafb81780050729eeacad8f7bf6597fbc7e4a",
+      "cache_size": 104868,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 577,
+        "last_missing_or_nonpositive": 577,
+        "invalid_bbo_or_quantity": 753,
+        "volume_missing_or_invalid": 577,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 7,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 145735,
+        "same_price_clock_rows": 142667,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 31564,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 41,
+          "in_session_events": 31520,
+          "volume_pair_changes": 3893,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 31520,
+          "initial_baselines": 4,
+          "positive_delta_updates": 3889,
+          "gaps": 3,
+          "missing_five_minute_buckets": 3
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 152,
+        "baseline_complete_bars": 148,
+        "baseline_incomplete_bars": 4,
+        "longest_complete_run": 135,
+        "rvol_previous_twenty_available_bars": 115,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Day",
+      "source_path": "NK225/2026-09-28_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-28_Day.npz",
+      "source_size": 3168898,
+      "source_mtime_ns": 1792680347331359300,
+      "raw_lines": 136051,
+      "decoded_rows": 136051,
+      "events": 29079,
+      "omitted_identical": 106972,
+      "sha256_uncompressed": "8ebf1151f12a624b5d60992824679b3ccc8ae93f0bcb2563000f1da2f4f1e45e",
+      "sha256_cache": "a059fe1f72acc3d11a390ccd5659ac863c922a9db0432df6b46eed4ff9fbc7ed",
+      "cache_size": 121266,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 467,
+        "last_missing_or_nonpositive": 467,
+        "invalid_bbo_or_quantity": 823,
+        "volume_missing_or_invalid": 467,
+        "volume_clock_missing_or_invalid": 467,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 135584,
+        "same_price_clock_rows": 129950,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 29079,
+          "price_clock_missing": 124,
+          "in_session_events": 28955,
+          "volume_pair_changes": 7101,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 28955,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7100
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-28_Night",
+      "source_path": "NK225/2026-09-28_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-28_Night.npz",
+      "source_size": 3287836,
+      "source_mtime_ns": 1792680339676029400,
+      "raw_lines": 172290,
+      "decoded_rows": 172290,
+      "events": 40479,
+      "omitted_identical": 131811,
+      "sha256_uncompressed": "b97c10131fdc046e70f04fe65f8deea99f4a9632e8a807c6423c1d5f85b90f3f",
+      "sha256_cache": "f98ca11751286bac689f804d82c88534ee45bf40c7f4c364ea213e7e47319945",
+      "cache_size": 132426,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 545,
+        "last_missing_or_nonpositive": 545,
+        "invalid_bbo_or_quantity": 685,
+        "volume_missing_or_invalid": 545,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 12,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 171745,
+        "same_price_clock_rows": 168157,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 40479,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 38,
+          "in_session_events": 40435,
+          "volume_pair_changes": 4766,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 40435,
+          "initial_baselines": 1,
+          "positive_delta_updates": 4765
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Day",
+      "source_path": "NK225/2026-09-29_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-29_Day.npz",
+      "source_size": 3489122,
+      "source_mtime_ns": 1792680345245923100,
+      "raw_lines": 144861,
+      "decoded_rows": 144861,
+      "events": 33557,
+      "omitted_identical": 111304,
+      "sha256_uncompressed": "e680198fe47d8baf4f7eec034375adb5481c9c663027ffb4faf74575d2e1272d",
+      "sha256_cache": "590760b5fd0b40836a3519d27240aede9cd7caf01a3b00d2942117b596e1f6d7",
+      "cache_size": 137620,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 458,
+        "last_missing_or_nonpositive": 458,
+        "invalid_bbo_or_quantity": 804,
+        "volume_missing_or_invalid": 458,
+        "volume_clock_missing_or_invalid": 458,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 144403,
+        "same_price_clock_rows": 138216,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 33557,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 61,
+          "in_session_events": 33492,
+          "volume_pair_changes": 8133,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 33492,
+          "initial_baselines": 1,
+          "positive_delta_updates": 8132
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-29_Night",
+      "source_path": "NK225/2026-09-29_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-29_Night.npz",
+      "source_size": 3167571,
+      "source_mtime_ns": 1792680340975671200,
+      "raw_lines": 163038,
+      "decoded_rows": 163038,
+      "events": 35717,
+      "omitted_identical": 127321,
+      "sha256_uncompressed": "7bd8025ba489e082aa003f786938c1999e0ec6e6e20b54b46b9b6df909423d38",
+      "sha256_cache": "b4d6e72b0ce51ede567dbda5076d447d32502042b43f2519b6fe451c245109f9",
+      "cache_size": 121368,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 653,
+        "last_missing_or_nonpositive": 653,
+        "invalid_bbo_or_quantity": 801,
+        "volume_missing_or_invalid": 653,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 12,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 162385,
+        "same_price_clock_rows": 158499,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 35717,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 23,
+          "in_session_events": 35688,
+          "volume_pair_changes": 4843,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 35688,
+          "initial_baselines": 1,
+          "positive_delta_updates": 4842
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Day",
+      "source_path": "NK225/2026-09-30_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-30_Day.npz",
+      "source_size": 3054117,
+      "source_mtime_ns": 1792680349408458300,
+      "raw_lines": 132540,
+      "decoded_rows": 132540,
+      "events": 27474,
+      "omitted_identical": 105066,
+      "sha256_uncompressed": "e90330b6d2d56e0b760dfa346fe345a062942f50d60fd5fa50bdb53bb43eb484",
+      "sha256_cache": "3dc313baf8e32b96ed45f6464569e1cd3a0005387b8bf7c17016a14733e96dfe",
+      "cache_size": 115576,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 738,
+        "last_missing_or_nonpositive": 738,
+        "invalid_bbo_or_quantity": 1084,
+        "volume_missing_or_invalid": 738,
+        "volume_clock_missing_or_invalid": 738,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 131802,
+        "same_price_clock_rows": 126228,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 27474,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 87,
+          "in_session_events": 27383,
+          "volume_pair_changes": 7090,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 27383,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7089
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-09-30_Night",
+      "source_path": "NK225/2026-09-30_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-09-30_Night.npz",
+      "source_size": 3402667,
+      "source_mtime_ns": 1792680338540648300,
+      "raw_lines": 172942,
+      "decoded_rows": 172942,
+      "events": 41962,
+      "omitted_identical": 130980,
+      "sha256_uncompressed": "7c9e23e32470c6b2df0b2c761444160cacef2c6b6e8a50604a02a3a1487074cf",
+      "sha256_cache": "f986b046866ee0c9e8270aa7878b7d399bd27af42920cbad3e90eb01166149fa",
+      "cache_size": 147179,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 485,
+        "last_missing_or_nonpositive": 485,
+        "invalid_bbo_or_quantity": 624,
+        "volume_missing_or_invalid": 485,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 13,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 172457,
+        "same_price_clock_rows": 167599,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 41962,
+          "price_clock_outside_regular_session": 5,
+          "price_clock_missing": 42,
+          "in_session_events": 41915,
+          "volume_pair_changes": 6296,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 41915,
+          "initial_baselines": 2,
+          "positive_delta_updates": 6294,
+          "gaps": 1,
+          "missing_five_minute_buckets": 1
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 154,
+        "baseline_complete_bars": 152,
+        "baseline_incomplete_bars": 2,
+        "longest_complete_run": 151,
+        "rvol_previous_twenty_available_bars": 131,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Day",
+      "source_path": "NK225/2026-10-01_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-01_Day.npz",
+      "source_size": 3199608,
+      "source_mtime_ns": 1792680346128675400,
+      "raw_lines": 139178,
+      "decoded_rows": 139178,
+      "events": 27176,
+      "omitted_identical": 112002,
+      "sha256_uncompressed": "24614d8926cff580850e7d509a2475c19a28072622c37e3664fc5cc0a028e3fd",
+      "sha256_cache": "2351bd40cb98f15dde4b1c54134cfb093916be4a2f789ac1b4b774ad3508fa0d",
+      "cache_size": 122307,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 584,
+        "last_missing_or_nonpositive": 584,
+        "invalid_bbo_or_quantity": 1018,
+        "volume_missing_or_invalid": 584,
+        "volume_clock_missing_or_invalid": 584,
+        "price_clock_outside_regular_session": 333,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 138594,
+        "same_price_clock_rows": 132175,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 27176,
+          "price_clock_outside_regular_session": 112,
+          "price_clock_missing": 114,
+          "in_session_events": 26950,
+          "volume_pair_changes": 8630,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 26950,
+          "initial_baselines": 1,
+          "positive_delta_updates": 8629
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-01_Night",
+      "source_path": "NK225/2026-10-01_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-01_Night.npz",
+      "source_size": 4207442,
+      "source_mtime_ns": 1792680332756760900,
+      "raw_lines": 210038,
+      "decoded_rows": 210038,
+      "events": 55711,
+      "omitted_identical": 154327,
+      "sha256_uncompressed": "0bdfe0f9d7b626d336bede4196564ccc8461ffaa4eebe6cda2dc8bed4787bd0e",
+      "sha256_cache": "0d19ec3d7df907d35b0c56a2139756fbbf34513e3d495d365fa420d287fafae9",
+      "cache_size": 185980,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1197,
+        "last_missing_or_nonpositive": 1197,
+        "invalid_bbo_or_quantity": 1355,
+        "volume_missing_or_invalid": 1197,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 10,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 208841,
+        "same_price_clock_rows": 203354,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 55711,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 121,
+          "in_session_events": 55587,
+          "volume_pair_changes": 7189,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 55587,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7188
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Day",
+      "source_path": "NK225/2026-10-02_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-02_Day.npz",
+      "source_size": 3168818,
+      "source_mtime_ns": 1792680347691301500,
+      "raw_lines": 135250,
+      "decoded_rows": 135250,
+      "events": 28669,
+      "omitted_identical": 106581,
+      "sha256_uncompressed": "2c0c1a18a788829e0fca6ebcfb33eea557941374a90fec88652d0d76a1b3e048",
+      "sha256_cache": "54c625b4a1a220eaf8bfc46ed02f81ea9557c36f3ad0086cc0d6d19de0bb8b42",
+      "cache_size": 117494,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 966,
+        "last_missing_or_nonpositive": 966,
+        "invalid_bbo_or_quantity": 1305,
+        "volume_missing_or_invalid": 966,
+        "volume_clock_missing_or_invalid": 966,
+        "price_clock_outside_regular_session": 289,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 134284,
+        "same_price_clock_rows": 128908,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 28669,
+          "price_clock_outside_regular_session": 89,
+          "price_clock_missing": 169,
+          "in_session_events": 28411,
+          "volume_pair_changes": 6837,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 28411,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6836
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-02_Night",
+      "source_path": "NK225/2026-10-02_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-02_Night.npz",
+      "source_size": 3500434,
+      "source_mtime_ns": 1792680338361819400,
+      "raw_lines": 177122,
+      "decoded_rows": 177122,
+      "events": 42188,
+      "omitted_identical": 134934,
+      "sha256_uncompressed": "be91ad2b9670c946fe7426f192709c1f963d5d823ea76c57235f5bc135819fce",
+      "sha256_cache": "3985e106bc5b314b8e603d2038707c115defa7cc622ea4fc7a6dabc8ed929c9e",
+      "cache_size": 150565,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 782,
+        "last_missing_or_nonpositive": 782,
+        "invalid_bbo_or_quantity": 994,
+        "volume_missing_or_invalid": 782,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 10,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 176340,
+        "same_price_clock_rows": 171095,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 42188,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 108,
+          "in_session_events": 42076,
+          "volume_pair_changes": 6529,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 42076,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6528
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Day",
+      "source_path": "NK225/2026-10-05_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-05_Day.npz",
+      "source_size": 2782464,
+      "source_mtime_ns": 1792680351599215300,
+      "raw_lines": 123221,
+      "decoded_rows": 123221,
+      "events": 23967,
+      "omitted_identical": 99254,
+      "sha256_uncompressed": "792367d51c24ffda6a2b221139c17336bbceaf3e5dd54dbe5d66d5835d692471",
+      "sha256_cache": "05d6c9874f7958925e20e875a59135fe6a543ca8487ebc83dbe05b087fc2399e",
+      "cache_size": 105494,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 58,
+        "last_missing_or_nonpositive": 58,
+        "invalid_bbo_or_quantity": 375,
+        "volume_missing_or_invalid": 58,
+        "volume_clock_missing_or_invalid": 58,
+        "price_clock_outside_regular_session": 235,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 123163,
+        "same_price_clock_rows": 117732,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 23967,
+          "price_clock_missing": 17,
+          "in_session_events": 23890,
+          "volume_pair_changes": 7172,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 23890,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7171,
+          "price_clock_outside_regular_session": 60
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-05_Night",
+      "source_path": "NK225/2026-10-05_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-05_Night.npz",
+      "source_size": 2482999,
+      "source_mtime_ns": 1792680348341619400,
+      "raw_lines": 135284,
+      "decoded_rows": 135284,
+      "events": 29188,
+      "omitted_identical": 106096,
+      "sha256_uncompressed": "02ec4f41b8cb778d64737185fa42d0a25bf6f610d5febf01212b0447a63e31a9",
+      "sha256_cache": "75b1536629fe0fc470441ad168791918737701a4a2018055e1b122a9017b6ab4",
+      "cache_size": 102112,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 583,
+        "last_missing_or_nonpositive": 583,
+        "invalid_bbo_or_quantity": 763,
+        "volume_missing_or_invalid": 583,
+        "volume_clock_missing_or_invalid": 128,
+        "price_clock_outside_regular_session": 12,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 134701,
+        "same_price_clock_rows": 131330,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 29188,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 33,
+          "in_session_events": 29149,
+          "volume_pair_changes": 4355,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 29149,
+          "initial_baselines": 1,
+          "positive_delta_updates": 4354
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Day",
+      "source_path": "NK225/2026-10-06_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-06_Day.npz",
+      "source_size": 2581394,
+      "source_mtime_ns": 1792680353112083600,
+      "raw_lines": 119462,
+      "decoded_rows": 119462,
+      "events": 21979,
+      "omitted_identical": 97483,
+      "sha256_uncompressed": "e5ca370716963aa44ed2cc2c165e2e142d080b72716c16fb2ffe90c7878c244b",
+      "sha256_cache": "bc68ff0644dc3e06a387159520c434e94133e069d8aa0e77d755cecb9015cf65",
+      "cache_size": 96100,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 590,
+        "last_missing_or_nonpositive": 590,
+        "invalid_bbo_or_quantity": 962,
+        "volume_missing_or_invalid": 590,
+        "volume_clock_missing_or_invalid": 590,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 118872,
+        "same_price_clock_rows": 113990,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 21979,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 75,
+          "in_session_events": 21901,
+          "volume_pair_changes": 6236,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 21901,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6235
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-06_Night",
+      "source_path": "NK225/2026-10-06_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-06_Night.npz",
+      "source_size": 2067644,
+      "source_mtime_ns": 1792680353933115500,
+      "raw_lines": 114383,
+      "decoded_rows": 114383,
+      "events": 22053,
+      "omitted_identical": 92330,
+      "sha256_uncompressed": "e2d9104c6d525527c3123982e87f4df0c8af55f6edb41daee45b6277b08eff74",
+      "sha256_cache": "ea14c2ece4aca6b5f02a24067525549c19760ab3055dcc800b2c20c033da63ab",
+      "cache_size": 82626,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 495,
+        "last_missing_or_nonpositive": 495,
+        "invalid_bbo_or_quantity": 649,
+        "volume_missing_or_invalid": 495,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 11,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 113888,
+        "same_price_clock_rows": 110643,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 22053,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 103,
+          "in_session_events": 21946,
+          "volume_pair_changes": 3915,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 21946,
+          "initial_baselines": 1,
+          "positive_delta_updates": 3914
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Day",
+      "source_path": "NK225/2026-10-07_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-07_Day.npz",
+      "source_size": 2593137,
+      "source_mtime_ns": 1792680353263595100,
+      "raw_lines": 117966,
+      "decoded_rows": 117966,
+      "events": 21310,
+      "omitted_identical": 96656,
+      "sha256_uncompressed": "81fa83eb7caf516cb17fc060aa98c4e2c839c3f4af9b9a0cb9a8b2bbc59643df",
+      "sha256_cache": "f4c074c83eca383ce378fc6a4a94ca5e4ab4fc3166c790d10c471bb7d4231c32",
+      "cache_size": 91371,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 577,
+        "last_missing_or_nonpositive": 577,
+        "invalid_bbo_or_quantity": 980,
+        "volume_missing_or_invalid": 577,
+        "volume_clock_missing_or_invalid": 577,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 117389,
+        "same_price_clock_rows": 112915,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 21310,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 90,
+          "in_session_events": 21217,
+          "volume_pair_changes": 5664,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 21217,
+          "initial_baselines": 1,
+          "positive_delta_updates": 5663
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-07_Night",
+      "source_path": "NK225/2026-10-07_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-07_Night.npz",
+      "source_size": 2805377,
+      "source_mtime_ns": 1792680344918381500,
+      "raw_lines": 145561,
+      "decoded_rows": 145561,
+      "events": 30650,
+      "omitted_identical": 114911,
+      "sha256_uncompressed": "a916ff168e643ffeb456dde4157f8a0ee81c32b55879f613e9f3ee80cb59eec1",
+      "sha256_cache": "587f26fbb34cf990d9b09030f5e4d2438ead7b51ac7507a2d9af6716c7167276",
+      "cache_size": 113358,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 19,
+        "last_missing_or_nonpositive": 19,
+        "invalid_bbo_or_quantity": 186,
+        "volume_missing_or_invalid": 19,
+        "volume_clock_missing_or_invalid": 19,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 145542,
+        "same_price_clock_rows": 141109,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 30650,
+          "price_clock_missing": 8,
+          "in_session_events": 30642,
+          "volume_pair_changes": 5427,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 30642,
+          "initial_baselines": 1,
+          "positive_delta_updates": 5426
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Day",
+      "source_path": "NK225/2026-10-08_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-08_Day.npz",
+      "source_size": 3150300,
+      "source_mtime_ns": 1792680346159675500,
+      "raw_lines": 138392,
+      "decoded_rows": 138392,
+      "events": 29795,
+      "omitted_identical": 108597,
+      "sha256_uncompressed": "471ab1894d0f15da7bcb5290728664df17271c19cdd789811c47c14763cf3dea",
+      "sha256_cache": "906cd67d9832b677b71191ca469ba7dfa228be2dcc9c10d0e1c6af6d719df6fb",
+      "cache_size": 120613,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 48,
+        "last_missing_or_nonpositive": 48,
+        "invalid_bbo_or_quantity": 398,
+        "volume_missing_or_invalid": 48,
+        "volume_clock_missing_or_invalid": 48,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 138344,
+        "same_price_clock_rows": 132934,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 29795,
+          "price_clock_missing": 11,
+          "in_session_events": 29784,
+          "volume_pair_changes": 7135,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 29784,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7134
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-08_Night",
+      "source_path": "NK225/2026-10-08_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-08_Night.npz",
+      "source_size": 3787663,
+      "source_mtime_ns": 1792680335735812000,
+      "raw_lines": 186410,
+      "decoded_rows": 186410,
+      "events": 44406,
+      "omitted_identical": 142004,
+      "sha256_uncompressed": "9f059d946527b64170ca10d4d2e10daa63950164e2e87b6300dda13f2bb94d18",
+      "sha256_cache": "eb34a7b65f647b4169b2ca0a121bcb7fa813edbdaeac25883d2946d83d72cb1a",
+      "cache_size": 158847,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 676,
+        "last_missing_or_nonpositive": 676,
+        "invalid_bbo_or_quantity": 911,
+        "volume_missing_or_invalid": 676,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 12,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 185734,
+        "same_price_clock_rows": 180370,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 44406,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 88,
+          "in_session_events": 44312,
+          "volume_pair_changes": 6839,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 44312,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6838
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Day",
+      "source_path": "NK225/2026-10-09_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-09_Day.npz",
+      "source_size": 2860824,
+      "source_mtime_ns": 1792680351469691100,
+      "raw_lines": 123303,
+      "decoded_rows": 123303,
+      "events": 26889,
+      "omitted_identical": 96414,
+      "sha256_uncompressed": "0bd5facc453e1456560594c79d109d53b39ed973e26302315d4c330ce7964b64",
+      "sha256_cache": "5ca0afd47ec277fb07e22553d7fc65bef5daa91520ccd0fbe9f8dddc9f1c031c",
+      "cache_size": 111950,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 96,
+        "last_missing_or_nonpositive": 96,
+        "invalid_bbo_or_quantity": 422,
+        "volume_missing_or_invalid": 96,
+        "volume_clock_missing_or_invalid": 96,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 123207,
+        "same_price_clock_rows": 118183,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 26889,
+          "price_clock_missing": 20,
+          "in_session_events": 26869,
+          "volume_pair_changes": 6849,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 26869,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6848
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-09_Night",
+      "source_path": "NK225/2026-10-09_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-09_Night.npz",
+      "source_size": 2313175,
+      "source_mtime_ns": 1792680352127570700,
+      "raw_lines": 121038,
+      "decoded_rows": 121038,
+      "events": 25090,
+      "omitted_identical": 95948,
+      "sha256_uncompressed": "fe0cee32fe35860d3862356b81838a7cc1bd17f7a8f1461bf7bf21af16227dc9",
+      "sha256_cache": "a4bd4d412e3e259ce9f07e7b321d48382ae9707eba0ce5888ecbaa05804aaa6e",
+      "cache_size": 85054,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 364,
+        "last_missing_or_nonpositive": 364,
+        "invalid_bbo_or_quantity": 541,
+        "volume_missing_or_invalid": 364,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 2,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 120674,
+        "same_price_clock_rows": 118033,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 25090,
+          "price_clock_outside_regular_session": 2,
+          "price_clock_missing": 23,
+          "in_session_events": 25065,
+          "volume_pair_changes": 3171,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 25065,
+          "initial_baselines": 1,
+          "positive_delta_updates": 3170
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Day",
+      "source_path": "NK225/2026-10-12_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-12_Day.npz",
+      "source_size": 1554831,
+      "source_mtime_ns": 1792680356351088400,
+      "raw_lines": 82683,
+      "decoded_rows": 82683,
+      "events": 16228,
+      "omitted_identical": 66455,
+      "sha256_uncompressed": "120fdaff2e5cc78eef03ee4f2d9b0d69c64197d0d50bcc499188d9b99d0af3b0",
+      "sha256_cache": "cce309f810739bcd2ee1d3cd0f6001175bb6ef0b94ef09e51594b36ec3c8f118",
+      "cache_size": 52085,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 953,
+        "last_missing_or_nonpositive": 953,
+        "invalid_bbo_or_quantity": 1143,
+        "volume_missing_or_invalid": 953,
+        "volume_clock_missing_or_invalid": 953,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 81730,
+        "same_price_clock_rows": 80424,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 16228,
+          "price_clock_missing": 75,
+          "in_session_events": 16153,
+          "volume_pair_changes": 1426,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 16153,
+          "initial_baselines": 1,
+          "positive_delta_updates": 1425
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-12_Night",
+      "source_path": "NK225/2026-10-12_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-12_Night.npz",
+      "source_size": 2074340,
+      "source_mtime_ns": 1792680354075637100,
+      "raw_lines": 113073,
+      "decoded_rows": 113073,
+      "events": 22343,
+      "omitted_identical": 90730,
+      "sha256_uncompressed": "f7eeaf0824c4ae87e99f37500044868f94165fa89fe04dc96fe92358cccee664",
+      "sha256_cache": "eef41997dbb61f2030313dde62164bd8de8cbf31b543a60156d0829a6af7b42a",
+      "cache_size": 73960,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 404,
+        "last_missing_or_nonpositive": 404,
+        "invalid_bbo_or_quantity": 489,
+        "volume_missing_or_invalid": 404,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 5,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 112669,
+        "same_price_clock_rows": 110500,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 22343,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 23,
+          "in_session_events": 22316,
+          "volume_pair_changes": 2564,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 22316,
+          "initial_baselines": 5,
+          "positive_delta_updates": 2559,
+          "gaps": 4,
+          "missing_five_minute_buckets": 5
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 150,
+        "baseline_complete_bars": 145,
+        "baseline_incomplete_bars": 5,
+        "longest_complete_run": 124,
+        "rvol_previous_twenty_available_bars": 104,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Day",
+      "source_path": "NK225/2026-10-13_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-13_Day.npz",
+      "source_size": 3679692,
+      "source_mtime_ns": 1792680342209974200,
+      "raw_lines": 157285,
+      "decoded_rows": 157285,
+      "events": 36880,
+      "omitted_identical": 120405,
+      "sha256_uncompressed": "5300a2ef7f8fa30f39bbc0ff898a45c42956c15db26ba8d7d2c288c6a90f905d",
+      "sha256_cache": "fd8f0c63eff33f93f32195d20d7aca067e756ecedb157d07e64f923d2ccf5bce",
+      "cache_size": 150269,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 719,
+        "last_missing_or_nonpositive": 719,
+        "invalid_bbo_or_quantity": 1099,
+        "volume_missing_or_invalid": 719,
+        "volume_clock_missing_or_invalid": 719,
+        "price_clock_outside_regular_session": 14,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 156566,
+        "same_price_clock_rows": 149592,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 36880,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 86,
+          "in_session_events": 36788,
+          "volume_pair_changes": 9098,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 36788,
+          "initial_baselines": 1,
+          "positive_delta_updates": 9097
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-13_Night",
+      "source_path": "NK225/2026-10-13_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-13_Night.npz",
+      "source_size": 2504533,
+      "source_mtime_ns": 1792680348615549400,
+      "raw_lines": 134094,
+      "decoded_rows": 134094,
+      "events": 28192,
+      "omitted_identical": 105902,
+      "sha256_uncompressed": "52da84b4c22669b82704838b2010757971922110a837d9fb220e010d68a49f56",
+      "sha256_cache": "15701d98674ea061bb424da135ac13f5c253b7cbbe78e5fffdc51e9d814cde2a",
+      "cache_size": 96252,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 445,
+        "last_missing_or_nonpositive": 445,
+        "invalid_bbo_or_quantity": 594,
+        "volume_missing_or_invalid": 445,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 24,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 133649,
+        "same_price_clock_rows": 130582,
+        "backward_price_clock_rows": 2
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 28192,
+          "price_clock_outside_regular_session": 10,
+          "price_clock_missing": 36,
+          "in_session_events": 28146,
+          "volume_pair_changes": 3829,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 28146,
+          "initial_baselines": 3,
+          "positive_delta_updates": 3826,
+          "gaps": 2,
+          "missing_five_minute_buckets": 2
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 153,
+        "baseline_complete_bars": 150,
+        "baseline_incomplete_bars": 3,
+        "longest_complete_run": 147,
+        "rvol_previous_twenty_available_bars": 127,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Day",
+      "source_path": "NK225/2026-10-14_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-14_Day.npz",
+      "source_size": 3175875,
+      "source_mtime_ns": 1792680346514215700,
+      "raw_lines": 138138,
+      "decoded_rows": 138138,
+      "events": 29345,
+      "omitted_identical": 108793,
+      "sha256_uncompressed": "18bf3c51bd49defeb609faa2e039a86f8011bf8977571c6dff045d0b84e442e2",
+      "sha256_cache": "981e919d264944736bc1a6e43fadcc3fc41d766eb1c2cb331db859f13f6ff946",
+      "cache_size": 118652,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 847,
+        "last_missing_or_nonpositive": 847,
+        "invalid_bbo_or_quantity": 1158,
+        "volume_missing_or_invalid": 847,
+        "volume_clock_missing_or_invalid": 847,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 137291,
+        "same_price_clock_rows": 131963,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 29345,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 73,
+          "in_session_events": 29269,
+          "volume_pair_changes": 6853,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 29269,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6852
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-14_Night",
+      "source_path": "NK225/2026-10-14_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-14_Night.npz",
+      "source_size": 3772868,
+      "source_mtime_ns": 1792680335746810600,
+      "raw_lines": 187953,
+      "decoded_rows": 187953,
+      "events": 43063,
+      "omitted_identical": 144890,
+      "sha256_uncompressed": "6e27f4436e53ccee958bb2a14d1ec298a8a82efc9da7a264a9912c11369e56df",
+      "sha256_cache": "a2d7f61fc3b5b2cc66336ac951bfa2d45396ca5081ef1b0082a29fe5422d792d",
+      "cache_size": 150486,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 476,
+        "last_missing_or_nonpositive": 476,
+        "invalid_bbo_or_quantity": 655,
+        "volume_missing_or_invalid": 476,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 8,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 187477,
+        "same_price_clock_rows": 182424,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 43063,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 29,
+          "in_session_events": 43030,
+          "volume_pair_changes": 6120,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 43030,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6119
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Day",
+      "source_path": "NK225/2026-10-15_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-15_Day.npz",
+      "source_size": 4672827,
+      "source_mtime_ns": 1792680335899363600,
+      "raw_lines": 181067,
+      "decoded_rows": 181067,
+      "events": 50838,
+      "omitted_identical": 130229,
+      "sha256_uncompressed": "99214ba4a4e06ce98297dc8ba937a1af6621f24798d6da4ab01469b11c7d32c0",
+      "sha256_cache": "33c5ca62b5e8887cb7b3ff8a7623eba711c47651baea84cc12cdd8f5016782e4",
+      "cache_size": 213494,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1191,
+        "last_missing_or_nonpositive": 1191,
+        "invalid_bbo_or_quantity": 1670,
+        "volume_missing_or_invalid": 1191,
+        "volume_clock_missing_or_invalid": 1191,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 179876,
+        "same_price_clock_rows": 169626,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 50838,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 155,
+          "in_session_events": 50679,
+          "volume_pair_changes": 14985,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 50679,
+          "initial_baselines": 1,
+          "positive_delta_updates": 14984
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-15_Night",
+      "source_path": "NK225/2026-10-15_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-15_Night.npz",
+      "source_size": 4363930,
+      "source_mtime_ns": 1792680332771761000,
+      "raw_lines": 208755,
+      "decoded_rows": 208755,
+      "events": 53249,
+      "omitted_identical": 155506,
+      "sha256_uncompressed": "7357dcfa367710bda67150abd2316e8ab71ec42db563f388ce0aba6311f742cd",
+      "sha256_cache": "6066585a67c16194b6a2479f3fc8b98ec5ac2b6786c56c15c7b97bfdaf198b8f",
+      "cache_size": 187311,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 763,
+        "last_missing_or_nonpositive": 763,
+        "invalid_bbo_or_quantity": 1030,
+        "volume_missing_or_invalid": 763,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 9,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 207992,
+        "same_price_clock_rows": 201756,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 53249,
+          "price_clock_outside_regular_session": 5,
+          "price_clock_missing": 60,
+          "in_session_events": 53184,
+          "volume_pair_changes": 7798,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 53184,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7797
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Day",
+      "source_path": "NK225/2026-10-16_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-16_Day.npz",
+      "source_size": 3717580,
+      "source_mtime_ns": 1792680343501595200,
+      "raw_lines": 154957,
+      "decoded_rows": 154957,
+      "events": 34464,
+      "omitted_identical": 120493,
+      "sha256_uncompressed": "a16b28cd886125e9c3faa7093d0949013cec09a94d687b909c9e13b742c09709",
+      "sha256_cache": "1f7a1744b5026696c84a31c0b2e67edc6e8babff6b2d872410611635fba68ed9",
+      "cache_size": 140254,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 935,
+        "last_missing_or_nonpositive": 935,
+        "invalid_bbo_or_quantity": 1277,
+        "volume_missing_or_invalid": 935,
+        "volume_clock_missing_or_invalid": 935,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 154022,
+        "same_price_clock_rows": 147744,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 34464,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 134,
+          "in_session_events": 34327,
+          "volume_pair_changes": 8036,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 34327,
+          "initial_baselines": 1,
+          "positive_delta_updates": 8035
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-16_Night",
+      "source_path": "NK225/2026-10-16_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-16_Night.npz",
+      "source_size": 4390158,
+      "source_mtime_ns": 1792680332775761400,
+      "raw_lines": 211313,
+      "decoded_rows": 211313,
+      "events": 51725,
+      "omitted_identical": 159588,
+      "sha256_uncompressed": "855285a1a656fd96d7f914c44f6652fc46e455127ce01bbd79dcc3e4b1399e02",
+      "sha256_cache": "e3f26c997ea05038143e0b0b4c838b738ac27bee55cfa031a813d5ce92e569fe",
+      "cache_size": 181290,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 713,
+        "last_missing_or_nonpositive": 713,
+        "invalid_bbo_or_quantity": 875,
+        "volume_missing_or_invalid": 713,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 11,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 210600,
+        "same_price_clock_rows": 204463,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 51725,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 54,
+          "in_session_events": 51667,
+          "volume_pair_changes": 7541,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 51667,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7540
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Day",
+      "source_path": "NK225/2026-10-19_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-19_Day.npz",
+      "source_size": 3882166,
+      "source_mtime_ns": 1792680342199974000,
+      "raw_lines": 157542,
+      "decoded_rows": 157542,
+      "events": 39940,
+      "omitted_identical": 117602,
+      "sha256_uncompressed": "33098b09a06b28631fb9a51943f762889d5a49aee530b09b6f8b7d641d1cb3e0",
+      "sha256_cache": "80a33445a7a05b6235dffbbce04052384ed108f8a90a3f6f2ab9baf7ee007df9",
+      "cache_size": 163807,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 793,
+        "last_missing_or_nonpositive": 793,
+        "invalid_bbo_or_quantity": 1122,
+        "volume_missing_or_invalid": 793,
+        "volume_clock_missing_or_invalid": 793,
+        "price_clock_outside_regular_session": 262,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 156749,
+        "same_price_clock_rows": 149216,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 39940,
+          "price_clock_missing": 218,
+          "in_session_events": 39668,
+          "volume_pair_changes": 10253,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 39668,
+          "initial_baselines": 1,
+          "positive_delta_updates": 10252,
+          "price_clock_outside_regular_session": 54
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-19_Night",
+      "source_path": "NK225/2026-10-19_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-19_Night.npz",
+      "source_size": 3712414,
+      "source_mtime_ns": 1792680335655299100,
+      "raw_lines": 189351,
+      "decoded_rows": 189351,
+      "events": 42926,
+      "omitted_identical": 146425,
+      "sha256_uncompressed": "349e3af54c15e2ab3cb115b4f8700a114313c420cf33b194b397affd435d1e71",
+      "sha256_cache": "c7d76c80429530e2302b6f7ecaa9725c719aad7fa209d77d3c2a7d67f4d58c77",
+      "cache_size": 149094,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 569,
+        "last_missing_or_nonpositive": 569,
+        "invalid_bbo_or_quantity": 762,
+        "volume_missing_or_invalid": 569,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 13,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 188782,
+        "same_price_clock_rows": 183724,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 42926,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 25,
+          "in_session_events": 42897,
+          "volume_pair_changes": 6104,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 42897,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6103
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Day",
+      "source_path": "NK225/2026-10-20_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-20_Day.npz",
+      "source_size": 4165251,
+      "source_mtime_ns": 1792680339862573800,
+      "raw_lines": 167977,
+      "decoded_rows": 167977,
+      "events": 43393,
+      "omitted_identical": 124584,
+      "sha256_uncompressed": "02941004474e66c33be74185822528d62fce9bdea1c98a0b5495949839a3799e",
+      "sha256_cache": "443f405d952d5ba2ad9f786d800afe344355bb5f031c9d4c9203945c467d9d79",
+      "cache_size": 174036,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 913,
+        "last_missing_or_nonpositive": 913,
+        "invalid_bbo_or_quantity": 1318,
+        "volume_missing_or_invalid": 913,
+        "volume_clock_missing_or_invalid": 913,
+        "price_clock_outside_regular_session": 318,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 167064,
+        "same_price_clock_rows": 159251,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 43393,
+          "price_clock_outside_regular_session": 64,
+          "price_clock_missing": 12,
+          "in_session_events": 43317,
+          "volume_pair_changes": 10957,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 43317,
+          "initial_baselines": 1,
+          "positive_delta_updates": 10956
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-20_Night",
+      "source_path": "NK225/2026-10-20_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-20_Night.npz",
+      "source_size": 4188396,
+      "source_mtime_ns": 1792680334280772900,
+      "raw_lines": 205786,
+      "decoded_rows": 205786,
+      "events": 49273,
+      "omitted_identical": 156513,
+      "sha256_uncompressed": "e5f70cf2c7d1a782c84ca0e6df808d78d28fb489e01eb0f185a4d6a411eaa330",
+      "sha256_cache": "8d9e5f6348114a41b4b40976f2d1919d7e105bf258d7fb1e720e4587164dde54",
+      "cache_size": 179798,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 567,
+        "last_missing_or_nonpositive": 567,
+        "invalid_bbo_or_quantity": 755,
+        "volume_missing_or_invalid": 567,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 2,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 205219,
+        "same_price_clock_rows": 198471,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 49273,
+          "price_clock_outside_regular_session": 2,
+          "price_clock_missing": 43,
+          "in_session_events": 49228,
+          "volume_pair_changes": 8845,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 49228,
+          "initial_baselines": 2,
+          "positive_delta_updates": 8843,
+          "gaps": 1,
+          "missing_five_minute_buckets": 1
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 154,
+        "baseline_complete_bars": 152,
+        "baseline_incomplete_bars": 2,
+        "longest_complete_run": 148,
+        "rvol_previous_twenty_available_bars": 128,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Day",
+      "source_path": "NK225/2026-10-21_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-21_Day.npz",
+      "source_size": 3802444,
+      "source_mtime_ns": 1792680342402741600,
+      "raw_lines": 156384,
+      "decoded_rows": 156384,
+      "events": 36956,
+      "omitted_identical": 119428,
+      "sha256_uncompressed": "6378214b4a9e1aa512292020e9648253fef91bac3dd30870d2faa8e3ce827849",
+      "sha256_cache": "ed03d36779f8c4267d466d1b07923a976eb16ebb6edf2a8689879805ec79d9a3",
+      "cache_size": 153313,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 863,
+        "last_missing_or_nonpositive": 863,
+        "invalid_bbo_or_quantity": 1246,
+        "volume_missing_or_invalid": 863,
+        "volume_clock_missing_or_invalid": 863,
+        "price_clock_outside_regular_session": 298,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 155521,
+        "same_price_clock_rows": 148250,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 36956,
+          "price_clock_outside_regular_session": 86,
+          "price_clock_missing": 206,
+          "in_session_events": 36664,
+          "volume_pair_changes": 10183,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 36664,
+          "initial_baselines": 1,
+          "positive_delta_updates": 10182
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-21_Night",
+      "source_path": "NK225/2026-10-21_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-21_Night.npz",
+      "source_size": 3568881,
+      "source_mtime_ns": 1792680337101916300,
+      "raw_lines": 181379,
+      "decoded_rows": 181379,
+      "events": 41120,
+      "omitted_identical": 140259,
+      "sha256_uncompressed": "b6f1951b161fac9929f33609bc10706196e11b32c49fdc399a6a7258c7702b05",
+      "sha256_cache": "f8c91c90d8b9fb5e78240f9f6c2cfc14d485c0bdb3ec17989997df503862b7b2",
+      "cache_size": 140687,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 360,
+        "last_missing_or_nonpositive": 360,
+        "invalid_bbo_or_quantity": 544,
+        "volume_missing_or_invalid": 360,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 11,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 181019,
+        "same_price_clock_rows": 176519,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 41120,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 37,
+          "in_session_events": 41077,
+          "volume_pair_changes": 5708,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 41077,
+          "initial_baselines": 1,
+          "positive_delta_updates": 5707
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Day",
+      "source_path": "NK225/2026-10-22_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-22_Day.npz",
+      "source_size": 4113800,
+      "source_mtime_ns": 1792680339791551900,
+      "raw_lines": 169425,
+      "decoded_rows": 169425,
+      "events": 40494,
+      "omitted_identical": 128931,
+      "sha256_uncompressed": "183456a217c9ff146502e8d980b62dd5b40c59f7f5feb27e9ba3c150951d514a",
+      "sha256_cache": "47b5c8ee357e76946614e26cc8aeab92bee03ed2be0a809f08d403f7a38b7e59",
+      "cache_size": 170931,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 797,
+        "last_missing_or_nonpositive": 797,
+        "invalid_bbo_or_quantity": 1263,
+        "volume_missing_or_invalid": 797,
+        "volume_clock_missing_or_invalid": 797,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 168628,
+        "same_price_clock_rows": 160232,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 40494,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 121,
+          "in_session_events": 40370,
+          "volume_pair_changes": 11717,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 40370,
+          "initial_baselines": 1,
+          "positive_delta_updates": 11716
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-22_Night",
+      "source_path": "NK225/2026-10-22_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-22_Night.npz",
+      "source_size": 4574074,
+      "source_mtime_ns": 1792816128673608900,
+      "raw_lines": 228092,
+      "decoded_rows": 228092,
+      "events": 51900,
+      "omitted_identical": 176192,
+      "sha256_uncompressed": "75a0b6c5d3dc52ad1ede210b135ab23a30caffe06b097ee372ebf96c7fa98e25",
+      "sha256_cache": "2a55e65451445898c75290f24319e5af7ddc8d56ad9015c4489a5300b0d62840",
+      "cache_size": 177406,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 665,
+        "last_missing_or_nonpositive": 665,
+        "invalid_bbo_or_quantity": 869,
+        "volume_missing_or_invalid": 665,
+        "volume_clock_missing_or_invalid": 665,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 227427,
+        "same_price_clock_rows": 221715,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 51900,
+          "price_clock_missing": 45,
+          "in_session_events": 51855,
+          "volume_pair_changes": 7389,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 51855,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7388
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Day",
+      "source_path": "NK225/2026-10-23_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-23_Day.npz",
+      "source_size": 5340711,
+      "source_mtime_ns": 1792816128652584900,
+      "raw_lines": 192815,
+      "decoded_rows": 192815,
+      "events": 60086,
+      "omitted_identical": 132729,
+      "sha256_uncompressed": "e0f457e8ffe1f3009eaf186adffaa63cd094f48d49c218a23fc2ad6c04de1dca",
+      "sha256_cache": "9d82ae5b2257710cf2f6569181a450d52fc97ba29932ff3422c658de42f6c06e",
+      "cache_size": 243504,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1475,
+        "last_missing_or_nonpositive": 1475,
+        "invalid_bbo_or_quantity": 1941,
+        "volume_missing_or_invalid": 1475,
+        "volume_clock_missing_or_invalid": 1475,
+        "price_clock_outside_regular_session": 7,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 191340,
+        "same_price_clock_rows": 180499,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 60086,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 156,
+          "in_session_events": 59926,
+          "volume_pair_changes": 16449,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 59926,
+          "initial_baselines": 1,
+          "positive_delta_updates": 16448
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-23_Night",
+      "source_path": "NK225/2026-10-23_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-23_Night.npz",
+      "source_size": 4333559,
+      "source_mtime_ns": 1792816128668601700,
+      "raw_lines": 215559,
+      "decoded_rows": 215559,
+      "events": 48950,
+      "omitted_identical": 166609,
+      "sha256_uncompressed": "ec422ed8473e03e7fb948425367de9086e259f4805ea599433a1639c7dd468d8",
+      "sha256_cache": "6d2257df23cc5c1558284c35349ffd7215cbc1be75b7fba0b7efbc6452441381",
+      "cache_size": 170839,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 665,
+        "last_missing_or_nonpositive": 665,
+        "invalid_bbo_or_quantity": 864,
+        "volume_missing_or_invalid": 665,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 12,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 214894,
+        "same_price_clock_rows": 208973,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 48950,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 32,
+          "in_session_events": 48914,
+          "volume_pair_changes": 7522,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 48914,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7521
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Day",
+      "source_path": "NK225/2026-10-26_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-26_Day.npz",
+      "source_size": 4291316,
+      "source_mtime_ns": 1793016263485054400,
+      "raw_lines": 167154,
+      "decoded_rows": 167154,
+      "events": 41864,
+      "omitted_identical": 125290,
+      "sha256_uncompressed": "d391e2d9e3f9ff1bcbe5a057d17f7966fd3b2e8330fbac3c0f517dda4e97c2c7",
+      "sha256_cache": "13f73ec536e50630d80e5f3ca9767c4c77ab5802bcb41557beec77755178d520",
+      "cache_size": 166416,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1859,
+        "last_missing_or_nonpositive": 1859,
+        "invalid_bbo_or_quantity": 2183,
+        "volume_missing_or_invalid": 1859,
+        "volume_clock_missing_or_invalid": 1859,
+        "price_clock_outside_regular_session": 0,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 165295,
+        "same_price_clock_rows": 158134,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 41864,
+          "price_clock_missing": 189,
+          "in_session_events": 41675,
+          "volume_pair_changes": 9546,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 41675,
+          "initial_baselines": 1,
+          "positive_delta_updates": 9545
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-26_Night",
+      "source_path": "NK225/2026-10-26_Night/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-26_Night.npz",
+      "source_size": 3871066,
+      "source_mtime_ns": 1793086860393877900,
+      "raw_lines": 196656,
+      "decoded_rows": 196656,
+      "events": 41038,
+      "omitted_identical": 155618,
+      "sha256_uncompressed": "6ceb59138b92a08685ed8b5591edba8a2d62de55f62d75f96eabfcd39d0cbe5a",
+      "sha256_cache": "24decca2a1f811483ddc527b0f6cd039d999a881c25c24aece222e0f4913c079",
+      "cache_size": 146002,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 684,
+        "last_missing_or_nonpositive": 684,
+        "invalid_bbo_or_quantity": 882,
+        "volume_missing_or_invalid": 684,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 13,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 195972,
+        "same_price_clock_rows": 190911,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 41038,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 6,
+          "in_session_events": 41026,
+          "volume_pair_changes": 6320,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 41026,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6319
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Day",
+      "source_path": "NK225/2026-10-27_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-10-27_Day.npz",
+      "source_size": 3913474,
+      "source_mtime_ns": 1793086860256669800,
+      "raw_lines": 163299,
+      "decoded_rows": 163299,
+      "events": 37509,
+      "omitted_identical": 125790,
+      "sha256_uncompressed": "eb703745b888028a45803c62f40c5e2a053ac4ffc53468d8ff4e41e73cca3098",
+      "sha256_cache": "4952e84e84dc33a97d1edc41a67f7929d8f3fe0817438712969b48c9655158a0",
+      "cache_size": 149592,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1122,
+        "last_missing_or_nonpositive": 1122,
+        "invalid_bbo_or_quantity": 1535,
+        "volume_missing_or_invalid": 1122,
+        "volume_clock_missing_or_invalid": 1122,
+        "price_clock_outside_regular_session": 6,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 162177,
+        "same_price_clock_rows": 155468,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 37509,
+          "price_clock_outside_regular_session": 3,
+          "price_clock_missing": 130,
+          "in_session_events": 37376,
+          "volume_pair_changes": 8669,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 37376,
+          "initial_baselines": 1,
+          "positive_delta_updates": 8668
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-27_Night",
+      "source_path": "NK225/2026-10-27_Night/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-10-27_Night.npz",
+      "source_size": 269976273,
+      "source_mtime_ns": 1793134800764693100,
+      "raw_lines": 167690,
+      "decoded_rows": 167690,
+      "events": 34809,
+      "omitted_identical": 132881,
+      "sha256_uncompressed": "1e84118f3fecca0ad0b6240a675fbf9b7946bc4e22d6be3f72d1e99c7fe7eba3",
+      "sha256_cache": "ceafef943e14f77696aa7482bc67b8c05fd18aac02dc05294e89acd0c9a2cbc8",
+      "cache_size": 118858,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 502,
+        "last_missing_or_nonpositive": 502,
+        "invalid_bbo_or_quantity": 671,
+        "volume_missing_or_invalid": 502,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 12,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 167188,
+        "same_price_clock_rows": 163437,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 34809,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 36,
+          "in_session_events": 34767,
+          "volume_pair_changes": 4544,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 34767,
+          "initial_baselines": 2,
+          "positive_delta_updates": 4542,
+          "gaps": 1,
+          "missing_five_minute_buckets": 1
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 154,
+        "baseline_complete_bars": 152,
+        "baseline_incomplete_bars": 2,
+        "longest_complete_run": 136,
+        "rvol_previous_twenty_available_bars": 116,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Day",
+      "source_path": "NK225/2026-10-28_Day/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-10-28_Day.npz",
+      "source_size": 245659941,
+      "source_mtime_ns": 1793169900195021300,
+      "raw_lines": 152181,
+      "decoded_rows": 152181,
+      "events": 33661,
+      "omitted_identical": 118520,
+      "sha256_uncompressed": "b49c04d9d85d16867ab5a7adbe6a5920c21ad16720b7f286dd4ee98754f00ce1",
+      "sha256_cache": "13cd8b40a0a4a32b14346a8ff1d946c90c3abeca3767fd896313311fad46e53a",
+      "cache_size": 146252,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 725,
+        "last_missing_or_nonpositive": 725,
+        "invalid_bbo_or_quantity": 1154,
+        "volume_missing_or_invalid": 725,
+        "volume_clock_missing_or_invalid": 725,
+        "price_clock_outside_regular_session": 343,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 151456,
+        "same_price_clock_rows": 143913,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 33661,
+          "price_clock_outside_regular_session": 81,
+          "price_clock_missing": 85,
+          "in_session_events": 33495,
+          "volume_pair_changes": 10716,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 33495,
+          "initial_baselines": 1,
+          "positive_delta_updates": 10715
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-28_Night",
+      "source_path": "NK225/2026-10-28_Night/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-10-28_Night.npz",
+      "source_size": 324383831,
+      "source_mtime_ns": 1793221201091315800,
+      "raw_lines": 201382,
+      "decoded_rows": 201382,
+      "events": 48880,
+      "omitted_identical": 152502,
+      "sha256_uncompressed": "31d80385a29dd8470e63661f2a6557a8909409f405891cb7302088493e7d96c8",
+      "sha256_cache": "226041ec77134baa87f3f85f3d13079e77fb0efde1dfda71042c02055eb32c7f",
+      "cache_size": 179297,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 631,
+        "last_missing_or_nonpositive": 631,
+        "invalid_bbo_or_quantity": 840,
+        "volume_missing_or_invalid": 631,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 14,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 200751,
+        "same_price_clock_rows": 194350,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 48880,
+          "price_clock_outside_regular_session": 6,
+          "price_clock_missing": 104,
+          "in_session_events": 48770,
+          "volume_pair_changes": 8736,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 48770,
+          "initial_baselines": 1,
+          "positive_delta_updates": 8735
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Day",
+      "source_path": "NK225/2026-10-29_Day/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-10-29_Day.npz",
+      "source_size": 297759837,
+      "source_mtime_ns": 1793256300297686800,
+      "raw_lines": 184447,
+      "decoded_rows": 184447,
+      "events": 53482,
+      "omitted_identical": 130965,
+      "sha256_uncompressed": "39d100ba493f64d295e4caa1c06852b8a2022ded422e3c24721862530713162b",
+      "sha256_cache": "38a5ad8ad50d18a9ea14160fcfa4e15a46d0a8af14f3d00ada8712a5134503e2",
+      "cache_size": 212367,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1648,
+        "last_missing_or_nonpositive": 1648,
+        "invalid_bbo_or_quantity": 2003,
+        "volume_missing_or_invalid": 1648,
+        "volume_clock_missing_or_invalid": 1648,
+        "price_clock_outside_regular_session": 7,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 182799,
+        "same_price_clock_rows": 173231,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 53482,
+          "price_clock_outside_regular_session": 4,
+          "price_clock_missing": 226,
+          "in_session_events": 53252,
+          "volume_pair_changes": 13800,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 53252,
+          "initial_baselines": 1,
+          "positive_delta_updates": 13799
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-29_Night",
+      "source_path": "NK225/2026-10-29_Night/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-10-29_Night.npz",
+      "source_size": 364491396,
+      "source_mtime_ns": 1793307604013690000,
+      "raw_lines": 226361,
+      "decoded_rows": 226361,
+      "events": 55920,
+      "omitted_identical": 170441,
+      "sha256_uncompressed": "3d6bcf1dd31dd63954f1972203f6c044bd7425b062c6c46a91ca25f9efd69092",
+      "sha256_cache": "4b9a03be6322c3078409c9a5faab51ca97d5d45d3ffdfb75e24b5a20f7de7418",
+      "cache_size": 187061,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 570,
+        "last_missing_or_nonpositive": 570,
+        "invalid_bbo_or_quantity": 788,
+        "volume_missing_or_invalid": 570,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 24,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 225791,
+        "same_price_clock_rows": 220333,
+        "backward_price_clock_rows": 6
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 55920,
+          "price_clock_outside_regular_session": 17,
+          "price_clock_missing": 29,
+          "in_session_events": 55874,
+          "volume_pair_changes": 6979,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 55874,
+          "initial_baselines": 1,
+          "positive_delta_updates": 6978
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Day",
+      "source_path": "NK225/2026-10-30_Day/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-10-30_Day.npz",
+      "source_size": 263603218,
+      "source_mtime_ns": 1793342700276090100,
+      "raw_lines": 163162,
+      "decoded_rows": 163162,
+      "events": 48010,
+      "omitted_identical": 115152,
+      "sha256_uncompressed": "ad8d32fa5a8b4fa8f3fc67d1ec5835c04048c3588d8eb84eed32de569e153451",
+      "sha256_cache": "30929e65327c544fa0bfcaa8fbddce5eaecc29b1669721222bf789a733d30e84",
+      "cache_size": 192538,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1234,
+        "last_missing_or_nonpositive": 1234,
+        "invalid_bbo_or_quantity": 1680,
+        "volume_missing_or_invalid": 1234,
+        "volume_clock_missing_or_invalid": 1234,
+        "price_clock_outside_regular_session": 389,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 161928,
+        "same_price_clock_rows": 153386,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 48010,
+          "price_clock_outside_regular_session": 45,
+          "price_clock_missing": 166,
+          "in_session_events": 47799,
+          "volume_pair_changes": 12079,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 47799,
+          "initial_baselines": 1,
+          "positive_delta_updates": 12078
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-10-30_Night",
+      "source_path": "NK225/2026-10-30_Night/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-10-30_Night.npz",
+      "source_size": 388197994,
+      "source_mtime_ns": 1793394001132792300,
+      "raw_lines": 240743,
+      "decoded_rows": 240743,
+      "events": 57954,
+      "omitted_identical": 182789,
+      "sha256_uncompressed": "656c0300499bd8084acd4119dee12e01f45f0e254498846f713e54fa3ef02504",
+      "sha256_cache": "1487771c0506398935587283b5b01e2289f1d74072c539c1b7a1a565ace2aec7",
+      "cache_size": 197481,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 746,
+        "last_missing_or_nonpositive": 746,
+        "invalid_bbo_or_quantity": 927,
+        "volume_missing_or_invalid": 746,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 253,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 239997,
+        "same_price_clock_rows": 233779,
+        "backward_price_clock_rows": 14
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 57954,
+          "price_clock_outside_regular_session": 85,
+          "price_clock_missing": 142,
+          "in_session_events": 57727,
+          "volume_pair_changes": 7736,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 57727,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7735
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Day",
+      "source_path": "NK225/2026-11-02_Day/book.jsonl.gz",
+      "cache_path": "キャッシュ/NK225/2026-11-02_Day.npz",
+      "source_size": 3747805,
+      "source_mtime_ns": 1793643268408098600,
+      "raw_lines": 159353,
+      "decoded_rows": 159353,
+      "events": 39984,
+      "omitted_identical": 119369,
+      "sha256_uncompressed": "b1df389e22d42faf81d49735aa454f814f5928818d5a39b6ee74ee793a414997",
+      "sha256_cache": "6aecdcab08d1f4339abec63ab4587bc52ef7a76bc408b578c13b17e3b388d44d",
+      "cache_size": 162157,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1132,
+        "last_missing_or_nonpositive": 1132,
+        "invalid_bbo_or_quantity": 1516,
+        "volume_missing_or_invalid": 1132,
+        "volume_clock_missing_or_invalid": 1132,
+        "price_clock_outside_regular_session": 314,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 158221,
+        "same_price_clock_rows": 150797,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 39984,
+          "price_clock_missing": 136,
+          "in_session_events": 39781,
+          "volume_pair_changes": 10395,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 39781,
+          "initial_baselines": 1,
+          "positive_delta_updates": 10394,
+          "price_clock_outside_regular_session": 67
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-02_Night",
+      "source_path": "NK225/2026-11-02_Night/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-11-02_Night.npz",
+      "source_size": 363772145,
+      "source_mtime_ns": 1793653200546046500,
+      "raw_lines": 225848,
+      "decoded_rows": 225848,
+      "events": 56084,
+      "omitted_identical": 169764,
+      "sha256_uncompressed": "0d5710c8af2aa1990c8f46f5ebe980d6ccc017ee6bc87557518529047f7c1ee8",
+      "sha256_cache": "1f776925d90f9033e4576799f7ad39a6f91379fa811caa3f3bbf8d8febe4b030",
+      "cache_size": 186764,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 635,
+        "last_missing_or_nonpositive": 635,
+        "invalid_bbo_or_quantity": 903,
+        "volume_missing_or_invalid": 635,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 10,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 225213,
+        "same_price_clock_rows": 219717,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 56084,
+          "price_clock_outside_regular_session": 5,
+          "price_clock_missing": 57,
+          "in_session_events": 56022,
+          "volume_pair_changes": 7216,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 56022,
+          "initial_baselines": 1,
+          "positive_delta_updates": 7215
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Day",
+      "source_path": "NK225/2026-11-03_Day/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-11-03_Day.npz",
+      "source_size": 177967191,
+      "source_mtime_ns": 1793688300742754800,
+      "raw_lines": 110293,
+      "decoded_rows": 110293,
+      "events": 25237,
+      "omitted_identical": 85056,
+      "sha256_uncompressed": "06b8f2809e87dfde12e2af6932f47a1bdb951e44ae9a87169182c4aa8d9cf0ae",
+      "sha256_cache": "88f2e721821b6afc4512b8affa514aea27699ac473e2a27acb70e6e91dffba5e",
+      "cache_size": 87589,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1062,
+        "last_missing_or_nonpositive": 1062,
+        "invalid_bbo_or_quantity": 1380,
+        "volume_missing_or_invalid": 1062,
+        "volume_clock_missing_or_invalid": 1062,
+        "price_clock_outside_regular_session": 310,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 109231,
+        "same_price_clock_rows": 106358,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 25237,
+          "price_clock_outside_regular_session": 20,
+          "price_clock_missing": 209,
+          "in_session_events": 25008,
+          "volume_pair_changes": 3519,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 25008,
+          "initial_baselines": 1,
+          "positive_delta_updates": 3518
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-03_Night",
+      "source_path": "NK225/2026-11-03_Night/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-11-03_Night.npz",
+      "source_size": 316429802,
+      "source_mtime_ns": 1793739601005517100,
+      "raw_lines": 196464,
+      "decoded_rows": 196464,
+      "events": 46790,
+      "omitted_identical": 149674,
+      "sha256_uncompressed": "be5e6dbbaae669f1f93525ceba8994d4b6f988739ea51942390034915bc548fc",
+      "sha256_cache": "345167359a18ca9fbbdf6f325bc24d20e923e58ca732d696ce7122ec26767719",
+      "cache_size": 149341,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 532,
+        "last_missing_or_nonpositive": 532,
+        "invalid_bbo_or_quantity": 677,
+        "volume_missing_or_invalid": 532,
+        "volume_clock_missing_or_invalid": 0,
+        "price_clock_outside_regular_session": 16,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 195932,
+        "same_price_clock_rows": 192001,
+        "backward_price_clock_rows": 5
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 46790,
+          "price_clock_outside_regular_session": 14,
+          "price_clock_missing": 40,
+          "in_session_events": 46736,
+          "volume_pair_changes": 5073,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 46736,
+          "initial_baselines": 1,
+          "positive_delta_updates": 5072
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 155,
+        "baseline_complete_bars": 154,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 154,
+        "rvol_previous_twenty_available_bars": 134,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    },
+    {
+      "symbol": "NK225",
+      "session": "2026-11-04_Day",
+      "source_path": "NK225/2026-11-04_Day/book.jsonl",
+      "cache_path": "キャッシュ/NK225/2026-11-04_Day.npz",
+      "source_size": 331194233,
+      "source_mtime_ns": 1793774700445689500,
+      "raw_lines": 204993,
+      "decoded_rows": 204993,
+      "events": 73344,
+      "omitted_identical": 131649,
+      "sha256_uncompressed": "344d3cb0f05b28b1bc28388996f3741bfbe51ede6c4ea570067e3d43b244f2d5",
+      "sha256_cache": "710d8a4b726b7bc4c979f8b2aebd921b20ee5f390e3dd6f5d15515673e635796",
+      "cache_size": 296841,
+      "contract_codes": [
+        "161120018"
+      ],
+      "contract_names": [
+        "日経平均先物 26/12"
+      ],
+      "in_session_contract_codes": [
+        "161120018"
+      ],
+      "quality": {
+        "price_clock_missing_or_invalid": 1303,
+        "last_missing_or_nonpositive": 1303,
+        "invalid_bbo_or_quantity": 1720,
+        "volume_missing_or_invalid": 1303,
+        "volume_clock_missing_or_invalid": 1303,
+        "price_clock_outside_regular_session": 16,
+        "volume_time_after_price_rows": 0,
+        "volume_time_before_price_rows": 0,
+        "volume_time_equal_price_rows": 203690,
+        "same_price_clock_rows": 190545,
+        "backward_price_clock_rows": 0
+      },
+      "volume_audit": {
+        "counts": {
+          "cached_events": 73344,
+          "price_clock_outside_regular_session": 5,
+          "price_clock_missing": 186,
+          "in_session_events": 73153,
+          "volume_pair_changes": 21083,
+          "volume_clock_after_price": 0,
+          "volume_clock_before_price": 0,
+          "volume_clock_equal_price": 73153,
+          "initial_baselines": 1,
+          "positive_delta_updates": 21082
+        },
+        "maximum_volume_lead_seconds": 0.0,
+        "maximum_volume_lag_seconds": 0.0,
+        "price_bars": 83,
+        "baseline_complete_bars": 82,
+        "baseline_incomplete_bars": 1,
+        "longest_complete_run": 82,
+        "rvol_previous_twenty_available_bars": 62,
+        "definition": "価格時計で数量時計以下の有限非負累積のみ受入れ。初回・減少・数量時計後退・足欠損後は再基準化して当足不完全。正常増分を採用時の価格時計足へ加算。遡及再配置しない。",
+        "limitations": "baseline_completeはこの観測モデルの基準継続であり、真の全約定数量の完全性ではない。future行はskipし後続で採用できた累積から差分を得る。"
+      }
+    }
+  ],
+  "Python": "3.14.3",
+  "numpy": "2.5.3",
+  "JSON読取": "orjson 3.13.0",
+  "cache_columns": {
+    "now": "<f8",
+    "line": "<i8",
+    "last": "<f8",
+    "bid": "<f8",
+    "ask": "<f8",
+    "valid": "|b1",
+    "volume": "<f8",
+    "volume_time": "<f8"
+  },
+  "キャッシュ親": "work/複合検証",
+  "データ準備コードSHA256": "572b121e6bee7a68e7eb88230cab19f89b60f33eb12030f1a9a2003413a5607b",
+  "入力監査コードSHA256": "ab116c486dff2e4a24bbac60e2531a8ffe1c9e4058d64e7a6f4e6a015b3aefe7",
+  "元台帳": "study/00006_外部手法を1分3分5分で比較/入力台帳.json",
+  "元台帳SHA256": "31eb0ce4b8211c8d7cee761ee704d899b25b55c03c721602f75eeca3bb349fb4",
+  "入力区分": {
+    "既使用探索": [
+      "2026-09-21_Day",
+      "2026-09-21_Night",
+      "2026-09-22_Day",
+      "2026-09-22_Night",
+      "2026-09-23_Day",
+      "2026-09-23_Night",
+      "2026-09-24_Day",
+      "2026-09-24_Night",
+      "2026-09-25_Day",
+      "2026-09-25_Night",
+      "2026-09-28_Day",
+      "2026-09-28_Night",
+      "2026-09-29_Day",
+      "2026-09-29_Night",
+      "2026-09-30_Day",
+      "2026-09-30_Night",
+      "2026-10-01_Day",
+      "2026-10-01_Night",
+      "2026-10-02_Day",
+      "2026-10-02_Night",
+      "2026-10-05_Day",
+      "2026-10-05_Night",
+      "2026-10-06_Day",
+      "2026-10-06_Night",
+      "2026-10-07_Day",
+      "2026-10-07_Night",
+      "2026-10-08_Day",
+      "2026-10-08_Night",
+      "2026-10-09_Day",
+      "2026-10-09_Night",
+      "2026-10-12_Day",
+      "2026-10-12_Night",
+      "2026-10-13_Day",
+      "2026-10-13_Night",
+      "2026-10-14_Day",
+      "2026-10-14_Night",
+      "2026-10-15_Day",
+      "2026-10-15_Night",
+      "2026-10-16_Day",
+      "2026-10-16_Night",
+      "2026-10-19_Day",
+      "2026-10-19_Night",
+      "2026-10-20_Day",
+      "2026-10-20_Night",
+      "2026-10-21_Day",
+      "2026-10-21_Night",
+      "2026-10-22_Day",
+      "2026-10-22_Night",
+      "2026-10-23_Day",
+      "2026-10-23_Night",
+      "2026-10-26_Day",
+      "2026-10-26_Night",
+      "2026-10-27_Day",
+      "2026-10-27_Night",
+      "2026-10-28_Day",
+      "2026-10-28_Night",
+      "2026-10-29_Day",
+      "2026-10-29_Night",
+      "2026-10-30_Day",
+      "2026-10-30_Night",
+      "2026-11-02_Day",
+      "2026-11-02_Night",
+      "2026-11-03_Day",
+      "2026-11-03_Night"
+    ],
+    "選択後まで保留": [
+      "2026-11-04_Day"
+    ]
+  },
+  "用途": "旧64を不変で維持。新1場は品質cacheのみ。新1の価格経路・特徴・ラベル・損益を選択固定前に利用しない。"
+}

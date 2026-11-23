@@ -1,0 +1,132 @@
+{
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "確認日時": "2026-11-04T19:31:30.494036+09:00",
+  "設定": "work/viewer/conf/viewer.toml",
+  "WindowStyle": "Hidden",
+  "照合": [
+    {
+      "選択理由": "構造最大絶対観測損益場と同場固定",
+      "資源ID": "00012_3分_次足確認_固定_2026-10-30_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-30_Night",
+      "手法": "3分_次足確認_固定",
+      "研究側純損益円": 6012.0,
+      "独立会計": {
+        "cash": 6012.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 4
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 6012,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 8,
+      "帰属手法の約定片数": 8,
+      "API約定片数": 8,
+      "約定ファイル": "約定/3分_次足確認_固定/2026-10-30_Night.trades.jsonl",
+      "約定SHA256": "f0892674b220d723a46b6a0ad18715b8e69aeec9613e6455bc51bd8af24f95ed",
+      "数値SHA256": "db84defe9c503b7dfc24181a1bc4409b5cbbc462e7c8e0fb804e3cf7ab4f31bd",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "db84defe9c503b7dfc24181a1bc4409b5cbbc462e7c8e0fb804e3cf7ab4f31bd",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793347200000,
+        "end_ms": 1793394000000,
+        "from_ms": 1793347200000,
+        "to_ms": 1793394000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 240743,
+        "invalid_clock_rows": 746,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 233543
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00012_BB反転の確認と構造リスク\\約定\\3分_次足確認_固定\\2026-10-30_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00012_BB反転の確認と構造リスク\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 6012.0
+    },
+    {
+      "選択理由": "構造最大絶対観測損益場と同場固定",
+      "資源ID": "00012_3分_次足確認_構造_2026-10-30_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-30_Night",
+      "手法": "3分_次足確認_構造",
+      "研究側純損益円": 6612.0,
+      "独立会計": {
+        "cash": 6612.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 4
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 6612,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 8,
+      "帰属手法の約定片数": 8,
+      "API約定片数": 8,
+      "約定ファイル": "約定/3分_次足確認_構造/2026-10-30_Night.trades.jsonl",
+      "約定SHA256": "561193dbed3cd0d3ec07024b5b371cd0e6c098a7cd961bb2beb40380db79dfab",
+      "数値SHA256": "740869171b3958c273253a5763ca3d23d79878624deedf1ad0df245b3b77fc7d",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "740869171b3958c273253a5763ca3d23d79878624deedf1ad0df245b3b77fc7d",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793347200000,
+        "end_ms": 1793394000000,
+        "from_ms": 1793347200000,
+        "to_ms": 1793394000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 240743,
+        "invalid_clock_rows": 746,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 233543
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00012_BB反転の確認と構造リスク\\約定\\3分_次足確認_構造\\2026-10-30_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00012_BB反転の確認と構造リスク\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 6612.0
+    }
+  ],
+  "追加PNG数": 0,
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "パス": "市場は設定data_root、約定はpath_base=catalogで一覧親基準。全65場既使用の事後表示。"
+}

@@ -1,0 +1,137 @@
+{
+  "確認日時": "2026-11-04T16:25:51.784723+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "設定": "work/viewer/conf/viewer.toml",
+  "起動": {
+    "WindowStyle": "Hidden",
+    "実行コピー": "work/viewer/session-trade-viewer.exe",
+    "実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+    "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8"
+  },
+  "パス解決": "market_pathは設定の市場data_root基準。pnl_pathはpath_base=catalogで各一覧の親基準。",
+  "読込例": "/?catalog=study/00008_外部研究を共通尺度へ移して探索/追加確認/一覧.resources.json&resource=00008_5分_RSI回復_40_なし_2026-11-04_Day&interval=5&price=last",
+  "表示コードSHA256": "1beae560a0ea810930d9bc75d5fb77eff66cfee87e844bfcb476f2f617acdded",
+  "照合": [
+    {
+      "選択理由": "固定新候補の後続例",
+      "資源ID": "00008_5分_RSI回復_40_なし_2026-11-04_Day",
+      "銘柄": "NK225",
+      "場": "2026-11-04_Day",
+      "手法": "5分_RSI回復_40_なし",
+      "研究側純損益円": 2378.0,
+      "独立会計": {
+        "cash": 2378.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 1
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 2378,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 2,
+      "帰属手法の約定片数": 2,
+      "API約定片数": 2,
+      "約定ファイル": "約定/5分_RSI回復_40_なし/2026-11-04_Day.trades.jsonl",
+      "約定SHA256": "4b67778f7dcc07a50b9d0fbacd0ab82b733210acba9d1899d599752d1ef3b148",
+      "数値SHA256": "3da57a0327248adf47d91e23efc2c40a16143026be17d13fe0505d241d1e2de0",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "3da57a0327248adf47d91e23efc2c40a16143026be17d13fe0505d241d1e2de0",
+      "画像ヘッダSHA256": "3da57a0327248adf47d91e23efc2c40a16143026be17d13fe0505d241d1e2de0",
+      "PNG": "図/NK225_固定新候補の後続例_2026-11-04_Day.png",
+      "PNGSHA256": "5d40fb516567b01ebc069e935cbad94496f9acb2f218622bccff145e412ce234",
+      "表示範囲": {
+        "start_ms": 1793749500000,
+        "end_ms": 1793774700000,
+        "from_ms": 1793749500000,
+        "to_ms": 1793774700000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 204993,
+        "invalid_clock_rows": 1303,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 190530
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00008_外部研究を共通尺度へ移して探索\\追加確認\\約定\\5分_RSI回復_40_なし\\2026-11-04_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00008_外部研究を共通尺度へ移して探索\\追加確認\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 2378.0
+    },
+    {
+      "選択理由": "固定新候補の後続例",
+      "資源ID": "00008_対照_3分開始15分失敗復帰_ADX20未満_2026-11-04_Day",
+      "銘柄": "NK225",
+      "場": "2026-11-04_Day",
+      "手法": "対照_3分開始15分失敗復帰_ADX20未満",
+      "研究側純損益円": 0.0,
+      "独立会計": {
+        "cash": 0.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 0
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 0,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 0,
+      "帰属手法の約定片数": 0,
+      "API約定片数": 0,
+      "約定ファイル": "約定/対照_3分開始15分失敗復帰_ADX20未満/2026-11-04_Day.trades.jsonl",
+      "約定SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "数値SHA256": "e6cbe51df8754ef1ee7f688bac00e896b49dea8183273e158dde3a5b1647de89",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "e6cbe51df8754ef1ee7f688bac00e896b49dea8183273e158dde3a5b1647de89",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793749500000,
+        "end_ms": 1793774700000,
+        "from_ms": 1793749500000,
+        "to_ms": 1793774700000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 204993,
+        "invalid_clock_rows": 1303,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 190530
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00008_外部研究を共通尺度へ移して探索\\追加確認\\約定\\対照_3分開始15分失敗復帰_ADX20未満\\2026-11-04_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00008_外部研究を共通尺度へ移して探索\\追加確認\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 0.0
+    }
+  ],
+  "意味": "micro1枚代理・片道11円・追加滑り0ptの観測会計。後続1場を安定性の証拠としない。"
+}
