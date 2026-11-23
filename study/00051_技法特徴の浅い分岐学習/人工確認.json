@@ -1,0 +1,47 @@
+{
+  "試行": 51,
+  "確認日時": "2026-11-06T04:38:47.765226+09:00",
+  "Python": "3.14.3",
+  "テスト": [
+    {
+      "区分": "特徴の人工検査",
+      "件数": 21,
+      "成功": true,
+      "記録": "test_atr_distance_and_missing (試行51人工0.FeatureTests.test_atr_distance_and_missing)\n現ATRでDを作り、旧Dを使わず5・125の制限と欠測を検査する。 ... ok\ntest_current_age_180_inclusive (試行51人工0.FeatureTests.test_current_age_180_inclusive)\n最新3分の180秒等号を採り、その超過を拒否する。 ... ok\ntest_exact_fast_missing_and_inconsistent (試行51人工0.FeatureTests.test_exact_fast_missing_and_inconsistent)\nFast欠測・不正分母・表示不一致を0補完しない。 ... ok\ntest_extract_performs_no_io (試行51人工0.FeatureTests.test_extract_performs_no_io)\n抽出中のファイル読取を禁止し、有限float配列だけを返す。 ... ok\ntest_fifteen_golden_values (試行51人工0.FeatureTests.test_fifteen_golden_values)\n全15値と売方向の高安交換を明示した有理数へ照合する。 ... ok\ntest_fraction_intermediate_and_di_equal (試行51人工0.FeatureTests.test_fraction_intermediate_and_di_equal)\nFast分数と保存floatのDI差を丸めず計算し、DI0も準備可にする。 ... ok\ntest_metadata_order_and_roles (試行51人工0.FeatureTests.test_metadata_order_and_roles)\n15列のID順と技法・役割metadataを固定する。 ... ok\ntest_missing_material_and_nonmutation (試行51人工0.FeatureTests.test_missing_material_and_nonmutation)\n入力を改変せず欠測字段は理由付き判定不能にする。 ... ok\ntest_nonadjacent_sources (試行51人工0.FeatureTests.test_nonadjacent_sources)\n番号・終了開始・公開順の隣接不一致を区別して拒否する。 ... ok\ntest_old_decision_teacher_and_holdings_irrelevant (試行51人工0.FeatureTests.test_old_decision_teacher_and_holdings_irrelevant)\n旧採否・教師・保有の書換えで出典由来の特徴を変えない。 ... ok\ntest_old_fast_source_mismatch (試行51人工0.FeatureTests.test_old_fast_source_mismatch)\nFast出典の番号・価格・公開原行の違いを全SOURCE比較で拒否する。 ... ok\ntest_opening_range_all_ten_sources (試行51人工0.FeatureTests.test_opening_range_all_ten_sources)\nOR.readyだけを信じず1本の未来・欠落・高安不一致も拒否する。 ... ok\ntest_price_source_missing_and_invalid (試行51人工0.FeatureTests.test_price_source_missing_and_invalid)\nNP・欠枠・部分足・不正OHLCを古い足へ置換しない。 ... ok\ntest_publication_key_boundary (試行51人工0.FeatureTests.test_publication_key_boundary)\n同秒同原行は可、同秒後行・未来公開は不可とする。 ... ok\ntest_quote_and_clock_invalid (試行51人工0.FeatureTests.test_quote_and_clock_invalid)\n原行欠測・BBO不正・30秒超の判断を特徴不明として残す。 ... ok\ntest_reflection_all_columns (試行51人工0.FeatureTests.test_reflection_all_columns)\n売買反射で同じ実方向15値を完全に保つ。 ... ok\ntest_scheduled_end_precedes_quote_visibility (試行51人工0.FeatureTests.test_scheduled_end_precedes_quote_visibility)\n実判断keyまでに公開済みでも予定後終了足は使わない。 ... ok\ntest_translation_invariance (試行51人工0.FeatureTests.test_translation_invariance)\n一定価格移動で価格の水準を特徴へ混入させない。 ... ok\ntest_upper_age_900_inclusive (試行51人工0.FeatureTests.test_upper_age_900_inclusive)\n上位900秒等号と最新不良・未来公開を補完なしで検査する。 ... ok\ntest_zero_width_current_and_upper (試行51人工0.FeatureTests.test_zero_width_current_and_upper)\n有効な零幅足のCLVを0にし、欠測としない。 ... ok\ntest_zero_width_opening_range (試行51人工0.FeatureTests.test_zero_width_opening_range)\n完全公開で全同値の開始帯も幅0という有効値にする。 ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.007s\n\nOK\n"
+    },
+    {
+      "区分": "学習の人工検査",
+      "件数": 13,
+      "成功": true,
+      "記録": "test_family異種と必須系統 (試行51人工1.ArtificialTests.test_family異種と必須系統)\n同系統二分岐・価格と値幅だけを複数技法条件の達成にしない。 ... ok\ntest_float32境界を先に変換 (試行51人工1.ArtificialTests.test_float32境界を先に変換)\n生floatで右でもfloat32では等号左になる値を確認する。 ... ok\ntest_jsonとsklearnの全予測 (試行51人工1.ArtificialTests.test_jsonとsklearnの全予測)\n全人工方向行の葉と成功率を完全一致で確認する。 ... ok\ntest_pair除外と半分重み (試行51人工1.ArtificialTests.test_pair除外と半分重み)\n片側不足/未約定の相手を学習へ残さないことを確認する。 ... ok\ntest_score下限等号と直下 (試行51人工1.ArtificialTests.test_score下限等号と直下)\n三分の一等号を採用し、直下は最高側でもWAITにする。 ... ok\ntest_使用教師とmetadataの指紋 (試行51人工1.ArtificialTests.test_使用教師とmetadataの指紋)\n学習ID・期間・metadataをJSONで保全する。 ... ok\ntest_勝側支持不足は次点へ逃がさない (試行51人工1.ArtificialTests.test_勝側支持不足は次点へ逃がさない)\n最高側のunique枠/日/場の不足を個別にWAITへする。 ... ok\ntest_単一classと根だけの木 (試行51人工1.ArtificialTests.test_単一classと根だけの木)\n成功又は失敗しかない教師でもscoreを保ち、技法path不足を待機にする。 ... ok\ntest_同点WAITと両score保持 (試行51人工1.ArtificialTests.test_同点WAITと両score保持)\n同点を買い/売り優先にせず、負け側も0へ変更しない。 ... ok\ntest_売買方向の選択と未準備 (試行51人工1.ArtificialTests.test_売買方向の選択と未準備)\n入力方向を交換すると売りが勝ち、両欠測はscore未定のWAITになる。 ... ok\ntest_未来教師と同秒を拒否 (試行51人工1.ArtificialTests.test_未来教師と同秒を拒否)\n評価開始と同秒・以後の教師終点を拒否する。 ... ok\ntest_欠測と順番と重みを拒否 (試行51人工1.ArtificialTests.test_欠測と順番と重みを拒否)\n特徴欠測/並替え/片側重み変更を拒否する。 ... ok\ntest_片方向とペア時計不一致拒否 (試行51人工1.ArtificialTests.test_片方向とペア時計不一致拒否)\n両方向を別枠として加える事故を拒否する。 ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.302s\n\nOK\n"
+    },
+    {
+      "区分": "接続の人工検査",
+      "件数": 5,
+      "成功": true,
+      "記録": "test_di_neutral_keeps_wait (試行51人工2.ConnectionTests.test_di_neutral_keeps_wait)\n上位同値を反転という意味ラベルへ捏造しない。 ... ok\ntest_old_adoption_and_future_labels_not_inputs (試行51人工2.ConnectionTests.test_old_adoption_and_future_labels_not_inputs)\n旧採否・将来の結果を変えても、同じ新特徴の方向は変わらない。 ... ok\ntest_unknown_features_do_not_score (試行51人工2.ConnectionTests.test_unknown_features_do_not_score)\n特徴未準備では予測器を呼ばず、不足を0得点に置換しない。 ... ok\ntest_unknown_teacher_pair_reaches_fit (試行51人工2.ConnectionTests.test_unknown_teacher_pair_reaches_fit)\n将来不足を特徴準備へ戻さず、両方向教師を学習器へ渡す。 ... ok\ntest_whole_session_forward_phases (試行51人工2.ConnectionTests.test_whole_session_forward_phases)\n全場単位で学習と後続が分離され、初20を評価へ混ぜないことを確認する。 ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+    }
+  ],
+  "保存物監査人工": {
+    "人工成功": true,
+    "照合項目数": 3421,
+    "不一致数": 0,
+    "不一致": [],
+    "人工fit数": 2,
+    "本物教師読取": false,
+    "市場戦略再生": false
+  },
+  "全件成功": true,
+  "市場再生": false,
+  "本物学習": false,
+  "コードSHA256": {
+    "scripts/技法分岐学習/レポート.py": "c8bc6dc6524faa530d27b719ac4b7b5e1970d7f60741676cb58fe45bb090098b",
+    "scripts/技法分岐学習/保存物確認.py": "7be87afde2aefc43fa6a1f69bdad14ca6950d6c515c48d0b6e2cfeeb1a84723e",
+    "scripts/技法分岐学習/学習.py": "6e0a892bcf48416a0334fcdcd295442e91d989df0568ffd45288b32fd7e492aa",
+    "scripts/技法分岐学習/学習の人工検査.py": "6e0b28e1d247350e4929b5bc8d03cf36f29bd31c7181bc9dc16fcb67592d8a18",
+    "scripts/技法分岐学習/接続の人工検査.py": "763fa9dc616047423aafaeb634365f80eaa524c7e336de2e9d202b6471f0a26b",
+    "scripts/技法分岐学習/検証.py": "cc6145208aaa618b2907917a18351ac7f3ae46709eac2ba59b02dab02a5da454",
+    "scripts/技法分岐学習/特徴.py": "3098652906b04f75f650b2f8e94b5d8b2a3f3c4830bd89d74d0605d48cf79bd4",
+    "scripts/技法分岐学習/特徴の人工検査.py": "5ef4224dc1276b1aac45e599fc0d836ad600beb1896f0b9ad88bd1e811f43c06"
+  }
+}

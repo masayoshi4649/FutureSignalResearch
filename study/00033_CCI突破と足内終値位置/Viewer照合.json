@@ -1,0 +1,187 @@
+{
+  "確認日時": "2026-11-05T14:59:17.656351+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "代表規則": "事前T0_X0/T0_XF/T1_XF。各案最大絶対観測現金増減場、同値は場順。売買採否へ不使用。",
+  "照合": [
+    {
+      "選択理由": "事前三運用の代表",
+      "資源ID": "00033_3分_T0_X0_2026-10-14_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-14_Night",
+      "手法": "3分_T0_X0",
+      "研究側純損益円": -6806.0,
+      "独立会計": {
+        "cash": -6806.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 23
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -6806,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 46,
+      "帰属手法の約定片数": 46,
+      "API約定片数": 46,
+      "約定ファイル": "約定/3分_T0_X0/2026-10-14_Night.trades.jsonl",
+      "約定SHA256": "ca31269ec5455a69b80572a3edfed2f05a9e9699cd59cb070b643a45cef15b1e",
+      "数値SHA256": "a33a9088d59ef8df82971893f7c43e2c9498fa13d5fa339939a1a80a18ea7f7a",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "a33a9088d59ef8df82971893f7c43e2c9498fa13d5fa339939a1a80a18ea7f7a",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1791964800000,
+        "end_ms": 1792011600000,
+        "from_ms": 1791964800000,
+        "to_ms": 1792011600000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 187953,
+        "invalid_clock_rows": 476,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 182418
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00033_CCI突破と足内終値位置\\約定\\3分_T0_X0\\2026-10-14_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00033_CCI突破と足内終値位置\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -6806.0
+    },
+    {
+      "選択理由": "事前三運用の代表",
+      "資源ID": "00033_3分_T0_XF_2026-09-24_Night",
+      "銘柄": "NK225",
+      "場": "2026-09-24_Night",
+      "手法": "3分_T0_XF",
+      "研究側純損益円": -6442.0,
+      "独立会計": {
+        "cash": -6442.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 11
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -6442,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 22,
+      "帰属手法の約定片数": 22,
+      "API約定片数": 22,
+      "約定ファイル": "約定/3分_T0_XF/2026-09-24_Night.trades.jsonl",
+      "約定SHA256": "878a8b6de1c9bcbc046cdda701059edc90e2446f200d7914639fdc0e019278df",
+      "数値SHA256": "68c79e07fe5ef7a94a35e6089d26d6a2c8384fb7ac59a8303391196d8fae67f9",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "68c79e07fe5ef7a94a35e6089d26d6a2c8384fb7ac59a8303391196d8fae67f9",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1790236800000,
+        "end_ms": 1790283600000,
+        "from_ms": 1790236800000,
+        "to_ms": 1790283600000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 177254,
+        "invalid_clock_rows": 539,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 172752
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00033_CCI突破と足内終値位置\\約定\\3分_T0_XF\\2026-09-24_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00033_CCI突破と足内終値位置\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -6442.0
+    },
+    {
+      "選択理由": "事前三運用の代表",
+      "資源ID": "00033_3分_T1_XF_2026-10-26_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-26_Night",
+      "手法": "3分_T1_XF",
+      "研究側純損益円": -5608.0,
+      "独立会計": {
+        "cash": -5608.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 14
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -5608,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 28,
+      "帰属手法の約定片数": 28,
+      "API約定片数": 28,
+      "約定ファイル": "約定/3分_T1_XF/2026-10-26_Night.trades.jsonl",
+      "約定SHA256": "fec098a70db0b37ccdb78c3978036ee569a2bd92db3e1bcf5af8cc0ae3d9f976",
+      "数値SHA256": "03f3d9a6d051c753b31dde10b3f9bb0a4021af1bf6aa76c98c929aba0298b935",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "03f3d9a6d051c753b31dde10b3f9bb0a4021af1bf6aa76c98c929aba0298b935",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793001600000,
+        "end_ms": 1793048400000,
+        "from_ms": 1793001600000,
+        "to_ms": 1793048400000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 196656,
+        "invalid_clock_rows": 684,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 190900
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00033_CCI突破と足内終値位置\\約定\\3分_T1_XF\\2026-10-26_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00033_CCI突破と足内終値位置\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -5608.0
+    }
+  ],
+  "追加PNG数": 0,
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8"
+}

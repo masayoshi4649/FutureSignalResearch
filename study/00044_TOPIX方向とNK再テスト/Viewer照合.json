@@ -1,0 +1,187 @@
+{
+  "確認日時": "2026-11-05T22:39:52.779163+09:00",
+  "接続先": "http://127.0.0.1:8092",
+  "API情報": {
+    "data_root": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future",
+    "default_catalog": "",
+    "listen": "127.0.0.1:8092",
+    "resource_root": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch"
+  },
+  "照合": [
+    {
+      "選択理由": "事前三運用の代表",
+      "資源ID": "00044_3分_X0_XF_2026-11-04_Day",
+      "銘柄": "NK225",
+      "場": "2026-11-04_Day",
+      "手法": "3分_X0_XF",
+      "研究側純損益円": 5990.0,
+      "独立会計": {
+        "cash": 5990.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 5
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 5990,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 10,
+      "帰属手法の約定片数": 10,
+      "API約定片数": 10,
+      "約定ファイル": "約定/3分_X0_XF/2026-11-04_Day.trades.jsonl",
+      "約定SHA256": "554c101f5b14f8b1a9b88f3d6fa350b9c0243effebfeccf5604c1802dc004eaa",
+      "数値SHA256": "05dedc4f62365ac03242fbce24aacd0afe81799aa6497c83c0b7ec0c8afab2e9",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "05dedc4f62365ac03242fbce24aacd0afe81799aa6497c83c0b7ec0c8afab2e9",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1793749500000,
+        "end_ms": 1793774700000,
+        "from_ms": 1793749500000,
+        "to_ms": 1793774700000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 204993,
+        "invalid_clock_rows": 1303,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 190530
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\book.jsonl",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00044_TOPIX方向とNK再テスト\\約定\\3分_X0_XF\\2026-11-04_Day.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00044_TOPIX方向とNK再テスト\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 5990.0
+    },
+    {
+      "選択理由": "事前三運用の代表",
+      "資源ID": "00044_3分_X1_XF_2026-10-09_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-09_Night",
+      "手法": "3分_X1_XF",
+      "研究側純損益円": -2766.0,
+      "独立会計": {
+        "cash": -2766.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 3
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": -2766,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 6,
+      "帰属手法の約定片数": 6,
+      "API約定片数": 6,
+      "約定ファイル": "約定/3分_X1_XF/2026-10-09_Night.trades.jsonl",
+      "約定SHA256": "da847dd61fd8af44d9857ce9c5cc4f42231eaa3b373df7b8c38ea03a93113ca0",
+      "数値SHA256": "c4af981d6ac016eafda02b54630d4d826cd6d5bd4667286389f79d06329ef55a",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "c4af981d6ac016eafda02b54630d4d826cd6d5bd4667286389f79d06329ef55a",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1791532800000,
+        "end_ms": 1791579600000,
+        "from_ms": 1791532800000,
+        "to_ms": 1791579600000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 121038,
+        "invalid_clock_rows": 364,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 118032
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00044_TOPIX方向とNK再テスト\\約定\\3分_X1_XF\\2026-10-09_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00044_TOPIX方向とNK再テスト\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": -2766.0
+    },
+    {
+      "選択理由": "事前三運用の代表",
+      "資源ID": "00044_3分_X2_XF_2026-10-20_Night",
+      "銘柄": "NK225",
+      "場": "2026-10-20_Night",
+      "手法": "3分_X2_XF",
+      "研究側純損益円": 2478.0,
+      "独立会計": {
+        "cash": 2478.0,
+        "long_qty": 0,
+        "short_qty": 0,
+        "exit_fragments": 1
+      },
+      "API最終状態": {
+        "long_qty": 0,
+        "short_qty": 0,
+        "realized_pnl_yen": 2478,
+        "unrealized_pnl_yen": 0
+      },
+      "merged全約定片数": 2,
+      "帰属手法の約定片数": 2,
+      "API約定片数": 2,
+      "約定ファイル": "約定/3分_X2_XF/2026-10-20_Night.trades.jsonl",
+      "約定SHA256": "7bb54c20474db1126edbfd88d9b05fe3c1dd8bdc6697ef111ac267c9d2a8882d",
+      "数値SHA256": "e996c396db220209b4d995901b726cd8ed57b3627ced234ddfb213c91da02087",
+      "数値本文SHA256一致": true,
+      "数値ヘッダSHA256": "e996c396db220209b4d995901b726cd8ed57b3627ced234ddfb213c91da02087",
+      "画像ヘッダSHA256": null,
+      "PNG": null,
+      "PNGSHA256": null,
+      "表示範囲": {
+        "start_ms": 1792483200000,
+        "end_ms": 1792530000000,
+        "from_ms": 1792483200000,
+        "to_ms": 1792530000000
+      },
+      "品質": {
+        "warnings": [
+          "価格時計CurrentPriceTimeを使用。受信時計ではありません。",
+          "新規時の手法で建玉を帰属し、その玉の返済・管理外移管を全て表示します。各行の手法IDは当時のままです。",
+          "分足は表示端と重なる完全区間を含み、保有・損益は各区間の最後値です。",
+          "原板の最終観測が場末より前のため、未完区間の分足は観測済みデータだけの暫定値です。"
+        ],
+        "raw_rows": 205786,
+        "invalid_clock_rows": 567,
+        "reversed_clock_rows": 0,
+        "duplicate_clock_rows": 198470
+      },
+      "出所": {
+        "market": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\book.jsonl.gz",
+        "pnl": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00044_TOPIX方向とNK再テスト\\約定\\3分_X2_XF\\2026-10-20_Night.trades.jsonl",
+        "catalog": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00044_TOPIX方向とNK再テスト\\一覧.resources.json"
+      },
+      "一致": true,
+      "観測経路注意": false,
+      "確定対象純損益円": 2478.0
+    }
+  ],
+  "追加PNG数": 0,
+  "代表規則": "各事前運用の最大絶対観測現金増減場。売買採否へ不使用",
+  "Viewer実行コピーSHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8",
+  "指定配布版SHA256": "0ed329e06293f55a99ab1dc503e32cc104285319316ef41b81b59470dce9d0e8"
+}
