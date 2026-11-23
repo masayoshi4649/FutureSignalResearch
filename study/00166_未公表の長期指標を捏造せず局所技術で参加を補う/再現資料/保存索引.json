@@ -1,0 +1,211 @@
+{
+  "成功": true,
+  "試行": 166,
+  "条件": {
+    "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/条件.json",
+    "bytes": 11972,
+    "sha256": "5c3ad73b0003da91749c50e0242b973951c74993db6a9156dfa951d8020f5a49"
+  },
+  "実行環境": {
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "NumPy": "2.5.4",
+    "ijson": "3.6.0",
+    "tzdata": "2026.6",
+    "OS": "Windows-11-10.0.26300-SP0"
+  },
+  "正本": [
+    {
+      "archive": {
+        "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/再現資料/Source.zip",
+        "bytes": 69975,
+        "sha256": "8c931589e4093cf88da7d642e93e418a2395ff42bbef9d29458df6bcced6d249"
+      },
+      "members": [
+        {
+          "path": "work/165_166正式保存/保存を確認して停止する.py",
+          "bytes": 6583,
+          "sha256": "37d24fb3be421cfe49876440366d27d34ed3dece708065345db1196de0ebf002"
+        },
+        {
+          "path": "work/165_166正式保存/正式保存する.py",
+          "bytes": 31220,
+          "sha256": "7aa025d4beca8facc0dfb6a46cb393670d04aa9ca33a0354b2b39fd923cee66e"
+        },
+        {
+          "path": "work/165_166正式保存/正式入力から再現する.py",
+          "bytes": 4522,
+          "sha256": "16e6bfd0c300a2c81189e8b188a221ee257bb044189e00c2d4f0fdd63e260107"
+        },
+        {
+          "path": "work/166可用指標の階層化/local166.py",
+          "bytes": 5946,
+          "sha256": "9085db8c15c1494729315b54ed08810bf405baf482c1f760210990d9588f597b"
+        },
+        {
+          "path": "work/166可用指標の階層化/仕様を固定する.py",
+          "bytes": 4231,
+          "sha256": "6e79916ce8e3653a925178cf613f84c256e8221ccc7ebf95c8ba4116700ec8f8"
+        },
+        {
+          "path": "work/166可用指標の階層化/出生を作る.py",
+          "bytes": 6793,
+          "sha256": "824a94eea85bfc4977f3b10834375921195bd272455de85bcf1fc44a586420db"
+        },
+        {
+          "path": "work/166可用指標の階層化/局所人工検査.py",
+          "bytes": 9049,
+          "sha256": "b5b8f1d738ef6a86665a2d80f51b127f592c8ebd6e00e4ead6abc338e521c5e8"
+        },
+        {
+          "path": "work/166可用指標の階層化/局所人工検査結果.json",
+          "bytes": 944,
+          "sha256": "ca9610db889ba7aa2c6f6957c1de7455653e60ac9c500c75c8e99de48235d76a"
+        },
+        {
+          "path": "work/166可用指標の階層化/局所部品README.md",
+          "bytes": 3379,
+          "sha256": "9241c8193dc01fe9e4fa14d4587dc0a29b183699a4e778df43ee65bad417ff20"
+        },
+        {
+          "path": "work/166可用指標の階層化/局所部品の停止.json",
+          "bytes": 1803,
+          "sha256": "9d1e852dd9043cb61c6fb7a60bae7ac83258ff9a858d203712af5813b8c383e6"
+        },
+        {
+          "path": "work/166可用指標の階層化/比較する.py",
+          "bytes": 10104,
+          "sha256": "4df9aae7fc41b01e8b7120557930b9cdb92e0f648bfd95e84477329f17eec300"
+        },
+        {
+          "path": "work/166自然独立確認/README.md",
+          "bytes": 2919,
+          "sha256": "13428ef495ca28d02a5c97f90bfe9c06d2547f1c0939df5a133e1131b36d7d70"
+        },
+        {
+          "path": "work/166自然独立確認/主案の全73場と三時間帯と補完枝.json",
+          "bytes": 81983,
+          "sha256": "dfe99fcfc07cbecf21d7c6aae0895fcf375e63bafdcf450574d01e0847d9022f"
+        },
+        {
+          "path": "work/166自然独立確認/主案の近傍比較.json",
+          "bytes": 137229,
+          "sha256": "43915e3e9bc4e003ee710059df58a026d7908f1e4e4d9985f158ed9c5563693a"
+        },
+        {
+          "path": "work/166自然独立確認/独立確認の停止.json",
+          "bytes": 322,
+          "sha256": "4283b86471be1bc646aca51a4f1563c99f35558c03437541cc69c056136d0e3e"
+        },
+        {
+          "path": "work/166自然独立確認/自然の独立確認.json",
+          "bytes": 4564,
+          "sha256": "02fe532d7cc1b0a9f56044d39c1c0dda71472fc7608d7d9151c70e983a9f800a"
+        },
+        {
+          "path": "work/166自然独立確認/階層と自然値を独立検算する.py",
+          "bytes": 22900,
+          "sha256": "838e57b55dac3b630013a4647d42b41398076856901e5539855b0ca04f3b562a"
+        }
+      ]
+    },
+    {
+      "archive": {
+        "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/再現資料/出生と統計正本.zip",
+        "bytes": 1127165,
+        "sha256": "d120a6387bb1bcc20e22967ec835d25ecde3ba3cc87a02829b0c4bbdb3d5307b"
+      },
+      "members": [
+        {
+          "path": "work/166可用指標の階層化/全出生/全出生の確認.json",
+          "bytes": 6311,
+          "sha256": "fa446b834f00cde00400c5b970366bbde9dd0c8bb31c39eede9195a047c0be29"
+        },
+        {
+          "path": "work/166可用指標の階層化/全出生/階層化の出生.npz",
+          "bytes": 102706,
+          "sha256": "95f401b14c0afd6e39f6c68af0b351b55d62148bfbcd840a900ad3d76b4fcc8a"
+        },
+        {
+          "path": "work/166可用指標の階層化/比較/主案と探索結果.json",
+          "bytes": 224069,
+          "sha256": "072315280007f8a066e1e23fb040bf9b21bb297df9f1357a8a17d4ad14d13e6b"
+        },
+        {
+          "path": "work/166可用指標の階層化/比較/全取得参照.json.gz",
+          "bytes": 10508,
+          "sha256": "6376c21cbbde60d98cc2a13a266be3a55547415c6f1d9e8e2ea7d2dfac8e8808"
+        },
+        {
+          "path": "work/166可用指標の階層化/比較/初参加補完の因果監査.json.gz",
+          "bytes": 14150,
+          "sha256": "efe2fe9b257c229ceffb1021031920e9403b3a2d98959fa1e4363f44c453ba4e"
+        },
+        {
+          "path": "work/166可用指標の階層化/比較/完了.json",
+          "bytes": 1775,
+          "sha256": "be755f91f5eb1ddebce6bc32a21eb8b42c0914709ace9dc38b8b9ab02703d125"
+        },
+        {
+          "path": "work/166可用指標の階層化/比較/統計軸.json",
+          "bytes": 1515,
+          "sha256": "8403d0467ccd94b0f609acc48d5d4523856812702a8293a7f35bf0dbe8dffb2f"
+        },
+        {
+          "path": "work/166可用指標の階層化/比較/階層化入口の統計配列.npz",
+          "bytes": 974113,
+          "sha256": "23069e70490842413f22338ae147ae1fa6b36363259b75ab8c2ec992020380a8"
+        }
+      ]
+    }
+  ],
+  "共用入力と親参照": [
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/保存索引.json",
+      "bytes": 49671,
+      "sha256": "19b81bf6b135c65b6355e2de3d1c24008a4c7c70616f7d45e5b87ccb6a23768b"
+    },
+    {
+      "path": "inputs/00122_新規3場公表/指紋.json",
+      "bytes": 1387,
+      "sha256": "1fb41767dbbb9754e6944a5a7ba3848d7593fd3a0d9ee53401c29cd24ff30b2a"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/Source.zip",
+      "bytes": 121987,
+      "sha256": "e417ceb2701c01465edb9850c8e2976b9346352c288780ec7bb2ccbdaa048ab7"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/出生と探索.zip",
+      "bytes": 24934994,
+      "sha256": "bee0d12c8e37f20a46f2bf8775d519548c91f1153af117a117d9ed1f66b0f776"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/Source.zip",
+      "bytes": 190361,
+      "sha256": "222b9663bd50b19e0b1bb72bd2af72a6dd9e1012a68d502c73f9d1181e75bde0"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/出生と統計正本.zip",
+      "bytes": 96942446,
+      "sha256": "13749588187fe0c4cb617dec8a69c7954e89c33099170f9c4ae56d490108242a"
+    },
+    {
+      "path": "study/00164_IFD最初到達の確定時計で入口と反転を比較する/再現資料/Source.zip",
+      "bytes": 56528,
+      "sha256": "eadcb42f909ec18d0ad77d7a4d4617210f603394053d85fe59c7977e33eefc2a"
+    },
+    {
+      "path": "study/00165_順行と回復失敗を組み合わせ技術条件で初参加を補う/再現資料/Source.zip",
+      "bytes": 111913,
+      "sha256": "e5b3071c2f4812af68a3bd49fc84cca68259cf48ff47aba2933aab72955969b6"
+    },
+    {
+      "path": "study/00165_順行と回復失敗を組み合わせ技術条件で初参加を補う/再現資料/出生と統計正本.zip",
+      "bytes": 23510366,
+      "sha256": "745c9df7c8834ae2ccd236f60a244eea71608b9835cd50c26884c7099656a869"
+    }
+  ],
+  "非重複": "共有Raw/価格索引/Go観測/金融表/161cacheは再保存しない。166の165対照統計は小型controlsとして当時の結果に含まれるが親全統計/出生を再収録しない。",
+  "区別": "事前固定主案・前48だけの固定選択・全期発見を別保存。新7場未使用。",
+  "保存検査": "全ZIP CRC/サイズ/SHA/元byte同体と前後Source/数値SHA、条件不変。追加再現ラッパーはcompile/helpのみ。"
+}

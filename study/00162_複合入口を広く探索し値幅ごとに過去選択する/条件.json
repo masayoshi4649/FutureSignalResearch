@@ -1,0 +1,163 @@
+{
+  "trial": 162,
+  "name": "複合入口を広く探索し値幅ごとに過去選択する",
+  "date": "2026-11-14",
+  "hypothesis": "旧P65に限定せず、複数技法で背景整合/混在、回復、勢い、量、BB/ATRを確認する独立入口を広く作る。",
+  "candidate_count": 972,
+  "candidate_source": {
+    "path": "work\\162複合入口候補\\rules162.py",
+    "sha256": "93d8ef4d5e18f2835e4835f63c60912088103003f8b5c1ed8dd13560a2e7836a"
+  },
+  "registry": {
+    "path": "work\\162複合入口候補\\候補辞書.json",
+    "sha256": "8caf508ce198e3b97bad6a7cc0955c0343a113ef59451a6a8b87d1f931aeeb4a"
+  },
+  "widths": [
+    125,
+    200
+  ],
+  "horizons": [
+    1800,
+    3600
+  ],
+  "wider_next": "保存148が持つ125超は200のみ。本試行を200固定の最終解とせず、次に任意幅のRaw再観測基盤で150～1000等へ広げる。250も例で固定しない。",
+  "entry_modes": [
+    "ALL",
+    "EDGE"
+  ],
+  "edge": "同一場で方向が0又は反対から当該方向へ変わった最初のq0。未知は0判断、180秒超の間隔は新ブロック。US帯境界で強制再発火しない。",
+  "timebands": "判断q0をDAY/NY09:30前/以後へDST変換。新採否はq0。取得q1帯は別記。",
+  "capture": "全q0判断後に既存148captureを結合。同物理q1は最初の成立q0。後発aliasは追加しない。",
+  "comparisons": [
+    "N",
+    "U",
+    "F"
+  ],
+  "N": "純新規",
+  "U": "旧C1全87保持。重複旧優先。",
+  "F": "当該場の最初の旧C1真出生時、既に新実取得0なら当該信号1つ予約し旧取得を継承。後発Nで取消なし。旧優先。",
+  "selection": {
+    "window_sessions": 20,
+    "maturity": "H期限の観測成熟strict<当場start。現在/未来場を教師へ使わない。",
+    "scope": "各幅/期限ごとに過去20暦場の同じq0帯から、規則×ALL/EDGEの固定辞書を選ぶ。全期screenとは独立。",
+    "selectors": [
+      {
+        "id": "S65_B5_K1",
+        "minimum_forward_rate": 0.65,
+        "minimum_scenes": 5,
+        "minimum_resolved": 12,
+        "top_k": 1,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      },
+      {
+        "id": "S65_B5_K3",
+        "minimum_forward_rate": 0.65,
+        "minimum_scenes": 5,
+        "minimum_resolved": 12,
+        "top_k": 3,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      },
+      {
+        "id": "S65_B8_K1",
+        "minimum_forward_rate": 0.65,
+        "minimum_scenes": 8,
+        "minimum_resolved": 24,
+        "top_k": 1,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      },
+      {
+        "id": "S65_B8_K3",
+        "minimum_forward_rate": 0.65,
+        "minimum_scenes": 8,
+        "minimum_resolved": 24,
+        "top_k": 3,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      },
+      {
+        "id": "S70_B5_K1",
+        "minimum_forward_rate": 0.7,
+        "minimum_scenes": 5,
+        "minimum_resolved": 12,
+        "top_k": 1,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      },
+      {
+        "id": "S70_B5_K3",
+        "minimum_forward_rate": 0.7,
+        "minimum_scenes": 5,
+        "minimum_resolved": 12,
+        "top_k": 3,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      },
+      {
+        "id": "S70_B8_K1",
+        "minimum_forward_rate": 0.7,
+        "minimum_scenes": 8,
+        "minimum_resolved": 24,
+        "top_k": 1,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      },
+      {
+        "id": "S70_B8_K3",
+        "minimum_forward_rate": 0.7,
+        "minimum_scenes": 8,
+        "minimum_resolved": 24,
+        "top_k": 3,
+        "minimum_pf": 1.1,
+        "minimum_known_net": 0,
+        "maximum_scene_share": 0.5,
+        "ranking": "Wilson95下限+0.02*log1p(毎時取得)-0.15*最多場比。異なる技術群を優先。",
+        "union": "選択規則の当時方向をOR。両側競合は待機。該当帯のq0のみ新採否。"
+      }
+    ],
+    "main_id": "S70_B5_K3",
+    "unready": "新規待機。F/Uの旧補完を純新規の全場成功にしない。",
+    "fit_clock": "場開始時だけ固定。ナイトNY境界で再学習しない。"
+  },
+  "cost": {
+    "mini_point_yen": 100,
+    "round_trip_fee_yen": 77,
+    "additional_slippage_points_each_side": 5,
+    "C5_total_yen": 1077
+  },
+  "labels": "実BBO対称幅。厳密H完了のみF/A/N、他C。C早期touchの金融既知は保持。N/Cと全件分母率も残す。",
+  "historical_controls": [
+    "C1",
+    "旧153N15/U15",
+    "旧152A0/U0",
+    "旧152B0/U1"
+  ],
+  "exploration": "固定規則全期screenは発見結果であり採用済み/未見成績とはしない。前48/後25は既使用。",
+  "participation": "全73場最低1取得は実取得で数える。各小帯強制取得はしない。頻度と場集中を別記、概ね毎時1回を比較軸にする。",
+  "holdout": "11/10Night・11/11Dayと旧156は未使用。",
+  "outputs": "全screenは圧縮正本。上位・過去選択・全場はCSV。汎用表V8を試行へ複写。",
+  "account_limit": "入口独立1miniの品質研究。重複保有を含む単純合算を片側10枚口座利益と呼ばない。"
+}

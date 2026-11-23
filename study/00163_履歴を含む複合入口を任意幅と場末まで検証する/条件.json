@@ -1,0 +1,137 @@
+{
+  "trial": 163,
+  "date": "2026-11-14",
+  "name": "履歴を含む複合入口を任意幅と場末まで検証する",
+  "hypothesis": "固定値幅125/200に限らず、構造と勢いの複合入口・持続/再加速の履歴を、複数の対称値幅とセッション内期限で比較する。",
+  "widths": [
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    300,
+    350,
+    400,
+    500,
+    750,
+    1000
+  ],
+  "horizons": [
+    {
+      "id": "H30",
+      "kind": "strict",
+      "seconds": 1800
+    },
+    {
+      "id": "H60",
+      "kind": "strict",
+      "seconds": 3600
+    },
+    {
+      "id": "H120",
+      "kind": "strict",
+      "seconds": 7200
+    },
+    {
+      "id": "SESSION",
+      "kind": "session",
+      "seconds": 0
+    }
+  ],
+  "observation_config": {
+    "path": "work/163任意幅Raw索引/観測条件の雛形.json",
+    "bytes": 718,
+    "sha256": "2c965bc6892cdb351e79dadc53915ba06bf292b95e88fa2e67015a73174a9a5e"
+  },
+  "candidate_count": 1460,
+  "static_count": 972,
+  "stateful_count": 488,
+  "candidate_sources": {
+    "rules162.py": {
+      "path": "work/162複合入口候補/rules162.py",
+      "bytes": 17497,
+      "sha256": "93d8ef4d5e18f2835e4835f63c60912088103003f8b5c1ed8dd13560a2e7836a"
+    },
+    "rules162_stateful.py": {
+      "path": "work/162複合入口候補/rules162_stateful.py",
+      "bytes": 14634,
+      "sha256": "3a3fb01a5d16e2a1ab58a0120253c0d35badd874a52ebf0a1778ef81e13b5279"
+    },
+    "候補辞書.json": {
+      "path": "work/162複合入口候補/候補辞書.json",
+      "bytes": 1732830,
+      "sha256": "8caf508ce198e3b97bad6a7cc0955c0343a113ef59451a6a8b87d1f931aeeb4a"
+    },
+    "履歴候補辞書.json": {
+      "path": "work/162複合入口候補/履歴候補辞書.json",
+      "bytes": 836702,
+      "sha256": "c7e82b0c28693192c6c9746723b1f5887ffc2cfe136eed39886c147edd5a0c1f"
+    }
+  },
+  "raw_source_stop": {
+    "path": "work/163任意幅Raw索引/Raw部品の停止.json",
+    "bytes": 1329,
+    "sha256": "a165c6db90ceb3176d9cff9d4ff5a8141ba2ec18e1d403e52cbcdb3485596649"
+  },
+  "fixed_inputs": {
+    "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+    "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a"
+  },
+  "population": "旧全73場31642case/実2側、全35339q0。既存取得母集団を変えず新Raw索引で再観測。",
+  "new_width_contract": "H30/H60の125/200を旧148へ全件照合。H120は厳密期限・場末未到達C。SESSIONは境界観測あり・終端直前正常BBO鮮度30秒以内、touchはend-300未満。",
+  "entry_modes": [
+    "ALL",
+    "EDGE"
+  ],
+  "episode": "162と同じ0/反対→当該方向、場/180秒超reset。時間帯境界による強制再武装なし。",
+  "integration": [
+    "N",
+    "U",
+    "F"
+  ],
+  "legacy": "162と同じ旧全87U/初参加だけFの因果時計と旧優先。純新規の全場参加とは分ける。",
+  "timeband": "判断q0はDAY/NY09:30前/以後DST変換。取得q1帯も別報告。各帯強制参加なし。",
+  "adaptive_widths": {
+    "multipliers_atr5": [
+      2,
+      3,
+      4,
+      6,
+      8
+    ],
+    "grid": [
+      150,
+      175,
+      200,
+      225,
+      250,
+      300,
+      350,
+      400,
+      500,
+      750,
+      1000
+    ],
+    "choice": "当時m5_atr*k以上の最小grid、1000を超えるなら1000。未知/非正ATRは新規待機。",
+    "geometry": "選んだwのq0 BB余地等で候補を評価し、同case最初成立q0のwを決済まで固定。",
+    "legacy_fallback_width": 200
+  },
+  "prior_discovery_anchors": [
+    "MP0057",
+    "MP0058",
+    "MP0081",
+    "MP0082"
+  ],
+  "anchors_status": "162の全期探索で発見した既使用由来の候補。主に勢い持続/ADX/RSI/相対量。未見選定ではない。",
+  "selection_goal": "新条件が全73場最低1・同幅先着70%超・十分な頻度を持つか、利益/損失・前後/三帯/支持/集中とともに検証。",
+  "screen": "全辞書の発見用探索。全期bestは採用済み/未見性能と呼ばない。近傍条件・複数幅・対照・必要な盲検で確認する。",
+  "cost": {
+    "point_yen": 100,
+    "fee_round_trip": 77,
+    "additional_round_trip_slippage_yen": 1000
+  },
+  "account": "独立1mini入口品質。良候補は片側10枚上限等の実行可能性を別検査し、独立合算を口座収支と呼ばない。",
+  "holdout": "11/10Night/11/11Dayは163探索へ使わない。旧156未実行。",
+  "continuous_pdca": "本試行が未達でも原因を調べ別仮説へ進む。成果物整形だけで探索を打ち切らない。"
+}

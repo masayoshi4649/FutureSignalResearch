@@ -1,0 +1,145 @@
+{
+  "trial": 167,
+  "date": "2026-11-15",
+  "name": "固定した複合入口を追加七場へ適用する",
+  "hypothesis": "既使用73場で発見した複合入口を変えずに追加期間へ適用し、頻度・参加・先着・利益損失の持続を確認する。",
+  "scenes": [
+    "2026-11-10_Night",
+    "2026-11-11_Day",
+    "2026-11-11_Night",
+    "2026-11-12_Day",
+    "2026-11-12_Night",
+    "2026-11-13_Day",
+    "2026-11-13_Night"
+  ],
+  "input_root": "../JP_OSE_Data/future/NK225",
+  "candidates": [
+    {
+      "id": "PRIMARY",
+      "profile": {
+        "id": "MP0057_EX0076_B0_IMMEDIATE",
+        "momentum": "MP0057",
+        "fade": "EX0076",
+        "background": 0,
+        "timing": "IMMEDIATE",
+        "born": 726,
+        "conflicts": 0
+      },
+      "hierarchy": {
+        "id": "L180_S4",
+        "after_minutes": 180,
+        "minimum_score": 4
+      },
+      "momentum_width": 200,
+      "fade_width": 400,
+      "horizon": "H60",
+      "integration": "H200",
+      "scope": "PRIMARYは166実行前固定主案、FRONT48は前48場のみの固定選択。両者とも旧73場は既使用。"
+    },
+    {
+      "id": "FRONT48",
+      "profile": {
+        "id": "MP0058_EX0076_B0_IMMEDIATE",
+        "momentum": "MP0058",
+        "fade": "EX0076",
+        "background": 0,
+        "timing": "IMMEDIATE",
+        "born": 777,
+        "conflicts": 0
+      },
+      "hierarchy": {
+        "id": "L120_S4",
+        "after_minutes": 120,
+        "minimum_score": 4
+      },
+      "momentum_width": 250,
+      "fade_width": 400,
+      "horizon": "H120",
+      "integration": "H150",
+      "scope": "PRIMARYは166実行前固定主案、FRONT48は前48場のみの固定選択。両者とも旧73場は既使用。"
+    }
+  ],
+  "prices_unread_at_lock": true,
+  "history_through": "2026-11-10_Day",
+  "history": "旧73場の予定Endまで公開器とBB/RVOLを正規再生する。保存SeedInfoから私有数値種を捏造しない。",
+  "source_references": {
+    "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/条件.json": {
+      "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/条件.json",
+      "bytes": 11972,
+      "sha256": "5c3ad73b0003da91749c50e0242b973951c74993db6a9156dfa951d8020f5a49"
+    },
+    "work/166可用指標の階層化/比較/主案と探索結果.json": {
+      "path": "work/166可用指標の階層化/比較/主案と探索結果.json",
+      "bytes": 224069,
+      "sha256": "072315280007f8a066e1e23fb040bf9b21bb297df9f1357a8a17d4ad14d13e6b"
+    },
+    "work/166可用指標の階層化/local166.py": {
+      "path": "work/166可用指標の階層化/local166.py",
+      "bytes": 5946,
+      "sha256": "9085db8c15c1494729315b54ed08810bf405baf482c1f760210990d9588f597b"
+    },
+    "work/165順行と回復失敗の複合/出生を作る.py": {
+      "path": "work/165順行と回復失敗の複合/出生を作る.py",
+      "bytes": 8553,
+      "sha256": "54db3ff0b72547d8e0317067d17a2332fbb8a4d7aaa47c231a52f5467148ea27"
+    },
+    "work/165順行と回復失敗の複合/評価基盤165.py": {
+      "path": "work/165順行と回復失敗の複合/評価基盤165.py",
+      "bytes": 7525,
+      "sha256": "999225c47b9a88633fe7330e79235e33fe310b0d8f5d528a7ec0cbff024035fd"
+    },
+    "work/162入口探索/評価基盤.py": {
+      "path": "work/162入口探索/評価基盤.py",
+      "bytes": 11854,
+      "sha256": "fb4a053bcde76c6aea7d53381b510b9ed0ffb009c0cc6ed5370c0526e312a926"
+    },
+    "work/162複合入口候補/rules162.py": {
+      "path": "work/162複合入口候補/rules162.py",
+      "bytes": 17497,
+      "sha256": "93d8ef4d5e18f2835e4835f63c60912088103003f8b5c1ed8dd13560a2e7836a"
+    },
+    "work/未見入口の同体接続/接続器の停止.json": {
+      "path": "work/未見入口の同体接続/接続器の停止.json",
+      "bytes": 5576,
+      "sha256": "14ebd4076d9abadf1013a63476c9eadb69ad3dfd33b9ff589aca72c8f1ea7d4d"
+    },
+    "work/166可変場の観測/可変場観測の停止.json": {
+      "path": "work/166可変場の観測/可変場観測の停止.json",
+      "bytes": 3834,
+      "sha256": "e872344437df8a58c0c7952870758ac89bed608cf7b827d9a89474e017442792"
+    },
+    "work/166可変場の数値化/数値化の停止.json": {
+      "path": "work/166可変場の数値化/数値化の停止.json",
+      "bytes": 1958,
+      "sha256": "f7a4e9d70bb2fe7b449d7cc3fedabf2bd0dbf1d50ef02a27e643c694def3449b"
+    }
+  },
+  "population": "旧148の全1分知得q0/取得q1を未改変で使う。全対象場と未知/取消/取得0場を保持する。新C1参照が無いのでU/Fを名乗らない。",
+  "entry": "MPの順行とEX反転を165と同じ式で合成。旧Tと局所階層、主未決なし/未取得時だけ初参加補完も同体。高得点側だけを採用し買売対称。",
+  "timeband": "q0をDAY/NY09:30前/以後DST変換。q1分類も併記し、境界決済や各帯強制参加を加えない。",
+  "exit": "取得枝の幅をq0で固定する対称IFD、期限未到達は期限BBO。欠測前の既知touchをIFD_FIRSTで保持する。",
+  "width_controls": [
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    300,
+    350,
+    400,
+    500,
+    750,
+    1000
+  ],
+  "width_control_interpretation": "主案と全く同じ取得集合で全枝を同一幅へした事前対照。結果を見て主案を交換しない。125/250固定の最適化ではない。",
+  "cost": {
+    "point_yen": 100,
+    "fee_round_trip": 77,
+    "additional_round_trip_slippage_yen": 1000
+  },
+  "account": "各入口独立mini1枚の品質と金額。片側上限10枚の口座運用とは分ける。",
+  "report": "全七場、q0/q1三帯、主枝/旧T/局所、買売、未知と未到達、全取得分母と到達済み率、費用後利益損失、前73場と追加七場を混同しない。",
+  "adoption": "追加七場の結果を見て本試行内で閾値を調整しない。未達なら原因と次仮説を別試行へ。少数期間の高率を統計保証としない。",
+  "unchanged": "153の一旦達成と旧固定試行、166事前主案/前半選択/全期探索の区別を保つ。"
+}

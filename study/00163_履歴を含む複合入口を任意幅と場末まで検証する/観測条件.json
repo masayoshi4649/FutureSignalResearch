@@ -1,0 +1,44 @@
+{
+  "widths": [
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    300,
+    350,
+    400,
+    500,
+    750,
+    1000
+  ],
+  "horizons": [
+    {
+      "id": "H30",
+      "kind": "strict",
+      "seconds": 1800
+    },
+    {
+      "id": "H60",
+      "kind": "strict",
+      "seconds": 3600
+    },
+    {
+      "id": "H120",
+      "kind": "strict",
+      "seconds": 7200
+    },
+    {
+      "id": "SESSION",
+      "kind": "session",
+      "seconds": 0
+    }
+  ],
+  "session_exit": "last_normal_pre_end_fresh30_require_boundary",
+  "maximum_gap_seconds": 300,
+  "endpoint_grace_seconds": 30,
+  "point_yen": 100,
+  "round_trip_fee": 77,
+  "extra_round_trip_slippage": 1000
+}

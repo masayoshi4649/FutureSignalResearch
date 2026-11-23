@@ -1,0 +1,240 @@
+{
+  "成功": true,
+  "試行": 168,
+  "条件": {
+    "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/条件.json",
+    "bytes": 4520,
+    "sha256": "b8acd5daf5050b16a0d36c74d207db8e60d77a817b6fb62964f08b416c8b1f89"
+  },
+  "実行環境": {
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "NumPy": "2.5.4",
+    "tzdata": "2026.6",
+    "OS": "Windows-11-10.0.26300-SP0"
+  },
+  "正本": [
+    {
+      "archive": {
+        "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/再現資料/Source.zip",
+        "bytes": 44569,
+        "sha256": "464feed731867d65afd26f29fc96974662e92267c27b6bc7e45023575ddad8a0"
+      },
+      "members": [
+        {
+          "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/条件.json",
+          "bytes": 4520,
+          "sha256": "b8acd5daf5050b16a0d36c74d207db8e60d77a817b6fb62964f08b416c8b1f89"
+        },
+        {
+          "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/検査/F0_旧七十三場の数量再生前.json",
+          "bytes": 1018,
+          "sha256": "5dd8db507aa22a843f8ea36bbf0a347963b9327c564dfa9b3d71f8545df9b144"
+        },
+        {
+          "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/検査/F1_追加七場の数量再生前.json",
+          "bytes": 1096,
+          "sha256": "6e9c4aa85f4daae41e1afd7e498a39f7c7f22cd3ee4165907c8d4f85c57ca4ef"
+        },
+        {
+          "path": "work/166数量診断/同時保有の診断.json",
+          "bytes": 29897,
+          "sha256": "4491ad9be5a342f659ad0310733eee31a9734f7552f0a9aa67938adb5dd02457"
+        },
+        {
+          "path": "work/166数量診断/同時保有を調べる.py",
+          "bytes": 3800,
+          "sha256": "1f11cdc58b4c6392e031baa309efe2fef4bb1b6c7286ac914f5b427e57c92602"
+        },
+        {
+          "path": "work/168数量枠の因果再生/engine168.py",
+          "bytes": 8579,
+          "sha256": "a2f728bf7e7c925495d01670f1bbf89d88aaea6b8e207490e080d6c2d9f21050"
+        },
+        {
+          "path": "work/168数量枠の因果再生/README.md",
+          "bytes": 2495,
+          "sha256": "4a1c915f465145cfbc4eda979e9a9259e177d46f9e27a3583811d89e6cbb5c51"
+        },
+        {
+          "path": "work/168数量枠の因果再生/人工検査.py",
+          "bytes": 6390,
+          "sha256": "6f9bd65cac502a2b60823a53de958065eaede68a2714c7287a9b26e5e319c006"
+        },
+        {
+          "path": "work/168数量枠の因果再生/人工検査結果.json",
+          "bytes": 942,
+          "sha256": "fd4283c8de0ee262c550c3e9581139b9ae25f3578a3986b2c9e15fba9248d79c"
+        },
+        {
+          "path": "work/168数量枠の因果再生/仕様を固定する.py",
+          "bytes": 4698,
+          "sha256": "4b95be7df1fed455c77de496a1be52bf189a81d3ff90a178678317bd7974ae61"
+        },
+        {
+          "path": "work/168数量枠の因果再生/再生する.py",
+          "bytes": 10669,
+          "sha256": "e075f37f56d24b19ace21ae0b3a88a5010cc43bd6840342c544ce121870074ca"
+        },
+        {
+          "path": "work/168数量枠の因果再生/追加七場を再生する.py",
+          "bytes": 2667,
+          "sha256": "e421577ba7620716132f84f1d1ff568f552b15b4a9c6e9f9ec99cf025ed0c2bd"
+        },
+        {
+          "path": "work/168数量枠の因果再生/部品の停止.json",
+          "bytes": 3835,
+          "sha256": "9319b14d97e12f2972c4cd70e12d6edde450597992f249560fb7adc4ef374be1"
+        },
+        {
+          "path": "work/168数量枠の独立確認/数量engineの独立人工確認.json",
+          "bytes": 1906,
+          "sha256": "b9684a9f07f3163320959c42fa4eb264f52b43b27d64e7e5d807daeaaf0fe668"
+        },
+        {
+          "path": "work/168数量枠の独立確認/独立人工を確認する.py",
+          "bytes": 11650,
+          "sha256": "1d281e3e35d704ed485937a8cf3f3cb39a5102859759d24580d49f7d7d21d640"
+        },
+        {
+          "path": "work/168正式保存/正式保存する.py",
+          "bytes": 22212,
+          "sha256": "9ce4ec1235d6f9812ca9e1c3a2e19533df91f0909ccb849cba5e8886e3d59490"
+        },
+        {
+          "path": "work/168正式保存/正式入力から再現する.py",
+          "bytes": 3680,
+          "sha256": "846398212a42578786ed891caa3415810f2fa413cc908a4d6976e6483bd455fc"
+        }
+      ]
+    },
+    {
+      "archive": {
+        "path": "study/00168_固定複合入口を片側十枚の数量枠で再生する/再現資料/数量再生の統計正本.zip",
+        "bytes": 120309,
+        "sha256": "70bf258b724172620ff6a7d27b64467ae434fe8190fa3c81b5329fd757507dd7"
+      },
+      "members": [
+        {
+          "path": "work/168数量枠の因果再生/旧73比較/二案の数量比較.json",
+          "bytes": 286887,
+          "sha256": "f2ae1118dc7f3b9e637e1e5005ba34814b6b04dce7e0e385370cb2dd62313cf9"
+        },
+        {
+          "path": "work/168数量枠の因果再生/旧73比較/全取得参照.json",
+          "bytes": 29063,
+          "sha256": "cd468cbe1fcd12207113760a99a7cbe6a3783792242326eb3d45b7f5187d1fbd"
+        },
+        {
+          "path": "work/168数量枠の因果再生/旧73比較/完了.json",
+          "bytes": 1635,
+          "sha256": "6924cb9aaa5e069786fcf905b107611398dcdcaa0f6111390987ff199e43275f"
+        },
+        {
+          "path": "work/168数量枠の因果再生/旧73比較/数量と要求の監査.json.gz",
+          "bytes": 60847,
+          "sha256": "faab5250a8e428a16d3c24a842dc69923b41d4756a273c60d8d39dcca9eca4a8"
+        },
+        {
+          "path": "work/168数量枠の因果再生/旧73比較/無制限の取得同体.json",
+          "bytes": 481,
+          "sha256": "13cc69b200730c8343619f700feab803ce3fe294f3c4bbb6f5dc3ee665256e81"
+        },
+        {
+          "path": "work/168数量枠の因果再生/旧73比較/無制限取得参照.json",
+          "bytes": 32966,
+          "sha256": "c6d44ddd664cd8de4119c4b2cc5c7bd9c342b3adcbb0419052f4c059ef55f34c"
+        },
+        {
+          "path": "work/168数量枠の因果再生/追加7比較/二案の数量比較.json",
+          "bytes": 52350,
+          "sha256": "da1adfcc679834a0e297ecac30c37a645998c05718485f88b7b5db480f94a157"
+        },
+        {
+          "path": "work/168数量枠の因果再生/追加7比較/全取得参照.json",
+          "bytes": 5040,
+          "sha256": "2aca9a0d1c5aeaee263cf8f3ef3dcf2c7d8522287c309114e9adbbfaadc00e32"
+        },
+        {
+          "path": "work/168数量枠の因果再生/追加7比較/完了.json",
+          "bytes": 1709,
+          "sha256": "d34ac0cad0d81a7363a7fb653614d71e006eb41e33ea86819f685140ecabe9fd"
+        },
+        {
+          "path": "work/168数量枠の因果再生/追加7比較/数量と要求の監査.json.gz",
+          "bytes": 5584,
+          "sha256": "1e04c6357fcf96da91a4d4351a4be4a2b0f1b5f0aa4210f9bddda07fe90a8c2e"
+        },
+        {
+          "path": "work/168数量枠の因果再生/追加7比較/無制限の取得同体.json",
+          "bytes": 481,
+          "sha256": "42bc75b61f6c05105c2099bfafd9c98dec5f6417dd46bd6592773383d57913e9"
+        },
+        {
+          "path": "work/168数量枠の因果再生/追加7比較/無制限取得参照.json",
+          "bytes": 6571,
+          "sha256": "3312e034f1191227f27a6258ea42835074365739271ea8dd94d3f91449dfb58a"
+        }
+      ]
+    }
+  ],
+  "共用入力と親参照": [
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/保存索引.json",
+      "bytes": 49671,
+      "sha256": "19b81bf6b135c65b6355e2de3d1c24008a4c7c70616f7d45e5b87ccb6a23768b"
+    },
+    {
+      "path": "inputs/00167_追加七場の入口と共用価格索引/保存索引.json",
+      "bytes": 14088,
+      "sha256": "3cdf8b0daf92d3b4fd7eea3ddbff6793e7aed36ff140e4808a63f42f72fef6d9"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/再現資料/Source.zip",
+      "bytes": 413194,
+      "sha256": "aa7252edc0d44925111475768843386ea987ce31a75eea161f87a3c6f8108371"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/検査/自然独立確認/自然の独立確認.json",
+      "bytes": 7457,
+      "sha256": "1ca1bbceb14490a53e0042a9a992c8363bdf2ccc917d04cc1a96a2d213f3e903"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/検査/自然独立確認/自然確認の停止.json",
+      "bytes": 330,
+      "sha256": "c9b983ffc1d5998c9fdabae2dc31f9c6abb32af561c6c87e8f3031d26898fe1f"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/Source.zip",
+      "bytes": 121987,
+      "sha256": "e417ceb2701c01465edb9850c8e2976b9346352c288780ec7bb2ccbdaa048ab7"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/Source.zip",
+      "bytes": 190361,
+      "sha256": "222b9663bd50b19e0b1bb72bd2af72a6dd9e1012a68d502c73f9d1181e75bde0"
+    },
+    {
+      "path": "study/00164_IFD最初到達の確定時計で入口と反転を比較する/再現資料/Source.zip",
+      "bytes": 56528,
+      "sha256": "eadcb42f909ec18d0ad77d7a4d4617210f603394053d85fe59c7977e33eefc2a"
+    },
+    {
+      "path": "study/00165_順行と回復失敗を組み合わせ技術条件で初参加を補う/再現資料/Source.zip",
+      "bytes": 111913,
+      "sha256": "e5b3071c2f4812af68a3bd49fc84cca68259cf48ff47aba2933aab72955969b6"
+    },
+    {
+      "path": "study/00166_未公表の長期指標を捏造せず局所技術で参加を補う/再現資料/Source.zip",
+      "bytes": 69975,
+      "sha256": "8c931589e4093cf88da7d642e93e418a2395ff42bbef9d29458df6bcced6d249"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/出生と探索.zip",
+      "bytes": 24934994,
+      "sha256": "bee0d12c8e37f20a46f2bf8775d519548c91f1153af117a117d9ed1f66b0f776"
+    }
+  ],
+  "非重複": "148/163/167のRaw/価格索引/特徴/金融/出生を再保存しない。自然QAは167正式検査へ参照。",
+  "区別": "無制限と片側10枚、旧73と追加7、事前主案と前48選択、known差引と未確定全収支を分ける。",
+  "再現wrapper": "compile確認のみ。元Source不変で隔離再現し全統計取得JSONを比較するための追加Source。"
+}

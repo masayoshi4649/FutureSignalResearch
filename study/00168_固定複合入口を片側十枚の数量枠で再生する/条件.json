@@ -1,0 +1,85 @@
+{
+  "trial": 168,
+  "date": "2026-11-15",
+  "name": "固定複合入口を片側十枚の数量枠で再生する",
+  "hypothesis": "独立入口合算で片側十枚を超えるため、当時の保有と未決予約に基づく上限で頻度と先着・損益が保たれるかを調べる。",
+  "parent": {
+    "path": "study/00167_固定した複合入口を追加七場へ適用する/条件.json",
+    "sha256": "73e16eabfc3364a9e038d9697472abe50bb91fbba49b488dd0c8ed8d5eaea9f4"
+  },
+  "diagnosis": {
+    "path": "work/166数量診断/同時保有の診断.json",
+    "sha256": "4491ad9be5a342f659ad0310733eee31a9734f7552f0a9aa67938adb5dd02457"
+  },
+  "candidates": [
+    {
+      "id": "PRIMARY",
+      "profile": {
+        "id": "MP0057_EX0076_B0_IMMEDIATE",
+        "momentum": "MP0057",
+        "fade": "EX0076",
+        "background": 0,
+        "timing": "IMMEDIATE",
+        "born": 726,
+        "conflicts": 0
+      },
+      "hierarchy": {
+        "id": "L180_S4",
+        "after_minutes": 180,
+        "minimum_score": 4
+      },
+      "momentum_width": 200,
+      "fade_width": 400,
+      "horizon": "H60",
+      "integration": "H200",
+      "scope": "PRIMARYは166実行前固定主案、FRONT48は前48場のみの固定選択。両者とも旧73場は既使用。"
+    },
+    {
+      "id": "FRONT48",
+      "profile": {
+        "id": "MP0058_EX0076_B0_IMMEDIATE",
+        "momentum": "MP0058",
+        "fade": "EX0076",
+        "background": 0,
+        "timing": "IMMEDIATE",
+        "born": 777,
+        "conflicts": 0
+      },
+      "hierarchy": {
+        "id": "L120_S4",
+        "after_minutes": 120,
+        "minimum_score": 4
+      },
+      "momentum_width": 250,
+      "fade_width": 400,
+      "horizon": "H120",
+      "integration": "H150",
+      "scope": "PRIMARYは166実行前固定主案、FRONT48は前48場のみの固定選択。両者とも旧73場は既使用。"
+    }
+  ],
+  "population": [
+    "旧73場",
+    "167追加七場"
+  ],
+  "capacity": {
+    "buy_contracts": 10,
+    "sell_contracts": 10,
+    "contracts_per_request": 1,
+    "pending_reserves_capacity": true
+  },
+  "entry": "主方向・初参加補完・局所階層・枝幅・期限は固定二案から変更しない。q0で空き枠がなければその要求を棄却し、後のq0は改めて同じ技術式で判断する。",
+  "clock": "q0を原行のtime/index/line順で進め、既に観測したq1/取消/TTL/決済だけを反映する。同秒決済の原行情報が数値表にない場合はその秒全体を保有継続とする保守的な枠解放。",
+  "pending": "取得待ち注文も片側枠を予約し、実取得で保有へ移す。取消/失効時だけ予約解除。数量枠で要求を棄却したなら未決注文として数えない。",
+  "technical_first": "165/166と同じ、開始45分以後・その場の実取得ゼロ・主要求未決なしのときだけ技術補完。取消後再試行、最初の技術補完要求から取得までは同補完を重複させない。主新規は継続する。",
+  "physical_q1": "既存研究と同じ同物理q1一取得。同じq1へ複数要求が到達した場合は最初要求q0、同時主優先。重複要求を約定枚数へ水増ししない。これは実注文マッチングを再現した意味ではない。",
+  "unknown": "金融未知は損益0で決済したとせず、その場末まで枠を保守的に保持する。場末の返済価格が観測不能なら全収支は未知、既知損益と別計数。",
+  "exit": "各取得の対称IFDと期限返済は元候補と同じ。数量対照の中でトレーリング等の別出口を混ぜない。",
+  "control": "同じ再生器の無制限枠が旧166の全q0取得・方向・枝幅・技術補完と一致することを先に確認する。さらにcap1/cap2等の人工境界、未来損益毒、売買鏡像を確認する。",
+  "report": "全対象場、実取得数、数量棄却、保有/未決同時数、F/A/N/C、費用後利益損失、前後/三帯/枝別を報告。各要求一枚なので固定10枚損益へ単純乗算しない。",
+  "cost": {
+    "point_yen": 100,
+    "fee_round_trip": 77,
+    "additional_round_trip_slippage_yen": 1000
+  },
+  "selection": "本試行ではcap10を最適化しない。無制限対照/既存主案/前半選択を入れ替えない。追加七場の結果を見て入口閾値を変更しない。"
+}

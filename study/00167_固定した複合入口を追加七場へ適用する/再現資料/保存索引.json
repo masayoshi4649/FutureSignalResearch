@@ -1,0 +1,902 @@
+{
+  "成功": true,
+  "条件": {
+    "path": "study/00167_固定した複合入口を追加七場へ適用する/条件.json",
+    "bytes": 6370,
+    "sha256": "73e16eabfc3364a9e038d9697472abe50bb91fbba49b488dd0c8ed8d5eaea9f4"
+  },
+  "Source": {
+    "archive": {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/再現資料/Source.zip",
+      "bytes": 415571,
+      "sha256": "8e24d3adbba2d3c997e7cf61842b08db6645cc98d0d3ef107f08cb1b79ee7b54"
+    },
+    "members": [
+      {
+        "path": "work/115三時間軸と方向性の公開/bank.go",
+        "bytes": 6392,
+        "sha256": "78d82ff18b4abf5721a7948949f6dda72a58a4dd403651ae647cdd4431338b8f"
+      },
+      {
+        "path": "work/115三時間軸と方向性の公開/bank_test.go",
+        "bytes": 15768,
+        "sha256": "6ab6eae67fb8cac451c568e4aa875bd60f6e9693e7bfa1d018eb2de1e4b8f91f"
+      },
+      {
+        "path": "work/115三時間軸と方向性の公開/export_test.go",
+        "bytes": 1748,
+        "sha256": "413ddc5febd18eac454cfc6ec65c20e3d48162b6d575deb033c381b9a509bd89"
+      },
+      {
+        "path": "work/115三時間軸と方向性の公開/go.mod",
+        "bytes": 248,
+        "sha256": "98e3b40f584c5d54e4945ddf923afabd8831d5823d7fe4fd75eb12df7e12b575"
+      },
+      {
+        "path": "work/115三時間軸と方向性の公開/numeric.go",
+        "bytes": 5222,
+        "sha256": "581970bc6f39a27397d462892c6a761e7715abe1c18a36690d262d64b74f0754"
+      },
+      {
+        "path": "work/115三時間軸と方向性の公開/types.go",
+        "bytes": 4508,
+        "sha256": "2fe96170517fbc2908a4bf413884edea9dc4b30fc653e422119599cb0d89ba98"
+      },
+      {
+        "path": "work/118複数技法の入口条件/bank.go",
+        "bytes": 7897,
+        "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695"
+      },
+      {
+        "path": "work/118複数技法の入口条件/go.mod",
+        "bytes": 76,
+        "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9"
+      },
+      {
+        "path": "work/118複数技法の入口条件/rules.go",
+        "bytes": 8347,
+        "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433"
+      },
+      {
+        "path": "work/118複数技法の入口条件/rules_test.go",
+        "bytes": 8029,
+        "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27"
+      },
+      {
+        "path": "work/118複数技法の入口条件/types.go",
+        "bytes": 4220,
+        "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+      },
+      {
+        "path": "work/122公表生成/cmd/run/main.go",
+        "bytes": 633,
+        "sha256": "a7085ae03587f4fd6a8f77f5ed2069863fa4c126ca196a0e9c6e868a6cd0709a"
+      },
+      {
+        "path": "work/122公表生成/export.go",
+        "bytes": 9730,
+        "sha256": "33a1150dcab8ca669bbc51c22485775ee51dc99342f1f41e5f89ac87b1903d04"
+      },
+      {
+        "path": "work/122公表生成/export_test.go",
+        "bytes": 8141,
+        "sha256": "b75fb6ca943fb68bac501db1460d163a696c8aaff5f3f7832906b1a668cc627c"
+      },
+      {
+        "path": "work/122公表生成/go.mod",
+        "bytes": 570,
+        "sha256": "e13e1195d52d6740c4e4f086af3b03dbc335e5cbb0fb69db011b8b5f44e5b7e5"
+      },
+      {
+        "path": "work/122公表生成/plan.go",
+        "bytes": 7054,
+        "sha256": "a7ddf960453b6368b98e5d09ce35517cd5050363da8485fe21e9301dc85f722f"
+      },
+      {
+        "path": "work/122公表生成/reader.go",
+        "bytes": 3473,
+        "sha256": "ac54a50dfcb1374b7aac9ea4d1660f849dbc69500975727ecf8f81805712706d"
+      },
+      {
+        "path": "work/122公表生成/types.go",
+        "bytes": 5206,
+        "sha256": "7da5683335885d68bbef53196fa8e8969f76832d1c0b76318c5d72a5fd88414a"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/cmd/run/main.go",
+        "bytes": 1666,
+        "sha256": "78ba62e303b87f4345faa94968d83d1cea111e4766c2e4245849d5063ebe8925"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/context.go",
+        "bytes": 6373,
+        "sha256": "918b4590f26a627f06581021ffc255a54f51f6db61d9c4aaa6e57970445b2058"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/context_test.go",
+        "bytes": 5159,
+        "sha256": "41ef0ab57b3176b61810d0fe7f7842dfb3e18e18b8587f113270027ff12c11f0"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/csv.go",
+        "bytes": 5737,
+        "sha256": "1a421674f05a77acd4d4bc4490b121fba5e3a822957a1c5b035471df513b658a"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/csvtypes.go",
+        "bytes": 1021,
+        "sha256": "3fd56192f536b8bdc8124b32349022fd7603f336a42d6dcb5e2b954fe7b36bce"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/decoder.go",
+        "bytes": 2932,
+        "sha256": "ee6aa019081e30e8aa4f11feff39d5397c30a3facc34937529c3caeefac080d8"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/go.mod",
+        "bytes": 228,
+        "sha256": "8c86cb187b3cedbb1baa30082f307007308efada177e7f3efd1235a0d11d30a9"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/helpers.go",
+        "bytes": 1995,
+        "sha256": "b66f49ebdca01ff8259510766e34238fd49656ee4c76ee7c2d27d0061384ad66"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/input.go",
+        "bytes": 1556,
+        "sha256": "c246b18b4196a847499a147e0031da2ff885f50b1e2d2c64c5c32bd3c6ff1dfb"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/input_base.go",
+        "bytes": 4027,
+        "sha256": "684430e47ff518d62fb662c668794ba200b8f024c581b5043b33707b8a7be8af"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/io_test.go",
+        "bytes": 3394,
+        "sha256": "4b9e8a64aadb5093ca7ca8243b7f573c736cd20bd6d728ebe8c02e0f1bedf348"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/pattern.go",
+        "bytes": 7647,
+        "sha256": "6228fa5719f8752c25c1c667a4b0867eccb42d14cb9874bf1d69d973b5c37469"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/publications.go",
+        "bytes": 8601,
+        "sha256": "a30149bb1b80e7f2c9e095c782b4e7837df2c909a272bde5719671318e2215bd"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/publications_test.go",
+        "bytes": 10232,
+        "sha256": "0d2c85add79ef2b45d00b20e630edf035230938dde262d9a6d81f6eb3b9d837e"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/rawtypes.go",
+        "bytes": 970,
+        "sha256": "fc22df7e204888edf2516e7b91dbfb1be3438b1f063a25a7099e8bb1f2a9840d"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/scanner.go",
+        "bytes": 8087,
+        "sha256": "03494fbe844d0a28706f347d0f968fd0443ee1a193527eb08b90bba96782071b"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/short.go",
+        "bytes": 2381,
+        "sha256": "547164bfdf8f71a56cc52868753ed48c9026960eeacb96c1b1d3aaee150fa194"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/state.go",
+        "bytes": 6633,
+        "sha256": "ab58aca86eec404ecb196663ef7294b8c58aa51590f7acd424e147a8595f1357"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/state_test.go",
+        "bytes": 7118,
+        "sha256": "8b92d7f906d8a6992bca5e9cb6f6fa5115126f69ec2e5acc2f3b41ddf4af9d3c"
+      },
+      {
+        "path": "work/147中位位置からの実体回復/types.go",
+        "bytes": 4721,
+        "sha256": "527d71e12022661be3cee943c825aaeedd0dce514d39c6978e226945c63bedbf"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/catalog.go",
+        "bytes": 8322,
+        "sha256": "25ae67c78dfc7887461b7172dd7b4c079ff415b63d071b4d61b540dbb12cc9dc"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/cmd/catalog/main.go",
+        "bytes": 581,
+        "sha256": "d6483b9001e10397627d19b417abb595321570ec6f9dd2b39a9f72dc630eb250"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/compute.go",
+        "bytes": 12172,
+        "sha256": "efe8d39343653e5df15f4f246391af2f0740283547c7a1cc365a0fe5e247149d"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/compute_test.go",
+        "bytes": 18268,
+        "sha256": "3dc50ba036d37f696a96476a303975255529b52920ed3d0fe1308ca197101010"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/go.mod",
+        "bytes": 258,
+        "sha256": "c3d9c9001c1bbd7f77a22780f74027498593f4d7ef2e92c774f3e650b37a99e1"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/legacy74.go",
+        "bytes": 8129,
+        "sha256": "7389ffb8922e7e1825fc35b41ca938c7cee9b95e70ec9e35d3e9f3c5cc5e793f"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/legacy_types.go",
+        "bytes": 1522,
+        "sha256": "e4d1f85ef308d43445187737de1e618dfb4d2c89e3fe5dbc80de3012106ad8a1"
+      },
+      {
+        "path": "work/148全1分候補の当時特徴/types.go",
+        "bytes": 3154,
+        "sha256": "db8f67cbfdcc96e4f17fb8f83c5119ddfa827e5b35dea760630e5499005a28c9"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/case_builder.go",
+        "bytes": 15500,
+        "sha256": "c8df813b5c98998e945b36ef7767ac50e2ee9ab98cfcd3f4fddb2a41075820db"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/case_builder_test.go",
+        "bytes": 10336,
+        "sha256": "2c0ff9160f0ecabdb4d4dd802616bf67bb94b0e5f7af9697c9e02c24129a8ae6"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/cmd/run/main.go",
+        "bytes": 1488,
+        "sha256": "788b72f3659436a0c4e7028ad35b4792465b6c0a9b1bdf706cf530fdb905ec60"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/decoder.go",
+        "bytes": 2937,
+        "sha256": "798c6377e9ac1821748bf056b047baa41d9dfea1d79b7b0d8a4b350b70087934"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/generate.go",
+        "bytes": 8621,
+        "sha256": "87047c8ff9d055c1cf403616af400e38d13cb936bd9affd0057d72ed8d77f343"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/go.mod",
+        "bytes": 407,
+        "sha256": "2185ffca79f98e78468803ad904adb9ae79f427a7d7947dd5e1f3e9dab7a90cf"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/helpers.go",
+        "bytes": 848,
+        "sha256": "aea53975acc5bcebbddb3eeb85c9420d6f64fcad8dcfe4098c3d09fb2d18d9a8"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/input.go",
+        "bytes": 7580,
+        "sha256": "c28f57fdedc32648c49cd21bfceb957741dabd4ec80b20eeb19b24a59ee305a7"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/parent_stream.go",
+        "bytes": 6045,
+        "sha256": "62b9c2d86ad7bb729e15a0afca367fa682ad2bfad516609c9a9629f702fb6e9a"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/parent_stream_test.go",
+        "bytes": 3081,
+        "sha256": "7a68395fc010d77b4ef105dbf9baad64292f33e08ec44d6110ce4cb37e3608c0"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/population.go",
+        "bytes": 7887,
+        "sha256": "8e93fcf0cfc6775fc09e58ba6662a8260ddfea30131abd580e09bf8080f3b65d"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/population_test.go",
+        "bytes": 7100,
+        "sha256": "9aa9bcc045d6abd0552b4f6f9d7d40971ea6e1ba61c16372297ce5cd91cdff12"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/publications.go",
+        "bytes": 8606,
+        "sha256": "11fbbe4ffd7349d3cfb1b47d9174558b4387754258d0d419ad6e1357f1f2c972"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/rawtypes.go",
+        "bytes": 975,
+        "sha256": "e6d6997a4988674fb258cc43d93d89c890da5ea528e7dbd6f4bb2d03c444dd64"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/scanner.go",
+        "bytes": 7976,
+        "sha256": "79efb2c2dc6dc267a2a1fb2637737e086481739ac785fb7dc1c4490e0a065cf8"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/scanner_test.go",
+        "bytes": 4759,
+        "sha256": "e82ca46ad10a786335d5e6ab6b14342534f0b66746426039a252986b7bdb85d7"
+      },
+      {
+        "path": "work/148全1分知得の入口母集団/types.go",
+        "bytes": 5182,
+        "sha256": "bd95adac5947ce52c73a18da3fb0757d9814dda17183d5ff89e84b0b8eda86bc"
+      },
+      {
+        "path": "work/161三時間帯入口のデータ/data161.py",
+        "bytes": 23344,
+        "sha256": "1aa4ab452d26d507f532c78ebf036ca37690642cd1cf140f01eb0423f0fe03fe"
+      },
+      {
+        "path": "work/162入口探索/共通.py",
+        "bytes": 2639,
+        "sha256": "4195017fc1ae7c62f5a733e268ce25ca35e97161c4cb0322af6dbbaf097fc84f"
+      },
+      {
+        "path": "work/162入口探索/評価基盤.py",
+        "bytes": 11854,
+        "sha256": "fb4a053bcde76c6aea7d53381b510b9ed0ffb009c0cc6ed5370c0526e312a926"
+      },
+      {
+        "path": "work/162複合入口候補/rules162.py",
+        "bytes": 17497,
+        "sha256": "93d8ef4d5e18f2835e4835f63c60912088103003f8b5c1ed8dd13560a2e7836a"
+      },
+      {
+        "path": "work/163_164正式保存/正式保存する.py",
+        "bytes": 39913,
+        "sha256": "e39c50db1fe3fd50ea9b8ab2661b0d0622d840326754be831e5e787a07d22718"
+      },
+      {
+        "path": "work/163任意幅の数値化/arrays163.py",
+        "bytes": 17857,
+        "sha256": "0231ea14ce03979a733d1a307c175266ff6aed2492dbc283162de63e153b23e6"
+      },
+      {
+        "path": "work/163入口と任意幅/共通163.py",
+        "bytes": 1564,
+        "sha256": "ec344a23e888343d966f6d88ebc417c578ce3081bcb7caef29f2c1fc04bd3fe8"
+      },
+      {
+        "path": "work/163入口と任意幅/評価163.py",
+        "bytes": 6320,
+        "sha256": "16e118fbd085e1f3171158b7cd446bdc919a361f8961e58881e3229f07ee4ebe"
+      },
+      {
+        "path": "work/164先着確定と反転比較/比較する.py",
+        "bytes": 8504,
+        "sha256": "3e378b6c2407046c8b205997df17eea89bdf84e13ef6fddb8b1a2d8877bec786"
+      },
+      {
+        "path": "work/165自然独立確認/自然値を独立検算する.py",
+        "bytes": 22138,
+        "sha256": "8c76fdda1d1c1f782db1574aa91b668deeb3099b3a39d64557d31800317367ac"
+      },
+      {
+        "path": "work/165順行と回復失敗の複合/出生を作る.py",
+        "bytes": 8553,
+        "sha256": "54db3ff0b72547d8e0317067d17a2332fbb8a4d7aaa47c231a52f5467148ea27"
+      },
+      {
+        "path": "work/165順行と回復失敗の複合/評価基盤165.py",
+        "bytes": 7525,
+        "sha256": "999225c47b9a88633fe7330e79235e33fe310b0d8f5d528a7ec0cbff024035fd"
+      },
+      {
+        "path": "work/166可変場の数値化/arrays166.py",
+        "bytes": 7903,
+        "sha256": "049645e8daa53e900a1a2c69ec78a7add9ea45dbf2179f262705c8be05c04947"
+      },
+      {
+        "path": "work/166可変場の数値化/README.md",
+        "bytes": 2286,
+        "sha256": "76605aefa334a6dbdc0d79ab4597d1c46af029ba5adc83d2f9746e8ae88fb83c"
+      },
+      {
+        "path": "work/166可変場の数値化/人工を確認する.py",
+        "bytes": 6275,
+        "sha256": "b19268c4870893843aba783254feb72e2eaf54036e4ffe8d009da65f7bd2cfb4"
+      },
+      {
+        "path": "work/166可変場の数値化/人工確認.json",
+        "bytes": 619,
+        "sha256": "44350828ae813f9564938a4c4f4443f086100bf908fa6c585f567a001ca32c42"
+      },
+      {
+        "path": "work/166可変場の数値化/数値化の停止.json",
+        "bytes": 1958,
+        "sha256": "f7a4e9d70bb2fe7b449d7cc3fedabf2bd0dbf1d50ef02a27e643c694def3449b"
+      },
+      {
+        "path": "work/166可変場の数値化/既知数値_stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "work/166可変場の数値化/既知数値_stdout.txt",
+        "bytes": 366,
+        "sha256": "7805bc4372c6f1f154ae1c12ecab09ddd584127e3244f45dd4695cdfdda920af"
+      },
+      {
+        "path": "work/166可変場の数値化/既知数値を確認する.py",
+        "bytes": 2879,
+        "sha256": "e99f01137264ea4a4ee104f55da259deb66cf5721cf3464e1fe5939c0256ccae"
+      },
+      {
+        "path": "work/166可変場の数値化/旧73全配列の同体.json",
+        "bytes": 3749,
+        "sha256": "4765d7923be0b238f94f5ea15ab0284764fffcaf3b66cef3bce1fd4e30494d58"
+      },
+      {
+        "path": "work/166可変場の観測/flexible_test.go",
+        "bytes": 5182,
+        "sha256": "877b595e0a9e6c65b2327daae85c392b27668f1d8c84774d505488fa62cf76ac"
+      },
+      {
+        "path": "work/166可変場の観測/go.mod",
+        "bytes": 35,
+        "sha256": "56247cf9409bfcd5235dc85d1ca48244ecb33852c5b337bf7906b98cda3f03c7"
+      },
+      {
+        "path": "work/166可変場の観測/Go版.txt",
+        "bytes": 34,
+        "sha256": "234a7a088ff7e29b9ed3184d9f04859a16eb4c2fc27476389593e53cb7a4fbb6"
+      },
+      {
+        "path": "work/166可変場の観測/index.go",
+        "bytes": 15648,
+        "sha256": "ec640b85baa6451f29f0b623f55269e0ca499a489e4c80b4f5f0d19901dda55e"
+      },
+      {
+        "path": "work/166可変場の観測/main.go",
+        "bytes": 1364,
+        "sha256": "68d0ab6ec5a3ffc0af8f15bc1c532396d9c91e396d892e2422eb2dbceb588a3e"
+      },
+      {
+        "path": "work/166可変場の観測/query.go",
+        "bytes": 18749,
+        "sha256": "20ecceb23fa7fc6ea007abf7710d8663c30e8fc8a44976d4c3e33a9efe1ee67c"
+      },
+      {
+        "path": "work/166可変場の観測/query_test.go",
+        "bytes": 13168,
+        "sha256": "ee8b6d385a1be74699b769949d1e616b108d4505ba30a0e112f116722d081355"
+      },
+      {
+        "path": "work/166可変場の観測/README.md",
+        "bytes": 3632,
+        "sha256": "96bce1b5394a49b5c6499ea7133d46a3feb36bbbbe49d59a40a2966279d1c1c3"
+      },
+      {
+        "path": "work/166可変場の観測/Sourceの同体を確認する.py",
+        "bytes": 3118,
+        "sha256": "7dc8b326dd2b56c5c0482d5e4237e222d9436131077c578e17c9d2c34329cdd4"
+      },
+      {
+        "path": "work/166可変場の観測/人工テスト.txt",
+        "bytes": 26,
+        "sha256": "1bc266e96d4dc786ec2cbb70aa7f11199f111c4a5f6986f682935692d2590254"
+      },
+      {
+        "path": "work/166可変場の観測/可変場観測の停止.json",
+        "bytes": 3834,
+        "sha256": "e872344437df8a58c0c7952870758ac89bed608cf7b827d9a89474e017442792"
+      },
+      {
+        "path": "work/166可変場の観測/既知観測_stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "work/166可変場の観測/既知観測_stdout.txt",
+        "bytes": 2846,
+        "sha256": "1a6f215b73f060d3d72259a67dd63b24fbc996ae06103c1a70542763449d06a4"
+      },
+      {
+        "path": "work/166可変場の観測/旧163からのコピー.json",
+        "bytes": 2360,
+        "sha256": "ce8ee8ffbe61aa0211534c57660c01c133d2714a3bef2f88030948f7292e5bbe"
+      },
+      {
+        "path": "work/166可変場の観測/旧163純関数の同体.json",
+        "bytes": 3251,
+        "sha256": "a02168e22fe3090f5b02a4ac5bce4af60c9413a265ad289dcd73a27906f7e368"
+      },
+      {
+        "path": "work/166可変場の観測/旧73全観測の同体.json",
+        "bytes": 13575,
+        "sha256": "19e4471eefd5dbb4c1c3f82580ce6296776be6c68a2d95ab4ae0197de36f9965"
+      },
+      {
+        "path": "work/166可変場の観測/旧gzip判別.go",
+        "bytes": 744,
+        "sha256": "8b4547733f45cd35d816859629a574bc105f041d4317311bbd9b8e0e88787eb6"
+      },
+      {
+        "path": "work/166可変場の観測/旧kernelの参照_test.go",
+        "bytes": 3284,
+        "sha256": "d5acd0fa0d1ae6af5dbf6d876b0c7fef01bf20a7bfc0df6e251f6720da12bfda"
+      },
+      {
+        "path": "work/166可変場の観測/旧parserの同体関数.go",
+        "bytes": 3566,
+        "sha256": "3bbbbf252eddab4f95eb1e0338550545ec07f91e0c93f9a51be54fc4f2c053b7"
+      },
+      {
+        "path": "work/166可変場の観測/旧基本型.go",
+        "bytes": 6433,
+        "sha256": "592cc75bace83027d22610d8fcef5051159e71f83e00b643cdf581a3bb961529"
+      },
+      {
+        "path": "work/166可変場の観測/最終既知観測_stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "work/166可変場の観測/最終既知観測_stdout.txt",
+        "bytes": 2846,
+        "sha256": "145c0c4fef55d8315c315bee94ed7d61e98e08b66ad7c20dc7e32d82a97a755f"
+      },
+      {
+        "path": "work/166可変場の観測/最終旧73全観測の同体.json",
+        "bytes": 579,
+        "sha256": "f05bda01c9b8cea0c47f545629cb2846026a62b05f6ad06d0c6d962a6e1a5625"
+      },
+      {
+        "path": "work/166可変場の観測/静的検査.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "work/166可用指標の階層化/local166.py",
+        "bytes": 5946,
+        "sha256": "9085db8c15c1494729315b54ed08810bf405baf482c1f760210990d9588f597b"
+      },
+      {
+        "path": "work/166自然独立確認/階層と自然値を独立検算する.py",
+        "bytes": 22900,
+        "sha256": "838e57b55dac3b630013a4647d42b41398076856901e5539855b0ca04f3b562a"
+      },
+      {
+        "path": "work/167_168自然独立確認/README.md",
+        "bytes": 4382,
+        "sha256": "b8a6669912f88bcb6cee0ca084e8a2b2b3a71b6cee43090592f58c6326d216df"
+      },
+      {
+        "path": "work/167_168自然独立確認/出生と全自然政策を検算する.py",
+        "bytes": 32995,
+        "sha256": "6ea50635cbb615e86e25146679e3e1ebe7e9eae3c09b30c929f458c287df2541"
+      },
+      {
+        "path": "work/167_168自然独立確認/数量の自然全要求照合.json",
+        "bytes": 24779,
+        "sha256": "ae88a74d351c5783a2c95fccaefbe8cfdde09b2d447b957026744dd9fe073cd4"
+      },
+      {
+        "path": "work/167_168自然独立確認/自然の独立確認.json",
+        "bytes": 7457,
+        "sha256": "1ca1bbceb14490a53e0042a9a992c8363bdf2ccc917d04cc1a96a2d213f3e903"
+      },
+      {
+        "path": "work/167_168自然独立確認/自然確認の停止.json",
+        "bytes": 330,
+        "sha256": "c9b983ffc1d5998c9fdabae2dc31f9c6abb32af561c6c87e8f3031d26898fe1f"
+      },
+      {
+        "path": "work/167固定入口の別期間/仕様を固定する.py",
+        "bytes": 5845,
+        "sha256": "603a46c5160e0aa28fd21ae2dd197d643b90723a5a0e69fa2be5647d3dd46061"
+      },
+      {
+        "path": "work/167固定入口の別期間/旧73の同体.json",
+        "bytes": 476,
+        "sha256": "d788a7ff645103e4c2b459c94e331408511c5f58265cc47442130da21aca9bc7"
+      },
+      {
+        "path": "work/167固定入口の別期間/旧73の同体を確認する.py",
+        "bytes": 3972,
+        "sha256": "c912ece75658c83ef82469c206fe332a7e852e8f643a02091d4e69867f64f31b"
+      },
+      {
+        "path": "work/167固定入口の別期間/適用する.py",
+        "bytes": 8943,
+        "sha256": "9b8f302e30a966145c2de9ef25bf218839291df46c287b21d9c5ce6310a8e563"
+      },
+      {
+        "path": "work/167固定入口の別期間/適用基盤167.py",
+        "bytes": 11079,
+        "sha256": "d37d6c8cec944a4029b1719db0e7a66cc1fd056a35612e8aa952e44003d6a987"
+      },
+      {
+        "path": "work/167正式保存/保存を確認して停止する.py",
+        "bytes": 4559,
+        "sha256": "f54891744beea60e0c0aee44983b869835ab1775de609cb248e231f94e6af7dc"
+      },
+      {
+        "path": "work/167正式保存/入力昇格を検査する.py",
+        "bytes": 3865,
+        "sha256": "d1529e1c4f74a34a753528c2f22a7fd6ba0b8fbfd47dfebcff96511c99959ca0"
+      },
+      {
+        "path": "work/167正式保存/正式保存する.py",
+        "bytes": 19160,
+        "sha256": "3f89fd0ddd5de4f101770098b37077b1f733d2bdc1083f96a3f7f2dbb7a32325"
+      },
+      {
+        "path": "work/167正式保存/正式入力から再現する.py",
+        "bytes": 5654,
+        "sha256": "3155f64648c1ddc06bb63351699f5758a909c94454dcd1dd7a7d87686a690468"
+      },
+      {
+        "path": "work/167適用Source独立監査/README.md",
+        "bytes": 2346,
+        "sha256": "85b7b1c6f92f870505fb106accbe329a9cddea21e3b2b110a4646145cc3a7c15"
+      },
+      {
+        "path": "work/167適用Source独立監査/Sourceと人工の確認.json",
+        "bytes": 3029,
+        "sha256": "282731c5b16d2e9b8b5f3d78d4669ab00efa013cf6a927e9847be77737eafa70"
+      },
+      {
+        "path": "work/167適用Source独立監査/Source監査の停止.json",
+        "bytes": 238,
+        "sha256": "62eb0408941ac4858dc72f55546234814075e7d2e050c5257fe5f7ce9533ea10"
+      },
+      {
+        "path": "work/167適用Source独立監査/境界と人工を検査する.py",
+        "bytes": 15540,
+        "sha256": "e489d9afcb6db5267d0dd91262f653d954723c7fc89dedb0b70755655293c214"
+      },
+      {
+        "path": "work/168数量枠の因果再生/engine168.py",
+        "bytes": 8579,
+        "sha256": "a2f728bf7e7c925495d01670f1bbf89d88aaea6b8e207490e080d6c2d9f21050"
+      },
+      {
+        "path": "work/168数量枠の独立確認/独立人工を確認する.py",
+        "bytes": 11650,
+        "sha256": "1d281e3e35d704ed485937a8cf3f3cb39a5102859759d24580d49f7d7d21d640"
+      },
+      {
+        "path": "work/三時間軸の公開器/bank.go",
+        "bytes": 13808,
+        "sha256": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b"
+      },
+      {
+        "path": "work/三時間軸の公開器/bank_test.go",
+        "bytes": 22551,
+        "sha256": "b1944823b58b1cc2d400b57b782ab7bfac990d109eafedcf7f6c8a89843a4db9"
+      },
+      {
+        "path": "work/三時間軸の公開器/go.mod",
+        "bytes": 75,
+        "sha256": "896325a90f15c6c403d442e0cff148b9a4407a2176f34970e27495dfe849a95f"
+      },
+      {
+        "path": "work/三時間軸の公開器/numeric.go",
+        "bytes": 5100,
+        "sha256": "f9da01f68ef8d1e63477acbbfb950854a99874d7ce23dca4140da6148bf2411b"
+      },
+      {
+        "path": "work/三時間軸の公開器/pivot.go",
+        "bytes": 2405,
+        "sha256": "ef9d799dc978d7689167ab9c29a9bad879fd999a9993063f852d8e9432ad3f59"
+      },
+      {
+        "path": "work/三時間軸の公開器/types.go",
+        "bytes": 6426,
+        "sha256": "00b9b15619358b0c8212a5dcf32c1d2fd37acc30c037bf0e0d05c800060bd2c9"
+      },
+      {
+        "path": "work/三時間軸の市場入力口/candle.go",
+        "bytes": 5053,
+        "sha256": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137"
+      },
+      {
+        "path": "work/三時間軸の市場入力口/candle_test.go",
+        "bytes": 3482,
+        "sha256": "d10db77bd84897879a1254903a079d977752d7bbf6616986d3dc584b3715a13b"
+      },
+      {
+        "path": "work/三時間軸の市場入力口/go.mod",
+        "bytes": 252,
+        "sha256": "9354dc403283cd78a654637eeb4a24a1650a9a19923eae47641781ef5d82e33c"
+      },
+      {
+        "path": "work/未見入口の同体接続/background.go",
+        "bytes": 5236,
+        "sha256": "ec740de9398f6407f81f9835dad55fe57b7d6b0480b6bb2f846dd21f6dcadeed"
+      },
+      {
+        "path": "work/未見入口の同体接続/bootstrap_test.go",
+        "bytes": 2478,
+        "sha256": "8e3d7469564277cdcb98d937e56fbc48794748569516336679f01b118ab28305"
+      },
+      {
+        "path": "work/未見入口の同体接続/cmd/run/main.go",
+        "bytes": 2165,
+        "sha256": "457a8c712a4ee8ac90c5fd43a8cee9a3ef2f0f6400fd12ea51718f70a84434c9"
+      },
+      {
+        "path": "work/未見入口の同体接続/engine.go",
+        "bytes": 8579,
+        "sha256": "f35ac86d3fa02bccbf7ecc8ab10f8859f6c618d40eebb604e3b57738c04175c7"
+      },
+      {
+        "path": "work/未見入口の同体接続/files.go",
+        "bytes": 3674,
+        "sha256": "b89146fac66787ab2d31fe5c0f3172d57de55335749a95ba201fb87d7f6446a6"
+      },
+      {
+        "path": "work/未見入口の同体接続/go.mod",
+        "bytes": 1091,
+        "sha256": "2f9c02b77f452db8aac7ff220da72fc24152757d30da4a39de2a881b5bd2e64b"
+      },
+      {
+        "path": "work/未見入口の同体接続/Go版.txt",
+        "bytes": 34,
+        "sha256": "234a7a088ff7e29b9ed3184d9f04859a16eb4c2fc27476389593e53cb7a4fbb6"
+      },
+      {
+        "path": "work/未見入口の同体接続/index_manifest.go",
+        "bytes": 3345,
+        "sha256": "be20cc90e62f236bd3c08a08ae7762029b326507e836c6130a76a52ac44914c5"
+      },
+      {
+        "path": "work/未見入口の同体接続/minute.go",
+        "bytes": 7101,
+        "sha256": "f8f46bd307df419cd244b8f9d78c7a095a13143fe8d82016e5677eed58503235"
+      },
+      {
+        "path": "work/未見入口の同体接続/minute_test.go",
+        "bytes": 6982,
+        "sha256": "17f3d8dbb2b838b50c6f9ea6a91e84c035882595d721ede5bf4c6f5b1c20bb02"
+      },
+      {
+        "path": "work/未見入口の同体接続/output.go",
+        "bytes": 4408,
+        "sha256": "362e3875cde419cb0a3bb845701f66c7b43c531196c24bb2bca2bee4c390b38f"
+      },
+      {
+        "path": "work/未見入口の同体接続/quotes.go",
+        "bytes": 4082,
+        "sha256": "1a5aeb82a866930d94ebfa4cb289c8320f9d409b81598c4d6849c4f3529b88c1"
+      },
+      {
+        "path": "work/未見入口の同体接続/quotes_test.go",
+        "bytes": 11471,
+        "sha256": "8c7a5dfbbf1eeebd02e6c347a3088b09dda44dde055fa6c0798f0e7368e95ddb"
+      },
+      {
+        "path": "work/未見入口の同体接続/README.md",
+        "bytes": 3805,
+        "sha256": "44e550f2330bed84321109f033e814224b8f6b1e2bb359ad4a9707fc274100b7"
+      },
+      {
+        "path": "work/未見入口の同体接続/reference.go",
+        "bytes": 6708,
+        "sha256": "aa48a0bab6259ea8092b120b43ce9bee5c6bf4e36bca8ede7462615977ac759b"
+      },
+      {
+        "path": "work/未見入口の同体接続/types.go",
+        "bytes": 4412,
+        "sha256": "ee97b634cc1354699cec33e85adc2015c5b48ff1eb7ce469b84a7726dacb295d"
+      },
+      {
+        "path": "work/未見入口の同体接続/人工テスト.txt",
+        "bytes": 65,
+        "sha256": "f85777248c28b077fc7af723c900463bab4dea2308b4adbd24f6a9edc1141f35"
+      },
+      {
+        "path": "work/未見入口の同体接続/接続器の停止.json",
+        "bytes": 5576,
+        "sha256": "14ebd4076d9abadf1013a63476c9eadb69ad3dfd33b9ff589aca72c8f1ea7d4d"
+      },
+      {
+        "path": "work/未見入口の同体接続/既知148の参照.json",
+        "bytes": 998,
+        "sha256": "8f32d59167dfefeb5a38eb60745cdfebc3ae9ee1a7aee77fdf8466a707f074f1"
+      },
+      {
+        "path": "work/未見入口の同体接続/既知73場だけの回帰計画.json",
+        "bytes": 125779,
+        "sha256": "1e09196d221ef293492be693e4f84a7d9295b1514432f1d59ef2a0394a17cd31"
+      },
+      {
+        "path": "work/未見入口の同体接続/既知73進行_stderr.txt",
+        "bytes": 6307,
+        "sha256": "3460371f1c9c74d2a317a9e1ad9d4bf46807aa2d88bb1c0d82b9fb80dcb9f8d2"
+      },
+      {
+        "path": "work/未見入口の同体接続/既知73進行_stdout.txt",
+        "bytes": 61,
+        "sha256": "36803b1baf8c1f95585801a381160f69c5e80aaab5a18a70390fb5e6f02bba90"
+      },
+      {
+        "path": "work/未見入口の同体接続/既知回帰の実行前.json",
+        "bytes": 3746,
+        "sha256": "c1b688526499ff77a145a7e02f22263deaf51cdeedb4e2adedbea1dadde5871c"
+      },
+      {
+        "path": "work/未見入口の同体接続/既知終盤3場の前史再生計画.json",
+        "bytes": 6007,
+        "sha256": "eb86c1e089e9d66f8c7d718bc0774e323259de4080c96fc19f1bdd24a2949ec7"
+      },
+      {
+        "path": "work/未見入口の同体接続/旧場計画を作る.py",
+        "bytes": 4081,
+        "sha256": "4a4df965df9fed8dcee43b72c600794e034b09b44aacb9aed7804cdb5d9b013d"
+      },
+      {
+        "path": "work/未見入口の同体接続/終盤3場進行_stderr.txt",
+        "bytes": 259,
+        "sha256": "adb74b84031bed70619b891597cd99248b465979ed0819fcbb687310825e8cdb"
+      },
+      {
+        "path": "work/未見入口の同体接続/終盤3場進行_stdout.txt",
+        "bytes": 57,
+        "sha256": "757b4bb36777df03d90f703f500bded56a4f3599c46d9155e8a57cd683a87de3"
+      },
+      {
+        "path": "work/未見入口の同体接続/静的検査.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "恒久入力": {
+    "path": "inputs/00167_追加七場の入口と共用価格索引/保存索引.json",
+    "bytes": 14088,
+    "sha256": "3cdf8b0daf92d3b4fd7eea3ddbff6793e7aed36ff140e4808a63f42f72fef6d9"
+  },
+  "結果": [
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/成果物/全取得参照.json",
+      "bytes": 6571,
+      "sha256": "579d395c36c8c9104b7187401f7153244ded5ecc33c0967efbfb7ee40c2cba7c"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/成果物/全比較と全場.json",
+      "bytes": 278767,
+      "sha256": "eb7797b799bccf4fd8476b5fc6a3b7139f26cb93857d59cf54fd8dfe88fc875c"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/成果物/因果監査.json",
+      "bytes": 3455,
+      "sha256": "376965bde066a23fabbba7a58096058e657d9b7313112c9a4eb5864aa24c033b"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/成果物/完了.json",
+      "bytes": 1346,
+      "sha256": "9468e035f4c1b1f3ab1b54403474f428328aae14e071ff0ee3d9003445f86c3d"
+    }
+  ],
+  "環境": {
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "numpy": "2.5.3",
+      "tzdata": "2026.4"
+    },
+    "Go": "go version go1.24.2 windows/amd64"
+  },
+  "監査": [
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/検査/Source独立監査/Source監査の停止.json",
+      "bytes": 238,
+      "sha256": "62eb0408941ac4858dc72f55546234814075e7d2e050c5257fe5f7ce9533ea10"
+    },
+    {
+      "path": "study/00167_固定した複合入口を追加七場へ適用する/検査/自然独立確認/自然確認の停止.json",
+      "bytes": 330,
+      "sha256": "c9b983ffc1d5998c9fdabae2dc31f9c6abb32af561c6c87e8f3031d26898fe1f"
+    }
+  ],
+  "再現時の依存": "Source.zipの相対work配置を復元。価格参照なしの比較は恒久167入力で完結。原板再生成には固定外部Raw/CSVと旧122前史の復元を別途要する。",
+  "初回exe": "停止票で指紋・Go版を保持するが実行体は再複製しない。Sourceから再ビルドする。"
+}

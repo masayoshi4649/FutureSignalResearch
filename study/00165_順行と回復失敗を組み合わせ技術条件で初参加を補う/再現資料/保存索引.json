@@ -1,0 +1,291 @@
+{
+  "成功": true,
+  "試行": 165,
+  "条件": {
+    "path": "study/00165_順行と回復失敗を組み合わせ技術条件で初参加を補う/条件.json",
+    "bytes": 9953,
+    "sha256": "f2b6aace1ee8fe79b3977d79fc2346cc03fd3c752f15609a628a3f189c93b5af"
+  },
+  "実行環境": {
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "NumPy": "2.5.4",
+    "ijson": "3.6.0",
+    "tzdata": "2026.6",
+    "OS": "Windows-11-10.0.26300-SP0"
+  },
+  "正本": [
+    {
+      "archive": {
+        "path": "study/00165_順行と回復失敗を組み合わせ技術条件で初参加を補う/再現資料/Source.zip",
+        "bytes": 111913,
+        "sha256": "e5b3071c2f4812af68a3bd49fc84cca68259cf48ff47aba2933aab72955969b6"
+      },
+      "members": [
+        {
+          "path": "work/148全1分候補の当時特徴/legacy74.go",
+          "bytes": 8129,
+          "sha256": "7389ffb8922e7e1825fc35b41ca938c7cee9b95e70ec9e35d3e9f3c5cc5e793f"
+        },
+        {
+          "path": "work/165_166正式保存/保存を確認して停止する.py",
+          "bytes": 6583,
+          "sha256": "37d24fb3be421cfe49876440366d27d34ed3dece708065345db1196de0ebf002"
+        },
+        {
+          "path": "work/165_166正式保存/正式保存する.py",
+          "bytes": 31220,
+          "sha256": "7aa025d4beca8facc0dfb6a46cb393670d04aa9ca33a0354b2b39fd923cee66e"
+        },
+        {
+          "path": "work/165_166正式保存/正式入力から再現する.py",
+          "bytes": 4522,
+          "sha256": "16e6bfd0c300a2c81189e8b188a221ee257bb044189e00c2d4f0fdd63e260107"
+        },
+        {
+          "path": "work/165独立確認/README.md",
+          "bytes": 3747,
+          "sha256": "6d284000f938db45548543a9a8248e103eb8adcbf928beaa19992ace6c82a6de"
+        },
+        {
+          "path": "work/165独立確認/人工と静的な確認.json",
+          "bytes": 2280,
+          "sha256": "790c60e43d13a38d591ff31dd40390ec3740ed7a0001cbf986acfdd8928d676c"
+        },
+        {
+          "path": "work/165独立確認/人工と静的な確認.py",
+          "bytes": 22319,
+          "sha256": "7185fdf63363fe2b6bf4c4f58f807c61ba26806ee3b27b7ca85456e03d6e54ef"
+        },
+        {
+          "path": "work/165独立確認/独立確認の停止.json",
+          "bytes": 1872,
+          "sha256": "bab7e2eb883c8a3a7c0187561780bdda300b7e45fb28597136cef22967ec3ada"
+        },
+        {
+          "path": "work/165自然独立確認/README.md",
+          "bytes": 2104,
+          "sha256": "ca796a97550418aec53d45da0f328a122d82316af035d90f97d8bccbc3d98ae7"
+        },
+        {
+          "path": "work/165自然独立確認/主案の全73場と三時間帯.json",
+          "bytes": 68071,
+          "sha256": "85e911cca4fff2f46746a7f3639faeca8175aa883e5cc3c24123c2857a4957cf"
+        },
+        {
+          "path": "work/165自然独立確認/独立確認の停止.json",
+          "bytes": 322,
+          "sha256": "37f1ddce0a4e7b5192a810541add632978abedfaea9794a0bad010f7d182c78b"
+        },
+        {
+          "path": "work/165自然独立確認/自然の独立確認.json",
+          "bytes": 3741,
+          "sha256": "3350dbd57c1bfc0f9726a6319e56ba00aeb55e6ba568b61c8bb51cdaf21e49f4"
+        },
+        {
+          "path": "work/165自然独立確認/自然値を独立検算する.py",
+          "bytes": 22138,
+          "sha256": "8c76fdda1d1c1f782db1574aa91b668deeb3099b3a39d64557d31800317367ac"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/仕様を固定する.py",
+          "bytes": 5405,
+          "sha256": "b20d942551c393c5d89aa0c557fb9fa9881351c7ed07572996fd7d66c3d4a93c"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/出生を作る.py",
+          "bytes": 8553,
+          "sha256": "54db3ff0b72547d8e0317067d17a2332fbb8a4d7aaa47c231a52f5467148ea27"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/未参加の特徴診断.json",
+          "bytes": 13542,
+          "sha256": "aefdfae7a1529ff1ced8d5fd11a189ea907be5b23954f44ff2365b8295892a2b"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/比較する.py",
+          "bytes": 9370,
+          "sha256": "825229041eb130a69c0b29531fa505e1fcfe52197029598bcb9c719b84827550"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/評価基盤165.py",
+          "bytes": 7525,
+          "sha256": "999225c47b9a88633fe7330e79235e33fe310b0d8f5d528a7ec0cbff024035fd"
+        },
+        {
+          "path": "work/166十五分MACD可用性の診断/go.mod",
+          "bytes": 209,
+          "sha256": "c4ca59e0cf937fc8bb503b446665bd3f7d4405c916285efbb11b37d685888ae0"
+        },
+        {
+          "path": "work/166十五分MACD可用性の診断/MACD初回とreset人工.json",
+          "bytes": 1168,
+          "sha256": "b8c86537b8e2f61928903e4665734ec26b6b4b3248c6b48d8c5d3d466dbfeebd"
+        },
+        {
+          "path": "work/166十五分MACD可用性の診断/main.go",
+          "bytes": 3294,
+          "sha256": "71b9759e07b2ac24057f1688e88484b7783ff2ffd675f79632f45ef24617cba8"
+        },
+        {
+          "path": "work/166十五分MACD可用性の診断/原因と可用性.json",
+          "bytes": 72338,
+          "sha256": "95c155c6a90a2eae1fe5b812efc59124a679f7f1198a620d3904f5fc71e41713"
+        },
+        {
+          "path": "work/166十五分MACD可用性の診断/既知可用性を調べる.py",
+          "bytes": 8390,
+          "sha256": "3fe68596f0da55f3b123124b64976f6478e695865d9b3a3ce150555130612999"
+        },
+        {
+          "path": "work/166十五分MACD可用性の診断/結果.md",
+          "bytes": 4364,
+          "sha256": "a2883e74e94a2b034cbcefe6666862d5903512212bb42c865abe4c68a4e2cd87"
+        },
+        {
+          "path": "work/166十五分MACD可用性の診断/診断の停止.json",
+          "bytes": 2193,
+          "sha256": "d24852f0b5c8556ed1d59c2fe75096f28e1722a59e9baf964a082887811f61f3"
+        },
+        {
+          "path": "work/三時間軸の公開器/bank.go",
+          "bytes": 13808,
+          "sha256": "e734091106efad926e7b66b28dfb63d228f9f9faf0139ae6d3773d272210db5b"
+        },
+        {
+          "path": "work/三時間軸の公開器/bank_test.go",
+          "bytes": 22551,
+          "sha256": "b1944823b58b1cc2d400b57b782ab7bfac990d109eafedcf7f6c8a89843a4db9"
+        },
+        {
+          "path": "work/三時間軸の公開器/go.mod",
+          "bytes": 75,
+          "sha256": "896325a90f15c6c403d442e0cff148b9a4407a2176f34970e27495dfe849a95f"
+        },
+        {
+          "path": "work/三時間軸の公開器/numeric.go",
+          "bytes": 5100,
+          "sha256": "f9da01f68ef8d1e63477acbbfb950854a99874d7ce23dca4140da6148bf2411b"
+        },
+        {
+          "path": "work/三時間軸の公開器/pivot.go",
+          "bytes": 2405,
+          "sha256": "ef9d799dc978d7689167ab9c29a9bad879fd999a9993063f852d8e9432ad3f59"
+        },
+        {
+          "path": "work/三時間軸の公開器/README.md",
+          "bytes": 3390,
+          "sha256": "046045ebb0da8c072432dcdd3539257fd4ce8af3f184bac3600fbb11175acd08"
+        },
+        {
+          "path": "work/三時間軸の公開器/types.go",
+          "bytes": 6426,
+          "sha256": "00b9b15619358b0c8212a5dcf32c1d2fd37acc30c037bf0e0d05c800060bd2c9"
+        },
+        {
+          "path": "work/三時間軸の公開器/仕様.md",
+          "bytes": 6665,
+          "sha256": "8d379bb2cd629d402f6b2a754192a1af57d5766b3019f6a015738eb268b162af"
+        },
+        {
+          "path": "work/三時間軸の公開器/停止.json",
+          "bytes": 6531,
+          "sha256": "b6b1a326cc98f67e13ec1962a19bac001eda743880b74a13066a2307c5944895"
+        },
+        {
+          "path": "work/三時間軸の公開器/検査と停止を記録する.py",
+          "bytes": 4984,
+          "sha256": "4336294c1d73cc3add5fbbb6a7948c14a683604595251c107de6b87ec1bd9949"
+        }
+      ]
+    },
+    {
+      "archive": {
+        "path": "study/00165_順行と回復失敗を組み合わせ技術条件で初参加を補う/再現資料/出生と統計正本.zip",
+        "bytes": 23510366,
+        "sha256": "745c9df7c8834ae2ccd236f60a244eea71608b9835cd50c26884c7099656a869"
+      },
+      "members": [
+        {
+          "path": "work/165順行と回復失敗の複合/全出生/全出生の確認.json",
+          "bytes": 35838,
+          "sha256": "d9535230b89e834ba65b3c125bfdb4b2ea5148147f6493812c3a4385d1a905ee"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/全出生/複合と技術補完.npz",
+          "bytes": 200393,
+          "sha256": "61689726e1ceec4b1b06740500d88b9c04b942c032685c8332b37ef3a0bd9f45"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/比較/主案と探索結果.json",
+          "bytes": 199938,
+          "sha256": "407d7cadabd7e9dfed32909863b8d973e545cee9b9fed69e167de7e009399391"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/比較/全取得参照.json.gz",
+          "bytes": 251213,
+          "sha256": "23260a1bef5b6313ac27f4e5630729e3e605e31e2fe7e4cfd087b05e650a919a"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/比較/初参加補完の因果監査.json.gz",
+          "bytes": 165893,
+          "sha256": "557fffc67177dce94e0524a32b51601361eae60d0adf69a9859c9800f888eac7"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/比較/完了.json",
+          "bytes": 1628,
+          "sha256": "a2b3488b6e222a35102f218a74261fa8a646dd5c6884f8dca22bc39ef7e49ee3"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/比較/統計軸.json",
+          "bytes": 33721,
+          "sha256": "ff7d088ffa2db40097598e7a1e2b047e6fd75abaed901f18b71b0a7d8e485f47"
+        },
+        {
+          "path": "work/165順行と回復失敗の複合/比較/複合入口の統計配列.npz",
+          "bytes": 22854315,
+          "sha256": "e0916916afc54389a9d9b36f99b9ad7070941df4ad0f0e52dd0f164d66933107"
+        }
+      ]
+    }
+  ],
+  "共用入力と親参照": [
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/保存索引.json",
+      "bytes": 49671,
+      "sha256": "19b81bf6b135c65b6355e2de3d1c24008a4c7c70616f7d45e5b87ccb6a23768b"
+    },
+    {
+      "path": "inputs/00122_新規3場公表/指紋.json",
+      "bytes": 1387,
+      "sha256": "1fb41767dbbb9754e6944a5a7ba3848d7593fd3a0d9ee53401c29cd24ff30b2a"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/Source.zip",
+      "bytes": 121987,
+      "sha256": "e417ceb2701c01465edb9850c8e2976b9346352c288780ec7bb2ccbdaa048ab7"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/出生と探索.zip",
+      "bytes": 24934994,
+      "sha256": "bee0d12c8e37f20a46f2bf8775d519548c91f1153af117a117d9ed1f66b0f776"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/Source.zip",
+      "bytes": 190361,
+      "sha256": "222b9663bd50b19e0b1bb72bd2af72a6dd9e1012a68d502c73f9d1181e75bde0"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/出生と統計正本.zip",
+      "bytes": 96942446,
+      "sha256": "13749588187fe0c4cb617dec8a69c7954e89c33099170f9c4ae56d490108242a"
+    },
+    {
+      "path": "study/00164_IFD最初到達の確定時計で入口と反転を比較する/再現資料/Source.zip",
+      "bytes": 56528,
+      "sha256": "eadcb42f909ec18d0ad77d7a4d4617210f603394053d85fe59c7977e33eefc2a"
+    }
+  ],
+  "非重複": "共有Raw/価格索引/Go観測/金融表/161cacheは再保存しない。166の165対照統計は小型controlsとして当時の結果に含まれるが親全統計/出生を再収録しない。",
+  "区別": "事前固定主案・前48だけの固定選択・全期発見を別保存。新7場未使用。",
+  "保存検査": "全ZIP CRC/サイズ/SHA/元byte同体と前後Source/数値SHA、条件不変。追加再現ラッパーはcompile/helpのみ。"
+}

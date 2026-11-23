@@ -1,0 +1,185 @@
+{
+  "成功": true,
+  "試行": 164,
+  "条件": {
+    "path": "study/00164_IFD最初到達の確定時計で入口と反転を比較する/条件.json",
+    "bytes": 6638,
+    "sha256": "e415f92ee290b8adad74e378255432e384114d67abe16082505af06a10b65f5d"
+  },
+  "実行環境": {
+    "保存時計UTC": "2026-11-14T15:02:25.564031+00:00",
+    "Python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "OS": "Windows-11-10.0.26300-SP0",
+    "NumPy": "2.5.4",
+    "ijson": "3.6.0",
+    "tzdata": "2026.6",
+    "Go": "go version go1.24.2 windows/amd64"
+  },
+  "正本": [
+    {
+      "archive": {
+        "path": "study/00164_IFD最初到達の確定時計で入口と反転を比較する/再現資料/Source.zip",
+        "bytes": 56528,
+        "sha256": "eadcb42f909ec18d0ad77d7a4d4617210f603394053d85fe59c7977e33eefc2a"
+      },
+      "members": [
+        {
+          "path": "work/163_164保存QA/先行確認.py",
+          "bytes": 6221,
+          "sha256": "5926e5178c2de3f5a12bd822ab0d55a4a3cac77b7deb60dbb4868fdb72080319"
+        },
+        {
+          "path": "work/163_164保存QA/正式保存を確認する.py",
+          "bytes": 12417,
+          "sha256": "dce901c18f5b0c39c5a037a4cc54851c1077414470d7f114a657b886bfc4cb15"
+        },
+        {
+          "path": "work/163_164正式保存/共有入力を保存する.py",
+          "bytes": 4830,
+          "sha256": "2315598cd5bd3274eefdbcac3e75805a381a43b1675b62e14355626584b090b3"
+        },
+        {
+          "path": "work/163_164正式保存/正式保存する.py",
+          "bytes": 39913,
+          "sha256": "e39c50db1fe3fd50ea9b8ab2661b0d0622d840326754be831e5e787a07d22718"
+        },
+        {
+          "path": "work/163_164正式保存/正式保存を停止する.py",
+          "bytes": 2393,
+          "sha256": "14311b811466a3081acb0206d87e3d8f7b135b248657523c940eab5b20d861c0"
+        },
+        {
+          "path": "work/163_164正式保存/正式入力から再現する.py",
+          "bytes": 7018,
+          "sha256": "fbc4d930aa6c442a0ecf703272553e0081cfe78778fb7e53abc278fc8472edb4"
+        },
+        {
+          "path": "work/164先着確定と反転比較/仕様を固定する.py",
+          "bytes": 3589,
+          "sha256": "e1a1833636eb46d066480eab78cbf2a7e2075e6b4ed93de3e54e3375cf82cd2c"
+        },
+        {
+          "path": "work/164先着確定と反転比較/比較する.py",
+          "bytes": 8504,
+          "sha256": "3e378b6c2407046c8b205997df17eea89bdf84e13ef6fddb8b1a2d8877bec786"
+        },
+        {
+          "path": "work/164先着確定時計の確認/先着確定の純計算.py",
+          "bytes": 1652,
+          "sha256": "e9a5a36359acfc5be8080ba28d8879bf7ab1497bcf9ba4698b26f38a23191fa1"
+        },
+        {
+          "path": "work/164先着確定時計の確認/契約の見解.md",
+          "bytes": 4521,
+          "sha256": "17ea0b4e127e7c677e13b9d86dd72f4be91f99fcf6fb22c3a84a0521fe4cc9f1"
+        },
+        {
+          "path": "work/164先着確定時計の確認/観測先着の語義確認.json",
+          "bytes": 1083,
+          "sha256": "7f48dbdcb94fd7e38ea129cb06fd6c1d2dfecb68f2fb53f5a751fbd61dd1c5ea"
+        },
+        {
+          "path": "work/164先着確定時計の確認/語義を確認する.py",
+          "bytes": 4308,
+          "sha256": "83a6566d30c48811ffb49fa179cfcac6727de95b455b5767d84e587cb3193f1a"
+        },
+        {
+          "path": "work/164独立確認/README.md",
+          "bytes": 3833,
+          "sha256": "ce6cb7234d87b07278effdb7b819fb93d40e859302de1b995911a2e998c033d4"
+        },
+        {
+          "path": "work/164独立確認/分類と報告候補を検算する.py",
+          "bytes": 19560,
+          "sha256": "4f3999c24830849782c02e5efd9767eca5bd7d319e0ce5b9a375154c00109696"
+        },
+        {
+          "path": "work/164独立確認/独立確認の停止.json",
+          "bytes": 761,
+          "sha256": "2d23e9c2adc85045ca091ec211153ad898270a2fd277316757a408d0380e8639"
+        },
+        {
+          "path": "work/164独立確認/自然の独立確認.json",
+          "bytes": 4760,
+          "sha256": "bf0f20501bd5eb2987da8182afee588690e33031d1d4498e4e0d3b8381206983"
+        }
+      ]
+    },
+    {
+      "archive": {
+        "path": "study/00164_IFD最初到達の確定時計で入口と反転を比較する/再現資料/分類と比較正本.zip",
+        "bytes": 156042864,
+        "sha256": "82aac1feb3de8bbf63e00bf5b70b864f1b8011ddf1d20a880282f78faa045c19"
+      },
+      "members": [
+        {
+          "path": "work/164先着確定と反転比較/比較/分類差分と金融不変.json",
+          "bytes": 565,
+          "sha256": "02e6764caa19f2a2c1f59d8f813140cb0363bba488e5bc0d8ce4bc3cbbc376be"
+        },
+        {
+          "path": "work/164先着確定と反転比較/比較/完了.json",
+          "bytes": 1323,
+          "sha256": "f0f0a92bfbd9bf63e69ce95036bbeb0710cdad17bbc9c81739000d3acd154b69"
+        },
+        {
+          "path": "work/164先着確定と反転比較/比較/最初到達の統計配列.npz",
+          "bytes": 155986103,
+          "sha256": "64b8f1e621390dc71aa765cb85b66f493c923b960d5c2c33078e952279dcb0a9"
+        },
+        {
+          "path": "work/164先着確定と反転比較/比較/有望な発見候補.json",
+          "bytes": 313228,
+          "sha256": "13c3dbd3066c48767c54feec114d7f92ff80d5100aa8b3c535e41023f5ec6ecb"
+        },
+        {
+          "path": "work/164先着確定と反転比較/比較/統計軸.json",
+          "bytes": 13848,
+          "sha256": "d46d3fc600e7266130c3f8ed986fd7bac93bf2f2cd4a2edfdafc3ed0cbfc4d0a"
+        }
+      ]
+    }
+  ],
+  "共用入力と親参照": [
+    {
+      "path": "inputs/00163_任意幅の共用価格索引/保存索引.json",
+      "bytes": 49671,
+      "sha256": "19b81bf6b135c65b6355e2de3d1c24008a4c7c70616f7d45e5b87ccb6a23768b"
+    },
+    {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "bytes": 920027,
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a"
+    },
+    {
+      "path": "inputs/00148_全1分入口母集団/100特徴の列定義.json",
+      "bytes": 48448,
+      "sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/Source.zip",
+      "bytes": 121987,
+      "sha256": "e417ceb2701c01465edb9850c8e2976b9346352c288780ec7bb2ccbdaa048ab7"
+    },
+    {
+      "path": "study/00162_複合入口を広く探索し値幅ごとに過去選択する/再現資料/出生と探索.zip",
+      "bytes": 24934994,
+      "sha256": "bee0d12c8e37f20a46f2bf8775d519548c91f1153af117a117d9ed1f66b0f776"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/Source.zip",
+      "bytes": 190361,
+      "sha256": "222b9663bd50b19e0b1bb72bd2af72a6dd9e1012a68d502c73f9d1181e75bde0"
+    },
+    {
+      "path": "study/00163_履歴を含む複合入口を任意幅と場末まで検証する/再現資料/出生と統計正本.zip",
+      "bytes": 96942446,
+      "sha256": "13749588187fe0c4cb617dec8a69c7954e89c33099170f9c4ae56d490108242a"
+    }
+  ],
+  "共有入力の由来": "163の1回のRaw走査・任意幅Go観測・純数値化。inputs/00163へ全152ファイルを元byte同体で一度保存。work原本は進行実験の参照用で恒久正本ではない。",
+  "非重複": "本ZIPに共有Raw/価格索引/Go観測/数値NPZ/161cacheを含めない。164は163出生も含めない。",
+  "保存時検査": "全ZIP CRC・全member bytes/SHA・元Source/数値前後SHA、条件不変。追加ラッパーはcompile/helpだけ。",
+  "未採用の全期探索": true,
+  "旧試行非改変": true
+}
