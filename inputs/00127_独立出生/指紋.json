@@ -1,0 +1,41 @@
+{
+  "trial": 127,
+  "inputs": [
+    {
+      "source": "work/127独立出生の評価/入力.json",
+      "target": "inputs/00127_独立出生/入力.json.gz",
+      "bytes": 462695,
+      "sha256": "35da37a1205d9a91323a8cc06b1cebbcbdfcd004a7cd6d750f804f9f673b9e4e",
+      "decoded_bytes": 4461240,
+      "decoded_sha256": "b8f382b90f345c4e2c7085ad743c95bbfd887e0cb36ec1f704f848b148bc4e85"
+    },
+    {
+      "source": "work/126独立出生の事前案/出生イベント_v4.json",
+      "target": "inputs/00127_独立出生/出生イベント_v4.json.gz",
+      "bytes": 438689,
+      "sha256": "e20e346af320043d3fa199980252d8aa0101bbe117f847ee1305ed11a1297a25",
+      "decoded_bytes": 4019856,
+      "decoded_sha256": "056ff7ef8f14d2660b7f3c7a442388695a83bcc880badee58fe4667aa1ca5c83"
+    },
+    {
+      "source": "work/126独立出生の事前案/v3/出生カウント_v3.json",
+      "target": "inputs/00127_独立出生/v3出生対照カウント.json.gz",
+      "bytes": 134492,
+      "sha256": "def7319b83ef6ee1fa56edd0190e4d03b9554ba2403bd8a87be10c6e9ee66d95",
+      "decoded_bytes": 1033856,
+      "decoded_sha256": "8447f5cd18069dc0edcbf4b0fc34da3e2d68dc045c4867c18c5b70ecf9250192"
+    }
+  ],
+  "raw_duplicated": false,
+  "publications_177MB_duplicated": false,
+  "v3_note": "v4 schema転記の旧R/S同体とcoverage比較に必要な公表出生対照。金融ラベルではない。",
+  "shared_publications": {
+    "bytes": 177709174,
+    "sha256": "6a6cd13dfd00c9669b522e3c3c8e06a4066766f6075786f64d8c0feeb45513ec",
+    "recipe": "study/00122_E0固定条件を全セッションで検証する/再現資料/再現手順.md"
+  },
+  "shared_scene_metadata": {
+    "gzip": "inputs/00124_同入口正逆の共用入力/入力.json.gz",
+    "decoded_sha256": "b2368b1f42c16e8c96a3acd098c58a902807a3b6a5023d6d4b1e75261f3ee51b"
+  }
+}

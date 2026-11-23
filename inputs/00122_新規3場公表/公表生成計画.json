@@ -1,0 +1,2404 @@
+{
+  "version": 122,
+  "anchor": "2026-09-21_Day",
+  "stage_a_sha256": "dc338f810f3426cb0bfa2dce455a4560da470f54915c1335b4b1656618b2d6a3",
+  "legacy_input": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\入力.json",
+    "sha256": "574771f654937036b48c78eceadb46a4c5ff3c10265f60b0ec7879efb0d862c3",
+    "bytes": 77606890,
+    "mod_time_ns": 1794309701998821700
+  },
+  "legacy_manifest": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json",
+    "sha256": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8",
+    "bytes": 107871,
+    "mod_time_ns": 1794185971570078600
+  },
+  "raw_equivalence": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\122全場入力\\旧70原板同体.json",
+    "sha256": "72d55d64352911ea1e796e64f8ce8b3c819d6eb490d8273fd57a80bd0eb20418",
+    "bytes": 107703,
+    "mod_time_ns": 1794320467336245800
+  },
+  "history": [
+    {
+      "session": "2026-09-21_Day",
+      "contract": "161120018",
+      "start": 1789947900,
+      "end": 1789973100,
+      "force_close": 1789972500,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz",
+        "sha256": "e2cdf1c1d40339ca393be4c06ac49e709b99e700b303aaf23a29c171e4c6806b",
+        "bytes": 1140467,
+        "mod_time_ns": 1792680356896022600
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv",
+        "sha256": "c0d4c82e7dd012177b6d238ac77fc7cc6425bfb168684737fdb03643b5c15abc",
+        "bytes": 5275,
+        "mod_time_ns": 1789973100667348300
+      },
+      "expected_accepted": 56420,
+      "expected_quality": {
+        "lines": 56436,
+        "clock_missing": 0,
+        "clock_invalid": 16,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 130,
+        "source_parser_accepted": 56420,
+        "cutoff_excluded": 0,
+        "source_delivered": 56420
+      }
+    },
+    {
+      "session": "2026-09-21_Night",
+      "contract": "161120018",
+      "start": 1789977600,
+      "end": 1790024400,
+      "force_close": 1790023800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz",
+        "sha256": "64f246378f4b0581bb16092c4977d3c4b9c83a5a755fd11d09bdc68765189ba1",
+        "bytes": 1492173,
+        "mod_time_ns": 1792680356460723500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_5min.csv",
+        "sha256": "be31f16cbf2aefd1a6a1d78eb0b0cf54c37a9efd3e72d8ec1272f34e6ae71310",
+        "bytes": 9595,
+        "mod_time_ns": 1790024400605122200
+      },
+      "expected_accepted": 81340,
+      "expected_quality": {
+        "lines": 81631,
+        "clock_missing": 0,
+        "clock_invalid": 286,
+        "outside_session": 5,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 80,
+        "source_parser_accepted": 81340,
+        "cutoff_excluded": 0,
+        "source_delivered": 81340
+      }
+    },
+    {
+      "session": "2026-09-22_Day",
+      "contract": "161120018",
+      "start": 1790034300,
+      "end": 1790059500,
+      "force_close": 1790058900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\book.jsonl.gz",
+        "sha256": "21c2c3d0dd4f265c3716ed3c4f1425f02de9a2a15a77f63bef5caac236c159b0",
+        "bytes": 1375825,
+        "mod_time_ns": 1792680356918531900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_5min.csv",
+        "sha256": "f5a7efc1a75264c91e8b88b35a7b16b4f7452613e5b4027b19c41a8e71578d9b",
+        "bytes": 5290,
+        "mod_time_ns": 1790059500155667000
+      },
+      "expected_accepted": 67001,
+      "expected_quality": {
+        "lines": 67575,
+        "clock_missing": 0,
+        "clock_invalid": 567,
+        "outside_session": 7,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 150,
+        "source_parser_accepted": 67001,
+        "cutoff_excluded": 0,
+        "source_delivered": 67001
+      }
+    },
+    {
+      "session": "2026-09-22_Night",
+      "contract": "161120018",
+      "start": 1790064000,
+      "end": 1790110800,
+      "force_close": 1790110200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\book.jsonl.gz",
+        "sha256": "0b6fb03707c144751430d2b5b3181734aead669151ed99e1278359ff93f55d9b",
+        "bytes": 2291273,
+        "mod_time_ns": 1792680352302103300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_5min.csv",
+        "sha256": "942c45e77704934ad28dd9fae28f3dbd79307b872ff26ab879d34c5692b95efb",
+        "bytes": 9606,
+        "mod_time_ns": 1790110801141377700
+      },
+      "expected_accepted": 120726,
+      "expected_quality": {
+        "lines": 121169,
+        "clock_missing": 0,
+        "clock_invalid": 436,
+        "outside_session": 7,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 77,
+        "source_parser_accepted": 120726,
+        "cutoff_excluded": 0,
+        "source_delivered": 120726
+      }
+    },
+    {
+      "session": "2026-09-23_Day",
+      "contract": "161120018",
+      "start": 1790120700,
+      "end": 1790145900,
+      "force_close": 1790145300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\book.jsonl.gz",
+        "sha256": "93039d33c5532389690a6d69a3bbaa55208ac77b58f3517bca36710c95908540",
+        "bytes": 1056573,
+        "mod_time_ns": 1792680356963533000
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_5min.csv",
+        "sha256": "712dad9ea7a739ababc2e12318774c7fbc9a5901ea490dc966846c0977c251dd",
+        "bytes": 5273,
+        "mod_time_ns": 1790145900582687900
+      },
+      "expected_accepted": 54074,
+      "expected_quality": {
+        "lines": 54501,
+        "clock_missing": 0,
+        "clock_invalid": 421,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 187,
+        "source_parser_accepted": 54074,
+        "cutoff_excluded": 0,
+        "source_delivered": 54074
+      }
+    },
+    {
+      "session": "2026-09-23_Night",
+      "contract": "161120018",
+      "start": 1790150400,
+      "end": 1790197200,
+      "force_close": 1790196600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\book.jsonl.gz",
+        "sha256": "ec0a7404b7a1a909a061a3029c0d1248a305213b024d8679f117bf4209fa52e9",
+        "bytes": 2188707,
+        "mod_time_ns": 1792680352403615900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_5min.csv",
+        "sha256": "a57e31e58b8cb6fe08ba81b1d5c00903ef0df98816e38cc89613c9ae119851c1",
+        "bytes": 9667,
+        "mod_time_ns": 1790197200585495300
+      },
+      "expected_accepted": 120473,
+      "expected_quality": {
+        "lines": 120740,
+        "clock_missing": 0,
+        "clock_invalid": 261,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 81,
+        "source_parser_accepted": 120473,
+        "cutoff_excluded": 0,
+        "source_delivered": 120473
+      }
+    },
+    {
+      "session": "2026-09-24_Day",
+      "contract": "161120018",
+      "start": 1790207100,
+      "end": 1790232300,
+      "force_close": 1790231700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\book.jsonl.gz",
+        "sha256": "b189059ecded0f0f729beacb36979eba5f2ba4669d02323dade6b9ec34ed01c9",
+        "bytes": 2924027,
+        "mod_time_ns": 1792680350707998300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_5min.csv",
+        "sha256": "538f31f8ab8629e9bc2b8ebd5b4b9b83bb6258178faad1f6ced0333e566767fe",
+        "bytes": 5346,
+        "mod_time_ns": 1790232300514637700
+      },
+      "expected_accepted": 123742,
+      "expected_quality": {
+        "lines": 124473,
+        "clock_missing": 0,
+        "clock_invalid": 731,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 309,
+        "source_parser_accepted": 123742,
+        "cutoff_excluded": 0,
+        "source_delivered": 123742
+      }
+    },
+    {
+      "session": "2026-09-24_Night",
+      "contract": "161120018",
+      "start": 1790236800,
+      "end": 1790283600,
+      "force_close": 1790283000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\book.jsonl.gz",
+        "sha256": "be73ae5ab864d50794861cf974d534af505c93adf38e043ecd600e54fd383436",
+        "bytes": 3452937,
+        "mod_time_ns": 1792680337237432000
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_5min.csv",
+        "sha256": "cf1782926468446566374a0ba2bf077466590ad7f3e85268317e35402a789006",
+        "bytes": 9843,
+        "mod_time_ns": 1790283600776957400
+      },
+      "expected_accepted": 176704,
+      "expected_quality": {
+        "lines": 177254,
+        "clock_missing": 0,
+        "clock_invalid": 539,
+        "outside_session": 11,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 135,
+        "source_parser_accepted": 176704,
+        "cutoff_excluded": 0,
+        "source_delivered": 176704
+      }
+    },
+    {
+      "session": "2026-09-25_Day",
+      "contract": "161120018",
+      "start": 1790293500,
+      "end": 1790318700,
+      "force_close": 1790318100,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\book.jsonl.gz",
+        "sha256": "3c6b98fb1df5bcb6e41ab707d3e20ffdd0c47f283219cb5ea97c828165b1cd1a",
+        "bytes": 2473301,
+        "mod_time_ns": 1792680355760710300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_5min.csv",
+        "sha256": "e059ac3589c79c7a13537d4b38e5060496907b7bb2b4e711f0da3c44471419b9",
+        "bytes": 5404,
+        "mod_time_ns": 1790318700438136500
+      },
+      "expected_accepted": 107081,
+      "expected_quality": {
+        "lines": 107576,
+        "clock_missing": 0,
+        "clock_invalid": 490,
+        "outside_session": 5,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 304,
+        "source_parser_accepted": 107081,
+        "cutoff_excluded": 0,
+        "source_delivered": 107081
+      }
+    },
+    {
+      "session": "2026-09-25_Night",
+      "contract": "161120018",
+      "start": 1790323200,
+      "end": 1790370000,
+      "force_close": 1790369400,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\book.jsonl.gz",
+        "sha256": "f26c7b467670eb86e728bfb7d6b10dbe3d2099bac855533f9cc1cabd6fde1e78",
+        "bytes": 2786275,
+        "mod_time_ns": 1792680344902380800
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_5min.csv",
+        "sha256": "8628a4342a0d049626cdbf405581ad1b1454f41a476fbea9dd65ad65dcb5a53d",
+        "bytes": 9626,
+        "mod_time_ns": 1790370001148265100
+      },
+      "expected_accepted": 145728,
+      "expected_quality": {
+        "lines": 146312,
+        "clock_missing": 0,
+        "clock_invalid": 577,
+        "outside_session": 7,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 180,
+        "source_parser_accepted": 145728,
+        "cutoff_excluded": 0,
+        "source_delivered": 145728
+      }
+    },
+    {
+      "session": "2026-09-28_Day",
+      "contract": "161120018",
+      "start": 1790552700,
+      "end": 1790577900,
+      "force_close": 1790577300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\book.jsonl.gz",
+        "sha256": "8ea0675485002133552e0cc5cb33703e2c74b21b058e574f2a8f1d10a7d5b42b",
+        "bytes": 3168898,
+        "mod_time_ns": 1792680347331359300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_5min.csv",
+        "sha256": "f8473bdcc0d3072aee4367cc72fad0e5b937db6006599ab4c703c6790499664e",
+        "bytes": 5355,
+        "mod_time_ns": 1790577900278515900
+      },
+      "expected_accepted": 135584,
+      "expected_quality": {
+        "lines": 136051,
+        "clock_missing": 0,
+        "clock_invalid": 467,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 362,
+        "source_parser_accepted": 135584,
+        "cutoff_excluded": 0,
+        "source_delivered": 135584
+      }
+    },
+    {
+      "session": "2026-09-28_Night",
+      "contract": "161120018",
+      "start": 1790582400,
+      "end": 1790629200,
+      "force_close": 1790628600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\book.jsonl.gz",
+        "sha256": "752b2cb52fe90e63fbfea7384de910be41fd48560b382a132f4bde85f252f0ee",
+        "bytes": 3287836,
+        "mod_time_ns": 1792680339676029400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_5min.csv",
+        "sha256": "a5532df79661bafaf4f27421dedc4997bdc936488491a11628d3936faad16a57",
+        "bytes": 9825,
+        "mod_time_ns": 1790629201037998300
+      },
+      "expected_accepted": 171733,
+      "expected_quality": {
+        "lines": 172290,
+        "clock_missing": 0,
+        "clock_invalid": 545,
+        "outside_session": 12,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 138,
+        "source_parser_accepted": 171733,
+        "cutoff_excluded": 0,
+        "source_delivered": 171733
+      }
+    },
+    {
+      "session": "2026-09-29_Day",
+      "contract": "161120018",
+      "start": 1790639100,
+      "end": 1790664300,
+      "force_close": 1790663700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\book.jsonl.gz",
+        "sha256": "afd7286b772162d85282a95875e66d56e4da7b6652ee96eedbcac7566908908b",
+        "bytes": 3489122,
+        "mod_time_ns": 1792680345245923100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_5min.csv",
+        "sha256": "ea2c72f90f7da510d9353e2fb089d1c39336aaa0db6a9af1e404572a6f895b09",
+        "bytes": 5363,
+        "mod_time_ns": 1790664300444124500
+      },
+      "expected_accepted": 144397,
+      "expected_quality": {
+        "lines": 144861,
+        "clock_missing": 0,
+        "clock_invalid": 458,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 345,
+        "source_parser_accepted": 144397,
+        "cutoff_excluded": 0,
+        "source_delivered": 144397
+      }
+    },
+    {
+      "session": "2026-09-29_Night",
+      "contract": "161120018",
+      "start": 1790668800,
+      "end": 1790715600,
+      "force_close": 1790715000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\book.jsonl.gz",
+        "sha256": "f18e2acfb9964395a48cc0312f0eafb4ca87504b7e2cd00735efd0c35fcce103",
+        "bytes": 3167571,
+        "mod_time_ns": 1792680340975671200
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_5min.csv",
+        "sha256": "d5857f654f9163c8f7f8cb50b0ac5f7bb88df9bb2ae223ae487bdfd5c794215f",
+        "bytes": 9830,
+        "mod_time_ns": 1790715600790998400
+      },
+      "expected_accepted": 162373,
+      "expected_quality": {
+        "lines": 163038,
+        "clock_missing": 0,
+        "clock_invalid": 653,
+        "outside_session": 12,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 145,
+        "source_parser_accepted": 162373,
+        "cutoff_excluded": 0,
+        "source_delivered": 162373
+      }
+    },
+    {
+      "session": "2026-09-30_Day",
+      "contract": "161120018",
+      "start": 1790725500,
+      "end": 1790750700,
+      "force_close": 1790750100,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\book.jsonl.gz",
+        "sha256": "1fac26c92bed327dca9f490ff74accca66724cf379617f70ced81bf961f06c3b",
+        "bytes": 3054117,
+        "mod_time_ns": 1792680349408458300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_5min.csv",
+        "sha256": "c0a78bf94903d838dab9ff6d069e511d6f129e39f888f916e10d0d48a276216d",
+        "bytes": 5355,
+        "mod_time_ns": 1790750700359434500
+      },
+      "expected_accepted": 131796,
+      "expected_quality": {
+        "lines": 132540,
+        "clock_missing": 0,
+        "clock_invalid": 738,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 346,
+        "source_parser_accepted": 131796,
+        "cutoff_excluded": 0,
+        "source_delivered": 131796
+      }
+    },
+    {
+      "session": "2026-09-30_Night",
+      "contract": "161120018",
+      "start": 1790755200,
+      "end": 1790802000,
+      "force_close": 1790801400,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\book.jsonl.gz",
+        "sha256": "d2ecd96a7fc36d7c6e1ee221c29e5a6a9bd27ef28b5148bd72b4507f62910d02",
+        "bytes": 3402667,
+        "mod_time_ns": 1792680338540648300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_5min.csv",
+        "sha256": "f7b6fcb3c53c258abff29eec3b4d46cceac233bab533c311a6b776bdf6b107c5",
+        "bytes": 9786,
+        "mod_time_ns": 1790802001277058600
+      },
+      "expected_accepted": 172444,
+      "expected_quality": {
+        "lines": 172942,
+        "clock_missing": 0,
+        "clock_invalid": 485,
+        "outside_session": 13,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 139,
+        "source_parser_accepted": 172444,
+        "cutoff_excluded": 0,
+        "source_delivered": 172444
+      }
+    },
+    {
+      "session": "2026-10-01_Day",
+      "contract": "161120018",
+      "start": 1790811900,
+      "end": 1790837100,
+      "force_close": 1790836500,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\book.jsonl.gz",
+        "sha256": "7ba2459f9d87d6d3334d0ab24f8a20ed4716b09b3c0a86e1e78b4a27859edd70",
+        "bytes": 3199608,
+        "mod_time_ns": 1792680346128675400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_5min.csv",
+        "sha256": "e03b1cee05b9293eb08beda2101003e5e9f83154bb9bef2a352e9c3b4ce4ae5a",
+        "bytes": 5428,
+        "mod_time_ns": 1790837100338403500
+      },
+      "expected_accepted": 138588,
+      "expected_quality": {
+        "lines": 139178,
+        "clock_missing": 0,
+        "clock_invalid": 584,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 433,
+        "source_parser_accepted": 138588,
+        "cutoff_excluded": 0,
+        "source_delivered": 138588
+      }
+    },
+    {
+      "session": "2026-10-01_Night",
+      "contract": "161120018",
+      "start": 1790841600,
+      "end": 1790888400,
+      "force_close": 1790887800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\book.jsonl.gz",
+        "sha256": "c8b8548f19a04f517d122e9b33011c2719b22d92bfe46c45d8c010f954dbfa03",
+        "bytes": 4207442,
+        "mod_time_ns": 1792680332756760900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_5min.csv",
+        "sha256": "3ad75311a455086cef54ab2c8208cf9c6e0a728c8e42f17cf64df888c55c43f0",
+        "bytes": 9859,
+        "mod_time_ns": 1790888400622960100
+      },
+      "expected_accepted": 208831,
+      "expected_quality": {
+        "lines": 210038,
+        "clock_missing": 0,
+        "clock_invalid": 1197,
+        "outside_session": 10,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 161,
+        "source_parser_accepted": 208831,
+        "cutoff_excluded": 0,
+        "source_delivered": 208831
+      }
+    },
+    {
+      "session": "2026-10-02_Day",
+      "contract": "161120018",
+      "start": 1790898300,
+      "end": 1790923500,
+      "force_close": 1790922900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\book.jsonl.gz",
+        "sha256": "dec7683657e4602974b46f9e00f2a02bae5bec4ead6344d3f3fbdf91f753a1be",
+        "bytes": 3168818,
+        "mod_time_ns": 1792680347691301500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_5min.csv",
+        "sha256": "0bcb1c809a5ec0dd84be76e49e3221eef7af4bd733965fd501e08705e7287185",
+        "bytes": 5409,
+        "mod_time_ns": 1790923500412987700
+      },
+      "expected_accepted": 134278,
+      "expected_quality": {
+        "lines": 135250,
+        "clock_missing": 0,
+        "clock_invalid": 966,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 348,
+        "source_parser_accepted": 134278,
+        "cutoff_excluded": 0,
+        "source_delivered": 134278
+      }
+    },
+    {
+      "session": "2026-10-02_Night",
+      "contract": "161120018",
+      "start": 1790928000,
+      "end": 1790974800,
+      "force_close": 1790974200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\book.jsonl.gz",
+        "sha256": "d38974b08cc33a86fc3413e0b5392b52a0a4a1f051b5314133507292d01093ee",
+        "bytes": 3500434,
+        "mod_time_ns": 1792680338361819400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_5min.csv",
+        "sha256": "063412dcb0050ee69cbe2d997a8f9851e09552f4e61eba5b32376e016ffb69ad",
+        "bytes": 9860,
+        "mod_time_ns": 1790974801160840700
+      },
+      "expected_accepted": 176330,
+      "expected_quality": {
+        "lines": 177122,
+        "clock_missing": 0,
+        "clock_invalid": 782,
+        "outside_session": 10,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 214,
+        "source_parser_accepted": 176330,
+        "cutoff_excluded": 0,
+        "source_delivered": 176330
+      }
+    },
+    {
+      "session": "2026-10-05_Day",
+      "contract": "161120018",
+      "start": 1791157500,
+      "end": 1791182700,
+      "force_close": 1791182100,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\book.jsonl.gz",
+        "sha256": "33e7ad1f259df0a8c9ffc39eb59445647f8d222b4eb2ae6c8d70156f8faa5f00",
+        "bytes": 2782464,
+        "mod_time_ns": 1792680351599215300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_5min.csv",
+        "sha256": "1df5797ee77d8c3ca91569a2987c9e7ca25edfb7cfeca4c24f904fef18d503c3",
+        "bytes": 5423,
+        "mod_time_ns": 1791182700454979600
+      },
+      "expected_accepted": 123163,
+      "expected_quality": {
+        "lines": 123221,
+        "clock_missing": 0,
+        "clock_invalid": 58,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 317,
+        "source_parser_accepted": 123163,
+        "cutoff_excluded": 0,
+        "source_delivered": 123163
+      }
+    },
+    {
+      "session": "2026-10-05_Night",
+      "contract": "161120018",
+      "start": 1791187200,
+      "end": 1791234000,
+      "force_close": 1791233400,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\book.jsonl.gz",
+        "sha256": "04d277e6a66f9d45dcdc5ebbe34a0f1cdaf50548a7db865681cca2cd576aade1",
+        "bytes": 2482999,
+        "mod_time_ns": 1792680348341619400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_5min.csv",
+        "sha256": "16b76c0315e8ba03b16b3be89f5c3e0386c19e6ef0462b84a755c3f642ce1718",
+        "bytes": 9836,
+        "mod_time_ns": 1791234001046093100
+      },
+      "expected_accepted": 134689,
+      "expected_quality": {
+        "lines": 135284,
+        "clock_missing": 0,
+        "clock_invalid": 583,
+        "outside_session": 12,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 177,
+        "source_parser_accepted": 134689,
+        "cutoff_excluded": 0,
+        "source_delivered": 134689
+      }
+    },
+    {
+      "session": "2026-10-06_Day",
+      "contract": "161120018",
+      "start": 1791243900,
+      "end": 1791269100,
+      "force_close": 1791268500,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\book.jsonl.gz",
+        "sha256": "e95f7a3dba2a169a0c119cf5173a5cf14a189ddb4cbdc7f23348b11c001d8c72",
+        "bytes": 2581394,
+        "mod_time_ns": 1792680353112083600
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_5min.csv",
+        "sha256": "9defca2620d96e569964ce01d835473d5726bb442e1ef24e347b3f9f24a71337",
+        "bytes": 5351,
+        "mod_time_ns": 1791269100242690600
+      },
+      "expected_accepted": 118866,
+      "expected_quality": {
+        "lines": 119462,
+        "clock_missing": 0,
+        "clock_invalid": 590,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 370,
+        "source_parser_accepted": 118866,
+        "cutoff_excluded": 0,
+        "source_delivered": 118866
+      }
+    },
+    {
+      "session": "2026-10-06_Night",
+      "contract": "161120018",
+      "start": 1791273600,
+      "end": 1791320400,
+      "force_close": 1791319800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\book.jsonl.gz",
+        "sha256": "eaebe7764a0a76e10922858a98f3f059277f2d227497a1d0bb3ec87368ba3691",
+        "bytes": 2067644,
+        "mod_time_ns": 1792680353933115500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_5min.csv",
+        "sha256": "69344daf3ef429756e48f4f33dd240b47161f8581f093bfa9ac79a3a056ca861",
+        "bytes": 9822,
+        "mod_time_ns": 1791320400525195300
+      },
+      "expected_accepted": 113877,
+      "expected_quality": {
+        "lines": 114383,
+        "clock_missing": 0,
+        "clock_invalid": 495,
+        "outside_session": 11,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 155,
+        "source_parser_accepted": 113877,
+        "cutoff_excluded": 0,
+        "source_delivered": 113877
+      }
+    },
+    {
+      "session": "2026-10-07_Day",
+      "contract": "161120018",
+      "start": 1791330300,
+      "end": 1791355500,
+      "force_close": 1791354900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\book.jsonl.gz",
+        "sha256": "c2b94e4da933dd6f12d7a0f1d341ca6adc882d0aad4abc7ac9616195f34a1d62",
+        "bytes": 2593137,
+        "mod_time_ns": 1792680353263595100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_5min.csv",
+        "sha256": "0d34d5e4f90b93e271c58eff747462a86e6c9c5ad17d1eb4394f692e8f7dba62",
+        "bytes": 5345,
+        "mod_time_ns": 1791355500344297100
+      },
+      "expected_accepted": 117383,
+      "expected_quality": {
+        "lines": 117966,
+        "clock_missing": 0,
+        "clock_invalid": 577,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 406,
+        "source_parser_accepted": 117383,
+        "cutoff_excluded": 0,
+        "source_delivered": 117383
+      }
+    },
+    {
+      "session": "2026-10-07_Night",
+      "contract": "161120018",
+      "start": 1791360000,
+      "end": 1791406800,
+      "force_close": 1791406200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\book.jsonl.gz",
+        "sha256": "f1ded6f9944921cba495ba4326bbed33ba5aa16633b3815c8cf8df735a3ed833",
+        "bytes": 2805377,
+        "mod_time_ns": 1792680344918381500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_5min.csv",
+        "sha256": "b53b66f330e6bf65ea738d6ff4811831c97a44cb0f0036124e87931dd860c0ef",
+        "bytes": 9844,
+        "mod_time_ns": 1791406800468451300
+      },
+      "expected_accepted": 145542,
+      "expected_quality": {
+        "lines": 145561,
+        "clock_missing": 0,
+        "clock_invalid": 19,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 167,
+        "source_parser_accepted": 145542,
+        "cutoff_excluded": 0,
+        "source_delivered": 145542
+      }
+    },
+    {
+      "session": "2026-10-08_Day",
+      "contract": "161120018",
+      "start": 1791416700,
+      "end": 1791441900,
+      "force_close": 1791441300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\book.jsonl.gz",
+        "sha256": "a595d76103efd9737c03593b7a1b2e218379c727d3b121ca51ce6f20892a8e4b",
+        "bytes": 3150300,
+        "mod_time_ns": 1792680346159675500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_5min.csv",
+        "sha256": "2e338461c06c15a6ac4b1f18bb64514ebb51c940b96fab1439e7c582f814cd2f",
+        "bytes": 5353,
+        "mod_time_ns": 1791441900426474100
+      },
+      "expected_accepted": 138344,
+      "expected_quality": {
+        "lines": 138392,
+        "clock_missing": 0,
+        "clock_invalid": 48,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 350,
+        "source_parser_accepted": 138344,
+        "cutoff_excluded": 0,
+        "source_delivered": 138344
+      }
+    },
+    {
+      "session": "2026-10-08_Night",
+      "contract": "161120018",
+      "start": 1791446400,
+      "end": 1791493200,
+      "force_close": 1791492600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\book.jsonl.gz",
+        "sha256": "9a338531efea2297dc4f8e70698088f9fc973e0f7e42202c099c4e67deb90144",
+        "bytes": 3787663,
+        "mod_time_ns": 1792680335735812000
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_5min.csv",
+        "sha256": "38927235538acf5f2b2c7e37e0f1bd3c2d33b701559307a225c1fd7d1ed11e8e",
+        "bytes": 9856,
+        "mod_time_ns": 1791493201141572100
+      },
+      "expected_accepted": 185722,
+      "expected_quality": {
+        "lines": 186410,
+        "clock_missing": 0,
+        "clock_invalid": 676,
+        "outside_session": 12,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 237,
+        "source_parser_accepted": 185722,
+        "cutoff_excluded": 0,
+        "source_delivered": 185722
+      }
+    },
+    {
+      "session": "2026-10-09_Day",
+      "contract": "161120018",
+      "start": 1791503100,
+      "end": 1791528300,
+      "force_close": 1791527700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\book.jsonl.gz",
+        "sha256": "f8d27b2a8fcbfd7adf3b210db7c00d0eae00b7ea3ff6bed291de08a7d6d78b3f",
+        "bytes": 2860824,
+        "mod_time_ns": 1792680351469691100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_5min.csv",
+        "sha256": "9456e15dc9e8c80ba5c44d22b83229c517a7c630a15bad0527c390005654df00",
+        "bytes": 5349,
+        "mod_time_ns": 1791528300349830100
+      },
+      "expected_accepted": 123207,
+      "expected_quality": {
+        "lines": 123303,
+        "clock_missing": 0,
+        "clock_invalid": 96,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 326,
+        "source_parser_accepted": 123207,
+        "cutoff_excluded": 0,
+        "source_delivered": 123207
+      }
+    },
+    {
+      "session": "2026-10-09_Night",
+      "contract": "161120018",
+      "start": 1791532800,
+      "end": 1791579600,
+      "force_close": 1791579000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\book.jsonl.gz",
+        "sha256": "92734e4c50bbab456d4e0206d993f27dde79ce888db724174a2d5067617d18d8",
+        "bytes": 2313175,
+        "mod_time_ns": 1792680352127570700
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_5min.csv",
+        "sha256": "035e7a293d71f0483753eb40e610bacfa08042f13725089b7f6ee8623b25ff22",
+        "bytes": 9795,
+        "mod_time_ns": 1791579601128652700
+      },
+      "expected_accepted": 120672,
+      "expected_quality": {
+        "lines": 121038,
+        "clock_missing": 0,
+        "clock_invalid": 364,
+        "outside_session": 2,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 183,
+        "source_parser_accepted": 120672,
+        "cutoff_excluded": 0,
+        "source_delivered": 120672
+      }
+    },
+    {
+      "session": "2026-10-12_Day",
+      "contract": "161120018",
+      "start": 1791762300,
+      "end": 1791787500,
+      "force_close": 1791786900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\book.jsonl.gz",
+        "sha256": "45044bb4f4efba1c4d99540631a48b5a81e2d3101f2964ba9ce726a6d1ab18eb",
+        "bytes": 1554831,
+        "mod_time_ns": 1792680356351088400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_5min.csv",
+        "sha256": "bfb4a24b50c2020f1828583a5c7673d355b8421b456462e4453b5e52b4a74c19",
+        "bytes": 5274,
+        "mod_time_ns": 1791787500376908100
+      },
+      "expected_accepted": 81730,
+      "expected_quality": {
+        "lines": 82683,
+        "clock_missing": 0,
+        "clock_invalid": 953,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 190,
+        "source_parser_accepted": 81730,
+        "cutoff_excluded": 0,
+        "source_delivered": 81730
+      }
+    },
+    {
+      "session": "2026-10-12_Night",
+      "contract": "161120018",
+      "start": 1791792000,
+      "end": 1791838800,
+      "force_close": 1791838200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\book.jsonl.gz",
+        "sha256": "34cafb3e83723e55edccbe4c97bdf96c438787b13e97ba3f8460cb92f8dddb4b",
+        "bytes": 2074340,
+        "mod_time_ns": 1792680354075637100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_5min.csv",
+        "sha256": "fcd86863855aae751f358518b5980f33d9bd736fd2275c8437bee5c25aef9f99",
+        "bytes": 9470,
+        "mod_time_ns": 1791838800636938900
+      },
+      "expected_accepted": 112664,
+      "expected_quality": {
+        "lines": 113073,
+        "clock_missing": 0,
+        "clock_invalid": 404,
+        "outside_session": 5,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 88,
+        "source_parser_accepted": 112664,
+        "cutoff_excluded": 0,
+        "source_delivered": 112664
+      }
+    },
+    {
+      "session": "2026-10-13_Day",
+      "contract": "161120018",
+      "start": 1791848700,
+      "end": 1791873900,
+      "force_close": 1791873300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\book.jsonl.gz",
+        "sha256": "e1c94782e39cb5d14153900a1dc5690db1a72f39469f7f8d54c9c61858adfe0c",
+        "bytes": 3679692,
+        "mod_time_ns": 1792680342209974200
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_5min.csv",
+        "sha256": "09fc6296bfc08ead9727e89613246aa964f917bfd153b53107e9305c0b661140",
+        "bytes": 5366,
+        "mod_time_ns": 1791873900379484800
+      },
+      "expected_accepted": 156552,
+      "expected_quality": {
+        "lines": 157285,
+        "clock_missing": 0,
+        "clock_invalid": 719,
+        "outside_session": 14,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 377,
+        "source_parser_accepted": 156552,
+        "cutoff_excluded": 0,
+        "source_delivered": 156552
+      }
+    },
+    {
+      "session": "2026-10-13_Night",
+      "contract": "161120018",
+      "start": 1791878400,
+      "end": 1791925200,
+      "force_close": 1791924600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\book.jsonl.gz",
+        "sha256": "07090361463606742f18d26c099a16290552c861002964e773ed90b3709ab666",
+        "bytes": 2504533,
+        "mod_time_ns": 1792680348615549400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_5min.csv",
+        "sha256": "0a8d1cf83ca59c02058deb4c31727ccef9d929a00992cce447b2c79a3454f4c2",
+        "bytes": 9686,
+        "mod_time_ns": 1791925201044883600
+      },
+      "expected_accepted": 133625,
+      "expected_quality": {
+        "lines": 134094,
+        "clock_missing": 0,
+        "clock_invalid": 445,
+        "outside_session": 24,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 145,
+        "source_parser_accepted": 133625,
+        "cutoff_excluded": 0,
+        "source_delivered": 133625
+      }
+    },
+    {
+      "session": "2026-10-14_Day",
+      "contract": "161120018",
+      "start": 1791935100,
+      "end": 1791960300,
+      "force_close": 1791959700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\book.jsonl.gz",
+        "sha256": "9306edec807c77a4f1670673e1edf637bce7616dc23b489325c6be4184bea5fb",
+        "bytes": 3175875,
+        "mod_time_ns": 1792680346514215700
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_5min.csv",
+        "sha256": "486ed62b26c7eb53087d6e5f190c6f78943f8069bd6cef3211cab65bdb4cfeae",
+        "bytes": 5351,
+        "mod_time_ns": 1791960300693227400
+      },
+      "expected_accepted": 137285,
+      "expected_quality": {
+        "lines": 138138,
+        "clock_missing": 0,
+        "clock_invalid": 847,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 317,
+        "source_parser_accepted": 137285,
+        "cutoff_excluded": 0,
+        "source_delivered": 137285
+      }
+    },
+    {
+      "session": "2026-10-14_Night",
+      "contract": "161120018",
+      "start": 1791964800,
+      "end": 1792011600,
+      "force_close": 1792011000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\book.jsonl.gz",
+        "sha256": "218d86d76c849f9837fd589ba763f3e3f2349789174765e8b3203a09df36fd8d",
+        "bytes": 3772868,
+        "mod_time_ns": 1792680335746810600
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_5min.csv",
+        "sha256": "3ce724d692ae52fb5aca692a4af640796ee7e1ac2001f1e98cbda9ad561fef47",
+        "bytes": 9851,
+        "mod_time_ns": 1792011600691896300
+      },
+      "expected_accepted": 187469,
+      "expected_quality": {
+        "lines": 187953,
+        "clock_missing": 0,
+        "clock_invalid": 476,
+        "outside_session": 8,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 180,
+        "source_parser_accepted": 187469,
+        "cutoff_excluded": 0,
+        "source_delivered": 187469
+      }
+    },
+    {
+      "session": "2026-10-15_Day",
+      "contract": "161120018",
+      "start": 1792021500,
+      "end": 1792046700,
+      "force_close": 1792046100,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\book.jsonl.gz",
+        "sha256": "3a54dd7529179d47205b31cfb90121ff7f9768882791d142bba03f251e92488b",
+        "bytes": 4672827,
+        "mod_time_ns": 1792680335899363600
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_5min.csv",
+        "sha256": "9c676cd821971a37f48af16802667b50adabcd1eb6c7e159a74a5e2d15668865",
+        "bytes": 5373,
+        "mod_time_ns": 1792046700594001200
+      },
+      "expected_accepted": 179870,
+      "expected_quality": {
+        "lines": 181067,
+        "clock_missing": 0,
+        "clock_invalid": 1191,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 491,
+        "source_parser_accepted": 179870,
+        "cutoff_excluded": 0,
+        "source_delivered": 179870
+      }
+    },
+    {
+      "session": "2026-10-15_Night",
+      "contract": "161120018",
+      "start": 1792051200,
+      "end": 1792098000,
+      "force_close": 1792097400,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\book.jsonl.gz",
+        "sha256": "b832c643fd7fa77b75fe340e4e2063c4d9f7452012f2669d097b1a0cec76d815",
+        "bytes": 4363930,
+        "mod_time_ns": 1792680332771761000
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_5min.csv",
+        "sha256": "3866ca15af4a969be7ec11c8ba530b6718274fc1ad1064891a5c430cecdeecac",
+        "bytes": 9862,
+        "mod_time_ns": 1792098001167259900
+      },
+      "expected_accepted": 207983,
+      "expected_quality": {
+        "lines": 208755,
+        "clock_missing": 0,
+        "clock_invalid": 763,
+        "outside_session": 9,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 272,
+        "source_parser_accepted": 207983,
+        "cutoff_excluded": 0,
+        "source_delivered": 207983
+      }
+    },
+    {
+      "session": "2026-10-16_Day",
+      "contract": "161120018",
+      "start": 1792107900,
+      "end": 1792133100,
+      "force_close": 1792132500,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\book.jsonl.gz",
+        "sha256": "8d5afa11d028fd288fd7851602d37a1ceeaa87ff3dca6efe3fabbea1699c9996",
+        "bytes": 3717580,
+        "mod_time_ns": 1792680343501595200
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_5min.csv",
+        "sha256": "76866d25eb80ecfe54e0c93da7fcd257b2e7c77b4d4115339b5da36dedc7542b",
+        "bytes": 5361,
+        "mod_time_ns": 1792133100390202700
+      },
+      "expected_accepted": 154016,
+      "expected_quality": {
+        "lines": 154957,
+        "clock_missing": 0,
+        "clock_invalid": 935,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 349,
+        "source_parser_accepted": 154016,
+        "cutoff_excluded": 0,
+        "source_delivered": 154016
+      }
+    },
+    {
+      "session": "2026-10-16_Night",
+      "contract": "161120018",
+      "start": 1792137600,
+      "end": 1792184400,
+      "force_close": 1792183800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\book.jsonl.gz",
+        "sha256": "cbfeedbd61203b32186aeac0ca0415f59b2f9f7c4dd4216d49c85466001799f3",
+        "bytes": 4390158,
+        "mod_time_ns": 1792680332775761400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_5min.csv",
+        "sha256": "4341be8d24af6091fe362775b1c89378c4b93d07612483c5aea40f43e56770c4",
+        "bytes": 9863,
+        "mod_time_ns": 1792184400863838700
+      },
+      "expected_accepted": 210589,
+      "expected_quality": {
+        "lines": 211313,
+        "clock_missing": 0,
+        "clock_invalid": 713,
+        "outside_session": 11,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 164,
+        "source_parser_accepted": 210589,
+        "cutoff_excluded": 0,
+        "source_delivered": 210589
+      }
+    },
+    {
+      "session": "2026-10-19_Day",
+      "contract": "161120018",
+      "start": 1792367100,
+      "end": 1792392300,
+      "force_close": 1792391700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\book.jsonl.gz",
+        "sha256": "2fdda2eeece2b43de1680f1e15b3d39fdb76b6ab101af3338f761d72d01ab6c4",
+        "bytes": 3882166,
+        "mod_time_ns": 1792680342199974000
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_5min.csv",
+        "sha256": "349894c72536c0e54c79b4c9b6c24d1d47e8e8020c1a649afbfcdbd758c6ca25",
+        "bytes": 5424,
+        "mod_time_ns": 1792392300544989800
+      },
+      "expected_accepted": 156749,
+      "expected_quality": {
+        "lines": 157542,
+        "clock_missing": 0,
+        "clock_invalid": 793,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 341,
+        "source_parser_accepted": 156749,
+        "cutoff_excluded": 0,
+        "source_delivered": 156749
+      }
+    },
+    {
+      "session": "2026-10-19_Night",
+      "contract": "161120018",
+      "start": 1792396800,
+      "end": 1792443600,
+      "force_close": 1792443000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\book.jsonl.gz",
+        "sha256": "f59c368fdaca790e3412702168af81099996fe247859362f3c2710be87cd5c04",
+        "bytes": 3712414,
+        "mod_time_ns": 1792680335655299100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_5min.csv",
+        "sha256": "753d25bf135a4435daa46d754ff40817c7cd6423d95000ba15b4956ae6d42586",
+        "bytes": 9845,
+        "mod_time_ns": 1792443601142033600
+      },
+      "expected_accepted": 188769,
+      "expected_quality": {
+        "lines": 189351,
+        "clock_missing": 0,
+        "clock_invalid": 569,
+        "outside_session": 13,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 190,
+        "source_parser_accepted": 188769,
+        "cutoff_excluded": 0,
+        "source_delivered": 188769
+      }
+    },
+    {
+      "session": "2026-10-20_Day",
+      "contract": "161120018",
+      "start": 1792453500,
+      "end": 1792478700,
+      "force_close": 1792478100,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\book.jsonl.gz",
+        "sha256": "9300c5ee348af1e56233376d652b3cb89ae280e1149794f32fbb2603ac8822e4",
+        "bytes": 4165251,
+        "mod_time_ns": 1792680339862573800
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_5min.csv",
+        "sha256": "9f396fd2b58735e289cd16f5063626a9beb58cf05df2b0899e9e84f8b04bd995",
+        "bytes": 5418,
+        "mod_time_ns": 1792478700391464300
+      },
+      "expected_accepted": 167059,
+      "expected_quality": {
+        "lines": 167977,
+        "clock_missing": 0,
+        "clock_invalid": 913,
+        "outside_session": 5,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 405,
+        "source_parser_accepted": 167059,
+        "cutoff_excluded": 0,
+        "source_delivered": 167059
+      }
+    },
+    {
+      "session": "2026-10-20_Night",
+      "contract": "161120018",
+      "start": 1792483200,
+      "end": 1792530000,
+      "force_close": 1792529400,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\book.jsonl.gz",
+        "sha256": "ee882f6818ec51707d4dcdd3befbd35e159d12c851db6c9dc54e9dd6beb35584",
+        "bytes": 4188396,
+        "mod_time_ns": 1792680334280772900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_5min.csv",
+        "sha256": "91c73ceb10af7d3eba9c0062d14e6aa4c3b44162681a8616b1463b4958b1c756",
+        "bytes": 9792,
+        "mod_time_ns": 1792530000633074700
+      },
+      "expected_accepted": 205217,
+      "expected_quality": {
+        "lines": 205786,
+        "clock_missing": 0,
+        "clock_invalid": 567,
+        "outside_session": 2,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 195,
+        "source_parser_accepted": 205217,
+        "cutoff_excluded": 0,
+        "source_delivered": 205217
+      }
+    },
+    {
+      "session": "2026-10-21_Day",
+      "contract": "161120018",
+      "start": 1792539900,
+      "end": 1792565100,
+      "force_close": 1792564500,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\book.jsonl.gz",
+        "sha256": "265397730e61c06883a43a91ee4fdb9905a96c0e7ec2666a8e2807edad05e9d4",
+        "bytes": 3802444,
+        "mod_time_ns": 1792680342402741600
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_5min.csv",
+        "sha256": "a431fc1ad239d00ae3532ba6ca439948eb13dde5de1c5be57beb560f0017e85d",
+        "bytes": 5429,
+        "mod_time_ns": 1792565100494760900
+      },
+      "expected_accepted": 155515,
+      "expected_quality": {
+        "lines": 156384,
+        "clock_missing": 0,
+        "clock_invalid": 863,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 388,
+        "source_parser_accepted": 155515,
+        "cutoff_excluded": 0,
+        "source_delivered": 155515
+      }
+    },
+    {
+      "session": "2026-10-21_Night",
+      "contract": "161120018",
+      "start": 1792569600,
+      "end": 1792616400,
+      "force_close": 1792615800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\book.jsonl.gz",
+        "sha256": "528e02510c6fa6e675a8a3287c0ce35aea5b7bce1ecb9e035a096834e5d0226f",
+        "bytes": 3568881,
+        "mod_time_ns": 1792680337101916300
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_5min.csv",
+        "sha256": "ea61c7dda0db6d606ec1cf4cf09ab31007fb05040c0c1202d6d731997df261c3",
+        "bytes": 9846,
+        "mod_time_ns": 1792616400887447600
+      },
+      "expected_accepted": 181008,
+      "expected_quality": {
+        "lines": 181379,
+        "clock_missing": 0,
+        "clock_invalid": 360,
+        "outside_session": 11,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 185,
+        "source_parser_accepted": 181008,
+        "cutoff_excluded": 0,
+        "source_delivered": 181008
+      }
+    },
+    {
+      "session": "2026-10-22_Day",
+      "contract": "161120018",
+      "start": 1792626300,
+      "end": 1792651500,
+      "force_close": 1792650900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\book.jsonl.gz",
+        "sha256": "7d0efffdee3c1d83f4912c417de05cec8e75fb5274842adb01bc883c4284c3d8",
+        "bytes": 4113800,
+        "mod_time_ns": 1792680339791551900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_5min.csv",
+        "sha256": "6cf9b0132ed4a77367237a068a21a9a48d2e3df11cb7a2739d3eaa95aee9af8a",
+        "bytes": 5367,
+        "mod_time_ns": 1792651500382238300
+      },
+      "expected_accepted": 168622,
+      "expected_quality": {
+        "lines": 169425,
+        "clock_missing": 0,
+        "clock_invalid": 797,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 469,
+        "source_parser_accepted": 168622,
+        "cutoff_excluded": 0,
+        "source_delivered": 168622
+      }
+    },
+    {
+      "session": "2026-10-22_Night",
+      "contract": "161120018",
+      "start": 1792656000,
+      "end": 1792702800,
+      "force_close": 1792702200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\book.jsonl.gz",
+        "sha256": "6f2073bc448593605c5698227422d53b1d1d108480f9e43f398151b802340a8d",
+        "bytes": 4574074,
+        "mod_time_ns": 1792816128673608900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_5min.csv",
+        "sha256": "85dc93ca5d3057e2779953b2938691dc668ec836ec7fd85b0543cfb9c7f80322",
+        "bytes": 9858,
+        "mod_time_ns": 1792702800731245500
+      },
+      "expected_accepted": 227427,
+      "expected_quality": {
+        "lines": 228092,
+        "clock_missing": 0,
+        "clock_invalid": 665,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 209,
+        "source_parser_accepted": 227427,
+        "cutoff_excluded": 0,
+        "source_delivered": 227427
+      }
+    },
+    {
+      "session": "2026-10-23_Day",
+      "contract": "161120018",
+      "start": 1792712700,
+      "end": 1792737900,
+      "force_close": 1792737300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\book.jsonl.gz",
+        "sha256": "9a316a16b63ad05dbe2dc4d104b2324414ad001253fc750a185c4eb9595a1cde",
+        "bytes": 5340711,
+        "mod_time_ns": 1792816128652584900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_5min.csv",
+        "sha256": "6f0ca78bcf8fd40ea7352b37490909e809bf03a0f384ac9fcc11fdf8b7af1cce",
+        "bytes": 5372,
+        "mod_time_ns": 1792737900680339600
+      },
+      "expected_accepted": 191333,
+      "expected_quality": {
+        "lines": 192815,
+        "clock_missing": 0,
+        "clock_invalid": 1475,
+        "outside_session": 7,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 482,
+        "source_parser_accepted": 191333,
+        "cutoff_excluded": 0,
+        "source_delivered": 191333
+      }
+    },
+    {
+      "session": "2026-10-23_Night",
+      "contract": "161120018",
+      "start": 1792742400,
+      "end": 1792789200,
+      "force_close": 1792788600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\book.jsonl.gz",
+        "sha256": "be0aea3733de70bc62fb1e7fabe00fc20de1b322660c260f258e0990503f3e07",
+        "bytes": 4333559,
+        "mod_time_ns": 1792816128668601700
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_5min.csv",
+        "sha256": "460c2dff090cd81ed5473d90e5784e236de41c290dae61550a02dc3a5dfd2fb5",
+        "bytes": 9847,
+        "mod_time_ns": 1792789200806340400
+      },
+      "expected_accepted": 214882,
+      "expected_quality": {
+        "lines": 215559,
+        "clock_missing": 0,
+        "clock_invalid": 665,
+        "outside_session": 12,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 197,
+        "source_parser_accepted": 214882,
+        "cutoff_excluded": 0,
+        "source_delivered": 214882
+      }
+    },
+    {
+      "session": "2026-10-26_Day",
+      "contract": "161120018",
+      "start": 1792971900,
+      "end": 1792997100,
+      "force_close": 1792996500,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\book.jsonl.gz",
+        "sha256": "69e4ef4ae9499ea7c671f51690f50ff4c387a534d83b1bd8479ffa4cfdb32a62",
+        "bytes": 4291316,
+        "mod_time_ns": 1793016263485054400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_5min.csv",
+        "sha256": "5fd1952af78dc79766410a5e9ed90358d4d8ea3b90d2cdc993d219b5afbb60d4",
+        "bytes": 5357,
+        "mod_time_ns": 1792997100472965900
+      },
+      "expected_accepted": 165295,
+      "expected_quality": {
+        "lines": 167154,
+        "clock_missing": 0,
+        "clock_invalid": 1859,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 349,
+        "source_parser_accepted": 165295,
+        "cutoff_excluded": 0,
+        "source_delivered": 165295
+      }
+    },
+    {
+      "session": "2026-10-26_Night",
+      "contract": "161120018",
+      "start": 1793001600,
+      "end": 1793048400,
+      "force_close": 1793047800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\book.jsonl.gz",
+        "sha256": "455ea830fcab642f31d8f27232bf9f51be9aa96d307bb6f62a6cedb1a5d9935c",
+        "bytes": 3871066,
+        "mod_time_ns": 1793086860393877900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_5min.csv",
+        "sha256": "b55e3d5bf9c859e7504e6a438bc8c72180c7d00158d9fdc265f24881c9309222",
+        "bytes": 9854,
+        "mod_time_ns": 1793048400468822600
+      },
+      "expected_accepted": 195959,
+      "expected_quality": {
+        "lines": 196656,
+        "clock_missing": 0,
+        "clock_invalid": 684,
+        "outside_session": 13,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 195,
+        "source_parser_accepted": 195959,
+        "cutoff_excluded": 0,
+        "source_delivered": 195959
+      }
+    },
+    {
+      "session": "2026-10-27_Day",
+      "contract": "161120018",
+      "start": 1793058300,
+      "end": 1793083500,
+      "force_close": 1793082900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz",
+        "sha256": "4a8dca5a24b48111143e71986f109f08e6b494228e6084ecd71d9019ad85ce12",
+        "bytes": 3913474,
+        "mod_time_ns": 1793086860256669800
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_5min.csv",
+        "sha256": "d27f774c0fb2bd95715caabf948a078d97d2bbc6dd16a1c817014f4fde4331d0",
+        "bytes": 5359,
+        "mod_time_ns": 1793083500515142700
+      },
+      "expected_accepted": 162171,
+      "expected_quality": {
+        "lines": 163299,
+        "clock_missing": 0,
+        "clock_invalid": 1122,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 414,
+        "source_parser_accepted": 162171,
+        "cutoff_excluded": 0,
+        "source_delivered": 162171
+      }
+    },
+    {
+      "session": "2026-10-27_Night",
+      "contract": "161120018",
+      "start": 1793088000,
+      "end": 1793134800,
+      "force_close": 1793134200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\book.jsonl.gz",
+        "sha256": "d4f4f839a893e5a96b49d6d3687030206997311cd5507773067d56c2d431b529",
+        "bytes": 3175387,
+        "mod_time_ns": 1793643264925540500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_5min.csv",
+        "sha256": "9b0358a1c21b0d60a8cb236d3c11a7faa3c898bf28e9f80254c200c1b5a97d2e",
+        "bytes": 9758,
+        "mod_time_ns": 1793134800820845400
+      },
+      "expected_accepted": 167176,
+      "expected_quality": {
+        "lines": 167690,
+        "clock_missing": 0,
+        "clock_invalid": 502,
+        "outside_session": 12,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 168,
+        "source_parser_accepted": 167176,
+        "cutoff_excluded": 0,
+        "source_delivered": 167176
+      }
+    },
+    {
+      "session": "2026-10-28_Day",
+      "contract": "161120018",
+      "start": 1793144700,
+      "end": 1793169900,
+      "force_close": 1793169300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\book.jsonl.gz",
+        "sha256": "b29d6c8292131a9498126f1deb9c9cdf521d018ac06bec5b4ec1197f2ed8eecb",
+        "bytes": 3659831,
+        "mod_time_ns": 1793643264971545800
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_5min.csv",
+        "sha256": "3c26bea2e5d16a1fefbf440b4f6a2712d8f434f3262248523afe6c9c4f010a3b",
+        "bytes": 5425,
+        "mod_time_ns": 1793169900365807200
+      },
+      "expected_accepted": 151454,
+      "expected_quality": {
+        "lines": 152181,
+        "clock_missing": 0,
+        "clock_invalid": 725,
+        "outside_session": 2,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 431,
+        "source_parser_accepted": 151454,
+        "cutoff_excluded": 0,
+        "source_delivered": 151454
+      }
+    },
+    {
+      "session": "2026-10-28_Night",
+      "contract": "161120018",
+      "start": 1793174400,
+      "end": 1793221200,
+      "force_close": 1793220600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\book.jsonl.gz",
+        "sha256": "3806373d9058669d69aa4c557371434ab9e023b65fbfe0600a79741422dae835",
+        "bytes": 4170047,
+        "mod_time_ns": 1793643266024738000
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_5min.csv",
+        "sha256": "91d6318ef20dab92735c59e952e643d993c460e1b024020ddf2ea9d147aac54f",
+        "bytes": 9875,
+        "mod_time_ns": 1793221201358069600
+      },
+      "expected_accepted": 200737,
+      "expected_quality": {
+        "lines": 201382,
+        "clock_missing": 0,
+        "clock_invalid": 631,
+        "outside_session": 14,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 210,
+        "source_parser_accepted": 200737,
+        "cutoff_excluded": 0,
+        "source_delivered": 200737
+      }
+    },
+    {
+      "session": "2026-10-29_Day",
+      "contract": "161120018",
+      "start": 1793231100,
+      "end": 1793256300,
+      "force_close": 1793255700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\book.jsonl.gz",
+        "sha256": "8305837702db0c034dca1d437b7bf283a2133a69ea7195f9ae51c765aed3af4f",
+        "bytes": 4844221,
+        "mod_time_ns": 1793643266083777100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_5min.csv",
+        "sha256": "cae4ee29533bf1d2a5a808601b8a6b96495376746f0f6d0bc142e0a2e88683bc",
+        "bytes": 5362,
+        "mod_time_ns": 1793256300470945600
+      },
+      "expected_accepted": 182792,
+      "expected_quality": {
+        "lines": 184447,
+        "clock_missing": 0,
+        "clock_invalid": 1648,
+        "outside_session": 7,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 370,
+        "source_parser_accepted": 182792,
+        "cutoff_excluded": 0,
+        "source_delivered": 182792
+      }
+    },
+    {
+      "session": "2026-10-29_Night",
+      "contract": "161120018",
+      "start": 1793260800,
+      "end": 1793307600,
+      "force_close": 1793307000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\book.jsonl.gz",
+        "sha256": "cd6351b1f9c7b819abd3e3ddf7cddd03499ed5af98fe3f87bb2506625c77ebe7",
+        "bytes": 4573023,
+        "mod_time_ns": 1793643267711845500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_5min.csv",
+        "sha256": "d4f022733b7ab81c21422058b7bde90554cead705e243d02ac4b2c1b888636af",
+        "bytes": 9862,
+        "mod_time_ns": 1793307604256672400
+      },
+      "expected_accepted": 225767,
+      "expected_quality": {
+        "lines": 226361,
+        "clock_missing": 0,
+        "clock_invalid": 570,
+        "outside_session": 24,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 219,
+        "source_parser_accepted": 225767,
+        "cutoff_excluded": 0,
+        "source_delivered": 225767
+      }
+    },
+    {
+      "session": "2026-10-30_Day",
+      "contract": "161120018",
+      "start": 1793317500,
+      "end": 1793342700,
+      "force_close": 1793342100,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\book.jsonl.gz",
+        "sha256": "5d720db3e1748d655a67855447ae291a71c03d6121271c2d3079a820aa1d223d",
+        "bytes": 4040829,
+        "mod_time_ns": 1793643267363829600
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_5min.csv",
+        "sha256": "6615c37c3b5a56779491d6b3c5e56719e00d1bd9ee09b6b8999aa7159f91aebf",
+        "bytes": 5430,
+        "mod_time_ns": 1793342700418431300
+      },
+      "expected_accepted": 161921,
+      "expected_quality": {
+        "lines": 163162,
+        "clock_missing": 0,
+        "clock_invalid": 1234,
+        "outside_session": 7,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 446,
+        "source_parser_accepted": 161921,
+        "cutoff_excluded": 0,
+        "source_delivered": 161921
+      }
+    },
+    {
+      "session": "2026-10-30_Night",
+      "contract": "161120018",
+      "start": 1793347200,
+      "end": 1793394000,
+      "force_close": 1793393400,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\book.jsonl.gz",
+        "sha256": "9e05ecf92f685b014921528f18f9a68b5e0b57d0e8cdefda4afb697e98604375",
+        "bytes": 4861941,
+        "mod_time_ns": 1793643268993351100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_5min.csv",
+        "sha256": "553978abd165e732b6be7e178a6e5d8274d7aea834e6cfa6a110e4940fb39334",
+        "bytes": 9873,
+        "mod_time_ns": 1793394001476912900
+      },
+      "expected_accepted": 239744,
+      "expected_quality": {
+        "lines": 240743,
+        "clock_missing": 0,
+        "clock_invalid": 746,
+        "outside_session": 253,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 192,
+        "source_parser_accepted": 239744,
+        "cutoff_excluded": 0,
+        "source_delivered": 239744
+      }
+    },
+    {
+      "session": "2026-11-02_Day",
+      "contract": "161120018",
+      "start": 1793576700,
+      "end": 1793601900,
+      "force_close": 1793601300,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\book.jsonl.gz",
+        "sha256": "9c4913d3d060dca975eb7dba61b58ff52f2ddd70cfffc25b2f253c073d552cea",
+        "bytes": 3747805,
+        "mod_time_ns": 1793643268408098600
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_5min.csv",
+        "sha256": "68f717644d0f29e0100c741db4287a1f52d820be10019893188f33e5ee5febd3",
+        "bytes": 5421,
+        "mod_time_ns": 1793601900517187200
+      },
+      "expected_accepted": 158221,
+      "expected_quality": {
+        "lines": 159353,
+        "clock_missing": 0,
+        "clock_invalid": 1132,
+        "outside_session": 0,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 399,
+        "source_parser_accepted": 158221,
+        "cutoff_excluded": 0,
+        "source_delivered": 158221
+      }
+    },
+    {
+      "session": "2026-11-02_Night",
+      "contract": "161120018",
+      "start": 1793606400,
+      "end": 1793653200,
+      "force_close": 1793652600,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\book.jsonl.gz",
+        "sha256": "bc7f416253d07e6b7b68ef8df54a87b7bb51ad8ca0740872520ad7c9a7f29c43",
+        "bytes": 4568965,
+        "mod_time_ns": 1793843917723423700
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_5min.csv",
+        "sha256": "b377ad20ac583c19f565626ec859c913e462493a6832743b45cb6f81d43b6941",
+        "bytes": 9857,
+        "mod_time_ns": 1793653200853886000
+      },
+      "expected_accepted": 225203,
+      "expected_quality": {
+        "lines": 225848,
+        "clock_missing": 0,
+        "clock_invalid": 635,
+        "outside_session": 10,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 271,
+        "source_parser_accepted": 225203,
+        "cutoff_excluded": 0,
+        "source_delivered": 225203
+      }
+    },
+    {
+      "session": "2026-11-03_Day",
+      "contract": "161120018",
+      "start": 1793663100,
+      "end": 1793688300,
+      "force_close": 1793687700,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\book.jsonl.gz",
+        "sha256": "97a2964e318c2fcbb6a5fc6638c2568dc0284efac87b9007b38edadd8b74a488",
+        "bytes": 2240271,
+        "mod_time_ns": 1793843917153353700
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_5min.csv",
+        "sha256": "b71a3b7d6a82cf0552b6246cb199e5d5bba681f47735cef9b4e9378cba26baff",
+        "bytes": 5361,
+        "mod_time_ns": 1793688300895763200
+      },
+      "expected_accepted": 109225,
+      "expected_quality": {
+        "lines": 110293,
+        "clock_missing": 0,
+        "clock_invalid": 1062,
+        "outside_session": 6,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 330,
+        "source_parser_accepted": 109225,
+        "cutoff_excluded": 0,
+        "source_delivered": 109225
+      }
+    },
+    {
+      "session": "2026-11-03_Night",
+      "contract": "161120018",
+      "start": 1793692800,
+      "end": 1793739600,
+      "force_close": 1793739000,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\book.jsonl.gz",
+        "sha256": "e4249aeb9c598c9c86e3836a0de350f15bf1b86604f830d0d80bbb9f40a35636",
+        "bytes": 3889709,
+        "mod_time_ns": 1793843918269136000
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_5min.csv",
+        "sha256": "c0d5ca425a789d187773ad8ad28465bd1e63c27125ae6a02246e6d087d078e35",
+        "bytes": 9830,
+        "mod_time_ns": 1793739601371296400
+      },
+      "expected_accepted": 195916,
+      "expected_quality": {
+        "lines": 196464,
+        "clock_missing": 0,
+        "clock_invalid": 532,
+        "outside_session": 16,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 151,
+        "source_parser_accepted": 195916,
+        "cutoff_excluded": 0,
+        "source_delivered": 195916
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "contract": "161120018",
+      "start": 1793749500,
+      "end": 1793774700,
+      "force_close": 1793774100,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\book.jsonl.gz",
+        "sha256": "80b677d7c7f8f5a55ed9b319d94b88954328ff76c457141b336f1ab5d0f88f6d",
+        "bytes": 5984953,
+        "mod_time_ns": 1793843918713182100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_5min.csv",
+        "sha256": "cc49c792957239872131f55e75ba8510bcd16d585a09799d2471ca677f58a987",
+        "bytes": 5372,
+        "mod_time_ns": 1793774700615325900
+      },
+      "expected_accepted": 203674,
+      "expected_quality": {
+        "lines": 204993,
+        "clock_missing": 0,
+        "clock_invalid": 1303,
+        "outside_session": 16,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 425,
+        "source_parser_accepted": 203674,
+        "cutoff_excluded": 0,
+        "source_delivered": 203674
+      }
+    },
+    {
+      "session": "2026-11-04_Night",
+      "contract": "161120018",
+      "start": 1793779200,
+      "end": 1793826000,
+      "force_close": 1793825400,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\book.jsonl.gz",
+        "sha256": "ff566424a1ed85b60b9cfadba591912bdec7a915139dbead56559893166ea8c1",
+        "bytes": 5612098,
+        "mod_time_ns": 1793843919294008100
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_5min.csv",
+        "sha256": "22167b0dfbd9cddf24396e927715ed185693d898f7a998c1492d5dff389f75f1",
+        "bytes": 9961,
+        "mod_time_ns": 1793826000738673700
+      },
+      "expected_accepted": 256558,
+      "expected_quality": {
+        "lines": 257111,
+        "clock_missing": 0,
+        "clock_invalid": 542,
+        "outside_session": 11,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 237,
+        "source_parser_accepted": 256558,
+        "cutoff_excluded": 0,
+        "source_delivered": 256558
+      }
+    },
+    {
+      "session": "2026-11-05_Day",
+      "contract": "161120018",
+      "start": 1793835900,
+      "end": 1793861100,
+      "force_close": 1793860500,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\book.jsonl.gz",
+        "sha256": "8d7404e14573a0680c1789df9a5d70665eff71c43b374a97556cddc916efa2e2",
+        "bytes": 5239648,
+        "mod_time_ns": 1793879923514021400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_5min.csv",
+        "sha256": "c589260e84dd51b61ba56538c3bae928054ac7d811cf3cac7bc428a9e1d361d3",
+        "bytes": 5424,
+        "mod_time_ns": 1793861100714615500
+      },
+      "expected_accepted": 191394,
+      "expected_quality": {
+        "lines": 192223,
+        "clock_missing": 0,
+        "clock_invalid": 820,
+        "outside_session": 9,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 459,
+        "source_parser_accepted": 191394,
+        "cutoff_excluded": 0,
+        "source_delivered": 191394
+      }
+    },
+    {
+      "session": "2026-11-05_Night",
+      "contract": "161120018",
+      "start": 1793865600,
+      "end": 1793912400,
+      "force_close": 1793911800,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-05_Night\\book.jsonl.gz",
+        "sha256": "84d0c9ac31c8acc74b3d5fc498e78491b0adf5bbfa9616cf2ed553c104c11836",
+        "bytes": 7369775,
+        "mod_time_ns": 1794284597354931700
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_5min.csv",
+        "sha256": "c226ef711343bfb8d8f9cdf1ce8eea9210a22f3d833a3f63624398ad6e4a1382",
+        "bytes": 9978,
+        "mod_time_ns": 1793912400929629400
+      },
+      "expected_accepted": 300144,
+      "expected_quality": {
+        "lines": 300879,
+        "clock_missing": 0,
+        "clock_invalid": 725,
+        "outside_session": 10,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 375,
+        "source_parser_accepted": 300144,
+        "cutoff_excluded": 0,
+        "source_delivered": 300144
+      }
+    },
+    {
+      "session": "2026-11-06_Day",
+      "contract": "161120018",
+      "start": 1793922300,
+      "end": 1793947500,
+      "force_close": 1793946900,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-06_Day\\book.jsonl.gz",
+        "sha256": "aed8e3549b72d160b1acacced6c52277c7ce0cb6be3f21de16b56bc4766f1b6f",
+        "bytes": 6655261,
+        "mod_time_ns": 1794284597367942400
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_5min.csv",
+        "sha256": "8e152242bc9b7efc3043759964226c73bac2216d008ec3bd86b9d61428ddd1e7",
+        "bytes": 5385,
+        "mod_time_ns": 1793947500612240900
+      },
+      "expected_accepted": 219662,
+      "expected_quality": {
+        "lines": 224161,
+        "clock_missing": 0,
+        "clock_invalid": 4490,
+        "outside_session": 9,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 630,
+        "source_parser_accepted": 219662,
+        "cutoff_excluded": 0,
+        "source_delivered": 219662
+      }
+    },
+    {
+      "session": "2026-11-06_Night",
+      "contract": "161120018",
+      "start": 1793952000,
+      "end": 1793998800,
+      "force_close": 1793998200,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\inputs\\105生成原板\\NK225\\2026-11-06_Night\\book.jsonl.gz",
+        "sha256": "30a82b34a56dab209fbdd1711dd04e9a95fa4a8f9f3d38d3b54c39a63215729e",
+        "bytes": 6766729,
+        "mod_time_ns": 1794284597382182200
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_5min.csv",
+        "sha256": "badbf921d8e1dee0a634562e5b54d5d3cceb7c44debc8b4da25cf43ed2c55adc",
+        "bytes": 9900,
+        "mod_time_ns": 1793998800835209700
+      },
+      "expected_accepted": 296298,
+      "expected_quality": {
+        "lines": 297723,
+        "clock_missing": 0,
+        "clock_invalid": 1412,
+        "outside_session": 13,
+        "backward_clock": 0,
+        "last_non_positive": 0,
+        "last_non_finite": 0,
+        "bad_bbo": 315,
+        "source_parser_accepted": 296298,
+        "cutoff_excluded": 0,
+        "source_delivered": 296298
+      }
+    },
+    {
+      "session": "2026-11-09_Day",
+      "contract": "161120018",
+      "start": 1794181500.0,
+      "end": 1794206700.0,
+      "force_close": 1794206100.0,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Day\\book.jsonl",
+        "sha256": "4ef7e69b20944416a3ff7e558d8d1e0a3e46afdd66b588987ebed0337803b8f8",
+        "bytes": 303708679,
+        "mod_time_ns": 1794206700475403200
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Day\\candle_5min.csv",
+        "sha256": "5bcf7879484e220d5bce64fa77e988598b5d3c2af435e606b70024fc0d3c725a",
+        "bytes": 5428,
+        "mod_time_ns": 1794206700609180000
+      }
+    },
+    {
+      "session": "2026-11-09_Night",
+      "contract": "161120018",
+      "start": 1794211200.0,
+      "end": 1794258000.0,
+      "force_close": 1794257400.0,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Night\\book.jsonl",
+        "sha256": "c9c36db44de34aee38b4e0ea4d78842488fb4b235642f33019f3bd156d5e56d8",
+        "bytes": 371611020,
+        "mod_time_ns": 1794258000920671900
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-09_Night\\candle_5min.csv",
+        "sha256": "9135bb04c1300b55e4d86ef31952b362d9b60adcbdb922d09c8fbf5623d20f64",
+        "bytes": 9879,
+        "mod_time_ns": 1794258001118726800
+      }
+    },
+    {
+      "session": "2026-11-10_Day",
+      "contract": "161120018",
+      "start": 1794267900.0,
+      "end": 1794293100.0,
+      "force_close": 1794292500.0,
+      "raw": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Day\\book.jsonl",
+        "sha256": "6bec5f3cb3d86654d661d69e650043a511e680fe7014f9bd7fca45c0a54c0f52",
+        "bytes": 266597048,
+        "mod_time_ns": 1794293100484390500
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-10_Day\\candle_5min.csv",
+        "sha256": "94e88c80c50edf0fd41ed115fd87f835e92d67cdd9c14a2d394ae6fda6c79aab",
+        "bytes": 5358,
+        "mod_time_ns": 1794293100534747200
+      }
+    }
+  ],
+  "known_checks": [
+    "2026-09-21_Day",
+    "2026-10-30_Night",
+    "2026-11-06_Night"
+  ],
+  "new_sessions": [
+    "2026-11-09_Day",
+    "2026-11-09_Night",
+    "2026-11-10_Day"
+  ],
+  "新規価格からの勝敗読取": false,
+  "11月09読取許可": "ユーザーの全セッション検証指定に基づきStageA後に解除"
+}
