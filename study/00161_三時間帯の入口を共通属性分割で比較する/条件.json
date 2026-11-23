@@ -1,0 +1,215 @@
+{
+  "trial": 161,
+  "name": "三時間帯の入口を共通属性分割で比較する",
+  "parent_trial": 148,
+  "catalog_count": 100,
+  "catalog_definition_sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+  "session_count": 73,
+  "feature_rows": 35339,
+  "legacy_count": 87,
+  "runtime": {
+    "python": "3.14.3",
+    "numpy": "2.5.4",
+    "catboost": "1.2.10"
+  },
+  "classifier_parameters": {
+    "iterations": 128,
+    "depth": 3,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 10,
+    "loss_function": "MultiClass",
+    "classes_count": 3,
+    "random_seed": 151,
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "random_strength": 0,
+    "has_time": true,
+    "nan_mode": "Min",
+    "use_best_model": false,
+    "allow_writing_files": false,
+    "verbose": false,
+    "task_type": "CPU",
+    "thread_count": 1
+  },
+  "training": {
+    "window_sessions": 20,
+    "minimum_physical_pairs": 1000,
+    "minimum_contributing_sessions": 8,
+    "minimum_classes": [
+      -1,
+      0,
+      1
+    ],
+    "label_to_class": {
+      "-1": 0,
+      "0": 1,
+      "1": 2
+    },
+    "known_at": "max(BUY_H60.endpoint.time,SELL_H60.endpoint.time)",
+    "maturity": "両BBO H60completeかつknown_at strict<current_scene_start",
+    "weight": "Npairs/(B_active*n_pairs_in_block),両side同値、全2N行mean1",
+    "canonical": "同物理q1の(q0_index,q0_line,event_id)最初、窓外を詰めない",
+    "untrained_action": "学習側wait、native fallbackなし"
+  },
+  "selection": {
+    "thresholds": {
+      "P70": 0.7,
+      "P65": 0.65,
+      "P60": 0.6
+    },
+    "score": "P(F)-P(A)",
+    "minimum_score_margin": 0.05,
+    "minimum_forward_probability": 0.4,
+    "minimum_known_roles": 2,
+    "role_excluded_columns": [
+      "q0_entry_minus_last_atr5_to_side",
+      "q0_spread_125_ratio",
+      "q0_spread_points"
+    ],
+    "common": "0<q0spread<=20pt, -1<=q0Last_minus_m1Close_ATR5<=1",
+    "winner": "score差を満たす高い側を先に選び、その側の資格を確認。低い側へ代用しない",
+    "conditional": "P(F)/(P(F)+P(A))",
+    "q1_for_prediction": false
+  },
+  "linking": {
+    "N": "純新規。最初q0を同物理q1の代表とする。",
+    "U": "旧C1全87取得を保持して追加。衝突時C1優先。",
+    "F": "各場で最初の旧C1真出生信号時点に、新規Nの実取得が0なら当該旧信号だけを予約し固定旧取得を継承。以後N継続。",
+    "F_order": "最初信号は(time,index,source_line,id)順。実取得<=信号の認識は物理(time,index,source_line)のみ。未約定要求は0。後発N取得で予約取消しなし。同q1旧優先。",
+    "F_limitation": "固定C1参照補完。純新入口や実口座保証とは区別。旧出生に結べないq0特徴を捏造しない。",
+    "same_q1": "Nは最初q0。C1と競合するU/Fは旧優先。"
+  },
+  "inputs": {
+    "features": {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    "fixed": {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "decoded_sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+    },
+    "captures": {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "decoded_sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+    },
+    "metadata": {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "decoded_sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+    },
+    "observations": {
+      "path": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "decoded_sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc"
+    }
+  },
+  "主評価": "三時間帯を入口選択へ実際に組込み、共通/属性/分割を対照比較。全73場min1/到達済み70%/概ね1回毎時は別列。最高金額だけで採用しない。",
+  "費用": "独立mini1枚100円/pt、往復77円、C5追加往復1000円。実口座収支ではない。",
+  "model_modes": [
+    {
+      "id": "COMMON",
+      "context": false,
+      "split": false
+    },
+    {
+      "id": "CONTEXT",
+      "context": true,
+      "split": false
+    },
+    {
+      "id": "SPLIT",
+      "context": false,
+      "split": true
+    }
+  ],
+  "timebands": {
+    "selection_clock": "canonical q0",
+    "report_clock": "実取得q1。q0帯は別記。",
+    "boundary": "Night開始日America/New_York09:30をzoneinfoでUTC変換。等号から米国後。Dayは全てデイ。",
+    "codes": {
+      "DAY": 0,
+      "PRE_US": 1,
+      "POST_US": 2
+    },
+    "train_clock": "各場開始時だけ学習。ナイト途中の再学習なし。",
+    "split_support": "共通と同じ20暦場。1000物理pair/8寄与場/3クラス。帯絞込前に全体正準化。帯内で時区画重み再計算。",
+    "split_fallback": "当該帯支持不足なら同じ場のCOMMON。COMMON未準備なら待機。時間属性は技術役割に数えない。"
+  },
+  "signal_policies": [
+    "COMMON_P70",
+    "COMMON_P65",
+    "COMMON_P60",
+    "CONTEXT_P70",
+    "CONTEXT_P65",
+    "CONTEXT_P60",
+    "SPLIT_P70",
+    "SPLIT_P65",
+    "SPLIT_P60",
+    "COMMON_P65_A",
+    "CONTEXT_P65_A",
+    "SPLIT_P65_A"
+  ],
+  "main_policies": [
+    "COMMON_P65_A_F",
+    "CONTEXT_P65_A_F",
+    "SPLIT_P65_A_F"
+  ],
+  "policies": [
+    "COMMON_P70_N",
+    "COMMON_P70_U",
+    "COMMON_P70_F",
+    "COMMON_P65_N",
+    "COMMON_P65_U",
+    "COMMON_P65_F",
+    "COMMON_P60_N",
+    "COMMON_P60_U",
+    "COMMON_P60_F",
+    "CONTEXT_P70_N",
+    "CONTEXT_P70_U",
+    "CONTEXT_P70_F",
+    "CONTEXT_P65_N",
+    "CONTEXT_P65_U",
+    "CONTEXT_P65_F",
+    "CONTEXT_P60_N",
+    "CONTEXT_P60_U",
+    "CONTEXT_P60_F",
+    "SPLIT_P70_N",
+    "SPLIT_P70_U",
+    "SPLIT_P70_F",
+    "SPLIT_P65_N",
+    "SPLIT_P65_U",
+    "SPLIT_P65_F",
+    "SPLIT_P60_N",
+    "SPLIT_P60_U",
+    "SPLIT_P60_F",
+    "COMMON_P65_A_N",
+    "COMMON_P65_A_U",
+    "COMMON_P65_A_F",
+    "CONTEXT_P65_A_N",
+    "CONTEXT_P65_A_U",
+    "CONTEXT_P65_A_F",
+    "SPLIT_P65_A_N",
+    "SPLIT_P65_A_U",
+    "SPLIT_P65_A_F",
+    "C1",
+    "OLD152_B0_N",
+    "OLD152_U1",
+    "OLD153_N15",
+    "OLD153_U15"
+  ],
+  "technical_correction": "P65だけ旧152logic152.choose A0を実側100Xに非改変適用。元方向失速G＋反対構造回復R。逆側へ元側確率を移さない。",
+  "evaluation": {
+    "population": "全73場、前48/後25とも既使用。未見2場は読まない。",
+    "first_touch": "旧148strictH60/実側BBO/±125。両側は実側価格。completeのみF/A/N、他C。F/(F+A)を到達済み率とする。",
+    "ifd": "旧IFD即時BBO代用。同±125最初touchで決済。touchなしcompleteならH60endpoint、他unknown。Cでも早期touchなら金融既知。",
+    "cost": "1mini100円/pt。往復手数料77円＋片道5pt×2の追加控除1000円=C5合計1077円。",
+    "not_account": "各入口独立1枚の研究集計。重複保有/片側10枚口座収支ではない。",
+    "groups": "全期/前48/後25 × 全体/デイ/米国前/米国後。0取得場も全セッションCSVに保持。",
+    "past_validity": "151COMMON全q0確率/判断と学習SHA、152A0/B0、153N15/U15を固定参照へ照合。全過去試行の再実行とは呼ばない。",
+    "comparisons": 41,
+    "retraining_search": "3mode×3閾値＋P65A0。結果を見て閾値を再調整しない。"
+  }
+}

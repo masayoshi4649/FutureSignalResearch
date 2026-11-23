@@ -1,0 +1,53 @@
+{
+  "成功": true,
+  "試行": 161,
+  "自然学習の再実行": false,
+  "金融計算": false,
+  "旧151正式照合": "モデル担当が別監査",
+  "検査件数": {
+    "教師監査欄": 2805,
+    "教師集合": 255,
+    "全q0方式判断": 106017,
+    "保存モデルと入力SHA": 215
+  },
+  "保存確率との最大絶対差": 3.3306690738754696e-16,
+  "支持別モデル群": {
+    "COMMON_unready": 8,
+    "CONTEXT_unready": 8,
+    "SPLIT_unready": 24,
+    "COMMON_ready": 65,
+    "CONTEXT_ready": 65,
+    "SPLIT_ready": 85
+  },
+  "帯別fallback_q0": {
+    "0_WAIT": 1160,
+    "1_WAIT": 985,
+    "2_WAIT": 1178,
+    "0_COMMON": 1408,
+    "1_COMMON": 1138,
+    "2_COMMON": 1253
+  },
+  "q0独立暦算件数": {
+    "0": 12706,
+    "1": 10992,
+    "2": 11641
+  },
+  "教師正準q0独立暦算件数": {
+    "0": 12279,
+    "1": 9442,
+    "2": 9911
+  },
+  "条件SHA256": "f22d735cefd0146aa4ec691a5adeeaf82c6961e746e88d7cdfd52fbcc25b46b8",
+  "F0_Source": {
+    "work\\161三時間帯入口\\学習する.py": "9a8cda14598e7da773a0983f327c8b1c833b6787d013df547483bd59234e5b59",
+    "work\\161三時間帯入口のデータ\\data161.py": "1aa4ab452d26d507f532c78ebf036ca37690642cd1cf140f01eb0423f0fe03fe",
+    "work\\161三時間帯入口のモデル\\model161.py": "5aa7fbde8ba8da2a9331059c36074afb2927e9e21f96ac69c92eeaae33d2d1a5",
+    "work\\161三時間帯入口のモデル\\training161.py": "f610eb7474be848aca32d28b0c67f225963c62042ed2c036c08e03dab6b732de",
+    "work\\161三時間帯入口のモデル\\simulate161.py": "0b79b995676b07a39afa6b2866c9d57e601a1ed9cd1eff862ba4f38836063067",
+    "work\\過去場だけの教師選択と時間区画重み\\教師選択.py": "075ac230ea4ec2b7c5aa3a59fd7348941a903f9612611ef7c26ad1d5705017df"
+  },
+  "監査SourceSHA256": {
+    "自然監査.py": "565a7aa1748eed947846943b6b08bd0b31d1aa7354020110bea38c02787eda53",
+    "独立純計算.py": "7702fca34c157e1df1d2aab9ea3351981560ccff5e4fe6163cfdc6d420ae8312"
+  }
+}

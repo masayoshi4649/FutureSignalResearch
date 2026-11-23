@@ -1,0 +1,181 @@
+{
+  "成功": true,
+  "試行": 161,
+  "時計": "2026-11-14T12:19:43.797841+00:00",
+  "条件SHA256": "f22d735cefd0146aa4ec691a5adeeaf82c6961e746e88d7cdfd52fbcc25b46b8",
+  "runtime": {
+    "numpy": "2.5.4",
+    "catboost": "1.2.10",
+    "tzdata": "2026.6",
+    "ijson": "3.6.0",
+    "python": "3.14.3",
+    "node": "v24.22.1",
+    "artifact_tool": "2.8.157"
+  },
+  "archives": {
+    "Source.zip": {
+      "bytes": 155495,
+      "sha256": "d4bb64a145c64a5989a5a05010a3e8ff933ac218880063b74f6ae78d8a808627",
+      "members": 42
+    },
+    "学習と採否.zip": {
+      "bytes": 24599247,
+      "sha256": "f0699f816df14892871d8edc6f4afb72c75b93531acd5e77c2bb53f3b36db2bb",
+      "members": 224
+    }
+  },
+  "inputs": {
+    "features": {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    "fixed": {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "decoded_sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+    },
+    "captures": {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "decoded_sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+    },
+    "metadata": {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "decoded_sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+    },
+    "observations": {
+      "path": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "decoded_sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc"
+    }
+  },
+  "共有入力の原板複製": false,
+  "未見2場": false,
+  "旧156実行": false,
+  "formal_files": {
+    "README.md": {
+      "bytes": 8738,
+      "sha256": "6fb782285052af9a3e6d3008dc626b5c3b4e2cf8b27b7c4a6f4e80f69f554026"
+    },
+    "再現手順.md": {
+      "bytes": 4707,
+      "sha256": "7434a95cd6a1ded811b31ecf70a2890eee52b7e5fef5ea6ae67653eabe552449"
+    },
+    "原因と次の仮説.md": {
+      "bytes": 7667,
+      "sha256": "ea7c7063871e8a4397d66f5fe47d0936402bbf6e5a9ac83fba4b3617597ee2ca"
+    },
+    "条件.json": {
+      "bytes": 8251,
+      "sha256": "f22d735cefd0146aa4ec691a5adeeaf82c6961e746e88d7cdfd52fbcc25b46b8"
+    },
+    "設定と結果.md": {
+      "bytes": 26738,
+      "sha256": "d6516e402266552a4ca3206c2266979943fcea83e43d159c1181c773b52459c9"
+    },
+    "閲覧資料.md": {
+      "bytes": 2449,
+      "sha256": "c0451a03259ce447a036ea292f0db1ccae7e01340da971a0846c97782ae95a1d"
+    },
+    "再現資料\\Source.zip": {
+      "bytes": 155495,
+      "sha256": "d4bb64a145c64a5989a5a05010a3e8ff933ac218880063b74f6ae78d8a808627"
+    },
+    "再現資料\\学習と採否.zip": {
+      "bytes": 24599247,
+      "sha256": "f0699f816df14892871d8edc6f4afb72c75b93531acd5e77c2bb53f3b36db2bb"
+    },
+    "成果物\\入口とIFDの小型正本.json.gz": {
+      "bytes": 4177104,
+      "sha256": "466fe8b8d2ba34ccf521f25d09f1a5f2904d98e84ebd33ab955e20df9db13de3"
+    },
+    "成果物\\原因の追補.json.gz": {
+      "bytes": 4467,
+      "sha256": "260816deda07c28415f99d1ab227cb3fb7780a6a9aaf43d53afdc5dd365cf2af"
+    },
+    "成果物\\型付き四表.json": {
+      "bytes": 652701,
+      "sha256": "175608557e752d394c6839902481d4afbc7e130368f5193a74f8f32b9e95dd76"
+    },
+    "成果物\\診断完了.json.gz": {
+      "bytes": 645,
+      "sha256": "9d546f4527aa6019f5fe9e78ce44e1397ae1afd745212dd1786027b6cee70a7e"
+    },
+    "成果物\\診断根拠.json.gz": {
+      "bytes": 25389,
+      "sha256": "dc3d04a42b16acc1f3cf1debb8fcf6ab6e19a051a17d4c4b8be3836db1f119c4"
+    },
+    "成果物\\集計確認.json": {
+      "bytes": 1188,
+      "sha256": "6ba4906da5b9a36a953697032e02cf68d17e5ecb4542b349e33978402582b455"
+    },
+    "検査\\CSVの全セル再読.json": {
+      "bytes": 1036,
+      "sha256": "7174a9873ab1cd141469b373f712cbc57a0102f9956a6377e4f22308676e5760"
+    },
+    "検査\\CSV作成と表示の確認.json": {
+      "bytes": 6280,
+      "sha256": "9200f9997b1fd5ae9c3018e9d8ebcc899facb99f8023730b2ffe9d81271442fe"
+    },
+    "検査\\F0_自然実行前.json": {
+      "bytes": 1115,
+      "sha256": "9a7db3e20265d01e606fa253d8187bad87fde9f2c094fe70828e3d7045bbd4b1"
+    },
+    "検査\\F1_取得結合前.json": {
+      "bytes": 509,
+      "sha256": "2e9cac32a904669d9f98f2b8708f651291c090ddedc213dc0b22054a06a523c4"
+    },
+    "検査\\F1_由来属性訂正前.json": {
+      "bytes": 509,
+      "sha256": "f0121a2842937e48d1e74162a4eae8690453780d05f5610ff868852414c687b5"
+    },
+    "検査\\F2_初回は時間分母検査で停止.json": {
+      "bytes": 662,
+      "sha256": "6e1d3378e19087f598256ac05348ea57cf801439fce8ec3760439a4b0a0b069a"
+    },
+    "検査\\F2_由来属性訂正前.json": {
+      "bytes": 662,
+      "sha256": "3c5967cd80f3752d2b4d474eac8f48f09741f18f69131846b8df2ee45873ff21"
+    },
+    "検査\\F2_金融集計前.json": {
+      "bytes": 662,
+      "sha256": "289ab75bfeb87da9371b37bc2d851356fd46878aad24aab0108c03e1eba5d36d"
+    },
+    "検査\\修正と全取得同体の確認.json": {
+      "bytes": 809,
+      "sha256": "6b16abb4f4d177173648e385d42473e95dd3cd973995711232f6004dd6479217"
+    },
+    "検査\\初回の取得と集計Source.zip": {
+      "bytes": 8669,
+      "sha256": "5744686b47a33ebaa6ce65e4966033ea6f9f5edada45ced30b7d2e987e0efc22"
+    },
+    "検査\\取得の独立確認.json": {
+      "bytes": 24562,
+      "sha256": "8a8365207d676dd6da352af8a95d0db96914a8175b0867ed7dd1a879c466fc09"
+    },
+    "検査\\学習の独立確認.json": {
+      "bytes": 2036,
+      "sha256": "9d768f948e4b50e6bcef48c280c20dc92c1df5810488fa8c15a7952563076c9e"
+    },
+    "検査\\帯別学習と共通戻しの事後分解.json": {
+      "bytes": 3239,
+      "sha256": "e3819bea9da70f09e0f54c4d0ff7dadef5c07727a41d3e2d5e6bdb5af958dd7c"
+    },
+    "検査\\旧151学習の同体確認.json": {
+      "bytes": 353333,
+      "sha256": "1659ce61ea3fc21b4b84e4a4020cf198de26efda42188e3d7a201e5b0656f955"
+    },
+    "検査\\過去8政策の同体確認.json": {
+      "bytes": 23746,
+      "sha256": "aca2b68e886412179e02341b6a4b303ca420577397664ec4ae63b249a4c390fa"
+    },
+    "検査\\金融の独立確認.json": {
+      "bytes": 1560,
+      "sha256": "941f5d59e5fe8cd5de73017a92c991e60b73587cedce04195dd25fefc78235a1"
+    }
+  },
+  "後発文書QA票": "この保存索引の後に作成し、索引のSHAをQA票へ記録する。相互自己参照を避ける。",
+  "CSV表示確認": "4表の見出し・桁・空値/0を描画確認。PNGはworkへ移動し、正式閲覧はCSV4表のみ。"
+}
