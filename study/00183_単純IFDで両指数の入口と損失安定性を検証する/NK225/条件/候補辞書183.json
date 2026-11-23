@@ -1,0 +1,284 @@
+{
+  "version": "183当時背景と固定価格構造の純入口1",
+  "candidate_count": 28,
+  "rules": [
+    {
+      "id": "E183_00",
+      "control": "E182_00",
+      "family": "CONTROL",
+      "description": "旧179全期J035＝181E00を全同体で保持"
+    },
+    {
+      "id": "E183_01",
+      "control": "E182_01",
+      "family": "CONTROL",
+      "description": "181E10の無条件EARLY15を全同体で保持"
+    },
+    {
+      "id": "E183_02",
+      "control": "E182_02",
+      "family": "CONTROL",
+      "description": "5/15/30分EMA21傾き・DI差全6が実方向と逆の時だけEARLY15"
+    },
+    {
+      "id": "E183_03",
+      "control": "E182_03",
+      "family": "CONTROL",
+      "description": "4/6逆とADX上昇、又は元方向の突破・値幅・量スパイク時だけEARLY15"
+    },
+    {
+      "id": "E183_04",
+      "family": "EM",
+      "mode": "ADD",
+      "description": "上位方向内のEMA8押戻し回復／旧幹を優先し新構造を追加",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_05",
+      "family": "EM",
+      "mode": "RISK",
+      "description": "上位方向内のEMA8押戻し回復／既知の強い反対圧力は待ち新構造を追加",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_06",
+      "family": "EM",
+      "mode": "FOLLOW",
+      "description": "上位方向内のEMA8押戻し回復／強い元圧力と順行回復が揃えば方向を切替",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_07",
+      "family": "EM",
+      "mode": "LATE",
+      "description": "上位方向内のEMA8押戻し回復／過伸長と直近崩れが同時の入口だけ待つ",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_08",
+      "family": "BT",
+      "mode": "ADD",
+      "description": "固定した突破水準の再テスト後に順行／旧幹を優先し新構造を追加",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_09",
+      "family": "BT",
+      "mode": "RISK",
+      "description": "固定した突破水準の再テスト後に順行／既知の強い反対圧力は待ち新構造を追加",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_10",
+      "family": "BT",
+      "mode": "FOLLOW",
+      "description": "固定した突破水準の再テスト後に順行／強い元圧力と順行回復が揃えば方向を切替",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_11",
+      "family": "BT",
+      "mode": "LATE",
+      "description": "固定した突破水準の再テスト後に順行／過伸長と直近崩れが同時の入口だけ待つ",
+      "window_seconds": 1200
+    },
+    {
+      "id": "E183_12",
+      "family": "BF",
+      "mode": "ADD",
+      "description": "固定した突破水準の失敗後に反転／旧幹を優先し新構造を追加",
+      "window_seconds": 900
+    },
+    {
+      "id": "E183_13",
+      "family": "BF",
+      "mode": "RISK",
+      "description": "固定した突破水準の失敗後に反転／既知の強い反対圧力は待ち新構造を追加",
+      "window_seconds": 900
+    },
+    {
+      "id": "E183_14",
+      "family": "BF",
+      "mode": "FOLLOW",
+      "description": "固定した突破水準の失敗後に反転／強い元圧力と順行回復が揃えば方向を切替",
+      "window_seconds": 900
+    },
+    {
+      "id": "E183_15",
+      "family": "BF",
+      "mode": "LATE",
+      "description": "固定した突破水準の失敗後に反転／過伸長と直近崩れが同時の入口だけ待つ",
+      "window_seconds": 900
+    },
+    {
+      "id": "E183_16",
+      "family": "PR",
+      "mode": "ADD",
+      "description": "元圧力の失速と価格反転回復／旧幹を優先し新構造を追加",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_17",
+      "family": "PR",
+      "mode": "RISK",
+      "description": "元圧力の失速と価格反転回復／既知の強い反対圧力は待ち新構造を追加",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_18",
+      "family": "PR",
+      "mode": "FOLLOW",
+      "description": "元圧力の失速と価格反転回復／強い元圧力と順行回復が揃えば方向を切替",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_19",
+      "family": "PR",
+      "mode": "LATE",
+      "description": "元圧力の失速と価格反転回復／過伸長と直近崩れが同時の入口だけ待つ",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_20",
+      "family": "RG",
+      "mode": "ADD",
+      "description": "低ADXの固定BB帯端内への回復／旧幹を優先し新構造を追加",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_21",
+      "family": "RG",
+      "mode": "RISK",
+      "description": "低ADXの固定BB帯端内への回復／既知の強い反対圧力は待ち新構造を追加",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_22",
+      "family": "RG",
+      "mode": "FOLLOW",
+      "description": "低ADXの固定BB帯端内への回復／強い元圧力と順行回復が揃えば方向を切替",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_23",
+      "family": "RG",
+      "mode": "LATE",
+      "description": "低ADXの固定BB帯端内への回復／過伸長と直近崩れが同時の入口だけ待つ",
+      "window_seconds": 1800
+    },
+    {
+      "id": "E183_24",
+      "family": "MX",
+      "mode": "ADD",
+      "description": "混在背景からDIと動力が整理される／旧幹を優先し新構造を追加",
+      "window_seconds": 0
+    },
+    {
+      "id": "E183_25",
+      "family": "MX",
+      "mode": "RISK",
+      "description": "混在背景からDIと動力が整理される／既知の強い反対圧力は待ち新構造を追加",
+      "window_seconds": 0
+    },
+    {
+      "id": "E183_26",
+      "family": "MX",
+      "mode": "FOLLOW",
+      "description": "混在背景からDIと動力が整理される／強い元圧力と順行回復が揃えば方向を切替",
+      "window_seconds": 0
+    },
+    {
+      "id": "E183_27",
+      "family": "MX",
+      "mode": "LATE",
+      "description": "混在背景からDIと動力が整理される／過伸長と直近崩れが同時の入口だけ待つ",
+      "window_seconds": 0
+    }
+  ],
+  "raw_columns": [
+    "bb15_sigma",
+    "m15_adx",
+    "m15_adx_delta",
+    "m15_di_difference_to_side",
+    "m15_ema21_delta_to_side",
+    "m15_hist_delta_to_side",
+    "m1_body_ratio_to_side",
+    "m1_body_reclaim_atr5_to_side",
+    "m1_close_delta_atr5_to_side",
+    "m1_close_position_to_side",
+    "m1_previous_body_ratio_to_side",
+    "m1_tr_atr5_ratio",
+    "m1_volume_relative_prior3",
+    "m30_di_difference_to_side",
+    "m30_ema21_delta_to_side",
+    "m5_atr",
+    "m5_body_ratio_to_side",
+    "m5_di_difference_to_side",
+    "m5_ema21_delta_to_side",
+    "m5_hist_delta_to_side",
+    "m5_hist_to_side",
+    "m5_rsi_center_to_side",
+    "m5_rsi_delta_to_side",
+    "m5_tr_previous_atr_ratio",
+    "q0_entry_minus_bbmean_sigma_to_side",
+    "q0_entry_minus_ema8_atr5_to_side",
+    "q0_last_minus_m1_close_atr5_to_side",
+    "q0_last_minus_prior3_forward_edge_atr5_to_side",
+    "q0_spread_points"
+  ],
+  "対象": "NK225・全DAY/PRE/POST。商品単位・費用は後段。TOPIXへ無確認流用しない。",
+  "input": "当時100特徴、q0識別、q0_timeband、features.q0_prices(last,bid,ask,time,line,normal)、179全期J035純基準。",
+  "normal": "追加q0価格のtime/lineを元q0へ照合。正常BBO・有限Lastだけ使用し、q1/取得価格で補完しない。",
+  "common_quality": "spread>0かつ<=20pt、q0Lastと確定1分終値の絶対差<=1ATR5、entry−EMA8は−1〜2ATR5、相対量>=.5、ATR5>0。必要列既知。",
+  "spike": "1分TR/ATR5>2.5又は5分TR/前ATR>4、かつRSI増分絶対値>12又は相対量>3、かつentry−EMA8>1.5ATR5が同時なら除外。RSI水準単独では禁止しない。",
+  "momentum": "5分Hist増分とRSI増分が両方既知・>=0、少なくとも一方>0。強確認は両方>0。",
+  "structure": "1分実体>0・価格進行>0・live>0、又は順方向3分端差>0・実体>=0・進行>=0。各代替の必要列既知。",
+  "background": "5/15/30分の各足はEMA21傾きとDI差が両方既知かつ両方実方向>0の時だけ順行支持票を作る。両者が対立する足は順行支持にせずMXの混在で別扱い。未知を逆票や0票へ補完しない。",
+  "EM": "方向支持2足以上でentry−EMA8が−1.5〜.25ATR5の押戻しを観測。q0売買側価格とATRから固定EMA8価格を逆算し、後続で実方向に.1ATR5超回復＋動力/構造/量を確認。20実分。",
+  "BT": "元方向端差>.25ATR5・相対量>=.75・方向支持1足以上・動力で突破を観測。固定端=Last−符号×端差×ATR5。端から−.35〜.2ATR5の再テストq0を記憶し、それより後のq0で>.1ATR5へ復帰。再テストと同じq0では発火しない。20実分。",
+  "BF": "同じ固定端の突破後、元方向と逆に>.1ATR5戻り、実方向の1分構造と動力回復又はセットアップ時よりMACD/RSI圧力が悪化せず改善を確認。背景代替と相対量を伴う。15実分。",
+  "PR": "方向支持2足以上・ADX15>=20・元方向動力から観測ピークを記憶。反対へ.35ATR5以上戻り、元5分圧力改善・実方向構造・背景代替を確認。ADX20は中間帯を含む仮説。30実分。",
+  "RG": "ADX15<=25、取得側BB位置<=−1σ、相対量>=.5から固定1σ帯端を記憶。後続で帯端内へ戻り動力と1分構造を確認。30実分。BB/RSI水準だけの反転ではない。",
+  "MX": "方向6列中4列以上既知で、既知の正負が混在。5分DI又はHist増分が直前既知値<=0から>0へ変化し、実方向の動力/構造/量を確認。entry−EMA8<=1.5ATR5。",
+  "risk": "旧182の6列全逆、又は4逆＋ADX>=25上昇、又は元方向の価格端/量/値幅スパイク。既知リスクだけ作用し、UNKNOWNは別旗で旧幹を保つ既定行動。",
+  "late": "entry−EMA8>=1.5ATR5かつ1分実体<0・進行<0・live<=0、又はentry−EMA8>=1ATR5かつ(1分TR/ATR5>2.5又は5分TR/前ATR>4)とRSI増分絶対値>12が同時。必要値既知。",
+  "modes": {
+    "ADD": "旧幹を優先し新構造を追加",
+    "RISK": "既知の強い反対圧力は待ち新構造を追加",
+    "FOLLOW": "強い元圧力と順行回復が揃えば方向を切替",
+    "LATE": "過伸長と直近崩れが同時の入口だけ待つ"
+  },
+  "FOLLOW": "既知リスク時、反対側の方向支持2足・強動力・1分構造・量/位置が揃った時だけ方向反転。それ以外は待つ。ADXだけで売買しない。",
+  "priority": "固定対照は完全同体。新24案はLC(added=True)を保持、変更しない旧幹は新構造より優先。新構造の両方向競合は待ち。拒否元q0/新発火q0はTへ暗黙切替しない。",
+  "width_horizon": "新しい幅・期限の軸なし。セットアップ時の基準mw/fw/hiを記憶し、後刻発火へ同じ値を渡す。独立セットアップ時に基準core=0ならそのq0の既定幅/期限を継承。",
+  "clock": "場/scene/限月変更、時刻後退、180秒超gapで状態・直前値を消去。期限はq0秒の実時間、初期一律待機なし。同方向setupで期限延長しない。発火は後続q0で一度、取得結果は純状態へ戻さない。",
+  "limitations": [
+    "板数量を入力しないため完全OFI・注文吸収の直接観測とは呼ばない。",
+    "価格ピークはq0で観測した範囲。途中原板の未観測ピークを将来から補わない。",
+    "全81場は既使用。新金融を読む前の仮説固定であり、未見の利益証明ではない。",
+    "新構造追加により枠と後続取得が変わる。単独利益の足し算で評価しない。"
+  ],
+  "Source": [
+    {
+      "path": "work/183入口候補/rules183.py",
+      "bytes": 23594,
+      "sha256": "fa61742c5897ed66ecfa0e787783d13b4404d944ff294a1fa4f819550bbb5714"
+    },
+    {
+      "path": "work/182局面別の反転確認/rules182.py",
+      "bytes": 12507,
+      "sha256": "05d8f2b1714b5c349acd182ad0a4040614aadc141083e2fa29afda7033678cca"
+    },
+    {
+      "path": "work/181入口改善/rules181_v2.py",
+      "bytes": 16544,
+      "sha256": "d51f321be021d5549440c178e692972d7e2e96a65de21d28f0ec88c3ea580845"
+    },
+    {
+      "path": "work/181入口改善/rules181.py",
+      "bytes": 16104,
+      "sha256": "e47c1d344adbe07c2536ac85e43fce7b93a0a8af92fe838aae197181fb012d7a"
+    }
+  ],
+  "新183金融未入力": true
+}

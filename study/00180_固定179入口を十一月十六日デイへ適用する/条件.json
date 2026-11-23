@@ -1,0 +1,92 @@
+{
+  "試行": 180,
+  "対象": "2026-11-16_Day",
+  "主政策": {
+    "id": "全期_J035",
+    "route": "全期",
+    "base": "178/全期_J002_J000_K012",
+    "changes": {
+      "DAY": {
+        "mode": "ADD",
+        "rules": [
+          {
+            "id": "VLC0003_EDGE_NORMAL_W400_SESSION_DAY",
+            "family": "LC",
+            "rule_id": "VLC0003_EDGE",
+            "rule_index": 485,
+            "orientation": "NORMAL",
+            "birth_key": "VLC0003_EDGE/NORMAL",
+            "width": 400,
+            "horizon": "SESSION",
+            "mode": "EDGE",
+            "wilson": 0.37762055582045667,
+            "proxy": {
+              "count": 263.0,
+              "F": 43.0,
+              "A": 47.0,
+              "N": 173.0,
+              "C": 0.0,
+              "known": 263.0,
+              "profit": 3794988.0,
+              "loss": 2823239.0,
+              "net": 971749.0,
+              "pf": 1.3441965062114827,
+              "scenes": 19.0,
+              "resolved_scenes": 17.0,
+              "max_fa_share": 0.23333333333333334,
+              "rate": 0.4777777777777778,
+              "per_hour": 1.053053053053053,
+              "positive_rate": 0.5931558935361216
+            },
+            "selected_by": "決済正率"
+          }
+        ]
+      },
+      "PRE": {
+        "mode": "KEEP",
+        "rules": []
+      },
+      "POST": {
+        "mode": "KEEP",
+        "rules": []
+      }
+    }
+  },
+  "対照": "旧178全期のDAY入口、179と同じ終了時計",
+  "再探索": false,
+  "単位": "NK225ラージBBO、mini1枚、買売合計保有予約1件",
+  "時計": "開始一律待機なし、15:29全決済要求と新規停止・予約取消、15:30締切",
+  "費用": "1pt100円、片道38.5円と追加滑り5pt、売買側BBOを使用",
+  "入力と固定Source": [
+    {
+      "path": "S:/GitHub/masayoshi4649/FutureSignalResearch/work/179保有参加の探索/旧73の固定選択.json",
+      "bytes": 4450,
+      "sha256": "12d5ecc1376e91337b3b8002f5c49236c7a78e5ab22090d637583a5c63b88dc8"
+    },
+    {
+      "path": "S:/GitHub/masayoshi4649/FutureSignalResearch/study/00179_保有時間参加率と終了前決済で入口を広げる/条件.json",
+      "bytes": 23323,
+      "sha256": "6d8284f96e615fb582d4786b9cfdbb95801f995fcdf11e2a5f3c157109c61073"
+    },
+    {
+      "path": "S:/GitHub/masayoshi4649/FutureSignalResearch/work/179終了前決済/early179.py",
+      "bytes": 20636,
+      "sha256": "8e06c67e7a03ec01d76e39c88700fe7cc649fbc016db2d1d7c01bce690249c39"
+    },
+    {
+      "path": "S:/GitHub/masayoshi4649/FutureSignalResearch/work/179保有参加の探索/基盤179.py",
+      "bytes": 8922,
+      "sha256": "9426b3eb05d752cfd15102d66612ec3d32cd4c97f6c7c14caeb07a754c3668d4"
+    },
+    {
+      "path": "S:/GitHub/masayoshi4649/FutureSignalResearch/work/179量と構造の純入口/rules179.py",
+      "bytes": 16232,
+      "sha256": "c1b944bc0be6a941545d83c33e14cd5453121c3528dc227da2d4a50d6fdcc125"
+    },
+    {
+      "path": "S:/GitHub/masayoshi4649/JP_OSE_Data/future/NK225/2026-11-16_Day/book.jsonl",
+      "bytes": 279145299,
+      "sha256": "a8cb764a0667285461109b2d8c128e0e7d2e13af5e5bc642e634bb6c12b4d27d"
+    }
+  ]
+}

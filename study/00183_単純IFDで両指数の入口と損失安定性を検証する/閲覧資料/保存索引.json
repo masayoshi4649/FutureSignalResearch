@@ -1,0 +1,534 @@
+{
+  "成功": true,
+  "形式": "候補別54CSV・9候補・152760セル。保存正本の転記JSONは指紋のみ。",
+  "Source": {
+    "archive": {
+      "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/Source.zip",
+      "bytes": 18043,
+      "sha256": "485f40a1cab6bd03a85f872f441083e978ba940477c1cca205ce27e870f69b60"
+    },
+    "members": [
+      {
+        "path": "work/183閲覧資料/NKの型付き入力を作る.py",
+        "bytes": 3394,
+        "sha256": "80b5e8c5e28b7397ab8608886d23c659397eba13fa159e4c2d1b2d0c4db37e56"
+      },
+      {
+        "path": "work/183閲覧資料/TOPIXの型付き入力を作る.py",
+        "bytes": 13451,
+        "sha256": "60fc9cf1eaa3ca2f63e939bafec11989f72b47c3199e7817913145b12abf8296"
+      },
+      {
+        "path": "work/183閲覧資料/CSVを再読して確認する.py",
+        "bytes": 3248,
+        "sha256": "c7a366bcbc6b53f9513c035705f3c2f424d3ab0605ff2097751521721867f38a"
+      },
+      {
+        "path": "work/182閲覧資料/型付き入力を作る.py",
+        "bytes": 17576,
+        "sha256": "0a8c698b234a0eb210fd3f569b42f4e934dfa276f51e5d42ed439307d5ffe779"
+      },
+      {
+        "path": "scripts/損益CSV/候補別に出力する.mjs",
+        "bytes": 5715,
+        "sha256": "32a40e71a976866c9f4af6ecd8df09be44201714c6a7c48a70bc8e7d69e95a39"
+      }
+    ]
+  },
+  "共通安定性Source": {
+    "archive": {
+      "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/Source/NK225/新規Source.zip",
+      "bytes": 44457,
+      "sha256": "bff3cae30e7773a88b0a40996dd1c7e9c4570c0fdaf66fb9e92d7060b44905e8"
+    },
+    "member": {
+      "path": "work/183損失安定性/安定性183.py",
+      "bytes": 16944,
+      "sha256": "77b22494ac8fbe178eb5243731eeb2fea55cf670a8cd87d5ccd1ea5dcec1ad44"
+    }
+  },
+  "正本対応": [
+    {
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_00__C0_IFD.json.gz",
+        "bytes": 167413,
+        "sha256": "9c1c2a69ffa057e75e3c13296145aed97b6ac0cfd7d412d193be8d3fd142779d"
+      },
+      "original": {
+        "path": "work/183単純IFD検証/集約/E183_00__C0_IFD.json.gz",
+        "bytes": 167413,
+        "sha256": "9c1c2a69ffa057e75e3c13296145aed97b6ac0cfd7d412d193be8d3fd142779d"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_01__C0_IFD.json.gz",
+        "bytes": 165903,
+        "sha256": "8c0190c14a7eb6a054310f3861f881cd2916274d42fecb9ffe3ee1f3dd435a58"
+      },
+      "original": {
+        "path": "work/183単純IFD検証/集約/E183_01__C0_IFD.json.gz",
+        "bytes": 165903,
+        "sha256": "8c0190c14a7eb6a054310f3861f881cd2916274d42fecb9ffe3ee1f3dd435a58"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_04__C0_IFD.json.gz",
+        "bytes": 174374,
+        "sha256": "af50b68be8d912b2889681819d2d76175b3b23f700cdf4c568356501eda02ae6"
+      },
+      "original": {
+        "path": "work/183単純IFD検証/集約/E183_04__C0_IFD.json.gz",
+        "bytes": 174374,
+        "sha256": "af50b68be8d912b2889681819d2d76175b3b23f700cdf4c568356501eda02ae6"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_06__C0_IFD.json.gz",
+        "bytes": 173806,
+        "sha256": "aa084009a259ede52bee81d340b390774f2e7339a65ce2b0177437f03929c25b"
+      },
+      "original": {
+        "path": "work/183単純IFD検証/集約/E183_06__C0_IFD.json.gz",
+        "bytes": 173806,
+        "sha256": "aa084009a259ede52bee81d340b390774f2e7339a65ce2b0177437f03929c25b"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/TOPIX/金融正本/TOPIX183_T0_二足順行_W15_H60.json.gz",
+        "bytes": 25556,
+        "sha256": "8df463f94f6df90f1ea9b0ccca082fdbc6516dbfcfcddab243aeec92a0b5e1af"
+      },
+      "original": {
+        "path": "work/183TOPIX/金融正本/TOPIX183_T0_二足順行_W15_H60.json.gz",
+        "bytes": 25556,
+        "sha256": "8df463f94f6df90f1ea9b0ccca082fdbc6516dbfcfcddab243aeec92a0b5e1af"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/TOPIX/金融正本/TOPIX183_R0_弱トレンド反転_W15_H60.json.gz",
+        "bytes": 13445,
+        "sha256": "9d4f21385d36398911b5807cbfdb6d8a2adc421be7949aadeabf67035ae65d2b"
+      },
+      "original": {
+        "path": "work/183TOPIX/金融正本/TOPIX183_R0_弱トレンド反転_W15_H60.json.gz",
+        "bytes": 13445,
+        "sha256": "9d4f21385d36398911b5807cbfdb6d8a2adc421be7949aadeabf67035ae65d2b"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/TOPIX/金融正本/TOPIX183_M4_広い複合とスパイク除外_W15_H60.json.gz",
+        "bytes": 27514,
+        "sha256": "5fe82bb6d1cbd3b921c6c5169ba45b01e84263c60fbdff2f57fe9409fc26bddd"
+      },
+      "original": {
+        "path": "work/183TOPIX/金融正本/TOPIX183_M4_広い複合とスパイク除外_W15_H60.json.gz",
+        "bytes": 27514,
+        "sha256": "5fe82bb6d1cbd3b921c6c5169ba45b01e84263c60fbdff2f57fe9409fc26bddd"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00184_TOPIXの足の形成時計と入口の反転を検証する/金融正本/TOPIX184_C1_R0_弱トレンド反転_W15_H60.json.gz",
+        "bytes": 13336,
+        "sha256": "3c7c236401e060d519fcc6ea0fe478812395c01b7afa60f3efbf79f012218089"
+      },
+      "original": {
+        "path": "work/184TOPIX/金融正本/TOPIX184_C1_R0_弱トレンド反転_W15_H60.json.gz",
+        "bytes": 13336,
+        "sha256": "3c7c236401e060d519fcc6ea0fe478812395c01b7afa60f3efbf79f012218089"
+      }
+    },
+    {
+      "saved": {
+        "path": "study/00184_TOPIXの足の形成時計と入口の反転を検証する/金融正本/TOPIX184_C2_M4_広い複合とスパイク除外_W15_H60.json.gz",
+        "bytes": 29501,
+        "sha256": "8e334dd3c8edcc379e91666649dc2e0c0cc124f06667e7e0d779b0d6ed4323bd"
+      },
+      "original": {
+        "path": "work/184TOPIX/金融正本/TOPIX184_C2_M4_広い複合とスパイク除外_W15_H60.json.gz",
+        "bytes": 29501,
+        "sha256": "8e334dd3c8edcc379e91666649dc2e0c0cc124f06667e7e0d779b0d6ed4323bd"
+      }
+    }
+  ],
+  "確認票": [
+    {
+      "source": {
+        "path": "work/183閲覧資料/NK入力照合.json",
+        "bytes": 4125,
+        "sha256": "d9436adbe0ad29c2659c7157d0c3b6c67f4f2be490033f90ee51fc649125a99c"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/NK入力照合.json",
+        "bytes": 4125,
+        "sha256": "d9436adbe0ad29c2659c7157d0c3b6c67f4f2be490033f90ee51fc649125a99c"
+      }
+    },
+    {
+      "source": {
+        "path": "work/183閲覧資料/TOPIX入力照合.json",
+        "bytes": 3871,
+        "sha256": "39ceb851e79b46b97468c2d007382d2102c971c299f2c375489a6dd172191f69"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/TOPIX入力照合.json",
+        "bytes": 3871,
+        "sha256": "39ceb851e79b46b97468c2d007382d2102c971c299f2c375489a6dd172191f69"
+      }
+    },
+    {
+      "source": {
+        "path": "work/183CSV検査/NK/作成確認.json",
+        "bytes": 8123,
+        "sha256": "13dde958a7ab946a36a0c7ba39896e520de79b351cd57a724b523aa6ec23fb08"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/NK作成確認.json",
+        "bytes": 8123,
+        "sha256": "13dde958a7ab946a36a0c7ba39896e520de79b351cd57a724b523aa6ec23fb08"
+      }
+    },
+    {
+      "source": {
+        "path": "work/183CSV検査/TOPIX/作成確認.json",
+        "bytes": 10029,
+        "sha256": "0b489b2afeb83a11cc21d928d9a0fcd80b6954a38a16566d2c7ca92da90c4f14"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/TOPIX作成確認.json",
+        "bytes": 10029,
+        "sha256": "0b489b2afeb83a11cc21d928d9a0fcd80b6954a38a16566d2c7ca92da90c4f14"
+      }
+    },
+    {
+      "source": {
+        "path": "work/183閲覧資料/CSV再読確認.json",
+        "bytes": 14832,
+        "sha256": "087d2badfa20a91d8234f729e366baec68f30ec3bd9cf2151f801c0dfc39bded"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/CSV再読確認.json",
+        "bytes": 14832,
+        "sha256": "087d2badfa20a91d8234f729e366baec68f30ec3bd9cf2151f801c0dfc39bded"
+      }
+    }
+  ],
+  "型付き入力は指紋のみ": [
+    {
+      "path": "work/183閲覧資料/NK型付き入力.json",
+      "bytes": 728706,
+      "sha256": "0b9db175ab519e9205d3909ede66f5dfed642729e31780c1d96c452cffeb7d67"
+    },
+    {
+      "path": "work/183閲覧資料/TOPIX型付き入力.json",
+      "bytes": 997100,
+      "sha256": "3ee06fe4aa2c13ba8c9a1f5db92a2bc8dc6d45740da377f02b979f7d7fd8dc53"
+    }
+  ],
+  "照合票の元指紋": [
+    {
+      "path": "work/183閲覧資料/NK入力照合.json",
+      "bytes": 4125,
+      "sha256": "d9436adbe0ad29c2659c7157d0c3b6c67f4f2be490033f90ee51fc649125a99c"
+    },
+    {
+      "path": "work/183閲覧資料/TOPIX入力照合.json",
+      "bytes": 3871,
+      "sha256": "39ceb851e79b46b97468c2d007382d2102c971c299f2c375489a6dd172191f69"
+    }
+  ],
+  "CSV": [
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK00_旧入口/集計.csv",
+      "bytes": 2371,
+      "sha256": "1502b0d43a992a88aebebd93d37fd7b974a353d3558fe70290de36a6ccda3cf9"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK00_旧入口/デイ.csv",
+      "bytes": 12998,
+      "sha256": "95edba9588c68dd4633a2eba36b36978c3aae078fa190f1f3eae7cd42c62dae1"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK00_旧入口/ナイト_米前.csv",
+      "bytes": 12554,
+      "sha256": "909ba6bbe3f1a8c3e1adcc9e5b45a3472161435e9a3df8b0b14a1bcdd13e2c43"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK00_旧入口/ナイト_米後.csv",
+      "bytes": 12649,
+      "sha256": "cc9b048e20ff9af6c939b65447eac6559ec8b504a23d2c8580a2b4ebf5491e08"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK00_旧入口/ナイト合計.csv",
+      "bytes": 12533,
+      "sha256": "6f6b49f6b13304a2b1c95f20ad53f790e92142996ab6375ea7a7f0f2ed7f2dfe"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK00_旧入口/取引明細.csv",
+      "bytes": 83795,
+      "sha256": "39c10f66974239c109471f1c0c23202985da36ef46ee8ceabf5d474b8821638a"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK01_BO確認待ち/集計.csv",
+      "bytes": 2496,
+      "sha256": "512e73b06df1140fbbf9105a62495231838f183e0564e6699e0901b50683c84f"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK01_BO確認待ち/デイ.csv",
+      "bytes": 14004,
+      "sha256": "29903da092881a094204bbde16567deaeb2de46cb42e2e994daf8f03b7df136a"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK01_BO確認待ち/ナイト_米前.csv",
+      "bytes": 13594,
+      "sha256": "135d73a20aa477872667a5d73f75b66089220efd339b1c0a83c4c2179da97103"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK01_BO確認待ち/ナイト_米後.csv",
+      "bytes": 13689,
+      "sha256": "5a76fe30aa359d81d052df0b77bff830a9099b6b9926ecbc1e7ac19577214e29"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK01_BO確認待ち/ナイト合計.csv",
+      "bytes": 13573,
+      "sha256": "62032db694846892dca4a5876d8463223fddf4cae2b4a2eb86c437b5e186e1d6"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK01_BO確認待ち/取引明細.csv",
+      "bytes": 77780,
+      "sha256": "cd0b1e0595ba0296f9540cdae21f50c2c9dee5396669a2dcd04b8938e8cd31bf"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK04_EM追加/集計.csv",
+      "bytes": 2309,
+      "sha256": "7cb77eaa759731cfc08c0157e011bd3924b9ab151ce8528f230abb3b9a6cb629"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK04_EM追加/デイ.csv",
+      "bytes": 13298,
+      "sha256": "c4236d5cb8909350c31137426f3c9a7e42043da869fdb35befb02718f72c0cb2"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK04_EM追加/ナイト_米前.csv",
+      "bytes": 12700,
+      "sha256": "7f9c800c243e7a66142ab138c52103941b5c5ca8ec4e99de9e8f158672236604"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK04_EM追加/ナイト_米後.csv",
+      "bytes": 12622,
+      "sha256": "a23b45ae0abeb61f1f69110df3856e4192f6e862bcfb3cb38059a8322257722d"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK04_EM追加/ナイト合計.csv",
+      "bytes": 12710,
+      "sha256": "f24d7e04e040873085038ae95b8ef7ae38781587362c7b7443787f872563075c"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK04_EM追加/取引明細.csv",
+      "bytes": 104419,
+      "sha256": "077c8ee4475d0119e2193656dd45373dae91766dd578e0fccc48bbc0fe3720a5"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK06_EM方向確認/集計.csv",
+      "bytes": 2463,
+      "sha256": "aea5734680d6d7e31d500d98a1f1bdc24860681c5a897d4ebed70bba9c5e6e9a"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK06_EM方向確認/デイ.csv",
+      "bytes": 13797,
+      "sha256": "394ae2ca843133dcddc43f119a8384096001bbbf06f52597f6ff364f7e35a77c"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK06_EM方向確認/ナイト_米前.csv",
+      "bytes": 13223,
+      "sha256": "58434f1d1e87ae475d4b1af36465d991cf800a79982d99ba6cdb3da9fb0a7577"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK06_EM方向確認/ナイト_米後.csv",
+      "bytes": 13183,
+      "sha256": "99c9663e67ea79f8bc53c74653f0966700d048888f6c020819e52dff99b0436c"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK06_EM方向確認/ナイト合計.csv",
+      "bytes": 13251,
+      "sha256": "d928a915f05f5652e19778a20aaad1c47c743953767aba53c7326e12d29cf73f"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_NK06_EM方向確認/取引明細.csv",
+      "bytes": 103104,
+      "sha256": "3b20f766fd347352d66e18c4d2fc657ff96240518369fa98e78308bd50d939f6"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_M4旧足/集計.csv",
+      "bytes": 2415,
+      "sha256": "23ad37b8fcc7506f9e3895b640e2958986e09769ead8b5c491ab2fbf1f85107e"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_M4旧足/デイ.csv",
+      "bytes": 14486,
+      "sha256": "b55b5aaaf8df41839b9f128b2ce1ce5a4c7e53777b7b467b31ba33a4b54f5365"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_M4旧足/ナイト_米前.csv",
+      "bytes": 13846,
+      "sha256": "0d385e7b43b5dceb016d57ee3a0ada5bd93f2e45d2bbb578a6b8184ac64f3d69"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_M4旧足/ナイト_米後.csv",
+      "bytes": 13964,
+      "sha256": "8f1cc45c69b1dd8e3cc1f777c8a750c1d0bce3e78a3e886ef583e207174609f9"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_M4旧足/ナイト合計.csv",
+      "bytes": 13904,
+      "sha256": "fa484e99e103cbabd4c7c7c1576cedab0a3cf990ecd91ea610e6451927538170"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_M4旧足/取引明細.csv",
+      "bytes": 140445,
+      "sha256": "81d87a898b3e06e54713cd39562ae104d40d0aaddfb9322a4c79d0523b3428ae"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_R0旧足/集計.csv",
+      "bytes": 2319,
+      "sha256": "76c4170c033d097324708d88ad7cf6d9f4c2f6190259de46689a16107a93f6e6"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_R0旧足/デイ.csv",
+      "bytes": 13792,
+      "sha256": "2a8fd80ac7d49467da484e1dc26066b1be170ea3707ade2820bf3068b1e762e5"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_R0旧足/ナイト_米前.csv",
+      "bytes": 13457,
+      "sha256": "7cb5c776d5ac712d3d562b62ec3d534443fa37620e981a087da0d4bdd6be3ea1"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_R0旧足/ナイト_米後.csv",
+      "bytes": 13296,
+      "sha256": "6cb585e6ddda22b31d58de435fe009da0ece0a21d1d9ef1f2a1c9143f4d21211"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_R0旧足/ナイト合計.csv",
+      "bytes": 13220,
+      "sha256": "e078554af693c0f95445878d8c3f3a1d314886a672faf100a0e575420147a0b0"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_R0旧足/取引明細.csv",
+      "bytes": 58718,
+      "sha256": "7adc5f4cf37b91c704b4ea8743203e08ca9e8ee139f1770121d669996debfe09"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_T0旧足/集計.csv",
+      "bytes": 2208,
+      "sha256": "3f26841437c5f883866bcf4fa0292df29565c11de0c2e4470b158b04dfd41ce2"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_T0旧足/デイ.csv",
+      "bytes": 12992,
+      "sha256": "890a082c097294e68328d47388e904a2321307944ba86bd8878ea2b6cb82cd33"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_T0旧足/ナイト_米前.csv",
+      "bytes": 12264,
+      "sha256": "6443ea486d56bcdba2997d94653ca8558f22505e7adf13ea354e6e9dfa41bb52"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_T0旧足/ナイト_米後.csv",
+      "bytes": 12422,
+      "sha256": "272c96a5467710821bb190a9c5efb214f19bf29c25f77f5d240ef8af13fbb704"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_T0旧足/ナイト合計.csv",
+      "bytes": 12244,
+      "sha256": "47b7d54bba9e9badfe04bf197e5cb8f6523d84cb61a7ff4badd7ce8d9164b19f"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/183_TOPIX_T0旧足/取引明細.csv",
+      "bytes": 121324,
+      "sha256": "006ce863780e2872312e1848c8195dc48cc217ab88f3b869743122459c0ca6a4"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C1R0反転/集計.csv",
+      "bytes": 2534,
+      "sha256": "a2741a2fb6324110fdd688fb89ac677866aa584910f5787758a8f7f0211ce24f"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C1R0反転/デイ.csv",
+      "bytes": 15587,
+      "sha256": "b267e5bb52822ee6e76c18283da21cde732d454b3d7476fdccc2b5c4ac50db78"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C1R0反転/ナイト_米前.csv",
+      "bytes": 15448,
+      "sha256": "ef470d51521d37b1e17ec7069403cdee6c00616915abe6c56df3adfa20fa4c12"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C1R0反転/ナイト_米後.csv",
+      "bytes": 15207,
+      "sha256": "25515f4430e2f30d570b67bf76cd1ae4c3368127d6f9a51dfef5887fd2a324f3"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C1R0反転/ナイト合計.csv",
+      "bytes": 15184,
+      "sha256": "d60801f52a1af042c97e0d1fb170859dff4fe2b1eb97953786bf9b1cb8b7b659"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C1R0反転/取引明細.csv",
+      "bytes": 59374,
+      "sha256": "bf1103dc5d43e566d7ec13fa8720f8d41a29e432531d89134785c39083206ace"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C2M4直接足/集計.csv",
+      "bytes": 2579,
+      "sha256": "e37ccf2317054a1902a601acd8374c5d7597501c04aa0fe688da41613643fe8d"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C2M4直接足/デイ.csv",
+      "bytes": 15072,
+      "sha256": "3b34d41358b3cfad8c7d32a8e14615528ff081b704843254cdc90a35ae3f56b5"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C2M4直接足/ナイト_米前.csv",
+      "bytes": 14766,
+      "sha256": "729acdcaa718e9534773ee335ca932b7557a4db0c48ec170997b0634b648653b"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C2M4直接足/ナイト_米後.csv",
+      "bytes": 15111,
+      "sha256": "7a8bde342ccf6c5131140ddebdcd37ebeecf78e010f2152cf54c5ad7de5a117d"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C2M4直接足/ナイト合計.csv",
+      "bytes": 14812,
+      "sha256": "21a475c33382512000b50b37556c25494e559a702d6aa0adfba96a9e9dc949fa"
+    },
+    {
+      "path": "outputs/00183_単純IFDの入口比較/184_TOPIX_C2M4直接足/取引明細.csv",
+      "bytes": 154838,
+      "sha256": "d78afc9c62f1bd1d88223c71ee46955e839c87ba59fc318a02d1a34b309182a4"
+    }
+  ],
+  "別root再現Source": {
+    "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/再現する.py",
+    "bytes": 4097,
+    "sha256": "24778a32db8a8a76576d949ade454972681c52ac8ad1eeb735907fc464e7e581"
+  },
+  "未保存": "PNGと型付きJSONは正本転記のため正式複製しない。再現Sourceから生成可能。",
+  "別root再現確認": {
+    "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/別root再現確認.json",
+    "bytes": 1700,
+    "sha256": "73fece90729abc83bcaa149256a7795763a08ad989deaa3d898918fa89685da6"
+  },
+  "README": {
+    "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/閲覧資料/README.md",
+    "bytes": 4553,
+    "sha256": "6bc72babdcdc4eb442fa4dec024ce375f4df1a9d56e283f4790f343d5207057d"
+  }
+}

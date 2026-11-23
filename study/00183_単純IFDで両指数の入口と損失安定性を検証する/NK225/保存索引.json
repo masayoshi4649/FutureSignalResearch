@@ -1,0 +1,972 @@
+{
+  "成功": true,
+  "正式保存": true,
+  "新金融生成なし": true,
+  "Source": {
+    "archive": {
+      "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/Source/NK225/新規Source.zip",
+      "bytes": 44457,
+      "sha256": "bff3cae30e7773a88b0a40996dd1c7e9c4570c0fdaf66fb9e92d7060b44905e8"
+    },
+    "members": [
+      {
+        "path": "work/183入口候補/rules183.py",
+        "bytes": 23594,
+        "sha256": "fa61742c5897ed66ecfa0e787783d13b4404d944ff294a1fa4f819550bbb5714"
+      },
+      {
+        "path": "work/183入口候補/人工検査.py",
+        "bytes": 12509,
+        "sha256": "a2e10ff2d9d54db229aea8d2ed7f4b547d5ce868c6305259421352b228e45192"
+      },
+      {
+        "path": "work/183単純IFD検証/実行183.py",
+        "bytes": 5867,
+        "sha256": "961bb14420d257d7a9b04e58b19567e98baeb891713638b6c96aef13769c6f45"
+      },
+      {
+        "path": "work/183単純IFD検証/当時価格183.py",
+        "bytes": 3476,
+        "sha256": "118036ef749e8d5953da31ad1093b4dacc39f268ac6bb23486122ec7fd15f8e5"
+      },
+      {
+        "path": "work/183単純IFD検証/比較を集計する.py",
+        "bytes": 4694,
+        "sha256": "40ec9662b27f1efeb99991934b103cec0055551e017ea781f0fd93bf6f128ce2"
+      },
+      {
+        "path": "work/183単純IFD検証/比較方針.json",
+        "bytes": 2765,
+        "sha256": "d17aff112853265d794cbccddb198a69b85a56fa1c03ca92cc273e39e466549f"
+      },
+      {
+        "path": "work/183損失安定性/NK183の差を診断する.py",
+        "bytes": 4620,
+        "sha256": "d897ce4b7fc4edecbbc4fa6c2ee7f3077eb03595d578d484391ab66745b301d3"
+      },
+      {
+        "path": "work/183損失安定性/NK183を正式保存する.py",
+        "bytes": 15080,
+        "sha256": "c358fb9c00ca5873b8b946717f93ca44afc2169ad3f60add6f4f2dbbab700e6f"
+      },
+      {
+        "path": "work/183損失安定性/人工と旧正本を確認する.py",
+        "bytes": 8201,
+        "sha256": "741dee3821bd2b0a2750609a2b8937d62df700501edb62c7a322584b051aa0cb"
+      },
+      {
+        "path": "work/183損失安定性/安定性183.py",
+        "bytes": 16944,
+        "sha256": "77b22494ac8fbe178eb5243731eeb2fea55cf670a8cd87d5ccd1ea5dcec1ad44"
+      },
+      {
+        "path": "work/183損失安定性/新候補の集計を独立検査する.py",
+        "bytes": 8657,
+        "sha256": "ccbc3cbe8116bb9358b13a19579c0a779546176c18db5fab5944e3ee2a5ca535"
+      },
+      {
+        "path": "work/183損失安定性/順位方針.json",
+        "bytes": 1554,
+        "sha256": "1e6ec2d64c2ecea0fa5aadff5d1203668b40c5d3d0571e1f88d5aa272d13aac3"
+      }
+    ]
+  },
+  "親参照": [
+    {
+      "path": "study/00182_反転の危険局面と値幅に応じた保護を組み合わせる/再現資料/Source.zip",
+      "bytes": 54344,
+      "sha256": "7fe6cfa06cea8fa7f1a83b4cca7dbca9504487564593f59a2d1e1dab7ac968d7"
+    },
+    {
+      "path": "study/00182_反転の危険局面と値幅に応じた保護を組み合わせる/再現資料/比較正本.zip",
+      "bytes": 1694396,
+      "sha256": "b526e51b6720e5040a85a39cbd7eda94d6854b8648741e5bf3976f0a37eccd43"
+    },
+    {
+      "path": "study/00182_反転の危険局面と値幅に応じた保護を組み合わせる/再現資料/保存索引.json",
+      "bytes": 166172,
+      "sha256": "c3346029d2e9b19cf3cd47e895623c37d703c1cd889af92fb2b64047931f7268"
+    },
+    {
+      "path": "study/00182_反転の危険局面と値幅に応じた保護を組み合わせる/再現資料/README.md",
+      "bytes": 2753,
+      "sha256": "22b5cfb18285db369f7867dac6d230bff45cb46ad2bff441d4356948de2ced4c"
+    }
+  ],
+  "正本": [
+    {
+      "source": {
+        "path": "work/183単純IFD検証/全候補比較.json.gz",
+        "bytes": 128368,
+        "sha256": "96f8c206accc8fb254e4556d8dc39c8714a538beb0e1e0c3b7ff2856f6c7a362"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/全候補比較.json.gz",
+        "bytes": 128368,
+        "sha256": "96f8c206accc8fb254e4556d8dc39c8714a538beb0e1e0c3b7ff2856f6c7a362"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183単純IFD検証/全候補の損失安定性.json.gz",
+        "bytes": 663789,
+        "sha256": "92de0aaaf3f2bb589b57ee8411e2554a87fcad26d6247c6f225b07ba88bf80ba"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/全候補の損失安定性.json.gz",
+        "bytes": 663789,
+        "sha256": "92de0aaaf3f2bb589b57ee8411e2554a87fcad26d6247c6f225b07ba88bf80ba"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183単純IFD検証/全純入口の封印.json",
+        "bytes": 1163,
+        "sha256": "4c1ce15227e0cfdfb1335ff2cbcda688f96e908636bd7826eed2e60c85253939"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/全純入口の封印.json",
+        "bytes": 1163,
+        "sha256": "4c1ce15227e0cfdfb1335ff2cbcda688f96e908636bd7826eed2e60c85253939"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183単純IFD検証/集約/E183_00__C0_IFD.json.gz",
+        "bytes": 167413,
+        "sha256": "9c1c2a69ffa057e75e3c13296145aed97b6ac0cfd7d412d193be8d3fd142779d"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_00__C0_IFD.json.gz",
+        "bytes": 167413,
+        "sha256": "9c1c2a69ffa057e75e3c13296145aed97b6ac0cfd7d412d193be8d3fd142779d"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183単純IFD検証/集約/E183_01__C0_IFD.json.gz",
+        "bytes": 165903,
+        "sha256": "8c0190c14a7eb6a054310f3861f881cd2916274d42fecb9ffe3ee1f3dd435a58"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_01__C0_IFD.json.gz",
+        "bytes": 165903,
+        "sha256": "8c0190c14a7eb6a054310f3861f881cd2916274d42fecb9ffe3ee1f3dd435a58"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183単純IFD検証/集約/E183_04__C0_IFD.json.gz",
+        "bytes": 174374,
+        "sha256": "af50b68be8d912b2889681819d2d76175b3b23f700cdf4c568356501eda02ae6"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_04__C0_IFD.json.gz",
+        "bytes": 174374,
+        "sha256": "af50b68be8d912b2889681819d2d76175b3b23f700cdf4c568356501eda02ae6"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183単純IFD検証/集約/E183_06__C0_IFD.json.gz",
+        "bytes": 173806,
+        "sha256": "aa084009a259ede52bee81d340b390774f2e7339a65ce2b0177437f03929c25b"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/選択4候補/E183_06__C0_IFD.json.gz",
+        "bytes": 173806,
+        "sha256": "aa084009a259ede52bee81d340b390774f2e7339a65ce2b0177437f03929c25b"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183入口候補/候補辞書183.json",
+        "bytes": 13019,
+        "sha256": "f4c97442b690c1c47e6a7514b154588bd1ee73805decf5df624334f2d5a9d53d"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/条件/候補辞書183.json",
+        "bytes": 13019,
+        "sha256": "f4c97442b690c1c47e6a7514b154588bd1ee73805decf5df624334f2d5a9d53d"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183入口候補/純候補の固定183.json",
+        "bytes": 1136,
+        "sha256": "ab54c3d56c673979c3b72d7feddf37627df6e5caa5f03416a27fe1a7799109d7"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/条件/純候補の固定183.json",
+        "bytes": 1136,
+        "sha256": "ab54c3d56c673979c3b72d7feddf37627df6e5caa5f03416a27fe1a7799109d7"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183入口候補/README.md",
+        "bytes": 7323,
+        "sha256": "bfe6843d76c8cf093b0c379bb5bfe7fa8b60de54168b64ada6401d268984b381"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/入口仕様.md",
+        "bytes": 7323,
+        "sha256": "bfe6843d76c8cf093b0c379bb5bfe7fa8b60de54168b64ada6401d268984b381"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183損失安定性/NK183独立確認.json",
+        "bytes": 4691,
+        "sha256": "c6fc9e9c9dc97c8354bda330be7008303eb293e79e85d9bae029a04342f24e89"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/監査/NK183独立確認.json",
+        "bytes": 4691,
+        "sha256": "c6fc9e9c9dc97c8354bda330be7008303eb293e79e85d9bae029a04342f24e89"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183損失安定性/人工と旧正本の確認.json",
+        "bytes": 1061,
+        "sha256": "fec19c03b49322253904d5d935dc45ed219793d4777c3a0f44d375b263109227"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/監査/人工と旧正本の確認.json",
+        "bytes": 1061,
+        "sha256": "fec19c03b49322253904d5d935dc45ed219793d4777c3a0f44d375b263109227"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183入口候補/人工確認183.json",
+        "bytes": 1840200,
+        "sha256": "3813e1b7c905c3ea5c1cfa2036fb578f3f04b2eb662091c6383824c977bb627c"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/監査/入口人工確認183.json.gz",
+        "bytes": 50264,
+        "sha256": "53750e4d96c16719adb7c134c1365f8675dd432c3c572dac1cdeeebf30a280d2"
+      },
+      "変換": "gzip可逆圧縮。元byteへ戻すと元SHAに一致。"
+    },
+    {
+      "source": {
+        "path": "work/183損失安定性/NK183取得差の診断.json.gz",
+        "bytes": 48510,
+        "sha256": "f72a04ba6af131dcd3d4160bd05f6935d0626455f93f8b929a466e410b882aff"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/NK183取得差の診断.json.gz",
+        "bytes": 48510,
+        "sha256": "f72a04ba6af131dcd3d4160bd05f6935d0626455f93f8b929a466e410b882aff"
+      },
+      "変換": "なし"
+    },
+    {
+      "source": {
+        "path": "work/183損失安定性/外部一次資料.md",
+        "bytes": 3882,
+        "sha256": "df4fbd3d20f0d971095bbf2e30b0c61a023ad5dbcc66046138c4ec229c71c52a"
+      },
+      "saved": {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/外部一次資料.md",
+        "bytes": 3882,
+        "sha256": "df4fbd3d20f0d971095bbf2e30b0c61a023ad5dbcc66046138c4ec229c71c52a"
+      },
+      "変換": "なし"
+    }
+  ],
+  "省略中間指紋": [
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_00__C0_IFD.json.gz",
+      "bytes": 142031,
+      "sha256": "0fc25aa122dc65663578c0847d7e5da9b4c5115b114a2aa1bfd1e9ed2d490340"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_01__C0_IFD.json.gz",
+      "bytes": 137458,
+      "sha256": "a1cd0c66c21b719035f0f234a34f952b0f4dc7fe142946b730d08963af03218f"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_02__C0_IFD.json.gz",
+      "bytes": 141573,
+      "sha256": "d49e6a20e1afaa8aca11ef835ad0c6c7b69809c633ed2a564fc53bc8a8ad2b2b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_03__C0_IFD.json.gz",
+      "bytes": 141775,
+      "sha256": "28b759fd66bf454aa780e84546e2020d07fa98f9231a77aca5e868de540baf21"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_04__C0_IFD.json.gz",
+      "bytes": 154599,
+      "sha256": "7c3f255e87de5a0790b536ffc1349cb4c282b6828efd17817fad4742d7843ca0"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_05__C0_IFD.json.gz",
+      "bytes": 153022,
+      "sha256": "fc0406a2dd6c4d315e28b2a103177666bc744057e7d7baa8bc6032b1cde6fc13"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_06__C0_IFD.json.gz",
+      "bytes": 153479,
+      "sha256": "60689d7ad9173f0d6d5d65731c0f784cb8c26c4cfd244a7ffd1d997c9a755e15"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_07__C0_IFD.json.gz",
+      "bytes": 154571,
+      "sha256": "e4b79f238e60f623594acc05bd90d611d53181fd0e92d3a4e33b3fe94ef01b18"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_08__C0_IFD.json.gz",
+      "bytes": 151671,
+      "sha256": "7461e2ff724dc6473eb8af5272a8a4c8111dfe6afad9d61fe7affbd5bfeb7221"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_09__C0_IFD.json.gz",
+      "bytes": 149316,
+      "sha256": "49964788d39840c7681c866474f6ac6aa3281015cef1af92e016f15004a852fe"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_10__C0_IFD.json.gz",
+      "bytes": 150237,
+      "sha256": "6799448752a670f2264f1611521df96a40bb04380715fcd2b1e8453a437e662b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_11__C0_IFD.json.gz",
+      "bytes": 151629,
+      "sha256": "aae4c5ce434f08cb744b11987ad20ef25855ec4a9bd266e7a35054a6b6440d98"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_12__C0_IFD.json.gz",
+      "bytes": 159642,
+      "sha256": "6b59ba26891f90ceb75a2f03e76760c0d3a49b793f95ec4191e69c0a0f368a30"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_13__C0_IFD.json.gz",
+      "bytes": 157323,
+      "sha256": "15546c121b75d6eb88ba138a70fd19bf7f32b6f34786310ea38cc3c1cd7d4926"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_14__C0_IFD.json.gz",
+      "bytes": 158200,
+      "sha256": "f0e1721a975e00e64dd51236116a2c5570903c912a144c6c966a347e0bdb431b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_15__C0_IFD.json.gz",
+      "bytes": 159605,
+      "sha256": "19f185cf5966faf141747da871af5ed2911b32dbe2ca2edc29a4820245a0b09e"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_16__C0_IFD.json.gz",
+      "bytes": 158816,
+      "sha256": "906ab23e7a2dce05be4a0e76c0fa13d5c046337b976679902938174c04460f62"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_17__C0_IFD.json.gz",
+      "bytes": 156413,
+      "sha256": "85b34458209272452c4b25ca3c0e018d1c8b1141f4592e0b1e196bb696559a11"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_18__C0_IFD.json.gz",
+      "bytes": 156927,
+      "sha256": "33bb41865013785349e18f93f82edb31d30b9a277baf185b0f46bffbf2baa05e"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_19__C0_IFD.json.gz",
+      "bytes": 158765,
+      "sha256": "bedb89ea2d475ee3c366a4b37d0db83ba2f7325f75b435a448063b3d1b2dfa6f"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_20__C0_IFD.json.gz",
+      "bytes": 150409,
+      "sha256": "8201012d371fe037fc14e8a65bf100bfe720319289504d1455053110151bb4ab"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_21__C0_IFD.json.gz",
+      "bytes": 147426,
+      "sha256": "13a1ad9559442700ffc95c3cdbbe70c4e1ecf80dd20337d56ade2941ce2deda3"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_22__C0_IFD.json.gz",
+      "bytes": 147800,
+      "sha256": "5c82126c32f65670ac24386983c738b25265f1c87d7054d3ea08219964051e59"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_23__C0_IFD.json.gz",
+      "bytes": 150396,
+      "sha256": "5184cd2d1bd65233381b978bf842f6a3ae242c0fe799a365d4fe7c19f29635c8"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_24__C0_IFD.json.gz",
+      "bytes": 154392,
+      "sha256": "f96e18aa7c8c9504eb8bde61568533e91c3164bc8a63859ba578d12db41a0a82"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_25__C0_IFD.json.gz",
+      "bytes": 152678,
+      "sha256": "6fb636af56e662fbb8dae51b48404d274bc517fa464c42c3eb745c6d1ad794fc"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_26__C0_IFD.json.gz",
+      "bytes": 153153,
+      "sha256": "40b4189aed8563a47873fa29b27e535cc624b0a1b06cfbbfa510ce1bf5493af3"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/旧73/E183_27__C0_IFD.json.gz",
+      "bytes": 154361,
+      "sha256": "6a429c26c7cb5cb1076c8e946fae0186ef813397f40bd5a32a2d2b6fe7d4cc1a"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_00__C0_IFD.json.gz",
+      "bytes": 11461,
+      "sha256": "aca2a7c346587d3ae2d0585bc62190a6e53be34ae858a122a0ea7d8568af636b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_01__C0_IFD.json.gz",
+      "bytes": 11705,
+      "sha256": "bb54c58fc2f3edd10990d9fceaa473246b211bafbdfe773a56ae3386edde80ad"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_02__C0_IFD.json.gz",
+      "bytes": 11359,
+      "sha256": "c29d8f099ac4b665f0972f2c124595733e5ebd6a370631ff586943d39c214420"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_03__C0_IFD.json.gz",
+      "bytes": 11349,
+      "sha256": "e71bd1035bf18c5a86116625524bb3fabdeed4a43ae4a9c95bdf93d3d5b96abe"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_04__C0_IFD.json.gz",
+      "bytes": 11378,
+      "sha256": "d42129d078d8c9818f4d89cd4daefbe954283335852330d518401bee3dbc9964"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_05__C0_IFD.json.gz",
+      "bytes": 11343,
+      "sha256": "39a367e6fb62af27817eddd0dad6da5563683ed64b21687fd4fcffb046790214"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_06__C0_IFD.json.gz",
+      "bytes": 11381,
+      "sha256": "26d6e287cf5a37dbfbe8e425a95fe9fae9dade8db94f3c04de62400f83fb6c0e"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_07__C0_IFD.json.gz",
+      "bytes": 11378,
+      "sha256": "d00a4cc3be02617018ac3d26914dbe8854c3e74654b7f4f4ccc70b3a09169a3b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_08__C0_IFD.json.gz",
+      "bytes": 11502,
+      "sha256": "04931cde68dfdafd178002022a4d96a014295ab2b899b7b1f373dc5b0cba5dc5"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_09__C0_IFD.json.gz",
+      "bytes": 11346,
+      "sha256": "fa3c2184cf0137c49b086621f7a4d6d1f9263473b300a5219634594d157ae0be"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_10__C0_IFD.json.gz",
+      "bytes": 11487,
+      "sha256": "ece0f06dbbb4bb959b1b846aa797427b10097a7f96ebdcca147090bff49a17f0"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_11__C0_IFD.json.gz",
+      "bytes": 11502,
+      "sha256": "0f037500a1cbd6a7548f84f36ce6bd881fa500e9641648f6c8d8739231d5f284"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_12__C0_IFD.json.gz",
+      "bytes": 11554,
+      "sha256": "24289110b7dbf08e2facf14d66f6c4d589295fca525ad3a4b8b6b3b335427a6f"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_13__C0_IFD.json.gz",
+      "bytes": 11488,
+      "sha256": "c37f10bf0868bcbc7a817dd2621c5fb96871cf6c6b74158583ef2a6930124bd9"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_14__C0_IFD.json.gz",
+      "bytes": 11546,
+      "sha256": "0d19e20d3d6e78ab7c3d46b0d2b7b925bdae206044f6eb85d9221c7f4fef8de7"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_15__C0_IFD.json.gz",
+      "bytes": 11554,
+      "sha256": "4ca8abc53e245457ccaa43efde0d373032357248e3ebbac486e05be564b02029"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_16__C0_IFD.json.gz",
+      "bytes": 11501,
+      "sha256": "ac8d5cefaa8cc8fdc9109312c854fe96997a42fdbc6c8c5fb270f721de6f667e"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_17__C0_IFD.json.gz",
+      "bytes": 11344,
+      "sha256": "b0c064a5e99cf5a9b80e7bea65ef40c05c0ac7dd1cde72ce0dc6a92ec449f9ab"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_18__C0_IFD.json.gz",
+      "bytes": 11488,
+      "sha256": "94613a8084de5b04fdcad6b70b1eaccbb82bbe33223f6c5a79bf3d8b7d0a8e86"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_19__C0_IFD.json.gz",
+      "bytes": 11501,
+      "sha256": "4b2ed2a8e5c09498b2022d31952f3d381823167e27405a1e74e6b87f9fb388c3"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_20__C0_IFD.json.gz",
+      "bytes": 11488,
+      "sha256": "dfb7defaa522f77f56045ce514ea7c535e06fa2c19c9da6124cfe25fef791420"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_21__C0_IFD.json.gz",
+      "bytes": 11239,
+      "sha256": "c271098357cfd47dbe4aa1acbbb5ba62496f750414459a84c43a1378a63b14e6"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_22__C0_IFD.json.gz",
+      "bytes": 11472,
+      "sha256": "7047ceaa65e787883e04b057e2d5a41272d5a5e02fb0b0077bffefb2417f4c18"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_23__C0_IFD.json.gz",
+      "bytes": 11488,
+      "sha256": "29e148adbb604320acace5249658dda0acbcebcd2470ac7cdc06cd33ef9a12a3"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_24__C0_IFD.json.gz",
+      "bytes": 11483,
+      "sha256": "5cbc9f44882a09a76c41857b9ca361e3d3c97ee0d00f8bf44b05ac616eb91071"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_25__C0_IFD.json.gz",
+      "bytes": 11234,
+      "sha256": "66cdaf4697cc13c171c4ac26e168e1761c13dccdde87ca3883b998dd1088201b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_26__C0_IFD.json.gz",
+      "bytes": 11467,
+      "sha256": "55e89956ba86e2714409683d3e009692375609d3035817ed15c3fbb83eed795b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/本日1/E183_27__C0_IFD.json.gz",
+      "bytes": 11483,
+      "sha256": "999fbdfbaec3197b513abfb6277b6999fa49a18413c1418413f112797a7da522"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_00__C0_IFD.json.gz",
+      "bytes": 24637,
+      "sha256": "2ed80c4878157d413c583ffcb97c58e3cff3d22b8211bc30effa0bbc1b22646a"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_01__C0_IFD.json.gz",
+      "bytes": 24438,
+      "sha256": "95a856fd10d54a407114845c9b061c8bec5566508d7e7a0df4a8f1b5721b71f5"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_02__C0_IFD.json.gz",
+      "bytes": 24590,
+      "sha256": "7d67ef1f1b5168e7ee2ddac72e475e6d52a9b8f56bfe702af15e3ba2820c7af0"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_03__C0_IFD.json.gz",
+      "bytes": 24824,
+      "sha256": "0194ebbc7aa15b49acd19c05fcb546bde2de44a4f2cd134aa9af75305bf1b55f"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_04__C0_IFD.json.gz",
+      "bytes": 25512,
+      "sha256": "38ebc9709a9c9de995e6ccc1161840cf9db243034a8cd185bc49a531784e09eb"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_05__C0_IFD.json.gz",
+      "bytes": 25768,
+      "sha256": "37d87cc56cba21e50445e76b4b597aaa2251f55b4b6e9c0b6ade881e503d7e46"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_06__C0_IFD.json.gz",
+      "bytes": 25636,
+      "sha256": "77106bc14ef9dda9cdd7e608f7f29b72949cf75ca32d528cf51da476e9f48b7b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_07__C0_IFD.json.gz",
+      "bytes": 25512,
+      "sha256": "744dd082fc77bbb34f3ef2a094bf83f4bdc30fad34de8853bcc8ba3dc8ac188b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_08__C0_IFD.json.gz",
+      "bytes": 25771,
+      "sha256": "3637a6fbc8075087d2e46441598d758afa87635fa45024d9a8f27e623ce8c9d9"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_09__C0_IFD.json.gz",
+      "bytes": 25166,
+      "sha256": "da20b2e8689d2207432f9afefd3790dffb8719d32f7b421a206a5ef7204fca6e"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_10__C0_IFD.json.gz",
+      "bytes": 25537,
+      "sha256": "d927fb72f57568a70669b5d3e0a65dafefd2d1d0f95da3f38971cbe43cb69737"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_11__C0_IFD.json.gz",
+      "bytes": 25771,
+      "sha256": "a826e7a3cb120a65864670cc48bd55fbe1a1385e77523e4562695f5895f52909"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_12__C0_IFD.json.gz",
+      "bytes": 25665,
+      "sha256": "fdd70b304c1466a09fd772f35862ac8d48cba226045d140a22e03f5810277bce"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_13__C0_IFD.json.gz",
+      "bytes": 25682,
+      "sha256": "b06c49b2ecfc7785558d64508d787cacfd1309482d27dda73ad9dc61649cb76d"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_14__C0_IFD.json.gz",
+      "bytes": 25889,
+      "sha256": "1504ca63cd2fdd48a0bcf8e8bc6e06477ff0b6766f903b669957d645ac04bb09"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_15__C0_IFD.json.gz",
+      "bytes": 25665,
+      "sha256": "ceb7d6f703aa419317d742822c5c302a2734a6622d09981be9be345ea8bef846"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_16__C0_IFD.json.gz",
+      "bytes": 27544,
+      "sha256": "e28ea5adab2afdc51e243711e785479a11eccc33b6c4ba71120f10deaf6e2d7c"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_17__C0_IFD.json.gz",
+      "bytes": 27335,
+      "sha256": "1ff9f35691b932d72b2cd14dfc677a9689b2ba3323ec220889ec89bef13a0a26"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_18__C0_IFD.json.gz",
+      "bytes": 27518,
+      "sha256": "f3aadd684bf5197bad62f5394f790088e8e77c5e61d6b21b117ec32217a1cd19"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_19__C0_IFD.json.gz",
+      "bytes": 27544,
+      "sha256": "179a8d2414ed1af074065138cf2e79ecb06f5996d9939b969ebd789cb457ee0e"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_20__C0_IFD.json.gz",
+      "bytes": 24789,
+      "sha256": "30fbc829682cc2294014dca480eceec82bb64edbc19d1d127b7ebce73f0acece"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_21__C0_IFD.json.gz",
+      "bytes": 24441,
+      "sha256": "fa75b4ef3ef666f5ff6efba1c62b061bb3bef47805e27deba1927d7ddd0470c0"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_22__C0_IFD.json.gz",
+      "bytes": 24769,
+      "sha256": "d20e434362a1dc64b853b3b8993fe30644bf3d944717655fdec3cc2ffa9f06e3"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_23__C0_IFD.json.gz",
+      "bytes": 24789,
+      "sha256": "4362f5839b235a1add3fd9d62caa32b9aa554151f3c9715f2cc61049ba993741"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_24__C0_IFD.json.gz",
+      "bytes": 25412,
+      "sha256": "1bda0cdbb63c8c54fb9004a33f6f54572d3a7f7e18f44a241288d9968a9c177b"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_25__C0_IFD.json.gz",
+      "bytes": 25356,
+      "sha256": "daa7e9bb9e9bed3b41ef08969435ba83d02da2cb145dcbcaa295dcb9bbeed5e8"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_26__C0_IFD.json.gz",
+      "bytes": 25699,
+      "sha256": "4d6e221a929cacd00eed3836325b10c9303bb182650a936aa8d4b9065669ae9e"
+    },
+    {
+      "path": "work/183単純IFD検証/期間別/追加7/E183_27__C0_IFD.json.gz",
+      "bytes": 25412,
+      "sha256": "192a35da159e21993cbbc28c9428c545c3b6098d5d6f5628f170da742cf88630"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_00__C0_IFD.json.gz",
+      "bytes": 167413,
+      "sha256": "9c1c2a69ffa057e75e3c13296145aed97b6ac0cfd7d412d193be8d3fd142779d"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_01__C0_IFD.json.gz",
+      "bytes": 165903,
+      "sha256": "8c0190c14a7eb6a054310f3861f881cd2916274d42fecb9ffe3ee1f3dd435a58"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_02__C0_IFD.json.gz",
+      "bytes": 167347,
+      "sha256": "a46ed558ad085d3f877228264a3b3201892098cbd0a29fb880df0beba67fb6bd"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_03__C0_IFD.json.gz",
+      "bytes": 167415,
+      "sha256": "d55a0261bf2db8b4040c4bac6867fdbda4fa44fdcdb2c82eaadf57f8615d586d"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_04__C0_IFD.json.gz",
+      "bytes": 174374,
+      "sha256": "af50b68be8d912b2889681819d2d76175b3b23f700cdf4c568356501eda02ae6"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_05__C0_IFD.json.gz",
+      "bytes": 173812,
+      "sha256": "3d5336e1e302b59a9ab48ade2efc8d0a81dfef996433ea7f9ad5a3b3fa91f362"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_06__C0_IFD.json.gz",
+      "bytes": 173806,
+      "sha256": "aa084009a259ede52bee81d340b390774f2e7339a65ce2b0177437f03929c25b"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_07__C0_IFD.json.gz",
+      "bytes": 174374,
+      "sha256": "eab0ead57c1258cf768fec028d196c30b583bc06c5d2e98fd739949ff3e06658"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_08__C0_IFD.json.gz",
+      "bytes": 172883,
+      "sha256": "0d37a3fbb68e09a588837d22e9d1cadb2ac20ae4ef041f66e8c5b7ddd076693a"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_09__C0_IFD.json.gz",
+      "bytes": 171971,
+      "sha256": "2a5c986b48f6254abb524f873f1c51ae7c3bd864b5a826a31a15b10172f1f52b"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_10__C0_IFD.json.gz",
+      "bytes": 172635,
+      "sha256": "24c038701225d4ab0200962de6d161453de11289b6b15d5ec3da689a1c47cce9"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_11__C0_IFD.json.gz",
+      "bytes": 172883,
+      "sha256": "ac6e86c0a0501a2cc359fa6050462464adb5b2cfd0f5b7cedbd59e04ab5b95af"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_12__C0_IFD.json.gz",
+      "bytes": 179421,
+      "sha256": "14745e7d35a58f0159c1a834ac8edf0d4be4b91a1b992f59ce37e1af4fc53147"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_13__C0_IFD.json.gz",
+      "bytes": 178959,
+      "sha256": "ebf630380d1468c39e6c26e37ec93622dff682fd571eab8185f2e5813bed2d3b"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_14__C0_IFD.json.gz",
+      "bytes": 179554,
+      "sha256": "8de4e0b901c5372d524d170f61fc560c7488f6a20352bfd4bda54f513edf32c6"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_15__C0_IFD.json.gz",
+      "bytes": 179421,
+      "sha256": "aa635b63cc5ac3fc32777ff7caabe0bbd9175441e968ac2d0b3bae0ba6efad97"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_16__C0_IFD.json.gz",
+      "bytes": 178354,
+      "sha256": "715845f9c65ce714a304f277bd0430e47ddf5256d9ffb784767e1230433144f4"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_17__C0_IFD.json.gz",
+      "bytes": 177331,
+      "sha256": "1567848fe7f8d61c49b35be261e2b6aed3064c529ed062ded75464553f8754cc"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_18__C0_IFD.json.gz",
+      "bytes": 177560,
+      "sha256": "899d0448451282f65b0945f0419660f1a07c69c4cade19b9d8e1afedcf930340"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_19__C0_IFD.json.gz",
+      "bytes": 178355,
+      "sha256": "a819f7920ecf1eab0c8d35e3692f9ad21fe4c36865cbfb5b4c1b7cbceeaa4224"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_20__C0_IFD.json.gz",
+      "bytes": 171702,
+      "sha256": "4ff752874721bb2e439603686658f098e28239705129c21f572c37b8983501b5"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_21__C0_IFD.json.gz",
+      "bytes": 169867,
+      "sha256": "5895438646eabbf9117b191db792a9da98e3f6cc5fbb00527a16d03f48b58a54"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_22__C0_IFD.json.gz",
+      "bytes": 170074,
+      "sha256": "81b02593e6c83cf6265be58a44c1da5cf5db20f85fcfdea38d316129cd92250f"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_23__C0_IFD.json.gz",
+      "bytes": 171702,
+      "sha256": "562dff801ae55cc9bbb70641ae0ce636f74763c9b73b9413afc86efe257afe00"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_24__C0_IFD.json.gz",
+      "bytes": 174843,
+      "sha256": "0d9ae5bfb8b967221efab0b41fecee8bc04b94402cf49707da4b04a88e61edd6"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_25__C0_IFD.json.gz",
+      "bytes": 174429,
+      "sha256": "65ba23852b4b86c8899c2cd80c8794dbb81a171f45c14adde0830ce5a2b3030c"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_26__C0_IFD.json.gz",
+      "bytes": 174707,
+      "sha256": "0c876968f8bf7290e90ce0e3ace19692dd35925f45267a500c352b036be5c5e0"
+    },
+    {
+      "path": "work/183単純IFD検証/集約/E183_27__C0_IFD.json.gz",
+      "bytes": 174843,
+      "sha256": "d8c0eb90af8eaf1ad1ce8c601516fb12d93143a17cc259f29e26b77ad85cb7b2"
+    },
+    {
+      "path": "work/183単純IFD検証/旧73_新入口.npz",
+      "bytes": 473299,
+      "sha256": "4641280f49ad27a30c1f6ee57db24589e20065166a99cf1c230c027d52f2b561"
+    },
+    {
+      "path": "work/183単純IFD検証/旧73_純成立診断.json.gz",
+      "bytes": 186574,
+      "sha256": "44331bd6d846b9679e09f5dbabf8c9a417d71323ece6781ee1a11c422391a4bc"
+    },
+    {
+      "path": "work/183単純IFD検証/追加7_新入口.npz",
+      "bytes": 96680,
+      "sha256": "2c7a8823f94ced370332ea00ae98063174f349ab957445cd6140f5fdaae7e943"
+    },
+    {
+      "path": "work/183単純IFD検証/追加7_純成立診断.json.gz",
+      "bytes": 22464,
+      "sha256": "6ed92b9bdba38792b9034b4de9d7ba741f09c08d536c4c3ca53ac9fc1131a42f"
+    },
+    {
+      "path": "work/183単純IFD検証/本日1_新入口.npz",
+      "bytes": 54750,
+      "sha256": "9ddb68215f12d8b1af7b58cbb58232de3556ee18196be5da10b54cf9432e2fcd"
+    },
+    {
+      "path": "work/183単純IFD検証/本日1_純成立診断.json.gz",
+      "bytes": 3205,
+      "sha256": "4fe2f136cdf8acbe6e2a23f26ac0a27f0e83f10fa80983730d7d8c7f7df441a5"
+    }
+  ],
+  "恒久q0入力": [
+    {
+      "path": "inputs/00183_入口判断時点の価格/旧73_q0.json",
+      "bytes": 24512,
+      "sha256": "333dce8ba461c7614618e386ff147d66ebd976d5dd1b8d33fdbf44776e9004c9"
+    },
+    {
+      "path": "inputs/00183_入口判断時点の価格/旧73_q0.npz",
+      "bytes": 308408,
+      "sha256": "b9d0d0712d22dbd0f3b610188b410fc698f90ba0b629f392afbffb7aa47aea2b"
+    },
+    {
+      "path": "inputs/00183_入口判断時点の価格/本日1_q0.json",
+      "bytes": 1208,
+      "sha256": "d76300d6077e002a5eed68046081c018fa2024bab3c81c04d8ed4a27d0f3cb31"
+    },
+    {
+      "path": "inputs/00183_入口判断時点の価格/本日1_q0.npz",
+      "bytes": 4841,
+      "sha256": "5cbe09f12265128b1d2ae42e8031a5c651b037aaba51d5726bba6b0368e08cf1"
+    },
+    {
+      "path": "inputs/00183_入口判断時点の価格/追加7_q0.json",
+      "bytes": 3281,
+      "sha256": "c98867b7af219fb0346944d36680b0c0aa4386474d9f422e7513b40b4f5ed93d"
+    },
+    {
+      "path": "inputs/00183_入口判断時点の価格/追加7_q0.npz",
+      "bytes": 33931,
+      "sha256": "581d7acd8721c85ef9b0c4e959fc250576fb18c8fe7fd232009d13db84e38416"
+    },
+    {
+      "path": "inputs/00183_入口判断時点の価格/README.md",
+      "bytes": 1739,
+      "sha256": "530bd9e12884fc97a239d7172e1dc5a3cb44c863f85aa98fbdc88efd7a34d922"
+    }
+  ],
+  "条件": {
+    "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/条件_NK225.json",
+    "bytes": 14788,
+    "sha256": "f25475dc3b189f6420147362789e369c3f9e95422cc9767282dae8f0cc11ed67"
+  },
+  "文書": [
+    {
+      "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/README.md",
+      "bytes": 4685,
+      "sha256": "4bfaa53d66154e2a665b681ed2186190d966c8a1107b3c7a8b70b3c778596a76"
+    },
+    {
+      "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/取得差の診断.md",
+      "bytes": 3197,
+      "sha256": "7eaeb2e303a44f6fa32f330b47d7103186970a35e500c32412459ac63c5ae63d"
+    }
+  ],
+  "依存関係": {
+    "Python": "3.14.3",
+    "NumPy": "2.5.4",
+    "tzdata": "2026.6"
+  },
+  "保存方針": "旧archiveと共用原板は参照。新Sourceだけ保存。全28候補の小表/安定性、選択4金融正本を保存。84期間packと残り集約pack・純NPZは再生成可能な指紋に留める。",
+  "完了確認": {
+    "Source全member同体": 12,
+    "保存正本同体": 15,
+    "NK独立集計照合": 117936
+  },
+  "保存後補足": {
+    "旧README指紋": {
+      "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/README.md",
+      "bytes": 3912,
+      "sha256": "afa154ca20fdc68ff2c70d3ae97808cb3540829b8b3929e01b8eeff93a64f438"
+    },
+    "修正理由": "比較を集計する.pyの必須--baselineを明示。他掲載CLIもargparseと照合。正式保存4案だけの読取再集計を追加。",
+    "凍結Source無変更": true,
+    "Sourceと監査": [
+      {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/Source/NK225/保存4案を検算.py",
+        "bytes": 3750,
+        "sha256": "5fb955b50fe503f61d05cfe0e83f14be00eab6f56fbcde99c33d25ae80052a38"
+      },
+      {
+        "path": "study/00183_単純IFDで両指数の入口と損失安定性を検証する/NK225/監査/保存4案の再集計確認.json",
+        "bytes": 808,
+        "sha256": "e2166300f5cf78e487dc3362cba98579d7b2115e199669f0dd90fa01fa6029d0"
+      }
+    ],
+    "独立属性": 16848
+  }
+}
