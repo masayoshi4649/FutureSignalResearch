@@ -1,0 +1,902 @@
+[
+  {
+    "name": "bb15_forward_room_125_ratio_to_side",
+    "role": "構造",
+    "unit": "125pt比",
+    "formula": "s*(F_s-P0_s)/125。F_sは買Upper/売Lower",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0と当時Snapshot、当時BB15、正常q0の買Ask/売Bid",
+    "unknown": "式内の値未知又は分母<=0、BB未知、不正常BBO"
+  },
+  {
+    "name": "bb15_mean_room_125_ratio_to_side",
+    "role": "構造",
+    "unit": "125pt比",
+    "formula": "s*(BB15.Mean-P0_s)/125",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0と当時Snapshot、当時BB15、正常q0の買Ask/売Bid",
+    "unknown": "式内の値未知又は分母<=0、BB未知、不正常BBO"
+  },
+  {
+    "name": "bb15_percent_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買percentB、売1-percentB",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当時Snapshot.BB15。width_atrは15分ATRも参照",
+    "unknown": "BB未知。位置/percentはσ<=0、width_atrは15分価格/ATR不足又はATR<=0"
+  },
+  {
+    "name": "bb15_position_sigma_to_side",
+    "role": "構造",
+    "unit": "σ比",
+    "formula": "s*(出生Last-BB15中心)/sigma",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当時Snapshot.BB15。width_atrは15分ATRも参照",
+    "unknown": "BB未知。位置/percentはσ<=0、width_atrは15分価格/ATR不足又はATR<=0"
+  },
+  {
+    "name": "bb15_sigma",
+    "role": "値幅",
+    "unit": "pt",
+    "formula": "118Bankの当公表を含む20終値の母標準偏差",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当時Snapshot.BB15。width_atrは15分ATRも参照",
+    "unknown": "BB未知。位置/percentはσ<=0、width_atrは15分価格/ATR不足又はATR<=0"
+  },
+  {
+    "name": "bb15_width_atr_ratio",
+    "role": "値幅",
+    "unit": "ATR比",
+    "formula": "BB15幅/ATR15",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当時Snapshot.BB15。width_atrは15分ATRも参照",
+    "unknown": "BB未知。位置/percentはσ<=0、width_atrは15分価格/ATR不足又はATR<=0"
+  },
+  {
+    "name": "m15_adx",
+    "role": "強度",
+    "unit": "指標pt",
+    "formula": "ADX。売買方向を掛けない",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_adx_delta",
+    "role": "強度",
+    "unit": "指標pt",
+    "formula": "ADX-前ADX。売買方向を掛けない",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_atr",
+    "role": "値幅",
+    "unit": "pt",
+    "formula": "ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_atr_tr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "ATR/TR。TR=0なら未知",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_di_difference_to_side",
+    "role": "方向",
+    "unit": "指標pt",
+    "formula": "s*(PlusDI-MinusDI)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_ema21_delta_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*EMA21増分/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_ema21_delta_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*EMA21増分",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_ema8_delta_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*EMA8増分/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_ema8_delta_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*EMA8増分",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_gap_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*Gap/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_gap_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*Gap",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_hist_atr_to_side",
+    "role": "勢い",
+    "unit": "ATR比",
+    "formula": "s*Hist/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_hist_delta_atr_to_side",
+    "role": "勢い",
+    "unit": "ATR比",
+    "formula": "s*(Hist-前Hist)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_hist_delta_to_side",
+    "role": "勢い",
+    "unit": "pt",
+    "formula": "s*(Hist-前Hist)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_hist_to_side",
+    "role": "勢い",
+    "unit": "pt",
+    "formula": "s*Hist",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_price_ema21_atr_to_side",
+    "role": "構造",
+    "unit": "ATR比",
+    "formula": "s*(出生Last-EMA21)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_price_ema8_atr_to_side",
+    "role": "構造",
+    "unit": "ATR比",
+    "formula": "s*(出生Last-EMA8)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_rsi_center_to_side",
+    "role": "勢い",
+    "unit": "指標pt",
+    "formula": "s*(RSI-50)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_rsi_delta_to_side",
+    "role": "勢い",
+    "unit": "指標pt",
+    "formula": "s*(RSI-前RSI)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_tr_atr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "TR/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m15_tr_previous_atr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "TR/前ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m1_body_range_prior3_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "s*(r.Close-r.Open)/(U3-L3)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場rとrを除く実連続prior3のOHLC",
+    "unknown": "4足不足/非隣接/必要価格未知/未closed又はprior3幅<=0。量は不要"
+  },
+  {
+    "name": "m1_body_ratio_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "s*(r.Close-r.Open)/(r.High-r.Low)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r OHLC",
+    "unknown": "r価格未知/未closed又はr足幅<=0"
+  },
+  {
+    "name": "m1_body_reclaim_atr5_to_side",
+    "role": "構造",
+    "unit": "ATR5比",
+    "formula": "s*(r.Close-p.Open)/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r。TR/close_delta/body_reclaimは実隣接pも必要、当時5分ATR",
+    "unknown": "必要短期足不足/非隣接/価格未知/未closed、5分価格/ATR未知又はATR<=0"
+  },
+  {
+    "name": "m1_close_delta_atr5_to_side",
+    "role": "勢い",
+    "unit": "ATR5比",
+    "formula": "s*(r.Close-p.Close)/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r。TR/close_delta/body_reclaimは実隣接pも必要、当時5分ATR",
+    "unknown": "必要短期足不足/非隣接/価格未知/未closed、5分価格/ATR未知又はATR<=0"
+  },
+  {
+    "name": "m1_close_position_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買は(r.Close-r.Low)/幅、売は1-同値",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r OHLC",
+    "unknown": "r価格未知/未closed又はr足幅<=0"
+  },
+  {
+    "name": "m1_forward_wick_ratio",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買はr上ヒゲ/幅、売はr下ヒゲ/幅",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r OHLC",
+    "unknown": "r価格未知/未closed又はr足幅<=0"
+  },
+  {
+    "name": "m1_opposite_wick_ratio",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買はr下ヒゲ/幅、売はr上ヒゲ/幅",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r OHLC",
+    "unknown": "r価格未知/未closed又はr足幅<=0"
+  },
+  {
+    "name": "m1_previous_body_ratio_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "s*(p.Close-p.Open)/(p.High-p.Low)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "rに実隣接する当場p OHLC",
+    "unknown": "p不足/非隣接/価格未知/未closed又はp足幅<=0"
+  },
+  {
+    "name": "m1_range_atr5_ratio",
+    "role": "値幅",
+    "unit": "ATR5比",
+    "formula": "(r.High-r.Low)/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r。TR/close_delta/body_reclaimは実隣接pも必要、当時5分ATR",
+    "unknown": "必要短期足不足/非隣接/価格未知/未closed、5分価格/ATR未知又はATR<=0"
+  },
+  {
+    "name": "m1_tr_atr5_ratio",
+    "role": "値幅",
+    "unit": "ATR5比",
+    "formula": "max(r.High-r.Low,abs(r.High-p.Close),abs(r.Low-p.Close))/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r。TR/close_delta/body_reclaimは実隣接pも必要、当時5分ATR",
+    "unknown": "必要短期足不足/非隣接/価格未知/未closed、5分価格/ATR未知又はATR<=0"
+  },
+  {
+    "name": "m1_volume_ratio_previous",
+    "role": "量",
+    "unit": "比",
+    "formula": "r.Volume/p.Volume。両量既知、p量正、r量0は既知0",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場実隣接p/rのclosedと両Volume。価格knownは不要",
+    "unknown": "p/r不足/非隣接/未closed/量未知又はp量<=0。r量0は既知0"
+  },
+  {
+    "name": "m1_volume_relative_prior3",
+    "role": "量",
+    "unit": "比",
+    "formula": "r.Volume/前3本Volume平均。量既知・平均正、r量0は既知0",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "rと実隣接する当場prior3のclosed・Volume。価格knownは不要",
+    "unknown": "4足不足/非隣接/未closed/量未知又はprior3量平均<=0。r量0は既知0"
+  },
+  {
+    "name": "m30_adx",
+    "role": "強度",
+    "unit": "指標pt",
+    "formula": "ADX。売買方向を掛けない",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_adx_delta",
+    "role": "強度",
+    "unit": "指標pt",
+    "formula": "ADX-前ADX。売買方向を掛けない",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_atr",
+    "role": "値幅",
+    "unit": "pt",
+    "formula": "ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_atr_tr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "ATR/TR。TR=0なら未知",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_di_difference_to_side",
+    "role": "方向",
+    "unit": "指標pt",
+    "formula": "s*(PlusDI-MinusDI)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_ema21_delta_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*EMA21増分/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_ema21_delta_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*EMA21増分",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_ema8_delta_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*EMA8増分/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_ema8_delta_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*EMA8増分",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_gap_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*Gap/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_gap_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*Gap",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_hist_atr_to_side",
+    "role": "勢い",
+    "unit": "ATR比",
+    "formula": "s*Hist/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_hist_delta_atr_to_side",
+    "role": "勢い",
+    "unit": "ATR比",
+    "formula": "s*(Hist-前Hist)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_hist_delta_to_side",
+    "role": "勢い",
+    "unit": "pt",
+    "formula": "s*(Hist-前Hist)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_hist_to_side",
+    "role": "勢い",
+    "unit": "pt",
+    "formula": "s*Hist",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_price_ema21_atr_to_side",
+    "role": "構造",
+    "unit": "ATR比",
+    "formula": "s*(出生Last-EMA21)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_price_ema8_atr_to_side",
+    "role": "構造",
+    "unit": "ATR比",
+    "formula": "s*(出生Last-EMA8)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_rsi_center_to_side",
+    "role": "勢い",
+    "unit": "指標pt",
+    "formula": "s*(RSI-50)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_rsi_delta_to_side",
+    "role": "勢い",
+    "unit": "指標pt",
+    "formula": "s*(RSI-前RSI)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_tr_atr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "TR/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m30_tr_previous_atr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "TR/前ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_adx",
+    "role": "強度",
+    "unit": "指標pt",
+    "formula": "ADX。売買方向を掛けない",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_adx_delta",
+    "role": "強度",
+    "unit": "指標pt",
+    "formula": "ADX-前ADX。売買方向を掛けない",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_atr",
+    "role": "値幅",
+    "unit": "pt",
+    "formula": "ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_atr_tr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "ATR/TR。TR=0なら未知",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_body_ratio_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "s*(Close-Open)/(High-Low)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_body_to_side",
+    "role": "構造",
+    "unit": "pt",
+    "formula": "s*(Close-Open)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_close_position_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買は(Close-Low)/足幅、売は(High-Close)/足幅",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_di_difference_to_side",
+    "role": "方向",
+    "unit": "指標pt",
+    "formula": "s*(PlusDI-MinusDI)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_ema21_delta_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*EMA21増分/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_ema21_delta_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*EMA21増分",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_ema8_delta_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*EMA8増分/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_ema8_delta_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*EMA8増分",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_forward_wick_ratio",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買は上ヒゲ、売は下ヒゲを足幅で割る",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_gap_atr_to_side",
+    "role": "方向",
+    "unit": "ATR比",
+    "formula": "s*Gap/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_gap_to_side",
+    "role": "方向",
+    "unit": "pt",
+    "formula": "s*Gap",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_hist_atr_to_side",
+    "role": "勢い",
+    "unit": "ATR比",
+    "formula": "s*Hist/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_hist_delta_atr_to_side",
+    "role": "勢い",
+    "unit": "ATR比",
+    "formula": "s*(Hist-前Hist)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_hist_delta_to_side",
+    "role": "勢い",
+    "unit": "pt",
+    "formula": "s*(Hist-前Hist)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_hist_to_side",
+    "role": "勢い",
+    "unit": "pt",
+    "formula": "s*Hist",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_opposite_wick_ratio",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買は下ヒゲ、売は上ヒゲを足幅で割る",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_price_ema21_atr_to_side",
+    "role": "構造",
+    "unit": "ATR比",
+    "formula": "s*(出生Last-EMA21)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_price_ema8_atr_to_side",
+    "role": "構造",
+    "unit": "ATR比",
+    "formula": "s*(出生Last-EMA8)/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_range",
+    "role": "構造",
+    "unit": "pt",
+    "formula": "High-Low",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_rsi_center_to_side",
+    "role": "勢い",
+    "unit": "指標pt",
+    "formula": "s*(RSI-50)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_rsi_delta_to_side",
+    "role": "勢い",
+    "unit": "指標pt",
+    "formula": "s*(RSI-前RSI)",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_tr_atr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "TR/ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "m5_tr_previous_atr_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "TR/前ATR",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "列名の5/15/30分の当場fresh公表と式内のknown値",
+    "unknown": "当該Frame不在/価格未知/必要技法値未知。比率分母<=0。ゼロ足幅の形状比は未知、range値0は既知"
+  },
+  {
+    "name": "q0_entry_minus_bbmean_sigma_to_side",
+    "role": "構造",
+    "unit": "σ比",
+    "formula": "s*(P0_s-BB15.Mean)/BB15.Sigma",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0と当時Snapshot、当時BB15、正常q0の買Ask/売Bid",
+    "unknown": "式内の値未知又は分母<=0、BB未知又はσ<=0、不正常BBO"
+  },
+  {
+    "name": "q0_entry_minus_ema21_atr5_to_side",
+    "role": "構造",
+    "unit": "ATR5比",
+    "formula": "s*(P0_s-EMA21_5)/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0と当時Snapshot、当時5分ATR、対応5分EMA、正常q0の買Ask/売Bid",
+    "unknown": "式内の値未知又は分母<=0、5分価格/ATR未知又はATR<=0、EMA未知、不正常BBO"
+  },
+  {
+    "name": "q0_entry_minus_ema8_atr5_to_side",
+    "role": "構造",
+    "unit": "ATR5比",
+    "formula": "s*(P0_s-EMA8_5)/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0と当時Snapshot、当時5分ATR、対応5分EMA、正常q0の買Ask/売Bid",
+    "unknown": "式内の値未知又は分母<=0、5分価格/ATR未知又はATR<=0、EMA未知、不正常BBO"
+  },
+  {
+    "name": "q0_entry_minus_last_atr5_to_side",
+    "role": "構造",
+    "unit": "ATR5比",
+    "formula": "s*(P0_s-Last0)/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0と当時Snapshot、当時5分ATR、正常q0の買Ask/売Bid",
+    "unknown": "式内の値未知又は分母<=0、5分価格/ATR未知又はATR<=0、不正常BBO"
+  },
+  {
+    "name": "q0_entry_prior3_percent_to_side",
+    "role": "構造",
+    "unit": "比",
+    "formula": "買(P0_s-L3)/(U3-L3)、売1-同値。clipなし",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "正常q0の買Ask/売Bid、rを除く当場実連続prior3のOHLC",
+    "unknown": "4slot不足/非隣接、prior3価格未知/未closed、prior3幅<=0又は不正常BBO。rのOHLC/量は不要、clipなし"
+  },
+  {
+    "name": "q0_last_minus_m1_close_atr5_to_side",
+    "role": "構造",
+    "unit": "ATR5比",
+    "formula": "s*(Last0-r.Close)/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当場r。TR/close_delta/body_reclaimは実隣接pも必要、当時5分ATR",
+    "unknown": "必要短期足不足/非隣接/価格未知/未closed、5分価格/ATR未知又はATR<=0"
+  },
+  {
+    "name": "q0_last_minus_prior3_forward_edge_atr5_to_side",
+    "role": "構造",
+    "unit": "ATR5比",
+    "formula": "s*(Last0-E_s)/ATR5。E_sは前3本の買High最大/売Low最小",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0 Last、rを除く当場実連続prior3のOHLC、当時5分ATR",
+    "unknown": "4slot不足/非隣接、prior3価格未知/未closed、5分価格/ATR未知又はATR<=0。rのOHLC/量は不要"
+  },
+  {
+    "name": "q0_prior3_forward_room_125_to_side",
+    "role": "構造",
+    "unit": "125pt比",
+    "formula": "s*(E_s-P0_s)/125",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "正常q0の買Ask/売Bid、rを除く当場実連続prior3のOHLC",
+    "unknown": "4slot不足/非隣接、prior3価格未知/未closed又は不正常BBO。rのOHLC/量は不要"
+  },
+  {
+    "name": "q0_spread_125_ratio",
+    "role": "値幅",
+    "unit": "125pt比",
+    "formula": "(Ask0-Bid0)/125。正常q0だけ既知",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0 Bid/Ask/QuoteOK",
+    "unknown": "q0が不正常BBO"
+  },
+  {
+    "name": "q0_spread_points",
+    "role": "値幅",
+    "unit": "pt",
+    "formula": "Ask0-Bid0。正常q0だけ既知",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0 Bid/Ask/QuoteOK",
+    "unknown": "q0が不正常BBO"
+  },
+  {
+    "name": "rvol5",
+    "role": "量",
+    "unit": "比",
+    "formula": "118Bankの当5分量/前20公表平均量",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当時Snapshot.RVOL5",
+    "unknown": "RVOL5未知"
+  },
+  {
+    "name": "target125_atr15_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "125/ATR15",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "当時15分ATR",
+    "unknown": "15分価格/ATR未知又はATR<=0"
+  },
+  {
+    "name": "target125_atr5_ratio",
+    "role": "値幅",
+    "unit": "比",
+    "formula": "125/ATR5",
+    "mirror": "価格全反射P'=C-P・Bid/Ask交換・s'=-sで同値。RSIは100-RSI、DI交換、MA/Hist/増分反射、ADX/ATR/量不変。",
+    "needs": "q0と当時Snapshot、当時5分ATR",
+    "unknown": "式内の値未知又は分母<=0、5分価格/ATR未知又はATR<=0"
+  }
+]

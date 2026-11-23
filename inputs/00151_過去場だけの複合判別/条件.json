@@ -1,0 +1,113 @@
+{
+  "trial": 151,
+  "name": "広い複合テクニカルを過去場だけで判別する",
+  "parent_trial": 148,
+  "catalog_count": 100,
+  "catalog_definition_sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+  "session_count": 73,
+  "feature_rows": 35339,
+  "legacy_count": 87,
+  "runtime": {
+    "python": "3.14.3",
+    "numpy": "2.5.4",
+    "catboost": "1.2.10"
+  },
+  "classifier_parameters": {
+    "iterations": 128,
+    "depth": 3,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 10,
+    "loss_function": "MultiClass",
+    "classes_count": 3,
+    "random_seed": 151,
+    "boosting_type": "Plain",
+    "bootstrap_type": "No",
+    "random_strength": 0,
+    "has_time": true,
+    "nan_mode": "Min",
+    "use_best_model": false,
+    "allow_writing_files": false,
+    "verbose": false,
+    "task_type": "CPU",
+    "thread_count": 1
+  },
+  "training": {
+    "window_sessions": 20,
+    "minimum_physical_pairs": 1000,
+    "minimum_contributing_sessions": 8,
+    "minimum_classes": [
+      -1,
+      0,
+      1
+    ],
+    "label_to_class": {
+      "-1": 0,
+      "0": 1,
+      "1": 2
+    },
+    "known_at": "max(BUY_H60.endpoint.time,SELL_H60.endpoint.time)",
+    "maturity": "両BBO H60completeかつknown_at strict<current_scene_start",
+    "weight": "Npairs/(B_active*n_pairs_in_block),両side同値、全2N行mean1",
+    "canonical": "同物理q1の(q0_index,q0_line,event_id)最初、窓外を詰めない",
+    "untrained_action": "学習側wait、native fallbackなし"
+  },
+  "selection": {
+    "thresholds": {
+      "P70": 0.7,
+      "P65": 0.65,
+      "P60": 0.6
+    },
+    "score": "P(F)-P(A)",
+    "minimum_score_margin": 0.05,
+    "minimum_forward_probability": 0.4,
+    "minimum_known_roles": 2,
+    "role_excluded_columns": [
+      "q0_entry_minus_last_atr5_to_side",
+      "q0_spread_125_ratio",
+      "q0_spread_points"
+    ],
+    "common": "0<q0spread<=20pt, -1<=q0Last_minus_m1Close_ATR5<=1",
+    "winner": "score差を満たす高い側を先に選び、その側の資格を確認。低い側へ代用しない",
+    "conditional": "P(F)/(P(F)+P(A))",
+    "q1_for_prediction": false
+  },
+  "linking": {
+    "primary_new": "P70",
+    "primary_union": "U70",
+    "sensitivity_unions": {
+      "U65": "P65",
+      "U60": "P60"
+    },
+    "legacy": "C1",
+    "same_q1": "旧C1優先、C1外は最初q0、後発aliasは重複計数しない"
+  },
+  "inputs": {
+    "features": {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    "fixed": {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "decoded_sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+    },
+    "captures": {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "decoded_sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+    },
+    "metadata": {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "decoded_sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+    },
+    "observations": {
+      "path": "study/00148_全1分知得から入口品質の母集団を固定する/成果物/固定取得の正逆観測.json.gz",
+      "sha256": "bd809bdf24400628817afee702063504c65682e6748a60e0f32d7690b7363c61",
+      "decoded_sha256": "d1b4cab8a258203f04b5c1d081f57d10ed2a0c58ce4cc160ef571d5fac0ceffc"
+    }
+  },
+  "主評価": "実BBO/H60/±125pt・全73場min1・全720h55m平均概ね1回毎時・先着70。前48/後25とも既使用。模型0.7は実先着率でない。",
+  "費用": "独立mini1枚100円/pt、往復77円、C5追加往復1000円。実口座収支ではない。"
+}

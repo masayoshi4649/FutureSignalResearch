@@ -1,0 +1,151 @@
+{
+  "trial": 152,
+  "name": "強い反対背景を複合回復で切り替える",
+  "parent_trial": 148,
+  "parent_prediction_trial": 151,
+  "status": "準備中/F0未固定",
+  "primary": "U1",
+  "comparison": "U0",
+  "fixed_control": "U65",
+  "policies": [
+    "C0",
+    "C1",
+    "RC1",
+    "P65",
+    "RP65",
+    "U65",
+    "A0",
+    "B0",
+    "U0",
+    "U1",
+    "RU1"
+  ],
+  "session_count": 73,
+  "feature_rows": 35339,
+  "legacy_count": 87,
+  "catalog_count": 100,
+  "catalog_definition_sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+  "inherited_model_trained": true,
+  "new_learning_or_prediction": false,
+  "selected_without_natural152_evaluation": true,
+  "features_source": {
+    "features": {
+      "path": "inputs/00148_全1分入口母集団/当時特徴.json.gz",
+      "sha256": "464dad9dce7acb20f043c344e96c9fa6d19ab0049a9d557e6fc96f6d189abcb7",
+      "decoded_sha256": "572705d7db8529555c876eb1953f7d8e1cd1de0e554bf9de729a7d377e4d91af"
+    },
+    "fixed": {
+      "path": "inputs/00148_全1分入口母集団/固定取得入力.json.gz",
+      "sha256": "99f10a996ca6e8b6c428061f1b48624bbc479ec84c500a9633818d47e4298e2a",
+      "decoded_sha256": "12c43fe60e0ffd5ffa44bec7b5f7dd3d60bb92b291e0008db23587dcf19536d3"
+    },
+    "captures": {
+      "path": "inputs/00148_全1分入口母集団/取得対応.json.gz",
+      "sha256": "7c27420abe6af0867f6cf3d8fd838205da3ed099df8db8e5b5d62892cbadf6bc",
+      "decoded_sha256": "e433b79f87411c34232acac57a8aed191da71bcd1888376b19196099cbf9909a"
+    },
+    "metadata": {
+      "path": "inputs/00148_全1分入口母集団/入口参照.json.gz",
+      "sha256": "ad53cccf8e4da093ebd32c1ddc80132ddcd4c73d8f20897c4033f0895fc966b6",
+      "decoded_sha256": "66511104a6efd7bc936b0e624469a2de43e9fa5b5fa7645304499f793c25329c"
+    }
+  },
+  "source151": {
+    "zip": {
+      "path": "inputs/00151_過去場だけの複合判別/学習と選択の正本.zip",
+      "sha256": "61e4826a61e06440b7914b3e9eff0539ab5f8632d389a83515108f9a46f423cb",
+      "bytes": 9500078
+    },
+    "member": "work/151過去場判別の評価/入口選択/q0の判断.json",
+    "member_sha256": "14b4bfaf2d6cc8832c3fb075a029389b7c0da4591489854547308919b93ba118",
+    "member_bytes": 46185439,
+    "f1": {
+      "path": "study/00151_広い複合テクニカルを過去場だけで判別する/検査/F1入口選択後.json",
+      "sha256": "81018200993e85ecc22e54ff518cebd225693162140658124434ed2eabc36917"
+    },
+    "book": {
+      "path": "inputs/00151_過去場だけの複合判別/条件.json",
+      "sha256": "09bad678c01cc7db614137647161ec695f20cb148770987a515ee4cfa71f8f2d"
+    }
+  },
+  "formula": {
+    "G": {
+      "all_required_known": true,
+      "negative": [
+        "m30_ema21_delta_to_side",
+        "m30_di_difference_to_side",
+        "m15_di_difference_to_side"
+      ],
+      "m15_adx_strict_above": 25,
+      "false": "keep_P65",
+      "unknown": "wait"
+    },
+    "R": {
+      "all_required_known": true,
+      "strict_positive": [
+        "m1_body_ratio_to_side",
+        "live_reclaim",
+        "m5_hist_delta_to_side",
+        "m5_rsi_delta_to_side"
+      ],
+      "live_reclaim": [
+        "m1_body_reclaim_atr5_to_side",
+        "q0_last_minus_m1_close_atr5_to_side"
+      ],
+      "volume_column": "m1_volume_relative_prior3",
+      "volume_at_least": 1,
+      "same_t_pair_single_true": true,
+      "unknown_or_neither_or_conflict": "wait"
+    },
+    "B": {
+      "column": "q0_entry_minus_ema8_atr5_to_side",
+      "final_order_side": true,
+      "upper_inclusive": 1,
+      "lower": null,
+      "unknown": "wait"
+    }
+  },
+  "linking": {
+    "rules": [
+      "P65",
+      "A0",
+      "B0"
+    ],
+    "union_id": "NB0",
+    "union_rules": [
+      "B0"
+    ],
+    "legacy_id": "C1",
+    "main_id": "U1",
+    "other_unions": {
+      "U0": "A0",
+      "U65": "P65"
+    },
+    "c1_priority": true,
+    "all_q0_before_q1": true
+  },
+  "sources": {
+    "work/151過去場判別/data151.py": "3b92ff77a28bf82e6cf8e5dc504cc5586f4101c1e28d0bc12b29bc7cd0efdd8c",
+    "scripts/入口研究/固定特徴から可読条件を選択する.py": "2f46be32a23ce2c1e5e99f2714ed4fd1eb14c545e4e150a2efd8d112e5c5344a",
+    "work/152複合回復の入口/logic152.py": "e9d7bff7f1b02636ddb1b2ea30afaa16540cb3966d55c94edd0eb4e409c77b62",
+    "work/152複合回復の入口/選択する.py": "e430e730b04155b8ab7b6b2616e1629aa9101e9b489e52ad2e5e1b44aa66dbee"
+  },
+  "limits": [
+    "全73既使用・151後着想",
+    "主U1は結果後交換しない",
+    "採否件数・金融はF0前未計数",
+    "元予測65%をflip側予測へ転用しない",
+    "全73min1・全時間概ね1h・同幅70は別及び共同評価",
+    "長い高安/VWAP追加なし"
+  ],
+  "source_policies": [
+    "P65",
+    "A0",
+    "B0",
+    "NB0",
+    "C1",
+    "U1",
+    "U0",
+    "U65"
+  ]
+}

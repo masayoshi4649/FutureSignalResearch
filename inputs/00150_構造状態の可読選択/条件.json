@@ -1,0 +1,258 @@
+{
+  "trial": 150,
+  "name": "突破の現在状態と背景で順逆を切り替える",
+  "parent_trial": 148,
+  "catalog_count": 100,
+  "catalog_definition_sha256": "c85223fbe1543e5457c28d4391f817534099d1af1d19664035c668ff5fe8a7b4",
+  "session_count": 73,
+  "legacy_count": 87,
+  "minimum_technical_roles": 2,
+  "derived": {
+    "close_break": {
+      "op": "difference",
+      "vars": [
+        "q0_last_minus_prior3_forward_edge_atr5_to_side",
+        "q0_last_minus_m1_close_atr5_to_side"
+      ]
+    },
+    "last_reclaim": {
+      "op": "sum",
+      "vars": [
+        "m1_body_reclaim_atr5_to_side",
+        "q0_last_minus_m1_close_atr5_to_side"
+      ]
+    }
+  },
+  "common": {
+    "all": [
+      {
+        "var": "q0_spread_points",
+        "op": ">",
+        "value": 0
+      },
+      {
+        "var": "q0_spread_points",
+        "op": "<=",
+        "value": 20
+      },
+      {
+        "var": "q0_last_minus_m1_close_atr5_to_side",
+        "op": ">=",
+        "value": -1
+      },
+      {
+        "var": "q0_last_minus_m1_close_atr5_to_side",
+        "op": "<=",
+        "value": 1
+      }
+    ]
+  },
+  "rules": [
+    {
+      "id": "FA",
+      "name": "背景を分けず端復帰を実反転する診断対照",
+      "order_sign": -1,
+      "when": {
+        "all": [
+          {
+            "var": "close_break",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "q0_last_minus_prior3_forward_edge_atr5_to_side",
+            "op": "<=",
+            "value": 0
+          },
+          {
+            "var": "m1_body_ratio_to_side",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "m1_volume_relative_prior3",
+            "op": ">=",
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "FD",
+      "name": "レンジ又は減速背景の端復帰を反転候補にする",
+      "order_sign": -1,
+      "when": {
+        "all": [
+          {
+            "all": [
+              {
+                "var": "close_break",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "var": "q0_last_minus_prior3_forward_edge_atr5_to_side",
+                "op": "<=",
+                "value": 0
+              },
+              {
+                "var": "m1_body_ratio_to_side",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "var": "m1_volume_relative_prior3",
+                "op": ">=",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "var": "m15_adx",
+                "op": "<=",
+                "value": 25
+              },
+              {
+                "var": "m15_adx_delta",
+                "op": "<",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "RT",
+      "name": "強化方向の端復帰を元方向の再試行候補にする",
+      "order_sign": 1,
+      "when": {
+        "all": [
+          {
+            "all": [
+              {
+                "var": "close_break",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "var": "q0_last_minus_prior3_forward_edge_atr5_to_side",
+                "op": "<=",
+                "value": 0
+              },
+              {
+                "var": "m1_body_ratio_to_side",
+                "op": ">",
+                "value": 0
+              },
+              {
+                "var": "m1_volume_relative_prior3",
+                "op": ">=",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "var": "m15_adx",
+            "op": ">",
+            "value": 25
+          },
+          {
+            "var": "m15_adx_delta",
+            "op": ">=",
+            "value": 0
+          },
+          {
+            "var": "m15_di_difference_to_side",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "m30_ema21_delta_atr_to_side",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "m5_hist_delta_atr_to_side",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "last_reclaim",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "RB",
+      "name": "レンジ端の実体回復又はヒゲ拒絶",
+      "order_sign": 1,
+      "when": {
+        "all": [
+          {
+            "var": "m15_adx",
+            "op": "<=",
+            "value": 20
+          },
+          {
+            "var": "q0_entry_minus_bbmean_sigma_to_side",
+            "op": "<=",
+            "value": -1
+          },
+          {
+            "var": "m5_rsi_delta_to_side",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "m1_volume_ratio_previous",
+            "op": ">=",
+            "value": 1
+          },
+          {
+            "var": "m1_tr_atr5_ratio",
+            "op": "<=",
+            "value": 1.5
+          },
+          {
+            "any": [
+              {
+                "var": "m1_body_reclaim_atr5_to_side",
+                "op": ">=",
+                "value": 0
+              },
+              {
+                "all": [
+                  {
+                    "var": "m1_opposite_wick_ratio",
+                    "op": ">=",
+                    "value": 0.4
+                  },
+                  {
+                    "var": "m1_body_ratio_to_side",
+                    "op": ">",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "union_rules": [
+    "FD",
+    "RT",
+    "RB"
+  ],
+  "union_id": "N0",
+  "legacy_id": "C1",
+  "main_id": "U0",
+  "研究の区分": "当時情報で定義できる仮説。端復帰は反転完成でもリテスト成功でもない。突破足の量を復帰足の量とは呼ばない。",
+  "主評価": "実BBO/取得後60分/同幅±125pt。70%・全73場最低1・全720時間55分平均概ね1回毎時を別及び共同判定。"
+}
