@@ -1,0 +1,335 @@
+{
+  "確認日": "2026-11-10",
+  "範囲": "一次コードのみ。市場/Raw/Native本文の追加読取とコード/仕様変更なし。",
+  "固定純戦略43": {
+    "台帳": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\停止.json",
+    "台帳SHA256": "08b1331b372d5cd7e50d46d90c247a8fa9c6a9bf657105ff181928041f156946",
+    "件数": 43,
+    "全件現物SHA一致": true
+  },
+  "111Actor停止": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元通知の連続Actor\\停止.json",
+    "sha256": "6503962ebb7189213a182f8801916e99503ddfa88d0a99426107f3755535cbf2"
+  },
+  "参照": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\api.go",
+      "sha256": "61bbe9581adf27009c6e2bd61466977e7b30079771cee73d3fd8367b4211e688",
+      "固定純戦略43内": false,
+      "位置": [
+        {
+          "line": 62,
+          "symbol": "type SourceConsumer interface",
+          "役割": "Sourceへ返す値はerrorだけ"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\replay.go",
+      "sha256": "fa93838d819a41d82908c5129ceac5b625b709b0fe1e23b7d5a878dab580b259",
+      "固定純戦略43内": false,
+      "位置": [
+        {
+          "line": 65,
+          "symbol": "func replayEventsWithConsumer",
+          "役割": "Adapterを先行運転し通知の独立複写をConsumerへ配送"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\adapter.go",
+      "sha256": "33dedd6037a2335053787539c635b474054509fe42dba08db89516da146ec916",
+      "固定純戦略43内": false,
+      "位置": [
+        {
+          "line": 16,
+          "symbol": "type nativeBook interface",
+          "役割": "元約定/注文終了/拒否API"
+        },
+        {
+          "line": 335,
+          "symbol": "func (r *Adapter) fill(",
+          "役割": "Adapter自身の参照約定を元Portfolioへ反映"
+        },
+        {
+          "line": 433,
+          "symbol": "func (r *Adapter) Step(",
+          "役割": "先行約定→Observe→元通知→取消"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元通知の連続Actor\\actual.go",
+      "sha256": "f0b7235f21f0246913b1217be0e16a627013ba88e583546ae3bf7027ba4c8c43",
+      "固定純戦略43内": false,
+      "位置": [
+        {
+          "line": 186,
+          "symbol": "func (b *ActualBook) available(",
+          "役割": "Actual実残と新規予約による空き枠"
+        },
+        {
+          "line": 407,
+          "symbol": "func (b *ActualBook) acceptEntries(",
+          "役割": "出生を一度だけ消費、0枚/取消も復活なし"
+        },
+        {
+          "line": 474,
+          "symbol": "func (b *ActualBook) sourceCloses(",
+          "役割": "Source返済をActual自由残へ配賦"
+        },
+        {
+          "line": 571,
+          "symbol": "func (b *ActualBook) fillOrders(",
+          "役割": "Actual数量/Rのみ更新。同Source再参加拒否"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元通知の連続Actor\\continuous.go",
+      "sha256": "60a77478ed723da80430ac9b0aba6e536bafdfc29a9550752f641376e7eb3a73",
+      "固定純戦略43内": false,
+      "位置": [
+        {
+          "line": 210,
+          "symbol": "func (b *ActualBook) markContinuous(",
+          "役割": "追加保護はActualへ要求し予約再同期"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\README.md",
+      "sha256": "c854b9972b8d2094bef6c2da9e67cedc57d55e4211dc6cdab31819133d3630e4",
+      "固定純戦略43内": false,
+      "位置": [
+        {
+          "line": 3,
+          "symbol": "固定93の公開Adapter",
+          "役割": "旧94もSourceへActual退出/利益を戻さない固定方針"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_types.go",
+      "sha256": "74fb4ac16f1bd997bc1113aa43bf4de5438abf258c10620b305cae9238d489ec",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 82,
+          "symbol": "type SelectedPortfolio struct",
+          "役割": "Shadow/SourceLots/Lots/Intentsは別所有"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go",
+      "sha256": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 14,
+          "symbol": "func (p *Portfolio) newSelected(",
+          "役割": "D164→S01/P164→P05/U165→D07、内部源はmini5/5/10"
+        },
+        {
+          "line": 61,
+          "symbol": "func (p *Portfolio) stepSelectedSource(",
+          "役割": "Shadow自己約定とSource残量の更新"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go",
+      "sha256": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 14,
+          "symbol": "func (p *Portfolio) selectedSnapshot(",
+          "役割": "Selected.Lots/Ordersから枠と予約を取得"
+        },
+        {
+          "line": 57,
+          "symbol": "func (p *Portfolio) emitSelected(",
+          "役割": "注文/Intent/対象Holdを登録する発注器"
+        },
+        {
+          "line": 116,
+          "symbol": "func (p *Portfolio) fillSelected(",
+          "役割": "共通所有と政策を更新、Shadowには返さない"
+        },
+        {
+          "line": 209,
+          "symbol": "func (p *Portfolio) doneSelected(",
+          "役割": "Day予約の注文終了同期"
+        },
+        {
+          "line": 219,
+          "symbol": "func (p *Portfolio) flattenSelected(",
+          "役割": "Forced/ForcedOwnersを保持して返済要求"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go",
+      "sha256": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 433,
+          "symbol": "func (d *SelectedDay164Policy) requestsSelectedDay(",
+          "役割": "新しい元通知、親履歴、Factor、追加確認"
+        },
+        {
+          "line": 480,
+          "symbol": "func (d *SelectedDay164Policy) allocateSelectedDay(",
+          "役割": "Canonical保有＋予約と実枠の配分"
+        },
+        {
+          "line": 658,
+          "symbol": "if !d.SeenSources[key]",
+          "役割": "既処理の元通知を再評価イベントにしない"
+        },
+        {
+          "line": 727,
+          "symbol": "func (d *SelectedDay164Policy) FillSelectedDay(",
+          "役割": "政策予約に対応する実約定のみCanonicalへ反映"
+        },
+        {
+          "line": 847,
+          "symbol": "func (d *SelectedDay164Policy) ExternalFillSelectedDay(",
+          "役割": "共通帳簿反映後のCanonical同期"
+        },
+        {
+          "line": 891,
+          "symbol": "func (d *SelectedDay164Policy) DoneSelectedDay(",
+          "役割": "未約定解放・初回拒否・返済Retry"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go",
+      "sha256": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 111,
+          "symbol": "func (n *selectedNightPolicy) sourceNewSelectedNight(",
+          "役割": "親の初回/追加と待機/取消状態"
+        },
+        {
+          "line": 162,
+          "symbol": "func (n *selectedNightPolicy) releaseSelectedNight(",
+          "役割": "生存Sourceと新しい同方向帯の待機解除"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go",
+      "sha256": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 78,
+          "symbol": "func (s *selectedNightRepricing) stepSelectedNight(",
+          "役割": "市場の帯Holdは証券建玉と別状態"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\portfolio.go",
+      "sha256": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 308,
+          "symbol": "func (p *Portfolio) OnFill(",
+          "役割": "登録注文ID/数量/所有の照合が必須"
+        },
+        {
+          "line": 385,
+          "symbol": "func (p *Portfolio) OnOrderDone(",
+          "役割": "保有返済ではなく注文終了"
+        },
+        {
+          "line": 431,
+          "symbol": "func (p *Portfolio) OnOrderRejected(",
+          "役割": "OnOrderDoneの別名"
+        },
+        {
+          "line": 446,
+          "symbol": "func (p *Portfolio) Flatten(",
+          "役割": "全返済要求API"
+        },
+        {
+          "line": 246,
+          "symbol": "func (p *Portfolio) observe(",
+          "役割": "同Indexの二重Observe拒否。実Fill通知と再評価原行の順を別定義する必要"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go",
+      "sha256": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 211,
+          "symbol": "func (b *ResearchBook) filled(",
+          "役割": "仮想予約によりHeld/Entries/Cash等を更新"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go",
+      "sha256": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 665,
+          "symbol": "func (p *Portfolio) fillResearch(",
+          "役割": "Research実所有更新はSource.Bookと別"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go",
+      "sha256": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 193,
+          "symbol": "func (s *ResearchActive) entry(",
+          "役割": "total0/予約なし/NextReadyを使う基礎入口"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01.go",
+      "sha256": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 124,
+          "symbol": "func (p *Portfolio) s01EntryAllowed(",
+          "役割": "さらに内側のShadow親占有による制限"
+        }
+      ]
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05.go",
+      "sha256": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+      "固定純戦略43内": true,
+      "位置": [
+        {
+          "line": 85,
+          "symbol": "func (p *Portfolio) stepP05Shadow(",
+          "役割": "P05も固定基礎源の独立仮想約定を保持"
+        }
+      ]
+    }
+  ],
+  "参照前後同体": true,
+  "証明範囲": "Source通知列固定。全Actualの実入口同体は別照合を要する。実約定を戦略へ返す統合は未実装・未検証。",
+  "非対象": "未参加/退出後の仮想利益・機会損失の採点をしない。"
+}

@@ -1,0 +1,324 @@
+{
+  "試行": 111,
+  "対象": "先頭2場 B50_C0_D0 の起動後赤字1玉",
+  "成功": true,
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111進行\\S1_先頭2の独立保存要求.json": "4e9886117d1b95431b29f1ed5c99e26c70bc4b49ccbfb1988ce22b28a05e9ef4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111独立保存\\先頭2場\\結果.json": "010941cf876cd911d0639e944110e399b0a95bc33673494627f8d610a3e9a673",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111市場\\先頭2場\\完了.json": "47b12d953aacf7f22d8604c2d9715171c5265e745b4408cef6c5a27d7a36d871",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\P停止.json": "c39c6da7577a7cbbb371b048f2da5b0ac3f4e296d95500f895b91bd1c42dd297",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\検査_停止版\\停止.json": "299e3c146b9d386d8faf7fcd58fcf795c7e692f57c81eb54fc56a439fc251348",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\会計の独立検算.py": "4c5f72dbbb31209c673b77f5171b73129a9a684951fc8c75361c601f7cc14e08",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\新保護の独立監査.py": "85be246502840083f511800081d7ccaf0bd8c97ad681b0f72d2c612552ddc420",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\保護監査の人工検査.py": "d0684676c22d1cdbb3385538ffdfadfdd56437d6a94fbd1ed506628c37b9b72b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111市場\\先頭2場\\2026-09-21_Day.Native.json.gz": "884124a2adf108ce72ab95c29bdf8389ab76b0534a428e7b54fe47d872ff2af4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111市場\\先頭2場\\2026-09-21_Night.Native.json.gz": "d0a161256c1c1012503093edd4ca773b505170644fbb425f21d189aa3a818557"
+  },
+  "コードSHA256": "763e802e880d9f545238381df88d3de54b7ef753191ac9471c6c0f28642407b3",
+  "場別の事実": [
+    {
+      "場": "2026-09-21_Day",
+      "B50玉数": 2,
+      "B50起動数": 2,
+      "B50起動後赤字数": 1,
+      "B50損失総額円": -77,
+      "S0損失総額円": -77,
+      "B50実現純額円": 4846,
+      "S0実現純額円": 3846,
+      "独立P保存点監査": {
+        "complete": true,
+        "method": "Go未使用の有理数・三値による少数保存点監査",
+        "counts": {
+          "positions": 2,
+          "saved_points": 8,
+          "exact_points": 4,
+          "bounded_points": 4,
+          "nil_quote_points": 0,
+          "finished_points": 2,
+          "all_reserved_points": 2,
+          "request_points": 0,
+          "request_orders": 1,
+          "request_points_unstored": 1,
+          "before_snapshots": 0
+        },
+        "limits": [
+          "保存された少数点の監査であり、全原行を独立再走する別エンジンではない。",
+          "Raw未読のため、実要求後の次正常原行が最初だったことは自己記録だけでは証明しない。",
+          "公表の出典・利用時刻を検査する。同秒内の配送原行Indexとreset統合順は保存されない場合、完全因果を証明しない。",
+          "BeforeSnapshotの無い非隣接点は旧Lの可解区間・床下限・非緩和を検査し、旧LからのF_W完全一致や区間極値の初回性は未証明。",
+          "純Snapshotを保存しない中間要求は独立会計と要求MTMまで。全純保護式を証明した要求と別計数。"
+        ]
+      }
+    },
+    {
+      "場": "2026-09-21_Night",
+      "B50玉数": 1,
+      "B50起動数": 0,
+      "B50起動後赤字数": 0,
+      "B50損失総額円": -45385,
+      "S0損失総額円": -45385,
+      "B50実現純額円": -45385,
+      "S0実現純額円": -45385,
+      "独立P保存点監査": {
+        "complete": true,
+        "method": "Go未使用の有理数・三値による少数保存点監査",
+        "counts": {
+          "positions": 1,
+          "saved_points": 1,
+          "exact_points": 0,
+          "bounded_points": 1,
+          "nil_quote_points": 0,
+          "finished_points": 1,
+          "all_reserved_points": 0,
+          "request_points": 0,
+          "request_orders": 0,
+          "request_points_unstored": 0,
+          "before_snapshots": 0
+        },
+        "limits": [
+          "保存された少数点の監査であり、全原行を独立再走する別エンジンではない。",
+          "Raw未読のため、実要求後の次正常原行が最初だったことは自己記録だけでは証明しない。",
+          "公表の出典・利用時刻を検査する。同秒内の配送原行Indexとreset統合順は保存されない場合、完全因果を証明しない。",
+          "BeforeSnapshotの無い非隣接点は旧Lの可解区間・床下限・非緩和を検査し、旧LからのF_W完全一致や区間極値の初回性は未証明。"
+        ]
+      }
+    }
+  ],
+  "対象玉": {
+    "場": "2026-09-21_Day",
+    "id": "2026-09-21_Day-B50_C0_D0-P000001",
+    "Source手法": "NK225_D164_15",
+    "Source信号ID": "2026-09-21_Day-NK225mini-D164_15-000001",
+    "SourceHoldID": "2026-09-21_Day-NK225mini-D164_15-000001-玉",
+    "買売符号": 1,
+    "初期枚数": 1,
+    "実新規価格": 65080,
+    "実新規原行": {
+      "time": 1789950224,
+      "index": 9239,
+      "source_line": 9256,
+      "last": 65070,
+      "bid": 65060,
+      "ask": 65080,
+      "quote_ok": true
+    },
+    "実新規JST": "2026-09-21T09:23:44+09:00",
+    "起動": {
+      "時刻JST": "2026-09-21T09:39:43+09:00",
+      "at": 1789951183,
+      "phase": "pre_fill",
+      "quote": {
+        "time": 1789951183,
+        "index": 12709,
+        "source_line": 12726,
+        "last": 65140,
+        "bid": 65140,
+        "ask": 65150,
+        "quote_ok": true
+      },
+      "sequence": 6940,
+      "残枚数": 1,
+      "予約枚数": 0,
+      "R円": 0,
+      "峰pt": 60,
+      "通常幅pt": 385,
+      "現在幅pt": 385,
+      "床pt": 10,
+      "全玉L円": 923,
+      "狭幅": false,
+      "警戒": {
+        "c": 0,
+        "m": 0,
+        "p": 1,
+        "b": 0,
+        "warning": 0
+      },
+      "g_pt": 60,
+      "u円": 5923,
+      "W円": 5923,
+      "FW_pt": 5,
+      "峰床pt": -325,
+      "構造床pt": null,
+      "保護価格": 65090,
+      "床hit": false,
+      "全予約hit": false,
+      "要求可能枚数": 0,
+      "純保護要求ID": "",
+      "最新公表": {
+        "id": "[\"2026-09-21_Day\",\"161120018\",1789951140.0]",
+        "end": 1789951140,
+        "available_at": 1789951140,
+        "V": 70,
+        "BB既知": false,
+        "BB窓数": 18
+      }
+    },
+    "最初の床hit": {
+      "時刻JST": "2026-09-21T09:41:41+09:00",
+      "at": 1789951301,
+      "phase": "pre_fill",
+      "quote": {
+        "time": 1789951301,
+        "index": 13162,
+        "source_line": 13179,
+        "last": 65090,
+        "bid": 65080,
+        "ask": 65100,
+        "quote_ok": true
+      },
+      "sequence": 7846,
+      "残枚数": 1,
+      "予約枚数": 0,
+      "R円": 0,
+      "峰pt": 80,
+      "通常幅pt": 385,
+      "現在幅pt": 385,
+      "床pt": 10,
+      "全玉L円": 923,
+      "狭幅": false,
+      "警戒": {
+        "c": 0,
+        "m": 0,
+        "p": 1,
+        "b": 0,
+        "warning": 0
+      },
+      "g_pt": 0,
+      "u円": -77,
+      "W円": -77,
+      "FW_pt": 10,
+      "峰床pt": -305,
+      "構造床pt": null,
+      "保護価格": 65090,
+      "床hit": true,
+      "全予約hit": false,
+      "要求可能枚数": 0,
+      "純保護要求ID": "",
+      "最新公表": {
+        "id": "[\"2026-09-21_Day\",\"161120018\",1789951140.0]",
+        "end": 1789951140,
+        "available_at": 1789951140,
+        "V": 70,
+        "BB既知": false,
+        "BB窓数": 18
+      }
+    },
+    "同原行Source予約後": {
+      "時刻JST": "2026-09-21T09:41:41+09:00",
+      "at": 1789951301,
+      "phase": "after_source",
+      "quote": {
+        "time": 1789951301,
+        "index": 13162,
+        "source_line": 13179,
+        "last": 65090,
+        "bid": 65080,
+        "ask": 65100,
+        "quote_ok": true
+      },
+      "sequence": 7847,
+      "残枚数": 1,
+      "予約枚数": 1,
+      "R円": 0,
+      "峰pt": 80,
+      "通常幅pt": 385,
+      "現在幅pt": 385,
+      "床pt": 10,
+      "全玉L円": 923,
+      "狭幅": false,
+      "警戒": {
+        "c": 0,
+        "m": 0,
+        "p": 1,
+        "b": 0,
+        "warning": 0
+      },
+      "g_pt": 0,
+      "u円": -77,
+      "W円": -77,
+      "FW_pt": 10,
+      "峰床pt": -305,
+      "構造床pt": null,
+      "保護価格": 65090,
+      "床hit": true,
+      "全予約hit": true,
+      "要求可能枚数": 0,
+      "純保護要求ID": "",
+      "最新公表": {
+        "id": "[\"2026-09-21_Day\",\"161120018\",1789951140.0]",
+        "end": 1789951140,
+        "available_at": 1789951140,
+        "V": 70,
+        "BB既知": false,
+        "BB窓数": 18
+      }
+    },
+    "元Source要求": {
+      "id": "2026-09-21_Day-B50_C0_D0-O000002",
+      "reason": "source_end/D164_15",
+      "request_time": 1789951301,
+      "request_quote": {
+        "time": 1789951301,
+        "index": 13162,
+        "source_line": 13179,
+        "last": 65090,
+        "bid": 65080,
+        "ask": 65100,
+        "quote_ok": true
+      },
+      "quantity": 1,
+      "native_close_signal_id": "2026-09-21_Day-NK225mini-D164_15-000002",
+      "protection_point": null
+    },
+    "実返済": {
+      "id": "2026-09-21_Day-B50_C0_D0-O000002-F",
+      "reason": "source_end/D164_15",
+      "price": 65080,
+      "quantity": 1,
+      "quote": {
+        "time": 1789951301,
+        "index": 13163,
+        "source_line": 13180,
+        "last": 65090,
+        "bid": 65080,
+        "ask": 65100,
+        "quote_ok": true
+      },
+      "JST": "2026-09-21T09:41:41+09:00",
+      "gross_yen": 0,
+      "net_yen": -77,
+      "往復手数料円": 77,
+      "仮定滑り円": 0
+    },
+    "S0同玉": {
+      "id": "2026-09-21_Day-S0_C0_D0-P000001",
+      "同じ実新規": true,
+      "同じ実返済": true,
+      "realized_net": -77
+    }
+  },
+  "原因の切分け": {
+    "床割れ検知": "最初の保存hitは既にg=0pt/W=-77円。保護床65090より現在Bid65080が10pt低い。",
+    "既存Source予約": "pre_fill予約0。同じ原行のSource返済で予約1になり、after_sourceは全予約hit。事前予約による放置ではない。",
+    "要求後の追加悪化": "要求と実fillのBid/実返済価格は同じ65080。同秒の次Index・次物理行で約定、追加価格差0pt。",
+    "部分返済": "初期1枚を1回で返済。先行損益R=0であり部分損失相殺ではない。",
+    "実装不整合": "保存点・全実約定の独立A/P照合成功。H50必須起動/385通常幅/最低床10/全予約重複防止/実BBO返済と整合。不具合を示す矛盾は確認せず。",
+    "テクニカル状態": "起動と初hitの最新公表は同じ18本目。C/M/Bは未知、BB20未暖機、警戒Unknown。狭幅は起動せず、通常幅385と最低床10を維持。"
+  },
+  "限界": [
+    "保存直前の全気配を再読していないため、瞬間の跳び幅や床65090で約定できたかは証明しない。",
+    "検知より前に床到達があったかの全原行による独立証明はしない。今回のfirst_hitはActorが保存した初hitの証拠。",
+    "同原行のSource予約は返済要求を既に満たした。自己保護の優先順を変えて利益化できるとは結論しない。",
+    "全3玉中、もう一つの損失-45385円はNightの未起動5枚玉。損失総額-45462円全体を起動後赤字と混同しない。",
+    "2場の小標本。閾値・幅・金融仕様の変更や最適化は行わない。"
+  ],
+  "未読と不実施": [
+    "原板",
+    "価格CSV",
+    "11月09日本文",
+    "base54本文",
+    "金融再走",
+    "未参加/退出後の仮想利益"
+  ],
+  "入力前後同体": true
+}
