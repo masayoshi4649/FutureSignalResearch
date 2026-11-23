@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "trial": 116,
+  "fixed": true,
+  "stage": "first2",
+  "market_native_read_authorized": true,
+  "legacy115_read_authorized": true,
+  "raw_read_authorized": false,
+  "holdout_read_authorized": false,
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1_116金融条件.json",
+    "sha256": "4c76a5f7cd8a59962e885cadf6885cfc75cbc590675955cb8e72ae2d0b8bb372"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\先頭2場\\完了.json",
+    "sha256": "4d221b6c3a84f403c027baf6d25cd7eceb307218c48e82c334341f7cf982d52b"
+  },
+  "code_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\会計停止.json",
+    "sha256": "397ee90a93f491f5cf1842f70b4a974a0435fdb84eae8987416881e40af5a12d"
+  },
+  "P_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\P停止.json",
+    "sha256": "6c1e1f74465527550d0ca2b62127495a7d5c3c70c5a125a0576801873a26f47d"
+  },
+  "life_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\ライフ停止.json",
+    "sha256": "ec1f6fef55c1717e3592be24c74259d5f837be2eb0096dea73c2ce0a39805769"
+  },
+  "actor_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116突破失敗を返済へ結ぶ会計\\Actor停止.json",
+    "sha256": "d5a1f5c3d30109b54173b1f8179152e671ced89830aa855a02bc42f24f2a89e1"
+  },
+  "lifecycle_go_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116突破根拠の維持と失効\\停止.json",
+    "sha256": "bf808c3d034d148f470230e3248443174fd9f22cedb571293b6e95020e72e296"
+  },
+  "entry115_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115入口判定を独立検算する\\停止.json",
+    "sha256": "d7518d60e73e62b68e025e2bff50adec42dbd111ede7e075e365a8b0076df79e"
+  },
+  "protection_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\新保護の独立監査.py",
+    "sha256": "d4bdfe42b33661eafd1a2bded4e0d9218aa26c920676faaa64bc582cf38d0df8"
+  },
+  "lifecycle_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\保有根拠の独立監査.py",
+    "sha256": "f3f52dc2b8ca7d35f5297a631d044ee326f9edd6ac63cb5bb86999be04016f5f"
+  },
+  "entry_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\入口の独立検算.py",
+    "sha256": "d1253cc7ba4cab919b7743d8d8da8419e4f2b5dcfa7f52ef3df4342937a3a939"
+  },
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\先頭2場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "922d9d82e033eca4636c644002e13ed4790f38755a4449ad13e53ff04fbf84bd"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-21_Day.Native.json.gz",
+        "sha256": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\先頭2場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "aa1b8e86096e446b5e3437ff2ca7f502f41dfa398fae9b6473ea5547c1ba77ad"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-21_Night.Native.json.gz",
+        "sha256": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz"
+    }
+  ],
+  "Root固定時の手順": [
+    "completion成功metadataのstage/同F1を確認し全scenesを元順で埋める。",
+    "market_pathは価格参照文字列だけを設定する。",
+    "Rootがfixed/新旧Native許可をtrueへ固定し、新しい要求SHAを採用する。",
+    "metadata-only認証後にRootだけが保存CLIを実行する。Raw許可はこの要求へ付けない。"
+  ]
+}

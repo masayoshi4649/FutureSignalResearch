@@ -1,0 +1,93 @@
+{
+  "試行": 116,
+  "成功": true,
+  "項目": [
+    {
+      "id": "元54独立結果",
+      "original": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\元54場\\結果.json",
+        "sha256": "f5e3c4777dee3ef08030ef5f60f79edd5426699ffdfe02214fc3fc01735de501",
+        "bytes": 12918629
+      },
+      "stored": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\元54独立結果.json.gz",
+        "sha256": "6965778c04e275884723660a3829193e9dbae1e98b92a61c40ac932628d4ec51",
+        "bytes": 440954
+      },
+      "stored_relative": "元54独立結果.json.gz",
+      "元JSON全bytes復元一致": true,
+      "JSON意味解析": false
+    },
+    {
+      "id": "元54金融完了",
+      "original": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\完了.json",
+        "sha256": "f41b76f8cc187e7dbd59ba7324ad2b23168de96b1d81378a37861b932be57147",
+        "bytes": 692089
+      },
+      "stored": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\元54金融完了.json.gz",
+        "sha256": "4b458c78abc70e638c15aef04dca384ff08377af9ee844337f2af58211f97b29",
+        "bytes": 201986
+      },
+      "stored_relative": "元54金融完了.json.gz",
+      "元JSON全bytes復元一致": true,
+      "JSON意味解析": false
+    },
+    {
+      "id": "先頭2金融完了",
+      "original": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\先頭2場\\完了.json",
+        "sha256": "4d221b6c3a84f403c027baf6d25cd7eceb307218c48e82c334341f7cf982d52b",
+        "bytes": 593394
+      },
+      "stored": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\先頭2金融完了.json.gz",
+        "sha256": "f88b182bc5c364c0af3e67c81e62105be9f97beb6c7471efcc1b1cfe2faa152c",
+        "bytes": 190542
+      },
+      "stored_relative": "先頭2金融完了.json.gz",
+      "元JSON全bytes復元一致": true,
+      "JSON意味解析": false
+    },
+    {
+      "id": "先頭2独立保存確認",
+      "original": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\先頭2場\\保存会計の確認.json",
+        "sha256": "8e0ec039f9d7bf940a7c17a5c6b429309acf2ec2b864548d694d8d58ea04a594",
+        "bytes": 589931
+      },
+      "stored": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\先頭2独立保存確認.json.gz",
+        "sha256": "eb89137b96469dc4816dcc08d20455c5cf03ce059aee5577ccb778a2ae4b5282",
+        "bytes": 188667
+      },
+      "stored_relative": "先頭2独立保存確認.json.gz",
+      "元JSON全bytes復元一致": true,
+      "JSON意味解析": false
+    },
+    {
+      "id": "正式器のRootレビュー前確認",
+      "original": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\停止前検査_全依存とReader要求\\停止前の確認.json",
+        "sha256": "34e6a8ee6189d62cfd0ae71be3a7e4484280f924b30ab51619b3b68e3516e786",
+        "bytes": 324411
+      },
+      "stored": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataの保管\\正式器のRootレビュー前確認.json.gz",
+        "sha256": "ed63d41e237a30f34dba4ceec3211f5ca10e0d3b54b4216a979c454809a7996c",
+        "bytes": 104061
+      },
+      "stored_relative": "正式器のRootレビュー前確認.json.gz",
+      "元JSON全bytes復元一致": true,
+      "JSON意味解析": false
+    }
+  ],
+  "金融JSON意味解析": false,
+  "原JSONの実復元先": "original.pathを保持。元要求の絶対pathへ隔離環境で復元し、既存ファイルは上書きしない。",
+  "復元helper": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116正式保存への接続\\大きいmetadataを復元する.py",
+    "sha256": "c13abaa0d2310f561d2ad17d4ea7f52f5ec9d694347a2aadd4d77307ad6bec49"
+  },
+  "復元CLI": "python -X utf8 大きいmetadataを復元する.py --index 絶対索引 --sha256 索引SHA --item 項目ID --output 未作成work先"
+}

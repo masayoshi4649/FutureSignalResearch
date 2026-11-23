@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "trial": 116,
+  "fixed": true,
+  "saved54_reuse_authorized": true,
+  "market_native_read_authorized": true,
+  "legacy115_read_authorized": true,
+  "raw_read_authorized": false,
+  "holdout_read_authorized": false,
+  "runner_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存の元54再用と追加16_金額型の復元\\停止.json",
+    "sha256": "274f77930b7a356c73ba32f0e026932f8821c4ed2222e402db028404306e566a"
+  },
+  "full_request": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\full70_独立保存要求_未読件数補正.json",
+    "sha256": "a51ce00194a809ab738f28ea64364868732cdd6a2d0ca580e54dc2df45849f0d"
+  },
+  "base54": {
+    "request": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\base54_独立保存要求_未読件数補正.json",
+      "sha256": "8a1d1cccdc6f76412331eab2b3d66cad6a55193c0151f3661ebed07c24cded02"
+    },
+    "result": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\元54場\\結果.json",
+      "sha256": "f5e3c4777dee3ef08030ef5f60f79edd5426699ffdfe02214fc3fc01735de501"
+    },
+    "check": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\元54場\\保存会計の確認.json",
+      "sha256": "0af2eb07920e47308c497023a320c5563411fd978b843a09feb98cdbda15958c"
+    }
+  },
+  "Root確認": [
+    "停止後runner_stopのSHAを埋める。",
+    "fixed/再用/新旧Nativeの4許可をtrueにし新要求のSHAを採用する。",
+    "通常full70要求のSHAを結果Root保存要求へ維持し外側SHAは別記する。",
+    "metadata-only後にRootだけが自然Nativeの実保存を起動する。"
+  ]
+}

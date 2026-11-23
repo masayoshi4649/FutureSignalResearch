@@ -1,0 +1,764 @@
+{
+  "version": 1,
+  "trial": 116,
+  "fixed": true,
+  "stage": "base54",
+  "market_native_read_authorized": true,
+  "legacy115_read_authorized": true,
+  "raw_read_authorized": false,
+  "holdout_read_authorized": false,
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1_116金融条件.json",
+    "sha256": "4c76a5f7cd8a59962e885cadf6885cfc75cbc590675955cb8e72ae2d0b8bb372"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\完了.json",
+    "sha256": "f41b76f8cc187e7dbd59ba7324ad2b23168de96b1d81378a37861b932be57147"
+  },
+  "code_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\会計停止.json",
+    "sha256": "397ee90a93f491f5cf1842f70b4a974a0435fdb84eae8987416881e40af5a12d"
+  },
+  "P_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\P停止.json",
+    "sha256": "6c1e1f74465527550d0ca2b62127495a7d5c3c70c5a125a0576801873a26f47d"
+  },
+  "life_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\ライフ停止.json",
+    "sha256": "ec1f6fef55c1717e3592be24c74259d5f837be2eb0096dea73c2ce0a39805769"
+  },
+  "actor_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116突破失敗を返済へ結ぶ会計\\Actor停止.json",
+    "sha256": "d5a1f5c3d30109b54173b1f8179152e671ced89830aa855a02bc42f24f2a89e1"
+  },
+  "lifecycle_go_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116突破根拠の維持と失効\\停止.json",
+    "sha256": "bf808c3d034d148f470230e3248443174fd9f22cedb571293b6e95020e72e296"
+  },
+  "entry115_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115入口判定を独立検算する\\停止.json",
+    "sha256": "d7518d60e73e62b68e025e2bff50adec42dbd111ede7e075e365a8b0076df79e"
+  },
+  "protection_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\新保護の独立監査.py",
+    "sha256": "d4bdfe42b33661eafd1a2bded4e0d9218aa26c920676faaa64bc582cf38d0df8"
+  },
+  "lifecycle_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\保有根拠の独立監査.py",
+    "sha256": "f3f52dc2b8ca7d35f5297a631d044ee326f9edd6ac63cb5bb86999be04016f5f"
+  },
+  "entry_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116保有根拠の独立会計と保存_未読件数の型\\入口の独立検算.py",
+    "sha256": "d1253cc7ba4cab919b7743d8d8da8419e4f2b5dcfa7f52ef3df4342937a3a939"
+  },
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "922d9d82e033eca4636c644002e13ed4790f38755a4449ad13e53ff04fbf84bd"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-21_Day.Native.json.gz",
+        "sha256": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "aa1b8e86096e446b5e3437ff2ca7f502f41dfa398fae9b6473ea5547c1ba77ad"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-21_Night.Native.json.gz",
+        "sha256": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz",
+        "sha256": "6aead4aa2b7dc394ed4973ed71c4f436003176a4c8367262ef7d6a0dcd415c88"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-22_Day.Native.json.gz",
+        "sha256": "1ab7f165180c8321c80d00a1ca894a59656204fdbbefbc914bfb4d418bacef62"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz",
+        "sha256": "745cfc47a2e55715bc2d28d0ab0fa9e38f0e764195271ada2a61ace5c50e0f2c"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-22_Night.Native.json.gz",
+        "sha256": "b5d8e753e866ad8978307bea157ba2aee6e48da818e8213947899210f155796c"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz",
+        "sha256": "a5ba28d214df8808f2282405278362fb083d5d495e1f5ab6b00dde84dfef4e5a"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-23_Day.Native.json.gz",
+        "sha256": "c7da94ac9907263e3d2aa8f39d92008f38b8fca154356e693fc3d1c6f345d396"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz",
+        "sha256": "6c8fa37bbcb526906d431be3a7db9f726ed7fb3445b66bc7a3f37ec7016517b0"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-23_Night.Native.json.gz",
+        "sha256": "5fcf4fd00e358bbd9c82352b247ecdf16fa565af3f6343a5b76bb4def6b01b95"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-24_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz",
+        "sha256": "b703216c4825e31f69670317b38a586b4932d996b854cbc98f41fca3117e4925"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-24_Day.Native.json.gz",
+        "sha256": "2044e65d5cc7528a196b4da800e7d9ccbc6387746a0d6562438910bd056091f1"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-24_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz",
+        "sha256": "fb3c65c0d713a7951881823b4ec90498ea953a6b918ff4177cb559959ec10e12"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-24_Night.Native.json.gz",
+        "sha256": "ccdcaee6abdd45ac8577bb49f52b05e035df9c3536e95a85a4a1d36856ca1c42"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-25_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz",
+        "sha256": "1474104ddace611117979055b82e84821c19eff1745c4d77be06db23f00a9790"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-25_Day.Native.json.gz",
+        "sha256": "2dde60f010046512c770b0cd8a59a9edd8f866e87478833d00de73c04bcfab29"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-25_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz",
+        "sha256": "d552f1efc03c75aa872eef9bdbb89d3f2c29e9774329c350f7b93373a82de8f1"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-25_Night.Native.json.gz",
+        "sha256": "002e24762db7b3cd4ac4b7f587d56f4cfc30285b7b5e73a0c37b8376513cbbe1"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-28_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz",
+        "sha256": "a32c88fd273f1a79ab68cab4cdf16adee9ca90a7a4ee3d92a4e574255585eb67"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-28_Day.Native.json.gz",
+        "sha256": "b155e01e96189f25c9b439b73d1b2e2dafec96bda537ad583c582277207fd594"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-28_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz",
+        "sha256": "c711b8b645cdf0cff03972b2633c5fde3dd2a22126de535d112a1aa96b9d4ff1"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-28_Night.Native.json.gz",
+        "sha256": "243fb30799ac7983cf37d8221702fa04ad9f46cdbfa056d04e10aca04dec5cb0"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-29_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz",
+        "sha256": "4ae37a37bc5cb51de1927bdac5a3ffdd8005f0847d2ba184865fc818a819ec96"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-29_Day.Native.json.gz",
+        "sha256": "36947ecb667395e551ebe7d852941daf661b838d3d7e963cb43dade6db64457d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-29_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz",
+        "sha256": "6132d9b88a60c9316bf1ce6c8648083939ad4af034a9fb0b155a037d80710300"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-29_Night.Native.json.gz",
+        "sha256": "6d1495a6a6757d59a6455b21711f4dd816cb0160d7136e7c5661c2e8a5ab534c"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-30_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz",
+        "sha256": "48ace603f7f0378b175bc9434e62c6cf99b7b9089e32fad7c3762c212949a720"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-30_Day.Native.json.gz",
+        "sha256": "90236a769efdcba6402e17ada82ecc6a07ca949deace89cce00fc051a6e202de"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-30_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz",
+        "sha256": "81c6256c1fa76d9ccbff097f4c68103df0679fbc69b9912f7372033bc1ad95f2"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-09-30_Night.Native.json.gz",
+        "sha256": "887866c6cab402f5128f49c79c4929058d7ffe10396d52ca72c5df287b46ef9b"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-01_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz",
+        "sha256": "3846b870fdd3e4384ceb4bea47c936ef8b319567b968b5634c26a3df0ade9e67"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-01_Day.Native.json.gz",
+        "sha256": "955b91c60ca28f8f78dc3d62d1037ff475768da9caa0c2767b2f8411784e37f3"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-01_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz",
+        "sha256": "d3592dc8f19a39eb5221bc747f483eb31f4e52e0a29ce881c0b288a2f8b88a09"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-01_Night.Native.json.gz",
+        "sha256": "df9ad94404d2e05dc5640098b90a15053b903df473ee08c4822178678804b63b"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-02_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz",
+        "sha256": "340200e6c44b823808664a188cbcf263b745d8bdb7ca33c882305e0880937d56"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-02_Day.Native.json.gz",
+        "sha256": "6a600d00a25772726f93499081f7fbfae363d06e2cbbd5472c1ef0f6a661858d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-02_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz",
+        "sha256": "b66614c4b09ffef7ff2a2b7fa6ec116c1bff436d80f7f9604b3a673a61fed819"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-02_Night.Native.json.gz",
+        "sha256": "a20844ca73dacde5bbaf3d6edc6f87f39a07fc23f50ccf05249ae3d258d788ff"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-05_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz",
+        "sha256": "719d142eef3f3ea331eaaedfdba77f5ce949cd98060b2c10c9727d68cfd7689a"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-05_Day.Native.json.gz",
+        "sha256": "a1bc92c66aa5c43544fa8e49c0b5631fec6809951d7137d99dce8fe8ca0c14a3"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-05_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz",
+        "sha256": "9067deb9cce535c3233d10f6d7b9897468279bbbc0dc606f553750b30592dc69"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-05_Night.Native.json.gz",
+        "sha256": "6defa1087dda118240f3eadca65d589b3dd8271bf5eed677101bf79b8982fc40"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-06_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz",
+        "sha256": "fea4007778bd442de670a1ede0362b0b505240e504bec10beb8991e782305f01"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-06_Day.Native.json.gz",
+        "sha256": "b3d5e7f6a68a8cdf911904422634df0ec38a0558dbcfdb12a6287082a4caec57"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-06_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz",
+        "sha256": "d778b90f53ba5ea7a4784d9479d5d8da38136f4c33932729d9447207ffed11ba"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-06_Night.Native.json.gz",
+        "sha256": "d55f426e9f4fc74b21a9ea145f83697c83d70eaa071f65b8e311c59638ab75ae"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-07_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz",
+        "sha256": "4d8c9d8503b1c6a4fe268176e380372b809691926945f8bfcbff0e68a9f7ea06"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-07_Day.Native.json.gz",
+        "sha256": "bc9605074b78e720ee1676152fbb006af18839fa07505cc1151dd33066e4205d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-07_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz",
+        "sha256": "4c229cf90f96f605ed672485b15b3b21d943bff99c18c61e9831b8dfbdd112e5"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-07_Night.Native.json.gz",
+        "sha256": "bb02aa070399ca9908fa975546969812f55c5862a1cdf3f9de6d5cd84ccb721e"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-08_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz",
+        "sha256": "2b58bde3834d6556d71ad4afe01a424617f021918e66e9aa6903a88422a12307"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-08_Day.Native.json.gz",
+        "sha256": "ccff570013d2ecdc3dc9b4f2b36848cfd6bfc6752d484198721d56ca0355cab9"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-08_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz",
+        "sha256": "523a81ea2304e62b18adb192c4e9aed90c0d3dec80b16beb25b130463087a06c"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-08_Night.Native.json.gz",
+        "sha256": "0baa117dbefc43ad3082c20299889de913f9deb7d220986c3878d94e3ad65f10"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-09_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz",
+        "sha256": "40d982e51fff33371390c85793fea7dde2a6aac7a32474f28c9c90b08df61885"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-09_Day.Native.json.gz",
+        "sha256": "a8ebf133f08c02716fad13731b9650a49d0cd44d0acc970a7965b6e66bb05fd6"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-09_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz",
+        "sha256": "d7229f39f25ac0ef95f860eb18d903a83621a24c59a7dbe45c692a88d9da50a2"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-09_Night.Native.json.gz",
+        "sha256": "6229a38446b57ea405cdcd110f16d4a021901f3bf4fef7a41e94b67270c2303c"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-12_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz",
+        "sha256": "afa234baa0302bbbe6d891305bca86b3346f46f7020089f400dcfbe22c96d301"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-12_Day.Native.json.gz",
+        "sha256": "af017e438067ad05112e8af2aba7bfcdccd2db6947fd0f9c6ee02781668247d4"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-12_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz",
+        "sha256": "18773782d02786543f8687d29114a7d42192645e1bc0bb9945e0b740fda737b7"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-12_Night.Native.json.gz",
+        "sha256": "8f85085060a42830f96f3691669030280dabe1ee9e37aa5fbe0795013a86a5c4"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-13_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz",
+        "sha256": "0657b6d08961a33ac99d3779f2cda5bad578470d148c115da1e61e31bbf8d9f4"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-13_Day.Native.json.gz",
+        "sha256": "37b14101dee1d57580fe927250116904fb9cd204d5d051ce6c2ffe79aa0beecc"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-13_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz",
+        "sha256": "22b2a3516f7a8cc5712307207ace9f2c14246843af62aae89ca126f8dd73fff2"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-13_Night.Native.json.gz",
+        "sha256": "691aeee8c022eb6d4669afd7f6aa3eb503131d86e11ac320cfb2d106ea0858e6"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-14_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz",
+        "sha256": "52a5dbb34d2bc92f68c27ff99ca0b540a1b1cfe931eba811bdf1bf9d1789aa4b"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-14_Day.Native.json.gz",
+        "sha256": "067ea95d1e8ae4786e083ac4c772778e1de7deec718a9c6f87bac03393d84331"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-14_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz",
+        "sha256": "0945f296eb4c922cd53f24190611b9be48afd15fba58dce7470e072fde1fd3d0"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-14_Night.Native.json.gz",
+        "sha256": "a6872a324f059320bd21084f15feba3b301fa35aab620136b472f37160b6469f"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-15_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz",
+        "sha256": "5876775e89f66df5f31259f4323527f90c573ac890c5122f0757eb12de264f40"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-15_Day.Native.json.gz",
+        "sha256": "cc304b02de2b4cd0c34644e64e013d36696e248a771c4ae3cee395d9e30b7c8b"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-15_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz",
+        "sha256": "27df55703194a07e3db1c3ee6e609c0e788809e08b827606a6dfedece27413a5"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-15_Night.Native.json.gz",
+        "sha256": "ec7456d77b4c7347253e394cba953d76ebfe2d7b37d0e1638e30c9e46ae382ae"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-16_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz",
+        "sha256": "8fe9cc9af5061a222061190d056917f235034d241682b8acd8be5b7c4a9eb75f"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-16_Day.Native.json.gz",
+        "sha256": "3cee215c8150c7f08059899afaf289b1c8a8b520abc2c39e9cb3ebae99232919"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-16_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz",
+        "sha256": "58deb17eb92ca199058af5c6b3da27b02b8efaf4b1b83a4c3f7430aec97f9c77"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-16_Night.Native.json.gz",
+        "sha256": "c9fe26ffc7ce62119829e1e402f363d643053d744db9a94c9396749591210474"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-19_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz",
+        "sha256": "f53b8ca1f7e8d75bfaf520d14391991ffbcc88f5044c24840023c446bc94c845"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-19_Day.Native.json.gz",
+        "sha256": "6d6e9f69e6b8a30d590c93eb8630ee6a65cff04493a40c1af8d494ef159252cf"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-19_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz",
+        "sha256": "4c3a2cf9d0dd9822b64cd1c5693cfafb793a0343c65246325ae9644ca18a310a"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-19_Night.Native.json.gz",
+        "sha256": "ebc62f4d4ff2f5a0adb5762c7392df308be4a02eafff1e7af0a2b40b9b05ba4f"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-20_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz",
+        "sha256": "6128e04598234b01bb1727c755d0d8fc3b17243cd92afc571791a51e25271627"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-20_Day.Native.json.gz",
+        "sha256": "104bb267560ea68c2a525a6c705a62832e4fd5481d30b313a4b9478658dd8974"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-20_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz",
+        "sha256": "56d621461cc42e444db41f6672d3d1d45e928e7638780d9e4b59246c30758d45"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-20_Night.Native.json.gz",
+        "sha256": "8f75208dc149a68dd6b8a3ecbcf348a89da43015db4e4bb9d3ba6bdd79226b1c"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz",
+        "sha256": "ac86998353b5c5dc842f269cb734f169714e960b4fa68947000efabd5bac5505"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-21_Day.Native.json.gz",
+        "sha256": "f45c34c1039b0a8a2f2779d11737b7a3be797c4d83beabe7d9a6d7731a707f6e"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz",
+        "sha256": "adba871e1e3dfe24ddb743aea2be9b2c566b2b46398645668593dae93bb19cc1"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-21_Night.Native.json.gz",
+        "sha256": "0fc542b9d79f187c9bf21df752c9b02f55c077707a006dc2138eef15558a924d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz",
+        "sha256": "6a0cc67028e746e3d889a252b27bc0b8bb8c96c40891219a0ddb4710977c3e4b"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-22_Day.Native.json.gz",
+        "sha256": "71c72f8f3944ee843b6e0f2b06262570929a1f4d21d9be4d5b022218f387ac7e"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz",
+        "sha256": "ed8c5ff8759d9db7c33d2a5c536e36974596022da6ed995efc635594ef8622c6"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-22_Night.Native.json.gz",
+        "sha256": "9cefcce020c4955cf5b2e77576fe76a223cae6d761899caf4e773a8cb3be48a3"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz",
+        "sha256": "7e5cc7aaa4e25615556aa11bb1c057f7250b80d5aef5df123cbfe41987eeb443"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-23_Day.Native.json.gz",
+        "sha256": "7a8ab19a0b692e3b614d5693b5eb2a85fc13792bc3ea8ed9d5b8a345ae1b5ad1"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz",
+        "sha256": "2cd6a7e11e2e72202ab0d03a59419c7cb448adc061c6ccd7c0df32bbaa31c601"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-23_Night.Native.json.gz",
+        "sha256": "dc9a1bd9e61b55eb1414fa6829528b9fb5149c3637aa76b075931b8a58baf689"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-26_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz",
+        "sha256": "2f9b2a130b1dbc5e48a8b6dfe7ab8ea38d15b15bd42af1bfadf7f2cbe38fc804"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-26_Day.Native.json.gz",
+        "sha256": "fc1f3da36204992999fac8a1db0eb8be0d0510ac76e54b2d308d025fcdfa8dc0"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-26_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz",
+        "sha256": "cd45553485735558dc957a8c9346f334903b59a4ba58f0957812c9feff2bc7ec"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-26_Night.Native.json.gz",
+        "sha256": "99b5aae8927583fd0cf38446bd66652c4ad6f1a8a03c93f5a4658faa049479fc"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-27_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz",
+        "sha256": "fbd48fc419e403fd2007c36734e00b50593a8dd32f54d723c95dcc479965980a"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-27_Day.Native.json.gz",
+        "sha256": "80f136f4ff181d7bdfb24c3f51b177ef0bc9b9ff613a2d859eb0edeee8a4c49d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-27_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz",
+        "sha256": "daa213626ab320d72a8596889d328f41c3cb37143fb96544826fb177037b983d"
+      },
+      "reference115": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\成果物_金融\\Native\\2026-10-27_Night.Native.json.gz",
+        "sha256": "c373ad91ff2b1c2d5c30df2cf35544679883af52da8b46748f778e94dde9666e"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\book.jsonl.gz"
+    }
+  ],
+  "Root固定時の手順": [
+    "completion成功metadataのstage/同F1を確認し全scenesを元順で埋める。",
+    "market_pathは価格参照文字列だけを設定する。",
+    "Rootがfixed/新旧Native許可をtrueへ固定し、新しい要求SHAを採用する。",
+    "metadata-only認証後にRootだけが保存CLIを実行する。Raw許可はこの要求へ付けない。"
+  ]
+}

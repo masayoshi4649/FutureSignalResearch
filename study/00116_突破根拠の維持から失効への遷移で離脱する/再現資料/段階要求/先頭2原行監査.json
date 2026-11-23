@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "trial": 116,
+  "fixed": true,
+  "stage": "first2",
+  "raw_read_authorized": true,
+  "market_native_read_authorized": true,
+  "holdout_read_authorized": false,
+  "consumer_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116原行から失効最初性を独立検算する\\停止.json",
+    "sha256": "1afecc2a6a86c0702201fcd3c300ca4f0d8c2c914b08673fd5f038ad8a7ceb56"
+  },
+  "reader_request": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\first2_ReaderのRoot要求.json",
+    "sha256": "1edbb266561c3c0e4f4859c3551fe5fd0383bbace5f3f6081f6cafd67d1bdc65"
+  },
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\F1_116金融条件.json",
+    "sha256": "4c76a5f7cd8a59962e885cadf6885cfc75cbc590675955cb8e72ae2d0b8bb372"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\先頭2場\\完了.json",
+    "sha256": "4d221b6c3a84f403c027baf6d25cd7eceb307218c48e82c334341f7cf982d52b"
+  },
+  "independent_result": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\先頭2場\\結果.json",
+    "sha256": "5b028964e5f6ea81603b97f6c699d6268017503c0ab07b332ac842a00bed9258"
+  },
+  "independent_check": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116独立保存F1\\先頭2場\\保存会計の確認.json",
+    "sha256": "8e0ec039f9d7bf940a7c17a5c6b429309acf2ec2b864548d694d8d58ea04a594"
+  },
+  "save_request": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116進行\\first2_独立保存要求_未読件数補正.json",
+    "sha256": "234d1decd9f80754cbe78b728990e5ab556a26cc32263c540752d63cc195c0c2"
+  },
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\先頭2場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "922d9d82e033eca4636c644002e13ed4790f38755a4449ad13e53ff04fbf84bd"
+      }
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\116金融F1\\先頭2場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "aa1b8e86096e446b5e3437ff2ca7f502f41dfa398fae9b6473ea5547c1ba77ad"
+      }
+    }
+  ],
+  "Root固定時の確認": [
+    "同F1・全場成功と新型397e/6c1e/ec1f保存停止を確認する。",
+    "GoReaderの全監視適格XC/XQ実窓の和集合・Raw参照・Source品質/総数を固定する。",
+    "Rootがfixed/Raw/Native許可の3つだけをtrueへ固定し、新要求SHAを採用する。",
+    "metadata-only成功後、Rootだけが一場ずつ実streamを実行する。"
+  ]
+}
