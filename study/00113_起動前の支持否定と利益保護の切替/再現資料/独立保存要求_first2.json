@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "trial": 113,
+  "fixed": true,
+  "market_native_read_authorized": true,
+  "stage": "first2",
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113進行\\F1_113金融条件.json",
+    "sha256": "065cb5ebc894627cb70cf6f3d8f0add7698532af269cb92c2dd3decf4051a138"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113金融F1\\先頭2場\\完了.json",
+    "sha256": "64de03df57e277067bbd633ed922fbbdb01b42bb8600512a8526f54753b9fdda"
+  },
+  "code_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113起動前の構造失効を執行する会計\\会計停止.json",
+    "sha256": "226985c20b65481e86db9ea92b5264fe608db987bfc0e8d368968451907ff065"
+  },
+  "P_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113起動前の構造失効を執行する会計\\P停止.json",
+    "sha256": "25432cfb24561cd6beab9dbecffa64f20aad5afd8cf28beeeb01db725034f77b"
+  },
+  "actor_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113起動前の構造失効を執行する会計\\Actor停止.json",
+    "sha256": "9f261c911946082c20b0bfc259a991cb045a533456187ec611732ec72a34133b"
+  },
+  "protection_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113起動前の構造失効を執行する会計\\新保護の独立監査.py",
+    "sha256": "fdd4182152e60a66b298e633a813c3496440f3aea684d1dc4fe950983d39115f"
+  },
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113金融F1\\先頭2場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "8fbfbf49c3c771e2594e90c591f70843610d740f62167d69f11a8021c22cd314"
+      },
+      "reference112": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00112_支持否定の確認と通常追尾幅の比較\\成果物_金融\\Native\\2026-09-21_Day.Native.json.gz",
+        "sha256": "949fe89651590b94ed8ced60cee94f6632a1cf30ea41a94c4f6a62639d9b2be7"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\113金融F1\\先頭2場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "95009d0a2ca41987a83610b7be1a75c896c116cd717ac03d1ed8a498a8ffa44e"
+      },
+      "reference112": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00112_支持否定の確認と通常追尾幅の比較\\成果物_金融\\Native\\2026-09-21_Night.Native.json.gz",
+        "sha256": "d1fbe37b6a2a1bf78cad993ee5cf380db8a68433c086f08e9b359f2013bbba1d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "試行": 112,
+  "成功": true,
+  "市場前": true,
+  "UTC": "2026-11-09T17:29:43.413041+00:00",
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と通常幅の独立P監査\\新保護の独立監査.py": "7c43fe01133e028476ad5946b620cd566270eddbf76055fc8fdc18f8f8942a37",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と通常幅の独立P監査\\保護監査の人工検査.py": "ca107a009c2ab5151a04957660d041b5bacc7c0bc5c2682f409b32d1185d7784",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と通常幅の独立P監査\\README.md": "84185d84a52e30fdefa7ba713fff6ea3eae516c349db0a344aec5145187fb259"
+  },
+  "所有前後同体": true,
+  "依存": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定の必須確認と通常幅のみ\\停止.json": "b7748c29ae5c6bc44a66a112421809f888c85321652a0d9bfbb3c7f4022dd835",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と広い通常幅の会計\\Actor停止.json": "54dc421f0c35cbd5736725955a02fb6cd11f70f3c8a7b646b954722781264006",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\新保護の独立監査.py": "85be246502840083f511800081d7ccaf0bd8c97ad681b0f72d2c612552ddc420",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と広い通常幅の会計\\金融の独立検算.py": "de8343cdb418c232ed0d6e2b85ce613106670bce38f8ddedaeeb56c6b71fa281",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\会計の独立検算.py": "4c5f72dbbb31209c673b77f5171b73129a9a684951fc8c75361c601f7cc14e08",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\scripts\\FAR連続出生と個別利益追尾\\集計.py": "7c0c1d1b365226c74027405589099cb72382c7850090627a83788e1e2066c381"
+  },
+  "依存前後同体": true,
+  "手計算主人工数": 8,
+  "Root_API人工": {
+    "冊数": 48,
+    "counts": {
+      "positions": 48,
+      "saved_points": 184,
+      "exact_points": 80,
+      "bounded_points": 104,
+      "nil_quote_points": 0,
+      "finished_points": 40,
+      "all_reserved_points": 40,
+      "request_points": 0,
+      "request_orders": 40,
+      "request_points_unstored": 40,
+      "before_snapshots": 0
+    },
+    "破壊検出数": 6,
+    "破壊": [
+      "幅倍率",
+      "政策偽装",
+      "Cマスク",
+      "幅倍率",
+      "政策偽装",
+      "Cマスク"
+    ],
+    "manifest": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と通常幅の連続比較\\人工_独立保存用\\人工.json",
+      "sha256": "2e02ce0e255583546f4b631a53667a5e710b585d92f6dbe79cb0ee68ee2b5619"
+    },
+    "人工本体": {
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と通常幅の連続比較\\人工_独立保存用\\売り.json.gz": "439f6e4a1e98e1a1d945229bff5bbb2939ed359ca74e198ab0f1cdbcf565f672",
+      "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\112支持否定と通常幅の連続比較\\人工_独立保存用\\買い.json.gz": "54ea0798397456de92c90732f534be63422a94a8a89261d082cab911b10f23a8"
+    },
+    "市場": false,
+    "自然FAR通知": false,
+    "旧111追加24は読取/再検査していない": true
+  },
+  "Python_AST差": {
+    "変更": [
+      "check_state_fixed",
+      "expected_point",
+      "fixed_parameters",
+      "verify_bounded_point",
+      "verify_protection",
+      "warnings"
+    ],
+    "追加": [
+      "definition_for"
+    ],
+    "削除": [],
+    "旧": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111連続保護の独立保存\\新保護の独立監査.py",
+      "sha256": "85be246502840083f511800081d7ccaf0bd8c97ad681b0f72d2c612552ddc420"
+    }
+  },
+  "API": "verify_protection(book,config,finance,context)->dict。不整合はValueError。",
+  "金融再走": false,
+  "Go期待値呼出": false,
+  "政策/ATR/C/B偽装": false,
+  "証明範囲": "本名112と全definitionを独立固定。旧P111のexact/bounded監査を継承。",
+  "限界": [
+    "全原行を別エンジンで再走しない。",
+    "非隣接点の旧L/峰の完全再現や全要求の純状態を証明しない。",
+    "原行Indexを保存しない公表は同秒因果/reset統合順の完全証明をしない。",
+    "Raw未読で次正常原行の最初性を証明しない。"
+  ],
+  "市場/Raw/価格CSV/11月09日本文": false,
+  "未参加/退出後仮想利益": false
+}

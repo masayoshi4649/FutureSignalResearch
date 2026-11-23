@@ -1,0 +1,253 @@
+{
+  "試行": 112,
+  "固定済み": false,
+  "市場実行": false,
+  "起動会計": "S0以外W>=q0*10000円、H100固定",
+  "政策": [
+    {
+      "id": "S0",
+      "normal_minimum": null,
+      "atr_multiplier": null,
+      "warning": "元手法",
+      "role": "旧対照"
+    },
+    {
+      "id": "W100",
+      "normal_minimum": 200,
+      "atr_multiplier": 2,
+      "warning": "なし",
+      "role": "旧対照"
+    },
+    {
+      "id": "B100",
+      "normal_minimum": 200,
+      "atr_multiplier": 2,
+      "warning": "M AND(C OR B OR P)",
+      "role": "旧対照"
+    },
+    {
+      "id": "W400",
+      "normal_minimum": 400,
+      "atr_multiplier": 4,
+      "warning": "なし",
+      "role": "通常幅だけ変更"
+    },
+    {
+      "id": "P100",
+      "normal_minimum": 200,
+      "atr_multiplier": 2,
+      "warning": "M AND P",
+      "role": "支持否定確認だけ変更"
+    },
+    {
+      "id": "P400",
+      "normal_minimum": 400,
+      "atr_multiplier": 4,
+      "warning": "M AND P",
+      "role": "幅と確認の組合せ"
+    }
+  ],
+  "比較条件": [
+    {
+      "id": "R01",
+      "key": "S0_C0_D0",
+      "policy": "S0",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R02",
+      "key": "S0_C0_D1",
+      "policy": "S0",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R03",
+      "key": "S0_C5_D0",
+      "policy": "S0",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R04",
+      "key": "S0_C5_D1",
+      "policy": "S0",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R05",
+      "key": "W100_C0_D0",
+      "policy": "W100",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R06",
+      "key": "W100_C0_D1",
+      "policy": "W100",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R07",
+      "key": "W100_C5_D0",
+      "policy": "W100",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R08",
+      "key": "W100_C5_D1",
+      "policy": "W100",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R09",
+      "key": "B100_C0_D0",
+      "policy": "B100",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R10",
+      "key": "B100_C0_D1",
+      "policy": "B100",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R11",
+      "key": "B100_C5_D0",
+      "policy": "B100",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R12",
+      "key": "B100_C5_D1",
+      "policy": "B100",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R13",
+      "key": "W400_C0_D0",
+      "policy": "W400",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R14",
+      "key": "W400_C0_D1",
+      "policy": "W400",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R15",
+      "key": "W400_C5_D0",
+      "policy": "W400",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R16",
+      "key": "W400_C5_D1",
+      "policy": "W400",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R17",
+      "key": "P100_C0_D0",
+      "policy": "P100",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R18",
+      "key": "P100_C0_D1",
+      "policy": "P100",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R19",
+      "key": "P100_C5_D0",
+      "policy": "P100",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R20",
+      "key": "P100_C5_D1",
+      "policy": "P100",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R21",
+      "key": "P400_C0_D0",
+      "policy": "P400",
+      "slip_pts": 0,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R22",
+      "key": "P400_C0_D1",
+      "policy": "P400",
+      "slip_pts": 0,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R23",
+      "key": "P400_C5_D0",
+      "policy": "P400",
+      "slip_pts": 5,
+      "delay_seconds": 0,
+      "結果状態": "未実行"
+    },
+    {
+      "id": "R24",
+      "key": "P400_C5_D1",
+      "policy": "P400",
+      "slip_pts": 5,
+      "delay_seconds": 1,
+      "結果状態": "未実行"
+    }
+  ],
+  "時計": "元166の連続判断、研究側の新規gate/開始静観なし",
+  "チャート": "111の当場cold/確定3分C M P B Vを無改変再用",
+  "費用": "mini100円/pt、片道38.5円、買売各上限10枚予約込み",
+  "通常幅比較": "ceil5(max200,2Aentry)対ceil5(max400,4Aentry)。未知fallback200/400を取得時に固定",
+  "変更しない点": "源の入口・元返済/全玉床/最低床/費用/未知/狭幅算式/構造床/非緩和/実約定のSourceへの非返送",
+  "元54から全70": "同条件54Native参照を再認証して再用し、追加16を再生",
+  "11月09読取": false,
+  "採用": false,
+  "研究目標達成": false
+}

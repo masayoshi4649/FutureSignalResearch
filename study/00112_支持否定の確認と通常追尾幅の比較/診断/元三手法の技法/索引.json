@@ -1,0 +1,1015 @@
+{
+  "確認日": "2026-11-10",
+  "範囲": "停止コードと既取得の部分参照だけ。市場入力・Native・価格CSV・11/09本文追加読取0。市場実行0。旧停止/閾値/条件変更0。",
+  "固定Source111": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\停止.json",
+    "sha256": "08b1331b372d5cd7e50d46d90c247a8fa9c6a9bf657105ff181928041f156946",
+    "純戦略43件": 43,
+    "前後同体": true
+  },
+  "前後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145.go": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\episode143.go": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\exit_diagnostics.go": "d279bc7e666623633027cb603c2c5eff2abf6ead7daace7f386788cdb64bbd38",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\legacy_rules.go": "2f9537b9316c37fad97cda0f4cbbf29b10fbb1392c2fe2b4fe47a59aeb43b801",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\methods.go": "f7db068dbb83dd391ecafadbe9a7dcc51292f5b9a5d1f153c62beeecba61d248",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05.go": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\portfolio.go": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145.go": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\rules.go": "49b311c6f7afce1c14f058470bdc43f7a7867b8f5d1c8c1ca489624e24274ff8",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01.go": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_close_groups.go": "535ce6a96fa8955daff19974d6bb68093400fce7985a5496390a3713813b8f51",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day_adapter.go": "2244d48b864c40c5a62ff007621a1dd75ffda2760972873b4b13281cd9d1cc55",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_restore.go": "ecf2ddaddd26600d11b341c4a992821c906dcc6a788c70a5f92abfae8359e5b0",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_types.go": "74fb4ac16f1bd997bc1113aa43bf4de5438abf258c10620b305cae9238d489ec",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\types.go": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\engine.go": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\rules.go": "1581539bd74f81d527d7ab82e4290493a016fe1bdd10c7155e472201d98087e2",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\addon_specs.go": "8120de9c6cf27d14fae9d350bd3c0f3e9341e0474c133e1fea40f62187fd1777",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\core_specs.go": "03a52e82a95ce9e0588ead088f9afaa290a0b78540137b21001d09a459d92be4",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\engine.go": "7fb551981ddd2dfd8be0704adc9659e5d68cad4da68dfc806045a35040c267c3",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\legacy_specs.go": "f9953d5bab5b21e200a7d87bb87ceab2688a1174a0411cef64170fe0e3d434ad",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\p05.go": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\profiles.go": "9388ff4112948e96d4fe7a39f5c26ea4d2127ee49618a72bd1c24c62008431e9",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\research_specs.go": "a13abfa16c55f1e416f1c165ac188ab5bbd7e911864f9f806ac049b2cbade6a2",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\s01.go": "72e6e01b5afc5ea34f6e7e55f335e8f0848cc91173f14683a0c313810e03c379",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods.go": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.mod": "d3e95e7b7315892e0366bf1fa9b8e4fe42061f07d57aa5651ee5cfa5d67e2351",
+    "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\go.sum": "8c7a0a4bffe211450057b16034b8a0fc700cb12756df7133a23f6d873dcb8be5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\adapter.go": "33dedd6037a2335053787539c635b474054509fe42dba08db89516da146ec916",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\api.go": "61bbe9581adf27009c6e2bd61466977e7b30079771cee73d3fd8367b4211e688",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\cmd\\baseline\\main.go": "6e71ed93df0016e66a0262ebac13c4f79467f549e939525f5a15f985251ce4f9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\cmd\\oracle\\main.go": "403173f524cb7529f65cd19784b2d1c82edc2f469a873138eae791aeb4e47291",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\cmd\\oracle\\oracle_test.go": "c876aece0f0214be08dca823c258b3044ebb82abf7ca776ff1e00e56d3e832f8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\cmd\\oracle\\original_input.go": "245ffa411c9be325bdb04c6a5fa2fe4737e50e038ecd39c522d0ac170e4940f2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\cmd\\oracle\\original_main.go": "0e23eb9ad329bf36d74a0bda42f0187f792ecb68356094c6ad7a8bde20003b96",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\comments_test.go": "d745d086d00447c2c122d86b3a6d16e0ea03a721ddcfc0b0624906e5afc20981",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\continuous_test.go": "0fcd3b9d288c76a209e03071168d1189be53c65cfc1b6482b9e8fc4be8e6617d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\delivery.go": "3c86e399d4e36590e83aa536fdde67867e3cd338599b80aedfc0b79b3381f2eb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\fixed.go": "f5738a2f1cad7158bf8775aea722eded505c9105cb703e7d2068ad96cb84dd63",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\fixed_test.go": "659fadc57eb0f7795bf75004914c8b0f24470184f0714515df7724fdb4e98f07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\fixture_test.go": "699d2f0f723db0d68fe7fd6bb372ae10a21e3ed305f8668e3d08f7f41fef4ca3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\go.mod": "59ab3780e26144da6eadb76d2a3a12ac698b55885e1e07fd8cc5890532bb6598",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\go.sum": "34914b5514bc74e18646c8237e64c9dbe985dd2dade86bbfe399bf749685a074",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\golden.go": "e61d197f17295166d1cc61e8cafd12bd11e88353f96d7012dd082da5aab58355",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\input.go": "7ab3bc7115c97f558abcc8b850d144af002626d1042a102b50eb63fc67a01a38",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\mirror.go": "96515ce926f03f302b174d21e52e24bc34f42cf1a2dd5e7ae3b582fbb99d1ff3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\oracleを派生する.py": "40a8661b82e4a237256e310821086f2623cfeab3f8ac2114aff1f3b3440b2f84",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\oracle原文\\input.go.txt": "e9329e0934b73931abef7a6584dc96077c6a4679b59d1427d1994cb1dc9a6f11",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\oracle原文\\main.go.txt": "8542d6541ff09a06ed77f4ba26aa713d39dbe779550a9bc00bb105f29df5eced",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\oracle派生の参照.json": "c13486695dbf6687a431f25eda8fc6a3b696ff265d36c355f06d17348af2df86",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\README.md": "757fb1ea0be74fba89fa463c65e982afa953d27926acb54a6b9936981cd8d070",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\replay.go": "fa93838d819a41d82908c5129ceac5b625b709b0fe1e23b7d5a878dab580b259",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\types.go": "131b4cf63de4afbc4e66e5e7f62098103eb87b85cb255f52d0794eb214f29057",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\元166一次参照.json": "e40c2475645cb28ef55363b154ecc07b9b751d75a048cf13415f5ff5842a7959",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\検査して停止する.py": "152497b6ae719ed1ab11ae0b3f4865d4c6d81f84ac651427f1ac2c3719a78ac0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\派生する.py": "0d601c0544349849418db43d0716e292dc00da449a5a37b5bb1236d5ad4888e1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\派生の参照.json": "98fc351a218a4a3395ef0804f9692fcf62777f35309b2293f8eb647697919a5d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\停止.json": "08b1331b372d5cd7e50d46d90c247a8fa9c6a9bf657105ff181928041f156946"
+  },
+  "参照": [
+    {
+      "ID": "A01",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\adapter.go",
+      "sha256": "33dedd6037a2335053787539c635b474054509fe42dba08db89516da146ec916",
+      "line": 85,
+      "終端目安": 122,
+      "symbol": "func NewAdapter(",
+      "役割": "元166の選定三手法・商品数量・Pの期限を固定",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "A02",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\adapter.go",
+      "sha256": "33dedd6037a2335053787539c635b474054509fe42dba08db89516da146ec916",
+      "line": 335,
+      "終端目安": 407,
+      "symbol": "func (r *Adapter) fill(",
+      "役割": "元注文を次正常気配でSource自身へ約定通知",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "A03",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\adapter.go",
+      "sha256": "33dedd6037a2335053787539c635b474054509fe42dba08db89516da146ec916",
+      "line": 433,
+      "終端目安": 468,
+      "symbol": "func (r *Adapter) Step(",
+      "役割": "前行予約約定→当行判断→通知/取消",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "A04",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\replay.go",
+      "sha256": "fa93838d819a41d82908c5129ceac5b625b709b0fe1e23b7d5a878dab580b259",
+      "line": 49,
+      "終端目安": 56,
+      "symbol": "func activeMethod(",
+      "役割": "Uは米国開始15分後からObserve",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "A05",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\replay.go",
+      "sha256": "fa93838d819a41d82908c5129ceac5b625b709b0fe1e23b7d5a878dab580b259",
+      "line": 65,
+      "終端目安": 232,
+      "symbol": "func replayEventsWithConsumer(",
+      "役割": "二市場の特徴と原行順・公開足をSourceへ配送",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "A06",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\api.go",
+      "sha256": "61bbe9581adf27009c6e2bd61466977e7b30079771cee73d3fd8367b4211e688",
+      "line": 62,
+      "終端目安": 71,
+      "symbol": "type SourceConsumer interface",
+      "役割": "追加保護は独立複写を受ける。実約定のSourceへの返送APIなし",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L01",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go",
+      "sha256": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+      "line": 14,
+      "終端目安": 60,
+      "symbol": "func (p *Portfolio) newSelected(",
+      "役割": "D→S01、P→P05、U→D07、固定mini10源",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L02",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\portfolio.go",
+      "sha256": "9924e86df6ac5a8a4234ac3cc690e481b3682ff9705697098b1092d1b2c69047",
+      "line": 69,
+      "終端目安": 143,
+      "symbol": "func New(",
+      "役割": "選定/基礎P05/S01/D07/旧基礎を分岐",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L03",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go",
+      "sha256": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+      "line": 76,
+      "終端目安": 101,
+      "symbol": "func ResearchAllocation(",
+      "役割": "D07はcore:addon:episode=5:3:2の独立配分",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L04",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go",
+      "sha256": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+      "line": 52,
+      "終端目安": 113,
+      "symbol": "func newResearchSource(",
+      "役割": "core旧基礎/補完、addon145、昼episode/夜Activeの接続",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L05",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_source.go",
+      "sha256": "fce5e619b5e27632a67f30ab8fd5071d3912a62f0a8d403ac010b2ce5fe308e4",
+      "line": 61,
+      "終端目安": 143,
+      "symbol": "func (p *Portfolio) stepSelectedSource(",
+      "役割": "基礎だけ仮想約定し元返済比率/源残量を更新",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L06",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_runtime.go",
+      "sha256": "b0173004502bc6a51ef659214385cba127e52829ffc366ff62654a13dd531998",
+      "line": 22,
+      "終端目安": 140,
+      "symbol": "func (p *Portfolio) observeSelected(",
+      "役割": "元返済→元新規・延期解除・局所保護の実順序",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L07",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_ledger.go",
+      "sha256": "b9b83fcdf4b321af66eb6f437947dd78c5eea2e5f13d10a9a7fc84b8cba87859",
+      "line": 57,
+      "終端目安": 115,
+      "symbol": "func (p *Portfolio) emitSelected(",
+      "役割": "正規化micro量を商品整数枚へ切捨て、片側空枠/予約を拘束",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "L08",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_close_groups.go",
+      "sha256": "535ce6a96fa8955daff19974d6bb68093400fce7985a5496390a3713813b8f51",
+      "line": 50,
+      "終端目安": 102,
+      "symbol": "func (p *Portfolio) queueSelectedSourceClose(",
+      "役割": "元ID返済比率を実残量へ写像、二重予約禁止",
+      "対応手法": [
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F01",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go",
+      "sha256": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+      "line": 31,
+      "終端目安": 89,
+      "symbol": "func DefaultFeatureConfig(",
+      "役割": "ATR12/最低3、1分EMA15/60、傾き3本、公開遅延",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F02",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go",
+      "sha256": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+      "line": 301,
+      "終端目安": 396,
+      "symbol": "func (f *Features) model(",
+      "役割": "5分ATRのWilder平滑と1分EMA方向/持続",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "F03",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go",
+      "sha256": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+      "line": 397,
+      "終端目安": 439,
+      "symbol": "func (f *Features) Snapshot(",
+      "役割": "自己・追加60秒遅延の相手方向一致",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "F04",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go",
+      "sha256": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+      "line": 440,
+      "終端目安": 462,
+      "symbol": "func (f *Features) RearmDirection(",
+      "役割": "当時の二市場EMAギャップと傾きの再成立",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "F05",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\features.go",
+      "sha256": "94dfd800b447f50019eb5daf469ff08e703f237d515a818594a43910f32aeace",
+      "line": 474,
+      "終端目安": 546,
+      "symbol": "func (f *Features) release(",
+      "役割": "30秒中値支持と120/30秒逆行確認",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "F06",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go",
+      "sha256": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+      "line": 71,
+      "終端目安": 141,
+      "symbol": "func (f *Features) OnBoard(",
+      "役割": "正常中値/Last/特徴を区別し当原行まで公開",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F07",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go",
+      "sha256": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+      "line": 214,
+      "終端目安": 275,
+      "symbol": "func (f *Features) minute(",
+      "役割": "21時点の1分端値、SMA5/20、標準偏差/方向効率/高安",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F08",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features.go",
+      "sha256": "e7362b428e7413fa1923f0dbe75c408fe1224ecd92957ccf48cdd389338783dc",
+      "line": 276,
+      "終端目安": 308,
+      "symbol": "func (f *Features) history(",
+      "役割": "自己60秒・相手追加60秒待機の20分履歴",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F09",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go",
+      "sha256": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+      "line": 46,
+      "終端目安": 148,
+      "symbol": "func (f *Features) updateResearchRow(",
+      "役割": "確定1分短ATR、OFI、深さを個別既知として生成",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F10",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go",
+      "sha256": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+      "line": 149,
+      "終端目安": 207,
+      "symbol": "func (f *Features) researchBand(",
+      "役割": "公表20/40分帯・平均・方向効率を端値から算出",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F11",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go",
+      "sha256": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+      "line": 217,
+      "終端目安": 269,
+      "symbol": "func (f *Features) researchOwn(",
+      "役割": "R=max(ATR又は2短ATR,半40分帯,8tick)、30/120秒R変化",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "F12",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\features143.go",
+      "sha256": "64cd49d6182b7d1235d39e3ad6adc0651e3d3b3f72cb76d9d9d7006b4fd259da",
+      "line": 270,
+      "終端目安": 301,
+      "symbol": "func (f *Features) researchFeatures(",
+      "役割": "相手厳密過去/15秒鮮度、MA20と5/20/40分差の列対応",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "D01",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go",
+      "sha256": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+      "line": 13,
+      "終端目安": 118,
+      "symbol": "func (p *Portfolio) day(",
+      "役割": "EMA再成立/短期支持/追跡新規と旧日中返済",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D02",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\engine.go",
+      "sha256": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+      "line": 342,
+      "終端目安": 502,
+      "symbol": "func (e *Engine) shadowTick(",
+      "役割": "0.25ATRの追跡新規、初期停止/追尾/半利確",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D03",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\e01\\engine.go",
+      "sha256": "23ac4cbd5a477e28fdf17945abad459e19815aa2bffb3cb015c1325b269cb056",
+      "line": 560,
+      "終端目安": 679,
+      "symbol": "func (e *Engine) OnTick(",
+      "役割": "通常/早期出口の二影と逆行半減を処理",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D04",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go",
+      "sha256": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+      "line": 300,
+      "終端目安": 332,
+      "symbol": "func (p *Portfolio) extra(",
+      "役割": "元主担当未参加時の1親補完・始値/二市場方向",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D05",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go",
+      "sha256": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+      "line": 174,
+      "終端目安": 272,
+      "symbol": "func (f *SelectedDay164Features) Support(",
+      "役割": "中期Mと短期T/OFIの重み付き支持から初回希望量",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D06",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go",
+      "sha256": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+      "line": 125,
+      "終端目安": 173,
+      "symbol": "func elapsedSelectedDay164Window(",
+      "役割": "支持用bp比と5/15秒の実経過補正",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D07",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_features.go",
+      "sha256": "44120e44584a5ff4e47196052118bc72b7c120c67c6a1b9a7de5ed200d66e01f",
+      "line": 273,
+      "終端目安": 315,
+      "symbol": "func (f *SelectedDay164Features) Short(",
+      "役割": "延期/追撃用5/15秒の円幅と円毎秒、欠測は未知",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D08",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go",
+      "sha256": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+      "line": 95,
+      "終端目安": 105,
+      "symbol": "func selectedDay164Desired(",
+      "役割": "100基準希望=floor(10+90*clip(M*T,0,1))",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D09",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go",
+      "sha256": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+      "line": 433,
+      "終端目安": 479,
+      "symbol": "func (d *SelectedDay164Policy) requestsSelectedDay(",
+      "役割": "初回減速延期と後続5/15秒順行確認",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D10",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go",
+      "sha256": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+      "line": 560,
+      "終端目安": 643,
+      "symbol": "func (d *SelectedDay164Policy) releaseSelectedDay(",
+      "役割": "30秒内再加速・当初希望以下・源縮小比/予約制約",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D11",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go",
+      "sha256": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+      "line": 326,
+      "終端目安": 385,
+      "symbol": "func (d *SelectedDay164Policy) sourceCloseSelectedDay(",
+      "役割": "元返済比率とsource_end、未約定新規取消",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D12",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go",
+      "sha256": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+      "line": 386,
+      "終端目安": 432,
+      "symbol": "func (d *SelectedDay164Policy) manageProtectionSelectedDay(",
+      "役割": "利益部分返済後の残玉10pt起動建値床、追撃−50pt",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "D13",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_day164_policy.go",
+      "sha256": "dd557675ba141ec194ca9104c8909dd6ea21e7db6a3cc259bde82e0eca7946c1",
+      "line": 939,
+      "終端目安": 960,
+      "symbol": "func (d *SelectedDay164Policy) qualifySelectedDay(",
+      "役割": "グループ全約定/正gross/源残存時に当時残玉へ資格",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "S01",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01.go",
+      "sha256": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+      "line": 124,
+      "終端目安": 139,
+      "symbol": "func (p *Portfolio) s01EntryAllowed(",
+      "役割": "独立D07基準の別episode親占有を拒否",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "S02",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\s01.go",
+      "sha256": "09a13eae9b50d584d18d622d51855e1dd94015d1c5d58e27a196bf7605902968",
+      "line": 185,
+      "終端目安": 236,
+      "symbol": "func (p *Portfolio) manageS01Guard(",
+      "役割": "episode親合算利益0.5R起動・最高利益50%床",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "N01",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\cores.go",
+      "sha256": "a0b1f97e5e4050daa742a1d2e2c788476058089ab584f0795607e01a6d42875d",
+      "line": 119,
+      "終端目安": 276,
+      "symbol": "func (p *Portfolio) night(",
+      "役割": "20分高安突破→0.75R順行→押戻し→再反発、二市場支持",
+      "対応手法": [
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "N02",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go",
+      "sha256": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+      "line": 300,
+      "終端目安": 419,
+      "symbol": "func (s *ResearchSource) stepLegacy(",
+      "役割": "基礎主担当/補完の独立影、採否と数量半量写像",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "N03",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\source143.go",
+      "sha256": "4b1810267a58435001ad4816e1fa89513f6d886e1db68a6ff656e8e3ee2ad1ef",
+      "line": 420,
+      "終端目安": 485,
+      "symbol": "func (s *ResearchSource) z04(",
+      "役割": "夜補完の始値方向を明確な二市場反証時に置換",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "N04",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05.go",
+      "sha256": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+      "line": 36,
+      "終端目安": 77,
+      "symbol": "func (p *Portfolio) newP05(",
+      "役割": "P05はD07を影とし夜core効率.25/押戻し.40/反発.125",
+      "対応手法": [
+        "P164_06"
+      ]
+    },
+    {
+      "ID": "N05",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\p05.go",
+      "sha256": "b8ca14158186d977c362b842507bc0627cf619b0d3186a5263e7478b3e46fc1e",
+      "line": 174,
+      "終端目安": 230,
+      "symbol": "func (p *Portfolio) observeP05(",
+      "役割": "影の新規のみ採用。元返済無視、実玉利益追尾と期限返済",
+      "対応手法": [
+        "P164_06"
+      ]
+    },
+    {
+      "ID": "N06",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go",
+      "sha256": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+      "line": 232,
+      "終端目安": 282,
+      "symbol": "func (n *selectedNightPolicy) protectSelectedNight(",
+      "役割": "P少量初回10起動/20追尾・残玉建値・追撃−50",
+      "対応手法": [
+        "P164_06"
+      ]
+    },
+    {
+      "ID": "N07",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go",
+      "sha256": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+      "line": 111,
+      "終端目安": 150,
+      "symbol": "func (n *selectedNightPolicy) sourceNewSelectedNight(",
+      "役割": "U元初回の反対価格帯＋表示量支持で延期",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "N08",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_policy.go",
+      "sha256": "88ce907b55f3d00ecdacc368522dbd9669a715bcdd7fb2970389148624224743",
+      "line": 162,
+      "終端目安": 197,
+      "symbol": "func (n *selectedNightPolicy) releaseSelectedNight(",
+      "役割": "U待機30秒内、新しい同方向帯で源残以内に解除",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "N09",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_state.go",
+      "sha256": "55662e6d18d02dd05a2b85efd88e7264f1b9ea8044ef6a6fa3e68e49002dde3e",
+      "line": 78,
+      "終端目安": 177,
+      "symbol": "func (s *selectedNightRepricing) stepSelectedNight(",
+      "役割": "E8両気配20pt/方向比.625/後続2更新の帯と同価格回復.07",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "N10",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go",
+      "sha256": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+      "line": 103,
+      "終端目安": 188,
+      "symbol": "func (h *selectedNightBookFeatures) addSelectedNight(",
+      "役割": "同秒原行の価格/表示数量を区別、異常又は60秒空白でreset",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "N11",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\selected_night_features.go",
+      "sha256": "9b323bc11768527d838effdf2715dc30bed5be50dd86aff88c69323c22337123",
+      "line": 218,
+      "終端目安": 232,
+      "symbol": "func (h *selectedNightBookFeatures) selectedNightEvent(",
+      "役割": "8価格遷移窓、60秒超は未知。32窓は生成されるが選定主窓ではない",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C01",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go",
+      "sha256": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+      "line": 193,
+      "終端目安": 362,
+      "symbol": "func (s *ResearchActive) entry(",
+      "役割": "40分効率で突破/往復を選択、押戻し/高安構造と二市場支持",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C02",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active143.go",
+      "sha256": "2db2a19354c19e9c9832847d6f938f23c331b6ddfe942cc872898a4d8da6ce52",
+      "line": 75,
+      "終端目安": 192,
+      "symbol": "func (s *ResearchActive) step(",
+      "役割": "夜episode初期−R/1.25R起動.75R追尾、源追撃",
+      "対応手法": [
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C03",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145.go",
+      "sha256": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+      "line": 189,
+      "終端目安": 416,
+      "symbol": "func (s *ResearchActive145) step(",
+      "役割": "addonの固定U追尾、昼回転、夜支持失効・再参加/ドテン",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C04",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\active145.go",
+      "sha256": "f0eac616147e937ab405e3e0d828c5a2d9c3ef54fe500329c81b9cd367a748c1",
+      "line": 48,
+      "終端目安": 58,
+      "symbol": "func exitUnitWithRules145(",
+      "役割": "初回公表ATRでU=max(8tick,min(R,1.5ATR))、未知R",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C05",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\episode143.go",
+      "sha256": "2036918ce2a66e7adf00e877cf01dbab6cffd5a391d055c44f8742e01646113a",
+      "line": 52,
+      "終端目安": 252,
+      "symbol": "func (s *ResearchEpisode) step(",
+      "役割": "昼20分帯の突破失敗/帯内回復、半利確/帯幅追尾",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "C06",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145.go",
+      "sha256": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+      "line": 62,
+      "終端目安": 86,
+      "symbol": "func (p *Portfolio) researchGate145(",
+      "役割": "coreの120秒逆流採否、未知を逆票にしない",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C07",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go",
+      "sha256": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+      "line": 535,
+      "終端目安": 632,
+      "symbol": "func (p *Portfolio) nativeResearch(",
+      "役割": "初回R/MA20を固定、親採否と担当cap、追加/返済比率",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C08",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go",
+      "sha256": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+      "line": 430,
+      "終端目安": 534,
+      "symbol": "func (p *Portfolio) researchManage(",
+      "役割": "昼core現在中値−入口固定MA20と120秒/20分反証、残玉予算",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C09",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research143.go",
+      "sha256": "e877d7195891e3593d7bc0e1ff9e97ee0382cb965af9b69262d0c6c153e8c77d",
+      "line": 316,
+      "終端目安": 414,
+      "symbol": "func (p *Portfolio) retainResearch(",
+      "役割": "core/episode元全返済を利益残玉1枚に延長する条件",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "C10",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\research145.go",
+      "sha256": "5d2f9b728aefe1a935078aa82a8f7e2101e5e7a5feed80a10472d1a4ddfc0b2c",
+      "line": 115,
+      "終端目安": 135,
+      "symbol": "func (p *Portfolio) managePartialProtection145(",
+      "役割": "D07昼core利益部分返済後の残玉ピーク半減保護",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "C11",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\legacy_rules.go",
+      "sha256": "2f9537b9316c37fad97cda0f4cbbf29b10fbb1392c2fe2b4fe47a59aeb43b801",
+      "line": 29,
+      "終端目安": 51,
+      "symbol": "func (p *Portfolio) legacyTrail(",
+      "役割": "元夜core初期−R、1R起動.75R追尾、床非緩和",
+      "対応手法": [
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "R01",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods.go",
+      "sha256": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+      "line": 7,
+      "終端目安": 21,
+      "symbol": "func d16415Specs(",
+      "役割": "D164_15専用閾値",
+      "対応手法": [
+        "D164_15"
+      ]
+    },
+    {
+      "ID": "R02",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods.go",
+      "sha256": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+      "line": 22,
+      "終端目安": 34,
+      "symbol": "func p16406Specs(",
+      "役割": "P164_06専用閾値",
+      "対応手法": [
+        "P164_06"
+      ]
+    },
+    {
+      "ID": "R03",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\selected_methods.go",
+      "sha256": "b0b458b830262c8ca98838d5ee2ea26376019e82ddeaa8541179b818aeb071e2",
+      "line": 35,
+      "終端目安": 41,
+      "symbol": "func u16503Specs(",
+      "役割": "U165_03専用閾値",
+      "対応手法": [
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "R04",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\p05.go",
+      "sha256": "8772ea80e62faf00c259d0f204ecd272e696dc9192d1754588d3066d4e22d999",
+      "line": 6,
+      "終端目安": 14,
+      "symbol": "func p05Specs(",
+      "役割": "P05利益起動40/戻り10とgain>0制約",
+      "対応手法": [
+        "P164_06"
+      ]
+    },
+    {
+      "ID": "R05",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\core_specs.go",
+      "sha256": "03a52e82a95ce9e0588ead088f9afaa290a0b78540137b21001d09a459d92be4",
+      "line": 7,
+      "終端目安": 27,
+      "symbol": "func coreSpecs(",
+      "役割": "R、core採否/反証/残玉/部分保護の式",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "R06",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\rules\\addon_specs.go",
+      "sha256": "8120de9c6cf27d14fae9d350bd3c0f3e9341e0474c133e1fea40f62187fd1777",
+      "line": 6,
+      "終端目安": 44,
+      "symbol": "func addonSpecs(",
+      "役割": "D07追加の方向/値幅/構造/追撃/再参加条件",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    },
+    {
+      "ID": "R07",
+      "path": "S:\\GitHub\\masayoshi4649\\SessionTradeExecuter\\internal\\strategy\\types.go",
+      "sha256": "a4de9c28913c96829a1e5fdf3f32a48668fa903a70b1c8d54ae884488a57d821",
+      "line": 113,
+      "終端目安": 138,
+      "symbol": "func DefaultParameters(",
+      "役割": "旧日中/夜間パラメータ既定値とNK夜Retest=true",
+      "対応手法": [
+        "D164_15",
+        "P164_06",
+        "U165_03"
+      ]
+    }
+  ],
+  "既取得FAR部分参照": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\111元時計の連続再現\\元166一次参照.json",
+      "sha256": "e40c2475645cb28ef55363b154ecc07b9b751d75a048cf13415f5ff5842a7959"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\FAR再始動\\参照\\00166_README.md",
+      "sha256": "905945e1c067f980037a518ce37723bced0b8c320f3ec9bd311fdc74fd532415"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\FAR再始動\\参照\\00164_手法定義r2.json",
+      "sha256": "a382af48c60690aaf72cec1489147508daf47444b9465a41f10cf8a471ecb3cb"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\FAR再始動\\参照\\00165_手法定義.json",
+      "sha256": "7094769666a29de59327bbeec81f3f6e4cf8cf35032576ef0d4cb4fefaf69e3c"
+    }
+  ],
+  "元166URL": "https://github.com/masayoshi4649/FutureAlgorithmResearch/tree/cf0717daa1eed78759f78a428bce50129e7f705b/work/research166",
+  "全clone": false,
+  "ネットワーク取得": false,
+  "留保": "コード上の到達経路と標準値の対応。発火頻度/実市場寄与/単独因果を示すものではない。元166との全Signal本文同体は本調査の証明対象外。"
+}
