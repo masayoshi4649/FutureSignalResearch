@@ -1,0 +1,47 @@
+{
+  "試行": 52,
+  "確認日時": "2026-11-06T05:08:35.098043+09:00",
+  "Python": "3.14.3",
+  "テスト": [
+    {
+      "区分": "履歴の人工検査",
+      "件数": 18,
+      "成功": true,
+      "記録": "test_age_divides_by_ten_in_short_window (試行52人工0.HistoryTests.test_age_divides_by_ten_in_short_window)\n短窓でも最終切替後2本は固定分母10で0.2とする。 ... ok\ntest_base_unknown_short_circuit (試行52人工0.HistoryTests.test_base_unknown_short_circuit)\n基礎不明を履歴で救済せず、正本配列へ触れずに返す。 ... ok\ntest_current_and_opening_range_source_match (試行52人工0.HistoryTests.test_current_and_opening_range_source_match)\n現在足・OR10足は保存slotと正本で全SOURCEを一致させる。 ... ok\ntest_five_point_equalities_and_ulp (試行52人工0.HistoryTests.test_five_point_equalities_and_ulp)\n±5等号は切替し、1ULP内側はneutralとして保持する。 ... ok\ntest_future_window_and_public_key (試行52人工0.HistoryTests.test_future_window_and_public_key)\n選択窓の未来公開・予定後終了を拒否する。 ... ok\ntest_hysteresis_and_rebreak_golden (試行52人工0.HistoryTests.test_hysteresis_and_rebreak_golden)\n保持・内帰還・再突破の順序を、上端3外2内へ照合する。 ... ok\ntest_metadata_contract (試行52人工0.HistoryTests.test_metadata_contract)\n旧15を保持し、新10列の順・技法・familyを固定する。 ... ok\ntest_mirror_all_twenty_five (試行52人工0.HistoryTests.test_mirror_all_twenty_five)\n実方向端順を交換するだけで25列の売買鏡像を保つ。 ... ok\ntest_missing_and_duplicate_are_not_zero (試行52人工0.HistoryTests.test_missing_and_duplicate_are_not_zero)\n窓内欠足と重複番号を未発生0と区別して両候補未準備にする。 ... ok\ntest_neutral_seed_and_age (試行52人工0.HistoryTests.test_neutral_seed_and_age)\n最初の明瞭側は種だけで、中間帯は保持する。 ... ok\ntest_nonmutation_and_no_io (試行52人工0.HistoryTests.test_nonmutation_and_no_io)\nI/Oを禁止し、入力・旧metadata・出典を改変しない。 ... ok\ntest_old_past_and_future_outside_window_ignored (試行52人工0.HistoryTests.test_old_past_and_future_outside_window_ignored)\n窓外過去・未使用未来の有無を現在の状態へ持ち込まない。 ... ok\ntest_partial_np_missing_and_key_order (試行52人工0.HistoryTests.test_partial_np_missing_and_key_order)\n窓内不完全・NP・missingと公開順逆転を補完しない。 ... ok\ntest_same_ready_control_and_base_prefix (試行52人工0.HistoryTests.test_same_ready_control_and_base_prefix)\n25列prefixと対照15列を旧51抽出結果へ厳密に合わせる。 ... ok\ntest_short_window_and_ten_limit (試行52人工0.HistoryTests.test_short_window_and_ten_limit)\nOR最終足を含む短窓と最大10本の番号境界を確認する。 ... ok\ntest_single_opening_range_last_foot (試行52人工0.HistoryTests.test_single_opening_range_last_foot)\nj9の一本窓はイベント0でも準備済みとする。 ... ok\ntest_translation (試行52人工0.HistoryTests.test_translation)\n全出典と固定端の一定価格移動で特徴を変えない。 ... ok\ntest_unoccurred_is_ready (試行52人工0.HistoryTests.test_unoccurred_is_ready)\n全neutral・初期outside・最後だけ種の三経路を欠測にしない。 ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.012s\n\nOK\n"
+    },
+    {
+      "区分": "学習の人工検査",
+      "件数": 11,
+      "成功": true,
+      "記録": "test_15prefixと同教師pairを保持 (試行52人工1.ArtificialTests.test_15prefixと同教師pairを保持)\n追加列の有無で入力の基礎値・教師・枠を変えないことを確認する。 ... ok\ntest_C0と固定51Q1の全node同値 (試行52人工1.ArtificialTests.test_C0と固定51Q1の全node同値)\n同一15列・同一教師なら固定51Q1と全木が一致することを確認する。 ... ok\ntest_float32追加列の等号境界 (試行52人工1.ArtificialTests.test_float32追加列の等号境界)\n25番目までの走査にもfloat32化を先に適用する。 ... ok\ntest_pair除外と重みと未来 (試行52人工1.ArtificialTests.test_pair除外と重みと未来)\n履歴付きでも片側未約定をpair除外し、未来同秒を拒否する。 ... ok\ntest_両政策とsklearn全行一致 (試行52人工1.ArtificialTests.test_両政策とsklearn全行一致)\n15/25それぞれの全人工方向行を独立sklearnと照合する。 ... ok\ntest_履歴を新familyにしてgateを緩めない (試行52人工1.ArtificialTests.test_履歴を新familyにしてgateを緩めない)\n履歴と価格の二手法だけを異種familyの達成にしない。 ... ok\ntest_履歴列だけの情報も分岐できる (試行52人工1.ArtificialTests.test_履歴列だけの情報も分岐できる)\n追加列に移した情報をF16以降のJSON分岐で保持する。 ... ok\ntest_政策とmetadataとvectors長の不一致を拒否 (試行52人工1.ArtificialTests.test_政策とmetadataとvectors長の不一致を拒否)\n15/25の取り違えや不定長への暗黙対応をしない。 ... ok\ntest_方向交換と同点WAIT (試行52人工1.ArtificialTests.test_方向交換と同点WAIT)\n同一木に入る方向特徴を交換すれば選択も反転し、同点は待機する。 ... ok\ntest_最高側gateと下限等号 (試行52人工1.ArtificialTests.test_最高側gateと下限等号)\n葉支持不足の最高側から次点へ救済せず、1/3等号は認める。 ... ok\ntest_未発生ゼロage負一と未知を区別 (試行52人工1.ArtificialTests.test_未発生ゼロage負一と未知を区別)\n有効な0/−1は通し、未知の両空や非有限値を別にする。 ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.363s\n\nOK\n"
+    },
+    {
+      "区分": "接続の人工検査",
+      "件数": 5,
+      "成功": true,
+      "記録": "test_common_readiness_different_columns (試行52人工2.ConnectionTests.test_common_readiness_different_columns)\n共通準備のまま15/25列だけを切り替える。 ... ok\ntest_history_gap_never_rescued_by_base (試行52人工2.ConnectionTests.test_history_gap_never_rescued_by_base)\n基礎特徴が準備済みでも、履歴不足なら両候補とも予測しない。 ... ok\ntest_neutral_background_wait (試行52人工2.ConnectionTests.test_neutral_background_wait)\nDI同値を反転という役割へ付け替えない。 ... ok\ntest_old_adoption_and_future_result_not_used (試行52人工2.ConnectionTests.test_old_adoption_and_future_result_not_used)\n旧採否・保有・先着を変えても新しい特徴だけで判定する。 ... ok\ntest_same_teacher_pair_in_both_controls (試行52人工2.ConnectionTests.test_same_teacher_pair_in_both_controls)\n履歴未発生を除かず、同じ両方向教師を列数だけ変えて渡す。 ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+    }
+  ],
+  "保存物監査人工": {
+    "人工成功": true,
+    "照合項目数": 3509,
+    "不一致数": 0,
+    "不一致": [],
+    "人工fit数": 2,
+    "本物教師読取": false,
+    "市場戦略再生": false
+  },
+  "全件成功": true,
+  "市場再生": false,
+  "本物学習": false,
+  "コードSHA256": {
+    "scripts/定時履歴/レポート.py": "3df3f8b49d38051a5577a1ad75b31a2882cae8a0853c0767bfe6b6b6e17b597a",
+    "scripts/定時履歴/保存物確認.py": "ac375a1f49d461bafd637ab31816b7d7af17802c35781eaa36dd38250567ca72",
+    "scripts/定時履歴/学習.py": "f3f25a50aae20f4f24145f264caacb8e55cec2920cd03818764a497851dc472a",
+    "scripts/定時履歴/学習の人工検査.py": "50a3027804fbb6d9d8c087f9561f75f261cc792adbe93e4c479301d00151b07a",
+    "scripts/定時履歴/履歴.py": "d3b47ee28e0bc0a227a3c42e28f63de79332711a91a19f492bc1c3f01b84ef05",
+    "scripts/定時履歴/履歴の人工検査.py": "4af2612878e6cf762f4899260dbdcb37fd8a4838ded653b8373eec862b83eee3",
+    "scripts/定時履歴/接続の人工検査.py": "9a050ab441822ecd7569633b3da1d4b6570a4ac7c0628a1cfbd411ed2c5db7ad",
+    "scripts/定時履歴/検証.py": "2f46dfe5e3fb072e18f201ea7b9d857623a5dc8d2cde6879659b4dc55eb8add1"
+  }
+}

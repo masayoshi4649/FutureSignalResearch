@@ -1,0 +1,38 @@
+{
+  "試行": 59,
+  "日時": "2026-11-06T08:58:38.642850+09:00",
+  "成功": true,
+  "テスト件数": 36,
+  "内訳": {
+    "特徴の人工検査": 20,
+    "学習の人工検査": 5,
+    "接続の人工検査": 5,
+    "レポート": 6
+  },
+  "監査人工": {
+    "人工成功": true,
+    "照合項目数": 2738,
+    "不一致数": 0,
+    "不一致": [],
+    "人工fitAPI回数": 2,
+    "人工回帰器fit数": 6,
+    "本物fit": 0,
+    "実教師又はモデル読取": false,
+    "市場戦略再生": false,
+    "新主処理import": false
+  },
+  "本物fit": false,
+  "市場計測": false,
+  "独立計測": false,
+  "コードSHA256": {
+    "scripts/価格経路の深さと速度/レポート.py": "982158f43fff2253dbe969ac30de971caf0354ca91c47b1aab1f9be4e08dd2e5",
+    "scripts/価格経路の深さと速度/保存検証.py": "dcc2dd4eb4633cbe8d57bf7f0e950327d4730db8f23d2cc470dda8900577cc5e",
+    "scripts/価格経路の深さと速度/保存検証人工.py": "6e5df11d0d80a1c15be1a88cb90c4064f9f16959e21d23bd55ab846b22cc0eb4",
+    "scripts/価格経路の深さと速度/学習.py": "8cdd8a21feb5b546c518a450e4b1e3581e3e2437c1fd8ec404f57348112d6867",
+    "scripts/価格経路の深さと速度/学習の人工検査.py": "005e829f794fd35a0de32707a45c5c056da45e98779d701f44cf1777d97313a9",
+    "scripts/価格経路の深さと速度/接続の人工検査.py": "cd7ca0f0cff6ee3f0e50f8c076b70760e381d020a3db7032c69ff496a90ac5a7",
+    "scripts/価格経路の深さと速度/検証.py": "2696e4f63fed856875adb8102130eaf847d76f06444dd9741805c027a1051edd",
+    "scripts/価格経路の深さと速度/特徴.py": "5ebaaac66f7a7efffaae6e81f7d26f6cea0bfef221ccd16c1dd2f8e2cf4faf80",
+    "scripts/価格経路の深さと速度/特徴の人工検査.py": "06b7e993ea142c4f9dd9f80ef98d8d83d5a203ee8aae612e90856f6ee2caf427"
+  }
+}

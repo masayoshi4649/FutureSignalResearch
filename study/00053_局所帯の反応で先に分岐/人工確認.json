@@ -1,0 +1,48 @@
+{
+  "試行": 53,
+  "確認日時": "2026-11-06T05:48:10.463789+09:00",
+  "Python": "3.14.3",
+  "テスト": [
+    {
+      "区分": "特徴の人工検査",
+      "件数": 16,
+      "成功": true,
+      "記録": "test_asof_and_current_or_match (試行53人工0.ContextTests.test_asof_and_current_or_match)\n未来公開・予定後終了・OR現在出典差を拒否し、同判断keyは許す。 ... ok\ntest_base_unknown_nonmutation_and_no_io (試行53人工0.ContextTests.test_base_unknown_nonmutation_and_no_io)\n基礎不明を救済せず、準備済み抽出でもI/Oや入力改変をしない。 ... ok\ntest_both_flags_and_both_directions_possible (試行53人工0.ContextTests.test_both_flags_and_both_directions_possible)\n同方向の両旗、両方向のZをORとし、排他的と誤認しない。 ... ok\ntest_early_and_first_complete_window (試行53人工0.ContextTests.test_early_and_first_complete_window)\nj9基礎が準備済みでも局所15本は未知、j14から準備可能とする。 ... ok\ntest_equalities_and_ulp (試行53人工0.ContextTests.test_equalities_and_ulp)\n±5等号とその内側1ULPを精密に分ける。 ... ok\ntest_metadata_prefix_and_zero_width (試行53人工0.ContextTests.test_metadata_prefix_and_zero_width)\n旧15prefixと17/18列を保ち、零幅局所帯も有効とする。 ... ok\ntest_mirror_all_columns (試行53人工0.ContextTests.test_mirror_all_columns)\n高安反射と実方向交換で18列と両旗を保つ。 ... ok\ntest_missing_duplicate_and_invalid (試行53人工0.ContextTests.test_missing_duplicate_and_invalid)\n参照・反応の欠足・重複・NP・不完全を両候補未知にする。 ... ok\ntest_nonfinite_new_values_are_unknown (試行53人工0.ContextTests.test_nonfinite_new_values_are_unknown)\n有限な入力から追加特徴のfloat表示があふれる場合も補完しない。 ... ok\ntest_opposite_return_separate_from_di_role (試行53人工0.ContextTests.test_opposite_return_separate_from_di_role)\n下端外→内の買い旗を作り、DI役割を価格旗へ混ぜない。 ... ok\ntest_own_continuation_and_context_values (試行53人工0.ContextTests.test_own_continuation_and_context_values)\n最初の外切替を数え、局所幅・位置の明示値を検査する。 ... ok\ntest_reference_fixed_before_reaction (試行53人工0.ContextTests.test_reference_fixed_before_reaction)\n反応5本の極端なヒゲを帯へ混ぜず、終値だけで反応する。 ... ok\ntest_reference_known_before_first_reaction_observation (試行53人工0.ContextTests.test_reference_known_before_first_reaction_observation)\n参照確認が反応開始後でも、最初の反応公開keyより前なら許す。 ... ok\ntest_translation (試行53人工0.ContextTests.test_translation)\n一定価格移動で局所帯の文脈と反応を変えない。 ... ok\ntest_window_external_past_and_future (試行53人工0.ContextTests.test_window_external_past_and_future)\n参照外の過去・未使用未来を現在帯や反応へ混入させない。 ... ok\ntest_z_zero_ready_and_anchor_inside (試行53人工0.ContextTests.test_z_zero_ready_and_anchor_inside)\n無反応・中間帯を準備済みZ0とし、参照端終値でもinsideで始める。 ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.017s\n\nOK\n"
+    },
+    {
+      "区分": "学習の人工検査",
+      "件数": 13,
+      "成功": true,
+      "記録": "test_B0とsklearn全方向一致 (試行53人工1.ArtificialTests.test_B0とsklearn全方向一致)\n自由17列木の全葉ID・確率・構造を独立学習器と照合する。 ... ok\ntest_F0とZ別17列子木の全方向一致 (試行53人工1.ArtificialTests.test_F0とZ別17列子木の全方向一致)\nZの各枝を独立fitし、全体IDへ写した葉と確率が一致することを確認する。 ... ok\ntest_F0も両方向交換で同じ木を使う (試行53人工1.ArtificialTests.test_F0も両方向交換で同じ木を使う)\nZを含む方向ベクトルを交換し、scoresと選択が対称に変わることを確認する。 ... ok\ntest_Zは0or1だけで境界付近を補正しない (試行53人工1.ArtificialTests.test_Zは0or1だけで境界付近を補正しない)\n0と1はrootの別枝へ入り、0.5や近傍値を二値化しない。 ... ok\ntest_float32閾値前後と未知特徴 (試行53人工1.ArtificialTests.test_float32閾値前後と未知特徴)\n学習列の極小正値もfloat32化し、両空と片空を区別する。 ... ok\ntest_pair除外はZ分割前で枝片側も可 (試行53人工1.ArtificialTests.test_pair除外はZ分割前で枝片側も可)\n片側未約定を相手も除外し、残った枝内でpairを再要求しない。 ... ok\ntest_全node支持をglobal使用行から照合 (試行53人工1.ArtificialTests.test_全node支持をglobal使用行から照合)\n全nodeの所属ID・0.5重み・unique支持を別走査で確認する。 ... ok\ntest_強制rootと深さと子列投影 (試行53人工1.ArtificialTests.test_強制rootと深さと子列投影)\nZに関係なくrootが存在し、子でF18を再選択しないことを確認する。 ... ok\ntest_政策とmetadata列数の誤りを拒否 (試行53人工1.ArtificialTests.test_政策とmetadata列数の誤りを拒否)\n17/18列を暗黙変換せず、F18の技法やfamilyを保つ。 ... ok\ntest_方向交換と同点と最高側だけの採否 (試行53人工1.ArtificialTests.test_方向交換と同点と最高側だけの採否)\n同じ木で方向を交換し、同点WAIT・最高側不適格時の救済禁止を確認する。 ... ok\ntest_未来教師とpair不一致と不正重みを拒否 (試行53人工1.ArtificialTests.test_未来教師とpair不一致と不正重みを拒否)\n除外候補でも未来同秒を拒否し、片側追加や重み変更を認めない。 ... ok\ntest_空枝は未知nullで両方向WAIT (試行53人工1.ArtificialTests.test_空枝は未知nullで両方向WAIT)\n空枝を学習せず、既知側の得点を保持しても低い側へ救済しない。 ... ok\ntest_非空少数枝もfitして通常支持で待つ (試行53人工1.ArtificialTests.test_非空少数枝もfitして通常支持で待つ)\n方向行1件の枝を未知とせず、通常の葉支持・技法条件で退ける。 ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.612s\n\nOK\n"
+    },
+    {
+      "区分": "接続の人工検査",
+      "件数": 5,
+      "成功": true,
+      "記録": "test_common_readiness_different_columns (試行53人工2.ConnectionTests.test_common_readiness_different_columns)\n共通準備のまま17/18列だけを切り替える。 ... ok\ntest_history_gap_never_rescued_by_base (試行53人工2.ConnectionTests.test_history_gap_never_rescued_by_base)\n基礎特徴が準備済みでも、履歴不足なら両候補とも予測しない。 ... ok\ntest_neutral_background_wait (試行53人工2.ConnectionTests.test_neutral_background_wait)\nDI同値を反転という役割へ付け替えない。 ... ok\ntest_old_adoption_and_future_result_not_used (試行53人工2.ConnectionTests.test_old_adoption_and_future_result_not_used)\n旧採否・保有・先着を変えても新しい特徴だけで判定する。 ... ok\ntest_same_teacher_pair_in_both_controls (試行53人工2.ConnectionTests.test_same_teacher_pair_in_both_controls)\n履歴未発生を除かず、同じ両方向教師を列数だけ変えて渡す。 ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+    }
+  ],
+  "保存物監査人工": {
+    "人工成功": true,
+    "照合項目数": 4642,
+    "不一致数": 0,
+    "不一致": [],
+    "人工fit数": 3,
+    "人工学習器fit数": 4,
+    "本物教師読取": false,
+    "市場戦略再生": false
+  },
+  "全件成功": true,
+  "市場再生": false,
+  "本物学習": false,
+  "コードSHA256": {
+    "scripts/局所帯分岐/レポート.py": "30da7040e0ed126f1b358bd1a98726717fbe30e363abb29b0b0264961fc3f4d8",
+    "scripts/局所帯分岐/保存物確認.py": "1475325c95c41b39817d61f8dca32371bbfcc5b47f6c0e08ccb38d2b14a52f40",
+    "scripts/局所帯分岐/学習.py": "226ab643788ae535f9f3c4573d539937a9723da10124239ec838741141b382e8",
+    "scripts/局所帯分岐/学習の人工検査.py": "dbf5ae03be4325f549ea43114a9aa77ebdb9e1f2698f9ef74937d29d0f352389",
+    "scripts/局所帯分岐/接続の人工検査.py": "3bc546c5879c4798a75216694c320eb9da6537dceaa956d5b1685998574fece6",
+    "scripts/局所帯分岐/検証.py": "8125ab71823594718e8b85df34a0a9dff1f1b6399a83615f0029d8980c67d3c4",
+    "scripts/局所帯分岐/特徴.py": "f0437b75823b37b1518cfcd1383edf4d3eb8e02f5e5445f0a770224bdb90e1db",
+    "scripts/局所帯分岐/特徴の人工検査.py": "7b1c077d226e92f4532771b5921abac9238063e8353c8bbaa2db2fc725d8ef00"
+  }
+}

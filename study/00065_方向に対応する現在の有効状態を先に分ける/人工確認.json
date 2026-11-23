@@ -1,0 +1,43 @@
+{
+  "試行": 65,
+  "日時": "2026-11-06T11:22:05.153134+09:00",
+  "成功": true,
+  "テスト件数": 25,
+  "内訳": {
+    "学習の人工検査": 12,
+    "接続の人工検査": 7,
+    "レポート": 6
+  },
+  "表示人工": {
+    "成功": true,
+    "テスト件数": 6,
+    "実入力読取": false,
+    "fit": 0,
+    "市場再生": false
+  },
+  "監査人工": {
+    "人工成功": true,
+    "照合項目数": 2806,
+    "不一致数": 0,
+    "不一致": [],
+    "人工fitAPI回数": 2,
+    "人工回帰器fit数": 6,
+    "本物fit": 0,
+    "実教師又はモデル読取": false,
+    "市場戦略再生": false,
+    "新主処理import": false
+  },
+  "本物fit": false,
+  "市場計測": false,
+  "独立計測": false,
+  "コードSHA256": {
+    "scripts/現在状態と量価格/レポート.py": "c06a428aae5acef080f816edb410528bf218740c37234069aca8034fe45b4be9",
+    "scripts/現在状態と量価格/レポートの人工検査.py": "6e6c9e07d7c037ecc0fa7a89fdf4b27094b647177dbf2bb798e878d216741a8f",
+    "scripts/現在状態と量価格/保存検証.py": "6774d85e775894a37084f71c28df54978cf7b86b21b3c5cd2311c6726d2ed77b",
+    "scripts/現在状態と量価格/学習.py": "0b3b0263079e70c09c9a2e2c1927f99c9ea2edece90d548575efae6d4bc07df6",
+    "scripts/現在状態と量価格/学習の人工検査.py": "8d96cb6bd3fe2b4d9c8d23ad33eb6db423ee2d7454d6db3560f044c27cc78aeb",
+    "scripts/現在状態と量価格/接続の人工検査.py": "c083ade5d43221e4be6939f7e2fe0104f7387bb3cba0cb9bea17815e7e4b45f1",
+    "scripts/現在状態と量価格/検証.py": "9ca9b956803c5e260afcd9affc15662a4aa75e965c0def0e5aa9bd749efe06e4",
+    "scripts/現在状態と量価格/監査人工.py": "698a848ee13ee34a45c79830de63ff42f59a3ffc054e8d2c095fa7010070b2bf"
+  }
+}

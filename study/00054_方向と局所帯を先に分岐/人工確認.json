@@ -1,0 +1,40 @@
+{
+  "試行": 54,
+  "確認日時": "2026-11-06T06:13:15.342980+09:00",
+  "Python": "3.14.3",
+  "テスト": [
+    {
+      "区分": "学習の人工検査",
+      "件数": 10,
+      "成功": true,
+      "記録": "test_DI区分もfloat32で同値左を使用 (試行54人工0.ArtificialTests.test_DI区分もfloat32で同値左を使用)\n極小正のDIがfloat32で0になる場合、fit所属とwalkがともに左へ入る。 ... ok\ntest_F01強さを子でも追加分割できる (試行54人工0.ArtificialTests.test_F01強さを子でも追加分割できる)\n同じ正符号の中にある教師差をF01の強さだけへ置き、子が使えることを確認する。 ... ok\ntest_pair先除外と旧53教師指紋 (試行54人工0.ArtificialTests.test_pair先除外と旧53教師指紋)\n全pair除外が53と同じで、群内片側を不当に落とさないことを確認する。 ... ok\ntest_三固定nodeと全体深さと子17列 (試行54人工0.ArtificialTests.test_三固定nodeと全体深さと子17列)\n根と両DI段が固定で、子にF18を戻さずF01は残すことを確認する。 ... ok\ntest_全nodeの所属と支持とgini (試行54人工0.ArtificialTests.test_全nodeの所属と支持とgini)\n固定nodeを含めて全使用行からID指紋・重み・支持を再計数する。 ... ok\ntest_四群独立子木と合成の全予測一致 (試行54人工0.ArtificialTests.test_四群独立子木と合成の全予測一致)\n各群を別fitし、全体ID・葉率・全教師の走査を一致させる。 ... ok\ntest_少数非空群は通常支持で除外 (試行54人工0.ArtificialTests.test_少数非空群は通常支持で除外)\n固定段で方向行1件となる枝もfitし、支持不足で採用しない。 ... ok\ntest_方向交換と同点と最高側gate (試行54人工0.ArtificialTests.test_方向交換と同点と最高側gate)\n同じ共通木で売買を交換し、固定familyを数えても通常の支持を維持する。 ... ok\ntest_未知特徴とZ定義域と未来を拒否 (試行54人工0.ArtificialTests.test_未知特徴とZ定義域と未来を拒否)\n両空WAIT・片空拒否・厳密Zと評価同秒拒否を保持する。 ... ok\ntest_空ZでもDI固定nodeと二未知leafを保持 (試行54人工0.ArtificialTests.test_空ZでもDI固定nodeと二未知leafを保持)\nZ全体が空でも固定内部nodeを省かず、未知を0へ補完しない。 ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.661s\n\nOK\n"
+    },
+    {
+      "区分": "接続の人工検査",
+      "件数": 5,
+      "成功": true,
+      "記録": "test_neutral_background_wait (試行54人工1.ConnectionTests.test_neutral_background_wait)\n固定DI左枝へ入る同値を反転役割として売買しない。 ... ok\ntest_old_adoption_and_future_result_not_used (試行54人工1.ConnectionTests.test_old_adoption_and_future_result_not_used)\n旧採否・将来結果・保有を変えても現在特徴だけで判断する。 ... ok\ntest_same_eighteen_columns_as_53 (試行54人工1.ConnectionTests.test_same_eighteen_columns_as_53)\n53F0と同じ18列・readyだけを渡し、元辞書を変更しない。 ... ok\ntest_same_teacher_rows_as_53 (試行54人工1.ConnectionTests.test_same_teacher_rows_as_53)\n未来不足pairも学習器の除外へ渡すまで53と同じ教師行にする。 ... ok\ntest_unready_never_rescued (試行54人工1.ConnectionTests.test_unready_never_rescued)\n基礎特徴だけ準備済みでも局所帯不足を補完しない。 ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+    }
+  ],
+  "保存物監査人工": {
+    "人工成功": true,
+    "照合項目数": 3311,
+    "不一致数": 0,
+    "不一致": [],
+    "人工fit数": 2,
+    "人工学習器fit数": 6,
+    "本物教師読取": false,
+    "市場戦略再生": false
+  },
+  "全件成功": true,
+  "市場再生": false,
+  "本物学習": false,
+  "コードSHA256": {
+    "scripts/方向局面分岐/レポート.py": "483b8a2141387e3412998e95f24048a3bdd0c9fda049ee3edf26a58e5c476bb3",
+    "scripts/方向局面分岐/保存物確認.py": "b4afc17fc9c6ddf5725f9e8328ebfbd5b43192d0ea427e8c8cfbdc6d9db1fbcb",
+    "scripts/方向局面分岐/学習.py": "6b931b945cd54ae2cc74f1a2c39e1e0407d9097e4abc1cada95c6d5f5685881c",
+    "scripts/方向局面分岐/学習の人工検査.py": "a963a56dafde744ec04b85a0cd6813b6b91b1f9a3b79deff28482f23275f64de",
+    "scripts/方向局面分岐/接続の人工検査.py": "d2f9e7906c5f377fc892b98b35211e7f268c6ac56d43d80a769204499a6f1b4e",
+    "scripts/方向局面分岐/検証.py": "795a5aeed154ad446f3b622601e727975c9a4e179a450c56d1517f3de09f7632"
+  }
+}

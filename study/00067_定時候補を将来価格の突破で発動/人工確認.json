@@ -1,0 +1,55 @@
+{
+  "試行": 67,
+  "成功": true,
+  "テスト件数": 34,
+  "運用人工": {
+    "全件一致": true,
+    "人工件数": 22,
+    "詳細": [],
+    "旧49コード不変": true,
+    "旧49コードSHA256": "93c3a63df95558ef8c356794a773f560a20a95428887d2683a4906f7b32a899c",
+    "市場入力読取": false
+  },
+  "接続人工": {
+    "成功": true,
+    "テスト件数": 6,
+    "実入力読取": false,
+    "市場再生": false,
+    "fit": 0
+  },
+  "監査人工": {
+    "人工成功": true,
+    "照合項目数": 302,
+    "不一致数": 0,
+    "不一致": [],
+    "本物入力読取": false,
+    "fit": 0,
+    "Engine期待値import": false,
+    "Engine実装の人工比較": true,
+    "新主import": false,
+    "市場戦略再生": false
+  },
+  "表示人工": {
+    "成功": true,
+    "テスト件数": 6,
+    "実入力読取": false,
+    "fit": 0,
+    "市場再生": false
+  },
+  "本物fit": false,
+  "本物市場読取": false,
+  "コードSHA256": {
+    "scripts/定時候補の価格発動/README.md": "cb51f16e10fcef6fe52b36d249e1e1f79d93f3be62007dd8f2f46d85c7e550e5",
+    "scripts/定時候補の価格発動/レポート.py": "5651cc28f2cac66cf2835dd22bf74168f73061f69e25991a2a1d25ce1243e178",
+    "scripts/定時候補の価格発動/レポートの人工検査.py": "83f32d526596f81074ffdbbdc00b66aacccf9d2d502853d6c7d8c9bd6f192ab7",
+    "scripts/定時候補の価格発動/保存検証.py": "acf88e7e620441a42407e4dd1f0e520dc0cad3c5042b487a0a21347c79bd17a0",
+    "scripts/定時候補の価格発動/先着.py": "0bd20a195bea4eccfb4f4ee430c97a46d3bd2cad66e5dda2e3571bbc101e2947",
+    "scripts/定時候補の価格発動/先着の人工検査.py": "8679109e0a2bd1c505127ba04bc1562b95f687ba834488aee2e909044de36afe",
+    "scripts/定時候補の価格発動/接続の人工検査.py": "054d4f4d66090e8bc676114fe33962bf771b44eea3ed8ef51fa7fdd9c0d8396d",
+    "scripts/定時候補の価格発動/検証.py": "274db13206d0fd46caca2b6fc94929b371a5df82383584c5be6e92307f4c8cc4",
+    "scripts/定時候補の価格発動/監査仕様.md": "2006a49f9ebae411227153a57f166e828459655e8f962df35dd9d8858ecf41d4",
+    "scripts/定時候補の価格発動/運用.py": "d3666a63cb1aeb64c28db28f0c2ffdcf1a5fa9d2e34e2ec2ea013c21e07f16eb",
+    "scripts/定時候補の価格発動/運用の人工検査.py": "8dd85ff58469a717b2c457f85214a072980928299643041e5c70861afd93264f",
+    "scripts/定時候補の価格発動/運用仕様.md": "e5990ecd572e413fdfd2e200d88b715bedb760509310f2d2c26e6d2d225736ca"
+  }
+}
