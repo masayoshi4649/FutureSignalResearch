@@ -1,0 +1,111 @@
+{
+  "trial": 119,
+  "purpose": "市場実行前の人工コードレビュー",
+  "success": true,
+  "source_changed": false,
+  "natural_raw_read": false,
+  "market_input_read": false,
+  "market_result_read": false,
+  "november09_read": false,
+  "go_version": "go1.24.2 windows/amd64",
+  "runner_test_non_cached_main_count": 5,
+  "detector_test_main_count": 4,
+  "tests": "3モジュール成功。119runnerは-count=1 -vで非キャッシュ成功",
+  "vet": "3モジュール成功",
+  "build": "3モジュール成功",
+  "kernel118_119_same_except_names": true,
+  "initial_environment_failure": "119runnerのみ共有Goキャッシュのcorrupt index。独立GOCACHEでtest/vet/build成功、ソース修正なし",
+  "findings": "重大欠陥は見つからなかった。市場の優位性、保存指標の自然Rawからの再計算、mini実約定を保証しない",
+  "files": [
+    {
+      "path": "work/119入口比較/cmd/run/main.go",
+      "bytes": 569,
+      "sha256": "594d3b6717bb24e5dad50149a7e9d0613cfa9e53cab50512bdbe1e7d810b38ef"
+    },
+    {
+      "path": "work/119入口比較/entry.go",
+      "bytes": 18357,
+      "sha256": "c7d96dcc24bf83d723e767d797460873b2c70bd7cdc8bb84f7f4922f99b06648"
+    },
+    {
+      "path": "work/119入口比較/entry_test.go",
+      "bytes": 9567,
+      "sha256": "4e162838d24e43c97dd8ed422373e85b1c86500c1961bde2d591f1756221d199"
+    },
+    {
+      "path": "work/119入口比較/go.mod",
+      "bytes": 394,
+      "sha256": "ab4f9eea33e400537d5fd538c24a4bba72399cd5834a3205357f21bf4264acaf"
+    },
+    {
+      "path": "work/119入口比較/outcome.go",
+      "bytes": 1634,
+      "sha256": "a90a6b535e0972a5556d1e9d00367ba42a86984305fb1cb54dc036faa29813b5"
+    },
+    {
+      "path": "work/119入口比較/reader.go",
+      "bytes": 14851,
+      "sha256": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a"
+    },
+    {
+      "path": "work/119入口比較/types.go",
+      "bytes": 6443,
+      "sha256": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4"
+    },
+    {
+      "path": "work/119入口の技術的出生/detector.go",
+      "bytes": 7110,
+      "sha256": "9ccc201983c5a86773311cd93ebfbe4f9bb10020677c027b10f48ffd6a7e2e02"
+    },
+    {
+      "path": "work/119入口の技術的出生/detector_test.go",
+      "bytes": 8462,
+      "sha256": "dd6c1ae483db76cb441d14f22369ea6017ab73625158ae372954cb7ddd1ec584"
+    },
+    {
+      "path": "work/119入口の技術的出生/go.mod",
+      "bytes": 260,
+      "sha256": "5fa0c5cc2e48479cac5ba4e484654484c792134fb0f44a073d63021d81b996be"
+    },
+    {
+      "path": "work/119入口の技術的出生/README.md",
+      "bytes": 2957,
+      "sha256": "12adca9c8ee27df810c54ec27eb38ff1c1b1b5d961f42c4651a06c84eb09ac55"
+    },
+    {
+      "path": "work/119入口の技術的出生/types.go",
+      "bytes": 1549,
+      "sha256": "f8e5d8f1ab16fe421576bdbed780fb467e7c1ba706bc493f1b3c29cceb3a8388"
+    },
+    {
+      "path": "work/118複数技法の入口条件/bank.go",
+      "bytes": 7897,
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695"
+    },
+    {
+      "path": "work/118複数技法の入口条件/go.mod",
+      "bytes": 76,
+      "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9"
+    },
+    {
+      "path": "work/118複数技法の入口条件/README.md",
+      "bytes": 3780,
+      "sha256": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules.go",
+      "bytes": 8347,
+      "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules_test.go",
+      "bytes": 8029,
+      "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27"
+    },
+    {
+      "path": "work/118複数技法の入口条件/types.go",
+      "bytes": 4220,
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+    }
+  ]
+}

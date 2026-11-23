@@ -1,0 +1,35 @@
+{
+  "試行": 120,
+  "成功": true,
+  "四表A1G5以内視認": "全ヘッダ・値・明細折返しが読め、右端のヘッダ欠けなし。",
+  "画像修正範囲": "4支援PNGだけ。CSVと金融JSONのbytesは再描画証拠の前後SHAで完全不変。",
+  "Root初回視認": true,
+  "再描画後の視認": true,
+  "marker再実行": false,
+  "正式保存": [
+    {
+      "path": "検査/CSVの独立再読.json",
+      "bytes": 5999,
+      "sha256": "5c5a5a7949afb7207cf16c13748bcf1630d101747a66004d68bdb1528ec98cda"
+    },
+    {
+      "path": "検査/CSVの生成確認.json",
+      "bytes": 4762,
+      "sha256": "ba90156b6453dc70f4fe8e4e05e41b107bf648994e54d8b1398e38c1142fc03d"
+    },
+    {
+      "path": "検査/CSV支援画像の再描画.json",
+      "bytes": 4185,
+      "sha256": "f4ea49b4c9f9ff7175f81cbd28430468f9d2df6eaf85c7c1faf734a4e14a3fd1"
+    },
+    {
+      "path": "再現資料/プレビューを再描画する.mjs",
+      "bytes": 4776,
+      "sha256": "ae9c66d842f3daa2bda944dac451e5ba2044d0bf0a8c581808ba37551ec66f3b"
+    }
+  ],
+  "金融再計算": false,
+  "自然CSV再生成": false,
+  "Raw読取": 0,
+  "11月09読取": false
+}

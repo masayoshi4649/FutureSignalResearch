@@ -1,0 +1,129 @@
+{
+  "試行": 120,
+  "成功": true,
+  "Go": "go1.24.2 windows/amd64",
+  "検査": {
+    "runner主テスト": 4,
+    "非キャッシュtest": "成功",
+    "vet": "成功",
+    "build": "成功"
+  },
+  "人工検査内容": [
+    "要求後の別原行・1秒・正常BBOを満たす最初の評価、買売鏡像、既取得非改変",
+    "価格cap即拒否、構造維持strict正/0/負、non-strict5pt等号/4pt拒否、risk0/負/上限超/等号",
+    "cap→hold→riskの優先順位、拒否後に価格改善や構造回復を待たない",
+    "場/限月/原行差、未知ATR、TTL30秒等号、ForceClose後出生のRequestnil及びForceClose等号",
+    "119同一kernelの同秒後行除外、Raw/正常BBO欠測のnil、人工gzip全採用行・SHA及び不一致拒否"
+  ],
+  "119reader同体": true,
+  "119types同体": true,
+  "119kernel関数型名以外同体": true,
+  "市場実行": false,
+  "自然Raw読取": 0,
+  "固定入力JSON読取": 0,
+  "120市場結果読取": 0,
+  "11月09読取": false,
+  "コード": [
+    {
+      "path": "work/120入口比較/cmd/run/main.go",
+      "bytes": 569,
+      "sha256": "404e16a5c5b03e64cb6761d481ad9ebc4c3508c9937cb007b5fed4982b1b3f96"
+    },
+    {
+      "path": "work/120入口比較/entry.go",
+      "bytes": 15024,
+      "sha256": "ef7f94c01be7b698f822a9a325c7d5b2560eb3cf69a2156687171f4b1bb43669"
+    },
+    {
+      "path": "work/120入口比較/entry_test.go",
+      "bytes": 9807,
+      "sha256": "2e4155fe248056e5acff4f9a56d0148943d9212aa573096f78abe594c79ecf83"
+    },
+    {
+      "path": "work/120入口比較/go.mod",
+      "bytes": 389,
+      "sha256": "8d6738b168c57c640c5b6cf1c9cdae4a38ad0cd2fc717895d8d517d4e7698fd9"
+    },
+    {
+      "path": "work/120入口比較/outcome.go",
+      "bytes": 1634,
+      "sha256": "077352fe073d5e40c1caea316a2f6e7745bac5709edf3f52d800cdbed002e87b"
+    },
+    {
+      "path": "work/120入口比較/reader.go",
+      "bytes": 14851,
+      "sha256": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a"
+    },
+    {
+      "path": "work/120入口比較/README.md",
+      "bytes": 2662,
+      "sha256": "5e1ff6ecb19feaecff62672109b9b554e7b08e60868e2da1ddd2c83197e9da8c"
+    },
+    {
+      "path": "work/120入口比較/types.go",
+      "bytes": 6443,
+      "sha256": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4"
+    },
+    {
+      "path": "work/120入口比較/入口比較.exe",
+      "bytes": 3727360,
+      "sha256": "cb15082e307550b478a3fc47be69a8a2357874818d2b731c2a679eee10eb612e"
+    },
+    {
+      "path": "work/120入口の1分構造/detector.go",
+      "bytes": 16847,
+      "sha256": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001"
+    },
+    {
+      "path": "work/120入口の1分構造/detector_test.go",
+      "bytes": 16724,
+      "sha256": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c"
+    },
+    {
+      "path": "work/120入口の1分構造/go.mod",
+      "bytes": 260,
+      "sha256": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07"
+    },
+    {
+      "path": "work/120入口の1分構造/README.md",
+      "bytes": 6333,
+      "sha256": "8c0f352b209237a1679a17493d066c5bd021b149c8a7a1480a0415808b9eaca9"
+    },
+    {
+      "path": "work/120入口の1分構造/types.go",
+      "bytes": 3982,
+      "sha256": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708"
+    },
+    {
+      "path": "work/118複数技法の入口条件/bank.go",
+      "bytes": 7897,
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695"
+    },
+    {
+      "path": "work/118複数技法の入口条件/go.mod",
+      "bytes": 76,
+      "sha256": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9"
+    },
+    {
+      "path": "work/118複数技法の入口条件/README.md",
+      "bytes": 3780,
+      "sha256": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules.go",
+      "bytes": 8347,
+      "sha256": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433"
+    },
+    {
+      "path": "work/118複数技法の入口条件/rules_test.go",
+      "bytes": 8029,
+      "sha256": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27"
+    },
+    {
+      "path": "work/118複数技法の入口条件/types.go",
+      "bytes": 4220,
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+    }
+  ],
+  "注意": "人工検査は市場優位性・mini実約定を証明しない。自然入力の市場実行はRootのF1固定後に限定する。"
+}

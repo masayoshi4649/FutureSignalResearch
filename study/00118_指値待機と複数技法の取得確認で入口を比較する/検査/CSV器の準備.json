@@ -1,0 +1,62 @@
+{
+  "試行": 118,
+  "準備成功": true,
+  "検査範囲": "Node --check、Python py_compile、Root許可tables JSONのschemaのみ。Workbook実行は未検査。",
+  "入力schema": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\CSV用の表.json",
+    "sha256": "020745ba8cb8c4eb5b715e4753c9f750b60831643551d8d60a70056a8c11e6ce",
+    "tables": [
+      {
+        "name": "候補別集計",
+        "rows": 14,
+        "columns": 37
+      },
+      {
+        "name": "全候補明細",
+        "rows": 7812,
+        "columns": 28
+      }
+    ],
+    "データセル数": 219254,
+    "ヘッダ込み全セル数": 219319
+  },
+  "所有ファイル": {
+    "出力する.mjs": {
+      "sha256": "40a0ac74935fe57cf0b0c7ed4f9522c0474e11b84cfd672db1cfe5af8458a67f",
+      "bytes": 11152
+    },
+    "CSVを独立再読する.py": {
+      "sha256": "bb0eaf22269b9f6c433975f6d0365e26ee635b1a46eef3cde217ecb4f9a4ac62",
+      "bytes": 12853
+    },
+    "README.md": {
+      "sha256": "1bf32234d2b14bc86055fd52d8983b5c2298df2f469977d81b9118245b3ad5f3",
+      "bytes": 3526
+    }
+  },
+  "環境": {
+    "Node": "24.22.1",
+    "artifact_tool": "2.8.129",
+    "node_executable": "C:/Users/masay/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+    "node_modules_junction": "C:/Users/masay/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules"
+  },
+  "転記範囲": "Rootが所与の独立1mini入口試験の期限評価。片側10枚の運用口座収支には合算しない。",
+  "作成予定": [
+    "候補別集計.csv",
+    "全候補明細.csv",
+    "CSVの確認.json",
+    "支援画像/候補別集計.png",
+    "支援画像/全候補明細.png"
+  ],
+  "独立再読": "標準csv/Decimal、全セルexact、zero/null分離、JSON/CSV前後SHA。Root実行待ち。",
+  "Workbook作成": false,
+  "人工CSV作成": false,
+  "自然CSV作成": false,
+  "支援画像作成": false,
+  "marker実行": false,
+  "操作marker担当": "Rootが自然first authoring直前にcreate/2/csvを1回。builderは自動実行しない。",
+  "追加Native_Raw_価格CSV_11月09読取": false,
+  "xlsx生成": false,
+  "金融計算": false,
+  "編集状態": "準備完了、以後編集停止"
+}

@@ -1,0 +1,84 @@
+{
+  "成功": true,
+  "試行候補": 120,
+  "市場前": true,
+  "編集停止": true,
+  "Go": "go1.24.2 windows/amd64",
+  "人工主検査数": 9,
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\go.mod": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\types.go": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector.go": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector_test.go": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\README.md": "8c0f352b209237a1679a17493d066c5bd021b149c8a7a1480a0415808b9eaca9"
+  },
+  "参照118純条件SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\README.md": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+  },
+  "118固定実装と一致": true,
+  "commands": [
+    {
+      "argv": [
+        "go",
+        "test",
+        "-count=1",
+        "-v",
+        "./..."
+      ],
+      "exit_code": 0,
+      "主検査": [
+        "TestCausalMinuteAndBoundaries",
+        "TestATRExcludesCurrentAndNeedsKnown",
+        "TestMinuteGapDelayAndHistoryCap",
+        "TestAllPoliciesMirrorAndCopies",
+        "TestUnknownAndFreshPublicationReject",
+        "TestCooldownCapRiskAndGateCounts",
+        "TestBBPriorKnownSessionAndDistinct",
+        "TestRecoveredCloseRequiresCurrentHoldMirror",
+        "TestRawGapAdjacentMinutesReset"
+      ]
+    },
+    {
+      "argv": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "API": "NewDetector/StartSession/Observe(*rules.Bank,rules.Quote)([]Event,error)/Stats/Snapshot",
+  "Policies": [
+    "P1",
+    "P1plus",
+    "P2",
+    "P2plus",
+    "P3",
+    "P3plus"
+  ],
+  "品質追加": "出生Lastで構造回復維持、Raw価格時計差>60秒なら形成足/1分履歴破棄・候補なし。固定市場結果未読時に確定。",
+  "統計": "政策/side12キー。独立gate件数の同Considered分母、AllGatesPassとCooldownRejected/Births分離。RawGapResetsとGapResetsは重複し得る。",
+  "自然Raw/Native/市場結果/11月09読取": 0,
+  "金融実行": false,
+  "70%立証": false,
+  "収益性検証": false,
+  "条件変更後の最終検査": "holdとRawGap60追加後に9主test、vet、buildをすべて成功",
+  "指紋の範囲": "最後の成功検査後の最終ソースSHA。市場実行前F1へこの版を固定する。"
+}

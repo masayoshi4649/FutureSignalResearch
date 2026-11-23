@@ -1,0 +1,67 @@
+{
+  "成功": true,
+  "停止": false,
+  "市場前": true,
+  "試行候補": 118,
+  "人工主検査数": 5,
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\README.md": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\README.md": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+  },
+  "前後不変": true,
+  "commands": [
+    {
+      "argv": [
+        "go",
+        "test",
+        "-count=1",
+        "-v",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "=== RUN   TestTrendMirrorAndLaterBar\n--- PASS: TestTrendMirrorAndLaterBar (0.00s)\n=== RUN   TestReversalAndHybrid\n--- PASS: TestReversalAndHybrid (0.00s)\n=== RUN   TestRollingUnknownAndReset\n--- PASS: TestRollingUnknownAndReset (0.00s)\n=== RUN   TestCausalityAndUnknown\n--- PASS: TestCausalityAndUnknown (0.00s)\n=== RUN   TestRelativeVolumeUsesPrevious20\n--- PASS: TestRelativeVolumeUsesPrevious20 (0.00s)\nPASS\nok  \tgithub.com/masayoshi4649/SessionTradeExecuter/entryrules118\t0.084s\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "Raw/自然Native/価格CSV/11月09読取": 0,
+  "金融実行": false,
+  "収益性検証": false,
+  "API": "NewBank/StartSession/Add/SeedFromPrior/Current/Evaluate",
+  "三値": {
+    "未知": 0,
+    "既知偽": 1,
+    "真": 2
+  }
+}

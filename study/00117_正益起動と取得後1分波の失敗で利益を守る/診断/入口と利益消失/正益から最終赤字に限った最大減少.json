@@ -1,0 +1,4060 @@
+{
+  "試行": 117,
+  "成功": true,
+  "定義": "marks.whole_max.whole_net>0かつ最終realized_net<0の実Positionだけ。減少=最大W-最終実現。",
+  "完了Ref": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\完了.json",
+    "sha256": "f9d5dfc49bef7f9b2dcf6bba55fe264b689dc2e8312e0e26c4530e4b1d2872e0"
+  },
+  "Native70": [
+    {
+      "session": "2026-09-21_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+      "sha256": "3406ac96084aa849c238880d04a541637de452421d86a8d6feb35f662e63fe80"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+      "sha256": "fbda13246884fffe14bc935f108270ad6ff7d7e5a34eb226c824ec0b9329cd87"
+    },
+    {
+      "session": "2026-09-22_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz",
+      "sha256": "698b582c56a6f2c6f0a78302c66c3655c8e1d3de15a73eff3f73b2d65bc2b61c"
+    },
+    {
+      "session": "2026-09-22_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz",
+      "sha256": "41cceabd2413295dcde3a6b279f0f31b6138377f309949239bd8a323247c6b5f"
+    },
+    {
+      "session": "2026-09-23_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz",
+      "sha256": "641f144a52b78d587a56458d71a50bb45f4c60b89c71672c2b1da738a1cf6eb1"
+    },
+    {
+      "session": "2026-09-23_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz",
+      "sha256": "3e2da1ef0155bcc0c93fedb857bafc758f99df74a000816bcb7eb31eb9eca0df"
+    },
+    {
+      "session": "2026-09-24_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz",
+      "sha256": "944cdade9bf583cb083ac25e771fd0b973a6cbcf42a1cd58c5a15acf466e63c7"
+    },
+    {
+      "session": "2026-09-24_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz",
+      "sha256": "930272ec4b0bd1015eeb5f15f17883abd7cda5789cf43ca58c34ac31dd6e7e23"
+    },
+    {
+      "session": "2026-09-25_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz",
+      "sha256": "15543f306d2ac50ba3271f6167408a4612d2954eaa7f6346ca1025c4b8e0db4f"
+    },
+    {
+      "session": "2026-09-25_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz",
+      "sha256": "98d51a69b997f2c39ae85afe9a02261d70f121f9402ce9c4e0046271d57641a0"
+    },
+    {
+      "session": "2026-09-28_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz",
+      "sha256": "a6b1090d764dbe2bf1596a09027551acb6835a85569614064b72a88c2d090737"
+    },
+    {
+      "session": "2026-09-28_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz",
+      "sha256": "46a01c2291e0e9ac55f5164071539f8b4d5e32e92cb2250366532fc36501937c"
+    },
+    {
+      "session": "2026-09-29_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz",
+      "sha256": "9974dcfe84d8fa892f72044378cd2225b7729d852a804df43a4860f0b5c655c9"
+    },
+    {
+      "session": "2026-09-29_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz",
+      "sha256": "1fe5430b12826e200fa4c4de39ed9e686a6f251d4c5a96b0534be48490c7a801"
+    },
+    {
+      "session": "2026-09-30_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz",
+      "sha256": "70ac75a32f10e4cf0cd5cc390f64f033d87978996471db65719a4cd5f9708d57"
+    },
+    {
+      "session": "2026-09-30_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz",
+      "sha256": "6f1a54cb8d316f76bbb2b4ebd93e075265bc68dc63345ac3a379a5461eef926f"
+    },
+    {
+      "session": "2026-10-01_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz",
+      "sha256": "a7c1cfd0051e4858bc6d4d953ae1cb2867ca01464eb220f7386d84006e4469c5"
+    },
+    {
+      "session": "2026-10-01_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz",
+      "sha256": "a0fedbac831c68a600fc05ad135bddc59cefb252c9d95539d78cf66b5ef2fa03"
+    },
+    {
+      "session": "2026-10-02_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz",
+      "sha256": "86bfd1e991e16d9c221e2d136994252d4b8d9cd696571f83a209fb2891d954a0"
+    },
+    {
+      "session": "2026-10-02_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz",
+      "sha256": "68e28403eeca9367831a30503e298b5e06089811df5d640592e70dc44eb6def5"
+    },
+    {
+      "session": "2026-10-05_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz",
+      "sha256": "a0bfd290b525dba322b445ed59e3c0ff46494fdfc0fca663cea88070c3095899"
+    },
+    {
+      "session": "2026-10-05_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz",
+      "sha256": "9bfd560181435b7bc27b1884476d5d9cec85a8feb7b1d4b93ba658c7b573f161"
+    },
+    {
+      "session": "2026-10-06_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz",
+      "sha256": "3e0c99ef3ae1fb36f27b451fd5b745349a069b27d659904d67c898646045b466"
+    },
+    {
+      "session": "2026-10-06_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz",
+      "sha256": "46fa8b6a48abbee7a5fa17bcf5f1f38f5cea27283b2d1813489a88ad41f30ae3"
+    },
+    {
+      "session": "2026-10-07_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz",
+      "sha256": "56eb99040b567007acb5d3a7b56e4132cfc76da21b134c2cebef90c739b789f5"
+    },
+    {
+      "session": "2026-10-07_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz",
+      "sha256": "a4d3a9134baa563607a489bd2e69e5f9178a0adef68551c7ce6c066eb05c7e48"
+    },
+    {
+      "session": "2026-10-08_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz",
+      "sha256": "7d689163b22e91358426f50860b0626c13886420a6a6d22fa4ed420c7bb8b8a9"
+    },
+    {
+      "session": "2026-10-08_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz",
+      "sha256": "ca02ca6e87d279d3146d6cca282765bb5aa8f596b68e49bf9b81081cec9aeb43"
+    },
+    {
+      "session": "2026-10-09_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz",
+      "sha256": "985e0f6a23f4c2133a414ec8db517b3cfeabcaf19d34ad544eea3b34d5ff819e"
+    },
+    {
+      "session": "2026-10-09_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz",
+      "sha256": "6e3107078c9c526692603fdf5e669aa279650dcfc1654c47a63e07e535064f19"
+    },
+    {
+      "session": "2026-10-12_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz",
+      "sha256": "a3d9ea71071eac8abbed16ac5d5353a4c4e80a2782d6f59698f91cccf47f75f1"
+    },
+    {
+      "session": "2026-10-12_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz",
+      "sha256": "44d428a9fd6ba48733a0a559e2b141731d8043ef93ce3e215e2a3e9db9f6e033"
+    },
+    {
+      "session": "2026-10-13_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz",
+      "sha256": "dc1c2413b502ea1ec9ebd336d14c979dcda53b79f6ebe89f8f61a91a7d62c142"
+    },
+    {
+      "session": "2026-10-13_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz",
+      "sha256": "db7ec1ee5bbecaf62ae0c22a362605a21a54387406528fdfd003ba87ebb88efb"
+    },
+    {
+      "session": "2026-10-14_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz",
+      "sha256": "6e06cd7bbeb3fbb4efb32cbdcc6c850780b0dabf463a48fe927e3ee9bbea4031"
+    },
+    {
+      "session": "2026-10-14_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz",
+      "sha256": "1e695d291422d1a6da9d93a4a6429f152dabe42d7ed9f0c3e05da12e6ea472ad"
+    },
+    {
+      "session": "2026-10-15_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz",
+      "sha256": "606aaa536e8d548aebcfbf099644971f56cf4697331a689f3f40069bb195a15f"
+    },
+    {
+      "session": "2026-10-15_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz",
+      "sha256": "ce1e229dd520b604c117d1427d963c9c7a1d49ec896f13c6c0da06f04b6f26c1"
+    },
+    {
+      "session": "2026-10-16_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz",
+      "sha256": "0b4dc2e6da30114d9431d0223943d26336b85689e96ab0da9fb3d739f68e7b07"
+    },
+    {
+      "session": "2026-10-16_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz",
+      "sha256": "7aa73b37b8345332993a39ee89e5ad0d407e6556a7df761a2415680988482d8b"
+    },
+    {
+      "session": "2026-10-19_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz",
+      "sha256": "dbe7390f7ec09ac5043e8c314466ed3c1d3e21aa970a202e076202cb714e1c72"
+    },
+    {
+      "session": "2026-10-19_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz",
+      "sha256": "6f1e3bcc626d1609c25c28189550837989f433d018a8a458ac62cbbffe0e9c6a"
+    },
+    {
+      "session": "2026-10-20_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz",
+      "sha256": "727539141f04ebea96b4fa08c651793dc12b96623d8db3c207c89a924265809c"
+    },
+    {
+      "session": "2026-10-20_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz",
+      "sha256": "ef60056363d6f67d9f05b4d65d68aec47d656e461d734de07aa272fe15590186"
+    },
+    {
+      "session": "2026-10-21_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz",
+      "sha256": "ba8f235cc4866ff513c4e47a3d37159550a733e3d9f3da106940f2d45fe8e40d"
+    },
+    {
+      "session": "2026-10-21_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz",
+      "sha256": "a32e2fabadc2c4485aa2bb4a7b7c26e92683ea1e0acad7da690c2f67ce6b63d3"
+    },
+    {
+      "session": "2026-10-22_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz",
+      "sha256": "3301729b0bffb9fa0a07b87c8f9ecd3725e825bead3c716e611f07afa62b8ee9"
+    },
+    {
+      "session": "2026-10-22_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz",
+      "sha256": "f7650b91f26a82409b794440339a02e058c2331736cea2bf43bb455f68f1aa61"
+    },
+    {
+      "session": "2026-10-23_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz",
+      "sha256": "4c9eb429b23a31937f7c1e09f9d31cd34655e55a9da9f10855be892b0759d102"
+    },
+    {
+      "session": "2026-10-23_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz",
+      "sha256": "ec539863aa5d17773af6f5765200b324599dd5158404d65f783fd89ef886c3cd"
+    },
+    {
+      "session": "2026-10-26_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz",
+      "sha256": "586115ccaa5bd6689dbb804adf3e54f7f3966d4279031d6a7547caca01b994bc"
+    },
+    {
+      "session": "2026-10-26_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz",
+      "sha256": "d1d528eb4f4fae09166f9f304baa2e480740911a2dcaad6e33e65417a2264ede"
+    },
+    {
+      "session": "2026-10-27_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz",
+      "sha256": "095d34f35aab87fb944cc89f5aae750e754b7c9a46ef1fa441d819cf95b91229"
+    },
+    {
+      "session": "2026-10-27_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz",
+      "sha256": "347ff884a992d99f01c9b7bc37af50baa668a7c3b90d3efd2ae84969a54b34cc"
+    },
+    {
+      "session": "2026-10-28_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-28_Day\\2026-10-28_Day.Native.json.gz",
+      "sha256": "65f87a4da516f12164aa117d4cdd9b7300c96d26fcb913ec87f5cda05829dd55"
+    },
+    {
+      "session": "2026-10-28_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-28_Night\\2026-10-28_Night.Native.json.gz",
+      "sha256": "a3ec1307432a4483adc8f1bc466e756b2b314bfb8d4301d770b7caa9f018a547"
+    },
+    {
+      "session": "2026-10-29_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-29_Day\\2026-10-29_Day.Native.json.gz",
+      "sha256": "0ddf1d2d42e5ca8300bac5e1e8cf5a46fe90d66d1e4a60ce74c1d8aa6b03deae"
+    },
+    {
+      "session": "2026-10-29_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-29_Night\\2026-10-29_Night.Native.json.gz",
+      "sha256": "0786793110efe256d3bee95bcc20eebfe5fae2f5f2a558841555975865477e2f"
+    },
+    {
+      "session": "2026-10-30_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-30_Day\\2026-10-30_Day.Native.json.gz",
+      "sha256": "4dd9c63fecc15f90841abe9dc466d17a72064ddada9f6d74efa3c3624bdc760c"
+    },
+    {
+      "session": "2026-10-30_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-30_Night\\2026-10-30_Night.Native.json.gz",
+      "sha256": "2ac2b6a97be6f270c99f9cdf5f2c33314cba2b268748d6dd1bed57bd31d9f5d3"
+    },
+    {
+      "session": "2026-11-02_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-02_Day\\2026-11-02_Day.Native.json.gz",
+      "sha256": "b7e6f79528d3e57def940904250257b59580d053d6abd442e79fd0905664c6d7"
+    },
+    {
+      "session": "2026-11-02_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-02_Night\\2026-11-02_Night.Native.json.gz",
+      "sha256": "afb0bc2c26692bbef7284d634cf18f8f6286a5949868497303ee0f2de0c9953e"
+    },
+    {
+      "session": "2026-11-03_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-03_Day\\2026-11-03_Day.Native.json.gz",
+      "sha256": "9e2bbd27bb185f3538a4f984bf50d6ec3db91b836bdab03b7d9b2472afca0730"
+    },
+    {
+      "session": "2026-11-03_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-03_Night\\2026-11-03_Night.Native.json.gz",
+      "sha256": "27c8f57a78147a842360b0373e1e79bafd953b64929c62c30c1db9563c6de7e9"
+    },
+    {
+      "session": "2026-11-04_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-04_Day\\2026-11-04_Day.Native.json.gz",
+      "sha256": "d5a2a94f6e3a0aec1cf2c8eda3dee4b8d0e1e499f63b917c79e581bcc71fbb1a"
+    },
+    {
+      "session": "2026-11-04_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-04_Night\\2026-11-04_Night.Native.json.gz",
+      "sha256": "5e560ec360fcfca093712b342a028e034be7d529d2d288aec06a732f54d17c2a"
+    },
+    {
+      "session": "2026-11-05_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-05_Day\\2026-11-05_Day.Native.json.gz",
+      "sha256": "b1e14edd7a3b683de3fb20c334eb229956b3ae2ebcf2401d88e83725913c5fbb"
+    },
+    {
+      "session": "2026-11-05_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-05_Night\\2026-11-05_Night.Native.json.gz",
+      "sha256": "ba758e1f53bd0713e0f2977c3d57352078c9f340dd52e0deeb653306b16b901b"
+    },
+    {
+      "session": "2026-11-06_Day",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz",
+      "sha256": "01ea948467ab4be3b76fefb9ea8aec4c8a6ce0a0819ca957e9eb9c8ab8abe5c3"
+    },
+    {
+      "session": "2026-11-06_Night",
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-06_Night\\2026-11-06_Night.Native.json.gz",
+      "sha256": "db21ab5e8bde00dd8eed8fc26f6e5b47d6207decde7d044871e8d5cac93f2101"
+    }
+  ],
+  "条件成立件数": {
+    "H0E_C0_D0": 362,
+    "H0E_C0_D1": 235,
+    "H0E_C5_D0": 337,
+    "H0E_C5_D1": 243,
+    "H0M_C0_D0": 362,
+    "H0M_C0_D1": 235,
+    "H0M_C5_D0": 337,
+    "H0M_C5_D1": 243,
+    "P100_C0_D0": 178,
+    "P100_C0_D1": 182,
+    "P100_C5_D0": 148,
+    "P100_C5_D1": 154,
+    "S0_C0_D0": 199,
+    "S0_C0_D1": 193,
+    "S0_C5_D0": 170,
+    "S0_C5_D1": 169,
+    "W100_C0_D0": 178,
+    "W100_C0_D1": 183,
+    "W100_C5_D0": 149,
+    "W100_C5_D1": 154
+  },
+  "候補別最大": {
+    "H0E_C0_D0": {
+      "session": "2026-11-06_Day",
+      "key": "H0E_C0_D0",
+      "position_id": "2026-11-06_Day-H0E_C0_D0-P000007",
+      "side": -1,
+      "initial_quantity": 7,
+      "entry_price": 57620,
+      "entry_jst": "2026-11-06T09:45:36.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793925951,
+          "index": 36721,
+          "source_line": 41221,
+          "last": 57580,
+          "bid": 57560,
+          "ask": 57570,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 7,
+        "reserved": 0,
+        "mark_price": 57570,
+        "gain_points": 50,
+        "unit_net": 4923,
+        "realized_net": 0,
+        "whole_net": 34461,
+        "jst": "2026-11-06T09:45:51.000+09:00"
+      },
+      "final_realized_net": -539,
+      "decrease_yen": 35000,
+      "closed_jst": "2026-11-06T09:45:56.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-06_Day-NK225mini-D164_15-000007",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-06_Day-H0E_C0_D0-O000008",
+          "reason": "117一定利益の必須追尾/H0E",
+          "request_jst": "2026-11-06T09:45:56.000+09:00",
+          "request_quote": {
+            "time": 1793925956,
+            "index": 36775,
+            "source_line": 41275,
+            "last": 57610,
+            "bid": 57600,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-06T09:45:56.000+09:00",
+          "fill_quote": {
+            "time": 1793925956,
+            "index": 36776,
+            "source_line": 41276,
+            "last": 57610,
+            "bid": 57610,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 7,
+          "price": 57620,
+          "net_yen": -539
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-11-06T09:45:44.000+09:00",
+          "quote": {
+            "time": 1793925944,
+            "index": 36660,
+            "source_line": 41160,
+            "last": 57620,
+            "bid": 57590,
+            "ask": 57610,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793925944,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 10,
+            "width_points": 1030,
+            "floor_points": 5,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": 6461,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -1020,
+            "structural_floor": null,
+            "protect_price": 57615,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-11-06T09:45:56.000+09:00",
+          "quote": {
+            "time": 1793925956,
+            "index": 36775,
+            "source_line": 41275,
+            "last": 57610,
+            "bid": 57600,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793925944,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 50,
+            "width_points": 1030,
+            "floor_points": 5,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -980,
+            "structural_floor": null,
+            "protect_price": 57615,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-11-06T09:45:56.000+09:00",
+          "quote": {
+            "time": 1793925956,
+            "index": 36776,
+            "source_line": 41276,
+            "last": 57610,
+            "bid": 57610,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793925944,
+            "remaining": 7,
+            "reserved": 7,
+            "peak_points": 50,
+            "width_points": 1030,
+            "floor_points": 5,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -980,
+            "structural_floor": null,
+            "protect_price": 57615,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1793925944,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 50,
+          "width_points": 1030,
+          "floor_points": 5,
+          "whole_target_yen": 2961,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 514.1563471700598,
+        "available": 1793925660,
+        "nominal": 1793925660,
+        "age_seconds": 276,
+        "width": 1030,
+        "quote": {
+          "time": 1793925936,
+          "index": 36569,
+          "source_line": 41069,
+          "last": 57650,
+          "bid": 57620,
+          "ask": 57640,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "H0E_C0_D1": {
+      "session": "2026-11-02_Day",
+      "key": "H0E_C0_D1",
+      "position_id": "2026-11-02_Day-H0E_C0_D1-P000001",
+      "side": -1,
+      "initial_quantity": 4,
+      "entry_price": 63140,
+      "entry_jst": "2026-11-02T09:31:02.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793579550,
+          "index": 21538,
+          "source_line": 22671,
+          "last": 63040,
+          "bid": 63040,
+          "ask": 63050,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 4,
+        "reserved": 0,
+        "mark_price": 63050,
+        "gain_points": 90,
+        "unit_net": 8923,
+        "realized_net": 0,
+        "whole_net": 35692,
+        "jst": "2026-11-02T09:32:30.000+09:00"
+      },
+      "final_realized_net": -308,
+      "decrease_yen": 36000,
+      "closed_jst": "2026-11-02T09:32:50.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-02_Day-NK225mini-D164_15-000001",
+        "kind": "initial",
+        "parent": "episode/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-02_Day-H0E_C0_D1-O000002",
+          "reason": "117一定利益の必須追尾/H0E",
+          "request_jst": "2026-11-02T09:32:43.000+09:00",
+          "request_quote": {
+            "time": 1793579563,
+            "index": 21648,
+            "source_line": 22781,
+            "last": 63130,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-02T09:32:50.000+09:00",
+          "fill_quote": {
+            "time": 1793579570,
+            "index": 21702,
+            "source_line": 22835,
+            "last": 63120,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "latency_seconds": 7,
+          "later_accepted_rows": 54,
+          "quantity": 4,
+          "price": 63140,
+          "net_yen": -308
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-11-02T09:31:04.000+09:00",
+          "quote": {
+            "time": 1793579464,
+            "index": 20847,
+            "source_line": 21980,
+            "last": 63140,
+            "bid": 63120,
+            "ask": 63130,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793579464,
+            "remaining": 4,
+            "reserved": 0,
+            "peak_points": 10,
+            "width_points": 385,
+            "floor_points": 5,
+            "whole_target_yen": 1692,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": 3692,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -375,
+            "structural_floor": null,
+            "protect_price": 63135,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 4,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-11-02T09:32:43.000+09:00",
+          "quote": {
+            "time": 1793579563,
+            "index": 21648,
+            "source_line": 22781,
+            "last": 63130,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793579464,
+            "remaining": 4,
+            "reserved": 0,
+            "peak_points": 90,
+            "width_points": 385,
+            "floor_points": 5,
+            "whole_target_yen": 1692,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -308,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -295,
+            "structural_floor": null,
+            "protect_price": 63135,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 4,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-11-02T09:32:43.000+09:00",
+          "quote": {
+            "time": 1793579563,
+            "index": 21649,
+            "source_line": 22782,
+            "last": 63130,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793579464,
+            "remaining": 4,
+            "reserved": 4,
+            "peak_points": 90,
+            "width_points": 385,
+            "floor_points": 5,
+            "whole_target_yen": 1692,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -308,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -295,
+            "structural_floor": null,
+            "protect_price": 63135,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1793579464,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 90,
+          "width_points": 385,
+          "floor_points": 5,
+          "whole_target_yen": 1692,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 190.81766150343287,
+        "available": 1793579460,
+        "nominal": 1793579460,
+        "age_seconds": 2,
+        "width": 385,
+        "quote": {
+          "time": 1793579462,
+          "index": 20820,
+          "source_line": 21953,
+          "last": 63150,
+          "bid": 63140,
+          "ask": 63160,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "H0E_C5_D0": {
+      "session": "2026-10-30_Day",
+      "key": "H0E_C5_D0",
+      "position_id": "2026-10-30_Day-H0E_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 7,
+      "entry_price": 62960,
+      "entry_jst": "2026-10-30T10:25:43.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793323711,
+          "index": 49260,
+          "source_line": 50502,
+          "last": 63010,
+          "bid": 63010,
+          "ask": 63020,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 7,
+        "reserved": 0,
+        "mark_price": 63010,
+        "gain_points": 50,
+        "unit_net": 3923,
+        "realized_net": 0,
+        "whole_net": 27461,
+        "jst": "2026-10-30T10:28:31.000+09:00"
+      },
+      "final_realized_net": -539,
+      "decrease_yen": 28000,
+      "closed_jst": "2026-10-30T10:28:50.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-10-30_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "episode/1"
+      },
+      "exits": [
+        {
+          "order_id": "2026-10-30_Day-H0E_C5_D0-O000006",
+          "reason": "117一定利益の必須追尾/H0E",
+          "request_jst": "2026-10-30T10:28:50.000+09:00",
+          "request_quote": {
+            "time": 1793323730,
+            "index": 49426,
+            "source_line": 50668,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62980,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-10-30T10:28:50.000+09:00",
+          "fill_quote": {
+            "time": 1793323730,
+            "index": 49427,
+            "source_line": 50669,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62990,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 7,
+          "price": 62970,
+          "net_yen": -539
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-10-30T10:28:30.000+09:00",
+          "quote": {
+            "time": 1793323710,
+            "index": 49249,
+            "source_line": 50491,
+            "last": 62980,
+            "bid": 62980,
+            "ask": 62990,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793323710,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 20,
+            "width_points": 405,
+            "floor_points": 15,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 1,
+            "m": 0,
+            "p": 2,
+            "b": 1,
+            "warning": 0,
+            "gain_points": 20,
+            "whole_net_yen": 6461,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -385,
+            "structural_floor": null,
+            "protect_price": 62975,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-10-30T10:28:50.000+09:00",
+          "quote": {
+            "time": 1793323730,
+            "index": 49426,
+            "source_line": 50668,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62980,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793323710,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 50,
+            "width_points": 405,
+            "floor_points": 15,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 1,
+            "m": 0,
+            "p": 2,
+            "b": 1,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -355,
+            "structural_floor": null,
+            "protect_price": 62975,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-10-30T10:28:50.000+09:00",
+          "quote": {
+            "time": 1793323730,
+            "index": 49427,
+            "source_line": 50669,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62990,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793323710,
+            "remaining": 7,
+            "reserved": 7,
+            "peak_points": 50,
+            "width_points": 405,
+            "floor_points": 15,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 1,
+            "m": 0,
+            "p": 2,
+            "b": 1,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -355,
+            "structural_floor": null,
+            "protect_price": 62975,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1793323710,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 50,
+          "width_points": 405,
+          "floor_points": 15,
+          "whole_target_yen": 2961,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 200.48828190843028,
+        "available": 1793323260,
+        "nominal": 1793323260,
+        "age_seconds": 283,
+        "width": 405,
+        "quote": {
+          "time": 1793323543,
+          "index": 47905,
+          "source_line": 49147,
+          "last": 62960,
+          "bid": 62950,
+          "ask": 62960,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "H0E_C5_D1": {
+      "session": "2026-10-23_Day",
+      "key": "H0E_C5_D1",
+      "position_id": "2026-10-23_Day-H0E_C5_D1-P000001",
+      "side": 1,
+      "initial_quantity": 5,
+      "entry_price": 61890,
+      "entry_jst": "2026-10-23T09:12:02.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1792714331,
+          "index": 13535,
+          "source_line": 15018,
+          "last": 61960,
+          "bid": 61960,
+          "ask": 61970,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 61960,
+        "gain_points": 70,
+        "unit_net": 5923,
+        "realized_net": 0,
+        "whole_net": 29615,
+        "jst": "2026-10-23T09:12:11.000+09:00"
+      },
+      "final_realized_net": -5385,
+      "decrease_yen": 35000,
+      "closed_jst": "2026-10-23T09:12:16.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-10-23_Day-NK225mini-D164_15-000001",
+        "kind": "delayed_initial",
+        "parent": "episode/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-10-23_Day-H0E_C5_D1-O000002",
+          "reason": "117一定利益の必須追尾/H0E",
+          "request_jst": "2026-10-23T09:12:15.000+09:00",
+          "request_quote": {
+            "time": 1792714335,
+            "index": 13576,
+            "source_line": 15059,
+            "last": 61910,
+            "bid": 61900,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-10-23T09:12:16.000+09:00",
+          "fill_quote": {
+            "time": 1792714336,
+            "index": 13583,
+            "source_line": 15066,
+            "last": 61900,
+            "bid": 61890,
+            "ask": 61910,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 7,
+          "quantity": 5,
+          "price": 61890,
+          "net_yen": -5385
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-10-23T09:12:08.000+09:00",
+          "quote": {
+            "time": 1792714328,
+            "index": 13494,
+            "source_line": 14977,
+            "last": 61920,
+            "bid": 61910,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1792714328,
+            "remaining": 5,
+            "reserved": 0,
+            "peak_points": 20,
+            "width_points": 545,
+            "floor_points": 15,
+            "whole_target_yen": 2115,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 0,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 20,
+            "whole_net_yen": 4615,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -525,
+            "structural_floor": null,
+            "protect_price": 61905,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 5,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-10-23T09:12:15.000+09:00",
+          "quote": {
+            "time": 1792714335,
+            "index": 13576,
+            "source_line": 15059,
+            "last": 61910,
+            "bid": 61900,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1792714328,
+            "remaining": 5,
+            "reserved": 0,
+            "peak_points": 70,
+            "width_points": 545,
+            "floor_points": 15,
+            "whole_target_yen": 2115,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 0,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -385,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -475,
+            "structural_floor": null,
+            "protect_price": 61905,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 5,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-10-23T09:12:15.000+09:00",
+          "quote": {
+            "time": 1792714335,
+            "index": 13577,
+            "source_line": 15060,
+            "last": 61910,
+            "bid": 61900,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1792714328,
+            "remaining": 5,
+            "reserved": 5,
+            "peak_points": 70,
+            "width_points": 545,
+            "floor_points": 15,
+            "whole_target_yen": 2115,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 0,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -385,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -475,
+            "structural_floor": null,
+            "protect_price": 61905,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1792714328,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 70,
+          "width_points": 545,
+          "floor_points": 15,
+          "whole_target_yen": 2115,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 271.0734953703704,
+        "available": 1792714260,
+        "nominal": 1792714260,
+        "age_seconds": 62,
+        "width": 545,
+        "quote": {
+          "time": 1792714322,
+          "index": 13432,
+          "source_line": 14915,
+          "last": 61890,
+          "bid": 61880,
+          "ask": 61890,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "H0M_C0_D0": {
+      "session": "2026-11-06_Day",
+      "key": "H0M_C0_D0",
+      "position_id": "2026-11-06_Day-H0M_C0_D0-P000007",
+      "side": -1,
+      "initial_quantity": 7,
+      "entry_price": 57620,
+      "entry_jst": "2026-11-06T09:45:36.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793925951,
+          "index": 36721,
+          "source_line": 41221,
+          "last": 57580,
+          "bid": 57560,
+          "ask": 57570,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 7,
+        "reserved": 0,
+        "mark_price": 57570,
+        "gain_points": 50,
+        "unit_net": 4923,
+        "realized_net": 0,
+        "whole_net": 34461,
+        "jst": "2026-11-06T09:45:51.000+09:00"
+      },
+      "final_realized_net": -539,
+      "decrease_yen": 35000,
+      "closed_jst": "2026-11-06T09:45:56.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-06_Day-NK225mini-D164_15-000007",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-06_Day-H0M_C0_D0-O000008",
+          "reason": "117一定利益の必須追尾/H0M",
+          "request_jst": "2026-11-06T09:45:56.000+09:00",
+          "request_quote": {
+            "time": 1793925956,
+            "index": 36775,
+            "source_line": 41275,
+            "last": 57610,
+            "bid": 57600,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-06T09:45:56.000+09:00",
+          "fill_quote": {
+            "time": 1793925956,
+            "index": 36776,
+            "source_line": 41276,
+            "last": 57610,
+            "bid": 57610,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 7,
+          "price": 57620,
+          "net_yen": -539
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-11-06T09:45:44.000+09:00",
+          "quote": {
+            "time": 1793925944,
+            "index": 36660,
+            "source_line": 41160,
+            "last": 57620,
+            "bid": 57590,
+            "ask": 57610,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793925944,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 10,
+            "width_points": 1030,
+            "floor_points": 5,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": 6461,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -1020,
+            "structural_floor": null,
+            "protect_price": 57615,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-11-06T09:45:56.000+09:00",
+          "quote": {
+            "time": 1793925956,
+            "index": 36775,
+            "source_line": 41275,
+            "last": 57610,
+            "bid": 57600,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793925944,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 50,
+            "width_points": 1030,
+            "floor_points": 5,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -980,
+            "structural_floor": null,
+            "protect_price": 57615,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-11-06T09:45:56.000+09:00",
+          "quote": {
+            "time": 1793925956,
+            "index": 36776,
+            "source_line": 41276,
+            "last": 57610,
+            "bid": 57610,
+            "ask": 57620,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793925944,
+            "remaining": 7,
+            "reserved": 7,
+            "peak_points": 50,
+            "width_points": 1030,
+            "floor_points": 5,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -980,
+            "structural_floor": null,
+            "protect_price": 57615,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1793925944,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 50,
+          "width_points": 1030,
+          "floor_points": 5,
+          "whole_target_yen": 2961,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 514.1563471700598,
+        "available": 1793925660,
+        "nominal": 1793925660,
+        "age_seconds": 276,
+        "width": 1030,
+        "quote": {
+          "time": 1793925936,
+          "index": 36569,
+          "source_line": 41069,
+          "last": 57650,
+          "bid": 57620,
+          "ask": 57640,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "H0M_C0_D1": {
+      "session": "2026-11-02_Day",
+      "key": "H0M_C0_D1",
+      "position_id": "2026-11-02_Day-H0M_C0_D1-P000001",
+      "side": -1,
+      "initial_quantity": 4,
+      "entry_price": 63140,
+      "entry_jst": "2026-11-02T09:31:02.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793579550,
+          "index": 21538,
+          "source_line": 22671,
+          "last": 63040,
+          "bid": 63040,
+          "ask": 63050,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 4,
+        "reserved": 0,
+        "mark_price": 63050,
+        "gain_points": 90,
+        "unit_net": 8923,
+        "realized_net": 0,
+        "whole_net": 35692,
+        "jst": "2026-11-02T09:32:30.000+09:00"
+      },
+      "final_realized_net": -308,
+      "decrease_yen": 36000,
+      "closed_jst": "2026-11-02T09:32:50.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-02_Day-NK225mini-D164_15-000001",
+        "kind": "initial",
+        "parent": "episode/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-02_Day-H0M_C0_D1-O000002",
+          "reason": "117一定利益の必須追尾/H0M",
+          "request_jst": "2026-11-02T09:32:43.000+09:00",
+          "request_quote": {
+            "time": 1793579563,
+            "index": 21648,
+            "source_line": 22781,
+            "last": 63130,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-02T09:32:50.000+09:00",
+          "fill_quote": {
+            "time": 1793579570,
+            "index": 21702,
+            "source_line": 22835,
+            "last": 63120,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "latency_seconds": 7,
+          "later_accepted_rows": 54,
+          "quantity": 4,
+          "price": 63140,
+          "net_yen": -308
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-11-02T09:31:04.000+09:00",
+          "quote": {
+            "time": 1793579464,
+            "index": 20847,
+            "source_line": 21980,
+            "last": 63140,
+            "bid": 63120,
+            "ask": 63130,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793579464,
+            "remaining": 4,
+            "reserved": 0,
+            "peak_points": 10,
+            "width_points": 385,
+            "floor_points": 5,
+            "whole_target_yen": 1692,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": 3692,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -375,
+            "structural_floor": null,
+            "protect_price": 63135,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 4,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-11-02T09:32:43.000+09:00",
+          "quote": {
+            "time": 1793579563,
+            "index": 21648,
+            "source_line": 22781,
+            "last": 63130,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793579464,
+            "remaining": 4,
+            "reserved": 0,
+            "peak_points": 90,
+            "width_points": 385,
+            "floor_points": 5,
+            "whole_target_yen": 1692,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -308,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -295,
+            "structural_floor": null,
+            "protect_price": 63135,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 4,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-11-02T09:32:43.000+09:00",
+          "quote": {
+            "time": 1793579563,
+            "index": 21649,
+            "source_line": 22782,
+            "last": 63130,
+            "bid": 63120,
+            "ask": 63140,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793579464,
+            "remaining": 4,
+            "reserved": 4,
+            "peak_points": 90,
+            "width_points": 385,
+            "floor_points": 5,
+            "whole_target_yen": 1692,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 2,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 0,
+            "whole_net_yen": -308,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 5,
+            "peak_floor": -295,
+            "structural_floor": null,
+            "protect_price": 63135,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1793579464,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 90,
+          "width_points": 385,
+          "floor_points": 5,
+          "whole_target_yen": 1692,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 190.81766150343287,
+        "available": 1793579460,
+        "nominal": 1793579460,
+        "age_seconds": 2,
+        "width": 385,
+        "quote": {
+          "time": 1793579462,
+          "index": 20820,
+          "source_line": 21953,
+          "last": 63150,
+          "bid": 63140,
+          "ask": 63160,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "H0M_C5_D0": {
+      "session": "2026-10-30_Day",
+      "key": "H0M_C5_D0",
+      "position_id": "2026-10-30_Day-H0M_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 7,
+      "entry_price": 62960,
+      "entry_jst": "2026-10-30T10:25:43.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793323711,
+          "index": 49260,
+          "source_line": 50502,
+          "last": 63010,
+          "bid": 63010,
+          "ask": 63020,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 7,
+        "reserved": 0,
+        "mark_price": 63010,
+        "gain_points": 50,
+        "unit_net": 3923,
+        "realized_net": 0,
+        "whole_net": 27461,
+        "jst": "2026-10-30T10:28:31.000+09:00"
+      },
+      "final_realized_net": -539,
+      "decrease_yen": 28000,
+      "closed_jst": "2026-10-30T10:28:50.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-10-30_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "episode/1"
+      },
+      "exits": [
+        {
+          "order_id": "2026-10-30_Day-H0M_C5_D0-O000006",
+          "reason": "117一定利益の必須追尾/H0M",
+          "request_jst": "2026-10-30T10:28:50.000+09:00",
+          "request_quote": {
+            "time": 1793323730,
+            "index": 49426,
+            "source_line": 50668,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62980,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-10-30T10:28:50.000+09:00",
+          "fill_quote": {
+            "time": 1793323730,
+            "index": 49427,
+            "source_line": 50669,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62990,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 7,
+          "price": 62970,
+          "net_yen": -539
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-10-30T10:28:30.000+09:00",
+          "quote": {
+            "time": 1793323710,
+            "index": 49249,
+            "source_line": 50491,
+            "last": 62980,
+            "bid": 62980,
+            "ask": 62990,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793323710,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 20,
+            "width_points": 405,
+            "floor_points": 15,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 1,
+            "m": 0,
+            "p": 2,
+            "b": 1,
+            "warning": 0,
+            "gain_points": 20,
+            "whole_net_yen": 6461,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -385,
+            "structural_floor": null,
+            "protect_price": 62975,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-10-30T10:28:50.000+09:00",
+          "quote": {
+            "time": 1793323730,
+            "index": 49426,
+            "source_line": 50668,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62980,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793323710,
+            "remaining": 7,
+            "reserved": 0,
+            "peak_points": 50,
+            "width_points": 405,
+            "floor_points": 15,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 1,
+            "m": 0,
+            "p": 2,
+            "b": 1,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -355,
+            "structural_floor": null,
+            "protect_price": 62975,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 7,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-10-30T10:28:50.000+09:00",
+          "quote": {
+            "time": 1793323730,
+            "index": 49427,
+            "source_line": 50669,
+            "last": 62980,
+            "bid": 62970,
+            "ask": 62990,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1793323710,
+            "remaining": 7,
+            "reserved": 7,
+            "peak_points": 50,
+            "width_points": 405,
+            "floor_points": 15,
+            "whole_target_yen": 2961,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 1,
+            "m": 0,
+            "p": 2,
+            "b": 1,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -539,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -355,
+            "structural_floor": null,
+            "protect_price": 62975,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1793323710,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 50,
+          "width_points": 405,
+          "floor_points": 15,
+          "whole_target_yen": 2961,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 200.48828190843028,
+        "available": 1793323260,
+        "nominal": 1793323260,
+        "age_seconds": 283,
+        "width": 405,
+        "quote": {
+          "time": 1793323543,
+          "index": 47905,
+          "source_line": 49147,
+          "last": 62960,
+          "bid": 62950,
+          "ask": 62960,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "H0M_C5_D1": {
+      "session": "2026-10-23_Day",
+      "key": "H0M_C5_D1",
+      "position_id": "2026-10-23_Day-H0M_C5_D1-P000001",
+      "side": 1,
+      "initial_quantity": 5,
+      "entry_price": 61890,
+      "entry_jst": "2026-10-23T09:12:02.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1792714331,
+          "index": 13535,
+          "source_line": 15018,
+          "last": 61960,
+          "bid": 61960,
+          "ask": 61970,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 5,
+        "reserved": 0,
+        "mark_price": 61960,
+        "gain_points": 70,
+        "unit_net": 5923,
+        "realized_net": 0,
+        "whole_net": 29615,
+        "jst": "2026-10-23T09:12:11.000+09:00"
+      },
+      "final_realized_net": -5385,
+      "decrease_yen": 35000,
+      "closed_jst": "2026-10-23T09:12:16.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-10-23_Day-NK225mini-D164_15-000001",
+        "kind": "delayed_initial",
+        "parent": "episode/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-10-23_Day-H0M_C5_D1-O000002",
+          "reason": "117一定利益の必須追尾/H0M",
+          "request_jst": "2026-10-23T09:12:15.000+09:00",
+          "request_quote": {
+            "time": 1792714335,
+            "index": 13576,
+            "source_line": 15059,
+            "last": 61910,
+            "bid": 61900,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-10-23T09:12:16.000+09:00",
+          "fill_quote": {
+            "time": 1792714336,
+            "index": 13583,
+            "source_line": 15066,
+            "last": 61900,
+            "bid": 61890,
+            "ask": 61910,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 7,
+          "quantity": 5,
+          "price": 61890,
+          "net_yen": -5385
+        }
+      ],
+      "protection": {
+        "first_activation": {
+          "jst": "2026-10-23T09:12:08.000+09:00",
+          "quote": {
+            "time": 1792714328,
+            "index": 13494,
+            "source_line": 14977,
+            "last": 61920,
+            "bid": 61910,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1792714328,
+            "remaining": 5,
+            "reserved": 0,
+            "peak_points": 20,
+            "width_points": 545,
+            "floor_points": 15,
+            "whole_target_yen": 2115,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 0,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 20,
+            "whole_net_yen": 4615,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -525,
+            "structural_floor": null,
+            "protect_price": 61905,
+            "floor_hit": false,
+            "all_reserved_hit": false,
+            "free_quantity": 5,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_narrowing": null,
+        "first_floor_hit": {
+          "jst": "2026-10-23T09:12:15.000+09:00",
+          "quote": {
+            "time": 1792714335,
+            "index": 13576,
+            "source_line": 15059,
+            "last": 61910,
+            "bid": 61900,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1792714328,
+            "remaining": 5,
+            "reserved": 0,
+            "peak_points": 70,
+            "width_points": 545,
+            "floor_points": 15,
+            "whole_target_yen": 2115,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 0,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -385,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -475,
+            "structural_floor": null,
+            "protect_price": 61905,
+            "floor_hit": true,
+            "all_reserved_hit": false,
+            "free_quantity": 5,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "first_all_reserved_hit": {
+          "jst": "2026-10-23T09:12:15.000+09:00",
+          "quote": {
+            "time": 1792714335,
+            "index": 13577,
+            "source_line": 15060,
+            "last": 61910,
+            "bid": 61900,
+            "ask": 61920,
+            "quote_ok": true
+          },
+          "phase": "pre_fill",
+          "snapshot": {
+            "active": true,
+            "activated_at": 1792714328,
+            "remaining": 5,
+            "reserved": 5,
+            "peak_points": 70,
+            "width_points": 545,
+            "floor_points": 15,
+            "whole_target_yen": 2115,
+            "narrowed": false,
+            "narrowed_at": null,
+            "finished": false
+          },
+          "decision": {
+            "c": 0,
+            "m": 0,
+            "p": 0,
+            "b": 0,
+            "warning": 0,
+            "gain_points": 10,
+            "whole_net_yen": -385,
+            "width_source": "取得時固定通常幅",
+            "whole_floor": 15,
+            "peak_floor": -475,
+            "structural_floor": null,
+            "protect_price": 61905,
+            "floor_hit": true,
+            "all_reserved_hit": true,
+            "free_quantity": 0,
+            "eligible_exit_quantity": 0
+          }
+        },
+        "final_state": {
+          "active": true,
+          "activated_at": 1792714328,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": 70,
+          "width_points": 545,
+          "floor_points": 15,
+          "whole_target_yen": 2115,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 271.0734953703704,
+        "available": 1792714260,
+        "nominal": 1792714260,
+        "age_seconds": 62,
+        "width": 545,
+        "quote": {
+          "time": 1792714322,
+          "index": 13432,
+          "source_line": 14915,
+          "last": 61890,
+          "bid": 61880,
+          "ask": 61890,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "P100_C0_D0": {
+      "session": "2026-11-04_Day",
+      "key": "P100_C0_D0",
+      "position_id": "2026-11-04_Day-P100_C0_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-P100_C0_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -324693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "P100_C0_D1": {
+      "session": "2026-11-04_Day",
+      "key": "P100_C0_D1",
+      "position_id": "2026-11-04_Day-P100_C0_D1-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:27.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -315693,
+      "decrease_yen": 333000,
+      "closed_jst": "2026-11-04T10:30:07.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-P100_C0_D1-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:07.000+09:00",
+          "fill_quote": {
+            "time": 1793755807,
+            "index": 52764,
+            "source_line": 54084,
+            "last": 61570,
+            "bid": 61570,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 10,
+          "quantity": 9,
+          "price": 61570,
+          "net_yen": -315693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 267,
+        "width": 425,
+        "quote": {
+          "time": 1793755527,
+          "index": 50280,
+          "source_line": 51600,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "P100_C5_D0": {
+      "session": "2026-11-04_Day",
+      "key": "P100_C5_D0",
+      "position_id": "2026-11-04_Day-P100_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -333693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-P100_C5_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -333693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "P100_C5_D1": {
+      "session": "2026-11-04_Day",
+      "key": "P100_C5_D1",
+      "position_id": "2026-11-04_Day-P100_C5_D1-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:27.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 333000,
+      "closed_jst": "2026-11-04T10:30:07.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-P100_C5_D1-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:07.000+09:00",
+          "fill_quote": {
+            "time": 1793755807,
+            "index": 52764,
+            "source_line": 54084,
+            "last": 61570,
+            "bid": 61570,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 10,
+          "quantity": 9,
+          "price": 61570,
+          "net_yen": -324693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 267,
+        "width": 425,
+        "quote": {
+          "time": 1793755527,
+          "index": 50280,
+          "source_line": 51600,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "S0_C0_D0": {
+      "session": "2026-11-04_Day",
+      "key": "S0_C0_D0",
+      "position_id": "2026-11-04_Day-S0_C0_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-S0_C0_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -324693
+        }
+      ],
+      "protection": null,
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "S0_C0_D1": {
+      "session": "2026-11-04_Day",
+      "key": "S0_C0_D1",
+      "position_id": "2026-11-04_Day-S0_C0_D1-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:27.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -315693,
+      "decrease_yen": 333000,
+      "closed_jst": "2026-11-04T10:30:07.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-S0_C0_D1-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:07.000+09:00",
+          "fill_quote": {
+            "time": 1793755807,
+            "index": 52764,
+            "source_line": 54084,
+            "last": 61570,
+            "bid": 61570,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 10,
+          "quantity": 9,
+          "price": 61570,
+          "net_yen": -315693
+        }
+      ],
+      "protection": null,
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 267,
+        "width": 425,
+        "quote": {
+          "time": 1793755527,
+          "index": 50280,
+          "source_line": 51600,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "S0_C5_D0": {
+      "session": "2026-11-04_Day",
+      "key": "S0_C5_D0",
+      "position_id": "2026-11-04_Day-S0_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -333693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-S0_C5_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -333693
+        }
+      ],
+      "protection": null,
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "S0_C5_D1": {
+      "session": "2026-11-04_Day",
+      "key": "S0_C5_D1",
+      "position_id": "2026-11-04_Day-S0_C5_D1-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:27.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 333000,
+      "closed_jst": "2026-11-04T10:30:07.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-S0_C5_D1-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:07.000+09:00",
+          "fill_quote": {
+            "time": 1793755807,
+            "index": 52764,
+            "source_line": 54084,
+            "last": 61570,
+            "bid": 61570,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 10,
+          "quantity": 9,
+          "price": 61570,
+          "net_yen": -324693
+        }
+      ],
+      "protection": null,
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 267,
+        "width": 425,
+        "quote": {
+          "time": 1793755527,
+          "index": 50280,
+          "source_line": 51600,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "W100_C0_D0": {
+      "session": "2026-11-04_Day",
+      "key": "W100_C0_D0",
+      "position_id": "2026-11-04_Day-W100_C0_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-W100_C0_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -324693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "W100_C0_D1": {
+      "session": "2026-11-04_Day",
+      "key": "W100_C0_D1",
+      "position_id": "2026-11-04_Day-W100_C0_D1-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:27.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -315693,
+      "decrease_yen": 333000,
+      "closed_jst": "2026-11-04T10:30:07.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-W100_C0_D1-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:07.000+09:00",
+          "fill_quote": {
+            "time": 1793755807,
+            "index": 52764,
+            "source_line": 54084,
+            "last": 61570,
+            "bid": 61570,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 10,
+          "quantity": 9,
+          "price": 61570,
+          "net_yen": -315693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 267,
+        "width": 425,
+        "quote": {
+          "time": 1793755527,
+          "index": 50280,
+          "source_line": 51600,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "W100_C5_D0": {
+      "session": "2026-11-04_Day",
+      "key": "W100_C5_D0",
+      "position_id": "2026-11-04_Day-W100_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -333693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-W100_C5_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -333693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    "W100_C5_D1": {
+      "session": "2026-11-04_Day",
+      "key": "W100_C5_D1",
+      "position_id": "2026-11-04_Day-W100_C5_D1-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:27.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 333000,
+      "closed_jst": "2026-11-04T10:30:07.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-W100_C5_D1-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:07.000+09:00",
+          "fill_quote": {
+            "time": 1793755807,
+            "index": 52764,
+            "source_line": 54084,
+            "last": 61570,
+            "bid": 61570,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 1,
+          "later_accepted_rows": 10,
+          "quantity": 9,
+          "price": 61570,
+          "net_yen": -324693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 267,
+        "width": 425,
+        "quote": {
+          "time": 1793755527,
+          "index": 50280,
+          "source_line": 51600,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    }
+  },
+  "全20最大同額": [
+    {
+      "session": "2026-11-04_Day",
+      "key": "P100_C0_D0",
+      "position_id": "2026-11-04_Day-P100_C0_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-P100_C0_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -324693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "key": "P100_C5_D0",
+      "position_id": "2026-11-04_Day-P100_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -333693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-P100_C5_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -333693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "key": "S0_C0_D0",
+      "position_id": "2026-11-04_Day-S0_C0_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-S0_C0_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -324693
+        }
+      ],
+      "protection": null,
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "key": "S0_C5_D0",
+      "position_id": "2026-11-04_Day-S0_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -333693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-S0_C5_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -333693
+        }
+      ],
+      "protection": null,
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "key": "W100_C0_D0",
+      "position_id": "2026-11-04_Day-W100_C0_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 1923,
+        "realized_net": 0,
+        "whole_net": 17307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -324693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-W100_C0_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -324693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "key": "W100_C5_D0",
+      "position_id": "2026-11-04_Day-W100_C5_D0-P000005",
+      "side": 1,
+      "initial_quantity": 9,
+      "entry_price": 61920,
+      "entry_jst": "2026-11-04T10:25:25.000+09:00",
+      "whole_peak": {
+        "quote": {
+          "time": 1793755564,
+          "index": 50618,
+          "source_line": 51938,
+          "last": 61940,
+          "bid": 61940,
+          "ask": 61950,
+          "quote_ok": true
+        },
+        "phase": "pre_fill",
+        "quantity": 9,
+        "reserved": 0,
+        "mark_price": 61940,
+        "gain_points": 20,
+        "unit_net": 923,
+        "realized_net": 0,
+        "whole_net": 8307,
+        "jst": "2026-11-04T10:26:04.000+09:00"
+      },
+      "final_realized_net": -333693,
+      "decrease_yen": 342000,
+      "closed_jst": "2026-11-04T10:30:06.000+09:00",
+      "source": {
+        "method": "NK225_D164_15",
+        "signal_id": "2026-11-04_Day-NK225mini-D164_15-000005",
+        "kind": "initial",
+        "parent": "addon/0"
+      },
+      "exits": [
+        {
+          "order_id": "2026-11-04_Day-W100_C5_D0-O000006",
+          "reason": "source_end/D164_15",
+          "request_jst": "2026-11-04T10:30:06.000+09:00",
+          "request_quote": {
+            "time": 1793755806,
+            "index": 52754,
+            "source_line": 54074,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "fill_jst": "2026-11-04T10:30:06.000+09:00",
+          "fill_quote": {
+            "time": 1793755806,
+            "index": 52755,
+            "source_line": 54075,
+            "last": 61570,
+            "bid": 61560,
+            "ask": 61580,
+            "quote_ok": true
+          },
+          "latency_seconds": 0,
+          "later_accepted_rows": 1,
+          "quantity": 9,
+          "price": 61560,
+          "net_yen": -333693
+        }
+      ],
+      "protection": {
+        "first_activation": null,
+        "first_narrowing": null,
+        "first_floor_hit": null,
+        "first_all_reserved_hit": null,
+        "final_state": {
+          "active": false,
+          "activated_at": null,
+          "remaining": 0,
+          "reserved": 0,
+          "peak_points": null,
+          "width_points": 425,
+          "floor_points": null,
+          "whole_target_yen": 0,
+          "narrowed": false,
+          "narrowed_at": null,
+          "finished": true
+        }
+      },
+      "entry_source_atr": {
+        "value": 211.34542109768594,
+        "available": 1793755260,
+        "nominal": 1793755260,
+        "age_seconds": 265,
+        "width": 425,
+        "quote": {
+          "time": 1793755525,
+          "index": 50262,
+          "source_line": 51582,
+          "last": 61910,
+          "bid": 61910,
+          "ask": 61920,
+          "quote_ok": true
+        },
+        "after_entry": false
+      }
+    }
+  ],
+  "原板読取": false,
+  "金融再実行": false,
+  "退出後価格読取": false,
+  "11月09読取": false,
+  "限界": "元Actorの保存最大点から抽出。Rawから最大点や初回性を独立再形成しない。",
+  "コード": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\抽出する.py",
+      "sha256": "d73d972e8010c142dc6dc60ea81a3aaefe8718549369d5824f69472b537e0e13"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\要点をまとめる.py",
+      "sha256": "6d3892558fd2001f83bfb34b62e79d76540721ccf720931f4714e62a2e48f79e"
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\赤字限定を抽出する.py",
+      "sha256": "947ad6a1ee851f577adf945555913d1aba8250340d881b7bdddce67583817c95"
+    }
+  ]
+}

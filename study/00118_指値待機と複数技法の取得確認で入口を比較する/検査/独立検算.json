@@ -1,0 +1,1958 @@
+{
+  "試行": 118,
+  "成功": true,
+  "場数": 70,
+  "元場数": 54,
+  "追加場数": 16,
+  "出生数": 558,
+  "政策数": 7,
+  "独立候補数": 3906,
+  "検査件数": {
+    "保存気配範囲": 19068,
+    "約定後原行と1秒": 1170,
+    "期限純額2費用": 2156,
+    "先着気配の幅と方向": 10666,
+    "指値通過と記帳": 612,
+    "未約定の損益未補完": 2736,
+    "技術公表参照": 5088,
+    "技術保存票": 1696,
+    "打切り純額nil": 184,
+    "期限同秒の清算後行": 1,
+    "厳密値": 4006,
+    "平均比率値": 832
+  },
+  "集計": {
+    "M0": {
+      "1800": {
+        "births": 558,
+        "requested": 558,
+        "filled": 558,
+        "complete": 522,
+        "censored": 36,
+        "states": {
+          "filled": 558
+        },
+        "observations": {
+          "complete": 522,
+          "endpoint_missing": 21,
+          "eof_censored": 15
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 145,
+            "adverse": 377,
+            "neither": 0,
+            "resolved_rate": 0.2777777777777778
+          },
+          "50": {
+            "favorable": 194,
+            "adverse": 327,
+            "neither": 1,
+            "resolved_rate": 0.3723608445297505
+          },
+          "100": {
+            "favorable": 227,
+            "adverse": 254,
+            "neither": 41,
+            "resolved_rate": 0.47193347193347196
+          },
+          "125": {
+            "favorable": 218,
+            "adverse": 221,
+            "neither": 83,
+            "resolved_rate": 0.49658314350797267
+          },
+          "200": {
+            "favorable": 168,
+            "adverse": 140,
+            "neither": 214,
+            "resolved_rate": 0.5454545454545454
+          }
+        },
+        "mean_net0": 45.60536398467433,
+        "mean_net5": -954.3946360153257,
+        "median_net5": -1077.0,
+        "positive_net5": 237,
+        "negative_net5": 285,
+        "zero_net5": 0,
+        "pairs": 522,
+        "paired_baseline_mean_net5": -954.3946360153257,
+        "paired_candidate_mean_net5": -954.3946360153257,
+        "paired_mean_delta": 0.0,
+        "paired_median_delta": 0.0,
+        "paired_mean_entry_improvement": 0.0
+      },
+      "3600": {
+        "births": 558,
+        "requested": 558,
+        "filled": 558,
+        "complete": 496,
+        "censored": 62,
+        "states": {
+          "filled": 558
+        },
+        "observations": {
+          "complete": 496,
+          "endpoint_missing": 23,
+          "eof_censored": 38,
+          "gap_censored": 1
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 139,
+            "adverse": 357,
+            "neither": 0,
+            "resolved_rate": 0.28024193548387094
+          },
+          "50": {
+            "favorable": 189,
+            "adverse": 307,
+            "neither": 0,
+            "resolved_rate": 0.3810483870967742
+          },
+          "100": {
+            "favorable": 234,
+            "adverse": 252,
+            "neither": 10,
+            "resolved_rate": 0.48148148148148145
+          },
+          "125": {
+            "favorable": 237,
+            "adverse": 238,
+            "neither": 21,
+            "resolved_rate": 0.49894736842105264
+          },
+          "200": {
+            "favorable": 203,
+            "adverse": 193,
+            "neither": 100,
+            "resolved_rate": 0.5126262626262627
+          }
+        },
+        "mean_net0": 461.30645161290323,
+        "mean_net5": -538.6935483870968,
+        "median_net5": -1077.0,
+        "positive_net5": 236,
+        "negative_net5": 260,
+        "zero_net5": 0,
+        "pairs": 496,
+        "paired_baseline_mean_net5": -538.6935483870968,
+        "paired_candidate_mean_net5": -538.6935483870968,
+        "paired_mean_delta": 0.0,
+        "paired_median_delta": 0.0,
+        "paired_mean_entry_improvement": 0.0
+      }
+    },
+    "L50": {
+      "1800": {
+        "births": 558,
+        "requested": 558,
+        "filled": 341,
+        "complete": 324,
+        "censored": 17,
+        "states": {
+          "filled": 341,
+          "unfilled_expired": 217
+        },
+        "observations": {
+          "complete": 324,
+          "eof_censored": 8,
+          "endpoint_missing": 9
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 52,
+            "adverse": 272,
+            "neither": 0,
+            "resolved_rate": 0.16049382716049382
+          },
+          "50": {
+            "favorable": 104,
+            "adverse": 220,
+            "neither": 0,
+            "resolved_rate": 0.32098765432098764
+          },
+          "100": {
+            "favorable": 140,
+            "adverse": 163,
+            "neither": 21,
+            "resolved_rate": 0.46204620462046203
+          },
+          "125": {
+            "favorable": 141,
+            "adverse": 137,
+            "neither": 46,
+            "resolved_rate": 0.5071942446043165
+          },
+          "200": {
+            "favorable": 109,
+            "adverse": 96,
+            "neither": 119,
+            "resolved_rate": 0.5317073170731708
+          }
+        },
+        "mean_net0": 299.5432098765432,
+        "mean_net5": -700.4567901234568,
+        "median_net5": -1077.0,
+        "positive_net5": 148,
+        "negative_net5": 176,
+        "zero_net5": 0,
+        "pairs": 315,
+        "paired_baseline_mean_net5": -6086.523809523809,
+        "paired_candidate_mean_net5": -746.8412698412699,
+        "paired_mean_delta": 5339.68253968254,
+        "paired_median_delta": 5000.0,
+        "paired_mean_entry_improvement": 49.42857142857143
+      },
+      "3600": {
+        "births": 558,
+        "requested": 558,
+        "filled": 341,
+        "complete": 307,
+        "censored": 34,
+        "states": {
+          "filled": 341,
+          "unfilled_expired": 217
+        },
+        "observations": {
+          "complete": 307,
+          "eof_censored": 21,
+          "endpoint_missing": 13
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 46,
+            "adverse": 261,
+            "neither": 0,
+            "resolved_rate": 0.1498371335504886
+          },
+          "50": {
+            "favorable": 97,
+            "adverse": 210,
+            "neither": 0,
+            "resolved_rate": 0.31596091205211724
+          },
+          "100": {
+            "favorable": 139,
+            "adverse": 167,
+            "neither": 1,
+            "resolved_rate": 0.4542483660130719
+          },
+          "125": {
+            "favorable": 143,
+            "adverse": 152,
+            "neither": 12,
+            "resolved_rate": 0.4847457627118644
+          },
+          "200": {
+            "favorable": 123,
+            "adverse": 123,
+            "neither": 61,
+            "resolved_rate": 0.5
+          }
+        },
+        "mean_net0": 255.24755700325733,
+        "mean_net5": -744.7524429967426,
+        "median_net5": -2077.0,
+        "positive_net5": 141,
+        "negative_net5": 166,
+        "zero_net5": 0,
+        "pairs": 294,
+        "paired_baseline_mean_net5": -5883.122448979592,
+        "paired_candidate_mean_net5": -536.1836734693877,
+        "paired_mean_delta": 5346.938775510204,
+        "paired_median_delta": 5000.0,
+        "paired_mean_entry_improvement": 49.625850340136054
+      }
+    },
+    "L100": {
+      "1800": {
+        "births": 558,
+        "requested": 558,
+        "filled": 200,
+        "complete": 194,
+        "censored": 6,
+        "states": {
+          "unfilled_expired": 358,
+          "filled": 200
+        },
+        "observations": {
+          "complete": 194,
+          "eof_censored": 5,
+          "endpoint_missing": 1
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 20,
+            "adverse": 174,
+            "neither": 0,
+            "resolved_rate": 0.10309278350515463
+          },
+          "50": {
+            "favorable": 55,
+            "adverse": 139,
+            "neither": 0,
+            "resolved_rate": 0.28350515463917525
+          },
+          "100": {
+            "favorable": 81,
+            "adverse": 103,
+            "neither": 10,
+            "resolved_rate": 0.44021739130434784
+          },
+          "125": {
+            "favorable": 81,
+            "adverse": 92,
+            "neither": 21,
+            "resolved_rate": 0.4682080924855491
+          },
+          "200": {
+            "favorable": 57,
+            "adverse": 74,
+            "neither": 63,
+            "resolved_rate": 0.4351145038167939
+          }
+        },
+        "mean_net0": -1360.5051546391753,
+        "mean_net5": -2360.505154639175,
+        "median_net5": -2077.0,
+        "positive_net5": 82,
+        "negative_net5": 112,
+        "zero_net5": 0,
+        "pairs": 190,
+        "paired_baseline_mean_net5": -12724.368421052632,
+        "paired_candidate_mean_net5": -2424.3684210526317,
+        "paired_mean_delta": 10300.0,
+        "paired_median_delta": 9000.0,
+        "paired_mean_entry_improvement": 98.73684210526316
+      },
+      "3600": {
+        "births": 558,
+        "requested": 558,
+        "filled": 200,
+        "complete": 175,
+        "censored": 25,
+        "states": {
+          "unfilled_expired": 358,
+          "filled": 200
+        },
+        "observations": {
+          "complete": 175,
+          "endpoint_missing": 12,
+          "eof_censored": 13
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 18,
+            "adverse": 157,
+            "neither": 0,
+            "resolved_rate": 0.10285714285714286
+          },
+          "50": {
+            "favorable": 50,
+            "adverse": 125,
+            "neither": 0,
+            "resolved_rate": 0.2857142857142857
+          },
+          "100": {
+            "favorable": 76,
+            "adverse": 96,
+            "neither": 3,
+            "resolved_rate": 0.4418604651162791
+          },
+          "125": {
+            "favorable": 77,
+            "adverse": 93,
+            "neither": 5,
+            "resolved_rate": 0.45294117647058824
+          },
+          "200": {
+            "favorable": 68,
+            "adverse": 84,
+            "neither": 23,
+            "resolved_rate": 0.4473684210526316
+          }
+        },
+        "mean_net0": 180.14285714285714,
+        "mean_net5": -819.8571428571429,
+        "median_net5": -2077.0,
+        "positive_net5": 84,
+        "negative_net5": 91,
+        "zero_net5": 0,
+        "pairs": 168,
+        "paired_baseline_mean_net5": -10856.761904761905,
+        "paired_candidate_mean_net5": -725.8095238095239,
+        "paired_mean_delta": 10130.952380952382,
+        "paired_median_delta": 9000.0,
+        "paired_mean_entry_improvement": 98.92857142857143
+      }
+    },
+    "L200": {
+      "1800": {
+        "births": 558,
+        "requested": 558,
+        "filled": 71,
+        "complete": 70,
+        "censored": 1,
+        "states": {
+          "unfilled_expired": 487,
+          "filled": 71
+        },
+        "observations": {
+          "complete": 70,
+          "eof_censored": 1
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 14,
+            "adverse": 56,
+            "neither": 0,
+            "resolved_rate": 0.2
+          },
+          "50": {
+            "favorable": 19,
+            "adverse": 51,
+            "neither": 0,
+            "resolved_rate": 0.2714285714285714
+          },
+          "100": {
+            "favorable": 23,
+            "adverse": 46,
+            "neither": 1,
+            "resolved_rate": 0.3333333333333333
+          },
+          "125": {
+            "favorable": 23,
+            "adverse": 42,
+            "neither": 5,
+            "resolved_rate": 0.35384615384615387
+          },
+          "200": {
+            "favorable": 22,
+            "adverse": 32,
+            "neither": 16,
+            "resolved_rate": 0.4074074074074074
+          }
+        },
+        "mean_net0": -4405.571428571428,
+        "mean_net5": -5405.571428571428,
+        "median_net5": -7077.0,
+        "positive_net5": 25,
+        "negative_net5": 45,
+        "zero_net5": 0,
+        "pairs": 70,
+        "paired_baseline_mean_net5": -24319.85714285714,
+        "paired_candidate_mean_net5": -5405.571428571428,
+        "paired_mean_delta": 18914.285714285714,
+        "paired_median_delta": 20000.0,
+        "paired_mean_entry_improvement": 197.28571428571428
+      },
+      "3600": {
+        "births": 558,
+        "requested": 558,
+        "filled": 71,
+        "complete": 68,
+        "censored": 3,
+        "states": {
+          "unfilled_expired": 487,
+          "filled": 71
+        },
+        "observations": {
+          "complete": 68,
+          "eof_censored": 3
+        },
+        "tech_ever_true": 0,
+        "tech_cap_denied": 0,
+        "unknown_only": 0,
+        "touches": {
+          "25": {
+            "favorable": 14,
+            "adverse": 54,
+            "neither": 0,
+            "resolved_rate": 0.20588235294117646
+          },
+          "50": {
+            "favorable": 18,
+            "adverse": 50,
+            "neither": 0,
+            "resolved_rate": 0.2647058823529412
+          },
+          "100": {
+            "favorable": 22,
+            "adverse": 45,
+            "neither": 1,
+            "resolved_rate": 0.3283582089552239
+          },
+          "125": {
+            "favorable": 23,
+            "adverse": 43,
+            "neither": 2,
+            "resolved_rate": 0.3484848484848485
+          },
+          "200": {
+            "favorable": 23,
+            "adverse": 36,
+            "neither": 9,
+            "resolved_rate": 0.3898305084745763
+          }
+        },
+        "mean_net0": -2974.0588235294117,
+        "mean_net5": -3974.0588235294117,
+        "median_net5": -5577.0,
+        "positive_net5": 27,
+        "negative_net5": 41,
+        "zero_net5": 0,
+        "pairs": 65,
+        "paired_baseline_mean_net5": -23400.076923076922,
+        "paired_candidate_mean_net5": -4230.846153846154,
+        "paired_mean_delta": 19169.23076923077,
+        "paired_median_delta": 21000.0,
+        "paired_mean_entry_improvement": 197.3846153846154
+      }
+    },
+    "Ttrend": {
+      "1800": {
+        "births": 558,
+        "requested": 0,
+        "filled": 0,
+        "complete": 0,
+        "censored": 0,
+        "states": {
+          "technical_unknown_expired": 11,
+          "unconfirmed_expired": 547
+        },
+        "observations": {},
+        "tech_ever_true": 3,
+        "tech_cap_denied": 3,
+        "unknown_only": 11,
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "50": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "100": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "125": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "200": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          }
+        },
+        "mean_net0": null,
+        "mean_net5": null,
+        "median_net5": null,
+        "positive_net5": 0,
+        "negative_net5": 0,
+        "zero_net5": 0,
+        "pairs": 0,
+        "paired_baseline_mean_net5": null,
+        "paired_candidate_mean_net5": null,
+        "paired_mean_delta": null,
+        "paired_median_delta": null,
+        "paired_mean_entry_improvement": null
+      },
+      "3600": {
+        "births": 558,
+        "requested": 0,
+        "filled": 0,
+        "complete": 0,
+        "censored": 0,
+        "states": {
+          "technical_unknown_expired": 11,
+          "unconfirmed_expired": 547
+        },
+        "observations": {},
+        "tech_ever_true": 3,
+        "tech_cap_denied": 3,
+        "unknown_only": 11,
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "50": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "100": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "125": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "200": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          }
+        },
+        "mean_net0": null,
+        "mean_net5": null,
+        "median_net5": null,
+        "positive_net5": 0,
+        "negative_net5": 0,
+        "zero_net5": 0,
+        "pairs": 0,
+        "paired_baseline_mean_net5": null,
+        "paired_candidate_mean_net5": null,
+        "paired_mean_delta": null,
+        "paired_median_delta": null,
+        "paired_mean_entry_improvement": null
+      }
+    },
+    "Treversal": {
+      "1800": {
+        "births": 558,
+        "requested": 0,
+        "filled": 0,
+        "complete": 0,
+        "censored": 0,
+        "states": {
+          "technical_unknown_expired": 31,
+          "unconfirmed_expired": 527
+        },
+        "observations": {},
+        "tech_ever_true": 8,
+        "tech_cap_denied": 8,
+        "unknown_only": 31,
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "50": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "100": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "125": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "200": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          }
+        },
+        "mean_net0": null,
+        "mean_net5": null,
+        "median_net5": null,
+        "positive_net5": 0,
+        "negative_net5": 0,
+        "zero_net5": 0,
+        "pairs": 0,
+        "paired_baseline_mean_net5": null,
+        "paired_candidate_mean_net5": null,
+        "paired_mean_delta": null,
+        "paired_median_delta": null,
+        "paired_mean_entry_improvement": null
+      },
+      "3600": {
+        "births": 558,
+        "requested": 0,
+        "filled": 0,
+        "complete": 0,
+        "censored": 0,
+        "states": {
+          "technical_unknown_expired": 31,
+          "unconfirmed_expired": 527
+        },
+        "observations": {},
+        "tech_ever_true": 8,
+        "tech_cap_denied": 8,
+        "unknown_only": 31,
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "50": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "100": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "125": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "200": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          }
+        },
+        "mean_net0": null,
+        "mean_net5": null,
+        "median_net5": null,
+        "positive_net5": 0,
+        "negative_net5": 0,
+        "zero_net5": 0,
+        "pairs": 0,
+        "paired_baseline_mean_net5": null,
+        "paired_candidate_mean_net5": null,
+        "paired_mean_delta": null,
+        "paired_median_delta": null,
+        "paired_mean_entry_improvement": null
+      }
+    },
+    "Thybrid": {
+      "1800": {
+        "births": 558,
+        "requested": 0,
+        "filled": 0,
+        "complete": 0,
+        "censored": 0,
+        "states": {
+          "technical_unknown_expired": 31,
+          "unconfirmed_expired": 527
+        },
+        "observations": {},
+        "tech_ever_true": 11,
+        "tech_cap_denied": 11,
+        "unknown_only": 31,
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "50": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "100": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "125": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "200": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          }
+        },
+        "mean_net0": null,
+        "mean_net5": null,
+        "median_net5": null,
+        "positive_net5": 0,
+        "negative_net5": 0,
+        "zero_net5": 0,
+        "pairs": 0,
+        "paired_baseline_mean_net5": null,
+        "paired_candidate_mean_net5": null,
+        "paired_mean_delta": null,
+        "paired_median_delta": null,
+        "paired_mean_entry_improvement": null
+      },
+      "3600": {
+        "births": 558,
+        "requested": 0,
+        "filled": 0,
+        "complete": 0,
+        "censored": 0,
+        "states": {
+          "technical_unknown_expired": 31,
+          "unconfirmed_expired": 527
+        },
+        "observations": {},
+        "tech_ever_true": 11,
+        "tech_cap_denied": 11,
+        "unknown_only": 31,
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "50": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "100": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "125": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          },
+          "200": {
+            "favorable": 0,
+            "adverse": 0,
+            "neither": 0,
+            "resolved_rate": null
+          }
+        },
+        "mean_net0": null,
+        "mean_net5": null,
+        "median_net5": null,
+        "positive_net5": 0,
+        "negative_net5": 0,
+        "zero_net5": 0,
+        "pairs": 0,
+        "paired_baseline_mean_net5": null,
+        "paired_candidate_mean_net5": null,
+        "paired_mean_delta": null,
+        "paired_median_delta": null,
+        "paired_mean_entry_improvement": null
+      }
+    }
+  },
+  "群別の再集計要点": {
+    "side": {
+      "1": {
+        "M0": {
+          "1800": {
+            "births": 259,
+            "filled": 259,
+            "complete": 247,
+            "mean_net5": -1623.5587044534414,
+            "median_net5": -1077.0,
+            "pairs": 247,
+            "paired_mean_delta": 0.0
+          },
+          "3600": {
+            "births": 259,
+            "filled": 259,
+            "complete": 238,
+            "mean_net5": -3257.672268907563,
+            "median_net5": -4077.0,
+            "pairs": 238,
+            "paired_mean_delta": 0.0
+          }
+        },
+        "L50": {
+          "1800": {
+            "births": 259,
+            "filled": 168,
+            "complete": 164,
+            "mean_net5": -1973.341463414634,
+            "median_net5": -2077.0,
+            "pairs": 158,
+            "paired_mean_delta": 5227.848101265823
+          },
+          "3600": {
+            "births": 259,
+            "filled": 168,
+            "complete": 154,
+            "mean_net5": -4940.636363636364,
+            "median_net5": -5077.0,
+            "pairs": 148,
+            "paired_mean_delta": 4837.8378378378375
+          }
+        },
+        "L100": {
+          "1800": {
+            "births": 259,
+            "filled": 105,
+            "complete": 103,
+            "mean_net5": -5067.291262135922,
+            "median_net5": -5077.0,
+            "pairs": 99,
+            "paired_mean_delta": 9515.151515151516
+          },
+          "3600": {
+            "births": 259,
+            "filled": 105,
+            "complete": 98,
+            "mean_net5": -6903.530612244898,
+            "median_net5": -7077.0,
+            "pairs": 94,
+            "paired_mean_delta": 9712.765957446809
+          }
+        },
+        "L200": {
+          "1800": {
+            "births": 259,
+            "filled": 40,
+            "complete": 39,
+            "mean_net5": -9384.692307692309,
+            "median_net5": -9077.0,
+            "pairs": 39,
+            "paired_mean_delta": 16564.102564102563
+          },
+          "3600": {
+            "births": 259,
+            "filled": 40,
+            "complete": 38,
+            "mean_net5": -10287.526315789473,
+            "median_net5": -7077.0,
+            "pairs": 36,
+            "paired_mean_delta": 16527.777777777777
+          }
+        },
+        "Ttrend": {
+          "1800": {
+            "births": 259,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 259,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Treversal": {
+          "1800": {
+            "births": 259,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 259,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Thybrid": {
+          "1800": {
+            "births": 259,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 259,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        }
+      },
+      "-1": {
+        "M0": {
+          "1800": {
+            "births": 299,
+            "filled": 299,
+            "complete": 275,
+            "mean_net5": -353.3636363636364,
+            "median_net5": -1077.0,
+            "pairs": 275,
+            "paired_mean_delta": 0.0
+          },
+          "3600": {
+            "births": 299,
+            "filled": 299,
+            "complete": 258,
+            "mean_net5": 1969.5116279069769,
+            "median_net5": -77.0,
+            "pairs": 258,
+            "paired_mean_delta": 0.0
+          }
+        },
+        "L50": {
+          "1800": {
+            "births": 299,
+            "filled": 173,
+            "complete": 160,
+            "mean_net5": 604.25,
+            "median_net5": -1077.0,
+            "pairs": 157,
+            "paired_mean_delta": 5452.229299363057
+          },
+          "3600": {
+            "births": 299,
+            "filled": 173,
+            "complete": 153,
+            "mean_net5": 3478.5555555555557,
+            "median_net5": -77.0,
+            "pairs": 146,
+            "paired_mean_delta": 5863.013698630137
+          }
+        },
+        "L100": {
+          "1800": {
+            "births": 299,
+            "filled": 95,
+            "complete": 91,
+            "mean_net5": 703.2197802197802,
+            "median_net5": -1077.0,
+            "pairs": 91,
+            "paired_mean_delta": 11153.846153846154
+          },
+          "3600": {
+            "births": 299,
+            "filled": 95,
+            "complete": 77,
+            "mean_net5": 6923.0,
+            "median_net5": 5923.0,
+            "pairs": 74,
+            "paired_mean_delta": 10662.162162162162
+          }
+        },
+        "L200": {
+          "1800": {
+            "births": 299,
+            "filled": 31,
+            "complete": 31,
+            "mean_net5": -399.5806451612903,
+            "median_net5": -4077.0,
+            "pairs": 31,
+            "paired_mean_delta": 21870.967741935485
+          },
+          "3600": {
+            "births": 299,
+            "filled": 31,
+            "complete": 30,
+            "mean_net5": 4023.0,
+            "median_net5": 1423.0,
+            "pairs": 29,
+            "paired_mean_delta": 22448.275862068964
+          }
+        },
+        "Ttrend": {
+          "1800": {
+            "births": 299,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 299,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Treversal": {
+          "1800": {
+            "births": 299,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 299,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Thybrid": {
+          "1800": {
+            "births": 299,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 299,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        }
+      }
+    },
+    "history": {
+      "元54場": {
+        "M0": {
+          "1800": {
+            "births": 359,
+            "filled": 359,
+            "complete": 330,
+            "mean_net5": -489.1212121212121,
+            "median_net5": -1077.0,
+            "pairs": 330,
+            "paired_mean_delta": 0.0
+          },
+          "3600": {
+            "births": 359,
+            "filled": 359,
+            "complete": 320,
+            "mean_net5": -317.625,
+            "median_net5": -1077.0,
+            "pairs": 320,
+            "paired_mean_delta": 0.0
+          }
+        },
+        "L50": {
+          "1800": {
+            "births": 359,
+            "filled": 194,
+            "complete": 183,
+            "mean_net5": -1120.7158469945355,
+            "median_net5": -2077.0,
+            "pairs": 176,
+            "paired_mean_delta": 5426.136363636364
+          },
+          "3600": {
+            "births": 359,
+            "filled": 194,
+            "complete": 178,
+            "mean_net5": -2487.112359550562,
+            "median_net5": -4077.0,
+            "pairs": 170,
+            "paired_mean_delta": 5535.294117647059
+          }
+        },
+        "L100": {
+          "1800": {
+            "births": 359,
+            "filled": 101,
+            "complete": 99,
+            "mean_net5": -3481.040404040404,
+            "median_net5": -2077.0,
+            "pairs": 96,
+            "paired_mean_delta": 10218.75
+          },
+          "3600": {
+            "births": 359,
+            "filled": 101,
+            "complete": 92,
+            "mean_net5": -3522.6521739130435,
+            "median_net5": -6077.0,
+            "pairs": 88,
+            "paired_mean_delta": 10795.454545454546
+          }
+        },
+        "L200": {
+          "1800": {
+            "births": 359,
+            "filled": 32,
+            "complete": 32,
+            "mean_net5": -3670.75,
+            "median_net5": -7077.0,
+            "pairs": 32,
+            "paired_mean_delta": 16625.0
+          },
+          "3600": {
+            "births": 359,
+            "filled": 32,
+            "complete": 32,
+            "mean_net5": -3983.25,
+            "median_net5": -5577.0,
+            "pairs": 30,
+            "paired_mean_delta": 20400.0
+          }
+        },
+        "Ttrend": {
+          "1800": {
+            "births": 359,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 359,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Treversal": {
+          "1800": {
+            "births": 359,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 359,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Thybrid": {
+          "1800": {
+            "births": 359,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 359,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        }
+      },
+      "追加16場": {
+        "M0": {
+          "1800": {
+            "births": 199,
+            "filled": 199,
+            "complete": 192,
+            "mean_net5": -1754.0833333333333,
+            "median_net5": -1577.0,
+            "pairs": 192,
+            "paired_mean_delta": 0.0
+          },
+          "3600": {
+            "births": 199,
+            "filled": 199,
+            "complete": 176,
+            "mean_net5": -940.6363636363636,
+            "median_net5": -3077.0,
+            "pairs": 176,
+            "paired_mean_delta": 0.0
+          }
+        },
+        "L50": {
+          "1800": {
+            "births": 199,
+            "filled": 147,
+            "complete": 141,
+            "mean_net5": -155.01418439716312,
+            "median_net5": -77.0,
+            "pairs": 139,
+            "paired_mean_delta": 5230.215827338129
+          },
+          "3600": {
+            "births": 199,
+            "filled": 147,
+            "complete": 129,
+            "mean_net5": 1659.4341085271317,
+            "median_net5": 923.0,
+            "pairs": 124,
+            "paired_mean_delta": 5088.709677419355
+          }
+        },
+        "L100": {
+          "1800": {
+            "births": 199,
+            "filled": 99,
+            "complete": 95,
+            "mean_net5": -1192.7894736842106,
+            "median_net5": -2077.0,
+            "pairs": 94,
+            "paired_mean_delta": 10382.978723404256
+          },
+          "3600": {
+            "births": 199,
+            "filled": 99,
+            "complete": 83,
+            "mean_net5": 2176.012048192771,
+            "median_net5": 5923.0,
+            "pairs": 80,
+            "paired_mean_delta": 9400.0
+          }
+        },
+        "L200": {
+          "1800": {
+            "births": 199,
+            "filled": 39,
+            "complete": 38,
+            "mean_net5": -6866.473684210527,
+            "median_net5": -7077.0,
+            "pairs": 38,
+            "paired_mean_delta": 20842.105263157893
+          },
+          "3600": {
+            "births": 199,
+            "filled": 39,
+            "complete": 36,
+            "mean_net5": -3965.8888888888887,
+            "median_net5": -3577.0,
+            "pairs": 35,
+            "paired_mean_delta": 18114.285714285714
+          }
+        },
+        "Ttrend": {
+          "1800": {
+            "births": 199,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 199,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Treversal": {
+          "1800": {
+            "births": 199,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 199,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Thybrid": {
+          "1800": {
+            "births": 199,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 199,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        }
+      }
+    },
+    "method": {
+      "NK225_D164_15": {
+        "M0": {
+          "1800": {
+            "births": 258,
+            "filled": 258,
+            "complete": 242,
+            "mean_net5": -1899.314049586777,
+            "median_net5": -3077.0,
+            "pairs": 242,
+            "paired_mean_delta": 0.0
+          },
+          "3600": {
+            "births": 258,
+            "filled": 258,
+            "complete": 222,
+            "mean_net5": -865.2882882882883,
+            "median_net5": 423.0,
+            "pairs": 222,
+            "paired_mean_delta": 0.0
+          }
+        },
+        "L50": {
+          "1800": {
+            "births": 258,
+            "filled": 163,
+            "complete": 155,
+            "mean_net5": -1928.6129032258063,
+            "median_net5": -2077.0,
+            "pairs": 155,
+            "paired_mean_delta": 5380.645161290323
+          },
+          "3600": {
+            "births": 258,
+            "filled": 163,
+            "complete": 145,
+            "mean_net5": -3380.448275862069,
+            "median_net5": -5077.0,
+            "pairs": 142,
+            "paired_mean_delta": 5457.7464788732395
+          }
+        },
+        "L100": {
+          "1800": {
+            "births": 258,
+            "filled": 96,
+            "complete": 92,
+            "mean_net5": -5490.04347826087,
+            "median_net5": -5577.0,
+            "pairs": 92,
+            "paired_mean_delta": 9467.391304347826
+          },
+          "3600": {
+            "births": 258,
+            "filled": 96,
+            "complete": 85,
+            "mean_net5": -4135.823529411765,
+            "median_net5": -6077.0,
+            "pairs": 84,
+            "paired_mean_delta": 10130.952380952382
+          }
+        },
+        "L200": {
+          "1800": {
+            "births": 258,
+            "filled": 37,
+            "complete": 36,
+            "mean_net5": -5021.444444444444,
+            "median_net5": -7077.0,
+            "pairs": 36,
+            "paired_mean_delta": 19500.0
+          },
+          "3600": {
+            "births": 258,
+            "filled": 37,
+            "complete": 35,
+            "mean_net5": -4677.0,
+            "median_net5": -6077.0,
+            "pairs": 34,
+            "paired_mean_delta": 20029.41176470588
+          }
+        },
+        "Ttrend": {
+          "1800": {
+            "births": 258,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 258,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Treversal": {
+          "1800": {
+            "births": 258,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 258,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Thybrid": {
+          "1800": {
+            "births": 258,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 258,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        }
+      },
+      "NK225_U165_03": {
+        "M0": {
+          "1800": {
+            "births": 226,
+            "filled": 226,
+            "complete": 214,
+            "mean_net5": 862.2523364485982,
+            "median_net5": 1423.0,
+            "pairs": 214,
+            "paired_mean_delta": 0.0
+          },
+          "3600": {
+            "births": 226,
+            "filled": 226,
+            "complete": 203,
+            "mean_net5": 1036.3004926108374,
+            "median_net5": -77.0,
+            "pairs": 203,
+            "paired_mean_delta": 0.0
+          }
+        },
+        "L50": {
+          "1800": {
+            "births": 226,
+            "filled": 141,
+            "complete": 134,
+            "mean_net5": 967.776119402985,
+            "median_net5": 423.0,
+            "pairs": 128,
+            "paired_mean_delta": 5101.5625
+          },
+          "3600": {
+            "births": 226,
+            "filled": 141,
+            "complete": 128,
+            "mean_net5": 1337.0625,
+            "median_net5": 2923.0,
+            "pairs": 119,
+            "paired_mean_delta": 5168.0672268907565
+          }
+        },
+        "L100": {
+          "1800": {
+            "births": 226,
+            "filled": 86,
+            "complete": 84,
+            "mean_net5": 1399.1904761904761,
+            "median_net5": -77.0,
+            "pairs": 81,
+            "paired_mean_delta": 11629.62962962963
+          },
+          "3600": {
+            "births": 226,
+            "filled": 86,
+            "complete": 74,
+            "mean_net5": 1936.5135135135135,
+            "median_net5": 423.0,
+            "pairs": 68,
+            "paired_mean_delta": 9911.764705882353
+          }
+        },
+        "L200": {
+          "1800": {
+            "births": 226,
+            "filled": 31,
+            "complete": 31,
+            "mean_net5": -6367.322580645161,
+            "median_net5": -7077.0,
+            "pairs": 31,
+            "paired_mean_delta": 18258.064516129034
+          },
+          "3600": {
+            "births": 226,
+            "filled": 31,
+            "complete": 30,
+            "mean_net5": -4277.0,
+            "median_net5": -5077.0,
+            "pairs": 28,
+            "paired_mean_delta": 18571.428571428572
+          }
+        },
+        "Ttrend": {
+          "1800": {
+            "births": 226,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 226,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Treversal": {
+          "1800": {
+            "births": 226,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 226,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Thybrid": {
+          "1800": {
+            "births": 226,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 226,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        }
+      },
+      "NK225_P164_06": {
+        "M0": {
+          "1800": {
+            "births": 74,
+            "filled": 74,
+            "complete": 66,
+            "mean_net5": -3380.030303030303,
+            "median_net5": -2577.0,
+            "pairs": 66,
+            "paired_mean_delta": 0.0
+          },
+          "3600": {
+            "births": 74,
+            "filled": 74,
+            "complete": 71,
+            "mean_net5": -4020.6619718309857,
+            "median_net5": -5077.0,
+            "pairs": 71,
+            "paired_mean_delta": 0.0
+          }
+        },
+        "L50": {
+          "1800": {
+            "births": 74,
+            "filled": 37,
+            "complete": 35,
+            "mean_net5": -1648.4285714285713,
+            "median_net5": -3077.0,
+            "pairs": 32,
+            "paired_mean_delta": 6093.75
+          },
+          "3600": {
+            "births": 74,
+            "filled": 37,
+            "complete": 34,
+            "mean_net5": 2658.294117647059,
+            "median_net5": -2077.0,
+            "pairs": 33,
+            "paired_mean_delta": 5515.151515151515
+          }
+        },
+        "L100": {
+          "1800": {
+            "births": 74,
+            "filled": 18,
+            "complete": 18,
+            "mean_net5": -3910.3333333333335,
+            "median_net5": -6577.0,
+            "pairs": 17,
+            "paired_mean_delta": 8470.588235294117
+          },
+          "3600": {
+            "births": 74,
+            "filled": 18,
+            "complete": 16,
+            "mean_net5": 4048.0,
+            "median_net5": 3923.0,
+            "pairs": 16,
+            "paired_mean_delta": 11062.5
+          }
+        },
+        "L200": {
+          "1800": {
+            "births": 74,
+            "filled": 3,
+            "complete": 3,
+            "mean_net5": -77.0,
+            "median_net5": -7077.0,
+            "pairs": 3,
+            "paired_mean_delta": 18666.666666666668
+          },
+          "3600": {
+            "births": 74,
+            "filled": 3,
+            "complete": 3,
+            "mean_net5": 7256.333333333333,
+            "median_net5": 15923.0,
+            "pairs": 3,
+            "paired_mean_delta": 15000.0
+          }
+        },
+        "Ttrend": {
+          "1800": {
+            "births": 74,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 74,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Treversal": {
+          "1800": {
+            "births": 74,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 74,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        },
+        "Thybrid": {
+          "1800": {
+            "births": 74,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          },
+          "3600": {
+            "births": 74,
+            "filled": 0,
+            "complete": 0,
+            "mean_net5": null,
+            "median_net5": null,
+            "pairs": 0,
+            "paired_mean_delta": null
+          }
+        }
+      }
+    }
+  },
+  "技術の延べ評価件数": {
+    "Ttrend": {
+      "known_evaluations": 2981495,
+      "unknown_evaluations": 148612,
+      "true_evaluations": 3084,
+      "cap_denied_evaluations": 3083
+    },
+    "Treversal": {
+      "known_evaluations": 2902251,
+      "unknown_evaluations": 227856,
+      "true_evaluations": 14102,
+      "cap_denied_evaluations": 14100
+    },
+    "Thybrid": {
+      "known_evaluations": 2892190,
+      "unknown_evaluations": 237917,
+      "true_evaluations": 17186,
+      "cap_denied_evaluations": 17183
+    }
+  },
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\全70場の入口結果.json": "c8f40fd2192a94c85867e6de901d43a46deff27c73a02fa8416abd4a779e3382",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\集計.json": "64eda52d1f8a75775b1a80ae64de0409aa14a9f8a410915e96995f3aa41801f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\F1.json": "57295a629a3a54df04385597ec25329f1254692e01db4072fd5d295364b0ebfc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\全70場の完了.json": "dca8ac525a4a41e1194fb9515ed591ecec3e5f22121fa04724e26b8376fd39eb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\独立検算する.py": "0b216bbf8eafb3e794e5042fc27062e8689de48c488477c1f8497d27882b1819"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\全70場の入口結果.json": "c8f40fd2192a94c85867e6de901d43a46deff27c73a02fa8416abd4a779e3382",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\集計.json": "64eda52d1f8a75775b1a80ae64de0409aa14a9f8a410915e96995f3aa41801f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\F1.json": "57295a629a3a54df04385597ec25329f1254692e01db4072fd5d295364b0ebfc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\全70場の完了.json": "dca8ac525a4a41e1194fb9515ed591ecec3e5f22121fa04724e26b8376fd39eb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\独立検算する.py": "0b216bbf8eafb3e794e5042fc27062e8689de48c488477c1f8497d27882b1819"
+  },
+  "前後不変": true,
+  "数値比較": "金額と件数は完全一致。平均・中央値・率は厳密Fractionで再算出し、保存JSONへのIEEE754倍精度1回丸めと照合。許容差による補正なし。",
+  "分母": "期限損益・先着は当該政策で約定かつ期限completeの独立1miniだけ。pairsは同出生M0も当該政策もcompleteの共通群で、双方平均を同じ群へ限定。",
+  "解釈": "新規単独の入口候補評価であり、運用口座の合計収支・mini片側10枚の実運用・収益目標達成を示さない。技術政策0約定の平均はnullであり損益零又は改善ではない。",
+  "確認範囲": [
+    "558出生の7政策同体、要求後Index・物理行・1秒、保存反対BBOの10pt通過と成行又は指値記帳価格",
+    "期限30分・60分の正常返済側BBO、猶予30秒、C0=77円とC5=1077円、打切り純額null",
+    "保存先着気配の25・50・100・125・200pt幾何、買売鏡像、幅及び期限間の保存整合",
+    "全政策と元54・追加16・買売・Source3手法の全集計キー、件数、率、平均、中央値、同出生対照平均差",
+    "技術保存票の三値・OR、方向、公表参照ID形式・時刻・配送Index・鮮度、既知未知・True・capカウンタ整合"
+  ],
+  "未証明": [
+    "全Rawの別再走査及び約定・先着・期限清算の最初性。保存証拠だけから途中のRaw又は正常BBO欠測を再検出していない。",
+    "技術first_true及びlast_technicalのAtにはBid・Askがないため、True時の50pt cap拒否の全価格条件は独立再算出不能。cap拒否は保存カウンタによる各出生の記録として照合した。",
+    "技術公表本文及び全Raw評価列は許可入力にないため、全技法値・背景・接触からTrueとなる式の独立再形成又は評価回数のRaw分母は再証明しない。",
+    "入力台帳とRaw本文は開かず、場別Raw期待SHAとactual_sha256の保存同体を検査した。TTLのforce_closeクリップ理由そのものは保存結果だけでは独立再形成しない。",
+    "打切り方向0は到達なし確定又は負けではない。集計のneitherはcomplete群内だけ。固定期限であり旧S0保有終了を観測打切りへ使用していないという実装契約自体の再走査はしない。"
+  ],
+  "期限境界の注意": "10月29日Day L50のD164_15-000019、30分125ptは未到達。60分側の逆125pt気配は同じ30分期限秒の後原行にあるが、30分の実endpoint原行より後である。complete後の保存打切りと整合する一方、期限秒以下の全原行を含むという説明にはしない。検査件数の期限同秒の清算後行に記録する。",
+  "原板再走査": false,
+  "Native読取": 0,
+  "CSV読取": 0,
+  "条件変更": false,
+  "金融実行": false,
+  "運用口座合算": false,
+  "目標達成": false,
+  "11月09読取": false
+}

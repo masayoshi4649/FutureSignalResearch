@@ -1,0 +1,68 @@
+{
+  "trial": 118,
+  "fixed": true,
+  "policies": [
+    "M0",
+    "L50",
+    "L100",
+    "L200",
+    "Ttrend",
+    "Treversal",
+    "Thybrid"
+  ],
+  "independent_mini_quantity": 1,
+  "source_births": 558,
+  "horizons_seconds": [
+    1800,
+    3600
+  ],
+  "widths_points": [
+    25,
+    50,
+    100,
+    125,
+    200
+  ],
+  "source_cancel_priority": true,
+  "source_paper_close_cancel": false,
+  "pending_seconds": 900,
+  "technical_order_seconds": 30,
+  "delay_seconds": 1,
+  "limit_opposite_bbo_cross_points": 10,
+  "technical_price_improvement_points": 50,
+  "normal_bbo_gap_seconds": 300,
+  "endpoint_grace_seconds": 30,
+  "fee_round_yen": 77,
+  "slip_stress_round_yen": [
+    0,
+    1000
+  ],
+  "input": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\入力.json",
+    "sha256": "574771f654937036b48c78eceadb46a4c5ff3c10265f60b0ec7879efb0d862c3"
+  },
+  "code_sha256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\entry.go": "2b97fe0d63ed3bac48beb7024ffa9a2f4deeebac094d06b2699171cc9e859d60",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\entry_test.go": "6b5df17aeb4a998dfa2ded387a3da38d4f984de66fa1c4fe456e1767f7c09259",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\go.mod": "36f6ff021510eff02a78a908a9971fd677937d3e38f9b4d739e809542cdf5acb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\cmd\\run\\main.go": "e2aae98e3f0bb2c9b117d16691cdce858b735e4a022c63055c274178f7469a83",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\入力を準備する.py": "4958a0e7d18213d95dfd0ed094b8f47f2c722c88e8c5ce5e55a0c1bcd81d529f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9"
+  },
+  "executable": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\入口比較.exe",
+    "sha256": "24f20eaf9e78b916c905f210f2a1cede38571bbb48030a2d09d8fb903c178ebe"
+  },
+  "README_sha256": "49bcd11399c9dd7dca20b0bdb84b58e60df853ea022a4e8d3d155cf7978e21db",
+  "table_sha256": "8a8398c9060f28b2390d3b3f32ce95e437c7ddd094953a7fa2487fbb840a5a7e",
+  "new_result_read": false,
+  "11月09読取": false,
+  "portfolio_pnl": false,
+  "Go_version": "go version go1.24.2 windows/amd64"
+}

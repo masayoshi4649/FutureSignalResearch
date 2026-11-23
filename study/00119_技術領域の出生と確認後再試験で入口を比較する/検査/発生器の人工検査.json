@@ -1,0 +1,69 @@
+{
+  "成功": true,
+  "停止": false,
+  "市場前": true,
+  "試行候補": 119,
+  "人工主検査数": 4,
+  "所有ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口の技術的出生\\detector.go": "9ccc201983c5a86773311cd93ebfbe4f9bb10020677c027b10f48ffd6a7e2e02",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口の技術的出生\\detector_test.go": "dd6c1ae483db76cb441d14f22369ea6017ab73625158ae372954cb7ddd1ec584",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口の技術的出生\\go.mod": "5fa0c5cc2e48479cac5ba4e484654484c792134fb0f44a073d63021d81b996be",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口の技術的出生\\README.md": "12adca9c8ee27df810c54ec27eb38ff1c1b1b5d961f42c4651a06c84eb09ac55",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口の技術的出生\\types.go": "f8e5d8f1ab16fe421576bdbed780fb467e7c1ba706bc493f1b3c29cceb3a8388"
+  },
+  "再用ファイルSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\README.md": "abdf5d3c41a5ed184a6a4a6da474a3662c57c20288b030ba5b43e9ffcbc837f7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+  },
+  "前後不変": true,
+  "固定118人工": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\検査\\確認.json",
+    "sha256": "64ca0b2ba6184fdf0b3831789fe316de28e6fc2a82ea9a17537d2da93b3d1107"
+  },
+  "技術閾値変更": false,
+  "zone寿命秒": 1800,
+  "状態数": 4,
+  "commands": [
+    {
+      "argv": [
+        "go",
+        "test",
+        "-count=1",
+        "-v",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "=== RUN   TestBirthConfirmMirrorCopy\n--- PASS: TestBirthConfirmMirrorCopy (0.00s)\n=== RUN   TestUnknownInvalidateAndDeadline\n--- PASS: TestUnknownInvalidateAndDeadline (0.00s)\n=== RUN   TestRearmOnlyDistinctNewFive\n--- PASS: TestRearmOnlyDistinctNewFive (0.00s)\n=== RUN   TestReversalAndScopeReset\n--- PASS: TestReversalAndScopeReset (0.00s)\nPASS\nok  \tgithub.com/masayoshi4649/SessionTradeExecuter/entrybirth119\t0.057s\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "Raw/自然Native/価格CSV/11月09読取": 0,
+  "金融実行": false,
+  "損益計算": false,
+  "Source依存": false,
+  "API": "NewDetector/StartSession/Observe/Snapshot"
+}

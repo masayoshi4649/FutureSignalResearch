@@ -1,0 +1,86 @@
+{
+  "確認日": "2026-11-10",
+  "状態": "金融未実行の事前候補。正式試行条件の固定はRootが別途行う。",
+  "資料": [
+    {
+      "発行主体": "CME",
+      "資料名": "Support and Resistance",
+      "URL": "https://www.cmegroup.com/education/courses/trading-and-analysis/support-and-resistance",
+      "確認範囲": "検索取得の本文。openでは映像metadata中心なので本文の検索取得範囲のみ説明に使う。",
+      "確認日": "2026-11-10",
+      "NK225同幅70パーセントの証明": false
+    },
+    {
+      "発行主体": "Fidelity",
+      "資料名": "Identifying Chart Patterns with Technical Analysis",
+      "URL": "https://media.fidelity.com/assets/Fidelity.com_VMS/904/347/TA_Session_3_Identifying_Chart_Patterns.pdf",
+      "確認範囲": "PDFスライド13〜18：突破確認、false/failed breakout、保護、押戻し。",
+      "確認日": "2026-11-10",
+      "NK225同幅70パーセントの証明": false
+    },
+    {
+      "発行主体": "Fidelity",
+      "資料名": "Bollinger Band Width",
+      "URL": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/bollinger-band-width",
+      "確認範囲": "幅の式、収縮と拡大、方向未指定。",
+      "確認日": "2026-11-10",
+      "NK225同幅70パーセントの証明": false
+    },
+    {
+      "発行主体": "Fidelity",
+      "資料名": "Bollinger Bands",
+      "URL": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/bollinger-bands",
+      "確認範囲": "他指標との確認、強いトレンド時の接触持続、突破後の内部復帰。",
+      "確認日": "2026-11-10",
+      "NK225同幅70パーセントの証明": false
+    },
+    {
+      "発行主体": "Federal Reserve Bank of New York",
+      "資料名": "Osler 2001, Currency Orders and Exchange-Rate Dynamics",
+      "URL": "https://www.newyorkfed.org/research/staff_reports/sr125.html",
+      "確認範囲": "概要：大手FX銀行の注文集中と支持抵抗/突破。NK225へ直接一般化しない。",
+      "確認日": "2026-11-10",
+      "NK225同幅70パーセントの証明": false
+    },
+    {
+      "発行主体": "Federal Reserve Bank of New York",
+      "資料名": "Osler 2002, Stop-Loss Orders and Price Cascades",
+      "URL": "https://www.newyorkfed.org/research/staff_reports/sr150.html",
+      "確認範囲": "概要：FX高頻度の損切り注文と正のフィードバック。",
+      "確認日": "2026-11-10",
+      "NK225同幅70パーセントの証明": false
+    },
+    {
+      "発行主体": "MIT 著者公開原著",
+      "資料名": "Lo, Mamaysky, Wang 2000, Foundations of Technical Analysis",
+      "URL": "https://web.mit.edu/wangj/www/pap/LoMamayskyWang00.pdf",
+      "確認範囲": "原著冒頭/要旨：米国株1962〜1996の日次形状条件付き分布。先物先着70%の証明ではない。",
+      "確認日": "2026-11-10",
+      "NK225同幅70パーセントの証明": false
+    }
+  ],
+  "読んだコード": [
+    {
+      "path": "work/118複数技法の入口条件/types.go",
+      "sha256": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388"
+    },
+    {
+      "path": "work/118複数技法の入口条件/bank.go",
+      "sha256": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695"
+    },
+    {
+      "path": "work/119入口の技術的出生/detector.go",
+      "sha256": "9ccc201983c5a86773311cd93ebfbe4f9bb10020677c027b10f48ffd6a7e2e02"
+    }
+  ],
+  "原稿": {
+    "path": "work\\120入口の事前候補\\小構造と無効化距離から入口を作る.md",
+    "sha256": "32b631f20214c9fc6f82cf299b3b4548630de734ec91796fdf40eb1b1de0c733"
+  },
+  "119結果本文読取": false,
+  "119について受けた通知": "Rootから全6案70%未達の通知のみ。詳細値は未読。",
+  "Raw読取": 0,
+  "入力JSON読取": 0,
+  "金融計算": false,
+  "11月09読取": false
+}

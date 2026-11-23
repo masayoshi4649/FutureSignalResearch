@@ -1,0 +1,87 @@
+{
+  "trial": 120,
+  "fixed": true,
+  "source_signals_used": false,
+  "policies": [
+    "P1",
+    "P1plus",
+    "P2",
+    "P2plus",
+    "P3",
+    "P3plus"
+  ],
+  "independent_mini_quantity": 1,
+  "portfolio_pnl": false,
+  "target": "同幅先着70%以上を目指す入口精度。未到達・観測不足・少数例を別記。IFD実約定未検証。",
+  "horizons_seconds": [
+    1800,
+    3600
+  ],
+  "widths_points": [
+    25,
+    50,
+    100,
+    125,
+    200
+  ],
+  "signal_source": "確定1分の回復又は突破。未確定足完成形なし。",
+  "same_policy_side_cooldown_seconds": 300,
+  "maximum_structure_risk": "min(100pt,.5ATR5)",
+  "entry_cap": "1分終値±min(10pt,.15ATR5)。初回正常BBOで不適なら即取消。",
+  "market_order_seconds": 30,
+  "delay_seconds": 1,
+  "normal_bbo_gap_seconds": 300,
+  "endpoint_grace_seconds": 30,
+  "fee_round_yen": 77,
+  "slip_stress_round_yen": [
+    0,
+    1000
+  ],
+  "new_entry_clock": "原行から形成した確定1分構造。Source新規・取消・旧出口を候補出生に使わない。",
+  "new_entry_end": "SourceのForceClose未満",
+  "observation_end": "Session.Endまで。期限到達の最初の正常原行で終え、同秒後続原行を混ぜない。",
+  "known_sessions": 70,
+  "out_of_sample": false,
+  "11月09読取": false,
+  "input": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118入口比較\\入力.json",
+    "sha256": "574771f654937036b48c78eceadb46a4c5ff3c10265f60b0ec7879efb0d862c3"
+  },
+  "code_sha256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\bank.go": "e4847e92ad2d1cfec58c0f747455390b3fcc0f8e9b1782487392e88e3be86695",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\go.mod": "e3d7646a1a1e35ccf9ebe93fc032df75d7c99c5111b743682c2db7e21bfdabc9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules.go": "1654fe05724387fabb8654274c55b3cc9e0a6af1a3ad892d63d7671cbf938433",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\rules_test.go": "46245667a5e704d05d584028b4cac517ff3784f55e202d6f2febaef9b0219c27",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\118複数技法の入口条件\\types.go": "3785690eb9cef67eea1cf3099c010f8b0d61866191f37db6d643057d372b1388",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector.go": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\detector_test.go": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\go.mod": "2b9e1adcd7107f347052075f3abd192a91037e33e9f490bc306652c45f6a4b07",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口の1分構造\\types.go": "56c27f7e43497f75d6d16cb8d5823625d8073124bfad176b9264b41edcfde708",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\cmd\\run\\main.go": "404e16a5c5b03e64cb6761d481ad9ebc4c3508c9937cb007b5fed4982b1b3f96",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\entry.go": "ef7f94c01be7b698f822a9a325c7d5b2560eb3cf69a2156687171f4b1bb43669",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\entry_test.go": "2e4155fe248056e5acff4f9a56d0148943d9212aa573096f78abe594c79ecf83",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\go.mod": "8d6738b168c57c640c5b6cf1c9cdae4a38ad0cd2fc717895d8d517d4e7698fd9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\outcome.go": "077352fe073d5e40c1caea316a2f6e7745bac5709edf3f52d800cdbed002e87b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\実行する.py": "3765cb8abac05a6ac02bf2cd251c3f44d09a96baa307caee7a5397506855ba79",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\条件を固定する.py": "1b62fc98d8e150a985f8d21a219b646c5feff023fce2cbc70f6aff18aea935d5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\集計する.py": "a3953a6b41fda804190878adffb15ea302e98f1c67296058ad17e2ee3d29a9ed"
+  },
+  "premarket_documents": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00120_1分構造と無効化距離で入口を作る\\実行前原文\\README.md": "2f923565acaaef1461e2645907f9d412aaba0ac81e9e7321274860675b94588f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00120_1分構造と無効化距離で入口を作る\\実行前原文\\設定と結果.md": "19822a04a4463241784b3b99adca0402bbe235e763951e6e5661bb52c4fcaf24"
+  },
+  "executable": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\入口比較.exe",
+    "sha256": "cb15082e307550b478a3fc47be69a8a2357874818d2b731c2a679eee10eb612e"
+  },
+  "Go_version": "go version go1.24.2 windows/amd64",
+  "structure_hold": "出生と取得評価のLastでP1前1分順側境界strict/P2前5本逆側境界+側5pt以上/P3前5本順側境界strictを維持。最初の正常BBOでcap→hold→risk、拒否後に待たない。",
+  "minute_raw_gap_reset_seconds": 60,
+  "primary_metric": {
+    "horizon_seconds": 3600,
+    "symmetric_width_points": 100,
+    "target_favorable_first_rate": 0.7
+  }
+}

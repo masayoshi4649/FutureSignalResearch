@@ -1,0 +1,56 @@
+{
+  "試行": 120,
+  "成功": true,
+  "用途": "同一CSV作成操作の支援画像QA修正。金融・CSVを変更しない。",
+  "金融JSONとCSV前SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\CSV用の表.json": "4efbdca59863e4d29ff8a762334e0cc48c105d4b5d28721b28d07fdc7c93e97b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\候補別集計.csv": "b05952da0989758e355e7e15d8f2738865d7cd7923b06bf40c3b3747a54e746c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\幅別先着率.csv": "99573ee563294117ac63ccece44bb8cbff7a1fd0a512b06ab94a49eb780716dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\全候補明細.csv": "f919bb5964b51d56a23503264e61e637a89e182f26994a2ecbe998fbeba7c2ae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\全70場集計.csv": "4ba17fc8543b564f7702d46aa2e0777ffeb3004263861f3f363731413c2de16e"
+  },
+  "金融JSONとCSV後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\120入口比較\\CSV用の表.json": "4efbdca59863e4d29ff8a762334e0cc48c105d4b5d28721b28d07fdc7c93e97b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\候補別集計.csv": "b05952da0989758e355e7e15d8f2738865d7cd7923b06bf40c3b3747a54e746c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\幅別先着率.csv": "99573ee563294117ac63ccece44bb8cbff7a1fd0a512b06ab94a49eb780716dc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\全候補明細.csv": "f919bb5964b51d56a23503264e61e637a89e182f26994a2ecbe998fbeba7c2ae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\全70場集計.csv": "4ba17fc8543b564f7702d46aa2e0777ffeb3004263861f3f363731413c2de16e"
+  },
+  "前後不変": true,
+  "画像": [
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\支援画像\\候補別集計.png",
+      "range": "A1:G5",
+      "before_sha256": "120e1303baddd6be6c161ebc557c9c6396193275d09bd6cc465dc34d75d290d4",
+      "after_sha256": "0adc2c8ce3feb1583b9c2144c91a367bd6fab59f820b5132d07c5d588176eedb",
+      "bytes": 15969
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\支援画像\\幅別先着率.png",
+      "range": "A1:G5",
+      "before_sha256": "a3ef6d605ebfefd0ecd4faf5c593d8d9ffffb83f2b83d0eaca63c4edf6892129",
+      "after_sha256": "34015aae2c990dae40d643c8fb2a790da365a0711154672ce0ac6ab552a05398",
+      "bytes": 16111
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\支援画像\\全候補明細.png",
+      "range": "A1:G5",
+      "before_sha256": "0af615e2819a5f0473a41a9062a40b032d5dbeeb7ee79f7b939963a6d8a27427",
+      "after_sha256": "015b51b2bdecccbbe45adc123c69cadb164392d9af679b546f81cce2797bf804",
+      "bytes": 30649
+    },
+    {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\120入口比較CSV\\支援画像\\全70場集計.png",
+      "range": "A1:G5",
+      "before_sha256": "65d42ad447d4a63e3212e763df2000e866d8177ef09c7b31735552f6161ee9a7",
+      "after_sha256": "65f46763233aef185a75e18f03500349dc227b2f3ca5a2ce9185258b325a29eb",
+      "bytes": 18348
+    }
+  ],
+  "自然CSV再生成": false,
+  "金融再計算": false,
+  "xlsx生成": false,
+  "marker再実行": false,
+  "コードSHA256": "ae9c66d842f3daa2bda944dac451e5ba2044d0bf0a8c581808ba37551ec66f3b",
+  "視認": "本確認は描画成功と不変照合。画像の視認は別途実施する。"
+}

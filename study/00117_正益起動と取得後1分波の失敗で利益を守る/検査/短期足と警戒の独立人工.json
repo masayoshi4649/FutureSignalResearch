@@ -1,0 +1,188 @@
+{
+  "試行": 117,
+  "成功": true,
+  "人工のみ": true,
+  "bank": {
+    "成功": true,
+    "case数": 2,
+    "case": [
+      {
+        "case": "買い",
+        "quotes": 183,
+        "保存bank照合数": 47,
+        "最終Epoch": 1,
+        "最終確定総数": 45,
+        "確定指標の初回既知": {
+          "centered_ema12": {
+            "index": 48,
+            "closed_bars": 12,
+            "time": 10720
+          },
+          "centered_ema26": {
+            "index": 104,
+            "closed_bars": 26,
+            "time": 11560
+          },
+          "signal": {
+            "index": 136,
+            "closed_bars": 34,
+            "time": 12040
+          },
+          "histogram": {
+            "index": 136,
+            "closed_bars": 34,
+            "time": 12040
+          },
+          "atr": {
+            "index": 60,
+            "closed_bars": 15,
+            "time": 10900
+          }
+        }
+      },
+      {
+        "case": "売り",
+        "quotes": 183,
+        "保存bank照合数": 47,
+        "最終Epoch": 1,
+        "最終確定総数": 45,
+        "確定指標の初回既知": {
+          "centered_ema12": {
+            "index": 48,
+            "closed_bars": 12,
+            "time": 10720
+          },
+          "centered_ema26": {
+            "index": 104,
+            "closed_bars": 26,
+            "time": 11560
+          },
+          "signal": {
+            "index": 136,
+            "closed_bars": 34,
+            "time": 12040
+          },
+          "histogram": {
+            "index": 136,
+            "closed_bars": 34,
+            "time": 12040
+          },
+          "atr": {
+            "index": 60,
+            "closed_bars": 15,
+            "time": 10900
+          }
+        }
+      }
+    ],
+    "比較scalar数": 27554,
+    "許容対象の指標数値比較数": 7094,
+    "指標最大絶対差": "1.421939007737824305871643150E-13",
+    "最大差所在": "買い.step[15].bank.prefix.technical.ema12.value",
+    "許容絶対差": "1E-9",
+    "Decimal精度": 50,
+    "SHA再形成": false,
+    "SHAの扱い": "入力人工bytesを認証。Go JSON float字句によるSnapshot指紋の再計算は範囲外"
+  },
+  "state": {
+    "実行": true,
+    "成功": true,
+    "Advance数": 94,
+    "case": [
+      {
+        "case": "買い",
+        "Advance数": 47,
+        "事象数": {
+          "candidate_now": 1,
+          "armed_now": 1,
+          "reset_now": 1,
+          "narrowed_now": 1
+        },
+        "最終Sequence": 47,
+        "最終RawUpdates": 24,
+        "固定狭幅": "25",
+        "同phase冪等検査数": 47,
+        "n0拒否と同phase変更拒否数": 94
+      },
+      {
+        "case": "売り",
+        "Advance数": 47,
+        "事象数": {
+          "candidate_now": 1,
+          "armed_now": 1,
+          "reset_now": 1,
+          "narrowed_now": 1
+        },
+        "最終Sequence": 47,
+        "最終RawUpdates": 24,
+        "固定狭幅": "25",
+        "同phase冪等検査数": 47,
+        "n0拒否と同phase変更拒否数": 94
+      }
+    ],
+    "比較scalar数": 56228,
+    "指標数値比較数": 12326,
+    "指標最大絶対差": "1.421939007737824305871643150E-13",
+    "最大差所在": "買い.step[25].after.candidate.center.technical.ema12.value",
+    "破壊検出": [
+      "三値",
+      "狭幅",
+      "公表原行"
+    ],
+    "指標閾値との距離": {
+      "Hist": {
+        "判定数": 90,
+        "最小絶対距離": "0.02780849071039069543123939582",
+        "厳密等号数": 0,
+        "非ゼロで絶対1e-9以下": 0
+      },
+      "TRと前ATRの差": {
+        "判定数": 90,
+        "最小絶対距離": "6.224489795918367346938775510",
+        "厳密等号数": 0,
+        "非ゼロで絶対1e-9以下": 0
+      }
+    },
+    "許容差による真偽修正数": 0,
+    "支持価格と幅と三値とboolと公表原行": "厳密一致。指標演算値だけbankと同じ絶対許容差",
+    "限界": [
+      "手製2系列の正例と明示した追加拒否のみ。自然相場全Rawの最初性を証明しない",
+      "同phase再送とn0/同phase変更拒否はPython側の追加手製検査。入力94AdvanceのGoとの全値対照とは分ける",
+      "入力のGo Snapshot SHAは内容再形成照合後の識別子として使用し、Go float JSON指紋をDecimalから再生成しない",
+      "金額State・予約・注文・約定は対象外"
+    ]
+  },
+  "Go参照の扱い": "一次コードの所在とSHAだけを固定。Goコードのimport/実行、Go計算期待値の呼出しは行わない",
+  "Go実行": false,
+  "金額保護検算": false,
+  "注文検算": false,
+  "自然データ読取": false,
+  "正式停止": false,
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\人工_独立用\\系列.json": "923be91b1f7b2c3ea6eb3d3e58ded632c8f7846320ab98f64c36d7704c948b3c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\bankを再形成する.py": "2a0a454cbce16f9137d68dbacac4625af3199f5885827bdefb025550c2c12209",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\検算する.py": "561f97417b00e8a0d7f1465d2c4e9070bc0c63face18b711a4d5deae58425337",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\警戒を再形成する.py": "69d533e6400902456896b87af65f45b271de192f13d371a706d24b3a26fcb3ab",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\bank.go": "05883183c7e7507a9f613a214900a84c68b1c388b4379440f2da37e559418634",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\numeric.go": "320a9c7b2d684c9a3bf700d52b9bb813c7de9cee639b87f0c5dd7864fd292234",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\state.go": "0ac065e9673a5db5926837e2fe9885e2d04c8877650525ccb8095d2289f3e7c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\types.go": "ee7586e33c797339decd8dbb247c4c9bb4cf3aed7dea6ca7f86774a562410e3f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\helpers.go": "752e133332cc8f79c474fb34f8c194445ea08ced07cbf8a47e7978be930031a2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\export_test.go": "5fe47be254ef9c9fed0b9a2eb0dac23339c28a2e4a149d8520a67522d5738aeb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\README.md": "6eb08051ef827beb87cab30f63df47d6ebde9a603d565258663c65db40495a1e"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\人工_独立用\\系列.json": "923be91b1f7b2c3ea6eb3d3e58ded632c8f7846320ab98f64c36d7704c948b3c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\bankを再形成する.py": "2a0a454cbce16f9137d68dbacac4625af3199f5885827bdefb025550c2c12209",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\検算する.py": "561f97417b00e8a0d7f1465d2c4e9070bc0c63face18b711a4d5deae58425337",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\警戒を再形成する.py": "69d533e6400902456896b87af65f45b271de192f13d371a706d24b3a26fcb3ab",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\bank.go": "05883183c7e7507a9f613a214900a84c68b1c388b4379440f2da37e559418634",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\numeric.go": "320a9c7b2d684c9a3bf700d52b9bb813c7de9cee639b87f0c5dd7864fd292234",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\state.go": "0ac065e9673a5db5926837e2fe9885e2d04c8877650525ccb8095d2289f3e7c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\types.go": "ee7586e33c797339decd8dbb247c4c9bb4cf3aed7dea6ca7f86774a562410e3f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\helpers.go": "752e133332cc8f79c474fb34f8c194445ea08ced07cbf8a47e7978be930031a2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117原行と暫定1分の複合保護\\export_test.go": "5fe47be254ef9c9fed0b9a2eb0dac23339c28a2e4a149d8520a67522d5738aeb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117短期足と警戒を人工で独立検算する\\README.md": "6eb08051ef827beb87cab30f63df47d6ebde9a603d565258663c65db40495a1e"
+  },
+  "前後不変": true
+}

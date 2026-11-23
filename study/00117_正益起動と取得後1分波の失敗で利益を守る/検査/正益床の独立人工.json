@@ -1,0 +1,153 @@
+{
+  "成功": true,
+  "停止": false,
+  "試行": 117,
+  "市場前": true,
+  "独立評価数": 126,
+  "独立拒否数": 36,
+  "主人工": 4,
+  "保存破壊種類": 8,
+  "期待値Go呼出し": 0,
+  "追加Goの役割": "public APIの実応答公開のみ。期待値算術なし。",
+  "所有コードSHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\人工検査.py": "047b93da72de841f3a8a7a91d6f2a0e8af92cc98bbdd544b666aaa0a39d3a578",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\拒否を照合する.py": "28caca6950a53b5c42432b28ca7a969f01ba8895af693678f4489689480b0658",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\検算する.py": "039334050e9c24592e79273faff4b4b89021c7464510ad9496f9792784757ddc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\独立式.py": "a6c3f965bd89d0d758ab78227062c8ff4ff41647515e2ec65c6c35e12678db7a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\確認をまとめる.py": "31957a0ebf0ca156bc0fe1ab2a5d8b8755326557426b5e30c7f8f42f145ccc61",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\README.md": "a522f960d959cb09e5dff7611f3f3230a3e3bf4bd2aef7f59b1783d10e579641",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\追加Go公開器\\main.go": "fff90e8ba54d24033ceb19b254a360e3aa647ebb365aac9ac919bf4a5decea2e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\追加Go公開器\\go.mod": "cb271b3183987655851f79c29e6ee5c7505ba5b13d2d8c346ae844af1dbf5193"
+  },
+  "旧純参照SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益起動と費用回収床の純保護\\types.go": "5203fbe5d88f987f1a5dd381488e2e08172da7122c31ed3557529b0f5f847367",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益起動と費用回収床の純保護\\state.go": "f855e53044ea5b7e37584d1f231bc9e2cf046f74daca1cd2fe8f46667662963a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益起動と費用回収床の純保護\\copy.go": "71689c9d0ac85f69f156c41d79a9a5e11deb27c44d956331686e9cf916df380b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益起動と費用回収床の純保護\\go.mod": "8d0e4dca5666a5b1f2627826eab0753c6741a763fb8dccc3c301702f31665153"
+  },
+  "前後不変": true,
+  "結果": {
+    "元64": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\既存64\\結果.json",
+      "sha256": "56dcacdbae25917ce23d10032cd6cc58d88c9e67a429437239b5fe76e50dc94a",
+      "独立結果": {
+        "成功": true,
+        "系列数": 8,
+        "Advance数": 64,
+        "初期Snapshot一致": 8,
+        "Before_After_Decision全値一致": 64,
+        "coverage": {
+          "pre_fill": 0,
+          "after_source": 64,
+          "R正": 0,
+          "R負": 24,
+          "R半円": 24,
+          "Mark未知": 8,
+          "W厳密ゼロ": 0,
+          "全予約hit": 8,
+          "flat": 8,
+          "狭幅ラッチ": 4,
+          "狭幅適用": 4
+        },
+        "旧W100_P100独立数式検算": false,
+        "短期票意味/公表asof検査": false,
+        "Go呼出し": 0,
+        "金額誤差許容": 0
+      }
+    },
+    "追加62": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\追加境界\\算術の確認.json",
+      "sha256": "491d269d21657e354c76a1726dd00879f0a118c46581da1aac5b16525f771e56",
+      "独立結果": {
+        "成功": true,
+        "系列数": 13,
+        "Advance数": 62,
+        "初期Snapshot一致": 13,
+        "Before_After_Decision全値一致": 62,
+        "coverage": {
+          "pre_fill": 16,
+          "after_source": 46,
+          "R正": 12,
+          "R負": 36,
+          "R半円": 44,
+          "Mark未知": 21,
+          "W厳密ゼロ": 4,
+          "全予約hit": 8,
+          "flat": 12,
+          "狭幅ラッチ": 5,
+          "狭幅適用": 4
+        },
+        "旧W100_P100独立数式検算": false,
+        "短期票意味/公表asof検査": false,
+        "Go呼出し": 0,
+        "金額誤差許容": 0
+      }
+    },
+    "拒否36": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\追加境界\\拒否の確認.json",
+      "sha256": "9f41c914745c4515c9cd10da0b24cd5a3ad5ad3335ab5bcdf0e5a26c838384c1",
+      "独立結果": {
+        "成功": true,
+        "完成票の拒否全値一致": 36,
+        "拒否後State不変": 36,
+        "拒否種類": [
+          "ID置換",
+          "幅変更",
+          "Witness意味変更",
+          "未来At",
+          "未来SourceIndex",
+          "別Scope",
+          "Completed偽",
+          "SourceLine0",
+          "取得前At"
+        ],
+        "opaque境界": "最初の完成票のWitness欠落/SourceLine999999はpublic APIで受理。短期数学と生原行出典は外部接続で照合が必要。",
+        "Witness空白だけのbyte差": "JSON復元後のPythonでは対象外",
+        "Go呼出し": 0
+      }
+    }
+  },
+  "検査": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "人工検査.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_extra62 (__main__.Tests.test_extra62)\n機能: W0/半円正益/R正負/pre/unknown/n0の追加API結果を照合する。 ... ok\ntest_original64 (__main__.Tests.test_original64)\n機能: 最初のGo64評価を全Snapshot/Decisionへ照合する。 ... ok\ntest_rejections36 (__main__.Tests.test_rejections36)\n機能: 完成票の意味改変/時点/所有違いの拒否と失敗後不変を確認する。 ... ok\ntest_saved_value_corruptions (__main__.Tests.test_saved_value_corruptions)\n機能: 全量・金額・半円Target・狭幅flag等の保存改変を独立検算が拒否することを確認する。 ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.109s\n\nOK\n"
+    },
+    {
+      "command": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "go",
+        "build",
+        "-o",
+        "公開器.exe",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "追加Go入力": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117正益床の人工を独立検算する\\追加Go人工\\系列.json",
+    "sha256": "899d20b44a01cefc292cc4ffc40b655e7b17be67770b2a75336b375de9e8ac0d"
+  },
+  "自然市場/Raw/Native/CSV/11月09本文読取": 0,
+  "金融実行": false,
+  "短期Source意味検査": false,
+  "旧W100_P100独立数式検算": false
+}

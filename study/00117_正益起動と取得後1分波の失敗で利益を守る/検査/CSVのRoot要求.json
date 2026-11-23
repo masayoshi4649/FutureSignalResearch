@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "trial": 117,
+  "fixed": true,
+  "result_read_authorized": true,
+  "code_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\停止.json",
+    "sha256": "fa261aa01a5db403472056d6147b01c13949c20027dd0d80bd2950a55337fbf6"
+  },
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\F1_117金融条件.json",
+    "sha256": "522fe2343b914243fadc4f48d32128a79ecdafcabd84d5a58b5ca399af90d1b0"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\完了.json",
+    "sha256": "f9d5dfc49bef7f9b2dcf6bba55fe264b689dc2e8312e0e26c4530e4b1d2872e0"
+  },
+  "result": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\出力用metadata_期間区分\\結果.json",
+    "sha256": "d128ff73f9e079fb38fa683a0f2de1f90f87f95581902c2c0ac21415d925a069"
+  },
+  "check": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\出力用metadata_期間区分\\保存会計の確認.json",
+    "sha256": "92f861dc01b8255bcde79cb8be1b75591d4ad7000f4fed9bf3507a5b62c6e0f9"
+  },
+  "independent_execution": "verify_all70_saved_points",
+  "output_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\outputs\\01a1889f-f2af-7943-a047-543275ee9ed2\\117損益CSV",
+  "Root許可": "全70場の独立保存済み実現損益を二CSV又は固定表の結果欄へ出力する。新金融・価格・Nativeの読取はしない。"
+}

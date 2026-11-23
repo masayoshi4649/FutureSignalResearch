@@ -1,0 +1,163 @@
+{
+  "対象": "118入口改善の事前調査",
+  "確認日": "2026-11-10",
+  "状態": "役割と注文方法の事前仮説のみ、条件未固定・自然計算なし",
+  "資料範囲": "公式JPX/CME/Fidelity/Schwabの制度・教育本文9件。原論文の新規実証分析は今回行っていない。",
+  "sources": [
+    {
+      "id": "S01",
+      "organization": "日本取引所グループ・大阪取引所",
+      "title": "Order Types, etc.",
+      "url": "https://www.jpx.co.jp/english/derivatives/rules/order-types/index.html",
+      "kind": "公式取引制度",
+      "scope": "Osaka ExchangeのOrder Types、Conditions for Validity Period and Executed Volume、ザラバ/板寄せ別注文条件表。web抽出81〜115行。",
+      "used": "指値と成行、成行未約定残の取消、GFD/FAK/FOKを区別。",
+      "not_used": "米国株の約定説明をOSE固有の保証として転記しない。",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。",
+      "reading_history": "既存資料との重複を検索後、今回の公式本文を確認。過去の初読/既読全履歴は断定しない。"
+    },
+    {
+      "id": "S02",
+      "organization": "日本取引所グループ",
+      "title": "Trading Methods",
+      "url": "https://www.jpx.co.jp/english/derivatives/rules/trading-methods/index.html",
+      "kind": "公式取引制度",
+      "scope": "Overview、How to Determine Contract Price by Itayose Method。web抽出78〜88行。",
+      "used": "先物の価格・時間優先、板寄せ時の未約定成行の失効と約定非保証。",
+      "not_used": "ザラバでのキュー順位・miniの全注文/全約定を今回観測したとはしない。",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。",
+      "reading_history": "既存資料との重複を検索後、今回の公式本文を確認。過去の初読/既読全履歴は断定しない。"
+    },
+    {
+      "id": "S03",
+      "organization": "Charles Schwab",
+      "title": "Stock order types and conditions: An overview",
+      "url": "https://international.schwab.com/content/stock-order-types-and-conditions-overview",
+      "kind": "証券会社公式教材・米国株",
+      "scope": "What is a market order/What is a limit order。web抽出27〜37行。",
+      "used": "即時執行の重視と価格指定の差、Lastと現在BBO、同価格到達でも先行注文等により非約定がある。",
+      "not_used": "米国株の市場構造をOSE先物へ同一視せず、成行全量保証としない。",
+      "published": "2023-01-29",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。",
+      "reading_history": "既存資料との重複を検索後、今回の公式本文を確認。過去の初読/既読全履歴は断定しない。"
+    },
+    {
+      "id": "S04",
+      "organization": "Fidelity",
+      "title": "ADX: How strong is the current trend in stocks?",
+      "url": "https://www.fidelity.com/viewpoints/active-investor/average-directional-index-ADX",
+      "opened_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/adx",
+      "redirect_confirmed": true,
+      "kind": "運用会社公式教材・時点株式例を含む",
+      "scope": "How ADX works、How to use ADX。web抽出258〜270行。",
+      "used": "ADXの強さとDIの方向を分離。",
+      "not_used": "記事のS&P500現況・20/25の一般目安をNK225の最適閾値にしない。",
+      "reading_history": "既存調査で使った指標説明を再確認。現行リダイレクト先の本文も確認。",
+      "published": "2026-03-19",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。"
+    },
+    {
+      "id": "S05",
+      "organization": "Fidelity",
+      "title": "Average True Range (ATR)",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/atr",
+      "kind": "運用会社公式指標教材",
+      "scope": "Description/How this indicator works/Calculation。web抽出243〜262行。",
+      "used": "gapを含む変動幅、方向を表さないこと、足幅と期間による尺度差。",
+      "not_used": "教材のATR倍率や期間を最適値として採用しない。",
+      "reading_history": "既存調査資料の本文再確認。",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。"
+    },
+    {
+      "id": "S06",
+      "organization": "Fidelity",
+      "title": "Relative Strength Index (RSI)",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI",
+      "kind": "運用会社公式指標教材",
+      "scope": "Description、強いトレンドで過熱域に残る注意、トレンドごとのレンジ・failure swings。web抽出244〜252行。",
+      "used": "高低水準を反転と同義にせず、価格/勢いの確認を分離。",
+      "not_used": "70/30、40/50等をNK225の最適値としない。",
+      "reading_history": "既存調査資料の本文再確認。",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。"
+    },
+    {
+      "id": "S07",
+      "organization": "Fidelity",
+      "title": "Bollinger Bands",
+      "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/bollinger-bands",
+      "kind": "運用会社公式指標教材",
+      "scope": "Description、How this indicator works。web抽出244〜255行。",
+      "used": "相対的高低、帯収縮の方向未定、強いトレンドで帯沿い/帯外が続くこと。",
+      "not_used": "帯下限=底、標準20/2σ=NKの最適値としない。",
+      "reading_history": "既存調査資料の本文再確認。",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。"
+    },
+    {
+      "id": "S08",
+      "organization": "Charles Schwab",
+      "author": "Joe Mazzola",
+      "title": "3 Ways Volume Can Help Confirm Price Trends",
+      "url": "https://www.schwab.com/learn/story/ways-volume-can-help-confirm-price-trends",
+      "kind": "証券会社公式教材・株式の説明図例",
+      "scope": "1 Confirm a price move or trend、3 Time entries and exits for short-term trades、Proceed with caution。web抽出32〜43、64〜82行。",
+      "used": "量を価格進行と合わせること、当日VWAPと15分チャートの例、VWAP下の安さだけでなく勢い回復を待つ考え、量急増は終盤や非テクニカル要因もある。",
+      "not_used": "図例のその後の上昇をNK225における収益検定や将来確認へ流用しない。出来高単独の方向判断にしない。",
+      "published": "2026-06-05",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。",
+      "reading_history": "既存資料との重複を検索後、今回の公式本文を確認。過去の初読/既読全履歴は断定しない。"
+    },
+    {
+      "id": "S09",
+      "organization": "CME Group",
+      "title": "Technical Patterns: Reversals",
+      "url": "https://www.cmegroup.com/education/courses/technical-analysis/technical-patterns-reversals",
+      "kind": "取引所公式教材",
+      "scope": "導入、Double/Triple Tops and Bottoms、Conclusion。web抽出31〜50行。",
+      "used": "未完成の高安形状と反転確認を区別し、中間高安突破/出来高を補助材料にする一般説明。",
+      "not_used": "5分構造奪還を教材のパターンそのものと同定せず、時間幅/価格幅の最適性やNK利益を証明したとしない。",
+      "confirmed_on": "2026-11-10",
+      "body_read": true,
+      "scope_limit": "上記の該当本文。全サイト・全引用文献・動画内容までの読取を主張しない。",
+      "reading_history": "既存資料との重複を検索後、今回の公式本文を確認。過去の初読/既読全履歴は断定しない。"
+    }
+  ],
+  "一般説明": [
+    "価格指定と執行の優先は異なる",
+    "方向と強さ、相対価格と反転イベント、量と価格応答を分担する"
+  ],
+  "心理仮説": [
+    "押戻し後の需要回復",
+    "支持否定後の指値約定による逆選択の可能性"
+  ],
+  "NK225で未検証": [
+    "3候補の収益性",
+    "200pt/ATR比等の最適性",
+    "指値非約定率/逆選択の大きさ",
+    "mini実約定キューとラージ板代理模型の差"
+  ],
+  "既存知見との重複確認": [
+    "docs/議論/外部再調査/現在の状態と押戻し再開の順序を分ける.md",
+    "docs/議論/外部再調査/支持抵抗の否定と逆指値の約定を分ける.md",
+    "docs/議論/外部再調査/三時間軸で配置と高安拡大と突破を分ける.md"
+  ],
+  "旧docs編集": false,
+  "自然Raw_Native_価格CSV_損益CSV読取": false,
+  "11月09市場読取": false,
+  "金融実行": false
+}

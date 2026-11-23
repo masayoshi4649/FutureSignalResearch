@@ -1,0 +1,2104 @@
+{
+  "version": 1,
+  "trial": 117,
+  "success": true,
+  "policy": "native_payload_zstd3_window29_ldm_restore_go1242_v1",
+  "sessions": 70,
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\F1_117金融条件.json",
+    "sha256": "522fe2343b914243fadc4f48d32128a79ecdafcabd84d5a58b5ca399af90d1b0"
+  },
+  "financial_completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\完了.json",
+    "sha256": "f9d5dfc49bef7f9b2dcf6bba55fe264b689dc2e8312e0e26c4530e4b1d2872e0"
+  },
+  "Root要求": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\Native可逆保存のRoot要求_作業先.json",
+    "sha256": "b1028f41028d0b58f1df23a9cc7b6983b5a91c4c691afbd01b8567361ae81459"
+  },
+  "compression": {
+    "compression_level": 3,
+    "window_log": 29,
+    "enable_long_distance_matching": 1,
+    "checksum_flag": 1
+  },
+  "python": "3.14.3",
+  "zstd_version": "1.5.7",
+  "restore": {
+    "executable": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\gzipを再現する.exe",
+      "sha256": "a06c854ce4bfe6db22a3329e28a571a56454dfaaf11c90af1e33efc9a4e12c9c"
+    },
+    "source": {
+      "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\gzipを再現する.go",
+      "sha256": "21f1ba26ff4afd4eba42d01156b6d4b70a92854f81858456ff78ffbbd01e6656"
+    },
+    "Go_version": "go1.24.2",
+    "method": "gzip.NewWriter default、展開bytesを一括Write一回、元headerを変更しない"
+  },
+  "Native_zstd": [
+    {
+      "session": "2026-09-21_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "3406ac96084aa849c238880d04a541637de452421d86a8d6feb35f662e63fe80"
+      },
+      "source_gzip_bytes": 240070,
+      "json_bytes": 3991763,
+      "json_sha256": "048a0d6e7ce8817ee668c6a56c8f3e142d6eb42de3ac289bbb5f5427d1f6cc41",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-21_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-21_Day.Native.json.zst",
+        "sha256": "3bed7381eded5507fed8585c2793f990ef7cc2078210da7982525b371b594fe4",
+        "bytes": 109945
+      },
+      "restored_gzip_sha256": "3406ac96084aa849c238880d04a541637de452421d86a8d6feb35f662e63fe80",
+      "restored_gzip_bytes": 240070,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0028732000064337626,
+        "zstd_compress": 0.009534699995128904,
+        "zstd_decompress_saved": 0.0033408000017516315,
+        "Go_gzip_restore": 0.10942339999746764
+      }
+    },
+    {
+      "session": "2026-09-21_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "fbda13246884fffe14bc935f108270ad6ff7d7e5a34eb226c824ec0b9329cd87"
+      },
+      "source_gzip_bytes": 229344,
+      "json_bytes": 3984962,
+      "json_sha256": "25921878e285eaffd4cd1b4fdfc168da9690a69ee717367a1aeea17b2bfd592c",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-21_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-21_Night.Native.json.zst",
+        "sha256": "5b2b6b0cc15d176a3d4176afbdb25621e58f3d237aed091866baf371ab4b5554",
+        "bytes": 153752
+      },
+      "restored_gzip_sha256": "fbda13246884fffe14bc935f108270ad6ff7d7e5a34eb226c824ec0b9329cd87",
+      "restored_gzip_bytes": 229344,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.003187499998603016,
+        "zstd_compress": 0.015189599995210301,
+        "zstd_decompress_saved": 0.0031749000045238063,
+        "Go_gzip_restore": 0.12021349999849917
+      }
+    },
+    {
+      "session": "2026-09-22_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz",
+        "sha256": "698b582c56a6f2c6f0a78302c66c3655c8e1d3de15a73eff3f73b2d65bc2b61c"
+      },
+      "source_gzip_bytes": 230048,
+      "json_bytes": 3576875,
+      "json_sha256": "bc05451192a20d893958e0d9d1144615464017d6d37ed8a66c43fcf45b236da4",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-22_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-22_Day.Native.json.zst",
+        "sha256": "e3d9f5459c975ac51f8835243ec5de37cfa081503124551eaa39667727120ad4",
+        "bytes": 116159
+      },
+      "restored_gzip_sha256": "698b582c56a6f2c6f0a78302c66c3655c8e1d3de15a73eff3f73b2d65bc2b61c",
+      "restored_gzip_bytes": 230048,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.002479700000549201,
+        "zstd_compress": 0.007212800002889708,
+        "zstd_decompress_saved": 0.002623899999889545,
+        "Go_gzip_restore": 0.11480610000580782
+      }
+    },
+    {
+      "session": "2026-09-22_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz",
+        "sha256": "41cceabd2413295dcde3a6b279f0f31b6138377f309949239bd8a323247c6b5f"
+      },
+      "source_gzip_bytes": 320851,
+      "json_bytes": 5432736,
+      "json_sha256": "52643b6b791b4d4e6ba0b3ed25ac5225a57be3beaed735a2857d8b6d651a3607",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-22_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-22_Night.Native.json.zst",
+        "sha256": "5add0dad0291db57a9752d9a3ef1d77057c5dd8f8dd20a9d912f68a2cd7abaaa",
+        "bytes": 172370
+      },
+      "restored_gzip_sha256": "41cceabd2413295dcde3a6b279f0f31b6138377f309949239bd8a323247c6b5f",
+      "restored_gzip_bytes": 320851,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.003033499997400213,
+        "zstd_compress": 0.01217480000195792,
+        "zstd_decompress_saved": 0.005361299998185132,
+        "Go_gzip_restore": 0.13476609999634093
+      }
+    },
+    {
+      "session": "2026-09-23_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz",
+        "sha256": "641f144a52b78d587a56458d71a50bb45f4c60b89c71672c2b1da738a1cf6eb1"
+      },
+      "source_gzip_bytes": 187208,
+      "json_bytes": 3052093,
+      "json_sha256": "3d8cb43b90546901a18cc748f460e9162b0e834a4a616de2a3223781c26c4f2d",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-23_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-23_Day.Native.json.zst",
+        "sha256": "554ec90593161309443c7957c150307ee698bca43fd58cfc3150760490a11429",
+        "bytes": 107451
+      },
+      "restored_gzip_sha256": "641f144a52b78d587a56458d71a50bb45f4c60b89c71672c2b1da738a1cf6eb1",
+      "restored_gzip_bytes": 187208,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.001966200004972052,
+        "zstd_compress": 0.007589099994220305,
+        "zstd_decompress_saved": 0.002677399999811314,
+        "Go_gzip_restore": 0.10096179999527521
+      }
+    },
+    {
+      "session": "2026-09-23_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz",
+        "sha256": "3e2da1ef0155bcc0c93fedb857bafc758f99df74a000816bcb7eb31eb9eca0df"
+      },
+      "source_gzip_bytes": 354766,
+      "json_bytes": 6122130,
+      "json_sha256": "99b4d394268b4a6e094636b3c053ed9ace22dc9f4471fa510d242d1d10815ca1",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-23_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-23_Night.Native.json.zst",
+        "sha256": "3a02c131b4a4aec6829fc2ecb31466c704b7cc288db9251a055c2e79d1a930e8",
+        "bytes": 182857
+      },
+      "restored_gzip_sha256": "3e2da1ef0155bcc0c93fedb857bafc758f99df74a000816bcb7eb31eb9eca0df",
+      "restored_gzip_bytes": 354766,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.00382809999427991,
+        "zstd_compress": 0.01586670000688173,
+        "zstd_decompress_saved": 0.005021199998736847,
+        "Go_gzip_restore": 0.12725589999899967
+      }
+    },
+    {
+      "session": "2026-09-24_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz",
+        "sha256": "944cdade9bf583cb083ac25e771fd0b973a6cbcf42a1cd58c5a15acf466e63c7"
+      },
+      "source_gzip_bytes": 509588,
+      "json_bytes": 8666539,
+      "json_sha256": "e722ee3493457f507acf3807dea41a460618c07c32b50678e0f66e2b8d87fa5a",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-24_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-24_Day.Native.json.zst",
+        "sha256": "17f592f92cd02ddfdcef613ebdf4f5248a1c3d449cdf7ccc639b91c272fba8a0",
+        "bytes": 193772
+      },
+      "restored_gzip_sha256": "944cdade9bf583cb083ac25e771fd0b973a6cbcf42a1cd58c5a15acf466e63c7",
+      "restored_gzip_bytes": 509588,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005094799998914823,
+        "zstd_compress": 0.016173899995919783,
+        "zstd_decompress_saved": 0.006471300002885982,
+        "Go_gzip_restore": 0.15374709999741754
+      }
+    },
+    {
+      "session": "2026-09-24_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz",
+        "sha256": "930272ec4b0bd1015eeb5f15f17883abd7cda5789cf43ca58c34ac31dd6e7e23"
+      },
+      "source_gzip_bytes": 508227,
+      "json_bytes": 8556192,
+      "json_sha256": "6170a6436a3851944f87eaf1bd6f6f18182f183604f4180a49f090549f0ae9bc",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-24_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-24_Night.Native.json.zst",
+        "sha256": "c712fe1c46848f55c7a881984793e631efb331c428d74a500eb77e2477c0fd39",
+        "bytes": 256149
+      },
+      "restored_gzip_sha256": "930272ec4b0bd1015eeb5f15f17883abd7cda5789cf43ca58c34ac31dd6e7e23",
+      "restored_gzip_bytes": 508227,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004994800001441035,
+        "zstd_compress": 0.02040149999811547,
+        "zstd_decompress_saved": 0.0066389999992679805,
+        "Go_gzip_restore": 0.15029640000284417
+      }
+    },
+    {
+      "session": "2026-09-25_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz",
+        "sha256": "15543f306d2ac50ba3271f6167408a4612d2954eaa7f6346ca1025c4b8e0db4f"
+      },
+      "source_gzip_bytes": 399865,
+      "json_bytes": 6422939,
+      "json_sha256": "9929ced35779e30b798c20e72a5afe88b358c65fa1b847487775b336685c8223",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-25_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-25_Day.Native.json.zst",
+        "sha256": "332fb8d82f33eec770222fc0e6892094dece00800b481cd937c17ff4ac92320d",
+        "bytes": 171954
+      },
+      "restored_gzip_sha256": "15543f306d2ac50ba3271f6167408a4612d2954eaa7f6346ca1025c4b8e0db4f",
+      "restored_gzip_bytes": 399865,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0036672999995062128,
+        "zstd_compress": 0.015351300004113,
+        "zstd_decompress_saved": 0.005306700004439335,
+        "Go_gzip_restore": 0.14168559999961872
+      }
+    },
+    {
+      "session": "2026-09-25_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz",
+        "sha256": "98d51a69b997f2c39ae85afe9a02261d70f121f9402ce9c4e0046271d57641a0"
+      },
+      "source_gzip_bytes": 334818,
+      "json_bytes": 5376989,
+      "json_sha256": "61d14737f73b1da3ceaa0417adedb871a764a339ca20ca2b1358bc5da2ac8d73",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-25_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-25_Night.Native.json.zst",
+        "sha256": "81464de95d08ccc73c01ba4ecd99711ef2d07100905f592471558f100ab15acb",
+        "bytes": 194177
+      },
+      "restored_gzip_sha256": "98d51a69b997f2c39ae85afe9a02261d70f121f9402ce9c4e0046271d57641a0",
+      "restored_gzip_bytes": 334818,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0030694000015500933,
+        "zstd_compress": 0.014435400000365917,
+        "zstd_decompress_saved": 0.004434200003743172,
+        "Go_gzip_restore": 0.14372610000282293
+      }
+    },
+    {
+      "session": "2026-09-28_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz",
+        "sha256": "a6b1090d764dbe2bf1596a09027551acb6835a85569614064b72a88c2d090737"
+      },
+      "source_gzip_bytes": 583462,
+      "json_bytes": 10149924,
+      "json_sha256": "3b24c6eaf6177530551f7281fd26e5ee12061f021e1666618776ef00eaa7700d",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-28_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-28_Day.Native.json.zst",
+        "sha256": "5ecdbf1138579fa49fd3aa6926b18fde61dfc473ee1471614119ed518607f004",
+        "bytes": 203407
+      },
+      "restored_gzip_sha256": "a6b1090d764dbe2bf1596a09027551acb6835a85569614064b72a88c2d090737",
+      "restored_gzip_bytes": 583462,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005789899994852021,
+        "zstd_compress": 0.020649899997806642,
+        "zstd_decompress_saved": 0.00736509999842383,
+        "Go_gzip_restore": 0.15438509999512462
+      }
+    },
+    {
+      "session": "2026-09-28_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz",
+        "sha256": "46a01c2291e0e9ac55f5164071539f8b4d5e32e92cb2250366532fc36501937c"
+      },
+      "source_gzip_bytes": 431133,
+      "json_bytes": 7509334,
+      "json_sha256": "e1d4ea57ccbe59ad0b8c3245e4cf2a30f57ac4b0571b60a3f88a7b9ba4e41446",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-28_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-28_Night.Native.json.zst",
+        "sha256": "fce8acacd93ef0070bc86cbc3b63ba1fe02610ba9afc357d78bc21a1549044c8",
+        "bytes": 216355
+      },
+      "restored_gzip_sha256": "46a01c2291e0e9ac55f5164071539f8b4d5e32e92cb2250366532fc36501937c",
+      "restored_gzip_bytes": 431133,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004513299994869158,
+        "zstd_compress": 0.01709530000516679,
+        "zstd_decompress_saved": 0.006552000006195158,
+        "Go_gzip_restore": 0.13397930000064662
+      }
+    },
+    {
+      "session": "2026-09-29_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz",
+        "sha256": "9974dcfe84d8fa892f72044378cd2225b7729d852a804df43a4860f0b5c655c9"
+      },
+      "source_gzip_bytes": 726668,
+      "json_bytes": 12939502,
+      "json_sha256": "a6f21aa05922b6662a651ec5758103d0f6bddde9082b1b8df9bd50a5563a73ee",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-29_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-29_Day.Native.json.zst",
+        "sha256": "5a6a4aec56415f558812d6f0a24e193bef30aabb203be5fc2fb37cfe39aeb612",
+        "bytes": 237856
+      },
+      "restored_gzip_sha256": "9974dcfe84d8fa892f72044378cd2225b7729d852a804df43a4860f0b5c655c9",
+      "restored_gzip_bytes": 726668,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.006905300004291348,
+        "zstd_compress": 0.02682430000277236,
+        "zstd_decompress_saved": 0.00974809999752324,
+        "Go_gzip_restore": 0.28493129999696976
+      }
+    },
+    {
+      "session": "2026-09-29_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz",
+        "sha256": "1fe5430b12826e200fa4c4de39ed9e686a6f251d4c5a96b0534be48490c7a801"
+      },
+      "source_gzip_bytes": 573799,
+      "json_bytes": 10141379,
+      "json_sha256": "e794fc2bb443192c46dd0bb2b503ab6c20ac4abf325b5708037b22934f72dbe7",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-29_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-29_Night.Native.json.zst",
+        "sha256": "4ecdf979d7358ee97a59443d22fe317468aff67330cb9b3cb1629375bb2a5d33",
+        "bytes": 241860
+      },
+      "restored_gzip_sha256": "1fe5430b12826e200fa4c4de39ed9e686a6f251d4c5a96b0534be48490c7a801",
+      "restored_gzip_bytes": 573799,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005767499998910353,
+        "zstd_compress": 0.02312499999970896,
+        "zstd_decompress_saved": 0.007435200001054909,
+        "Go_gzip_restore": 0.2628699000051711
+      }
+    },
+    {
+      "session": "2026-09-30_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz",
+        "sha256": "70ac75a32f10e4cf0cd5cc390f64f033d87978996471db65719a4cd5f9708d57"
+      },
+      "source_gzip_bytes": 390035,
+      "json_bytes": 6533629,
+      "json_sha256": "610c06638d21d09bed12e4a056dba2b6a1aa12ebf7b6370e3c886558a107a894",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-30_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-30_Day.Native.json.zst",
+        "sha256": "bd0b81498aa5424dea8698fd54045662a93fd5beb2f515e8672d8bab6788bc5d",
+        "bytes": 170828
+      },
+      "restored_gzip_sha256": "70ac75a32f10e4cf0cd5cc390f64f033d87978996471db65719a4cd5f9708d57",
+      "restored_gzip_bytes": 390035,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.003925400000298396,
+        "zstd_compress": 0.012976799996977206,
+        "zstd_decompress_saved": 0.005346099998860154,
+        "Go_gzip_restore": 0.14674000000377418
+      }
+    },
+    {
+      "session": "2026-09-30_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz",
+        "sha256": "6f1a54cb8d316f76bbb2b4ebd93e075265bc68dc63345ac3a379a5461eef926f"
+      },
+      "source_gzip_bytes": 580061,
+      "json_bytes": 10197078,
+      "json_sha256": "73054c3b9cb4a6690971f92bc0b3139aaaf29343ce1c6d8673b25653c18a0007",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-09-30_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-09-30_Night.Native.json.zst",
+        "sha256": "ca70adb108a41211ed60e79c1cc25fbf9af36462a931b243fcd837b5d0446ed2",
+        "bytes": 249946
+      },
+      "restored_gzip_sha256": "6f1a54cb8d316f76bbb2b4ebd93e075265bc68dc63345ac3a379a5461eef926f",
+      "restored_gzip_bytes": 580061,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.006239000002096873,
+        "zstd_compress": 0.03137090000382159,
+        "zstd_decompress_saved": 0.007393100000626873,
+        "Go_gzip_restore": 0.16503669999656267
+      }
+    },
+    {
+      "session": "2026-10-01_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz",
+        "sha256": "a7c1cfd0051e4858bc6d4d953ae1cb2867ca01464eb220f7386d84006e4469c5"
+      },
+      "source_gzip_bytes": 444467,
+      "json_bytes": 7501288,
+      "json_sha256": "938c483b3c9827376626b0238381a4e0eced182475f9e6b4e55b65442c35c01e",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-01_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-01_Day.Native.json.zst",
+        "sha256": "aae64d96ac901ca4c6a088031b8e84c0f837cd185f6de8bf9eb5519d3ea9380f",
+        "bytes": 183560
+      },
+      "restored_gzip_sha256": "a7c1cfd0051e4858bc6d4d953ae1cb2867ca01464eb220f7386d84006e4469c5",
+      "restored_gzip_bytes": 444467,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004526199998508673,
+        "zstd_compress": 0.017433399996662047,
+        "zstd_decompress_saved": 0.006284600000071805,
+        "Go_gzip_restore": 0.14305289999902016
+      }
+    },
+    {
+      "session": "2026-10-01_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz",
+        "sha256": "a0fedbac831c68a600fc05ad135bddc59cefb252c9d95539d78cf66b5ef2fa03"
+      },
+      "source_gzip_bytes": 1096809,
+      "json_bytes": 20173702,
+      "json_sha256": "61437a79db288a65c11e6ffaeb5c2af90d9110fb4a8f94bc171b24cedc9076fc",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-01_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-01_Night.Native.json.zst",
+        "sha256": "ba69a80272a855e9ad6a2e9f7779f1fa5bce9461fd566f57a56ea4af95eefb9d",
+        "bytes": 364254
+      },
+      "restored_gzip_sha256": "a0fedbac831c68a600fc05ad135bddc59cefb252c9d95539d78cf66b5ef2fa03",
+      "restored_gzip_bytes": 1096809,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.011841500003356487,
+        "zstd_compress": 0.048775000002933666,
+        "zstd_decompress_saved": 0.01568309999856865,
+        "Go_gzip_restore": 0.3549072000023443
+      }
+    },
+    {
+      "session": "2026-10-02_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz",
+        "sha256": "86bfd1e991e16d9c221e2d136994252d4b8d9cd696571f83a209fb2891d954a0"
+      },
+      "source_gzip_bytes": 406834,
+      "json_bytes": 6783523,
+      "json_sha256": "421080950091542e1ed5c13720487d2a0c64fe23be961586a72f978f4507e97a",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-02_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-02_Day.Native.json.zst",
+        "sha256": "bcbbc3f1326b5bea9cce1b463c1d12ce55c23f8e9cea284100f3d0e38ed8a171",
+        "bytes": 174226
+      },
+      "restored_gzip_sha256": "86bfd1e991e16d9c221e2d136994252d4b8d9cd696571f83a209fb2891d954a0",
+      "restored_gzip_bytes": 406834,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004336999998486135,
+        "zstd_compress": 0.012806099999579601,
+        "zstd_decompress_saved": 0.005730999997467734,
+        "Go_gzip_restore": 0.2340879000039422
+      }
+    },
+    {
+      "session": "2026-10-02_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz",
+        "sha256": "68e28403eeca9367831a30503e298b5e06089811df5d640592e70dc44eb6def5"
+      },
+      "source_gzip_bytes": 1180937,
+      "json_bytes": 22169579,
+      "json_sha256": "515f1f937cb829175f43ec8cb3d5672dad696723839aa0cfff894becd00da382",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-02_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-02_Night.Native.json.zst",
+        "sha256": "924b730c03cdb9910d20010fac118286c6642dac8645515d568e53db5ab72577",
+        "bytes": 365025
+      },
+      "restored_gzip_sha256": "68e28403eeca9367831a30503e298b5e06089811df5d640592e70dc44eb6def5",
+      "restored_gzip_bytes": 1180937,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.01127279999491293,
+        "zstd_compress": 0.05767280000145547,
+        "zstd_decompress_saved": 0.01609660000394797,
+        "Go_gzip_restore": 0.24010969999653753
+      }
+    },
+    {
+      "session": "2026-10-05_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz",
+        "sha256": "a0bfd290b525dba322b445ed59e3c0ff46494fdfc0fca663cea88070c3095899"
+      },
+      "source_gzip_bytes": 673785,
+      "json_bytes": 11813701,
+      "json_sha256": "04b18b9ae1c2d45b407eec2646f053a93bee467f81a14976615b68618ab45fb5",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-05_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-05_Day.Native.json.zst",
+        "sha256": "268501347cd21057a17f86f2c9692f7ae8e67d7309ed890910f80524493d831f",
+        "bytes": 220576
+      },
+      "restored_gzip_sha256": "a0bfd290b525dba322b445ed59e3c0ff46494fdfc0fca663cea88070c3095899",
+      "restored_gzip_bytes": 673785,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.007342899996729102,
+        "zstd_compress": 0.029506699997000396,
+        "zstd_decompress_saved": 0.009043799997016322,
+        "Go_gzip_restore": 0.29877949999354314
+      }
+    },
+    {
+      "session": "2026-10-05_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz",
+        "sha256": "9bfd560181435b7bc27b1884476d5d9cec85a8feb7b1d4b93ba658c7b573f161"
+      },
+      "source_gzip_bytes": 695023,
+      "json_bytes": 12687426,
+      "json_sha256": "a694efca69f4e619a66344e9ae82f022d8a6c01ea67a23300bc520ab4434737d",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-05_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-05_Night.Native.json.zst",
+        "sha256": "fc6f879a1a21607df08b5689cf274a530709651dd61ce8f16f55f2fb56272e19",
+        "bytes": 264954
+      },
+      "restored_gzip_sha256": "9bfd560181435b7bc27b1884476d5d9cec85a8feb7b1d4b93ba658c7b573f161",
+      "restored_gzip_bytes": 695023,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.007010500004980713,
+        "zstd_compress": 0.031171000002359506,
+        "zstd_decompress_saved": 0.010087299997394439,
+        "Go_gzip_restore": 0.2849013000013656
+      }
+    },
+    {
+      "session": "2026-10-06_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz",
+        "sha256": "3e0c99ef3ae1fb36f27b451fd5b745349a069b27d659904d67c898646045b466"
+      },
+      "source_gzip_bytes": 655535,
+      "json_bytes": 11739757,
+      "json_sha256": "c06b49a49bc49799109ad0d5154862976f9a4ea7c44515374508fbb5f21eb91c",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-06_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-06_Day.Native.json.zst",
+        "sha256": "acf726d5cd6e35f296b6500bffd199ee60733067d6fcea236facfdd7af808948",
+        "bytes": 220484
+      },
+      "restored_gzip_sha256": "3e0c99ef3ae1fb36f27b451fd5b745349a069b27d659904d67c898646045b466",
+      "restored_gzip_bytes": 655535,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.00750020000123186,
+        "zstd_compress": 0.025739500000781845,
+        "zstd_decompress_saved": 0.009558300000207964,
+        "Go_gzip_restore": 0.2829446000032476
+      }
+    },
+    {
+      "session": "2026-10-06_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz",
+        "sha256": "46fa8b6a48abbee7a5fa17bcf5f1f38f5cea27283b2d1813489a88ad41f30ae3"
+      },
+      "source_gzip_bytes": 377211,
+      "json_bytes": 6243856,
+      "json_sha256": "2f270e24ee95b68964b9b2be6f8b4f810c6573e1cd9f0b7cf7bf142c1afe9ac4",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-06_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-06_Night.Native.json.zst",
+        "sha256": "3a4b0fdd0f15ce8c85e453c92ec5e7e8f8b618472235ec021b4ed5a5c69ec4f5",
+        "bytes": 198479
+      },
+      "restored_gzip_sha256": "46fa8b6a48abbee7a5fa17bcf5f1f38f5cea27283b2d1813489a88ad41f30ae3",
+      "restored_gzip_bytes": 377211,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004487300000619143,
+        "zstd_compress": 0.024092399995424785,
+        "zstd_decompress_saved": 0.006313300000329036,
+        "Go_gzip_restore": 0.13258719999430468
+      }
+    },
+    {
+      "session": "2026-10-07_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz",
+        "sha256": "56eb99040b567007acb5d3a7b56e4132cfc76da21b134c2cebef90c739b789f5"
+      },
+      "source_gzip_bytes": 494681,
+      "json_bytes": 8339492,
+      "json_sha256": "71f68417f77621462ec4383857bd00eb3f75444e3700b4921bd88095f7fd5e30",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-07_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-07_Day.Native.json.zst",
+        "sha256": "ae2ba7dcf171fead2eea1480a7b6d42b01a73133c670bafd3188fd993de3075a",
+        "bytes": 190996
+      },
+      "restored_gzip_sha256": "56eb99040b567007acb5d3a7b56e4132cfc76da21b134c2cebef90c739b789f5",
+      "restored_gzip_bytes": 494681,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004807199999049772,
+        "zstd_compress": 0.024122099996020552,
+        "zstd_decompress_saved": 0.007243300002301112,
+        "Go_gzip_restore": 0.14510210000298684
+      }
+    },
+    {
+      "session": "2026-10-07_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz",
+        "sha256": "a4d3a9134baa563607a489bd2e69e5f9178a0adef68551c7ce6c066eb05c7e48"
+      },
+      "source_gzip_bytes": 476239,
+      "json_bytes": 8074024,
+      "json_sha256": "65139b93933e69858b5ce4fd0bccfa807135294d6110e35ec33bad3fe2e8a2d7",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-07_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-07_Night.Native.json.zst",
+        "sha256": "0edfb63f39a787e57fbbaf386a3b6c8874dc56fe64dff5a796afa52008811fb8",
+        "bytes": 245600
+      },
+      "restored_gzip_sha256": "a4d3a9134baa563607a489bd2e69e5f9178a0adef68551c7ce6c066eb05c7e48",
+      "restored_gzip_bytes": 476239,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005088299993076362,
+        "zstd_compress": 0.017288199996983167,
+        "zstd_decompress_saved": 0.0066943999991053715,
+        "Go_gzip_restore": 0.14764650000142865
+      }
+    },
+    {
+      "session": "2026-10-08_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz",
+        "sha256": "7d689163b22e91358426f50860b0626c13886420a6a6d22fa4ed420c7bb8b8a9"
+      },
+      "source_gzip_bytes": 520350,
+      "json_bytes": 8963087,
+      "json_sha256": "2185017ac1de1dc059e9f8b6248282ec7dbaedb24ce983c7a36ec8e6c1332a7e",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-08_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-08_Day.Native.json.zst",
+        "sha256": "ef37af32362e4914669e688da229394178637d0903978141fa10dc580e12c619",
+        "bytes": 191744
+      },
+      "restored_gzip_sha256": "7d689163b22e91358426f50860b0626c13886420a6a6d22fa4ed420c7bb8b8a9",
+      "restored_gzip_bytes": 520350,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005685399999492802,
+        "zstd_compress": 0.021198599999479484,
+        "zstd_decompress_saved": 0.00645280000026105,
+        "Go_gzip_restore": 0.15465170000243234
+      }
+    },
+    {
+      "session": "2026-10-08_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz",
+        "sha256": "ca02ca6e87d279d3146d6cca282765bb5aa8f596b68e49bf9b81081cec9aeb43"
+      },
+      "source_gzip_bytes": 1294749,
+      "json_bytes": 23993665,
+      "json_sha256": "966db9a722b985df884af85b5ec4450152392f2776fa9416bbfd603907d4aca1",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-08_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-08_Night.Native.json.zst",
+        "sha256": "b9511151a8ba41e8bc44068d37e82fc81abf348fbc3a17dce2057373c7d25b57",
+        "bytes": 392776
+      },
+      "restored_gzip_sha256": "ca02ca6e87d279d3146d6cca282765bb5aa8f596b68e49bf9b81081cec9aeb43",
+      "restored_gzip_bytes": 1294749,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.012245899997651577,
+        "zstd_compress": 0.05969159999949625,
+        "zstd_decompress_saved": 0.017614800002775155,
+        "Go_gzip_restore": 0.4002214000065578
+      }
+    },
+    {
+      "session": "2026-10-09_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz",
+        "sha256": "985e0f6a23f4c2133a414ec8db517b3cfeabcaf19d34ad544eea3b34d5ff819e"
+      },
+      "source_gzip_bytes": 593115,
+      "json_bytes": 10075648,
+      "json_sha256": "06770a2b85b13d636e3c710fe7cc7d541c8ffe02f5a3eb537aa7f0e2d755ef1e",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-09_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-09_Day.Native.json.zst",
+        "sha256": "a9ce652701bcd9147661d1a1d6c6124dddedf8d16e11fab37c33c9ed0d08b04e",
+        "bytes": 210766
+      },
+      "restored_gzip_sha256": "985e0f6a23f4c2133a414ec8db517b3cfeabcaf19d34ad544eea3b34d5ff819e",
+      "restored_gzip_bytes": 593115,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0070650999987265095,
+        "zstd_compress": 0.025843399998848327,
+        "zstd_decompress_saved": 0.007452999998349696,
+        "Go_gzip_restore": 0.17695069999899715
+      }
+    },
+    {
+      "session": "2026-10-09_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz",
+        "sha256": "6e3107078c9c526692603fdf5e669aa279650dcfc1654c47a63e07e535064f19"
+      },
+      "source_gzip_bytes": 375516,
+      "json_bytes": 6427435,
+      "json_sha256": "5130fcb23639f15de121b34b9807297c05fcb48e2cec345ee24522d113a2a5db",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-09_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-09_Night.Native.json.zst",
+        "sha256": "deaacec458db1186537b4f02711c6a61333415bbf9571137028cc02165a0af08",
+        "bytes": 198188
+      },
+      "restored_gzip_sha256": "6e3107078c9c526692603fdf5e669aa279650dcfc1654c47a63e07e535064f19",
+      "restored_gzip_bytes": 375516,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.00428739999915706,
+        "zstd_compress": 0.020733900004415773,
+        "zstd_decompress_saved": 0.005495099998370279,
+        "Go_gzip_restore": 0.2359948000012082
+      }
+    },
+    {
+      "session": "2026-10-12_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz",
+        "sha256": "a3d9ea71071eac8abbed16ac5d5353a4c4e80a2782d6f59698f91cccf47f75f1"
+      },
+      "source_gzip_bytes": 294090,
+      "json_bytes": 4894443,
+      "json_sha256": "1b9205ea011a223ef2e72cddf525d3732a695aa96454b2d1aa9974583744e402",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-12_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-12_Day.Native.json.zst",
+        "sha256": "f3412d8e346a4929f7879b5d3417ea8b6f3588f5fd0be0041f56904a4627f8fb",
+        "bytes": 124869
+      },
+      "restored_gzip_sha256": "a3d9ea71071eac8abbed16ac5d5353a4c4e80a2782d6f59698f91cccf47f75f1",
+      "restored_gzip_bytes": 294090,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0030654000001959503,
+        "zstd_compress": 0.014379600004758686,
+        "zstd_decompress_saved": 0.004268999997293577,
+        "Go_gzip_restore": 0.1326474999950733
+      }
+    },
+    {
+      "session": "2026-10-12_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz",
+        "sha256": "44d428a9fd6ba48733a0a559e2b141731d8043ef93ce3e215e2a3e9db9f6e033"
+      },
+      "source_gzip_bytes": 256708,
+      "json_bytes": 4237370,
+      "json_sha256": "cc24044becc97cd33adc3e118caad92fb193689eaf4cc66aed83da889b28508d",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-12_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-12_Night.Native.json.zst",
+        "sha256": "e9ac44c0a5f97d979e94932eee4f5e79e9c55dee060e1ee86eb292fb842b5a62",
+        "bytes": 154976
+      },
+      "restored_gzip_sha256": "44d428a9fd6ba48733a0a559e2b141731d8043ef93ce3e215e2a3e9db9f6e033",
+      "restored_gzip_bytes": 256708,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0037819999997736886,
+        "zstd_compress": 0.010133199997653719,
+        "zstd_decompress_saved": 0.004516599998169113,
+        "Go_gzip_restore": 0.11436279999907129
+      }
+    },
+    {
+      "session": "2026-10-13_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz",
+        "sha256": "dc1c2413b502ea1ec9ebd336d14c979dcda53b79f6ebe89f8f61a91a7d62c142"
+      },
+      "source_gzip_bytes": 761493,
+      "json_bytes": 13076644,
+      "json_sha256": "8bb47e80fc2e10513e2a98b967516c4fcab8d562b8b21e135526e44757ba4f3e",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-13_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-13_Day.Native.json.zst",
+        "sha256": "030acfded926f4ba394d42c8aaeb0aeec19890a7cca9b01778c6033633f85eb0",
+        "bytes": 236145
+      },
+      "restored_gzip_sha256": "dc1c2413b502ea1ec9ebd336d14c979dcda53b79f6ebe89f8f61a91a7d62c142",
+      "restored_gzip_bytes": 761493,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.007296199997654185,
+        "zstd_compress": 0.030573299998650327,
+        "zstd_decompress_saved": 0.01009870000416413,
+        "Go_gzip_restore": 0.19068049999623327
+      }
+    },
+    {
+      "session": "2026-10-13_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz",
+        "sha256": "db7ec1ee5bbecaf62ae0c22a362605a21a54387406528fdfd003ba87ebb88efb"
+      },
+      "source_gzip_bytes": 339838,
+      "json_bytes": 5697660,
+      "json_sha256": "66c052768cbf8099b8605344f1aab7d32a225b1e9901abc9ecf7d36ea368aca6",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-13_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-13_Night.Native.json.zst",
+        "sha256": "5c74cf25020c9865d967e0837d6589cf13f25deed62a8d9ae1d522a5de188023",
+        "bytes": 182436
+      },
+      "restored_gzip_sha256": "db7ec1ee5bbecaf62ae0c22a362605a21a54387406528fdfd003ba87ebb88efb",
+      "restored_gzip_bytes": 339838,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.003773700002057012,
+        "zstd_compress": 0.01544609999837121,
+        "zstd_decompress_saved": 0.005272800000966527,
+        "Go_gzip_restore": 0.12498590000177501
+      }
+    },
+    {
+      "session": "2026-10-14_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz",
+        "sha256": "6e06cd7bbeb3fbb4efb32cbdcc6c850780b0dabf463a48fe927e3ee9bbea4031"
+      },
+      "source_gzip_bytes": 494066,
+      "json_bytes": 8485287,
+      "json_sha256": "105cdd71003e57fb592c9bbd616a35f11b4356dc198fbfabb07e19a0a033184b",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-14_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-14_Day.Native.json.zst",
+        "sha256": "1233828b2546a92bdfec52615f54fdf8d78b2e067fef109b3a1c93e7f3fd3ff0",
+        "bytes": 181160
+      },
+      "restored_gzip_sha256": "6e06cd7bbeb3fbb4efb32cbdcc6c850780b0dabf463a48fe927e3ee9bbea4031",
+      "restored_gzip_bytes": 494066,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005177699997148011,
+        "zstd_compress": 0.018442100001266226,
+        "zstd_decompress_saved": 0.00729249999858439,
+        "Go_gzip_restore": 0.14524289999826578
+      }
+    },
+    {
+      "session": "2026-10-14_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz",
+        "sha256": "1e695d291422d1a6da9d93a4a6429f152dabe42d7ed9f0c3e05da12e6ea472ad"
+      },
+      "source_gzip_bytes": 544491,
+      "json_bytes": 9038282,
+      "json_sha256": "1deb1e18a7466d3810cc89eebf33fac58ba97543f7546ccfde3ad471b412b2ab",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-14_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-14_Night.Native.json.zst",
+        "sha256": "7a262ffc0edb3c371bfb6812b66e7cc9c3919880afe7df2734c98d9837f7ac3a",
+        "bytes": 267284
+      },
+      "restored_gzip_sha256": "1e695d291422d1a6da9d93a4a6429f152dabe42d7ed9f0c3e05da12e6ea472ad",
+      "restored_gzip_bytes": 544491,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0057190000006812625,
+        "zstd_compress": 0.024979399997391738,
+        "zstd_decompress_saved": 0.008373900003789458,
+        "Go_gzip_restore": 0.2794778000024962
+      }
+    },
+    {
+      "session": "2026-10-15_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz",
+        "sha256": "606aaa536e8d548aebcfbf099644971f56cf4697331a689f3f40069bb195a15f"
+      },
+      "source_gzip_bytes": 547226,
+      "json_bytes": 9525737,
+      "json_sha256": "a8dcfb251b349b347642d7404cd62b11b741b1f5b8c4c39684b8520e63160571",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-15_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-15_Day.Native.json.zst",
+        "sha256": "fdf5a112a04672d96760410342359963eb763c1f0a6070abaae75bf1abcb3a28",
+        "bytes": 208379
+      },
+      "restored_gzip_sha256": "606aaa536e8d548aebcfbf099644971f56cf4697331a689f3f40069bb195a15f",
+      "restored_gzip_bytes": 547226,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005536700002267025,
+        "zstd_compress": 0.020542300000670366,
+        "zstd_decompress_saved": 0.0068281999992905185,
+        "Go_gzip_restore": 0.26312180000240915
+      }
+    },
+    {
+      "session": "2026-10-15_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz",
+        "sha256": "ce1e229dd520b604c117d1427d963c9c7a1d49ec896f13c6c0da06f04b6f26c1"
+      },
+      "source_gzip_bytes": 586188,
+      "json_bytes": 9935864,
+      "json_sha256": "1c1b4cd556364f848bf3c1d7ce919fc3130f32ae9e40b352eb161bbe784b6444",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-15_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-15_Night.Native.json.zst",
+        "sha256": "eee514e8aad0f94973d26c5540566fb310b0a66330e16624d3204ffb6f414c6b",
+        "bytes": 270208
+      },
+      "restored_gzip_sha256": "ce1e229dd520b604c117d1427d963c9c7a1d49ec896f13c6c0da06f04b6f26c1",
+      "restored_gzip_bytes": 586188,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.006064900000637863,
+        "zstd_compress": 0.022741900000255555,
+        "zstd_decompress_saved": 0.008744700004172046,
+        "Go_gzip_restore": 0.2623706000013044
+      }
+    },
+    {
+      "session": "2026-10-16_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz",
+        "sha256": "0b4dc2e6da30114d9431d0223943d26336b85689e96ab0da9fb3d739f68e7b07"
+      },
+      "source_gzip_bytes": 794368,
+      "json_bytes": 14220837,
+      "json_sha256": "1b7ea95f0ca13d65f9467811fc3d45d77921f4097eba9a0fa78a4c18f93231d9",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-16_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-16_Day.Native.json.zst",
+        "sha256": "43494dd8fe1ecfb947596b9e157a596af965d1c6654505ae482d16a6dd37501a",
+        "bytes": 247293
+      },
+      "restored_gzip_sha256": "0b4dc2e6da30114d9431d0223943d26336b85689e96ab0da9fb3d739f68e7b07",
+      "restored_gzip_bytes": 794368,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.008723899998585694,
+        "zstd_compress": 0.03492079999705311,
+        "zstd_decompress_saved": 0.011132899999211077,
+        "Go_gzip_restore": 0.2910556000060751
+      }
+    },
+    {
+      "session": "2026-10-16_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz",
+        "sha256": "7aa73b37b8345332993a39ee89e5ad0d407e6556a7df761a2415680988482d8b"
+      },
+      "source_gzip_bytes": 1102256,
+      "json_bytes": 20722175,
+      "json_sha256": "a8fcd620a189b367c015ef78ce7d1d0fdd4c89ce4e464b10010a993188467ce8",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-16_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-16_Night.Native.json.zst",
+        "sha256": "15b3679a0ea562b22f8ffb409f90a9ff6c21521cb4e9efb30bd7cb906b9f4cbc",
+        "bytes": 375901
+      },
+      "restored_gzip_sha256": "7aa73b37b8345332993a39ee89e5ad0d407e6556a7df761a2415680988482d8b",
+      "restored_gzip_bytes": 1102256,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.011687300000630785,
+        "zstd_compress": 0.04538899999897694,
+        "zstd_decompress_saved": 0.015964899997925386,
+        "Go_gzip_restore": 0.3223904000042239
+      }
+    },
+    {
+      "session": "2026-10-19_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz",
+        "sha256": "dbe7390f7ec09ac5043e8c314466ed3c1d3e21aa970a202e076202cb714e1c72"
+      },
+      "source_gzip_bytes": 409645,
+      "json_bytes": 7017168,
+      "json_sha256": "73e7fcc5a54a707dd3d52644b980b6404a879a038847e163df2462b1c8d3a5bb",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-19_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-19_Day.Native.json.zst",
+        "sha256": "6034876828fa039e917d7593576e05dedd2d9bfdbe1d4d82b545a60d99051469",
+        "bytes": 176882
+      },
+      "restored_gzip_sha256": "dbe7390f7ec09ac5043e8c314466ed3c1d3e21aa970a202e076202cb714e1c72",
+      "restored_gzip_bytes": 409645,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004162600002018735,
+        "zstd_compress": 0.017065200001525227,
+        "zstd_decompress_saved": 0.005523599997104611,
+        "Go_gzip_restore": 0.25162149999960093
+      }
+    },
+    {
+      "session": "2026-10-19_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz",
+        "sha256": "6f1e3bcc626d1609c25c28189550837989f433d018a8a458ac62cbbffe0e9c6a"
+      },
+      "source_gzip_bytes": 979758,
+      "json_bytes": 18039407,
+      "json_sha256": "1a751abdf2d9fbe953e3e98eb5ab318c95624198a044137fbd7442bee65001af",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-19_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-19_Night.Native.json.zst",
+        "sha256": "c2b4c430391e7f5dab08cc7d15717f365a374a4274fb23ec636efbcca66593cd",
+        "bytes": 331827
+      },
+      "restored_gzip_sha256": "6f1e3bcc626d1609c25c28189550837989f433d018a8a458ac62cbbffe0e9c6a",
+      "restored_gzip_bytes": 979758,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.010387800000899006,
+        "zstd_compress": 0.052242400000977796,
+        "zstd_decompress_saved": 0.018258700001752004,
+        "Go_gzip_restore": 0.32997460000478895
+      }
+    },
+    {
+      "session": "2026-10-20_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz",
+        "sha256": "727539141f04ebea96b4fa08c651793dc12b96623d8db3c207c89a924265809c"
+      },
+      "source_gzip_bytes": 793902,
+      "json_bytes": 14303721,
+      "json_sha256": "b224ee1cd3126e3ef7db859a4149d9c107b7848daad4e93af46d0c6c008695db",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-20_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-20_Day.Native.json.zst",
+        "sha256": "ddadedf70b78f5b755352a6185d44b56d73a4938d86e5763403bc35897153a27",
+        "bytes": 248110
+      },
+      "restored_gzip_sha256": "727539141f04ebea96b4fa08c651793dc12b96623d8db3c207c89a924265809c",
+      "restored_gzip_bytes": 793902,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.008809899998595938,
+        "zstd_compress": 0.03280130000348436,
+        "zstd_decompress_saved": 0.01226199999655364,
+        "Go_gzip_restore": 0.20653320000565145
+      }
+    },
+    {
+      "session": "2026-10-20_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz",
+        "sha256": "ef60056363d6f67d9f05b4d65d68aec47d656e461d734de07aa272fe15590186"
+      },
+      "source_gzip_bytes": 879932,
+      "json_bytes": 16292426,
+      "json_sha256": "0bf035ccb59838786f2593765d52a831408c46b74e412df617bd0fd4a65b2bd4",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-20_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-20_Night.Native.json.zst",
+        "sha256": "1adcd737bf91e425dc45a70512cc69ae6f7ffa0eaed8b9fa92addafd4ab201f5",
+        "bytes": 318937
+      },
+      "restored_gzip_sha256": "ef60056363d6f67d9f05b4d65d68aec47d656e461d734de07aa272fe15590186",
+      "restored_gzip_bytes": 879932,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.010318100001313724,
+        "zstd_compress": 0.04519080000318354,
+        "zstd_decompress_saved": 0.014364000002387911,
+        "Go_gzip_restore": 0.3478735000026063
+      }
+    },
+    {
+      "session": "2026-10-21_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz",
+        "sha256": "ba8f235cc4866ff513c4e47a3d37159550a733e3d9f3da106940f2d45fe8e40d"
+      },
+      "source_gzip_bytes": 661222,
+      "json_bytes": 11365981,
+      "json_sha256": "1f8e34f7ef27bc5f3c2964f093e5659fb26a446bc1e7593ab681d7e004a8c0ed",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-21_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-21_Day.Native.json.zst",
+        "sha256": "f9e72242d1a291e9fe36da9648ba09ea1119e140f482b05cf343cd92a6cc5562",
+        "bytes": 221361
+      },
+      "restored_gzip_sha256": "ba8f235cc4866ff513c4e47a3d37159550a733e3d9f3da106940f2d45fe8e40d",
+      "restored_gzip_bytes": 661222,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.00907599999482045,
+        "zstd_compress": 0.029731299997365568,
+        "zstd_decompress_saved": 0.00886529999843333,
+        "Go_gzip_restore": 0.31120560000272235
+      }
+    },
+    {
+      "session": "2026-10-21_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz",
+        "sha256": "a32e2fabadc2c4485aa2bb4a7b7c26e92683ea1e0acad7da690c2f67ce6b63d3"
+      },
+      "source_gzip_bytes": 537793,
+      "json_bytes": 9462268,
+      "json_sha256": "99eddbb8fb234ef9c6920098d12e1e6cdd6d62e357d319a1da855fc070f71641",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-21_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-21_Night.Native.json.zst",
+        "sha256": "021f6c6f1cb9cf0759ec1fe85a5d7b6dad73fc2c1404a5aa7c5833d6b0e4a27d",
+        "bytes": 240347
+      },
+      "restored_gzip_sha256": "a32e2fabadc2c4485aa2bb4a7b7c26e92683ea1e0acad7da690c2f67ce6b63d3",
+      "restored_gzip_bytes": 537793,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.005396499997004867,
+        "zstd_compress": 0.02336289999948349,
+        "zstd_decompress_saved": 0.00843429999804357,
+        "Go_gzip_restore": 0.26656690000527306
+      }
+    },
+    {
+      "session": "2026-10-22_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz",
+        "sha256": "3301729b0bffb9fa0a07b87c8f9ecd3725e825bead3c716e611f07afa62b8ee9"
+      },
+      "source_gzip_bytes": 307257,
+      "json_bytes": 4582702,
+      "json_sha256": "b0a5c01ac20d141c0969c6d0d2c89ddac948bd107d554d9536258e8a00abbd32",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-22_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-22_Day.Native.json.zst",
+        "sha256": "b209dbe8bda956646a84cba4e6f719a1ba9de1329cf776f202e20d5a95b219be",
+        "bytes": 164004
+      },
+      "restored_gzip_sha256": "3301729b0bffb9fa0a07b87c8f9ecd3725e825bead3c716e611f07afa62b8ee9",
+      "restored_gzip_bytes": 307257,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.003467999995336868,
+        "zstd_compress": 0.010550899998634122,
+        "zstd_decompress_saved": 0.004896400001598522,
+        "Go_gzip_restore": 0.1278450999961933
+      }
+    },
+    {
+      "session": "2026-10-22_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz",
+        "sha256": "f7650b91f26a82409b794440339a02e058c2331736cea2bf43bb455f68f1aa61"
+      },
+      "source_gzip_bytes": 518082,
+      "json_bytes": 8244955,
+      "json_sha256": "291a6781dc1adf92ba3a8980b4391217d0820581bc725904fe1ddbbdc95925d8",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-22_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-22_Night.Native.json.zst",
+        "sha256": "aaf444faabd72c7709c61ad75baf1e77ba6409197a9bbac56e4a3316830b81a1",
+        "bytes": 254875
+      },
+      "restored_gzip_sha256": "f7650b91f26a82409b794440339a02e058c2331736cea2bf43bb455f68f1aa61",
+      "restored_gzip_bytes": 518082,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0057006999995792285,
+        "zstd_compress": 0.031538700000965036,
+        "zstd_decompress_saved": 0.007682400006160606,
+        "Go_gzip_restore": 0.16948889999912353
+      }
+    },
+    {
+      "session": "2026-10-23_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz",
+        "sha256": "4c9eb429b23a31937f7c1e09f9d31cd34655e55a9da9f10855be892b0759d102"
+      },
+      "source_gzip_bytes": 932833,
+      "json_bytes": 17008349,
+      "json_sha256": "da4d4e09b8b58f4eaa8cc2ef2bdb2859cda40c534ef51b554986c61751d1b81e",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-23_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-23_Day.Native.json.zst",
+        "sha256": "66bcb9078007d8ef498dfc182f2a30abbfe881f639129f1f85bd64b2dee4f2c3",
+        "bytes": 272352
+      },
+      "restored_gzip_sha256": "4c9eb429b23a31937f7c1e09f9d31cd34655e55a9da9f10855be892b0759d102",
+      "restored_gzip_bytes": 932833,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.010800900003232528,
+        "zstd_compress": 0.04698849999840604,
+        "zstd_decompress_saved": 0.015382899997348431,
+        "Go_gzip_restore": 0.31075979999877745
+      }
+    },
+    {
+      "session": "2026-10-23_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz",
+        "sha256": "ec539863aa5d17773af6f5765200b324599dd5158404d65f783fd89ef886c3cd"
+      },
+      "source_gzip_bytes": 893120,
+      "json_bytes": 15939367,
+      "json_sha256": "cbe2043eba64a111c90be7b763df4e00b52dd59f8683778bec8b8ce12692cb05",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-23_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-23_Night.Native.json.zst",
+        "sha256": "12cfba4f55dcd557f6e21f126b4a5fda50e2c491e7b5a4be8762ecd3b354f597",
+        "bytes": 322507
+      },
+      "restored_gzip_sha256": "ec539863aa5d17773af6f5765200b324599dd5158404d65f783fd89ef886c3cd",
+      "restored_gzip_bytes": 893120,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.009138699999311939,
+        "zstd_compress": 0.03759810000337893,
+        "zstd_decompress_saved": 0.014820199998212047,
+        "Go_gzip_restore": 0.3139168999987305
+      }
+    },
+    {
+      "session": "2026-10-26_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz",
+        "sha256": "586115ccaa5bd6689dbb804adf3e54f7f3966d4279031d6a7547caca01b994bc"
+      },
+      "source_gzip_bytes": 452136,
+      "json_bytes": 7593801,
+      "json_sha256": "0dfbc7a1852b367444e951655a47d3cb7e9f36eb0c18b3e47fa0e620f61e4cf8",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-26_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-26_Day.Native.json.zst",
+        "sha256": "8154371abb3916e446521830f6144377a63bf6fcaf24c1536f1efccf24de0c72",
+        "bytes": 189321
+      },
+      "restored_gzip_sha256": "586115ccaa5bd6689dbb804adf3e54f7f3966d4279031d6a7547caca01b994bc",
+      "restored_gzip_bytes": 452136,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004128399996261578,
+        "zstd_compress": 0.016174700002011377,
+        "zstd_decompress_saved": 0.0050638999964576215,
+        "Go_gzip_restore": 0.23691040000267094
+      }
+    },
+    {
+      "session": "2026-10-26_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz",
+        "sha256": "d1d528eb4f4fae09166f9f304baa2e480740911a2dcaad6e33e65417a2264ede"
+      },
+      "source_gzip_bytes": 935669,
+      "json_bytes": 16901492,
+      "json_sha256": "99ba1f435c6a60f8437270076768a63698de0f38ab24ae9c828b0469a79f32e1",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-26_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-26_Night.Native.json.zst",
+        "sha256": "914e7199fb5bfb742eceb91f67c2b1c8ba58a5f6f0a429515ad8406a1cc36843",
+        "bytes": 324923
+      },
+      "restored_gzip_sha256": "d1d528eb4f4fae09166f9f304baa2e480740911a2dcaad6e33e65417a2264ede",
+      "restored_gzip_bytes": 935669,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0087370999972336,
+        "zstd_compress": 0.03911979999975301,
+        "zstd_decompress_saved": 0.012777899995853659,
+        "Go_gzip_restore": 0.29591829999844776
+      }
+    },
+    {
+      "session": "2026-10-27_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz",
+        "sha256": "095d34f35aab87fb944cc89f5aae750e754b7c9a46ef1fa441d819cf95b91229"
+      },
+      "source_gzip_bytes": 1039318,
+      "json_bytes": 18607820,
+      "json_sha256": "b04f514866f4d75be1881ef07514137efa9ae56626e25e40a4b5db9d4be4f159",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-27_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-27_Day.Native.json.zst",
+        "sha256": "1994b1cb874fc2218483150e2906e54becb8935dcea652839793bd977c9de48c",
+        "bytes": 276375
+      },
+      "restored_gzip_sha256": "095d34f35aab87fb944cc89f5aae750e754b7c9a46ef1fa441d819cf95b91229",
+      "restored_gzip_bytes": 1039318,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.01092169999901671,
+        "zstd_compress": 0.029809499996190425,
+        "zstd_decompress_saved": 0.014414700002816971,
+        "Go_gzip_restore": 0.31804760000522947
+      }
+    },
+    {
+      "session": "2026-10-27_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz",
+        "sha256": "347ff884a992d99f01c9b7bc37af50baa668a7c3b90d3efd2ae84969a54b34cc"
+      },
+      "source_gzip_bytes": 403041,
+      "json_bytes": 6721580,
+      "json_sha256": "01dfa878c0e46c2d3a1f5534e731237d1b6f5c803a3eaf0a858e928382e658bd",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-27_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-27_Night.Native.json.zst",
+        "sha256": "54de2e06f4e0693dc1a33c6616228806a421c35f2a1092d84abd4d32d0b1a22a",
+        "bytes": 207482
+      },
+      "restored_gzip_sha256": "347ff884a992d99f01c9b7bc37af50baa668a7c3b90d3efd2ae84969a54b34cc",
+      "restored_gzip_bytes": 403041,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.003983499998867046,
+        "zstd_compress": 0.017281799999182113,
+        "zstd_decompress_saved": 0.005227099994954187,
+        "Go_gzip_restore": 0.235867600000347
+      }
+    },
+    {
+      "session": "2026-10-28_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-28_Day\\2026-10-28_Day.Native.json.gz",
+        "sha256": "65f87a4da516f12164aa117d4cdd9b7300c96d26fcb913ec87f5cda05829dd55"
+      },
+      "source_gzip_bytes": 568787,
+      "json_bytes": 9556226,
+      "json_sha256": "cb6db217d6f97e2b78ed5ab4f02f75252f2f0fa45cb7cb978c9eabd06abf20f1",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-28_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-28_Day.Native.json.zst",
+        "sha256": "b0daaac848b0a559beb8e6086e35340c9c4e75e72dca90c948323a5c39b8a801",
+        "bytes": 205365
+      },
+      "restored_gzip_sha256": "65f87a4da516f12164aa117d4cdd9b7300c96d26fcb913ec87f5cda05829dd55",
+      "restored_gzip_bytes": 568787,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.004849999997531995,
+        "zstd_compress": 0.01711570000043139,
+        "zstd_decompress_saved": 0.007729999997536652,
+        "Go_gzip_restore": 0.1547733999977936
+      }
+    },
+    {
+      "session": "2026-10-28_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-28_Night\\2026-10-28_Night.Native.json.gz",
+        "sha256": "a3ec1307432a4483adc8f1bc466e756b2b314bfb8d4301d770b7caa9f018a547"
+      },
+      "source_gzip_bytes": 1162783,
+      "json_bytes": 21548559,
+      "json_sha256": "cab9ebc34a560c5c1d18bb457f694f7d434cd3d63fcdb32ec4c9f88da0ae629e",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-28_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-28_Night.Native.json.zst",
+        "sha256": "c8062a6380b1a602ac0d1d6b4061bda7e79e6e85ea51b58154fe4a20bd0ce9ad",
+        "bytes": 374634
+      },
+      "restored_gzip_sha256": "a3ec1307432a4483adc8f1bc466e756b2b314bfb8d4301d770b7caa9f018a547",
+      "restored_gzip_bytes": 1162783,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.011753200000384822,
+        "zstd_compress": 0.04976609999721404,
+        "zstd_decompress_saved": 0.015044500003568828,
+        "Go_gzip_restore": 0.34937940000236267
+      }
+    },
+    {
+      "session": "2026-10-29_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-29_Day\\2026-10-29_Day.Native.json.gz",
+        "sha256": "0ddf1d2d42e5ca8300bac5e1e8cf5a46fe90d66d1e4a60ce74c1d8aa6b03deae"
+      },
+      "source_gzip_bytes": 757448,
+      "json_bytes": 13360268,
+      "json_sha256": "95eb1c8ec98e16d2f514eb061ba7484636febf87333aaba6e2f0b18db5d07e39",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-29_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-29_Day.Native.json.zst",
+        "sha256": "e89ef6a7639becccab861826be11107de4e9f657b23201c14a0a899d0086a378",
+        "bytes": 239739
+      },
+      "restored_gzip_sha256": "0ddf1d2d42e5ca8300bac5e1e8cf5a46fe90d66d1e4a60ce74c1d8aa6b03deae",
+      "restored_gzip_bytes": 757448,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.007155100000090897,
+        "zstd_compress": 0.03580849999707425,
+        "zstd_decompress_saved": 0.010279200003424194,
+        "Go_gzip_restore": 0.29383940000116127
+      }
+    },
+    {
+      "session": "2026-10-29_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-29_Night\\2026-10-29_Night.Native.json.gz",
+        "sha256": "0786793110efe256d3bee95bcc20eebfe5fae2f5f2a558841555975865477e2f"
+      },
+      "source_gzip_bytes": 958641,
+      "json_bytes": 17729751,
+      "json_sha256": "6a66240706a6d2542496d9fd39338ebd46f4510e052c4168dfda4f196d442040",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-29_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-29_Night.Native.json.zst",
+        "sha256": "1fe7e2437297bc819570b5a6f3fd7c2dde72aaf271d2ed6743ed2f5dadbf1d1f",
+        "bytes": 333022
+      },
+      "restored_gzip_sha256": "0786793110efe256d3bee95bcc20eebfe5fae2f5f2a558841555975865477e2f",
+      "restored_gzip_bytes": 958641,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.01107610000326531,
+        "zstd_compress": 0.05478199999924982,
+        "zstd_decompress_saved": 0.016436099998827558,
+        "Go_gzip_restore": 0.32226749999972526
+      }
+    },
+    {
+      "session": "2026-10-30_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-30_Day\\2026-10-30_Day.Native.json.gz",
+        "sha256": "4dd9c63fecc15f90841abe9dc466d17a72064ddada9f6d74efa3c3624bdc760c"
+      },
+      "source_gzip_bytes": 788835,
+      "json_bytes": 14050667,
+      "json_sha256": "cfc59e183ad9a568ee56666fa8b024764bb314acf8cbccc374f4c4b912ed813d",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-30_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-30_Day.Native.json.zst",
+        "sha256": "c2915ce4f7bada0a3e286ccddb3fe0f87ed71edd3f0ec2a867532966a8aad0e1",
+        "bytes": 248379
+      },
+      "restored_gzip_sha256": "4dd9c63fecc15f90841abe9dc466d17a72064ddada9f6d74efa3c3624bdc760c",
+      "restored_gzip_bytes": 788835,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.009412100000190549,
+        "zstd_compress": 0.03983419999713078,
+        "zstd_decompress_saved": 0.017269100004341453,
+        "Go_gzip_restore": 0.2939085999969393
+      }
+    },
+    {
+      "session": "2026-10-30_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-10-30_Night\\2026-10-30_Night.Native.json.gz",
+        "sha256": "2ac2b6a97be6f270c99f9cdf5f2c33314cba2b268748d6dd1bed57bd31d9f5d3"
+      },
+      "source_gzip_bytes": 1241448,
+      "json_bytes": 23102084,
+      "json_sha256": "69e0db22033a822542e137642889846c8ae73d896a1b84d0040b0fe6290666ba",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-10-30_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-10-30_Night.Native.json.zst",
+        "sha256": "af8e6881af0725aed3938cc24ef75b2faf481c85c791f3f2992f6a4690ede774",
+        "bytes": 410877
+      },
+      "restored_gzip_sha256": "2ac2b6a97be6f270c99f9cdf5f2c33314cba2b268748d6dd1bed57bd31d9f5d3",
+      "restored_gzip_bytes": 1241448,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.01298799999494804,
+        "zstd_compress": 0.05394289999821922,
+        "zstd_decompress_saved": 0.01695579999795882,
+        "Go_gzip_restore": 0.34890879999875324
+      }
+    },
+    {
+      "session": "2026-11-02_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-02_Day\\2026-11-02_Day.Native.json.gz",
+        "sha256": "b7e6f79528d3e57def940904250257b59580d053d6abd442e79fd0905664c6d7"
+      },
+      "source_gzip_bytes": 767948,
+      "json_bytes": 13685042,
+      "json_sha256": "ca18ce3ecac6a185223bd6ef8b8db9fd79627efc1f741b39d85f86efce4c352f",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-02_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-02_Day.Native.json.zst",
+        "sha256": "a53cfcc268a06d1bb1c63ae71f0f8c033e223dbc303079fb063cfb71078d18c5",
+        "bytes": 239798
+      },
+      "restored_gzip_sha256": "b7e6f79528d3e57def940904250257b59580d053d6abd442e79fd0905664c6d7",
+      "restored_gzip_bytes": 767948,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.007095000000845175,
+        "zstd_compress": 0.030418900001677684,
+        "zstd_decompress_saved": 0.010683300002710894,
+        "Go_gzip_restore": 0.2960414999979548
+      }
+    },
+    {
+      "session": "2026-11-02_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-02_Night\\2026-11-02_Night.Native.json.gz",
+        "sha256": "afb0bc2c26692bbef7284d634cf18f8f6286a5949868497303ee0f2de0c9953e"
+      },
+      "source_gzip_bytes": 1025055,
+      "json_bytes": 18960992,
+      "json_sha256": "940d76b7a545fea6cd6b299bc4c06320a2a0c2dd52b4fdc96e812ab203c7bbb8",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-02_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-02_Night.Native.json.zst",
+        "sha256": "2af3144717d77597753632c5281a41ebd14814c4aa3ecea6cf25d31f14770c42",
+        "bytes": 339147
+      },
+      "restored_gzip_sha256": "afb0bc2c26692bbef7284d634cf18f8f6286a5949868497303ee0f2de0c9953e",
+      "restored_gzip_bytes": 1025055,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.010817399997904431,
+        "zstd_compress": 0.05643710000003921,
+        "zstd_decompress_saved": 0.01589339999918593,
+        "Go_gzip_restore": 0.2263632000031066
+      }
+    },
+    {
+      "session": "2026-11-03_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-03_Day\\2026-11-03_Day.Native.json.gz",
+        "sha256": "9e2bbd27bb185f3538a4f984bf50d6ec3db91b836bdab03b7d9b2472afca0730"
+      },
+      "source_gzip_bytes": 273598,
+      "json_bytes": 4189733,
+      "json_sha256": "cadf0317bf61d5a3cc1ef200092b94551c5b60720e08cd13ad9b8f0311cbc969",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-03_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-03_Day.Native.json.zst",
+        "sha256": "8a3b1961fdff80238eea84f6c19b60a25d9fe1e98f628127da287443de1c7ccc",
+        "bytes": 141174
+      },
+      "restored_gzip_sha256": "9e2bbd27bb185f3538a4f984bf50d6ec3db91b836bdab03b7d9b2472afca0730",
+      "restored_gzip_bytes": 273598,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.00257689999853028,
+        "zstd_compress": 0.01501779999671271,
+        "zstd_decompress_saved": 0.0044866000025649555,
+        "Go_gzip_restore": 0.2156669000032707
+      }
+    },
+    {
+      "session": "2026-11-03_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-03_Night\\2026-11-03_Night.Native.json.gz",
+        "sha256": "27c8f57a78147a842360b0373e1e79bafd953b64929c62c30c1db9563c6de7e9"
+      },
+      "source_gzip_bytes": 249893,
+      "json_bytes": 3950953,
+      "json_sha256": "3546adc3542eea9b9959353c2018b12a69e764c5861bcbe0024cd42c8b299989",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-03_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-03_Night.Native.json.zst",
+        "sha256": "d5c7478fa7387ba2a5da1dab573db5e7d7c9ff3fc47eba9f289a38b504ee60b4",
+        "bytes": 192399
+      },
+      "restored_gzip_sha256": "27c8f57a78147a842360b0373e1e79bafd953b64929c62c30c1db9563c6de7e9",
+      "restored_gzip_bytes": 249893,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0025433000046177767,
+        "zstd_compress": 0.011326600004395004,
+        "zstd_decompress_saved": 0.0031686000002082437,
+        "Go_gzip_restore": 0.1100531999982195
+      }
+    },
+    {
+      "session": "2026-11-04_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-04_Day\\2026-11-04_Day.Native.json.gz",
+        "sha256": "d5a2a94f6e3a0aec1cf2c8eda3dee4b8d0e1e499f63b917c79e581bcc71fbb1a"
+      },
+      "source_gzip_bytes": 800104,
+      "json_bytes": 13918852,
+      "json_sha256": "2ec54bcd5a247c0666978f24cf73d332b28ad22ab2216d3ce97814e8d0251a8c",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-04_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-04_Day.Native.json.zst",
+        "sha256": "d59272efa32008d982aaa9185a5005c5b1bf4c7ae52636c7a320520b675af935",
+        "bytes": 246387
+      },
+      "restored_gzip_sha256": "d5a2a94f6e3a0aec1cf2c8eda3dee4b8d0e1e499f63b917c79e581bcc71fbb1a",
+      "restored_gzip_bytes": 800104,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.008585600000515115,
+        "zstd_compress": 0.039368899997498374,
+        "zstd_decompress_saved": 0.011157600005390123,
+        "Go_gzip_restore": 0.30731769999692915
+      }
+    },
+    {
+      "session": "2026-11-04_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-04_Night\\2026-11-04_Night.Native.json.gz",
+        "sha256": "5e560ec360fcfca093712b342a028e034be7d529d2d288aec06a732f54d17c2a"
+      },
+      "source_gzip_bytes": 575175,
+      "json_bytes": 9688691,
+      "json_sha256": "ea4bf71583c9fca3c13073e1960426abfe858d8cf11ae5d55712e2aa0ccf8bb1",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-04_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-04_Night.Native.json.zst",
+        "sha256": "ed03ae68bfaacaf968d1c73a63214c01ecd5535b85a42d81be47e1a32a7ed342",
+        "bytes": 284467
+      },
+      "restored_gzip_sha256": "5e560ec360fcfca093712b342a028e034be7d529d2d288aec06a732f54d17c2a",
+      "restored_gzip_bytes": 575175,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.0056801000027917325,
+        "zstd_compress": 0.031323300005169585,
+        "zstd_decompress_saved": 0.008242000003519934,
+        "Go_gzip_restore": 0.26244690000021365
+      }
+    },
+    {
+      "session": "2026-11-05_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-05_Day\\2026-11-05_Day.Native.json.gz",
+        "sha256": "b1e14edd7a3b683de3fb20c334eb229956b3ae2ebcf2401d88e83725913c5fbb"
+      },
+      "source_gzip_bytes": 721386,
+      "json_bytes": 12376121,
+      "json_sha256": "b5531964109ecdd788a8aa2c640dbc2bbce15174eb9d38b057ffb57ab46f0843",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-05_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-05_Day.Native.json.zst",
+        "sha256": "9b1ed3e05d2d9f0f08969e465eba990ffe07526ab9c93f1babaec8a5ff72eb81",
+        "bytes": 229625
+      },
+      "restored_gzip_sha256": "b1e14edd7a3b683de3fb20c334eb229956b3ae2ebcf2401d88e83725913c5fbb",
+      "restored_gzip_bytes": 721386,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.006697500000882428,
+        "zstd_compress": 0.03371820000029402,
+        "zstd_decompress_saved": 0.010402399995655287,
+        "Go_gzip_restore": 0.1724104000022635
+      }
+    },
+    {
+      "session": "2026-11-05_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-05_Night\\2026-11-05_Night.Native.json.gz",
+        "sha256": "ba758e1f53bd0713e0f2977c3d57352078c9f340dd52e0deeb653306b16b901b"
+      },
+      "source_gzip_bytes": 1380045,
+      "json_bytes": 25669443,
+      "json_sha256": "8b87b2edefe5bfc29e9717ba3ad7baf39b2c66c66fdeb30772489ae6102984b6",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-05_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-05_Night.Native.json.zst",
+        "sha256": "1a9f677d5f3e24e0ac5bbd8a3e0574b0417b78eb8891634404d9c0537c289f45",
+        "bytes": 446278
+      },
+      "restored_gzip_sha256": "ba758e1f53bd0713e0f2977c3d57352078c9f340dd52e0deeb653306b16b901b",
+      "restored_gzip_bytes": 1380045,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.015583699998387601,
+        "zstd_compress": 0.07980049999605399,
+        "zstd_decompress_saved": 0.024936499998148065,
+        "Go_gzip_restore": 0.3820027999972808
+      }
+    },
+    {
+      "session": "2026-11-06_Day",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz",
+        "sha256": "01ea948467ab4be3b76fefb9ea8aec4c8a6ce0a0819ca957e9eb9c8ab8abe5c3"
+      },
+      "source_gzip_bytes": 1189627,
+      "json_bytes": 22479426,
+      "json_sha256": "28474a32b2bd145f4e2e829562ab5f28a9271e827b8a19370cba1e121ae536e6",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-06_Day.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-06_Day.Native.json.zst",
+        "sha256": "f8dd804b78d0d568c6df3a43fc8ba91e86d83457d01d834e58dd0ad729ebe971",
+        "bytes": 320216
+      },
+      "restored_gzip_sha256": "01ea948467ab4be3b76fefb9ea8aec4c8a6ce0a0819ca957e9eb9c8ab8abe5c3",
+      "restored_gzip_bytes": 1189627,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.012360400003672112,
+        "zstd_compress": 0.04968479999661213,
+        "zstd_decompress_saved": 0.018060499998682644,
+        "Go_gzip_restore": 0.35106899999664165
+      }
+    },
+    {
+      "session": "2026-11-06_Night",
+      "source_original_gzip": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\worker\\2026-11-06_Night\\2026-11-06_Night.Native.json.gz",
+        "sha256": "db21ab5e8bde00dd8eed8fc26f6e5b47d6207decde7d044871e8d5cac93f2101"
+      },
+      "source_gzip_bytes": 1629196,
+      "json_bytes": 31926873,
+      "json_sha256": "03758aed13183beb373fd5d596205ab94b615783f05a62e9b0efdee8ee688383",
+      "stored_format": "zstd_of_exact_json_bytes",
+      "stored_relative": "Native_zstd/2026-11-06_Night.Native.json.zst",
+      "stored_zstd": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\全70場_Root保存\\Native_zstd\\2026-11-06_Night.Native.json.zst",
+        "sha256": "286558a1d0dd4a9c93a404fa8508092035969ad9abbef752578174685d1a8473",
+        "bytes": 484708
+      },
+      "restored_gzip_sha256": "db21ab5e8bde00dd8eed8fc26f6e5b47d6207decde7d044871e8d5cac93f2101",
+      "restored_gzip_bytes": 1629196,
+      "restored_json_all_bytes_equal": true,
+      "restored_gzip_all_bytes_equal": true,
+      "gzip_decompressions_of_source": 1,
+      "source_file_reads": 1,
+      "seconds": {
+        "gzip_decompress": 0.01569480000034673,
+        "zstd_compress": 0.09298529999796301,
+        "zstd_decompress_saved": 0.023712100002740044,
+        "Go_gzip_restore": 0.39894140000251355
+      }
+    }
+  ],
+  "total_source_gzip_bytes": 45439595,
+  "total_stored_zstd_bytes": 16934635,
+  "all_json_bytes_equal": true,
+  "all_original_gzip_bytes_equal": true,
+  "通常Native.json.gzのcatalog作成": false,
+  "元Native削除/上書き": false,
+  "金融計算/JSON意味解析": false,
+  "Raw/CSV/11月09読取": false,
+  "入力codeSHA256前": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\Native可逆保存のRoot要求_作業先.json": "b1028f41028d0b58f1df23a9cc7b6983b5a91c4c691afbd01b8567361ae81459",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\停止.json": "b2e7a0e9cce67364b6fd4fdf92d4c9c6550836a5ffb6115b6eba33a577aeff3a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\保管する.py": "a99fbd9a97605b691a851ca1209701c716942c67a3c519af2ad4f074319065fc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\人工検査.py": "ecae8ce96c39d23fb3c74b1b3c1d36c6b9a07586383dc220f03119b0c8837346",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\gzipを再現する.go": "21f1ba26ff4afd4eba42d01156b6d4b70a92854f81858456ff78ffbbd01e6656",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\gzipを再現する.exe": "a06c854ce4bfe6db22a3329e28a571a56454dfaaf11c90af1e33efc9a4e12c9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\README.md": "3678f8a9af308d23a9ddd2edda289d9a2c3d177552bc6fac235a9b62c3c7a9c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\検査して停止する.py": "78ac63881464133a05641e87025bb3d8e2283930b9e49f3619d66b3048cab928",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\F1_117金融条件.json": "522fe2343b914243fadc4f48d32128a79ecdafcabd84d5a58b5ca399af90d1b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\完了.json": "f9d5dfc49bef7f9b2dcf6bba55fe264b689dc2e8312e0e26c4530e4b1d2872e0"
+  },
+  "入力codeSHA256後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\Native可逆保存のRoot要求_作業先.json": "b1028f41028d0b58f1df23a9cc7b6983b5a91c4c691afbd01b8567361ae81459",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\停止.json": "b2e7a0e9cce67364b6fd4fdf92d4c9c6550836a5ffb6115b6eba33a577aeff3a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\保管する.py": "a99fbd9a97605b691a851ca1209701c716942c67a3c519af2ad4f074319065fc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\人工検査.py": "ecae8ce96c39d23fb3c74b1b3c1d36c6b9a07586383dc220f03119b0c8837346",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\gzipを再現する.go": "21f1ba26ff4afd4eba42d01156b6d4b70a92854f81858456ff78ffbbd01e6656",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\gzipを再現する.exe": "a06c854ce4bfe6db22a3329e28a571a56454dfaaf11c90af1e33efc9a4e12c9c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\README.md": "3678f8a9af308d23a9ddd2edda289d9a2c3d177552bc6fac235a9b62c3c7a9c8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117Nativeを可逆圧縮して保管する\\検査して停止する.py": "78ac63881464133a05641e87025bb3d8e2283930b9e49f3619d66b3048cab928",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\F1_117金融条件.json": "522fe2343b914243fadc4f48d32128a79ecdafcabd84d5a58b5ca399af90d1b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\完了.json": "f9d5dfc49bef7f9b2dcf6bba55fe264b689dc2e8312e0e26c4530e4b1d2872e0"
+  },
+  "前後不変": true
+}

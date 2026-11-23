@@ -1,0 +1,1148 @@
+{
+  "試行": 119,
+  "成功": true,
+  "場数": 70,
+  "出生数": 345,
+  "候補数": 1035,
+  "イベント件数": {
+    "zone": 345,
+    "expire": 225,
+    "invalidate": 61,
+    "confirm": 49
+  },
+  "検査件数": {
+    "保存気配": 7172,
+    "公表参照": 3366,
+    "技術保存票": 1122,
+    "イベント": 680,
+    "完了期限算術": 665,
+    "先着幾何": 3382,
+    "打切りnil": 133,
+    "取得証拠": 399,
+    "未約定nil": 636,
+    "指値通過": 35,
+    "新規不可候補": 3,
+    "期限同秒後行": 1,
+    "厳密照合": 116374,
+    "平均率中央値": 6339,
+    "参考区間": 1647,
+    "全体の幅期限条件数": 60,
+    "全体の到達済み70%以上数": 0,
+    "全体の全完了70%以上数": 0,
+    "候補別集計行数": 12,
+    "幅別先着率行数": 60,
+    "全候補明細行数": 2070,
+    "全70場集計行数": 840
+  },
+  "候補別の新規不可出生数": {
+    "Ttrend_zone": 0,
+    "Ttrend_confirm": 0,
+    "Ttrend_retest": 0,
+    "Treversal_zone": 1,
+    "Treversal_confirm": 1,
+    "Treversal_retest": 1
+  },
+  "集計": {
+    "Ttrend_zone": {
+      "1800": {
+        "births": 285,
+        "eligible_births": 285,
+        "requested": 285,
+        "filled": 262,
+        "complete": 220,
+        "censored": 42,
+        "filled_sessions": 56,
+        "complete_sessions": 55,
+        "states": {
+          "filled": 262,
+          "unfilled_expired": 23
+        },
+        "observations": {
+          "complete": 220,
+          "endpoint_missing": 30,
+          "gap_censored": 4,
+          "eof_censored": 8
+        },
+        "touches": {
+          "25": {
+            "favorable": 53,
+            "adverse": 167,
+            "neither": 0,
+            "resolved": 220,
+            "resolved_rate": 0.2409090909090909,
+            "all_complete_favorable_rate": 0.2409090909090909,
+            "reference_binomial_lower95": 0.1891582462925665,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 70,
+            "adverse": 149,
+            "neither": 1,
+            "resolved": 219,
+            "resolved_rate": 0.319634703196347,
+            "all_complete_favorable_rate": 0.3181818181818182,
+            "reference_binomial_lower95": 0.26143731411596005,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 65,
+            "adverse": 122,
+            "neither": 33,
+            "resolved": 187,
+            "resolved_rate": 0.34759358288770054,
+            "all_complete_favorable_rate": 0.29545454545454547,
+            "reference_binomial_lower95": 0.2830291110567973,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 62,
+            "adverse": 104,
+            "neither": 54,
+            "resolved": 166,
+            "resolved_rate": 0.37349397590361444,
+            "all_complete_favorable_rate": 0.2818181818181818,
+            "reference_binomial_lower95": 0.30354942214331754,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 36,
+            "adverse": 57,
+            "neither": 127,
+            "resolved": 93,
+            "resolved_rate": 0.3870967741935484,
+            "all_complete_favorable_rate": 0.16363636363636364,
+            "reference_binomial_lower95": 0.29446055347923916,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -2208.818181818182,
+        "mean_net5": -3208.818181818182,
+        "median_net5": -2577.0,
+        "positive_net5": 89,
+        "negative_net5": 131,
+        "pairs": 220,
+        "paired_zone_mean_net5": -3208.818181818182,
+        "paired_candidate_mean_net5": -3208.818181818182,
+        "paired_mean_delta": 0.0,
+        "paired_mean_price_improvement": 0.0
+      },
+      "3600": {
+        "births": 285,
+        "eligible_births": 285,
+        "requested": 285,
+        "filled": 262,
+        "complete": 210,
+        "censored": 52,
+        "filled_sessions": 56,
+        "complete_sessions": 54,
+        "states": {
+          "filled": 262,
+          "unfilled_expired": 23
+        },
+        "observations": {
+          "endpoint_missing": 27,
+          "complete": 210,
+          "gap_censored": 6,
+          "eof_censored": 19
+        },
+        "touches": {
+          "25": {
+            "favorable": 50,
+            "adverse": 160,
+            "neither": 0,
+            "resolved": 210,
+            "resolved_rate": 0.23809523809523808,
+            "all_complete_favorable_rate": 0.23809523809523808,
+            "reference_binomial_lower95": 0.18552078831917168,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 69,
+            "adverse": 141,
+            "neither": 0,
+            "resolved": 210,
+            "resolved_rate": 0.32857142857142857,
+            "all_complete_favorable_rate": 0.32857142857142857,
+            "reference_binomial_lower95": 0.2686226277538769,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 80,
+            "adverse": 125,
+            "neither": 5,
+            "resolved": 205,
+            "resolved_rate": 0.3902439024390244,
+            "all_complete_favorable_rate": 0.38095238095238093,
+            "reference_binomial_lower95": 0.32607344135108274,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 79,
+            "adverse": 112,
+            "neither": 19,
+            "resolved": 191,
+            "resolved_rate": 0.41361256544502617,
+            "all_complete_favorable_rate": 0.3761904761904762,
+            "reference_binomial_lower95": 0.34614409030690474,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 62,
+            "adverse": 67,
+            "neither": 81,
+            "resolved": 129,
+            "resolved_rate": 0.4806201550387597,
+            "all_complete_favorable_rate": 0.29523809523809524,
+            "reference_binomial_lower95": 0.39621670979661344,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -391.2857142857143,
+        "mean_net5": -1391.2857142857142,
+        "median_net5": -1077.0,
+        "positive_net5": 99,
+        "negative_net5": 111,
+        "pairs": 210,
+        "paired_zone_mean_net5": -1391.2857142857142,
+        "paired_candidate_mean_net5": -1391.2857142857142,
+        "paired_mean_delta": 0.0,
+        "paired_mean_price_improvement": 0.0
+      }
+    },
+    "Ttrend_confirm": {
+      "1800": {
+        "births": 285,
+        "eligible_births": 285,
+        "requested": 38,
+        "filled": 34,
+        "complete": 27,
+        "censored": 7,
+        "filled_sessions": 25,
+        "complete_sessions": 21,
+        "states": {
+          "wave_expire": 180,
+          "wave_invalidate": 56,
+          "filled": 34,
+          "unfilled_expired": 4,
+          "force_close": 11
+        },
+        "observations": {
+          "endpoint_missing": 4,
+          "complete": 27,
+          "eof_censored": 3
+        },
+        "touches": {
+          "25": {
+            "favorable": 6,
+            "adverse": 21,
+            "neither": 0,
+            "resolved": 27,
+            "resolved_rate": 0.2222222222222222,
+            "all_complete_favorable_rate": 0.2222222222222222,
+            "reference_binomial_lower95": 0.10607239452360036,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 8,
+            "adverse": 19,
+            "neither": 0,
+            "resolved": 27,
+            "resolved_rate": 0.2962962962962963,
+            "all_complete_favorable_rate": 0.2962962962962963,
+            "reference_binomial_lower95": 0.15853040469779764,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 7,
+            "adverse": 18,
+            "neither": 2,
+            "resolved": 25,
+            "resolved_rate": 0.28,
+            "all_complete_favorable_rate": 0.25925925925925924,
+            "reference_binomial_lower95": 0.14283853850956563,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 7,
+            "adverse": 16,
+            "neither": 4,
+            "resolved": 23,
+            "resolved_rate": 0.30434782608695654,
+            "all_complete_favorable_rate": 0.25925925925925924,
+            "reference_binomial_lower95": 0.15604024453214022,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 2,
+            "adverse": 10,
+            "neither": 15,
+            "resolved": 12,
+            "resolved_rate": 0.16666666666666666,
+            "all_complete_favorable_rate": 0.07407407407407407,
+            "reference_binomial_lower95": 0.04696514218385378,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -4262.185185185185,
+        "mean_net5": -5262.185185185185,
+        "median_net5": -7077.0,
+        "positive_net5": 8,
+        "negative_net5": 19,
+        "pairs": 24,
+        "paired_zone_mean_net5": 2214.6666666666665,
+        "paired_candidate_mean_net5": -4868.666666666667,
+        "paired_mean_delta": -7083.333333333333,
+        "paired_mean_price_improvement": -119.16666666666667
+      },
+      "3600": {
+        "births": 285,
+        "eligible_births": 285,
+        "requested": 38,
+        "filled": 34,
+        "complete": 28,
+        "censored": 6,
+        "filled_sessions": 25,
+        "complete_sessions": 22,
+        "states": {
+          "wave_expire": 180,
+          "wave_invalidate": 56,
+          "filled": 34,
+          "unfilled_expired": 4,
+          "force_close": 11
+        },
+        "observations": {
+          "complete": 28,
+          "endpoint_missing": 2,
+          "eof_censored": 4
+        },
+        "touches": {
+          "25": {
+            "favorable": 7,
+            "adverse": 21,
+            "neither": 0,
+            "resolved": 28,
+            "resolved_rate": 0.25,
+            "all_complete_favorable_rate": 0.25,
+            "reference_binomial_lower95": 0.12676494919293316,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 9,
+            "adverse": 19,
+            "neither": 0,
+            "resolved": 28,
+            "resolved_rate": 0.32142857142857145,
+            "all_complete_favorable_rate": 0.32142857142857145,
+            "reference_binomial_lower95": 0.1793324692249496,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 9,
+            "adverse": 19,
+            "neither": 0,
+            "resolved": 28,
+            "resolved_rate": 0.32142857142857145,
+            "all_complete_favorable_rate": 0.32142857142857145,
+            "reference_binomial_lower95": 0.1793324692249496,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 9,
+            "adverse": 19,
+            "neither": 0,
+            "resolved": 28,
+            "resolved_rate": 0.32142857142857145,
+            "all_complete_favorable_rate": 0.32142857142857145,
+            "reference_binomial_lower95": 0.1793324692249496,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 7,
+            "adverse": 16,
+            "neither": 5,
+            "resolved": 23,
+            "resolved_rate": 0.30434782608695654,
+            "all_complete_favorable_rate": 0.25,
+            "reference_binomial_lower95": 0.15604024453214022,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": 2244.4285714285716,
+        "mean_net5": 1244.4285714285713,
+        "median_net5": -3577.0,
+        "positive_net5": 13,
+        "negative_net5": 15,
+        "pairs": 22,
+        "paired_zone_mean_net5": 9377.545454545454,
+        "paired_candidate_mean_net5": 650.2727272727273,
+        "paired_mean_delta": -8727.272727272728,
+        "paired_mean_price_improvement": -119.54545454545455
+      }
+    },
+    "Ttrend_retest": {
+      "1800": {
+        "births": 285,
+        "eligible_births": 285,
+        "requested": 38,
+        "filled": 28,
+        "complete": 23,
+        "censored": 5,
+        "filled_sessions": 21,
+        "complete_sessions": 16,
+        "states": {
+          "wave_expire": 180,
+          "wave_invalidate": 56,
+          "unfilled_expired": 10,
+          "filled": 28,
+          "force_close": 11
+        },
+        "observations": {
+          "endpoint_missing": 3,
+          "complete": 23,
+          "eof_censored": 2
+        },
+        "touches": {
+          "25": {
+            "favorable": 1,
+            "adverse": 22,
+            "neither": 0,
+            "resolved": 23,
+            "resolved_rate": 0.043478260869565216,
+            "all_complete_favorable_rate": 0.043478260869565216,
+            "reference_binomial_lower95": 0.007716666143453147,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 5,
+            "adverse": 18,
+            "neither": 0,
+            "resolved": 23,
+            "resolved_rate": 0.21739130434782608,
+            "all_complete_favorable_rate": 0.21739130434782608,
+            "reference_binomial_lower95": 0.09663978026586202,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 8,
+            "adverse": 14,
+            "neither": 1,
+            "resolved": 22,
+            "resolved_rate": 0.36363636363636365,
+            "all_complete_favorable_rate": 0.34782608695652173,
+            "reference_binomial_lower95": 0.19733204670366125,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 6,
+            "adverse": 15,
+            "neither": 2,
+            "resolved": 21,
+            "resolved_rate": 0.2857142857142857,
+            "all_complete_favorable_rate": 0.2608695652173913,
+            "reference_binomial_lower95": 0.13813862952122133,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 2,
+            "adverse": 12,
+            "neither": 9,
+            "resolved": 14,
+            "resolved_rate": 0.14285714285714285,
+            "all_complete_favorable_rate": 0.08695652173913043,
+            "reference_binomial_lower95": 0.04009392127146496,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -4816.130434782609,
+        "mean_net5": -5816.130434782609,
+        "median_net5": -4077.0,
+        "positive_net5": 8,
+        "negative_net5": 15,
+        "pairs": 21,
+        "paired_zone_mean_net5": -315.0952380952381,
+        "paired_candidate_mean_net5": -5886.523809523809,
+        "paired_mean_delta": -5571.428571428572,
+        "paired_mean_price_improvement": -106.19047619047619
+      },
+      "3600": {
+        "births": 285,
+        "eligible_births": 285,
+        "requested": 38,
+        "filled": 28,
+        "complete": 22,
+        "censored": 6,
+        "filled_sessions": 21,
+        "complete_sessions": 17,
+        "states": {
+          "wave_expire": 180,
+          "wave_invalidate": 56,
+          "unfilled_expired": 10,
+          "filled": 28,
+          "force_close": 11
+        },
+        "observations": {
+          "complete": 22,
+          "endpoint_missing": 3,
+          "eof_censored": 3
+        },
+        "touches": {
+          "25": {
+            "favorable": 1,
+            "adverse": 21,
+            "neither": 0,
+            "resolved": 22,
+            "resolved_rate": 0.045454545454545456,
+            "all_complete_favorable_rate": 0.045454545454545456,
+            "reference_binomial_lower95": 0.008069427621263845,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 3,
+            "adverse": 19,
+            "neither": 0,
+            "resolved": 22,
+            "resolved_rate": 0.13636363636363635,
+            "all_complete_favorable_rate": 0.13636363636363635,
+            "reference_binomial_lower95": 0.04749003714055253,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 7,
+            "adverse": 15,
+            "neither": 0,
+            "resolved": 22,
+            "resolved_rate": 0.3181818181818182,
+            "all_complete_favorable_rate": 0.3181818181818182,
+            "reference_binomial_lower95": 0.16360593181356242,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 7,
+            "adverse": 15,
+            "neither": 0,
+            "resolved": 22,
+            "resolved_rate": 0.3181818181818182,
+            "all_complete_favorable_rate": 0.3181818181818182,
+            "reference_binomial_lower95": 0.16360593181356242,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 3,
+            "adverse": 14,
+            "neither": 5,
+            "resolved": 17,
+            "resolved_rate": 0.17647058823529413,
+            "all_complete_favorable_rate": 0.13636363636363635,
+            "reference_binomial_lower95": 0.06191126637620998,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -1986.090909090909,
+        "mean_net5": -2986.090909090909,
+        "median_net5": -4077.0,
+        "positive_net5": 9,
+        "negative_net5": 13,
+        "pairs": 19,
+        "paired_zone_mean_net5": 2817.7368421052633,
+        "paired_candidate_mean_net5": -4234.894736842105,
+        "paired_mean_delta": -7052.631578947368,
+        "paired_mean_price_improvement": -103.6842105263158
+      }
+    },
+    "Treversal_zone": {
+      "1800": {
+        "births": 60,
+        "eligible_births": 59,
+        "requested": 59,
+        "filled": 57,
+        "complete": 52,
+        "censored": 5,
+        "filled_sessions": 34,
+        "complete_sessions": 34,
+        "states": {
+          "filled": 57,
+          "unfilled_expired": 1,
+          "force_close": 1,
+          "wave_invalidate": 1
+        },
+        "observations": {
+          "complete": 52,
+          "endpoint_missing": 5
+        },
+        "touches": {
+          "25": {
+            "favorable": 18,
+            "adverse": 34,
+            "neither": 0,
+            "resolved": 52,
+            "resolved_rate": 0.34615384615384615,
+            "all_complete_favorable_rate": 0.34615384615384615,
+            "reference_binomial_lower95": 0.23151007666465911,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 20,
+            "adverse": 32,
+            "neither": 0,
+            "resolved": 52,
+            "resolved_rate": 0.38461538461538464,
+            "all_complete_favorable_rate": 0.38461538461538464,
+            "reference_binomial_lower95": 0.26470463780216213,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 23,
+            "adverse": 26,
+            "neither": 3,
+            "resolved": 49,
+            "resolved_rate": 0.46938775510204084,
+            "all_complete_favorable_rate": 0.4423076923076923,
+            "reference_binomial_lower95": 0.3370350369317515,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 21,
+            "adverse": 20,
+            "neither": 11,
+            "resolved": 41,
+            "resolved_rate": 0.5121951219512195,
+            "all_complete_favorable_rate": 0.40384615384615385,
+            "reference_binomial_lower95": 0.36484508651543807,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 10,
+            "adverse": 13,
+            "neither": 29,
+            "resolved": 23,
+            "resolved_rate": 0.43478260869565216,
+            "all_complete_favorable_rate": 0.19230769230769232,
+            "reference_binomial_lower95": 0.25634635325674215,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -1596.2307692307693,
+        "mean_net5": -2596.230769230769,
+        "median_net5": -1077.0,
+        "positive_net5": 22,
+        "negative_net5": 30,
+        "pairs": 52,
+        "paired_zone_mean_net5": -2596.230769230769,
+        "paired_candidate_mean_net5": -2596.230769230769,
+        "paired_mean_delta": 0.0,
+        "paired_mean_price_improvement": 0.0
+      },
+      "3600": {
+        "births": 60,
+        "eligible_births": 59,
+        "requested": 59,
+        "filled": 57,
+        "complete": 51,
+        "censored": 6,
+        "filled_sessions": 34,
+        "complete_sessions": 31,
+        "states": {
+          "filled": 57,
+          "unfilled_expired": 1,
+          "force_close": 1,
+          "wave_invalidate": 1
+        },
+        "observations": {
+          "complete": 51,
+          "endpoint_missing": 4,
+          "eof_censored": 2
+        },
+        "touches": {
+          "25": {
+            "favorable": 18,
+            "adverse": 33,
+            "neither": 0,
+            "resolved": 51,
+            "resolved_rate": 0.35294117647058826,
+            "all_complete_favorable_rate": 0.35294117647058826,
+            "reference_binomial_lower95": 0.23634488451520852,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 21,
+            "adverse": 30,
+            "neither": 0,
+            "resolved": 51,
+            "resolved_rate": 0.4117647058823529,
+            "all_complete_favorable_rate": 0.4117647058823529,
+            "reference_binomial_lower95": 0.2875439520458094,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 24,
+            "adverse": 25,
+            "neither": 2,
+            "resolved": 49,
+            "resolved_rate": 0.4897959183673469,
+            "all_complete_favorable_rate": 0.47058823529411764,
+            "reference_binomial_lower95": 0.3557511031030578,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 22,
+            "adverse": 25,
+            "neither": 4,
+            "resolved": 47,
+            "resolved_rate": 0.46808510638297873,
+            "all_complete_favorable_rate": 0.43137254901960786,
+            "reference_binomial_lower95": 0.3333168707656074,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 17,
+            "adverse": 20,
+            "neither": 14,
+            "resolved": 37,
+            "resolved_rate": 0.4594594594594595,
+            "all_complete_favorable_rate": 0.3333333333333333,
+            "reference_binomial_lower95": 0.3103856980437303,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -4292.686274509804,
+        "mean_net5": -5292.686274509804,
+        "median_net5": -3077.0,
+        "positive_net5": 22,
+        "negative_net5": 29,
+        "pairs": 51,
+        "paired_zone_mean_net5": -5292.686274509804,
+        "paired_candidate_mean_net5": -5292.686274509804,
+        "paired_mean_delta": 0.0,
+        "paired_mean_price_improvement": 0.0
+      }
+    },
+    "Treversal_confirm": {
+      "1800": {
+        "births": 60,
+        "eligible_births": 59,
+        "requested": 11,
+        "filled": 11,
+        "complete": 10,
+        "censored": 1,
+        "filled_sessions": 8,
+        "complete_sessions": 8,
+        "states": {
+          "wave_expire": 43,
+          "filled": 11,
+          "wave_invalidate": 5,
+          "force_close": 1
+        },
+        "observations": {
+          "complete": 10,
+          "eof_censored": 1
+        },
+        "touches": {
+          "25": {
+            "favorable": 4,
+            "adverse": 6,
+            "neither": 0,
+            "resolved": 10,
+            "resolved_rate": 0.4,
+            "all_complete_favorable_rate": 0.4,
+            "reference_binomial_lower95": 0.16818032970623617,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 4,
+            "adverse": 6,
+            "neither": 0,
+            "resolved": 10,
+            "resolved_rate": 0.4,
+            "all_complete_favorable_rate": 0.4,
+            "reference_binomial_lower95": 0.16818032970623617,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 4,
+            "adverse": 4,
+            "neither": 2,
+            "resolved": 8,
+            "resolved_rate": 0.5,
+            "all_complete_favorable_rate": 0.4,
+            "reference_binomial_lower95": 0.2152160622138776,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 3,
+            "adverse": 3,
+            "neither": 4,
+            "resolved": 6,
+            "resolved_rate": 0.5,
+            "all_complete_favorable_rate": 0.3,
+            "reference_binomial_lower95": 0.1876163064826506,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 1,
+            "adverse": 2,
+            "neither": 7,
+            "resolved": 3,
+            "resolved_rate": 0.3333333333333333,
+            "all_complete_favorable_rate": 0.1,
+            "reference_binomial_lower95": 0.061491944720396215,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -7377.0,
+        "mean_net5": -8377.0,
+        "median_net5": -4077.0,
+        "positive_net5": 3,
+        "negative_net5": 7,
+        "pairs": 10,
+        "paired_zone_mean_net5": 4023.0,
+        "paired_candidate_mean_net5": -8377.0,
+        "paired_mean_delta": -12400.0,
+        "paired_mean_price_improvement": -75.0
+      },
+      "3600": {
+        "births": 60,
+        "eligible_births": 59,
+        "requested": 11,
+        "filled": 11,
+        "complete": 9,
+        "censored": 2,
+        "filled_sessions": 8,
+        "complete_sessions": 7,
+        "states": {
+          "wave_expire": 43,
+          "filled": 11,
+          "wave_invalidate": 5,
+          "force_close": 1
+        },
+        "observations": {
+          "complete": 9,
+          "eof_censored": 2
+        },
+        "touches": {
+          "25": {
+            "favorable": 4,
+            "adverse": 5,
+            "neither": 0,
+            "resolved": 9,
+            "resolved_rate": 0.4444444444444444,
+            "all_complete_favorable_rate": 0.4444444444444444,
+            "reference_binomial_lower95": 0.18877852109766458,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 4,
+            "adverse": 5,
+            "neither": 0,
+            "resolved": 9,
+            "resolved_rate": 0.4444444444444444,
+            "all_complete_favorable_rate": 0.4444444444444444,
+            "reference_binomial_lower95": 0.18877852109766458,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 3,
+            "adverse": 6,
+            "neither": 0,
+            "resolved": 9,
+            "resolved_rate": 0.3333333333333333,
+            "all_complete_favorable_rate": 0.3333333333333333,
+            "reference_binomial_lower95": 0.1205838183869109,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 2,
+            "adverse": 5,
+            "neither": 2,
+            "resolved": 7,
+            "resolved_rate": 0.2857142857142857,
+            "all_complete_favorable_rate": 0.2222222222222222,
+            "reference_binomial_lower95": 0.0822189240040568,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 1,
+            "adverse": 5,
+            "neither": 3,
+            "resolved": 6,
+            "resolved_rate": 0.16666666666666666,
+            "all_complete_favorable_rate": 0.1111111111111111,
+            "reference_binomial_lower95": 0.030053369748306632,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -9077.0,
+        "mean_net5": -10077.0,
+        "median_net5": 1923.0,
+        "positive_net5": 6,
+        "negative_net5": 3,
+        "pairs": 8,
+        "paired_zone_mean_net5": -9327.0,
+        "paired_candidate_mean_net5": -11577.0,
+        "paired_mean_delta": -2250.0,
+        "paired_mean_price_improvement": -72.5
+      }
+    },
+    "Treversal_retest": {
+      "1800": {
+        "births": 60,
+        "eligible_births": 59,
+        "requested": 11,
+        "filled": 7,
+        "complete": 7,
+        "censored": 0,
+        "filled_sessions": 6,
+        "complete_sessions": 6,
+        "states": {
+          "wave_expire": 43,
+          "filled": 7,
+          "wave_invalidate": 5,
+          "unfilled_expired": 4,
+          "force_close": 1
+        },
+        "observations": {
+          "complete": 7
+        },
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 7,
+            "neither": 0,
+            "resolved": 7,
+            "resolved_rate": 0.0,
+            "all_complete_favorable_rate": 0.0,
+            "reference_binomial_lower95": 3.584186086443356e-17,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 4,
+            "adverse": 3,
+            "neither": 0,
+            "resolved": 7,
+            "resolved_rate": 0.5714285714285714,
+            "all_complete_favorable_rate": 0.5714285714285714,
+            "reference_binomial_lower95": 0.2504583645276572,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 3,
+            "adverse": 3,
+            "neither": 1,
+            "resolved": 6,
+            "resolved_rate": 0.5,
+            "all_complete_favorable_rate": 0.42857142857142855,
+            "reference_binomial_lower95": 0.1876163064826506,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 3,
+            "adverse": 3,
+            "neither": 1,
+            "resolved": 6,
+            "resolved_rate": 0.5,
+            "all_complete_favorable_rate": 0.42857142857142855,
+            "reference_binomial_lower95": 0.1876163064826506,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 2,
+            "adverse": 1,
+            "neither": 4,
+            "resolved": 3,
+            "resolved_rate": 0.6666666666666666,
+            "all_complete_favorable_rate": 0.2857142857142857,
+            "reference_binomial_lower95": 0.20765960080204768,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -9648.42857142857,
+        "mean_net5": -10648.42857142857,
+        "median_net5": -1077.0,
+        "positive_net5": 3,
+        "negative_net5": 4,
+        "pairs": 7,
+        "paired_zone_mean_net5": 2780.1428571428573,
+        "paired_candidate_mean_net5": -10648.42857142857,
+        "paired_mean_delta": -13428.57142857143,
+        "paired_mean_price_improvement": -44.285714285714285
+      },
+      "3600": {
+        "births": 60,
+        "eligible_births": 59,
+        "requested": 11,
+        "filled": 7,
+        "complete": 6,
+        "censored": 1,
+        "filled_sessions": 6,
+        "complete_sessions": 5,
+        "states": {
+          "wave_expire": 43,
+          "filled": 7,
+          "wave_invalidate": 5,
+          "unfilled_expired": 4,
+          "force_close": 1
+        },
+        "observations": {
+          "complete": 6,
+          "eof_censored": 1
+        },
+        "touches": {
+          "25": {
+            "favorable": 0,
+            "adverse": 6,
+            "neither": 0,
+            "resolved": 6,
+            "resolved_rate": 0.0,
+            "all_complete_favorable_rate": 0.0,
+            "reference_binomial_lower95": 3.384324554477539e-17,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "50": {
+            "favorable": 3,
+            "adverse": 3,
+            "neither": 0,
+            "resolved": 6,
+            "resolved_rate": 0.5,
+            "all_complete_favorable_rate": 0.5,
+            "reference_binomial_lower95": 0.1876163064826506,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "100": {
+            "favorable": 2,
+            "adverse": 3,
+            "neither": 1,
+            "resolved": 5,
+            "resolved_rate": 0.4,
+            "all_complete_favorable_rate": 0.3333333333333333,
+            "reference_binomial_lower95": 0.11762077423264786,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "125": {
+            "favorable": 2,
+            "adverse": 3,
+            "neither": 1,
+            "resolved": 5,
+            "resolved_rate": 0.4,
+            "all_complete_favorable_rate": 0.3333333333333333,
+            "reference_binomial_lower95": 0.11762077423264786,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          },
+          "200": {
+            "favorable": 2,
+            "adverse": 2,
+            "neither": 2,
+            "resolved": 4,
+            "resolved_rate": 0.5,
+            "all_complete_favorable_rate": 0.3333333333333333,
+            "reference_binomial_lower95": 0.15003898915214947,
+            "target70_resolved": false,
+            "target70_all_complete": false
+          }
+        },
+        "mean_net0": -9577.0,
+        "mean_net5": -10577.0,
+        "median_net5": 5423.0,
+        "positive_net5": 4,
+        "negative_net5": 2,
+        "pairs": 6,
+        "paired_zone_mean_net5": -13577.0,
+        "paired_candidate_mean_net5": -10577.0,
+        "paired_mean_delta": 3000.0,
+        "paired_mean_price_improvement": -55.0
+      }
+    }
+  },
+  "入力SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口比較\\全70場の入口結果.json": "59451c632af132841f3f5f8a7540784ec1acc04a0c8b0c164e9ef466e3009cd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口比較\\集計.json": "f0a5ca13fcb64235871146d15e18a296105cfb5ea348af23a67e9948c15371f9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口比較\\CSV用の表.json": "465b8568c85eb19f18a81450e2eee1f454bad842e4acbca672b669323b31528c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口レビュー\\独立検算する.py": "ea4e1227e02c12e255664cd6894cc676f74ec79becfd4e0e0d7c444d08a081cf"
+  },
+  "後SHA256": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口比較\\全70場の入口結果.json": "59451c632af132841f3f5f8a7540784ec1acc04a0c8b0c164e9ef466e3009cd2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口比較\\集計.json": "f0a5ca13fcb64235871146d15e18a296105cfb5ea348af23a67e9948c15371f9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口比較\\CSV用の表.json": "465b8568c85eb19f18a81450e2eee1f454bad842e4acbca672b669323b31528c",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\119入口レビュー\\独立検算する.py": "ea4e1227e02c12e255664cd6894cc676f74ec79becfd4e0e0d7c444d08a081cf"
+  },
+  "前後不変": true,
+  "数値比較": "件数・金額は完全一致。平均・中央値・率はFraction再算出後のIEEE754倍精度1回丸め。参考二項95下限だけ明示式の浮動小数再算出。許容差なし。",
+  "分母": "全出生には新規不可出生も含む。期限評価と先着は取得かつcompleteのみ。組比較は同zone出生のzone役も当該役も当該期限completeの共通群。異なる取得・期限評価時刻を含む。",
+  "確認範囲": [
+    "全保存イベントと出生ごとの3役対応・因果時計・票の参照",
+    "要求後の原行及び1秒・反対BBO価格・再取得指値丸めと10pt通過",
+    "30/60分期限・25/50/100/125/200pt先着の保存幾何・費用2条件",
+    "全12候補期限集計・幅60集計・70場840集計・明細全セル",
+    "買売・元54/追加16・全70場の群別全集計・同出生zone組比較"
+  ],
+  "未証明": [
+    "全Rawを別再走査せず、最初の約定行・先着行・正常期限行だったことや途中欠測は再証明しない",
+    "保存公表本文を許可入力として読まず、技法値・zone/confirm式を自然Rawから再形成しない",
+    "ForceClose自体は保存結果にないため、expires<=born.timeを新規不可として照合。SourceのForceClose値はRootの固定入力とコード・実行証拠で検査する",
+    "同時保有口座・片側10枚・mini実約定・必須追尾を含む運用収益ではない",
+    "同じ場・波の依存があるため二項区間及び70%欄を将来勝率保証に使わない"
+  ],
+  "自然Raw読取": 0,
+  "Native読取": 0,
+  "CSV読取": 0,
+  "金融実行": false,
+  "条件変更": false,
+  "11月09読取": false
+}

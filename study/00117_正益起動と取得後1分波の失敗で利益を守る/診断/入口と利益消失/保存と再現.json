@@ -1,0 +1,101 @@
+{
+  "試行": 117,
+  "成功": true,
+  "用途": "ユーザーが求めた入口方向と保有中利益消失の追加説明。新試行・PDCA再開ではない。",
+  "入口原板の走査": "全70場・558実新規。取得Rawを除外、最終決済Rawまで。",
+  "利益消失": "既固定Native70の保存最大Wから同実建玉の最終費用後実現額を引く。",
+  "保存": [
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_入口\\入口診断.md",
+      "正式相対path": "入口診断.md",
+      "sha256": "67b9ff48d1dc0c8adaef5e8d94f83e50ffaa5dd323dfd5759f506b0300cb2df2"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_入口\\集計.json",
+      "正式相対path": "入口の集計.json",
+      "sha256": "951ec4117d6bb39ba82451e02c78872df615c8d21a64d415bf96ac7f733fea78"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_入口\\要求.json",
+      "正式相対path": "入口の入力要求.json",
+      "sha256": "6ca26bfe41b616c1b39191260eb1c2422c6dc4efeda66bf5bd1e697b98acfbbc"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_入口\\入力来歴の追補.json",
+      "正式相対path": "入力来歴の追補.json",
+      "sha256": "90115577608964b9cc79dcb63be2a7470527d033866a6e432663facffddde866"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_入口\\独立集計の確認.json",
+      "正式相対path": "入口の独立集計.json",
+      "sha256": "f415851e797676a157c118b22af35523c2a55dfab1a8ab2625f5dcc8bc3dde62"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\保有中最大評価益から決済までの減少.md",
+      "正式相対path": "利益消失.md",
+      "sha256": "3692b2e6c3057a112f3fc33d0aaec56485a17a23ab896d6fe0acdc8ee010647b"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\政策別上位3の表.md",
+      "正式相対path": "政策別上位3の表.md",
+      "sha256": "870cd697d77681484a840acdfe6de43ed120f5dcc75c404b53a203d038196bef"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\診断の要点.json",
+      "正式相対path": "診断の要点.json",
+      "sha256": "e319aa401ca17c967c3da8a741c1509bc025071325b4dc1ca0c1179be180333e"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\正益から最終赤字に限った最大減少.json",
+      "正式相対path": "正益から最終赤字に限った最大減少.json",
+      "sha256": "4fd0dd38e375b5b37e94ec3ef324fb21c8d75951aa83fac35820808ceca01a71"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\追加診断の確認.json",
+      "正式相対path": "利益消失の確認.json",
+      "sha256": "845ac0e1887476dc14d03d31fa489ad509a5c3a8e928c849d0aef96f41acc46c"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\抽出する.py",
+      "正式相対path": "抽出する.py",
+      "sha256": "d73d972e8010c142dc6dc60ea81a3aaefe8718549369d5824f69472b537e0e13"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_利益消失\\要点をまとめる.py",
+      "正式相対path": "要点をまとめる.py",
+      "sha256": "6d3892558fd2001f83bfb34b62e79d76540721ccf720931f4714e62a2e48f79e"
+    },
+    {
+      "元": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117追加診断_入口\\原板結果.json",
+      "元SHA256": "3b84c3d84c136848b3fc519ccce7807bbcfd8856101cff99c25ac51dec73a6be",
+      "正式相対path": "入口の原板走査結果.json.gz",
+      "sha256": "68aa90b68536c806a9a5f09b086b00b7cf678d268a28514eb333d28efb2afc1b",
+      "展開全bytes一致": true
+    }
+  ],
+  "コードZIP": {
+    "path": "診断コード.zip",
+    "sha256": "7ea8dbe1a7a2d903c1e081d5719527f43feaab0089fee74a2f35457ca8de8755",
+    "entries": {
+      "work/117追加診断_入口/cmd/run/main.go": "a5dfb1e6be195cea1d295f82c25977c6eeafe9ff62259ef65a03c83ac98c8d8f",
+      "work/117追加診断_入口/go.mod": "7df964d96ff269501a82c30f152d0eb0fea29ed7352d718f567528fc31159354",
+      "work/117追加診断_入口/prepare.py": "4c3cecf480f51837bee128ed6709f2ea0a630d5f6f855fcf22903255daab5fbc",
+      "work/117追加診断_入口/reader.go": "08323cc1a499d2eebdd889189612286fbf0165c8598564fc0b4f05e76402499a",
+      "work/117追加診断_入口/threshold.go": "dc07e37f831dce94ff69a93aa3795b797757c6bbb1ff696de3f001065ac5e2e8",
+      "work/117追加診断_入口/threshold_test.go": "bd50e1027a7c69eb77a8b7d3dbaf6418c49d835bdf3fe906ea5abb032325f585",
+      "work/117追加診断_入口/types.go": "0be6ab790154eb28549724264afbb6bf6f42c1bc2bff1de81bccd21e2d4bd4b4",
+      "work/117追加診断_入口/入力来歴の追補.py": "7faa65397ee7939bb1fb1c5f89ffd3a64afb55c66838b6e21b3cb71bbfafdcaa",
+      "work/117追加診断_入口/正式へ保存する.py": "b17d34faf6c7fea721fae697e5c9e8223f576760953eb85c811fba9bf27f0d5d",
+      "work/117追加診断_入口/集計する.py": "3d33da3917d4d9b18c7ffbc2761d71706c5fc84868e6d07ace76aa63c55d97fc",
+      "work/117追加診断_利益消失/抽出する.py": "d73d972e8010c142dc6dc60ea81a3aaefe8718549369d5824f69472b537e0e13",
+      "work/117追加診断_利益消失/要点をまとめる.py": "6d3892558fd2001f83bfb34b62e79d76540721ccf720931f4714e62a2e48f79e",
+      "work/117追加診断_利益消失/赤字限定を抽出する.py": "947ad6a1ee851f577adf945555913d1aba8250340d881b7bdddce67583817c95"
+    }
+  },
+  "既存117条件変更": false,
+  "金融再実行": false,
+  "原板複写": false,
+  "11月09読取": false,
+  "決済後仮想利益": false,
+  "研究停止を維持": true
+}

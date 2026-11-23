@@ -1,0 +1,33 @@
+{
+  "試行": 120,
+  "確認日": "2026-11-10",
+  "最終差分再確認成功": true,
+  "コード指紋": {
+    "work/120入口の1分構造/detector.go": "0fea87c9d23e036973ffa1b8aefda907b2040348d78eb00c05f7f10e7b9c3001",
+    "work/120入口の1分構造/detector_test.go": "dbbd7ee1440c9cfb3fbda98d166d3cdf0ca5cfcce122b151e985b949475b9e9c",
+    "work/120入口比較/entry.go": "ef7f94c01be7b698f822a9a325c7d5b2560eb3cf69a2156687171f4b1bb43669",
+    "work/120入口比較/entry_test.go": "2e4155fe248056e5acff4f9a56d0148943d9212aa573096f78abe594c79ecf83",
+    "study/00120_1分構造と無効化距離で入口を作る/README.md": "2f923565acaaef1461e2645907f9d412aaba0ac81e9e7321274860675b94588f",
+    "study/00120_1分構造と無効化距離で入口を作る/設定と結果.md": "19822a04a4463241784b3b99adca0402bbe235e763951e6e5661bb52c4fcaf24",
+    "work/120入口レビュー/事前論理レビュー.md": "ac8ef98e3c701a7a2b2fe83cd6541928595cb3e717a0a5d80b150cc56f82a6f0"
+  },
+  "指摘の解消": [
+    "出生と取得Lastの回復水準維持",
+    "隣接分でもRaw価格時計差60秒超で1分形成/履歴reset"
+  ],
+  "独立人工検査": {
+    "detector": "go test -count=1 ./... と go vet ./... 成功",
+    "runner": "go test -count=1 ./... と go vet ./... 成功"
+  },
+  "自然Raw読取": 0,
+  "市場入力読取": false,
+  "120市場結果読取": false,
+  "11月09読取": false,
+  "金融再実行": false,
+  "コード変更": false,
+  "未解消重大欠陥": [],
+  "解釈注意": [
+    "BB比較の前値は直前の既知値。未知を挟めば15分より前の値になり得る。",
+    "baseとplusは独立cooldown。追加指標の単独効果又は全出生の単純な絞込みとは呼ばない。"
+  ]
+}
