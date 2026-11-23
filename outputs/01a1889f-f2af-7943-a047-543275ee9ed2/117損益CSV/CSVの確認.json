@@ -1,0 +1,193 @@
+{
+  "成功": true,
+  "試行": 117,
+  "人工": false,
+  "入力": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\出力用metadata_期間区分\\結果.json",
+  "入力SHA256": "d128ff73f9e079fb38fa683a0f2de1f90f87f95581902c2c0ac21415d925a069",
+  "出力": {
+    "候補別集計.csv": {
+      "sha256": "5c61fba94d0ebecd3d0c2742f69a9ebf786285c47b54426b2f8d04d960ef3af8",
+      "データ行数": 20,
+      "列数": 35
+    },
+    "全セッション.csv": {
+      "sha256": "b862cf4a7ad992f97b776654ef39f4dac1459985290be3bf51cec4c2d9b9680d",
+      "データ行数": 1400,
+      "列数": 38
+    }
+  },
+  "全条件": [
+    {
+      "条件ID": "S0_C0_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": 2146987
+    },
+    {
+      "条件ID": "S0_C0_D1",
+      "場数": 70,
+      "件数": 553,
+      "枚数": 1161,
+      "純額": 2489603
+    },
+    {
+      "条件ID": "S0_C5_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": 977987
+    },
+    {
+      "条件ID": "S0_C5_D1",
+      "場数": 70,
+      "件数": 553,
+      "枚数": 1161,
+      "純額": 1328603
+    },
+    {
+      "条件ID": "W100_C0_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": 1114987
+    },
+    {
+      "条件ID": "W100_C0_D1",
+      "場数": 70,
+      "件数": 553,
+      "枚数": 1161,
+      "純額": 1552603
+    },
+    {
+      "条件ID": "W100_C5_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": -414013
+    },
+    {
+      "条件ID": "W100_C5_D1",
+      "場数": 70,
+      "件数": 553,
+      "枚数": 1161,
+      "純額": 38603
+    },
+    {
+      "条件ID": "P100_C0_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": 1126987
+    },
+    {
+      "条件ID": "P100_C0_D1",
+      "場数": 70,
+      "件数": 553,
+      "枚数": 1161,
+      "純額": 1528603
+    },
+    {
+      "条件ID": "P100_C5_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": -363013
+    },
+    {
+      "条件ID": "P100_C5_D1",
+      "場数": 70,
+      "件数": 553,
+      "枚数": 1161,
+      "純額": -4397
+    },
+    {
+      "条件ID": "H0E_C0_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": -1330013
+    },
+    {
+      "条件ID": "H0E_C0_D1",
+      "場数": 70,
+      "件数": 555,
+      "枚数": 1166,
+      "純額": -736782
+    },
+    {
+      "条件ID": "H0E_C5_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": -1846013
+    },
+    {
+      "条件ID": "H0E_C5_D1",
+      "場数": 70,
+      "件数": 555,
+      "枚数": 1166,
+      "純額": -1510782
+    },
+    {
+      "条件ID": "H0M_C0_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": -1316013
+    },
+    {
+      "条件ID": "H0M_C0_D1",
+      "場数": 70,
+      "件数": 555,
+      "枚数": 1166,
+      "純額": -713782
+    },
+    {
+      "条件ID": "H0M_C5_D0",
+      "場数": 70,
+      "件数": 558,
+      "枚数": 1169,
+      "純額": -1825013
+    },
+    {
+      "条件ID": "H0M_C5_D1",
+      "場数": 70,
+      "件数": 555,
+      "枚数": 1166,
+      "純額": -1502782
+    }
+  ],
+  "入力前後不変": true,
+  "固定枠参加率生成": false,
+  "正益経験分母合算": true,
+  "正益経験後赤字率": "whole_positive_closed_negative / whole_positive_positions × 100、0分母は空欄",
+  "金融再実行": false,
+  "表の確認": "{\"kind\":\"table\",\"sheet\":\"候補別集計\",\"address\":\"A1:H4\",\"rows\":4,\"cols\":8,\"values\":[[\"試行\",\"保護政策\",\"条件ID\",\"セッション数\",\"片道追加滑りpt\",\"仮定遅延秒\",\"新規件数\",\"新規枚数\"],[117,\"S0\",\"S0_C0_D0\",70,0,0,558,1169],[117,\"S0\",\"S0_C0_D1\",70,0,1,553,1161],[117,\"S0\",\"S0_C5_D0\",70,5,0,558,1169]]}",
+  "エラー走査": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "Root要求": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\117損益CSVの出力_Root要求_出力metadata期間区分.json",
+    "sha256": "58c87ad490e940f9ab7507f9d2b7c9dff62efa42642e18ac0a5decd9dbf339e9"
+  },
+  "Raw初回性監査範囲": "保存点の独立検算済み・全Rawの発生漏れ/初回性は未確認",
+  "独立検算の実行区分": "全70Nativeの保存点を独立検算。金融の元54参照再用と別",
+  "認証済み入力": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\117損益CSVの出力_Root要求_出力metadata期間区分.json": "58c87ad490e940f9ab7507f9d2b7c9dff62efa42642e18ac0a5decd9dbf339e9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\停止.json": "fa261aa01a5db403472056d6147b01c13949c20027dd0d80bd2950a55337fbf6",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\入力と候補.mjs": "e929508336c9db98381998b9b8117c03969c8ae1ba2a8fc22bb3c5e8cfef0f22",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\出力する.mjs": "10d90afcc7e36b72767881997b5613a3f1d2b64d527d38188b6d24f054916c2e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\CSVを独立再読する.py": "322d7d62a8998e315f50747116cc00bbc57496ca8aecdb67589e7320e4db26e4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\人工検査.py": "e4decb561971afdb9344fa9861d66fd5110d7bca5fff4fbb9019631cd1c9abec",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\README.md": "5ebbc4e8158b8ea4b8bf3c21240b771b7b9f2fa79e0f305bb22ba3a2b0e6b9fc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117損益CSVの出力\\検査して停止する.py": "0ab208925f05ec0c41824bf18d22676064dc46c3ba453a2b0958fb7e77ad1e6f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\F1_117金融条件.json": "522fe2343b914243fadc4f48d32128a79ecdafcabd84d5a58b5ca399af90d1b0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117金融F1\\全70場\\完了.json": "f9d5dfc49bef7f9b2dcf6bba55fe264b689dc2e8312e0e26c4530e4b1d2872e0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\出力用metadata_期間区分\\保存会計の確認.json": "92f861dc01b8255bcde79cb8be1b75591d4ad7000f4fed9bf3507a5b62c6e0f9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\117進行\\出力用metadata_期間区分\\結果.json": "d128ff73f9e079fb38fa683a0f2de1f90f87f95581902c2c0ac21415d925a069"
+  },
+  "実行環境": {
+    "node": "v24.22.1",
+    "artifact_tool": "2.8.129"
+  },
+  "追加H0短期列": "保存点Counter未確定のため未追加"
+}
