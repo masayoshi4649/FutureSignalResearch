@@ -1,0 +1,22 @@
+{
+  "試行": 115,
+  "成功": true,
+  "初回要求": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\full70_正式保存要求.json",
+    "sha256": "1a160a6f37dc88bfd504f20d7db0d1c6a9488db60007b79f127d68c80e22371f"
+  },
+  "最初の検査": "metadata-onlyで価格足DMIのRoot要求をrefsとextraへ重複指定したため拒否。正式書込みなし。",
+  "除いた重複": [
+    {
+      "ref": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\full70_価格足DMI独立要求.json",
+        "sha256": "7d1b23240ebbaaa566de4aa6743fb90811dd668eb81662757cb1769523815d0f"
+      },
+      "target": "検査/Root要求/full70_価格足DMI独立要求.json",
+      "role": "各段階の実使用Root要求。"
+    }
+  ],
+  "金融条件変更": false,
+  "停止コード変更": false,
+  "金融再実行": false
+}

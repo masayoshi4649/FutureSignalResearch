@@ -1,0 +1,109 @@
+{
+  "試行": 115,
+  "成功": true,
+  "stage": "first2",
+  "Root要求": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\first2_価格足DMI独立要求.json",
+    "sha256": "c53fbfd24c5473683a51be43ad3871761b42391b06cab22ec5b67d1493076957"
+  },
+  "金融条件SHA256": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+  "金融完了SHA256": "24968cf1b92440a8088927d6698d7ca615ffdf71010c62b4aa1182163488f73b",
+  "独立停止SHA256": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+  "場数": 2,
+  "場別": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv",
+        "sha256": "c0d4c82e7dd012177b6d238ac77fc7cc6425bfb168684737fdb03643b5c15abc",
+        "bytes": 5275
+      },
+      "prefix数": 0,
+      "成功": true,
+      "場": "2026-09-21_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 0,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_5min.csv",
+        "sha256": "be31f16cbf2aefd1a6a1d78eb0b0cf54c37a9efd3e72d8ec1272f34e6ae71310",
+        "bytes": 9595
+      },
+      "prefix数": 1,
+      "成功": true,
+      "場": "2026-09-21_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    }
+  ],
+  "CSV個別解釈数": 2,
+  "入力SHA256前": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\first2_価格足DMI独立要求.json": "c53fbfd24c5473683a51be43ad3871761b42391b06cab22ec5b67d1493076957",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\F1_115金融条件.json": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\完了.json": "24968cf1b92440a8088927d6698d7ca615ffdf71010c62b4aa1182163488f73b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\検査_停止版\\停止.json": "df5718acf04495bc690c5a0d0652ba202cb9f970eb2323389f246d70cdbe7a68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査_停止版\\停止.json": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査する.py": "78a252126666a71ea620f0cdd05fde83cfd66d2d2da9374f580fee209361ec5d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\価格足とDMIの純再形成.py": "d85fa5e18b4ad104fc5822d3fb053e1f037226e93d3f6c840b5531fa486ac469",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\人工検査.py": "1917aec96f89bc1a399cd7570b0a6b2a67baa6df5c65e2eb1b98d27268112691",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査して停止する.py": "ca8f7fac9acb92e144f7f8dc3169f58537d6813720e10e325539d7d9d1b77a63",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\README.md": "69c4c1f5112319beb175d0e93e1b31c87a6edabad02e620f972eef847d4ff9c7",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv": "c0d4c82e7dd012177b6d238ac77fc7cc6425bfb168684737fdb03643b5c15abc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_5min.csv": "be31f16cbf2aefd1a6a1d78eb0b0cf54c37a9efd3e72d8ec1272f34e6ae71310",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+  },
+  "入力SHA256後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\first2_価格足DMI独立要求.json": "c53fbfd24c5473683a51be43ad3871761b42391b06cab22ec5b67d1493076957",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\F1_115金融条件.json": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\完了.json": "24968cf1b92440a8088927d6698d7ca615ffdf71010c62b4aa1182163488f73b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\検査_停止版\\停止.json": "df5718acf04495bc690c5a0d0652ba202cb9f970eb2323389f246d70cdbe7a68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査_停止版\\停止.json": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査する.py": "78a252126666a71ea620f0cdd05fde83cfd66d2d2da9374f580fee209361ec5d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\価格足とDMIの純再形成.py": "d85fa5e18b4ad104fc5822d3fb053e1f037226e93d3f6c840b5531fa486ac469",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\人工検査.py": "1917aec96f89bc1a399cd7570b0a6b2a67baa6df5c65e2eb1b98d27268112691",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査して停止する.py": "ca8f7fac9acb92e144f7f8dc3169f58537d6813720e10e325539d7d9d1b77a63",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\README.md": "69c4c1f5112319beb175d0e93e1b31c87a6edabad02e620f972eef847d4ff9c7",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv": "c0d4c82e7dd012177b6d238ac77fc7cc6425bfb168684737fdb03643b5c15abc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_5min.csv": "be31f16cbf2aefd1a6a1d78eb0b0cf54c37a9efd3e72d8ec1272f34e6ae71310",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+  },
+  "前後不変": true,
+  "比較絶対許容差": "1E-8",
+  "金融損益再計算": false,
+  "Raw/11月09本文読取": false,
+  "限界": [
+    "価格足とDMIをCSVから別式形成。RawからCSVを再形成した証明ではない。",
+    "GoのID/私有seedSHA/EMA/RSI/MACD/ATR/pivotの数値再形成は対象外。",
+    "実受信時刻とRaw上で最初の公表可能行という初回性は対象外。"
+  ]
+}

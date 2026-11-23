@@ -1,0 +1,2081 @@
+{
+  "試行": 115,
+  "成功": true,
+  "stage": "full70",
+  "Root要求": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\full70_価格足DMI独立要求.json",
+    "sha256": "7d1b23240ebbaaa566de4aa6743fb90811dd668eb81662757cb1769523815d0f"
+  },
+  "金融条件SHA256": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+  "金融完了SHA256": "8bba68dfa7df62d2fa7f40443e4a3cd89f48caa7ed398560ca1ee914e59e714b",
+  "独立停止SHA256": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+  "場数": 70,
+  "場別": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv",
+        "sha256": "c0d4c82e7dd012177b6d238ac77fc7cc6425bfb168684737fdb03643b5c15abc",
+        "bytes": 5275
+      },
+      "prefix数": 0,
+      "成功": true,
+      "場": "2026-09-21_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 0,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_5min.csv",
+        "sha256": "be31f16cbf2aefd1a6a1d78eb0b0cf54c37a9efd3e72d8ec1272f34e6ae71310",
+        "bytes": 9595
+      },
+      "prefix数": 1,
+      "成功": true,
+      "場": "2026-09-21_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz",
+        "sha256": "1ab7f165180c8321c80d00a1ca894a59656204fdbbefbc914bfb4d418bacef62"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_5min.csv",
+        "sha256": "f5a7efc1a75264c91e8b88b35a7b16b4f7452613e5b4027b19c41a8e71578d9b",
+        "bytes": 5290
+      },
+      "prefix数": 2,
+      "成功": true,
+      "場": "2026-09-22_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz",
+        "sha256": "b5d8e753e866ad8978307bea157ba2aee6e48da818e8213947899210f155796c"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_5min.csv",
+        "sha256": "942c45e77704934ad28dd9fae28f3dbd79307b872ff26ab879d34c5692b95efb",
+        "bytes": 9606
+      },
+      "prefix数": 3,
+      "成功": true,
+      "場": "2026-09-22_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz",
+        "sha256": "c7da94ac9907263e3d2aa8f39d92008f38b8fca154356e693fc3d1c6f345d396"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_5min.csv",
+        "sha256": "712dad9ea7a739ababc2e12318774c7fbc9a5901ea490dc966846c0977c251dd",
+        "bytes": 5273
+      },
+      "prefix数": 4,
+      "成功": true,
+      "場": "2026-09-23_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz",
+        "sha256": "5fcf4fd00e358bbd9c82352b247ecdf16fa565af3f6343a5b76bb4def6b01b95"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_5min.csv",
+        "sha256": "a57e31e58b8cb6fe08ba81b1d5c00903ef0df98816e38cc89613c9ae119851c1",
+        "bytes": 9667
+      },
+      "prefix数": 5,
+      "成功": true,
+      "場": "2026-09-23_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-24_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz",
+        "sha256": "2044e65d5cc7528a196b4da800e7d9ccbc6387746a0d6562438910bd056091f1"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_5min.csv",
+        "sha256": "538f31f8ab8629e9bc2b8ebd5b4b9b83bb6258178faad1f6ced0333e566767fe",
+        "bytes": 5346
+      },
+      "prefix数": 6,
+      "成功": true,
+      "場": "2026-09-24_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-24_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz",
+        "sha256": "ccdcaee6abdd45ac8577bb49f52b05e035df9c3536e95a85a4a1d36856ca1c42"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_5min.csv",
+        "sha256": "cf1782926468446566374a0ba2bf077466590ad7f3e85268317e35402a789006",
+        "bytes": 9843
+      },
+      "prefix数": 7,
+      "成功": true,
+      "場": "2026-09-24_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-25_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz",
+        "sha256": "2dde60f010046512c770b0cd8a59a9edd8f866e87478833d00de73c04bcfab29"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_5min.csv",
+        "sha256": "e059ac3589c79c7a13537d4b38e5060496907b7bb2b4e711f0da3c44471419b9",
+        "bytes": 5404
+      },
+      "prefix数": 8,
+      "成功": true,
+      "場": "2026-09-25_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-25_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz",
+        "sha256": "002e24762db7b3cd4ac4b7f587d56f4cfc30285b7b5e73a0c37b8376513cbbe1"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_5min.csv",
+        "sha256": "8628a4342a0d049626cdbf405581ad1b1454f41a476fbea9dd65ad65dcb5a53d",
+        "bytes": 9626
+      },
+      "prefix数": 9,
+      "成功": true,
+      "場": "2026-09-25_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-28_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz",
+        "sha256": "b155e01e96189f25c9b439b73d1b2e2dafec96bda537ad583c582277207fd594"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_5min.csv",
+        "sha256": "f8473bdcc0d3072aee4367cc72fad0e5b937db6006599ab4c703c6790499664e",
+        "bytes": 5355
+      },
+      "prefix数": 10,
+      "成功": true,
+      "場": "2026-09-28_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-28_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz",
+        "sha256": "243fb30799ac7983cf37d8221702fa04ad9f46cdbfa056d04e10aca04dec5cb0"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_5min.csv",
+        "sha256": "a5532df79661bafaf4f27421dedc4997bdc936488491a11628d3936faad16a57",
+        "bytes": 9825
+      },
+      "prefix数": 11,
+      "成功": true,
+      "場": "2026-09-28_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-29_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz",
+        "sha256": "36947ecb667395e551ebe7d852941daf661b838d3d7e963cb43dade6db64457d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_5min.csv",
+        "sha256": "ea2c72f90f7da510d9353e2fb089d1c39336aaa0db6a9af1e404572a6f895b09",
+        "bytes": 5363
+      },
+      "prefix数": 12,
+      "成功": true,
+      "場": "2026-09-29_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-29_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz",
+        "sha256": "6d1495a6a6757d59a6455b21711f4dd816cb0160d7136e7c5661c2e8a5ab534c"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_5min.csv",
+        "sha256": "d5857f654f9163c8f7f8cb50b0ac5f7bb88df9bb2ae223ae487bdfd5c794215f",
+        "bytes": 9830
+      },
+      "prefix数": 13,
+      "成功": true,
+      "場": "2026-09-29_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-30_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz",
+        "sha256": "90236a769efdcba6402e17ada82ecc6a07ca949deace89cce00fc051a6e202de"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_5min.csv",
+        "sha256": "c0a78bf94903d838dab9ff6d069e511d6f129e39f888f916e10d0d48a276216d",
+        "bytes": 5355
+      },
+      "prefix数": 14,
+      "成功": true,
+      "場": "2026-09-30_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-09-30_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz",
+        "sha256": "887866c6cab402f5128f49c79c4929058d7ffe10396d52ca72c5df287b46ef9b"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_5min.csv",
+        "sha256": "f7b6fcb3c53c258abff29eec3b4d46cceac233bab533c311a6b776bdf6b107c5",
+        "bytes": 9786
+      },
+      "prefix数": 15,
+      "成功": true,
+      "場": "2026-09-30_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-01_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz",
+        "sha256": "955b91c60ca28f8f78dc3d62d1037ff475768da9caa0c2767b2f8411784e37f3"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_5min.csv",
+        "sha256": "e03b1cee05b9293eb08beda2101003e5e9f83154bb9bef2a352e9c3b4ce4ae5a",
+        "bytes": 5428
+      },
+      "prefix数": 16,
+      "成功": true,
+      "場": "2026-10-01_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-01_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz",
+        "sha256": "df9ad94404d2e05dc5640098b90a15053b903df473ee08c4822178678804b63b"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_5min.csv",
+        "sha256": "3ad75311a455086cef54ab2c8208cf9c6e0a728c8e42f17cf64df888c55c43f0",
+        "bytes": 9859
+      },
+      "prefix数": 17,
+      "成功": true,
+      "場": "2026-10-01_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-02_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz",
+        "sha256": "6a600d00a25772726f93499081f7fbfae363d06e2cbbd5472c1ef0f6a661858d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_5min.csv",
+        "sha256": "0bcb1c809a5ec0dd84be76e49e3221eef7af4bd733965fd501e08705e7287185",
+        "bytes": 5409
+      },
+      "prefix数": 18,
+      "成功": true,
+      "場": "2026-10-02_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-02_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz",
+        "sha256": "a20844ca73dacde5bbaf3d6edc6f87f39a07fc23f50ccf05249ae3d258d788ff"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_5min.csv",
+        "sha256": "063412dcb0050ee69cbe2d997a8f9851e09552f4e61eba5b32376e016ffb69ad",
+        "bytes": 9860
+      },
+      "prefix数": 19,
+      "成功": true,
+      "場": "2026-10-02_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-05_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz",
+        "sha256": "a1bc92c66aa5c43544fa8e49c0b5631fec6809951d7137d99dce8fe8ca0c14a3"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_5min.csv",
+        "sha256": "1df5797ee77d8c3ca91569a2987c9e7ca25edfb7cfeca4c24f904fef18d503c3",
+        "bytes": 5423
+      },
+      "prefix数": 20,
+      "成功": true,
+      "場": "2026-10-05_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-05_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz",
+        "sha256": "6defa1087dda118240f3eadca65d589b3dd8271bf5eed677101bf79b8982fc40"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_5min.csv",
+        "sha256": "16b76c0315e8ba03b16b3be89f5c3e0386c19e6ef0462b84a755c3f642ce1718",
+        "bytes": 9836
+      },
+      "prefix数": 21,
+      "成功": true,
+      "場": "2026-10-05_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-06_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz",
+        "sha256": "b3d5e7f6a68a8cdf911904422634df0ec38a0558dbcfdb12a6287082a4caec57"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_5min.csv",
+        "sha256": "9defca2620d96e569964ce01d835473d5726bb442e1ef24e347b3f9f24a71337",
+        "bytes": 5351
+      },
+      "prefix数": 22,
+      "成功": true,
+      "場": "2026-10-06_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-06_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz",
+        "sha256": "d55f426e9f4fc74b21a9ea145f83697c83d70eaa071f65b8e311c59638ab75ae"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_5min.csv",
+        "sha256": "69344daf3ef429756e48f4f33dd240b47161f8581f093bfa9ac79a3a056ca861",
+        "bytes": 9822
+      },
+      "prefix数": 23,
+      "成功": true,
+      "場": "2026-10-06_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-07_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz",
+        "sha256": "bc9605074b78e720ee1676152fbb006af18839fa07505cc1151dd33066e4205d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_5min.csv",
+        "sha256": "0d34d5e4f90b93e271c58eff747462a86e6c9c5ad17d1eb4394f692e8f7dba62",
+        "bytes": 5345
+      },
+      "prefix数": 24,
+      "成功": true,
+      "場": "2026-10-07_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-07_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz",
+        "sha256": "bb02aa070399ca9908fa975546969812f55c5862a1cdf3f9de6d5cd84ccb721e"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_5min.csv",
+        "sha256": "b53b66f330e6bf65ea738d6ff4811831c97a44cb0f0036124e87931dd860c0ef",
+        "bytes": 9844
+      },
+      "prefix数": 25,
+      "成功": true,
+      "場": "2026-10-07_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-08_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz",
+        "sha256": "ccff570013d2ecdc3dc9b4f2b36848cfd6bfc6752d484198721d56ca0355cab9"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_5min.csv",
+        "sha256": "2e338461c06c15a6ac4b1f18bb64514ebb51c940b96fab1439e7c582f814cd2f",
+        "bytes": 5353
+      },
+      "prefix数": 26,
+      "成功": true,
+      "場": "2026-10-08_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-08_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz",
+        "sha256": "0baa117dbefc43ad3082c20299889de913f9deb7d220986c3878d94e3ad65f10"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_5min.csv",
+        "sha256": "38927235538acf5f2b2c7e37e0f1bd3c2d33b701559307a225c1fd7d1ed11e8e",
+        "bytes": 9856
+      },
+      "prefix数": 27,
+      "成功": true,
+      "場": "2026-10-08_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-09_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz",
+        "sha256": "a8ebf133f08c02716fad13731b9650a49d0cd44d0acc970a7965b6e66bb05fd6"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_5min.csv",
+        "sha256": "9456e15dc9e8c80ba5c44d22b83229c517a7c630a15bad0527c390005654df00",
+        "bytes": 5349
+      },
+      "prefix数": 28,
+      "成功": true,
+      "場": "2026-10-09_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-09_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz",
+        "sha256": "6229a38446b57ea405cdcd110f16d4a021901f3bf4fef7a41e94b67270c2303c"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_5min.csv",
+        "sha256": "035e7a293d71f0483753eb40e610bacfa08042f13725089b7f6ee8623b25ff22",
+        "bytes": 9795
+      },
+      "prefix数": 29,
+      "成功": true,
+      "場": "2026-10-09_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-12_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz",
+        "sha256": "af017e438067ad05112e8af2aba7bfcdccd2db6947fd0f9c6ee02781668247d4"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_5min.csv",
+        "sha256": "bfb4a24b50c2020f1828583a5c7673d355b8421b456462e4453b5e52b4a74c19",
+        "bytes": 5274
+      },
+      "prefix数": 30,
+      "成功": true,
+      "場": "2026-10-12_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-12_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz",
+        "sha256": "8f85085060a42830f96f3691669030280dabe1ee9e37aa5fbe0795013a86a5c4"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_5min.csv",
+        "sha256": "fcd86863855aae751f358518b5980f33d9bd736fd2275c8437bee5c25aef9f99",
+        "bytes": 9470
+      },
+      "prefix数": 31,
+      "成功": true,
+      "場": "2026-10-12_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-13_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz",
+        "sha256": "37b14101dee1d57580fe927250116904fb9cd204d5d051ce6c2ffe79aa0beecc"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_5min.csv",
+        "sha256": "09fc6296bfc08ead9727e89613246aa964f917bfd153b53107e9305c0b661140",
+        "bytes": 5366
+      },
+      "prefix数": 32,
+      "成功": true,
+      "場": "2026-10-13_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-13_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz",
+        "sha256": "691aeee8c022eb6d4669afd7f6aa3eb503131d86e11ac320cfb2d106ea0858e6"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_5min.csv",
+        "sha256": "0a8d1cf83ca59c02058deb4c31727ccef9d929a00992cce447b2c79a3454f4c2",
+        "bytes": 9686
+      },
+      "prefix数": 33,
+      "成功": true,
+      "場": "2026-10-13_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-14_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz",
+        "sha256": "067ea95d1e8ae4786e083ac4c772778e1de7deec718a9c6f87bac03393d84331"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_5min.csv",
+        "sha256": "486ed62b26c7eb53087d6e5f190c6f78943f8069bd6cef3211cab65bdb4cfeae",
+        "bytes": 5351
+      },
+      "prefix数": 34,
+      "成功": true,
+      "場": "2026-10-14_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-14_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz",
+        "sha256": "a6872a324f059320bd21084f15feba3b301fa35aab620136b472f37160b6469f"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_5min.csv",
+        "sha256": "3ce724d692ae52fb5aca692a4af640796ee7e1ac2001f1e98cbda9ad561fef47",
+        "bytes": 9851
+      },
+      "prefix数": 35,
+      "成功": true,
+      "場": "2026-10-14_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-15_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz",
+        "sha256": "cc304b02de2b4cd0c34644e64e013d36696e248a771c4ae3cee395d9e30b7c8b"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_5min.csv",
+        "sha256": "9c676cd821971a37f48af16802667b50adabcd1eb6c7e159a74a5e2d15668865",
+        "bytes": 5373
+      },
+      "prefix数": 36,
+      "成功": true,
+      "場": "2026-10-15_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-15_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz",
+        "sha256": "ec7456d77b4c7347253e394cba953d76ebfe2d7b37d0e1638e30c9e46ae382ae"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_5min.csv",
+        "sha256": "3866ca15af4a969be7ec11c8ba530b6718274fc1ad1064891a5c430cecdeecac",
+        "bytes": 9862
+      },
+      "prefix数": 37,
+      "成功": true,
+      "場": "2026-10-15_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-16_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz",
+        "sha256": "3cee215c8150c7f08059899afaf289b1c8a8b520abc2c39e9cb3ebae99232919"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_5min.csv",
+        "sha256": "76866d25eb80ecfe54e0c93da7fcd257b2e7c77b4d4115339b5da36dedc7542b",
+        "bytes": 5361
+      },
+      "prefix数": 38,
+      "成功": true,
+      "場": "2026-10-16_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-16_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz",
+        "sha256": "c9fe26ffc7ce62119829e1e402f363d643053d744db9a94c9396749591210474"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_5min.csv",
+        "sha256": "4341be8d24af6091fe362775b1c89378c4b93d07612483c5aea40f43e56770c4",
+        "bytes": 9863
+      },
+      "prefix数": 39,
+      "成功": true,
+      "場": "2026-10-16_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-19_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz",
+        "sha256": "6d6e9f69e6b8a30d590c93eb8630ee6a65cff04493a40c1af8d494ef159252cf"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_5min.csv",
+        "sha256": "349894c72536c0e54c79b4c9b6c24d1d47e8e8020c1a649afbfcdbd758c6ca25",
+        "bytes": 5424
+      },
+      "prefix数": 40,
+      "成功": true,
+      "場": "2026-10-19_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-19_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz",
+        "sha256": "ebc62f4d4ff2f5a0adb5762c7392df308be4a02eafff1e7af0a2b40b9b05ba4f"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_5min.csv",
+        "sha256": "753d25bf135a4435daa46d754ff40817c7cd6423d95000ba15b4956ae6d42586",
+        "bytes": 9845
+      },
+      "prefix数": 41,
+      "成功": true,
+      "場": "2026-10-19_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-20_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz",
+        "sha256": "104bb267560ea68c2a525a6c705a62832e4fd5481d30b313a4b9478658dd8974"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_5min.csv",
+        "sha256": "9f396fd2b58735e289cd16f5063626a9beb58cf05df2b0899e9e84f8b04bd995",
+        "bytes": 5418
+      },
+      "prefix数": 42,
+      "成功": true,
+      "場": "2026-10-20_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-20_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz",
+        "sha256": "8f75208dc149a68dd6b8a3ecbcf348a89da43015db4e4bb9d3ba6bdd79226b1c"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_5min.csv",
+        "sha256": "91c73ceb10af7d3eba9c0062d14e6aa4c3b44162681a8616b1463b4958b1c756",
+        "bytes": 9792
+      },
+      "prefix数": 43,
+      "成功": true,
+      "場": "2026-10-20_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz",
+        "sha256": "f45c34c1039b0a8a2f2779d11737b7a3be797c4d83beabe7d9a6d7731a707f6e"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_5min.csv",
+        "sha256": "a431fc1ad239d00ae3532ba6ca439948eb13dde5de1c5be57beb560f0017e85d",
+        "bytes": 5429
+      },
+      "prefix数": 44,
+      "成功": true,
+      "場": "2026-10-21_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz",
+        "sha256": "0fc542b9d79f187c9bf21df752c9b02f55c077707a006dc2138eef15558a924d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_5min.csv",
+        "sha256": "ea61c7dda0db6d606ec1cf4cf09ab31007fb05040c0c1202d6d731997df261c3",
+        "bytes": 9846
+      },
+      "prefix数": 45,
+      "成功": true,
+      "場": "2026-10-21_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz",
+        "sha256": "71c72f8f3944ee843b6e0f2b06262570929a1f4d21d9be4d5b022218f387ac7e"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_5min.csv",
+        "sha256": "6cf9b0132ed4a77367237a068a21a9a48d2e3df11cb7a2739d3eaa95aee9af8a",
+        "bytes": 5367
+      },
+      "prefix数": 46,
+      "成功": true,
+      "場": "2026-10-22_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz",
+        "sha256": "9cefcce020c4955cf5b2e77576fe76a223cae6d761899caf4e773a8cb3be48a3"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_5min.csv",
+        "sha256": "85dc93ca5d3057e2779953b2938691dc668ec836ec7fd85b0543cfb9c7f80322",
+        "bytes": 9858
+      },
+      "prefix数": 47,
+      "成功": true,
+      "場": "2026-10-22_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz",
+        "sha256": "7a8ab19a0b692e3b614d5693b5eb2a85fc13792bc3ea8ed9d5b8a345ae1b5ad1"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_5min.csv",
+        "sha256": "6f0ca78bcf8fd40ea7352b37490909e809bf03a0f384ac9fcc11fdf8b7af1cce",
+        "bytes": 5372
+      },
+      "prefix数": 48,
+      "成功": true,
+      "場": "2026-10-23_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz",
+        "sha256": "dc9a1bd9e61b55eb1414fa6829528b9fb5149c3637aa76b075931b8a58baf689"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_5min.csv",
+        "sha256": "460c2dff090cd81ed5473d90e5784e236de41c290dae61550a02dc3a5dfd2fb5",
+        "bytes": 9847
+      },
+      "prefix数": 49,
+      "成功": true,
+      "場": "2026-10-23_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-26_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz",
+        "sha256": "fc1f3da36204992999fac8a1db0eb8be0d0510ac76e54b2d308d025fcdfa8dc0"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_5min.csv",
+        "sha256": "5fd1952af78dc79766410a5e9ed90358d4d8ea3b90d2cdc993d219b5afbb60d4",
+        "bytes": 5357
+      },
+      "prefix数": 50,
+      "成功": true,
+      "場": "2026-10-26_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-26_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz",
+        "sha256": "99b5aae8927583fd0cf38446bd66652c4ad6f1a8a03c93f5a4658faa049479fc"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_5min.csv",
+        "sha256": "b55e3d5bf9c859e7504e6a438bc8c72180c7d00158d9fdc265f24881c9309222",
+        "bytes": 9854
+      },
+      "prefix数": 51,
+      "成功": true,
+      "場": "2026-10-26_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-27_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz",
+        "sha256": "80f136f4ff181d7bdfb24c3f51b177ef0bc9b9ff613a2d859eb0edeee8a4c49d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_5min.csv",
+        "sha256": "d27f774c0fb2bd95715caabf948a078d97d2bbc6dd16a1c817014f4fde4331d0",
+        "bytes": 5359
+      },
+      "prefix数": 52,
+      "成功": true,
+      "場": "2026-10-27_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-27_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz",
+        "sha256": "c373ad91ff2b1c2d5c30df2cf35544679883af52da8b46748f778e94dde9666e"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_5min.csv",
+        "sha256": "9b0358a1c21b0d60a8cb236d3c11a7faa3c898bf28e9f80254c200c1b5a97d2e",
+        "bytes": 9758
+      },
+      "prefix数": 53,
+      "成功": true,
+      "場": "2026-10-27_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-28_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Day\\2026-10-28_Day.Native.json.gz",
+        "sha256": "6d21f646bca742a4afb6eb7490e35bfbb57506b90968c5840904cc0eece347f1"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_5min.csv",
+        "sha256": "3c26bea2e5d16a1fefbf440b4f6a2712d8f434f3262248523afe6c9c4f010a3b",
+        "bytes": 5425
+      },
+      "prefix数": 54,
+      "成功": true,
+      "場": "2026-10-28_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-28_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Night\\2026-10-28_Night.Native.json.gz",
+        "sha256": "8192497694aa6191af00b5890196a6a333cfe0c51e850e9b29eb519143f52643"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_5min.csv",
+        "sha256": "91d6318ef20dab92735c59e952e643d993c460e1b024020ddf2ea9d147aac54f",
+        "bytes": 9875
+      },
+      "prefix数": 55,
+      "成功": true,
+      "場": "2026-10-28_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-29_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Day\\2026-10-29_Day.Native.json.gz",
+        "sha256": "95318065a7fe5d4628b8a5b5e277f0ecabee2fe57065fe3d5249144b3404a617"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_5min.csv",
+        "sha256": "cae4ee29533bf1d2a5a808601b8a6b96495376746f0f6d0bc142e0a2e88683bc",
+        "bytes": 5362
+      },
+      "prefix数": 56,
+      "成功": true,
+      "場": "2026-10-29_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-29_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Night\\2026-10-29_Night.Native.json.gz",
+        "sha256": "58580a82e0c7a2d946df8f9edde6857968c3afca67f48588dc1da224ca13fe48"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_5min.csv",
+        "sha256": "d4f022733b7ab81c21422058b7bde90554cead705e243d02ac4b2c1b888636af",
+        "bytes": 9862
+      },
+      "prefix数": 57,
+      "成功": true,
+      "場": "2026-10-29_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-30_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Day\\2026-10-30_Day.Native.json.gz",
+        "sha256": "8860c3645060cfe2274063703d1eb5fe874a8da440c5c940776f16a95949809a"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_5min.csv",
+        "sha256": "6615c37c3b5a56779491d6b3c5e56719e00d1bd9ee09b6b8999aa7159f91aebf",
+        "bytes": 5430
+      },
+      "prefix数": 58,
+      "成功": true,
+      "場": "2026-10-30_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-10-30_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Night\\2026-10-30_Night.Native.json.gz",
+        "sha256": "6824e0878d00b95c63171201e967f8b4531ad334de373146762e89f6cc77cb54"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_5min.csv",
+        "sha256": "553978abd165e732b6be7e178a6e5d8274d7aea834e6cfa6a110e4940fb39334",
+        "bytes": 9873
+      },
+      "prefix数": 59,
+      "成功": true,
+      "場": "2026-10-30_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-02_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Day\\2026-11-02_Day.Native.json.gz",
+        "sha256": "e53db2609ca57384b2d061bb0c6578bc2466299dd539e04c5a0a8c6fbce01898"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_5min.csv",
+        "sha256": "68f717644d0f29e0100c741db4287a1f52d820be10019893188f33e5ee5febd3",
+        "bytes": 5421
+      },
+      "prefix数": 60,
+      "成功": true,
+      "場": "2026-11-02_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-02_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Night\\2026-11-02_Night.Native.json.gz",
+        "sha256": "db9db51f6529028bb5d7813575d2f629be4bfef0ef4089ca7d6e2d60bed66e57"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_5min.csv",
+        "sha256": "b377ad20ac583c19f565626ec859c913e462493a6832743b45cb6f81d43b6941",
+        "bytes": 9857
+      },
+      "prefix数": 61,
+      "成功": true,
+      "場": "2026-11-02_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-03_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Day\\2026-11-03_Day.Native.json.gz",
+        "sha256": "9fd838ba5d2b4689f1f41cbf2845a0a7320d3894bd60c65346cc3591a0715a3f"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_5min.csv",
+        "sha256": "b71a3b7d6a82cf0552b6246cb199e5d5bba681f47735cef9b4e9378cba26baff",
+        "bytes": 5361
+      },
+      "prefix数": 62,
+      "成功": true,
+      "場": "2026-11-03_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-03_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Night\\2026-11-03_Night.Native.json.gz",
+        "sha256": "044a213f83972b30c460a9687fed1a19d41b1b6c0162bacf990ccbe2f6570ce2"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_5min.csv",
+        "sha256": "c0d5ca425a789d187773ad8ad28465bd1e63c27125ae6a02246e6d087d078e35",
+        "bytes": 9830
+      },
+      "prefix数": 63,
+      "成功": true,
+      "場": "2026-11-03_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-04_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Day\\2026-11-04_Day.Native.json.gz",
+        "sha256": "280d14f9cfeac08c92123f3f91f8a94b1deb57345f8f4a9f4b245ebaa4662457"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_5min.csv",
+        "sha256": "cc49c792957239872131f55e75ba8510bcd16d585a09799d2471ca677f58a987",
+        "bytes": 5372
+      },
+      "prefix数": 64,
+      "成功": true,
+      "場": "2026-11-04_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-04_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Night\\2026-11-04_Night.Native.json.gz",
+        "sha256": "014ff954367514d4f7432d20ab7787ce17c66212f7ea6d840a14bcf377b88724"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_5min.csv",
+        "sha256": "22167b0dfbd9cddf24396e927715ed185693d898f7a998c1492d5dff389f75f1",
+        "bytes": 9961
+      },
+      "prefix数": 65,
+      "成功": true,
+      "場": "2026-11-04_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-05_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Day\\2026-11-05_Day.Native.json.gz",
+        "sha256": "769a51d899ecb3ca27376cb83f8e403fbaad9ef3badcbddd90bceb3ece03cded"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_5min.csv",
+        "sha256": "c589260e84dd51b61ba56538c3bae928054ac7d811cf3cac7bc428a9e1d361d3",
+        "bytes": 5424
+      },
+      "prefix数": 66,
+      "成功": true,
+      "場": "2026-11-05_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-05_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Night\\2026-11-05_Night.Native.json.gz",
+        "sha256": "beb5ea06a0e22027ce0d6ff5130c0a6ebd1aa10dc6a9ade8bbe3c8094349a863"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_5min.csv",
+        "sha256": "c226ef711343bfb8d8f9cdf1ce8eea9210a22f3d833a3f63624398ad6e4a1382",
+        "bytes": 9978
+      },
+      "prefix数": 67,
+      "成功": true,
+      "場": "2026-11-05_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-06_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz",
+        "sha256": "45e0a700f00b10316d5bc87ebaad2f44a100a6b9aa74820351a7cf175cd2849d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_5min.csv",
+        "sha256": "8e152242bc9b7efc3043759964226c73bac2216d008ec3bd86b9d61428ddd1e7",
+        "bytes": 5385
+      },
+      "prefix数": 68,
+      "成功": true,
+      "場": "2026-11-06_Day",
+      "比較": {
+        "公表": 122,
+        "OHLC値": 488,
+        "子足": 241,
+        "DMI現前値と計数": 1220
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    },
+    {
+      "session": "2026-11-06_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Night\\2026-11-06_Night.Native.json.gz",
+        "sha256": "61956a8aa2fdbfcbd636d75407ed221cbb91f51cd2b035abea6608f46e21c47d"
+      },
+      "csv": {
+        "path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_5min.csv",
+        "sha256": "badbf921d8e1dee0a634562e5b54d5d3cceb7c44debc8b4da25cf43ed2c55adc",
+        "bytes": 9900
+      },
+      "prefix数": 69,
+      "成功": true,
+      "場": "2026-11-06_Night",
+      "比較": {
+        "公表": 230,
+        "OHLC値": 920,
+        "子足": 457,
+        "DMI現前値と計数": 2300
+      },
+      "入力seed比較数": 30,
+      "末尾seed比較数": 30,
+      "独立式": "Decimal60桁/初期14値の直接平均/差分型RMA",
+      "私有Go seedSHA/EMA等の再計算": false
+    }
+  ],
+  "CSV個別解釈数": 70,
+  "入力SHA256前": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\full70_価格足DMI独立要求.json": "7d1b23240ebbaaa566de4aa6743fb90811dd668eb81662757cb1769523815d0f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\F1_115金融条件.json": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\完了.json": "8bba68dfa7df62d2fa7f40443e4a3cd89f48caa7ed398560ca1ee914e59e714b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\検査_停止版\\停止.json": "df5718acf04495bc690c5a0d0652ba202cb9f970eb2323389f246d70cdbe7a68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査_停止版\\停止.json": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査する.py": "78a252126666a71ea620f0cdd05fde83cfd66d2d2da9374f580fee209361ec5d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\価格足とDMIの純再形成.py": "d85fa5e18b4ad104fc5822d3fb053e1f037226e93d3f6c840b5531fa486ac469",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\人工検査.py": "1917aec96f89bc1a399cd7570b0a6b2a67baa6df5c65e2eb1b98d27268112691",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査して停止する.py": "ca8f7fac9acb92e144f7f8dc3169f58537d6813720e10e325539d7d9d1b77a63",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\README.md": "69c4c1f5112319beb175d0e93e1b31c87a6edabad02e620f972eef847d4ff9c7",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv": "c0d4c82e7dd012177b6d238ac77fc7cc6425bfb168684737fdb03643b5c15abc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_5min.csv": "be31f16cbf2aefd1a6a1d78eb0b0cf54c37a9efd3e72d8ec1272f34e6ae71310",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_5min.csv": "f5a7efc1a75264c91e8b88b35a7b16b4f7452613e5b4027b19c41a8e71578d9b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz": "1ab7f165180c8321c80d00a1ca894a59656204fdbbefbc914bfb4d418bacef62",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_5min.csv": "942c45e77704934ad28dd9fae28f3dbd79307b872ff26ab879d34c5692b95efb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz": "b5d8e753e866ad8978307bea157ba2aee6e48da818e8213947899210f155796c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_5min.csv": "712dad9ea7a739ababc2e12318774c7fbc9a5901ea490dc966846c0977c251dd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz": "c7da94ac9907263e3d2aa8f39d92008f38b8fca154356e693fc3d1c6f345d396",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_5min.csv": "a57e31e58b8cb6fe08ba81b1d5c00903ef0df98816e38cc89613c9ae119851c1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz": "5fcf4fd00e358bbd9c82352b247ecdf16fa565af3f6343a5b76bb4def6b01b95",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_5min.csv": "538f31f8ab8629e9bc2b8ebd5b4b9b83bb6258178faad1f6ced0333e566767fe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz": "2044e65d5cc7528a196b4da800e7d9ccbc6387746a0d6562438910bd056091f1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_5min.csv": "cf1782926468446566374a0ba2bf077466590ad7f3e85268317e35402a789006",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz": "ccdcaee6abdd45ac8577bb49f52b05e035df9c3536e95a85a4a1d36856ca1c42",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_5min.csv": "e059ac3589c79c7a13537d4b38e5060496907b7bb2b4e711f0da3c44471419b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz": "2dde60f010046512c770b0cd8a59a9edd8f866e87478833d00de73c04bcfab29",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_5min.csv": "8628a4342a0d049626cdbf405581ad1b1454f41a476fbea9dd65ad65dcb5a53d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz": "002e24762db7b3cd4ac4b7f587d56f4cfc30285b7b5e73a0c37b8376513cbbe1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_5min.csv": "f8473bdcc0d3072aee4367cc72fad0e5b937db6006599ab4c703c6790499664e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz": "b155e01e96189f25c9b439b73d1b2e2dafec96bda537ad583c582277207fd594",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_5min.csv": "a5532df79661bafaf4f27421dedc4997bdc936488491a11628d3936faad16a57",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz": "243fb30799ac7983cf37d8221702fa04ad9f46cdbfa056d04e10aca04dec5cb0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_5min.csv": "ea2c72f90f7da510d9353e2fb089d1c39336aaa0db6a9af1e404572a6f895b09",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz": "36947ecb667395e551ebe7d852941daf661b838d3d7e963cb43dade6db64457d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_5min.csv": "d5857f654f9163c8f7f8cb50b0ac5f7bb88df9bb2ae223ae487bdfd5c794215f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz": "6d1495a6a6757d59a6455b21711f4dd816cb0160d7136e7c5661c2e8a5ab534c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_5min.csv": "c0a78bf94903d838dab9ff6d069e511d6f129e39f888f916e10d0d48a276216d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz": "90236a769efdcba6402e17ada82ecc6a07ca949deace89cce00fc051a6e202de",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_5min.csv": "f7b6fcb3c53c258abff29eec3b4d46cceac233bab533c311a6b776bdf6b107c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz": "887866c6cab402f5128f49c79c4929058d7ffe10396d52ca72c5df287b46ef9b",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_5min.csv": "e03b1cee05b9293eb08beda2101003e5e9f83154bb9bef2a352e9c3b4ce4ae5a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz": "955b91c60ca28f8f78dc3d62d1037ff475768da9caa0c2767b2f8411784e37f3",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_5min.csv": "3ad75311a455086cef54ab2c8208cf9c6e0a728c8e42f17cf64df888c55c43f0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz": "df9ad94404d2e05dc5640098b90a15053b903df473ee08c4822178678804b63b",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_5min.csv": "0bcb1c809a5ec0dd84be76e49e3221eef7af4bd733965fd501e08705e7287185",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz": "6a600d00a25772726f93499081f7fbfae363d06e2cbbd5472c1ef0f6a661858d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_5min.csv": "063412dcb0050ee69cbe2d997a8f9851e09552f4e61eba5b32376e016ffb69ad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz": "a20844ca73dacde5bbaf3d6edc6f87f39a07fc23f50ccf05249ae3d258d788ff",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_5min.csv": "1df5797ee77d8c3ca91569a2987c9e7ca25edfb7cfeca4c24f904fef18d503c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz": "a1bc92c66aa5c43544fa8e49c0b5631fec6809951d7137d99dce8fe8ca0c14a3",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_5min.csv": "16b76c0315e8ba03b16b3be89f5c3e0386c19e6ef0462b84a755c3f642ce1718",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz": "6defa1087dda118240f3eadca65d589b3dd8271bf5eed677101bf79b8982fc40",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_5min.csv": "9defca2620d96e569964ce01d835473d5726bb442e1ef24e347b3f9f24a71337",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz": "b3d5e7f6a68a8cdf911904422634df0ec38a0558dbcfdb12a6287082a4caec57",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_5min.csv": "69344daf3ef429756e48f4f33dd240b47161f8581f093bfa9ac79a3a056ca861",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz": "d55f426e9f4fc74b21a9ea145f83697c83d70eaa071f65b8e311c59638ab75ae",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_5min.csv": "0d34d5e4f90b93e271c58eff747462a86e6c9c5ad17d1eb4394f692e8f7dba62",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz": "bc9605074b78e720ee1676152fbb006af18839fa07505cc1151dd33066e4205d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_5min.csv": "b53b66f330e6bf65ea738d6ff4811831c97a44cb0f0036124e87931dd860c0ef",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz": "bb02aa070399ca9908fa975546969812f55c5862a1cdf3f9de6d5cd84ccb721e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_5min.csv": "2e338461c06c15a6ac4b1f18bb64514ebb51c940b96fab1439e7c582f814cd2f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz": "ccff570013d2ecdc3dc9b4f2b36848cfd6bfc6752d484198721d56ca0355cab9",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_5min.csv": "38927235538acf5f2b2c7e37e0f1bd3c2d33b701559307a225c1fd7d1ed11e8e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz": "0baa117dbefc43ad3082c20299889de913f9deb7d220986c3878d94e3ad65f10",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_5min.csv": "9456e15dc9e8c80ba5c44d22b83229c517a7c630a15bad0527c390005654df00",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz": "a8ebf133f08c02716fad13731b9650a49d0cd44d0acc970a7965b6e66bb05fd6",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_5min.csv": "035e7a293d71f0483753eb40e610bacfa08042f13725089b7f6ee8623b25ff22",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz": "6229a38446b57ea405cdcd110f16d4a021901f3bf4fef7a41e94b67270c2303c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_5min.csv": "bfb4a24b50c2020f1828583a5c7673d355b8421b456462e4453b5e52b4a74c19",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz": "af017e438067ad05112e8af2aba7bfcdccd2db6947fd0f9c6ee02781668247d4",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_5min.csv": "fcd86863855aae751f358518b5980f33d9bd736fd2275c8437bee5c25aef9f99",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz": "8f85085060a42830f96f3691669030280dabe1ee9e37aa5fbe0795013a86a5c4",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_5min.csv": "09fc6296bfc08ead9727e89613246aa964f917bfd153b53107e9305c0b661140",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz": "37b14101dee1d57580fe927250116904fb9cd204d5d051ce6c2ffe79aa0beecc",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_5min.csv": "0a8d1cf83ca59c02058deb4c31727ccef9d929a00992cce447b2c79a3454f4c2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz": "691aeee8c022eb6d4669afd7f6aa3eb503131d86e11ac320cfb2d106ea0858e6",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_5min.csv": "486ed62b26c7eb53087d6e5f190c6f78943f8069bd6cef3211cab65bdb4cfeae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz": "067ea95d1e8ae4786e083ac4c772778e1de7deec718a9c6f87bac03393d84331",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_5min.csv": "3ce724d692ae52fb5aca692a4af640796ee7e1ac2001f1e98cbda9ad561fef47",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz": "a6872a324f059320bd21084f15feba3b301fa35aab620136b472f37160b6469f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_5min.csv": "9c676cd821971a37f48af16802667b50adabcd1eb6c7e159a74a5e2d15668865",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz": "cc304b02de2b4cd0c34644e64e013d36696e248a771c4ae3cee395d9e30b7c8b",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_5min.csv": "3866ca15af4a969be7ec11c8ba530b6718274fc1ad1064891a5c430cecdeecac",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz": "ec7456d77b4c7347253e394cba953d76ebfe2d7b37d0e1638e30c9e46ae382ae",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_5min.csv": "76866d25eb80ecfe54e0c93da7fcd257b2e7c77b4d4115339b5da36dedc7542b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz": "3cee215c8150c7f08059899afaf289b1c8a8b520abc2c39e9cb3ebae99232919",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_5min.csv": "4341be8d24af6091fe362775b1c89378c4b93d07612483c5aea40f43e56770c4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz": "c9fe26ffc7ce62119829e1e402f363d643053d744db9a94c9396749591210474",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_5min.csv": "349894c72536c0e54c79b4c9b6c24d1d47e8e8020c1a649afbfcdbd758c6ca25",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz": "6d6e9f69e6b8a30d590c93eb8630ee6a65cff04493a40c1af8d494ef159252cf",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_5min.csv": "753d25bf135a4435daa46d754ff40817c7cd6423d95000ba15b4956ae6d42586",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz": "ebc62f4d4ff2f5a0adb5762c7392df308be4a02eafff1e7af0a2b40b9b05ba4f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_5min.csv": "9f396fd2b58735e289cd16f5063626a9beb58cf05df2b0899e9e84f8b04bd995",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz": "104bb267560ea68c2a525a6c705a62832e4fd5481d30b313a4b9478658dd8974",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_5min.csv": "91c73ceb10af7d3eba9c0062d14e6aa4c3b44162681a8616b1463b4958b1c756",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz": "8f75208dc149a68dd6b8a3ecbcf348a89da43015db4e4bb9d3ba6bdd79226b1c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_5min.csv": "a431fc1ad239d00ae3532ba6ca439948eb13dde5de1c5be57beb560f0017e85d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz": "f45c34c1039b0a8a2f2779d11737b7a3be797c4d83beabe7d9a6d7731a707f6e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_5min.csv": "ea61c7dda0db6d606ec1cf4cf09ab31007fb05040c0c1202d6d731997df261c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz": "0fc542b9d79f187c9bf21df752c9b02f55c077707a006dc2138eef15558a924d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_5min.csv": "6cf9b0132ed4a77367237a068a21a9a48d2e3df11cb7a2739d3eaa95aee9af8a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz": "71c72f8f3944ee843b6e0f2b06262570929a1f4d21d9be4d5b022218f387ac7e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_5min.csv": "85dc93ca5d3057e2779953b2938691dc668ec836ec7fd85b0543cfb9c7f80322",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz": "9cefcce020c4955cf5b2e77576fe76a223cae6d761899caf4e773a8cb3be48a3",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_5min.csv": "6f0ca78bcf8fd40ea7352b37490909e809bf03a0f384ac9fcc11fdf8b7af1cce",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz": "7a8ab19a0b692e3b614d5693b5eb2a85fc13792bc3ea8ed9d5b8a345ae1b5ad1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_5min.csv": "460c2dff090cd81ed5473d90e5784e236de41c290dae61550a02dc3a5dfd2fb5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz": "dc9a1bd9e61b55eb1414fa6829528b9fb5149c3637aa76b075931b8a58baf689",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_5min.csv": "5fd1952af78dc79766410a5e9ed90358d4d8ea3b90d2cdc993d219b5afbb60d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz": "fc1f3da36204992999fac8a1db0eb8be0d0510ac76e54b2d308d025fcdfa8dc0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_5min.csv": "b55e3d5bf9c859e7504e6a438bc8c72180c7d00158d9fdc265f24881c9309222",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz": "99b5aae8927583fd0cf38446bd66652c4ad6f1a8a03c93f5a4658faa049479fc",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_5min.csv": "d27f774c0fb2bd95715caabf948a078d97d2bbc6dd16a1c817014f4fde4331d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz": "80f136f4ff181d7bdfb24c3f51b177ef0bc9b9ff613a2d859eb0edeee8a4c49d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_5min.csv": "9b0358a1c21b0d60a8cb236d3c11a7faa3c898bf28e9f80254c200c1b5a97d2e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz": "c373ad91ff2b1c2d5c30df2cf35544679883af52da8b46748f778e94dde9666e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_5min.csv": "3c26bea2e5d16a1fefbf440b4f6a2712d8f434f3262248523afe6c9c4f010a3b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Day\\2026-10-28_Day.Native.json.gz": "6d21f646bca742a4afb6eb7490e35bfbb57506b90968c5840904cc0eece347f1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_5min.csv": "91d6318ef20dab92735c59e952e643d993c460e1b024020ddf2ea9d147aac54f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Night\\2026-10-28_Night.Native.json.gz": "8192497694aa6191af00b5890196a6a333cfe0c51e850e9b29eb519143f52643",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_5min.csv": "cae4ee29533bf1d2a5a808601b8a6b96495376746f0f6d0bc142e0a2e88683bc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Day\\2026-10-29_Day.Native.json.gz": "95318065a7fe5d4628b8a5b5e277f0ecabee2fe57065fe3d5249144b3404a617",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_5min.csv": "d4f022733b7ab81c21422058b7bde90554cead705e243d02ac4b2c1b888636af",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Night\\2026-10-29_Night.Native.json.gz": "58580a82e0c7a2d946df8f9edde6857968c3afca67f48588dc1da224ca13fe48",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_5min.csv": "6615c37c3b5a56779491d6b3c5e56719e00d1bd9ee09b6b8999aa7159f91aebf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Day\\2026-10-30_Day.Native.json.gz": "8860c3645060cfe2274063703d1eb5fe874a8da440c5c940776f16a95949809a",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_5min.csv": "553978abd165e732b6be7e178a6e5d8274d7aea834e6cfa6a110e4940fb39334",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Night\\2026-10-30_Night.Native.json.gz": "6824e0878d00b95c63171201e967f8b4531ad334de373146762e89f6cc77cb54",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_5min.csv": "68f717644d0f29e0100c741db4287a1f52d820be10019893188f33e5ee5febd3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Day\\2026-11-02_Day.Native.json.gz": "e53db2609ca57384b2d061bb0c6578bc2466299dd539e04c5a0a8c6fbce01898",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_5min.csv": "b377ad20ac583c19f565626ec859c913e462493a6832743b45cb6f81d43b6941",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Night\\2026-11-02_Night.Native.json.gz": "db9db51f6529028bb5d7813575d2f629be4bfef0ef4089ca7d6e2d60bed66e57",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_5min.csv": "b71a3b7d6a82cf0552b6246cb199e5d5bba681f47735cef9b4e9378cba26baff",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Day\\2026-11-03_Day.Native.json.gz": "9fd838ba5d2b4689f1f41cbf2845a0a7320d3894bd60c65346cc3591a0715a3f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_5min.csv": "c0d5ca425a789d187773ad8ad28465bd1e63c27125ae6a02246e6d087d078e35",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Night\\2026-11-03_Night.Native.json.gz": "044a213f83972b30c460a9687fed1a19d41b1b6c0162bacf990ccbe2f6570ce2",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_5min.csv": "cc49c792957239872131f55e75ba8510bcd16d585a09799d2471ca677f58a987",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Day\\2026-11-04_Day.Native.json.gz": "280d14f9cfeac08c92123f3f91f8a94b1deb57345f8f4a9f4b245ebaa4662457",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_5min.csv": "22167b0dfbd9cddf24396e927715ed185693d898f7a998c1492d5dff389f75f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Night\\2026-11-04_Night.Native.json.gz": "014ff954367514d4f7432d20ab7787ce17c66212f7ea6d840a14bcf377b88724",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_5min.csv": "c589260e84dd51b61ba56538c3bae928054ac7d811cf3cac7bc428a9e1d361d3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Day\\2026-11-05_Day.Native.json.gz": "769a51d899ecb3ca27376cb83f8e403fbaad9ef3badcbddd90bceb3ece03cded",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_5min.csv": "c226ef711343bfb8d8f9cdf1ce8eea9210a22f3d833a3f63624398ad6e4a1382",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Night\\2026-11-05_Night.Native.json.gz": "beb5ea06a0e22027ce0d6ff5130c0a6ebd1aa10dc6a9ade8bbe3c8094349a863",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_5min.csv": "8e152242bc9b7efc3043759964226c73bac2216d008ec3bd86b9d61428ddd1e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz": "45e0a700f00b10316d5bc87ebaad2f44a100a6b9aa74820351a7cf175cd2849d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_5min.csv": "badbf921d8e1dee0a634562e5b54d5d3cceb7c44debc8b4da25cf43ed2c55adc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Night\\2026-11-06_Night.Native.json.gz": "61956a8aa2fdbfcbd636d75407ed221cbb91f51cd2b035abea6608f46e21c47d"
+  },
+  "入力SHA256後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\full70_価格足DMI独立要求.json": "7d1b23240ebbaaa566de4aa6743fb90811dd668eb81662757cb1769523815d0f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\F1_115金融条件.json": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\完了.json": "8bba68dfa7df62d2fa7f40443e4a3cd89f48caa7ed398560ca1ee914e59e714b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00106_収束失速で保護の起動と幅を切り替える\\入力台帳_70場.json": "902c6b5147763de172c0199f79b13cdc08f9a5636b05e0575f19bffd2da627e8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸と方向性の公開\\検査_停止版\\停止.json": "df5718acf04495bc690c5a0d0652ba202cb9f970eb2323389f246d70cdbe7a68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査_停止版\\停止.json": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査する.py": "78a252126666a71ea620f0cdd05fde83cfd66d2d2da9374f580fee209361ec5d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\価格足とDMIの純再形成.py": "d85fa5e18b4ad104fc5822d3fb053e1f037226e93d3f6c840b5531fa486ac469",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\人工検査.py": "1917aec96f89bc1a399cd7570b0a6b2a67baa6df5c65e2eb1b98d27268112691",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\検査して停止する.py": "ca8f7fac9acb92e144f7f8dc3169f58537d6813720e10e325539d7d9d1b77a63",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115価格足とDMIを独立検査する\\README.md": "69c4c1f5112319beb175d0e93e1b31c87a6edabad02e620f972eef847d4ff9c7",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\candle_5min.csv": "c0d4c82e7dd012177b6d238ac77fc7cc6425bfb168684737fdb03643b5c15abc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\candle_5min.csv": "be31f16cbf2aefd1a6a1d78eb0b0cf54c37a9efd3e72d8ec1272f34e6ae71310",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\candle_5min.csv": "f5a7efc1a75264c91e8b88b35a7b16b4f7452613e5b4027b19c41a8e71578d9b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz": "1ab7f165180c8321c80d00a1ca894a59656204fdbbefbc914bfb4d418bacef62",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\candle_5min.csv": "942c45e77704934ad28dd9fae28f3dbd79307b872ff26ab879d34c5692b95efb",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz": "b5d8e753e866ad8978307bea157ba2aee6e48da818e8213947899210f155796c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\candle_5min.csv": "712dad9ea7a739ababc2e12318774c7fbc9a5901ea490dc966846c0977c251dd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz": "c7da94ac9907263e3d2aa8f39d92008f38b8fca154356e693fc3d1c6f345d396",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\candle_5min.csv": "a57e31e58b8cb6fe08ba81b1d5c00903ef0df98816e38cc89613c9ae119851c1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz": "5fcf4fd00e358bbd9c82352b247ecdf16fa565af3f6343a5b76bb4def6b01b95",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\candle_5min.csv": "538f31f8ab8629e9bc2b8ebd5b4b9b83bb6258178faad1f6ced0333e566767fe",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz": "2044e65d5cc7528a196b4da800e7d9ccbc6387746a0d6562438910bd056091f1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\candle_5min.csv": "cf1782926468446566374a0ba2bf077466590ad7f3e85268317e35402a789006",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz": "ccdcaee6abdd45ac8577bb49f52b05e035df9c3536e95a85a4a1d36856ca1c42",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\candle_5min.csv": "e059ac3589c79c7a13537d4b38e5060496907b7bb2b4e711f0da3c44471419b9",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz": "2dde60f010046512c770b0cd8a59a9edd8f866e87478833d00de73c04bcfab29",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\candle_5min.csv": "8628a4342a0d049626cdbf405581ad1b1454f41a476fbea9dd65ad65dcb5a53d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz": "002e24762db7b3cd4ac4b7f587d56f4cfc30285b7b5e73a0c37b8376513cbbe1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\candle_5min.csv": "f8473bdcc0d3072aee4367cc72fad0e5b937db6006599ab4c703c6790499664e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz": "b155e01e96189f25c9b439b73d1b2e2dafec96bda537ad583c582277207fd594",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\candle_5min.csv": "a5532df79661bafaf4f27421dedc4997bdc936488491a11628d3936faad16a57",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz": "243fb30799ac7983cf37d8221702fa04ad9f46cdbfa056d04e10aca04dec5cb0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\candle_5min.csv": "ea2c72f90f7da510d9353e2fb089d1c39336aaa0db6a9af1e404572a6f895b09",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz": "36947ecb667395e551ebe7d852941daf661b838d3d7e963cb43dade6db64457d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\candle_5min.csv": "d5857f654f9163c8f7f8cb50b0ac5f7bb88df9bb2ae223ae487bdfd5c794215f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz": "6d1495a6a6757d59a6455b21711f4dd816cb0160d7136e7c5661c2e8a5ab534c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\candle_5min.csv": "c0a78bf94903d838dab9ff6d069e511d6f129e39f888f916e10d0d48a276216d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz": "90236a769efdcba6402e17ada82ecc6a07ca949deace89cce00fc051a6e202de",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\candle_5min.csv": "f7b6fcb3c53c258abff29eec3b4d46cceac233bab533c311a6b776bdf6b107c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz": "887866c6cab402f5128f49c79c4929058d7ffe10396d52ca72c5df287b46ef9b",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\candle_5min.csv": "e03b1cee05b9293eb08beda2101003e5e9f83154bb9bef2a352e9c3b4ce4ae5a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz": "955b91c60ca28f8f78dc3d62d1037ff475768da9caa0c2767b2f8411784e37f3",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\candle_5min.csv": "3ad75311a455086cef54ab2c8208cf9c6e0a728c8e42f17cf64df888c55c43f0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz": "df9ad94404d2e05dc5640098b90a15053b903df473ee08c4822178678804b63b",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\candle_5min.csv": "0bcb1c809a5ec0dd84be76e49e3221eef7af4bd733965fd501e08705e7287185",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz": "6a600d00a25772726f93499081f7fbfae363d06e2cbbd5472c1ef0f6a661858d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\candle_5min.csv": "063412dcb0050ee69cbe2d997a8f9851e09552f4e61eba5b32376e016ffb69ad",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz": "a20844ca73dacde5bbaf3d6edc6f87f39a07fc23f50ccf05249ae3d258d788ff",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\candle_5min.csv": "1df5797ee77d8c3ca91569a2987c9e7ca25edfb7cfeca4c24f904fef18d503c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz": "a1bc92c66aa5c43544fa8e49c0b5631fec6809951d7137d99dce8fe8ca0c14a3",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\candle_5min.csv": "16b76c0315e8ba03b16b3be89f5c3e0386c19e6ef0462b84a755c3f642ce1718",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz": "6defa1087dda118240f3eadca65d589b3dd8271bf5eed677101bf79b8982fc40",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\candle_5min.csv": "9defca2620d96e569964ce01d835473d5726bb442e1ef24e347b3f9f24a71337",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz": "b3d5e7f6a68a8cdf911904422634df0ec38a0558dbcfdb12a6287082a4caec57",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\candle_5min.csv": "69344daf3ef429756e48f4f33dd240b47161f8581f093bfa9ac79a3a056ca861",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz": "d55f426e9f4fc74b21a9ea145f83697c83d70eaa071f65b8e311c59638ab75ae",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\candle_5min.csv": "0d34d5e4f90b93e271c58eff747462a86e6c9c5ad17d1eb4394f692e8f7dba62",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz": "bc9605074b78e720ee1676152fbb006af18839fa07505cc1151dd33066e4205d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\candle_5min.csv": "b53b66f330e6bf65ea738d6ff4811831c97a44cb0f0036124e87931dd860c0ef",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz": "bb02aa070399ca9908fa975546969812f55c5862a1cdf3f9de6d5cd84ccb721e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\candle_5min.csv": "2e338461c06c15a6ac4b1f18bb64514ebb51c940b96fab1439e7c582f814cd2f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz": "ccff570013d2ecdc3dc9b4f2b36848cfd6bfc6752d484198721d56ca0355cab9",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\candle_5min.csv": "38927235538acf5f2b2c7e37e0f1bd3c2d33b701559307a225c1fd7d1ed11e8e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz": "0baa117dbefc43ad3082c20299889de913f9deb7d220986c3878d94e3ad65f10",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\candle_5min.csv": "9456e15dc9e8c80ba5c44d22b83229c517a7c630a15bad0527c390005654df00",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz": "a8ebf133f08c02716fad13731b9650a49d0cd44d0acc970a7965b6e66bb05fd6",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\candle_5min.csv": "035e7a293d71f0483753eb40e610bacfa08042f13725089b7f6ee8623b25ff22",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz": "6229a38446b57ea405cdcd110f16d4a021901f3bf4fef7a41e94b67270c2303c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\candle_5min.csv": "bfb4a24b50c2020f1828583a5c7673d355b8421b456462e4453b5e52b4a74c19",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz": "af017e438067ad05112e8af2aba7bfcdccd2db6947fd0f9c6ee02781668247d4",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\candle_5min.csv": "fcd86863855aae751f358518b5980f33d9bd736fd2275c8437bee5c25aef9f99",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz": "8f85085060a42830f96f3691669030280dabe1ee9e37aa5fbe0795013a86a5c4",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\candle_5min.csv": "09fc6296bfc08ead9727e89613246aa964f917bfd153b53107e9305c0b661140",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz": "37b14101dee1d57580fe927250116904fb9cd204d5d051ce6c2ffe79aa0beecc",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\candle_5min.csv": "0a8d1cf83ca59c02058deb4c31727ccef9d929a00992cce447b2c79a3454f4c2",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz": "691aeee8c022eb6d4669afd7f6aa3eb503131d86e11ac320cfb2d106ea0858e6",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\candle_5min.csv": "486ed62b26c7eb53087d6e5f190c6f78943f8069bd6cef3211cab65bdb4cfeae",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz": "067ea95d1e8ae4786e083ac4c772778e1de7deec718a9c6f87bac03393d84331",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\candle_5min.csv": "3ce724d692ae52fb5aca692a4af640796ee7e1ac2001f1e98cbda9ad561fef47",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz": "a6872a324f059320bd21084f15feba3b301fa35aab620136b472f37160b6469f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\candle_5min.csv": "9c676cd821971a37f48af16802667b50adabcd1eb6c7e159a74a5e2d15668865",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz": "cc304b02de2b4cd0c34644e64e013d36696e248a771c4ae3cee395d9e30b7c8b",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\candle_5min.csv": "3866ca15af4a969be7ec11c8ba530b6718274fc1ad1064891a5c430cecdeecac",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz": "ec7456d77b4c7347253e394cba953d76ebfe2d7b37d0e1638e30c9e46ae382ae",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\candle_5min.csv": "76866d25eb80ecfe54e0c93da7fcd257b2e7c77b4d4115339b5da36dedc7542b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz": "3cee215c8150c7f08059899afaf289b1c8a8b520abc2c39e9cb3ebae99232919",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\candle_5min.csv": "4341be8d24af6091fe362775b1c89378c4b93d07612483c5aea40f43e56770c4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz": "c9fe26ffc7ce62119829e1e402f363d643053d744db9a94c9396749591210474",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\candle_5min.csv": "349894c72536c0e54c79b4c9b6c24d1d47e8e8020c1a649afbfcdbd758c6ca25",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz": "6d6e9f69e6b8a30d590c93eb8630ee6a65cff04493a40c1af8d494ef159252cf",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\candle_5min.csv": "753d25bf135a4435daa46d754ff40817c7cd6423d95000ba15b4956ae6d42586",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz": "ebc62f4d4ff2f5a0adb5762c7392df308be4a02eafff1e7af0a2b40b9b05ba4f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\candle_5min.csv": "9f396fd2b58735e289cd16f5063626a9beb58cf05df2b0899e9e84f8b04bd995",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz": "104bb267560ea68c2a525a6c705a62832e4fd5481d30b313a4b9478658dd8974",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\candle_5min.csv": "91c73ceb10af7d3eba9c0062d14e6aa4c3b44162681a8616b1463b4958b1c756",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz": "8f75208dc149a68dd6b8a3ecbcf348a89da43015db4e4bb9d3ba6bdd79226b1c",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\candle_5min.csv": "a431fc1ad239d00ae3532ba6ca439948eb13dde5de1c5be57beb560f0017e85d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz": "f45c34c1039b0a8a2f2779d11737b7a3be797c4d83beabe7d9a6d7731a707f6e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\candle_5min.csv": "ea61c7dda0db6d606ec1cf4cf09ab31007fb05040c0c1202d6d731997df261c3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz": "0fc542b9d79f187c9bf21df752c9b02f55c077707a006dc2138eef15558a924d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\candle_5min.csv": "6cf9b0132ed4a77367237a068a21a9a48d2e3df11cb7a2739d3eaa95aee9af8a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz": "71c72f8f3944ee843b6e0f2b06262570929a1f4d21d9be4d5b022218f387ac7e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\candle_5min.csv": "85dc93ca5d3057e2779953b2938691dc668ec836ec7fd85b0543cfb9c7f80322",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz": "9cefcce020c4955cf5b2e77576fe76a223cae6d761899caf4e773a8cb3be48a3",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\candle_5min.csv": "6f0ca78bcf8fd40ea7352b37490909e809bf03a0f384ac9fcc11fdf8b7af1cce",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz": "7a8ab19a0b692e3b614d5693b5eb2a85fc13792bc3ea8ed9d5b8a345ae1b5ad1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\candle_5min.csv": "460c2dff090cd81ed5473d90e5784e236de41c290dae61550a02dc3a5dfd2fb5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz": "dc9a1bd9e61b55eb1414fa6829528b9fb5149c3637aa76b075931b8a58baf689",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\candle_5min.csv": "5fd1952af78dc79766410a5e9ed90358d4d8ea3b90d2cdc993d219b5afbb60d4",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz": "fc1f3da36204992999fac8a1db0eb8be0d0510ac76e54b2d308d025fcdfa8dc0",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\candle_5min.csv": "b55e3d5bf9c859e7504e6a438bc8c72180c7d00158d9fdc265f24881c9309222",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz": "99b5aae8927583fd0cf38446bd66652c4ad6f1a8a03c93f5a4658faa049479fc",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\candle_5min.csv": "d27f774c0fb2bd95715caabf948a078d97d2bbc6dd16a1c817014f4fde4331d0",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz": "80f136f4ff181d7bdfb24c3f51b177ef0bc9b9ff613a2d859eb0edeee8a4c49d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\candle_5min.csv": "9b0358a1c21b0d60a8cb236d3c11a7faa3c898bf28e9f80254c200c1b5a97d2e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz": "c373ad91ff2b1c2d5c30df2cf35544679883af52da8b46748f778e94dde9666e",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\candle_5min.csv": "3c26bea2e5d16a1fefbf440b4f6a2712d8f434f3262248523afe6c9c4f010a3b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Day\\2026-10-28_Day.Native.json.gz": "6d21f646bca742a4afb6eb7490e35bfbb57506b90968c5840904cc0eece347f1",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\candle_5min.csv": "91d6318ef20dab92735c59e952e643d993c460e1b024020ddf2ea9d147aac54f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Night\\2026-10-28_Night.Native.json.gz": "8192497694aa6191af00b5890196a6a333cfe0c51e850e9b29eb519143f52643",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\candle_5min.csv": "cae4ee29533bf1d2a5a808601b8a6b96495376746f0f6d0bc142e0a2e88683bc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Day\\2026-10-29_Day.Native.json.gz": "95318065a7fe5d4628b8a5b5e277f0ecabee2fe57065fe3d5249144b3404a617",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\candle_5min.csv": "d4f022733b7ab81c21422058b7bde90554cead705e243d02ac4b2c1b888636af",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Night\\2026-10-29_Night.Native.json.gz": "58580a82e0c7a2d946df8f9edde6857968c3afca67f48588dc1da224ca13fe48",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\candle_5min.csv": "6615c37c3b5a56779491d6b3c5e56719e00d1bd9ee09b6b8999aa7159f91aebf",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Day\\2026-10-30_Day.Native.json.gz": "8860c3645060cfe2274063703d1eb5fe874a8da440c5c940776f16a95949809a",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\candle_5min.csv": "553978abd165e732b6be7e178a6e5d8274d7aea834e6cfa6a110e4940fb39334",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Night\\2026-10-30_Night.Native.json.gz": "6824e0878d00b95c63171201e967f8b4531ad334de373146762e89f6cc77cb54",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\candle_5min.csv": "68f717644d0f29e0100c741db4287a1f52d820be10019893188f33e5ee5febd3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Day\\2026-11-02_Day.Native.json.gz": "e53db2609ca57384b2d061bb0c6578bc2466299dd539e04c5a0a8c6fbce01898",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\candle_5min.csv": "b377ad20ac583c19f565626ec859c913e462493a6832743b45cb6f81d43b6941",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Night\\2026-11-02_Night.Native.json.gz": "db9db51f6529028bb5d7813575d2f629be4bfef0ef4089ca7d6e2d60bed66e57",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\candle_5min.csv": "b71a3b7d6a82cf0552b6246cb199e5d5bba681f47735cef9b4e9378cba26baff",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Day\\2026-11-03_Day.Native.json.gz": "9fd838ba5d2b4689f1f41cbf2845a0a7320d3894bd60c65346cc3591a0715a3f",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\candle_5min.csv": "c0d5ca425a789d187773ad8ad28465bd1e63c27125ae6a02246e6d087d078e35",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Night\\2026-11-03_Night.Native.json.gz": "044a213f83972b30c460a9687fed1a19d41b1b6c0162bacf990ccbe2f6570ce2",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\candle_5min.csv": "cc49c792957239872131f55e75ba8510bcd16d585a09799d2471ca677f58a987",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Day\\2026-11-04_Day.Native.json.gz": "280d14f9cfeac08c92123f3f91f8a94b1deb57345f8f4a9f4b245ebaa4662457",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\candle_5min.csv": "22167b0dfbd9cddf24396e927715ed185693d898f7a998c1492d5dff389f75f1",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Night\\2026-11-04_Night.Native.json.gz": "014ff954367514d4f7432d20ab7787ce17c66212f7ea6d840a14bcf377b88724",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\candle_5min.csv": "c589260e84dd51b61ba56538c3bae928054ac7d811cf3cac7bc428a9e1d361d3",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Day\\2026-11-05_Day.Native.json.gz": "769a51d899ecb3ca27376cb83f8e403fbaad9ef3badcbddd90bceb3ece03cded",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Night\\candle_5min.csv": "c226ef711343bfb8d8f9cdf1ce8eea9210a22f3d833a3f63624398ad6e4a1382",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Night\\2026-11-05_Night.Native.json.gz": "beb5ea06a0e22027ce0d6ff5130c0a6ebd1aa10dc6a9ade8bbe3c8094349a863",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Day\\candle_5min.csv": "8e152242bc9b7efc3043759964226c73bac2216d008ec3bd86b9d61428ddd1e7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz": "45e0a700f00b10316d5bc87ebaad2f44a100a6b9aa74820351a7cf175cd2849d",
+    "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-06_Night\\candle_5min.csv": "badbf921d8e1dee0a634562e5b54d5d3cceb7c44debc8b4da25cf43ed2c55adc",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Night\\2026-11-06_Night.Native.json.gz": "61956a8aa2fdbfcbd636d75407ed221cbb91f51cd2b035abea6608f46e21c47d"
+  },
+  "前後不変": true,
+  "比較絶対許容差": "1E-8",
+  "金融損益再計算": false,
+  "Raw/11月09本文読取": false,
+  "限界": [
+    "価格足とDMIをCSVから別式形成。RawからCSVを再形成した証明ではない。",
+    "GoのID/私有seedSHA/EMA/RSI/MACD/ATR/pivotの数値再形成は対象外。",
+    "実受信時刻とRaw上で最初の公表可能行という初回性は対象外。"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "trial": 115,
+  "fixed": true,
+  "market_native_read_authorized": true,
+  "stage": "first2",
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\F1_115金融条件.json",
+    "sha256": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\完了.json",
+    "sha256": "24968cf1b92440a8088927d6698d7ca615ffdf71010c62b4aa1182163488f73b"
+  },
+  "code_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸入口の独立会計と保存\\会計停止.json",
+    "sha256": "80fbaf10f60d9f30d17720e13e372d5f25535e0ff47e2cefea9c38887fe1e3d7"
+  },
+  "P_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸入口の独立会計と保存\\P停止.json",
+    "sha256": "fb3f87e996829d80c05a2784d041d7f8932cf8e2dfd470cfdb34a65f63eb15c5"
+  },
+  "actor_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸の複合入口を執行する会計\\Actor停止.json",
+    "sha256": "318de27a32a0941114443e5045426df3599eea74e8e5ffa8647771e92934ce35"
+  },
+  "protection_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸入口の独立会計と保存\\新保護の独立監査.py",
+    "sha256": "101706a5e75cbe2bfda9cb916db83203cd8522a01f118798ee78d8c37d568eec"
+  },
+  "entry_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115入口判定を独立検算する\\停止.json",
+    "sha256": "d7518d60e73e62b68e025e2bff50adec42dbd111ede7e075e365a8b0076df79e"
+  },
+  "entry_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115入口判定を独立検算する\\検算する.py",
+    "sha256": "7195ce4420b835117630f0e5e03a657bd768f26308707e9ec35dd771c2c8fa24"
+  },
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-21_Day.Native.json.gz",
+        "sha256": "bb6cd7b591bf4910aeb6f28840e7566184f998809fbd10ec7bc7c97a7aeaeec6"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\先頭2場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-21_Night.Native.json.gz",
+        "sha256": "0041580448bcd166e483627d552a370e57f85721f28f912041620b26619a395d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz"
+    }
+  ]
+}

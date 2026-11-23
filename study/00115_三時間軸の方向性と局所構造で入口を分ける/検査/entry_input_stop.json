@@ -1,0 +1,54 @@
+{
+  "成功": true,
+  "範囲": "人工CSVの解釈・入力指紋と欠足/未知の保持のみ",
+  "所有コードSHA256": {
+    "work\\三時間軸の市場入力口\\go.mod": "9354dc403283cd78a654637eeb4a24a1650a9a19923eae47641781ef5d82e33c",
+    "work\\三時間軸の市場入力口\\candle.go": "82b8283445fc16f10c6339b7d01ca5e00f41ec17e9c91e608295391529c9d137",
+    "work\\三時間軸の市場入力口\\candle_test.go": "d10db77bd84897879a1254903a079d977752d7bbf6616986d3dc584b3715a13b",
+    "work\\三時間軸の市場入力口\\README.md": "814587608ccdf7871cef67a171283abd4e26057b6499625058366430e87c410c",
+    "work\\三時間軸の市場入力口\\検査と停止を記録する.py": "8e2f4d0d7bbb3c2646e3293907ee99233807ea7a0c2d4f3c3e319747fa48c7ee"
+  },
+  "前後不変": true,
+  "公開器停止": {
+    "path": "work\\三時間軸の公開器\\停止.json",
+    "sha256": "b6b1a326cc98f67e13ec1962a19bac001eda743880b74a13066a2307c5944895"
+  },
+  "検査": [
+    {
+      "command": [
+        "go",
+        "test",
+        "-json",
+        "-count=1",
+        "./..."
+      ],
+      "exit_code": 0,
+      "path": "work\\三時間軸の市場入力口\\検査\\人工検査.txt",
+      "sha256": "aef67276ffddaf3ee97fbf7e3430438b7f68f8157bbde4f69d013cb8553e1ce6"
+    },
+    {
+      "command": [
+        "go",
+        "vet",
+        "./..."
+      ],
+      "exit_code": 0,
+      "path": "work\\三時間軸の市場入力口\\検査\\静的検査.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "go",
+        "build",
+        "./..."
+      ],
+      "exit_code": 0,
+      "path": "work\\三時間軸の市場入力口\\検査\\ビルド.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "Go版": "go version go1.24.2 windows/amd64",
+  "実市場値読取": 0,
+  "新11月09日本文読取": 0,
+  "金融実行": 0
+}

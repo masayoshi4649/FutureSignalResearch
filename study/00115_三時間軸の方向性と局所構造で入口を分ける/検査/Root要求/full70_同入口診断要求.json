@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "trial": 115,
+  "fixed": true,
+  "market_native_read_authorized": true,
+  "legacy114_read_authorized": true,
+  "stage": "full70",
+  "comparison_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115同入口と三時間軸の実現差\\停止.json",
+    "sha256": "f6191f67b5297696950373f83c2f19d1ca0efed20d70c7c9bc6a9f47ff38cbb1"
+  },
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\F1_115金融条件.json",
+    "sha256": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\完了.json",
+    "sha256": "8bba68dfa7df62d2fa7f40443e4a3cd89f48caa7ed398560ca1ee914e59e714b"
+  },
+  "saved_result": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115独立保存F1\\全70場\\結果.json",
+    "sha256": "b4d9df3568098a73d38a670a9cca7a7dc0e6b4d79fe07a8ae8dd21d9cf6293df"
+  },
+  "saved_check": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115独立保存F1\\全70場\\保存会計の確認.json",
+    "sha256": "9781d80ca7213e541317f317c3b95c562111ec1590b435686e1682952444e730"
+  },
+  "entry_check": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115入口独立F1\\全70場\\結果.json",
+    "sha256": "a81d51508228a3e048d4b1241e299b9daac8afc6ea100c32c5e846980dba428e"
+  },
+  "output_dir": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115同入口と三時間軸の実現差\\全70の実現差",
+  "未固定項目": [
+    "Root全70成功後のcompletion/saved_result/saved_check/entry_check",
+    "Rootによる新旧Native読取の明示解禁とfixed=true"
+  ],
+  "対照数": 22
+}

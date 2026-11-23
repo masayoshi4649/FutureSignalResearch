@@ -1,0 +1,164 @@
+{
+  "試行": 115,
+  "成功": true,
+  "レビュー": "正式保存metadata・コード所在索引・Root要求の限定read-only",
+  "訂正前レビュー": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115最終レビュー\\正式保存metadataのレビュー.json",
+    "sha256": "62be056562adb07f0210bfffd0ac6fefddeead83506e3eb62e1a4b23bbbd8499"
+  },
+  "前回失敗の原因": "レビュー側がextraの削除1件だけを想定し、訂正proof追加1件を数えず総数差1を要求した誤判定。初回/後継とも21件、refsとCSVに不一致なし。元失敗JSONは保持。",
+  "正式保存確認": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\正式保存の確認.json",
+    "sha256": "c1e2aefa1bbd8e72289288eab8ea16182d9f99eeff8673271f0843482029015e"
+  },
+  "検査": [
+    {
+      "項目": "正式保存成功/範囲",
+      "成立": true,
+      "範囲": "正式保存の確認記録を認証。Native/約定/CSV本文を今回再読した証明ではない。"
+    },
+    {
+      "項目": "正式コピーの参照一意性",
+      "成立": true,
+      "範囲": "originと正式相対先は重複なし。"
+    },
+    {
+      "項目": "A0とS0の区別",
+      "成立": true,
+      "範囲": "A0は元Source入口＋P113/P100。原S0の損益や保護なし対照へ読み替えない。"
+    },
+    {
+      "項目": "元54参照再用/追加16再生",
+      "成立": true,
+      "範囲": "旧114A0四条件への全金融比較280。Source全文同体は別の証拠。"
+    },
+    {
+      "項目": "金融閉包と実exe/Root追加コードの収録",
+      "成立": true,
+      "範囲": "金融1807＋実exe1とRoot明示code_refs52の各path/SHAが所在索引へ対応。旧ZIP本文は再展開していない。"
+    },
+    {
+      "項目": "純/bank/Actor/会計/P/入口/DMI/binder/正式所有コード",
+      "成立": true,
+      "範囲": "各停止の所有mapを現在の復元先のpath/SHAへ結合。"
+    },
+    {
+      "項目": "新規ZIPと既正式/環境の分離",
+      "成立": true,
+      "範囲": "実cmd選択716＋依存人工535はGoRoot環境1251。compiler1。旧ZIP全複写0。"
+    },
+    {
+      "項目": "新ZIPへ市場/CSV本文の混入なし",
+      "成立": true,
+      "範囲": "新規120entryの元ファイル種別を索引から確認。ZIP bytes/CRC再検算は正式確認に参照。"
+    },
+    {
+      "項目": "CSV20d9/旧比較所有4/0d45停止/EE57marker",
+      "成立": true,
+      "範囲": "旧比較人工のCSV/PNGを複写せず実コード4/停止/既発行markerを参照。追加marker発行を要求しない。"
+    },
+    {
+      "項目": "DMI全70の独立成功",
+      "成立": true,
+      "範囲": "同F1/全70金融へ結合した別計算。先頭2を全70の保証へ代用していない。"
+    },
+    {
+      "項目": "先頭2の段階範囲を保持",
+      "成立": true,
+      "範囲": "先頭2の別確認を同じ独立停止へ結ぶ。"
+    },
+    {
+      "項目": "初回重複は書込み前拒否/金融不変",
+      "成立": true,
+      "範囲": "重複extra1削除＋訂正proof1追加で件数21は同じ。除重複helperコード1追加。金融/停止refsとCSVは同体。"
+    },
+    {
+      "項目": "実金融CLI/CSV分母版CLI",
+      "成立": true,
+      "範囲": "元絶対復元先を保つCLIと凍結README旧パスの後段訂正あり。実行自体は行わない。"
+    }
+  ],
+  "問題": [],
+  "件数": {
+    "索引行": 1909,
+    "金融閉包とexe": 1808,
+    "Root追加code_refs": 52,
+    "新同梱": 120,
+    "既正式参照": 531,
+    "所在別": {
+      "環境参照のみ": 1252,
+      "既正式ZIP参照": 519,
+      "既正式metadata参照": 12,
+      "このZIP": 120,
+      "正式同bytes成果物": 6
+    }
+  },
+  "入力metadataSHA256前": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\正式保存の確認.json": "c1e2aefa1bbd8e72289288eab8ea16182d9f99eeff8673271f0843482029015e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\再現資料\\コード所在索引.json": "390aaa5eb01cb87b30dbc1203e9df3fe17cc5b6359a268ba19add46894bc27d5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\正式保存の要求.json": "5ff0ac5d641e5e35d135cc3ff4f0e81b2cc43f4e900cbec62a19acee29acfb2d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\condition.json": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\core_stop.json": "1dca0288b00682c965491bcf0209a45a0bbc4eaf527b0224063db9bcda7f77d8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\csv_stop.json": "20d9db6467a3baefca459fe2dca666c006f3afee604d50edd37da9ef46b79ff8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\price_stop.json": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\price_request.json": "7d1b23240ebbaaa566de4aa6743fb90811dd668eb81662757cb1769523815d0f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\price_check.json": "e2f7e62cbdd1cb9c11251d9fac630e7cce2b320ba1716f9b211d021c552d39ca",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_check.json": "a81d51508228a3e048d4b1241e299b9daac8afc6ea100c32c5e846980dba428e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\market.json": "8bba68dfa7df62d2fa7f40443e4a3cd89f48caa7ed398560ca1ee914e59e714b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\formal_stop.json": "43329563663aedc88fa0b4e60cd52fd4a2619663b09c4cd41b74e3e34601f785",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\actor_stop.json": "318de27a32a0941114443e5045426df3599eea74e8e5ffa8647771e92934ce35",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_gate_stop.json": "50bd192518a88c4fe087ccae052ecc3d312fccabf3c8c1f230cdd8391e8c133a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_chart_stop.json": "df5718acf04495bc690c5a0d0652ba202cb9f970eb2323389f246d70cdbe7a68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_input_stop.json": "820a819d284a58c5057150bb415ac3fd57c34473abda4b18467c42dba9e95782",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_stop.json": "d7518d60e73e62b68e025e2bff50adec42dbd111ede7e075e365a8b0076df79e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\save_stop.json": "80fbaf10f60d9f30d17720e13e372d5f25535e0ff47e2cefea9c38887fe1e3d7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\P_stop.json": "fb3f87e996829d80c05a2784d041d7f8932cf8e2dfd470cfdb34a65f63eb15c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\binder_stop.json": "a5ccbc9a5c942ad738e67bacbe979a76e4fccbd8e4c8ed6482b22d599623221a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\先頭2価格足DMI確認.json": "83dba4d2e9b77c313dccdda36f39decc15dad44905eb7f581f85b629f0cc3e02",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\正式要求の参照一意化.json": "1ecc030ea3c4a4b3abbd352f1f733956140c9cb4083eb91ab16a816aed9eb6bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\full70_正式保存要求.json": "1a160a6f37dc88bfd504f20d7db0d1c6a9488db60007b79f127d68c80e22371f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\再現資料\\再現手順.md": "080f5799e289cf0876f6919ee952dbff7cdb4c098647cdd6b1e89f2aad973d75",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\再現資料\\CSV停止後の実行案内.md": "aa696bfa60660441758a349b52a9e0ee0723e67a6f59a1d629c9a67d5b56abb8"
+  },
+  "入力metadataSHA256後": {
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\正式保存の確認.json": "c1e2aefa1bbd8e72289288eab8ea16182d9f99eeff8673271f0843482029015e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\再現資料\\コード所在索引.json": "390aaa5eb01cb87b30dbc1203e9df3fe17cc5b6359a268ba19add46894bc27d5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\正式保存の要求.json": "5ff0ac5d641e5e35d135cc3ff4f0e81b2cc43f4e900cbec62a19acee29acfb2d",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\condition.json": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\core_stop.json": "1dca0288b00682c965491bcf0209a45a0bbc4eaf527b0224063db9bcda7f77d8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\csv_stop.json": "20d9db6467a3baefca459fe2dca666c006f3afee604d50edd37da9ef46b79ff8",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\price_stop.json": "94c81454d80cb4a5d590b018a94b7cdb3128a202025e9fa4b6ddd25390fc7c01",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\price_request.json": "7d1b23240ebbaaa566de4aa6743fb90811dd668eb81662757cb1769523815d0f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\price_check.json": "e2f7e62cbdd1cb9c11251d9fac630e7cce2b320ba1716f9b211d021c552d39ca",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_check.json": "a81d51508228a3e048d4b1241e299b9daac8afc6ea100c32c5e846980dba428e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\market.json": "8bba68dfa7df62d2fa7f40443e4a3cd89f48caa7ed398560ca1ee914e59e714b",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\formal_stop.json": "43329563663aedc88fa0b4e60cd52fd4a2619663b09c4cd41b74e3e34601f785",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\actor_stop.json": "318de27a32a0941114443e5045426df3599eea74e8e5ffa8647771e92934ce35",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_gate_stop.json": "50bd192518a88c4fe087ccae052ecc3d312fccabf3c8c1f230cdd8391e8c133a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_chart_stop.json": "df5718acf04495bc690c5a0d0652ba202cb9f970eb2323389f246d70cdbe7a68",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_input_stop.json": "820a819d284a58c5057150bb415ac3fd57c34473abda4b18467c42dba9e95782",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\entry_stop.json": "d7518d60e73e62b68e025e2bff50adec42dbd111ede7e075e365a8b0076df79e",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\save_stop.json": "80fbaf10f60d9f30d17720e13e372d5f25535e0ff47e2cefea9c38887fe1e3d7",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\P_stop.json": "fb3f87e996829d80c05a2784d041d7f8932cf8e2dfd470cfdb34a65f63eb15c5",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\binder_stop.json": "a5ccbc9a5c942ad738e67bacbe979a76e4fccbd8e4c8ed6482b22d599623221a",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\先頭2価格足DMI確認.json": "83dba4d2e9b77c313dccdda36f39decc15dad44905eb7f581f85b629f0cc3e02",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\検査\\正式要求の参照一意化.json": "1ecc030ea3c4a4b3abbd352f1f733956140c9cb4083eb91ab16a816aed9eb6bd",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\full70_正式保存要求.json": "1a160a6f37dc88bfd504f20d7db0d1c6a9488db60007b79f127d68c80e22371f",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\再現資料\\再現手順.md": "080f5799e289cf0876f6919ee952dbff7cdb4c098647cdd6b1e89f2aad973d75",
+    "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00115_三時間軸の方向性と局所構造で入口を分ける\\再現資料\\CSV停止後の実行案内.md": "aa696bfa60660441758a349b52a9e0ee0723e67a6f59a1d629c9a67d5b56abb8"
+  },
+  "前後不変": true,
+  "未実施": {
+    "自然Native/約定本文": 0,
+    "Raw/価格CSV/損益CSV本文": 0,
+    "金融再実行": 0,
+    "ZIP再展開/CRC再検査": 0,
+    "正式保存物編集": 0,
+    "6目次編集": 0
+  },
+  "限界": [
+    "Rootがこれから更新するREADME/設定表/共通知見の文面は今回対象外。",
+    "ViewerはRootの別確認。今回の正式成功をHTTP/描画成功へ拡大しない。",
+    "新旧ZIPのbytes/SHA/CRC/集合は正式保存確認の証拠へ参照。今回は索引と要求の収録集合を照合。"
+  ]
+}

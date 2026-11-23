@@ -1,0 +1,951 @@
+{
+  "version": 1,
+  "trial": 115,
+  "fixed": true,
+  "market_native_read_authorized": true,
+  "stage": "full70",
+  "condition": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115進行\\F1_115金融条件.json",
+    "sha256": "94bb656a1607d59039a0c5ec0f06968a4da72463d27c0847606a09fc52fc4693"
+  },
+  "completion": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\完了.json",
+    "sha256": "8bba68dfa7df62d2fa7f40443e4a3cd89f48caa7ed398560ca1ee914e59e714b"
+  },
+  "code_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸入口の独立会計と保存\\会計停止.json",
+    "sha256": "80fbaf10f60d9f30d17720e13e372d5f25535e0ff47e2cefea9c38887fe1e3d7"
+  },
+  "P_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸入口の独立会計と保存\\P停止.json",
+    "sha256": "fb3f87e996829d80c05a2784d041d7f8932cf8e2dfd470cfdb34a65f63eb15c5"
+  },
+  "actor_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸の複合入口を執行する会計\\Actor停止.json",
+    "sha256": "318de27a32a0941114443e5045426df3599eea74e8e5ffa8647771e92934ce35"
+  },
+  "protection_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115三時間軸入口の独立会計と保存\\新保護の独立監査.py",
+    "sha256": "101706a5e75cbe2bfda9cb916db83203cd8522a01f118798ee78d8c37d568eec"
+  },
+  "entry_stop": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115入口判定を独立検算する\\停止.json",
+    "sha256": "d7518d60e73e62b68e025e2bff50adec42dbd111ede7e075e365a8b0076df79e"
+  },
+  "entry_code": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115入口判定を独立検算する\\検算する.py",
+    "sha256": "7195ce4420b835117630f0e5e03a657bd768f26308707e9ec35dd771c2c8fa24"
+  },
+  "scenes": [
+    {
+      "session": "2026-09-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Day\\2026-09-21_Day.Native.json.gz",
+        "sha256": "d17e061deea6e844206963a24e27003b05be9ba7deacd15e61594b53db9b007d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-21_Day.Native.json.gz",
+        "sha256": "bb6cd7b591bf4910aeb6f28840e7566184f998809fbd10ec7bc7c97a7aeaeec6"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-21_Night\\2026-09-21_Night.Native.json.gz",
+        "sha256": "e46f85184fc24efd4996f0a0903d31f0a43ee36f7744d9d431ca71fae438b3a5"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-21_Night.Native.json.gz",
+        "sha256": "0041580448bcd166e483627d552a370e57f85721f28f912041620b26619a395d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-21_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Day\\2026-09-22_Day.Native.json.gz",
+        "sha256": "1ab7f165180c8321c80d00a1ca894a59656204fdbbefbc914bfb4d418bacef62"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-22_Day.Native.json.gz",
+        "sha256": "a5f9664bfb137e35dc305faa09d266a54717f6cd68c3c0e899fa82cbe818abc9"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-22_Night\\2026-09-22_Night.Native.json.gz",
+        "sha256": "b5d8e753e866ad8978307bea157ba2aee6e48da818e8213947899210f155796c"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-22_Night.Native.json.gz",
+        "sha256": "d563a9828f7382565d2285eee1023f48be703455657c7cae8ddec2b78c9fa512"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-22_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Day\\2026-09-23_Day.Native.json.gz",
+        "sha256": "c7da94ac9907263e3d2aa8f39d92008f38b8fca154356e693fc3d1c6f345d396"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-23_Day.Native.json.gz",
+        "sha256": "d4954ab2f9d7d880a39726e5bcd4a00842aa91472e619f55e74f4d9f74940d8a"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-23_Night\\2026-09-23_Night.Native.json.gz",
+        "sha256": "5fcf4fd00e358bbd9c82352b247ecdf16fa565af3f6343a5b76bb4def6b01b95"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-23_Night.Native.json.gz",
+        "sha256": "ff09ad18e74f0dc0fbe71ac242e45922c244c000acdf0e2b003e76e2d34e3813"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-23_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-24_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Day\\2026-09-24_Day.Native.json.gz",
+        "sha256": "2044e65d5cc7528a196b4da800e7d9ccbc6387746a0d6562438910bd056091f1"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-24_Day.Native.json.gz",
+        "sha256": "d4f8aa153bd3fce01ac80d5a4c0865b4db87e882eda11a06a4756c66c1abb0fe"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-24_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-24_Night\\2026-09-24_Night.Native.json.gz",
+        "sha256": "ccdcaee6abdd45ac8577bb49f52b05e035df9c3536e95a85a4a1d36856ca1c42"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-24_Night.Native.json.gz",
+        "sha256": "4b17c7bf69c6a7e84f807ac2ad6ebf118deb1dac033e6b5bdcb743c6f7f21dad"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-24_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-25_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Day\\2026-09-25_Day.Native.json.gz",
+        "sha256": "2dde60f010046512c770b0cd8a59a9edd8f866e87478833d00de73c04bcfab29"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-25_Day.Native.json.gz",
+        "sha256": "be92755d5269185733662f23c954e4eb1b7611c4c293451c5e72a855c99873bc"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-25_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-25_Night\\2026-09-25_Night.Native.json.gz",
+        "sha256": "002e24762db7b3cd4ac4b7f587d56f4cfc30285b7b5e73a0c37b8376513cbbe1"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-25_Night.Native.json.gz",
+        "sha256": "20d37062c522d9f4aa36981038fdf97fb9d12ba6e7101206290fa56eecc16352"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-25_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-28_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Day\\2026-09-28_Day.Native.json.gz",
+        "sha256": "b155e01e96189f25c9b439b73d1b2e2dafec96bda537ad583c582277207fd594"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-28_Day.Native.json.gz",
+        "sha256": "56d6a108d4716168f74c926f3838040cf6153eca3c8af5250d56e38c9949a325"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-28_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-28_Night\\2026-09-28_Night.Native.json.gz",
+        "sha256": "243fb30799ac7983cf37d8221702fa04ad9f46cdbfa056d04e10aca04dec5cb0"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-28_Night.Native.json.gz",
+        "sha256": "1a3293f22b1ab440dee92587c80d95982505be89666616d7b1249bf884185a2b"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-28_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-29_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Day\\2026-09-29_Day.Native.json.gz",
+        "sha256": "36947ecb667395e551ebe7d852941daf661b838d3d7e963cb43dade6db64457d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-29_Day.Native.json.gz",
+        "sha256": "4ae51d23d4d3c96db3ddf5265156246b00b2c7c05c2f01e49f18f25e5a6b4769"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-29_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-29_Night\\2026-09-29_Night.Native.json.gz",
+        "sha256": "6d1495a6a6757d59a6455b21711f4dd816cb0160d7136e7c5661c2e8a5ab534c"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-29_Night.Native.json.gz",
+        "sha256": "f8f3ffca074e465cae5c82e0f73adc3fce4d422db2018e86c4cc6ca3662f5d29"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-29_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-30_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Day\\2026-09-30_Day.Native.json.gz",
+        "sha256": "90236a769efdcba6402e17ada82ecc6a07ca949deace89cce00fc051a6e202de"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-30_Day.Native.json.gz",
+        "sha256": "0fa55c2467d9e199ad2326ec7efcd63046c35aaaf97018d0f98961735096615f"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-09-30_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-09-30_Night\\2026-09-30_Night.Native.json.gz",
+        "sha256": "887866c6cab402f5128f49c79c4929058d7ffe10396d52ca72c5df287b46ef9b"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-09-30_Night.Native.json.gz",
+        "sha256": "947e30d3319be38a9f5aeede9f28659086e79ee2a70103cd35949b3efc21f22b"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-09-30_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-01_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Day\\2026-10-01_Day.Native.json.gz",
+        "sha256": "955b91c60ca28f8f78dc3d62d1037ff475768da9caa0c2767b2f8411784e37f3"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-01_Day.Native.json.gz",
+        "sha256": "942c2ed74a4c16a4868c41743b4322262e7b7a0a0a33201be02bc2cb61e503a8"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-01_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-01_Night\\2026-10-01_Night.Native.json.gz",
+        "sha256": "df9ad94404d2e05dc5640098b90a15053b903df473ee08c4822178678804b63b"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-01_Night.Native.json.gz",
+        "sha256": "7ab6b14d2313a6ad95b8c7a8d898d95ea68761b2180880d38f330c94c4521096"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-01_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-02_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Day\\2026-10-02_Day.Native.json.gz",
+        "sha256": "6a600d00a25772726f93499081f7fbfae363d06e2cbbd5472c1ef0f6a661858d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-02_Day.Native.json.gz",
+        "sha256": "e7cf1c84eb746ad1521aded874b9c8f6a9abe1fb16c294a991f2cbc47b4ea2fe"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-02_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-02_Night\\2026-10-02_Night.Native.json.gz",
+        "sha256": "a20844ca73dacde5bbaf3d6edc6f87f39a07fc23f50ccf05249ae3d258d788ff"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-02_Night.Native.json.gz",
+        "sha256": "2664e085fee89ca4b89be18994145f5303a16739a9aadc22e2af3828fced356b"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-02_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-05_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Day\\2026-10-05_Day.Native.json.gz",
+        "sha256": "a1bc92c66aa5c43544fa8e49c0b5631fec6809951d7137d99dce8fe8ca0c14a3"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-05_Day.Native.json.gz",
+        "sha256": "190a969b7b48cc95f8c4c1853719a7937a0f11d23711083f1a8f6c45ab3512bd"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-05_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-05_Night\\2026-10-05_Night.Native.json.gz",
+        "sha256": "6defa1087dda118240f3eadca65d589b3dd8271bf5eed677101bf79b8982fc40"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-05_Night.Native.json.gz",
+        "sha256": "f84d042f4c6fe9e85bfebdddb71390dd95424f9e22b8a030b6b3e950fc1a346c"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-05_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-06_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Day\\2026-10-06_Day.Native.json.gz",
+        "sha256": "b3d5e7f6a68a8cdf911904422634df0ec38a0558dbcfdb12a6287082a4caec57"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-06_Day.Native.json.gz",
+        "sha256": "e46edc2deb658d26221a2e9629312ba8680798dbb81b48808a6cf5211d52e5f3"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-06_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-06_Night\\2026-10-06_Night.Native.json.gz",
+        "sha256": "d55f426e9f4fc74b21a9ea145f83697c83d70eaa071f65b8e311c59638ab75ae"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-06_Night.Native.json.gz",
+        "sha256": "fbc58d1a08cf70d779ed0cd3a9378df9ecf7c9dfd1d88f44814e4711274a2dd9"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-06_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-07_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Day\\2026-10-07_Day.Native.json.gz",
+        "sha256": "bc9605074b78e720ee1676152fbb006af18839fa07505cc1151dd33066e4205d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-07_Day.Native.json.gz",
+        "sha256": "fde9a19a6db29e6cffb453485e53a9ed637dba015d951270accf98aa1f791725"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-07_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-07_Night\\2026-10-07_Night.Native.json.gz",
+        "sha256": "bb02aa070399ca9908fa975546969812f55c5862a1cdf3f9de6d5cd84ccb721e"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-07_Night.Native.json.gz",
+        "sha256": "834c047b675dcd81be9a099b58cd4a8acc4a452019eaf7a97b5736e2446e44df"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-07_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-08_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Day\\2026-10-08_Day.Native.json.gz",
+        "sha256": "ccff570013d2ecdc3dc9b4f2b36848cfd6bfc6752d484198721d56ca0355cab9"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-08_Day.Native.json.gz",
+        "sha256": "fcb774c9791ad7c72631de4624d32a82f4ff2d1a8e3121ddbf8659eece4d24c3"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-08_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-08_Night\\2026-10-08_Night.Native.json.gz",
+        "sha256": "0baa117dbefc43ad3082c20299889de913f9deb7d220986c3878d94e3ad65f10"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-08_Night.Native.json.gz",
+        "sha256": "601bf24536f3764f64ec4cc59b9bb72f94c00130a93f25901c0b2e5acd034a6f"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-08_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-09_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Day\\2026-10-09_Day.Native.json.gz",
+        "sha256": "a8ebf133f08c02716fad13731b9650a49d0cd44d0acc970a7965b6e66bb05fd6"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-09_Day.Native.json.gz",
+        "sha256": "e7141e2b52b87c7e148673a057e7f4edec2d8c2a85b56bf8ae7653c049b92a66"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-09_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-09_Night\\2026-10-09_Night.Native.json.gz",
+        "sha256": "6229a38446b57ea405cdcd110f16d4a021901f3bf4fef7a41e94b67270c2303c"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-09_Night.Native.json.gz",
+        "sha256": "396312f36aaac691c0a439f36b4a8b9eb4a23eb79aa11aac2894f96acd58bbb2"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-09_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-12_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Day\\2026-10-12_Day.Native.json.gz",
+        "sha256": "af017e438067ad05112e8af2aba7bfcdccd2db6947fd0f9c6ee02781668247d4"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-12_Day.Native.json.gz",
+        "sha256": "937fab683eda44a9f5d77f925380de65053268d2ab3e99fb9fedf4609cc78e8a"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-12_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-12_Night\\2026-10-12_Night.Native.json.gz",
+        "sha256": "8f85085060a42830f96f3691669030280dabe1ee9e37aa5fbe0795013a86a5c4"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-12_Night.Native.json.gz",
+        "sha256": "3182d77635b51dea79841e6c8a1520db21597e4565a12843a31fc080e17d3a41"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-12_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-13_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Day\\2026-10-13_Day.Native.json.gz",
+        "sha256": "37b14101dee1d57580fe927250116904fb9cd204d5d051ce6c2ffe79aa0beecc"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-13_Day.Native.json.gz",
+        "sha256": "259e731fa6cf62cb0069c381166a403067e49269672a8d532159fd6076c8a8b1"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-13_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-13_Night\\2026-10-13_Night.Native.json.gz",
+        "sha256": "691aeee8c022eb6d4669afd7f6aa3eb503131d86e11ac320cfb2d106ea0858e6"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-13_Night.Native.json.gz",
+        "sha256": "e512ef80642e5e1c520c0adc66d06d7c54eadc34fa179297c80313dbc4d6d0a9"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-13_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-14_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Day\\2026-10-14_Day.Native.json.gz",
+        "sha256": "067ea95d1e8ae4786e083ac4c772778e1de7deec718a9c6f87bac03393d84331"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-14_Day.Native.json.gz",
+        "sha256": "df8a02a5cadd510b178aa32a5f74d8aa96bbb736be2f1f51b4fa6a56fb869e78"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-14_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-14_Night\\2026-10-14_Night.Native.json.gz",
+        "sha256": "a6872a324f059320bd21084f15feba3b301fa35aab620136b472f37160b6469f"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-14_Night.Native.json.gz",
+        "sha256": "f6d504b770303ecfb463dc230f80bf0658fd04220fcffa1efb6398c90010d46c"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-14_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-15_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Day\\2026-10-15_Day.Native.json.gz",
+        "sha256": "cc304b02de2b4cd0c34644e64e013d36696e248a771c4ae3cee395d9e30b7c8b"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-15_Day.Native.json.gz",
+        "sha256": "334ca005be3a865fd02f421ecd28acf2dc1f60897b53cfa0f31b60fc37f992b8"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-15_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-15_Night\\2026-10-15_Night.Native.json.gz",
+        "sha256": "ec7456d77b4c7347253e394cba953d76ebfe2d7b37d0e1638e30c9e46ae382ae"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-15_Night.Native.json.gz",
+        "sha256": "12c6a9ee53e66c6bac8a4132e32d802e4db5c42a96c4bdbe4d4eec9d335088d2"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-15_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-16_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Day\\2026-10-16_Day.Native.json.gz",
+        "sha256": "3cee215c8150c7f08059899afaf289b1c8a8b520abc2c39e9cb3ebae99232919"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-16_Day.Native.json.gz",
+        "sha256": "e719e6d0fdc5e74968204e7770f7a5c64f8f85b00573a5941f32aef5d990d150"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-16_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-16_Night\\2026-10-16_Night.Native.json.gz",
+        "sha256": "c9fe26ffc7ce62119829e1e402f363d643053d744db9a94c9396749591210474"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-16_Night.Native.json.gz",
+        "sha256": "608c276925e528b913cac278a67ca1225cd61579f6ac5f4b59dc8ee84abe8405"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-16_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-19_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Day\\2026-10-19_Day.Native.json.gz",
+        "sha256": "6d6e9f69e6b8a30d590c93eb8630ee6a65cff04493a40c1af8d494ef159252cf"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-19_Day.Native.json.gz",
+        "sha256": "2247e28a0abf68cfe9875d22f956f0a6e1eb12abba8bd993f09ae1f22b961e3a"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-19_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-19_Night\\2026-10-19_Night.Native.json.gz",
+        "sha256": "ebc62f4d4ff2f5a0adb5762c7392df308be4a02eafff1e7af0a2b40b9b05ba4f"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-19_Night.Native.json.gz",
+        "sha256": "036621d45eb71539bc7e34d719b0b9ea124756350ae3cf9dc424f02452afa436"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-19_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-20_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Day\\2026-10-20_Day.Native.json.gz",
+        "sha256": "104bb267560ea68c2a525a6c705a62832e4fd5481d30b313a4b9478658dd8974"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-20_Day.Native.json.gz",
+        "sha256": "565436899f949d1bb707734e973be17901d1fb7b25b174b016cfd8956f4abbb7"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-20_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-20_Night\\2026-10-20_Night.Native.json.gz",
+        "sha256": "8f75208dc149a68dd6b8a3ecbcf348a89da43015db4e4bb9d3ba6bdd79226b1c"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-20_Night.Native.json.gz",
+        "sha256": "5b1230b060129aa66499c08625bb4d9dac62e2f3874d48f6fbe2bab64f583778"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-20_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-21_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Day\\2026-10-21_Day.Native.json.gz",
+        "sha256": "f45c34c1039b0a8a2f2779d11737b7a3be797c4d83beabe7d9a6d7731a707f6e"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-21_Day.Native.json.gz",
+        "sha256": "7481a4d520d363a3382626cb30971a4ca292ccd2e938a7e76dadcce40ed7f902"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-21_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-21_Night\\2026-10-21_Night.Native.json.gz",
+        "sha256": "0fc542b9d79f187c9bf21df752c9b02f55c077707a006dc2138eef15558a924d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-21_Night.Native.json.gz",
+        "sha256": "5d9e16d3eded03c23113d631a85cb10f2009a664daa2e891b31397ee4efa49ba"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-21_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-22_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Day\\2026-10-22_Day.Native.json.gz",
+        "sha256": "71c72f8f3944ee843b6e0f2b06262570929a1f4d21d9be4d5b022218f387ac7e"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-22_Day.Native.json.gz",
+        "sha256": "2b088fc70b50009ee7200511f459bd4707da8e23d9f710588f84fc11b530521f"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-22_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-22_Night\\2026-10-22_Night.Native.json.gz",
+        "sha256": "9cefcce020c4955cf5b2e77576fe76a223cae6d761899caf4e773a8cb3be48a3"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-22_Night.Native.json.gz",
+        "sha256": "1f5d54dc26adc84a96c03cf83774be9b5a88f70c408ca8a6b4932fc3000707b1"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-22_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-23_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Day\\2026-10-23_Day.Native.json.gz",
+        "sha256": "7a8ab19a0b692e3b614d5693b5eb2a85fc13792bc3ea8ed9d5b8a345ae1b5ad1"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-23_Day.Native.json.gz",
+        "sha256": "5c808b06e0795c59349ea38d692cc8db104265b1248733cba88eaa7e9433368d"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-23_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-23_Night\\2026-10-23_Night.Native.json.gz",
+        "sha256": "dc9a1bd9e61b55eb1414fa6829528b9fb5149c3637aa76b075931b8a58baf689"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-23_Night.Native.json.gz",
+        "sha256": "7686358d4ba00ed3e4f0069503f91173317bcd7e0e20891581208e6a2a20820f"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-23_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-26_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Day\\2026-10-26_Day.Native.json.gz",
+        "sha256": "fc1f3da36204992999fac8a1db0eb8be0d0510ac76e54b2d308d025fcdfa8dc0"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-26_Day.Native.json.gz",
+        "sha256": "a60e7498256ad56602594de1b95d68ff7b6364b594b9022df1d42a4e0c7daaf4"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-26_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-26_Night\\2026-10-26_Night.Native.json.gz",
+        "sha256": "99b5aae8927583fd0cf38446bd66652c4ad6f1a8a03c93f5a4658faa049479fc"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-26_Night.Native.json.gz",
+        "sha256": "30f0b7201d823ee56cf43ec5352c6118496a9d667ce17f1ced2d632088594547"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-26_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-27_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Day\\2026-10-27_Day.Native.json.gz",
+        "sha256": "80f136f4ff181d7bdfb24c3f51b177ef0bc9b9ff613a2d859eb0edeee8a4c49d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-27_Day.Native.json.gz",
+        "sha256": "69e24e8288bd980e8b7a58492a4238aa1712fba4a01313bb9fbc0e3f287f72be"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-27_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\元54場\\worker\\2026-10-27_Night\\2026-10-27_Night.Native.json.gz",
+        "sha256": "c373ad91ff2b1c2d5c30df2cf35544679883af52da8b46748f778e94dde9666e"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-27_Night.Native.json.gz",
+        "sha256": "e501c5fa4ecef8ea4792e0e47960d459eda630ca4d19b5612b7fa0cb1dec52a4"
+      },
+      "history_class": "original54",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-27_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-28_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Day\\2026-10-28_Day.Native.json.gz",
+        "sha256": "6d21f646bca742a4afb6eb7490e35bfbb57506b90968c5840904cc0eece347f1"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-28_Day.Native.json.gz",
+        "sha256": "304e0203e796cdb953c27ea659c831c13653bb05c7871e9dc5577bb58a068ac1"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-28_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-28_Night\\2026-10-28_Night.Native.json.gz",
+        "sha256": "8192497694aa6191af00b5890196a6a333cfe0c51e850e9b29eb519143f52643"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-28_Night.Native.json.gz",
+        "sha256": "156464b1e864566caebcc9146f5471abf06790cf609dea711438a48e161036b0"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-28_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-29_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Day\\2026-10-29_Day.Native.json.gz",
+        "sha256": "95318065a7fe5d4628b8a5b5e277f0ecabee2fe57065fe3d5249144b3404a617"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-29_Day.Native.json.gz",
+        "sha256": "791e96b3c49e7805f600c30b1c0abbc6517d7a3abf8720923da50494dbc682c9"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-29_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-29_Night\\2026-10-29_Night.Native.json.gz",
+        "sha256": "58580a82e0c7a2d946df8f9edde6857968c3afca67f48588dc1da224ca13fe48"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-29_Night.Native.json.gz",
+        "sha256": "27322d5ae6d52ca7344b17248a645a1f59c3d3c7ba817aaf0d306b112d508deb"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-29_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-30_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Day\\2026-10-30_Day.Native.json.gz",
+        "sha256": "8860c3645060cfe2274063703d1eb5fe874a8da440c5c940776f16a95949809a"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-30_Day.Native.json.gz",
+        "sha256": "b7d322d0e31e5fdd2e695ee8a48aba5eb942b8e559f76ec7b1a7c7690d90b161"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-10-30_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-10-30_Night\\2026-10-30_Night.Native.json.gz",
+        "sha256": "6824e0878d00b95c63171201e967f8b4531ad334de373146762e89f6cc77cb54"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-10-30_Night.Native.json.gz",
+        "sha256": "ea74d91b5c99a8605e941b868ddc69334a49201c8353f7b1581b4d4b30446cd7"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-10-30_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-02_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Day\\2026-11-02_Day.Native.json.gz",
+        "sha256": "e53db2609ca57384b2d061bb0c6578bc2466299dd539e04c5a0a8c6fbce01898"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-02_Day.Native.json.gz",
+        "sha256": "34fb9742031e29354dd47fb24eed87802b3be77ce927e5a0be38c243a9516204"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-02_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-02_Night\\2026-11-02_Night.Native.json.gz",
+        "sha256": "db9db51f6529028bb5d7813575d2f629be4bfef0ef4089ca7d6e2d60bed66e57"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-02_Night.Native.json.gz",
+        "sha256": "f0db6175b4f577d466c333ffb4152acaa07a7019513260b8e6b4b4b4d0303e09"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-02_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-03_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Day\\2026-11-03_Day.Native.json.gz",
+        "sha256": "9fd838ba5d2b4689f1f41cbf2845a0a7320d3894bd60c65346cc3591a0715a3f"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-03_Day.Native.json.gz",
+        "sha256": "58d1e3da2b9b0a49236d38a629d7c891e0c61eabc95ef513af421acfc1165b4e"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-03_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-03_Night\\2026-11-03_Night.Native.json.gz",
+        "sha256": "044a213f83972b30c460a9687fed1a19d41b1b6c0162bacf990ccbe2f6570ce2"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-03_Night.Native.json.gz",
+        "sha256": "eaff1c5fd7943bb3fa2b91e257ab6e18220f95ef3166648b406b3db89318bfac"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-03_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-04_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Day\\2026-11-04_Day.Native.json.gz",
+        "sha256": "280d14f9cfeac08c92123f3f91f8a94b1deb57345f8f4a9f4b245ebaa4662457"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-04_Day.Native.json.gz",
+        "sha256": "41644afd153b085663105cacd95f8b6e29ee64dad04df9399de136557b0276f4"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-04_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-04_Night\\2026-11-04_Night.Native.json.gz",
+        "sha256": "014ff954367514d4f7432d20ab7787ce17c66212f7ea6d840a14bcf377b88724"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-04_Night.Native.json.gz",
+        "sha256": "9b65ef1f6afe9a7e41aef6a98b2bf75ebcd63b7d91f023bd247be01a16e7ca1f"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-04_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-05_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Day\\2026-11-05_Day.Native.json.gz",
+        "sha256": "769a51d899ecb3ca27376cb83f8e403fbaad9ef3badcbddd90bceb3ece03cded"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-05_Day.Native.json.gz",
+        "sha256": "4a6aaf03558137d374e0fdbad72885ec4233be8c2ef5c3dfe125c508345005a3"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\JP_OSE_Data\\future\\NK225\\2026-11-05_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-05_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-05_Night\\2026-11-05_Night.Native.json.gz",
+        "sha256": "beb5ea06a0e22027ce0d6ff5130c0a6ebd1aa10dc6a9ade8bbe3c8094349a863"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-05_Night.Native.json.gz",
+        "sha256": "7b747e7b0a1f9fa136da23b714a0fc9c321d0ca859bc70a1d9301cf6a6d5ab32"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105入力の固定準備\\生成_初回\\gzip\\NK225\\2026-11-05_Night\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-06_Day",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Day\\2026-11-06_Day.Native.json.gz",
+        "sha256": "45e0a700f00b10316d5bc87ebaad2f44a100a6b9aa74820351a7cf175cd2849d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-06_Day.Native.json.gz",
+        "sha256": "593382f5fc0bb299da89bc7c5f2987b30211b6617d7d067557b3dc4fb07b9934"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105入力の固定準備\\生成_初回\\gzip\\NK225\\2026-11-06_Day\\book.jsonl.gz"
+    },
+    {
+      "session": "2026-11-06_Night",
+      "native": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\115金融F1\\全70場\\worker\\2026-11-06_Night\\2026-11-06_Night.Native.json.gz",
+        "sha256": "61956a8aa2fdbfcbd636d75407ed221cbb91f51cd2b035abea6608f46e21c47d"
+      },
+      "reference114": {
+        "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00114_順行と反転の取得確認を分ける\\成果物_金融\\Native\\2026-11-06_Night.Native.json.gz",
+        "sha256": "cb3146e07157554e71427b29c68a0dedce9141cb70abddfa477df5ee418b8b40"
+      },
+      "history_class": "additional16",
+      "market_path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\105入力の固定準備\\生成_初回\\gzip\\NK225\\2026-11-06_Night\\book.jsonl.gz"
+    }
+  ]
+}
