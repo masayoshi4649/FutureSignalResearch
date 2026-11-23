@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "trial": 109,
+  "fixed": true,
+  "記録UTC": "2026-11-09T09:44:33.887177+00:00",
+  "変更範囲": "実行の依存順だけ。技法・全24設定・時計・Source・市場入力・金融実行物・評価は不変",
+  "変更理由": "技法とコードは頻度実行前に固定済みで、成立頻度を見て閾値や実行候補を選ばない。全70の頻度診断と同条件の金融は独立なので並行する。",
+  "元の予定": "全70頻度の後に金融先頭2→全70",
+  "実行予定": "成功first2頻度を前提として、全70頻度と金融先頭2→全70を並行。保存・知見確定は両方の全70成功後。",
+  "技法固定": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\study\\00109_三時間軸の取得確認と一定利益の必須保護\\技法条件固定.json",
+    "sha256": "072f0a669e3f347793a62aa06f32cd59c5cae55bf5e7daec627f6a6a26f111d7"
+  },
+  "先頭2頻度": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\109頻度\\先頭2場\\完成.json",
+    "sha256": "7035ddef98434798cb24c803cf4887df4a8e9aad3bf1a776cc9300ade7bc335f"
+  },
+  "全70頻度要求": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\109頻度要求\\全70場.json",
+    "sha256": "c6af4a872d1727bb1d9d39b7013040421938f9424166e674030fe1bcfe160c90"
+  },
+  "全70頻度要求のmetadata照合": {
+    "path": "S:\\GitHub\\masayoshi4649\\FutureSignalResearch\\work\\109頻度要求\\全70場_照合.json",
+    "sha256": "9683cfa78d2ed626cd7cfbdb0ca329954155cda1f74844b569ceb1eb1a0df8e0"
+  },
+  "全70頻度handle_記録時": 62012,
+  "全70頻度の成功完了_記録時": false,
+  "金融条件生成_記録時": false,
+  "金融開始_記録時": false,
+  "保留11月09価格未読": true,
+  "採用": false,
+  "研究目標達成": false
+}
